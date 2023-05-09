@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "The address SponsorBlock uses to make calls to the server.\nUnless you have your own server instance, this should not be changed."
     },
+    "dataFetchingServerAddress": {
+        "message": "Data Fetching Server Address"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "The address used to make calls to the data fetching server.\nUnless you have your own server instance, this should not be changed."
+    },
     "save": {
         "message": "Save"
     },
@@ -1290,5 +1296,26 @@
     "FailedToLoad": {
         "message": "Failed to load",
         "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Auto Title Reformatting"
+    },
+    "Disabled": {
+        "message": "Disabled"
+    },
+    "CapitalizeWords": {
+        "message": "Capitalize Words"
+    },
+    "keepUnsubmitted": {
+        "message": "Store Submitted Votes"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
+    },
+    "fetchTimeout": {
+        "message": "Data Fetch Timeout (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Show original titles and thumbnails if the server doesn't respond in this much time."
     }
 }
