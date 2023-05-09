@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Rensa tider"
     },
-    "publicStats": {
-        "message": "Detta används på den offentliga statistiksidan för att visa hur mycket du har bidragit. Ta en titt"
-    },
     "Username": {
         "message": "Användarnamn"
     },
