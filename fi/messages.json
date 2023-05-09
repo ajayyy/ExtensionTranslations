@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Tyhjennä ajat"
     },
-    "publicStats": {
-        "message": "Tätä käytetään julkisella tilastosivulla näyttääksesi kuinka paljon olet osallistunut. Näytä"
-    },
     "Username": {
         "message": "Käyttäjänimi"
     },
