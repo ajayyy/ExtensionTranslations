@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "時間を消去"
     },
-    "publicStats": {
-        "message": "これは公開の統計ページであなたがどれだけ貢献したかを示すために使用され、ここで確認することができます: "
-    },
     "Username": {
         "message": "ユーザー名"
     },
