@@ -594,9 +594,6 @@
     "generic_guideline2": {
         "message": "Mängib nii, nagu midagi poleks vahele jäetud"
     },
-    "category_sponsor": {
-        "message": "Sponsor"
-    },
     "category_sponsor_description": {
         "message": "Tasulised promod, tasulised viited ja otsesed reklaamid. Pole mõeldud enesepromo või tasuta petitsioonide/autorite/veebilehtede/toodete mainimiste puhul."
     },
@@ -1214,10 +1211,6 @@
     "hideUnsubmittedSegments": {
         "message": "Peida segmendid",
         "description": "Show/hide button for the unsubmitted segments list"
-    },
-    "videoID": {
-        "message": "Video ID",
-        "description": "Header of the unsubmitted segments list"
     },
     "segmentCount": {
         "message": "Segmentide arv",
