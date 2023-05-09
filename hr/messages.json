@@ -168,9 +168,6 @@
     "clearTimesButton": {
         "message": "Očisti vremena"
     },
-    "publicStats": {
-        "message": "Ovo se koristi na stranici sa javnim statistikama da se pokaže koliko se pridonijeli. Pogledajte"
-    },
     "Username": {
         "message": "Korisničko ime"
     },
