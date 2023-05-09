@@ -1239,5 +1239,59 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Better Titles and Thumbnails on YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing titles and thumbnails to be descriptive and not sensational",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Submit"
+    },
+    "chooseDescriptive": {
+        "message": "Choose the most descriptive"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Original Title"
+    },
+    "CurrentTime": {
+        "message": "Current Time"
+    },
+    "resetCustomTitle": {
+        "message": "Reset Title Back To Original Text"
+    },
+    "resetIcon": {
+        "message": "Reset Icon"
+    },
+    "Vote": {
+        "message": "Vote"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Type your own title here"
+    },
+    "VideoNotReady": {
+        "message": "Video not ready"
+    },
+    "FailedToRender": {
+        "message": "Failed to render",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas missing",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Exception while rendering",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Failed to load",
+        "description": "Thumbnail failed to load"
     }
 }
