@@ -19,12 +19,6 @@
     "channelWhitelisted": {
         "message": "El canal és a la llista blanca!"
     },
-    "Segment": {
-        "message": "segment"
-    },
-    "Segments": {
-        "message": "segments"
-    },
     "upvoteButtonInfo": {
         "message": "Voteu millor aquesta submissió"
     },
