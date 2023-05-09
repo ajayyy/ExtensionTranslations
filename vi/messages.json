@@ -978,14 +978,6 @@
     "categoryPillNewFeature": {
         "message": "Mới! Xem khi nào video được tài trợ hoàn toàn hoặc tự quảng bá"
     },
-    "dayAbbreviation": {
-        "message": "d",
-        "description": "100d"
-    },
-    "hourAbbreviation": {
-        "message": "h",
-        "description": "100h"
-    },
     "optionsTabBehavior": {
         "message": "Hành vi",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
