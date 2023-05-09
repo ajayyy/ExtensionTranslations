@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "Osoite, jota SponsorBlock käyttää lähettääkseen kutsuja palvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
     },
+    "dataFetchingServerAddress": {
+        "message": "Dataa hakevan palvelimen osoite"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Osoite, jota käytetään kutsujen lähettämiseen datanhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
+    },
     "save": {
         "message": "Tallenna"
     },
@@ -1236,5 +1242,42 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Paremmat otsikot ja pikkukuvat YouTubessa",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "Submit": {
+        "message": "Lähetä"
+    },
+    "Original": {
+        "message": "Alkuperäinen"
+    },
+    "OriginalTitle": {
+        "message": "Alkuperäinen otsikko"
+    },
+    "CurrentTime": {
+        "message": "Nykyinen aika"
+    },
+    "Vote": {
+        "message": "Äänestä"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Kirjoita otsikkosi tähän"
+    },
+    "Disabled": {
+        "message": "Pois käytöstä"
+    },
+    "CapitalizeWords": {
+        "message": "Käytä isoja alkukirjaimia"
+    },
+    "keepUnsubmitted": {
+        "message": "Talleta lähetetyt äänet"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pikkukuvat palvelimella olevien eniten äänestettyjen sijaan."
+    },
+    "fetchTimeoutDescription": {
+        "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
     }
 }
