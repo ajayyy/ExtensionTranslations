@@ -587,6 +587,9 @@
     "generic_guideline2": {
         "message": "Memainkan sebagai tidak apa pun yang dilewati"
     },
+    "category_sponsor": {
+        "message": "Sponsor"
+    },
     "category_sponsor_description": {
         "message": "Promosi dibayar, tautan dibayar dan iklan langsung. Tidak untuk promosi diri sendiri atau dukungan gratis untuk gerakan/kreator/situs/produk yang mereka suka."
     },
@@ -1176,6 +1179,10 @@
     "unsubmittedSegmentsPlural": {
         "message": "segmen yang belum dikirim",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "video",
