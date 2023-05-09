@@ -62,9 +62,6 @@
     "unskip": {
         "message": "Hentikan"
     },
-    "reskip": {
-        "message": "Reskip"
-    },
     "unmute": {
         "message": "Nyahredam"
     },
@@ -1117,10 +1114,6 @@
     "importSegments": {
         "message": "Import segmen"
     },
-    "Import": {
-        "message": "Import",
-        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
-    },
     "redeemSuccess": {
         "message": "Tebusan Berjaya!"
     },
@@ -1176,10 +1169,6 @@
     "unsubmittedSegmentsPlural": {
         "message": "segmen belum dihantar",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
-    },
-    "videosSingular": {
-        "message": "video",
-        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "video",
