@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Limpar Intervalos"
     },
-    "publicStats": {
-        "message": "Isto é usado na página pública de estatísticas que mostra o quanto já contríbuíu. Veje-a"
-    },
     "Username": {
         "message": "Nome de Utilizador"
     },
