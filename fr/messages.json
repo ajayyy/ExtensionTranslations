@@ -19,15 +19,6 @@
     "channelWhitelisted": {
         "message": "Chaîne mise sur liste blanche !"
     },
-    "Segment": {
-        "message": "segment"
-    },
-    "Segments": {
-        "message": "segments"
-    },
-    "SegmentsCap": {
-        "message": "Segments"
-    },
     "Chapters": {
         "message": "Chapitres"
     },
@@ -191,9 +182,6 @@
     },
     "hideThis": {
         "message": "Cacher"
-    },
-    "Options": {
-        "message": "Options"
     },
     "showButtons": {
         "message": "Afficher les boutons sur le lecteur YouTube"
@@ -396,12 +384,6 @@
     },
     "youHaveSkipped": {
         "message": "Vous avez passé "
-    },
-    "minLower": {
-        "message": "minute"
-    },
-    "minsLower": {
-        "message": "minutes"
     },
     "hourLower": {
         "message": "heure"
@@ -890,9 +872,6 @@
     "downvoteDescription": {
         "message": "Segment de mauvaise qualité"
     },
-    "incorrectVote": {
-        "message": "Incorrect"
-    },
     "harmfulVote": {
         "message": "Néfaste",
         "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
@@ -1072,17 +1051,9 @@
         "message": "j",
         "description": "100d"
     },
-    "hourAbbreviation": {
-        "message": "h",
-        "description": "100h"
-    },
     "optionsTabBehavior": {
         "message": "Comportement",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
-    },
-    "optionsTabInterface": {
-        "message": "Interface",
-        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
         "message": "Raccourcis clavier",
@@ -1221,10 +1192,6 @@
     },
     "segmentCount": {
         "message": "Nombre de segments",
-        "description": "Header of the unsubmitted segments list"
-    },
-    "actions": {
-        "message": "Actions",
         "description": "Header of the unsubmitted segments list"
     },
     "exportSegmentsAsURL": {
