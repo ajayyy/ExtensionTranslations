@@ -19,9 +19,6 @@
     "channelWhitelisted": {
         "message": "Kanál pridaný do výnimiek!"
     },
-    "Segment": {
-        "message": "segment"
-    },
     "Segments": {
         "message": "segmentov"
     },
@@ -1061,14 +1058,6 @@
     "categoryPillNewFeature": {
         "message": "Nové! Zistite, kedy je video kompletne sponzorované alebo vlastná propagácia"
     },
-    "dayAbbreviation": {
-        "message": "d",
-        "description": "100d"
-    },
-    "hourAbbreviation": {
-        "message": "h",
-        "description": "100h"
-    },
     "optionsTabBehavior": {
         "message": "Správanie",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
@@ -1123,10 +1112,6 @@
     },
     "importSegments": {
         "message": "Import segmentov"
-    },
-    "Import": {
-        "message": "Import",
-        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
     },
     "redeemSuccess": {
         "message": "Úspešne vykúpiť!"
@@ -1183,10 +1168,6 @@
     "unsubmittedSegmentsPlural": {
         "message": "nezaslané segmenty",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
-    },
-    "videosSingular": {
-        "message": "video",
-        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "v",
