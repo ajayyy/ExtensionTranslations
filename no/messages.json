@@ -19,6 +19,9 @@
     "channelWhitelisted": {
         "message": "Kanalen ble hvitelistet!"
     },
+    "Segment": {
+        "message": "segment"
+    },
     "Segments": {
         "message": "segmenter"
     },
@@ -505,6 +508,9 @@
         "message": "til",
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
+    "category_sponsor": {
+        "message": "Sponsor"
+    },
     "category_sponsor_description": {
         "message": "Betalt promotering, betalte henvisninger, og reklamer direkte til seerne. Ikke for selvpromotering eller gratis hyllester av saker/skapere/nettsteder/produkter som de liker."
     },
@@ -825,6 +831,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Nyhet! Se om en video er fullstendig sponset eller selvpromotert"
+    },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
     },
     "hourAbbreviation": {
         "message": "t",
