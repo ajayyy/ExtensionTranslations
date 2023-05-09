@@ -19,6 +19,9 @@
     "channelWhitelisted": {
         "message": "Canalul a fost adăugat la excepții!"
     },
+    "Segment": {
+        "message": "segment"
+    },
     "Segments": {
         "message": "segmente"
     },
@@ -55,6 +58,9 @@
     },
     "hitGoBack": {
         "message": "Apasă unskip pentru a reveni."
+    },
+    "unskip": {
+        "message": "Unskip"
     },
     "reskip": {
         "message": "Sari peste"
@@ -124,6 +130,9 @@
     },
     "closeIcon": {
         "message": "Închide pictograma"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Deschide Meniul de Trimitere"
     },
     "sortSegments": {
         "message": "Sortare Segmente"
@@ -277,6 +286,10 @@
         "message": "SponsorBlock vă permite să săriți peste sponsori, intro, outros, memento-uri pentru abonament și alte părți enervante ale videoclipurilor YouTube SponsorBlock este o extensie crowdsourced de browser, care hai să trimită oricui timpul de început și de sfârșit pentru segmente sponsorizate și alte segmente de videoclipuri YouTube. Odată ce o persoană transmite aceste informații, toți ceilalți cu această extensie vor sări peste segmentul sponsorizat. De asemenea, poți sări peste secțiunile non-muzicale ale videoclipurilor.",
         "description": "Full description of the extension on the store pages."
     },
+    "website": {
+        "message": "Website",
+        "description": "Used on Firefox Store Page"
+    },
     "sourceCode": {
         "message": "Cod Sursă",
         "description": "Used on Firefox Store Page"
@@ -424,6 +437,10 @@
     },
     "supportOtherSites": {
         "message": "Sprijină Site-uri YouTube 3rd Party"
+    },
+    "supportOtherSitesDescription": {
+        "message": "Susține clienții YouTube terți. Pentru a activa asistența, trebuie să accepți permisiunile suplimentare.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
         "message": "Site-uri cu Sprijin: "
@@ -576,6 +593,9 @@
     },
     "generic_guideline2": {
         "message": "Reda ca și cum nimic nu a fost omis"
+    },
+    "category_sponsor": {
+        "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Promovare plătită, refferali plătiți și reclame directe. Nu pentru autopromovări sau promovări gratis ale cauzelor/creatorilor/website-urilor/produselor."
@@ -776,6 +796,10 @@
     "fullVideoSegments": {
         "message": "Arată o icoană atunci când un videoclip este în întregime o reclamă",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Arată etichetele și în miniaturile video",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
         "message": "Culoare Nepredată",
@@ -1023,6 +1047,12 @@
     "ChangeCategoryTooltip": {
         "message": "Acest lucru se va aplica instantaneu segmentelor dvs"
     },
+    "downvote": {
+        "message": "Downvote"
+    },
+    "upvote": {
+        "message": "Upvote"
+    },
     "hideSegment": {
         "message": "Ascunde segmentul"
     },
@@ -1069,6 +1099,10 @@
     "noticeVisibilityLabel": {
         "message": "Aspectul notificării de omiteri",
         "description": "Option label"
+    },
+    "unbind": {
+        "message": "Unbind",
+        "description": "Unbind keyboard shortcut"
     },
     "notSet": {
         "message": "Nesetat"
@@ -1196,7 +1230,14 @@
     "exportSegmentsAsURL": {
         "message": "Distribuie ca URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Atenție: Serverul nu a răspuns încă cu segmente. Ar putea fi segmente în acest videoclip deja trimise, dar pur și simplu nu le-ai primit din cauza problemelor cu serverul."
+    },
     "allowScrollingToEdit": {
         "message": "Permite derularea la Editarea Timpilor"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}sec",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
