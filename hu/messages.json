@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Időpontok törlése"
     },
-    "publicStats": {
-        "message": "Ez a nyilvános ranglistán használatos, ami mutatja, mennyit segítettél. Nézd meg"
-    },
     "Username": {
         "message": "Felhasználónév"
     },
