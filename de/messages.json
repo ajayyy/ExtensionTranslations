@@ -724,6 +724,9 @@
     "category_music_offtopic_guideline2": {
         "message": "Nicht-Musik in einer Live-Performance"
     },
+    "category_poi_highlight": {
+        "message": "Highlight"
+    },
     "category_poi_highlight_description": {
         "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\" Kommentare."
     },
@@ -1212,6 +1215,10 @@
         "message": "Segmente ausblenden",
         "description": "Show/hide button for the unsubmitted segments list"
     },
+    "videoID": {
+        "message": "Video ID",
+        "description": "Header of the unsubmitted segments list"
+    },
     "segmentCount": {
         "message": "Segmentanzahl",
         "description": "Header of the unsubmitted segments list"
@@ -1228,5 +1235,9 @@
     },
     "allowScrollingToEdit": {
         "message": "Scrollen zum Bearbeiten von Zeiten erlauben"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
