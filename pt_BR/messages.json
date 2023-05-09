@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Limpar intervalos"
     },
-    "publicStats": {
-        "message": "Isto é usado na página pública de estatísticas que mostra o quanto você já contribuiu. Veja-a"
-    },
     "Username": {
         "message": "Nome de usuário"
     },
@@ -271,7 +268,7 @@
         "message": "Avisos de pulo de duração normal"
     },
     "noticeVisibilityMode1": {
-        "message": "Avisos de pulo automático, mesmo pequenos"
+        "message": "Avisos de pulo automático, mesmo de curta duração"
     },
     "noticeVisibilityMode2": {
         "message": "Todos os avisos de pulo, mesmo de curta duração"
