@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "清除時間"
     },
-    "publicStats": {
-        "message": "這會被公開的統計頁面來展示您的貢獻。查看它"
-    },
     "Username": {
         "message": "使用者名稱"
     },
