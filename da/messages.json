@@ -303,6 +303,10 @@
         "message": "Spring segment over",
         "description": "Keybind label"
     },
+    "setStartSponsorShortcut": {
+        "message": "Start/stop segment",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Indsend segmenter",
         "description": "Keybind label"
@@ -582,6 +586,9 @@
     },
     "generic_guideline2": {
         "message": "Spiller som om intet blev sprunget over"
+    },
+    "category_sponsor": {
+        "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Betalt kampagne, betalte henvisninger og direkte reklamer. Ikke for selvpromoverende eller gratis shoutouts til årsager/skabere/hjemmesider/produkter, de kan lide."
@@ -972,6 +979,9 @@
     "helpPageSubmitting1": {
         "message": "Indsendelse kan enten ske i popup-vinduet ved at trykke på \"Segment Begynder Nu\"-knappen eller i videoafspilleren med knapperne på afspilleren."
     },
+    "helpPageSubmitting2": {
+        "message": "Clicking the play button indicated the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
+    },
     "Editing": {
         "message": "Redigering"
     },
@@ -1023,6 +1033,12 @@
     "ChangeCategoryTooltip": {
         "message": "Dette vil øjeblikkeligt gælde for dine indsendelser"
     },
+    "downvote": {
+        "message": "Downvote"
+    },
+    "upvote": {
+        "message": "Upvote"
+    },
     "hideSegment": {
         "message": "Skjul segment"
     },
@@ -1037,6 +1053,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Ny! Se når en video er helt sponsoreret eller selvpromoverende"
+    },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
     },
     "hourAbbreviation": {
         "message": "t",
@@ -1157,6 +1177,10 @@
         "message": "ikke-indsendte segmenter",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
     "videosPlural": {
         "message": "videoer",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
@@ -1176,6 +1200,10 @@
     "hideUnsubmittedSegments": {
         "message": "Skjul segmenter",
         "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "Video ID",
+        "description": "Header of the unsubmitted segments list"
     },
     "segmentCount": {
         "message": "Segmentantal",
