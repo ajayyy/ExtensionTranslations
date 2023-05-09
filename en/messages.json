@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Clear Times"
     },
-    "publicStats": {
-        "message": "This is used on the public stats page to show off how much you've contributed. See it"
-    },
     "Username": {
         "message": "Username"
     },
