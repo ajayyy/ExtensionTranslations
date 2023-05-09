@@ -19,9 +19,6 @@
     "channelWhitelisted": {
         "message": "Canalul a fost adăugat la excepții!"
     },
-    "Segment": {
-        "message": "segment"
-    },
     "Segments": {
         "message": "segmente"
     },
@@ -58,9 +55,6 @@
     },
     "hitGoBack": {
         "message": "Apasă unskip pentru a reveni."
-    },
-    "unskip": {
-        "message": "Unskip"
     },
     "reskip": {
         "message": "Sari peste"
@@ -282,10 +276,6 @@
     "longDescription": {
         "message": "SponsorBlock vă permite să săriți peste sponsori, intro, outros, memento-uri pentru abonament și alte părți enervante ale videoclipurilor YouTube SponsorBlock este o extensie crowdsourced de browser, care hai să trimită oricui timpul de început și de sfârșit pentru segmente sponsorizate și alte segmente de videoclipuri YouTube. Odată ce o persoană transmite aceste informații, toți ceilalți cu această extensie vor sări peste segmentul sponsorizat. De asemenea, poți sări peste secțiunile non-muzicale ale videoclipurilor.",
         "description": "Full description of the extension on the store pages."
-    },
-    "website": {
-        "message": "Website",
-        "description": "Used on Firefox Store Page"
     },
     "sourceCode": {
         "message": "Cod Sursă",
@@ -586,9 +576,6 @@
     },
     "generic_guideline2": {
         "message": "Reda ca și cum nimic nu a fost omis"
-    },
-    "category_sponsor": {
-        "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Promovare plătită, refferali plătiți și reclame directe. Nu pentru autopromovări sau promovări gratis ale cauzelor/creatorilor/website-urilor/produselor."
@@ -1036,12 +1023,6 @@
     "ChangeCategoryTooltip": {
         "message": "Acest lucru se va aplica instantaneu segmentelor dvs"
     },
-    "downvote": {
-        "message": "Downvote"
-    },
-    "upvote": {
-        "message": "Upvote"
-    },
     "hideSegment": {
         "message": "Ascunde segmentul"
     },
@@ -1088,10 +1069,6 @@
     "noticeVisibilityLabel": {
         "message": "Aspectul notificării de omiteri",
         "description": "Option label"
-    },
-    "unbind": {
-        "message": "Unbind",
-        "description": "Unbind keyboard shortcut"
     },
     "notSet": {
         "message": "Nesetat"
