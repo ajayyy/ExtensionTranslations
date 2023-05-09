@@ -19,9 +19,6 @@
     "channelWhitelisted": {
         "message": "Kanał dodany do wyjątków!"
     },
-    "Segment": {
-        "message": "segment"
-    },
     "Segments": {
         "message": "segmentów"
     },
@@ -594,9 +591,6 @@
     "generic_guideline2": {
         "message": "Pominięcie bez zauważalnego przeskoku"
     },
-    "category_sponsor": {
-        "message": "Sponsor"
-    },
     "category_sponsor_description": {
         "message": "Płatna promocja, płatne rekomendacje oraz bezpośrednie reklamy. Nie do autopromocji ani darmowych wyrazów uznania dla kwestii/twórców/stron/produktów, które im się podobają."
     },
@@ -1067,14 +1061,6 @@
     },
     "categoryPillNewFeature": {
         "message": "Nowość! Zobacz, kiedy film jest w całości sponsorowany lub jest autopromocją"
-    },
-    "dayAbbreviation": {
-        "message": "d",
-        "description": "100d"
-    },
-    "hourAbbreviation": {
-        "message": "h",
-        "description": "100h"
     },
     "optionsTabBehavior": {
         "message": "Zachowanie",
