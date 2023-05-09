@@ -1236,5 +1236,59 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Bättre titlar och miniatyrer på YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing-titlar och miniatyrer ska vara beskrivande och inte sensationella",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Skicka"
+    },
+    "chooseDescriptive": {
+        "message": "Välj den mest beskrivande"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Originaltitel"
+    },
+    "CurrentTime": {
+        "message": "Aktuell tid"
+    },
+    "resetCustomTitle": {
+        "message": "Återställ titel tillbaka till originaltext"
+    },
+    "resetIcon": {
+        "message": "Återställ ikon"
+    },
+    "Vote": {
+        "message": "Rösta"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Skriv din egen titel här"
+    },
+    "VideoNotReady": {
+        "message": "Videon är inte klar"
+    },
+    "FailedToRender": {
+        "message": "Det gick inte att rendera",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas saknas",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Undantag vid rendering",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Det gick inte att ladda",
+        "description": "Thumbnail failed to load"
     }
 }
