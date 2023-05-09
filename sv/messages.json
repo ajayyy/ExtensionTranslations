@@ -19,6 +19,9 @@
     "channelWhitelisted": {
         "message": "Kanalen är vitlistad!"
     },
+    "Segment": {
+        "message": "segment"
+    },
     "Segments": {
         "message": "segment"
     },
@@ -591,6 +594,9 @@
     "generic_guideline2": {
         "message": "Spelar som om ingenting hoppades över"
     },
+    "category_sponsor": {
+        "message": "Sponsor"
+    },
     "category_sponsor_description": {
         "message": "Betald marknadsföring, betalda hänvisningar och direktannonser, men inte till självbefodran eller gratis shoutouts till skapare/webbplatser/produkter de gillar."
     },
@@ -1062,6 +1068,14 @@
     "categoryPillNewFeature": {
         "message": "Nytt! Se när en video är helt sponsrad eller självbefodran"
     },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "h",
+        "description": "100h"
+    },
     "optionsTabBehavior": {
         "message": "Beteende",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
@@ -1177,6 +1191,10 @@
         "message": "oinskickade segment",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
     "videosPlural": {
         "message": "videor",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
@@ -1217,5 +1235,9 @@
     },
     "allowScrollingToEdit": {
         "message": "Tillåt rullning för att redigera tiden"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
