@@ -16,6 +16,12 @@
     "channelWhitelisted": {
         "message": "Whitelisted na ang channel na ito!"
     },
+    "Segment": {
+        "message": "segment"
+    },
+    "Segments": {
+        "message": "segments"
+    },
     "upvoteButtonInfo": {
         "message": "I-upvote ang submission na ito"
     },
@@ -27,6 +33,9 @@
     },
     "Dismiss": {
         "message": "I-dismiss"
+    },
+    "Loading": {
+        "message": "Loading..."
     },
     "Hide": {
         "message": "Hindi ipakita"
