@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Supprimer les temps"
     },
-    "publicStats": {
-        "message": "Votre pseudo est inscrit dans le classement public permettant de présenter vos soumissions. Le consulter"
-    },
     "Username": {
         "message": "Pseudo"
     },
