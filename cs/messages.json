@@ -19,6 +19,9 @@
     "channelWhitelisted": {
         "message": "Kanál přidán do výjimek!"
     },
+    "Segment": {
+        "message": "segment"
+    },
     "Segments": {
         "message": "segmentů"
     },
@@ -1064,6 +1067,14 @@
     },
     "categoryPillNewFeature": {
         "message": "Novinka! Nyní uvidíte, zda je video zcela sponzorované nebo celé obsahuje sebepropagaci"
+    },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "h",
+        "description": "100h"
     },
     "optionsTabBehavior": {
         "message": "Chování",
