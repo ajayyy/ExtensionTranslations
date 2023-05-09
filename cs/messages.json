@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Vymazat časy"
     },
-    "publicStats": {
-        "message": "Toto se používá ve veřejném žebříčku k ukázání jak moc jste přispěli. Podívejte se na něj"
-    },
     "Username": {
         "message": "Uživatelské jméno"
     },
