@@ -800,6 +800,14 @@
     "skipSegment": {
         "message": "Preskoči odsječak"
     },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "h",
+        "description": "100h"
+    },
     "optionsTabBehavior": {
         "message": "Ponašanje",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
@@ -894,6 +902,10 @@
     },
     "enterLicenseKey": {
         "message": "Upiši licencni ključ"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "videa",
