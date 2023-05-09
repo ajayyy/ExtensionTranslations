@@ -168,9 +168,6 @@
     "clearTimesButton": {
         "message": "Hapus Waktu"
     },
-    "publicStats": {
-        "message": "Ini digunakan di halaman statistik publik untuk menampilkan berapa banyak anda berkontribusi. Lihat disini"
-    },
     "Username": {
         "message": "Nama pengguna"
     },
