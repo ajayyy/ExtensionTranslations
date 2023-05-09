@@ -1232,5 +1232,49 @@
     },
     "allowScrollingToEdit": {
         "message": "允许滚动编辑时间"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}秒",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "Submit": {
+        "message": "提交"
+    },
+    "Original": {
+        "message": "原始"
+    },
+    "OriginalTitle": {
+        "message": "原始标题"
+    },
+    "CurrentTime": {
+        "message": "当前时间"
+    },
+    "resetIcon": {
+        "message": "重置图标"
+    },
+    "Vote": {
+        "message": "投票"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "在这里输入您的标题"
+    },
+    "VideoNotReady": {
+        "message": "视频未就绪"
+    },
+    "FailedToRender": {
+        "message": "渲染失败",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "画布丢失",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "渲染过程发生的异常",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "加载失败",
+        "description": "Thumbnail failed to load"
     }
 }
