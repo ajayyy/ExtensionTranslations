@@ -299,7 +299,7 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "Se você ainda não gostar dessa, aperte o botão não mostrar novamente.",
+        "message": "Se você ainda não gostar, aperte o botão nunca mostrar.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
@@ -1068,9 +1068,21 @@
     "categoryPillNewFeature": {
         "message": "Novo! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
     },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "h",
+        "description": "100h"
+    },
     "optionsTabBehavior": {
         "message": "Comportamento",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabInterface": {
+        "message": "Interface",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
         "message": "Teclas de atalho",
@@ -1223,5 +1235,9 @@
     },
     "allowScrollingToEdit": {
         "message": "Permitir rolagem para editar tempos"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
