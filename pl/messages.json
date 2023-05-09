@@ -1232,5 +1232,55 @@
     },
     "allowScrollingToEdit": {
         "message": "Zezwalaj na scroll'owanie do edycji czasów"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Lepsze tytuły i miniatury na YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "Submit": {
+        "message": "Wyślij"
+    },
+    "chooseDescriptive": {
+        "message": "Wybierz najbardziej opisowe"
+    },
+    "Original": {
+        "message": "Oryginalne"
+    },
+    "OriginalTitle": {
+        "message": "Oryginalny tytuł"
+    },
+    "CurrentTime": {
+        "message": "Aktualny czas"
+    },
+    "resetCustomTitle": {
+        "message": "Zresetuj tytuł do oryginalnego tekstu"
+    },
+    "resetIcon": {
+        "message": "Resetuj ikonę"
+    },
+    "Vote": {
+        "message": "Głosuj"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Wpisz tutaj swój własny tytuł"
+    },
+    "VideoNotReady": {
+        "message": "Wideo nie jest gotowe"
+    },
+    "FailedToRender": {
+        "message": "Nie udało się zrenderować",
+        "description": "Thumbnail preview failed to render"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Wyjątek podczas renderowania",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Nie udało się załadować",
+        "description": "Thumbnail failed to load"
     }
 }
