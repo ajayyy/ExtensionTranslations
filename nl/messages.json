@@ -19,6 +19,9 @@
     "channelWhitelisted": {
         "message": "Kanaal gewhitelist!"
     },
+    "Segment": {
+        "message": "segment"
+    },
     "Segments": {
         "message": "segmenten"
     },
@@ -282,6 +285,10 @@
     "longDescription": {
         "message": "SponsorBlock laat u sponsoring, intro's, outro's, herinneringen om te abonneren en andere vervelende onderdelen van YouTube-video's overslaan. SponsorBlock is een gecrowdsourcete browser-extensie waarmee iedereen de begin- en eindtijd van gesponsorde segmenten en andere segmenten van YouTube-video's kan indienen. Zodra één persoon deze informatie indient, zal iedereen met deze extensie het gesponsorde segment overslaan. U kunt ook secties zonder muziek in muziekvideo's overslaan.",
         "description": "Full description of the extension on the store pages."
+    },
+    "website": {
+        "message": "Website",
+        "description": "Used on Firefox Store Page"
     },
     "sourceCode": {
         "message": "Broncode",
@@ -586,6 +593,9 @@
     },
     "generic_guideline2": {
         "message": "Speelt af alsof niets overgeslagen werd"
+    },
+    "category_sponsor": {
+        "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Betaalde promotie, betaalde aanbevelingen en directe reclame. Niet voor zelfpromotie of gratis uitroepen naar zaken/makers/websites/producten waar ze van houden."
@@ -905,6 +915,9 @@
     "categoryUpdate2": {
         "message": "Open de opties om intro's, outro's, koopwaar,... over te slaan."
     },
+    "help": {
+        "message": "Help"
+    },
     "GotIt": {
         "message": "Begrepen",
         "description": "Used as the button to dismiss a tooltip"
@@ -1063,6 +1076,10 @@
         "message": "Gedrag",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
+    "optionsTabInterface": {
+        "message": "Interface",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
     "optionsTabKeyBinds": {
         "message": "Sneltoetsen",
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
@@ -1169,6 +1186,10 @@
     "unsubmittedSegmentsPlural": {
         "message": "niet-ingediende segmenten",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "video's",
