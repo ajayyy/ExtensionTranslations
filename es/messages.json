@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Eliminar Tiempos"
     },
-    "publicStats": {
-        "message": "Esto se utiliza en la página de estadísticas públicas para mostrar cuánto has contribuido. Véala"
-    },
     "Username": {
         "message": "Nombre de Usuario"
     },
