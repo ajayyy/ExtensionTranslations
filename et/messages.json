@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Tühjenda ajad"
     },
-    "publicStats": {
-        "message": "Seda kasutatakse avaliku statistika lehel, et näidata välja, kui palju oled panustanud. Vaata seda"
-    },
     "Username": {
         "message": "Kasutajanimi"
     },
@@ -746,7 +743,7 @@
         "message": "Isikupärastatava pealkirjaga peatükid, mis kirjeldavad tähtsamaid video osi."
     },
     "category_chapter_guideline1": {
-        "message": "Ära maini sponsorite brändi nimesid"
+        "message": "Ära maini sponsorite brändinimesid"
     },
     "category_chapter_guideline2": {
         "message": "Kasutage suuri peatükke peamiste osade jaoks"
@@ -1148,7 +1145,7 @@
         "message": "Vali riik"
     },
     "noDiscount": {
-        "message": "Te ei kvalifitseeru allahindluse saamiseks"
+        "message": "Sa ei kvalifitseeru allahindluse saamiseks"
     },
     "discountLink": {
         "message": "Soodushinna link (vaata roosat hinda)"
@@ -1157,7 +1154,7 @@
         "message": "Vali oma riik"
     },
     "cantAfford": {
-        "message": "Kui te ei saa lubada endale litsensi soetamist, vajutage {here}, et uurida, kas kvalifitseerute allahindluse saamisele",
+        "message": "Kui litsentsi ostmine ei ole jõukohane, klõpsa {here}, et näha kas kvalifitseerud allahindluse saamisele",
         "description": "Keep the curly braces. The word 'here' should be translated as well."
     },
     "patreonSignIn": {
@@ -1230,7 +1227,14 @@
     "exportSegmentsAsURL": {
         "message": "Jaga URLina"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Tähelepanu: Server ei ole veel segmente edastanud. Sellel videol võivad olla esitatud segmendid, aga sa pole neid serveri tõrke tõttu kätte saanud."
+    },
     "allowScrollingToEdit": {
         "message": "Luba aegade muutmiseks kerimine"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
