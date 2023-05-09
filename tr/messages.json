@@ -286,10 +286,6 @@
         "message": "SponsorBlock, sponsorları, giriş ve bitiş kısımlarını, abonelik hatırlatıcılarını ve YouTube videolarının diğer can sıkıcı kısımlarını atlamanıza olanak tanır. SponsorBlock, herkesin sponsorlu kısımları ve YouTube videolarının diğer kısımlarının başlangıç ve bitiş zamanlarını göndermesine izin veren kitle kaynaklı bir tarayıcı uzantısıdır. Bir kişi bu bilgiyi gönderdikten sonra, bu uzantıya sahip diğer herkes sponsorlu kısımları hemen atlayacaktır. Müzik videolarının müzik dışı bölümlerini de atlayabilirsiniz.",
         "description": "Full description of the extension on the store pages."
     },
-    "website": {
-        "message": "Website",
-        "description": "Used on Firefox Store Page"
-    },
     "sourceCode": {
         "message": "Kaynak Kodu",
         "description": "Used on Firefox Store Page"
@@ -593,9 +589,6 @@
     },
     "generic_guideline2": {
         "message": "Hiçbir şey atlanmamış gibi oynuyor"
-    },
-    "category_sponsor": {
-        "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Ücretli tanıtım, ücretli yönlendirmeler ve doğrudan reklamlar. Kendini pazarlayan veya beğendiği içerik üreticilerine/sitelere/ürünlere atıfta bulunanlar için değil."
@@ -987,14 +980,8 @@
     "helpPageHowSkippingWorks2": {
         "message": "Når du springer et segment over, får du besked, når du springer et segment over. Hvis timingen virker forkert, kan du stemme ned ved at klikke på downvote! Du kan også stemme i popup-vinduet."
     },
-    "Submitting": {
-        "message": "Submitting"
-    },
     "helpPageSubmitting1": {
         "message": "Indsendelse kan enten ske i popup-vinduet ved at trykke på \"Segment Begynder Nu\"-knappen eller i videoafspilleren med knapperne på afspilleren."
-    },
-    "helpPageSubmitting2": {
-        "message": "Clicking the play button indicated the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
     },
     "Editing": {
         "message": "Düzenleme"
@@ -1191,10 +1178,6 @@
         "message": "gönderilmemiş kısımlar",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
-    "videosSingular": {
-        "message": "video",
-        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
-    },
     "videosPlural": {
         "message": "videolar",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
@@ -1214,10 +1197,6 @@
     "hideUnsubmittedSegments": {
         "message": "Kısımları gizle",
         "description": "Show/hide button for the unsubmitted segments list"
-    },
-    "videoID": {
-        "message": "Video ID",
-        "description": "Header of the unsubmitted segments list"
     },
     "segmentCount": {
         "message": "Kısım Sayısı",
