@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Șterge Timpii"
     },
-    "publicStats": {
-        "message": "Acest lucru este folosit pe pagina publică de statistici pentru a arăta cât de mult ai contribuit. Vezi pagina"
-    },
     "Username": {
         "message": "Nume de utilizator"
     },
