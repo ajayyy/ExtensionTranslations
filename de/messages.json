@@ -724,9 +724,6 @@
     "category_music_offtopic_guideline2": {
         "message": "Nicht-Musik in einer Live-Performance"
     },
-    "category_poi_highlight": {
-        "message": "Highlight"
-    },
     "category_poi_highlight_description": {
         "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\" Kommentare."
     },
@@ -1214,10 +1211,6 @@
     "hideUnsubmittedSegments": {
         "message": "Segmente ausblenden",
         "description": "Show/hide button for the unsubmitted segments list"
-    },
-    "videoID": {
-        "message": "Video ID",
-        "description": "Header of the unsubmitted segments list"
     },
     "segmentCount": {
         "message": "Segmentanzahl",
