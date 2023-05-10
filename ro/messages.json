@@ -1297,9 +1297,6 @@
         "message": "Încărcare eșuată",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "Reformatarea automată a titlului"
-    },
     "Disabled": {
         "message": "Dezactivat"
     },
