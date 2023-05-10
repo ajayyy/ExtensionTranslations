@@ -1297,9 +1297,6 @@
         "message": "Неуспешно зареждане",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "Автоматично преформатиране на заглавието"
-    },
     "Disabled": {
         "message": "Деактивирано"
     },
