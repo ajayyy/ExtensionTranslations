@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "Адрес, по которому SponsorBlock обращается к серверу.\nМеняйте только если Вы подняли свой сервер."
     },
+    "dataFetchingServerAddress": {
+        "message": "Адрес сервера данных"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Адрес, по которому расширение обращается к серверу данных.\nНе изменяйте значение, если у вас нет собственного сервера."
+    },
     "save": {
         "message": "Сохранить"
     },
@@ -1236,5 +1242,36 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds} с",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Улучшенные заголовки и значки видео на YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "Submit": {
+        "message": "Отправить"
+    },
+    "Original": {
+        "message": "Оригинал"
+    },
+    "OriginalTitle": {
+        "message": "Оригинальное название"
+    },
+    "CurrentTime": {
+        "message": "Текущее время"
+    },
+    "resetIcon": {
+        "message": "Сбросить значок"
+    },
+    "Vote": {
+        "message": "Проголосовать"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Введите ваш заголовок здесь"
+    },
+    "VideoNotReady": {
+        "message": "Видео не готово"
+    },
+    "Error": {
+        "message": "Ошибка"
     }
 }
