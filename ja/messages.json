@@ -99,7 +99,7 @@
         "message": "セグメントの作成を取り消す"
     },
     "noVideoID": {
-        "message": "YouTube動画が見つかりませんでした。\nこれが正しくない場合は、タブを再読み込みしてください。"
+        "message": "YouTube動画が見つかりませんでした。\nこれが正しくなければ、タブを再読み込みしてください。"
     },
     "refreshSegments": {
         "message": "セグメントを更新"
@@ -150,7 +150,7 @@
         "message": "セグメントに投票"
     },
     "Submissions": {
-        "message": "合計提出数"
+        "message": "提出数"
     },
     "savedPeopleFrom": {
         "message": "あなたが節約したみんなの時間: "
@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "SponsorBlockがサーバーへの呼び出しに用いるアドレスです。\n自分のサーバーインスタンスを持っていない限り、この設定を変更すべきではありません。"
     },
+    "dataFetchingServerAddress": {
+        "message": "データ取得サーバーのアドレス"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "データ取得サーバーの呼び出しに使うアドレスです。あなた所有のサーバーのインスタンスがなければ変更する必要はありません。"
+    },
     "save": {
         "message": "保存"
     },
@@ -734,7 +740,7 @@
         "message": "それまでの文脈はスキップできるものである"
     },
     "category_poi_highlight_guideline3": {
-        "message": "タイトルやサムネイルの場面までスキップできるものである"
+        "message": "題名やサムネイルの場面までスキップできるものである"
     },
     "category_chapter": {
         "message": "チャプター"
@@ -1117,7 +1123,7 @@
         "message": "オプションページを開く"
     },
     "resetToDefault": {
-        "message": "設定をデフォルトに戻す"
+        "message": "設定を初期化する"
     },
     "confirmResetToDefault": {
         "message": "全ての設定を初期値にリセットしてもよろしいですか？元に戻すことはできません。"
@@ -1232,5 +1238,98 @@
     },
     "allowScrollingToEdit": {
         "message": "スクロールで時間を編集できるようにする"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}秒",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - YouTube の題名や画像を改善",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "クラウドソーシングにより、人目を引くような題名と画像ではなく、説明的なものに改善する",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "送信"
+    },
+    "chooseDescriptive": {
+        "message": "最も説明的なものを選択"
+    },
+    "Original": {
+        "message": "元"
+    },
+    "OriginalTitle": {
+        "message": "元の題名"
+    },
+    "CurrentTime": {
+        "message": "現在の時間"
+    },
+    "resetCustomTitle": {
+        "message": "題名を元の文字列に戻す"
+    },
+    "resetIcon": {
+        "message": "アイコンを元に戻す"
+    },
+    "Vote": {
+        "message": "投票"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "あなたによる題名を入力"
+    },
+    "VideoNotReady": {
+        "message": "動画はまだ準備できていません"
+    },
+    "FailedToRender": {
+        "message": "描画に失敗",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "キャンバスがありません",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "描画中に例外",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "読み込みに失敗",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "題名の自動整形"
+    },
+    "Disabled": {
+        "message": "無効化済み"
+    },
+    "keepUnsubmitted": {
+        "message": "送信済みの投票を保存"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの替わりに、あなたが選択した題名と画像を表示する。"
+    },
+    "fetchTimeout": {
+        "message": "データ取得のタイムアウト (ミリ秒)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "この時間内にサーバーが応答しなければ、元の題名と画像を表示する。"
+    },
+    "Enable": {
+        "message": "有効"
+    },
+    "Disable": {
+        "message": "無効"
+    },
+    "Titles": {
+        "message": "題名",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "サムネイル",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "エラー"
     }
 }
