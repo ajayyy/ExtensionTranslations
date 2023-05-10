@@ -1267,12 +1267,72 @@
         "message": "Текущо време"
     },
     "resetCustomTitle": {
-        "message": "Връщане на заглавието към първоначалния текст"
+        "message": "Връщане първоначалния текст на заглавието"
     },
     "resetIcon": {
         "message": "Икона за нулиране"
     },
     "Vote": {
         "message": "Гласуване"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Въведете собствено заглавие тук"
+    },
+    "VideoNotReady": {
+        "message": "Видеото не е готово"
+    },
+    "FailedToRender": {
+        "message": "Неуспешно визуализиране",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Липсва платно",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Изключение при визуализиране",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Неуспешно зареждане",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Автоматично преформатиране на заглавието"
+    },
+    "Disabled": {
+        "message": "Деактивирано"
+    },
+    "CapitalizeWords": {
+        "message": "Думи с главни букви"
+    },
+    "keepUnsubmitted": {
+        "message": "Запазване на подадените гласове"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Запазване на подадените гласове след гласуване, за да се показват заглавията и миниатюрите, които сте избрали, вместо най-гласуваните на сървъра."
+    },
+    "fetchTimeout": {
+        "message": "Време за извличане на данните (мс)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Показване на оригиналните заглавия и миниатюри, ако сървърът не отговори за толкова време."
+    },
+    "Enable": {
+        "message": "Активиране"
+    },
+    "Disable": {
+        "message": "Деактивиране"
+    },
+    "Titles": {
+        "message": "Заглавия",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Миниатюри",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Грешка"
     }
 }
