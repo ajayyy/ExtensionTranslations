@@ -437,6 +437,12 @@
     "customServerAddress": {
         "message": "Adresa SponsorBlock poslužitelja"
     },
+    "dataFetchingServerAddress": {
+        "message": "Adresa poslužitelja za preuzimanje podataka"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adresa koja se koristi za upućivanje poziva poslužitelju za preuzimanje podataka.\nUkoliko nemaš vlastitu instancu poslužitelja, ovo nemoj mijenjati."
+    },
     "save": {
         "message": "Spremi"
     },
@@ -963,6 +969,18 @@
     },
     "exportSegmentsAsURL": {
         "message": "Dijeli kao URL"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "%{seconds} s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow – Bolji YouTube naslovi i minijature",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing naslovi i minijature za bolje opise",
+        "description": "Description of the Clickbait extension."
     },
     "Submit": {
         "message": "Pošalji"
