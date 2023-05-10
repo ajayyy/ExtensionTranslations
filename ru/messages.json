@@ -1298,7 +1298,7 @@
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "Автопереформатирование заголовка"
+        "message": "Формат заголовка"
     },
     "Disabled": {
         "message": "Отключено"
