@@ -1279,5 +1279,22 @@
     },
     "fetchTimeoutDescription": {
         "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
+    },
+    "Enable": {
+        "message": "Ota käyttöön"
+    },
+    "Disable": {
+        "message": "Poista käytöstä"
+    },
+    "Titles": {
+        "message": "Otsikot",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Pikkukuvat",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Virhe"
     }
 }
