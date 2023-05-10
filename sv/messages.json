@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "Adressen SponsorBlock använder för att kommunicera med servern.\nOm du inte har en egen serverinstans ska den här inställningen inte ändras."
     },
+    "dataFetchingServerAddress": {
+        "message": "Datahämtningsserveradress"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adressen som används för att kommunicera till datahämtningsservern.\nOm du inte har din egen serverinstans ska detta inte ändras."
+    },
     "save": {
         "message": "Spara"
     },
@@ -1291,11 +1297,26 @@
         "message": "Det gick inte att ladda",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Titelformat"
+    },
     "Disabled": {
         "message": "Inaktiverad"
     },
+    "CapitalizeWords": {
+        "message": "Versalisera ord"
+    },
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
+    },
+    "fetchTimeout": {
+        "message": "Timeout för datahämtning (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Visa originaltitlar och miniatyrer om servern inte svarar på så här lång tid."
     },
     "Enable": {
         "message": "Aktivera"
