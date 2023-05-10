@@ -1297,6 +1297,9 @@
         "message": "Sikertelen betöltés",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Cím formátum"
+    },
     "Disabled": {
         "message": "Letiltva"
     },
