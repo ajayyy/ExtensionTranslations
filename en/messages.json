@@ -1317,5 +1317,22 @@
     },
     "fetchTimeoutDescription": {
         "message": "Show original titles and thumbnails if the server doesn't respond in this much time."
+    },
+    "Enable": {
+        "message": "Enable"
+    },
+    "Disable": {
+        "message": "Disable"
+    },
+    "Titles": {
+        "message": "Titles",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Thumbnails",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Error"
     }
 }
