@@ -1317,5 +1317,18 @@
     },
     "fetchTimeoutDescription": {
         "message": "Zeige original Titel und Thumbnail wenn der Server nicht innerhalb dieser Zeit antwortet."
+    },
+    "Enable": {
+        "message": "Aktivieren"
+    },
+    "Disable": {
+        "message": "Deaktivieren"
+    },
+    "Titles": {
+        "message": "Titel",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Error": {
+        "message": "Fehler"
     }
 }
