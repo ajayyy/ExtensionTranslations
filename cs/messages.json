@@ -1308,5 +1308,31 @@
     },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Ponechat odeslané hlasy po hlasování pro zobrazení názvů a náhledů, které jste zvolili vy, namísto nejlépe hodnocených na serveru."
+    },
+    "fetchTimeout": {
+        "message": "Časový limit načtení dat (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Zobrazit původní názvy a náhledy, pokud server do tohoto času neodpoví."
+    },
+    "Enable": {
+        "message": "Povolit"
+    },
+    "Disable": {
+        "message": "Zakázat"
+    },
+    "Titles": {
+        "message": "Názvy",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Náhledy",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Chyba"
     }
 }
