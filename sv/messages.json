@@ -1290,5 +1290,28 @@
     "FailedToLoad": {
         "message": "Det gick inte att ladda",
         "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "Inaktiverad"
+    },
+    "keepUnsubmitted": {
+        "message": "Lagra inskickade röster"
+    },
+    "Enable": {
+        "message": "Aktivera"
+    },
+    "Disable": {
+        "message": "Inaktivera"
+    },
+    "Titles": {
+        "message": "Titlar",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniatyrer",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Fel"
     }
 }
