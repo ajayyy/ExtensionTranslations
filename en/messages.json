@@ -1298,7 +1298,7 @@
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "Auto Title Reformatting"
+        "message": "Title Format"
     },
     "Disabled": {
         "message": "Disabled"
