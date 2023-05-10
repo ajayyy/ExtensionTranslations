@@ -1297,9 +1297,6 @@
         "message": "読み込みに失敗",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "題名の自動整形"
-    },
     "Disabled": {
         "message": "無効化済み"
     },
