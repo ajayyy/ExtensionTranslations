@@ -1028,9 +1028,6 @@
         "message": "Učitavanje nije uspjelo",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "Automatsko preformatiranje naslova"
-    },
     "Disabled": {
         "message": "Isključeno"
     },
