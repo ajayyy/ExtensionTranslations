@@ -1317,5 +1317,22 @@
     },
     "fetchTimeoutDescription": {
         "message": "Eredeti címek és indexképek mutatása, ha a szerver nem válaszol az itt megadott idő alatt."
+    },
+    "Enable": {
+        "message": "Engedélyez"
+    },
+    "Disable": {
+        "message": "Letilt"
+    },
+    "Titles": {
+        "message": "Címek",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Indexképek",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Hiba"
     }
 }
