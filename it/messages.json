@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Cancella minutaggio"
     },
-    "publicStats": {
-        "message": "Questo è usato nelle pagine pubbliche delle statistiche per mostrare quanto hai contribuito. Vedilo"
-    },
     "Username": {
         "message": "Nome utente"
     },

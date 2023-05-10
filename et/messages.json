@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Tühjenda ajad"
     },
-    "publicStats": {
-        "message": "Seda kasutatakse avaliku statistika lehel, et näidata välja, kui palju oled panustanud. Vaata seda"
-    },
     "Username": {
         "message": "Kasutajanimi"
     },
@@ -746,13 +743,13 @@
         "message": "Isikupärastatava pealkirjaga peatükid, mis kirjeldavad tähtsamaid video osi."
     },
     "category_chapter_guideline1": {
-        "message": "Ära maini sponsorite brändi nimesid"
+        "message": "Ära maini sponsorite brändinimesid"
     },
     "category_chapter_guideline2": {
-        "message": "Kasutage suuri peatükke peamiste osade jaoks"
+        "message": "Kasuta suuri peatükke peamiste jaotiste jaoks"
     },
     "category_chapter_guideline3": {
-        "message": "Lühikesemaid peatükke saab paigutada suurtemate peatükkide sisse"
+        "message": "Väiksemad peatükid saab asetada suuremate sisse"
     },
     "category_livestream_messages": {
         "message": "Otseülekanne: annetuste ja sõnumite lugemine"
@@ -1148,7 +1145,7 @@
         "message": "Vali riik"
     },
     "noDiscount": {
-        "message": "Te ei kvalifitseeru allahindluse saamiseks"
+        "message": "Sa ei kvalifitseeru allahindluse saamiseks"
     },
     "discountLink": {
         "message": "Soodushinna link (vaata roosat hinda)"
@@ -1157,7 +1154,7 @@
         "message": "Vali oma riik"
     },
     "cantAfford": {
-        "message": "Kui te ei saa lubada endale litsensi soetamist, vajutage {here}, et uurida, kas kvalifitseerute allahindluse saamisele",
+        "message": "Kui litsentsi ostmine ei ole jõukohane, klõpsa {here}, et näha kas kvalifitseerud allahindluse saamisele",
         "description": "Keep the curly braces. The word 'here' should be translated as well."
     },
     "patreonSignIn": {
@@ -1230,7 +1227,97 @@
     "exportSegmentsAsURL": {
         "message": "Jaga URLina"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Tähelepanu: Server ei ole veel segmente edastanud. Sellel videol võivad olla esitatud segmendid, aga sa pole neid serveri tõrke tõttu kätte saanud."
+    },
     "allowScrollingToEdit": {
         "message": "Luba aegade muutmiseks kerimine"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - paremad pealkirjad ja pisipildid YouTube'is",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Rahva valitud pealkirjad ja pisipildid, mis on kirjeldavad, mitte pilkupüüdvad",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Saada"
+    },
+    "chooseDescriptive": {
+        "message": "Vali kõige kirjeldavam"
+    },
+    "Original": {
+        "message": "Algne"
+    },
+    "OriginalTitle": {
+        "message": "Algne pealkiri"
+    },
+    "CurrentTime": {
+        "message": "Praegune aeg"
+    },
+    "resetCustomTitle": {
+        "message": "Lähtesta pealkiri esialgsele tekstile"
+    },
+    "resetIcon": {
+        "message": "Lähtesta ikoon"
+    },
+    "Vote": {
+        "message": "Hääleta"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Sisesta oma pealkiri siia"
+    },
+    "VideoNotReady": {
+        "message": "Video ei ole valmis"
+    },
+    "FailedToRender": {
+        "message": "Renderdamine ebaõnnestus",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas puudub",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Renderdamisel esines viga",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Laadimine ebaõnnestus",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Pealkirjavorming"
+    },
+    "Disabled": {
+        "message": "Keelatud"
+    },
+    "CapitalizeWords": {
+        "message": "Suurtähesta Sõnu"
+    },
+    "keepUnsubmitted": {
+        "message": "Säilita saadetud hääled"
+    },
+    "Enable": {
+        "message": "Luba"
+    },
+    "Disable": {
+        "message": "Keela"
+    },
+    "Titles": {
+        "message": "Pealkirjad",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Pisipildid",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Viga"
     }
 }

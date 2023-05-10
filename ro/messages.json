@@ -131,6 +131,9 @@
     "closeIcon": {
         "message": "Închide pictograma"
     },
+    "OpenSubmissionMenu": {
+        "message": "Deschide Meniul de Trimitere"
+    },
     "sortSegments": {
         "message": "Sortare Segmente"
     },
@@ -167,9 +170,6 @@
     },
     "clearTimesButton": {
         "message": "Șterge Timpii"
-    },
-    "publicStats": {
-        "message": "Acest lucru este folosit pe pagina publică de statistici pentru a arăta cât de mult ai contribuit. Vezi pagina"
     },
     "Username": {
         "message": "Nume de utilizator"
@@ -435,6 +435,10 @@
     "supportOtherSites": {
         "message": "Sprijină Site-uri YouTube 3rd Party"
     },
+    "supportOtherSitesDescription": {
+        "message": "Susține clienții YouTube terți. Pentru a activa asistența, trebuie să accepți permisiunile suplimentare.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
     "supportedSites": {
         "message": "Site-uri cu Sprijin: "
     },
@@ -494,6 +498,12 @@
     },
     "customServerAddressDescription": {
         "message": "Adresa SponsorBlock este folosită pentru a se efectua apeluri către server.\nDacă nu ai propriul tău server, acesta nu ar trebui modificat."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Adresa serverului pentru preluarea datelor"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adresa folosită pentru a efectua apeluri către serverul de preluare a datelor.\nDacă nu ai propria ta instanță de server, acest lucru nu ar trebui schimbat."
     },
     "save": {
         "message": "Salvează"
@@ -789,6 +799,10 @@
     "fullVideoSegments": {
         "message": "Arată o icoană atunci când un videoclip este în întregime o reclamă",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Arată etichetele și în miniaturile video",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
         "message": "Culoare Nepredată",
@@ -1219,7 +1233,106 @@
     "exportSegmentsAsURL": {
         "message": "Distribuie ca URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Atenție: Serverul nu a răspuns încă cu segmente. Ar putea fi segmente în acest videoclip deja trimise, dar pur și simplu nu le-ai primit din cauza problemelor cu serverul."
+    },
     "allowScrollingToEdit": {
         "message": "Permite derularea la Editarea Timpilor"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}sec",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Titluri și miniaturi mai bune pe YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Titlurile Crowdsourcing și miniaturile vor fi descriptive și nu senzaționale",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Aplicați"
+    },
+    "chooseDescriptive": {
+        "message": "Alege cel mai descriptiv"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Titlu original"
+    },
+    "CurrentTime": {
+        "message": "Ora curentă"
+    },
+    "resetCustomTitle": {
+        "message": "Resetează titlul înapoi la textul original"
+    },
+    "resetIcon": {
+        "message": "Resetează Pictogramă"
+    },
+    "Vote": {
+        "message": "Votează"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Scrieți propriul titlu aici"
+    },
+    "VideoNotReady": {
+        "message": "Videoclipul nu este gata"
+    },
+    "FailedToRender": {
+        "message": "Randare eșuată",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Lipsește canvas",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Excepție în timpul redării",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Încărcare eșuată",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Formatul titlului"
+    },
+    "Disabled": {
+        "message": "Dezactivat"
+    },
+    "CapitalizeWords": {
+        "message": "Capitalizează cuvintele"
+    },
+    "keepUnsubmitted": {
+        "message": "Stochează voturile trimise"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Păstrați voturile depuse după vot pentru a afișa titlurile și miniaturile pe care le-ați ales în loc de cea de sus votată pe server."
+    },
+    "fetchTimeout": {
+        "message": "Timp preluare date (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Arată titlurile originale și miniaturile în cazul în care serverul nu răspunde în acest timp."
+    },
+    "Enable": {
+        "message": "Activare"
+    },
+    "Disable": {
+        "message": "Dezactivare"
+    },
+    "Titles": {
+        "message": "Titluri",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniaturi",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Eroare"
     }
 }

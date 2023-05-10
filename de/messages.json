@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Zeiten löschen"
     },
-    "publicStats": {
-        "message": "So wirst du in der öffentlichen Rangliste angezeigt. Siehe"
-    },
     "Username": {
         "message": "Benutzername"
     },
@@ -501,6 +498,12 @@
     },
     "customServerAddressDescription": {
         "message": "Die Adresse die SponsorBlock verwendet um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Server-Adresse für Datenabrufung"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDies sollte nicht geändert werden, ausser du hast deine eigene Serverinstanz."
     },
     "save": {
         "message": "Speichern"
@@ -1235,5 +1238,98 @@
     },
     "allowScrollingToEdit": {
         "message": "Scrollen zum Bearbeiten von Zeiten erlauben"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Bessere Titel und Thumbnails auf YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing Titel und und Thumbnails um Informativ und weniger Sensationell zu sein",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Senden"
+    },
+    "chooseDescriptive": {
+        "message": "Wähle die am besten beschreibende"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Originaltitel"
+    },
+    "CurrentTime": {
+        "message": "Aktuelle Zeit"
+    },
+    "resetCustomTitle": {
+        "message": "Titel zurück auf Originaltext setzen"
+    },
+    "resetIcon": {
+        "message": "Icon zurücksetzen"
+    },
+    "Vote": {
+        "message": "Abstimmen"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Eigenen Titel hier eingeben"
+    },
+    "VideoNotReady": {
+        "message": "Video nicht bereit"
+    },
+    "FailedToRender": {
+        "message": "Rendern fehlgeschlagen",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Leinwand fehlt",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Fehler beim Rendern",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Laden fehlgeschlagen",
+        "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "Deaktiviert"
+    },
+    "CapitalizeWords": {
+        "message": "Wörter groß schreiben"
+    },
+    "keepUnsubmitted": {
+        "message": "Speichere übermittelte Abstimmungen"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails welche du ausgewählt hast anzuzeigen anstelle derer auf dem Server."
+    },
+    "fetchTimeout": {
+        "message": "Daten-Abruf-Timeout (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Zeige original Titel und Thumbnail wenn der Server nicht innerhalb dieser Zeit antwortet."
+    },
+    "Enable": {
+        "message": "Aktivieren"
+    },
+    "Disable": {
+        "message": "Deaktivieren"
+    },
+    "Titles": {
+        "message": "Titel",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Thumbnails",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Fehler"
     }
 }

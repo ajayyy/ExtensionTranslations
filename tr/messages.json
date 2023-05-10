@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Süreleri Temizle"
     },
-    "publicStats": {
-        "message": "Bu, ne kadar katkı sağladığınızı göstermek için herkese açık istatistik sayfasında kullanılacaktır. Görün"
-    },
     "Username": {
         "message": "Kullanıcı adı"
     },

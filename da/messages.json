@@ -168,9 +168,6 @@
     "clearTimesButton": {
         "message": "Ryd Tider"
     },
-    "publicStats": {
-        "message": "Dette bruges på siden med offentlige statistikker til at vise, hvor meget du har bidraget. Se det"
-    },
     "Username": {
         "message": "Brugernavn"
     },

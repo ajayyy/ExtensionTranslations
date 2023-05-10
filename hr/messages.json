@@ -26,13 +26,13 @@
         "message": "odsječci"
     },
     "SegmentsCap": {
-        "message": "Odsječci"
+        "message": "Segmenti"
     },
     "Chapters": {
         "message": "Poglavlja"
     },
     "renderAsChapters": {
-        "message": "Iscrtaj isječke kao poglavlja",
+        "message": "Prikaži segmente kao poglavlja",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "upvoteButtonInfo": {
@@ -132,7 +132,7 @@
         "message": "Otvori preglednik prijava"
     },
     "sortSegments": {
-        "message": "Razvrstaj isječke"
+        "message": "Razvrstaj segmente"
     },
     "submitCheck": {
         "message": "Jesi li siguran da želiš unijeti ovo?"
@@ -168,9 +168,6 @@
     "clearTimesButton": {
         "message": "Očisti vremena"
     },
-    "publicStats": {
-        "message": "Ovo se koristi na stranici sa javnim statistikama da se pokaže koliko se pridonijeli. Pogledajte"
-    },
     "Username": {
         "message": "Korisničko ime"
     },
@@ -181,7 +178,7 @@
         "message": "Kopiraj javni UserID"
     },
     "copySegmentID": {
-        "message": "Kopiraj ID odsječka"
+        "message": "Kopiraj ID segmenta"
     },
     "discordAdvert": {
         "message": "Pridružite nam se u službenoj Discord zajednici i pošaljite svoje prijedloge i povrate informacije!"
@@ -229,10 +226,10 @@
         "message": "Omogući praćenje broja preskakanja u Privatnim/Incognito karticama"
     },
     "enableTrackDownvotes": {
-        "message": "Pohranjuj doljeglasove dijelova"
+        "message": "Spremi glasanja protiv segmenta"
     },
     "whatTrackDownvotes": {
-        "message": "Svaki odjeljak koji doljeglasate ostati će skriven čak i nakon osvježavanja"
+        "message": "Svako glasanje protiv segmenta će ostati skriveno čak i nakon aktualiziranja prikaza"
     },
     "trackDownvotesWarning": {
         "message": "Upozorenje: Onemogućavanjem ovoga izbrisati će svi prijašnje spremljeni doljeglasovi"
@@ -241,13 +238,13 @@
         "message": "Upit po prefiksu kontrolnog identifikacijskog broja"
     },
     "whatQueryByHashPrefix": {
-        "message": "Umjesto zahtijeva za odjeljke sa poslužitelja koristeći videoID, prva 4 znaka sigurnosnog kontrolnog broja videoID-a su poslani. Taj poslužitelj poslat će nazad podatke za sva videa sa sličnim sigurnosnim kontrolnim brojevima."
+        "message": "Umjesto zahtijeva za segmentima s poslužitelja koristeći videoID, prva 4 znaka sigurnosnog kontrolnog broja video ID-a su poslani. Taj poslužitelj poslat će nazad podatke za sva videa sa sličnim sigurnosnim kontrolnim brojevima."
     },
     "enableRefetchWhenNotFound": {
-        "message": "Ponovno dohvati odjeljke za nova videa"
+        "message": "Ponovo preuzmi segmente novih videa"
     },
     "whatRefetchWhenNotFound": {
-        "message": "Ukoliko je video nov, a nisu pronađeni novi odjeljci, nastavit će s dohvaćanjem svako par minuta dok gledate."
+        "message": "Ukoliko je video nov, i ako nisu pronađeni novi segmenti, preuzimanje će se nastavit svakih par minuta dok gledaš."
     },
     "showNotice": {
         "message": "Prikaži napomenu opet"
@@ -275,15 +272,15 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Preskoči odsječak",
+        "message": "Preskoči segment",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Pokreni/prekini odsječak",
+        "message": "Pokreni/prekini segment",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Pošalji odsječke",
+        "message": "Pošalji segmente",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -358,7 +355,7 @@
         "message": "Zvučna obavijest pri preskakanju"
     },
     "audioNotificationDescription": {
-        "message": "Zvučna obavijest o preskakanju reproducirat će zvuk kad god se odsječak preskoči. Ako je deaktivirano (ili je automatsko preskakanje deaktivirano), zvuk se neće reproducirati."
+        "message": "Zvučna obavijest o preskakanju reproducirat će zvuk kad god se segment preskoči. Ako je deaktivirano (ili je automatsko preskakanje deaktivirano), zvuk se neće reproducirati."
     },
     "youHaveSkipped": {
         "message": "Do sad ste preskočili "
@@ -376,7 +373,7 @@
         "message": "h"
     },
     "youHaveSavedTime": {
-        "message": "Spasili ste ljude od",
+        "message": "Spasio/la si ljude od",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
@@ -439,6 +436,12 @@
     },
     "customServerAddress": {
         "message": "Adresa SponsorBlock poslužitelja"
+    },
+    "dataFetchingServerAddress": {
+        "message": "Adresa poslužitelja za preuzimanje podataka"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adresa koja se koristi za upućivanje poziva poslužitelju za preuzimanje podataka.\nUkoliko nemaš vlastitu instancu poslužitelja, ovo nemoj mijenjati."
     },
     "save": {
         "message": "Spremi"
@@ -629,7 +632,7 @@
         "message": "Prikaži poglavlja"
     },
     "muteSegments": {
-        "message": "Dopustite isječke koji isključuju zvuk umjesto da ga preskaču"
+        "message": "Dopustite segmente koji isključuju zvuk umjesto da ga preskaču"
     },
     "previewColor": {
         "message": "Boja neposlanog",
@@ -658,7 +661,7 @@
         "message": "Odaberi kategoriju"
     },
     "enableThisCategoryFirst": {
-        "message": "Za slanje odsječaka kategorije „{0}”, moraš je aktivirati u postavkama. Sada ćemo te preusmjeriti na postavke.",
+        "message": "Za slanje segmenata kategorije „{0}”, moraš je aktivirati u postavkama. Sada ćemo te preusmjeriti na postavke.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "youMustSelectACategory": {
@@ -679,6 +682,15 @@
     },
     "invidiousPermissionRefresh": {
         "message": "Preglednik je opozvao dopuštenje potrebno za funkcioniranje na Invidiousu i drugim stranicama trećih strana. Pritisni donji gumb za ponovno aktiviranje ove dozvole."
+    },
+    "acceptPermission": {
+        "message": "Prihvati dozvolu"
+    },
+    "permissionRequestSuccess": {
+        "message": "Zahtjev za dozvolom je uspio!"
+    },
+    "permissionRequestFailed": {
+        "message": "Zahtjev za dozvolom nije uspio. Jesi li ga odbio/la?"
     },
     "downvoteDescription": {
         "message": "Neispravno/krivo vrijeme"
@@ -786,7 +798,7 @@
         "message": "Nastavite glasati"
     },
     "ChangeCategoryTooltip": {
-        "message": "Ovo će se odmah primijeniti na vaše isječke"
+        "message": "Ovo će se odmah primijeniti na tvoje segmente"
     },
     "downvote": {
         "message": "Glasaj protiv"
@@ -795,10 +807,10 @@
         "message": "Glasaj za"
     },
     "hideSegment": {
-        "message": "Sakri odsječak"
+        "message": "Sakrij segment"
     },
     "skipSegment": {
-        "message": "Preskoči odsječak"
+        "message": "Preskoči segment"
     },
     "dayAbbreviation": {
         "message": "d",
@@ -854,10 +866,10 @@
         "message": "Stvarno želiš vratiti sve postavke na standardne vrijednosti? To je nepovratna radnja."
     },
     "exportSegments": {
-        "message": "Izvezi odsječke"
+        "message": "Izvezi segmente"
     },
     "importSegments": {
-        "message": "Uvezi odsječke"
+        "message": "Uvezi segmente"
     },
     "Import": {
         "message": "Uvezi",
@@ -903,6 +915,22 @@
     "enterLicenseKey": {
         "message": "Upiši licencni ključ"
     },
+    "unsubmittedSegmentCounts": {
+        "message": "Trenutačno imaš {0} od {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Trenutačno nemaš neposlanih segmenata",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "neposlani segment",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "neposlana segmenta",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
     "videosSingular": {
         "message": "video",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
@@ -910,6 +938,22 @@
     "videosPlural": {
         "message": "videa",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Izbriši sve segmente",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Stvarno želiš izbrisati sve tvoje neposlane segmente?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Prikaži segmente",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Sakrij segmente",
+        "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
         "message": "ID videa",
@@ -925,5 +969,98 @@
     },
     "exportSegmentsAsURL": {
         "message": "Dijeli kao URL"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "%{seconds} s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow – Bolji YouTube naslovi i minijature",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing naslovi i minijature za bolje opise",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Pošalji"
+    },
+    "chooseDescriptive": {
+        "message": "Odaberi one s najboljim opisom"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Naslov originala"
+    },
+    "CurrentTime": {
+        "message": "Trenutačno vrijeme"
+    },
+    "resetCustomTitle": {
+        "message": "Vrati naslov na izvorni tekst"
+    },
+    "resetIcon": {
+        "message": "Resetiraj ikonu"
+    },
+    "Vote": {
+        "message": "Glasaj"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Ovdje upiši vlastiti naslov"
+    },
+    "VideoNotReady": {
+        "message": "Video nije spreman"
+    },
+    "FailedToRender": {
+        "message": "Neuspio prikaz",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Nedostaje HTML <canvas> element",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Greška tijekom prikazivanja",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Učitavanje nije uspjelo",
+        "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "Isključeno"
+    },
+    "CapitalizeWords": {
+        "message": "Koristi velika početna slova za riječi"
+    },
+    "keepUnsubmitted": {
+        "message": "Spremi poslane glasove"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Zadrži poslane glasove nakon glasovanja za prikazivanje tvojih odabranih naslova i minijatura na poslužitelju umjesto onih s najviše glasova."
+    },
+    "fetchTimeout": {
+        "message": "Vrijeme za preuzimanje podataka (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Prikaži izvorne naslove i minijature ako poslužitelj ne odgovori u roku ovog vremena."
+    },
+    "Enable": {
+        "message": "Uključi"
+    },
+    "Disable": {
+        "message": "Isključi"
+    },
+    "Titles": {
+        "message": "Naslovi",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Minijature",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Greška"
     }
 }

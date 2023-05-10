@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Tyhjennä ajat"
     },
-    "publicStats": {
-        "message": "Tätä käytetään julkisella tilastosivulla näyttääksesi kuinka paljon olet osallistunut. Näytä"
-    },
     "Username": {
         "message": "Käyttäjänimi"
     },
@@ -501,6 +498,12 @@
     },
     "customServerAddressDescription": {
         "message": "Osoite, jota SponsorBlock käyttää lähettääkseen kutsuja palvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Tiedot hakevan palvelimen osoite"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Osoite, jota käytetään kutsujen lähettämiseen datanhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
     },
     "save": {
         "message": "Tallenna"
@@ -1235,5 +1238,97 @@
     },
     "allowScrollingToEdit": {
         "message": "Salli aikojen muokkaaminen skrollaamalla"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Paremmat otsikot ja pikkukuvat YouTubessa",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "Submit": {
+        "message": "Lähetä"
+    },
+    "chooseDescriptive": {
+        "message": "Valitse kuvailevin"
+    },
+    "Original": {
+        "message": "Alkuperäinen"
+    },
+    "OriginalTitle": {
+        "message": "Alkuperäinen otsikko"
+    },
+    "CurrentTime": {
+        "message": "Nykyinen aika"
+    },
+    "resetCustomTitle": {
+        "message": "Palauta alkuperäisen otsikon teksti"
+    },
+    "resetIcon": {
+        "message": "Palautuskuvake"
+    },
+    "Vote": {
+        "message": "Äänestä"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Kirjoita otsikkosi tähän"
+    },
+    "VideoNotReady": {
+        "message": "Video ei ole valmis"
+    },
+    "FailedToRender": {
+        "message": "Renderöinti epäonnistui",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas-elementti puuttuu",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Poikkeus pikkukuvan renderöinnissä",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Lataus epäonnistui",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Otsikon muotoilu"
+    },
+    "Disabled": {
+        "message": "Pois käytöstä"
+    },
+    "CapitalizeWords": {
+        "message": "Käytä isoja alkukirjaimia"
+    },
+    "keepUnsubmitted": {
+        "message": "Talleta lähetetyt äänet"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pikkukuvat palvelimella olevien eniten äänestettyjen sijaan."
+    },
+    "fetchTimeout": {
+        "message": "Tietojen noudon aikakatkaisu (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
+    },
+    "Enable": {
+        "message": "Ota käyttöön"
+    },
+    "Disable": {
+        "message": "Poista käytöstä"
+    },
+    "Titles": {
+        "message": "Otsikot",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Pikkukuvat",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Virhe"
     }
 }

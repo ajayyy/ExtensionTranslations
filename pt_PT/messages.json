@@ -171,9 +171,6 @@
     "clearTimesButton": {
         "message": "Limpar Intervalos"
     },
-    "publicStats": {
-        "message": "Isto é usado na página pública de estatísticas que mostra o quanto já contríbuíu. Veje-a"
-    },
     "Username": {
         "message": "Nome de Utilizador"
     },
@@ -614,5 +611,9 @@
     },
     "segmentFetchFailureWarning": {
         "message": "Aviso: O servidor ainda não respondeu com segmentos. Pode, na verdade, estarem segmentos já submetidos neste vídeo, mas não os tenha recebido devido a problemas com o servidor."
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     }
 }
