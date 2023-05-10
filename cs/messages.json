@@ -1297,9 +1297,6 @@
         "message": "Načítání selhalo",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "Automatická úprava názvů"
-    },
     "Disabled": {
         "message": "Zakázáno"
     },
