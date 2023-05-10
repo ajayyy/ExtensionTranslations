@@ -922,5 +922,39 @@
     },
     "exportSegmentsAsURL": {
         "message": "Dijeli kao URL"
+    },
+    "Submit": {
+        "message": "Pošalji"
+    },
+    "chooseDescriptive": {
+        "message": "Odaberi one s najboljim opisom"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Naslov originala"
+    },
+    "CurrentTime": {
+        "message": "Trenutačno vrijeme"
+    },
+    "resetCustomTitle": {
+        "message": "Vrati naslov na izvorni tekst"
+    },
+    "resetIcon": {
+        "message": "Resetiraj ikonu"
+    },
+    "Vote": {
+        "message": "Glasaj"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Ovdje upiši vlastiti naslov"
+    },
+    "VideoNotReady": {
+        "message": "Video nije spreman"
+    },
+    "FailedToRender": {
+        "message": "Neuspio prikaz",
+        "description": "Thumbnail preview failed to render"
     }
 }
