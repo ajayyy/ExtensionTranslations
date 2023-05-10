@@ -1297,9 +1297,6 @@
         "message": "Laden fehlgeschlagen",
         "description": "Thumbnail failed to load"
     },
-    "titleFormatting": {
-        "message": "Automatische Titelumformatierung"
-    },
     "Disabled": {
         "message": "Deaktiviert"
     },
