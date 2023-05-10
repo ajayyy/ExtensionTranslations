@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "La dirección que SponsorBlock utiliza para hacer llamadas al servidor.\nA menos que tengas tu propia instancia del servidor, no debería cambiarse."
     },
+    "dataFetchingServerAddress": {
+        "message": "Dirección del servidor de obtención de datos"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "La dirección utilizada para hacer llamadas al servidor de obtención de datos.\nA menos que tenga su propia instancia de servidor, esto no debería cambiarse."
+    },
     "save": {
         "message": "Guardar"
     },
@@ -1236,5 +1242,97 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Mejores títulos y miniaturas en Youtube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Colaboración colectiva para que títulos y miniaturas sean descriptivos y no sensacionalistas",
+        "description": "Description of the Clickbait extension."
+    },
+    "Submit": {
+        "message": "Enviar"
+    },
+    "chooseDescriptive": {
+        "message": "Elige el más descriptivo"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Título original"
+    },
+    "CurrentTime": {
+        "message": "Tiempo Actual"
+    },
+    "resetCustomTitle": {
+        "message": "Restablecer título al texto original"
+    },
+    "resetIcon": {
+        "message": "Restablecer icono"
+    },
+    "Vote": {
+        "message": "Votar"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Escribe tu propio título aquí"
+    },
+    "VideoNotReady": {
+        "message": "El vídeo no está listo"
+    },
+    "FailedToRender": {
+        "message": "Error al procesar",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas faltante",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Excepción al procesar",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Error al cargar",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Reformateo de título automático"
+    },
+    "Disabled": {
+        "message": "Deshabilitado"
+    },
+    "CapitalizeWords": {
+        "message": "Palabras Mayúsculas"
+    },
+    "keepUnsubmitted": {
+        "message": "Almacenar Votos Enviados"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
+    },
+    "fetchTimeout": {
+        "message": "Tiempo de espera de datos (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Mostrar títulos originales y miniaturas si el servidor no responde en este tiempo."
+    },
+    "Enable": {
+        "message": "Habilitar"
+    },
+    "Disable": {
+        "message": "Deshabilitar"
+    },
+    "Titles": {
+        "message": "Títulos",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniaturas",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Error"
     }
 }
