@@ -499,6 +499,9 @@
     "customServerAddressDescription": {
         "message": "Адресът, който SponsorBlock използва за осъществяване на заявки към сървъра.\nОсвен ако нямате собствен екземпляр на сървър, това не трябва да се променя."
     },
+    "dataFetchingServerAddress": {
+        "message": "Адрес на сървъра за извличане на данни"
+    },
     "save": {
         "message": "Запазване"
     },
