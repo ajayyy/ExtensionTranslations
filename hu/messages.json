@@ -1306,6 +1306,12 @@
     "CapitalizeWords": {
         "message": "Nagybetűvel kezdődő szavak"
     },
+    "TitleCase": {
+        "message": "Minden szó kezdődjön nagybetűvel"
+    },
+    "SentenceCase": {
+        "message": "Cím kezdődjön nagybetűvel"
+    },
     "keepUnsubmitted": {
         "message": "Beküldött szavazatok tárolása"
     },
