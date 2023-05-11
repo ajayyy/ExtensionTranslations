@@ -1,10 +1,10 @@
 {
     "fullName": {
-        "message": "SponserBlock for YouTube - 動画の広告部分を自動でスキップ",
+        "message": "SponserBlock for YouTube - 動画の広告部分を自動スキップ",
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "YouTube動画の提供表示や登録のお願いをスキップします。動画の広告部分を報告して、みんなが時間を節約できるようにしましょう。",
+        "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
     "400": {
