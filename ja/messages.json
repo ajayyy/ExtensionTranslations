@@ -601,7 +601,7 @@
         "message": "スポンサー"
     },
     "category_sponsor_description": {
-        "message": "報酬のある販売促進、製品紹介、および直接広告です。自己販促や好きな運動・製作者・Webサイト・製品に対する無報酬での宣伝とは異なります。"
+        "message": "報酬のある販売促進、製品紹介、および直接広告です。自己販促や、動機や好きな製作者・サイト・製品に対する無報酬での表明とは異なります。"
     },
     "category_sponsor_guideline1": {
         "message": "有料のプロモーション"
@@ -641,7 +641,7 @@
         "message": "行動を促すメッセージ（チャンネル登録等）"
     },
     "category_interaction_description": {
-        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、具体的な商品についてのシーンは、セルフプロモーションに分類すべきです。"
+        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かついてのシーンは、自己宣伝に分類すべきです。"
     },
     "category_interaction_guideline1": {
         "message": "高評価、登録、フォローの短いお願い"
@@ -680,7 +680,7 @@
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
     "category_preview": {
-        "message": "予告と前回の粗筋"
+        "message": "予告や以前のあらすじ"
     },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
@@ -746,7 +746,7 @@
         "message": "チャプター"
     },
     "category_chapter_description": {
-        "message": "動画の主要なセクションを説明するカスタムのチャプター名"
+        "message": "動画の主な場面を説明する独自のチャプター名"
     },
     "category_chapter_guideline1": {
         "message": "広告主のブランド名には言及しない"
@@ -1030,7 +1030,7 @@
         "message": "謝辞"
     },
     "LearnMore": {
-        "message": "さらに詳しく"
+        "message": "詳細を確認"
     },
     "FullDetails": {
         "message": "詳細"
@@ -1296,6 +1296,9 @@
     "FailedToLoad": {
         "message": "読み込みに失敗",
         "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "題名の形式"
     },
     "Disabled": {
         "message": "無効化済み"
