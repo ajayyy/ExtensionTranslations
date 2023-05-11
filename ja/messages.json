@@ -84,10 +84,10 @@
         "message": "スポンサー表示の投稿中にエラーが発生しました。しばらく経ってからもう一度お試しください。"
     },
     "sponsorFound": {
-        "message": "この動画用のセグメントはデータベースに登録されています！"
+        "message": "データベースにこの動画のセグメントの登録があります！"
     },
     "sponsor404": {
-        "message": "セグメントが見つかりませんでした"
+        "message": "セグメントの登録なし"
     },
     "sponsorStart": {
         "message": "セグメント開始を記録"
@@ -117,7 +117,7 @@
         "message": "接続エラーが発生しました。 エラーコード: "
     },
     "segmentsStillLoading": {
-        "message": "セグメントがまだ読み込み中です..."
+        "message": "セグメントはまだ読み込み中です..."
     },
     "clearTimes": {
         "message": "セグメントを消去"
@@ -132,7 +132,7 @@
         "message": "閉じるアイコン"
     },
     "OpenSubmissionMenu": {
-        "message": "提出メニューを開く"
+        "message": "登録メニューを開く"
     },
     "sortSegments": {
         "message": "セグメントを並び替え"
@@ -162,11 +162,11 @@
         "message": "提出"
     },
     "submissionEditHint": {
-        "message": "提出をクリックするとセクション編集画面が表示されます",
+        "message": "登録のクリックでセクション編集画面を表示",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "ヒント: オプションから提出時のキー割り当てを設定できます"
+        "message": "ヒント: オプションに提出用のキー割り当ての設定があります"
     },
     "clearTimesButton": {
         "message": "時間を消去"
@@ -250,7 +250,7 @@
         "message": "動画がまだ新しくセグメントが見つからない場合は、動画を視聴している間、数分おきにセグメントを検索し続けます。"
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "提出権限を持っていないカテゴリーも提出メニューに表示する"
+        "message": "登録権限のないカテゴリーも登録メニューに表示する"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "一部のカテゴリーは提出に一定以上の評判が必要です"
@@ -326,10 +326,10 @@
         "message": "接続がタイムアウトになりました。インターネット接続をご確認ください。接続に問題がない場合、サーバーが混雑またはダウンしている可能性があります。"
     },
     "disableSkipping": {
-        "message": "スキップは有効です"
+        "message": "スキップ有効"
     },
     "enableSkipping": {
-        "message": "スキップは無効です"
+        "message": "スキップ無効"
     },
     "yourWork": {
         "message": "あなたの貢献",
@@ -822,10 +822,10 @@
         "message": "ベータテストサーバーを有効にする"
     },
     "whatEnableTestingServer": {
-        "message": "提出したセグメントと投票がメインサーバーで**取り扱われなく**なります。試験目的にのみ利用してください。"
+        "message": "登録したセグメントと投票がメインサーバーには**蓄積されなく**なります。試験目的にのみご利用ください。"
     },
     "testingServerWarning": {
-        "message": "テストサーバーに接続している間、全ての提出・投票はメインサーバーでは取り扱われなくなります。実際の提出・投票を行う際は、この設定を無効にしてください。"
+        "message": "テストサーバーに接続中は、すべての登録・投票はメインサーバーに蓄積されなくなります。実際の登録・投票を行う場合、この設定を無効にしてください。"
     },
     "bracketNow": {
         "message": "(今)"
