@@ -1302,6 +1302,12 @@
     "CapitalizeWords": {
         "message": "Käytä isoja alkukirjaimia"
     },
+    "TitleCase": {
+        "message": "Englanninkielisen otsikkotyylin aakkoset"
+    },
+    "SentenceCase": {
+        "message": "Virketyylin aakkoset"
+    },
     "keepUnsubmitted": {
         "message": "Talleta lähetetyt äänet"
     },
