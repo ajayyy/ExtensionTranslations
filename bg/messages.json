@@ -1297,11 +1297,20 @@
         "message": "Неуспешно зареждане",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Формат на заглавието"
+    },
     "Disabled": {
         "message": "Деактивирано"
     },
     "CapitalizeWords": {
         "message": "Думи с главни букви"
+    },
+    "TitleCase": {
+        "message": "Заглавни букви"
+    },
+    "SentenceCase": {
+        "message": "Изречение"
     },
     "keepUnsubmitted": {
         "message": "Запазване на подадените гласове"
