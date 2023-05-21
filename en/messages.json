@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "The address used to make calls to the data fetching server.\nUnless you have your own server instance, this should not be changed."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Thumbnail Cache Server Address"
+    },
     "save": {
         "message": "Save"
     },
