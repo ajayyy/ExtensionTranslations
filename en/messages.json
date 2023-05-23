@@ -1343,5 +1343,8 @@
     },
     "Error": {
         "message": "Error"
+    },
+    "ShowOriginal": {
+        "message": "Show Original Details"
     }
 }
