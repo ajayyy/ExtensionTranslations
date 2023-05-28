@@ -1208,5 +1208,11 @@
     "videoID": {
         "message": "ID videa",
         "description": "Header of the unsubmitted segments list"
+    },
+    "TitleCase": {
+        "message": "Prvé písmená slov veľké"
+    },
+    "SentenceCase": {
+        "message": "Prvé písmeno vety veľké"
     }
 }

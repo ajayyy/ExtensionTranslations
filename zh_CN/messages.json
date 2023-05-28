@@ -1237,9 +1237,6 @@
         "message": "{seconds}秒",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
-    "Submit": {
-        "message": "提交"
-    },
     "Original": {
         "message": "原始"
     },

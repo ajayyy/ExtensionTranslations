@@ -503,7 +503,7 @@
         "message": "Tiedot hakevan palvelimen osoite"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "Osoite, jota käytetään kutsujen lähettämiseen datanhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
+        "message": "Osoite, jota käytetään kutsujen lähettämiseen tietojenhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
     },
     "save": {
         "message": "Tallenna"
@@ -1247,8 +1247,9 @@
         "message": "DeArrow - Paremmat otsikot ja pikkukuvat YouTubessa",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
-    "Submit": {
-        "message": "Lähetä"
+    "deArrowDescription": {
+        "message": "Käyttäjälähteinen otsikoiden ja pikkukuvien vaihtaminen sensaatiomaisista mahdollisimman kuvaaviksi",
+        "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
         "message": "Valitse kuvailevin"
@@ -1303,10 +1304,10 @@
         "message": "Käytä isoja alkukirjaimia"
     },
     "TitleCase": {
-        "message": "Englanninkielisen otsikkotyylin aakkoset"
+        "message": "Englanninkielisen otsikkotyylin kirjainkoko"
     },
     "SentenceCase": {
-        "message": "Virketyylin aakkoset"
+        "message": "Virketyylin kirjainkoko"
     },
     "keepUnsubmitted": {
         "message": "Talleta lähetetyt äänet"
@@ -1322,9 +1323,6 @@
     },
     "Enable": {
         "message": "Ota käyttöön"
-    },
-    "Disable": {
-        "message": "Poista käytöstä"
     },
     "Titles": {
         "message": "Otsikot",

@@ -1251,9 +1251,6 @@
         "message": "Colaboración colectiva para que títulos y miniaturas sean descriptivos y no sensacionalistas",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Enviar"
-    },
     "chooseDescriptive": {
         "message": "Elige el más descriptivo"
     },
@@ -1304,7 +1301,7 @@
         "message": "Deshabilitado"
     },
     "CapitalizeWords": {
-        "message": "Palabras Mayúsculas"
+        "message": "Poner palabras en mayúsculas"
     },
     "keepUnsubmitted": {
         "message": "Almacenar Votos Enviados"
@@ -1320,9 +1317,6 @@
     },
     "Enable": {
         "message": "Habilitar"
-    },
-    "Disable": {
-        "message": "Deshabilitar"
     },
     "Titles": {
         "message": "Títulos",

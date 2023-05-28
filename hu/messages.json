@@ -1251,9 +1251,6 @@
         "message": "Címek és indexképek lecserélése a közösség által, hogy szenzációhajhászás helyett leírók legyenek",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Beküldés"
-    },
     "chooseDescriptive": {
         "message": "Válaszd ki a legleíróbbat"
     },
@@ -1326,9 +1323,6 @@
     },
     "Enable": {
         "message": "Engedélyez"
-    },
-    "Disable": {
-        "message": "Letilt"
     },
     "Titles": {
         "message": "Címek",
