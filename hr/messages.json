@@ -982,9 +982,6 @@
         "message": "Crowdsourcing naslovi i minijature za bolje opise",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Pošalji"
-    },
     "chooseDescriptive": {
         "message": "Odaberi one s najboljim opisom"
     },
@@ -1028,11 +1025,20 @@
         "message": "Učitavanje nije uspjelo",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Format nalsova"
+    },
     "Disabled": {
         "message": "Isključeno"
     },
     "CapitalizeWords": {
         "message": "Koristi velika početna slova za riječi"
+    },
+    "TitleCase": {
+        "message": "Velika početna slova u naslovu"
+    },
+    "SentenceCase": {
+        "message": "Veliko početno slovo u rečenici"
     },
     "keepUnsubmitted": {
         "message": "Spremi poslane glasove"
@@ -1048,9 +1054,6 @@
     },
     "Enable": {
         "message": "Uključi"
-    },
-    "Disable": {
-        "message": "Isključi"
     },
     "Titles": {
         "message": "Naslovi",
