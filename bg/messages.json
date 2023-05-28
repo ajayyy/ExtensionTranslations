@@ -1251,9 +1251,6 @@
         "message": "Заглавията и миниатюрите трябва да са описателни, а не сензационни",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Изпращане"
-    },
     "chooseDescriptive": {
         "message": "Изберете най-описателното"
     },
@@ -1326,9 +1323,6 @@
     },
     "Enable": {
         "message": "Активиране"
-    },
-    "Disable": {
-        "message": "Деактивиране"
     },
     "Titles": {
         "message": "Заглавия",
