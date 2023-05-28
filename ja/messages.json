@@ -1251,9 +1251,6 @@
         "message": "クラウドソーシングにより、人目を引くような題名と画像ではなく、説明的なものに改善する",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "送信"
-    },
     "chooseDescriptive": {
         "message": "最も説明的なものを選択"
     },
@@ -1317,9 +1314,6 @@
     },
     "Enable": {
         "message": "有効"
-    },
-    "Disable": {
-        "message": "無効"
     },
     "Titles": {
         "message": "題名",
