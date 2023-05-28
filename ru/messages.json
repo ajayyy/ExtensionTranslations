@@ -1251,9 +1251,6 @@
         "message": "Заменяет сенсационные заголовки и превью видео на более точные, предложенные сообществом",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Отправить"
-    },
     "chooseDescriptive": {
         "message": "Выберите самое точное"
     },
@@ -1326,9 +1323,6 @@
     },
     "Enable": {
         "message": "Включить"
-    },
-    "Disable": {
-        "message": "Выключить"
     },
     "Titles": {
         "message": "Заголовки",
