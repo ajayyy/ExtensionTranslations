@@ -1254,9 +1254,6 @@
         "message": "Crowdsourcing titles and thumbnails to be descriptive and not sensational",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Submit"
-    },
     "chooseDescriptive": {
         "message": "Choose the most descriptive"
     },
@@ -1335,9 +1332,6 @@
     },
     "Enable": {
         "message": "Enable"
-    },
-    "Disable": {
-        "message": "Disable"
     },
     "Titles": {
         "message": "Titles",
