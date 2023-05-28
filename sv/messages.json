@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "Adressen som används för att kommunicera till datahämtningsservern.\nOm du inte har din egen serverinstans ska detta inte ändras."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Miniatyr-cachens serveradress"
+    },
     "save": {
         "message": "Spara"
     },
@@ -1303,6 +1306,12 @@
     "CapitalizeWords": {
         "message": "Versalisera ord"
     },
+    "TitleCase": {
+        "message": "Titelskiftläge"
+    },
+    "SentenceCase": {
+        "message": "Meningsskiftläge"
+    },
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
     },
@@ -1314,6 +1323,12 @@
     },
     "fetchTimeoutDescription": {
         "message": "Visa originaltitlar och miniatyrer om servern inte svarar på så här lång tid."
+    },
+    "renderTimeout": {
+        "message": "Timeout för miniatyrbilder (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Visa originalminiatyrer om det inte går att generera en miniatyrbild under så här lång tid."
     },
     "Enable": {
         "message": "Aktivera"
@@ -1328,5 +1343,8 @@
     },
     "Error": {
         "message": "Fel"
+    },
+    "ShowOriginal": {
+        "message": "Visa originaldetaljer"
     }
 }
