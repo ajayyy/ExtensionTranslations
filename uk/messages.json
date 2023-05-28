@@ -499,6 +499,12 @@
     "customServerAddressDescription": {
         "message": "Адреса, за якою SponsorBlock звертається до сервера.\nМіняйте тільки якщо Ви підняли свій сервер."
     },
+    "dataFetchingServerAddress": {
+        "message": "Адреса сервера для отримання даних"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Адреса, за якою SponsorBlock отримує дані.\nМіняйте тільки якщо Ви підняли свій сервер."
+    },
     "save": {
         "message": "Зберегти"
     },
@@ -1227,7 +1233,106 @@
     "exportSegmentsAsURL": {
         "message": "Поділитися посиланням"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Попередження: сервер ще не відповів сегментами. Можливо, у цьому відео вже є сегменти, але ви просто не отримали їх через проблеми з сервером."
+    },
     "allowScrollingToEdit": {
         "message": "Дозволити прокручування для редагування часу"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}с",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "Derow – Покращення заголовків та мініатюр у YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Підписи і ескізи Краудсорсингу мають бути описаними та не сенсаційними",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Виберіть найбільш описану"
+    },
+    "Original": {
+        "message": "Оригінал"
+    },
+    "OriginalTitle": {
+        "message": "Оригінальна назва"
+    },
+    "CurrentTime": {
+        "message": "Поточний час"
+    },
+    "resetCustomTitle": {
+        "message": "Скинути заголовок до оригінального тексту"
+    },
+    "resetIcon": {
+        "message": "Оригінальна іконка"
+    },
+    "Vote": {
+        "message": "Голосувати"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Введіть вашу назву тут"
+    },
+    "VideoNotReady": {
+        "message": "Відео не готове"
+    },
+    "FailedToRender": {
+        "message": "Помилка рендерингу",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Canvas відсутній",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Виняток під час рендерингу",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Не вдалося завантажити",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Формат заголовка"
+    },
+    "Disabled": {
+        "message": "Вимкнено"
+    },
+    "CapitalizeWords": {
+        "message": "Слова З Великої Літери"
+    },
+    "TitleCase": {
+        "message": "З великої літери"
+    },
+    "SentenceCase": {
+        "message": "Як у реченнях"
+    },
+    "keepUnsubmitted": {
+        "message": "Зберігати надіслані голоси"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовок і мініатюру, а не топ голосів на сервері."
+    },
+    "fetchTimeout": {
+        "message": "Час очікування завантаження даних (мс)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Показувати оригінальні назви та мініатюри, якщо сервер не відповідає багато часу."
+    },
+    "Enable": {
+        "message": "Увімкнути"
+    },
+    "Titles": {
+        "message": "Заголовки",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Мініатюри",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Помилка"
     }
 }
