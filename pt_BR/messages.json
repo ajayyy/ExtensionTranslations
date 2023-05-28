@@ -1236,5 +1236,66 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "chooseDescriptive": {
+        "message": "Escolha o mais descritivo"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Título Original"
+    },
+    "CurrentTime": {
+        "message": "Minuto Atual"
+    },
+    "resetIcon": {
+        "message": "Redefinir ícone"
+    },
+    "Vote": {
+        "message": "Votar"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Digite seu próprio título aqui"
+    },
+    "VideoNotReady": {
+        "message": "Video não está pronto"
+    },
+    "FailedToRender": {
+        "message": "Falha ao renderizar",
+        "description": "Thumbnail preview failed to render"
+    },
+    "FailedToLoad": {
+        "message": "Falha ao carregar",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Formato do título"
+    },
+    "Disabled": {
+        "message": "Desativado"
+    },
+    "keepUnsubmitted": {
+        "message": "Armazenar votos enviados"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Manter votos enviados após votar para mostrar os títulos e miniaturas que você escolheu em vez do mais votado no servidor."
+    },
+    "fetchTimeoutDescription": {
+        "message": "Mostrar títulos e miniaturas originais se o servidor não responder neste período de tempo."
+    },
+    "Enable": {
+        "message": "Ativar"
+    },
+    "Titles": {
+        "message": "Títulos",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniaturas",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Erro"
     }
 }
