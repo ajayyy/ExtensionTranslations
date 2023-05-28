@@ -1251,9 +1251,6 @@
         "message": "Crowdsourcing Titel und und Thumbnails um Informativ und weniger Sensationell zu sein",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Senden"
-    },
     "chooseDescriptive": {
         "message": "Wähle die am besten beschreibende"
     },
@@ -1306,6 +1303,12 @@
     "CapitalizeWords": {
         "message": "Wörter groß schreiben"
     },
+    "TitleCase": {
+        "message": "Wortanfänge groß"
+    },
+    "SentenceCase": {
+        "message": "Nur 1. Wort des Satzes groß"
+    },
     "keepUnsubmitted": {
         "message": "Speichere übermittelte Abstimmungen"
     },
@@ -1320,9 +1323,6 @@
     },
     "Enable": {
         "message": "Aktivieren"
-    },
-    "Disable": {
-        "message": "Deaktivieren"
     },
     "Titles": {
         "message": "Titel",
