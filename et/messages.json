@@ -1245,9 +1245,6 @@
         "message": "Rahva valitud pealkirjad ja pisipildid, mis on kirjeldavad, mitte pilkupüüdvad",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Saada"
-    },
     "chooseDescriptive": {
         "message": "Vali kõige kirjeldavam"
     },
@@ -1311,9 +1308,6 @@
     },
     "Enable": {
         "message": "Luba"
-    },
-    "Disable": {
-        "message": "Keela"
     },
     "Titles": {
         "message": "Pealkirjad",
