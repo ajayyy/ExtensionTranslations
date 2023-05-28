@@ -1,20 +1,20 @@
 {
     "fullName": {
-        "message": "SponserBlock for YouTube - 動画の広告セクションを自動でスキップする",
+        "message": "SponserBlock for YouTube - 動画の広告部分を自動スキップ",
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "YouTube動画の提供表示や登録のお願いをスキップします。動画の広告部分を報告して、みんなが時間を節約できるようにしましょう。",
+        "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
     "400": {
         "message": "サーバーがこのリクエストは無効であると返答しました"
     },
     "429": {
-        "message": "一つの動画に対してあまりに多くのセグメントを提案しています。本当にこれだけ必要ですか？"
+        "message": "一つの動画に対してあまりに多くのセグメントを登録しています。本当にこれだけ必要ですか？"
     },
     "409": {
-        "message": "これは既に提出されています。"
+        "message": "これは既に登録済みです。"
     },
     "channelWhitelisted": {
         "message": "チャンネルをホワイトリストに登録しました！"
@@ -39,13 +39,13 @@
         "message": "動画時間の横に現在のセグメントを表示"
     },
     "upvoteButtonInfo": {
-        "message": "この提出を高評価"
+        "message": "この登録を高評価"
     },
     "reportButtonTitle": {
         "message": "報告"
     },
     "reportButtonInfo": {
-        "message": "不正確な提出として報告"
+        "message": "不正確な登録として報告"
     },
     "Dismiss": {
         "message": "無視"
@@ -81,13 +81,13 @@
         "message": "本当に消去しますか？\n\n"
     },
     "Unknown": {
-        "message": "スポンサー表示の投稿中にエラーが発生しました。しばらく経ってからもう一度お試しください。"
+        "message": "広告箇所の登録中にエラーが発生しました。後で再度お試しください。"
     },
     "sponsorFound": {
-        "message": "この動画用のセグメントはデータベースに登録されています！"
+        "message": "データベースにこの動画のセグメントの登録があります！"
     },
     "sponsor404": {
-        "message": "セグメントが見つかりませんでした"
+        "message": "セグメントの登録なし"
     },
     "sponsorStart": {
         "message": "セグメント開始を記録"
@@ -117,7 +117,7 @@
         "message": "接続エラーが発生しました。 エラーコード: "
     },
     "segmentsStillLoading": {
-        "message": "セグメントがまだ読み込み中です..."
+        "message": "セグメントはまだ読み込み中です..."
     },
     "clearTimes": {
         "message": "セグメントを消去"
@@ -132,13 +132,13 @@
         "message": "閉じるアイコン"
     },
     "OpenSubmissionMenu": {
-        "message": "提出メニューを開く"
+        "message": "登録メニューを開く"
     },
     "sortSegments": {
         "message": "セグメントを並び替え"
     },
     "submitCheck": {
-        "message": "提出しますか？"
+        "message": "送信しますか？"
     },
     "whitelistChannel": {
         "message": "チャンネルをホワイトリストに追加"
@@ -150,7 +150,7 @@
         "message": "セグメントに投票"
     },
     "Submissions": {
-        "message": "提出数"
+        "message": "登録数"
     },
     "savedPeopleFrom": {
         "message": "あなたが節約したみんなの時間: "
@@ -159,14 +159,14 @@
         "message": "リーダーボード"
     },
     "recordTimesDescription": {
-        "message": "提出"
+        "message": "登録"
     },
     "submissionEditHint": {
-        "message": "提出をクリックするとセクション編集画面が表示されます",
+        "message": "登録のクリックでセクション編集画面を表示",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "ヒント: オプションから提出時のキー割り当てを設定できます"
+        "message": "ヒント: 登録用のキー割り当ての設定も利用できます"
     },
     "clearTimesButton": {
         "message": "時間を消去"
@@ -199,7 +199,7 @@
         "message": "YouTubeプレイヤーにボタンを表示しない"
     },
     "hideButtonsDescription": {
-        "message": "YouTubeプレイヤーのセグメント提出ボタンを非表示にします。"
+        "message": "YouTubeプレイヤーのセグメント登録ボタンを非表示にします。"
     },
     "showSkipButton": {
         "message": "「ハイライトまでスキップ」ボタンをプレイヤーに常に表示する"
@@ -235,7 +235,7 @@
         "message": "あなたが低評価したセグメントが再読み込み後も非表示のままになります"
     },
     "trackDownvotesWarning": {
-        "message": "警告: 無効化するとこれまでの低評価記録が全て削除されます"
+        "message": "警告: 無効化するとこれまでの低評価記録がすべて削除されます"
     },
     "enableQueryByHashPrefix": {
         "message": "ハッシュプレフィックスを使って要求"
@@ -250,10 +250,10 @@
         "message": "動画がまだ新しくセグメントが見つからない場合は、動画を視聴している間、数分おきにセグメントを検索し続けます。"
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "提出権限を持っていないカテゴリーも提出メニューに表示する"
+        "message": "登録権限のないカテゴリーも登録メニューに表示する"
     },
     "whatShowCategoryWithoutPermission": {
-        "message": "一部のカテゴリーは提出に一定以上の評判が必要です"
+        "message": "一部のカテゴリーに登録するには、一定以上の信用が必要です"
     },
     "showNotice": {
         "message": "再度通知を表示する"
@@ -308,7 +308,7 @@
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "セグメントを提出",
+        "message": "セグメントの登録",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -326,10 +326,10 @@
         "message": "接続がタイムアウトになりました。インターネット接続をご確認ください。接続に問題がない場合、サーバーが混雑またはダウンしている可能性があります。"
     },
     "disableSkipping": {
-        "message": "スキップは有効です"
+        "message": "スキップ有効"
     },
     "enableSkipping": {
-        "message": "スキップは無効です"
+        "message": "スキップ無効"
     },
     "yourWork": {
         "message": "あなたの貢献",
@@ -485,10 +485,10 @@
         "message": "スキップ通知が画面上に表示される時間です。手動でスキップした場合は、より長く表示される可能性があります。"
     },
     "shortCheck": {
-        "message": "提出しようとしている区間が個人設定における最短時間よりも短くなっています。これは既に当該区間が提出されていながらも、単に個人設定によって無効化されているだけという可能性があります。本当に提出しますか？"
+        "message": "この登録の長さは、あなたが設定した最小持続時間よりも短いです。既に登録されているけど、この設定によって非表示になっているだけという可能性もあります。本当に提出しますか？"
     },
     "liveOrPremiere": {
-        "message": "ライブ配信中の動画やプレミア公開中の動画ではセグメントの提出はできません。配信が終了するまで待つか、ページを再読み込みしてセグメントがまだ有効かご確認ください。"
+        "message": "ライブ配信中の動画やプレミア公開の動画ではセグメントの登録はできません。配信が終了するまで待つか、ページを再読み込みしてセグメントがまだ有効かご確認ください。"
     },
     "showUploadButton": {
         "message": "アップロードボタンを表示"
@@ -521,7 +521,7 @@
         "message": "m.youtube.com に対応しています"
     },
     "exportOptions": {
-        "message": "全ての設定をインポート/エクスポート"
+        "message": "すべての設定をインポート/エクスポート"
     },
     "exportOptionsCopy": {
         "message": "編集/コピー"
@@ -545,10 +545,10 @@
         "message": "JSONの書式が正しくありません。設定は変更されませんでした。"
     },
     "confirmNoticeTitle": {
-        "message": "セグメントを送信"
+        "message": "セグメントを登録"
     },
     "submit": {
-        "message": "提出"
+        "message": "送信"
     },
     "cancel": {
         "message": "キャンセル"
@@ -560,7 +560,7 @@
         "message": "プレビュー"
     },
     "unsubmitted": {
-        "message": "未提出"
+        "message": "未送信"
     },
     "inspect": {
         "message": "調査"
@@ -601,7 +601,7 @@
         "message": "スポンサー"
     },
     "category_sponsor_description": {
-        "message": "報酬のある販売促進、製品紹介、および直接広告です。自己販促や好きな運動・製作者・Webサイト・製品に対する無報酬での宣伝とは異なります。"
+        "message": "報酬のある販売促進、製品紹介、および直接広告です。自己販促や、動機や好きな製作者・サイト・製品に対する無報酬での表明とは異なります。"
     },
     "category_sponsor_guideline1": {
         "message": "有料のプロモーション"
@@ -641,7 +641,7 @@
         "message": "行動を促すメッセージ（チャンネル登録等）"
     },
     "category_interaction_description": {
-        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、具体的な商品についてのシーンは、セルフプロモーションに分類すべきです。"
+        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かついてのシーンは、自己宣伝に分類すべきです。"
     },
     "category_interaction_guideline1": {
         "message": "高評価、登録、フォローの短いお願い"
@@ -680,7 +680,7 @@
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
     "category_preview": {
-        "message": "予告と前回の粗筋"
+        "message": "予告や以前のあらすじ"
     },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
@@ -746,7 +746,7 @@
         "message": "チャプター"
     },
     "category_chapter_description": {
-        "message": "動画の主要なセクションを説明するカスタムのチャプター名"
+        "message": "動画の主な場面を説明する独自のチャプター名"
     },
     "category_chapter_guideline1": {
         "message": "広告主のブランド名には言及しない"
@@ -805,7 +805,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "未確定の色",
+        "message": "未送信の色",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
@@ -822,10 +822,10 @@
         "message": "ベータテストサーバーを有効にする"
     },
     "whatEnableTestingServer": {
-        "message": "提出したセグメントと投票がメインサーバーで**取り扱われなく**なります。試験目的にのみ利用してください。"
+        "message": "登録したセグメントと投票がメインサーバーには**蓄積されなく**なります。試験目的にのみご利用ください。"
     },
     "testingServerWarning": {
-        "message": "テストサーバーに接続している間、全ての提出・投票はメインサーバーでは取り扱われなくなります。実際の提出・投票を行う際は、この設定を無効にしてください。"
+        "message": "テストサーバーに接続中は、すべての登録・投票はメインサーバーに蓄積されなくなります。実際の登録・投票を行う場合、この設定を無効にしてください。"
     },
     "bracketNow": {
         "message": "(今)"
@@ -837,14 +837,14 @@
         "message": "カテゴリーを選択"
     },
     "enableThisCategoryFirst": {
-        "message": "\"{0}\" のカテゴリでセグメントを送信するには、オプションでセグメントを有効にする必要があります。オプション画面にリダイレクトします。",
+        "message": "カテゴリ「{0}」のセグメントを送信するには、このカテゴリの設定を有効にする必要があります。今すぐ設定画面に転送します。",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
         "message": "警告: この種類のセグメントは一度に最大一つだけ有効にすることができます。複数送信するとランダムなものが表示されます。"
     },
     "youMustSelectACategory": {
-        "message": "送信するすべてのセグメントにカテゴリを選択する必要があります！"
+        "message": "登録するすべてのセグメントのカテゴリを選択してください！"
     },
     "bracketEnd": {
         "message": "（終了）"
@@ -885,7 +885,7 @@
         "message": "スキップする前にチャンネルチェックを強制する"
     },
     "whatForceChannelCheck": {
-        "message": "デフォルト設定では、チャンネル情報を取得する前にセグメントをスキップします。デフォルト設定では、ホワイトリストに追加されているチャンネルでも動画の先頭部分にあるセグメントがスキップされる場合があります。この設定を有効にするとこの挙動が回避されますが、チャンネルIDの取得に時間がかかるため、すべてのスキップに遅延が発生します。高速なインターネット回線を使用している場合は気にならないかもしれません。"
+        "message": "標準設定では、チャンネル情報を取得する前にセグメントをスキップします。標準設定では、ホワイトリストに追加されているチャンネルでも動画の先頭部分にあるセグメントがスキップされる場合があります。この設定を有効にするとこの挙動が回避されますが、チャンネルIDの取得に時間がかかるため、すべてのスキップに遅延が発生します。高速なインターネット回線を使用している場合は気にならないかもしれません。"
     },
     "forceChannelCheckPopup": {
         "message": "「スキップする前にチャンネルチェックを強制する」を有効にしてみてください"
@@ -904,7 +904,7 @@
         "message": "カテゴリーを変更"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "この動画は音楽として分類されています。本当にこの動画にスポンサー部分がありますか？ このセグメントが実際には「音楽以外のセグメント」である場合、設定画面からこのカテゴリーを有効にしてください。「広告」の代わりに「音楽以外」としてセグメントを提出できます。お困りの場合は、ガイドラインを参照してください。"
+        "message": "この動画は音楽として分類されています。本当にこの動画に宣伝部分がありますか？ このセグメントが実際には「音楽以外のセグメント」である場合、設定からこのカテゴリーを有効にしてください。「スポンサー」ではなく「音楽以外」としてセグメントを登録できます。お困りの場合は、ガイドラインを参照してください。"
     },
     "multipleSegments": {
         "message": "複数のセグメント"
@@ -913,7 +913,7 @@
         "message": "ガイドライン"
     },
     "readTheGuidelines": {
-        "message": "ガイドラインを読んでください！！",
+        "message": "ガイドラインをご覧ください！",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
@@ -979,7 +979,7 @@
         "message": "以下の設定を確認してください"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "多くの機能がデフォルトでは無効となっています。導入/終了シーンをスキップしたり、Invidiousで使用したりするにはこの下で有効にしてください。また画面の表示設定を切り替えることもできます。"
+        "message": "初期設定では多くの機能が無効になっています。導入/終了シーンをスキップしたり、Invidiousで使用するなど、以下から有効にできます。また表示されるパーツの設定もできます。"
     },
     "helpPageHowSkippingWorks": {
         "message": "スキップの仕組み"
@@ -991,13 +991,13 @@
         "message": "セグメントをスキップする度に通知が表示されます。セグメントの範囲がおかしいと思ったら、そのセグメントを低評価してください。ポップアップ画面でも同様に投票ができます。"
     },
     "Submitting": {
-        "message": "提出する"
+        "message": "登録する"
     },
     "helpPageSubmitting1": {
-        "message": "提出するにはポップアップの「セグメント開始を記録」ボタン、またはビデオプレーヤー内にあるボタンを押してください。"
+        "message": "登録するには「セグメント開始を記録」ボタンを押します。これはポップアップ、またはビデオプレーヤー内にあります。"
     },
     "helpPageSubmitting2": {
-        "message": "再生ボタンをクリックするとセグメントの開始、停止アイコンをクリックすると終了となります。 複数のスポンサーを用意してから送信ボタンを押すことができます。アップロードボタンをクリックすると提出されます。ゴミ箱をクリックすると削除されます。"
+        "message": "再生ボタンをクリックするとセグメントの開始、停止アイコンをクリックすると終了となります。 複数の広告部分を指定してから送信ボタンを押すことができます。アップロードボタンをクリックすると登録メニューが表示されます。ゴミ箱をクリックすると削除されます。"
     },
     "Editing": {
         "message": "編集する"
@@ -1018,7 +1018,7 @@
         "message": "データベースは公開されており、こちらから利用できます:"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "ソースコードは自由に利用できます。運営になにがあろうとも、あなたの貢献（提出したセグメント）が失われることはありません。"
+        "message": "ソースコードは自由に利用できます。そのため、運営になにがあろうとも、あなたが登録したデータが失われることはありません。"
     },
     "helpPageNews": {
         "message": "最新情報と制作秘話"
@@ -1030,13 +1030,13 @@
         "message": "謝辞"
     },
     "LearnMore": {
-        "message": "さらに詳しく"
+        "message": "詳細を確認"
     },
     "FullDetails": {
         "message": "詳細"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "低評価を押し、再提出するためのローカルコピーを作成"
+        "message": "低評価を押し、再登録するためのローカルコピーを作成"
     },
     "OpenCategoryWikiPage": {
         "message": "このカテゴリーのWikiページを開きます。"
@@ -1084,7 +1084,7 @@
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabInterface": {
-        "message": "表示設定",
+        "message": "表示",
         "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
@@ -1117,7 +1117,7 @@
         "message": "これはYouTubeにデフォルトで使用されているショートカットです。本当にこれを使用しますか？"
     },
     "betaServerWarning": {
-        "message": "ベータサーバーが有効です！"
+        "message": "ベータサーバー利用中！"
     },
     "openOptionsPage": {
         "message": "オプションページを開く"
@@ -1126,7 +1126,7 @@
         "message": "設定を初期化する"
     },
     "confirmResetToDefault": {
-        "message": "全ての設定を初期値にリセットしてもよろしいですか？元に戻すことはできません。"
+        "message": "すべての設定を初期化しますか？元に戻すことはできません。"
     },
     "exportSegments": {
         "message": "セグメントをエクスポート"
@@ -1203,11 +1203,11 @@
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
-        "message": "全てのセグメントを消去",
+        "message": "すべてのセグメントを消去",
         "description": "Label for a button in settings"
     },
     "clearUnsubmittedSegmentsConfirm": {
-        "message": "本当に全ての未送信セグメントを消去してもよろしいですか？",
+        "message": "すべての未送信のセグメントを消去しますか？",
         "description": "Confirmation message for the Clear unsubmitted segments button"
     },
     "showUnsubmittedSegments": {
@@ -1296,6 +1296,9 @@
     "FailedToLoad": {
         "message": "読み込みに失敗",
         "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "題名の形式"
     },
     "Disabled": {
         "message": "無効化済み"

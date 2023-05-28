@@ -1297,11 +1297,20 @@
         "message": "Sikertelen betöltés",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Cím formátum"
+    },
     "Disabled": {
         "message": "Letiltva"
     },
     "CapitalizeWords": {
         "message": "Nagybetűvel kezdődő szavak"
+    },
+    "TitleCase": {
+        "message": "Minden szó kezdődjön nagybetűvel"
+    },
+    "SentenceCase": {
+        "message": "Cím kezdődjön nagybetűvel"
     },
     "keepUnsubmitted": {
         "message": "Beküldött szavazatok tárolása"

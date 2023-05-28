@@ -1297,6 +1297,9 @@
         "message": "Error al cargar",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Formato de Título"
+    },
     "Disabled": {
         "message": "Deshabilitado"
     },

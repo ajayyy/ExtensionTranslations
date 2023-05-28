@@ -1300,6 +1300,12 @@
     "CapitalizeWords": {
         "message": "Suurtähesta Sõnu"
     },
+    "TitleCase": {
+        "message": "Suurtähesta Sõnad"
+    },
+    "SentenceCase": {
+        "message": "Suurtähesta laused"
+    },
     "keepUnsubmitted": {
         "message": "Säilita saadetud hääled"
     },
