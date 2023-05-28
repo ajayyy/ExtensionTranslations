@@ -1251,9 +1251,6 @@
         "message": "Komunitní názvy a náhledy, které mají video popsat, ne nadchnout",
         "description": "Description of the Clickbait extension."
     },
-    "Submit": {
-        "message": "Potvrdit"
-    },
     "chooseDescriptive": {
         "message": "Vyberte nejvíce popisný"
     },
@@ -1297,11 +1294,20 @@
         "message": "Načítání selhalo",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "Formát názvu"
+    },
     "Disabled": {
         "message": "Zakázáno"
     },
     "CapitalizeWords": {
         "message": "Kapitalizace slov"
+    },
+    "TitleCase": {
+        "message": "Kapitalizace v názvu"
+    },
+    "SentenceCase": {
+        "message": "Kapitalizace ve větě"
     },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
@@ -1317,9 +1323,6 @@
     },
     "Enable": {
         "message": "Povolit"
-    },
-    "Disable": {
-        "message": "Zakázat"
     },
     "Titles": {
         "message": "Názvy",
