@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "A cím, amin keresztül a bővítmény hívásokat küld az adatszolgáltató szerver felé.\nHacsak nincs saját szerverpéldányod, ezt nem szabad megváltoztatni."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Indexkép-gyorsítótár szerver címe"
+    },
     "save": {
         "message": "Mentés"
     },
@@ -1321,6 +1324,12 @@
     "fetchTimeoutDescription": {
         "message": "Eredeti címek és indexképek mutatása, ha a szerver nem válaszol az itt megadott idő alatt."
     },
+    "renderTimeout": {
+        "message": "Indexkép kirajzolási időtúllépés (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Eredeti indexképek mutatása, ha ennyi idő alatt nem sikerül előkészíteni egy indexképet."
+    },
     "Enable": {
         "message": "Engedélyez"
     },
@@ -1334,5 +1343,8 @@
     },
     "Error": {
         "message": "Hiba"
+    },
+    "ShowOriginal": {
+        "message": "Eredeti tulajdonságok megjelenítése"
     }
 }
