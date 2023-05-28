@@ -1321,6 +1321,9 @@
     "fetchTimeoutDescription": {
         "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
     },
+    "renderTimeoutDescription": {
+        "message": "Näytä alkuperäiset pikkukuvat, jos pikkukuvaa ei voida luoda tässä ajassa."
+    },
     "Enable": {
         "message": "Ota käyttöön"
     },
