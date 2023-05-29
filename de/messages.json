@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDies sollte nicht geändert werden, ausser du hast deine eigene Serverinstanz."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Thumbnail Cache Server-Adresse"
+    },
     "save": {
         "message": "Speichern"
     },
@@ -1321,6 +1324,12 @@
     "fetchTimeoutDescription": {
         "message": "Zeige original Titel und Thumbnail wenn der Server nicht innerhalb dieser Zeit antwortet."
     },
+    "renderTimeout": {
+        "message": "Thumbnail Render-Timeout (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Zeige original Thumbnails wenn kein Thumbnail in dieser Zeit generiert werden konnte."
+    },
     "Enable": {
         "message": "Aktivieren"
     },
@@ -1334,5 +1343,12 @@
     },
     "Error": {
         "message": "Fehler"
+    },
+    "ShowOriginal": {
+        "message": "Zeige Original Details"
+    },
+    "FillerWarning": {
+        "message": "Warnung: Dies ist eine extrem agressive Kategorie. Wahrscheinlich musst du einige Dinge ent-skippen oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass es weiterhin bestimmte Richtlinien für das einreichen gibt, welche man folgen muss.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }
