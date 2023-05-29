@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "Adresa používaná ke kontaktování serveru s daty.\nToto byste neměli měnit, pokud nemáte vlastní serverovou instanci."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Adresa serveru mezipaměti miniatury"
+    },
     "save": {
         "message": "Uložit"
     },
@@ -1321,6 +1324,12 @@
     "fetchTimeoutDescription": {
         "message": "Zobrazit původní názvy a náhledy, pokud server do tohoto času neodpoví."
     },
+    "renderTimeout": {
+        "message": "Časový limit vykreslování miniatur (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Zobrazit původní miniaturu, pokud v tomto čase nebude vygenerována vlastní."
+    },
     "Enable": {
         "message": "Povolit"
     },
@@ -1334,5 +1343,8 @@
     },
     "Error": {
         "message": "Chyba"
+    },
+    "ShowOriginal": {
+        "message": "Zobrazit původní podrobnosti"
     }
 }
