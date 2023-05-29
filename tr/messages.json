@@ -499,6 +499,9 @@
     "customServerAddressDescription": {
         "message": "SponsorBlock'un sunucu ile iletişimi sağlamak için kullandığı adres.\nKendi sunucu kopyanız olmadığı sürece bu değiştirilmemelidir."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Küçük resim önbellekleyen sunucu adresi"
+    },
     "save": {
         "message": "Kaydet"
     },
@@ -1232,5 +1235,11 @@
     },
     "allowScrollingToEdit": {
         "message": "Zamanları Düzenlemek İçin Kaydırmaya İzin Ver"
+    },
+    "renderTimeout": {
+        "message": "Küçük resim çizim zamanaşımı (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Şu sürede küçük resim getirilemezse aslındakini göster."
     }
 }
