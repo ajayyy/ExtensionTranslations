@@ -84,7 +84,7 @@
         "message": "広告箇所の登録中にエラーが発生しました。後で再度お試しください。"
     },
     "sponsorFound": {
-        "message": "データベースにこの動画のセグメントの登録があります！"
+        "message": "データベースにこの動画の省略部分の登録あり！"
     },
     "sponsor404": {
         "message": "セグメントの登録なし"
@@ -166,7 +166,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "ヒント: 登録用のキー割り当ての設定も利用できます"
+        "message": "ヒント: 登録用のキー割り当ても設定できます"
     },
     "clearTimesButton": {
         "message": "時間を消去"
