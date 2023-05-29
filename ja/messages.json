@@ -87,7 +87,7 @@
         "message": "データベースにこの動画の省略部分の登録あり！"
     },
     "sponsor404": {
-        "message": "セグメントの登録なし"
+        "message": "省略部分の登録なし"
     },
     "sponsorStart": {
         "message": "セグメント開始を記録"
@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "データ取得サーバーの呼び出しに使うアドレスです。あなた所有のサーバーのインスタンスがなければ変更する必要はありません。"
     },
+    "thumbnailCacheServerAddress": {
+        "message": "サムネイルキャッシュ用のサーバーのアドレス"
+    },
     "save": {
         "message": "保存"
     },
@@ -638,7 +641,7 @@
         "message": "動画全体が無料または補助金を受けてアクセスしたものを紹介している"
     },
     "category_interaction": {
-        "message": "行動を促すメッセージ（チャンネル登録等）"
+        "message": "行動のお願い (登録/寄付など)"
     },
     "category_interaction_description": {
         "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かついてのシーンは、自己宣伝に分類すべきです。"
@@ -656,7 +659,7 @@
         "message": "動画の間に挿入される告知"
     },
     "category_intro": {
-        "message": "合間 / 導入アニメーション"
+        "message": "合間 / 導入アニメ"
     },
     "category_intro_description": {
         "message": "本編ではない動画の合間部分。一時停止、静止画面、繰り返しのアニメーションなどが相当します。本編の情報を含んだ場面転換に対しては使用しないでください。"
@@ -1311,6 +1314,12 @@
     },
     "fetchTimeoutDescription": {
         "message": "この時間内にサーバーが応答しなければ、元の題名と画像を表示する。"
+    },
+    "renderTimeout": {
+        "message": "サムネイル描画の時間切れまで (ミリ秒)"
+    },
+    "renderTimeoutDescription": {
+        "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
     },
     "Enable": {
         "message": "有効"
