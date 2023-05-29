@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "Osoite, jota käytetään kutsujen lähettämiseen tietojenhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Pienoiskuvien välimuistipalvelimen osoite"
+    },
     "save": {
         "message": "Tallenna"
     },
@@ -1332,7 +1335,7 @@
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "Pikkukuvat",
+        "message": "Pienoiskuvat",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "Error": {
