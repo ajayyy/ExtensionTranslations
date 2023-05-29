@@ -1324,6 +1324,9 @@
     "fetchTimeoutDescription": {
         "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
     },
+    "renderTimeout": {
+        "message": "Pienoiskuvien renderöinnin aikakatkaisu (ms)"
+    },
     "renderTimeoutDescription": {
         "message": "Näytä alkuperäiset pikkukuvat, jos pikkukuvaa ei voida luoda tässä ajassa."
     },
@@ -1340,5 +1343,8 @@
     },
     "Error": {
         "message": "Virhe"
+    },
+    "ShowOriginal": {
+        "message": "Näytä alkuperäiset tiedot"
     }
 }
