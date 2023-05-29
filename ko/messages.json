@@ -505,6 +505,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "주소가 데이터를 가져올 서버에 연결하는 데 사용돼요.\n따로 구축한 서버 인스턴스가 없다면, 변경하지 않는 게 좋아요."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "미리 보기 이미지 캐시 서버 주소"
+    },
     "save": {
         "message": "저장"
     },
@@ -1320,6 +1323,12 @@
     },
     "fetchTimeoutDescription": {
         "message": "서버가 시간 내 응답하지 않는다면 원본 제목과 미리 보기 이미지를 표시해요."
+    },
+    "renderTimeout": {
+        "message": "미리 보기 이미지 렌더링 시간(ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "서버가 시간 내 미리 보기 이미지를 생성하지 않는다면 원본 미리 보기 이미지를 표시해요."
     },
     "Enable": {
         "message": "사용"
