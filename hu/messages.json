@@ -1346,5 +1346,9 @@
     },
     "ShowOriginal": {
         "message": "Eredeti tulajdonságok megjelenítése"
+    },
+    "FillerWarning": {
+        "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }
