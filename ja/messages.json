@@ -1303,6 +1303,15 @@
     "Disabled": {
         "message": "無効化済み"
     },
+    "CapitalizeWords": {
+        "message": "単語を大文字にする"
+    },
+    "TitleCase": {
+        "message": "単語冒頭を大文字"
+    },
+    "SentenceCase": {
+        "message": "先頭単語のみ大文字"
+    },
     "keepUnsubmitted": {
         "message": "送信済みの投票を保存"
     },
@@ -1334,5 +1343,12 @@
     },
     "Error": {
         "message": "エラー"
+    },
+    "ShowOriginal": {
+        "message": "変更前を表示"
+    },
+    "FillerWarning": {
+        "message": "警告: この分類は非常に〝侵襲的〟です。ほとんどの場合で飛び越しを解除する必要があり，時には無効にしなくてはなりません。多くの動画では全体の半分以上が飛び越されることに注意してください。なお，提出にさいしてはこの他にも指定の指針があることを忘れないでください。",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }
