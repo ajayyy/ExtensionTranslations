@@ -1346,5 +1346,9 @@
     },
     "ShowOriginal": {
         "message": "Zobrazit původní podrobnosti"
+    },
+    "FillerWarning": {
+        "message": "Varování: Jedná se o velmi agresivní kategorii. S největší pravděpodobností budete muset někdy zrušit přeskočení nebo kategorii zakázat. Upozorňujeme, že u mnoha videí je přeskočeno více než 50 % videa! Nezapomeňte však, že při odesílání je stále třeba dodržovat konkrétní pokyny.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }
