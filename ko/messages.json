@@ -1343,5 +1343,8 @@
     },
     "Error": {
         "message": "오류"
+    },
+    "ShowOriginal": {
+        "message": "원본 정보 보기"
     }
 }
