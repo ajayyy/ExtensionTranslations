@@ -153,7 +153,7 @@
         "message": "登録数"
     },
     "savedPeopleFrom": {
-        "message": "あなたが節約したみんなの時間: "
+        "message": "みんなの時間を節約しました: "
     },
     "viewLeaderboard": {
         "message": "リーダーボード"
@@ -407,11 +407,11 @@
         "message": "時間"
     },
     "youHaveSavedTime": {
-        "message": "他の人々の時間をこれだけ節約しました:",
+        "message": "みんなの時間を節約しました",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
-        "message": "（皆の人生のうち）",
+        "message": "のみんなの人生",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "statusReminder": {
@@ -988,7 +988,7 @@
         "message": "スキップの仕組み"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "データベースにある動画セグメントが自動的にスキップされます。この拡張機能のアイコンをクリックすると、セグメントの位置や範囲を確かめることができます。"
+        "message": "データベースに登録があれば動画の該当部分が自動的でスキップされます。この拡張機能のアイコンをクリックするとその内容の詳細を確認できます。"
     },
     "helpPageHowSkippingWorks2": {
         "message": "セグメントをスキップする度に通知が表示されます。セグメントの範囲がおかしいと思ったら、そのセグメントを低評価してください。ポップアップ画面でも同様に投票ができます。"
@@ -1345,7 +1345,7 @@
         "message": "エラー"
     },
     "ShowOriginal": {
-        "message": "変更前を表示"
+        "message": "元の詳細を表示"
     },
     "FillerWarning": {
         "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
