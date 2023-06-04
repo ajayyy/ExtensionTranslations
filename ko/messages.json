@@ -1318,6 +1318,12 @@
     "whatKeepUnsubmitted": {
         "message": "서버에서 최다 득표된 제목과 미리 보기 이미지 대신 내가 고른 것을 표시하기 위해 투표 후에도 제출된 투표를 유지해요."
     },
+    "useThumbnailGenerationService": {
+        "message": "미리 보기 이미지 생성 서비스 사용"
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "미리 보기 이미지 생성 서비스 소스 코드"
+    },
     "fetchTimeout": {
         "message": "데이터 가져오기 시간(ms)"
     },
