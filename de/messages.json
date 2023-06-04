@@ -1318,6 +1318,37 @@
     "whatKeepUnsubmitted": {
         "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails welche du ausgewählt hast anzuzeigen anstelle derer auf dem Server."
     },
+    "useThumbnailGenerationService": {
+        "message": "Thumbnail-Erstellungsdienst verwenden"
+    },
+    "onAllPages": {
+        "message": "Auf allen Seiten",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Auf allen Seiten außer Videoseiten",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Niemals"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Thumbnail erstellung erheblich, durch das senden einer anonymen Anfrage mit der Video-ID zum Remote-Server. Das Thumbnail wird dann entweder erstellt, oder aus einem Zwischenspeicher gezogen sollte es bereits existieren."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnai-Generierungsdienst zu hosten."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Wenn die verwendung des Thumbnail-Generierungsdienstes deaktiviert ist, werden alle Anfragen ein K-Anonymitäts-Anfragesystem verwenden, welches es schwieriger für den Server macht, vorrauszusagen, welche Videos bereits verarbeitet wurden. Es wird auch ein langsameres Thumbnail-Generierungssystem verwendet.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Thumbnail-Generierungsdienst Quellcode"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mehr über K-Anonymität",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
     },
