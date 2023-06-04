@@ -1237,7 +1237,7 @@
         "message": "Jaa URL-osoitteena"
     },
     "segmentFetchFailureWarning": {
-        "message": "Varoitus: Palvelin ei ole vielä toimittanut osiotietoja. Video saattaa sisältää jo ilmoitettuja osioita, mutta et vain ole vielä vastaanottanut niitä palvelinongelmien takia."
+        "message": "Varoitus: Palvelin ei ole vielä toimittanut osiotietoja. Video saattaa sisältää jo lähetettyjä osioita, mutta et vain ole vielä vastaanottanut niitä palvelinongelmien takia."
     },
     "allowScrollingToEdit": {
         "message": "Salli aikojen muokkaaminen skrollaamalla"
@@ -1317,6 +1317,21 @@
     },
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pikkukuvat palvelimella olevien eniten äänestettyjen sijaan."
+    },
+    "onAllPages": {
+        "message": "Kaikilla sivuilla",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Kaikilla paitsi videosivuilla",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Ei koskaan"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Lisätietoa K-anonymiteetistä",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
