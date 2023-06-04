@@ -1318,6 +1318,37 @@
     "whatKeepUnsubmitted": {
         "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
     },
+    "useThumbnailGenerationService": {
+        "message": "Use Thumbnail Generation Service"
+    },
+    "onAllPages": {
+        "message": "On All Pages",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "On All Pages Except Video Pages",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Never"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "The thumbnail generation service significantly speeds up thumbnail generation by sending an anonymous request with the videoID to a remote server. The thumbnail will then either be generated, or pulled from a cache if it has already been generated."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "If used on video pages, this could potentially leak unlisted videoIDs to this server. Setting this to \"On All Pages Except Video Pages\" will avoid this problem. Another option is to host your own thumbnail generation service."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "If use of the thumbnail generation service is disabled, all requests will use a k-anonymity query system, which makes it harder for the server to predict which videos were fetched, and a slower local thumbnail generation service will be used.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Thumbnail Generation Service Source Code"
+    },
+    "moreAboutKAnonymity": {
+        "message": "More about K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
     },
