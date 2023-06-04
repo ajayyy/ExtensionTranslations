@@ -674,10 +674,10 @@
         "message": "情報を含む場面転換には使用しない"
     },
     "category_outro": {
-        "message": "エンドカード / クレジット"
+        "message": "終了画面 / クレジット"
     },
     "category_outro_description": {
-        "message": "提供表示やYouTubeの終了画面が表示されている場面。動画の内容を結論している場面には使用しないで下さい。"
+        "message": "クレジットやYouTubeの終了画面のシーンです。動画の内容を結論するシーンではありません。"
     },
     "category_outro_guideline1": {
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
