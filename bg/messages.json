@@ -1318,6 +1318,20 @@
     "whatKeepUnsubmitted": {
         "message": "Запазване на подадените гласове след гласуване, за да се показват заглавията и миниатюрите, които сте избрали, вместо най-гласуваните на сървъра."
     },
+    "useThumbnailGenerationService": {
+        "message": "Използване на услугата за генериране на миниатюри"
+    },
+    "onAllPages": {
+        "message": "На всички страници",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всички страници, освен страниците с видео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Никога"
+    },
     "fetchTimeout": {
         "message": "Време за извличане на данните (мс)"
     },
