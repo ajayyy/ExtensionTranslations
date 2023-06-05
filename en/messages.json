@@ -1349,6 +1349,12 @@
         "message": "More about K-Anonymity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "antiAliasThumbnails": {
+        "message": "Run Antialias On Thumbnails"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Decreases sharp edges on thumbnails from shrinking the images. Uses more processing power."
+    },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
     },
