@@ -1318,6 +1318,9 @@
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."
     },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Indexkép készítő szolgáltatás forráskódja"
+    },
     "moreAboutKAnonymity": {
         "message": "Részletesebben a k-anonimitásról",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
