@@ -1321,6 +1321,15 @@
     "useThumbnailGenerationService": {
         "message": "サムネイル生成サービスを使用"
     },
+    "thumbnailGeneratorSourceCode": {
+        "message": "サムネイル生成サービスのソースコード"
+    },
+    "antiAliasThumbnails": {
+        "message": "サムネイルにアンチエイリアスをかける"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "画像の縮小によるサムネイルのシャープなエッジを減らす。より多くの処理能力を使います。"
+    },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
