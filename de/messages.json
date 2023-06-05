@@ -1349,6 +1349,12 @@
         "message": "Mehr über K-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "antiAliasThumbnails": {
+        "message": "Kantenglättung für Thumbnails aktivieren"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Reduziert scharfe Kanten in Thumbnails, die aufgrund der Bildverkleinerung entstanden sind. Benötigt mehr Rechenleistung."
+    },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
     },
