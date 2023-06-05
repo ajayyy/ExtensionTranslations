@@ -1318,6 +1318,43 @@
     "whatKeepUnsubmitted": {
         "message": "Хранить отправленные оценки, чтобы показывались выбранные вами заголовок и превью, а не топ голосов на сервере."
     },
+    "useThumbnailGenerationService": {
+        "message": "Использовать сервис создания превью"
+    },
+    "onAllPages": {
+        "message": "На всех страницах",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всех страницах, кроме страниц с видео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Никогда"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Сервис создания превью значительно ускоряет процесс, отправляя анонимный запрос с ID видео на удаленный сервер. После этого превью будет сгенерировано, или извлечено из кэша, если оно уже был создано."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Если используется на страницах с видео, это потенциально может привести к утечке идентификаторов видео с доступом по ссылке на сервер. Установка этого параметра на \"На всех страницах, кроме страниц с видео\" позволит избежать этой проблемы. Другая опция - размещать собственный сервис создания превью."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Если использование сервиса генерации превью отключено, все запросы будут использовать систему k-анонимности, что затрудняет прогнозирование того, какие видео были извлечены, и будет использоваться более медленный сервис генерации превью.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Исходный код сервиса создания превью"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Узнать больше про k-анонимность",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Использовать сглаживание на превью"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Уменьшает резкие края на превью, появляющиеся из-за уменьшения размера изображения. Потребляет больше ресурсов."
+    },
     "fetchTimeout": {
         "message": "Таймаут получения данных (мс)"
     },
