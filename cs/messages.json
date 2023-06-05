@@ -1318,6 +1318,43 @@
     "whatKeepUnsubmitted": {
         "message": "Ponechat odeslané hlasy po hlasování pro zobrazení názvů a náhledů, které jste zvolili vy, namísto nejlépe hodnocených na serveru."
     },
+    "useThumbnailGenerationService": {
+        "message": "Použít službu generování náhledů"
+    },
+    "onAllPages": {
+        "message": "Na všech stránkách",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Na všech stránkách kromě stránek videí",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nikdy"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Služba generování miniatur výrazně urychluje generování miniatur odesláním anonymního požadavku s ID videa na vzdálený server. Miniatura se pak buď vygeneruje, nebo se použije verze z mezipaměti, pokud již byla vygenerována."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Při použití na stránkách s videem by mohlo dojít k úniku nezařazených ID videí na tento server. Nastavením této možnosti na \"Na všech stránkách kromě stránek videí\" se tomuto problému vyhnete. Další možností je hostovat vlastní službu generování miniatur."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Pokud je použití služby generování miniatur zakázáno, budou všechny požadavky používat systém k-anonymních dotazů, což ztěžuje serveru předvídat, která videa byla načtena, a bude použita pomalejší místní služba generování miniatur.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Zdrojový kód služby generování náhledů"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Více informací o K-Anonymitě",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Použít Anti-aliasing na náhledech"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Sníží množství ostrých hran na náhledech při zmenšování obrázků. Používá více zdrojů při zpracování."
+    },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
     },
