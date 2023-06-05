@@ -1318,6 +1318,9 @@
     "whatKeepUnsubmitted": {
         "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの代わりに、あなたが選択した題名と画像を表示する。"
     },
+    "useThumbnailGenerationService": {
+        "message": "サムネイル生成サービスを使用"
+    },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
