@@ -1338,6 +1338,23 @@
     "thumbnailGeneratorDescription2": {
         "message": "Ако се използва на страници с видео, това може потенциално да доведе до изтичане на непубликувани videoID към този сървър. Задаването му на \"На всички страници, освен на страниците с видео\" ще избегне този проблем. Друга опция е да хостнете своя собствена услуга за генериране на миниатюри."
     },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ако използването на услугата за генериране на миниатюри е деактивирано, всички заявки ще използват система за к-анонимност на заявките, която затруднява предвиждането от сървъра кои видеоклипове са били изтеглени, и ще се използва по-бавна локална услуга за генериране на миниатюри.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Изходен код на услугата за генериране на миниатюри"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Повече за к-анонимността",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Изглаждане на миниатюрите"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Намалява острите ръбове на миниатюрите при смаляването на изображенията. Използва повече изчислителна мощ."
+    },
     "fetchTimeout": {
         "message": "Време за извличане на данните (мс)"
     },
