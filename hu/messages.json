@@ -1318,6 +1318,10 @@
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."
     },
+    "moreAboutKAnonymity": {
+        "message": "Részletesebben a k-anonimitásról",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
     },
