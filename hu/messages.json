@@ -1318,12 +1318,42 @@
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."
     },
+    "useThumbnailGenerationService": {
+        "message": "Indexkép készítő szolgáltatás használata"
+    },
+    "onAllPages": {
+        "message": "Minden oldalon",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Minden oldalon, kivéve videók oldalain",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Soha"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Az indexkép készítő szolgáltatás jelentősen felgyorsítja az indexkép elkészülését azzal, hogy egy névtelen kérést küld egy szervernek a videó azonosítójával. Ezután az indexkép elkészítésre kerül, vagy gyorsítótárból kerül betöltésre, ha már korábban el lett készítve."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Ha egy videó oldalán használják, ez potenciálisan kiszivárogtathat nem nyilvános videó ID-kat a szervernek. A \"Minden oldalon, kivéve videók oldalain\" beállítás megoldja ezt a problémát. Egy másik lehetőség egy saját indexkép készítő szolgáltatás futtatása."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ha az indexkép készítő szolgáltatás le van tiltva, minden kérés egy k-anonimitásos lekérdezési módszert fog használni, ami nehezebben felismerhetővé teszi a szerver számára, hogy melyik videók kerültek betöltésre, és egy lassabb, helyi indexkép készítő szolgáltatás kerül használatra.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "thumbnailGeneratorSourceCode": {
         "message": "Indexkép készítő szolgáltatás forráskódja"
     },
     "moreAboutKAnonymity": {
         "message": "Részletesebben a k-anonimitásról",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Élsimítás indexképeken"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Csökkenti a képek kicsinyítéséből következő éles vonalakat az indexképeken. Több erőforrást igényel."
     },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
