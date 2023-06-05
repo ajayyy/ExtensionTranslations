@@ -1315,6 +1315,20 @@
     "whatKeepUnsubmitted": {
         "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовок і мініатюру, а не топ голосів на сервері."
     },
+    "useThumbnailGenerationService": {
+        "message": "Використовувати службу генерації мініатюр"
+    },
+    "onAllPages": {
+        "message": "На всіх сторінках",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всіх сторінках, крім сторінок з відео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Ніколи"
+    },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
     },
