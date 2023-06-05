@@ -1318,6 +1318,37 @@
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
     },
+    "useThumbnailGenerationService": {
+        "message": "Använd miniatyrbildsgenereringstjänsten"
+    },
+    "onAllPages": {
+        "message": "På alla sidor",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "På alla sidor utom videosidor",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Aldrig"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Miniatyrbildningstjänsten snabbar avsevärt upp miniatyrbildsgenereringen genom att skicka en anonym begäran med videoID till en fjärrserver. Miniatyrbilden kommer då antingen att genereras eller dras från en cache om den redan har genererats."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Om det används på videosidor kan detta potentiellt läcka olistade videoID till denna server. Ställa in detta till \"på alla sidor utom videosidor\" så kommer detta problemet att försvinna. Ett annat alternativ är att köra din egen miniatyrbildningstjänst."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Om miniatyrbildningstjänsten är inaktiverad kommer alla förfrågningar att använda ett k-anonymitetsfrågesystem vilket gör det svårare för servern att förutsäga vilka videor som hämtades och en långsammare lokal miniatyrbildningstjänst kommer att användas.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Källkod för miniatyrbildsgenereringstjänst"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mer om k-anonymitet",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
