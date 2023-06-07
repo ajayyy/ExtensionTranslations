@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Segment Kimliğini Kopyala"
     },
-    "discordAdvert": {
-        "message": "Öneri ve geri bildirimleriniz için resmi Discord serverımıza katılın!"
-    },
     "hideThis": {
         "message": "Bunu sakla"
     },
