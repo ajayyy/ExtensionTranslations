@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "セグメントIDをコピー"
     },
-    "discordAdvert": {
-        "message": "公式Discordサーバーに参加して意見やフィードバックをお寄せください！"
-    },
     "hideThis": {
         "message": "非表示にする"
     },
