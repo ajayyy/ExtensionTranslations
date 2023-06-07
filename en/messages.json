@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Copy Segment ID"
     },
-    "discordAdvert": {
-        "message": "Come join the official discord server to give suggestions and feedback!"
-    },
     "hideThis": {
         "message": "Hide this"
     },
@@ -957,6 +954,9 @@
     "questionButton": {
         "message": "I have a question"
     },
+    "askAQuestion": {
+        "message": "Ask a question"
+    },
     "warningConfirmButton": {
         "message": "I understand the reason"
     },
@@ -1387,5 +1387,13 @@
     "FillerWarning": {
         "message": "Warning: This is an incredibly agressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Join on Discord or Matrix to stay in this chat permanently",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Show Guideline Help",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     }
 }
