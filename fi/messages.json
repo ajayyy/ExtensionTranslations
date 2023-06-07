@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Kopioi osion ID"
     },
-    "discordAdvert": {
-        "message": "Liity viralliselle Discord-palvelimelle antaaksesi ehdotuksia ja palautetta!"
-    },
     "hideThis": {
         "message": "Piilota tämä"
     },
