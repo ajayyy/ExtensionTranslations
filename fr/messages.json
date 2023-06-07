@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Copier l'identifiant du segment"
     },
-    "discordAdvert": {
-        "message": "Rejoignez le serveur Discord officiel pour partager vos suggestions et remarques !"
-    },
     "hideThis": {
         "message": "Cacher"
     },
