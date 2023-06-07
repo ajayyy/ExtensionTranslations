@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "구간 ID 복사"
     },
-    "discordAdvert": {
-        "message": "공식 Discord 서버에 참가해서 의견과 피드백을 남겨주세요!"
-    },
     "hideThis": {
         "message": "숨기기"
     },
