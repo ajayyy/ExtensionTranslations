@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Szegmens ID másolása"
     },
-    "discordAdvert": {
-        "message": "Gyere, csatlakozz a hivatalos discord szerverhez, hogy javaslatokat és visszajelzést adhass!"
-    },
     "hideThis": {
         "message": "Elrejtés"
     },
