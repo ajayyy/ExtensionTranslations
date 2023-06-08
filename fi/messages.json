@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Minulla on kysymys"
     },
+    "askAQuestion": {
+        "message": "Esitä kysymys"
+    },
     "warningConfirmButton": {
         "message": "Ymmärrän syyn"
     },
@@ -1358,5 +1361,17 @@
     },
     "ShowOriginal": {
         "message": "Näytä alkuperäiset tiedot"
+    },
+    "FillerWarning": {
+        "message": "Varoitus: Tämä on uskomattoman agressiivinen kategoria. Joudut todennäköisesti peruuttaa ohituksia tai poistaa kategorian käytöstä joskus. Otathan huomioon, että monissa videoissa yli 50% videosta voi tulla ohitetuksi! Muista kuitenkin, että osioiden lähettämisessä on tietyt säännöt joita tulisi seurata.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Liity Discordiin tai Matrixiin pysyäksesi tässä chatissa pysyvästi",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Näytä sääntöjen ohjeet",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     }
 }
