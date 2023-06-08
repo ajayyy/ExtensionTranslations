@@ -1395,5 +1395,20 @@
     "showGuidelineHelp": {
         "message": "Show Guideline Help",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Avoid Exaggerated Facial Expressions",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Prefer statements over questions",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Avoid describing reactions to the video (shocking)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Provide enough information for to make an informed choice before clicking"
     }
 }
