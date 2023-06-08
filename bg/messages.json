@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Имам въпрос"
     },
+    "askAQuestion": {
+        "message": "Задайте въпрос"
+    },
     "warningConfirmButton": {
         "message": "Разбирам причината"
     },
@@ -1384,5 +1387,9 @@
     "FillerWarning": {
         "message": "Внимание: Това е изключително агресивна категория. Най-вероятно ще се наложи да връщате пропуснатото или да го забраните понякога. Предупреждаваме ви, че при много видеоклипове се пропускат над 50% или повече от видеото! Не забравяйте обаче, че все пак има конкретни насоки, които трябва да се спазват при изпращане.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Присъединете се към Discord или Matrix, за да останете в този чат постоянно",
+        "description": "Appears on the top of the integrated chatbox"
     }
 }
