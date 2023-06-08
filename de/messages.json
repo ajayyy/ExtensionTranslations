@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Ich habe eine Frage"
     },
+    "askAQuestion": {
+        "message": "Eine Frage stellen"
+    },
     "warningConfirmButton": {
         "message": "Ich verstehe den Grund"
     },
@@ -1384,5 +1387,28 @@
     "FillerWarning": {
         "message": "Warnung: Dies ist eine extrem agressive Kategorie. Wahrscheinlich musst du einige Dinge ent-skippen oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass es weiterhin bestimmte Richtlinien für das einreichen gibt, welche man folgen muss.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Trete Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Zeige Leitfaden-Hilfe",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vermeide übertriebene Gesichtszüge",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Bevorzuge Aussagen über Fragen",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vermeide Beschreibungen zu Raktionen zum Video (\"Schockierend\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Bevor du klickst, gib genügend Informationen an um eine Informative Auswahl zu treffen"
     }
 }
