@@ -1395,5 +1395,20 @@
     "showGuidelineHelp": {
         "message": "指針の手引きを表示する",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "サムネ詐欺を避ける",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "疑問系の題名を内容の結論に置き換える",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "動画内容にたいする「衝撃的な」説明を避ける",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "動画を視聴するかの判断に足る十分な案内を前もって提供する"
     }
 }
