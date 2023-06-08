@@ -1395,5 +1395,20 @@
     "showGuidelineHelp": {
         "message": "Показать помощь по руководству",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Избегайте вычурных выражений лица",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Старайтесь использовать утверждения вместо вопросов",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Избегайте описания реакций на видео (например, \"шок\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Предоставьте достаточно информации, чтобы пользователь мог сделать информированный выбор"
     }
 }
