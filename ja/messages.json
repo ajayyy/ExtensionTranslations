@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "質問があります"
     },
+    "askAQuestion": {
+        "message": "質問する"
+    },
     "warningConfirmButton": {
         "message": "理由を理解しました"
     },
@@ -1384,5 +1387,13 @@
     "FillerWarning": {
         "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "DiscordまたはMatrixに参加していただくと、この会話を続けることができます。",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "指針の手引きを表示する",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     }
 }
