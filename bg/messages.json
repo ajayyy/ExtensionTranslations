@@ -1391,5 +1391,24 @@
     "chatboxDescription": {
         "message": "Присъединете се към Discord или Matrix, за да останете в този чат постоянно",
         "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Показване на помощни насоки",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Избягвайте преувеличени изражения на лицето",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Предпочитайте твърденията пред въпросите",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Избягвайте да описвате реакции на видеото (шокиращо)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Предоставете достатъчно информация, за да може да се вземе информирано решение преди кликване"
     }
 }
