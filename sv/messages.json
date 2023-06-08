@@ -1349,6 +1349,12 @@
         "message": "Mer om k-anonymitet",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "antiAliasThumbnails": {
+        "message": "Kantutjämning på miniatyrer"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Minskar vassa kanter på miniatyrer genom att krympa bilderna. Använder mer processorkraft."
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
@@ -1381,6 +1387,10 @@
     "FillerWarning": {
         "message": "Varning: Detta är en otroligt aggressiv kategori. Du kommer sannolikt att behöva avbryta grejer, eller inaktivera det ibland. Var beredd på att många videor har över 50% eller mer av videon överhoppad! Kom dock i håg att det fortfarande finns specifika riktlinjer att följa när du skickar in.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Gå med i Discord eller Matrix för att permanent stanna kvar i denna chatt",
+        "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
         "message": "Visa vägledande hjälp",
