@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Sentence Case"
     },
+    "thumbnailFallbackOption": {
+        "message": "When No Submitted Thumbnail Exists"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "When selecting a random time, it will use SponsorBlock data to ensure a time in a promotional segment is not selected.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Show a screenshot from a random time"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Show the original thumbnail"
+    },
+    "showABlankBox": {
+        "message": "Show a blank box"
+    },
     "keepUnsubmitted": {
         "message": "Store Submitted Votes"
     },
