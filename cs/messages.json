@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Mám otázku"
     },
+    "askAQuestion": {
+        "message": "Mám otázku"
+    },
     "warningConfirmButton": {
         "message": "Chápu důvod"
     },
@@ -1384,5 +1387,28 @@
     "FillerWarning": {
         "message": "Varování: Jedná se o velmi agresivní kategorii. S největší pravděpodobností budete muset někdy zrušit přeskočení nebo kategorii zakázat. Upozorňujeme, že u mnoha videí je přeskočeno více než 50 % videa! Nezapomeňte však, že při odesílání je stále třeba dodržovat konkrétní pokyny.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Pokud chcete trvale zůstat v tomto chatu, připojte se na Discord nebo Matrix",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Zobrazit nápovědu k pokynům",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vyhněte se přehnaným výrazům obličeje",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Upřednostňujte věty nad otázkami",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vyhněte se popisování reakcí na video (šokující)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Poskytněte dostatek informací pro informovanou volbu před kliknutím"
     }
 }
