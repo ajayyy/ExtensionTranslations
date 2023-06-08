@@ -1405,7 +1405,7 @@
         "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
     },
     "tip3": {
-        "message": "動画内容にたいする「衝撃的な」説明を避ける",
+        "message": "動画への反応としての説明を避ける (衝撃的な表現)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
