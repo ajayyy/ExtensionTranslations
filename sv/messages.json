@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Kopiera Segment-ID"
     },
-    "discordAdvert": {
-        "message": "Gå med i den officiella Discord-servern för att ge förslag och feedback!"
-    },
     "hideThis": {
         "message": "Dölj detta"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Adressen som används för att kommunicera till datahämtningsservern.\nOm du inte har din egen serverinstans ska detta inte ändras."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Miniatyr-cachens serveradress"
     },
     "save": {
         "message": "Spara"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Jag har en fråga"
     },
+    "askAQuestion": {
+        "message": "Ställ en fråga"
+    },
     "warningConfirmButton": {
         "message": "Jag förstår varför"
     },
@@ -1303,17 +1306,82 @@
     "CapitalizeWords": {
         "message": "Versalisera ord"
     },
+    "TitleCase": {
+        "message": "Titelskiftläge"
+    },
+    "SentenceCase": {
+        "message": "Meningsskiftläge"
+    },
+    "thumbnailFallbackOption": {
+        "message": "När ingen inskickad miniatyrbild finns"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "När du väljer en slumpmässig tid, kommer den att använda SponsorBlock data för att säkerställa att en tid i ett kampanjsegment inte väljs.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Visa en skärmbild från en slumpmässig tid"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Visa den ursprungliga miniatyrbilden"
+    },
+    "showABlankBox": {
+        "message": "Visa en tom ruta"
+    },
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
     },
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
     },
+    "useThumbnailGenerationService": {
+        "message": "Använd miniatyrbildsgenereringstjänsten"
+    },
+    "onAllPages": {
+        "message": "På alla sidor",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "På alla sidor utom videosidor",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Aldrig"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Miniatyrbildningstjänsten snabbar avsevärt upp miniatyrbildsgenereringen genom att skicka en anonym begäran med videoID till en fjärrserver. Miniatyrbilden kommer då antingen att genereras eller dras från en cache om den redan har genererats."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Om det används på videosidor kan detta potentiellt läcka olistade videoID till denna server. Ställa in detta till \"på alla sidor utom videosidor\" så kommer detta problemet att försvinna. Ett annat alternativ är att köra din egen miniatyrbildningstjänst."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Om miniatyrbildningstjänsten är inaktiverad kommer alla förfrågningar att använda ett k-anonymitetsfrågesystem vilket gör det svårare för servern att förutsäga vilka videor som hämtades och en långsammare lokal miniatyrbildningstjänst kommer att användas.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Källkod för miniatyrbildsgenereringstjänst"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mer om k-anonymitet",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Kantutjämning på miniatyrer"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Minskar vassa kanter på miniatyrer genom att krympa bilderna. Använder mer processorkraft."
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Visa originaltitlar och miniatyrer om servern inte svarar på så här lång tid."
+    },
+    "renderTimeout": {
+        "message": "Timeout för miniatyrbilder (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Visa originalminiatyrer om det inte går att generera en miniatyrbild under så här lång tid."
     },
     "Enable": {
         "message": "Aktivera"
@@ -1328,5 +1396,35 @@
     },
     "Error": {
         "message": "Fel"
+    },
+    "ShowOriginal": {
+        "message": "Visa originaldetaljer"
+    },
+    "FillerWarning": {
+        "message": "Varning: Detta är en otroligt aggressiv kategori. Du kommer sannolikt att behöva avbryta grejer, eller inaktivera det ibland. Var beredd på att många videor har över 50% eller mer av videon överhoppad! Kom dock i håg att det fortfarande finns specifika riktlinjer att följa när du skickar in.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Gå med i Discord eller Matrix för att permanent stanna kvar i denna chatt",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Visa vägledande hjälp",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Undvik överdrivna ansiktsuttryck",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Föredrar uttalanden framför frågor",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Undvik att beskriva reaktioner på videon (\"chockerande\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Ge tillräckligt med information för att göra ett informerat val innan du klickar"
     }
 }

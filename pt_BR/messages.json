@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Copiar ID do segmento"
     },
-    "discordAdvert": {
-        "message": "Junte-se ao servidor do discord oficial para dar dicas e sugestões!"
-    },
     "hideThis": {
         "message": "Esconder isto"
     },
@@ -498,6 +495,15 @@
     },
     "customServerAddressDescription": {
         "message": "Endereço que o SponsorBlock usa para fazer chamadas ao servidor.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Recuperando endereço do servidor"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "O endereço usado para fazer chamadas para o servidor de busca de dados.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Endereço do servidor de Cache de Miniaturas"
     },
     "save": {
         "message": "Salvar"
@@ -1237,6 +1243,14 @@
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
+    "deArrowFullName": {
+        "message": "DeArrow - Melhores títulos e miniaturas no YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Títulos de crowdsourcing e miniaturas para serem descritivos e não sensacionais",
+        "description": "Description of the Clickbait extension."
+    },
     "chooseDescriptive": {
         "message": "Escolha o mais descritivo"
     },
@@ -1248,6 +1262,9 @@
     },
     "CurrentTime": {
         "message": "Minuto Atual"
+    },
+    "resetCustomTitle": {
+        "message": "Redefinir o título de volta ao texto original"
     },
     "resetIcon": {
         "message": "Redefinir ícone"
@@ -1265,6 +1282,14 @@
         "message": "Falha ao renderizar",
         "description": "Thumbnail preview failed to render"
     },
+    "CanvasMissing": {
+        "message": "Canvas faltando",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Exceção ao renderizar",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
     "FailedToLoad": {
         "message": "Falha ao carregar",
         "description": "Thumbnail failed to load"
@@ -1275,14 +1300,32 @@
     "Disabled": {
         "message": "Desativado"
     },
+    "CapitalizeWords": {
+        "message": "Palavras em Maiúsculas"
+    },
+    "TitleCase": {
+        "message": "Título em maiúscula"
+    },
+    "SentenceCase": {
+        "message": "Frase em maiúscula"
+    },
     "keepUnsubmitted": {
         "message": "Armazenar votos enviados"
     },
     "whatKeepUnsubmitted": {
         "message": "Manter votos enviados após votar para mostrar os títulos e miniaturas que você escolheu em vez do mais votado no servidor."
     },
+    "fetchTimeout": {
+        "message": "Tempo limite de busca de dados (ms)"
+    },
     "fetchTimeoutDescription": {
         "message": "Mostrar títulos e miniaturas originais se o servidor não responder neste período de tempo."
+    },
+    "renderTimeout": {
+        "message": "Tempo limite da miniatura de renderização (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Mostrar miniaturas originais se não for possível gerar uma miniatura nesse período."
     },
     "Enable": {
         "message": "Ativar"
@@ -1297,5 +1340,8 @@
     },
     "Error": {
         "message": "Erro"
+    },
+    "ShowOriginal": {
+        "message": "Mostrar detalhes originais"
     }
 }

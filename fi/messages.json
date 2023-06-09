@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Kopioi osion ID"
     },
-    "discordAdvert": {
-        "message": "Liity viralliselle Discord-palvelimelle antaaksesi ehdotuksia ja palautetta!"
-    },
     "hideThis": {
         "message": "Piilota tämä"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Osoite, jota käytetään kutsujen lähettämiseen tietojenhakupalvelimelle.\nEllei sinulla ole omaa palvelininstanssia, tätä ei pitäisi muuttaa."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Pienoiskuvien välimuistipalvelimen osoite"
     },
     "save": {
         "message": "Tallenna"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Minulla on kysymys"
     },
+    "askAQuestion": {
+        "message": "Esitä kysymys"
+    },
     "warningConfirmButton": {
         "message": "Ymmärrän syyn"
     },
@@ -1234,7 +1237,7 @@
         "message": "Jaa URL-osoitteena"
     },
     "segmentFetchFailureWarning": {
-        "message": "Varoitus: Palvelin ei ole vielä toimittanut osiotietoja. Video saattaa sisältää jo ilmoitettuja osioita, mutta et vain ole vielä vastaanottanut niitä palvelinongelmien takia."
+        "message": "Varoitus: Palvelin ei ole vielä toimittanut osiotietoja. Video saattaa sisältää jo lähetettyjä osioita, mutta et vain ole vielä vastaanottanut niitä palvelinongelmien takia."
     },
     "allowScrollingToEdit": {
         "message": "Salli aikojen muokkaaminen skrollaamalla"
@@ -1315,11 +1318,32 @@
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pikkukuvat palvelimella olevien eniten äänestettyjen sijaan."
     },
+    "onAllPages": {
+        "message": "Kaikilla sivuilla",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Kaikilla paitsi videosivuilla",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Ei koskaan"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Lisätietoa K-anonymiteetistä",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
+    },
+    "renderTimeout": {
+        "message": "Pienoiskuvien renderöinnin aikakatkaisu (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Näytä alkuperäiset pikkukuvat, jos pikkukuvaa ei voida luoda tässä ajassa."
     },
     "Enable": {
         "message": "Ota käyttöön"
@@ -1329,10 +1353,25 @@
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "Pikkukuvat",
+        "message": "Pienoiskuvat",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "Error": {
         "message": "Virhe"
+    },
+    "ShowOriginal": {
+        "message": "Näytä alkuperäiset tiedot"
+    },
+    "FillerWarning": {
+        "message": "Varoitus: Tämä on uskomattoman agressiivinen kategoria. Joudut todennäköisesti peruuttaa ohituksia tai poistaa kategorian käytöstä joskus. Otathan huomioon, että monissa videoissa yli 50% videosta voi tulla ohitetuksi! Muista kuitenkin, että osioiden lähettämisessä on tietyt säännöt joita tulisi seurata.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Liity Discordiin tai Matrixiin pysyäksesi tässä chatissa pysyvästi",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Näytä sääntöjen ohjeet",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     }
 }

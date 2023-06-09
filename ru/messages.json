@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Копировать ID сегмента"
     },
-    "discordAdvert": {
-        "message": "Присоединяйтесь к официальному серверу Discord, чтобы оставить предложения и обратную связь!"
-    },
     "hideThis": {
         "message": "Скрыть это"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Адрес, по которому расширение обращается к серверу данных.\nНе изменяйте значение, если у вас нет собственного сервера."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Адрес сервера для кэширования превью"
     },
     "save": {
         "message": "Сохранить"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "У меня есть вопрос"
     },
+    "askAQuestion": {
+        "message": "Задать вопрос"
+    },
     "warningConfirmButton": {
         "message": "Я понимаю причину"
     },
@@ -1315,11 +1318,54 @@
     "whatKeepUnsubmitted": {
         "message": "Хранить отправленные оценки, чтобы показывались выбранные вами заголовок и превью, а не топ голосов на сервере."
     },
+    "useThumbnailGenerationService": {
+        "message": "Использовать сервис создания превью"
+    },
+    "onAllPages": {
+        "message": "На всех страницах",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всех страницах, кроме страниц с видео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Никогда"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Сервис создания превью значительно ускоряет процесс, отправляя анонимный запрос с идентификатором видео на удаленный сервер. После этого превью будет сгенерировано или извлечено из кэша, если оно уже было создано."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Если используется на страницах с видео, это потенциально может привести к утечке идентификаторов видео, доступных только по ссылке, на сервер. Установка этого параметра на \"На всех страницах, кроме страниц с видео\" позволит избежать этой проблемы. Другой вариант – разместить собственный сервис создания превью."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Если использование сервиса генерации превью отключено, все запросы будут использовать систему k-анонимности, что затрудняет прогнозирование того, какие видео были извлечены, и будет использоваться более медленный сервис генерации превью.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Исходный код сервиса создания превью"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Узнать больше про k-анонимность",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Использовать сглаживание на превью"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Уменьшает резкие края на превью, появляющиеся из-за уменьшения размера изображения. Потребляет больше ресурсов."
+    },
     "fetchTimeout": {
         "message": "Таймаут получения данных (мс)"
     },
     "fetchTimeoutDescription": {
         "message": "Показывать оригинальные заголовки и превью, если сервер не отвечает за это время."
+    },
+    "renderTimeout": {
+        "message": "Таймаут отрисовки превью (мс)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Показать оригинальное превью, если за указанное время не удалось сгенерировать новое."
     },
     "Enable": {
         "message": "Включить"
@@ -1334,5 +1380,35 @@
     },
     "Error": {
         "message": "Ошибка"
+    },
+    "ShowOriginal": {
+        "message": "Показать оригинальное содержимое"
+    },
+    "FillerWarning": {
+        "message": "Внимание: эта категория - невероятно агрессивная. Вероятно, вам придётся перематывать назад или иногда отключать пропуск полностью. Имейте в виду, что во многих видео пропускается 50% хронометража или больше! Однако помните, что при отправке сегментов всё ещё действуют строгие правила.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Присоединяйтесь к Discord или Matrix, чтобы остаться в этом чате",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Показать помощь по руководству",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Избегайте вычурных выражений лица",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Старайтесь использовать утверждения вместо вопросов",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Избегайте описания реакций на видео (например, \"шок\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Предоставьте достаточно информации, чтобы пользователь мог сделать информированный выбор"
     }
 }

@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Копиране на идентификатора на сегмента"
     },
-    "discordAdvert": {
-        "message": "Елате в официалния Discord сървър, за да давате предложения!"
-    },
     "hideThis": {
         "message": "Скриване на това"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Адресът, използван за осъществяване на повиквания към сървъра за извличане на данни.\nОсвен ако нямате собствена инстанция на сървъра, този параметър не трябва да се променя."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Адрес на сървъра за кеширане на миниатюри"
     },
     "save": {
         "message": "Запазване"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Имам въпрос"
     },
+    "askAQuestion": {
+        "message": "Задайте въпрос"
+    },
     "warningConfirmButton": {
         "message": "Разбирам причината"
     },
@@ -1315,11 +1318,54 @@
     "whatKeepUnsubmitted": {
         "message": "Запазване на подадените гласове след гласуване, за да се показват заглавията и миниатюрите, които сте избрали, вместо най-гласуваните на сървъра."
     },
+    "useThumbnailGenerationService": {
+        "message": "Използване на услугата за генериране на миниатюри"
+    },
+    "onAllPages": {
+        "message": "На всички страници",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всички страници, освен страниците с видео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Никога"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Услугата за генериране на миниатюри значително ускорява процеса на генериране на миниатюри, като изпраща анонимна заявка с videoID до отдалечен сървър. Миниатюрата ще бъде генерирана или извлечена от кеш, ако вече е била генерирана."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Ако се използва на страници с видео, това може потенциално да доведе до изтичане на непубликувани videoID към този сървър. Задаването му на \"На всички страници, освен на страниците с видео\" ще избегне този проблем. Друга опция е да хостнете своя собствена услуга за генериране на миниатюри."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ако използването на услугата за генериране на миниатюри е деактивирано, всички заявки ще използват система за к-анонимност на заявките, която затруднява предвиждането от сървъра кои видеоклипове са били изтеглени, и ще се използва по-бавна локална услуга за генериране на миниатюри.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Изходен код на услугата за генериране на миниатюри"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Повече за к-анонимността",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Изглаждане на миниатюрите"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Намалява острите ръбове на миниатюрите при смаляването на изображенията. Използва повече изчислителна мощ."
+    },
     "fetchTimeout": {
         "message": "Време за извличане на данните (мс)"
     },
     "fetchTimeoutDescription": {
         "message": "Показване на оригиналните заглавия и миниатюри, ако сървърът не отговори за толкова време."
+    },
+    "renderTimeout": {
+        "message": "Време за визуализиране на миниатюри (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Показване на оригиналните миниатюри, ако не може да се генерира миниатюра за толкова време."
     },
     "Enable": {
         "message": "Активиране"
@@ -1334,5 +1380,35 @@
     },
     "Error": {
         "message": "Грешка"
+    },
+    "ShowOriginal": {
+        "message": "Показване на оригиналните детайли"
+    },
+    "FillerWarning": {
+        "message": "Внимание: Това е изключително агресивна категория. Най-вероятно ще се наложи да връщате пропуснатото или да го забраните понякога. Предупреждаваме ви, че при много видеоклипове се пропускат над 50% или повече от видеото! Не забравяйте обаче, че все пак има конкретни насоки, които трябва да се спазват при изпращане.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Присъединете се към Discord или Matrix, за да останете в този чат постоянно",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Показване на помощни насоки",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Избягвайте преувеличени изражения на лицето",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Предпочитайте твърденията пред въпросите",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Избягвайте да описвате реакции на видеото (шокиращо)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Предоставете достатъчно информация, за да може да се вземе информирано решение преди кликване"
     }
 }

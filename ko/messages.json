@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "구간 ID 복사"
     },
-    "discordAdvert": {
-        "message": "공식 Discord 서버에 참가해서 의견과 피드백을 남겨주세요!"
-    },
     "hideThis": {
         "message": "숨기기"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "주소가 데이터를 가져올 서버에 연결하는 데 사용돼요.\n따로 구축한 서버 인스턴스가 없다면, 변경하지 않는 게 좋아요."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "미리 보기 이미지 캐시 서버 주소"
     },
     "save": {
         "message": "저장"
@@ -904,16 +904,16 @@
         "message": "카테고리 변경"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "이 동영상은 음악 동영상으로 분류되어 있어요. 동영상에 스폰서 광고 구간이 있나요? \"음악이 아닌 구간\"으로 지정된 카테고리인 경우, 확장 프로그램 설정을 열어 이 카테고리를 사용하세요. 그리고, 이 구간을 \"스폰서 광고 구간\" 대신 \"음악이 아닌 구간\"으로 지정하세요. 혼동된다면 가이드라인을 읽어주세요."
+        "message": "이 동영상은 음악 동영상으로 분류되어 있어요. 동영상에 스폰서 광고 구간이 있나요? \"음악이 아닌 구간\"으로 지정된 카테고리인 경우, 확장 프로그램 설정을 열어 이 카테고리를 사용하세요. 그리고, 이 구간을 \"스폰서 광고 구간\" 대신 \"음악이 아닌 구간\"으로 지정하세요. 혼동된다면 지침을 읽어주세요."
     },
     "multipleSegments": {
         "message": "여러 구간"
     },
     "guidelines": {
-        "message": "가이드라인"
+        "message": "지침"
     },
     "readTheGuidelines": {
-        "message": "가이드라인을 꼭 읽어주세요!!!",
+        "message": "지침을 꼭 읽어주세요!!!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
@@ -930,7 +930,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "제출될 구간이 길어요. 전반적인 동영상의 내용이 한 주제에 대한 것이라면, \"건너뛰기\"를 \"동영상 전체\"로 변경해주세요. 자세한 정보는 가이드라인을 확인하세요."
+        "message": "제출될 구간이 길어요. 전반적인 동영상의 내용이 한 주제에 대한 것이라면, \"건너뛰기\"를 \"동영상 전체\"로 변경해주세요. 자세한 정보는 지침을 확인하세요."
     },
     "categoryPillTitleText": {
         "message": "동영상 전체가 해당 카테고리로 지정됐고 부분적으로 나누기 어려워요"
@@ -1315,11 +1315,26 @@
     "whatKeepUnsubmitted": {
         "message": "서버에서 최다 득표된 제목과 미리 보기 이미지 대신 내가 고른 것을 표시하기 위해 투표 후에도 제출된 투표를 유지해요."
     },
+    "useThumbnailGenerationService": {
+        "message": "미리 보기 이미지 생성 서비스 사용"
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "미리 보기 이미지 생성 서비스 소스 코드"
+    },
+    "antiAliasThumbnails": {
+        "message": "미리 보기 이미지의 계단 현상 방지"
+    },
     "fetchTimeout": {
         "message": "데이터 가져오기 시간(ms)"
     },
     "fetchTimeoutDescription": {
         "message": "서버가 시간 내 응답하지 않는다면 원본 제목과 미리 보기 이미지를 표시해요."
+    },
+    "renderTimeout": {
+        "message": "미리 보기 이미지 렌더링 시간(ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "서버가 시간 내 미리 보기 이미지를 생성하지 않는다면 원본 미리 보기 이미지를 표시해요."
     },
     "Enable": {
         "message": "사용"
@@ -1334,5 +1349,16 @@
     },
     "Error": {
         "message": "오류"
+    },
+    "ShowOriginal": {
+        "message": "원본 정보 보기"
+    },
+    "chatboxDescription": {
+        "message": "Discord나 Matrix에 참가해 이 대화에 영구적으로 머무르세요",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "지침 도움말 표시",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     }
 }

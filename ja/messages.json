@@ -11,7 +11,7 @@
         "message": "サーバーがこのリクエストは無効であると返答しました"
     },
     "429": {
-        "message": "一つの動画に対してあまりに多くのセグメントを登録しています。本当にこれだけ必要ですか？"
+        "message": "一つの動画に対してあまりに多くのセグメントを登録しています。本当にこんなに必要ですか？"
     },
     "409": {
         "message": "これは既に登録済みです。"
@@ -57,10 +57,10 @@
         "message": "再度表示しない"
     },
     "hitGoBack": {
-        "message": "スキップ解除を押すと元の場所へ戻ります"
+        "message": "「スキップ取消」を押すと元の位置へ戻ります"
     },
     "unskip": {
-        "message": "スキップしない"
+        "message": "スキップ取消"
     },
     "reskip": {
         "message": "再スキップ"
@@ -81,13 +81,13 @@
         "message": "本当に消去しますか？\n\n"
     },
     "Unknown": {
-        "message": "広告箇所の登録中にエラーが発生しました。後で再度お試しください。"
+        "message": "広告部分の登録中にエラーが発生しました。後で再度お試しください。"
     },
     "sponsorFound": {
-        "message": "データベースにこの動画のセグメントの登録があります！"
+        "message": "データベースにこの動画の省略部分の登録あり！"
     },
     "sponsor404": {
-        "message": "セグメントの登録なし"
+        "message": "省略部分の登録なし"
     },
     "sponsorStart": {
         "message": "セグメント開始を記録"
@@ -166,7 +166,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "ヒント: 登録用のキー割り当ての設定も利用できます"
+        "message": "ヒント: 登録用のキー割り当ても設定できます"
     },
     "clearTimesButton": {
         "message": "時間を消去"
@@ -182,9 +182,6 @@
     },
     "copySegmentID": {
         "message": "セグメントIDをコピー"
-    },
-    "discordAdvert": {
-        "message": "公式Discordサーバーに参加して意見やフィードバックをお寄せください！"
     },
     "hideThis": {
         "message": "非表示にする"
@@ -407,11 +404,11 @@
         "message": "時間"
     },
     "youHaveSavedTime": {
-        "message": "他の人々の時間をこれだけ節約しました:",
+        "message": "みんなの時間を節約しました",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
-        "message": "（皆の人生のうち）",
+        "message": "のみんなの人生",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "statusReminder": {
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "データ取得サーバーの呼び出しに使うアドレスです。あなた所有のサーバーのインスタンスがなければ変更する必要はありません。"
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "サムネイルキャッシュ用のサーバーのアドレス"
     },
     "save": {
         "message": "保存"
@@ -601,7 +601,7 @@
         "message": "スポンサー"
     },
     "category_sponsor_description": {
-        "message": "報酬のある販売促進、製品紹介、および直接広告です。自己販促や、動機や好きな製作者・サイト・製品に対する無報酬での表明とは異なります。"
+        "message": "報酬のある販売促進、紹介、および直接広告です。自己宣伝や、動機や好きな製作者・サイト・製品に対する無報酬での表明とは異なります。"
     },
     "category_sponsor_guideline1": {
         "message": "有料のプロモーション"
@@ -638,7 +638,7 @@
         "message": "動画全体が無料または補助金を受けてアクセスしたものを紹介している"
     },
     "category_interaction": {
-        "message": "行動を促すメッセージ（チャンネル登録等）"
+        "message": "行動のお願い (登録/寄付など)"
     },
     "category_interaction_description": {
         "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かついてのシーンは、自己宣伝に分類すべきです。"
@@ -656,7 +656,7 @@
         "message": "動画の間に挿入される告知"
     },
     "category_intro": {
-        "message": "合間 / 導入アニメーション"
+        "message": "合間 / 導入アニメ"
     },
     "category_intro_description": {
         "message": "本編ではない動画の合間部分。一時停止、静止画面、繰り返しのアニメーションなどが相当します。本編の情報を含んだ場面転換に対しては使用しないでください。"
@@ -671,10 +671,10 @@
         "message": "情報を含む場面転換には使用しない"
     },
     "category_outro": {
-        "message": "エンドカード / クレジット"
+        "message": "終了画面 / クレジット"
     },
     "category_outro_description": {
-        "message": "提供表示やYouTubeの終了画面が表示されている場面。動画の内容を結論している場面には使用しないで下さい。"
+        "message": "クレジットやYouTubeの終了画面のシーンです。動画の内容を結論するシーンではありません。"
     },
     "category_outro_guideline1": {
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
@@ -686,7 +686,7 @@
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
     },
     "category_preview_guideline1": {
-        "message": "動画後ほどや将来の動画に登場する場面"
+        "message": "後で登場する場面や将来の場面の切り抜き"
     },
     "category_preview_guideline2": {
         "message": "前回の動画のあらすじ"
@@ -698,7 +698,7 @@
         "message": "繋ぎの話/冗談"
     },
     "category_filler_description": {
-        "message": "動画の本編を理解するのに必要のない、繋ぎの話やユーモアによって脱線したシーン。これには、文脈や背景にある情報を含むセグメントを含めないでください。これは、あなたが楽しい気分になれないときなどのための、非常にアグレッシブなカテゴリーです。"
+        "message": "動画の本編を理解するのに必要のない、繋ぎの話やユーモアによって脱線したシーン。文脈や背景にある情報を含むシーンは含めないでください。また、あなたが楽しい気分になれないときの非常に強引な分類です。"
     },
     "category_filler_short": {
         "message": "繋ぎの話"
@@ -885,7 +885,7 @@
         "message": "スキップする前にチャンネルチェックを強制する"
     },
     "whatForceChannelCheck": {
-        "message": "標準設定では、チャンネル情報を取得する前にセグメントをスキップします。標準設定では、ホワイトリストに追加されているチャンネルでも動画の先頭部分にあるセグメントがスキップされる場合があります。この設定を有効にするとこの挙動が回避されますが、チャンネルIDの取得に時間がかかるため、すべてのスキップに遅延が発生します。高速なインターネット回線を使用している場合は気にならないかもしれません。"
+        "message": "標準設定では、チャンネル情報の取得前にすぐにセグメントをスキップします。また標準設定では、ホワイトリストに追加されているチャンネルでも動画の先頭部分にあるセグメントがスキップされる場合があります。この設定を有効にすると、これらの動作を回避しますが、チャンネルIDの取得に時間がかかるため、すべてのスキップ時に遅延が少し発生します。高速なインターネット回線では気づかないでしょう。"
     },
     "forceChannelCheckPopup": {
         "message": "「スキップする前にチャンネルチェックを強制する」を有効にしてみてください"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "質問があります"
     },
+    "askAQuestion": {
+        "message": "質問する"
+    },
     "warningConfirmButton": {
         "message": "理由を理解しました"
     },
@@ -985,7 +988,7 @@
         "message": "スキップの仕組み"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "データベースにある動画セグメントが自動的にスキップされます。この拡張機能のアイコンをクリックすると、セグメントの位置や範囲を確かめることができます。"
+        "message": "データベースに登録があれば動画の該当部分が自動的でスキップされます。この拡張機能のアイコンをクリックするとその内容の詳細を確認できます。"
     },
     "helpPageHowSkippingWorks2": {
         "message": "セグメントをスキップする度に通知が表示されます。セグメントの範囲がおかしいと思ったら、そのセグメントを低評価してください。ポップアップ画面でも同様に投票ができます。"
@@ -1300,17 +1303,69 @@
     "Disabled": {
         "message": "無効化済み"
     },
+    "CapitalizeWords": {
+        "message": "単語を大文字にする"
+    },
+    "TitleCase": {
+        "message": "単語冒頭を大文字"
+    },
+    "SentenceCase": {
+        "message": "先頭単語のみ大文字"
+    },
     "keepUnsubmitted": {
         "message": "送信済みの投票を保存"
     },
     "whatKeepUnsubmitted": {
-        "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの替わりに、あなたが選択した題名と画像を表示する。"
+        "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの代わりに、あなたが選択した題名と画像を表示する。"
+    },
+    "useThumbnailGenerationService": {
+        "message": "サムネイル生成サービスを使用"
+    },
+    "onAllPages": {
+        "message": "すべてのページで",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "動画のページ以外のすべてのページで",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "しない"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "サムネイル生成サービスは、動画IDを使用した匿名のリクエストをリモートサーバーに送信することで、サムネイル生成を大きく高速化します。 そうしてサムネイルが生成されるか、すでに生成済みであればそのキャッシュを使います。"
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "動画のページに使うと、限定公開の動画IDがそのサーバーに漏洩する可能性があります。「動画のページ以外のすべてのページで」に設定すると、この問題を避けることができます。別のやり方は、自分でサムネイル生成サービスを運用することです。"
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "サムネイル生成サービスを使用しない場合、すべてのリクエストには、 k-anonymoity クエリのシステムを使います。これにより、サーバーに対しどの動画を取得したかを予測するのを難しくさせます。また低速なローカルのサムネイル生成サービス使われます。",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "サムネイル生成サービスのソースコード"
+    },
+    "moreAboutKAnonymity": {
+        "message": "K-Anonymity の詳細",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "サムネイルにアンチエイリアスをかける"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "画像の縮小によるサムネイルのシャープなエッジを減らす。より多くの処理能力を使います。"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
     "fetchTimeoutDescription": {
         "message": "この時間内にサーバーが応答しなければ、元の題名と画像を表示する。"
+    },
+    "renderTimeout": {
+        "message": "サムネイル描画の時間切れまで (ミリ秒)"
+    },
+    "renderTimeoutDescription": {
+        "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
     },
     "Enable": {
         "message": "有効"
@@ -1325,5 +1380,35 @@
     },
     "Error": {
         "message": "エラー"
+    },
+    "ShowOriginal": {
+        "message": "元の詳細を表示"
+    },
+    "FillerWarning": {
+        "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "DiscordまたはMatrixに参加していただくと、この会話を続けることができます。",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "ガイドラインの概要を表示",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "サムネ詐欺を避ける",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "疑問系の題名を内容の結論に置き換える",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "動画への反応としての説明を避ける (衝撃的な表現)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "動画を視聴するかの判断に足る十分な案内を前もって提供する"
     }
 }

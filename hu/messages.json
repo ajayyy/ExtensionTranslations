@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Szegmens ID másolása"
     },
-    "discordAdvert": {
-        "message": "Gyere, csatlakozz a hivatalos discord szerverhez, hogy javaslatokat és visszajelzést adhass!"
-    },
     "hideThis": {
         "message": "Elrejtés"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "A cím, amin keresztül a bővítmény hívásokat küld az adatszolgáltató szerver felé.\nHacsak nincs saját szerverpéldányod, ezt nem szabad megváltoztatni."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Indexkép-gyorsítótár szerver címe"
     },
     "save": {
         "message": "Mentés"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Kérdésem van"
     },
+    "askAQuestion": {
+        "message": "Kérdezz"
+    },
     "warningConfirmButton": {
         "message": "Megértettem az okot"
     },
@@ -1315,11 +1318,54 @@
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."
     },
+    "useThumbnailGenerationService": {
+        "message": "Indexkép készítő szolgáltatás használata"
+    },
+    "onAllPages": {
+        "message": "Minden oldalon",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Minden oldalon, kivéve videók oldalain",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Soha"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Az indexkép készítő szolgáltatás jelentősen felgyorsítja az indexkép elkészülését azzal, hogy egy névtelen kérést küld egy szervernek a videó azonosítójával. Ezután az indexkép elkészítésre kerül, vagy gyorsítótárból kerül betöltésre, ha már korábban el lett készítve."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Ha egy videó oldalán használják, ez potenciálisan kiszivárogtathat nem nyilvános videó ID-kat a szervernek. A \"Minden oldalon, kivéve videók oldalain\" beállítás megoldja ezt a problémát. Egy másik lehetőség egy saját indexkép készítő szolgáltatás futtatása."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ha az indexkép készítő szolgáltatás le van tiltva, minden kérés egy k-anonimitásos lekérdezési módszert fog használni, ami nehezebben felismerhetővé teszi a szerver számára, hogy melyik videók kerültek betöltésre, és egy lassabb, helyi indexkép készítő szolgáltatás kerül használatra.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Indexkép készítő szolgáltatás forráskódja"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Részletesebben a k-anonimitásról",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Élsimítás indexképeken"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Csökkenti a képek kicsinyítéséből következő éles vonalakat az indexképeken. Több erőforrást igényel."
+    },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Eredeti címek és indexképek mutatása, ha a szerver nem válaszol az itt megadott idő alatt."
+    },
+    "renderTimeout": {
+        "message": "Indexkép kirajzolási időtúllépés (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Eredeti indexképek mutatása, ha ennyi idő alatt nem sikerül előkészíteni egy indexképet."
     },
     "Enable": {
         "message": "Engedélyez"
@@ -1334,5 +1380,35 @@
     },
     "Error": {
         "message": "Hiba"
+    },
+    "ShowOriginal": {
+        "message": "Eredeti tulajdonságok megjelenítése"
+    },
+    "FillerWarning": {
+        "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Csatlakozz Discordhoz vagy Mátrixhoz, hogy véglegesen ebben a beszélgetésben maradhass",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Irányelvek mutatása",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Kerüld az eltúlzott arckifejezéseket",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Használj inkább állításokat kérdések helyett",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Kerüld a videóra való reakciók leírását (pl. \"meglepő\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Nyújts elég információt, hogy mások tájékozott döntést hozhassanak, mielőtt kattintanának"
     }
 }

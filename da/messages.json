@@ -60,7 +60,7 @@
         "message": "Tryk på unskip for at gå tilbage til hvor du kom fra."
     },
     "unskip": {
-        "message": "Annuller spring over"
+        "message": "Annuller overspringning"
     },
     "reskip": {
         "message": "Spring over"
@@ -162,7 +162,7 @@
         "message": "Indsend"
     },
     "submissionEditHint": {
-        "message": "Sektionsredigering vises, når du klikker på afsend",
+        "message": "Sektionsredigering vises, når du klikker på Indsend",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
@@ -182,9 +182,6 @@
     },
     "copySegmentID": {
         "message": "Kopier segment-ID"
-    },
-    "discordAdvert": {
-        "message": "Kom til den officielle Discord-server for at give forslag og feedback!"
     },
     "hideThis": {
         "message": "Skjul dette"
@@ -1223,6 +1220,9 @@
     "exportSegmentsAsURL": {
         "message": "Del som URL"
     },
+    "allowScrollingToEdit": {
+        "message": "Tillad rulning for at redigere tider"
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
@@ -1279,14 +1279,26 @@
     "CapitalizeWords": {
         "message": "Skriv ord med store begyndelsesbogstaver"
     },
+    "SentenceCase": {
+        "message": "Første bogstav i sætning med stort"
+    },
     "keepUnsubmitted": {
         "message": "Gem indsendte stemmer"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og miniaturer, du valgte, i stedet for den mest populære på serveren."
     },
     "fetchTimeout": {
         "message": "Timeout for dataindlæsning (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Vis originale titler og miniaturer hvis serveren ikke reagerer indenfor dette tidsrum."
+    },
+    "renderTimeout": {
+        "message": "Tidsgrænse for generering af miniaturebilleder (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Vis originale miniaturebilleder, hvis der ikke kan genereres et miniaturebillede inden for denne tidsramme."
     },
     "Enable": {
         "message": "Aktivér"
@@ -1301,5 +1313,12 @@
     },
     "Error": {
         "message": "Fejl"
+    },
+    "ShowOriginal": {
+        "message": "Vis oprindelige detaljer"
+    },
+    "FillerWarning": {
+        "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }

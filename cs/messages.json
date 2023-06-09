@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Zkopírovat ID segmentu"
     },
-    "discordAdvert": {
-        "message": "Připojte se k oficiálnímu Discord serveru k podání návrhů a zpětné vazby!"
-    },
     "hideThis": {
         "message": "Skrýt"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Adresa používaná ke kontaktování serveru s daty.\nToto byste neměli měnit, pokud nemáte vlastní serverovou instanci."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Adresa serveru mezipaměti miniatury"
     },
     "save": {
         "message": "Uložit"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Mám otázku"
     },
+    "askAQuestion": {
+        "message": "Mám otázku"
+    },
     "warningConfirmButton": {
         "message": "Chápu důvod"
     },
@@ -1315,11 +1318,54 @@
     "whatKeepUnsubmitted": {
         "message": "Ponechat odeslané hlasy po hlasování pro zobrazení názvů a náhledů, které jste zvolili vy, namísto nejlépe hodnocených na serveru."
     },
+    "useThumbnailGenerationService": {
+        "message": "Použít službu generování náhledů"
+    },
+    "onAllPages": {
+        "message": "Na všech stránkách",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Na všech stránkách kromě stránek videí",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nikdy"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Služba generování miniatur výrazně urychluje generování miniatur odesláním anonymního požadavku s ID videa na vzdálený server. Miniatura se pak buď vygeneruje, nebo se použije verze z mezipaměti, pokud již byla vygenerována."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Při použití na stránkách s videem by mohlo dojít k úniku nezařazených ID videí na tento server. Nastavením této možnosti na \"Na všech stránkách kromě stránek videí\" se tomuto problému vyhnete. Další možností je hostovat vlastní službu generování miniatur."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Pokud je použití služby generování miniatur zakázáno, budou všechny požadavky používat systém k-anonymních dotazů, což ztěžuje serveru předvídat, která videa byla načtena, a bude použita pomalejší místní služba generování miniatur.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Zdrojový kód služby generování náhledů"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Více informací o K-Anonymitě",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Použít Anti-aliasing na náhledech"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Sníží množství ostrých hran na náhledech při zmenšování obrázků. Používá více zdrojů při zpracování."
+    },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Zobrazit původní názvy a náhledy, pokud server do tohoto času neodpoví."
+    },
+    "renderTimeout": {
+        "message": "Časový limit vykreslování miniatur (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Zobrazit původní miniaturu, pokud v tomto čase nebude vygenerována vlastní."
     },
     "Enable": {
         "message": "Povolit"
@@ -1334,5 +1380,35 @@
     },
     "Error": {
         "message": "Chyba"
+    },
+    "ShowOriginal": {
+        "message": "Zobrazit původní podrobnosti"
+    },
+    "FillerWarning": {
+        "message": "Varování: Jedná se o velmi agresivní kategorii. S největší pravděpodobností budete muset někdy zrušit přeskočení nebo kategorii zakázat. Upozorňujeme, že u mnoha videí je přeskočeno více než 50 % videa! Nezapomeňte však, že při odesílání je stále třeba dodržovat konkrétní pokyny.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Pokud chcete trvale zůstat v tomto chatu, připojte se na Discord nebo Matrix",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Zobrazit nápovědu k pokynům",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vyhněte se přehnaným výrazům obličeje",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Upřednostňujte věty nad otázkami",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vyhněte se popisování reakcí na video (šokující)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Poskytněte dostatek informací pro informovanou volbu před kliknutím"
     }
 }

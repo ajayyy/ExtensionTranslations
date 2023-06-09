@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Segment-ID kopieren"
     },
-    "discordAdvert": {
-        "message": "Tritt dem offiziellen Discord-Server bei und teile Anregungen und Feedback!"
-    },
     "hideThis": {
         "message": "Verstecken"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDies sollte nicht geändert werden, ausser du hast deine eigene Serverinstanz."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Thumbnail Cache Server-Adresse"
     },
     "save": {
         "message": "Speichern"
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Ich habe eine Frage"
     },
+    "askAQuestion": {
+        "message": "Stelle eine Frage"
+    },
     "warningConfirmButton": {
         "message": "Ich verstehe den Grund"
     },
@@ -1315,11 +1318,54 @@
     "whatKeepUnsubmitted": {
         "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails welche du ausgewählt hast anzuzeigen anstelle derer auf dem Server."
     },
+    "useThumbnailGenerationService": {
+        "message": "Thumbnail-Erstellungsdienst verwenden"
+    },
+    "onAllPages": {
+        "message": "Auf allen Seiten",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Auf allen Seiten außer Videoseiten",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Niemals"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Thumbnail erstellung erheblich, durch das senden einer anonymen Anfrage mit der Video-ID zum Remote-Server. Das Thumbnail wird dann entweder erstellt, oder aus einem Zwischenspeicher gezogen sollte es bereits existieren."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnai-Generierungsdienst zu hosten."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Wenn die verwendung des Thumbnail-Generierungsdienstes deaktiviert ist, werden alle Anfragen ein K-Anonymitäts-Anfragesystem verwenden, welches es schwieriger für den Server macht, vorrauszusagen, welche Videos bereits verarbeitet wurden. Es wird auch ein langsameres Thumbnail-Generierungssystem verwendet.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Thumbnail-Generierungsdienst Quellcode"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mehr über K-Anonymität",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Kantenglättung für Thumbnails aktivieren"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Reduziert scharfe Kanten in Thumbnails, die aufgrund der Bildverkleinerung entstanden sind. Benötigt mehr Rechenleistung."
+    },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Zeige original Titel und Thumbnail wenn der Server nicht innerhalb dieser Zeit antwortet."
+    },
+    "renderTimeout": {
+        "message": "Thumbnail Render-Timeout (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Zeige original Thumbnails wenn kein Thumbnail in dieser Zeit generiert werden konnte."
     },
     "Enable": {
         "message": "Aktivieren"
@@ -1334,5 +1380,35 @@
     },
     "Error": {
         "message": "Fehler"
+    },
+    "ShowOriginal": {
+        "message": "Zeige Original Details"
+    },
+    "FillerWarning": {
+        "message": "Warnung: Dies ist eine extrem agressive Kategorie. Wahrscheinlich musst du einige Dinge ent-skippen oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass es weiterhin bestimmte Richtlinien für das einreichen gibt, welche man folgen muss.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Trete Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Zeige Leitfaden-Hilfe",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vermeide übertriebene Gesichtszüge",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Bevorzuge Aussagen über Fragen",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vermeide Beschreibungen zu Raktionen zum Video (\"Schockierend\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Bevor du klickst, gib genügend Informationen an um eine Informative Auswahl zu treffen"
     }
 }

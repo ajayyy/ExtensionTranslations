@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Копіювати ID сегменту"
     },
-    "discordAdvert": {
-        "message": "Приєднуйтесь до офіційного сервера Discord, щоб залишити пропозиції і зворотний зв'язок!"
-    },
     "hideThis": {
         "message": "Приховати це"
     },
@@ -504,6 +501,9 @@
     },
     "dataFetchingServerAddressDescription": {
         "message": "Адреса, за якою SponsorBlock отримує дані.\nМіняйте тільки якщо Ви підняли свій сервер."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Адреса сервера кешу мініатюр"
     },
     "save": {
         "message": "Зберегти"
@@ -1315,11 +1315,54 @@
     "whatKeepUnsubmitted": {
         "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовок і мініатюру, а не топ голосів на сервері."
     },
+    "useThumbnailGenerationService": {
+        "message": "Використовувати службу генерації мініатюр"
+    },
+    "onAllPages": {
+        "message": "На всіх сторінках",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На всіх сторінках, крім сторінок з відео",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Ніколи"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Сервіс генерації мініатюр значно прискорює генерацію мініатюр, відправляючи анонімний запит з ідентифікатором відео на віддалений сервер. Після цього мініатюра буде або згенерована, або витягнута з кешу, якщо вона вже була згенерована."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Якщо його використовувати на сторінках з відео, це може призвести до витоку ідентифікаторів відео на цей сервер. Встановлення для цього параметра значення \"На всіх сторінках, крім сторінок з відео\" допоможе уникнути цієї проблеми. Інший варіант - розмістити власний сервіс генерації мініатюр."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Якщо використання служби генерації мініатюр вимкнено, для всіх запитів використовуватиметься система запитів з k-анонімністю, що ускладнює передбачення сервером того, які саме відео було отримано, а також використовуватиметься повільніша локальна служба генерації мініатюр.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Вихідний код служби генерації мініатюр"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Більше про K-анонімність",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Запустити згладжування на мініатюрах"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Зменшує гострі краї на мініатюрах через зменшення зображень. Використовує більше обчислювальної потужності."
+    },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
     },
     "fetchTimeoutDescription": {
         "message": "Показувати оригінальні назви та мініатюри, якщо сервер не відповідає багато часу."
+    },
+    "renderTimeout": {
+        "message": "Тайм-аут рендерингу мініатюр (мс)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Показувати оригінальні мініатюри, якщо не вдається згенерувати мініатюру за цей час."
     },
     "Enable": {
         "message": "Увімкнути"
@@ -1334,5 +1377,12 @@
     },
     "Error": {
         "message": "Помилка"
+    },
+    "ShowOriginal": {
+        "message": "Показати оригінальну інформацію"
+    },
+    "FillerWarning": {
+        "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }

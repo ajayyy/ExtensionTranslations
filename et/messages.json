@@ -183,9 +183,6 @@
     "copySegmentID": {
         "message": "Kopeeri segmendi ID"
     },
-    "discordAdvert": {
-        "message": "Tule liitu ametliku Discordi serveriga, et anda soovitusi ja tagasisidet!"
-    },
     "hideThis": {
         "message": "Peida see"
     },
