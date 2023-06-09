@@ -1426,5 +1426,40 @@
     },
     "tip4": {
         "message": "Ge tillräckligt med information för att göra ett informerat val innan du klickar"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Obs: Dina SponsorBlock-inställningar har automatiskt importerats!"
+    },
+    "howItWorks": {
+        "message": "Så här fungerar det"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Tack för att du provar DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Observera att detta tillägg fortfarande är i betastadiet. Detta tillägg är gratis, för alltid, för alla som installerar det under betaperioden. Ja, det innebär att det kommer att finnas en betalvägg för nya användare i framtiden, men jag lovar att det fortfarande kommer att finnas ett sätt för människor att få fri tillgång. Naturligtvis kommer tillägget alltid att förbli helt öppen källkod med en offentligt nerladdningsbar databas, precis som SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Tack för att du överväger att testa det även i den här situationen",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Kom och bidra, kom med nya förslag och hjälp till på {discord} eller {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Om du gillar det jag gjort hittills och vill hjälpa mig med pengar, så är här en länk"
+    },
+    "termsAgreement": {
+        "message": "Genom att använda detta tillägg godkänner du {privacy-policy} och {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Integritetspolicy"
+    },
+    "termsOfUse": {
+        "message": "Vilkor"
+    },
+    "openSourceLicenses": {
+        "message": "Licens för öppen källkod"
     }
 }
