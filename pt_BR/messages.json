@@ -1325,7 +1325,7 @@
         "message": "Tempo limite da miniatura de renderização (ms)"
     },
     "renderTimeoutDescription": {
-        "message": "Mostrar miniaturas originais se não for possível gerar miniatura neste período."
+        "message": "Mostrar miniaturas originais se não for possível gerar uma miniatura nesse período."
     },
     "Enable": {
         "message": "Ativar"
@@ -1342,6 +1342,6 @@
         "message": "Erro"
     },
     "ShowOriginal": {
-        "message": "Exibir detalhes originais"
+        "message": "Mostrar detalhes originais"
     }
 }
