@@ -1315,6 +1315,19 @@
     "thumbnailFallbackOption": {
         "message": "Pokud neexistuje žádný komunitní náhled"
     },
+    "whatThumbnailFallbackOption": {
+        "message": "Při výběru na náhodném čase budou použita data z projektu SponsorBlock pro zajištění, že nebude vybrán čas v propagačním segmentu.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Zobrazit snímek z náhodného času"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Zobrazit původní náhled"
+    },
+    "showABlankBox": {
+        "message": "Zobrazit prázdný rámeček"
+    },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
     },
@@ -1413,5 +1426,40 @@
     },
     "tip4": {
         "message": "Poskytněte dostatek informací pro informovanou volbu před kliknutím"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Poznámka: vaše nastavení doplňku SponsorBlock byla automaticky importována!"
+    },
+    "howItWorks": {
+        "message": "Jak to funguje"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Děkujeme za vyzkoušení DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Upozorňujeme, že toto rozšíření je stále ve fázi beta. Rozšíření bude navždy zdarma pro každého, kdo si ho nainstaluje během beta verze. Ano, to znamená, že v budoucnu bude rozšíření pro nové uživatele pouze placené, ale slibuji, že stále bude existovat způsob, jak pro lidi získat bezplatný přístup. Rozšíření samozřejmě vždy zůstane s plně otevřeným zdrojovým kódem a veřejně stažitelnou databází, stejně jako SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Děkujeme, že jste zvážili vyzkoušení i v této situaci",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Přispějte, vymyslete nějaké návrhy a pomozte ostatním na {discord} nebo na {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Pokud se vám líbí, co jsem zatím vytvořil a chcete mi finančně pomoct, zde je odkaz"
+    },
+    "termsAgreement": {
+        "message": "Používáním tohoto rozšíření souhlasíte se {privacy-policy} a {terms}"
+    },
+    "privacyPolicy": {
+        "message": "zásadami ochrany osobních údajů"
+    },
+    "termsOfUse": {
+        "message": "podmínkami používání"
+    },
+    "openSourceLicenses": {
+        "message": "Licence Open Source"
     }
 }
