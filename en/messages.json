@@ -1426,5 +1426,40 @@
     },
     "tip4": {
         "message": "Provide enough information to make an informed choice before clicking"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Note: Your SponsorBlock settings have been automatically imported!"
+    },
+    "howItWorks": {
+        "message": "How it works"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Thanks for trying out DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Please note that this extension is still in beta. This extension is free, forever, for anyone who installs it during the beta. Yes, that means there will be a paywall for new users only in the future, but I promise that there will still be a way to for people to get free access. Of course the extension will always remain fully open source, with a publicly downloadable database, just like SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Thank you for considering trying it out even in this situation",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Come contribute, make some suggestions and help out on {discord} or on {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "If you like what I've done so far, and want to help me with money, here's a link"
+    },
+    "termsAgreement": {
+        "message": "By using this extension, you agree to the {privacy-policy} and {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Privacy Policy"
+    },
+    "termsOfUse": {
+        "message": "Terms of Use"
+    },
+    "openSourceLicenses": {
+        "message": "Open Source Licenses"
     }
 }
