@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Cím kezdődjön nagybetűvel"
     },
+    "thumbnailFallbackOption": {
+        "message": "Ha nincs beküldött indexkép"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Véletlen pillanat esetén a SponsorBlock adatok használatával olyan időpont kerül kiválasztásra, ami nem esik bele promóciós szegmensbe.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Képernyőkép mutatása egy véletlen pillanatról"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Eredeti indexkép mutatása"
+    },
+    "showABlankBox": {
+        "message": "Üres doboz mutatása"
+    },
     "keepUnsubmitted": {
         "message": "Beküldött szavazatok tárolása"
     },
@@ -1410,5 +1426,40 @@
     },
     "tip4": {
         "message": "Nyújts elég információt, hogy mások tájékozott döntést hozhassanak, mielőtt kattintanának"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Megjegyzés: A SponsorBlock beállításaid automatikusan betöltésre kerültek!"
+    },
+    "howItWorks": {
+        "message": "Hogyan működik"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Köszönöm, hogy kipróbálod a DeArrowt"
+    },
+    "deArrowBetaStatus": {
+        "message": "Kérlek, vedd figyelembe, hogy ez a bővítmény még béta állapotban van. A bővítmény örökké ingyenes lesz mindenkinek, aki a béta ideje alatt telepíti magának. Igen, ez azt jelenti, hogy lesz majd egy \"fizetési fal\" a jövőben az új felhasználóknak, de ígérem, hogy továbbra is lesz módja ingyenes hozzáférés megszerzésének. Természetesen a bővítmény mindig is nyílt forráskódú marad egy nyilvánosan letölthető adatbázissal, pont mint a SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Köszönöm, hogy kipróbálnád ebben az állapotban is",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Gyere, járulj hozzá a fejlesztéshez, tegyél javaslatokat és segíts {discord}on vagy {matrix}on"
+    },
+    "deArrowDonationText": {
+        "message": "Ha tetszik amit eddig csináltam és szeretnél pénzzel segíteni, itt egy link"
+    },
+    "termsAgreement": {
+        "message": "A bővítmény használatával hozzájárulsz a következőkhöz: {privacy-policy}, {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Adatvédelmi irányelvek"
+    },
+    "termsOfUse": {
+        "message": "Használati feltételek"
+    },
+    "openSourceLicenses": {
+        "message": "Nyílt forráskódú licencek"
     }
 }
