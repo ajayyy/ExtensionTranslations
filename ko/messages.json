@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "질문이 있어요"
     },
+    "askAQuestion": {
+        "message": "질문하기"
+    },
     "warningConfirmButton": {
         "message": "사유를 이해했어요"
     },
@@ -1309,6 +1312,22 @@
     "SentenceCase": {
         "message": "본문 형식"
     },
+    "thumbnailFallbackOption": {
+        "message": "제출한 미리 보기 이미지가 없으면"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "무작위 시간을 선택할 때, SponsorBlock 데이터를 사용해서 광고 구간 내 시간을 선택하지 않도록 해요.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "무작위 시간의 스크린샷 표시"
+    },
+    "TheOriginalThumbnail": {
+        "message": "원본 미리 보기 이미지 표시"
+    },
+    "showABlankBox": {
+        "message": "빈 상자 표시"
+    },
     "keepUnsubmitted": {
         "message": "제출된 투표 저장"
     },
@@ -1360,5 +1379,14 @@
     "showGuidelineHelp": {
         "message": "지침 도움말 표시",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "privacyPolicy": {
+        "message": "개인정보 취급방침"
+    },
+    "termsOfUse": {
+        "message": "이용약관"
+    },
+    "openSourceLicenses": {
+        "message": "오픈소스 라이선스"
     }
 }
