@@ -1424,6 +1424,18 @@
         "message": "Evitar descrever reações sobre o vídeo (\"chocante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
+    "tip4": {
+        "message": "Antes de clicar, forneça informações suficientes para uma melhor seleção"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Observação: suas configurações do SponsorBlock foram importadas automaticamente!"
+    },
+    "howItWorks": {
+        "message": "Como funciona"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Obrigado por experimentar o DeArrow"
+    },
     "discordPromotion": {
         "message": "Deixe sua contribuição, sugestões ou ajude outros usuários no {discord} ou {matrix}"
     },
