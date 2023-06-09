@@ -1443,5 +1443,23 @@
     "deArrowTryingOut": {
         "message": "Благодарим ви, че обмислихте да го изпробвате дори в тази ситуация",
         "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Присъединете се, направете някои предложения и помогнете в {discord} или {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Ако ви харесва това, което съм направил до момента, и искате да ми помогнете с пари, ето линк"
+    },
+    "termsAgreement": {
+        "message": "Използвайки това разширение, вие се съгласявате с {privacy-policy} и {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Политика за поверителност"
+    },
+    "termsOfUse": {
+        "message": "Условия за ползване"
+    },
+    "openSourceLicenses": {
+        "message": "Лицензи за софтуер с отворен код"
     }
 }
