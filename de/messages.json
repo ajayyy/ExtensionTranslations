@@ -1410,5 +1410,18 @@
     },
     "tip4": {
         "message": "Bevor du klickst, gib genügend Informationen an um eine Informative Auswahl zu treffen"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Hinweis: Ihre SponsorBlock Einstellungen wurden automatisch importiert!"
+    },
+    "howItWorks": {
+        "message": "So funktioniert's"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Vielen Dank für das Ausprobieren von DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Bitte beachten Sie, dass diese Erweiterung noch in der Betaphase ist. Diese Erweiterung ist für jeden, der sie während der Beta installiert, kostenlos. Ja, das bedeutet, dass es in Zukunft eine Paywall für neue Nutzer geben wird, aber ich verspreche, dass es immer noch eine Möglichkeit geben wird, freien Zugang zu erhalten. Natürlich bleibt die Erweiterung immer vollständig Open-Source, mit einer öffentlich herunterladbaren Datenbank, genau wie SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
     }
 }
