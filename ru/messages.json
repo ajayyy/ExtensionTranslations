@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Как в предложении"
     },
+    "thumbnailFallbackOption": {
+        "message": "При отсутствии отправленного превью"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "При выборе случайного кадра будут использоваться данные SponsorBlock для обеспечения того, чтобы кадр был выбран не из рекламного сегмента.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Показать случайный кадр из видео"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Показать оригинальное превью"
+    },
+    "showABlankBox": {
+        "message": "Показать черный экран"
+    },
     "keepUnsubmitted": {
         "message": "Хранить отправленные оценки"
     },
@@ -1410,5 +1426,40 @@
     },
     "tip4": {
         "message": "Предоставьте достаточно информации, чтобы пользователь мог сделать информированный выбор"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Примечание: Ваши настройки SponsorBlock были импортированы автоматически!"
+    },
+    "howItWorks": {
+        "message": "Как это работает"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Спасибо за то, что воспользовались DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Пожалуйста, обратите внимание, что это расширение всё ещё находится в бета-версии. Оно останется бесплатным для всех, кто установит его во время бета-теста. Да, это означает, что для новых пользователей расширение будет платным, но я обещаю, что в будущем у людей будет возможность получить расширение бесплатно. Естественно, расширение навсегда останется с полностью открытым исходным кодом, с публично доступной базой данных, как и SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Благодарим вас за то, что попробовали его даже в таком состоянии",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Принять участие в разработке или предложить новую идею можно в {discord} или {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Если вам нравится то, что я сделал, и вы хотите помочь мне материально, вот ссылка"
+    },
+    "termsAgreement": {
+        "message": "Используя это расширение, вы соглашаетесь с {privacy-policy} и {terms}"
+    },
+    "privacyPolicy": {
+        "message": "политикой конфиденциальности"
+    },
+    "termsOfUse": {
+        "message": "условиями использования "
+    },
+    "openSourceLicenses": {
+        "message": "Лицензии исходного кода"
     }
 }
