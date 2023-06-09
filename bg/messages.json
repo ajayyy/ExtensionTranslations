@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Изречение"
     },
+    "thumbnailFallbackOption": {
+        "message": "Когато няма изпратена миниатюра"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "При избора на случаен час се използват данни от SponsorBlock, за да се гарантира, че не е избран час в промоционален сегмент.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Показване на екранна снимка от произволно време"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Показване на оригиналната миниатюра"
+    },
+    "showABlankBox": {
+        "message": "Показване на празно поле"
+    },
     "keepUnsubmitted": {
         "message": "Запазване на подадените гласове"
     },
@@ -1410,5 +1426,14 @@
     },
     "tip4": {
         "message": "Предоставете достатъчно информация, за да може да се вземе информирано решение преди кликване"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
+    },
+    "howItWorks": {
+        "message": "Как функционира"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Благодарим ви, че опитахте DeArrow"
     }
 }
