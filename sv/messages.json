@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Meningsskiftläge"
     },
+    "thumbnailFallbackOption": {
+        "message": "När ingen inskickad miniatyrbild finns"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "När du väljer en slumpmässig tid, kommer den att använda SponsorBlock data för att säkerställa att en tid i ett kampanjsegment inte väljs.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Visa en skärmbild från en slumpmässig tid"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Visa den ursprungliga miniatyrbilden"
+    },
+    "showABlankBox": {
+        "message": "Visa en tom ruta"
+    },
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
     },
@@ -1395,5 +1411,20 @@
     "showGuidelineHelp": {
         "message": "Visa vägledande hjälp",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Undvik överdrivna ansiktsuttryck",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Föredrar uttalanden framför frågor",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Undvik att beskriva reaktioner på videon (\"chockerande\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Ge tillräckligt med information för att göra ett informerat val innan du klickar"
     }
 }
