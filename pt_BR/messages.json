@@ -1255,19 +1255,19 @@
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
-        "message": "Escolha o mais descritivo"
+        "message": "Escolha o que mais bem descreve"
     },
     "Original": {
         "message": "Original"
     },
     "OriginalTitle": {
-        "message": "Título Original"
+        "message": "Título original"
     },
     "CurrentTime": {
-        "message": "Minuto Atual"
+        "message": "Momento atual"
     },
     "resetCustomTitle": {
-        "message": "Redefinir o título de volta ao texto original"
+        "message": "Voltar ao título original"
     },
     "resetIcon": {
         "message": "Redefinir ícone"
@@ -1413,15 +1413,15 @@
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
-        "message": "Evitar expressões faciais exageradas",
+        "message": "Evite expressões faciais exageradas",
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "Preferir afirmações a perguntas",
+        "message": "Prefira afirmações a perguntas",
         "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
     },
     "tip3": {
-        "message": "Evitar descrever reações sobre o vídeo (\"chocante\")",
+        "message": "Evite descrever reações sobre o vídeo (\"chocante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
@@ -1435,6 +1435,14 @@
     },
     "thanksForTryingOutDeArrow": {
         "message": "Obrigado por experimentar o DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Essa extensão ainda está em desenvolvimento. É uma extensão gratuita, e será gratuita para sempre para quem testá-la durante a fase beta. Sim, ela será paga no futuro, mas ainda haverá formas de ser obtida gratuitamente. A extensão sempre terá seu código aberto e um banco de dados público, assim como o SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Obrigado novamente por testar durante a fase de desenvolvimento",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Deixe sua contribuição, sugestões ou ajude outros usuários no {discord} ou {matrix}"
