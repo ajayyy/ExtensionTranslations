@@ -1079,7 +1079,7 @@
         "description": "100d"
     },
     "hourAbbreviation": {
-        "message": "Std",
+        "message": "Std.",
         "description": "100h"
     },
     "optionsTabBehavior": {
@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Nur 1. Wort des Satzes groß"
     },
+    "thumbnailFallbackOption": {
+        "message": "Wenn kein Thumbnail eingereicht wurde"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Bei der Auswahl einer zufälligen Zeit wird mittels SponsorBlock Daten sichergestellt, dass keine Zeit in einem Werbesegment ausgewählt wird.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Zeige einen Screenshot eines zufälligen Zeitpunktes"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Zeige das originale Thumbnail"
+    },
+    "showABlankBox": {
+        "message": "Zeige eine leere Box"
+    },
     "keepUnsubmitted": {
         "message": "Speichere übermittelte Abstimmungen"
     },
@@ -1412,7 +1428,7 @@
         "message": "Bevor du klickst, gib genügend Informationen an um eine Informative Auswahl zu treffen"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Hinweis: Ihre SponsorBlock Einstellungen wurden automatisch importiert!"
+        "message": "Hinweis: Deine SponsorBlock Einstellungen wurden automatisch importiert!"
     },
     "howItWorks": {
         "message": "So funktioniert's"
@@ -1421,7 +1437,29 @@
         "message": "Vielen Dank für das Ausprobieren von DeArrow"
     },
     "deArrowBetaStatus": {
-        "message": "Bitte beachten Sie, dass diese Erweiterung noch in der Betaphase ist. Diese Erweiterung ist für jeden, der sie während der Beta installiert, kostenlos. Ja, das bedeutet, dass es in Zukunft eine Paywall für neue Nutzer geben wird, aber ich verspreche, dass es immer noch eine Möglichkeit geben wird, freien Zugang zu erhalten. Natürlich bleibt die Erweiterung immer vollständig Open-Source, mit einer öffentlich herunterladbaren Datenbank, genau wie SponsorBlock.",
+        "message": "Bitte beachte, dass diese Erweiterung noch in der Betaphase ist. Diese Erweiterung ist für jeden, der sie während der Beta installiert, kostenlos. Ja, das bedeutet, dass es in Zukunft eine Paywall für neue Nutzer geben wird, aber ich verspreche, dass es immer noch eine Möglichkeit geben wird, freien Zugang zu erhalten. Natürlich bleibt die Erweiterung immer vollständig Open-Source, mit einer öffentlich herunterladbaren Datenbank, genau wie SponsorBlock.",
         "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Vielen Dank dafür, es auch in diesem Zustand auszuprobieren",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Bring dich mit ein, mach Vorschläge und hilf aus auf {discord} und {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Falls dir gefällt, was ich bisher getan habe und du mir mit Geld aushelfen willst, hier ist ein Link"
+    },
+    "termsAgreement": {
+        "message": "Durch die Verwendung dieser Erweiterung stimmen Sie der {privacy-policy} und den {terms} zu"
+    },
+    "privacyPolicy": {
+        "message": "Datenschutzerklärung"
+    },
+    "termsOfUse": {
+        "message": "Nutzungsbedingungen"
+    },
+    "openSourceLicenses": {
+        "message": "Open Source Lizenzen"
     }
 }
