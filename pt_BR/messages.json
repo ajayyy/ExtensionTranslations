@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Eu tenho uma dúvida"
     },
+    "askAQuestion": {
+        "message": "Pergunte algo"
+    },
     "warningConfirmButton": {
         "message": "Eu entendo o motivo"
     },
@@ -1309,11 +1312,64 @@
     "SentenceCase": {
         "message": "Frase em maiúscula"
     },
+    "thumbnailFallbackOption": {
+        "message": "Quando não houver nenhuma miniatura enviada"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Ao optar por aleatório, dados do SponsorBlock vão garantir que nenhum segmento promocional seja selecionado.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Usar quadro de momento aleatório"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Usar a miniatura original"
+    },
+    "showABlankBox": {
+        "message": "Usar em branco"
+    },
     "keepUnsubmitted": {
         "message": "Armazenar votos enviados"
     },
     "whatKeepUnsubmitted": {
         "message": "Manter votos enviados após votar para mostrar os títulos e miniaturas que você escolheu em vez do mais votado no servidor."
+    },
+    "useThumbnailGenerationService": {
+        "message": "Usar serviço de geração de miniaturas"
+    },
+    "onAllPages": {
+        "message": "Em todas as páginas",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Em todas as páginas, exceto de vídeos",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nunca"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "O serviço de geração de miniaturas acelera bastante o processo porque envia anonimamente a identificação do vídeo para um servidor remoto. Uma miniatura será então gerada, ou captada de um arquivo pré-existente."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Usar o serviço em páginas de vídeos traz o risco de vazar identificação de vídeos não-listados para o servidor. Selecione a opção \"Em todas as páginas, exceto de vídeos\" para que isso não ocorra. Outra opção é hospedar seu próprio serviço de geração de miniaturas."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Se o serviço de geração de miniaturas estiver desativado, todas as solicitações usarão um sistema anônimo de consultas, tornando mais difícil para o servidor prever quais vídeos já foram buscados, e um servidor local mais lento será usado.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Código-fonte do serviço de geração de miniaturas"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mais informações sobre o anonimato",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Suavização das miniaturas"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Reduz contornos muito evidentes nas miniaturas ao diminuir as imagens. Requer mais processamento."
     },
     "fetchTimeout": {
         "message": "Tempo limite de busca de dados (ms)"
@@ -1343,5 +1399,47 @@
     },
     "ShowOriginal": {
         "message": "Mostrar detalhes originais"
+    },
+    "FillerWarning": {
+        "message": "Atenção: essa categoria é altamente rigorosa. Pode ser que você precise reverter pulos ou desabilitá-los por um tempo. Saiba que alguns vídeos podem ter pulos com mais da metade da duração total. Entretanto, lembre-se de que ainda há orientações específicas a seguir ao submeter segmentos.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Entre no Discord ou Matrix para continuarmos a conversa",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Exibir orientações",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Evitar expressões faciais exageradas",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Preferir afirmações a perguntas",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Evitar descrever reações sobre o vídeo (\"chocante\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "discordPromotion": {
+        "message": "Deixe sua contribuição, sugestões ou ajude outros usuários no {discord} ou {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Se você está satisfeito com a extensão e gostaria de fazer uma contribuição em dinheiro, acesse este link"
+    },
+    "termsAgreement": {
+        "message": "Ao usar essa extensão, você concorda com a {privacy-policy} e {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Política de privacidade"
+    },
+    "termsOfUse": {
+        "message": "Termos de uso"
+    },
+    "openSourceLicenses": {
+        "message": "Licenças de código aberto"
     }
 }
