@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "先頭単語のみ大文字"
     },
+    "thumbnailFallbackOption": {
+        "message": "投稿されたサムネイルが存在しない場合"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "不定期を選択すると、広告シーンの時間が選択されないよう SponsorBlock のデータを使って確認します。",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "ランダムな時間のスクリーンショットを表示"
+    },
+    "TheOriginalThumbnail": {
+        "message": "元のサムネイルを表示"
+    },
+    "showABlankBox": {
+        "message": "空白のボックスを表示"
+    },
     "keepUnsubmitted": {
         "message": "送信済みの投票を保存"
     },
@@ -1410,6 +1426,32 @@
     },
     "tip4": {
         "message": "動画を視聴するかの判断に足る十分な案内を前もって提供する"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "注: SponsorBlock の設定が自動でインポートされました！"
+    },
+    "howItWorks": {
+        "message": "仕組み"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "DeArrow の試用に感謝します"
+    },
+    "deArrowBetaStatus": {
+        "message": "この拡張機能はまだベータ版です。ベータ版のうちにインストールするなら誰でも無料です。 はい、時が来たら、新しいユーザーは有料の壁に遮られるということです。でも私は人々が自由に利用する方法を確保することも約束します。もちろん、拡張機能は完全にオープンソースのままですし、SponsorBlock と同じように公開されたダウンロード可能なデータベースもあります。",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "この状態でも試していただき感謝します",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "{discord}や{matrix}から貢献や提案、お手伝いをしてください"
+    },
+    "deArrowDonationText": {
+        "message": "私の活動を気に入って頂けたら、寄付で支援してください。リンクはこちら。"
+    },
+    "termsAgreement": {
+        "message": "この拡張機能の使用により、{privacy-policy}と{terms}に同意したことになります"
     },
     "privacyPolicy": {
         "message": "個人情報保護方針"
