@@ -1211,5 +1211,40 @@
     },
     "SentenceCase": {
         "message": "Prvé písmeno vety veľké"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Poznámka: Vaše nastavenia SponsorBlocku boli automaticky naimportované!"
+    },
+    "howItWorks": {
+        "message": "Ako to funguje"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Ďakujeme za vyskúšanie DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Berte na vedomie, že toto rozšírenie je stále vo verzii beta. Je navždy zdarma pre toho, kto si ho nainštaluje, kým je v beta verzii. Tzn. že v budúcnosti bude platené, ale sľubujem, že zostane možnosť ako sa dostať k verzii zdarma. Samozrejme zostane toto rošírenie plne open-source, s verejne dostupnou databázou na stiahnutie, tak ako SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Ďakujeme za vyskúšanie beta verzie",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Prispejte prosím, navrhnite vylepšenia a pomôžte na {discord} alebo {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Ak sa vám páči moja tvorba a chceli by ste finančne prispieť, tu je odkaz"
+    },
+    "termsAgreement": {
+        "message": "Používaním tohto rozšírenia súhlasíte s {privacy-policy} a {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Ochrana súkromia"
+    },
+    "termsOfUse": {
+        "message": "Podmienky používania"
+    },
+    "openSourceLicenses": {
+        "message": "Open Source licencie"
     }
 }
