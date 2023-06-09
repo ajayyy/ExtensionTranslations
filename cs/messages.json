@@ -1312,6 +1312,9 @@
     "SentenceCase": {
         "message": "Kapitalizace ve větě"
     },
+    "thumbnailFallbackOption": {
+        "message": "Pokud neexistuje žádný komunitní náhled"
+    },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
     },
