@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Nyílt forráskódú licencek"
+    },
+    "replaceTitles": {
+        "message": "Címek lecserélése"
+    },
+    "replaceThumbnails": {
+        "message": "Indexképek lecserélése"
     }
 }
