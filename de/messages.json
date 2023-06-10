@@ -1251,7 +1251,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Crowdsourcing Titel und und Thumbnails um Informativ und weniger Sensationell zu sein",
+        "message": "Community-basierte Titel und Thumbnails, um sie informativer und weniger aufsehenerregend zu machen",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
