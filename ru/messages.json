@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Лицензии исходного кода"
+    },
+    "replaceTitles": {
+        "message": "Заменять заголовки"
+    },
+    "replaceThumbnails": {
+        "message": "Заменять превью"
     }
 }
