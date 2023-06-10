@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Licens för öppen källkod"
+    },
+    "replaceTitles": {
+        "message": "Ersätt titlar"
+    },
+    "replaceThumbnails": {
+        "message": "Ersätt miniatyrbild"
     }
 }
