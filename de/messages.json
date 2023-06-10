@@ -497,10 +497,10 @@
         "message": "Die Adresse die SponsorBlock verwendet um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
     },
     "dataFetchingServerAddress": {
-        "message": "Server-Adresse für Datenabrufung"
+        "message": "Server-Adresse für Datenabfrage"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDies sollte nicht geändert werden, ausser du hast deine eigene Serverinstanz."
+        "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDiese sollte nicht geändert werden, außer du hast deine eigene Serverinstanz."
     },
     "thumbnailCacheServerAddress": {
         "message": "Thumbnail Cache Server-Adresse"
@@ -575,7 +575,7 @@
         "message": "Fehler beim Kopieren in die Zwischenablage"
     },
     "copyDebugInformationOptions": {
-        "message": "Kopiert Informationen in die Zwischenablage, die Entwickelnden gegebenenfalls bei Fehlermeldungen oder spezifischen Anfragen zur Verfügung gestellt werden können. Personenbezogene Daten wie deine Profilkennung, Kanäle auf der Positivliste und angepasste Server-Adressen wurden entfernt. Die Fehlerinformationen enthalten jedoch unter anderem den User Agent, den Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
+        "message": "Kopiert Informationen in die Zwischenablage, welche einem Entwickler gegebenenfalls (z. B. um einen Fehler zu melden) zur Verfügung gestellt werden können. Personenbezogene Daten wie die Benutzer-ID, Kanäle auf der Whitelist und die benutzerdefinierte Serveradresse wurden entfernt. Die Debug-Informationen enthalten jedoch unter anderem den Useragent, den Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
     },
     "copyDebugInformationComplete": {
         "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Verwende einen Texteditor um die Informationen in einer Textdatei zu speichern (um diese ggf. einem Fehlerbericht hinzuzufügen)."
@@ -1332,7 +1332,7 @@
         "message": "Speichere übermittelte Abstimmungen"
     },
     "whatKeepUnsubmitted": {
-        "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails welche du ausgewählt hast anzuzeigen anstelle derer auf dem Server."
+        "message": "Behalte übermittelte Abstimmungen, um die Titel und Thumbnails anzuzeigen, für welche du abgestimmt hast anstelle der bestabgestimmtesten auf dem Server."
     },
     "useThumbnailGenerationService": {
         "message": "Thumbnail-Erstellungsdienst verwenden"
@@ -1349,20 +1349,20 @@
         "message": "Niemals"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Thumbnail erstellung erheblich, durch das senden einer anonymen Anfrage mit der Video-ID zum Remote-Server. Das Thumbnail wird dann entweder erstellt, oder aus einem Zwischenspeicher gezogen sollte es bereits existieren."
+        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Generierung von Thumbnails erheblich, in dem er eine anonyme Anfrage mit der Video‑ID an einen Server schickt. Das Thumbnailbild wird dann entweder generiert oder aus einem Cache bezogen, wenn es zuvor bereits generiert wurde."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnai-Generierungsdienst zu hosten."
+        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Wenn die verwendung des Thumbnail-Generierungsdienstes deaktiviert ist, werden alle Anfragen ein K-Anonymitäts-Anfragesystem verwenden, welches es schwieriger für den Server macht, vorrauszusagen, welche Videos bereits verarbeitet wurden. Es wird auch ein langsameres Thumbnail-Generierungssystem verwendet.",
+        "message": "Wenn die Verwendung des Thumbnail-Generierungsdienstes deaktiviert ist, werden alle Anfragen ein k-Anonymitäts-Anfragesystem verwenden, welches es für den Server schwieriger macht, vorauszusagen, welche Videos verarbeitet wurden. Hinzukommend wird ein langsameres, lokales Thumbnail-Generierungssystems verwendet.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
         "message": "Thumbnail-Generierungsdienst Quellcode"
     },
     "moreAboutKAnonymity": {
-        "message": "Mehr über K-Anonymität",
+        "message": "Mehr über k-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "antiAliasThumbnails": {
@@ -1425,10 +1425,10 @@
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "Bevor du klickst, gib genügend Informationen an um eine Informative Auswahl zu treffen"
+        "message": "Gib genug Informationen an, dass andere wissen, worum es geht, bevor sie auf das Video klicken"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Hinweis: Deine SponsorBlock Einstellungen wurden automatisch importiert!"
+        "message": "Hinweis: Deine SponsorBlock-Einstellungen wurden automatisch importiert!"
     },
     "howItWorks": {
         "message": "So funktioniert's"
