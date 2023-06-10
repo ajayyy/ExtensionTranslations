@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Open Source Licenses"
+    },
+    "replaceTitles": {
+        "message": "Replace Titles"
+    },
+    "replaceThumbnails": {
+        "message": "Replace Thumbnails"
     }
 }
