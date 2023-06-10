@@ -1246,5 +1246,11 @@
     },
     "openSourceLicenses": {
         "message": "Open Source licencie"
+    },
+    "replaceTitles": {
+        "message": "Nahradiť názvy"
+    },
+    "replaceThumbnails": {
+        "message": "Nahradiť náhľady"
     }
 }
