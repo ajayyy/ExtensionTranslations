@@ -496,6 +496,15 @@
     "customServerAddressDescription": {
         "message": "Adres, którego SponsorBlock używa do wykonywania połączeń z serwerem. O ile nie posiadasz własnego serwera, nie powinno to być zmieniane."
     },
+    "dataFetchingServerAddress": {
+        "message": "Adres serwera z danymi"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adres używany do wykonywania połączeń z serwerem danych.\nO ile nie posiadasz własnego serwera, nie powinno to być zmieniane."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Adres usługi generowania miniatur"
+    },
     "save": {
         "message": "Zapisz"
     },
@@ -945,6 +954,9 @@
     "questionButton": {
         "message": "Mam pytanie"
     },
+    "askAQuestion": {
+        "message": "Zadaj pytanie"
+    },
     "warningConfirmButton": {
         "message": "Rozumiem powód"
     },
@@ -1269,6 +1281,10 @@
         "message": "Nie udało się zrenderować",
         "description": "Thumbnail preview failed to render"
     },
+    "CanvasMissing": {
+        "message": "Brakuje elementu canvas",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
     "ExceptionWhileRendering": {
         "message": "Wyjątek podczas renderowania",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
@@ -1283,14 +1299,85 @@
     "Disabled": {
         "message": "Wyłączone"
     },
+    "CapitalizeWords": {
+        "message": "Każde Słowo Dużą Literą"
+    },
+    "TitleCase": {
+        "message": "Jak w Tytule"
+    },
+    "SentenceCase": {
+        "message": "Jak w zdaniu"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Gdy nie przesłano żadnej miniatury dla filmu"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Przy wyborze losowej klatki użyte zostaną dane z SponsorBlock, by zapewnić, że nie zostanie wybrana klatka z segmentu promocyjnego.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Pokaż losową klatkę z filmu"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Pokaż oryginalną miniaturę"
+    },
+    "showABlankBox": {
+        "message": "Pokaż puste pole"
+    },
     "keepUnsubmitted": {
         "message": "Zapisz przesłane głosy"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Zapisz wysłane głosy i pokazuj tytuły i miniatury, które wybrałeś zamiast najwyżej ocenionych na serwerze."
+    },
+    "useThumbnailGenerationService": {
+        "message": "Używaj usługi generowania miniatur"
+    },
+    "onAllPages": {
+        "message": "Na wszystkich stronach",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Na wszystkich stronach z wyjątkiem stron filmów",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nigdy"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Usługa generowania miniatur znacznie przyspiesza generowanie miniatur, wysyłając anonimowe żądanie z identyfikatorem filmu na zdalny serwer. Miniaturka zostanie wtedy wygenerowana lub pobrana z pamięci podręcznej, jeśli została już wygenerowana."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Jeżeli zostanie użyta na stronach filmów, może spowodować wyciek niepublicznych filmów na ten serwer. Wybranie opcji \"Na wszystkich stronach z wyjątkiem stron filmów\" pozwoli uniknąć tego problemu. Inną opcją jest hostowanie własnej usługi generowania miniatur."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Jeśli korzystanie z usługi generowania miniatur jest wyłączone, wszystkie żądania będą korzystać z systemu zapytań typu k-anonymity, co utrudnia serwerowi przewidzenie, które filmy zostały pobrane i będzie używana wolniejsza lokalna usługa generowania miniatur.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Kod źródłowy usługi generowania miniatur"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Więcej o systemie zapytań typu k-anonimity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Antyaliasing miniatur"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Wygładza ostre krawędzie powstałe przy zmianie rozmiaru miniatur. Zwiększa zużycie zasobów."
     },
     "fetchTimeout": {
         "message": "Limit czasu pobierania danych (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Pokaż oryginalne tytuły i miniatury, jeśli serwer nie odpowiada w tym czasie."
+    },
+    "renderTimeout": {
+        "message": "Limit czasu renderowania miniatur (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Pokaż oryginalną miniaturę, jeżeli w tym czasie nie uda się wygenerować nowej."
     },
     "Enable": {
         "message": "Włącz"
@@ -1305,5 +1392,44 @@
     },
     "Error": {
         "message": "Błąd"
+    },
+    "ShowOriginal": {
+        "message": "Pokaż oryginał"
+    },
+    "FillerWarning": {
+        "message": "Uwaga: To jest niezwykle agresywna kategoria. Najprawdopodobniej będziesz musiał często cofać lub czasami nawet wyłączyć automatyczne pomijanie. Wiele filmów ma ponad 50% filmu oznaczonego tą kategorią! Należy jednak pamiętać, że nadal istnieją szczegółowe wytyczne, których należy przestrzegać przy wysyłaniu segmentów.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Dołącz poprzez Discord lub Matrix, by pozostać na tym czacie na stałe",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Pokaż skrócone wytyczne w menu edycji",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Unikaj przesadnych wyrazów twarzy",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Używaj zdań oznajmiających zamiast pytań",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Unikaj opisywania reakcji na film (np. \"niewiarygodne\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Uwzględnij wystarczająco informacji, by użytkownik mógł podjąć świadomy wybór o kliknięciu"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Twoje ustawienia z SponsorBlock zostały automatycznie zaimportowane!"
+    },
+    "howItWorks": {
+        "message": "Jak to działa"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Dziękujemy za wypróbowanie DeArrow"
     }
 }
