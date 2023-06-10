@@ -320,7 +320,7 @@
         "message": "등록하고 싶은 키를 눌러주세요. 필요하다면 보조 키를 선택하실 수도 있어요."
     },
     "0": {
-        "message": "연결에 실패했어요. 인터넷 연결을 확인하세요. 인터넷 연결이 되어 있는 경우, 서버가 과부화됐거나 다운된 것일 수도 있어요."
+        "message": "연결에 실패했어요. 인터넷 연결을 확인하세요. 인터넷 연결이 되어 있는 경우, 서버가 과부하됐거나 다운된 것일 수도 있어요."
     },
     "disableSkipping": {
         "message": "건너뛰기 켜짐"
@@ -333,7 +333,7 @@
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
-        "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해보세요."
+        "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해 보세요."
     },
     "errorCode": {
         "message": "오류 코드: "
