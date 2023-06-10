@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Лицензи за софтуер с отворен код"
+    },
+    "replaceTitles": {
+        "message": "Замяна на заглавията"
+    },
+    "replaceThumbnails": {
+        "message": "Замяна на миниатюрите"
     }
 }
