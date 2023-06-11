@@ -1247,7 +1247,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - Melhores títulos e miniaturas no YouTube",
+        "message": "DeArrow - Miniaturas e títulos melhores no YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
@@ -1298,7 +1298,7 @@
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "Formato do título"
+        "message": "Formatação do título"
     },
     "Disabled": {
         "message": "Desativado"
@@ -1375,7 +1375,7 @@
         "message": "Tempo limite de busca de dados (ms)"
     },
     "fetchTimeoutDescription": {
-        "message": "Mostrar títulos e miniaturas originais se o servidor não responder neste período de tempo."
+        "message": "Mostrar títulos e miniaturas originais se o servidor não responder neste período."
     },
     "renderTimeout": {
         "message": "Tempo limite da miniatura de renderização (ms)"
@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Licenças de código aberto"
+    },
+    "replaceTitles": {
+        "message": "Substituir títulos"
+    },
+    "replaceThumbnails": {
+        "message": "Substituir miniaturas"
     }
 }
