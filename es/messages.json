@@ -1325,5 +1325,17 @@
     },
     "Error": {
         "message": "Error"
+    },
+    "ShowOriginal": {
+        "message": "Mostrar detalles originales"
+    },
+    "privacyPolicy": {
+        "message": "Política de privacidad"
+    },
+    "termsOfUse": {
+        "message": "Términos de uso"
+    },
+    "openSourceLicenses": {
+        "message": "Licencias de código abierto"
     }
 }
