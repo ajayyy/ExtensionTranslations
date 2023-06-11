@@ -1251,7 +1251,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Komunitní názvy a náhledy, které mají video popsat, ne nadchnout",
+        "message": "Komunitní názvy a náhledy, které mají popsat video, ne nadchnout",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "Licence Open Source"
+    },
+    "replaceTitles": {
+        "message": "Nahradit názvy"
+    },
+    "replaceThumbnails": {
+        "message": "Nahradit náhledy"
     }
 }
