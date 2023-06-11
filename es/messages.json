@@ -502,6 +502,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "La dirección utilizada para hacer llamadas al servidor de obtención de datos.\nA menos que tenga su propia instancia de servidor, esto no debería cambiarse."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Dirección del servidor de caché de miniaturas"
+    },
     "save": {
         "message": "Guardar"
     },
@@ -1306,6 +1309,21 @@
     "whatKeepUnsubmitted": {
         "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
     },
+    "onAllPages": {
+        "message": "En todas las páginas",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "En todas las páginas, excepto páginas de video",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nunca"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Más acerca de k-anonimato",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
@@ -1329,6 +1347,34 @@
     "ShowOriginal": {
         "message": "Mostrar detalles originales"
     },
+    "chatboxDescription": {
+        "message": "Únete a Discord o Matrix para permanecer en este chat permanentemente",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "tip1": {
+        "message": "Evita expresiones faciales exageradas",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Prefiere afirmaciones en lugar de preguntas",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Evitar describir las reacciones al video (\"impactante\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Proporciona información suficiente para tomar una decisión informada antes de hacer clic"
+    },
+    "howItWorks": {
+        "message": "Como funciona"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Gracias por probar DeArrow"
+    },
+    "termsAgreement": {
+        "message": "Al usar esta extensión, aceptas la {privacy-policy} y los {terms}"
+    },
     "privacyPolicy": {
         "message": "Política de privacidad"
     },
@@ -1337,5 +1383,11 @@
     },
     "openSourceLicenses": {
         "message": "Licencias de código abierto"
+    },
+    "replaceTitles": {
+        "message": "Reemplazar títulos"
+    },
+    "replaceThumbnails": {
+        "message": "Reemplazar miniaturas"
     }
 }
