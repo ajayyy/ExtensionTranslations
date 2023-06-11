@@ -1459,6 +1459,9 @@
     "termsOfUse": {
         "message": "Termini di Utilizzo"
     },
+    "openSourceLicenses": {
+        "message": "Licenze Open Source"
+    },
     "replaceTitles": {
         "message": "Sostituisci Titoli"
     },
