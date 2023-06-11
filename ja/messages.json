@@ -1461,5 +1461,11 @@
     },
     "openSourceLicenses": {
         "message": "オープンソースライセンス"
+    },
+    "replaceTitles": {
+        "message": "題名を置き換える"
+    },
+    "replaceThumbnails": {
+        "message": "サムネイルを置き換える"
     }
 }
