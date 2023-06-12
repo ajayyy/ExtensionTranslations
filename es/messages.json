@@ -809,7 +809,7 @@
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
-        "message": "Busca el color de la barra"
+        "message": "Color de la barra de búsqueda"
     },
     "category": {
         "message": "Categoría"
@@ -1306,11 +1306,30 @@
     "CapitalizeWords": {
         "message": "Poner palabras en mayúsculas"
     },
+    "thumbnailFallbackOption": {
+        "message": "Cuando no exista una miniatura enviada"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Al seleccionar un tiempo aleatorio, se utilizarán los datos de SponsorBlock para asegurar que no se seleccione un tiempo durante un segmento promocional.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Mostrar una captura de pantalla desde un tiempo aleatorio"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Mostrar la miniatura original"
+    },
+    "showABlankBox": {
+        "message": "Mostrar un cuadro en blanco"
+    },
     "keepUnsubmitted": {
         "message": "Almacenar Votos Enviados"
     },
     "whatKeepUnsubmitted": {
         "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
+    },
+    "useThumbnailGenerationService": {
+        "message": "Usar servicio de generación de miniaturas"
     },
     "onAllPages": {
         "message": "En todas las páginas",
@@ -1323,15 +1342,40 @@
     "Never": {
         "message": "Nunca"
     },
+    "thumbnailGeneratorDescription1": {
+        "message": "El servicio de generación de miniaturas acelera significativamente la generación de miniaturas enviando una solicitud anónima con el ID de vídeo a un servidor remoto. La miniatura se generará o se extraerá de un caché si ya se ha generado."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Si se utiliza en las páginas de vídeo, potencialmente podría filtrar los IDs de vídeos ocultos a este servidor. Establecer esto como \"En todas las páginas, excepto páginas de video\" evitará este problema. Otra opción es alojar su propio servicio de generación de miniaturas."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Si el uso del servicio de generación de miniaturas está deshabilitado, todas las peticiones usarán un sistema de consulta k-anonymity, lo que hace más difícil para el servidor predecir qué videos se obtuvieron y se usará un servicio local de generación de miniaturas más lento.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Código fuente del servicio de generación de miniaturas"
+    },
     "moreAboutKAnonymity": {
         "message": "Más acerca de k-anonimato",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "antiAliasThumbnails": {
+        "message": "Antialiasing en miniaturas"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Disminuye los bordes pronunciados en las miniaturas al reducir las imágenes. Utiliza más potencia de procesamiento."
     },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Mostrar títulos originales y miniaturas si el servidor no responde en este tiempo."
+    },
+    "renderTimeout": {
+        "message": "Tiempo de espera de renderizado de miniaturas (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Mostrar miniaturas originales si no se puede generar una miniatura en este tiempo."
     },
     "Enable": {
         "message": "Habilitar"
@@ -1349,6 +1393,10 @@
     },
     "ShowOriginal": {
         "message": "Mostrar detalles originales"
+    },
+    "FillerWarning": {
+        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
+        "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
         "message": "Únete a Discord o Matrix para permanecer en este chat permanentemente",
@@ -1373,11 +1421,28 @@
     "tip4": {
         "message": "Proporciona información suficiente para tomar una decisión informada antes de hacer clic"
     },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Nota: ¡Tu configuración de SponsorBlock se ha importado automáticamente!"
+    },
     "howItWorks": {
         "message": "Como funciona"
     },
     "thanksForTryingOutDeArrow": {
         "message": "Gracias por probar DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Tenga en cuenta que esta extensión todavía está en fase beta. Esta extensión es gratis, para siempre, para cualquiera que la instale durante la versión beta. Sí, eso significa que habrá un muro de pago para los nuevos usuarios solo en el futuro, pero prometo que todavía habrá una forma de que la gente obtenga acceso gratuito. Por supuesto, la extensión permanecerá siempre totalmente de código abierto, con una base de datos que se puede descargar públicamente, igual que SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Gracias por considerar probarla incluso en esta situación",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Ven a contribuir, haz algunas sugerencias y ayuda en {discord} o en {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Si te gusta lo que he hecho hasta ahora, y quieres ayudarme con algo de dinero, aquí tienes un enlace"
     },
     "termsAgreement": {
         "message": "Al usar esta extensión, aceptas la {privacy-policy} y los {terms}"
