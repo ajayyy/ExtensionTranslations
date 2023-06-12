@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "Tengo una pregunta"
     },
+    "askAQuestion": {
+        "message": "Hacer una pregunta"
+    },
     "warningConfirmButton": {
         "message": "Entiendo la razón"
     },
@@ -1350,6 +1353,10 @@
     "chatboxDescription": {
         "message": "Únete a Discord o Matrix para permanecer en este chat permanentemente",
         "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Mostrar guía de ayuda",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
         "message": "Evita expresiones faciales exageradas",
