@@ -1365,6 +1365,9 @@
         "message": "K-Anonymity の詳細",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "「元を表示」ボタンを常に表示する"
+    },
     "antiAliasThumbnails": {
         "message": "サムネイルにアンチエイリアスをかける"
     },
@@ -1382,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
+    },
+    "startLocalRenderTimeout": {
+        "message": "サムネイルを手元で生成するまでの待ち時間（ミリ秒）",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "サムネイルを生成するさい、サーバーからの応答がこの時間よりも掛かった場合は、手元で生成するようにします。"
     },
     "Enable": {
         "message": "有効"
