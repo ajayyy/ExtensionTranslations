@@ -1365,6 +1365,9 @@
         "message": "Mer om k-anonymitet",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Visa alltid knappen \"Visa original\""
+    },
     "antiAliasThumbnails": {
         "message": "Kantutjämning på miniatyrer"
     },
