@@ -1365,6 +1365,9 @@
         "message": "Di più sul K-Anonimato",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Mostra Sempre il Pulsante \"Mostra Originale\""
+    },
     "antiAliasThumbnails": {
         "message": "Antialiasing Sulle Miniature"
     },
@@ -1382,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Mostra le miniature originali se non riesce a generare una miniatura in questa quantità di tempo."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Avvia Timeout di Generazione Miniatura Locale (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Se il server richiede questo periodo di tempo per generare una miniatura, inizia a provare a generarne una localmente."
     },
     "Enable": {
         "message": "Abilita"
