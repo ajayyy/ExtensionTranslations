@@ -1386,6 +1386,13 @@
     "renderTimeoutDescription": {
         "message": "Visa originalminiatyrer om det inte går att generera en miniatyrbild under så här lång tid."
     },
+    "startLocalRenderTimeout": {
+        "message": "Starta lokal miniatyrbildsgenerering efter (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Om servern tar så här lång tid för att generera en miniatyrbild, försök då att generera en lokalt."
+    },
     "Enable": {
         "message": "Aktivera"
     },
