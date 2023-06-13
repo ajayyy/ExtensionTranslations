@@ -1306,6 +1306,12 @@
     "CapitalizeWords": {
         "message": "Poner palabras en mayúsculas"
     },
+    "TitleCase": {
+        "message": "Todo en Mayúsculas, Excepto Artículos, Preposiciones y Algunas Conjunciones"
+    },
+    "SentenceCase": {
+        "message": "Solo primera letra en mayúscula"
+    },
     "thumbnailFallbackOption": {
         "message": "Cuando no exista una miniatura enviada"
     },
@@ -1359,6 +1365,9 @@
         "message": "Más acerca de k-anonimato",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Mostrar siempre el botón \"Mostrar original\""
+    },
     "antiAliasThumbnails": {
         "message": "Antialiasing en miniaturas"
     },
@@ -1376,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Mostrar miniaturas originales si no se puede generar una miniatura en este tiempo."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Tiempo de espera de generación local de miniaturas (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Si el servidor tarda tanto en generar una miniatura, comience a intentar generar una localmente."
     },
     "Enable": {
         "message": "Habilitar"
