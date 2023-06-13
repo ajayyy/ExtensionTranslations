@@ -1365,6 +1365,9 @@
         "message": "Повече за к-анонимността",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Винаги да се показва бутона „Показване на оригинала“"
+    },
     "antiAliasThumbnails": {
         "message": "Изглаждане на миниатюрите"
     },
@@ -1382,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Показване на оригиналните миниатюри, ако не може да се генерира миниатюра за толкова време."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Време за стартиране на локалното генериране на миниатюри (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Ако сървърът се нуждае от толкова време, за да генерира миниатюра, да се опита да се генерира локално."
     },
     "Enable": {
         "message": "Активиране"
