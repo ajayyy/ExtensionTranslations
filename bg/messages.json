@@ -1477,5 +1477,26 @@
     },
     "replaceThumbnails": {
         "message": "Замяна на миниатюрите"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Наистина ли искате да изтриете тази конфигурация?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Нова конфигурация"
+    },
+    "ChannelAllowlist": {
+        "message": "Списък с разрешени канали"
+    },
+    "ConfigurationName": {
+        "message": "Име на конфигурация"
+    },
+    "ChannelListInstructions": {
+        "message": "Въведете в полето по-долу всички канали, които искате да приложите към тази конфигурация, разделени с нови редове. Поддържат се както идентификатори на канали, така и показвани имена. @Потребителските имена не се поддържат. Можете да получите идентификаторите на каналите, като щракнете върху бутона за споделяне в страницата за канала.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Все още няма настроени конфигурации. Щракнете върху бутона в горната част, за да добавите нова конфигурация.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
