@@ -1365,6 +1365,9 @@
         "message": "Mais informações sobre o anonimato",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Sempre exibir o botão \"Mostrar Original\""
+    },
     "antiAliasThumbnails": {
         "message": "Suavização das miniaturas"
     },
