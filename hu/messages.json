@@ -1365,6 +1365,9 @@
         "message": "Részletesebben a k-anonimitásról",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Mindig mutassa az \"Eredeti megjelenítése\" gombot"
+    },
     "antiAliasThumbnails": {
         "message": "Élsimítás indexképeken"
     },
@@ -1382,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Eredeti indexképek mutatása, ha ennyi idő alatt nem sikerül előkészíteni egy indexképet."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Idő helyi indexkép készítés kezdetéig (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Ha ennyi ideig tart a szervernek egy indexkép elkészítése, akkor kezdjen el helyileg készíteni egyet helyette."
     },
     "Enable": {
         "message": "Engedélyez"
@@ -1467,5 +1477,8 @@
     },
     "replaceThumbnails": {
         "message": "Indexképek lecserélése"
+    },
+    "ChannelAllowlist": {
+        "message": "Csatorna engedélyező lista"
     }
 }
