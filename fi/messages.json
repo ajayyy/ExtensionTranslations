@@ -1329,9 +1329,21 @@
     "Never": {
         "message": "Ei koskaan"
     },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Pienoiskuvien luontipalvelun lähdekoodi"
+    },
     "moreAboutKAnonymity": {
         "message": "Lisätietoa K-anonymiteetistä",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Näytä \"Näytä Alkuperäinen\" -painike aina"
+    },
+    "antiAliasThumbnails": {
+        "message": "Pienoiskuvien reunanpehmennys"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Vähentää pienoiskuvien kutistamisesta aiheutuvia teräviä reunoja. Kuormittaa laitteen suoritinta enemmän."
     },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
@@ -1344,6 +1356,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Näytä alkuperäiset pienoiskuvat, jos pienoiskuvaa ei voida luoda tässä ajassa."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Käynnistä paikallisten pienoiskuvien luonnin aikakatkaisu (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Jos pienoiskuvan luonti palvelimella kestää näin kauan, pyritään kuva luomaan paikallisesti."
     },
     "Enable": {
         "message": "Ota käyttöön"
@@ -1373,5 +1392,67 @@
     "showGuidelineHelp": {
         "message": "Näytä sääntöjen ohjeet",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vältä ylikorostettuja kasvojen ilmeitä",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
+    },
+    "howItWorks": {
+        "message": "Miten se toimii"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Kiitos DeArrown kokeilusta"
+    },
+    "deArrowTryingOut": {
+        "message": "Kiitos kun harkitset sen kokeilemista myös tässä tilanteessa",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Liity mukaan, tee ehdotuksia ja auta alustoilla {discord} tai {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Jos pidät tähän mennessä tekemästäni ja haluat tuka minua rahallisesti, tässä linkki"
+    },
+    "termsAgreement": {
+        "message": "Käyttämällä laajennusta hyväksyt seuraavat: {privacy-policy} ja {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Tietosuojakäytäntö"
+    },
+    "termsOfUse": {
+        "message": "Käyttöehdot"
+    },
+    "openSourceLicenses": {
+        "message": "Avoimen lähdekoodin lisenssit"
+    },
+    "replaceTitles": {
+        "message": "Korvaa otsikot"
+    },
+    "replaceThumbnails": {
+        "message": "Korvaa pienoiskuvat"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Haluatko varmasti poistaa tämän määrityksen?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Uusi määritys"
+    },
+    "ChannelAllowlist": {
+        "message": "Sallitut kanavat"
+    },
+    "ConfigurationName": {
+        "message": "Määrityksen nimi"
+    },
+    "ChannelListInstructions": {
+        "message": "Syötä alla olevaan ruutuun omille riveilleen ne kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukset eivät kelpaa. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
