@@ -1467,5 +1467,15 @@
     },
     "replaceThumbnails": {
         "message": "미리 보기 이미지 대체"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "이 구성을 삭제할까요?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "새 구성"
+    },
+    "ChannelAllowlist": {
+        "message": "채널 허용 목록"
     }
 }
