@@ -1477,5 +1477,26 @@
     },
     "replaceThumbnails": {
         "message": "Replace Thumbnails"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Are you sure you would like to delete this configuration?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "New Configuration"
+    },
+    "ChannelAllowlist": {
+        "message": "Channel Allowlist"
+    },
+    "ConfigurationName": {
+        "message": "Configuration Name"
+    },
+    "ChannelListInstructions": {
+        "message": "Enter any channels you want to apply to this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "No configurations setup yet. Click the button at the top to add a new configuration.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
