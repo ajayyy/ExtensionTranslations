@@ -1481,5 +1481,22 @@
     "areYouSureDeleteConfig": {
         "message": "この設定を削除しますか？",
         "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "新しい設定"
+    },
+    "ChannelAllowlist": {
+        "message": "チャンネル許可リスト"
+    },
+    "ConfigurationName": {
+        "message": "設定の名前"
+    },
+    "ChannelListInstructions": {
+        "message": "この設定に適用するチャンネルを、改行で区切り下のボックスに入力してください。 チャンネルIDと表示名の両方に対応します。「@ユーザー名」には対応しません。チャンネルIDの取得には、そのチャンネルの「概要」ページの「共有」ボタンをクリックします。",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
