@@ -1467,5 +1467,22 @@
     },
     "replaceThumbnails": {
         "message": "Ersetze Thumbnails"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Soll diese Konfiguration wirklich gelöscht werden?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Neue Konfiguration"
+    },
+    "ChannelAllowlist": {
+        "message": "Erlaubte Kanäle"
+    },
+    "ConfigurationName": {
+        "message": "Benennung für Konfiguration"
+    },
+    "ChannelListInstructions": {
+        "message": "Geben Sie alle Kanäle, auf die Sie diese Konfiguration anwenden möchten, in das untenstehende Feld ein, in einzelnen Zeilen ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @ Benutzernamen werden nicht unterstützt. Die Kanal-ID wird angezeigt, wenn man den \"Teilen-Button\" auf der Seite \"Über den Kanal\" anklickt.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     }
 }
