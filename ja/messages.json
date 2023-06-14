@@ -1477,5 +1477,9 @@
     },
     "replaceThumbnails": {
         "message": "サムネイルを置き換える"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "この設定を削除しますか？",
+        "description": "Appears when deleting a configuration for channel-based settings"
     }
 }
