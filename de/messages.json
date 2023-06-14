@@ -1482,7 +1482,7 @@
         "message": "Benennung für Konfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Geben Sie alle Kanäle, auf die Sie diese Konfiguration anwenden möchten, in das untenstehende Feld ein, in einzelnen Zeilen ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @ Benutzernamen werden nicht unterstützt. Die Kanal-ID wird angezeigt, wenn man den \"Teilen-Button\" auf der Seite \"Über den Kanal\" anklickt.",
+        "message": "Geben Sie alle Kanäle, auf die Sie diese Konfiguration anwenden möchten, in das untenstehende Feld, in eigene Zeilen, ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Die Kanal-ID kann man durch den \"Teilen\"-Button auf der \"Kanalinfo\"-Seite erhalten.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     }
 }
