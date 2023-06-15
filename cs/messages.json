@@ -57,7 +57,7 @@
         "message": "Nikdy nezobrazovat"
     },
     "hitGoBack": {
-        "message": "Klikněte na \"Vrátit se\", abyste se dostali do místa před přeskočením."
+        "message": "Klikněte na „Vrátit se“, abyste se dostali do místa před přeskočením."
     },
     "unskip": {
         "message": "Vrátit se"
@@ -386,7 +386,7 @@
         "message": "Zobrazit čas s odebranými přeskočeními"
     },
     "showTimeWithSkipsDescription": {
-        "message": "Tento čas se objeví v závorkách vedle aktuálního času pod časovou lištou. Zobrazí to celkovou dobu trvání videa mínus všechny segmenty. To zahrnuje i segmenty označené jen jako \"Zobrazit v liště\"."
+        "message": "Tento čas se objeví v závorkách vedle aktuálního času pod časovou lištou. Zobrazí to celkovou dobu trvání videa mínus všechny segmenty. To zahrnuje i segmenty označené jen jako „Zobrazit v liště“."
     },
     "youHaveSkipped": {
         "message": "Přeskočili jste "
@@ -731,7 +731,7 @@
         "message": "Zvýraznění"
     },
     "category_poi_highlight_description": {
-        "message": "Část videa, kterou hledá většina lidí. Podobné komentářům typu \"Video začíná v x\"."
+        "message": "Část videa, kterou hledá většina lidí. Podobné komentářům typu „Video začíná v x“."
     },
     "category_poi_highlight_guideline1": {
         "message": "Sekce, kterou hledá většina lidí"
@@ -837,7 +837,7 @@
         "message": "Vyberte kategorii"
     },
     "enableThisCategoryFirst": {
-        "message": "Pro odeslání segmentů v kategorii \"{0}\" to nejprve musíte povolit v nastavení. Nyní budete přesměrováni do nastavení.",
+        "message": "Pro odeslání segmentů v kategorii „{0}“ ji nejprve musíte povolit v nastavení. Nyní budete přesměrováni do nastavení.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
@@ -888,7 +888,7 @@
         "message": "Ve výchozím nastavení bude přeskakovat segmenty ještě před tím, než bude rozšíření vědět, jaký je to kanál. Ve výchozím nastavení mohou být některé segmenty na začátku videa přeskočeny na povolených kanálech. Povolením této možnosti tomu zabráníte, ale každé přeskočení bude mít mírné zpoždění, protože získávání ID kanálu může chvíli trvat. Toto zpoždění nemusí být patrné, pokud máte rychlý internet."
     },
     "forceChannelCheckPopup": {
-        "message": "Zvažte povolení možnosti \"Vynutit kontrolu kanálu před přeskočením\""
+        "message": "Zvažte povolení možnosti „Vynutit kontrolu kanálu před přeskočením“"
     },
     "downvoteDescription": {
         "message": "Nesprávné / špatné časování"
@@ -904,7 +904,7 @@
         "message": "Změnit kategorii"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "Toto video je kategorizováno jako hudba. Jste si jisti, že je v něm sponzorská sekce? Pokud se opravdu jedná o \"Nehudební segment\", otevřete nastavení a povolte tuto kategorii. Poté budete moct odeslat segment jako \"Nehudební\" místo sponzorského. Pokud jste zmateni, přečtěte si prosím pokyny."
+        "message": "Toto video je kategorizováno jako hudba. Jste si jisti, že je v něm sponzorská sekce? Pokud se opravdu jedná o „Nehudební segment“, otevřete nastavení a povolte tuto kategorii. Poté budete moct odeslat segment jako „Nehudební“ místo sponzorského. Pokud jste zmateni, přečtěte si prosím pokyny."
     },
     "multipleSegments": {
         "message": "Více segmentů"
@@ -930,7 +930,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Tento segment je velký. Pokud je celé video o jednom tématu, změňte z \"Přeskočit\" na \"Celé video\". Pro více informací se podívejte na pokyny."
+        "message": "Tento segment je velký. Pokud je celé video o jednom tématu, změňte režim z „Přeskočit“ na „Celé video“. Pro více informací se podívejte na pokyny."
     },
     "categoryPillTitleText": {
         "message": "Toto celé video je označeno jako tato kategorie a je příliš integrované na to, aby se dalo rozdělit"
@@ -997,7 +997,7 @@
         "message": "Odesílání"
     },
     "helpPageSubmitting1": {
-        "message": "Odeslání může být provedeno buď ve vyskakovacím okně kliknutím na tlačítko \"Nyní začíná segment\" v přehrávači videa nebo na tlačítkách na přehrávači."
+        "message": "Odeslání může být provedeno buď ve vyskakovacím okně kliknutím na tlačítko „Nyní začíná segment“ v přehrávači videa nebo na tlačítkách na přehrávači."
     },
     "helpPageSubmitting2": {
         "message": "Kliknutím na tlačítko přehrávání označí začátek segmentu a kliknutí na ikonu stop označuje konec. Před odesláním si můžete připravit více segmentů. Kliknutím na tlačítko k nahrání odešlete vaše segmenty. Kliknutím na ikonu koše vše smažete."
@@ -1251,7 +1251,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Komunitní názvy a náhledy, které mají video popsat, ne nadchnout",
+        "message": "Komunitní názvy a náhledy, které mají popsat video, ne nadchnout",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Kapitalizace ve větě"
     },
+    "thumbnailFallbackOption": {
+        "message": "Pokud neexistuje žádný komunitní náhled"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Při výběru na náhodném čase budou použita data z projektu SponsorBlock pro zajištění, že nebude vybrán čas v propagačním segmentu.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Zobrazit snímek z náhodného času"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Zobrazit původní náhled"
+    },
+    "showABlankBox": {
+        "message": "Zobrazit prázdný rámeček"
+    },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
     },
@@ -1336,7 +1352,7 @@
         "message": "Služba generování miniatur výrazně urychluje generování miniatur odesláním anonymního požadavku s ID videa na vzdálený server. Miniatura se pak buď vygeneruje, nebo se použije verze z mezipaměti, pokud již byla vygenerována."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Při použití na stránkách s videem by mohlo dojít k úniku nezařazených ID videí na tento server. Nastavením této možnosti na \"Na všech stránkách kromě stránek videí\" se tomuto problému vyhnete. Další možností je hostovat vlastní službu generování miniatur."
+        "message": "Při použití na stránkách s videem by mohlo dojít k úniku nezařazených ID videí na tento server. Nastavením této možnosti na „Na všech stránkách kromě stránek videí“ se tomuto problému vyhnete. Další možností je hostovat vlastní službu generování miniatur."
     },
     "thumbnailGeneratorDescription3": {
         "message": "Pokud je použití služby generování miniatur zakázáno, budou všechny požadavky používat systém k-anonymních dotazů, což ztěžuje serveru předvídat, která videa byla načtena, a bude použita pomalejší místní služba generování miniatur.",
@@ -1348,6 +1364,9 @@
     "moreAboutKAnonymity": {
         "message": "Více informací o K-Anonymitě",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Vždy zobrazit tlačítko „Zobrazit původní“"
     },
     "antiAliasThumbnails": {
         "message": "Použít Anti-aliasing na náhledech"
@@ -1366,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Zobrazit původní miniaturu, pokud v tomto čase nebude vygenerována vlastní."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Časový limit pro spuštění lokálního generátoru miniatur (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Pokud serveru dlouho trvá generovat náhled, pokusit se o jeho lokální vygenerování."
     },
     "Enable": {
         "message": "Povolit"
@@ -1405,10 +1431,72 @@
         "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
     },
     "tip3": {
-        "message": "Vyhněte se popisování reakcí na video (šokující)",
+        "message": "Vyhněte se popisování reakcí na video („šokující“)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
         "message": "Poskytněte dostatek informací pro informovanou volbu před kliknutím"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Poznámka: vaše nastavení doplňku SponsorBlock byla automaticky importována!"
+    },
+    "howItWorks": {
+        "message": "Jak to funguje"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Děkujeme za vyzkoušení DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Upozorňujeme, že toto rozšíření je stále ve fázi beta. Rozšíření bude navždy zdarma pro každého, kdo si ho nainstaluje během beta verze. Ano, to znamená, že v budoucnu bude rozšíření pro nové uživatele pouze placené, ale slibuji, že stále bude existovat způsob, jak pro lidi získat bezplatný přístup. Rozšíření samozřejmě vždy zůstane s plně otevřeným zdrojovým kódem a veřejně stažitelnou databází, stejně jako SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Děkujeme, že jste zvážili vyzkoušení i v této situaci",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Přispějte, vymyslete nějaké návrhy a pomozte ostatním na {discord} nebo na {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Pokud se vám líbí, co jsem zatím vytvořil a chcete mi finančně pomoct, zde je odkaz"
+    },
+    "termsAgreement": {
+        "message": "Používáním tohoto rozšíření souhlasíte se {privacy-policy} a {terms}"
+    },
+    "privacyPolicy": {
+        "message": "zásadami ochrany osobních údajů"
+    },
+    "termsOfUse": {
+        "message": "podmínkami používání"
+    },
+    "openSourceLicenses": {
+        "message": "Licence Open Source"
+    },
+    "replaceTitles": {
+        "message": "Nahradit názvy"
+    },
+    "replaceThumbnails": {
+        "message": "Nahradit náhledy"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Opravdu chcete odstranit tuto konfiguraci?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nová konfigurace"
+    },
+    "ChannelAllowlist": {
+        "message": "Seznam povolených kanálů"
+    },
+    "ConfigurationName": {
+        "message": "Název konfigurace"
+    },
+    "ChannelListInstructions": {
+        "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, a oddělte je novými řádky. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména nejsou podporována. ID kanálu získáte po kliknutí na tlačítko sdílení na stránce o kanálu.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }

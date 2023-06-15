@@ -1244,7 +1244,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "Derow – Покращення заголовків та мініатюр у YouTube",
+        "message": "DeArrow – Покращення заголовків та мініатюр у YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {

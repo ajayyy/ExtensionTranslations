@@ -496,6 +496,15 @@
     "customServerAddressDescription": {
         "message": "L'indirizzo che SponsorBlock usa per effettuare richieste al server. Questo non dovrebbe essere modificato a meno che tu non abbia un tuo server."
     },
+    "dataFetchingServerAddress": {
+        "message": "Indirizzo Server di Recupero Dati"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia l'istanza del tuo server, non dovrebbe essere modificato."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Indirizzo del Server Cache Miniature"
+    },
     "save": {
         "message": "Salva"
     },
@@ -945,6 +954,9 @@
     "questionButton": {
         "message": "Ho una domanda"
     },
+    "askAQuestion": {
+        "message": "Fai una domanda"
+    },
     "warningConfirmButton": {
         "message": "Capisco il motivo"
     },
@@ -1224,7 +1236,246 @@
     "exportSegmentsAsURL": {
         "message": "Condividi URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Attenzione: Il server non ha ancora risposto con dei segmenti. Potrebbero effettivamente esistere dei segmenti su questo video già inviati, ma non li hai ancora ricevuti a causa di problemi con il server."
+    },
     "allowScrollingToEdit": {
         "message": "Usa la Rotella per Modificare i Tempi"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Titoli e Miniature Migliori su YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Titoli e miniature in crowdsourcing per essere descrittivi e non sensazionali",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Scegli il più descrittivo"
+    },
+    "Original": {
+        "message": "Originale"
+    },
+    "OriginalTitle": {
+        "message": "Titolo Originale"
+    },
+    "CurrentTime": {
+        "message": "Ora Attuale"
+    },
+    "resetCustomTitle": {
+        "message": "Ripristina Titolo Al Testo Originale"
+    },
+    "resetIcon": {
+        "message": "Ripristina Icona"
+    },
+    "Vote": {
+        "message": "Vota"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Digita il tuo titolo qui"
+    },
+    "VideoNotReady": {
+        "message": "Video non pronto"
+    },
+    "FailedToRender": {
+        "message": "Impossibile renderizzare",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Tela mancante",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Eccezione durante il rendering",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Impossibile caricare",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Formato del Titolo"
+    },
+    "Disabled": {
+        "message": "Disabilitato"
+    },
+    "CapitalizeWords": {
+        "message": "Maiuscole Iniziali"
+    },
+    "TitleCase": {
+        "message": "Maiuscolo Titolo"
+    },
+    "SentenceCase": {
+        "message": "Maiuscolo Inizio Frase"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Quando Non Esiste una Miniatura Inviata"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Selezionando una tempistica casuale, utilizzerà i dati di SponsorBlock per assicurare il tempo in un segmento promozionale non selezionato.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Mostra un'istantanea da un tempo casuale"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Mostra la miniatura originale"
+    },
+    "showABlankBox": {
+        "message": "Mostra una casella vuota"
+    },
+    "keepUnsubmitted": {
+        "message": "Memorizza Voti Inviati"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Mantiene i voti inviati dopo il voto per mostrare titoli e miniature scelte rispetto alle più popolari sul server."
+    },
+    "useThumbnailGenerationService": {
+        "message": "Utilizza Servizio di Generazione Miniature"
+    },
+    "onAllPages": {
+        "message": "Su Tutte le Pagine",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Su Tutte le Pagine Tranne le Pagine Video",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Mai"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Il servizio di generazione delle miniature accelera significativamente la generazione delle miniature, inviando un richiesta anonima con il videoID a un server remoto. La miniatura sarà quindi generata o prelevata da una cache se è già stata generata."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Se utilizzato sulle pagine dei video, potrebbe potenzialmente far trapelare i videoID a questo server. Impostarlo a \"Su Tutte le Pagine Tranne le Pagine Video\", eviterà tale problema. Un'altra opzione è ospitare il proprio servizio di generazione delle miniature."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Se l'utilizzo del seervizio di generazione delle miniature è disabilitato, tutte le richieste utilizzeranno un sistema di richiesta di K-anonimato, che complica per il server la previsione di quali video sono stati recuperati; e sarà utilizzato un servizio di generazione delle miniature più lento, ma locale.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Codice Sorgente del Servizio di Generazione Miniature"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Di più sul K-Anonimato",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Mostra Sempre il Pulsante \"Mostra Originale\""
+    },
+    "antiAliasThumbnails": {
+        "message": "Antialiasing Sulle Miniature"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Riduce i bordi vivi sulle miniature, dal ridimensionamento delle immagini. Utilizza più potenza di elaborazione."
+    },
+    "fetchTimeout": {
+        "message": "Timeout di Recupero dei Dati (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Mostra i titoli e le miniature originali se il server non risponde in questa quantità di tempo."
+    },
+    "renderTimeout": {
+        "message": "Timeout di Render della Miniatura (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Mostra le miniature originali se non riesce a generare una miniatura in questa quantità di tempo."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Avvia Timeout di Generazione Miniatura Locale (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Se il server richiede questo periodo di tempo per generare una miniatura, inizia a provare a generarne una localmente."
+    },
+    "Enable": {
+        "message": "Abilita"
+    },
+    "Titles": {
+        "message": "Titoli",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniature",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Errore"
+    },
+    "ShowOriginal": {
+        "message": "Mostra Dettagli Originali"
+    },
+    "FillerWarning": {
+        "message": "Attenzione: Questa è una categoria incredibilmente aggressiva. Dovrai probabilmente annullare il salto di determinate cose o, talvolta, disabilitarlo. Sappi che, per molti video, oltre il 50% viene saltato! Tuttavia, ricorda che sono comunque presenti delle linee guida specifiche da seguire, per l'invio.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Unisciti al nostro Discord o a Matrix per rimanere permanentemente in questa chat",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Mostra Supporto Linee Guida",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Evita espressioni facciali esagerate",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Preferisci affermazioni a domande",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Evita la descrizione delle reazioni al video (\"scioccante\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Fornisci abbastanza informazioni per compiere una scelta informata prima di cliccare"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Nota: Le tue impostazioni di SponsorBlock sono state importate automaticamente!"
+    },
+    "howItWorks": {
+        "message": "Come funziona"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Grazie per aver provato DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Sei pregato di notare che quest'estensione è ancora in beta. Quest'estensione sarà gratuita per sempre, per chiunque la installerà durante la beta. Sì, ciò significa che sarà a pagamento per i nuovi utenti in futuro, ma prometto che continuerà a esistere un metodo per ottenere l'accesso gratuito. Ovviamente, l'estensione rimarrà sempre completamente open source, con un database scaricabile pubblicamente, proprio come SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Grazie per aver preso in considerazione di provarla, anche in questa situazione",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Vieni a contribuire, effettua qualche suggerimento e aiuta su {discord} o su {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Se ti piace ciò che ho fatto finora, e desideri aiutarmi donandomi, ecco un link"
+    },
+    "termsAgreement": {
+        "message": "Utilizzando quest'estensione, acconsenti alla {privacy-policy} e ai {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Politica sulla Privacy"
+    },
+    "termsOfUse": {
+        "message": "Termini di Utilizzo"
+    },
+    "openSourceLicenses": {
+        "message": "Licenze Open Source"
+    },
+    "replaceTitles": {
+        "message": "Sostituisci Titoli"
+    },
+    "replaceThumbnails": {
+        "message": "Sostituisci Miniature"
     }
 }

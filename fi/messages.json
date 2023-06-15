@@ -740,7 +740,7 @@
         "message": "Voi ohittaa kontekstin"
     },
     "category_poi_highlight_guideline3": {
-        "message": "Voi ohittaa otsikon tai pikkukuvan viittaamaan kohtaan"
+        "message": "Voi ohittaa otsikon tai pienoiskuvan viittaamaan kohtaan"
     },
     "category_chapter": {
         "message": "Kappale"
@@ -1247,11 +1247,11 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - Paremmat otsikot ja pikkukuvat YouTubessa",
+        "message": "DeArrow - Paremmat otsikot ja pienoiskuvat YouTubessa",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Käyttäjälähteinen otsikoiden ja pikkukuvien vaihtaminen sensaatiomaisista mahdollisimman kuvaaviksi",
+        "message": "Käyttäjälähteinen otsikoiden ja pienoiskuvien vaihtaminen sensaatiomaisista mahdollisimman kuvaaviksi",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1290,7 +1290,7 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Poikkeus pikkukuvan renderöinnissä",
+        "message": "Poikkeus pienoiskuvan renderöinnissä",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
@@ -1312,11 +1312,30 @@
     "SentenceCase": {
         "message": "Virketyylin kirjainkoko"
     },
+    "thumbnailFallbackOption": {
+        "message": "Kun lähetettyä pienoiskuvaa ei ole"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Satunnaista kohtaa valittaessa, vältetään markkinointiosioiden valinta hyödyntämällä SponsorBlockin tietoja.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Näytä kuvakaappaus satunnaisesta kohdasta"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Näytä alkuperäinen pienoiskuva"
+    },
+    "showABlankBox": {
+        "message": "Näytä tyhjä laatikko"
+    },
     "keepUnsubmitted": {
         "message": "Talleta lähetetyt äänet"
     },
     "whatKeepUnsubmitted": {
-        "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pikkukuvat palvelimella olevien eniten äänestettyjen sijaan."
+        "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pienoiskuvat palvelimella olevien eniten äänestettyjen sijaan."
+    },
+    "useThumbnailGenerationService": {
+        "message": "Käytä pienoiskuvien luontipalvelua"
     },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
@@ -1329,21 +1348,50 @@
     "Never": {
         "message": "Ei koskaan"
     },
+    "thumbnailGeneratorDescription1": {
+        "message": "Pienoiskuvien luontipalvelu nopeuttaa pienoiskuvien luontia merkittävästi videon ID:n etäpalvelimelle anonyymisti. Tällöin luodaan joko uusi pienoiskuva tai noudetaan aiemmin luotu kuva välimuistista."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Videosivuilla käytettäessä tämä voi vuotaa listaamattomia video ID:itä palvelimelle. Ongelma voidaan välttää valitsemalla asetukseksi \"Kaikilla paitsi videosivuilla\" tai vaihtoehtoisesti voit ylläpitää omaa pienoiskuvien luontipalvelua."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Jos pienoiskuvien luotipalvelua ei käytetä, käytetään kaikille pyynnöille k-anonymiteetti-pohjaista kyselyjärjestelmää, jolloin palvelimen on vaikeampaa tunnistaa noudettuja videoita. Tällöin käytetään myös hitaampaa paikallista pienoiskuvien luontipalvelua.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Pienoiskuvien luontipalvelun lähdekoodi"
+    },
     "moreAboutKAnonymity": {
         "message": "Lisätietoa K-anonymiteetistä",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Näytä \"Näytä Alkuperäinen\" -painike aina"
+    },
+    "antiAliasThumbnails": {
+        "message": "Pienoiskuvien reunanpehmennys"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "Vähentää pienoiskuvien kutistamisesta aiheutuvia teräviä reunoja. Kuormittaa laitteen suoritinta enemmän."
     },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
     "fetchTimeoutDescription": {
-        "message": "Näytä alkuperäiset otsikot ja pikkukuvat, jos palvelin ei vastaa tässä ajassa."
+        "message": "Näytä alkuperäiset otsikot ja pienoiskuvat, jos palvelin ei vastaa tässä ajassa."
     },
     "renderTimeout": {
         "message": "Pienoiskuvien renderöinnin aikakatkaisu (ms)"
     },
     "renderTimeoutDescription": {
-        "message": "Näytä alkuperäiset pikkukuvat, jos pikkukuvaa ei voida luoda tässä ajassa."
+        "message": "Näytä alkuperäiset pienoiskuvat, jos pienoiskuvaa ei voida luoda tässä ajassa."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Käynnistä paikallisten pienoiskuvien luonnin aikakatkaisu (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Jos pienoiskuvan luonti palvelimella kestää näin kauan, pyritään kuva luomaan paikallisesti."
     },
     "Enable": {
         "message": "Ota käyttöön"
@@ -1373,5 +1421,82 @@
     "showGuidelineHelp": {
         "message": "Näytä sääntöjen ohjeet",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vältä ylikorostettuja kasvojen ilmeitä",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Suosi lausumia kysymyksiä enemmän",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vältä videon reaktioiden kuvausta (\"järkyttävä\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Tarjoa tietoisen valinnan mahdollistava määrä informaatiota ennen klikkausta"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
+    },
+    "howItWorks": {
+        "message": "Miten se toimii"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Kiitos DeArrown kokeilusta"
+    },
+    "deArrowBetaStatus": {
+        "message": "Huomioi, että lisäosa on vielä beta-testauksessa. Lisäosa on pysyvästi ilmainen kaikille, jotka asentavat sen beta-vaiheen aikana. Tämä tosiaan tarkoittaa sitä, että jatkossa uudet käyttäjät tulevat kohtaamaan maksumuurin, mutta lupaan tarjota keinoja myös käyttöoikeuden ilmaiseen hankintaan. Ja laajennus tulee toki aina olemaan täysin avointa lähdekoodia julkisesti ladattavissa olevalla tietokannalla SponsorBlockin tapaan.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Kiitos kun harkitset sen kokeilemista myös tässä tilanteessa",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Liity mukaan, tee ehdotuksia ja auta alustoilla {discord} tai {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Jos pidät tähän mennessä tekemästäni ja haluat tuka minua rahallisesti, tässä linkki"
+    },
+    "termsAgreement": {
+        "message": "Käyttämällä laajennusta hyväksyt seuraavat: {privacy-policy} ja {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Tietosuojakäytäntö"
+    },
+    "termsOfUse": {
+        "message": "Käyttöehdot"
+    },
+    "openSourceLicenses": {
+        "message": "Avoimen lähdekoodin lisenssit"
+    },
+    "replaceTitles": {
+        "message": "Korvaa otsikot"
+    },
+    "replaceThumbnails": {
+        "message": "Korvaa pienoiskuvat"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Haluatko varmasti poistaa tämän määrityksen?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Uusi määritys"
+    },
+    "ChannelAllowlist": {
+        "message": "Sallitut kanavat"
+    },
+    "ConfigurationName": {
+        "message": "Määrityksen nimi"
+    },
+    "ChannelListInstructions": {
+        "message": "Syötä alla olevaan ruutuun omille riveilleen ne kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukset eivät kelpaa. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }

@@ -1312,6 +1312,22 @@
     "SentenceCase": {
         "message": "Изречение"
     },
+    "thumbnailFallbackOption": {
+        "message": "Когато няма изпратена миниатюра"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "При избора на случаен час се използват данни от SponsorBlock, за да се гарантира, че не е избран час в промоционален сегмент.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Показване на екранна снимка от произволно време"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Показване на оригиналната миниатюра"
+    },
+    "showABlankBox": {
+        "message": "Показване на празно поле"
+    },
     "keepUnsubmitted": {
         "message": "Запазване на подадените гласове"
     },
@@ -1349,6 +1365,9 @@
         "message": "Повече за к-анонимността",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Винаги да се показва бутона „Показване на оригинала“"
+    },
     "antiAliasThumbnails": {
         "message": "Изглаждане на миниатюрите"
     },
@@ -1366,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Показване на оригиналните миниатюри, ако не може да се генерира миниатюра за толкова време."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Време за стартиране на локалното генериране на миниатюри (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Ако сървърът се нуждае от толкова време, за да генерира миниатюра, да се опита да се генерира локално."
     },
     "Enable": {
         "message": "Активиране"
@@ -1410,5 +1436,67 @@
     },
     "tip4": {
         "message": "Предоставете достатъчно информация, за да може да се вземе информирано решение преди кликване"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
+    },
+    "howItWorks": {
+        "message": "Как функционира"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Благодарим ви, че опитахте DeArrow"
+    },
+    "deArrowBetaStatus": {
+        "message": "Моля, имайте предвид, че това разширение все още е в бета версия. Това разширение е безплатно завинаги за всеки, който го инсталира по време на бета версията. Да, това означава, че в бъдеще ще има платен достъп само за нови потребители, но обещавам, че все пак ще има начин хората да получат безплатен достъп. Разбира се, разширението винаги ще остане с напълно отворен код, с публично достъпна база данни за изтегляне, точно както SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Благодарим ви, че обмислихте да го изпробвате дори в тази ситуация",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Присъединете се, направете някои предложения и помогнете в {discord} или {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Ако ви харесва това, което съм направил до момента, и искате да ми помогнете с пари, ето линк"
+    },
+    "termsAgreement": {
+        "message": "Използвайки това разширение, вие се съгласявате с {privacy-policy} и {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Политика за поверителност"
+    },
+    "termsOfUse": {
+        "message": "Условия за ползване"
+    },
+    "openSourceLicenses": {
+        "message": "Лицензи за софтуер с отворен код"
+    },
+    "replaceTitles": {
+        "message": "Замяна на заглавията"
+    },
+    "replaceThumbnails": {
+        "message": "Замяна на миниатюрите"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Наистина ли искате да изтриете тази конфигурация?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Нова конфигурация"
+    },
+    "ChannelAllowlist": {
+        "message": "Списък с разрешени канали"
+    },
+    "ConfigurationName": {
+        "message": "Име на конфигурация"
+    },
+    "ChannelListInstructions": {
+        "message": "Въведете в полето по-долу всички канали, които искате да приложите към тази конфигурация, разделени с нови редове. Поддържат се както идентификатори на канали, така и показвани имена. @Потребителските имена не се поддържат. Можете да получите идентификаторите на каналите, като щракнете върху бутона за споделяне в страницата за канала.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Все още няма настроени конфигурации. Щракнете върху бутона в горната част, за да добавите нова конфигурация.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }

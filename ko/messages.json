@@ -320,7 +320,7 @@
         "message": "등록하고 싶은 키를 눌러주세요. 필요하다면 보조 키를 선택하실 수도 있어요."
     },
     "0": {
-        "message": "연결에 실패했어요. 인터넷 연결을 확인하세요. 인터넷 연결이 되어 있는 경우, 서버가 과부화됐거나 다운된 것일 수도 있어요."
+        "message": "연결에 실패했어요. 인터넷 연결을 확인하세요. 인터넷 연결이 되어 있는 경우, 서버가 과부하됐거나 다운된 것일 수도 있어요."
     },
     "disableSkipping": {
         "message": "건너뛰기 켜짐"
@@ -333,7 +333,7 @@
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
-        "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해보세요."
+        "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해 보세요."
     },
     "errorCode": {
         "message": "오류 코드: "
@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "질문이 있어요"
     },
+    "askAQuestion": {
+        "message": "질문하기"
+    },
     "warningConfirmButton": {
         "message": "사유를 이해했어요"
     },
@@ -1248,7 +1251,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "여러분의 참여를 통해 자극적인 제목과 섬네일을 유용하게 바꿔요",
+        "message": "여러분의 참여를 통해 자극적인 제목과 미리 보기 이미지를 유용하게 바꿔요",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1309,6 +1312,22 @@
     "SentenceCase": {
         "message": "본문 형식"
     },
+    "thumbnailFallbackOption": {
+        "message": "제출한 미리 보기 이미지가 없으면"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "무작위 시간을 선택할 때, SponsorBlock 데이터를 사용해서 광고 구간 내 시간을 선택하지 않도록 해요.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "무작위 시간의 스크린샷 표시"
+    },
+    "TheOriginalThumbnail": {
+        "message": "원본 미리 보기 이미지 표시"
+    },
+    "showABlankBox": {
+        "message": "빈 상자 표시"
+    },
     "keepUnsubmitted": {
         "message": "제출된 투표 저장"
     },
@@ -1318,11 +1337,42 @@
     "useThumbnailGenerationService": {
         "message": "미리 보기 이미지 생성 서비스 사용"
     },
+    "onAllPages": {
+        "message": "모든 페이지에서",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "동영상 페이지를 제외한 모든 페이지에서",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "사용 안 함"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "미리 보기 이미지 생성 서비스는 원격 서버로 동영상 ID가 담긴 익명 요청을 전송해 미리 보기 이미지 생성 속도를 크게 향상시켜요. 요청이 전송된 이후에는 미리 보기 이미지를 생성하거나, 이미 생성한 것이 있다면 캐시에서 꺼내요."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "동영상 페이지에서 이용하면, '일부 공개' 동영상의 ID가 서버로 누출될 수 있어요. \"동영상 페이지를 제외한 모든 페이지에서\"로 설정하면 문제가 발생하지 않아요. 아니면 미리 보기 이미지 생성 서비스를 스스로 호스팅할 수도 있어요."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "미리 보기 이미지 생성 서비스를 사용할 수 없게 되면, 모든 요청을 K-anonymity 쿼리 시스템을 이용해 보내게 되어, 서버에서 어떤 동영상을 가져왔는지 예측하기 힘들어지고, 미리 보기 이미지를 로컬에서 더 느리게 생성하게 돼요.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "thumbnailGeneratorSourceCode": {
         "message": "미리 보기 이미지 생성 서비스 소스 코드"
     },
+    "moreAboutKAnonymity": {
+        "message": "K-Anonymity 더 알아보기",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "항상 \"원본 보기\" 버튼 표시"
+    },
     "antiAliasThumbnails": {
         "message": "미리 보기 이미지의 계단 현상 방지"
+    },
+    "whatAntiAliasThumbnails": {
+        "message": "사진을 줄일 때 미리 보기 이미지에 나타나는 날카로운 모서리를 줄여요. 처리량이 많아질 수 있어요."
     },
     "fetchTimeout": {
         "message": "데이터 가져오기 시간(ms)"
@@ -1335,6 +1385,13 @@
     },
     "renderTimeoutDescription": {
         "message": "서버가 시간 내 미리 보기 이미지를 생성하지 않는다면 원본 미리 보기 이미지를 표시해요."
+    },
+    "startLocalRenderTimeout": {
+        "message": "미리 보기 이미지 로컬 생성 시작 시간(ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "서버에서 미리 보기 이미지를 생성하는 데 이만큼 오래 걸리면, 대신 로컬에서 생성하기 시작해요."
     },
     "Enable": {
         "message": "사용"
@@ -1353,6 +1410,10 @@
     "ShowOriginal": {
         "message": "원본 정보 보기"
     },
+    "FillerWarning": {
+        "message": "경고: 매우 공격적인 카테고리예요. '건너뛰지 않기'를 이용하거나, 가끔 '사용 안 함'으로 설정해야 할 가능성이 높아요. 많은 동영상에서 동영상의 50% 이상을 건너뛸 수 있으니 주의하세요! 하지만, 그럼에도 제출할 때 따라야 하는 지침이 분명히 있다는 사실을 잊지 마세요.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
     "chatboxDescription": {
         "message": "Discord나 Matrix에 참가해 이 대화에 영구적으로 머무르세요",
         "description": "Appears on the top of the integrated chatbox"
@@ -1360,5 +1421,82 @@
     "showGuidelineHelp": {
         "message": "지침 도움말 표시",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "과장된 표현이 나타나지 않도록 해요",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "질문보다는 결론을 담아요",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "동영상에 대한 반응(\"충격\")을 담지 않도록 해요",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "충분한 정보를 제공해 클릭하기 전 올바른 선택을 할 수 있도록 해요"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "참고: SponsorBlock 설정을 자동으로 가져왔어요!"
+    },
+    "howItWorks": {
+        "message": "작동 원리"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "DeArrow를 이용해주셔서 감사드려요"
+    },
+    "deArrowBetaStatus": {
+        "message": "아직 확장 프로그램이 베타 버전이라는 점 참고 부탁드려요. 이 확장 프로그램은 베타 기간 동안 설치한 사람 누구에게나, 평생, 무료예요. 즉 향후 새로운 사용자에 한해선 유료 결제를 진행해야 할 수도 있어요. 하지만 무료로 이용할 수 있는 방법이 있을 것이라고 약속드릴게요. 당연히 확장 프로그램은 SponsorBlock처럼, 완전한 오픈 소스로 유지할 것이고, 공개적으로 다운로드할 수 있는 데이터베이스도 제공할 거예요.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "베타임에도 확장 프로그램 사용을 시도해주셔서 감사드려요",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "{discord} 혹은 {matrix}에서 기여하거나, 제안을 남기거나, 도와주세요"
+    },
+    "deArrowDonationText": {
+        "message": "확장 프로그램이 마음에 들고, 금전적으로 지원하고 싶다면, 이 링크를 눌러주세요"
+    },
+    "termsAgreement": {
+        "message": "이 확장 프로그램을 이용하면, {privacy-policy} 및 {terms}에 동의하게 돼요."
+    },
+    "privacyPolicy": {
+        "message": "개인정보 취급방침"
+    },
+    "termsOfUse": {
+        "message": "이용약관"
+    },
+    "openSourceLicenses": {
+        "message": "오픈소스 라이선스"
+    },
+    "replaceTitles": {
+        "message": "제목 대체"
+    },
+    "replaceThumbnails": {
+        "message": "미리 보기 이미지 대체"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "이 구성을 삭제할까요?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "새 구성"
+    },
+    "ChannelAllowlist": {
+        "message": "채널 허용 목록"
+    },
+    "ConfigurationName": {
+        "message": "구성 이름"
+    },
+    "ChannelListInstructions": {
+        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "아직 설정한 구성이 없어요. 위쪽의 버튼을 눌러 새 구성을 추가하세요.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
