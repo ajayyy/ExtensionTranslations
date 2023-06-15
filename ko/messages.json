@@ -1251,7 +1251,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "여러분의 참여를 통해 자극적인 제목과 섬네일을 유용하게 바꿔요",
+        "message": "여러분의 참여를 통해 자극적인 제목과 미리 보기 이미지를 유용하게 바꿔요",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
