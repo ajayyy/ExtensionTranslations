@@ -1355,7 +1355,7 @@
         "message": "Videosivuilla käytettäessä tämä voi vuotaa listaamattomia video ID:itä palvelimelle. Ongelma voidaan välttää valitsemalla asetukseksi \"Kaikilla paitsi videosivuilla\" tai vaihtoehtoisesti voit ylläpitää omaa pienoiskuvien luontipalvelua."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Jos pienoiskuvien luotipalvelua ei käytetä, käytetään kaikille pyynnöille k-anonymiteetti-pohjaista kyselyjärjestelmää, jolloin palvelimen on vaikeampaa tunnistaa noudettuja videoita. Tällöin käytetään myös hitaampaa paikallista pienoiskuvien luontipalvelua.",
+        "message": "Jos pienoiskuvien luotipalvelua ei käytetä, käytetään kaikille pyynnöille k-anonymiteetti-pohjaista kyselyjärjestelmää, jolloin palvelimen on vaikeampaa ennakoida noudettuja videoita. Tällöin käytetään myös hitaampaa paikallista pienoiskuvien luontipalvelua.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
