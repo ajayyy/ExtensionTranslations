@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pienoiskuvat palvelimella olevien eniten äänestettyjen sijaan."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Tallenna lähetetyt äänet yksityisiltä välilehdiltä"
+    },
     "useThumbnailGenerationService": {
         "message": "Käytä pienoiskuvien luontipalvelua"
     },
@@ -1349,7 +1352,7 @@
         "message": "Ei koskaan"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Pienoiskuvien luontipalvelu nopeuttaa pienoiskuvien luontia merkittävästi videon ID:n etäpalvelimelle anonyymisti. Tällöin luodaan joko uusi pienoiskuva tai noudetaan aiemmin luotu kuva välimuistista."
+        "message": "Pienoiskuvien luontipalvelu nopeuttaa pienoiskuvien luontia merkittävästi lähettämällä videon ID:n etäpalvelimelle anonyymisti. Tällöin luodaan joko uusi pienoiskuva tai noudetaan aiemmin luotu kuva välimuistista."
     },
     "thumbnailGeneratorDescription2": {
         "message": "Videosivuilla käytettäessä tämä voi vuotaa listaamattomia video ID:itä palvelimelle. Ongelma voidaan välttää valitsemalla asetukseksi \"Kaikilla paitsi videosivuilla\" tai vaihtoehtoisesti voit ylläpitää omaa pienoiskuvien luontipalvelua."
