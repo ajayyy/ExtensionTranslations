@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Behalte übermittelte Abstimmungen, um die Titel und Thumbnails anzuzeigen, für welche du abgestimmt hast anstelle der bestabgestimmtesten auf dem Server."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "In privaten Tabs eingereichte Bewertungen speichern"
+    },
     "useThumbnailGenerationService": {
         "message": "Thumbnail-Erstellungsdienst verwenden"
     },
