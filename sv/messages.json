@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Lagra inskickade röster från privata flikar"
+    },
     "useThumbnailGenerationService": {
         "message": "Använd miniatyrbildsgenereringstjänsten"
     },
