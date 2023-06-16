@@ -1387,7 +1387,7 @@
         "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
     },
     "startLocalRenderTimeout": {
-        "message": "サムネイルを手元で生成するまでの待ち時間（ミリ秒）",
+        "message": "手元でのサムネイル生成までの待ち時間 (ミリ秒)",
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "startLocalRenderTimeoutDescription": {
@@ -1455,7 +1455,7 @@
         "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
-        "message": "{discord}や{matrix}から貢献や提案、お手伝いをしてください"
+        "message": "{discord}や{matrix}にて、あなたからの提案や貢献、お手伝いをお待ちしています"
     },
     "deArrowDonationText": {
         "message": "私の活動を気に入って頂けたら、寄付で支援してください。リンクはこちら。"
