@@ -1391,7 +1391,7 @@
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "startLocalRenderTimeoutDescription": {
-        "message": "サムネイルを生成するさい、サーバーからの応答がこの時間よりも掛かった場合は、手元で生成するようにします。"
+        "message": "サーバーでのサムネイル生成にこれより時間がかかれば、端末内で生成します。"
     },
     "Enable": {
         "message": "有効"
