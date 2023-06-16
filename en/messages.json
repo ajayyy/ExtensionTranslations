@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Store Submitted Votes From Private Tabs"
+    },
     "useThumbnailGenerationService": {
         "message": "Use Thumbnail Generation Service"
     },
