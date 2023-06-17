@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Manter votos enviados após votar para mostrar os títulos e miniaturas que você escolheu em vez do mais votado no servidor."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Registrar votos de navegação anônima"
+    },
     "useThumbnailGenerationService": {
         "message": "Usar serviço de geração de miniaturas"
     },
@@ -1385,6 +1388,10 @@
     },
     "renderTimeoutDescription": {
         "message": "Mostrar miniaturas originais se não for possível gerar uma miniatura nesse período."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Tempo limite (em ms) para iniciar criação local de miniatura",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "Enable": {
         "message": "Ativar"
