@@ -1393,6 +1393,9 @@
         "message": "Tempo limite (em ms) para iniciar criação local de miniatura",
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Se o servidor não gerar uma miniatura nesse período, tentará criar uma versão na sua máquina."
+    },
     "Enable": {
         "message": "Ativar"
     },
@@ -1477,5 +1480,26 @@
     },
     "replaceThumbnails": {
         "message": "Substituir miniaturas"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Deseja mesmo apagar esse ajuste?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Novo ajuste"
+    },
+    "ChannelAllowlist": {
+        "message": "Canais permitidos"
+    },
+    "ConfigurationName": {
+        "message": "Nome do ajuste"
+    },
+    "ChannelListInstructions": {
+        "message": "Insira na caixa os canais que receberão os ajustes, separados por quebra de linha (Enter). São aceitos o nome de exibição ou ID do canal. Nomes de usuários (@) não são aceitos. A ID do canal pode ser encontrada na página Sobre, clicando no botão Compartilhar (seta).",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
