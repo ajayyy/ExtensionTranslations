@@ -1329,10 +1329,13 @@
         "message": "Mostrar un cuadro en blanco"
     },
     "keepUnsubmitted": {
-        "message": "Almacenar Votos Enviados"
+        "message": "Almacenar votos enviados"
     },
     "whatKeepUnsubmitted": {
         "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Almacenar votos enviados desde pestañas privadas"
     },
     "useThumbnailGenerationService": {
         "message": "Usar servicio de generación de miniaturas"
