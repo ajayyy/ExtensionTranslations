@@ -1368,6 +1368,9 @@
         "message": "Mehr über k-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Zeige immer den \"Original anzeigen\"-Button an"
+    },
     "antiAliasThumbnails": {
         "message": "Kantenglättung für Thumbnails aktivieren"
     },
@@ -1385,6 +1388,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Zeige original Thumbnails wenn kein Thumbnail in dieser Zeit generiert werden konnte."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Timeout-Zeit bis der lokale Thumbnailgenerierungsdienst gestartet werden soll (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Wenn der Server zu lange braucht um ein Thumbnail zu generieren, starte den Versuch lokal Thumbnails zu generieren."
     },
     "Enable": {
         "message": "Aktivieren"
@@ -1487,5 +1497,9 @@
     "ChannelListInstructions": {
         "message": "Geben Sie alle Kanäle, auf die Sie diese Konfiguration anwenden möchten, in das untenstehende Feld, in eigene Zeilen, ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Die Kanal-ID kann man durch den \"Teilen\"-Button auf der \"Kanalinfo\"-Seite erhalten.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Noch keine Konfigurationen eingerichtet. Klicken Sie oben auf den Button, um eine neue Konfiguration hinzuzufügen.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
