@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Hide options not available without extra payment"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Hide prompts about new features"
+    },
     "chooseACountry": {
         "message": "Choose a country"
     },
@@ -1501,5 +1504,8 @@
     "NoConfigurationsSetup": {
         "message": "No configurations setup yet. Click the button at the top to add a new configuration.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stop clickbait by replacing titles and thumbnails with more accurate ones"
     }
 }
