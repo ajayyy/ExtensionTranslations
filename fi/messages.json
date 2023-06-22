@@ -1374,12 +1374,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Näytä \"Näytä Alkuperäinen\" -painike aina"
     },
-    "antiAliasThumbnails": {
-        "message": "Pienoiskuvien reunanpehmennys"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Vähentää pienoiskuvien kutistamisesta aiheutuvia teräviä reunoja. Kuormittaa laitteen suoritinta enemmän."
-    },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
