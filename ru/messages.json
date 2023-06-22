@@ -1498,5 +1498,11 @@
     "NoConfigurationsSetup": {
         "message": "Конфигурации еще не настроены. Нажмите на кнопку вверху, чтобы добавить новую конфигурацию.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Боритесь с кликбейтом путём замены названий и значков на более корректные."
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Устали от кликбейта? Попробуйте моё новое расширение, улучшающее названия и значки."
     }
 }
