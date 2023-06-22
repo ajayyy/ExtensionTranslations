@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mindig mutassa az \"Eredeti megjelenítése\" gombot"
     },
-    "antiAliasThumbnails": {
-        "message": "Élsimítás indexképeken"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Csökkenti a képek kicsinyítéséből következő éles vonalakat az indexképeken. Több erőforrást igényel."
-    },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
     },
