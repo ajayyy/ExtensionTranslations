@@ -1498,5 +1498,11 @@
     "NoConfigurationsSetup": {
         "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Zastavte clickbaity nahrazením názvů a náhledů jejich přesnějšími verzemi"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Jste unaveni clickbaity? Vyzkoušejte mé nové rozšíření pro vylepšení názvů a náhledů"
     }
 }
