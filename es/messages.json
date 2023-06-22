@@ -1329,10 +1329,13 @@
         "message": "Mostrar un cuadro en blanco"
     },
     "keepUnsubmitted": {
-        "message": "Almacenar Votos Enviados"
+        "message": "Almacenar votos enviados"
     },
     "whatKeepUnsubmitted": {
         "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Almacenar votos enviados desde pestañas privadas"
     },
     "useThumbnailGenerationService": {
         "message": "Usar servicio de generación de miniaturas"
@@ -1477,5 +1480,26 @@
     },
     "replaceThumbnails": {
         "message": "Reemplazar miniaturas"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "¿Estás seguro/a de que quieres eliminar esta configuración?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nueva configuración"
+    },
+    "ChannelAllowlist": {
+        "message": "Lista de canales permitidos"
+    },
+    "ConfigurationName": {
+        "message": "Nombre de configuración"
+    },
+    "ChannelListInstructions": {
+        "message": "Introduzca los canales que desee aplicar a esta configuración en el cuadro de abajo, separados por nuevas líneas. Se admiten tanto los IDs de canal, como los nombres visibles. Los @ Nombres de usuario no son compatibles. Puede obtener IDs de canal haciendo clic en el botón compartir en la página de acerca de del canal.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Aún no hay configuraciones establecidas. Haga clic en el botón en la parte superior para añadir una nueva configuración.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }

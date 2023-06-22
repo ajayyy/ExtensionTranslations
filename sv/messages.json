@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Lagra inskickade röster från privata flikar"
+    },
     "useThumbnailGenerationService": {
         "message": "Använd miniatyrbildsgenereringstjänsten"
     },
@@ -1477,5 +1480,26 @@
     },
     "replaceThumbnails": {
         "message": "Ersätt miniatyrbild"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Är du säker på att vill du ta bort den här konfigurationen?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Ny konfiguration"
+    },
+    "ChannelAllowlist": {
+        "message": "Godkännandelista för kanaler"
+    },
+    "ConfigurationName": {
+        "message": "Konfigurationsnamn"
+    },
+    "ChannelListInstructions": {
+        "message": "Ange vilka kanaler du vill verkställa för denna konfiguration i rutan nedan, åtskilda av nya rader. Både kanal-ID och visningsnamn stöds. @ Användarnamn stöds inte. Du finner kanal-ID:t genom att klicka på delaknappen på kanalens omsida.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Inga konfigurationer konfigurerade ännu. Klicka på knappen högst upp för att lägga till en ny konfiguration.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
