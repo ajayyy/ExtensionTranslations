@@ -1507,5 +1507,8 @@
     },
     "DeArrowPromotionMessage": {
         "message": "Stop clickbait by replacing titles and thumbnails with more accurate ones"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Tired of clickbait? Check out my new extension for improving titles and thumbnails"
     }
 }
