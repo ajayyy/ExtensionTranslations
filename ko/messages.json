@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "(추가 결제 없이는 숨김 설정을 사용할 수 없어요)"
     },
+    "hideNewFeatureUpdates": {
+        "message": "새로운 기능에 관한 프롬프트 숨기기"
+    },
     "chooseACountry": {
         "message": "국가 선택"
     },
@@ -1501,5 +1504,11 @@
     "NoConfigurationsSetup": {
         "message": "아직 설정한 구성이 없어요. 위쪽의 버튼을 눌러 새 구성을 추가하세요.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "제목과 미리 보기 이미지를 더 정확한 것으로 대체해 어그로를 멈춰요"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "어그로에 지치나요? 제목과 미리 보기 이미지를 향상시키는 확장 프로그램을 확인해 보세요"
     }
 }
