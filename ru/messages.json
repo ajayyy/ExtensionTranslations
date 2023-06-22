@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Скрыть опции, недоступные без дополнительной платы"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Скрыть подсказки о новых функциях"
+    },
     "chooseACountry": {
         "message": "Выберите страну"
     },
