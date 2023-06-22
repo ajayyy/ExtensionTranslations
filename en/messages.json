@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Always Display The \"Show Original\" Button"
     },
-    "antiAliasThumbnails": {
-        "message": "Antialiasing On Thumbnails"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Reduces sharp edges on thumbnails from shrinking the images. Uses more processing power."
-    },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
     },
