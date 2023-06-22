@@ -1361,12 +1361,6 @@
         "message": "Więcej o systemie zapytań typu k-anonimity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
-    "antiAliasThumbnails": {
-        "message": "Antyaliasing miniatur"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Wygładza ostre krawędzie powstałe przy zmianie rozmiaru miniatur. Zwiększa zużycie zasobów."
-    },
     "fetchTimeout": {
         "message": "Limit czasu pobierania danych (ms)"
     },
