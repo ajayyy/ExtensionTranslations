@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Dölj alternativ som inte är tillgängliga utan extra betalning"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Dölj uppmaningar om nya funktioner"
+    },
     "chooseACountry": {
         "message": "Välj ett land"
     },
