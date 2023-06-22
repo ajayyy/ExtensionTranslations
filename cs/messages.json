@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Vždy zobrazit tlačítko „Zobrazit původní“"
     },
-    "antiAliasThumbnails": {
-        "message": "Použít Anti-aliasing na náhledech"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Sníží množství ostrých hran na náhledech při zmenšování obrázků. Používá více zdrojů při zpracování."
-    },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
     },
