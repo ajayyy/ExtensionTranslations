@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Ocultar opciones no disponibles sin pago extra"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Ocultar sugerencias sobre nuevas características"
+    },
     "chooseACountry": {
         "message": "Seleccione un país"
     },
@@ -1495,5 +1498,8 @@
     "NoConfigurationsSetup": {
         "message": "Aún no hay configuraciones establecidas. Haga clic en el botón en la parte superior para añadir una nueva configuración.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Dejar de hacer clic reemplazando títulos y miniaturas por otros más precisos"
     }
 }
