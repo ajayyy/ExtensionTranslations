@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Zeige immer den \"Original anzeigen\"-Button an"
     },
-    "antiAliasThumbnails": {
-        "message": "Kantenglättung für Thumbnails aktivieren"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Reduziert scharfe Kanten in Thumbnails, die aufgrund der Bildverkleinerung entstanden sind. Benötigt mehr Rechenleistung."
-    },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
     },
