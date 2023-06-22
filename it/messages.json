@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mostra Sempre il Pulsante \"Mostra Originale\""
     },
-    "antiAliasThumbnails": {
-        "message": "Antialiasing Sulle Miniature"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Riduce i bordi vivi sulle miniature, dal ridimensionamento delle immagini. Utilizza più potenza di elaborazione."
-    },
     "fetchTimeout": {
         "message": "Timeout di Recupero dei Dati (ms)"
     },
