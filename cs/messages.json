@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Ponechat odeslané hlasy po hlasování pro zobrazení názvů a náhledů, které jste zvolili vy, namísto nejlépe hodnocených na serveru."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Ukládat odeslané hlasy z anonymních karet"
+    },
     "useThumbnailGenerationService": {
         "message": "Použít službu generování náhledů"
     },

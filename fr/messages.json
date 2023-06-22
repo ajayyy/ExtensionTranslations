@@ -502,6 +502,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "L'adresse utilisée pour accéder au serveur de collecte de données.\nCette adresse ne doit pas être modifiée, sauf si vous possédez votre propre instance de serveur."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Adresse du serveur de cache des miniatures"
+    },
     "save": {
         "message": "Sauvegarder"
     },
@@ -951,6 +954,9 @@
     "questionButton": {
         "message": "J’ai une question"
     },
+    "askAQuestion": {
+        "message": "Poser une question"
+    },
     "warningConfirmButton": {
         "message": "Je comprends les risques"
     },
@@ -1305,6 +1311,9 @@
     },
     "SentenceCase": {
         "message": "Majuscule début de phrase"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Quand aucune miniature soumise n'existe"
     },
     "keepUnsubmitted": {
         "message": "Stocker les votes soumis"

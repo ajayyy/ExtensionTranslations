@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Beküldött szavazatok tárolása inkognitó füleken"
+    },
     "useThumbnailGenerationService": {
         "message": "Indexkép készítő szolgáltatás használata"
     },

@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Piilotusvalinnat ovat käytettävissä vain lisämaksusta"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Piilota ilmoitukset uusista ominaisuuksista"
+    },
     "chooseACountry": {
         "message": "Valitse maa"
     },
@@ -1334,6 +1337,9 @@
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pienoiskuvat palvelimella olevien eniten äänestettyjen sijaan."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Tallenna lähetetyt äänet yksityisiltä välilehdiltä"
+    },
     "useThumbnailGenerationService": {
         "message": "Käytä pienoiskuvien luontipalvelua"
     },
@@ -1349,13 +1355,13 @@
         "message": "Ei koskaan"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Pienoiskuvien luontipalvelu nopeuttaa pienoiskuvien luontia merkittävästi videon ID:n etäpalvelimelle anonyymisti. Tällöin luodaan joko uusi pienoiskuva tai noudetaan aiemmin luotu kuva välimuistista."
+        "message": "Pienoiskuvien luontipalvelu nopeuttaa pienoiskuvien luontia merkittävästi lähettämällä videon ID:n etäpalvelimelle anonyymisti. Tällöin luodaan joko uusi pienoiskuva tai noudetaan aiemmin luotu kuva välimuistista."
     },
     "thumbnailGeneratorDescription2": {
         "message": "Videosivuilla käytettäessä tämä voi vuotaa listaamattomia video ID:itä palvelimelle. Ongelma voidaan välttää valitsemalla asetukseksi \"Kaikilla paitsi videosivuilla\" tai vaihtoehtoisesti voit ylläpitää omaa pienoiskuvien luontipalvelua."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Jos pienoiskuvien luotipalvelua ei käytetä, käytetään kaikille pyynnöille k-anonymiteetti-pohjaista kyselyjärjestelmää, jolloin palvelimen on vaikeampaa tunnistaa noudettuja videoita. Tällöin käytetään myös hitaampaa paikallista pienoiskuvien luontipalvelua.",
+        "message": "Jos pienoiskuvien luotipalvelua ei käytetä, käytetään kaikille pyynnöille k-anonymiteetti-pohjaista kyselyjärjestelmää, jolloin palvelimen on vaikeampaa ennakoida noudettuja videoita. Tällöin käytetään myös hitaampaa paikallista pienoiskuvien luontipalvelua.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
@@ -1498,5 +1504,8 @@
     "NoConfigurationsSetup": {
         "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Pysäytä clickbaitit korvaamalla otsikot ja pienoiskuvat tarkemmilla versioilla"
     }
 }

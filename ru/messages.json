@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Скрыть опции, недоступные без дополнительной платы"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Скрыть подсказки о новых функциях"
+    },
     "chooseACountry": {
         "message": "Выберите страну"
     },
@@ -1333,6 +1336,9 @@
     },
     "whatKeepUnsubmitted": {
         "message": "Хранить отправленные оценки, чтобы показывались выбранные вами название и значок, а не топ по голосам на сервере."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Хранить отправленные голоса из вкладок инкогнито"
     },
     "useThumbnailGenerationService": {
         "message": "Использовать сервис создания значков"

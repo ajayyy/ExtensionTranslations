@@ -418,7 +418,7 @@
         "message": "プライベートユーザーIDをインポート/エクスポート"
     },
     "whatChangeUserID": {
-        "message": "これは厳重に保管してください。これはパスワードのようなもので、誰とも共有すべきではありません。 他の誰かがこれを使って、あなたになりすますことができてしまいます。なおパブリックユーザーIDを探している場合は、ポップアップ内のクリップボードアイコンをクリックしてください。"
+        "message": "これを公開しないでください。パスワードのように、誰とも共有すべきではありません。 誰かがこれを使い、あなたになりすますことができます。これではなくパブリックユーザーIDが必要なら、ポップアップ内のクリップボードアイコンをクリックして取得できます。"
     },
     "setUserID": {
         "message": "プライベートユーザーIDを設定"
@@ -1186,7 +1186,7 @@
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
     "unsubmittedSegmentCountsZero": {
-        "message": "現在、未送信のセグメントはありません",
+        "message": "未送信のセグメントなし",
         "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
     },
     "unsubmittedSegmentsSingular": {
@@ -1334,6 +1334,9 @@
     "whatKeepUnsubmitted": {
         "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの代わりに、あなたが選択した題名と画像を表示する。"
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "プライベートモードのタブで提出した投票を保存する"
+    },
     "useThumbnailGenerationService": {
         "message": "サムネイル生成サービスを使用"
     },
@@ -1387,11 +1390,11 @@
         "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
     },
     "startLocalRenderTimeout": {
-        "message": "サムネイルを手元で生成するまでの待ち時間（ミリ秒）",
+        "message": "手元でのサムネイル生成までの待ち時間 (ミリ秒)",
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "startLocalRenderTimeoutDescription": {
-        "message": "サムネイルを生成するさい、サーバーからの応答がこの時間よりも掛かった場合は、手元で生成するようにします。"
+        "message": "サーバーでのサムネイル生成にこれより時間がかかれば、端末内で生成します。"
     },
     "Enable": {
         "message": "有効"
@@ -1455,7 +1458,7 @@
         "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
-        "message": "{discord}や{matrix}から貢献や提案、お手伝いをしてください"
+        "message": "{discord}や{matrix}にて、あなたからの提案や貢献、お手伝いをお待ちしています"
     },
     "deArrowDonationText": {
         "message": "私の活動を気に入って頂けたら、寄付で支援してください。リンクはこちら。"
