@@ -1504,5 +1504,8 @@
     "NoConfigurationsSetup": {
         "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Pysäytä clickbaitit korvaamalla otsikot ja pienoiskuvat tarkemmilla versioilla"
     }
 }
