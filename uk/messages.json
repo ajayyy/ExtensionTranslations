@@ -1346,12 +1346,6 @@
         "message": "Більше про K-анонімність",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
-    "antiAliasThumbnails": {
-        "message": "Запустити згладжування на мініатюрах"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Зменшує гострі краї на мініатюрах через зменшення зображень. Використовує більше обчислювальної потужності."
-    },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
     },
