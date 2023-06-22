@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "追加課金が必要なオプションを非表示にする"
     },
+    "hideNewFeatureUpdates": {
+        "message": "新機能に関する案内を非表示"
+    },
     "chooseACountry": {
         "message": "国を選択"
     },
@@ -1251,7 +1254,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "クラウドソーシングにより、人目を引くような題名と画像ではなく、説明的なものに改善する",
+        "message": "人目を引くような題名と画像ではなく、クラウドソーシングの力でより説明的に改善",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1370,12 +1373,6 @@
     },
     "alwaysShowShowOriginalButton": {
         "message": "「元を表示」ボタンを常に表示する"
-    },
-    "antiAliasThumbnails": {
-        "message": "サムネイルにアンチエイリアスをかける"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "画像の縮小によるサムネイルのシャープなエッジを減らす。より多くの処理能力を使います。"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
@@ -1501,5 +1498,11 @@
     "NoConfigurationsSetup": {
         "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "タイトルとサムネイルをより正確にし誇張された案内を置き換える"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "誇張表現による案内にうんざりしませんか？タイトルとサムネイルを改善する、新しい拡張機能を開発しました"
     }
 }
