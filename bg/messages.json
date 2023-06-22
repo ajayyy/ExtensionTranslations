@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Скриване на опциите, които не са налични без допълнително заплащане"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Скриване на известията за нови функции"
+    },
     "chooseACountry": {
         "message": "Изберете държава"
     },
@@ -1501,5 +1504,8 @@
     "NoConfigurationsSetup": {
         "message": "Все още няма настроени конфигурации. Щракнете върху бутона в горната част, за да добавите нова конфигурация.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Спрете примамките за кликване, като замените заглавията и миниатюрите с по-точни"
     }
 }
