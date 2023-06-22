@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Piilotusvalinnat ovat käytettävissä vain lisämaksusta"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Piilota ilmoitukset uusista ominaisuuksista"
+    },
     "chooseACountry": {
         "message": "Valitse maa"
     },
