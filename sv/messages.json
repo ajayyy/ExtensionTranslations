@@ -1498,5 +1498,11 @@
     "NoConfigurationsSetup": {
         "message": "Inga konfigurationer konfigurerade ännu. Klicka på knappen högst upp för att lägga till en ny konfiguration.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stoppa klickbete genom att ersätta titlar och miniatyrbilder med mer exakta"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Trött på klickbete? Kolla in mitt nya tillägg för att förbättra titlar och miniatyrbilder"
     }
 }
