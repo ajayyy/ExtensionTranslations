@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Skrýt možnosti nedostupné bez další platby"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Skrýt informace o nových funkcích"
+    },
     "chooseACountry": {
         "message": "Vyberte zemi"
     },
