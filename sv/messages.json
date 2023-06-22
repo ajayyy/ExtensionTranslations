@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Visa alltid knappen \"Visa original\""
     },
-    "antiAliasThumbnails": {
-        "message": "Kantutjämning på miniatyrer"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Minskar vassa kanter på miniatyrer genom att krympa bilderna. Använder mer processorkraft."
-    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
