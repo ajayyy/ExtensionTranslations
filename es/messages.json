@@ -1371,12 +1371,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mostrar siempre el botón \"Mostrar original\""
     },
-    "antiAliasThumbnails": {
-        "message": "Antialiasing en miniaturas"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Disminuye los bordes pronunciados en las miniaturas al reducir las imágenes. Utiliza más potencia de procesamiento."
-    },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
