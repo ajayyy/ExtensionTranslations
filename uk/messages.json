@@ -954,6 +954,9 @@
     "questionButton": {
         "message": "У мене є питання"
     },
+    "askAQuestion": {
+        "message": "Задати питання"
+    },
     "warningConfirmButton": {
         "message": "Я розумію причину"
     },
@@ -1147,6 +1150,9 @@
     "hideUpsells": {
         "message": "Опції приховування недоступні без додаткової оплати"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Приховати підказки про нові функції"
+    },
     "chooseACountry": {
         "message": "Виберіть країну"
     },
@@ -1309,11 +1315,30 @@
     "SentenceCase": {
         "message": "Як у реченнях"
     },
+    "thumbnailFallbackOption": {
+        "message": "За відсутності відправленого значка"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "При виборі випадкового кадру він буде використовувати дані SponsorBlock, щоб переконатися, що час у рекламному сегменті не буде обрано.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Показати скріншот з випадкового кадру"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Показати оригінальний значок"
+    },
+    "showABlankBox": {
+        "message": "Показати порожнє поле"
+    },
     "keepUnsubmitted": {
         "message": "Зберігати надіслані голоси"
     },
     "whatKeepUnsubmitted": {
         "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовок і мініатюру, а не топ голосів на сервері."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Зберігати подані голоси з приватних вкладок"
     },
     "useThumbnailGenerationService": {
         "message": "Використовувати службу генерації мініатюр"
@@ -1345,6 +1370,9 @@
     "moreAboutKAnonymity": {
         "message": "Більше про K-анонімність",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Завжди відображати кнопку \"Показати оригінал\""
     },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
