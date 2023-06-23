@@ -1386,6 +1386,13 @@
     "renderTimeoutDescription": {
         "message": "Показувати оригінальні мініатюри, якщо не вдається згенерувати мініатюру за цей час."
     },
+    "startLocalRenderTimeout": {
+        "message": "Час очікування для початку використання локального генератора значків (мс)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Якщо сервер занадто довго створює значок, почати створювати його локально."
+    },
     "Enable": {
         "message": "Увімкнути"
     },
@@ -1407,12 +1414,48 @@
         "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
+    "chatboxDescription": {
+        "message": "Приєднуйтесь до Discord або Matrix, щоб залишитися в цьому чаті",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Показати допомогу щодо керівництва",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Уникайте химерних виразів обличчя",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Надавати перевагу твердженням, а не питанням",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Уникайте опису реакцій на відео (наприклад, \"шок\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Надайте достатньо інформації, щоб користувач міг зробити поінформований вибір"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
+    },
     "howItWorks": {
         "message": "Як це працює"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "Дякую за те, що скористалися DeArrow"
     },
     "deArrowBetaStatus": {
         "message": "Зверніть увагу, що це розширення досі знаходиться в бета-версії. Це розширення безкоштовне, назавжди для кожного, хто встановить його під час бета-версії. Так, це означає, що в майбутньому буде платний доступ для нових користувачів, але я обіцяю, що люди все одно матимуть спосіб отримати безкоштовний доступ. Звичайно, розширення завжди залишатиметься відкритим вихідним кодом, з публічно завантажувальною базою даних, як SponsorBlock.",
         "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Дякуємо вам за те, що спробували його навіть у такому стані",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Взяти участь у розробці або запропонувати нову ідею можна в {discord} або {matrix}"
     },
     "deArrowDonationText": {
         "message": "Якщо вам подобається те, що я зробив, і ви хочете допомогти мені з грошима, ось посилання"
@@ -1425,5 +1468,41 @@
     },
     "termsOfUse": {
         "message": "Умови використання"
+    },
+    "openSourceLicenses": {
+        "message": "Ліцензії вихідного коду"
+    },
+    "replaceTitles": {
+        "message": "Замінювати назви"
+    },
+    "replaceThumbnails": {
+        "message": "Замінювати значки"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Ви впевнені, що хочете видалити цю конфігурацію?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Нова конфігурація"
+    },
+    "ChannelAllowlist": {
+        "message": "Список дозволених каналів"
+    },
+    "ConfigurationName": {
+        "message": "Назва конфігурації"
+    },
+    "ChannelListInstructions": {
+        "message": "Введіть усі канали, до яких ви хочете застосувати цю конфігурацію, у поле нижче, відокремлюючи їх новими рядками. Підтримуються як ідентифікатори каналів, так і їхні назви. Імена користувачів не підтримуються. Ідентифікатори каналів можна отримати, натиснувши кнопку \"Поділитися\" на сторінці про канал.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Конфігурацій ще немає. Натисніть кнопку вгорі, щоб додати нову конфігурацію.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Боріться з клікбейтом шляхом заміни назв і значків на більш коректні"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Втомилися від клікбейта? Спробуйте моє нове розширення, що поліпшує назви та значки"
     }
 }
