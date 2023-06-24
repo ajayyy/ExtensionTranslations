@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Fizetős opciók elrejtése"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Üzenetek elrejtése új funkciókról"
+    },
     "chooseACountry": {
         "message": "Válassz országot"
     },
