@@ -1498,5 +1498,11 @@
     "NoConfigurationsSetup": {
         "message": "Még nincsenek konfigurációk. Kattints a fenti gombra egy új konfiguráció hozzáadásához.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Szüntesd meg a kattintásvadász tartalmakat a címek és indexképek lecserélésével!"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Eleged van a kattintásvadász videókból? Nézd meg az új bővítményem, ami a címek és indexképek minőségén próbál javítani"
     }
 }
