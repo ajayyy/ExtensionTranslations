@@ -1501,5 +1501,8 @@
     },
     "DeArrowPromotionMessage": {
         "message": "Dejar de hacer clic reemplazando títulos y miniaturas por otros más precisos"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "¿Cansado/a de clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
     }
 }
