@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Ukryj opcje niedostępne bez dodatkowej płatności"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Ukryj powiadomienia o nowych funkcjach"
+    },
     "chooseACountry": {
         "message": "Wybierz kraj"
     },
