@@ -1333,6 +1333,9 @@
     "whatKeepUnsubmitted": {
         "message": "Zapisz wysłane głosy i pokazuj tytuły i miniatury, które wybrałeś zamiast najwyżej ocenionych na serwerze."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Zapisuj zgłoszenia z kart prywatncyh"
+    },
     "useThumbnailGenerationService": {
         "message": "Używaj usługi generowania miniatur"
     },
@@ -1364,6 +1367,9 @@
         "message": "Więcej o systemie zapytań typu k-anonimity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Zawsze wyświetlaj przycisk \"Pokaż oryginalny\""
+    },
     "fetchTimeout": {
         "message": "Limit czasu pobierania danych (ms)"
     },
@@ -1375,6 +1381,13 @@
     },
     "renderTimeoutDescription": {
         "message": "Pokaż oryginalną miniaturę, jeżeli w tym czasie nie uda się wygenerować nowej."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Rozpocznij lokalne generowanie miniatur (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Jeśli serwerowi zajmuje za dużo czasu wygenerowanie miniatury, spróbuj wygenerować takową lokalnie."
     },
     "Enable": {
         "message": "Włącz"
@@ -1454,5 +1467,38 @@
     },
     "openSourceLicenses": {
         "message": "Licencje Open Source"
+    },
+    "replaceTitles": {
+        "message": "Podmień tytuły"
+    },
+    "replaceThumbnails": {
+        "message": "Podmień miniaturki"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Czy jesteś pewien, że chcesz usunąć tę konfigurację?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nowa konfiguracja"
+    },
+    "ChannelAllowlist": {
+        "message": "Kanały, na których SponsorBlock będzie wyłączony"
+    },
+    "ConfigurationName": {
+        "message": "Nazwa konfiguracji"
+    },
+    "ChannelListInstructions": {
+        "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. @ Nazwy użytkowników nie są obsługiwane. Możesz uzyskać identyfikator kanału klikając przycisk udostępniania na stronie kanału.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Nie skonfigurowałeś jeszcze SponsorBlock, aby to zrobić, kliknij przycisk powyżej, aby dodać nową konfigurację.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Pozbądź się clickbait'ów, zastępuj tytuły bardziej adekwatnymi do treści"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Zmęczony clickbait'ami? Sprawdź nowy dodatek do przeglądarki, który poprawia tytuły filmów oraz ich miniatury, tak aby były adekwatne do treści"
     }
 }
