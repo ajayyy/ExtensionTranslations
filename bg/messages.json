@@ -1504,5 +1504,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Омръзнаха ли ви примамките за кликване? Вижте новото ми разширение за подобряване на заглавията и миниатюрите"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Тази миниатюра е избрана на случаен принцип, тъй като все още няма подадена информация за този видеоклип",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Тази миниатюра е избрана на случаен принцип, а заглавието е автоматично форматирано, защото все още няма подадена информация за този видеоклип",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Можете да промените това по подразбиране по-долу",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
