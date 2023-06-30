@@ -1288,6 +1288,9 @@
     "whatKeepUnsubmitted": {
         "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og miniaturer, du valgte, i stedet for den mest populære på serveren."
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Aktivér dette, hvis du altid vil vide om en titel eller et miniaturebillede er ændret."
+    },
     "fetchTimeout": {
         "message": "Timeout for dataindlæsning (ms)"
     },
