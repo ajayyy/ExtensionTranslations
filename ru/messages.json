@@ -1505,6 +1505,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Устали от кликбейта? Попробуйте моё новое расширение, улучшающее названия и значки"
     },
+    "RandomThumbnailExplanation": {
+        "message": "В качестве значка установлен случайный кадр из видео, так как для видео не был предложен значок",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "В качестве значка установлен случайный кадр из видео и автоматически форматированное название, так как для видео не было ничего предложено",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
     "YouCanChangeThisDefaultBelow": {
         "message": "Вы можете изменить значение по умолчанию ниже",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
