@@ -32,7 +32,7 @@
         "message": "章節"
     },
     "renderAsChapters": {
-        "message": "以章節渲染片段",
+        "message": "將片段渲染成章節",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
@@ -245,6 +245,9 @@
     },
     "whatRefetchWhenNotFound": {
         "message": "如果這部影片是新的，而且目前沒有找到片段的話，系統會每分鐘重新擷取一次"
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "即使無提交權限，在提交選單中也顯示類別"
     },
     "showNotice": {
         "message": "再次顯示通知"
@@ -1210,5 +1213,14 @@
     },
     "allowScrollingToEdit": {
         "message": "允許在編輯時滾動"
+    },
+    "fetchTimeout": {
+        "message": "數據獲取超時（毫秒）"
+    },
+    "renderTimeout": {
+        "message": "縮圖渲染超時（毫秒）"
+    },
+    "ConfigurationName": {
+        "message": "組態名稱"
     }
 }
