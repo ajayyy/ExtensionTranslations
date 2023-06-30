@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Always Display The \"Show Original\" Button"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "If you want to always know if a title/thumbnail has changed, enable this."
+    },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
     },
