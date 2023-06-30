@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mindig mutassa az \"Eredeti megjelenítése\" gombot"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
+    },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
     },
@@ -1471,6 +1474,12 @@
     },
     "openSourceLicenses": {
         "message": "Nyílt forráskódú licencek"
+    },
+    "defaultToOriginals": {
+        "message": "Eredeti videó információk alapértelmezetten"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Az eredeti címet és indexképet mutassa alapból, de legyen egy gomb az egyedi címek és indexképek megjelenítésére."
     },
     "replaceTitles": {
         "message": "Címek lecserélése"
