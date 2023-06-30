@@ -1252,5 +1252,17 @@
     },
     "replaceThumbnails": {
         "message": "Nahradiť náhľady"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Tento náhľad bol vybraný náhodne, keďže toto video ešte nemá žiadne segmenty",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Tento náhľad bol vybraný náhodne a titulok bol automaticky sformátovaný, keďže toto video ešte nemá žiadne segmenty",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Nižsie môžete zmeniť toto východzie nastavenie",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
