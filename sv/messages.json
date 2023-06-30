@@ -132,7 +132,7 @@
         "message": "Stäng ikon"
     },
     "OpenSubmissionMenu": {
-        "message": "Öppna inlämningsmenyn"
+        "message": "Öppna inskickningsmenyn"
     },
     "sortSegments": {
         "message": "Sortera segment"
@@ -1504,5 +1504,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Trött på klickbete? Kolla in mitt nya tillägg för att förbättra titlar och miniatyrbilder"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel eftersom det inte finns något inskickat på den här videon ännu",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel och titeln är automatiskt formaterad eftersom det inte finns något inskickat på den här videon ännu",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Du kan ändra denna standard nedan",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
