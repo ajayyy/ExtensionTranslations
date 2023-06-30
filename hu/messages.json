@@ -1504,5 +1504,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Eleged van a kattintásvadász videókból? Nézd meg az új bővítményem, ami a címek és indexképek minőségén próbál javítani"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, mert még nincsenek beküldések ehhez a videóhoz",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, a cím pedig automatikusan formázásra került, mert még nincsenek beküldések ehhez a videóhoz",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Ezeket az alap beállításokat megváltoztathatod lent",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
