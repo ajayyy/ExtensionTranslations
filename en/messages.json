@@ -1504,5 +1504,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Tired of clickbait? Check out my new extension for improving titles and thumbnails"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp and the title is auto-formatted because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "You can change this default below",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
