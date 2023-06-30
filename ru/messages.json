@@ -1504,5 +1504,9 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Устали от кликбейта? Попробуйте моё новое расширение, улучшающее названия и значки"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Вы можете изменить значение по умолчанию ниже",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
