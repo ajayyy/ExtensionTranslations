@@ -1504,5 +1504,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "誇張表現による案内にうんざりしませんか？タイトルとサムネイルを改善する、新しい拡張機能を開発しました"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "提出済みのサムネイルがまだないため、この動画のサムネイルは動画の適当な地点から生成しています",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "提出済みのサムネイルおよび題名がまだないため、この動画のサムネイルは動画の適当な時点から生成し、題名は自動処理されています",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "以下で既定を変更できます",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
