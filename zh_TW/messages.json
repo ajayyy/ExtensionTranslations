@@ -249,6 +249,9 @@
     "enableShowCategoryWithoutPermission": {
         "message": "即使無提交權限，在提交選單中也顯示類別"
     },
+    "whatShowCategoryWithoutPermission": {
+        "message": "由於最低信譽要求，一些類別需要許可才能提交"
+    },
     "showNotice": {
         "message": "再次顯示通知"
     },
@@ -492,6 +495,12 @@
     },
     "customServerAddressDescription": {
         "message": "SponsorBlock 用來與伺服器互動的地址。\n除非您有自己的伺服器進程，否則這項設定不應該被更動"
+    },
+    "dataFetchingServerAddress": {
+        "message": "數據源伺服器位址"
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "縮圖暫存伺服器位址"
     },
     "save": {
         "message": "儲存"
@@ -1214,13 +1223,84 @@
     "allowScrollingToEdit": {
         "message": "允許在編輯時滾動"
     },
+    "OriginalTitle": {
+        "message": "原始標題"
+    },
+    "CurrentTime": {
+        "message": "當前時間"
+    },
+    "resetCustomTitle": {
+        "message": "重設標題為原始字段"
+    },
+    "resetIcon": {
+        "message": "重設圖示"
+    },
+    "Vote": {
+        "message": "投票"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "在這輸入您的標題"
+    },
+    "VideoNotReady": {
+        "message": "影片未就緒"
+    },
+    "FailedToRender": {
+        "message": "渲染失敗",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "找不到 HTML 畫布元件",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "渲染時發生的異常",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "加載失敗",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "標題式樣"
+    },
+    "Disabled": {
+        "message": "已禁用"
+    },
+    "CapitalizeWords": {
+        "message": "逐詞首字母大寫"
+    },
+    "TitleCase": {
+        "message": "標準標題式樣大小寫"
+    },
+    "SentenceCase": {
+        "message": "逐句首字母大寫"
+    },
     "fetchTimeout": {
         "message": "數據獲取超時（毫秒）"
     },
     "renderTimeout": {
         "message": "縮圖渲染超時（毫秒）"
     },
+    "Enable": {
+        "message": "啟用"
+    },
+    "Titles": {
+        "message": "標題",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "縮圖",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
     "ConfigurationName": {
         "message": "組態名稱"
+    },
+    "ChannelListInstructions": {
+        "message": "在下方框格內輸入任何您想套用此組態設定的頻道，以換行分隔。支援頻道 ID 與頻道名稱。不支援 @ 用戶名。您可在頻道的「關於」頁面點擊分享按鈕來獲取頻道 ID。",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "未有組態設定。點擊頂部的按鈕來新建組態。",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     }
 }
