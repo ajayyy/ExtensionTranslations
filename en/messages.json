@@ -1472,6 +1472,12 @@
     "openSourceLicenses": {
         "message": "Open Source Licenses"
     },
+    "defaultToOriginals": {
+        "message": "Default To Original Video Information"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Show the original title and thumbnail by default, but have a button that appears on hover to see the custom titles and thumbnails."
+    },
     "replaceTitles": {
         "message": "Replace Titles"
     },
