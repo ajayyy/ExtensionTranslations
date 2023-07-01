@@ -698,7 +698,7 @@
         "message": "Tangentes de Relleno/Chistes"
     },
     "category_filler_description": {
-        "message": "Escenas tangenciales añadidas solo como relleno o humor que no son necesarias para entender el contenido principal del vídeo. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
+        "message": "Escenas tangenciales añadidas solo como relleno o humor que no son necesarias para entender el contenido principal del video. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
     },
     "category_filler_short": {
         "message": "Relleno"
@@ -746,7 +746,7 @@
         "message": "Capítulo"
     },
     "category_chapter_description": {
-        "message": "Capítulos con nombre personalizado que describen las secciones principales de un vídeo."
+        "message": "Capítulos con nombre personalizado que describen las secciones principales de un video."
     },
     "category_chapter_guideline1": {
         "message": "No mencione las marcas del patrocinador"
@@ -801,7 +801,7 @@
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "También mostrar etiquetas en las miniaturas de los vídeos",
+        "message": "También mostrar etiquetas en las miniaturas de los videos",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
@@ -1205,7 +1205,7 @@
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
-        "message": "vídeos",
+        "message": "videos",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
@@ -1282,7 +1282,7 @@
         "message": "Escribe tu propio título aquí"
     },
     "VideoNotReady": {
-        "message": "El vídeo no está listo"
+        "message": "El video no está listo"
     },
     "FailedToRender": {
         "message": "Error al procesar",
@@ -1355,10 +1355,10 @@
         "message": "Nunca"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "El servicio de generación de miniaturas acelera significativamente la generación de miniaturas enviando una solicitud anónima con el ID de vídeo a un servidor remoto. La miniatura se generará o se extraerá de un caché si ya se ha generado."
+        "message": "El servicio de generación de miniaturas acelera significativamente la generación de miniaturas enviando una solicitud anónima con el videoID a un servidor remoto. La miniatura se generará o se extraerá de un caché si ya se ha generado."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Si se utiliza en las páginas de vídeo, potencialmente podría filtrar los IDs de vídeos ocultos a este servidor. Establecer esto como \"En todas las páginas, excepto páginas de video\" evitará este problema. Otra opción es alojar su propio servicio de generación de miniaturas."
+        "message": "Si se utiliza en las páginas de video, potencialmente podría filtrar los videoID ocultos a este servidor. Establecer esto como \"En todas las páginas, excepto páginas de video\" evitará este problema. Otra opción es alojar su propio servicio de generación de miniaturas."
     },
     "thumbnailGeneratorDescription3": {
         "message": "Si el uso del servicio de generación de miniaturas está deshabilitado, todas las peticiones usarán un sistema de consulta k-anonymity, lo que hace más difícil para el servidor predecir qué videos se obtuvieron y se usará un servicio local de generación de miniaturas más lento.",
@@ -1414,7 +1414,7 @@
         "message": "Mostrar detalles originales"
     },
     "FillerWarning": {
-        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
+        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos videos tienen más del 50 % o más del video omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1474,6 +1474,9 @@
     },
     "openSourceLicenses": {
         "message": "Licencias de código abierto"
+    },
+    "defaultToOriginals": {
+        "message": "Por defecto a la información original del video"
     },
     "whatDefaultToOriginals": {
         "message": "Mostrar el título original y la miniatura por defecto, pero que aparezca un botón al pasar el puntero encima para ver los títulos y miniaturas personalizados."
