@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mostrar siempre el botón \"Mostrar original\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
+    },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
@@ -1472,6 +1475,9 @@
     "openSourceLicenses": {
         "message": "Licencias de código abierto"
     },
+    "whatDefaultToOriginals": {
+        "message": "Mostrar el título original y la miniatura por defecto, pero que aparezca un botón al pasar el puntero encima para ver los títulos y miniaturas personalizados."
+    },
     "replaceTitles": {
         "message": "Reemplazar títulos"
     },
@@ -1504,5 +1510,48 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "¿Cansado/a de clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Esta miniatura se elige desde una marca de tiempo aleatoria y el título se autoformatea porque aún no hay un envío para este video",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Puede cambiar este valor por defecto a continuación",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} títulos y {thumbnails} miniaturas han sido reemplazados desde que instaló esta extensión",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} título ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} títulos ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "y {thumbnails} miniatura",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "y {thumbnails} miniaturas",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} han sido reemplazados desde que instaló esta extensión",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Contar reemplazos de títulos y miniaturas"
+    },
+    "countReplacementsDescription": {
+        "message": "Utilizado para darle estadísticas en la ventana emergente.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
