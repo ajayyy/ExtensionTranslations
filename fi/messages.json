@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Näytä \"Näytä Alkuperäinen\" -painike aina"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
+    },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
@@ -1472,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Avoimen lähdekoodin lisenssit"
     },
+    "defaultToOriginals": {
+        "message": "Käytä oletusarvoisesti videoiden alkuperäisiä tietoja"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Näytä oletusarvoisesti alkuperäinen otsikko ja pienoiskuva, mutta myös hiirellä osoitettaessa ilmestyvä painike mukautettujen otsikoiden ja pienoiskuvien näyttöön."
+    },
     "replaceTitles": {
         "message": "Korvaa otsikot"
     },
@@ -1504,5 +1513,48 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Kyllästynyt clickbaitteihin? Tutustu uuteen laajennukseeni, joka parantaa otsikoita ja pienoiskuvia"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Tämä pienoiskuva on valittu satunnaisesta kohdasta, koska videolle ei vielä ole lähetetty ilmoituksia",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Tämä pienoiskuva on valittu satunnaisesta kohdasta ja muotoiltu automaattisesti, koska videolle ei vielä ole lähetetty ilmoituksia",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Voit muuttaa oletusta alla",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "Laajennuksen asennuksen jälkeen on korvattu {titles} otsikkoa ja {thumbnails} pienoiskuvaa",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} otsikko ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} otsikkoa ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "ja {thumbnails} pienoiskuva",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "ja {thumbnails} pienoiskuvaa",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Laajennuksen asennuksen jälkeen on korvattu {titleAndThumbnailMessage}",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Laske otsikoiden ja pienoiskuvien korvaukset"
+    },
+    "countReplacementsDescription": {
+        "message": "Käytetään tilastojen näyttöön ponnahduksessa.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
