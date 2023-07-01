@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Visa alltid knappen \"Visa original\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
@@ -1472,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Licens för öppen källkod"
     },
+    "defaultToOriginals": {
+        "message": "Standard till original videoinformation"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Visa den ursprungliga titeln och miniatyrbilden som standard, men när musen hålls över knappen visas anpassade titlar och miniatyrbilder."
+    },
     "replaceTitles": {
         "message": "Ersätt titlar"
     },
@@ -1524,5 +1533,13 @@
     "dearrowStatsMessageTitlesPart": {
         "message": "{titles} titlar ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "och {thumbnails} miniatyrbild",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "och {thumbnails} miniatyrbilder",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     }
 }
