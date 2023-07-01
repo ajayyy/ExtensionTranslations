@@ -1504,5 +1504,36 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Втомилися від клікбейта? Спробуйте моє нове розширення, що поліпшує назви та значки"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Ви можете змінити ці налаштування за замовчуванням нижче",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} назва ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} назв ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "і {thumbnails} мініатюр",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "і {thumbnails} мініатюр",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} було замінено з моменту встановлення розширення",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Лічильник замін назв і мініатюр"
+    },
+    "countReplacementsDescription": {
+        "message": "Використовується для надання статистики у спливаючому вікні.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
