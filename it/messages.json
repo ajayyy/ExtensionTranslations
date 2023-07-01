@@ -1523,6 +1523,33 @@
         "message": "Puoi cambiare questo valore predefinito qui sotto",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
+    "dearrowStatsMessage": {
+        "message": "{titles} titoli e {thumbnails} anteprime sono stati sostituiti da quando hai installato questa estensione",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titolo ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titoli ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "e {thumbnails} anteprima",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "e {thumbnails} anteprime",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} sono stati sostituiti da quando hai installato questa estensione",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Conta il numero di sostituzioni di titoli e anteprime"
+    },
     "countReplacementsDescription": {
         "message": "Utilizzato per fornire statistiche nel popup.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
