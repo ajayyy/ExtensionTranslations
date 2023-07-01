@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Всегда показывать кнопку \"Показать изначальные сведения\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Если вы всегда хотите знать, что название или значок изменились, включите эту настройку."
+    },
     "fetchTimeout": {
         "message": "Время ожидания получения данных (мс)"
     },
@@ -1472,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Лицензии исходного кода"
     },
+    "defaultToOriginals": {
+        "message": "Показывать изначальные сведения о видео"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Показывать по умолчанию изначальные название и значок, а при наведении на них показывать кнопку, по нажатию на которую показываются предложенные названия и значки."
+    },
     "replaceTitles": {
         "message": "Заменять названия"
     },
@@ -1516,5 +1525,36 @@
     "YouCanChangeThisDefaultBelow": {
         "message": "Вы можете изменить значение по умолчанию ниже",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "С момента установки расширения было заменено {titles} названий и {thumbnails} значков",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} название ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} названий ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "и {thumbnails} значок",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "и {thumbnails} значков",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "С момента установки расширения было заменено {titleAndThumbnailMessage}",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Считать количество замен названий и значков"
+    },
+    "countReplacementsDescription": {
+        "message": "Используется для предоставления статистики во всплывающем окне.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
