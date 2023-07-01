@@ -1525,5 +1525,36 @@
     "YouCanChangeThisDefaultBelow": {
         "message": "Ezeket az alap beállításokat megváltoztathatod lent",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} cím és {thumbnails} indexkép került lecserélésre a bővítmény telepítése óta",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} cím ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} cím ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "és {thumbnails} indexkép",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "és {thumbnails} indexkép",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} került lecserélésre a bővítmény telepítése óta",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Cím és indexkép cserék számolása"
+    },
+    "countReplacementsDescription": {
+        "message": "A felugró ablakban megjelenő statisztikákhoz.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
