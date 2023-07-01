@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Завжди відображати кнопку \"Показати оригінал\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Якщо ви бажаєте завжди знати, що назва/іконка змінена, дозвольте це."
+    },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
     },
@@ -1472,6 +1475,9 @@
     "openSourceLicenses": {
         "message": "Ліцензії вихідного коду"
     },
+    "whatDefaultToOriginals": {
+        "message": "Показувати оригінальну назву і іконку за замовчуванням, але має кнопку, що з'являється при наведенні і показує налаштовані назву та іконку."
+    },
     "replaceTitles": {
         "message": "Замінювати назви"
     },
@@ -1509,6 +1515,10 @@
         "message": "Ви можете змінити ці налаштування за замовчуванням нижче",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
+    "dearrowStatsMessage": {
+        "message": "{titles} назв і {thumbnails} мініатюр було замінено з часу встановлення розширення",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} назва ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
@@ -1526,7 +1536,7 @@
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessage2": {
-        "message": "{titleAndThumbnailMessage} було замінено з моменту встановлення розширення",
+        "message": "{titleAndThumbnailMessage} було замінено з часу встановлення розширення",
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
