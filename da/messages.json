@@ -432,6 +432,10 @@
     "supportOtherSites": {
         "message": "Understøtter YouTube-websteder fra tredjeparter"
     },
+    "supportOtherSitesDescription": {
+        "message": "Understøt tredjeparts YouTube-klienter. Du skal acceptere de ekstra tilladelser for at aktivere understøttelse.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
     "supportedSites": {
         "message": "Understøttede websteder: "
     },
@@ -491,6 +495,15 @@
     },
     "customServerAddressDescription": {
         "message": "Adressen SponsorBlock bruger til at foretage opkald til serveren. Medmindre du har din egen serverinstans, bør dette ikke ændres."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Adresse på datahentningsserver"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adressen der bliver brugt til at kontakte datahentningsserveren.\nHvis du ikke har din egen serverinstans skal dette ikke ændres."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Serveradresse på mellemlager for miniaturebilleder"
     },
     "save": {
         "message": "Gem"
@@ -941,6 +954,9 @@
     "questionButton": {
         "message": "Jeg har et spørgsmål"
     },
+    "askAQuestion": {
+        "message": "Stil et spørgsmål"
+    },
     "warningConfirmButton": {
         "message": "Jeg forstår årsagen"
     },
@@ -1134,6 +1150,9 @@
     "hideUpsells": {
         "message": "Skjul utilgængelige muligheder uden ekstra betaling"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Skjul tips om nye funktioner"
+    },
     "chooseACountry": {
         "message": "Vælg et land"
     },
@@ -1323,5 +1342,8 @@
     "FillerWarning": {
         "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Vis den oprindelige titel og det oprindelige miniaturebillede som standard, men hav en knap der vises når man holder musen over til at se de brugerdefinerede titler og miniaturebilleder."
     }
 }
