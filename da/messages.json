@@ -1324,6 +1324,12 @@
     "Never": {
         "message": "Aldrig"
     },
+    "thumbnailGeneratorDescription1": {
+        "message": "Miniaturegenereringstjenesten fremskynder dannelsen af miniaturer væsentligt ved at sende en anonym anmodning med video-ID'et til en ekstern server. Miniaturebilledet vil derefter enten blive genereret eller trukket fra et mellemlager, hvis det allerede er blevet genereret."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Hvis det bruges på videosider, kan dette potentielt lække video-ID'er til den pågældende server. Indstilling af dette til \"På alle sider undtagen videosider\" vil undgå dette problem. En anden mulighed er at være vært for din egen miniaturegenereringstjeneste."
+    },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktivér dette, hvis du altid vil vide om en titel eller et miniaturebillede er ændret."
     },
