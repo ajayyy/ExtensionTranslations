@@ -1476,7 +1476,7 @@
         "message": "Licens för öppen källkod"
     },
     "defaultToOriginals": {
-        "message": "Standard till original videoinformation"
+        "message": "Visa original videoinformation som standard"
     },
     "whatDefaultToOriginals": {
         "message": "Visa den ursprungliga titeln och miniatyrbilden som standard, men när musen hålls över knappen visas anpassade titlar och miniatyrbilder."
