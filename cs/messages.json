@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Vždy zobrazit tlačítko „Zobrazit původní“"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
+    },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
     },
