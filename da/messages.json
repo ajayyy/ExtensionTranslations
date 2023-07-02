@@ -1343,6 +1343,9 @@
         "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
+    "defaultToOriginals": {
+        "message": "Vis original videoinformation som standard"
+    },
     "whatDefaultToOriginals": {
         "message": "Vis den oprindelige titel og det oprindelige miniaturebillede som standard, men hav en knap der vises når man holder musen over til at se de brugerdefinerede titler og miniaturebilleder."
     }
