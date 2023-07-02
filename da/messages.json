@@ -1239,12 +1239,23 @@
     "exportSegmentsAsURL": {
         "message": "Del som URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Advarsel: Serveren har endnu ikke svaret med segmenter. Der kan faktisk være segmenter på denne video, der allerede er indsendt, men som du bare ikke har modtaget på grund af problemer med serveren."
+    },
     "allowScrollingToEdit": {
         "message": "Tillad rulning for at redigere tider"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Bedre titler og miniaturer på YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Bruger crowdsourcing til at gøre titler og miniaturer beskrivende og ikke sensationelle",
+        "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
         "message": "Vælg det mest beskrivende"
@@ -1301,11 +1312,17 @@
     "SentenceCase": {
         "message": "Første bogstav i sætning med stort"
     },
+    "thumbnailFallbackOption": {
+        "message": "Når ingen indsendte miniaturebilleder findes"
+    },
     "keepUnsubmitted": {
         "message": "Gem indsendte stemmer"
     },
     "whatKeepUnsubmitted": {
         "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og miniaturer, du valgte, i stedet for den mest populære på serveren."
+    },
+    "Never": {
+        "message": "Aldrig"
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktivér dette, hvis du altid vil vide om en titel eller et miniaturebillede er ændret."
