@@ -1476,7 +1476,7 @@
         "message": "Licencias de código abierto"
     },
     "defaultToOriginals": {
-        "message": "Por defecto a la información original del video"
+        "message": "Optar por defecto a la información original del video"
     },
     "whatDefaultToOriginals": {
         "message": "Mostrar el título original y la miniatura por defecto, pero que aparezca un botón al pasar el puntero encima para ver los títulos y miniaturas personalizados."
