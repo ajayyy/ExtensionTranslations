@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Skrýt možnosti nedostupné bez další platby"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Skrýt informace o nových funkcích"
+    },
     "chooseACountry": {
         "message": "Vyberte zemi"
     },
@@ -1371,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Vždy zobrazit tlačítko „Zobrazit původní“"
     },
-    "antiAliasThumbnails": {
-        "message": "Použít Anti-aliasing na náhledech"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Sníží množství ostrých hran na náhledech při zmenšování obrázků. Používá více zdrojů při zpracování."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
     },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
@@ -1501,5 +1501,11 @@
     "NoConfigurationsSetup": {
         "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Zastavte clickbaity nahrazením názvů a náhledů jejich přesnějšími verzemi"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Jste unaveni clickbaity? Vyzkoušejte mé nové rozšíření pro vylepšení názvů a náhledů"
     }
 }

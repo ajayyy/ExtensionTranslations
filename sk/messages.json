@@ -788,6 +788,10 @@
         "message": "Zobraziť ikonu, ak je celé video reklama",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Zobraziť označenia aj na miniatúrach videí",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
         "message": "Neodoslaná farba",
         "description": "Referring to submissions that have not been sent to the server yet."
@@ -1122,9 +1126,6 @@
         "message": "Import",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
     },
-    "redeemSuccess": {
-        "message": "Úspešne vykúpiť!"
-    },
     "redeemFailed": {
         "message": "Licenčný kľúč nie je platný"
     },
@@ -1206,11 +1207,74 @@
         "message": "ID videa",
         "description": "Header of the unsubmitted segments list"
     },
+    "deArrowFullName": {
+        "message": "DeArrow - Lepšie názvy a miniatúry na YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing názvov a miniatúr tak, aby boli opisné a nie senzačné",
+        "description": "Description of the Clickbait extension."
+    },
     "TitleCase": {
         "message": "Prvé písmená slov veľké"
     },
     "SentenceCase": {
         "message": "Prvé písmeno vety veľké"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Pri výbere náhodného času použije dáta SponsorBlock pre zaručenie, že nebude vybraný čas v reklamnom segmente.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Zobraziť screenshot z náhodného času"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Zobraziť pôvodnú miniatúru"
+    },
+    "showABlankBox": {
+        "message": "Zobraziť prázdny box"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Použiť službu generovania miniatúr"
+    },
+    "Never": {
+        "message": "Nikdy"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Služba generovania miniatúr výrazne urýchľuje generovanie miniatúr odoslaním anonymnej požiadavky s ID videa na server. Miniatúra sa potom buď vygeneruje, alebo stiahne z vyrovnávacej pamäte, ak už bola vygenerovaná."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Zdrojový kód služby pre generovanie miniatúr"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Ak chcete vždy vedieť, či sa názov/miniatúra zmenila, zapnite si túto funkciu."
+    },
+    "fetchTimeoutDescription": {
+        "message": "Zobraziť pôvodné názvy a miniatúry, ak server neodpovie za tento čas."
+    },
+    "renderTimeoutDescription": {
+        "message": "Zobraziť pôvodné miniatúry, ak server nedokáže vygenerovať miniatúru za tento čas."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Ak serveru trvá generovanie miniaturý príliš dlho, začať generovanie lokálne."
+    },
+    "ShowOriginal": {
+        "message": "Zobraziť pôvodné detaily"
+    },
+    "tip1": {
+        "message": "Vyhýbajte sa prehnaným výrazom tváre",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Uprednostňujte tvrdenia pred otázkami",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "tip3": {
+        "message": "Vyhýbajte sa opisovaniu reakcií na video (\"šokujúce\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Poskytnite dostatok informácií, aby ste sa pred kliknutím mohli informovane rozhodnúť"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Poznámka: Vaše nastavenia SponsorBlocku boli automaticky naimportované!"
@@ -1252,5 +1316,27 @@
     },
     "replaceThumbnails": {
         "message": "Nahradiť náhľady"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Zastavte clickbait presnejšími názvami a miniatúrami"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Nebaví Vás už clickbait? Vyskúšajte moje nové rozšírenie pre zlepšovanie názvov a miniatúr"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Tento náhľad bol vybraný náhodne, keďže toto video ešte nemá žiadne segmenty",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Tento náhľad bol vybraný náhodne a titulok bol automaticky sformátovaný, keďže toto video ešte nemá žiadne segmenty",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Nižsie môžete zmeniť toto východzie nastavenie",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "a {thumbnails} náhľadov",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     }
 }

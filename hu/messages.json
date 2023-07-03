@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Fizetős opciók elrejtése"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Üzenetek elrejtése új funkciókról"
+    },
     "chooseACountry": {
         "message": "Válassz országot"
     },
@@ -1371,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mindig mutassa az \"Eredeti megjelenítése\" gombot"
     },
-    "antiAliasThumbnails": {
-        "message": "Élsimítás indexképeken"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Csökkenti a képek kicsinyítéséből következő éles vonalakat az indexképeken. Több erőforrást igényel."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
@@ -1475,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Nyílt forráskódú licencek"
     },
+    "defaultToOriginals": {
+        "message": "Eredeti videó információk alapértelmezetten"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Az eredeti címet és indexképet mutassa alapból, de legyen egy gomb az egyedi címek és indexképek megjelenítésére."
+    },
     "replaceTitles": {
         "message": "Címek lecserélése"
     },
@@ -1501,5 +1507,54 @@
     "NoConfigurationsSetup": {
         "message": "Még nincsenek konfigurációk. Kattints a fenti gombra egy új konfiguráció hozzáadásához.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Szüntesd meg a kattintásvadász tartalmakat a címek és indexképek lecserélésével!"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Eleged van a kattintásvadász videókból? Nézd meg az új bővítményem, ami a címek és indexképek minőségén próbál javítani"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, mert még nincsenek beküldések ehhez a videóhoz",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, a cím pedig automatikusan formázásra került, mert még nincsenek beküldések ehhez a videóhoz",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Ezeket az alap beállításokat megváltoztathatod lent",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} cím és {thumbnails} indexkép került lecserélésre a bővítmény telepítése óta",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} cím ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} cím ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "és {thumbnails} indexkép",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "és {thumbnails} indexkép",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} került lecserélésre a bővítmény telepítése óta",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Cím és indexkép cserék számolása"
+    },
+    "countReplacementsDescription": {
+        "message": "A felugró ablakban megjelenő statisztikákhoz.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }

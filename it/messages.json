@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Nascondi opzioni non disponibili senza pagamento aggiuntivo"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Nascondi suggerimenti sulle nuove funzionalità"
+    },
     "chooseACountry": {
         "message": "Scegli un paese"
     },
@@ -1371,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Mostra Sempre il Pulsante \"Mostra Originale\""
     },
-    "antiAliasThumbnails": {
-        "message": "Antialiasing Sulle Miniature"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Riduce i bordi vivi sulle miniature, dal ridimensionamento delle immagini. Utilizza più potenza di elaborazione."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
     },
     "fetchTimeout": {
         "message": "Timeout di Recupero dei Dati (ms)"
@@ -1475,6 +1475,9 @@
     "openSourceLicenses": {
         "message": "Licenze Open Source"
     },
+    "whatDefaultToOriginals": {
+        "message": "Mostra di default il titolo e anteprima originali, ma mostra un pulsante a comparsa per vedere i titoli e anteprime personalizzati."
+    },
     "replaceTitles": {
         "message": "Sostituisci Titoli"
     },
@@ -1501,5 +1504,54 @@
     "NoConfigurationsSetup": {
         "message": "Ancora nessuna configurazione. Fare clic sul pulsante in alto per aggiungere una nuova configurazione.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Sfancula il clickbait sostituendo titoli e anteprime per renderli più accurati"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Stanco del clickbait? Scopri la mia nuova estensione per migliorare i titoli e le anteprime"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Questa anteprima è tratta da un timestamp casuale perché non è stata inviata nessuna anteprima personalizzata per questo video",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Questa anteprima è tratta da un timestamp casuale ed il titolo è formattato automaticamente perché non sono ancora stati inviati titolo/anteprima personalizzati",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Puoi cambiare questo valore predefinito qui sotto",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titoli e {thumbnails} anteprime sono stati sostituiti da quando hai installato questa estensione",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titolo ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titoli ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "e {thumbnails} anteprima",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "e {thumbnails} anteprime",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} sono stati sostituiti da quando hai installato questa estensione",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Conta il numero di sostituzioni di titoli e anteprime"
+    },
+    "countReplacementsDescription": {
+        "message": "Utilizzato per fornire statistiche nel popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
