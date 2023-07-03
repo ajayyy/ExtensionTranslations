@@ -1510,5 +1510,11 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Tired of clickbait? Check out my new extension for improving titles and thumbnails"
+    },
+    "YtNeuterMessage": {
+        "message": "Add a filterlist to block surveys, merch shelves, and other promotional page elements using yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Requires uBlock Origin"
     }
 }
