@@ -1497,6 +1497,9 @@
     "NewConfiguration": {
         "message": "New Configuration"
     },
+    "DeleteConfiguration": {
+        "message": "Delete Configuration"
+    },
     "ChannelAllowlist": {
         "message": "Channel Allowlist"
     },
