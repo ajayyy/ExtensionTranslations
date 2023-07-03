@@ -1375,7 +1375,7 @@
         "message": "Zeige immer den \"Original anzeigen\"-Button an"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "Wenn du immer wissen willst, ob ein Titel/Thumbnail verändert wurde, aktiviere das."
+        "message": "Aktiviere dies, wenn du immer wissen möchtest, ob ein Titel oder Thumbnail verändert wurde."
     },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
@@ -1479,10 +1479,10 @@
         "message": "Open Source Lizenzen"
     },
     "defaultToOriginals": {
-        "message": "Standardmäßig Originalvideo Informationen verwenden"
+        "message": "Standardmäßig die ursprünglichen Videoinformationen verwenden"
     },
     "whatDefaultToOriginals": {
-        "message": "Zeige den original Titel und Thumbnail standardmässig, aber biete eine Schaltfläche beim hover an um benuzerdefinierte Titel und Thumbnails anzuzeigen."
+        "message": "Zeige standardmäßig die ursprünglichen Titel und Thumbnails, aber biete eine Schaltfläche an, mit der benutzerdefinierte Titel und Thumbnails für einzelne Videos angezeigt werden können."
     },
     "replaceTitles": {
         "message": "Ersetze Titel"
@@ -1510,5 +1510,54 @@
     "NoConfigurationsSetup": {
         "message": "Noch keine Konfigurationen eingerichtet. Klicken Sie oben auf den Button, um eine neue Konfiguration hinzuzufügen.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stoppe Clickbait, indem du Titel und Thumbnails durch genauere ersetzt"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Genug von Clickbait? Schau dir meine neue Erweiterung zum Verbessern von Titeln und Thumbnails an"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Dieses Thumbnail wurde von einer zufälligen Zeit gewählt, da es noch keine Einreichungen für dieses Video gab",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Dieses Thumbnail wurde von einer zufälligen Zeit gewählt und der Titel wurde automatisch formattiert, da es noch keine Einreichungen für dieses Video gab",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Du kannst diese Standardeinstellung unten ändern",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} Titel und {thumbnails} Thumbnail(s) wurden ersetzt, seit du diese Erweiterung installiert hast",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} Titel ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} Titel ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "und {thumbnails} Thumbnail",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "und {thumbnails} Thumbnails",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} wurden ersetzt, seit du diese Erweiterung installiert hast",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Zähle Titel- und Thumbnail-Ersetzungen"
+    },
+    "countReplacementsDescription": {
+        "message": "Wird verwendet, um dir Statistiken im Popup zu zeigen.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
