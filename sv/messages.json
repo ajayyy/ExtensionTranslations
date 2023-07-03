@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Visa originaldetaljer"
     },
+    "ShowModified": {
+        "message": "Visa ändrade uppgifter"
+    },
     "FillerWarning": {
         "message": "Varning: Detta är en otroligt aggressiv kategori. Du kommer sannolikt att behöva avbryta grejer, eller inaktivera det ibland. Var beredd på att många videor har över 50% eller mer av videon överhoppad! Kom dock i håg att det fortfarande finns specifika riktlinjer att följa när du skickar in.",
         "description": "Warning that appears when enabling the filler tangent category"
