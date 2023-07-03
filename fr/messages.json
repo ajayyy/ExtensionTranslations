@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Cache les potions non disponibles sans paiement supplémentaire"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Masquer les messages d'information à propos des nouvelles fonctionnalités"
+    },
     "chooseACountry": {
         "message": "Sélectionnez un pays"
     },
@@ -1314,6 +1317,9 @@
     },
     "thumbnailFallbackOption": {
         "message": "Quand aucune miniature soumise n'existe"
+    },
+    "RandomTime": {
+        "message": "Afficher une capture d'écran à partir d'un passage aléatoire"
     },
     "keepUnsubmitted": {
         "message": "Stocker les votes soumis"

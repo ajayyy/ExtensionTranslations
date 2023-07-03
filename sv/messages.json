@@ -132,7 +132,7 @@
         "message": "Stäng ikon"
     },
     "OpenSubmissionMenu": {
-        "message": "Öppna inlämningsmenyn"
+        "message": "Öppna inskickningsmenyn"
     },
     "sortSegments": {
         "message": "Sortera segment"
@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Dölj alternativ som inte är tillgängliga utan extra betalning"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Dölj uppmaningar om nya funktioner"
+    },
     "chooseACountry": {
         "message": "Välj ett land"
     },
@@ -1371,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Visa alltid knappen \"Visa original\""
     },
-    "antiAliasThumbnails": {
-        "message": "Kantutjämning på miniatyrer"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Minskar vassa kanter på miniatyrer genom att krympa bilderna. Använder mer processorkraft."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
@@ -1475,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Licens för öppen källkod"
     },
+    "defaultToOriginals": {
+        "message": "Visa original videoinformation som standard"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Visa den ursprungliga titeln och miniatyrbilden som standard, men när musen hålls över knappen visas anpassade titlar och miniatyrbilder."
+    },
     "replaceTitles": {
         "message": "Ersätt titlar"
     },
@@ -1501,5 +1507,54 @@
     "NoConfigurationsSetup": {
         "message": "Inga konfigurationer konfigurerade ännu. Klicka på knappen högst upp för att lägga till en ny konfiguration.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stoppa klickbete genom att ersätta titlar och miniatyrbilder med mer exakta"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Trött på klickbete? Kolla in mitt nya tillägg för att förbättra titlar och miniatyrbilder"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel eftersom det inte finns något inskickat på den här videon ännu",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel och titeln är automatiskt formaterad eftersom det inte finns något inskickat på den här videon ännu",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Du kan ändra denna standard nedan",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titlar och {thumbnails} miniatyrbilder har ersatts sedan du installerade detta tillägg",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titel ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titlar ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "och {thumbnails} miniatyrbild",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "och {thumbnails} miniatyrbilder",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} har ersatts sedan du installerade tillägget",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Räkna titel- och miniatyrbildsersättare"
+    },
+    "countReplacementsDescription": {
+        "message": "Används för att ge dig statistik i popupen.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }

@@ -432,6 +432,10 @@
     "supportOtherSites": {
         "message": "Understøtter YouTube-websteder fra tredjeparter"
     },
+    "supportOtherSitesDescription": {
+        "message": "Understøt tredjeparts YouTube-klienter. Du skal acceptere de ekstra tilladelser for at aktivere understøttelse.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
     "supportedSites": {
         "message": "Understøttede websteder: "
     },
@@ -491,6 +495,15 @@
     },
     "customServerAddressDescription": {
         "message": "Adressen SponsorBlock bruger til at foretage opkald til serveren. Medmindre du har din egen serverinstans, bør dette ikke ændres."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Adresse på datahentningsserver"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Adressen der bliver brugt til at kontakte datahentningsserveren.\nHvis du ikke har din egen serverinstans skal dette ikke ændres."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Serveradresse på mellemlager for miniaturebilleder"
     },
     "save": {
         "message": "Gem"
@@ -941,6 +954,9 @@
     "questionButton": {
         "message": "Jeg har et spørgsmål"
     },
+    "askAQuestion": {
+        "message": "Stil et spørgsmål"
+    },
     "warningConfirmButton": {
         "message": "Jeg forstår årsagen"
     },
@@ -1134,6 +1150,9 @@
     "hideUpsells": {
         "message": "Skjul utilgængelige muligheder uden ekstra betaling"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Skjul tips om nye funktioner"
+    },
     "chooseACountry": {
         "message": "Vælg et land"
     },
@@ -1220,12 +1239,23 @@
     "exportSegmentsAsURL": {
         "message": "Del som URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Advarsel: Serveren har endnu ikke svaret med segmenter. Der kan faktisk være segmenter på denne video, der allerede er indsendt, men som du bare ikke har modtaget på grund af problemer med serveren."
+    },
     "allowScrollingToEdit": {
         "message": "Tillad rulning for at redigere tider"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Bedre titler og miniaturer på YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Bruger crowdsourcing til at gøre titler og miniaturer beskrivende og ikke sensationelle",
+        "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
         "message": "Vælg det mest beskrivende"
@@ -1282,11 +1312,26 @@
     "SentenceCase": {
         "message": "Første bogstav i sætning med stort"
     },
+    "thumbnailFallbackOption": {
+        "message": "Når ingen indsendte miniaturebilleder findes"
+    },
     "keepUnsubmitted": {
         "message": "Gem indsendte stemmer"
     },
     "whatKeepUnsubmitted": {
         "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og miniaturer, du valgte, i stedet for den mest populære på serveren."
+    },
+    "Never": {
+        "message": "Aldrig"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Miniaturegenereringstjenesten fremskynder dannelsen af miniaturer væsentligt ved at sende en anonym anmodning med video-ID'et til en ekstern server. Miniaturebilledet vil derefter enten blive genereret eller trukket fra et mellemlager, hvis det allerede er blevet genereret."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Hvis det bruges på videosider, kan dette potentielt lække video-ID'er til den pågældende server. Indstilling af dette til \"På alle sider undtagen videosider\" vil undgå dette problem. En anden mulighed er at være vært for din egen miniaturegenereringstjeneste."
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Aktivér dette, hvis du altid vil vide om en titel eller et miniaturebillede er ændret."
     },
     "fetchTimeout": {
         "message": "Timeout for dataindlæsning (ms)"
@@ -1320,5 +1365,11 @@
     "FillerWarning": {
         "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "defaultToOriginals": {
+        "message": "Vis original videoinformation som standard"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Vis den oprindelige titel og det oprindelige miniaturebillede som standard, men hav en knap der vises når man holder musen over til at se de brugerdefinerede titler og miniaturebilleder."
     }
 }

@@ -1374,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Always Display The \"Show Original\" Button"
     },
-    "antiAliasThumbnails": {
-        "message": "Antialiasing On Thumbnails"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Reduces sharp edges on thumbnails from shrinking the images. Uses more processing power."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "If you want to always know if a title/thumbnail has changed, enable this."
     },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
@@ -1415,6 +1412,9 @@
     },
     "ShowOriginal": {
         "message": "Show Original Details"
+    },
+    "ShowModified": {
+        "message": "Show Modified Details"
     },
     "FillerWarning": {
         "message": "Warning: This is an incredibly agressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
@@ -1478,6 +1478,12 @@
     "openSourceLicenses": {
         "message": "Open Source Licenses"
     },
+    "defaultToOriginals": {
+        "message": "Default To Original Video Information"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Show the original title and thumbnail by default, but have a button that appears on hover to see the custom titles and thumbnails."
+    },
     "replaceTitles": {
         "message": "Replace Titles"
     },
@@ -1510,6 +1516,49 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Tired of clickbait? Check out my new extension for improving titles and thumbnails"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp and the title is auto-formatted because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "You can change this default below",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titles and {thumbnails} thumbnails have been replaced since you installed this extension",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} title ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titles ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "and {thumbnails} thumbnail",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "and {thumbnails} thumbnails",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} have been replaced since you installed this extension",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Count Title and Thumbnail Replacements"
+    },
+    "countReplacementsDescription": {
+        "message": "Used to give you statistics in the popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
         "message": "Add a filterlist to block surveys, merch shelves, and other promotional page elements using yt-neuter"

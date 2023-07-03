@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Скриване на опциите, които не са налични без допълнително заплащане"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Скриване на известията за нови функции"
+    },
     "chooseACountry": {
         "message": "Изберете държава"
     },
@@ -1371,11 +1374,8 @@
     "alwaysShowShowOriginalButton": {
         "message": "Винаги да се показва бутона „Показване на оригинала“"
     },
-    "antiAliasThumbnails": {
-        "message": "Изглаждане на миниатюрите"
-    },
-    "whatAntiAliasThumbnails": {
-        "message": "Намалява острите ръбове на миниатюрите при смаляването на изображенията. Използва повече изчислителна мощ."
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Ако искате винаги да знаете дали заглавието/миниатюрата са се променили, разрешете тази опция."
     },
     "fetchTimeout": {
         "message": "Време за извличане на данните (мс)"
@@ -1475,6 +1475,12 @@
     "openSourceLicenses": {
         "message": "Лицензи за софтуер с отворен код"
     },
+    "defaultToOriginals": {
+        "message": "По подразбиране към оригиналната информация за видеоклипа"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Показване на оригиналното заглавие и миниатюра по подразбиране, но да има бутон, който се появява при преминаване, за да се видят персонализираните заглавия и миниатюри."
+    },
     "replaceTitles": {
         "message": "Замяна на заглавията"
     },
@@ -1501,5 +1507,54 @@
     "NoConfigurationsSetup": {
         "message": "Все още няма настроени конфигурации. Щракнете върху бутона в горната част, за да добавите нова конфигурация.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Спрете примамките за кликване, като замените заглавията и миниатюрите с по-точни"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Омръзнаха ли ви примамките за кликване? Вижте новото ми разширение за подобряване на заглавията и миниатюрите"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Тази миниатюра е избрана на случаен принцип, тъй като все още няма подадена информация за този видеоклип",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Тази миниатюра е избрана на случаен принцип, а заглавието е автоматично форматирано, защото все още няма подадена информация за този видеоклип",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Можете да промените това по подразбиране по-долу",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} заглавия и {thumbnails} миниатюри са заменени, откакто сте инсталирали това разширение",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} заглавие ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} заглавия ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "и {thumbnails} миниатюра",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "и {thumbnails} миниатюри",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} са заменени, откакто сте инсталирали това разширение",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Брой замествания на заглавия и миниатюри"
+    },
+    "countReplacementsDescription": {
+        "message": "Използва се за предоставяне на статистически данни в изскачащия прозорец.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }
