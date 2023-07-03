@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Verstecke Optionen, welche ohne extra Zahlung nicht verfügbar sind"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Verstecke Hinweise über neue Funktionen"
+    },
     "chooseACountry": {
         "message": "Wähle ein Land"
     },
@@ -1371,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Zeige immer den \"Original anzeigen\"-Button an"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Wenn du immer wissen willst, ob ein Titel/Thumbnail verändert wurde, aktiviere das."
+    },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
     },
@@ -1406,6 +1412,9 @@
     },
     "ShowOriginal": {
         "message": "Zeige Original Details"
+    },
+    "ShowModified": {
+        "message": "Zeige veränderte Details"
     },
     "FillerWarning": {
         "message": "Warnung: Dies ist eine extrem agressive Kategorie. Wahrscheinlich musst du einige Dinge ent-skippen oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass es weiterhin bestimmte Richtlinien für das einreichen gibt, welche man folgen muss.",
@@ -1468,6 +1477,12 @@
     },
     "openSourceLicenses": {
         "message": "Open Source Lizenzen"
+    },
+    "defaultToOriginals": {
+        "message": "Standardmäßig Originalvideo Informationen verwenden"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Zeige den original Titel und Thumbnail standardmässig, aber biete eine Schaltfläche beim hover an um benuzerdefinierte Titel und Thumbnails anzuzeigen."
     },
     "replaceTitles": {
         "message": "Ersetze Titel"
