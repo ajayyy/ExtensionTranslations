@@ -1497,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Ny konfiguration"
     },
+    "DeleteConfiguration": {
+        "message": "Ta bort konfiguration"
+    },
     "ChannelAllowlist": {
         "message": "Godkännandelista för kanaler"
     },
