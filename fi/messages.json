@@ -1497,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Uusi määritys"
     },
+    "DeleteConfiguration": {
+        "message": "Poista määritys"
+    },
     "ChannelAllowlist": {
         "message": "Sallitut kanavat"
     },
@@ -1560,7 +1563,10 @@
         "message": "Käytetään tilastojen näyttöön ponnahduksessa.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
+    "YtNeuterMessage": {
+        "message": "Estä kyselytutkimuksia, oheistuote- ja muita markkinointielementtejä lisäämällä yt-neuterin suodatinlista"
+    },
     "requiresUblock": {
-        "message": "Vaatii uBlock Origin -selainlaajennuksen"
+        "message": "Vaatii uBlock Originin"
     }
 }
