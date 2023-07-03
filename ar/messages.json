@@ -31,6 +31,13 @@
     "Chapters": {
         "message": "الفصول"
     },
+    "renderAsChapters": {
+        "message": "جعل المقاطع كفصول",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "إظهار المقطع الحالي بجانب وقت الفيديو"
+    },
     "upvoteButtonInfo": {
         "message": "التصويت على هذا الإرسال"
     },
@@ -109,6 +116,9 @@
     "connectionError": {
         "message": "حدث خطأ في الاتصال. رمز الخطأ: "
     },
+    "segmentsStillLoading": {
+        "message": "لا تزل الشرائح قيد التحميل..."
+    },
     "clearTimes": {
         "message": "مسح الأجزاء"
     },
@@ -120,6 +130,9 @@
     },
     "closeIcon": {
         "message": "أيقونة الإغلاق"
+    },
+    "OpenSubmissionMenu": {
+        "message": "افتح قائمة الإرسال"
     },
     "sortSegments": {
         "message": "ترتيب الأجزاء"
@@ -206,11 +219,26 @@
     "enableViewTracking": {
         "message": "تمكين تتبع مرات التخطي"
     },
+    "whatViewTracking": {
+        "message": "تتعقب هذه المِيزة الأجزاء التي تخطيتها للسماح للمستخدمين بمعرفة مقدار ما ساعد إرسالهم الآخرين واستخدامه كمقياس جنبًا إلى جنب مع الأصوات المؤيدة لضمان عدم وصول البريد العشوائي إلى قاعدة البيانات. :)"
+    },
+    "enableViewTrackingInPrivate": {
+        "message": "تفعيل تتبع عدد التخطي في علامات التبويب الخاصة / التصفح المتخفي"
+    },
     "enableTrackDownvotes": {
         "message": "حفظ التصويت السلبي للمقاطع"
     },
     "whatTrackDownvotes": {
         "message": "أي مقاطع قمت بالتصويت السلبي لها ستبقى مخفية حتى بعد التحديث"
+    },
+    "trackDownvotesWarning": {
+        "message": "تحذير: سيؤدي تعطيل هذا إلى حذف جميع الأصوات المعارضة التي تم تخزينها مسبقًا"
+    },
+    "enableQueryByHashPrefix": {
+        "message": "الاستعلام عن طريق بادئة التجزئة"
+    },
+    "whatQueryByHashPrefix": {
+        "message": "بدلاً من طلب مقاطع من الخادم باستخدام معرف الفيديو ، يتم إرسال الأحرف الأربعة الأولى من تجزئة معرف الفيديو. سيرسل هذا الخادم البيانات مرة أخرى لجميع مقاطع الفيديو ذات التجزئات المتشابهة."
     },
     "showNotice": {
         "message": "إظهار الإشعار مرة أخرى"
