@@ -1497,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Új konfiguráció"
     },
+    "DeleteConfiguration": {
+        "message": "Konfiguráció törlése"
+    },
     "ChannelAllowlist": {
         "message": "Csatorna engedélyezőlista"
     },
