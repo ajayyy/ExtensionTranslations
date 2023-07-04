@@ -1531,5 +1531,42 @@
     "YouCanChangeThisDefaultBelow": {
         "message": "Výchozí nastavení můžete změnit níže",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "Od doby nainstalování tohoto rozšíření bylo nahrazeno {titles} názvů a {thumbnails} náhledů",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} název ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} názvů ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "a {thumbnails} náhled",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "a {thumbnails} náhledů",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Od doby nainstalování tohoto rozšíření jsme nahradili {titleAndThumbnailMessage}",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Počítat nahrazení názvů a náhledů"
+    },
+    "countReplacementsDescription": {
+        "message": "Slouží k poskytnutí statistik ve vyskakovací nabídce.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Přidat seznam filtrů do blokových průzkumů, prodeje merchandise a dalších propagačních prvků pomocí yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Vyžaduje uBlock Origin"
     }
 }
