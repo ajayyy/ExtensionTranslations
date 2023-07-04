@@ -1310,7 +1310,7 @@
         "message": "Nagybetűvel kezdődő szavak"
     },
     "TitleCase": {
-        "message": "Minden szó kezdődjön nagybetűvel"
+        "message": "Nagybetűvel kezdődő szavak, kivéve kötőszavak, névelők"
     },
     "SentenceCase": {
         "message": "Cím kezdődjön nagybetűvel"
@@ -1372,7 +1372,7 @@
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
-        "message": "Mindig mutassa az \"Eredeti megjelenítése\" gombot"
+        "message": "Mindig látszódjon az \"Eredeti tulajdonságok megjelenítése\" gomb"
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
@@ -1412,6 +1412,9 @@
     },
     "ShowOriginal": {
         "message": "Eredeti tulajdonságok megjelenítése"
+    },
+    "ShowModified": {
+        "message": "Módosított részletek mutatása"
     },
     "FillerWarning": {
         "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
@@ -1494,8 +1497,11 @@
     "NewConfiguration": {
         "message": "Új konfiguráció"
     },
+    "DeleteConfiguration": {
+        "message": "Konfiguráció törlése"
+    },
     "ChannelAllowlist": {
-        "message": "Csatorna engedélyező lista"
+        "message": "Csatorna engedélyezőlista"
     },
     "ConfigurationName": {
         "message": "Konfiguráció neve"
@@ -1556,5 +1562,11 @@
     "countReplacementsDescription": {
         "message": "A felugró ablakban megjelenő statisztikákhoz.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Szűrő lista hozzáadása közvélemény-kutatások, termékpolcok és az oldal egyéb promóciós elemeinek elrejtésére yt-neuter használatával"
+    },
+    "requiresUblock": {
+        "message": "uBlock Origin szükséges hozzá"
     }
 }

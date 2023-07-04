@@ -1485,6 +1485,9 @@
     "NewConfiguration": {
         "message": "新しい設定"
     },
+    "DeleteConfiguration": {
+        "message": "構成を削除する"
+    },
     "ChannelAllowlist": {
         "message": "チャンネル許可リスト"
     },
@@ -1520,5 +1523,11 @@
     "dearrowStatsMessageThumbnailPart": {
         "message": "および{thumbnails}枚のサムネイル",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "YtNeuterMessage": {
+        "message": "アンケート・商品その他の販促要素を除外するためにyt-neuterを使います"
+    },
+    "requiresUblock": {
+        "message": "uBlock Originが必要"
     }
 }

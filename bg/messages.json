@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Показване на оригиналните детайли"
     },
+    "ShowModified": {
+        "message": "Показване на изменените подробности"
+    },
     "FillerWarning": {
         "message": "Внимание: Това е изключително агресивна категория. Най-вероятно ще се наложи да връщате пропуснатото или да го забраните понякога. Предупреждаваме ви, че при много видеоклипове се пропускат над 50% или повече от видеото! Не забравяйте обаче, че все пак има конкретни насоки, които трябва да се спазват при изпращане.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1494,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Нова конфигурация"
     },
+    "DeleteConfiguration": {
+        "message": "Изтриване на конфигурацията"
+    },
     "ChannelAllowlist": {
         "message": "Списък с разрешени канали"
     },
@@ -1556,5 +1562,11 @@
     "countReplacementsDescription": {
         "message": "Използва се за предоставяне на статистически данни в изскачащия прозорец.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Добавете списък с филтри за блокиране на проучвания, раздел за стоки и други рекламни елементи в страницата, с помощта на yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Изисква uBlock Origin"
     }
 }

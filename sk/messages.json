@@ -1317,6 +1317,9 @@
     "replaceThumbnails": {
         "message": "Nahradiť náhľady"
     },
+    "DeleteConfiguration": {
+        "message": "Zmazať nastavenia"
+    },
     "DeArrowPromotionMessage": {
         "message": "Zastavte clickbait presnejšími názvami a miniatúrami"
     },
