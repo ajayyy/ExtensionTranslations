@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Mostrar detalles originales"
     },
+    "ShowModified": {
+        "message": "Mostrar detalles modificados"
+    },
     "FillerWarning": {
         "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos videos tienen más del 50 % o más del video omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1494,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Nueva configuración"
     },
+    "DeleteConfiguration": {
+        "message": "Eliminar configuración"
+    },
     "ChannelAllowlist": {
         "message": "Lista de canales permitidos"
     },
@@ -1556,5 +1562,8 @@
     "countReplacementsDescription": {
         "message": "Utilizado para darle estadísticas en la ventana emergente.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "requiresUblock": {
+        "message": "Requiere uBlock Origin"
     }
 }
