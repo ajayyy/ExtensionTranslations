@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Zobrazit původní podrobnosti"
     },
+    "ShowModified": {
+        "message": "Zobrazit upravené podrobnosti"
+    },
     "FillerWarning": {
         "message": "Varování: Jedná se o velmi agresivní kategorii. S největší pravděpodobností budete muset někdy zrušit přeskočení nebo kategorii zakázat. Upozorňujeme, že u mnoha videí je přeskočeno více než 50 % videa! Nezapomeňte však, že při odesílání je stále třeba dodržovat konkrétní pokyny.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1475,6 +1478,12 @@
     "openSourceLicenses": {
         "message": "Licence Open Source"
     },
+    "defaultToOriginals": {
+        "message": "Původní informace o videu jako výchozí"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Ve výchozím nastavení zobrazit původní název a náhled, umožnit ale přepnutí na vlastní název a náhled pomocí tlačítka, které se zobrazí po přejetí myší."
+    },
     "replaceTitles": {
         "message": "Nahradit názvy"
     },
@@ -1487,6 +1496,9 @@
     },
     "NewConfiguration": {
         "message": "Nová konfigurace"
+    },
+    "DeleteConfiguration": {
+        "message": "Odstranit konfiguraci"
     },
     "ChannelAllowlist": {
         "message": "Seznam povolených kanálů"
@@ -1507,5 +1519,17 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Jste unaveni clickbaity? Vyzkoušejte mé nové rozšíření pro vylepšení názvů a náhledů"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Tento náhled byl vybrán z náhodného času, protože u tohoto videa zatím nebyl nastaven vlastní náhled",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Tento náhled byl vybrán z náhodného času a název byl automaticky formátován, protože u tohoto videa zatím nebyl nastaven vlastní název a náhled",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Výchozí nastavení můžete změnit níže",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     }
 }
