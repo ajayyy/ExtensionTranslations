@@ -1497,6 +1497,9 @@
     "NewConfiguration": {
         "message": "Новая конфигурация"
     },
+    "DeleteConfiguration": {
+        "message": "Удалить конфигурацию"
+    },
     "ChannelAllowlist": {
         "message": "Список разрешённых каналов"
     },
@@ -1559,5 +1562,11 @@
     "countReplacementsDescription": {
         "message": "Используется для предоставления статистики во всплывающем окне.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Добавить список фильтров, чтобы блокировать опросы, карточки с мерчом и другие рекламные элементы страницы, используя yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Требуется uBlock Origin"
     }
 }
