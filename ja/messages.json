@@ -1374,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "「元を表示」ボタンを常に表示する"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "題名/サムネイルが変更されているかを常に知りたければ、ここを有効化します。"
+    },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
@@ -1472,6 +1475,9 @@
     "openSourceLicenses": {
         "message": "オープンソースライセンス"
     },
+    "whatDefaultToOriginals": {
+        "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
+    },
     "replaceTitles": {
         "message": "題名を置き換える"
     },
@@ -1503,29 +1509,56 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "タイトルとサムネイルをより正確にし誇張された案内を置き換える"
+        "message": "題名とサムネイルをより正確にし誇張された案内を置き換える"
     },
     "DeArrowPromotionMessage2": {
-        "message": "誇張表現による案内にうんざりしませんか？タイトルとサムネイルを改善する、新しい拡張機能を開発しました"
+        "message": "誇張表現による案内にうんざりしませんか？題名とサムネイルを改善する、新しい拡張機能を開発しました"
     },
     "RandomThumbnailExplanation": {
-        "message": "提出済みのサムネイルがまだないため、この動画のサムネイルは動画の適当な地点から生成しています",
+        "message": "この動画のサムネイルはまだ登録されていないので、サムネイルは動画からランダムに生成されています",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "提出済みのサムネイルおよび題名がまだないため、この動画のサムネイルは動画の適当な時点から生成し、題名は自動処理されています",
+        "message": "この動画のサムネイルと題名はまだ登録されていないので、サムネイルは動画からランダムに生成、題名は自動整形されています",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
-        "message": "以下で既定を変更できます",
+        "message": "以下から既定の設定を変更できます",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
+    "dearrowStatsMessage": {
+        "message": "この拡張機能をインストール後、{titles}件の題名と{thumbnails}件のサムネイルを置換済み",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles}件の題名",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles}件の題名",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "dearrowStatsMessageThumbnailPart": {
-        "message": "および{thumbnails}枚のサムネイル",
+        "message": "と{thumbnails}枚のサムネイル",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "と{thumbnails}枚のサムネイル",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "この拡張機能のインストール後に {titleAndThumbnailMessage} を置換済み",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "題名とサムネイルの置換数を数える"
+    },
+    "countReplacementsDescription": {
+        "message": "ポップアップ内に統計を表示するのに使用",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
     "YtNeuterMessage": {
-        "message": "アンケート・商品その他の販促要素を除外するためにyt-neuterを使います"
+        "message": "yt-neuter を使いアンケート、商品表示、その他販促用のページ要素をブロックするためにフィルタリストを追加"
     },
     "requiresUblock": {
         "message": "uBlock Originが必要"
