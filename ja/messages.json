@@ -1503,21 +1503,21 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "タイトルとサムネイルをより正確にし誇張された案内を置き換える"
+        "message": "題名とサムネイルをより正確にし誇張された案内を置き換える"
     },
     "DeArrowPromotionMessage2": {
-        "message": "誇張表現による案内にうんざりしませんか？タイトルとサムネイルを改善する、新しい拡張機能を開発しました"
+        "message": "誇張表現による案内にうんざりしませんか？題名とサムネイルを改善する、新しい拡張機能を開発しました"
     },
     "RandomThumbnailExplanation": {
-        "message": "提出済みのサムネイルがまだないため、この動画のサムネイルは動画の適当な地点から生成しています",
+        "message": "この動画のサムネイルはまだ登録されていないので、サムネイルは動画からランダムに生成されています",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "提出済みのサムネイルおよび題名がまだないため、この動画のサムネイルは動画の適当な時点から生成し、題名は自動処理されています",
+        "message": "この動画のサムネイルと題名はまだ登録されていないので、サムネイルは動画からランダムに生成、題名は自動整形されています",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
-        "message": "以下で既定を変更できます",
+        "message": "以下から既定の設定を変更できます",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessageThumbnailPart": {
