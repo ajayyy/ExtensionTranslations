@@ -1568,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "Benötigt uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Etwas ist bei der VideoID-Erkennung schief gelaufen. Bitte versuche vor dem Absenden die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, sende einen Bugreport mit allen verwendeten Erweiterungen, sowie Userscripts, auf GitHub, Discord oder Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo basierend auf Twemoji lizenziert unter CC-BY 4.0"
     }
 }
