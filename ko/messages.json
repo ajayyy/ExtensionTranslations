@@ -1504,5 +1504,8 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "어그로에 지치나요? 제목과 미리 보기 이미지를 향상시키는 확장 프로그램을 확인해 보세요"
+    },
+    "requiresUblock": {
+        "message": "uBlock Origin 필요"
     }
 }
