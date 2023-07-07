@@ -1341,5 +1341,8 @@
     "dearrowStatsMessageThumbnailPart": {
         "message": "a {thumbnails} náhľadov",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Nastala chyba pri detekcii videoID. Aby bol segment priradený k správenmu videu, skúste prosím znovu nahrať stránku. Ak sa vám táto chyba stáva často, odošlite správu so zoznamom nainštalovaných rozšírení a userscriptov cez GitHub, Discord alebo Matrix."
     }
 }
