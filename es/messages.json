@@ -1567,7 +1567,7 @@
         "message": "Requiere uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Algo ha salido mal con la detección de la Id de vídeo. Intente actualizar antes de enviar para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envía un reporte del mismo junto con las otras extensiones o scripts de usuario que has instalado a través de GitHub, Discord o Matrix."
+        "message": "Algo ha salido mal con la detección de la ID de vídeo. Intente actualizar la página antes de enviar para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envía un reporte del mismo junto con las otras extensiones o scripts de usuario que has instalado a través de GitHub, Discord o Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basado en Twemoji licenciado bajo CC-BY 4.0"
