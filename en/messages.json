@@ -1571,5 +1571,8 @@
     },
     "videoIDWrongWhenSubmittingError": {
         "message": "Something has gone wrong with the videoID detection. Please try refreshing before submitting to ensure it gets submitted for the correct video. If this is happening a lot, please send a report of this along with the other extensions or userscripts you have installed through GitHub, Discord or Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo based on Twemoji licensed under CC-BY 4.0"
     }
 }
