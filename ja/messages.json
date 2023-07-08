@@ -1563,6 +1563,9 @@
     "requiresUblock": {
         "message": "uBlock Originが必要"
     },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "videoIDの検出に問題が生じています。提出前に更新して、提出する動画が正しいものか確かめてください。この問題が頻繁に生じる場合は、GitHub、Discord、Matrixなどで報告してください。報告のさい、他の拡張機能やユーザースクリプトを導入している場合は、その旨もお伝えください。"
+    },
     "dearrowLogoCredit": {
         "message": "ロゴは、CC-BY 4.0で利用許諾されているTwemojiに基づいています"
     }
