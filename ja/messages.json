@@ -1562,5 +1562,8 @@
     },
     "requiresUblock": {
         "message": "uBlock Originが必要"
+    },
+    "dearrowLogoCredit": {
+        "message": "ロゴは、CC-BY 4.0で利用許諾されているTwemojiに基づいています"
     }
 }
