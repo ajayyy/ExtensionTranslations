@@ -1495,5 +1495,8 @@
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "dearrowLogoCredit": {
+        "message": "Logotipo baseado em Twemoji licenciado sob CC-BY 4.0"
     }
 }
