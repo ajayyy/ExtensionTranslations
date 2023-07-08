@@ -1150,6 +1150,9 @@
     "hideUpsells": {
         "message": "Ocultar opções não disponíveis sem pagamento extra"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Ocultar avisos sobre novos recursos"
+    },
     "chooseACountry": {
         "message": "Escolha um país"
     },
@@ -1371,6 +1374,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Sempre exibir o botão \"Mostrar Original\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
+    },
     "fetchTimeout": {
         "message": "Tempo limite de busca de dados (ms)"
     },
@@ -1406,6 +1412,9 @@
     },
     "ShowOriginal": {
         "message": "Mostrar detalhes originais"
+    },
+    "ShowModified": {
+        "message": "Mostrar Detalhes Modificados"
     },
     "FillerWarning": {
         "message": "Atenção: essa categoria é altamente rigorosa. Pode ser que você precise reverter pulos ou desabilitá-los por um tempo. Saiba que alguns vídeos podem ter pulos com mais da metade da duração total. Entretanto, lembre-se de que ainda há orientações específicas a seguir ao submeter segmentos.",
@@ -1469,6 +1478,12 @@
     "openSourceLicenses": {
         "message": "Licenças de código aberto"
     },
+    "defaultToOriginals": {
+        "message": "Informações padrão para o vídeo original"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Exibir o título e a miniatura original por padrão, mas tem um botão que aparece ao passar o mouse para ver os títulos e miniaturas personalizados."
+    },
     "replaceTitles": {
         "message": "Substituir títulos"
     },
@@ -1481,6 +1496,9 @@
     },
     "NewConfiguration": {
         "message": "Novo ajuste"
+    },
+    "DeleteConfiguration": {
+        "message": "Apagar Configuração"
     },
     "ChannelAllowlist": {
         "message": "Canais permitidos"
@@ -1495,6 +1513,64 @@
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Parar clickbait substituindo títulos e miniaturas com mais precisão"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Cansado de clickbait? Confira minha nova extensão para melhorar os títulos e miniaturas"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Esta miniatura é escolhida de um horário aleatório porque ainda não há envio neste vídeo",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Esta miniatura é escolhida de um horário aleatório porque ainda não há envio neste vídeo",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Você pode alterar este padrão abaixo",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} títulos e miniaturas de {thumbnails} foram substituídos desde que você instalou esta extensão",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} título",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} títulos",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "e {thumbnails} miniaturas",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "e {thumbnails} miniaturas",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} títulos e miniaturas foram substituídos desde que você instalou esta extensão",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Contagem de títulos e miniaturas substituídos"
+    },
+    "countReplacementsDescription": {
+        "message": "Usado para fornecer estatísticas no popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Adicionar uma lista de filtros para bloquear pesquisas, juntar prateleiras e outros elementos promocionais da página usando yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Requer o uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Algo deu errado com a detecção de videoID. Por favor, tente atualizar antes de enviar para garantir que ele seja enviado para o vídeo correto. Se isso está acontecendo muito, por favor, envie um relatório disso junto com outras extensões ou scripts que você instalou através do GitHub, Discord ou Matriz."
     },
     "dearrowLogoCredit": {
         "message": "Logotipo baseado em Twemoji licenciado sob CC-BY 4.0"
