@@ -1327,6 +1327,9 @@
     "whatKeepUnsubmitted": {
         "message": "Garder les votes soumis après un vote pour afficher les titres et miniatures que vous avez choisis au lieu de ceux ayant reçu le plus de votes sur le serveur."
     },
+    "Never": {
+        "message": "Jamais"
+    },
     "fetchTimeout": {
         "message": "Délai d'acquisition des données (ms)"
     },
@@ -1346,5 +1349,8 @@
     },
     "Error": {
         "message": "Erreur"
+    },
+    "howItWorks": {
+        "message": "Comment ça marche"
     }
 }
