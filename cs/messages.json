@@ -1568,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "Vyžaduje uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Při detekci ID videa se něco pokazilo. Před odesláním prosím zkuste znovu načíst stránku a ujistěte se, že jsou segmenty odeslány u správného videa. Pokud se toto stává často, odešlete prosím hlášení společně s dalšími rozšířeními a uživatelskými skripty, které máte nainstalovány, na GitHub, Discord nebo Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo založeno na Twemoji licencovaném pod CC-BY 4.0"
     }
 }
