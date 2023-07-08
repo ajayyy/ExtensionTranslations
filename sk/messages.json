@@ -1344,5 +1344,8 @@
     },
     "videoIDWrongWhenSubmittingError": {
         "message": "Nastala chyba pri detekcii videoID. Aby bol segment priradený k správenmu videu, skúste prosím znovu nahrať stránku. Ak sa vám táto chyba stáva často, odošlite správu so zoznamom nainštalovaných rozšírení a userscriptov cez GitHub, Discord alebo Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo je založené na Twemoji, licencované podľa CC-BY 4.0"
     }
 }
