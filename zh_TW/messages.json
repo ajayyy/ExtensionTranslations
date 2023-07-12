@@ -1285,6 +1285,12 @@
     "SentenceCase": {
         "message": "逐句首字母大寫"
     },
+    "RandomTime": {
+        "message": "顯示隨機時間點的截圖"
+    },
+    "TheOriginalThumbnail": {
+        "message": "顯示原始縮圖"
+    },
     "useThumbnailGenerationService": {
         "message": "使用縮圖產生服務"
     },
@@ -1319,11 +1325,33 @@
     "Error": {
         "message": "錯誤"
     },
+    "ShowOriginal": {
+        "message": "顯示原始詳細資訊"
+    },
     "howItWorks": {
         "message": "如何運作"
     },
     "thanksForTryingOutDeArrow": {
         "message": "感謝試用 DeArrow"
+    },
+    "privacyPolicy": {
+        "message": "隱私權政策"
+    },
+    "termsOfUse": {
+        "message": "使用條款"
+    },
+    "openSourceLicenses": {
+        "message": "開放原始碼授權"
+    },
+    "replaceTitles": {
+        "message": "替換標題"
+    },
+    "replaceThumbnails": {
+        "message": "替換縮圖"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "您確定要刪除此設定嗎？",
+        "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
         "message": "新設定"
