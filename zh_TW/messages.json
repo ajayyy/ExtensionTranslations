@@ -941,6 +941,9 @@
     "questionButton": {
         "message": "我要發問"
     },
+    "askAQuestion": {
+        "message": "詢問問題"
+    },
     "warningConfirmButton": {
         "message": "我了解原因"
     },
@@ -1223,6 +1226,13 @@
     "allowScrollingToEdit": {
         "message": "允許在編輯時滾動"
     },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds} 秒",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "Original": {
+        "message": "原始"
+    },
     "OriginalTitle": {
         "message": "原始標題"
     },
@@ -1275,6 +1285,20 @@
     "SentenceCase": {
         "message": "逐句首字母大寫"
     },
+    "useThumbnailGenerationService": {
+        "message": "使用縮圖產生服務"
+    },
+    "onAllPages": {
+        "message": "在所有頁面",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "在除了影片頁面外的所有頁面",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "永不"
+    },
     "fetchTimeout": {
         "message": "數據獲取超時（毫秒）"
     },
@@ -1292,6 +1316,24 @@
         "message": "縮圖",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "Error": {
+        "message": "錯誤"
+    },
+    "howItWorks": {
+        "message": "如何運作"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "感謝試用 DeArrow"
+    },
+    "NewConfiguration": {
+        "message": "新設定"
+    },
+    "DeleteConfiguration": {
+        "message": "刪除設定"
+    },
+    "ChannelAllowlist": {
+        "message": "頻道白名單"
+    },
     "ConfigurationName": {
         "message": "組態名稱"
     },
@@ -1302,5 +1344,24 @@
     "NoConfigurationsSetup": {
         "message": "未有組態設定。點擊頂部的按鈕來新建組態。",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} 個標題",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} 個標題",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "和 {thumbnails} 張縮圖",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "和 {thumbnails} 張縮圖",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "需要 uBlock Origin"
     }
 }
