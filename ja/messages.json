@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock for YouTube - 動画の広告部分を自動スキップ",
+        "message": "SponsorBlock for YouTube - 動画の広告シーンを自動スキップ",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1412,6 +1412,9 @@
     },
     "ShowOriginal": {
         "message": "元の詳細を表示"
+    },
+    "ShowModified": {
+        "message": "改善の詳細を表示"
     },
     "FillerWarning": {
         "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
