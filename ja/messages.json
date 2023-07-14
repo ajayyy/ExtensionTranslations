@@ -1479,7 +1479,7 @@
         "message": "オープンソースライセンス"
     },
     "defaultToOriginals": {
-        "message": "最初は元の動画の情報を表示"
+        "message": "最初は動画の元の情報を表示"
     },
     "whatDefaultToOriginals": {
         "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
