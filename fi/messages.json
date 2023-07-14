@@ -1568,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "Vaatii uBlock Originin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Jotain on pielessä videoID:n tunnistuksessa. Pyri varmistamaan, että ilmoitus lähetetään oikealle videolle päivittämällä sivu ennen lähetystä. Jos tätä tapahtuu paljon, raportoi tästä ja mainitse muut GitHubin, Discordin tai Matrixin kautta asentamasi laajennukset ja/tai userscript-toiminnot."
+    },
+    "dearrowLogoCredit": {
+        "message": "Twemojiin pohjautuva logo CC-BY 4.0 -lisenssillä"
     }
 }

@@ -363,7 +363,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} Вимкнений звук",
+        "message": "{0} вимкнено звук",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Показати оригінальну інформацію"
     },
+    "ShowModified": {
+        "message": "Показати змінену інформацію"
+    },
     "FillerWarning": {
         "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1475,6 +1478,9 @@
     "openSourceLicenses": {
         "message": "Ліцензії вихідного коду"
     },
+    "defaultToOriginals": {
+        "message": "Показувати початкові відомості про відео"
+    },
     "whatDefaultToOriginals": {
         "message": "Показувати оригінальну назву і іконку за замовчуванням, але має кнопку, що з'являється при наведенні і показує налаштовані назву та іконку."
     },
@@ -1490,6 +1496,9 @@
     },
     "NewConfiguration": {
         "message": "Нова конфігурація"
+    },
+    "DeleteConfiguration": {
+        "message": "Видалити конфігурацію"
     },
     "ChannelAllowlist": {
         "message": "Список дозволених каналів"
@@ -1510,6 +1519,14 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Втомилися від клікбейта? Спробуйте моє нове розширення, що поліпшує назви та значки"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Цей значок вибрано з випадкової позначки часу, оскільки для цього відео не було нічого запропоновано",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Цей значок вибрано з випадкової позначки часу, а назва автоматично відформатована, оскільки для цього відео не було нічого запропоновано",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
         "message": "Ви можете змінити ці налаштування за замовчуванням нижче",
@@ -1545,5 +1562,17 @@
     "countReplacementsDescription": {
         "message": "Використовується для надання статистики у спливаючому вікні.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Додати список фільтрів для блокування опитувань, полиць з товарами та інших елементів промо-сторінки з використанням yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Потрібен uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Щось пішло не так з визначенням відеоID. Будь ласка, спробуйте оновити дані перед надсиланням, щоб переконатися, що буде надіслано правильне відео. Якщо це відбувається часто, будь ласка, надішліть звіт про це разом з іншими розширеннями або скриптами, які ви встановили, через GitHub, Discord або Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Логотип на основі Twemoji під ліцензією CC-BY 4.0"
     }
 }

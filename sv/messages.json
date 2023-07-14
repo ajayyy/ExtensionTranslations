@@ -1568,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "Kräver uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Något har gått fel med identifieringen av video-ID. Försök att uppdatera innan du skickar in det för att säkerställa att det skickas till rätt video. Om detta händer ofta, skicka en rapport om detta tillsammans med andra tillägg eller användarskript som du har installerat via GitHub, Discord eller Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logotyp baserad på Twemoji licensierad under CC-BY 4.0"
     }
 }

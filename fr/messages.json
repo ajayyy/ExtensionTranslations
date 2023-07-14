@@ -1321,11 +1321,28 @@
     "RandomTime": {
         "message": "Afficher une capture d'écran à partir d'un passage aléatoire"
     },
+    "TheOriginalThumbnail": {
+        "message": "Montrer la miniature originale"
+    },
+    "showABlankBox": {
+        "message": "Afficher une case vide"
+    },
     "keepUnsubmitted": {
         "message": "Stocker les votes soumis"
     },
     "whatKeepUnsubmitted": {
         "message": "Garder les votes soumis après un vote pour afficher les titres et miniatures que vous avez choisis au lieu de ceux ayant reçu le plus de votes sur le serveur."
+    },
+    "onAllPages": {
+        "message": "Sur toutes les pages",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Jamais"
+    },
+    "moreAboutKAnonymity": {
+        "message": "En savoir plus sur la K-anonymisation",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "fetchTimeout": {
         "message": "Délai d'acquisition des données (ms)"
@@ -1346,5 +1363,85 @@
     },
     "Error": {
         "message": "Erreur"
+    },
+    "ShowOriginal": {
+        "message": "Montrer les détails d'origine"
+    },
+    "ShowModified": {
+        "message": "Montrer les détails modifiés"
+    },
+    "tip1": {
+        "message": "Éviter les expressions faciales exagérées",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Préférer les affirmations aux questions",
+        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
+    },
+    "howItWorks": {
+        "message": "Comment ça marche"
+    },
+    "termsAgreement": {
+        "message": "En utilisant cette extension, vous acceptez les {privacy-policy} et {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Politique de confidentialité"
+    },
+    "termsOfUse": {
+        "message": "Conditions d'utilisation"
+    },
+    "openSourceLicenses": {
+        "message": "Licences Open Source"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Afficher le titre original et la miniature par défaut, mais afficher un bouton qui apparaît au survol de la souris pour voir les titres et les vignettes personnalisés."
+    },
+    "replaceTitles": {
+        "message": "Remplacer les titres"
+    },
+    "replaceThumbnails": {
+        "message": "Remplacer les miniatures"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Êtes-vous certain de vouloir supprimer cette configuration ?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nouvelle configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Supprimer la configuration"
+    },
+    "ConfigurationName": {
+        "message": "Nom de la configuration"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Vous pouvez modifier cette valeur par défaut ci-dessous",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titre ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titres ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "et {thumbnails} miniature",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "et {thumbnails} miniatures",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "Nécessite uBlock Origin"
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo basé sur Twemoji sous licence CC-BY 4.0"
     }
 }

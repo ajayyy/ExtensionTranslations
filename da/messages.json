@@ -1371,5 +1371,8 @@
     },
     "whatDefaultToOriginals": {
         "message": "Vis den oprindelige titel og det oprindelige miniaturebillede som standard, men hav en knap der vises når man holder musen over til at se de brugerdefinerede titler og miniaturebilleder."
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Noget er gået galt med videoID detektionen. Prøv at opdatere før du indsender for at sikre, at det bliver indsendt til den korrekte video. Hvis dette sker meget, så send venligst en rapport om dette sammen med de andre udvidelser eller brugerscripts, du har installeret via GitHub, Discord eller Matrix."
     }
 }
