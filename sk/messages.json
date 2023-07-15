@@ -1347,5 +1347,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logo je založené na Twemoji, licencované podľa CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock nie je kompatibilný s rozšírením \"Zoom to Fill\". Môžete použiť veľa alternatív, ktoré fungujú správne."
     }
 }
