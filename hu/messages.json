@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Cím kezdődjön nagybetűvel"
     },
+    "LowerCase": {
+        "message": "Kisbetűk"
+    },
     "thumbnailFallbackOption": {
         "message": "Ha nincs beküldött indexkép"
     },
@@ -1489,6 +1492,13 @@
     },
     "replaceThumbnails": {
         "message": "Indexképek lecserélése"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Közösség által beküldött címek használata"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Ha le van tiltva, akkor a címek formázásra kerülnek, de nem lesznek lecserélve a felhasználók által beküldöttekre",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Biztosan törölni szeretnéd ezt a konfigurációt?",
