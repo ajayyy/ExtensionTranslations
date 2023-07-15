@@ -1568,5 +1568,8 @@
     },
     "requiresUblock": {
         "message": "uBlock Origin szükséges hozzá"
+    },
+    "zoomToFillUnsupported": {
+        "message": "A SponsorBlock nem kompatibilis a Zoom to Fill bővítménnyel. Sok alternatíva létezik, amik rendesen működnek."
     }
 }
