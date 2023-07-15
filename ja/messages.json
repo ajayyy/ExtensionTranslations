@@ -1574,5 +1574,8 @@
     },
     "dearrowLogoCredit": {
         "message": "ロゴは、CC-BY 4.0で利用許諾されているTwemojiに基づいています"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock は拡張機能 Zoom to Fill と互換性がありません。正常に動作する別の拡張機能がほかにもあります。"
     }
 }
