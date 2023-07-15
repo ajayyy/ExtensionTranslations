@@ -1318,6 +1318,12 @@
     "LowerCase": {
         "message": "Малки букви"
     },
+    "FirstLetterUppercase": {
+        "message": "Главна първа буква"
+    },
+    "shouldCleanEmojis": {
+        "message": "Премахване на емоджитата"
+    },
     "thumbnailFallbackOption": {
         "message": "Когато няма изпратена миниатюра"
     },
