@@ -1574,5 +1574,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Лого, базирано на Twemoji, лицензирано под CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock не е съвместим с разширението \"Zoom to Fill\". Има много алтернативи, които можете да използвате вместо него и които ще работят правилно."
     }
 }
