@@ -1321,6 +1321,9 @@
     "FirstLetterUppercase": {
         "message": "First Letter Uppercase"
     },
+    "shouldCleanEmojis": {
+        "message": "Remove Emojis"
+    },
     "thumbnailFallbackOption": {
         "message": "When No Submitted Thumbnail Exists"
     },
