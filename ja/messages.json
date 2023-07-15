@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "先頭単語のみ大文字"
     },
+    "LowerCase": {
+        "message": "小文字"
+    },
+    "FirstLetterUppercase": {
+        "message": "1文字目を大文字"
+    },
+    "shouldCleanEmojis": {
+        "message": "絵文字を除去"
+    },
     "thumbnailFallbackOption": {
         "message": "投稿されたサムネイルが存在しない場合"
     },
@@ -1489,6 +1498,13 @@
     },
     "replaceThumbnails": {
         "message": "サムネイルを置き換える"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "クラウドソーシングによる題名を採用"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "無効の場合、題名は整形されますが、コミュニティにより登録された題名は使用されません",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "この設定を削除しますか？",
