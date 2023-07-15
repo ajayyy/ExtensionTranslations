@@ -1490,6 +1490,13 @@
     "replaceThumbnails": {
         "message": "Replace Thumbnails"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Use Crowdsourced Titles"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "If disabled, it will format titles but not use community submitted titles",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Are you sure you would like to delete this configuration?",
         "description": "Appears when deleting a configuration for channel-based settings"
