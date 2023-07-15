@@ -1318,6 +1318,9 @@
     "LowerCase": {
         "message": "Lower Case"
     },
+    "FirstLetterUppercase": {
+        "message": "First Letter Uppercase"
+    },
     "thumbnailFallbackOption": {
         "message": "When No Submitted Thumbnail Exists"
     },
