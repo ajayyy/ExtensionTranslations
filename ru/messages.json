@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Как в предложении"
     },
+    "LowerCase": {
+        "message": "Строчные буквы"
+    },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
     },
@@ -1489,6 +1492,13 @@
     },
     "replaceThumbnails": {
         "message": "Заменять значки"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Использовать названия, присланные сообществом"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Если отключено, названия видео будут форматироваться, но не будут использоваться присланные сообществом названия",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Вы уверены, что хотите удалить эту конфигурацию?",
