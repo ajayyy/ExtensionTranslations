@@ -1318,6 +1318,12 @@
     "LowerCase": {
         "message": "Строчные буквы"
     },
+    "FirstLetterUppercase": {
+        "message": "Заглавная первая буква"
+    },
+    "shouldCleanEmojis": {
+        "message": "Убрать эмодзи"
+    },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
     },
