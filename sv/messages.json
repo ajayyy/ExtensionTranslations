@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Meningsskiftläge"
     },
+    "LowerCase": {
+        "message": "Gemener"
+    },
+    "FirstLetterUppercase": {
+        "message": "Första bokstaven versal"
+    },
+    "shouldCleanEmojis": {
+        "message": "Ta bort emojis"
+    },
     "thumbnailFallbackOption": {
         "message": "När ingen inskickad miniatyrbild finns"
     },
@@ -1490,6 +1499,9 @@
     "replaceThumbnails": {
         "message": "Ersätt miniatyrbild"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Använd crowdsourced titlar"
+    },
     "areYouSureDeleteConfig": {
         "message": "Är du säker på att vill du ta bort den här konfigurationen?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1586,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logotyp baserad på Twemoji licensierad under CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock är inte kompatibelt med tillägget \"Zoom to Fill\". Det finns många alternativ som du kan använda istället som fungerar korrekt."
     }
 }
