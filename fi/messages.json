@@ -1574,5 +1574,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Twemojiin pohjautuva logo CC-BY 4.0 -lisenssillä"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock ei ole yhteensopiva \"Zoom to Fill\" -laajennuksen kanssa. Voit sen sijaan käyttää monia muita ongelmitta toimivia laajennuksia."
     }
 }
