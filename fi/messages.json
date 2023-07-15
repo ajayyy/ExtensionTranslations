@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Virketyylin kirjainkoko"
     },
+    "LowerCase": {
+        "message": "Pienet kirjaimet"
+    },
+    "FirstLetterUppercase": {
+        "message": "Iso alkukirjain"
+    },
+    "shouldCleanEmojis": {
+        "message": "Poista emojit"
+    },
     "thumbnailFallbackOption": {
         "message": "Kun lähetettyä pienoiskuvaa ei ole"
     },
@@ -1489,6 +1498,13 @@
     },
     "replaceThumbnails": {
         "message": "Korvaa pienoiskuvat"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Käytä yleisölähteisiä otsikoita"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Jos ei käytössä, muotoilee otsikot, muttei käytä yhteisön lähettämiä otsikoita.",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Haluatko varmasti poistaa tämän määrityksen?",
