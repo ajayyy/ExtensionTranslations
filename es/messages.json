@@ -644,7 +644,7 @@
         "message": "Cuando hay un breve recordatorio para dar me gusta, suscribirse o seguirlos en medio del contenido. Si es largo o sobre algo específico, debería estar bajo promoción propia en su lugar."
     },
     "category_interaction_guideline1": {
-        "message": "Recordatorios breves para darle me gusta, suscribirse o seguir"
+        "message": "Breve recordatorio para dar me gusta, suscribirse o seguir"
     },
     "category_interaction_guideline2": {
         "message": "Incluye recordatorios indirectos para comentar"
@@ -677,7 +677,7 @@
         "message": "Créditos o cuando aparecen las tarjetas finales de YouTube. No para conclusiones con información."
     },
     "category_outro_guideline1": {
-        "message": "No incluyas contenido, aunque se estén mostrando las tarjetas finales"
+        "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
     },
     "category_preview": {
         "message": "Vista previa/Recapitulación"
@@ -734,7 +734,7 @@
         "message": "La parte del video que la mayoría de gente está buscando. Similar a los comentarios que dicen \"El video comienza en x\"."
     },
     "category_poi_highlight_guideline1": {
-        "message": "Sección que busca la mayoría"
+        "message": "La sección que la mayoría de personas están buscando"
     },
     "category_poi_highlight_guideline2": {
         "message": "Puede omitir contexto"
@@ -1368,7 +1368,7 @@
         "message": "Código fuente del servicio de generación de miniaturas"
     },
     "moreAboutKAnonymity": {
-        "message": "Más acerca de k-anonimato",
+        "message": "Más sobre de K-Anonimato",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
@@ -1518,7 +1518,7 @@
         "message": "Dejar de hacer clic reemplazando títulos y miniaturas por otros más precisos"
     },
     "DeArrowPromotionMessage2": {
-        "message": "¿Cansado/a de clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
+        "message": "¿Cansado/a del clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
     },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
@@ -1563,7 +1563,16 @@
         "message": "Utilizado para darle estadísticas en la ventana emergente.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
+    "YtNeuterMessage": {
+        "message": "Añadir una lista de filtros para bloquear encuestas, estantes de mercadería, y otros elementos de páginas promocionales usando yt-neuter"
+    },
     "requiresUblock": {
         "message": "Requiere uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Algo ha salido mal con la detección de la ID de vídeo. Intente actualizar la página antes de enviar para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envía un reporte del mismo junto con las otras extensiones o scripts de usuario que has instalado a través de GitHub, Discord o Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo basado en Twemoji licenciado bajo CC-BY 4.0"
     }
 }

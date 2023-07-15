@@ -1453,7 +1453,7 @@
         "message": "Děkujeme za vyzkoušení DeArrow"
     },
     "deArrowBetaStatus": {
-        "message": "Upozorňujeme, že toto rozšíření je stále ve fázi beta. Rozšíření bude navždy zdarma pro každého, kdo si ho nainstaluje během beta verze. Ano, to znamená, že v budoucnu bude rozšíření pro nové uživatele pouze placené, ale slibuji, že stále bude existovat způsob, jak pro lidi získat bezplatný přístup. Rozšíření samozřejmě vždy zůstane s plně otevřeným zdrojovým kódem a veřejně stažitelnou databází, stejně jako SponsorBlock.",
+        "message": "Upozorňujeme, že toto rozšíření je stále ve fázi beta. Rozšíření bude navždy zdarma pro každého, kdo si ho nainstaluje během beta verze. Ano, to znamená, že v budoucnu bude rozšíření pro nové uživatele pouze placené, ale slibuji, že stále bude existovat způsob, jak získat bezplatný přístup. Rozšíření samozřejmě vždy zůstane s plně otevřeným zdrojovým kódem a veřejně stažitelnou databází, stejně jako SponsorBlock.",
         "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
     },
     "deArrowTryingOut": {
@@ -1568,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "Vyžaduje uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Při detekci ID videa se něco pokazilo. Před odesláním prosím zkuste znovu načíst stránku a ujistěte se, že jsou segmenty odeslány u správného videa. Pokud se toto stává často, odešlete prosím hlášení společně s dalšími rozšířeními a uživatelskými skripty, které máte nainstalovány, na GitHub, Discord nebo Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo založeno na Twemoji licencovaném pod CC-BY 4.0"
     }
 }

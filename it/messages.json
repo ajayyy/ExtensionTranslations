@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "Mostra Dettagli Originali"
     },
+    "ShowModified": {
+        "message": "Mostra i dettagli modificati"
+    },
     "FillerWarning": {
         "message": "Attenzione: Questa è una categoria incredibilmente aggressiva. Dovrai probabilmente annullare il salto di determinate cose o, talvolta, disabilitarlo. Sappi che, per molti video, oltre il 50% viene saltato! Tuttavia, ricorda che sono comunque presenti delle linee guida specifiche da seguire, per l'invio.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1475,6 +1478,9 @@
     "openSourceLicenses": {
         "message": "Licenze Open Source"
     },
+    "defaultToOriginals": {
+        "message": "Imposta come predefinite le informazioni originali del video"
+    },
     "whatDefaultToOriginals": {
         "message": "Mostra di default il titolo e anteprima originali, ma mostra un pulsante a comparsa per vedere i titoli e anteprime personalizzati."
     },
@@ -1490,6 +1496,9 @@
     },
     "NewConfiguration": {
         "message": "Nuova Configurazione"
+    },
+    "DeleteConfiguration": {
+        "message": "Elimina configurazione"
     },
     "ChannelAllowlist": {
         "message": "Canali in Allowlist"
@@ -1553,5 +1562,17 @@
     "countReplacementsDescription": {
         "message": "Utilizzato per fornire statistiche nel popup.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Aggiungi una lista di filtri per bloccare sondaggi, merchandising e altri elementi promozionali utilizzando yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Richiede uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Qualcosa è andato storto con il rilevamento del videoID. Si prega di aggiornare prima di procedere con l'invio, in modo da potersi riferire al video corretto. Se questo errore persiste, inviaci un report dell'accaduto assieme ai nomi delle estensioni o script utente che sono stati installati attraverso i nostri canali GitHub, Discord o Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Il logo è basato su Twemoji, con licenza CC-BY 4.0"
     }
 }

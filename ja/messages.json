@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock for YouTube - 動画の広告部分を自動スキップ",
+        "message": "SponsorBlock for YouTube - 動画の広告シーンを自動スキップ",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1413,6 +1413,9 @@
     "ShowOriginal": {
         "message": "元の詳細を表示"
     },
+    "ShowModified": {
+        "message": "改善の詳細を表示"
+    },
     "FillerWarning": {
         "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1474,6 +1477,9 @@
     },
     "openSourceLicenses": {
         "message": "オープンソースライセンス"
+    },
+    "defaultToOriginals": {
+        "message": "最初は動画の元の情報を表示"
     },
     "whatDefaultToOriginals": {
         "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
@@ -1562,5 +1568,11 @@
     },
     "requiresUblock": {
         "message": "uBlock Originが必要"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "videoIDの検出に問題が生じています。提出前に更新して、提出する動画が正しいものか確かめてください。この問題が頻繁に生じる場合は、GitHub、Discord、Matrixなどで報告してください。報告のさい、他の拡張機能やユーザースクリプトを導入している場合は、その旨もお伝えください。"
+    },
+    "dearrowLogoCredit": {
+        "message": "ロゴは、CC-BY 4.0で利用許諾されているTwemojiに基づいています"
     }
 }
