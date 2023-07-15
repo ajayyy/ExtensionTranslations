@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Изречение"
     },
+    "LowerCase": {
+        "message": "Малки букви"
+    },
     "thumbnailFallbackOption": {
         "message": "Когато няма изпратена миниатюра"
     },
@@ -1489,6 +1492,13 @@
     },
     "replaceThumbnails": {
         "message": "Замяна на миниатюрите"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Използване на заглавия от общността"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Ако е деактивирано, ще се форматират заглавията, но няма да се използват подадените от общността заглавия",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Наистина ли искате да изтриете тази конфигурация?",
