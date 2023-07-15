@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Sentence Case"
     },
+    "LowerCase": {
+        "message": "Lower Case"
+    },
     "thumbnailFallbackOption": {
         "message": "When No Submitted Thumbnail Exists"
     },
