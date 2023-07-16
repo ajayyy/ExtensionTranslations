@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Solo primera letra en mayúscula"
     },
+    "LowerCase": {
+        "message": "Minúsculas"
+    },
+    "FirstLetterUppercase": {
+        "message": "Primera letra en mayúscula"
+    },
+    "shouldCleanEmojis": {
+        "message": "Eliminar emojis"
+    },
     "thumbnailFallbackOption": {
         "message": "Cuando no exista una miniatura enviada"
     },
@@ -1489,6 +1498,13 @@
     },
     "replaceThumbnails": {
         "message": "Reemplazar miniaturas"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Utilizar títulos brindados por la comunidad"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Si está deshabilitado, se formateará los títulos, pero no se usarán los títulos brindados por la comunidad",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "¿Estás seguro/a de que quieres eliminar esta configuración?",
