@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Kapitalizace ve větě"
     },
+    "LowerCase": {
+        "message": "Malá písmena"
+    },
+    "FirstLetterUppercase": {
+        "message": "Velké počáteční písmeno"
+    },
+    "shouldCleanEmojis": {
+        "message": "Odebrat smajlíky"
+    },
     "thumbnailFallbackOption": {
         "message": "Pokud neexistuje žádný komunitní náhled"
     },
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Nahradit náhledy"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Použít komunitní názvy"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Při zakázání budou názvy formátovány, ale nebudou použity jejich komunitou vytvořené verze",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Opravdu chcete odstranit tuto konfiguraci?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1590,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logo založeno na Twemoji licencovaném pod CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock není kompatibilní s doplňkem „Zoom to Fill“. Místo něj můžete použít spoustu alternativ, které fungují správně."
     }
 }
