@@ -87,7 +87,7 @@
         "message": "データベースにこの動画の省略部分の登録あり！"
     },
     "sponsor404": {
-        "message": "省略部分の登録なし"
+        "message": "省略シーンの登録なし"
     },
     "sponsorStart": {
         "message": "セグメント開始を記録"
@@ -1304,16 +1304,16 @@
         "message": "題名の形式"
     },
     "Disabled": {
-        "message": "無効化済み"
+        "message": "無効化"
     },
     "CapitalizeWords": {
-        "message": "単語を大文字にする"
+        "message": "単語先頭を大文字"
     },
     "TitleCase": {
-        "message": "単語冒頭を大文字"
+        "message": "題名用に大文字化"
     },
     "SentenceCase": {
-        "message": "先頭単語のみ大文字"
+        "message": "文の先頭単語を大文字"
     },
     "LowerCase": {
         "message": "小文字"
@@ -1325,14 +1325,14 @@
         "message": "絵文字を除去"
     },
     "thumbnailFallbackOption": {
-        "message": "投稿されたサムネイルが存在しない場合"
+        "message": "投稿されたサムネイルなしなら"
     },
     "whatThumbnailFallbackOption": {
-        "message": "不定期を選択すると、広告シーンの時間が選択されないよう SponsorBlock のデータを使って確認します。",
+        "message": "ランダムな時間を選択時には、SponsorBlock のデータを使って広告シーンが選ばれないようにします。",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
-        "message": "ランダムな時間のスクリーンショットを表示"
+        "message": "ランダムな時間からのサムネイルを表示"
     },
     "TheOriginalThumbnail": {
         "message": "元のサムネイルを表示"
@@ -1347,7 +1347,7 @@
         "message": "送信済みの投票を投票後に保持し、サーバー上で投票上位のものの代わりに、あなたが選択した題名と画像を表示する。"
     },
     "keepUnsubmittedInPrivate": {
-        "message": "プライベートモードのタブで提出した投票を保存する"
+        "message": "プライベートモードのタブから送信した投票を保存する"
     },
     "useThumbnailGenerationService": {
         "message": "サムネイル生成サービスを使用"
@@ -1364,10 +1364,10 @@
         "message": "しない"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "サムネイル生成サービスは、動画IDを使用した匿名のリクエストをリモートサーバーに送信することで、サムネイル生成を大きく高速化します。 そうしてサムネイルが生成されるか、すでに生成済みであればそのキャッシュを使います。"
+        "message": "サムネイル生成サービスは、動画IDを使用した匿名のリクエストをリモートサーバーに送信することで、サムネイル生成を大きく高速化します。そうしてサムネイルを生成するか、すでに生成済みであればそのキャッシュを使います。"
     },
     "thumbnailGeneratorDescription2": {
-        "message": "動画のページに使うと、限定公開の動画IDがそのサーバーに漏洩する可能性があります。「動画のページ以外のすべてのページで」に設定すると、この問題を避けることができます。別のやり方は、自分でサムネイル生成サービスを運用することです。"
+        "message": "動画のページに使うと、限定公開の動画IDがそのサーバーに漏洩する可能性があります。「動画のページ以外のすべてのページで」に設定すると、この問題を避けることができます。別の選択肢は、自分でサムネイル生成サービスを運用することです。"
     },
     "thumbnailGeneratorDescription3": {
         "message": "サムネイル生成サービスを使用しない場合、すべてのリクエストには、 k-anonymoity クエリのシステムを使います。これにより、サーバーに対しどの動画を取得したかを予測するのを難しくさせます。また低速なローカルのサムネイル生成サービス使われます。",
@@ -1384,7 +1384,7 @@
         "message": "「元を表示」ボタンを常に表示する"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "題名/サムネイルが変更されているかを常に知りたければ、ここを有効化します。"
+        "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
@@ -1494,10 +1494,10 @@
         "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
     },
     "replaceTitles": {
-        "message": "題名を置き換える"
+        "message": "題名を置換"
     },
     "replaceThumbnails": {
-        "message": "サムネイルを置き換える"
+        "message": "サムネイルを置換"
     },
     "useCrowdsourcedTitles": {
         "message": "クラウドソーシングによる題名を採用"
@@ -1514,7 +1514,7 @@
         "message": "新しい設定"
     },
     "DeleteConfiguration": {
-        "message": "構成を削除する"
+        "message": "設定を削除"
     },
     "ChannelAllowlist": {
         "message": "チャンネル許可リスト"
