@@ -1490,6 +1490,9 @@
     "defaultToOriginals": {
         "message": "Domyślnie wyświetlaj oryginalne informacje o filmie"
     },
+    "whatDefaultToOriginals": {
+        "message": "Domyślnie pokazuj oryginalny tytuł i miniaturkę, ale po najechaniu wskaźnikiem wyświetlaj proponowane tytuł i miniaturkę."
+    },
     "replaceTitles": {
         "message": "Podmień tytuły"
     },
@@ -1498,6 +1501,10 @@
     },
     "useCrowdsourcedTitles": {
         "message": "Używaj tytułów pochodzących od społeczności"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Po wyłączeniu nadal będzie formatować tytuły, ale nie będzie używać tytułów przesłanych przez społeczność",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Czy jesteś pewien, że chcesz usunąć tę konfigurację?",
@@ -1529,6 +1536,22 @@
     "DeArrowPromotionMessage2": {
         "message": "Zmęczony clickbait'ami? Sprawdź nowy dodatek do przeglądarki, który poprawia tytuły filmów oraz ich miniatury, tak aby były adekwatne do treści"
     },
+    "RandomThumbnailExplanation": {
+        "message": "Ta miniaturka została utworzona z losowej klatki, ponieważ nie było jeszcze zgłoszenia do tego filmu",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Ta miniaturka została utworzona z losowej klatki, a tytuł został sformatowany automatycznie, ponieważ nie było jeszcze zgłoszenia do tego filmu",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Można to zmienić poniżej",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} tytułów i {thumbnails} miniaturek zostało zastąpionych od czasu zainstalowania tego rozszerzenia",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "dearrowStatsMessageTitlePart": {
         "message": "Tytuł {titles} ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
@@ -1537,7 +1560,38 @@
         "message": "Tytuły {titles} ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "i {thumbnails} miniaturka",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "i {thumbnails} miniaturek",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} zostało zastąpionych od czasu zainstalowania tego rozszerzenia",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Policz zamiany tytułów i miniatur"
+    },
+    "countReplacementsDescription": {
+        "message": "Służy do wyświetlania statystyk w wyskakującym okienku.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Dodaj listę filtrów do blokowania ankiet, sekcji merch i innych promocyjnych elementów strony za pomocą yt-neuter"
+    },
     "requiresUblock": {
         "message": "Wymaga uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Coś poszło nie tak z wykrywaniem videoID. Spróbuj odświeżyć stronę przed przesłaniem zgłoszenia, aby upewnić się, że zostanie ono przesłane dla właściwego filmu. Jeśli zdarza się to często, wyślij zgłoszenie wraz z listą innych zainstalowanych rozszerzeń i skryptów za pośrednictwem GitHub, Discord lub Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo na podstawie Twemoji na licencji CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock nie jest kompatybilny z rozszerzeniem \"Zoom to Fill\". Istnieje wiele alternatyw, których można użyć zamiast tego i które będą działać poprawnie."
     }
 }
