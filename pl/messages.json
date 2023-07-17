@@ -1253,6 +1253,10 @@
         "message": "DeArrow - Lepsze tytuły i miniatury na YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
+    "deArrowDescription": {
+        "message": "Pozyskiwanie tytułów i miniaturek przez społeczność, aby były opisowe, a nie sensacyjne",
+        "description": "Description of the Clickbait extension."
+    },
     "chooseDescriptive": {
         "message": "Wybierz najbardziej opisowe"
     },
@@ -1379,6 +1383,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Zawsze wyświetlaj przycisk \"Pokaż oryginalny\""
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Jeśli chcesz zawsze wiedzieć, czy tytuł/miniaturka uległa zmianie, włącz tę opcję."
+    },
     "fetchTimeout": {
         "message": "Limit czasu pobierania danych (ms)"
     },
@@ -1480,11 +1487,17 @@
     "openSourceLicenses": {
         "message": "Licencje Open Source"
     },
+    "defaultToOriginals": {
+        "message": "Domyślnie wyświetlaj oryginalne informacje o filmie"
+    },
     "replaceTitles": {
         "message": "Podmień tytuły"
     },
     "replaceThumbnails": {
         "message": "Podmień miniaturki"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Używaj tytułów pochodzących od społeczności"
     },
     "areYouSureDeleteConfig": {
         "message": "Czy jesteś pewien, że chcesz usunąć tę konfigurację?",
