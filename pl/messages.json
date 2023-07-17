@@ -1311,6 +1311,15 @@
     "SentenceCase": {
         "message": "Jak w zdaniu"
     },
+    "LowerCase": {
+        "message": "Małe litery"
+    },
+    "FirstLetterUppercase": {
+        "message": "Pierwsza wielka litera"
+    },
+    "shouldCleanEmojis": {
+        "message": "Usuń Emoji"
+    },
     "thumbnailFallbackOption": {
         "message": "Gdy nie przesłano żadnej miniatury dla filmu"
     },
@@ -1406,6 +1415,9 @@
     "ShowOriginal": {
         "message": "Pokaż oryginał"
     },
+    "ShowModified": {
+        "message": "Pokaż zmienione szczegóły"
+    },
     "FillerWarning": {
         "message": "Uwaga: To jest niezwykle agresywna kategoria. Najprawdopodobniej będziesz musiał często cofać lub czasami nawet wyłączyć automatyczne pomijanie. Wiele filmów ma ponad 50% filmu oznaczonego tą kategorią! Należy jednak pamiętać, że nadal istnieją szczegółowe wytyczne, których należy przestrzegać przy wysyłaniu segmentów.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1481,6 +1493,9 @@
     "NewConfiguration": {
         "message": "Nowa konfiguracja"
     },
+    "DeleteConfiguration": {
+        "message": "Usuń konfigurację"
+    },
     "ChannelAllowlist": {
         "message": "Kanały, na których SponsorBlock będzie wyłączony"
     },
@@ -1500,5 +1515,16 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Zmęczony clickbait'ami? Sprawdź nowy dodatek do przeglądarki, który poprawia tytuły filmów oraz ich miniatury, tak aby były adekwatne do treści"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "Tytuł {titles} ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "Tytuły {titles} ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "Wymaga uBlock Origin"
     }
 }
