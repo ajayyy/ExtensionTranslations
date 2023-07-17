@@ -1503,7 +1503,7 @@
         "message": "Utilizar títulos brindados por la comunidad"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Si está deshabilitado, se formateará los títulos, pero no se usarán los títulos brindados por la comunidad",
+        "message": "Si está deshabilitado, se dará formato a los títulos, pero no se usarán los brindados por la comunidad",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
