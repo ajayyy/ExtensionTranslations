@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Грешка при опит за потвърждаване на предупреждение:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Получихте съвет от модератор"
+    },
     "Donate": {
         "message": "Дарение"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Предоставете достатъчно информация, за да може да се вземе информирано решение преди кликване"
+    },
+    "tip5": {
+        "message": "Първата буква от изречението да е главна ",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
