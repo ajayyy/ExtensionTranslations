@@ -1452,9 +1452,6 @@
     "tip4": {
         "message": "Tarjoa tietoisen valinnan mahdollistava määrä informaatiota ennen klikkausta"
     },
-    "tip5": {
-        "message": "Isot kirjaimet lauseen tapaan "
-    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
     },
