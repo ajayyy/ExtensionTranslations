@@ -1452,6 +1452,9 @@
     "tip4": {
         "message": "Provide enough information to make an informed choice before clicking"
     },
+    "tip5": {
+        "message": "Capitalize it like a sentence "
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note: Your SponsorBlock settings have been automatically imported!"
     },
