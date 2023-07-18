@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Błąd podczas próby potwierdzenia ostrzeżenia:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Otrzymana wiadomość od moderatora"
+    },
     "Donate": {
         "message": "Wesprzyj nas"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Uwzględnij wystarczająco informacji, by użytkownik mógł podjąć świadomy wybór o kliknięciu"
+    },
+    "tip5": {
+        "message": "Zacznij od wielkiej litery jak w zdaniu ",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Twoje ustawienia z SponsorBlock zostały automatycznie zaimportowane!"
