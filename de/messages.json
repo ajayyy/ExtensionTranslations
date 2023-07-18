@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Fehler beim Anerkennen der Verwarnung:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Du hast einen Tipp von einem Moderator erhalten"
+    },
     "Donate": {
         "message": "Spenden"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Gib genug Informationen an, dass andere wissen, worum es geht, bevor sie auf das Video klicken"
+    },
+    "tip5": {
+        "message": "Groß- und Kleinschreibung wie in einem Satz",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Hinweis: Deine SponsorBlock-Einstellungen wurden automatisch importiert!"
