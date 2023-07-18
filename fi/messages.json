@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Virhe yritettäessä kuitata varoitusta:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Olet saanut valvojalta vinkin"
+    },
     "Donate": {
         "message": "Lahjoita"
     },
