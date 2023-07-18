@@ -963,6 +963,9 @@
     "warningError": {
         "message": "警告の確認中にエラーが発生しました:"
     },
+    "deArrowMessageRecieved": {
+        "message": "調整役員からの助言があります"
+    },
     "Donate": {
         "message": "寄付"
     },
