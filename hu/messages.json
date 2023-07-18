@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Hiba a figyelmeztetés nyugtázása közben:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Javaslatot kaptál egy moderátortól"
+    },
     "Donate": {
         "message": "Támogatás"
     },
@@ -1452,6 +1455,10 @@
     "tip4": {
         "message": "Nyújts elég információt, hogy mások tájékozott döntést hozhassanak, mielőtt kattintanának"
     },
+    "tip5": {
+        "message": "Úgy használj nagybetűket, mintha egy mondat lenne",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Megjegyzés: A SponsorBlock beállításaid automatikusan betöltésre kerültek!"
     },
@@ -1584,6 +1591,12 @@
     },
     "requiresUblock": {
         "message": "uBlock Origin szükséges hozzá"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "A videó ID felismerése problémába ütközött. Próbáld meg frissíteni az oldalt beküldés előtt, hogy biztosan a helyes videóhoz küldje az adatokat. Ha ez gyakran előfordul, kérlek küldj egy jelentést az egyéb telepített bővítményekkel és userscriptekkel együtt GitHubon, Discordon, vagy Matrixon."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logó a Twemoji alapján, CC-BY 4.0 alatt licencelve"
     },
     "zoomToFillUnsupported": {
         "message": "A SponsorBlock nem kompatibilis a Zoom to Fill bővítménnyel. Sok alternatíva létezik, amik rendesen működnek."
