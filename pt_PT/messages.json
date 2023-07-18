@@ -120,7 +120,7 @@
         "message": "Segmentos ainda a carregar..."
     },
     "clearTimes": {
-        "message": "Limpar Segmentos"
+        "message": "Limpar segmentos"
     },
     "openPopup": {
         "message": "Abrir o Popup SponsorBlock"
@@ -297,7 +297,7 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Saltar segmento",
+        "message": "Ignorar segmento",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
@@ -309,7 +309,7 @@
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
-        "message": "Próximo capítulo",
+        "message": "Capítulo seguinte",
         "description": "Keybind label"
     },
     "previousChapterKeybind": {
@@ -320,10 +320,10 @@
         "message": "Selecione uma chave digitando-a e escolha qualquer chave modificadora que deseje utilizar."
     },
     "0": {
-        "message": "Tempo limite de conexão. Verifique a sua conexão com a internet. Se a sua internet está a funcionar, o servidor provavelmente está sobrecarregado ou desligado."
+        "message": "Tempo limite de ligação. Verifique a sua ligação à Internet. Se a sua Internet estiver a funcionar, o servidor está provavelmente sobrecarregado ou em baixo."
     },
     "disableSkipping": {
-        "message": "Saltar está ativado"
+        "message": "O ignorar está ativado"
     },
     "enableSkipping": {
         "message": "Saltar está desativado"
@@ -339,7 +339,7 @@
         "message": "Código de erro: "
     },
     "skip": {
-        "message": "Saltar"
+        "message": "Ignorar"
     },
     "mute": {
         "message": "Silenciar"
@@ -349,7 +349,7 @@
         "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
-        "message": "Saltar {0}?"
+        "message": "Ignorar {0}?"
     },
     "mute_category": {
         "message": "Silenciar {0}?"
@@ -367,7 +367,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "Avançar para {0}",
+        "message": "Avançou para {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -460,6 +460,9 @@
     "preview": {
         "message": "Pré-visualizar"
     },
+    "unsubmitted": {
+        "message": "Não submetido"
+    },
     "inspect": {
         "message": "Inspecionar"
     },
@@ -475,6 +478,10 @@
     "to": {
         "message": "até",
         "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "Copiado!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline2": {
         "message": "Reproduz como se nada tivesse sido ignorado"
@@ -639,5 +646,9 @@
     },
     "Vote": {
         "message": "Votar"
+    },
+    "tip5": {
+        "message": "Colocar em maiúsculas como se fosse uma frase",
+        "description": "Tip about submitting titles to DeArrow"
     }
 }
