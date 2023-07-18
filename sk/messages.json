@@ -1221,6 +1221,12 @@
     "SentenceCase": {
         "message": "Prvé písmeno vety veľké"
     },
+    "FirstLetterUppercase": {
+        "message": "Prvé Písmená Veľké"
+    },
+    "shouldCleanEmojis": {
+        "message": "Odstrániť emoji"
+    },
     "whatThumbnailFallbackOption": {
         "message": "Pri výbere náhodného času použije dáta SponsorBlock pre zaručenie, že nebude vybraný čas v reklamnom segmente.",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
@@ -1347,5 +1353,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logo je založené na Twemoji, licencované podľa CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock nie je kompatibilný s rozšírením \"Zoom to Fill\". Môžete použiť veľa alternatív, ktoré fungujú správne."
     }
 }

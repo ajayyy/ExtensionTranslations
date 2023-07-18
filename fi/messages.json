@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Virketyylin kirjainkoko"
     },
+    "LowerCase": {
+        "message": "Pienet kirjaimet"
+    },
+    "FirstLetterUppercase": {
+        "message": "Iso alkukirjain"
+    },
+    "shouldCleanEmojis": {
+        "message": "Poista emojit"
+    },
     "thumbnailFallbackOption": {
         "message": "Kun lähetettyä pienoiskuvaa ei ole"
     },
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Korvaa pienoiskuvat"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Käytä yleisölähteisiä otsikoita"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Jos ei käytössä, muotoilee otsikot, muttei käytä yhteisön lähettämiä otsikoita.",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Haluatko varmasti poistaa tämän määrityksen?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1590,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Twemojiin pohjautuva logo CC-BY 4.0 -lisenssillä"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock ei ole yhteensopiva \"Zoom to Fill\" -laajennuksen kanssa. Voit sen sijaan käyttää monia muita ongelmitta toimivia laajennuksia."
     }
 }

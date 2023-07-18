@@ -933,7 +933,7 @@
         "message": "Этот сегмент большой. Если в видео только одна тема, то измените значение с «Пропустить» на «Всё видео». Дополнительную информацию смотрите в руководстве."
     },
     "categoryPillTitleText": {
-        "message": "Данная категория применена для всего видео, так как она тесно интегрирована в видео"
+        "message": "Данная категория применена для всего видео, так как она тесно интегрирована в него"
     },
     "chapterNameTooltipWarning": {
         "message": "Название одного из ваших эпизодов похоже на категорию. Постарайтесь использовать категории когда возможно."
@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Как в предложении"
     },
+    "LowerCase": {
+        "message": "Строчные буквы"
+    },
+    "FirstLetterUppercase": {
+        "message": "Первая буква — заглавная"
+    },
+    "shouldCleanEmojis": {
+        "message": "Убрать эмодзи"
+    },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
     },
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Заменять значки"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Использовать названия, присланные сообществом"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Если отключено, названия видео будут форматироваться, но не будут использоваться присланные сообществом названия",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Вы уверены, что хотите удалить эту конфигурацию?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1590,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Логотип на основе Twemoji с лицензией CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock не совместим с расширением \"Zoom to Fill\". Вы можете использовать другие подобные расширения, они будут работать."
     }
 }

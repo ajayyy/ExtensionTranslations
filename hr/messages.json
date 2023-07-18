@@ -785,6 +785,9 @@
     "LearnMore": {
         "message": "Saznajte više"
     },
+    "FullDetails": {
+        "message": "Potpuni detalji"
+    },
     "OpenCategoryWikiPage": {
         "message": "Otvorite wiki stranicu ove kategorije."
     },
@@ -1037,11 +1040,31 @@
     "SentenceCase": {
         "message": "Veliko početno slovo u rečenici"
     },
+    "LowerCase": {
+        "message": "Mala slova"
+    },
+    "FirstLetterUppercase": {
+        "message": "Prvi znak velikim slovom"
+    },
+    "shouldCleanEmojis": {
+        "message": "Ukloni emojije"
+    },
     "keepUnsubmitted": {
         "message": "Spremi poslane glasove"
     },
     "whatKeepUnsubmitted": {
         "message": "Zadrži poslane glasove nakon glasovanja za prikazivanje tvojih odabranih naslova i minijatura na poslužitelju umjesto onih s najviše glasova."
+    },
+    "onAllPages": {
+        "message": "Na svim stranicama",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Na svim stranicama osim na video stranicama",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nikada"
     },
     "fetchTimeout": {
         "message": "Vrijeme za preuzimanje podataka (ms)"
@@ -1062,5 +1085,63 @@
     },
     "Error": {
         "message": "Greška"
+    },
+    "ShowOriginal": {
+        "message": "Prikaži izvorne detalje"
+    },
+    "privacyPolicy": {
+        "message": "Politika privatnosti"
+    },
+    "termsOfUse": {
+        "message": "Uvjeti korištenja"
+    },
+    "openSourceLicenses": {
+        "message": "Licence otvorenog koda"
+    },
+    "replaceTitles": {
+        "message": "Zamijeni naslove"
+    },
+    "replaceThumbnails": {
+        "message": "Zamijeni minijature"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Koristi naslove zajednice"
+    },
+    "NewConfiguration": {
+        "message": "Nova konfiguracija"
+    },
+    "DeleteConfiguration": {
+        "message": "Izbriši konfiguraciju"
+    },
+    "ConfigurationName": {
+        "message": "Ime konfiguracije"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} naslova i {thumbnails} minijatura su zamijenjeni otkad si instalirao/la ovo proširenje",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} naslov ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} naslova ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "i {thumbnails} minijaturu",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "i {thumbnails} minijature(a)",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} su zamijenjeni otkad si instalirao/la ovo proširenje",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacementsDescription": {
+        "message": "Koristi se za prikaz statistike u skočnom prozoru.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     }
 }

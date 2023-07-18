@@ -1313,7 +1313,16 @@
         "message": "Nagybetűvel kezdődő szavak, kivéve kötőszavak, névelők"
     },
     "SentenceCase": {
-        "message": "Cím kezdődjön nagybetűvel"
+        "message": "Mondatok és tulajdonnevek kezdődjenek nagybetűvel"
+    },
+    "LowerCase": {
+        "message": "Kisbetűk"
+    },
+    "FirstLetterUppercase": {
+        "message": "Első karakter nagybetű"
+    },
+    "shouldCleanEmojis": {
+        "message": "Hangulatjelek eltávolítása"
     },
     "thumbnailFallbackOption": {
         "message": "Ha nincs beküldött indexkép"
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Indexképek lecserélése"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Közösség által beküldött címek használata"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Ha le van tiltva, akkor a címek formázásra kerülnek, de nem lesznek lecserélve a felhasználók által beküldöttekre",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Biztosan törölni szeretnéd ezt a konfigurációt?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1568,5 +1584,8 @@
     },
     "requiresUblock": {
         "message": "uBlock Origin szükséges hozzá"
+    },
+    "zoomToFillUnsupported": {
+        "message": "A SponsorBlock nem kompatibilis a Zoom to Fill bővítménnyel. Sok alternatíva létezik, amik rendesen működnek."
     }
 }

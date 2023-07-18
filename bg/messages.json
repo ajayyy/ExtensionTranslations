@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Изречение"
     },
+    "LowerCase": {
+        "message": "Малки букви"
+    },
+    "FirstLetterUppercase": {
+        "message": "Главна първа буква"
+    },
+    "shouldCleanEmojis": {
+        "message": "Премахване на емоджитата"
+    },
     "thumbnailFallbackOption": {
         "message": "Когато няма изпратена миниатюра"
     },
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Замяна на миниатюрите"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Използване на заглавия от общността"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Ако е деактивирано, ще се форматират заглавията, но няма да се използват подадените от общността заглавия",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Наистина ли искате да изтриете тази конфигурация?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1590,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Лого, базирано на Twemoji, лицензирано под CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock не е съвместим с разширението \"Zoom to Fill\". Има много алтернативи, които можете да използвате вместо него и които ще работят правилно."
     }
 }

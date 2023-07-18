@@ -1137,6 +1137,9 @@
     "hideUpsells": {
         "message": "隱藏選項需要額外付款才可使用"
     },
+    "hideNewFeatureUpdates": {
+        "message": "隱藏關於新功能的提示"
+    },
     "chooseACountry": {
         "message": "選擇國家"
     },

@@ -370,6 +370,15 @@
         "message": "Avançar para {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "disableAutoSkip": {
+        "message": "Desativar Auto Ignorar"
+    },
+    "enableAutoSkip": {
+        "message": "Ativar Auto Ignorar"
+    },
+    "youHaveSkipped": {
+        "message": "Ignorou "
+    },
     "minLower": {
         "message": "minuto"
     },
@@ -409,8 +418,14 @@
     "addInvidiousInstanceDescription": {
         "message": "Adicione uma instância personalizada. Isso deve ser formatado APENAS com o domínio. Exemplo: invidious.ajay.app"
     },
+    "add": {
+        "message": "Adicionar"
+    },
     "addInvidiousInstanceError": {
         "message": "Este é um domínio inválido. Isto deve APENAS incluir a parte do domínio. Exemplo: invidious.ajay.app"
+    },
+    "save": {
+        "message": "Guardar"
     },
     "areYouSureReset": {
         "message": "Tem certeza que deseja redefinir?"
@@ -612,5 +627,17 @@
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Título original"
+    },
+    "CurrentTime": {
+        "message": "Hora atual"
+    },
+    "Vote": {
+        "message": "Votar"
     }
 }

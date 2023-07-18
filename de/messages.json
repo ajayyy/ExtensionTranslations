@@ -1315,6 +1315,15 @@
     "SentenceCase": {
         "message": "Nur 1. Wort des Satzes groß"
     },
+    "LowerCase": {
+        "message": "Kleinbuchstaben"
+    },
+    "FirstLetterUppercase": {
+        "message": "Erster Buchstabe Großgeschrieben"
+    },
+    "shouldCleanEmojis": {
+        "message": "Emoji entfernen"
+    },
     "thumbnailFallbackOption": {
         "message": "Wenn kein Thumbnail eingereicht wurde"
     },
@@ -1490,6 +1499,13 @@
     "replaceThumbnails": {
         "message": "Ersetze Thumbnails"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Verwende crowgesourcedte Titel"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Wenn deaktiviert werden Titel formatiert, aber keine von der Community übermittelten Titel verwendet",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Soll diese Konfiguration wirklich gelöscht werden?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1574,5 +1590,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logo basierend auf Twemoji lizenziert unter CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es existieren viele Alternativen welche ohne probleme funktionieren werden."
     }
 }
