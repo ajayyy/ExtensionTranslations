@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Error when trying to acknowledge warning:"
     },
+    "deArrowMessageRecieved": {
+        "message": "You've recieved a tip from a moderator"
+    },
     "Donate": {
         "message": "Donate"
     },
