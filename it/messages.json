@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Errore durante il tentativo di riconoscere l'avviso:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Hai ricevuto un suggerimento da un moderatore"
+    },
     "Donate": {
         "message": "Dona"
     },
@@ -1315,6 +1318,15 @@
     "SentenceCase": {
         "message": "Maiuscolo Inizio Frase"
     },
+    "LowerCase": {
+        "message": "Minuscolo"
+    },
+    "FirstLetterUppercase": {
+        "message": "Iniziale maiuscola"
+    },
+    "shouldCleanEmojis": {
+        "message": "Rimuovi Emoji"
+    },
     "thumbnailFallbackOption": {
         "message": "Quando Non Esiste una Miniatura Inviata"
     },
@@ -1443,6 +1455,10 @@
     "tip4": {
         "message": "Fornisci abbastanza informazioni per compiere una scelta informata prima di cliccare"
     },
+    "tip5": {
+        "message": "Maiuscole e minuscole come in una frase",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Nota: Le tue impostazioni di SponsorBlock sono state importate automaticamente!"
     },
@@ -1489,6 +1505,13 @@
     },
     "replaceThumbnails": {
         "message": "Sostituisci Miniature"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Usa i titoli in crowdsourcing"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Se disabilitato, formatterà i titoli ma non userà i titoli inviati dalla community",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Sei sicuro di voler eliminare questa configurazione?",
@@ -1574,5 +1597,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Il logo è basato su Twemoji, con licenza CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock non è compatibile con l'estensione \"Zoom to Fill\". Ci sono molte alternative funzionanti che puoi usare al suo posto."
     }
 }
