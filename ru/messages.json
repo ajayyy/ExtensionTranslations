@@ -1325,7 +1325,7 @@
         "message": "Первая буква — заглавная"
     },
     "shouldCleanEmojis": {
-        "message": "Убрать эмодзи"
+        "message": "Убирать эмодзи"
     },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
