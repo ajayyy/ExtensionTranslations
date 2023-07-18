@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Salte patrocinios, pedidos de subscrição e mais em videos do YouTube. Submeta anúncios nos videos que visualiza para poupar tempo a outros.",
+        "message": "Ignore patrocínios, pedidos de subscrição e muito mais nos vídeos do YouTube. Denuncie os patrocinadores nos vídeos que vê para poupar o tempo dos outros.",
         "description": "Description of the extension."
     },
     "400": {
@@ -166,7 +166,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Dica: Você pode configurar atalhos de teclado para enviar nas opções"
+        "message": "Dica: pode configurar as teclas de atalho para enviar nas opções"
     },
     "clearTimesButton": {
         "message": "Limpar Intervalos"
@@ -326,7 +326,7 @@
         "message": "O ignorar está ativado"
     },
     "enableSkipping": {
-        "message": "Saltar está desativado"
+        "message": "O ignorar está desativado"
     },
     "yourWork": {
         "message": "O seu trabalho",
@@ -495,14 +495,20 @@
     "category_interaction_short": {
         "message": "Lembrete de interação"
     },
+    "category_chapter": {
+        "message": "Capítulo"
+    },
     "category_livestream_messages_short": {
         "message": "Leitura de mensagens"
     },
     "autoSkip": {
-        "message": "Saltar automaticamente"
+        "message": "Ignorar automaticamente"
     },
     "manualSkip": {
-        "message": "Saltar manualmente"
+        "message": "Ignorar manualmente"
+    },
+    "showOverlay": {
+        "message": "Mostrar na barra de pesquisa"
     },
     "disable": {
         "message": "Desativar"
@@ -538,6 +544,9 @@
     "readTheGuidelines": {
         "message": "Leia as nossas orientações!!",
         "description": "Show the first time they submit or if they are \"high risk\""
+    },
+    "help": {
+        "message": "Ajuda"
     },
     "darkModeOptionsPage": {
         "message": "Modo escuro na página de opções"
@@ -584,6 +593,18 @@
     "hideSegment": {
         "message": "Ocultar segmento"
     },
+    "skipSegment": {
+        "message": "Ignorar segmento"
+    },
+    "playChapter": {
+        "message": "Reproduzir capítulo"
+    },
+    "SponsorTimeEditScrollNewFeature": {
+        "message": "Utilizar a roda do rato enquanto passa sobre a caixa de edição para ajustar rapidamente a hora. As combinações das teclas ctrl ou shift podem ser utilizadas para afinar as alterações."
+    },
+    "categoryPillNewFeature": {
+        "message": "Novo! Ver quando um vídeo é totalmente patrocinado ou de auto-promoção"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
@@ -601,7 +622,7 @@
         "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
-        "message": "Atalhos de teclado",
+        "message": "Teclas de atalho",
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
@@ -611,6 +632,10 @@
     "optionsTabAdvanced": {
         "message": "Diversos",
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "noticeVisibilityLabel": {
+        "message": "Ignorar o aparecimento do aviso",
+        "description": "Option label"
     },
     "unbind": {
         "message": "Desvincular",
@@ -622,11 +647,65 @@
     "change": {
         "message": "Alterar"
     },
+    "youtubeKeybindWarning": {
+        "message": "Este é um atalho incorporado no YouTube. Tem a certeza de que o quer usar?"
+    },
     "betaServerWarning": {
         "message": "O servidor BETA está ativado!"
     },
     "openOptionsPage": {
         "message": "Abrir página de opções"
+    },
+    "resetToDefault": {
+        "message": "Repor as definições para a predefinição"
+    },
+    "confirmResetToDefault": {
+        "message": "Tem a certeza de que pretende repor todas as definições para os valores predefinidos? Isto não pode ser anulado."
+    },
+    "exportSegments": {
+        "message": "Exportar segmentos"
+    },
+    "importSegments": {
+        "message": "Importar segmentos"
+    },
+    "Import": {
+        "message": "Importar",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "videosSingular": {
+        "message": "vídeo",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "vídeos",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Limpar todos os segmentos",
+        "description": "Label for a button in settings"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Mostrar segmentos",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Ocultar segmentos",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "ID do vídeo",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Contagem de segmentos",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Ações",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Partilhar como URL"
     },
     "segmentFetchFailureWarning": {
         "message": "Aviso: O servidor ainda não respondeu com segmentos. Pode, na verdade, estarem segmentos já submetidos neste vídeo, mas não os tenha recebido devido a problemas com o servidor."
@@ -646,6 +725,9 @@
     },
     "Vote": {
         "message": "Votar"
+    },
+    "Error": {
+        "message": "Erro"
     },
     "tip5": {
         "message": "Colocar em maiúsculas como se fosse uma frase",
