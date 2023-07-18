@@ -184,7 +184,7 @@
         "message": "Copiar ID do segmento"
     },
     "hideThis": {
-        "message": "Esconder isto"
+        "message": "Ocultar isto"
     },
     "Options": {
         "message": "Opções"
@@ -193,10 +193,10 @@
         "message": "Mostrar botões no reprodutor do YouTube"
     },
     "hideButtons": {
-        "message": "Esconder botões no reprodutor do YouTube"
+        "message": "Ocultar botões no reprodutor do YouTube"
     },
     "hideButtonsDescription": {
-        "message": "Esta opção esconde os botões que aparecem para enviar segmentos no reprodutor do YouTube."
+        "message": "Esta opção oculta os botões que aparecem para enviar segmentos no reprodutor do YouTube."
     },
     "showSkipButton": {
         "message": "Mostrar botão pular para os destaques no reprodutor"
@@ -982,7 +982,7 @@
         "message": "Por favor, revise as opções abaixo"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "Muitos recursos são desativados por padrão. Se você deseja pular introduções, encerramentos, usar o Invidious, etc., ative as opções abaixo. Você também pode ocultar/mostrar elementos da interface."
+        "message": "Muitos recursos são desativados por padrão. Se você deseja pular introduções, encerramentos, usar o Invidious, entre outros, ative as opções abaixo. Você também pode ocultar/mostrar elementos da interface."
     },
     "helpPageHowSkippingWorks": {
         "message": "Como a função pular funciona"
@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
     },
+    "shouldCleanEmojis": {
+        "message": "Remover emojis"
+    },
     "thumbnailFallbackOption": {
         "message": "Quando não houver nenhuma miniatura enviada"
     },
@@ -1361,7 +1364,7 @@
         "message": "Usar o serviço em páginas de vídeos traz o risco de vazar identificação de vídeos não-listados para o servidor. Selecione a opção \"Em todas as páginas, exceto de vídeos\" para que isso não ocorra. Outra opção é hospedar seu próprio serviço de geração de miniaturas."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Se o serviço de geração de miniaturas estiver desativado, todas as solicitações usarão um sistema anônimo de consultas, tornando mais difícil para o servidor prever quais vídeos já foram buscados, e um servidor local mais lento será usado.",
+        "message": "Se o serviço de geração de miniaturas estiver desativado, todas as solicitações usarão um sistema anônimo de consultas, dificultando para o servidor prever quais vídeos já foram buscados, e um servidor local mais lento será usado.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
@@ -1574,5 +1577,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Logotipo baseado em Twemoji licenciado sob CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "O SponsorBlock não é compatível com a extensão \"Zoom to Fill\". Há muitas alternativas que você pode usar que funcionarão corretamente."
     }
 }
