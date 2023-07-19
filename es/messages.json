@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Error al intentar confirmar la advertencia:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Has recibido una sugerencia de un moderador"
+    },
     "Donate": {
         "message": "Donar"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Proporciona información suficiente para tomar una decisión informada antes de hacer clic"
+    },
+    "tip5": {
+        "message": "Pon la primera letra en mayúscula",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Nota: ¡Tu configuración de SponsorBlock se ha importado automáticamente!"
