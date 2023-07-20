@@ -598,7 +598,7 @@
         "message": "スキップしても自然に見えるようにする"
     },
     "category_sponsor": {
-        "message": "スポンサー"
+        "message": "広告"
     },
     "category_sponsor_description": {
         "message": "報酬のある販売促進、紹介、および直接広告です。自己宣伝や、動機や好きな製作者・サイト・製品に対する無報酬での表明とは異なります。"
@@ -641,7 +641,7 @@
         "message": "行動のお願い (登録/寄付など)"
     },
     "category_interaction_description": {
-        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かついてのシーンは、自己宣伝に分類すべきです。"
+        "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かについてのシーンは、自己の宣伝に分類すべきです。"
     },
     "category_interaction_guideline1": {
         "message": "高評価、登録、フォローの短いお願い"
@@ -716,7 +716,7 @@
         "message": "音楽: 音楽以外のセクション"
     },
     "category_music_offtopic_description": {
-        "message": "ミュージックビデオでの使用に限ります。他のカテゴリーに含まれていないミュージックビデオのセクションにのみ使用してください。"
+        "message": "ミュージックビデオでの使用に限ります。他のカテゴリーに含まれていないミュージックビデオのシーンにのみ使用してください。"
     },
     "category_music_offtopic_short": {
         "message": "音楽以外の部分"
@@ -731,16 +731,16 @@
         "message": "ハイライト"
     },
     "category_poi_highlight_description": {
-        "message": "多くの人が求めている動画の部分。「本編はXから開始」といったコメントのような機能です。"
+        "message": "多くの人が探しているシーン。「本編はXから開始」というコメントに似ています。"
     },
     "category_poi_highlight_guideline1": {
-        "message": "多くの人々が求めているであろう内容のセクション"
+        "message": "多くの人が探しているシーン"
     },
     "category_poi_highlight_guideline2": {
-        "message": "それまでの文脈はスキップできるものである"
+        "message": "それまでの内容はスキップ可能"
     },
     "category_poi_highlight_guideline3": {
-        "message": "題名やサムネイルの場面までスキップできるものである"
+        "message": "題名やサムネイルのシーンまでスキップ可能"
     },
     "category_chapter": {
         "message": "チャプター"
@@ -815,17 +815,17 @@
         "message": "カテゴリ"
     },
     "skipOption": {
-        "message": "スキップ設定",
+        "message": "スキップの設定",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "enableTestingServer": {
         "message": "ベータテストサーバーを有効にする"
     },
     "whatEnableTestingServer": {
-        "message": "登録したセグメントと投票がメインサーバーには**蓄積されなく**なります。試験目的にのみご利用ください。"
+        "message": "登録したセグメントと投票がメインサーバーに「蓄積されなく」なります。試験目的にのみご利用ください。"
     },
     "testingServerWarning": {
-        "message": "テストサーバーに接続中は、すべての登録・投票はメインサーバーに蓄積されなくなります。実際の登録・投票を行う場合、この設定を無効にしてください。"
+        "message": "テストサーバーに接続中は、すべての登録・投票はメインサーバーに「蓄積されなく」なります。実際の登録・投票を行う場合、この設定を無効にしてください。"
     },
     "bracketNow": {
         "message": "(今)"
@@ -879,16 +879,16 @@
         "message": "権限要求に失敗しました。承認を拒否しましたか？"
     },
     "adblockerIssueWhitelist": {
-        "message": "これを解決できない場合は、設定「スキップする前にチャンネルチェックを強制」を無効にしてください。 SponsorBlockはこのビデオのチャンネル情報を取得できません。"
+        "message": "これを解決できない場合は、設定「スキップ前にチャンネルを強制的に確認」を無効にしてください。 SponsorBlockはこの動画のチャンネル情報を取得できません。"
     },
     "forceChannelCheck": {
-        "message": "スキップする前にチャンネルチェックを強制する"
+        "message": "スキップ前にチャンネルを強制的に確認"
     },
     "whatForceChannelCheck": {
-        "message": "標準設定では、チャンネル情報の取得前にすぐにセグメントをスキップします。また標準設定では、ホワイトリストに追加されているチャンネルでも動画の先頭部分にあるセグメントがスキップされる場合があります。この設定を有効にすると、これらの動作を回避しますが、チャンネルIDの取得に時間がかかるため、すべてのスキップ時に遅延が少し発生します。高速なインターネット回線では気づかないでしょう。"
+        "message": "標準設定では、チャンネル情報の取得前にすぐにシーンをスキップします。また標準設定では、ホワイトリストに追加されているチャンネルでも、その動画の先頭のシーンではスキップされる場合があります。この設定を有効にすると、この動作をやめます。しかしチャンネルIDの取得に時間がかかるため、すべてのスキップ時に遅延が少し発生します。高速なインターネット回線では気づかない程度です。"
     },
     "forceChannelCheckPopup": {
-        "message": "「スキップする前にチャンネルチェックを強制する」を有効にしてみてください"
+        "message": "「スキップ前にチャンネルを強制的に確認」を有効にしてみてください"
     },
     "downvoteDescription": {
         "message": "不正確/誤った再生時間"
@@ -964,7 +964,7 @@
         "message": "警告の確認中にエラーが発生しました:"
     },
     "deArrowMessageRecieved": {
-        "message": "調整役員からの助言があります"
+        "message": "調整役からの助言があります"
     },
     "Donate": {
         "message": "寄付"
