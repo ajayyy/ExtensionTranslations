@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Fel vid försök att bekräfta varning:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Du har fått ett tips från en moderator"
+    },
     "Donate": {
         "message": "Donera"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Ge tillräckligt med information för att göra ett informerat val innan du klickar"
+    },
+    "tip5": {
+        "message": "Använd versaler som i en mening",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Obs: Dina SponsorBlock-inställningar har automatiskt importerats!"

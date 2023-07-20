@@ -963,6 +963,9 @@
     "warningError": {
         "message": "警告の確認中にエラーが発生しました:"
     },
+    "deArrowMessageRecieved": {
+        "message": "調整役員からの助言があります"
+    },
     "Donate": {
         "message": "寄付"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "動画を視聴するかの判断に足る十分な案内を前もって提供する"
+    },
+    "tip5": {
+        "message": "文章として大文字化",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "注: SponsorBlock の設定が自動でインポートされました！"

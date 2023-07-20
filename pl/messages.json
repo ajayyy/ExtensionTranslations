@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Błąd podczas próby potwierdzenia ostrzeżenia:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Otrzymana wiadomość od moderatora"
+    },
     "Donate": {
         "message": "Wesprzyj nas"
     },
@@ -1319,7 +1322,7 @@
         "message": "Małe litery"
     },
     "FirstLetterUppercase": {
-        "message": "Pierwsza wielka litera"
+        "message": "Zaczynaj od wielkiej litery"
     },
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
@@ -1452,6 +1455,10 @@
     "tip4": {
         "message": "Uwzględnij wystarczająco informacji, by użytkownik mógł podjąć świadomy wybór o kliknięciu"
     },
+    "tip5": {
+        "message": "Zacznij od wielkiej litery jak w zdaniu ",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Twoje ustawienia z SponsorBlock zostały automatycznie zaimportowane!"
     },
@@ -1527,7 +1534,7 @@
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
-        "message": "Nie skonfigurowałeś jeszcze SponsorBlock, aby to zrobić, kliknij przycisk powyżej, aby dodać nową konfigurację.",
+        "message": "Nie skonfigurowano jeszcze SponsorBlock, aby to zrobić, kliknij przycisk powyżej, aby dodać nową konfigurację.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
@@ -1553,11 +1560,11 @@
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
-        "message": "Tytuł {titles} ",
+        "message": "{titles} tytuł ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlesPart": {
-        "message": "Tytuły {titles} ",
+        "message": "{titles} tytułów ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
@@ -1573,7 +1580,7 @@
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Policz zamiany tytułów i miniatur"
+        "message": "Policz zamiany tytułów i miniaturek"
     },
     "countReplacementsDescription": {
         "message": "Służy do wyświetlania statystyk w wyskakującym okienku.",

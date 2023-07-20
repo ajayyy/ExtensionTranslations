@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Virhe yritettäessä kuitata varoitusta:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Olet saanut valvojalta vinkin"
+    },
     "Donate": {
         "message": "Lahjoita"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Tarjoa tietoisen valinnan mahdollistava määrä informaatiota ennen klikkausta"
+    },
+    "tip5": {
+        "message": "Isot kirjaimet lauseen tapaan ",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
