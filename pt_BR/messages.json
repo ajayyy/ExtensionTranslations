@@ -1315,6 +1315,9 @@
     "SentenceCase": {
         "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
     },
+    "FirstLetterUppercase": {
+        "message": "Primeira Letra Em Maiúscula"
+    },
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
@@ -1492,6 +1495,13 @@
     },
     "replaceThumbnails": {
         "message": "Substituir miniaturas"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Usa as alterações dos Titulos da Comunidade de DeArrow"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Se desabilitado,  formatação de títulos ainda funcionara, mas não usará os títulos da comunidade",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Deseja mesmo apagar esse ajuste?",
