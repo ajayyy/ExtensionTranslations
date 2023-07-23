@@ -1538,7 +1538,7 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "Sfancula il clickbait sostituendo titoli e anteprime per renderli più accurati"
+        "message": "Ferma il clickbait sostituendo titoli e anteprime per renderli più accurati"
     },
     "DeArrowPromotionMessage2": {
         "message": "Stanco del clickbait? Scopri la mia nuova estensione per migliorare i titoli e le anteprime"
