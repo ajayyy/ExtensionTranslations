@@ -1318,6 +1318,9 @@
     "SentenceCase": {
         "message": "Як у реченнях"
     },
+    "LowerCase": {
+        "message": "Нижній Регістр"
+    },
     "FirstLetterUppercase": {
         "message": "Перша Буква Великою"
     },
