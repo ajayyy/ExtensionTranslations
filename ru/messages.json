@@ -1587,7 +1587,7 @@
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Добавить список фильтров yt-neuter для блокировки опросов, карточек с мерчом и других рекламных элементов страницы."
+        "message": "Добавить список фильтров yt-neuter для блокировки опросов, карточек с продукцией и прочих рекламных элементов страницы"
     },
     "requiresUblock": {
         "message": "Требуется uBlock Origin"
