@@ -1426,10 +1426,6 @@
         "message": "과장된 표현이 나타나지 않도록 해요",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "질문보다는 결론을 담아요",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "동영상에 대한 반응(\"충격\")을 담지 않도록 해요",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
