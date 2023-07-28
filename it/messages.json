@@ -1444,10 +1444,6 @@
         "message": "Evita espressioni facciali esagerate",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Preferisci affermazioni a domande",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "Evita la descrizione delle reazioni al video (\"scioccante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
