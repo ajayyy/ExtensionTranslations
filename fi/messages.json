@@ -1444,10 +1444,6 @@
         "message": "Vältä ylikorostettuja kasvojen ilmeitä",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Suosi lausumia kysymyksiä enemmän",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "Vältä videon reaktioiden kuvausta (\"järkyttävä\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
