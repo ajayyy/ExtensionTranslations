@@ -1444,6 +1444,10 @@
         "message": "Избегайте вычурных выражений лица",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Старайтесь предложить название, отражающее суть всего видео, а не только отвечающее на вопрос из оригинального названия",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Избегайте описания реакций на видео (например, \"шок\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
