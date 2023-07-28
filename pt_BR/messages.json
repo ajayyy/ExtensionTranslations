@@ -1444,6 +1444,10 @@
         "message": "Evite expressões faciais exageradas",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Reflita aquilo que assistiu e escreva algo revelante ao Video, não responda apenas a pergunta do título original",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Evite descrever reações sobre o vídeo (\"chocante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1452,7 +1456,7 @@
         "message": "Antes de clicar, forneça informações suficientes para uma melhor seleção"
     },
     "tip5": {
-        "message": "Transforme isso em uma frase ou palavra",
+        "message": "Comece as frases em maiúsculas",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
