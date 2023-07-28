@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Помилка при спробі визнати попередження:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Ви отримали пораду від модератора"
+    },
     "Donate": {
         "message": "Пожертвувати"
     },
@@ -1315,6 +1318,15 @@
     "SentenceCase": {
         "message": "Як у реченнях"
     },
+    "LowerCase": {
+        "message": "Нижній Регістр"
+    },
+    "FirstLetterUppercase": {
+        "message": "Перша Буква Великою"
+    },
+    "shouldCleanEmojis": {
+        "message": "Прибрати Емодзі"
+    },
     "thumbnailFallbackOption": {
         "message": "За відсутності відправленого значка"
     },
@@ -1443,6 +1455,10 @@
     "tip4": {
         "message": "Надайте достатньо інформації, щоб користувач міг зробити поінформований вибір"
     },
+    "tip5": {
+        "message": "Пишіть першу букву великою, як в реченні",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
     },
@@ -1489,6 +1505,13 @@
     },
     "replaceThumbnails": {
         "message": "Замінювати значки"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Використовувати Покращені Заголовки"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Якщо вимкнено, він буде форматувати заголовки, але не використовуватиме назви, представлені спільнотою",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Ви впевнені, що хочете видалити цю конфігурацію?",
@@ -1574,5 +1597,8 @@
     },
     "dearrowLogoCredit": {
         "message": "Логотип на основі Twemoji під ліцензією CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock несумісний з розширенням \"Zoom до Fill\". Існує багато альтернатив для вас, що будуть працювати із застосунком належним чином."
     }
 }

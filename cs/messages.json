@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Chyba při pokusu o potvrzení varování:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Obdrželi jste tip od moderátora"
+    },
     "Donate": {
         "message": "Přispět"
     },
@@ -1451,6 +1454,10 @@
     },
     "tip4": {
         "message": "Poskytněte dostatek informací pro informovanou volbu před kliknutím"
+    },
+    "tip5": {
+        "message": "Použijte velká písmena jako ve větě",
+        "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Poznámka: vaše nastavení doplňku SponsorBlock byla automaticky importována!"

@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Erro ao tentar reconhecer o aviso:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Você recebeu uma dica de um moderador"
+    },
     "Donate": {
         "message": "Doar"
     },
@@ -1315,6 +1318,12 @@
     "SentenceCase": {
         "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
     },
+    "LowerCase": {
+        "message": "tudo minúsculo"
+    },
+    "FirstLetterUppercase": {
+        "message": "Primeira Letra Em Maiúscula"
+    },
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
@@ -1446,6 +1455,10 @@
     "tip4": {
         "message": "Antes de clicar, forneça informações suficientes para uma melhor seleção"
     },
+    "tip5": {
+        "message": "Transforme isso em uma frase ou palavra",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Observação: suas configurações do SponsorBlock foram importadas automaticamente!"
     },
@@ -1492,6 +1505,13 @@
     },
     "replaceThumbnails": {
         "message": "Substituir miniaturas"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Use as alterações dos Títulos da Comunidade de DeArrow"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Se desabilitado, formatação de títulos ainda funcionará, mas não usará os títulos da comunidade",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Deseja mesmo apagar esse ajuste?",
