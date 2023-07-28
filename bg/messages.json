@@ -1444,10 +1444,6 @@
         "message": "Избягвайте преувеличени изражения на лицето",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Предпочитайте твърденията пред въпросите",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "Избягвайте да описвате реакции на видеото (шокиращо)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
