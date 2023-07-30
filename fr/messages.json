@@ -1374,10 +1374,6 @@
         "message": "Éviter les expressions faciales exagérées",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Préférer les affirmations aux questions",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
     },

@@ -1441,22 +1441,22 @@
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
-        "message": "サムネ詐欺を避ける",
+        "message": "大げさな表情の使用を避ける",
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "疑問系の題名を内容の結論に置き換える",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
+        "message": "動画の全体の内容を踏まえてください。単なる元の題名への回答ではなく",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
         "message": "動画への反応としての説明を避ける (驚かせる表現)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "動画を視聴するかの判断に足る十分な案内を前もって提供する"
+        "message": "動画を視聴するかを判断できる十分な情報を提供する"
     },
     "tip5": {
-        "message": "文章として大文字化",
+        "message": "英語の題名は文章として大文字化する",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {

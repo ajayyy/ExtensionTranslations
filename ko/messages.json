@@ -1426,10 +1426,6 @@
         "message": "과장된 표현이 나타나지 않도록 해요",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "질문보다는 결론을 담아요",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "동영상에 대한 반응(\"충격\")을 담지 않도록 해요",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1472,6 +1468,9 @@
     "openSourceLicenses": {
         "message": "오픈소스 라이선스"
     },
+    "whatDefaultToOriginals": {
+        "message": "기본적으로 원본 제목과 미리 보기 이미지를 표시하지만, 마우스를 가져다 댔을 때 맞춤 제목과 미리 보기 이미지를 보여주는 버튼을 표시해요.  "
+    },
     "replaceTitles": {
         "message": "제목 대체"
     },
@@ -1484,6 +1483,9 @@
     },
     "NewConfiguration": {
         "message": "새 구성"
+    },
+    "DeleteConfiguration": {
+        "message": "구성 삭제"
     },
     "ChannelAllowlist": {
         "message": "채널 허용 목록"

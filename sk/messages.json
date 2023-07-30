@@ -1332,10 +1332,6 @@
         "message": "Vyhýbajte sa prehnaným výrazom tváre",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Uprednostňujte tvrdenia pred otázkami",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "Vyhýbajte sa opisovaniu reakcií na video (\"šokujúce\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"

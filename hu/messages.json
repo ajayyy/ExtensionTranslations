@@ -1444,10 +1444,6 @@
         "message": "Kerüld az eltúlzott arckifejezéseket",
         "description": "Referring to the thumbnail of a video"
     },
-    "tip2": {
-        "message": "Használj inkább állításokat kérdések helyett",
-        "description": "Referring to the title of a YouTube video. Questions being when a title is phrased as a question"
-    },
     "tip3": {
         "message": "Kerüld a videóra való reakciók leírását (pl. \"meglepő\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
