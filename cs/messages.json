@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock pro YouTube - Přeskoč sponzorství",
+        "message": "SponsorBlock pro YouTube - Přeskoč sponzory",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1443,6 +1443,10 @@
     "tip1": {
         "message": "Vyhněte se přehnaným výrazům obličeje",
         "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Přemýšlejte v širších souvislostech, neodpovídejte pouze na otázku v původním názvu",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
         "message": "Vyhněte se popisování reakcí na video („šokující“)",
