@@ -1456,7 +1456,7 @@
         "message": "Antes de clicar, forneça informações suficientes para uma melhor seleção"
     },
     "tip5": {
-        "message": "Comece as frases em maiúsculas",
+        "message": "Comece as frases com maiúsculas",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
