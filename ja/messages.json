@@ -1445,7 +1445,7 @@
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "動画の全体の内容を踏まえてください。単なる元の題名への回答ではなく",
+        "message": "動画の全体の内容を踏まえてください。元の題名への単なる回答ではなく",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
