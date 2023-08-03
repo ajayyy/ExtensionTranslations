@@ -240,8 +240,23 @@
     "whatQueryByHashPrefix": {
         "message": "بدلاً من طلب مقاطع من الخادم باستخدام معرف الفيديو ، يتم إرسال الأحرف الأربعة الأولى من تجزئة معرف الفيديو. سيرسل هذا الخادم البيانات مرة أخرى لجميع مقاطع الفيديو ذات التجزئات المتشابهة."
     },
+    "enableRefetchWhenNotFound": {
+        "message": "إعادة جلب الشرائح في مقاطع الفيديو الجديدة"
+    },
+    "whatRefetchWhenNotFound": {
+        "message": "إذ كان الفيديو جديد، ولم يتم العثور على أي أقسام، سيتم أستمرار البحث على أقسام كل بضع دقائق بينما تشاهد."
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "إظهار الفئات في قائمة الإرسال حتى دون إذن الإرسال"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "تحتاج بعض الفئات إلى إذن لتقديمها بسبب الحد الأدنى من متطلبات السمعة"
+    },
     "showNotice": {
         "message": "إظهار الإشعار مرة أخرى"
+    },
+    "showSkipNotice": {
+        "message": "إظهار إشعار بعد تخطي قطاع ما"
     },
     "showCategoryGuidelines": {
         "message": "إظهار مساعدة الفئة"
@@ -264,6 +279,14 @@
     },
     "setSubmitKeybind": {
         "message": "إرسال الأجزاء",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "الفصل التالي",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "الفصل السابق",
         "description": "Keybind label"
     },
     "yourWork": {
