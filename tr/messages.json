@@ -26,7 +26,7 @@
         "message": "kısım"
     },
     "SegmentsCap": {
-        "message": "Segmentler"
+        "message": "Kısımlar"
     },
     "Chapters": {
         "message": "Bölümler"
@@ -135,7 +135,7 @@
         "message": "Gönderiler Menüsünü Aç"
     },
     "sortSegments": {
-        "message": "Segmentleri Sırala"
+        "message": "Kısımları Sırala"
     },
     "submitCheck": {
         "message": "Bunu göndermek istediğinize emin misiniz?"
@@ -181,7 +181,7 @@
         "message": "Herkese Açık Kullanıcı Kimliğini Kopyala"
     },
     "copySegmentID": {
-        "message": "Segment Kimliğini Kopyala"
+        "message": "Kısım Kimliğini Kopyala"
     },
     "hideThis": {
         "message": "Bunu sakla"
@@ -752,7 +752,7 @@
         "message": "Sponsor marka isimlerinden bahsetme"
     },
     "category_chapter_guideline2": {
-        "message": "Genel kısımlar için daha büyük bölümler kullanın"
+        "message": "Genel segmentler için daha büyük bölümler kullanın"
     },
     "category_chapter_guideline3": {
         "message": "Daha küçük bölümler daha büyük bölümlerin içine yerleştirilebilir"
@@ -1063,7 +1063,7 @@
         "message": "Olumlu oy"
     },
     "hideSegment": {
-        "message": "Segmenti gizleyin"
+        "message": "Kısmı gizleyin"
     },
     "skipSegment": {
         "message": "Kısmı atla"
@@ -1248,6 +1248,10 @@
     "allowScrollingToEdit": {
         "message": "Zamanları Düzenlemek İçin Kaydırmaya İzin Ver"
     },
+    "NoticeTimeAfterSkip": {
+        "message": "%{seconds}sn",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
     "deArrowFullName": {
         "message": "DeArrow - Youtube İçin Daha İyi Başlıklar Ve Küçük Resimler",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
@@ -1396,6 +1400,176 @@
     },
     "renderTimeoutDescription": {
         "message": "Şu sürede küçük resim getirilemezse aslındakini göster."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Yerel Küçük Resim Oluşturmaya Başlamak İçin Zaman Aşımı (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Eğerki sunucu ile bir küçük resim oluşturmak uzun sürerse yerelde bir küçük resim oluşturmayı dene."
+    },
+    "Enable": {
+        "message": "Etkinleştir"
+    },
+    "Titles": {
+        "message": "Başlıklar",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Küçük Resimler",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Hata"
+    },
+    "ShowOriginal": {
+        "message": "Orijinal Ayrıntıları Göster"
+    },
+    "ShowModified": {
+        "message": "Değiştirilmiş Ayrıntıları Göster"
+    },
+    "FillerWarning": {
+        "message": "Uyarı: Bu son derece agresif bir kategoridir. Muhtemelen bazı içerikleri atlamak veya bazen devre dışı bırakmanız gerekebilir. Ancak unutmayın, gönderirken hala belirli kurallara uymamız gerektiğini unutmayın. Birçok video, videonun %50'den fazlasının atlandığı veya daha fazla olduğu bir durumdadır!",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Kalıcı olarak bu sohbette kalmak için. Discord yada Matrixe katıl",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Yardım Kılavuzunu Göster",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Aşırı abartılı yüz ifadelerinden kaçının",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Büyük resmi düşünün, sadece orijinal başlığın sorusunu cevaplamayın",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Videoya tepki niteliğinde açıklamalardan kaçının ('Mesela Şok Edici!')",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Tıklamadan önce bilinçli bir tercih yapabilmek için yeterli bilgiyi sağlayın"
+    },
+    "tip5": {
+        "message": "Bir cümle gibi ilk harfi büyüt",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
+    },
+    "howItWorks": {
+        "message": "Nasıl çalışıyor"
+    },
+    "thanksForTryingOutDeArrow": {
+        "message": "DeArrowu denediğin için teşekkür ederim"
+    },
+    "deArrowBetaStatus": {
+        "message": "Lütfen bu uzantının hala beta aşamasında olduğunu unutmayın. Bu uzantı beta sırasında yükleyen herkese kalıcı olarak ücretsizdir. Evet, bu gelecekte sadece yeni kullanıcılar için bir ödeme engeline sahip olacak anlamına geliyor, ancak insanlara ücretsiz erişim elde etmek için bir yol bulacağıma söz veriyorum. Tabii ki, uzantı her zaman tamamen açık kaynaklı kalacak ve halka açık olarak indirilebilir bir veritabanına sahip olacaktır, yani SponsorBlock gibi.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Bu durumda bile denemeyi düşündüğünüz için teşekkür ederim",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Katkıda ve önerilerde bulunun ve {discord} veya {matrix} üzerinden yardımcı olun"
+    },
+    "deArrowDonationText": {
+        "message": "Eğer şimdiye kadar yaptıklarımı beğendiyseniz ve maddi olarak yardımcı olmak isterseniz, işte bir bağlantı"
+    },
+    "termsAgreement": {
+        "message": "Bu uzantıyı kullanarak, {privacy-policy} ve {terms} 'i kabul etmiş olursunuz"
+    },
+    "privacyPolicy": {
+        "message": "Gizlilik Politikası"
+    },
+    "termsOfUse": {
+        "message": "Kullanım Koşulları"
+    },
+    "openSourceLicenses": {
+        "message": "Açık Kaynak Lisansları"
+    },
+    "defaultToOriginals": {
+        "message": "Varsayılan olarak Orijinal Video Bilgileri"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Varsayılan olarak orijinal başlığı ve küçük resmi göster, ancak özel başlıkları ve küçük resimleri görmek için üzerine geldiğinizde görünen bir düğmeye sahip ol."
+    },
+    "replaceTitles": {
+        "message": "Başlıkları Değiştir"
+    },
+    "replaceThumbnails": {
+        "message": "Küçük Resimleri Değiştir"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Topluluk Kaynaklı Başlıkları Kullan"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Eğer devre dışı bırakılırsa, başlıkları biçimlendirecek ancak topluluk tarafından gönderilen başlıkları kullanmayacaktır",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Bu yapılandırmayı silmek istediğinizden emin misiniz?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Yeni Yapılandırma"
+    },
+    "DeleteConfiguration": {
+        "message": "Yapılandırmayı Sil"
+    },
+    "ChannelAllowlist": {
+        "message": "İzin Verilen Kanallar"
+    },
+    "ConfigurationName": {
+        "message": "Yapılandırma Adı"
+    },
+    "ChannelListInstructions": {
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanarak Kullanıcı adları desteklenmez. Kanal Kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Henüz yapılandırma ayarlanmadı. Yeni bir yapılandırma eklemek için üstteki düğmeye tıklayın.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Başlıkları ve küçük resimleri daha doğru olanlarla değiştirerek clickbaitleri durdurun"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Clickbaitlerden sıkıldınız mı? Başlıkları ve küçük resimleri iyileştiren yeni uzantımı kontrol edin"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir ve başlık otomatik olarak biçimlendirilir",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Bu varsayılanı aşağıda değiştirebilirsiniz",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "Bu uzantıyı yüklediğinizden beri {titles} başlık ve {thumbnails} küçük resim değiştirildi",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} başlık ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} başlıklar ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "ve {thumbnails} küçük resim",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailsPart": {
         "message": "ve {thumbnails} küçük resim",
