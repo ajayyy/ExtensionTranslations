@@ -767,7 +767,7 @@
         "message": "Arama Çubuğunda Göster"
     },
     "disable": {
-        "message": "Devredışı"
+        "message": "Devre dışı"
     },
     "autoSkip_POI": {
         "message": "Başlangıca otomatik atla"
@@ -785,10 +785,10 @@
         "message": "Bölümleri Göster"
     },
     "autoSkipOnMusicVideos": {
-        "message": "Müzik olmayan kısım varsa tüm kısımları otomatik atla"
+        "message": "Müzik olmayan kısım varsa otomatik atla"
     },
     "muteSegments": {
-        "message": "Atlamak yerine sesi kapatan bölümlere izin ver"
+        "message": "Atlamak yerine sesi susturan bölümlere izin ver"
     },
     "fullVideoSegments": {
         "message": "Video bütünüyle bir reklamsa simge göster",
@@ -848,13 +848,13 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "gizlendi: eksile"
+        "message": "Gizlendi: Olumsuz oylardan kaynaklı"
     },
     "hiddenDueToDuration": {
-        "message": "gizlendi: çok kısa"
+        "message": "Gizlendi: Çok kısa"
     },
     "manuallyHidden": {
-        "message": "elle gizlendi"
+        "message": "Elle gizlendi"
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
@@ -961,7 +961,7 @@
         "message": "Geliştirme sürecinin fonlanmasına yardım et"
     },
     "hideDonationLink": {
-        "message": "Bağış Bağlantısını Gizle"
+        "message": "Bağış URL'sini Gizle"
     },
     "darkModeOptionsPage": {
         "message": "Ayarlar Sayfasında Karanlık Modu"
@@ -979,16 +979,16 @@
         "message": "Atlama nasıl çalışıyor"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Segmen video akan otomatis dilewati jika ditemukan di databasis. Kamu bisa buka munculan dengan klik ikon ekstensi untuk mendapatkan pratinjau apa adanya."
+        "message": "Veritabanında bulunursa video segmentleri otomatik olarak atlanacaktır. Olduğu gibi bir önizleme almak için uzantı simgesine tıklayarak açılır pencereyi açabiliriz."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Når du springer et segment over, får du besked, når du springer et segment over. Hvis timingen virker forkert, kan du stemme ned ved at klikke på downvote! Du kan også stemme i popup-vinduet."
+        "message": "Bir bölümü atladığınızda, bir bölümü atladığınızda bilgilendirileceksiniz. Zamanlama yanlış görünüyorsa, olumsuz oyu tıklayarak olumsuz oy kullanabilirsiniz! Açılır pencerede de oy verebilirsiniz."
     },
     "Submitting": {
         "message": "Submitting"
     },
     "helpPageSubmitting1": {
-        "message": "Indsendelse kan enten ske i popup-vinduet ved at trykke på \"Segment Begynder Nu\"-knappen eller i videoafspilleren med knapperne på afspilleren."
+        "message": "Gönderim, açılır pencerede \"Segment Şimdi Başlıyor\" düğmesine basılarak veya video oynatıcıda oynatıcıdaki düğmeler kullanılarak yapılabilir."
     },
     "helpPageSubmitting2": {
         "message": "Clicking the play button indicated the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
@@ -1006,13 +1006,13 @@
         "message": "Kullanmak isterseniz kısayol tuşları var. Sponsorlu kısmın başlangıcını/sonunu belirtmek için noktalı virgül tuşuna basın ve göndermek için kesme işaretine tıklayın. Bu tuşlar ayarlarda değiştirilebilir. QWERTY klavye kullanmıyorsanız, tuş ayarlarını değiştirmelisiniz."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Veri tabanının bir kopyasını alabilir miyim? Bir gün ortadan kaybolursanız ne olacak?"
+        "message": "Veri tabanının bir kopyasını alabilir miyim? Bir gün ortadan kaybolursan ne olacak?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "Veri tabanı herkese açıktır ve şuradan erişilebilir: "
     },
     "helpPageCopyOfDatabase2": {
-        "message": "Kaynak koduna serbestçe erişilebilir. Ben bir gün bu dünyada yalan olsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
+        "message": "Kaynak koduna serbestçe erişilebilir. Yani ben bu dünyadan kuş olup uçsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
     },
     "helpPageNews": {
         "message": "Haberler ve nasıl yapılır"
@@ -1045,7 +1045,7 @@
         "message": "Bu, kısımlarınız için anında geçerli olur"
     },
     "downvote": {
-        "message": "Eksi oy"
+        "message": "Olumsuz oy"
     },
     "upvote": {
         "message": "Olumlu oy"
@@ -1063,7 +1063,7 @@
         "message": "Zaman aralığını hızlı bir şekilde ayarlamak için düzenleme kutusunun üzerinde fare tekerini kullanın. Değişikliklere ince ayar yapmak için ctrl veya shift tuşunun kombinasyonları kullanılabilir."
     },
     "categoryPillNewFeature": {
-        "message": "Yeni! Videonun bütünü sponsor veya kendi reklamıysa bu uyarıyı görün"
+        "message": "Yeni! Videonun bütünü sponsor veya kendi reklamıysa bu uyarıyı gör"
     },
     "dayAbbreviation": {
         "message": "g",
@@ -1123,7 +1123,7 @@
         "message": "Tüm ayarları varsayılan değerlerine sıfırlamak istediğinizden emin misiniz? Bu geri alınamaz."
     },
     "exportSegments": {
-        "message": "Segmentleri dışa aktar"
+        "message": "Kısımları dışa aktar"
     },
     "importSegments": {
         "message": "Kısımları içe aktar"
@@ -1164,7 +1164,7 @@
         "message": "Kullan"
     },
     "joinOnPatreon": {
-        "message": "Patreon'da Destekle"
+        "message": "Patreon'dan Destekle"
     },
     "oneTimePurchase": {
         "message": "Tek seferlik satın alım"
@@ -1228,7 +1228,7 @@
         "message": "URL olarak paylaş"
     },
     "segmentFetchFailureWarning": {
-        "message": "Dikkat: Sunucu henüz kısımlarla yanıt vermedi. Aslında bu videoda zaten gönderilmiş bölümler olabilir, ancak sunucudaki sorunlar nedeniyle bunları almadınız."
+        "message": "Dikkat: Sunucu henüz kısımlarla yanıt verilmedi. Aslında bu videoda halihazırda gönderilmiş bölümler olabilir, fakat sunucudaki sorunlar nedeniyle bunları teslim alamamış olabilirsiniz."
     },
     "allowScrollingToEdit": {
         "message": "Zamanları Düzenlemek İçin Kaydırmaya İzin Ver"
@@ -1237,6 +1237,6 @@
         "message": "Küçük resim çizim zamanaşımı (ms)"
     },
     "renderTimeoutDescription": {
-        "message": "Şu sürede küçük resim getirilemezse aslındakini göster."
+        "message": "Bu sürede küçük resim getirilemezse orijinal küçük resmi göster."
     }
 }
