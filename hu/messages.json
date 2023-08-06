@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "Hogyan működik"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Köszönöm, hogy kipróbálod a DeArrowt"
-    },
-    "deArrowBetaStatus": {
-        "message": "Kérlek, vedd figyelembe, hogy ez a bővítmény még béta állapotban van. A bővítmény örökké ingyenes lesz mindenkinek, aki a béta ideje alatt telepíti magának. Igen, ez azt jelenti, hogy lesz majd egy \"fizetési fal\" a jövőben az új felhasználóknak, de ígérem, hogy továbbra is lesz módja ingyenes hozzáférés megszerzésének. Természetesen a bővítmény mindig is nyílt forráskódú marad egy nyilvánosan letölthető adatbázissal, pont mint a SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Köszönöm, hogy kipróbálnád ebben az állapotban is",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Gyere, járulj hozzá a fejlesztéshez, tegyél javaslatokat és segíts {discord}on vagy {matrix}on"
     },
