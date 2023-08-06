@@ -1460,6 +1460,20 @@
     "thanksForTryingOutDeArrow": {
         "message": "Merci d'avoir essayé DeArrow"
     },
+    "deArrowBetaStatus": {
+        "message": "Veuillez noter que cette extension est encore en version bêta. Cette extension est gratuite, pour toujours, pour toute personne qui l'installe pendant la version bêta. Oui, cela signifie qu'il y aura pour les nouveaux utilisateurs dans le futur un péages, mais je promets qu'il y aura toujours un moyen pour les gens d'obtenir un accès gratuit. Bien sûr, l'extension restera toujours entièrement open source, avec une base de données téléchargeable publiquement, tout comme SponsorBlock.",
+        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
+    },
+    "deArrowTryingOut": {
+        "message": "Merci d'avoir envisagé de l'essayer, même dans cette situation",
+        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
+    },
+    "discordPromotion": {
+        "message": "Venez contribuer, faire quelques suggestions et aider sur {discord} ou sur {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Si vous aimez ce que j'ai fait jusqu'à présent et que vous voulez m'aider avec de l'argent, voici un lien"
+    },
     "termsAgreement": {
         "message": "En utilisant cette extension, vous acceptez les {privacy-policy} et {terms}"
     },
@@ -1481,6 +1495,13 @@
     "replaceThumbnails": {
         "message": "Remplacer les miniatures"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Utiliser les titres collaboratifs"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Si désactivé, cela formalisera les titres mais n'utilisera pas les titres soumis par la communauté",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Êtes-vous certain de vouloir supprimer cette configuration ?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1490,6 +1511,9 @@
     },
     "DeleteConfiguration": {
         "message": "Supprimer la configuration"
+    },
+    "ChannelAllowlist": {
+        "message": "Liste des Chaînes Autorisées"
     },
     "ConfigurationName": {
         "message": "Nom de la configuration"
@@ -1514,10 +1538,20 @@
         "message": "et {thumbnails} miniatures",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "countReplacements": {
+        "message": "Nombre de titres et de remplacements de miniatures"
+    },
+    "countReplacementsDescription": {
+        "message": "Utilisé pour vous donner des statistiques dans le popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
     "requiresUblock": {
         "message": "Nécessite uBlock Origin"
     },
     "dearrowLogoCredit": {
         "message": "Logo basé sur Twemoji sous licence CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock n'est pas compatible avec l'extension \"Zoom to Fill\". Il existe de nombreuses alternatives que vous pouvez utiliser à la place qui fonctionneront correctement."
     }
 }
