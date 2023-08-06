@@ -1589,5 +1589,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock není kompatibilní s doplňkem „Zoom to Fill“. Místo něj můžete použít spoustu alternativ, které fungují správně."
+    },
+    "freeTrialStarted": {
+        "message": "Vaše bezplatná zkušební verze byla úspěšně zahájena. Navštivte YouTube a vyzkoušejte ji"
+    },
+    "freeTrialEnded": {
+        "message": "Vaše bezplatná zkušební verze skončila"
+    },
+    "freeTrialPrompt": {
+        "message": "Pokud si chcete na hodinu vyzkoušet funkce, můžete tlačítkem níže zahájit zkušební verzi."
+    },
+    "startFreeTrial": {
+        "message": "Spustit bezplatnou zkušební verzi"
+    },
+    "freeAccessRequested": {
+        "message": "Úspěšně jste se zaregistrovali pro bezplatný přístup. Jakmile vám bude udělen přístup, budete upozorněni."
+    },
+    "freeAccessComplete": {
+        "message": "Gratulujeme! Nyní máte bezplatný přístup k DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow není aktivován"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivovat DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow byl úspěšně aktivován"
+    },
+    "Close": {
+        "message": "Zavřít"
+    },
+    "ViewLicenseKey": {
+        "message": "Zobrazit licenční klíč"
+    },
+    "SharingIsCaring": {
+        "message": "Daruj a budeš obdarován"
     }
 }
