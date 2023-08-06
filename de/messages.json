@@ -1589,5 +1589,38 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es existieren viele Alternativen welche ohne probleme funktionieren werden."
+    },
+    "freeTrialStarted": {
+        "message": "Deine kostenlose Testversion wurde gestartet. Besuche YouTube, um es auszuprobieren"
+    },
+    "freeTrialEnded": {
+        "message": "Deine kostenlose Testversion ist abgelaufen"
+    },
+    "freeTrialPrompt": {
+        "message": "Du kannst eine kostenlose Testversion mit dem Knopf unten starten, um es für eine Stunde auszuprobieren."
+    },
+    "startFreeTrial": {
+        "message": "Kostenlose Testversion starten"
+    },
+    "freeAccessRequested": {
+        "message": "Sie haben sich erfolgreich für den kostenlosen Zugang registriert. Sie werden benachrichtigt, wenn dieser gewährt wird."
+    },
+    "freeAccessComplete": {
+        "message": "Glückwunsch! Du hast nun kostenlosen Zugriff auf DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow ist nicht aktiviert"
+    },
+    "ActivateDeArrow": {
+        "message": "DeArrow aktivieren"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow wurde erfolgreich aktiviert"
+    },
+    "Close": {
+        "message": "Schließen"
+    },
+    "ViewLicenseKey": {
+        "message": "Lizenzschlüssel anzeigen"
     }
 }
