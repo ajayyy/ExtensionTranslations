@@ -1406,5 +1406,23 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock nie je kompatibilný s rozšírením \"Zoom to Fill\". Môžete použiť veľa alternatív, ktoré fungujú správne."
+    },
+    "freeTrialStarted": {
+        "message": "Začalo sa vám skúšobné obdobie. Vyskúšajte ho návštevou YouTube"
+    },
+    "freeTrialEnded": {
+        "message": "Skúšobné obdobie vám skončilo"
+    },
+    "freeTrialPrompt": {
+        "message": "Skúšobné obdobie zdarma na jednu hodinu môžete aktivovať tlačidlom nižšie."
+    },
+    "startFreeTrial": {
+        "message": "Začať skúšobné obdobie"
+    },
+    "freeAccessRequested": {
+        "message": "Úspešne ste sa zaregistrovali pre prístup zdarma. Po aktivácii vám príde oznámenie."
+    },
+    "freeAccessComplete": {
+        "message": "Gratulujeme! Teraz máte k DeArrow prístup zdarma"
     }
 }
