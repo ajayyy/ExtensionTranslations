@@ -1439,17 +1439,6 @@
     "howItWorks": {
         "message": "작동 원리"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "DeArrow를 이용해주셔서 감사드려요"
-    },
-    "deArrowBetaStatus": {
-        "message": "아직 확장 프로그램이 베타 버전이라는 점 참고 부탁드려요. 이 확장 프로그램은 베타 기간 동안 설치한 사람 누구에게나, 평생, 무료예요. 즉 향후 새로운 사용자에 한해선 유료 결제를 진행해야 할 수도 있어요. 하지만 무료로 이용할 수 있는 방법이 있을 것이라고 약속드릴게요. 당연히 확장 프로그램은 SponsorBlock처럼, 완전한 오픈 소스로 유지할 것이고, 공개적으로 다운로드할 수 있는 데이터베이스도 제공할 거예요.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "베타임에도 확장 프로그램 사용을 시도해주셔서 감사드려요",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "{discord} 혹은 {matrix}에서 기여하거나, 제안을 남기거나, 도와주세요"
     },
