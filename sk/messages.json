@@ -1424,5 +1424,20 @@
     },
     "freeAccessComplete": {
         "message": "Gratulujeme! Teraz máte k DeArrow prístup zdarma"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow nie je aktivovaný"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivovať DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow bol úspešne aktivovaný"
+    },
+    "Close": {
+        "message": "Zavrieť"
+    },
+    "ViewLicenseKey": {
+        "message": "Zobraziť licenčný kľúč"
     }
 }
