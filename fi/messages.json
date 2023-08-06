@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "Miten se toimii"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Kiitos DeArrown kokeilusta"
-    },
-    "deArrowBetaStatus": {
-        "message": "Huomioi, että lisäosa on vielä beta-testauksessa. Lisäosa on pysyvästi ilmainen kaikille, jotka asentavat sen beta-vaiheen aikana. Tämä tosiaan tarkoittaa sitä, että jatkossa uudet käyttäjät tulevat kohtaamaan maksumuurin, mutta lupaan tarjota keinoja myös käyttöoikeuden ilmaiseen hankintaan. Ja laajennus tulee toki aina olemaan täysin avointa lähdekoodia julkisesti ladattavissa olevalla tietokannalla SponsorBlockin tapaan.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Kiitos kun harkitset sen kokeilemista myös tässä tilanteessa",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Liity mukaan, tee ehdotuksia ja auta alustoilla {discord} tai {matrix}"
     },
