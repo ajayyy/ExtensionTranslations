@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "How it works"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Thanks for trying out DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Please note that this extension is still in beta. This extension is free, forever, for anyone who installs it during the beta. Yes, that means there will be a paywall for new users only in the future, but I promise that there will still be a way to for people to get free access. Of course the extension will always remain fully open source, with a publicly downloadable database, just like SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Thank you for considering trying it out even in this situation",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Come contribute, make some suggestions and help out on {discord} or on {matrix}"
     },
@@ -1600,5 +1589,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock is not compatible with the extension \"Zoom to Fill\". There are many alternatives you can use instead that will work properly."
+    },
+    "freeTrialStarted": {
+        "message": "Your free trial has successfully started. Visit YouTube to test it out"
+    },
+    "freeTrialEnded": {
+        "message": "Your free trial is over"
+    },
+    "freeTrialPrompt": {
+        "message": "If you want to test it out for an hour, you can start a free trial with the button below."
+    },
+    "startFreeTrial": {
+        "message": "Start free trial"
+    },
+    "freeAccessRequested": {
+        "message": "You are successfully registered for free access. You will be notified when free access is granted."
+    },
+    "freeAccessComplete": {
+        "message": "Congrats! You now have free access to DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow is not activated"
+    },
+    "ActivateDeArrow": {
+        "message": "Activate DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow has been successfully activated"
+    },
+    "Close": {
+        "message": "Close"
+    },
+    "ViewLicenseKey": {
+        "message": "View License Key"
+    },
+    "SharingIsCaring": {
+        "message": "Sharing is caring"
     }
 }
