@@ -1601,5 +1601,26 @@
     },
     "startFreeTrial": {
         "message": "試用を始める"
+    },
+    "freeAccessRequested": {
+        "message": "無料の試用にお申し込みいただきありがとうございます。試用期間が始まりましたら追ってお知らせいたします。"
+    },
+    "freeAccessComplete": {
+        "message": "ただいまより、DeArrowを無料でお使いいただけます。"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrowをお使いになれません。"
+    },
+    "ActivateDeArrow": {
+        "message": "DeAarrowを使う"
+    },
+    "DeArrowIsActivated": {
+        "message": "ただいまよりDeArrowをお使いいただけます。"
+    },
+    "Close": {
+        "message": "閉じる"
+    },
+    "ViewLicenseKey": {
+        "message": "許諾暗証語を見る"
     }
 }
