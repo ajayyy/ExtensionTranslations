@@ -1590,6 +1590,9 @@
     "zoomToFillUnsupported": {
         "message": "SponsorBlock nie jest kompatybilny z rozszerzeniem \"Zoom to Fill\". Istnieje wiele alternatyw, których można użyć zamiast tego i które będą działać poprawnie."
     },
+    "freeTrialStarted": {
+        "message": "Twój bezpłatny okres próbny został rozpoczęty pomyślnie. Odwiedź YouTube, aby go wypróbować"
+    },
     "freeTrialEnded": {
         "message": "Twój bezpłatny okres próbny dobiegł końca"
     },
