@@ -1589,5 +1589,17 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock は拡張機能 Zoom to Fill と互換性がありません。正常に動作する別の拡張機能がほかにもあります。"
+    },
+    "freeTrialStarted": {
+        "message": "ただいまより無料の試用期間が始まります。YouTube上で確認いただけます。"
+    },
+    "freeTrialEnded": {
+        "message": "無料の試用期間が過ぎています。"
+    },
+    "freeTrialPrompt": {
+        "message": "1時間の間、無料で試用することができます。下のボタンを押すと始まります。"
+    },
+    "startFreeTrial": {
+        "message": "試用を始める"
     }
 }
