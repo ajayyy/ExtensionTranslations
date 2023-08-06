@@ -1589,5 +1589,11 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock ei ole yhteensopiva \"Zoom to Fill\" -laajennuksen kanssa. Voit sen sijaan käyttää monia muita ongelmitta toimivia laajennuksia."
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivoi DeArrow"
+    },
+    "Close": {
+        "message": "Sulje"
     }
 }
