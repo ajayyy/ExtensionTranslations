@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "仕組み"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "DeArrow の試用に感謝します"
-    },
-    "deArrowBetaStatus": {
-        "message": "この拡張機能はまだベータ版です。ベータ版のうちにインストールするなら誰でも無料です。 はい、時が来たら、新しいユーザーは有料の壁に遮られるということです。でも私は人々が自由に利用する方法を確保することも約束します。もちろん、拡張機能は完全にオープンソースのままですし、SponsorBlock と同じように公開されたダウンロード可能なデータベースもあります。",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "この状態でも試していただき感謝します",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "{discord}や{matrix}にて、あなたからの提案や貢献、お手伝いをお待ちしています"
     },
