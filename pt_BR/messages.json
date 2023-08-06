@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "Como funciona"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Obrigado por experimentar o DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Essa extensão ainda está em desenvolvimento. É uma extensão gratuita, e será gratuita para sempre para quem testá-la durante a fase beta. Sim, ela será paga no futuro, mas ainda haverá formas de ser obtida gratuitamente. A extensão sempre terá seu código aberto e um banco de dados público, assim como o SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Obrigado novamente por testar durante a fase de desenvolvimento",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Deixe sua contribuição, sugestões ou ajude outros usuários no {discord} ou {matrix}"
     },
