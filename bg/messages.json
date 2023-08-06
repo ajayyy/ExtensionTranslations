@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "Как функционира"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Благодарим ви, че опитахте DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Моля, имайте предвид, че това разширение все още е в бета версия. Това разширение е безплатно завинаги за всеки, който го инсталира по време на бета версията. Да, това означава, че в бъдеще ще има платен достъп само за нови потребители, но обещавам, че все пак ще има начин хората да получат безплатен достъп. Разбира се, разширението винаги ще остане с напълно отворен код, с публично достъпна база данни за изтегляне, точно както SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Благодарим ви, че обмислихте да го изпробвате дори в тази ситуация",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Присъединете се, направете някои предложения и помогнете в {discord} или {matrix}"
     },
