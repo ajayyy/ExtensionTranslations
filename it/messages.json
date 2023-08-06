@@ -1444,6 +1444,10 @@
         "message": "Evita espressioni facciali esagerate",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Pensa in grande, non rispondere soltanto alla domanda del titolo originale",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Evita la descrizione delle reazioni al video (\"scioccante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1585,5 +1589,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock non è compatibile con l'estensione \"Zoom to Fill\". Ci sono molte alternative funzionanti che puoi usare al suo posto."
+    },
+    "freeTrialStarted": {
+        "message": "La tua prova gratuita è stata avviata correttamente. Visita YouTube per testarla"
+    },
+    "freeTrialEnded": {
+        "message": "La tua prova gratuita è terminata"
+    },
+    "freeTrialPrompt": {
+        "message": "Se desideri testarla pr un'ora, puoi avviare una prova gratuita con il pulsante seguente."
+    },
+    "startFreeTrial": {
+        "message": "Avvia la prova gratuita"
+    },
+    "freeAccessRequested": {
+        "message": "Ti sei registrato correttamente per l'accesso gratuito. Riceverai una notifica quando sarà concesso l'accesso gratuito."
+    },
+    "freeAccessComplete": {
+        "message": "Congratulazioni! Ora hai l'accesso gratuito a DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow non è attivato"
+    },
+    "ActivateDeArrow": {
+        "message": "Attiva DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow è stato attivato correttamente"
+    },
+    "Close": {
+        "message": "Chiudi"
+    },
+    "ViewLicenseKey": {
+        "message": "Visualizza la Chiave di Licenza"
+    },
+    "SharingIsCaring": {
+        "message": "La condivisione è amore"
     }
 }
