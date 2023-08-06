@@ -1589,5 +1589,14 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock не совместим с расширением \"Zoom to Fill\". Вы можете использовать другие подобные расширения, они будут работать."
+    },
+    "startFreeTrial": {
+        "message": "Попробовать бесплатно"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow не активировано"
+    },
+    "ActivateDeArrow": {
+        "message": "Активировать DeArrow"
     }
 }
