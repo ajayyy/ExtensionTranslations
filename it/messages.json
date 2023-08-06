@@ -1461,17 +1461,6 @@
     "howItWorks": {
         "message": "Come funziona"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "Grazie per aver provato DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Sei pregato di notare che quest'estensione è ancora in beta. Quest'estensione sarà gratuita per sempre, per chiunque la installerà durante la beta. Sì, ciò significa che sarà a pagamento per i nuovi utenti in futuro, ma prometto che continuerà a esistere un metodo per ottenere l'accesso gratuito. Ovviamente, l'estensione rimarrà sempre completamente open source, con un database scaricabile pubblicamente, proprio come SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Grazie per aver preso in considerazione di provarla, anche in questa situazione",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Vieni a contribuire, effettua qualche suggerimento e aiuta su {discord} o su {matrix}"
     },
