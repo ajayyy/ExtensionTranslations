@@ -1589,5 +1589,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock är inte kompatibelt med tillägget \"Zoom to Fill\". Det finns många alternativ som du kan använda istället som fungerar korrekt."
+    },
+    "freeTrialStarted": {
+        "message": "Din fria utvärderingsperiod har börjat. Besök YouTube för att testa det"
+    },
+    "freeTrialEnded": {
+        "message": "Din fria utvärderingsperiod är slut"
+    },
+    "freeTrialPrompt": {
+        "message": "Om du vill testa det en timme, kan du starta en gratis utvärderingsperiod med knappen nedan."
+    },
+    "startFreeTrial": {
+        "message": "Påbörja gratis utvärderingsperiod"
+    },
+    "freeAccessRequested": {
+        "message": "Du är registrerad för gratis tillgång. Du kommer att meddelas när gratis tillgång beviljas."
+    },
+    "freeAccessComplete": {
+        "message": "Grattis! Du har nu gratis tillgång till DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow är inte aktiverad"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivera DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow har aktiverats"
+    },
+    "Close": {
+        "message": "Stäng"
+    },
+    "ViewLicenseKey": {
+        "message": "Visa licensnyckel"
+    },
+    "SharingIsCaring": {
+        "message": "Delad glädje är dubbel glädje"
     }
 }
