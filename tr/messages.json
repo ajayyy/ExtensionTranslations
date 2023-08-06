@@ -1465,17 +1465,6 @@
     "howItWorks": {
         "message": "Nasıl çalışıyor"
     },
-    "thanksForTryingOutDeArrow": {
-        "message": "DeArrowu denediğin için teşekkür ederim"
-    },
-    "deArrowBetaStatus": {
-        "message": "Lütfen bu uzantının hala beta aşamasında olduğunu unutmayın. Bu uzantı beta sırasında yükleyen herkese kalıcı olarak ücretsizdir. Evet, bu gelecekte sadece yeni kullanıcılar için bir ödeme engeline sahip olacak anlamına geliyor, ancak insanlara ücretsiz erişim elde etmek için bir yol bulacağıma söz veriyorum. Tabii ki, uzantı her zaman tamamen açık kaynaklı kalacak ve halka açık olarak indirilebilir bir veritabanına sahip olacaktır, yani SponsorBlock gibi.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Bu durumda bile denemeyi düşündüğünüz için teşekkür ederim",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
-    },
     "discordPromotion": {
         "message": "Katkıda ve önerilerde bulunun ve {discord} veya {matrix} üzerinden yardımcı olun"
     },
