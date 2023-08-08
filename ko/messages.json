@@ -1495,6 +1495,13 @@
     "replaceThumbnails": {
         "message": "미리 보기 이미지 대체"
     },
+    "useCrowdsourcedTitles": {
+        "message": "사용자 참여 제목 사용"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "끄면, 제목을 형식에 맞게 변환하지만 커뮤니티에서 제출한 제목을 사용하지 않아요",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "이 구성을 삭제할까요?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1525,12 +1532,20 @@
     "DeArrowPromotionMessage2": {
         "message": "어그로에 지치나요? 제목과 미리 보기 이미지를 향상시키는 확장 프로그램을 확인해 보세요"
     },
+    "RandomThumbnailExplanation": {
+        "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했어요",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했고, 제목 형식은 자동으로 맞췄어요",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
     "YouCanChangeThisDefaultBelow": {
         "message": "아래에서 기본값을 바꿀 수 있어요",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "확장 프로그램을 설치한 뒤 제목 {titles}개와 미리 보기 이미지 {thumbnails}개가 교체됨",
+        "message": "확장 프로그램을 설치한 뒤 제목 {titles}개와 미리 보기 이미지 {thumbnails}개를 교체했어요",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
@@ -1549,6 +1564,10 @@
         "message": "및 미리 보기 이미지 {thumbnails}개",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "dearrowStatsMessage2": {
+        "message": "확장 프로그램을 설치한 뒤 {titleAndThumbnailMessage}를 교체했어요",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "countReplacements": {
         "message": "제목과 미리 보기 이미지 교체 횟수 세기"
     },
@@ -1556,8 +1575,20 @@
         "message": "팝업 창에서 통계를 표시할 때 이용해요.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
+    "YtNeuterMessage": {
+        "message": "yt-neuter를 이용해 설문 조사, 상품 영역, 기타 홍보 요소를 차단하는 필터 목록 추가"
+    },
     "requiresUblock": {
         "message": "uBlock Origin 필요"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "동영상 ID를 탐지할 때 문제가 생겼어요. 제출하기 전 새로고침을 시도해보시고, 올바른 동영상에 잘 제출되었는지 확인해주세요. 문제가 자주 생긴다면, 설치한 다른 확장 프로그램이나 사용자 스크립트 목록을 포함해서 GitHub, Discord 혹은 Matrix를 통해 신고해주세요."
+    },
+    "dearrowLogoCredit": {
+        "message": "로고는 CC-BY 4.0 라이선스 하의 Twemoji를 기반으로 제작됨"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock은 \"Zoom to Fill\" 확장 프로그램과 호환되지 않아요. 잘 호환되는 대안 확장 프로그램이 많이 있어요."
     },
     "freeTrialStarted": {
         "message": "무료 체험을 성공적으로 시작했어요. YouTube에 들어가 시험해보세요"
@@ -1570,6 +1601,9 @@
     },
     "startFreeTrial": {
         "message": "무료 체험 시작"
+    },
+    "freeAccessRequested": {
+        "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."
     },
     "freeAccessComplete": {
         "message": "축하해요! 이제 DeArrow를 무료로 이용할 수 있어요"
@@ -1588,5 +1622,8 @@
     },
     "ViewLicenseKey": {
         "message": "라이선스 키 확인"
+    },
+    "SharingIsCaring": {
+        "message": "나눔은 사랑이죠"
     }
 }
