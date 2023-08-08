@@ -1483,6 +1483,9 @@
     "openSourceLicenses": {
         "message": "오픈소스 라이선스"
     },
+    "defaultToOriginals": {
+        "message": "원본 동영상 정보를 기본값으로"
+    },
     "whatDefaultToOriginals": {
         "message": "기본적으로 원본 제목과 미리 보기 이미지를 표시하지만, 마우스를 가져다 댔을 때 맞춤 제목과 미리 보기 이미지를 보여주는 버튼을 표시해요.  "
     },
@@ -1556,6 +1559,18 @@
     },
     "startFreeTrial": {
         "message": "무료 체험 시작"
+    },
+    "freeAccessComplete": {
+        "message": "축하해요! 이제 DeArrow를 무료로 이용할 수 있어요"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow가 활성화되지 않았어요"
+    },
+    "ActivateDeArrow": {
+        "message": "DeArrow 활성화"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow를 성공적으로 활성화했어요"
     },
     "Close": {
         "message": "닫기"
