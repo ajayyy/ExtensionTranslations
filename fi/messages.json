@@ -1590,10 +1590,40 @@
     "zoomToFillUnsupported": {
         "message": "SponsorBlock ei ole yhteensopiva \"Zoom to Fill\" -laajennuksen kanssa. Voit sen sijaan käyttää monia muita ongelmitta toimivia laajennuksia."
     },
+    "freeTrialStarted": {
+        "message": "Ilmainen kokeilu on aloitettu. Testaa sitä käymällä YouTubessa."
+    },
+    "freeTrialEnded": {
+        "message": "Ilmainen kokeilu on päättynyt"
+    },
+    "freeTrialPrompt": {
+        "message": "Jos haluat testata sitä tunnin ajan, voit aloittaa ilmaisen kokeilun alla olevasta painikkeesta."
+    },
+    "startFreeTrial": {
+        "message": "Aloita ilmainen kokeilu"
+    },
+    "freeAccessRequested": {
+        "message": "Olet rekisteröitynyt ilmaiskäyttöä varten. Saat ilmoituksen kun ilmainen käyttöoikeus on myönnetty."
+    },
+    "freeAccessComplete": {
+        "message": "Onnittelut! Sinulla on nyt DeArrown ilmainen käyttöoikeus"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrowta ei ole aktivoitu"
+    },
     "ActivateDeArrow": {
         "message": "Aktivoi DeArrow"
     },
+    "DeArrowIsActivated": {
+        "message": "DeArrow on aktivoitu"
+    },
     "Close": {
         "message": "Sulje"
+    },
+    "ViewLicenseKey": {
+        "message": "Näytä lisenssiavaimesi"
+    },
+    "SharingIsCaring": {
+        "message": "Jakaminen on välittämistä"
     }
 }
