@@ -1589,5 +1589,20 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock no es compatible con la extensión \"Zoom to Fill\". Hay varias alternativas que puede usar en su lugar que funcionarán correctamente."
+    },
+    "freeTrialStarted": {
+        "message": "Su prueba gratuita ha comenzado con éxito. Visita YouTube para probarlo"
+    },
+    "freeTrialEnded": {
+        "message": "Clave: prueba gratuita iniciada\nprueba gratuita iniciada"
+    },
+    "freeTrialPrompt": {
+        "message": "Si desea probarlo durante una hora, puede iniciar una prueba gratuita con el botón a continuación."
+    },
+    "startFreeTrial": {
+        "message": "Empieza la prueba gratuita"
+    },
+    "freeAccessRequested": {
+        "message": "Estás registrado con éxito para el acceso gratuito. Se le notificará cuando se conceda el acceso gratuito."
     }
 }
