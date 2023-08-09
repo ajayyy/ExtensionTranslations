@@ -1609,13 +1609,13 @@
         "message": "ただいまより、DeArrowを無料でお使いいただけます。"
     },
     "DeArrowNotActivated": {
-        "message": "DeArrowをお使いになれません。"
+        "message": "DeArrow は有効化されていません"
     },
     "ActivateDeArrow": {
-        "message": "DeAarrowを使う"
+        "message": "DeAarrow を有効化"
     },
     "DeArrowIsActivated": {
-        "message": "DeArrow の認証に成功しました"
+        "message": "DeArrow の有効化に成功しました"
     },
     "Close": {
         "message": "閉じる"
