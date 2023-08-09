@@ -1604,5 +1604,26 @@
     },
     "freeAccessRequested": {
         "message": "Estás registrado con éxito para el acceso gratuito. Se le notificará cuando se conceda el acceso gratuito."
+    },
+    "freeAccessComplete": {
+        "message": "¡Felicitaciones! Ahora tienes acceso gratuito a DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow no está activado"
+    },
+    "ActivateDeArrow": {
+        "message": "Activar DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow ha sido activado con éxito"
+    },
+    "Close": {
+        "message": "Cerca"
+    },
+    "ViewLicenseKey": {
+        "message": "Ver clave de licencia"
+    },
+    "SharingIsCaring": {
+        "message": "Compartir es demostrar interés"
     }
 }
