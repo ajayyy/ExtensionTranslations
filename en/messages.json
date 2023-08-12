@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "If you want to always know if a title/thumbnail has changed, enable this."
     },
+    "showIconForFormattedTitles": {
+        "message": "Display \"Show Original\" Button for Auto-Formatted Titles"
+    },
     "fetchTimeout": {
         "message": "Data Fetch Timeout (ms)"
     },
