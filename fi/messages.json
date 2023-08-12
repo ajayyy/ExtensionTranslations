@@ -1390,7 +1390,7 @@
         "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
     },
     "showIconForFormattedTitles": {
-        "message": "Näytä \"Näytä alkuperäinen\" painike automaattisesti muotoiltuja otsikoita varten"
+        "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"
     },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
