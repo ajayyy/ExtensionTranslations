@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
+    },
     "fetchTimeout": {
         "message": "Tempo limite de busca de dados (ms)"
     },
