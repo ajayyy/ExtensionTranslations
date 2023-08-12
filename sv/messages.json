@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
+    "showIconForFormattedTitles": {
+        "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
