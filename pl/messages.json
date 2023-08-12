@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Jeśli chcesz zawsze wiedzieć, czy tytuł/miniaturka uległa zmianie, włącz tę opcję."
     },
+    "showIconForFormattedTitles": {
+        "message": "Wyświetl przycisk \"Pokaż oryginał\" dla automatycznie sformatowanych tytułów"
+    },
     "fetchTimeout": {
         "message": "Limit czasu pobierania danych (ms)"
     },
