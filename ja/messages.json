@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
     },
+    "showIconForFormattedTitles": {
+        "message": "自動整形された題名に「元を表示」ボタンを表示"
+    },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
@@ -1487,7 +1490,7 @@
         "message": "最初は動画の元の情報を表示"
     },
     "whatDefaultToOriginals": {
-        "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
+        "message": "最初は元の題名とサムネイルを表示します。マウスを乗せると、改善された題名とサムネイルを表示するためのボタンが表示されます。"
     },
     "replaceTitles": {
         "message": "題名を置換"
