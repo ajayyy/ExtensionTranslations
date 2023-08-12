@@ -427,6 +427,9 @@
     "save": {
         "message": "Guardar"
     },
+    "reset": {
+        "message": "Repor"
+    },
     "areYouSureReset": {
         "message": "Tem certeza que deseja redefinir?"
     },
@@ -489,11 +492,29 @@
     "category_sponsor": {
         "message": "Patrocinador"
     },
+    "category_selfpromo": {
+        "message": "Promoção não remunerada/auto-promoção"
+    },
     "category_exclusive_access": {
         "message": "Acesso exclusivo"
     },
+    "category_interaction": {
+        "message": "Lembrete de Interação (Subscrever)"
+    },
+    "category_interaction_description": {
+        "message": "Quando houver um pequeno lembrete para curtir, assinar ou segui-los no meio do conteúdo. Se é longo ou sobre algo específico, deveria ser sob auto-promoção."
+    },
     "category_interaction_short": {
         "message": "Lembrete de interação"
+    },
+    "category_filler_short": {
+        "message": "Enchimento"
+    },
+    "category_music_offtopic": {
+        "message": "Música: Secção de Não Música"
+    },
+    "category_music_offtopic_short": {
+        "message": "Não-Música"
     },
     "category_chapter": {
         "message": "Capítulo"
@@ -513,12 +534,25 @@
     "disable": {
         "message": "Desativar"
     },
+    "showOverlay_POI": {
+        "message": "Mostrar barra de progresso"
+    },
+    "showOverlay_full": {
+        "message": "Mostrar Rótulo"
+    },
     "fullVideoLabelsOnThumbnails": {
         "message": "Mostrar etiquetas nas miniaturas de vídeo também",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
+    "previewColor": {
+        "message": "Cor não enviada",
+        "description": "Referring to submissions that have not been sent to the server yet."
+    },
     "category": {
         "message": "Categoria"
+    },
+    "enableTestingServer": {
+        "message": "Habilitar Servidor de Teste Beta"
     },
     "bracketNow": {
         "message": "(agora)"
