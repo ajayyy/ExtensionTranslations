@@ -1307,7 +1307,7 @@
         "message": "題名の形式"
     },
     "Disabled": {
-        "message": "無効化"
+        "message": "無効"
     },
     "CapitalizeWords": {
         "message": "単語先頭を大文字"
@@ -1335,7 +1335,7 @@
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
-        "message": "ランダムな時間からのサムネイルを表示"
+        "message": "ランダムな時間のサムネイルを表示"
     },
     "TheOriginalThumbnail": {
         "message": "元のサムネイルを表示"
@@ -1625,5 +1625,8 @@
     },
     "ViewLicenseKey": {
         "message": "ライセンスキーを表示"
+    },
+    "SharingIsCaring": {
+        "message": "分けあうとは捧げあうこと"
     }
 }
