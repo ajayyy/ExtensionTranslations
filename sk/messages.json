@@ -1302,6 +1302,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ak chcete vždy vedieť, či sa názov/miniatúra zmenila, zapnite si túto funkciu."
     },
+    "showIconForFormattedTitles": {
+        "message": "Zobraziť tlačidlo \"Ukázať originál\" pri automaticky upravených názvoch"
+    },
     "fetchTimeoutDescription": {
         "message": "Zobraziť pôvodné názvy a miniatúry, ak server neodpovie za tento čas."
     },
