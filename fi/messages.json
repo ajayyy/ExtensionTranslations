@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
     },
+    "showIconForFormattedTitles": {
+        "message": "Näytä \"Näytä alkuperäinen\" painike automaattisesti muotoiltuja otsikoita varten"
+    },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
