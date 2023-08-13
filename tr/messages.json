@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
     },
+    "showIconForFormattedTitles": {
+        "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
+    },
     "fetchTimeout": {
         "message": "Veri Alma Zaman Aşımı (ms)"
     },
@@ -1589,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock, 'Zoom to Fill' uzantısıyla uyumlu değildir. Bunun yerine düzgün çalışacak birçok alternatif uzantı kullanabilirsiniz."
+    },
+    "freeTrialStarted": {
+        "message": "Ücretsiz Denemen başarıyla başlatıldı. Test etmek için YouTube'u ziyaret et"
+    },
+    "freeTrialEnded": {
+        "message": "Ücretsiz denemen sona erdi"
+    },
+    "freeTrialPrompt": {
+        "message": "1 saatliğine test etmek istersen aşşağıdaki butonu kullanarak ücretsiz deneme başlatabilirsin."
+    },
+    "startFreeTrial": {
+        "message": "Ücretsiz denemeyi başlat"
+    },
+    "freeAccessRequested": {
+        "message": "Başarı ile bedava erişime kayıt oldun. Bedava erişime sahip olduğunda bu sana bildirilecek."
+    },
+    "freeAccessComplete": {
+        "message": "Tebrikler! Şuan ücretsiz erişime sahipsin"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow aktive edilmedi"
+    },
+    "ActivateDeArrow": {
+        "message": "Dearrow'u aktifleştir"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow başarı ile aktifleştirildi"
+    },
+    "Close": {
+        "message": "Kapat"
+    },
+    "ViewLicenseKey": {
+        "message": "Lisans Anahtarını Görüntüle"
+    },
+    "SharingIsCaring": {
+        "message": "Paylaşmak önemsemektir"
     }
 }
