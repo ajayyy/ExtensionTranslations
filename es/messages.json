@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostrar el botón \"Mostrar original\" para los títulos autoformateados"
+    },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
@@ -1594,13 +1597,13 @@
         "message": "Su prueba gratuita ha comenzado con éxito. Visita YouTube para probarlo"
     },
     "freeTrialEnded": {
-        "message": "Clave: prueba gratuita iniciada\nprueba gratuita iniciada"
+        "message": "Tu prueba gratuita ha terminado"
     },
     "freeTrialPrompt": {
         "message": "Si desea probarlo durante una hora, puede iniciar una prueba gratuita con el botón a continuación."
     },
     "startFreeTrial": {
-        "message": "Empieza la prueba gratuita"
+        "message": "Empiezar la prueba gratuita"
     },
     "freeAccessRequested": {
         "message": "Estás registrado con éxito para el acceso gratuito. Se le notificará cuando se conceda el acceso gratuito."
@@ -1618,7 +1621,7 @@
         "message": "DeArrow ha sido activado con éxito"
     },
     "Close": {
-        "message": "Cerca"
+        "message": "Cerrar"
     },
     "ViewLicenseKey": {
         "message": "Ver clave de licencia"
