@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
+    "showIconForFormattedTitles": {
+        "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
+    },
     "fetchTimeout": {
         "message": "Betöltési időtúllépés (ms)"
     },
@@ -1444,6 +1447,10 @@
         "message": "Kerüld az eltúlzott arckifejezéseket",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Gondolkozz általánosabban, ne csak az eredeti címben feltett kérdést válaszold meg",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Kerüld a videóra való reakciók leírását (pl. \"meglepő\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1460,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Hogyan működik"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Köszönöm, hogy kipróbálod a DeArrowt"
-    },
-    "deArrowBetaStatus": {
-        "message": "Kérlek, vedd figyelembe, hogy ez a bővítmény még béta állapotban van. A bővítmény örökké ingyenes lesz mindenkinek, aki a béta ideje alatt telepíti magának. Igen, ez azt jelenti, hogy lesz majd egy \"fizetési fal\" a jövőben az új felhasználóknak, de ígérem, hogy továbbra is lesz módja ingyenes hozzáférés megszerzésének. Természetesen a bővítmény mindig is nyílt forráskódú marad egy nyilvánosan letölthető adatbázissal, pont mint a SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Köszönöm, hogy kipróbálnád ebben az állapotban is",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Gyere, járulj hozzá a fejlesztéshez, tegyél javaslatokat és segíts {discord}on vagy {matrix}on"
@@ -1596,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "A SponsorBlock nem kompatibilis a Zoom to Fill bővítménnyel. Sok alternatíva létezik, amik rendesen működnek."
+    },
+    "freeTrialStarted": {
+        "message": "Az ingyenes próbaverziód sikeresen elkezdődött. Látogasd meg a YouTube-ot, hogy kipróbáld"
+    },
+    "freeTrialEnded": {
+        "message": "Az ingyenes próbaverziód lejárt"
+    },
+    "freeTrialPrompt": {
+        "message": "Ha ki szeretnéd próbálni egy óráig, hozzáférhetsz egy ingyenes próbaverzióhoz a lenti gomb segítségével."
+    },
+    "startFreeTrial": {
+        "message": "Ingyenes próbaverzió indítása"
+    },
+    "freeAccessRequested": {
+        "message": "Sikeresen regisztráltál ingyenes az hozzáféréshez. Értesíteni fogunk, ha megkaptad az ingyenes hozzáférést."
+    },
+    "freeAccessComplete": {
+        "message": "Gratulálunk! Mostantól ingyenesen hozzáférhetsz a DeArrowhoz"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow nincs aktiválva"
+    },
+    "ActivateDeArrow": {
+        "message": "DeArrow aktiválása"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow sikeresen aktiválva"
+    },
+    "Close": {
+        "message": "Bezárás"
+    },
+    "ViewLicenseKey": {
+        "message": "Licenc megtekintése"
+    },
+    "SharingIsCaring": {
+        "message": "A megosztás törődés"
     }
 }

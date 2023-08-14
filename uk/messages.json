@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Якщо ви бажаєте завжди знати, що назва/іконка змінена, дозвольте це."
     },
+    "showIconForFormattedTitles": {
+        "message": "Відображати кнопку \"Показати Оригінальний\" для автоматично форматованих заголовків"
+    },
     "fetchTimeout": {
         "message": "Час очікування завантаження даних (мс)"
     },
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Як це працює"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Дякую за те, що скористалися DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Зверніть увагу, що це розширення досі знаходиться в бета-версії. Це розширення безкоштовне, назавжди для кожного, хто встановить його під час бета-версії. Так, це означає, що в майбутньому буде платний доступ для нових користувачів, але я обіцяю, що люди все одно матимуть спосіб отримати безкоштовний доступ. Звичайно, розширення завжди залишатиметься відкритим вихідним кодом, з публічно завантажувальною базою даних, як SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Дякуємо вам за те, що спробували його навіть у такому стані",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Взяти участь у розробці або запропонувати нову ідею можна в {discord} або {matrix}"
@@ -1600,5 +1592,32 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock несумісний з розширенням \"Zoom до Fill\". Існує багато альтернатив для вас, що будуть працювати із застосунком належним чином."
+    },
+    "freeTrialStarted": {
+        "message": "Розпочалася безкоштовна пробна версія YouTube, щоб перевірити її"
+    },
+    "freeTrialEnded": {
+        "message": "Пробний період завершився"
+    },
+    "freeTrialPrompt": {
+        "message": "Якщо ви хочете перевірити це на годину, то можете розпочати безкоштовну пробну версію з кнопкою нижче."
+    },
+    "startFreeTrial": {
+        "message": "Почати пробний період"
+    },
+    "freeAccessRequested": {
+        "message": "Ви успішно зареєстровані для безкоштовного доступу. Ви отримаєте повідомлення про надання безкоштовного доступу."
+    },
+    "ActivateDeArrow": {
+        "message": "Активувати DeArrow"
+    },
+    "Close": {
+        "message": "Закрити"
+    },
+    "ViewLicenseKey": {
+        "message": "Переглянути ліцензійний ключ"
+    },
+    "SharingIsCaring": {
+        "message": "Щедра душа меду не жаліє"
     }
 }

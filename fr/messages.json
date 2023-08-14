@@ -963,6 +963,9 @@
     "warningError": {
         "message": "Erreur lors de la tentative de reconnaissance de l'avertissement :"
     },
+    "deArrowMessageRecieved": {
+        "message": "Vous avez reçu une astuce d'un modérateur"
+    },
     "Donate": {
         "message": "Faire un don"
     },
@@ -1315,8 +1318,21 @@
     "SentenceCase": {
         "message": "Majuscule début de phrase"
     },
+    "LowerCase": {
+        "message": "Minuscules"
+    },
+    "FirstLetterUppercase": {
+        "message": "Première lettre en majuscule"
+    },
+    "shouldCleanEmojis": {
+        "message": "Émojis supprimés"
+    },
     "thumbnailFallbackOption": {
         "message": "Quand aucune miniature soumise n'existe"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Lors de la sélection d'une heure aléatoire, il utilisera les données de SponsorBlock pour s'assurer qu'une heure est située dans un segment promotionnel n'est pas sélectionnée.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
         "message": "Afficher une capture d'écran à partir d'un passage aléatoire"
@@ -1333,22 +1349,64 @@
     "whatKeepUnsubmitted": {
         "message": "Garder les votes soumis après un vote pour afficher les titres et miniatures que vous avez choisis au lieu de ceux ayant reçu le plus de votes sur le serveur."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Stocker les votes soumis à partir des onglets privés"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Utiliser le service de génération de miniatures"
+    },
     "onAllPages": {
         "message": "Sur toutes les pages",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Sur toutes les pages sauf les pages vidéo",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {
         "message": "Jamais"
     },
+    "thumbnailGeneratorDescription1": {
+        "message": "Le service de génération de miniatures accélère considérablement la génération de miniatures en envoyant une requête anonyme avec l'identifiant vidéo à un serveur distant. La miniature sera alors soit générée, soit tirée d'un cache si elle a déjà été générée."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Si elle est utilisée sur des pages vidéo, cela peut potentiellement révéler des identifiants vidéo non répertoriés à ce serveur. Définir ceci à \"Sur toutes les pages sauf les pages vidéo\" évitera ce problème. Une autre option est d'héberger votre propre service de génération de miniatures."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Si l'utilisation du service de génération des vignettes est désactivée, toutes les requêtes utiliseront un système de requête k-anonymat, ce qui rend plus difficile pour le serveur de prédire quelles vidéos ont été récupérées, et un service de génération de miniatures locales plus lent sera utilisé.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Code source du service de génération de miniature"
+    },
     "moreAboutKAnonymity": {
         "message": "En savoir plus sur la K-anonymisation",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Toujours afficher le bouton \"Afficher l'original\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Si vous souhaitez toujours savoir si un titre/miniature a été modifié, activez cette option."
     },
     "fetchTimeout": {
         "message": "Délai d'acquisition des données (ms)"
     },
     "fetchTimeoutDescription": {
         "message": "Afficher les titres et les miniatures d'origine si le serveur ne répond pas après ce délai."
+    },
+    "renderTimeout": {
+        "message": "Délai de rendu des miniatures (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Afficher les miniatures d'origine s'il ne peut pas générer de vignette dans ce laps de temps."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Délai d'expiration de la génération de miniatures locales (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Si le serveur prend trop de temps pour générer une miniature, commencez à essayer d'en générer une localement."
     },
     "Enable": {
         "message": "Activé"
@@ -1370,15 +1428,40 @@
     "ShowModified": {
         "message": "Montrer les détails modifiés"
     },
+    "FillerWarning": {
+        "message": "Avertissement: Il s'agit d'une catégorie incroyablement agressive. Il est très probable que vous devrez annuler ou le désactiver parfois. Soyez averti que beaucoup de vidéos ont plus de 50% ou plus de la vidéo sautée! Cependant, n'oubliez pas qu'il y a encore des directives spécifiques à suivre lors de la soumission.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Rejoignez Discord ou Matrix pour rester dans ce chat de façon permanente",
+        "description": "Appears on the top of the integrated chatbox"
+    },
     "tip1": {
         "message": "Éviter les expressions faciales exagérées",
         "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Voyez plus grand, ne répondez pas simplement à la question du titre d'origine",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Évitez de décrire les réactions à la vidéo (\"choquant\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Fournissez suffisamment d'informations pour faire un choix éclairé avant de cliquer"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
     },
     "howItWorks": {
         "message": "Comment ça marche"
+    },
+    "discordPromotion": {
+        "message": "Venez contribuer, faire quelques suggestions et aider sur {discord} ou sur {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Si vous aimez ce que j'ai fait jusqu'à présent et que vous voulez m'aider avec de l'argent, voici un lien"
     },
     "termsAgreement": {
         "message": "En utilisant cette extension, vous acceptez les {privacy-policy} et {terms}"
@@ -1401,6 +1484,13 @@
     "replaceThumbnails": {
         "message": "Remplacer les miniatures"
     },
+    "useCrowdsourcedTitles": {
+        "message": "Utiliser les titres collaboratifs"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Si désactivé, cela formalisera les titres mais n'utilisera pas les titres soumis par la communauté",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Êtes-vous certain de vouloir supprimer cette configuration ?",
         "description": "Appears when deleting a configuration for channel-based settings"
@@ -1410,6 +1500,9 @@
     },
     "DeleteConfiguration": {
         "message": "Supprimer la configuration"
+    },
+    "ChannelAllowlist": {
+        "message": "Liste des Chaînes Autorisées"
     },
     "ConfigurationName": {
         "message": "Nom de la configuration"
@@ -1434,10 +1527,20 @@
         "message": "et {thumbnails} miniatures",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "countReplacements": {
+        "message": "Nombre de titres et de remplacements de miniatures"
+    },
+    "countReplacementsDescription": {
+        "message": "Utilisé pour vous donner des statistiques dans le popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
     "requiresUblock": {
         "message": "Nécessite uBlock Origin"
     },
     "dearrowLogoCredit": {
         "message": "Logo basé sur Twemoji sous licence CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock n'est pas compatible avec l'extension \"Zoom to Fill\". Il existe de nombreuses alternatives que vous pouvez utiliser à la place qui fonctionneront correctement."
     }
 }

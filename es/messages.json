@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostrar el botón \"Mostrar original\" para los títulos autoformateados"
+    },
     "fetchTimeout": {
         "message": "Tiempo de espera de datos (ms)"
     },
@@ -1444,6 +1447,10 @@
         "message": "Evita expresiones faciales exageradas",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Piensa en grande, no te limites a responder la pregunta del título original",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Evitar describir las reacciones al video (\"impactante\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1460,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Como funciona"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Gracias por probar DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Tenga en cuenta que esta extensión todavía está en fase beta. Esta extensión es gratis, para siempre, para cualquiera que la instale durante la versión beta. Sí, eso significa que habrá un muro de pago para los nuevos usuarios solo en el futuro, pero prometo que todavía habrá una forma de que la gente obtenga acceso gratuito. Por supuesto, la extensión permanecerá siempre totalmente de código abierto, con una base de datos que se puede descargar públicamente, igual que SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Gracias por considerar probarla incluso en esta situación",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Ven a contribuir, haz algunas sugerencias y ayuda en {discord} o en {matrix}"
@@ -1596,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock no es compatible con la extensión \"Zoom to Fill\". Hay varias alternativas que puede usar en su lugar que funcionarán correctamente."
+    },
+    "freeTrialStarted": {
+        "message": "Su prueba gratuita ha comenzado con éxito. Visita YouTube para probarlo"
+    },
+    "freeTrialEnded": {
+        "message": "Tu prueba gratuita ha terminado"
+    },
+    "freeTrialPrompt": {
+        "message": "Si desea probarlo durante una hora, puede iniciar una prueba gratuita con el botón a continuación."
+    },
+    "startFreeTrial": {
+        "message": "Empiezar la prueba gratuita"
+    },
+    "freeAccessRequested": {
+        "message": "Estás registrado con éxito para el acceso gratuito. Se le notificará cuando se conceda el acceso gratuito."
+    },
+    "freeAccessComplete": {
+        "message": "¡Felicitaciones! Ahora tienes acceso gratuito a DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow no está activado"
+    },
+    "ActivateDeArrow": {
+        "message": "Activar DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow ha sido activado con éxito"
+    },
+    "Close": {
+        "message": "Cerrar"
+    },
+    "ViewLicenseKey": {
+        "message": "Ver clave de licencia"
+    },
+    "SharingIsCaring": {
+        "message": "Compartir es demostrar interés"
     }
 }

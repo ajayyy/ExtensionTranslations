@@ -963,6 +963,9 @@
     "warningError": {
         "message": "경고를 확인하던 도중 오류가 발생했어요:"
     },
+    "deArrowMessageRecieved": {
+        "message": "관리자로부터 조언을 받았어요"
+    },
     "Donate": {
         "message": "후원"
     },
@@ -1315,6 +1318,15 @@
     "SentenceCase": {
         "message": "본문 형식"
     },
+    "LowerCase": {
+        "message": "소문자"
+    },
+    "FirstLetterUppercase": {
+        "message": "첫 글자 대문자"
+    },
+    "shouldCleanEmojis": {
+        "message": "이모지 제거"
+    },
     "thumbnailFallbackOption": {
         "message": "제출한 미리 보기 이미지가 없으면"
     },
@@ -1374,6 +1386,12 @@
     "alwaysShowShowOriginalButton": {
         "message": "항상 \"원본 보기\" 버튼 표시"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "제목/미리 보기 이미지가 바뀌었는지 항상 확인하고 싶다면 켜세요."
+    },
+    "showIconForFormattedTitles": {
+        "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
+    },
     "fetchTimeout": {
         "message": "데이터 가져오기 시간(ms)"
     },
@@ -1410,6 +1428,9 @@
     "ShowOriginal": {
         "message": "원본 정보 보기"
     },
+    "ShowModified": {
+        "message": "수정된 정보 보기"
+    },
     "FillerWarning": {
         "message": "경고: 매우 공격적인 카테고리예요. '건너뛰지 않기'를 이용하거나, 가끔 '사용 안 함'으로 설정해야 할 가능성이 높아요. 많은 동영상에서 동영상의 50% 이상을 건너뛸 수 있으니 주의하세요! 하지만, 그럼에도 제출할 때 따라야 하는 지침이 분명히 있다는 사실을 잊지 마세요.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1426,6 +1447,10 @@
         "message": "과장된 표현이 나타나지 않도록 해요",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "원본 제목의 질문에 단순히 답하는 것이 아니라, 맥락을 고려해주세요",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "동영상에 대한 반응(\"충격\")을 담지 않도록 해요",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1433,22 +1458,15 @@
     "tip4": {
         "message": "충분한 정보를 제공해 클릭하기 전 올바른 선택을 할 수 있도록 해요"
     },
+    "tip5": {
+        "message": "대소문자는 문장처럼 적용해주세요",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "참고: SponsorBlock 설정을 자동으로 가져왔어요!"
     },
     "howItWorks": {
         "message": "작동 원리"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "DeArrow를 이용해주셔서 감사드려요"
-    },
-    "deArrowBetaStatus": {
-        "message": "아직 확장 프로그램이 베타 버전이라는 점 참고 부탁드려요. 이 확장 프로그램은 베타 기간 동안 설치한 사람 누구에게나, 평생, 무료예요. 즉 향후 새로운 사용자에 한해선 유료 결제를 진행해야 할 수도 있어요. 하지만 무료로 이용할 수 있는 방법이 있을 것이라고 약속드릴게요. 당연히 확장 프로그램은 SponsorBlock처럼, 완전한 오픈 소스로 유지할 것이고, 공개적으로 다운로드할 수 있는 데이터베이스도 제공할 거예요.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "베타임에도 확장 프로그램 사용을 시도해주셔서 감사드려요",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "{discord} 혹은 {matrix}에서 기여하거나, 제안을 남기거나, 도와주세요"
@@ -1468,6 +1486,9 @@
     "openSourceLicenses": {
         "message": "오픈소스 라이선스"
     },
+    "defaultToOriginals": {
+        "message": "원본 동영상 정보를 기본값으로"
+    },
     "whatDefaultToOriginals": {
         "message": "기본적으로 원본 제목과 미리 보기 이미지를 표시하지만, 마우스를 가져다 댔을 때 맞춤 제목과 미리 보기 이미지를 보여주는 버튼을 표시해요.  "
     },
@@ -1476,6 +1497,13 @@
     },
     "replaceThumbnails": {
         "message": "미리 보기 이미지 대체"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "사용자 참여 제목 사용"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "끄면, 제목을 형식에 맞게 변환하지만 커뮤니티에서 제출한 제목을 사용하지 않아요",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "이 구성을 삭제할까요?",
@@ -1507,7 +1535,98 @@
     "DeArrowPromotionMessage2": {
         "message": "어그로에 지치나요? 제목과 미리 보기 이미지를 향상시키는 확장 프로그램을 확인해 보세요"
     },
+    "RandomThumbnailExplanation": {
+        "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했어요",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했고, 제목 형식은 자동으로 맞췄어요",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "아래에서 기본값을 바꿀 수 있어요",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "확장 프로그램을 설치한 뒤 제목 {titles}개와 미리 보기 이미지 {thumbnails}개를 교체했어요",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "제목 {titles}개 ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "제목 {titles}개 ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "및 미리 보기 이미지 {thumbnails}개",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "및 미리 보기 이미지 {thumbnails}개",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "확장 프로그램을 설치한 뒤 {titleAndThumbnailMessage}를 교체했어요",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "제목과 미리 보기 이미지 교체 횟수 세기"
+    },
+    "countReplacementsDescription": {
+        "message": "팝업 창에서 통계를 표시할 때 이용해요.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "yt-neuter를 이용해 설문 조사, 상품 영역, 기타 홍보 요소를 차단하는 필터 목록 추가"
+    },
     "requiresUblock": {
         "message": "uBlock Origin 필요"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "동영상 ID를 탐지할 때 문제가 생겼어요. 제출하기 전 새로고침을 시도해보시고, 올바른 동영상에 잘 제출되었는지 확인해주세요. 문제가 자주 생긴다면, 설치한 다른 확장 프로그램이나 사용자 스크립트 목록을 포함해서 GitHub, Discord 혹은 Matrix를 통해 신고해주세요."
+    },
+    "dearrowLogoCredit": {
+        "message": "로고는 CC-BY 4.0 라이선스 하의 Twemoji를 기반으로 제작됨"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock은 \"Zoom to Fill\" 확장 프로그램과 호환되지 않아요. 잘 호환되는 대안 확장 프로그램이 많이 있어요."
+    },
+    "freeTrialStarted": {
+        "message": "무료 체험을 성공적으로 시작했어요. YouTube에 들어가 시험해보세요"
+    },
+    "freeTrialEnded": {
+        "message": "무료 체험이 끝났어요"
+    },
+    "freeTrialPrompt": {
+        "message": "1시간 동안 시험해보고 싶다면, 아래 버튼을 눌러 무료 체험을 시작할 수 있어요."
+    },
+    "startFreeTrial": {
+        "message": "무료 체험 시작"
+    },
+    "freeAccessRequested": {
+        "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."
+    },
+    "freeAccessComplete": {
+        "message": "축하해요! 이제 DeArrow를 무료로 이용할 수 있어요"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow가 활성화되지 않았어요"
+    },
+    "ActivateDeArrow": {
+        "message": "DeArrow 활성화"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow를 성공적으로 활성화했어요"
+    },
+    "Close": {
+        "message": "닫기"
+    },
+    "ViewLicenseKey": {
+        "message": "라이선스 키 확인"
+    },
+    "SharingIsCaring": {
+        "message": "나눔은 사랑이죠"
     }
 }

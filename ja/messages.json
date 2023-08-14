@@ -1307,7 +1307,7 @@
         "message": "題名の形式"
     },
     "Disabled": {
-        "message": "無効化"
+        "message": "無効"
     },
     "CapitalizeWords": {
         "message": "単語先頭を大文字"
@@ -1335,7 +1335,7 @@
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
-        "message": "ランダムな時間からのサムネイルを表示"
+        "message": "ランダムな時間のサムネイルを表示"
     },
     "TheOriginalThumbnail": {
         "message": "元のサムネイルを表示"
@@ -1388,6 +1388,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
+    },
+    "showIconForFormattedTitles": {
+        "message": "自動整形された題名に「元を表示」ボタンを表示"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
@@ -1445,7 +1448,7 @@
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "動画の全体の内容を踏まえてください。単なる元の題名への回答ではなく",
+        "message": "動画の全体の内容を踏まえてください。元の題名への単なる回答ではなく",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "仕組み"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "DeArrow の試用に感謝します"
-    },
-    "deArrowBetaStatus": {
-        "message": "この拡張機能はまだベータ版です。ベータ版のうちにインストールするなら誰でも無料です。 はい、時が来たら、新しいユーザーは有料の壁に遮られるということです。でも私は人々が自由に利用する方法を確保することも約束します。もちろん、拡張機能は完全にオープンソースのままですし、SponsorBlock と同じように公開されたダウンロード可能なデータベースもあります。",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "この状態でも試していただき感謝します",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "{discord}や{matrix}にて、あなたからの提案や貢献、お手伝いをお待ちしています"
@@ -1498,7 +1490,7 @@
         "message": "最初は動画の元の情報を表示"
     },
     "whatDefaultToOriginals": {
-        "message": "既定では元の題名とサムネイルを表示しますが、改善された題名とサムネイルを表示するために、マウスを乗せると表示されるボタンがあります。"
+        "message": "最初は元の題名とサムネイルを表示します。マウスを乗せると、改善された題名とサムネイルを表示するためのボタンが表示されます。"
     },
     "replaceTitles": {
         "message": "題名を置換"
@@ -1600,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock は拡張機能 Zoom to Fill と互換性がありません。正常に動作する別の拡張機能がほかにもあります。"
+    },
+    "freeTrialStarted": {
+        "message": "無料の試用期間を開始しました。YouTube上でお試しできます"
+    },
+    "freeTrialEnded": {
+        "message": "無料の試用期間が過ぎています"
+    },
+    "freeTrialPrompt": {
+        "message": "1時間の間、無料で試用することができます。下のボタンを押すと始まります。"
+    },
+    "startFreeTrial": {
+        "message": "試用を始める"
+    },
+    "freeAccessRequested": {
+        "message": "無料の試用にお申し込みいただきありがとうございます。試用期間が始まりましたら追ってお知らせいたします。"
+    },
+    "freeAccessComplete": {
+        "message": "ただいまより、DeArrowを無料でお使いいただけます。"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow は有効化されていません"
+    },
+    "ActivateDeArrow": {
+        "message": "DeAarrow を有効化"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow の有効化に成功しました"
+    },
+    "Close": {
+        "message": "閉じる"
+    },
+    "ViewLicenseKey": {
+        "message": "ライセンスキーを表示"
+    },
+    "SharingIsCaring": {
+        "message": "分けあうとは捧げあうこと"
     }
 }

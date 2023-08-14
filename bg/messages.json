@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ако искате винаги да знаете дали заглавието/миниатюрата са се променили, разрешете тази опция."
     },
+    "showIconForFormattedTitles": {
+        "message": "Показване на бутон „Покажи оригинала“ за автоматично форматираните заглавия"
+    },
     "fetchTimeout": {
         "message": "Време за извличане на данните (мс)"
     },
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Как функционира"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Благодарим ви, че опитахте DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Моля, имайте предвид, че това разширение все още е в бета версия. Това разширение е безплатно завинаги за всеки, който го инсталира по време на бета версията. Да, това означава, че в бъдеще ще има платен достъп само за нови потребители, но обещавам, че все пак ще има начин хората да получат безплатен достъп. Разбира се, разширението винаги ще остане с напълно отворен код, с публично достъпна база данни за изтегляне, точно както SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Благодарим ви, че обмислихте да го изпробвате дори в тази ситуация",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Присъединете се, направете някои предложения и помогнете в {discord} или {matrix}"
@@ -1600,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock не е съвместим с разширението \"Zoom to Fill\". Има много алтернативи, които можете да използвате вместо него и които ще работят правилно."
+    },
+    "freeTrialStarted": {
+        "message": "Вашият безплатен пробен период стартира успешно. Посетете YouTube, за да го изпробвате"
+    },
+    "freeTrialEnded": {
+        "message": "Вашият безплатен пробен период приключи"
+    },
+    "freeTrialPrompt": {
+        "message": "Ако искате да я изпробвате за един час, можете да започнете безплатен пробен период с бутона по-долу."
+    },
+    "startFreeTrial": {
+        "message": "Начало на безплатния пробен период"
+    },
+    "freeAccessRequested": {
+        "message": "Успешно сте регистрирани за безплатен достъп. Ще бъдете уведомени, когато ви бъде предоставен безплатен достъп."
+    },
+    "freeAccessComplete": {
+        "message": "Поздравления! Вече имате безплатен достъп до DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow не е активиран"
+    },
+    "ActivateDeArrow": {
+        "message": "Активиране на DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow е успешно активиран"
+    },
+    "Close": {
+        "message": "Затваряне"
+    },
+    "ViewLicenseKey": {
+        "message": "Преглед на лицензния ключ"
+    },
+    "SharingIsCaring": {
+        "message": "Споделянето е грижа"
     }
 }

@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
     },
+    "showIconForFormattedTitles": {
+        "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"
+    },
     "fetchTimeout": {
         "message": "Tietojen noudon aikakatkaisu (ms)"
     },
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Miten se toimii"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Kiitos DeArrown kokeilusta"
-    },
-    "deArrowBetaStatus": {
-        "message": "Huomioi, että lisäosa on vielä beta-testauksessa. Lisäosa on pysyvästi ilmainen kaikille, jotka asentavat sen beta-vaiheen aikana. Tämä tosiaan tarkoittaa sitä, että jatkossa uudet käyttäjät tulevat kohtaamaan maksumuurin, mutta lupaan tarjota keinoja myös käyttöoikeuden ilmaiseen hankintaan. Ja laajennus tulee toki aina olemaan täysin avointa lähdekoodia julkisesti ladattavissa olevalla tietokannalla SponsorBlockin tapaan.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Kiitos kun harkitset sen kokeilemista myös tässä tilanteessa",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Liity mukaan, tee ehdotuksia ja auta alustoilla {discord} tai {matrix}"
@@ -1600,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock ei ole yhteensopiva \"Zoom to Fill\" -laajennuksen kanssa. Voit sen sijaan käyttää monia muita ongelmitta toimivia laajennuksia."
+    },
+    "freeTrialStarted": {
+        "message": "Ilmainen kokeilu on aloitettu. Testaa sitä käymällä YouTubessa."
+    },
+    "freeTrialEnded": {
+        "message": "Ilmainen kokeilu on päättynyt"
+    },
+    "freeTrialPrompt": {
+        "message": "Jos haluat testata sitä tunnin ajan, voit aloittaa ilmaisen kokeilun alla olevasta painikkeesta."
+    },
+    "startFreeTrial": {
+        "message": "Aloita ilmainen kokeilu"
+    },
+    "freeAccessRequested": {
+        "message": "Olet rekisteröitynyt ilmaiskäyttöä varten. Saat ilmoituksen kun ilmainen käyttöoikeus on myönnetty."
+    },
+    "freeAccessComplete": {
+        "message": "Onnittelut! Sinulla on nyt DeArrown ilmainen käyttöoikeus"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrowta ei ole aktivoitu"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivoi DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow on aktivoitu"
+    },
+    "Close": {
+        "message": "Sulje"
+    },
+    "ViewLicenseKey": {
+        "message": "Näytä lisenssiavaimesi"
+    },
+    "SharingIsCaring": {
+        "message": "Jakaminen on välittämistä"
     }
 }

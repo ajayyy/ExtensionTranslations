@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
+    "showIconForFormattedTitles": {
+        "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
+    },
     "fetchTimeout": {
         "message": "Timeout för datahämtning (ms)"
     },
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Så här fungerar det"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Tack för att du provar DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Observera att detta tillägg fortfarande är i betastadiet. Detta tillägg är gratis, för alltid, för alla som installerar det under betaperioden. Ja, det innebär att det kommer att finnas en betalvägg för nya användare i framtiden, men jag lovar att det fortfarande kommer att finnas ett sätt för människor att få fri tillgång. Naturligtvis kommer tillägget alltid att förbli helt öppen källkod med en offentligt nerladdningsbar databas, precis som SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Tack för att du överväger att testa det även i den här situationen",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Kom och bidra, kom med nya förslag och hjälp till på {discord} eller {matrix}"
@@ -1600,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock är inte kompatibelt med tillägget \"Zoom to Fill\". Det finns många alternativ som du kan använda istället som fungerar korrekt."
+    },
+    "freeTrialStarted": {
+        "message": "Din fria utvärderingsperiod har börjat. Besök YouTube för att testa det"
+    },
+    "freeTrialEnded": {
+        "message": "Din fria utvärderingsperiod är slut"
+    },
+    "freeTrialPrompt": {
+        "message": "Om du vill testa det en timme, kan du starta en gratis utvärderingsperiod med knappen nedan."
+    },
+    "startFreeTrial": {
+        "message": "Påbörja gratis utvärderingsperiod"
+    },
+    "freeAccessRequested": {
+        "message": "Du är registrerad för gratis tillgång. Du kommer att meddelas när gratis tillgång beviljas."
+    },
+    "freeAccessComplete": {
+        "message": "Grattis! Du har nu gratis tillgång till DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow är inte aktiverad"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivera DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow har aktiverats"
+    },
+    "Close": {
+        "message": "Stäng"
+    },
+    "ViewLicenseKey": {
+        "message": "Visa licensnyckel"
+    },
+    "SharingIsCaring": {
+        "message": "Delad glädje är dubbel glädje"
     }
 }

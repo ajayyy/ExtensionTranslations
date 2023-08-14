@@ -1270,5 +1270,22 @@
     "FailedToLoad": {
         "message": "加载失败",
         "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "停用"
+    },
+    "Enable": {
+        "message": "启用"
+    },
+    "Titles": {
+        "message": "标题",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "缩略图",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "错误"
     }
 }

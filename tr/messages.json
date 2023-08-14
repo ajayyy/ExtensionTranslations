@@ -181,7 +181,7 @@
         "message": "Herkese Açık Kullanıcı Kimliğini Kopyala"
     },
     "copySegmentID": {
-        "message": "Segment Kimliğini Kopyala"
+        "message": "Kısım Kimliğini Kopyala"
     },
     "hideThis": {
         "message": "Bunu sakla"
@@ -229,7 +229,7 @@
         "message": "Kısımların olumsuz oylarını depola"
     },
     "whatTrackDownvotes": {
-        "message": "Olumsuz oy verdiğiniz kısımlar, sayfayı tazeledikten sonra da gizli kalacaktır"
+        "message": "Olumsuz oy verdiğiniz segmentler, sayfayı tazeledikten sonra da gizli kalacaktır"
     },
     "trackDownvotesWarning": {
         "message": "Uyarı: Bu ayarı devre dışı bırakırsanız, halihazırda saklanan olumsuz oylar silinecek"
@@ -305,7 +305,7 @@
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Kısımları gönder",
+        "message": "Segmentleri gönder",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -485,7 +485,7 @@
         "message": "Sıradaki öneri belirlediğiniz minimum süre ayarından daha kısa. Bu zaten yollandığı ve bu ayardan dolayı yok sayıldığı anlamına gelebilir. Göndermek istediğinizden emin misiniz?"
     },
     "liveOrPremiere": {
-        "message": "Bir canlı yayın veya ön gösterim sırasında kısım gönderilemez. Yayının bitmesini bekleyin, sonra sayfayı tazeleyip kısımların geçerli olduğunu kontrol edin."
+        "message": "Bir canlı yayın veya ön gösterim sırasında segment gönderilemez. Yayının bitmesini bekleyin, sonra sayfayı tazeleyip kısımların geçerli olduğunu kontrol edin."
     },
     "showUploadButton": {
         "message": "Karşıya Yükleme Butonunu Göster"
@@ -495,6 +495,12 @@
     },
     "customServerAddressDescription": {
         "message": "SponsorBlock'un sunucu ile iletişimi sağlamak için kullandığı adres.\nKendi sunucu kopyanız olmadığı sürece bu değiştirilmemelidir."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Veri Alınan Sunucu Adresi"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Veri alınan sunucu ile iletişim kurmak için kullanılan adres.\nKendi sunucu kopyanız olmadığı sürece bu değiştirilmemelidir."
     },
     "thumbnailCacheServerAddress": {
         "message": "Küçük resim önbellekleyen sunucu adresi"
@@ -746,7 +752,7 @@
         "message": "Sponsor marka isimlerinden bahsetme"
     },
     "category_chapter_guideline2": {
-        "message": "Genel kısımlar için daha büyük bölümler kullanın"
+        "message": "Genel segmentler için daha büyük bölümler kullanın"
     },
     "category_chapter_guideline3": {
         "message": "Daha küçük bölümler daha büyük bölümlerin içine yerleştirilebilir"
@@ -948,11 +954,17 @@
     "questionButton": {
         "message": "Bir sorum var"
     },
+    "askAQuestion": {
+        "message": "Soru sor"
+    },
     "warningConfirmButton": {
         "message": "Nedenini anlıyorum"
     },
     "warningError": {
         "message": "Uyarıyı tanımlamaya çalışırken hata oluştu:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Moderatör tarafından bir öneri aldınız"
     },
     "Donate": {
         "message": "Bağış Yap"
@@ -1051,7 +1063,7 @@
         "message": "Olumlu oy"
     },
     "hideSegment": {
-        "message": "Segmenti gizleyin"
+        "message": "Kısmı gizleyin"
     },
     "skipSegment": {
         "message": "Kısmı atla"
@@ -1140,6 +1152,9 @@
     },
     "hideUpsells": {
         "message": "Ekstra ödeme olmadan kullanılamayan özellikleri gizle"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Yeni güncellemeler hakkında mesajları gizle"
     },
     "chooseACountry": {
         "message": "Bir ülke seçiniz"
@@ -1233,10 +1248,385 @@
     "allowScrollingToEdit": {
         "message": "Zamanları Düzenlemek İçin Kaydırmaya İzin Ver"
     },
+    "NoticeTimeAfterSkip": {
+        "message": "%{seconds}sn",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Youtube İçin Daha İyi Başlıklar Ve Küçük Resimler",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Başlıkları ve küçük resimleri açıklayıcı ve sansasyonel olmayacak şekilde topluluk kaynakları ile oluştur",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "En açıklayıcı olanı seçin"
+    },
+    "Original": {
+        "message": "Orijinal"
+    },
+    "OriginalTitle": {
+        "message": "Orijinal Başlık"
+    },
+    "CurrentTime": {
+        "message": "Şu Anki Zaman"
+    },
+    "resetCustomTitle": {
+        "message": "Başlığı Orijinal Metne Döndür"
+    },
+    "resetIcon": {
+        "message": "Simgeyi Sıfırla"
+    },
+    "Vote": {
+        "message": "Oyla"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Kendi başlığınızı buraya yazınız"
+    },
+    "VideoNotReady": {
+        "message": "Video hazır değil"
+    },
+    "FailedToRender": {
+        "message": "İşleme başarısız",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Tuval eksik",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "İşleme sırasında hata",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Yükleme başarısız",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Başlık Formatı"
+    },
+    "Disabled": {
+        "message": "Devre Dışı Bırakıldı"
+    },
+    "CapitalizeWords": {
+        "message": "Kelimeleri Büyük Harfle Yaz"
+    },
+    "TitleCase": {
+        "message": "Başlık Biçimi"
+    },
+    "SentenceCase": {
+        "message": "Cümle Biçimi"
+    },
+    "LowerCase": {
+        "message": "Küçük Harf Biçimi"
+    },
+    "FirstLetterUppercase": {
+        "message": "İlk Harf Büyük"
+    },
+    "shouldCleanEmojis": {
+        "message": "Emojileri Sil"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Sunulan Küçük Resim Yoksa"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Rastgele bir zaman seçerken, tanıtım bölümünden bir zamanın seçilmediğini sağlamak için SponsorBlock verilerini kullanacaktır.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Rastgele bir zamandan ekran görüntüsü göster"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Orijinal küçük resmi göster"
+    },
+    "showABlankBox": {
+        "message": "Boş bir kutu göster"
+    },
+    "keepUnsubmitted": {
+        "message": "Sunulan oyları sakla"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Oyladıktan sonra sunulan oyları saklayarak, sunucuda en çok oy alan yerine sizin seçtiğiniz başlıkları ve küçük resimleri gösterir."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Gizli Sekmelerden Verilen Oyları Sakla"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Küçük Resim Oluşturma Servisini Kullan"
+    },
+    "onAllPages": {
+        "message": "Tüm Sayfalarda",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Video Sayfaları Hariç Tüm Sayfalarda",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Hiçbir zaman"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Küçük resim oluşturma hizmeti, video kimliğiyle anonim bir istek göndererek uzak bir sunucuya küçük resim oluşturmayı önemli ölçüde hızlandırır. Küçük resim ya oluşturulur ya da zaten oluşturulmuşsa önbellekten alınır."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Eğer video sayfalarında kullanılırsa, bu potansiyel olarak bu sunucuya gizlenmiş video kimliklerini sızdırabilir. Bunun \"Video Sayfaları Hariç Tüm Sayfalarda\" olarak ayarlanması bu sorunu önleyecektir. Başka bir seçenek, kendi küçük resim oluşturma hizmetinizi barındırmaktır."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Eğer küçük resim oluşturma hizmetinin kullanımı devre dışı bırakılırsa, tüm istekler k-anonymity sorgu sistemini kullanacak, bu da sunucunun hangi videoların alındığını tahmin etmesini zorlaştıracak ve daha yavaş bir yerel küçük resim oluşturma hizmeti kullanılacaktır.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Küçük Resim Oluşturma Servisinin Kaynak Kodları"
+    },
+    "moreAboutKAnonymity": {
+        "message": "K-Anonymity Hakkında Daha Fazlası",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Her Zaman \"Orjinalini Göster\" Butonunu Göster"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
+    },
+    "showIconForFormattedTitles": {
+        "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
+    },
+    "fetchTimeout": {
+        "message": "Veri Alma Zaman Aşımı (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Eğer sunucu belirtilen süre içinde yanıt vermezse, orijinal başlıkları ve küçük resimleri göster."
+    },
     "renderTimeout": {
         "message": "Küçük resim çizim zamanaşımı (ms)"
     },
     "renderTimeoutDescription": {
         "message": "Şu sürede küçük resim getirilemezse aslındakini göster."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Yerel Küçük Resim Oluşturmaya Başlamak İçin Zaman Aşımı (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Eğerki sunucu ile bir küçük resim oluşturmak uzun sürerse yerelde bir küçük resim oluşturmayı dene."
+    },
+    "Enable": {
+        "message": "Etkinleştir"
+    },
+    "Titles": {
+        "message": "Başlıklar",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Küçük Resimler",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Hata"
+    },
+    "ShowOriginal": {
+        "message": "Orijinal Ayrıntıları Göster"
+    },
+    "ShowModified": {
+        "message": "Değiştirilmiş Ayrıntıları Göster"
+    },
+    "FillerWarning": {
+        "message": "Uyarı: Bu son derece agresif bir kategoridir. Muhtemelen bazı içerikleri atlamak veya bazen devre dışı bırakmanız gerekebilir. Ancak unutmayın, gönderirken hala belirli kurallara uymamız gerektiğini unutmayın. Birçok video, videonun %50'den fazlasının atlandığı veya daha fazla olduğu bir durumdadır!",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Kalıcı olarak bu sohbette kalmak için. Discord yada Matrixe katıl",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Yardım Kılavuzunu Göster",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Aşırı abartılı yüz ifadelerinden kaçının",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Büyük resmi düşünün, sadece orijinal başlığın sorusunu cevaplamayın",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Videoya tepki niteliğinde açıklamalardan kaçının ('Mesela Şok Edici!')",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Tıklamadan önce bilinçli bir tercih yapabilmek için yeterli bilgiyi sağlayın"
+    },
+    "tip5": {
+        "message": "Bir cümle gibi ilk harfi büyüt",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
+    },
+    "howItWorks": {
+        "message": "Nasıl çalışıyor"
+    },
+    "discordPromotion": {
+        "message": "Katkıda ve önerilerde bulunun ve {discord} veya {matrix} üzerinden yardımcı olun"
+    },
+    "deArrowDonationText": {
+        "message": "Eğer şimdiye kadar yaptıklarımı beğendiyseniz ve maddi olarak yardımcı olmak isterseniz, işte bir bağlantı"
+    },
+    "termsAgreement": {
+        "message": "Bu uzantıyı kullanarak, {privacy-policy} ve {terms} 'i kabul etmiş olursunuz"
+    },
+    "privacyPolicy": {
+        "message": "Gizlilik Politikası"
+    },
+    "termsOfUse": {
+        "message": "Kullanım Koşulları"
+    },
+    "openSourceLicenses": {
+        "message": "Açık Kaynak Lisansları"
+    },
+    "defaultToOriginals": {
+        "message": "Varsayılan olarak Orijinal Video Bilgileri"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Varsayılan olarak orijinal başlığı ve küçük resmi göster, ancak özel başlıkları ve küçük resimleri görmek için üzerine geldiğinizde görünen bir düğmeye sahip ol."
+    },
+    "replaceTitles": {
+        "message": "Başlıkları Değiştir"
+    },
+    "replaceThumbnails": {
+        "message": "Küçük Resimleri Değiştir"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Topluluk Kaynaklı Başlıkları Kullan"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Eğer devre dışı bırakılırsa, başlıkları biçimlendirecek ancak topluluk tarafından gönderilen başlıkları kullanmayacaktır",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Bu yapılandırmayı silmek istediğinizden emin misiniz?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Yeni Yapılandırma"
+    },
+    "DeleteConfiguration": {
+        "message": "Yapılandırmayı Sil"
+    },
+    "ChannelAllowlist": {
+        "message": "İzin Verilen Kanallar"
+    },
+    "ConfigurationName": {
+        "message": "Yapılandırma Adı"
+    },
+    "ChannelListInstructions": {
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanarak Kullanıcı adları desteklenmez. Kanal Kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Henüz yapılandırma ayarlanmadı. Yeni bir yapılandırma eklemek için üstteki düğmeye tıklayın.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Başlıkları ve küçük resimleri daha doğru olanlarla değiştirerek clickbaitleri durdurun"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Clickbaitlerden sıkıldınız mı? Başlıkları ve küçük resimleri iyileştiren yeni uzantımı kontrol edin"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir ve başlık otomatik olarak biçimlendirilir",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Bu varsayılanı aşağıda değiştirebilirsiniz",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "Bu uzantıyı yüklediğinizden beri {titles} başlık ve {thumbnails} küçük resim değiştirildi",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} başlık ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} başlıklar ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "ve {thumbnails} küçük resim",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "ve {thumbnails} küçük resim",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Bu uzantıyı yüklediğinizden beri {titleAndThumbnailMessage} değiştirildi",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Başlık ve Küçük Resim Değiştirmelerini Say"
+    },
+    "countReplacementsDescription": {
+        "message": "Açılır pencerede size istatistikler sunmak için kullanıldı.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Yt-neuter kullanarak anketleri, ürün raflarını ve diğer tanıtım sayfası öğelerini engellemek için bir filtre listesi ekleyin"
+    },
+    "requiresUblock": {
+        "message": "uBlock Origin eklentisini gerektiriyor"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Video kimliği tespitiyle ilgili bir sorun oluştu. Lütfen doğru video için gönderilmesini sağlamak için göndermeden önce yeniden yüklemeyi deneyin. Eğer bu sıkça oluyorsa, lütfen GitHub, Discord veya Matrix üzerinden yüklü diğer uzantılar veya kullanıcı userscriptler ile birlikte bir rapor gönderin."
+    },
+    "dearrowLogoCredit": {
+        "message": "CC-BY 4.0 lisansıyla lisanslanmış Twemoji temelli logo"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock, 'Zoom to Fill' uzantısıyla uyumlu değildir. Bunun yerine düzgün çalışacak birçok alternatif uzantı kullanabilirsiniz."
+    },
+    "freeTrialStarted": {
+        "message": "Ücretsiz Denemen başarıyla başlatıldı. Test etmek için YouTube'u ziyaret et"
+    },
+    "freeTrialEnded": {
+        "message": "Ücretsiz denemen sona erdi"
+    },
+    "freeTrialPrompt": {
+        "message": "1 saatliğine test etmek istersen aşşağıdaki butonu kullanarak ücretsiz deneme başlatabilirsin."
+    },
+    "startFreeTrial": {
+        "message": "Ücretsiz denemeyi başlat"
+    },
+    "freeAccessRequested": {
+        "message": "Başarı ile bedava erişime kayıt oldun. Bedava erişime sahip olduğunda bu sana bildirilecek."
+    },
+    "freeAccessComplete": {
+        "message": "Tebrikler! Şuan ücretsiz erişime sahipsin"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow aktive edilmedi"
+    },
+    "ActivateDeArrow": {
+        "message": "Dearrow'u aktifleştir"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow başarı ile aktifleştirildi"
+    },
+    "Close": {
+        "message": "Kapat"
+    },
+    "ViewLicenseKey": {
+        "message": "Lisans Anahtarını Görüntüle"
+    },
+    "SharingIsCaring": {
+        "message": "Paylaşmak önemsemektir"
     }
 }

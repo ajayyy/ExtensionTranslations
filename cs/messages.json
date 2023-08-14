@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock pro YouTube - Přeskoč sponzorství",
+        "message": "SponsorBlock pro YouTube - Přeskoč sponzory",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
     },
+    "showIconForFormattedTitles": {
+        "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
+    },
     "fetchTimeout": {
         "message": "Časový limit načtení dat (ms)"
     },
@@ -1444,6 +1447,10 @@
         "message": "Vyhněte se přehnaným výrazům obličeje",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Přemýšlejte v širších souvislostech, neodpovídejte pouze na otázku v původním názvu",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
     "tip3": {
         "message": "Vyhněte se popisování reakcí na video („šokující“)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
@@ -1460,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Jak to funguje"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Děkujeme za vyzkoušení DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Upozorňujeme, že toto rozšíření je stále ve fázi beta. Rozšíření bude navždy zdarma pro každého, kdo si ho nainstaluje během beta verze. Ano, to znamená, že v budoucnu bude rozšíření pro nové uživatele pouze placené, ale slibuji, že stále bude existovat způsob, jak získat bezplatný přístup. Rozšíření samozřejmě vždy zůstane s plně otevřeným zdrojovým kódem a veřejně stažitelnou databází, stejně jako SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Děkujeme, že jste zvážili vyzkoušení i v této situaci",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Přispějte, vymyslete nějaké návrhy a pomozte ostatním na {discord} nebo na {matrix}"
@@ -1596,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock není kompatibilní s doplňkem „Zoom to Fill“. Místo něj můžete použít spoustu alternativ, které fungují správně."
+    },
+    "freeTrialStarted": {
+        "message": "Vaše bezplatná zkušební verze byla úspěšně zahájena. Navštivte YouTube a vyzkoušejte ji"
+    },
+    "freeTrialEnded": {
+        "message": "Vaše bezplatná zkušební verze skončila"
+    },
+    "freeTrialPrompt": {
+        "message": "Pokud si chcete na hodinu vyzkoušet funkce, můžete tlačítkem níže zahájit zkušební verzi."
+    },
+    "startFreeTrial": {
+        "message": "Spustit bezplatnou zkušební verzi"
+    },
+    "freeAccessRequested": {
+        "message": "Úspěšně jste se zaregistrovali pro bezplatný přístup. Jakmile vám bude udělen přístup, budete upozorněni."
+    },
+    "freeAccessComplete": {
+        "message": "Gratulujeme! Nyní máte bezplatný přístup k DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow není aktivován"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivovat DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow byl úspěšně aktivován"
+    },
+    "Close": {
+        "message": "Zavřít"
+    },
+    "ViewLicenseKey": {
+        "message": "Zobrazit licenční klíč"
+    },
+    "SharingIsCaring": {
+        "message": "Daruj a budeš obdarován"
     }
 }

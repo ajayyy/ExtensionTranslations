@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
+    },
     "fetchTimeout": {
         "message": "Tempo limite de busca de dados (ms)"
     },
@@ -1456,7 +1459,7 @@
         "message": "Antes de clicar, forneça informações suficientes para uma melhor seleção"
     },
     "tip5": {
-        "message": "Comece as frases em maiúsculas",
+        "message": "Comece as frases com maiúsculas",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
@@ -1464,17 +1467,6 @@
     },
     "howItWorks": {
         "message": "Como funciona"
-    },
-    "thanksForTryingOutDeArrow": {
-        "message": "Obrigado por experimentar o DeArrow"
-    },
-    "deArrowBetaStatus": {
-        "message": "Essa extensão ainda está em desenvolvimento. É uma extensão gratuita, e será gratuita para sempre para quem testá-la durante a fase beta. Sim, ela será paga no futuro, mas ainda haverá formas de ser obtida gratuitamente. A extensão sempre terá seu código aberto e um banco de dados público, assim como o SponsorBlock.",
-        "description": "This appears on the install page of DeArrow describing the current state of the extension as released."
-    },
-    "deArrowTryingOut": {
-        "message": "Obrigado novamente por testar durante a fase de desenvolvimento",
-        "description": "This appears on the install page of DeArrow referring to trying out the extension while it is still in beta"
     },
     "discordPromotion": {
         "message": "Deixe sua contribuição, sugestões ou ajude outros usuários no {discord} ou {matrix}"
@@ -1600,5 +1592,41 @@
     },
     "zoomToFillUnsupported": {
         "message": "O SponsorBlock não é compatível com a extensão \"Zoom to Fill\". Há muitas alternativas que você pode usar que funcionarão corretamente."
+    },
+    "freeTrialStarted": {
+        "message": "Sua avaliação gratuita foi iniciada com sucesso. Visite o YouTube para testá-lo"
+    },
+    "freeTrialEnded": {
+        "message": "Sua avaliação gratuita terminou"
+    },
+    "freeTrialPrompt": {
+        "message": "Se você quiser testá-lo por uma hora, você pode iniciar um teste gratuito com o botão abaixo."
+    },
+    "startFreeTrial": {
+        "message": "Iniciar avaliação gratuita"
+    },
+    "freeAccessRequested": {
+        "message": "Você está registrado com sucesso para acesso gratuito. Você será notificado quando o acesso gratuito for concedido."
+    },
+    "freeAccessComplete": {
+        "message": "Parabéns! Agora você tem acesso gratuito à DeArrow <3"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow não está ativado"
+    },
+    "ActivateDeArrow": {
+        "message": "Ative DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow foi ativado com sucesso"
+    },
+    "Close": {
+        "message": "Fechar"
+    },
+    "ViewLicenseKey": {
+        "message": "Visualizar Chave de Licença"
+    },
+    "SharingIsCaring": {
+        "message": "Compartilhar é cuidar"
     }
 }
