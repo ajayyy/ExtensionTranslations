@@ -973,7 +973,7 @@
         "message": "Skjul Donationslink"
     },
     "darkModeOptionsPage": {
-        "message": "Mørk Tilstand På Indstillingssiden"
+        "message": "Mørk tilstand på indstillingssiden"
     },
     "helpPageThanksForInstalling": {
         "message": "Tak for at installere SponsorBlock."
@@ -1148,7 +1148,7 @@
         "message": "Licensnøglen er ugyldig"
     },
     "hideUpsells": {
-        "message": "Skjul utilgængelige muligheder uden ekstra betaling"
+        "message": "Skjul muligheder som ikke er tilgængelige uden ekstra betaling"
     },
     "hideNewFeatureUpdates": {
         "message": "Skjul tips om nye funktioner"
