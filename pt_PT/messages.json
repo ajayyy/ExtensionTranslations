@@ -408,12 +408,18 @@
     "createdBy": {
         "message": "Criado por"
     },
+    "supportOtherSites": {
+        "message": "Apoie outros sites de YouTube"
+    },
     "supportOtherSitesDescription": {
         "message": "Apoie clientes de terceiros do YouTube. Para ativar o suporte, deve aceitar as permissões adicionais.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
         "message": "Sites suportados: "
+    },
+    "optionsInfo": {
+        "message": "Habilitar suporte convidado, desabilitar pulo automático, ocultar botões e muito mais."
     },
     "addInvidiousInstanceDescription": {
         "message": "Adicione uma instância personalizada. Isso deve ser formatado APENAS com o domínio. Exemplo: invidious.ajay.app"
