@@ -1029,6 +1029,9 @@
     "selectYourCountry": {
         "message": "আপনার দেশ নির্বাচন করুন"
     },
+    "redeem": {
+        "message": "ফিরত"
+    },
     "videosSingular": {
         "message": "ভিডিও",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
@@ -1040,5 +1043,55 @@
     "clearUnsubmittedSegments": {
         "message": "সকল সেগমেন্ট পরিস্কার করুন",
         "description": "Label for a button in settings"
+    },
+    "videoID": {
+        "message": "ভিডিও আইডি",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "ক্রিয়া",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}সে",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "Original": {
+        "message": "প্রকৃত"
+    },
+    "resetIcon": {
+        "message": "সবকিছু ফিরত নাও আইকন"
+    },
+    "Vote": {
+        "message": "ভোট"
+    },
+    "Disabled": {
+        "message": "নিষ্ক্রিয়"
+    },
+    "TitleCase": {
+        "message": "শিরোনামের হাত"
+    },
+    "LowerCase": {
+        "message": "ছোট হাতের"
+    },
+    "Never": {
+        "message": "কখনই না"
+    },
+    "Enable": {
+        "message": "সক্রিয়"
+    },
+    "Titles": {
+        "message": "শিরোনাম",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "প্রচ্ছবি",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "ত্রুটি"
+    },
+    "Close": {
+        "message": "বন্ধ"
     }
 }
