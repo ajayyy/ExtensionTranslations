@@ -445,7 +445,10 @@
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
     "category_sponsor": {
-        "message": "الراعي"
+        "message": "دعاية"
+    },
+    "category_sponsor_description": {
+        "message": "الدعايات المدفوعة و التوصيات المدفوعة و الإعلانات المباشرة. ليس للدعاية الذاتية أو اعلانات مجانية لأسباب انسانية/مبدعين/مواقع/منتجات يحبونها."
     },
     "category_sponsor_guideline1": {
         "message": "دعايات مدفوعة"
@@ -455,6 +458,12 @@
     },
     "category_exclusive_access": {
         "message": "وصول حصري"
+    },
+    "category_interaction": {
+        "message": "التذكير بالتفاعل (الاشتراك)"
+    },
+    "category_interaction_short": {
+        "message": "التذكير بالتفاعل"
     },
     "category_intro_short": {
         "message": "استراحة"
