@@ -1516,7 +1516,7 @@
         "message": "Usuń konfigurację"
     },
     "ChannelAllowlist": {
-        "message": "Kanały, na których SponsorBlock będzie wyłączony"
+        "message": "Biała lista kanałów"
     },
     "ConfigurationName": {
         "message": "Nazwa konfiguracji"
