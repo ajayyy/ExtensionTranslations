@@ -1389,6 +1389,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostra il pulsante \"Mostra Originale\" per i titoli formattati automaticamente"
+    },
     "fetchTimeout": {
         "message": "Timeout di Recupero dei Dati (ms)"
     },
