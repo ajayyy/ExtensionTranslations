@@ -945,11 +945,17 @@
     "questionButton": {
         "message": "Mul on küsimus"
     },
+    "askAQuestion": {
+        "message": "Esita küsimus"
+    },
     "warningConfirmButton": {
         "message": "Ma mõistan põhjust"
     },
     "warningError": {
         "message": "Hoiatuse mõistmise kinnitamisel esines viga:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Said moderaatorilt vihje"
     },
     "Donate": {
         "message": "Anneta"
@@ -1300,8 +1306,14 @@
     "SentenceCase": {
         "message": "Suurtähesta laused"
     },
+    "shouldCleanEmojis": {
+        "message": "Eemalda emojid"
+    },
     "keepUnsubmitted": {
         "message": "Säilita saadetud hääled"
+    },
+    "Never": {
+        "message": "Mitte kunagi"
     },
     "Enable": {
         "message": "Luba"
@@ -1316,5 +1328,14 @@
     },
     "Error": {
         "message": "Viga"
+    },
+    "privacyPolicy": {
+        "message": "Privaatsuspoliitika"
+    },
+    "requiresUblock": {
+        "message": "Nõuab uBlock Originit"
+    },
+    "Close": {
+        "message": "Sulge"
     }
 }

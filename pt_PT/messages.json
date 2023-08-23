@@ -766,6 +766,9 @@
     "Vote": {
         "message": "Votar"
     },
+    "showIconForFormattedTitles": {
+        "message": "Mostrar o botão \"Mostrar original\" para títulos auto-formatados"
+    },
     "Error": {
         "message": "Erro"
     },

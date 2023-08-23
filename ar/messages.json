@@ -445,7 +445,10 @@
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
     "category_sponsor": {
-        "message": "الراعي"
+        "message": "رعاية"
+    },
+    "category_sponsor_description": {
+        "message": "الدعايات المدفوعة و التوصيات المدفوعة و الإعلانات المباشرة. ليس للدعاية الذاتية أو اعلانات مجانية لأسباب انسانية/مبدعين/مواقع/منتجات يحبونها."
     },
     "category_sponsor_guideline1": {
         "message": "دعايات مدفوعة"
@@ -453,8 +456,29 @@
     "category_selfpromo": {
         "message": "دعاية غير مدفوعة/ذاتية"
     },
+    "category_selfpromo_description": {
+        "message": "شبيه بـ \"رعاية\" ولكن غير ممولة أو أن تكون دعاية ذاتية. يشمل هذا البضائع من قبل صانع المحتوى أو تبرعات او معلومات حول من تعاونوا معهم."
+    },
     "category_exclusive_access": {
         "message": "وصول حصري"
+    },
+    "category_exclusive_access_description": {
+        "message": "فقط لتوسيم مقاطع فيديو بِرُمَّتها. تستخدم عند عرض الفيديو منتج أو خدمة أو موقع حصلوا عليه مجانا أو بثمن مخفف."
+    },
+    "category_interaction": {
+        "message": "التذكير بالتفاعل (الاشتراك)"
+    },
+    "category_interaction_description": {
+        "message": "عند وجود تذكار قصير للاشتراك أو المتابعة في منتصف محتوى. إذا كان طويل أو حول شيء محدد، يجب أن يكون تحت الترويج الذاتي."
+    },
+    "category_interaction_short": {
+        "message": "التذكير بالتفاعل"
+    },
+    "category_intro": {
+        "message": "انترو"
+    },
+    "category_intro_description": {
+        "message": "فاصل زمني بدون محتوى فعلي. يمكن أن يكون توقفًا مؤقتًا أو إطارًا ثابتًا أو تكرار الرسوم المتحركة. لا يتضمن انتقالات تحتوي على معلومات."
     },
     "category_intro_short": {
         "message": "استراحة"
