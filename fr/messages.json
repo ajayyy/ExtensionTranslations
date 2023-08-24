@@ -1542,5 +1542,8 @@
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock n'est pas compatible avec l'extension \"Zoom to Fill\". Il existe de nombreuses alternatives que vous pouvez utiliser à la place qui fonctionneront correctement."
+    },
+    "ActivateDeArrow": {
+        "message": "Activer DeArrow"
     }
 }
