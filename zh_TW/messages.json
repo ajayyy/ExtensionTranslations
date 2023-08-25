@@ -1401,11 +1401,29 @@
     "requiresUblock": {
         "message": "需要 uBlock Origin"
     },
+    "dearrowLogoCredit": {
+        "message": "此 Logo 基於 Twemoji 設計，並依照 CC-BY 4.0 授權使用。"
+    },
+    "freeTrialStarted": {
+        "message": "您的免費試用已成功啟用。請造訪 YouTube 來試用看看。"
+    },
     "freeTrialEnded": {
         "message": "您的試用已到期"
     },
+    "freeTrialPrompt": {
+        "message": "如果您想要進行一小時的測試，您可以透過下方的按鈕開始免費試用。"
+    },
     "startFreeTrial": {
         "message": "開始免費試用"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow 尚未啟用。"
+    },
+    "ActivateDeArrow": {
+        "message": "啟用 DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow 已經成功啟用。"
     },
     "Close": {
         "message": "關閉"
