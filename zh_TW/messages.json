@@ -1288,6 +1288,15 @@
     "SentenceCase": {
         "message": "逐句首字母大寫"
     },
+    "LowerCase": {
+        "message": "小寫"
+    },
+    "FirstLetterUppercase": {
+        "message": "第一個字母大寫"
+    },
+    "shouldCleanEmojis": {
+        "message": "移除表情符號"
+    },
     "RandomTime": {
         "message": "顯示隨機時間點的截圖"
     },
@@ -1391,5 +1400,17 @@
     },
     "requiresUblock": {
         "message": "需要 uBlock Origin"
+    },
+    "freeTrialEnded": {
+        "message": "您的試用已到期"
+    },
+    "startFreeTrial": {
+        "message": "開始免費試用"
+    },
+    "Close": {
+        "message": "關閉"
+    },
+    "ViewLicenseKey": {
+        "message": "檢視授權金鑰"
     }
 }
