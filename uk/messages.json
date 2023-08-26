@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Використовувати службу генерації мініатюр"
     },
+    "titleMaxLines": {
+        "message": "Максимальна кількість рядків для заголовку"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Відео назви будуть поширюватися на стільки рядків в пропозиціях."
+    },
     "onAllPages": {
         "message": "На всіх сторінках",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
