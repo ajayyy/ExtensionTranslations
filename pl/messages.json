@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Używaj usługi generowania miniatur"
     },
+    "titleMaxLines": {
+        "message": "Maksymalna ilość wierszy w tytule"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Tytuły filmów zostaną rozmieszczone w tylu wierszach na liście polecanych filmów."
+    },
     "onAllPages": {
         "message": "Na wszystkich stronach",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
