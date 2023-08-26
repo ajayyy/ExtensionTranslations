@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Thumbnail-Erstellungsdienst verwenden"
     },
+    "titleMaxLines": {
+        "message": "Maximale Zeilen für Titel"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
+    },
     "onAllPages": {
         "message": "Auf allen Seiten",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
