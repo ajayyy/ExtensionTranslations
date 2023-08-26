@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "サムネイル生成サービスを使用"
     },
+    "titleMaxLines": {
+        "message": "題名の最大行数"
+    },
+    "titleMaxLinesDescription": {
+        "message": "動画の題名を改行するさいの最大行数"
+    },
     "onAllPages": {
         "message": "すべてのページで",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
