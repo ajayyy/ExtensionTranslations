@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Použít službu generování náhledů"
     },
+    "titleMaxLines": {
+        "message": "Maximální počet řádků pro název"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Názvy videí budou v návrzích rozloženy na tento počet řádků."
+    },
     "onAllPages": {
         "message": "Na všech stránkách",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

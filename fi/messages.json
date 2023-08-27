@@ -1355,6 +1355,9 @@
     "useThumbnailGenerationService": {
         "message": "Käytä pienoiskuvien luontipalvelua"
     },
+    "titleMaxLines": {
+        "message": "Otsikon enimmäisrivimäärä"
+    },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

@@ -867,7 +867,7 @@
         "message": "Kanal-ID ist noch nicht geladen. Falls es sich um ein eingebettetes Video handelt, probiere stattdessen die YouTube-Webseite. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, kannst du es hier vermerken:"
     },
     "invidiousPermissionRefresh": {
-        "message": "Der Browser hat die Berechtigung, welche zum vewenden von Invidious und anderen Drittanbieter-Seiten benötigt wird, verweigert. Bitte klicke auf die Schaltfläche unten, um diese Berechtigung zu ractivieren."
+        "message": "Der Browser hat die Berechtigung, welche zum Verwenden von Invidious und anderen Drittanbieter-Seiten benötigt wird, widerrufen. Bitte klicke auf die Schaltfläche unten, um diese Berechtigung zu reaktivieren."
     },
     "acceptPermission": {
         "message": "Berechtigung erteilen"
@@ -936,7 +936,7 @@
         "message": "Das gesamte Video fällt unter diese Kategorie und ist zu stark integriert, um es zu trennen"
     },
     "chapterNameTooltipWarning": {
-        "message": "Eines deiner Kapitelnamen ähnlet einer Kategorie. Du solltest Kategorien verwenden, wenn möglich."
+        "message": "Einer deiner Kapitelnamen ähnelt einer Kategorie. Du solltest Kategorien verwenden, wenn möglich."
     },
     "experiementOptOut": {
         "message": "Aus allen zukünftigen Experimenten abmelden",
@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Thumbnail-Erstellungsdienst verwenden"
     },
+    "titleMaxLines": {
+        "message": "Maximale Zeilen für Titel"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
+    },
     "onAllPages": {
         "message": "Auf allen Seiten",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1388,6 +1394,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob ein Titel oder Thumbnail verändert wurde."
+    },
+    "showIconForFormattedTitles": {
+        "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
     },
     "fetchTimeout": {
         "message": "Daten-Abruf-Timeout (ms)"
@@ -1537,7 +1546,7 @@
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Dieses Thumbnail wurde von einer zufälligen Zeit gewählt und der Titel wurde automatisch formattiert, da es noch keine Einreichungen für dieses Video gab",
+        "message": "Dieses Thumbnail wurde von einem zufälligen Zeitstempel gewählt und der Titel wurde automatisch formatiert, weil es noch keine Einreichung für dieses Video gibt",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
@@ -1622,5 +1631,8 @@
     },
     "ViewLicenseKey": {
         "message": "Lizenzschlüssel anzeigen"
+    },
+    "SharingIsCaring": {
+        "message": "Teilen macht Freude"
     }
 }

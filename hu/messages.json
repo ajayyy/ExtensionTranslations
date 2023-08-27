@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Indexkép készítő szolgáltatás használata"
     },
+    "titleMaxLines": {
+        "message": "Címek sorainak maximális száma"
+    },
+    "titleMaxLinesDescription": {
+        "message": "A videók címei ennyi sorban lesznek elosztva a javaslatokban."
+    },
     "onAllPages": {
         "message": "Minden oldalon",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

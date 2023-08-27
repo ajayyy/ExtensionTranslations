@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Використовувати службу генерації мініатюр"
     },
+    "titleMaxLines": {
+        "message": "Максимальна кількість рядків для заголовку"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Відео назви будуть поширюватися на стільки рядків в пропозиціях."
+    },
     "onAllPages": {
         "message": "На всіх сторінках",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1608,8 +1614,17 @@
     "freeAccessRequested": {
         "message": "Ви успішно зареєстровані для безкоштовного доступу. Ви отримаєте повідомлення про надання безкоштовного доступу."
     },
+    "freeAccessComplete": {
+        "message": "Вітаємо! Тепер у вас є безплатний доступ до DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow не активований"
+    },
     "ActivateDeArrow": {
         "message": "Активувати DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow успішно активовано"
     },
     "Close": {
         "message": "Закрити"

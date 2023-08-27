@@ -1288,6 +1288,15 @@
     "SentenceCase": {
         "message": "逐句首字母大寫"
     },
+    "LowerCase": {
+        "message": "小寫"
+    },
+    "FirstLetterUppercase": {
+        "message": "第一個字母大寫"
+    },
+    "shouldCleanEmojis": {
+        "message": "移除表情符號"
+    },
     "RandomTime": {
         "message": "顯示隨機時間點的截圖"
     },
@@ -1389,7 +1398,59 @@
         "message": "和 {thumbnails} 張縮圖",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "countReplacementsDescription": {
+        "message": "用於在彈出視窗中提供統計資料給您。",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "加入過濾清單以使用 yt-neuter 來阻擋問卷調查、商品架以及其他推廣頁面元素。"
+    },
     "requiresUblock": {
         "message": "需要 uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "「影片 ID 的偵測出現問題。請在提交前嘗試重新整理，以確保正確的影片獲得提交。如果這種情況頻繁發生，請將此報告連同您透過 GitHub、Discord 或 Matrix 安裝的其他擴充功能或使用者腳本一起發送。」"
+    },
+    "dearrowLogoCredit": {
+        "message": "此 Logo 基於 Twemoji 設計，並依照 CC-BY 4.0 授權使用。"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock 與 \"Zoom to Fill\" 這個擴充功能不相容。不過您可以選擇使用許多其他可以正常運作的替代方案。"
+    },
+    "freeTrialStarted": {
+        "message": "您的免費試用已成功啟用。請造訪 YouTube 來試用看看。"
+    },
+    "freeTrialEnded": {
+        "message": "您的試用已到期"
+    },
+    "freeTrialPrompt": {
+        "message": "如果您想要進行一小時的測試，您可以透過下方的按鈕開始免費試用。"
+    },
+    "startFreeTrial": {
+        "message": "開始免費試用"
+    },
+    "freeAccessRequested": {
+        "message": "您已成功註冊免費存取權。我們將在免費存取權被授予時通知您。"
+    },
+    "freeAccessComplete": {
+        "message": "恭喜！您現在可以免費使用 DeArrow。"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow 尚未啟用。"
+    },
+    "ActivateDeArrow": {
+        "message": "啟用 DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow 已經成功啟用。"
+    },
+    "Close": {
+        "message": "關閉"
+    },
+    "ViewLicenseKey": {
+        "message": "檢視授權金鑰"
+    },
+    "SharingIsCaring": {
+        "message": "分享就是關懷"
     }
 }

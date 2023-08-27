@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Использовать сервис создания значков"
     },
+    "titleMaxLines": {
+        "message": "Максимальное количество строк для названий"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Предложенные названия видео будут расположены на этом количестве строк."
+    },
     "onAllPages": {
         "message": "На всех страницах",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

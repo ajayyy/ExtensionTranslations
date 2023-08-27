@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Използване на услугата за генериране на миниатюри"
     },
+    "titleMaxLines": {
+        "message": "Макс. брой редове за заглавията"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Заглавията на видеоклиповете ще бъдат разпределени на толкова реда в предложенията."
+    },
     "onAllPages": {
         "message": "На всички страници",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Använd miniatyrbildsgenereringstjänsten"
     },
+    "titleMaxLines": {
+        "message": "Maximalt antal rader för titel"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videotitlar kommer att spridas över så här många rader i förslag."
+    },
     "onAllPages": {
         "message": "På alla sidor",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
