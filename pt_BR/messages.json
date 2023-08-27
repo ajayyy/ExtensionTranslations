@@ -1355,6 +1355,9 @@
     "useThumbnailGenerationService": {
         "message": "Usar serviço de geração de miniaturas"
     },
+    "titleMaxLines": {
+        "message": "Máximo de linhas para o título"
+    },
     "onAllPages": {
         "message": "Em todas as páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
