@@ -1282,6 +1282,12 @@
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
     },
+    "titleMaxLines": {
+        "message": "Maximálny počet riadkov pre názov"
+    },
+    "titleMaxLinesDescription": {
+        "message": "V odporúčaniach budú názvy videí zobrazené na daný počet riadkov."
+    },
     "onAllPages": {
         "message": "Na všetkých stránkach",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
