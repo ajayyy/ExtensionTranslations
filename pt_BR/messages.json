@@ -1358,6 +1358,9 @@
     "titleMaxLines": {
         "message": "Máximo de linhas para o título"
     },
+    "titleMaxLinesDescription": {
+        "message": "Os títulos do vídeo serão quebrados por esta quantidade de linhas nas sugestões."
+    },
     "onAllPages": {
         "message": "Em todas as páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
