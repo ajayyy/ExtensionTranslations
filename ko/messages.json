@@ -1355,6 +1355,9 @@
     "useThumbnailGenerationService": {
         "message": "미리 보기 이미지 생성 서비스 사용"
     },
+    "titleMaxLines": {
+        "message": "제목의 최대 줄 수"
+    },
     "onAllPages": {
         "message": "모든 페이지에서",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
