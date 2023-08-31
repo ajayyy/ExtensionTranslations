@@ -497,7 +497,7 @@
         "message": "Endereço que o SponsorBlock usa para fazer chamadas ao servidor.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
     },
     "dataFetchingServerAddress": {
-        "message": "Recuperando endereço do servidor"
+        "message": "Endereço do servidor para busca de dados"
     },
     "dataFetchingServerAddressDescription": {
         "message": "O endereço usado para fazer chamadas para o servidor de busca de dados.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
@@ -1322,7 +1322,7 @@
         "message": "tudo minúsculo"
     },
     "FirstLetterUppercase": {
-        "message": "Primeira Letra Em Maiúscula"
+        "message": "Primeira letra em maiúscula"
     },
     "shouldCleanEmojis": {
         "message": "Remover emojis"
