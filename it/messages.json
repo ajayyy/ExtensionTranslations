@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Utilizza Servizio di Generazione Miniature"
     },
+    "titleMaxLines": {
+        "message": "Righe Massime per il Titolo"
+    },
+    "titleMaxLinesDescription": {
+        "message": "I titoli dei video saranno diffusi su questo numero di righe nei suggerimenti."
+    },
     "onAllPages": {
         "message": "Su Tutte le Pagine",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
