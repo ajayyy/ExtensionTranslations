@@ -1356,7 +1356,7 @@
         "message": "Käytä pienoiskuvien luontipalvelua"
     },
     "titleMaxLines": {
-        "message": "Otsikon enimmäisrivimäärä"
+        "message": "Otsikoiden enimmäisrivimäärä"
     },
     "titleMaxLinesDescription": {
         "message": "Videoiden otsikot jakautuvat ehdotuksissa tässä määritetylle rivimäärälle."
