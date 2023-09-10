@@ -1395,6 +1395,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
     },
+    "showOriginalOnHover": {
+        "message": "Mostrar detalles originales al pasar el cursor"
+    },
     "showIconForFormattedTitles": {
         "message": "Mostrar el botón \"Mostrar original\" para los títulos autoformateados"
     },
