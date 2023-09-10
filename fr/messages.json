@@ -1451,6 +1451,10 @@
     "tip4": {
         "message": "Fournissez suffisamment d'informations pour faire un choix éclairé avant de cliquer"
     },
+    "tip5": {
+        "message": "Mettre en majuscule comme une phrase",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
     },
