@@ -1547,7 +1547,28 @@
     "zoomToFillUnsupported": {
         "message": "SponsorBlock n'est pas compatible avec l'extension \"Zoom to Fill\". Il existe de nombreuses alternatives que vous pouvez utiliser à la place qui fonctionneront correctement."
     },
+    "freeTrialEnded": {
+        "message": "Votre essai gratuit est terminé"
+    },
+    "freeAccessRequested": {
+        "message": "Vous vous êtes enregistré avec succès pour un accès gratuit. Vous serez averti lorsqu'il vous sera accordé."
+    },
+    "freeAccessComplete": {
+        "message": "Félicitations ! Vous avez maintenant un accès gratuit à DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow n'est pas activée"
+    },
     "ActivateDeArrow": {
         "message": "Activer DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow a été activé avec succès"
+    },
+    "Close": {
+        "message": "Fermer"
+    },
+    "ViewLicenseKey": {
+        "message": "Voir la clé de licence"
     }
 }
