@@ -1151,7 +1151,7 @@
         "message": "La clé de licence est invalide"
     },
     "hideUpsells": {
-        "message": "Cache les potions non disponibles sans paiement supplémentaire"
+        "message": "Cache les options non disponibles sans paiement supplémentaire"
     },
     "hideNewFeatureUpdates": {
         "message": "Masquer les messages d'information à propos des nouvelles fonctionnalités"
@@ -1511,9 +1511,27 @@
     "ConfigurationName": {
         "message": "Nom de la configuration"
     },
+    "DeArrowPromotionMessage": {
+        "message": "Arrêtez les pièges à clics en remplaçant les titres et les miniatures par des éléments plus exacts"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Fatigué des pièges à clics ? Découvrez ma nouvelle extension pour améliorer les titres et les miniatures"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Cette miniature est choisie à partir d'une image aléatoire car il n'y a pas encore de soumission sur cette vidéo",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Cette miniature est choisie à partir d'un horodatage aléatoire, car il n'y a pas encore de soumission sur cette vidéo",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
     "YouCanChangeThisDefaultBelow": {
         "message": "Vous pouvez modifier cette valeur par défaut ci-dessous",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titres et {thumbnails} miniatures ont été remplacés depuis que vous avez installé cette extension",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} titre ",
@@ -1531,6 +1549,10 @@
         "message": "et {thumbnails} miniatures",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} ont été remplacé depuis que vous avez installé cette extension",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "countReplacements": {
         "message": "Nombre de titres et de remplacements de miniatures"
     },
@@ -1547,8 +1569,17 @@
     "zoomToFillUnsupported": {
         "message": "SponsorBlock n'est pas compatible avec l'extension \"Zoom to Fill\". Il existe de nombreuses alternatives que vous pouvez utiliser à la place qui fonctionneront correctement."
     },
+    "freeTrialStarted": {
+        "message": "Votre essai gratuit a démarré avec succès. Allez sur YouTube pour le tester"
+    },
     "freeTrialEnded": {
         "message": "Votre essai gratuit est terminé"
+    },
+    "freeTrialPrompt": {
+        "message": "Si vous voulez le tester pendant une heure, vous pouvez commencer un essai gratuit avec le bouton ci-dessous."
+    },
+    "startFreeTrial": {
+        "message": "Commencer l'essai gratuit"
     },
     "freeAccessRequested": {
         "message": "Vous vous êtes enregistré avec succès pour un accès gratuit. Vous serez averti lorsqu'il vous sera accordé."
