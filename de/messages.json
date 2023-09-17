@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Du musst eine Kategorie für jedes zu übermittelnde Segment auswählen!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(Ende)"
     },
@@ -1394,6 +1397,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob ein Titel oder Thumbnail verändert wurde."
+    },
+    "showOriginalOnHover": {
+        "message": "Zeige Originale Details beim Hovern"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
