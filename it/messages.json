@@ -1355,6 +1355,12 @@
     "useThumbnailGenerationService": {
         "message": "Utilizza Servizio di Generazione Miniature"
     },
+    "titleMaxLines": {
+        "message": "Righe Massime per il Titolo"
+    },
+    "titleMaxLinesDescription": {
+        "message": "I titoli dei video saranno diffusi su questo numero di righe nei suggerimenti."
+    },
     "onAllPages": {
         "message": "Su Tutte le Pagine",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1388,6 +1394,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
+    },
+    "showOriginalOnHover": {
+        "message": "Mostra i Dettagli Originali al Passaggio del Mouse"
     },
     "showIconForFormattedTitles": {
         "message": "Mostra il pulsante \"Mostra Originale\" per i titoli formattati automaticamente"

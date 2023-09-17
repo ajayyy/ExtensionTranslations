@@ -1356,7 +1356,10 @@
         "message": "Käytä pienoiskuvien luontipalvelua"
     },
     "titleMaxLines": {
-        "message": "Otsikon enimmäisrivimäärä"
+        "message": "Otsikoiden enimmäisrivimäärä"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videoiden otsikot jakautuvat ehdotuksissa tässä määritetylle rivimäärälle."
     },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
@@ -1391,6 +1394,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
+    },
+    "showOriginalOnHover": {
+        "message": "Näytä alkuperäiset tiedot osoitettaessa"
     },
     "showIconForFormattedTitles": {
         "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"

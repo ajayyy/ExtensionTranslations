@@ -1355,6 +1355,9 @@
     "useThumbnailGenerationService": {
         "message": "미리 보기 이미지 생성 서비스 사용"
     },
+    "titleMaxLines": {
+        "message": "제목의 최대 줄 수"
+    },
     "onAllPages": {
         "message": "모든 페이지에서",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1388,6 +1391,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "제목/미리 보기 이미지가 바뀌었는지 항상 확인하고 싶다면 켜세요."
+    },
+    "showOriginalOnHover": {
+        "message": "마우스를 올렸을 때 원본 정보 보기"
     },
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"

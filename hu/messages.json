@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Minden szegmenshez kategóriát kell választani beküldés előtt!"
     },
+    "bracketStart": {
+        "message": "(Eleje)"
+    },
     "bracketEnd": {
         "message": "(Vége)"
     },
@@ -1395,6 +1398,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
+    "showOriginalOnHover": {
+        "message": "Eredeti tulajdonságok megjelenítése, ha felette van a kurzor"
+    },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
     },
@@ -1496,7 +1502,7 @@
         "message": "Eredeti videó információk alapértelmezetten"
     },
     "whatDefaultToOriginals": {
-        "message": "Az eredeti címet és indexképet mutassa alapból, de legyen egy gomb az egyedi címek és indexképek megjelenítésére."
+        "message": "Az eredeti címet és indexképet mutassa alapból, de legyen egy gomb az egyedi címek és indexképek megjelenítésére, ha feléjük visszük a kurzort."
     },
     "replaceTitles": {
         "message": "Címek lecserélése"

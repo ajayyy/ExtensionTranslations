@@ -497,7 +497,7 @@
         "message": "Endereço que o SponsorBlock usa para fazer chamadas ao servidor.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
     },
     "dataFetchingServerAddress": {
-        "message": "Recuperando endereço do servidor"
+        "message": "Endereço do servidor para busca de dados"
     },
     "dataFetchingServerAddressDescription": {
         "message": "O endereço usado para fazer chamadas para o servidor de busca de dados.\nA menos que você tenha sua própria instância de servidor, isso não deve ser alterado."
@@ -1322,7 +1322,7 @@
         "message": "tudo minúsculo"
     },
     "FirstLetterUppercase": {
-        "message": "Primeira Letra Em Maiúscula"
+        "message": "Primeira letra em maiúscula"
     },
     "shouldCleanEmojis": {
         "message": "Remover emojis"
@@ -1354,6 +1354,12 @@
     },
     "useThumbnailGenerationService": {
         "message": "Usar serviço de geração de miniaturas"
+    },
+    "titleMaxLines": {
+        "message": "Máximo de linhas para o título"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Os títulos do vídeo serão quebrados por esta quantidade de linhas nas sugestões."
     },
     "onAllPages": {
         "message": "Em todas as páginas",
@@ -1388,6 +1394,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
+    },
+    "showOriginalOnHover": {
+        "message": "Mostrar detalhes originais quando passar o ponteiro"
     },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"

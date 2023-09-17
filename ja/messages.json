@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "登録するすべてのセグメントのカテゴリを選択してください！"
     },
+    "bracketStart": {
+        "message": "(開始)"
+    },
     "bracketEnd": {
         "message": "（終了）"
     },
@@ -1394,6 +1397,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
+    },
+    "showOriginalOnHover": {
+        "message": "カーソルを重ねたさいに改変前の概要欄を表示する"
     },
     "showIconForFormattedTitles": {
         "message": "自動整形された題名に「元を表示」ボタンを表示"

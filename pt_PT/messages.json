@@ -766,6 +766,12 @@
     "Vote": {
         "message": "Votar"
     },
+    "titleMaxLines": {
+        "message": "Máximo de linhas para o título"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Os títulos dos vídeos serão distribuídos por este número de linhas nas sugestões."
+    },
     "showIconForFormattedTitles": {
         "message": "Mostrar o botão \"Mostrar original\" para títulos auto-formatados"
     },

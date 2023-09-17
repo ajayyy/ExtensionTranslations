@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Ви повинні обрати категорію для всіх сегментів, які ви відправляєте!"
     },
+    "bracketStart": {
+        "message": "(Старт)"
+    },
     "bracketEnd": {
         "message": "(Кінець)"
     },
@@ -1394,6 +1397,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Якщо ви бажаєте завжди знати, що назва/іконка змінена, дозвольте це."
+    },
+    "showOriginalOnHover": {
+        "message": "Показати також оригінальні дані коли миша поверх"
     },
     "showIconForFormattedTitles": {
         "message": "Відображати кнопку \"Показати Оригінальний\" для автоматично форматованих заголовків"
