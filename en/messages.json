@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "You must select a category for all segments you are submitting!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(End)"
     },
