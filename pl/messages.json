@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Musisz wybrać kategorię dla każdego segmentu, który zamieszczasz!"
     },
+    "bracketStart": {
+        "message": "(Początek)"
+    },
     "bracketEnd": {
         "message": "(Koniec)"
     },
@@ -1394,6 +1397,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Jeśli chcesz zawsze wiedzieć, czy tytuł/miniaturka uległa zmianie, włącz tę opcję."
+    },
+    "showOriginalOnHover": {
+        "message": "Pokaż oryginał po najechaniu"
     },
     "showIconForFormattedTitles": {
         "message": "Wyświetl przycisk \"Pokaż oryginał\" dla automatycznie sformatowanych tytułów"
