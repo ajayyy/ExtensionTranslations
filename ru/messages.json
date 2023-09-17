@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Вы должны выбрать категорию для всех сегментов, которые вы отправляете!"
     },
+    "bracketStart": {
+        "message": "(Начало)"
+    },
     "bracketEnd": {
         "message": "(Конец)"
     },
