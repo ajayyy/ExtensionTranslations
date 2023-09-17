@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Minden szegmenshez kategóriát kell választani beküldés előtt!"
     },
+    "bracketStart": {
+        "message": "(Eleje)"
+    },
     "bracketEnd": {
         "message": "(Vége)"
     },
