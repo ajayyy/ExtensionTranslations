@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Du måste välja en kategori för alla segment du skickar in!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(Slut)"
     },
