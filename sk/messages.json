@@ -834,6 +834,9 @@
     "youMustSelectACategory": {
         "message": "Musíte zvoliť kategóriu pre každý segment!"
     },
+    "bracketStart": {
+        "message": "(Začiatok)"
+    },
     "bracketEnd": {
         "message": "(Koniec)"
     },
