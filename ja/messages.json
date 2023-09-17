@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "登録するすべてのセグメントのカテゴリを選択してください！"
     },
+    "bracketStart": {
+        "message": "(開始)"
+    },
     "bracketEnd": {
         "message": "（終了）"
     },
