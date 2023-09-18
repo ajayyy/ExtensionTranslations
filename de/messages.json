@@ -628,7 +628,7 @@
         "message": "Exklusiver Zugriff"
     },
     "category_exclusive_access_description": {
-        "message": "Nur für das Kennzeichnen ganzer Videos. Wird verwendet wenn ein Video ein Produkt, eine Dienstleistung oder einen Ort präsentiert, zu welchem sie freien oder subventionierten Zugriff erhalten haben."
+        "message": "Nur für das Kennzeichnen ganzer Videos. Wird verwendet, wenn ein Video ein Produkt, eine Dienstleistung oder einen Ort präsentiert, zu welchem sie freien oder subventionierten Zugriff erhalten haben."
     },
     "category_exclusive_access_pill": {
         "message": "Dieses Video präsentiert ein Produkt, eine Dienstleistung oder einen Ort, zu welchem sie freien oder subventionierten Zugriff erhalten haben",
