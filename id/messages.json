@@ -826,6 +826,9 @@
     "youMustSelectACategory": {
         "message": "Anda harus memilih kategori untuk semua segmen yang anda kirimkan!"
     },
+    "bracketStart": {
+        "message": "(Mulai)"
+    },
     "bracketEnd": {
         "message": "(Selesai)"
     },
