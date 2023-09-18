@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Sinun täytyy valita kategoria kaikille osioille, joita olet lähettämässä!"
     },
+    "bracketStart": {
+        "message": "(Käynnistä)"
+    },
     "bracketEnd": {
         "message": "(Loppu)"
     },
