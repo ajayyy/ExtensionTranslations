@@ -473,10 +473,10 @@
         "message": "Verwende manuelles Überspringen, wenn ein vollständiges Video Label existiert"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Für Personen, welche ein Video ohne Unterbrechungen schauen wollen, während es vollständig gesponsert oder Eigenwerbung ist."
+        "message": "Für Personen, die das Video ohne Unterbrechungen schauen wollen, wenn es vollständig gesponsert oder Eigenwerbung ist."
     },
     "skipNoticeDuration": {
-        "message": "Dauer des Überspringenhinweises (Sekunden):"
+        "message": "Dauer des Überspringen-Hinweises (Sekunden):"
     },
     "skipNoticeDurationDescription": {
         "message": "Die überspringen Benachrichtigung wird mindestens für so viele Sekunden angezeigt. Für manuelles Überspringen kann sie länger sichtbar sein."
@@ -595,7 +595,7 @@
         "message": "Fließende Übergänge einbeziehen"
     },
     "generic_guideline2": {
-        "message": "Wiedergeben, als ob nichts übersprungen worden wäre"
+        "message": "Spielt, als ob nichts übersprungen worden wäre"
     },
     "category_sponsor": {
         "message": "Gesponserte Videosegmente"
@@ -1075,7 +1075,7 @@
         "message": "Kapitel abspielen"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "Benutze das Mausrad während der Mauszeiger über dem Eingabefeld schwebt um die Zeit schnell anzupassen. Benutze Strg bzw. Shift für gröbere/genauere Änderungen."
+        "message": "Benutze das Mausrad während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
     },
     "categoryPillNewFeature": {
         "message": "Neu! Sieh, ob ein Video ausschließlich Sponsor oder Eigenwerbung ist"
