@@ -692,7 +692,7 @@
         "message": "Zusammenfassung eines vorherigen Videos"
     },
     "category_preview_guideline3": {
-        "message": "Nicht für Bereiche, welche zusätzliche Inhalte geben"
+        "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
     },
     "category_filler": {
         "message": "Füller/Witze"
@@ -704,13 +704,13 @@
         "message": "Füller"
     },
     "category_filler_guideline1": {
-        "message": "Tangentielle Szenen nur für Füller oder Humor"
+        "message": "Nebensächliche Szenen nur für Füller oder Humor"
     },
     "category_filler_guideline2": {
-        "message": "Ablenkungen, Patzer, Replays"
+        "message": "Ablenkungen, Patzer, Wiederholungen"
     },
     "category_filler_guideline3": {
-        "message": "Nicht für Szenen, welche zum verstehen des Topics sind"
+        "message": "Nicht für Szenen, die zum Verstehen des Themas notwendig sind"
     },
     "category_music_offtopic": {
         "message": "Musik: Nicht-Musik-Abschnitt"
@@ -722,10 +722,10 @@
         "message": "Musikvideoteile ohne Musik"
     },
     "category_music_offtopic_guideline1": {
-        "message": "Bereiche nicht in offiziellen Veröffentlichungen"
+        "message": "Abschnitte nicht in offiziellen Veröffentlichungen"
     },
     "category_music_offtopic_guideline2": {
-        "message": "Nicht-Musik in einer Live-Performance"
+        "message": "Nicht-Musik in einem Liveauftritt"
     },
     "category_poi_highlight": {
         "message": "Highlight"
@@ -734,28 +734,28 @@
         "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\" Kommentare."
     },
     "category_poi_highlight_guideline1": {
-        "message": "Bereiche die die meisten Personen suchen"
+        "message": "Bereiche, die die meisten Personen suchen"
     },
     "category_poi_highlight_guideline2": {
-        "message": "Kann helfen, vergangene Inhalte zu überspringen"
+        "message": "Kann helfen, Kontext zu überspringen"
     },
     "category_poi_highlight_guideline3": {
-        "message": "Kann zum Titel oder Thumbnail überspringen"
+        "message": "Kann zum Titel oder Thumbnail springen"
     },
     "category_chapter": {
         "message": "Kapitel"
     },
     "category_chapter_description": {
-        "message": "Benutzerdefiniert benannte Kapitel, welche große Abschnitte eines Videos beschreiben."
+        "message": "Selbst benannte Kapitel, die große Abschnitte eines Videos beschreiben."
     },
     "category_chapter_guideline1": {
         "message": "Sponsor-Markennamen nicht erwähnen"
     },
     "category_chapter_guideline2": {
-        "message": "Benutze grössere Kapitel für allgemeine Abschnitte"
+        "message": "Benutze größere Kapitel für allgemeine Abschnitte"
     },
     "category_chapter_guideline3": {
-        "message": "Kleinere Kapitel können innerhalb von grösseren platziert werden"
+        "message": "Kleinere Kapitel können innerhalb von größeren platziert werden"
     },
     "category_livestream_messages": {
         "message": "Livestream: Spenden/Nachrichten vorlesen"
@@ -785,7 +785,7 @@
         "message": "In Suchleiste anzeigen"
     },
     "showOverlay_full": {
-        "message": "Zeige Label"
+        "message": "Label zeigen"
     },
     "showOverlay_chapter": {
         "message": "Kapitel zeigen"
@@ -801,7 +801,7 @@
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Label auch auf Video-Thumbnails anzeigen",
+        "message": "Labels auch auf Video-Thumbnails anzeigen",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
@@ -863,11 +863,11 @@
         "message": "Ausgeblendet: zu kurz"
     },
     "manuallyHidden": {
-        "message": "Manuell versteckt"
+        "message": "manuell versteckt"
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Kanal-ID ist noch nicht geladen. Falls es sich um ein eingebettetes Video handelt, probiere stattdessen die YouTube-Webseite. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, kannst du es hier vermerken:"
+        "message": "Kanal-ID wurde noch nicht geladen. Falls du ein eingebettetes Video benutzt, probiere stattdessen die YouTube-Homepage. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, schreibe hier einen Kommentar:"
     },
     "invidiousPermissionRefresh": {
         "message": "Der Browser hat die Berechtigung, welche zum Verwenden von Invidious und anderen Drittanbieter-Seiten benötigt wird, widerrufen. Bitte klicke auf die Schaltfläche unten, um diese Berechtigung zu reaktivieren."
@@ -949,7 +949,7 @@
         "message": "Dauerhaft verbergen"
     },
     "warningChatInfo": {
-        "message": "Wir haben festgestellt, dass du einige häufig gemacht Fehler machst. Wir schätzen deine bisherige Arbeit sehr, streben aber hier aber auch nach Perfektion, sodass es auch wichtig ist kleine Fehler zu korrigieren :)"
+        "message": "Wir haben festgestellt, dass du einige häufig gemachte Fehler machst. Wir schätzen deine bisherige Arbeit sehr, streben hier aber nach Perfektion, sodass es auch auf kleine Fehler ankommt :)"
     },
     "warningTitle": {
         "message": "Du hast eine Verwarnung erhalten"
@@ -973,7 +973,7 @@
         "message": "Spenden"
     },
     "considerDonating": {
-        "message": "Unterstütze die Entwicklung mit einer Spende"
+        "message": "Hilf beim Finanzieren der Entwicklung"
     },
     "hideDonationLink": {
         "message": "Verstecke Spendenlink"
@@ -1045,7 +1045,7 @@
         "message": "Vollständige Details"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "Downvotet, und erstellt eine lokale Kopie zum erneuten Einreichen"
+        "message": "Dagegen stimmen und eine lokale Kopie zum erneuten Einreichen erstellen"
     },
     "OpenCategoryWikiPage": {
         "message": "Öffne den Wiki-Artikel dieser Kategorie."
@@ -1066,7 +1066,7 @@
         "message": "Positiv bewerten"
     },
     "hideSegment": {
-        "message": "Segment verbergen"
+        "message": "Segment ausblenden"
     },
     "skipSegment": {
         "message": "Segment überspringen"
@@ -1078,7 +1078,7 @@
         "message": "Benutze das Mausrad während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
     },
     "categoryPillNewFeature": {
-        "message": "Neu! Sieh, ob ein Video ausschließlich Sponsor oder Eigenwerbung ist"
+        "message": "Neu! Sieh, wenn ein Video ausschließlich Sponsor oder Eigenwerbung ist"
     },
     "dayAbbreviation": {
         "message": "T",
@@ -1126,16 +1126,16 @@
         "message": "Dies ist ein vorhandenes YouTube-Kürzel. Bist du sicher, dass du es verwenden möchtest?"
     },
     "betaServerWarning": {
-        "message": "BETA Server wurde aktiviert!"
+        "message": "BETA Server ist aktiviert!"
     },
     "openOptionsPage": {
         "message": "Einstellungen öffnen"
     },
     "resetToDefault": {
-        "message": "Einstellungen zurücksetzen"
+        "message": "Auf Werkseinstellungen zurücksetzen"
     },
     "confirmResetToDefault": {
-        "message": "Sind Sie sicher, dass Sie alle Einstellungen auf ihre Standardwerte zurücksetzen wollen? Dies kann nicht rückgängig gemacht werden."
+        "message": "Bist du sicher, dass du alle Einstellungen auf ihre Standardwerte zurücksetzen willst? Dies kann nicht rückgängig gemacht werden."
     },
     "exportSegments": {
         "message": "Segmente exportieren"
@@ -1172,7 +1172,7 @@
         "message": "Wähle dein Land"
     },
     "cantAfford": {
-        "message": "Wenn du dir keine Lizenz leisten kannst, klicke {hier} um zu sehen, ob du für einen Rabatt in Frage kommen",
+        "message": "Wenn du dir keine Lizenz leisten kannst, klicke {here} um zu sehen, ob du Anspruch auf einen Rabatt hast",
         "description": "Keep the curly braces. The word 'here' should be translated as well."
     },
     "patreonSignIn": {
@@ -1276,7 +1276,7 @@
         "message": "Aktuelle Zeit"
     },
     "resetCustomTitle": {
-        "message": "Titel zurück auf Originaltext setzen"
+        "message": "Titel auf Originaltext zurücksetzen"
     },
     "resetIcon": {
         "message": "Icon zurücksetzen"
