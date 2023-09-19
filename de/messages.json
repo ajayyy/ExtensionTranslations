@@ -635,13 +635,13 @@
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Das gesamte Video zeigt etwas, zu dem man kostenlosen oder subventionierten Zugang erhalten hat"
+        "message": "Das gesamte Video zeigt etwas mit kostenlosem oder subventioniertem Zugang"
     },
     "category_interaction": {
         "message": "Interaktions-Erinnerungen (Abonnieren, etc.)"
     },
     "category_interaction_description": {
-        "message": "Wenn es eine kurze Erinnerung zum \"Daumen hoch\", Abonnieren, oder Folgen in der Mitte von Inhalt gibt. Falls es lang oder über etwas bestimmtes ist, sollte es stattdessen \"Unbezahlt/Eigenwerbung\" sein."
+        "message": "Wenn es eine kurze Erinnerung zum \"Daumen hoch\" geben, Abonnieren, oder Folgen in der Mitte des Inhalts gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter \"Unbezahlt/Eigenwerbung\" sein."
     },
     "category_interaction_guideline1": {
         "message": "Kurze Erinnerungen zum Liken, Abonnieren oder Folgen"
@@ -650,7 +650,7 @@
         "message": "Enthält indirekte Erinnerungen zum Kommentieren"
     },
     "category_interaction_guideline3": {
-        "message": "Nicht für allgemeine Förderung, nur Aufruf zum Handeln"
+        "message": "Nicht für allgemeine Werbung, nur Aufruf zum Handeln"
     },
     "category_interaction_short": {
         "message": "Interaktions-Erinnerung"
@@ -683,13 +683,13 @@
         "message": "Vorschau/Zusammenfassung"
     },
     "category_preview_description": {
-        "message": "Sammlung von Clips, welche zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später wiederholt werden."
+        "message": "Sammlung von Clips, die zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später im Video wiederholt werden."
     },
     "category_preview_guideline1": {
         "message": "Clips welche später oder in einem zukünftigen Video erscheinen"
     },
     "category_preview_guideline2": {
-        "message": "Recap eines vorherigen Videos"
+        "message": "Zusammenfassung eines vorherigen Videos"
     },
     "category_preview_guideline3": {
         "message": "Nicht für Bereiche, welche zusätzliche Inhalte geben"
