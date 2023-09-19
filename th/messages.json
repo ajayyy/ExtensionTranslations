@@ -76,5 +76,11 @@
     "supportOtherSitesDescription": {
         "message": "สนับสนุนลูกค้า YouTube บุคคลที่สาม.\nในการเปิดใช้งานการสนับสนุน คุณต้องยอมรับการอนุญาตพิเศษ!",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
+    "bracketStart": {
+        "message": "(เริ่ม)"
+    },
+    "titleMaxLines": {
+        "message": "จำนวนบรรทัดข้อความสำหรับ ชื่อ ถึงขีดจำกัด"
     }
 }
