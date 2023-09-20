@@ -737,7 +737,7 @@
         "message": "Bereiche, die die meisten Personen suchen"
     },
     "category_poi_highlight_guideline2": {
-        "message": "Kann helfen, Kontext zu überspringen"
+        "message": "Kann Kontext überspringen"
     },
     "category_poi_highlight_guideline3": {
         "message": "Kann zum Titel oder Thumbnail springen"
@@ -1350,10 +1350,10 @@
         "message": "Speichere eingereichte Abstimmungen"
     },
     "whatKeepUnsubmitted": {
-        "message": "Behalte übermittelte Abstimmungen, um die Titel und Thumbnails anzuzeigen, für welche du abgestimmt hast anstelle der bestabgestimmtesten auf dem Server."
+        "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
     },
     "keepUnsubmittedInPrivate": {
-        "message": "In privaten Tabs eingereichte Bewertungen speichern"
+        "message": "Von privaten Tabs eingereichte Bewertungen speichern"
     },
     "useThumbnailGenerationService": {
         "message": "Thumbnail-Erstellungsdienst verwenden"
@@ -1382,24 +1382,24 @@
         "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Wenn die Verwendung des Thumbnail-Generierungsdienstes deaktiviert ist, werden alle Anfragen ein k-Anonymitäts-Anfragesystem verwenden, welches es für den Server schwieriger macht, vorauszusagen, welche Videos verarbeitet wurden. Hinzukommend wird ein langsameres, lokales Thumbnail-Generierungssystems verwendet.",
+        "message": "Wenn die Verwendung des Thumbnail-Erstellungsdienstes deaktiviert ist, werden alle Anfragen ein k-Anonymitäts-Anfragesystem verwenden, welches es für den Server schwieriger macht, vorauszusagen, welche Videos abgerufen wurden. Außerdem wird ein langsamerer, lokaler Thumbnail-Erstellungsdienst verwendet.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
-        "message": "Thumbnail-Generierungsdienst Quellcode"
+        "message": "Thumbnail-Erstellungsdienst Quellcode"
     },
     "moreAboutKAnonymity": {
         "message": "Mehr über k-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
-        "message": "Zeige immer den \"Original anzeigen\"-Button an"
+        "message": "Zeige immer den \"Original anzeigen\"-Knopf an"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "Aktiviere dies, wenn du immer wissen möchtest, ob ein Titel oder Thumbnail verändert wurde."
+        "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
     "showOriginalOnHover": {
-        "message": "Zeige Originale Details beim Hovern"
+        "message": "Zeige Originale Details, wenn du mit dem Mauszeiger darauf zeigst"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
@@ -1408,16 +1408,16 @@
         "message": "Daten-Abruf-Timeout (ms)"
     },
     "fetchTimeoutDescription": {
-        "message": "Zeige original Titel und Thumbnail wenn der Server nicht innerhalb dieser Zeit antwortet."
+        "message": "Zeige originale Titel und Thumbnails, wenn der Server nicht innerhalb dieser Zeit antwortet."
     },
     "renderTimeout": {
         "message": "Thumbnail Render-Timeout (ms)"
     },
     "renderTimeoutDescription": {
-        "message": "Zeige original Thumbnails wenn kein Thumbnail in dieser Zeit generiert werden konnte."
+        "message": "Zeige originale Thumbnails, wenn kein Thumbnail in dieser Zeit generiert werden kann."
     },
     "startLocalRenderTimeout": {
-        "message": "Timeout-Zeit bis der lokale Thumbnailgenerierungsdienst gestartet werden soll (ms)",
+        "message": "Starte lokalen Thumbnail-Erstellungsdienst Timeout (ms)",
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "startLocalRenderTimeoutDescription": {
