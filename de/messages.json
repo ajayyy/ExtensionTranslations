@@ -1421,7 +1421,7 @@
         "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
     },
     "startLocalRenderTimeoutDescription": {
-        "message": "Wenn der Server zu lange braucht um ein Thumbnail zu generieren, starte den Versuch lokal Thumbnails zu generieren."
+        "message": "Wenn der Server so lange braucht, um ein Thumbnail zu generieren, starte den Versuch, eines lokal zu generieren."
     },
     "Enable": {
         "message": "Aktivieren"
@@ -1438,25 +1438,25 @@
         "message": "Fehler"
     },
     "ShowOriginal": {
-        "message": "Zeige Original Details"
+        "message": "Zeige originale Details"
     },
     "ShowModified": {
         "message": "Zeige veränderte Details"
     },
     "FillerWarning": {
-        "message": "Warnung: Dies ist eine extrem agressive Kategorie. Wahrscheinlich musst du einige Dinge ent-skippen oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass es weiterhin bestimmte Richtlinien für das einreichen gibt, welche man folgen muss.",
+        "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich musst du Einiges manuell ent-überspringen, oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
-        "message": "Trete Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
+        "message": "Trete bei Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Zeige Leitfaden-Hilfe",
+        "message": "Zeige Richtlinien-Hilfe",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
-        "message": "Vermeide übertriebene Gesichtszüge",
+        "message": "Vermeide übertriebene Gesichtsausdrücke",
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
@@ -1471,20 +1471,20 @@
         "message": "Gib genug Informationen an, dass andere wissen, worum es geht, bevor sie auf das Video klicken"
     },
     "tip5": {
-        "message": "Groß- und Kleinschreibung wie in einem Satz",
+        "message": "Verwende Groß- und Kleinschreibung wie in einem Satz",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Hinweis: Deine SponsorBlock-Einstellungen wurden automatisch importiert!"
+        "message": "Hinweis: Deine SponsorBlock Einstellungen wurden automatisch importiert!"
     },
     "howItWorks": {
-        "message": "So funktioniert's"
+        "message": "So funktioniert es"
     },
     "discordPromotion": {
-        "message": "Bring dich mit ein, mach Vorschläge und hilf aus auf {discord} und {matrix}"
+        "message": "Bring dich mit ein, mach Vorschläge und hilf auf {discord} oder {matrix} aus"
     },
     "deArrowDonationText": {
-        "message": "Falls dir gefällt, was ich bisher getan habe und du mir mit Geld aushelfen willst, hier ist ein Link"
+        "message": "Falls dir gefällt, was ich bisher getan habe und du mir mit Geld aushelfen willst, ist hier ein Link"
     },
     "termsAgreement": {
         "message": "Durch die Verwendung dieser Erweiterung stimmen Sie der {privacy-policy} und den {terms} zu"
