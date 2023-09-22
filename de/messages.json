@@ -737,7 +737,7 @@
         "message": "Bereiche, die die meisten Personen suchen"
     },
     "category_poi_highlight_guideline2": {
-        "message": "Kann helfen, Kontext zu überspringen"
+        "message": "Kann Kontext überspringen"
     },
     "category_poi_highlight_guideline3": {
         "message": "Kann zum Titel oder Thumbnail springen"
@@ -1502,7 +1502,7 @@
         "message": "Standardmäßig die ursprünglichen Videoinformationen verwenden"
     },
     "whatDefaultToOriginals": {
-        "message": "Zeige standardmäßig die ursprünglichen Titel und Thumbnails, aber biete eine Schaltfläche an, mit der benutzerdefinierte Titel und Thumbnails für einzelne Videos angezeigt werden können."
+        "message": "Zeige standardmäßig den ursprünglichen Titel und Thumbnail, aber biete eine Schaltfläche an, mit der benutzerdefinierte Titel und Thumbnails für einzelne Videos angezeigt werden können."
     },
     "replaceTitles": {
         "message": "Ersetze Titel"
@@ -1511,10 +1511,10 @@
         "message": "Ersetze Thumbnails"
     },
     "useCrowdsourcedTitles": {
-        "message": "Verwende crowgesourcedte Titel"
+        "message": "Verwende crowdsourced Titel"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Wenn deaktiviert werden Titel formatiert, aber keine von der Community übermittelten Titel verwendet",
+        "message": "Wenn deaktiviert, werden Titel formatiert, aber keine von der Community übermittelten Titel verwendet",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1528,17 +1528,17 @@
         "message": "Konfiguration löschen"
     },
     "ChannelAllowlist": {
-        "message": "Erlaubte Kanäle"
+        "message": "Liste erlaubter Kanäle"
     },
     "ConfigurationName": {
-        "message": "Benennung für Konfiguration"
+        "message": "Name der Konfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Geben Sie alle Kanäle, auf die Sie diese Konfiguration anwenden möchten, in das untenstehende Feld, in eigene Zeilen, ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Die Kanal-ID kann man durch den \"Teilen\"-Button auf der \"Kanalinfo\"-Seite erhalten.",
+        "message": "Gib alle Kanäle, auf die du diese Konfiguration anwenden möchtest, in das untenstehende Feld, in eigene Zeilen, ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Die Kanal-ID findest du, indem du auf den Teilen-Knopf auf der Kanalinfo-Seite klickst.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
-        "message": "Noch keine Konfigurationen eingerichtet. Klicken Sie oben auf den Button, um eine neue Konfiguration hinzuzufügen.",
+        "message": "Noch keine Konfigurationen eingerichtet. Klicke oben auf den Knopf, um eine neue Konfiguration hinzuzufügen.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
@@ -1548,7 +1548,7 @@
         "message": "Genug von Clickbait? Schau dir meine neue Erweiterung zum Verbessern von Titeln und Thumbnails an"
     },
     "RandomThumbnailExplanation": {
-        "message": "Dieses Thumbnail wurde von einer zufälligen Zeit gewählt, da es noch keine Einreichungen für dieses Video gab",
+        "message": "Dieses Thumbnail wurde von einem zufälligen Zeitstempel gewählt, da es noch keine Einreichungen für dieses Video gibt",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
@@ -1587,23 +1587,23 @@
         "message": "Zähle Titel- und Thumbnail-Ersetzungen"
     },
     "countReplacementsDescription": {
-        "message": "Wird verwendet, um dir Statistiken im Popup zu zeigen.",
+        "message": "Wird verwendet, um dir Statistiken im Pop-up zu zeigen.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Füge eine Filterliste hinzu, um Umfragen, Verkäufe und ähnliche Werbeseitenelemente mit yt-neuter zu blockieren"
+        "message": "Füge eine Filterliste hinzu, um Umfragen, Merchandise-Regale und ähnliche Werbeseitenelemente mit yt-neuter zu blockieren"
     },
     "requiresUblock": {
         "message": "Benötigt uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Etwas ist bei der VideoID-Erkennung schief gelaufen. Bitte versuche vor dem Absenden die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, sende einen Bugreport mit allen verwendeten Erweiterungen, sowie Userscripts, auf GitHub, Discord oder Matrix."
+        "message": "Etwas ist bei der Video-ID-Erkennung schief gelaufen. Bitte versuche vor dem Absenden, die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, schicke bitte einen Bericht mit deinen installierten Erweiterungen und Userscripts auf GitHub, Discord oder Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basierend auf Twemoji lizenziert unter CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
-        "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es existieren viele Alternativen welche ohne probleme funktionieren werden."
+        "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
     },
     "freeTrialStarted": {
         "message": "Deine kostenlose Testversion wurde gestartet. Besuche YouTube, um es auszuprobieren"
