@@ -939,9 +939,6 @@
     "warningChatInfo": {
         "message": "Märkasime, et olete teinud paar üsna tavalist viga. Oleme teie töö eest väga tänulikud, aga me püüdleme täiuslikkuse poole, seega iga väike viga loeb :)"
     },
-    "warningTitle": {
-        "message": "Sa said hoiatuse"
-    },
     "questionButton": {
         "message": "Mul on küsimus"
     },
