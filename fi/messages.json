@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Huomasimme, että teit joitakin yleisiä virheitä. Arvostamme työtäsi erittäin paljon, mutta pyrimme täydellisyyteen, joten pienilläkin virheillä on väliä :)"
     },
-    "warningTitle": {
-        "message": "Sait varoituksen"
-    },
     "questionButton": {
         "message": "Minulla on kysymys"
     },
