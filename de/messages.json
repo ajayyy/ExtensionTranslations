@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Wir haben festgestellt, dass du einige häufig gemachte Fehler machst. Wir schätzen deine bisherige Arbeit sehr, streben hier aber nach Perfektion, sodass es auch auf kleine Fehler ankommt :)"
     },
-    "warningTitle": {
-        "message": "Du hast eine Verwarnung erhalten"
-    },
     "questionButton": {
         "message": "Ich habe eine Frage"
     },
