@@ -939,9 +939,6 @@
     "warningChatInfo": {
         "message": "我们注意到你犯了一些常见错误。我们非常赞赏你迄今所做的工作，但我们努力追求完美，所以即使是非常小的错误，也需要重视:)"
     },
-    "warningTitle": {
-        "message": "你收到了警告"
-    },
     "questionButton": {
         "message": "我有疑问"
     },
