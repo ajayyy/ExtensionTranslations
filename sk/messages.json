@@ -939,9 +939,6 @@
     "warningChatInfo": {
         "message": "Zaznamenali sme, že ste urobili obvyklú chybu. Vážime si vašej práce, ale ide nám o presnosť, takže aj na malých chybách záleží."
     },
-    "warningTitle": {
-        "message": "Dostali ste varovanie"
-    },
     "questionButton": {
         "message": "Mám otázku"
     },
