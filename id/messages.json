@@ -131,6 +131,9 @@
     "closeIcon": {
         "message": "Tutup Ikon"
     },
+    "OpenSubmissionMenu": {
+        "message": "Buka Menu Pengajuan"
+    },
     "sortSegments": {
         "message": "Urutkan Segmen"
     },
@@ -429,6 +432,10 @@
     "supportOtherSites": {
         "message": "Dukung Situs Youtube Pihak Ketiga"
     },
+    "supportOtherSitesDescription": {
+        "message": "Mendukung klien Youtube pihak ketiga. Untuk mengaktifkannya, terima dulu izin tambahan.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
     "supportedSites": {
         "message": "Situs yang didukung: "
     },
@@ -488,6 +495,9 @@
     },
     "customServerAddressDescription": {
         "message": "Alamat yang SponsorBlock gunakan untuk memanggil server.\nKecuali jika anda mempunyai instansi server sendiri, ini tidak perlu diubah."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Alamat Server Ambil Data"
     },
     "save": {
         "message": "Simpan"
@@ -825,6 +835,9 @@
     },
     "youMustSelectACategory": {
         "message": "Anda harus memilih kategori untuk semua segmen yang anda kirimkan!"
+    },
+    "bracketStart": {
+        "message": "(Mulai)"
     },
     "bracketEnd": {
         "message": "(Selesai)"

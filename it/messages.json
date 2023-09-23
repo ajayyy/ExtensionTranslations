@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Devi selezionare una categoria per tutti i segmenti che stai inviando!"
     },
+    "bracketStart": {
+        "message": "(Inizio)"
+    },
     "bracketEnd": {
         "message": "(Fine)"
     },
