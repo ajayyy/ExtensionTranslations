@@ -300,6 +300,10 @@
         "message": "Hoppa över segment",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "Hoppa till höjdpunkten",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "Starta/stoppa segment",
         "description": "Keybind label"
