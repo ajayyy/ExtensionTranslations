@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Abbiamo notato che hai fatto qualche errore comune. Noi apprezziamo molto il tuo lavoro fin'ora, ma qui puntiamo alla perfezione, quindi ogni errore, anche molto piccolo, conta :)"
     },
-    "warningTitle": {
-        "message": "Hai ricevuto un avvertimento"
-    },
     "questionButton": {
         "message": "Ho una domanda"
     },
