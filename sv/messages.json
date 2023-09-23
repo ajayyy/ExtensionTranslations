@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Vi märkte att du gjorde några vanliga misstag. Vi uppskattar verkligen ditt arbete hittills, men vi strävar mot perfektion här, så även mycket små misstag spelar roll :)"
     },
-    "warningTitle": {
-        "message": "Du har fått en varning"
-    },
     "questionButton": {
         "message": "Jag har en fråga"
     },
