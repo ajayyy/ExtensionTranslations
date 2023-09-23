@@ -300,6 +300,10 @@
         "message": "Segment überspringen",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "Zu Highlight springen",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "Starte/Stoppe Segment",
         "description": "Keybind label"
