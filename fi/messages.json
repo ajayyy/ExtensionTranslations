@@ -300,6 +300,10 @@
         "message": "Ohita osio",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "Ohita kohtaan: Kohokohta",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "Aloita/lopeta osio",
         "description": "Keybind label"
