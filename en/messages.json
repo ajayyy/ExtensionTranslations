@@ -1003,7 +1003,7 @@
         "message": "Submitting can either be done in the popup by hitting the \"Segment Starts Now\" button or in the video player with the buttons on the player."
     },
     "helpPageSubmitting2": {
-        "message": "Clicking the play button indicated the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
+        "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
     },
     "Editing": {
         "message": "Editing"
@@ -1441,7 +1441,7 @@
         "message": "Show Modified Details"
     },
     "FillerWarning": {
-        "message": "Warning: This is an incredibly agressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
+        "message": "Warning: This is an incredibly aggressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1531,7 +1531,7 @@
         "message": "Configuration Name"
     },
     "ChannelListInstructions": {
-        "message": "Enter any channels you want to apply to this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page.",
+        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
