@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Zauważyliśmy, że popełniłeś pewne powszechne błędy. Bardzo doceniamy dotychczasową pracę, ale dążymy tutaj do doskonałości, więc nawet bardzo małe błędy mają znaczenie :)"
     },
-    "warningTitle": {
-        "message": "Otrzymałeś ostrzeżenie"
-    },
     "questionButton": {
         "message": "Mam pytanie"
     },
