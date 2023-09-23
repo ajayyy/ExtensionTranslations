@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "Musíte vybrat kategorii pro všechny odeslané segmenty!"
     },
+    "bracketStart": {
+        "message": "(Začátek)"
+    },
     "bracketEnd": {
         "message": "(Konec)"
     },
