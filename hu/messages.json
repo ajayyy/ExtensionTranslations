@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Észrevettük, hogy néhány gyakran előforduló hibát vétettél. Nagyra értékeljük az eddigi munkádat, de a tökéletességre törekszünk, úgyhogy a legkisebb hibák is számítanak :)"
     },
-    "warningTitle": {
-        "message": "Figyelmeztetést kaptál"
-    },
     "questionButton": {
         "message": "Kérdésem van"
     },
