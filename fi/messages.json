@@ -301,7 +301,7 @@
         "description": "Keybind label"
     },
     "setSkipToHighlightShortcut": {
-        "message": "Ohita kohtaan: Kohokohta",
+        "message": "Ohita kohokohtaan",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
