@@ -300,10 +300,6 @@
         "message": "Пропустити сегмент",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Перейти до підсвічування",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Почати/зупинити сегмент",
         "description": "Keybind label"
