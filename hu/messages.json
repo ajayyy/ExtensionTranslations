@@ -300,6 +300,10 @@
         "message": "Szegmens átugrása",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "Ugrás a kiemeléshez",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "Szegmens kezdése/befejezése",
         "description": "Keybind label"
