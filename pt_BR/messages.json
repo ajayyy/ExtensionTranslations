@@ -300,10 +300,6 @@
         "message": "Pular segmento",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Pular para destaque",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Iniciar/parar segmento",
         "description": "Keybind label"
