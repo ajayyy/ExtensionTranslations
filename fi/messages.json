@@ -753,7 +753,7 @@
         "message": "Nimetyt kappaleet, jotka kuvaavat videon merkittäviä osia."
     },
     "category_chapter_guideline1": {
-        "message": "Älä mainitse sponsoreiden tuotemerkkejä"
+        "message": "Älä mainitse sponsoreiden nimiä"
     },
     "category_chapter_guideline2": {
         "message": "Käytä yleisille osille suurempia kappaleita"
@@ -851,7 +851,7 @@
         "message": "Sinun täytyy valita kategoria kaikille osioille, joita olet lähettämässä!"
     },
     "bracketStart": {
-        "message": "(Käynnistä)"
+        "message": "(Alku)"
     },
     "bracketEnd": {
         "message": "(Loppu)"
@@ -1155,7 +1155,7 @@
         "message": "Lisenssiavain on virheellinen"
     },
     "hideUpsells": {
-        "message": "Piilotusvalinnat ovat käytettävissä vain lisämaksusta"
+        "message": "Piilota asetukset joita ei voi käyttää ilman lisämaksua"
     },
     "hideNewFeatureUpdates": {
         "message": "Piilota ilmoitukset uusista ominaisuuksista"
@@ -1274,7 +1274,7 @@
         "message": "Alkuperäinen otsikko"
     },
     "CurrentTime": {
-        "message": "Nykyinen aika"
+        "message": "Tämänhetkinen aika"
     },
     "resetCustomTitle": {
         "message": "Palauta alkuperäisen otsikon teksti"
@@ -1479,13 +1479,13 @@
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
     },
     "howItWorks": {
-        "message": "Miten se toimii"
+        "message": "Näin se toimii"
     },
     "discordPromotion": {
-        "message": "Liity mukaan, tee ehdotuksia ja auta alustoilla {discord} tai {matrix}"
+        "message": "Liity mukaan, tee ehdotuksia ja auta {discord} tai {matrix} alustoilla"
     },
     "deArrowDonationText": {
-        "message": "Jos pidät tähän mennessä tekemästäni ja haluat tuka minua rahallisesti, tässä linkki"
+        "message": "Jos pidät tähän mennessä tekemästäni ja haluat tukea minua rahallisesti, tässä linkki"
     },
     "termsAgreement": {
         "message": "Käyttämällä laajennusta hyväksyt seuraavat: {privacy-policy} ja {terms}"
@@ -1512,7 +1512,7 @@
         "message": "Korvaa pienoiskuvat"
     },
     "useCrowdsourcedTitles": {
-        "message": "Käytä yleisölähteisiä otsikoita"
+        "message": "Käytä käyttäjälähteisiä otsikoita"
     },
     "whatUseCrowdsourcedTitles": {
         "message": "Jos ei käytössä, muotoilee otsikot, muttei käytä yhteisön lähettämiä otsikoita.",
@@ -1617,6 +1617,10 @@
     },
     "startFreeTrial": {
         "message": "Aloita ilmainen kokeilu"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Et voi äänestää ilmaisen kokeilun aikana",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Olet rekisteröitynyt ilmaiskäyttöä varten. Saat ilmoituksen kun ilmainen käyttöoikeus on myönnetty."
