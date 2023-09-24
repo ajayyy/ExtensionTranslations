@@ -300,10 +300,6 @@
         "message": "구간 건너뛰기",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "하이라이트로 건너뛰기",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "구간 시작/종료",
         "description": "Keybind label"
