@@ -1615,6 +1615,10 @@
     "startFreeTrial": {
         "message": "무료 체험 시작"
     },
+    "youCannotVoteDuringTrial": {
+        "message": "무료 체험 중에는 투표할 수 없어요",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
     "freeAccessRequested": {
         "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."
     },
