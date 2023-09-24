@@ -300,10 +300,6 @@
         "message": "Omitir segmento",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Saltar a destacado",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Iniciar/detener segmento",
         "description": "Keybind label"
