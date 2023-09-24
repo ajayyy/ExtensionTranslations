@@ -300,6 +300,10 @@
         "message": "セグメントをスキップ",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "サビまで飛ばす",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "セグメントを開始/終了",
         "description": "Keybind label"
