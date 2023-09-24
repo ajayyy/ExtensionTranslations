@@ -300,6 +300,10 @@
         "message": "구간 건너뛰기",
         "description": "Keybind label"
     },
+    "setSkipToHighlightShortcut": {
+        "message": "하이라이트로 건너뛰기",
+        "description": "Keybind label"
+    },
     "setStartSponsorShortcut": {
         "message": "구간 시작/종료",
         "description": "Keybind label"
@@ -845,6 +849,9 @@
     },
     "youMustSelectACategory": {
         "message": "제출해야 하는 모든 구간의 카테고리를 선택해 주세요!"
+    },
+    "bracketStart": {
+        "message": "(시작)"
     },
     "bracketEnd": {
         "message": "(끝)"
