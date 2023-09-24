@@ -300,10 +300,6 @@
         "message": "Пропустить сегмент",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Пропустить до важного момента",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Начало/конец сегмента",
         "description": "Keybind label"
