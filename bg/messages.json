@@ -300,10 +300,6 @@
         "message": "Пропускане на сегмент",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Прескачане до акцента",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Начало/край на сегмент",
         "description": "Keybind label"
