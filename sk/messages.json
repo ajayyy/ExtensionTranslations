@@ -297,10 +297,6 @@
         "message": "Preskočiť segment",
         "description": "Keybind label"
     },
-    "setSkipToHighlightShortcut": {
-        "message": "Preskočiť na hlavný obsah videa",
-        "description": "Keybind label"
-    },
     "setStartSponsorShortcut": {
         "message": "Segment štart/stop",
         "description": "Keybind label"
