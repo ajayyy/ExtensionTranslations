@@ -1431,6 +1431,10 @@
     "startFreeTrial": {
         "message": "Začať skúšobné obdobie"
     },
+    "youCannotVoteDuringTrial": {
+        "message": "Počas skúšobnej doby nie je možné hlasovať",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
     "freeAccessRequested": {
         "message": "Úspešne ste sa zaregistrovali pre prístup zdarma. Po aktivácii vám príde oznámenie."
     },
