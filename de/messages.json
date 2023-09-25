@@ -1603,16 +1603,20 @@
         "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
     },
     "freeTrialStarted": {
-        "message": "Deine kostenlose Testversion wurde gestartet. Besuche YouTube, um es auszuprobieren"
+        "message": "Deine gratis Probezeit wurde gestartet. Besuche YouTube, um es auszuprobieren"
     },
     "freeTrialEnded": {
-        "message": "Deine kostenlose Testversion ist abgelaufen"
+        "message": "Deine gratis Probezeit ist vorbei"
     },
     "freeTrialPrompt": {
-        "message": "Du kannst eine kostenlose Testversion mit dem Knopf unten starten, um es für eine Stunde auszuprobieren."
+        "message": "Wenn du es für eine Stunde ausprobieren möchtest, kannst du mit dem Knopf unten eine gratis Probezeit starten."
     },
     "startFreeTrial": {
-        "message": "Kostenlose Testversion starten"
+        "message": "Gratis Probezeit starten"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Du kannst während der gratis Probezeit nicht abstimmen",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Sie haben sich erfolgreich für den kostenlosen Zugang registriert. Sie werden benachrichtigt, wenn dieser gewährt wird."
