@@ -1615,7 +1615,7 @@
         "message": "Ingyenes próbaverzió indítása"
     },
     "youCannotVoteDuringTrial": {
-        "message": "Nem szavazhatsz az ingyenes próbaverzió alatt",
+        "message": "Az ingyenes próbaverzióval nem lehet szavazni",
         "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
