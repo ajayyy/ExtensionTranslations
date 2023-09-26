@@ -1396,7 +1396,7 @@
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
     "showOriginalOnHover": {
-        "message": "Zeige Originale Details, wenn du mit dem Mauszeiger darauf zeigst"
+        "message": "Zeige originale Details, wenn du mit dem Mauszeiger darauf zeigst"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
