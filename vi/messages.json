@@ -1140,5 +1140,26 @@
     },
     "Disabled": {
         "message": "Dã tắt"
+    },
+    "CapitalizeWords": {
+        "message": "Các Từ Viết Hoa"
+    },
+    "SentenceCase": {
+        "message": "Phân Biệt Chữ Hoa/thường"
+    },
+    "LowerCase": {
+        "message": "Chữ Thường"
+    },
+    "FirstLetterUppercase": {
+        "message": "Chữ Cái Đầu Tiên Viết Hoa"
+    },
+    "shouldCleanEmojis": {
+        "message": "Bỏ Emoji"
+    },
+    "RandomTime": {
+        "message": "Hiện ảnh chụp video từ một khoảng thời gian bất kỳ"
+    },
+    "titleMaxLines": {
+        "message": "Số Dòng Tối Đa Cho Tiêu Đề"
     }
 }
