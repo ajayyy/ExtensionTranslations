@@ -847,7 +847,7 @@
         "message": "Você deve selecionar uma categoria para todos os segmentos que você está enviando!"
     },
     "bracketStart": {
-        "message": "(Início)"
+        "message": "(Início) "
     },
     "bracketEnd": {
         "message": "(Fim)"
