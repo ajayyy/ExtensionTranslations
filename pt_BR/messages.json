@@ -847,7 +847,7 @@
         "message": "Você deve selecionar uma categoria para todos os segmentos que você está enviando!"
     },
     "bracketStart": {
-        "message": "(Início)"
+        "message": "(Início) "
     },
     "bracketEnd": {
         "message": "(Fim)"
@@ -950,9 +950,6 @@
     },
     "warningChatInfo": {
         "message": "Percebemos que você estava cometendo alguns erros comuns. Apreciamos muito o seu trabalho até agora, mas nos esforçamos para alcançar a perfeição aqui, então mesmo os pequenos erros são importantes :)"
-    },
-    "warningTitle": {
-        "message": "Você recebeu um aviso"
     },
     "questionButton": {
         "message": "Eu tenho uma dúvida"
@@ -1616,6 +1613,10 @@
     },
     "startFreeTrial": {
         "message": "Iniciar avaliação gratuita"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Você não pode votar durante o teste gratuito",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Você está registrado com sucesso para acesso gratuito. Você será notificado quando o acesso gratuito for concedido."

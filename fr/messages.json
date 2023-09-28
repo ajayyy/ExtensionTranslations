@@ -948,9 +948,6 @@
     "warningChatInfo": {
         "message": "Nous avons remarqué que vous commettiez des erreurs courantes. Nous apprécions votre travail jusqu'à présent, mais nous recherchons la perfection, donc même de petites erreurs comptent :)"
     },
-    "warningTitle": {
-        "message": "Vous avez reçu un avertissement"
-    },
     "questionButton": {
         "message": "J’ai une question"
     },

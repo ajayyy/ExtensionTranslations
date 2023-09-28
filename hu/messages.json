@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Észrevettük, hogy néhány gyakran előforduló hibát vétettél. Nagyra értékeljük az eddigi munkádat, de a tökéletességre törekszünk, úgyhogy a legkisebb hibák is számítanak :)"
     },
-    "warningTitle": {
-        "message": "Figyelmeztetést kaptál"
-    },
     "questionButton": {
         "message": "Kérdésem van"
     },
@@ -1616,6 +1613,10 @@
     },
     "startFreeTrial": {
         "message": "Ingyenes próbaverzió indítása"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Az ingyenes próbaverzióval nem lehet szavazni",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Sikeresen regisztráltál ingyenes az hozzáféréshez. Értesíteni fogunk, ha megkaptad az ingyenes hozzáférést."

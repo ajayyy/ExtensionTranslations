@@ -948,9 +948,6 @@
     "warningChatInfo": {
         "message": "Yaygın hataları sıkça yaptığınız anlaşılıyor. Çabalarınız için sağolun fakat burada mükemmel bir sonuç istiyoruz, küçük hatalar bile fark ediyor :)"
     },
-    "warningTitle": {
-        "message": "Bir uyarı aldın"
-    },
     "questionButton": {
         "message": "Bir sorum var"
     },

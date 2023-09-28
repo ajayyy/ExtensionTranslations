@@ -129,7 +129,7 @@
         "message": "Pop-up schließen"
     },
     "closeIcon": {
-        "message": "Symbol schließen"
+        "message": "Schließen-Symbol"
     },
     "OpenSubmissionMenu": {
         "message": "Einreichungsmenü öffnen"
@@ -199,7 +199,7 @@
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
     "showSkipButton": {
-        "message": "Behalte „Zum beliebtesten Teil springen“-Schaltfläche im Wiedergabefenster"
+        "message": "Zum Highlight springen-Knopf im Player behalten"
     },
     "showInfoButton": {
         "message": "Zeige Info-Knopf im Youtube-Videoplayer"
@@ -229,7 +229,7 @@
         "message": "Speichere Downvotes von Segmenten"
     },
     "whatTrackDownvotes": {
-        "message": "Alle von dir negativ bewerteten Segmente bleiben auch nach neu laden der Seite verborgen"
+        "message": "Alle Segmente, die du negativ bewertest, bleiben auch nach dem Aktualisieren der Seite verborgen"
     },
     "trackDownvotesWarning": {
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
@@ -247,7 +247,7 @@
         "message": "Wenn das Video neu ist und keine Segmente gefunden wurden, wird während des Betrachtens alle paar Minuten erneut eine Anfrage gesendet."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Zeige Kategorien im Einsendungsmenü auch ohne Einreichungsberechtigungen"
+        "message": "Zeige Kategorien im Einreichungsmenü auch ohne Einreichungsberechtigungen"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "Einige Kategorien erfordern eine Freigabe zur Einreichung aufgrund von Mindestanforderungen an die Reputation"
@@ -560,7 +560,7 @@
         "message": "Vorschau"
     },
     "unsubmitted": {
-        "message": "Nicht übermittelt"
+        "message": "Nicht eingereicht"
     },
     "inspect": {
         "message": "Überprüfen"
@@ -686,7 +686,7 @@
         "message": "Sammlung von Clips, die zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später im Video wiederholt werden."
     },
     "category_preview_guideline1": {
-        "message": "Clips welche später oder in einem zukünftigen Video erscheinen"
+        "message": "Clips, die später oder in einem zukünftigen Video erscheinen"
     },
     "category_preview_guideline2": {
         "message": "Zusammenfassung eines vorherigen Videos"
@@ -950,9 +950,6 @@
     },
     "warningChatInfo": {
         "message": "Wir haben festgestellt, dass du einige häufig gemachte Fehler machst. Wir schätzen deine bisherige Arbeit sehr, streben hier aber nach Perfektion, sodass es auch auf kleine Fehler ankommt :)"
-    },
-    "warningTitle": {
-        "message": "Du hast eine Verwarnung erhalten"
     },
     "questionButton": {
         "message": "Ich habe eine Frage"
@@ -1399,7 +1396,7 @@
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
     "showOriginalOnHover": {
-        "message": "Zeige Originale Details, wenn du mit dem Mauszeiger darauf zeigst"
+        "message": "Zeige originale Details, wenn du mit dem Mauszeiger darauf zeigst"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
@@ -1464,7 +1461,7 @@
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "Vermeide Beschreibungen zu Raktionen zum Video (\"Schockierend\")",
+        "message": "Vermeide Beschreibungen von Reaktionen zum Video (\"Schockierend\")",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
@@ -1484,7 +1481,7 @@
         "message": "Bring dich mit ein, mach Vorschläge und hilf auf {discord} oder {matrix} aus"
     },
     "deArrowDonationText": {
-        "message": "Falls dir gefällt, was ich bisher getan habe und du mir mit Geld aushelfen willst, ist hier ein Link"
+        "message": "Falls dir gefällt, was ich bisher gemacht habe und du mir mit Geld aushelfen willst, ist hier ein Link"
     },
     "termsAgreement": {
         "message": "Durch die Verwendung dieser Erweiterung stimmen Sie der {privacy-policy} und den {terms} zu"
@@ -1606,19 +1603,23 @@
         "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
     },
     "freeTrialStarted": {
-        "message": "Deine kostenlose Testversion wurde gestartet. Besuche YouTube, um es auszuprobieren"
+        "message": "Deine gratis Probezeit wurde erfolgreich gestartet. Besuche YouTube, um es auszuprobieren"
     },
     "freeTrialEnded": {
-        "message": "Deine kostenlose Testversion ist abgelaufen"
+        "message": "Deine gratis Probezeit ist vorbei"
     },
     "freeTrialPrompt": {
-        "message": "Du kannst eine kostenlose Testversion mit dem Knopf unten starten, um es für eine Stunde auszuprobieren."
+        "message": "Wenn du es für eine Stunde ausprobieren möchtest, kannst du mit dem Knopf unten eine gratis Probezeit starten."
     },
     "startFreeTrial": {
-        "message": "Kostenlose Testversion starten"
+        "message": "Gratis Probezeit starten"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Du kannst während der gratis Probezeit nicht abstimmen",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
-        "message": "Sie haben sich erfolgreich für den kostenlosen Zugang registriert. Sie werden benachrichtigt, wenn dieser gewährt wird."
+        "message": "Du hast dich erfolgreich für den kostenlosen Zugriff registriert. Du wirst benachrichtigt, wenn dieser gewährt wird."
     },
     "freeAccessComplete": {
         "message": "Glückwunsch! Du hast nun kostenlosen Zugriff auf DeArrow"

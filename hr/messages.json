@@ -740,9 +740,6 @@
     "warningChatInfo": {
         "message": "Primjetili smo da ste radili neke uobičajene pogreške. Mi cijenimo vaš trud, ali ovdje težimo perfekciji, pa i jako male pogreške su važne :)"
     },
-    "warningTitle": {
-        "message": "Dobili ste upozorenje"
-    },
     "questionButton": {
         "message": "Imam pitanje"
     },

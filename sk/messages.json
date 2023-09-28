@@ -939,9 +939,6 @@
     "warningChatInfo": {
         "message": "Zaznamenali sme, že ste urobili obvyklú chybu. Vážime si vašej práce, ale ide nám o presnosť, takže aj na malých chybách záleží."
     },
-    "warningTitle": {
-        "message": "Dostali ste varovanie"
-    },
     "questionButton": {
         "message": "Mám otázku"
     },
@@ -1433,6 +1430,10 @@
     },
     "startFreeTrial": {
         "message": "Začať skúšobné obdobie"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Počas skúšobnej doby nie je možné hlasovať",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Úspešne ste sa zaregistrovali pre prístup zdarma. Po aktivácii vám príde oznámenie."

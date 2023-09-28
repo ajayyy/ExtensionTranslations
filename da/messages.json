@@ -948,9 +948,6 @@
     "warningChatInfo": {
         "message": "Vi har lagt mærke til, at du har lavet nogle almindelige fejl. Vi sætter stor pris på dit indsendte arbejde, men vi stræber efter perfektion, så selv meget små fejl har betydning. :)"
     },
-    "warningTitle": {
-        "message": "Du fik en advarsel"
-    },
     "questionButton": {
         "message": "Jeg har et spørgsmål"
     },

@@ -499,6 +499,9 @@
     "dataFetchingServerAddress": {
         "message": "Alamat Server Ambil Data"
     },
+    "dataFetchingServerAddressDescription": {
+        "message": "Alamat yang digunakan untuk membuat panggilan ke server pengambilan data.\nKecuali anda memiliki server instansi anda sendiri, ini tidak perlu diubah."
+    },
     "save": {
         "message": "Simpan"
     },
@@ -794,6 +797,10 @@
         "message": "Tunjukkan ikon ketika keseluruhan video merupakan iklan",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Perlihatkan label di thumbnail video juga",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
         "message": "Warna yang Belum Dikirim",
         "description": "Referring to submissions that have not been sent to the server yet."
@@ -941,17 +948,20 @@
     "warningChatInfo": {
         "message": "Kami perhatikan Anda membuat beberapa kesalahan umum. Kami hargai sekali yang Anda kerjakan sejauh ini, tapi di sini kami berjuang mencapai sempurna, sehingga kesalahan sangat kecil pun berarti :)"
     },
-    "warningTitle": {
-        "message": "Anda mendapatkan peringatan"
-    },
     "questionButton": {
         "message": "Saya memiliki pertanyaan"
+    },
+    "askAQuestion": {
+        "message": "Berikan pertanyaan"
     },
     "warningConfirmButton": {
         "message": "Saya mengerti alasannya"
     },
     "warningError": {
         "message": "Terjadi kesalahan ketika mengakui peringatan:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Anda telah menerima petunjuk dari moderator"
     },
     "Donate": {
         "message": "Donasi"
@@ -1228,5 +1238,14 @@
     },
     "allowScrollingToEdit": {
         "message": "Izinkan Menggulir Untuk Menyunting Waktu"
+    },
+    "chooseDescriptive": {
+        "message": "Pilih yang lebih detail"
+    },
+    "Original": {
+        "message": "Orisinil"
+    },
+    "OriginalTitle": {
+        "message": "Judul asli"
     }
 }

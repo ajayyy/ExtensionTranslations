@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "Nos hemos dado cuenta de que cometías algunos errores comunes. Apreciamos mucho tu trabajo hasta ahora, pero aquí nos esforzamos por alcanzar la perfección, así que incluso los errores más pequeños importan :)"
     },
-    "warningTitle": {
-        "message": "Tienes una advertencia"
-    },
     "questionButton": {
         "message": "Tengo una pregunta"
     },
@@ -1615,7 +1612,11 @@
         "message": "Si desea probarlo durante una hora, puede iniciar una prueba gratuita con el botón a continuación."
     },
     "startFreeTrial": {
-        "message": "Empiezar la prueba gratuita"
+        "message": "Empezar la prueba gratuita"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "No puede votar durante la prueba gratuita",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Estás registrado con éxito para el acceso gratuito. Se le notificará cuando se conceda el acceso gratuito."

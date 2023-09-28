@@ -846,6 +846,9 @@
     "youMustSelectACategory": {
         "message": "제출해야 하는 모든 구간의 카테고리를 선택해 주세요!"
     },
+    "bracketStart": {
+        "message": "(시작)"
+    },
     "bracketEnd": {
         "message": "(끝)"
     },
@@ -947,9 +950,6 @@
     },
     "warningChatInfo": {
         "message": "현재 일반적인 실수들을 저지르고 계셔서 알려드려요. 지금까지 작업해주신 것은 감사드리지만, 저희는 완벽을 추구하고 있기 때문에 아주 작은 실수라도 문제가 될 수 있어요 :)"
-    },
-    "warningTitle": {
-        "message": "경고를 받으셨어요"
     },
     "questionButton": {
         "message": "질문이 있어요"
@@ -1610,6 +1610,10 @@
     },
     "startFreeTrial": {
         "message": "무료 체험 시작"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "무료 체험 중에는 투표할 수 없어요",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."

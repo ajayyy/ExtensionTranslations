@@ -951,9 +951,6 @@
     "warningChatInfo": {
         "message": "どうやらあなたはよくある間違いを犯してしまったようです。これまでのあなたの協力には大きく感謝しています。ですが、私たちは完璧さを追求しており、小さなミスでも重要であることをご理解ください :)"
     },
-    "warningTitle": {
-        "message": "警告を受け取りました"
-    },
     "questionButton": {
         "message": "質問があります"
     },
@@ -1616,6 +1613,10 @@
     },
     "startFreeTrial": {
         "message": "試用を始める"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "無料体験のあいだは投票できません",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "無料の試用にお申し込みいただきありがとうございます。試用期間が始まりましたら追ってお知らせいたします。"
