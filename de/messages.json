@@ -610,7 +610,7 @@
         "message": "Nicht für Spenden oder eigene Fanartikel"
     },
     "category_selfpromo": {
-        "message": "Unbezahlt/Eigenwerbung"
+        "message": "Unbezahlt/​Eigenwerbung"
     },
     "category_selfpromo_description": {
         "message": "Ähnlich wie \"Gesponsorte Videosegmente\", jedoch für unbezahlte oder Eigenwerbung. Dies beinhaltet Bereiche über Merchandise, Spenden, oder Informationen darüber, mit wem zusammengearbeitet wurde."
