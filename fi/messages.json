@@ -1348,7 +1348,7 @@
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
-        "message": "Alku"
+        "message": "Alusta"
     },
     "Middle": {
         "message": "Keskeltä"
