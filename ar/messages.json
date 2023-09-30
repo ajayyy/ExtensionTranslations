@@ -303,6 +303,12 @@
         "message": "الفصل السابق",
         "description": "Keybind label"
     },
+    "disableSkipping": {
+        "message": "التخطي مفعل"
+    },
+    "enableSkipping": {
+        "message": "التخطي معطل"
+    },
     "yourWork": {
         "message": "عملك",
         "description": "Used to describe the section that will show you the statistics from your submissions."
