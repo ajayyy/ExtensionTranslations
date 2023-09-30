@@ -853,7 +853,7 @@
         "message": "(Loppu)"
     },
     "End": {
-        "message": "Loppu",
+        "message": "Lopusta",
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
