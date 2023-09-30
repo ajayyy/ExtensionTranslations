@@ -376,6 +376,12 @@
     "enableAutoSkip": {
         "message": "Ativar Auto Ignorar"
     },
+    "audioNotification": {
+        "message": "Notificação de áudio ao ignorar"
+    },
+    "showTimeWithSkipsDescription": {
+        "message": "Esta vez aparece em parênteses ao lado da hora atual abaixo do Seek Bar. Isto mostra a duração total do vídeo menos quaisquer segmentos. Isto inclui segmentos marcados como apenas \"Mostrar em Seek Bar\"."
+    },
     "youHaveSkipped": {
         "message": "Ignorou "
     },
@@ -498,11 +504,21 @@
     "category_sponsor": {
         "message": "Patrocinador"
     },
+    "category_sponsor_guideline1": {
+        "message": "Promoções pagas"
+    },
     "category_selfpromo": {
         "message": "Promoção não remunerada/auto-promoção"
     },
+    "category_selfpromo_guideline2": {
+        "message": "Gritos gratuitos que não adicionem ao vídeo"
+    },
     "category_exclusive_access": {
         "message": "Acesso exclusivo"
+    },
+    "category_exclusive_access_pill": {
+        "message": "Este vídeo mostra um produto, serviço ou local a que receberam acesso gratuito ou subsidiado",
+        "description": "Short description for this category"
     },
     "category_interaction": {
         "message": "Lembrete de Interação (Subscrever)"
@@ -510,8 +526,14 @@
     "category_interaction_description": {
         "message": "Quando houver um pequeno lembrete para curtir, assinar ou segui-los no meio do conteúdo. Se é longo ou sobre algo específico, deveria ser sob auto-promoção."
     },
+    "category_interaction_guideline1": {
+        "message": "Lembretes curtos para curtir, assinar ou seguir"
+    },
     "category_interaction_short": {
         "message": "Lembrete de interação"
+    },
+    "category_intro": {
+        "message": "Intermissão/Introdução Animada"
     },
     "category_filler_short": {
         "message": "Enchimento"
