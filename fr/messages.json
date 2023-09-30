@@ -1368,6 +1368,9 @@
     "titleMaxLines": {
         "message": "Nombre maximum de lignes pour le titre"
     },
+    "titleMaxLinesDescription": {
+        "message": "Les titres vidéo seront diffusés sur ces nombreuses lignes en suggestions."
+    },
     "onAllPages": {
         "message": "Sur toutes les pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1401,6 +1404,12 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si vous souhaitez toujours savoir si un titre/miniature a été modifié, activez cette option."
+    },
+    "showOriginalOnHover": {
+        "message": "Afficher les détails originaux sur Hover"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Afficher le bouton \"Afficher l'original\" pour les titres automatiquement formatés"
     },
     "fetchTimeout": {
         "message": "Délai d'acquisition des données (ms)"
@@ -1588,8 +1597,14 @@
         "message": "Utilisé pour vous donner des statistiques dans le popup.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
+    "YtNeuterMessage": {
+        "message": "Ajouter une liste de filtres pour bloquer les sondages, les étagères de merch et d'autres éléments de page promotionnelle à l'aide de yt-neuter"
+    },
     "requiresUblock": {
         "message": "Nécessite uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Quelque chose s'est mal passé avec la détection de l'identifiant vidéo. Veuillez essayer de rafraîchir avant de soumettre pour s'assurer qu'il soit soumis pour la bonne vidéo. Si cela se produit beaucoup, veuillez envoyer un rapport de ceci avec les autres extensions ou scripts utilisateur que vous avez installé via GitHub, Discord ou Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basé sur Twemoji sous licence CC-BY 4.0"
@@ -1633,5 +1648,8 @@
     },
     "ViewLicenseKey": {
         "message": "Voir la clé de licence"
+    },
+    "SharingIsCaring": {
+        "message": "Partager c'est aimer"
     }
 }
