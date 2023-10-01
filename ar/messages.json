@@ -267,6 +267,9 @@
     "noticeVisibilityMode1": {
         "message": "إشعارات تخطي صغيرة للتخطي التلقائي"
     },
+    "noticeVisibilityMode2": {
+        "message": "حجم صغير لإشعارات التخطي"
+    },
     "noticeVisibilityMode3": {
         "message": "إشعارات تخطي متلاش للتخطي التلقائي"
     },
@@ -379,6 +382,12 @@
     "audioNotificationDescription": {
         "message": "إشعار صوتي عند التخطي سيشغّل صوت كلما يتم تخطي فقرة ما. إن كان معطل (أو التخطي التلقائي معطل) لن يتم تشغيل صوت."
     },
+    "showTimeWithSkips": {
+        "message": "أظهر مدة الفيديو من دون الفقرات المتخطية"
+    },
+    "showTimeWithSkipsDescription": {
+        "message": "هذه المدة ستظهر بين قوسين بجانب الوقت الحالي أسفل شريط التمرير. يظهر مجموع مدة الفيديو مطروح من أي فقرات. يشمل الفقرات المحددة فقط على أنها \"إظهار في شريط التمرير\"."
+    },
     "youHaveSkipped": {
         "message": "قمت بتخطي "
     },
@@ -402,6 +411,21 @@
         "message": " من حياتهم",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
+    "statusReminder": {
+        "message": "تحقق من status.sponsor.ajay.app لمعرفة حالة الخادم."
+    },
+    "changeUserID": {
+        "message": "استيراد/تصدير معرف المستخدم السري الخاص بك"
+    },
+    "whatChangeUserID": {
+        "message": "يجب أن يبقى هذا سريًا. هذا مثل كلمة المرور ولا ينبغي مشاركته مع أي شخص. إذا كان شخص ما يملك هذا، فيمكنه انتحال شخصيتك. إذا كنت تبحث عن معرف المستخدم العام الخاص بك، انقر فوق أيقونة الحافظة في المنبثق."
+    },
+    "setUserID": {
+        "message": "تعيين معرف المستخدم السري"
+    },
+    "userIDChangeWarning": {
+        "message": "تحذير: تغيير معرف المستخدم السري دائم. هل أنت متأكد من رغبتك في القيام بهذا؟ تأكد من النسخ الاحتياطي للمعرف القديم تحسبا."
+    },
     "createdBy": {
         "message": "أنشئت من قِبل"
     },
@@ -415,8 +439,29 @@
     "supportedSites": {
         "message": "المواقع المدعومة: "
     },
+    "optionsInfo": {
+        "message": "تفعيل دعم Invidious، تعطيل التخطي التلقائي، إخفاء الأزرار و المزيد."
+    },
+    "addInvidiousInstance": {
+        "message": "إضافة حالة لموقع يوتيوب طرف ثالث"
+    },
+    "addInvidiousInstanceDescription": {
+        "message": "اضافة حالة خاصة. يجب ان يحتوي على المجال فقط. مثال: invidious.ajay.app"
+    },
     "add": {
         "message": "أضِف"
+    },
+    "addInvidiousInstanceError": {
+        "message": "هذا مجال غير صالح. يجب ان يحتوي على جزء المجال فقط. مثال: invidious.ajay.app"
+    },
+    "resetInvidiousInstance": {
+        "message": "إعادة تعيين قائمة حالات Invidious"
+    },
+    "resetInvidiousInstanceAlert": {
+        "message": "أنت على وشك إعادة تعيين قائمة حالات Invidious"
+    },
+    "currentInstances": {
+        "message": "الحالات الحالية:"
     },
     "minDuration": {
         "message": "المدة الدنيا (ثوان):"
@@ -438,6 +483,15 @@
     },
     "showUploadButton": {
         "message": "إظهار زر الرفع"
+    },
+    "customServerAddressDescription": {
+        "message": "العنوان الذي يستعمله SponsorBlock لاجراء اتصالات للخادم.\nإلا إذا كان لديك حالة خادم خاصة بك، لا ينبغي تغيير هذا."
+    },
+    "dataFetchingServerAddress": {
+        "message": "عنوان خادم جلب البينات"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "العنوان المستخدم لاجراء اتصالات لخادم جلب البينات.\nإلا إذا كان لديك حالة خادم خاصة بك، لا ينبغي تغيير هذا."
     },
     "save": {
         "message": "حفظ"
@@ -497,6 +551,12 @@
         "message": "إلى",
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
+    "generic_guideline1": {
+        "message": "يتضمن الانتقالات"
+    },
+    "generic_guideline2": {
+        "message": "يجب أن يستمر الفيديو كأنما لم يتم تخطي شيئا"
+    },
     "category_sponsor": {
         "message": "رعاية"
     },
@@ -554,11 +614,23 @@
     "category_preview_guideline2": {
         "message": "موجز الفيديو السابق"
     },
+    "category_filler": {
+        "message": "حشو خارج عن الموضوع/نكات"
+    },
     "category_filler_description": {
-        "message": "مشاهد أُضيفت فقط للتمطيط أو الدعابة و هي غير ضرورية لفهم المحتوي الرئيسي للفيديو. لا ينبغي أن يضم الأجزاء المبينة للسياق أو تفاصيل اضافية. هذه فئة شرسة تنبغي لحين لا تكون في المزاج للـ\"متعة\"."
+        "message": "مشاهد أُضيفت فقط للحشو أو الدعابة و هي غير ضرورية لفهم المحتوي الرئيسي للفيديو. لا ينبغي أن يضم الأجزاء المبينة للسياق أو تفاصيل اضافية. هذه فئة شرسة تنبغي لحين لا تكون في المزاج للـ\"متعة\"."
     },
     "category_filler_short": {
         "message": "حشو"
+    },
+    "category_filler_guideline1": {
+        "message": "مشاهد أُضيفت فقط للحشو أو الدعابة"
+    },
+    "category_filler_guideline2": {
+        "message": "تلهيات، مشاهد خلف الكواليس، إعادة عرض مشاهد سابقة"
+    },
+    "category_filler_guideline3": {
+        "message": "ليس للمشاهد الضرورية لفهم الموضوع"
     },
     "category_music_offtopic": {
         "message": "الموسيقى: مقطع غير موسيقي"
@@ -597,7 +669,7 @@
         "message": "تخطي يدوي"
     },
     "showOverlay": {
-        "message": "إظهار في شريط البحث"
+        "message": "إظهار في شريط التمرير"
     },
     "disable": {
         "message": "تعطيل"
@@ -609,7 +681,7 @@
         "message": "اسأل عند تحميل الفيديو"
     },
     "showOverlay_POI": {
-        "message": "إظهار في شريط البحث"
+        "message": "إظهار في شريط التمرير"
     },
     "showOverlay_full": {
         "message": "إظهار التسمية"
@@ -632,7 +704,7 @@
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
-        "message": "لون شريط البحث"
+        "message": "لون شريط التمرير"
     },
     "category": {
         "message": "الفئة"
@@ -653,6 +725,13 @@
     "chooseACategory": {
         "message": "اختر فئة"
     },
+    "enableThisCategoryFirst": {
+        "message": "لتقديم فقرات مع الفئة \"{0}\"، يوجب تفعيلها في الخيارات. سيتم تحويلك الى الخيارات فورا.",
+        "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
+    },
+    "youMustSelectACategory": {
+        "message": "يوجب تحديد فئة لكل الفقرات المنبغي تقديمها!"
+    },
     "bracketEnd": {
         "message": "(النهاية)"
     },
@@ -668,6 +747,9 @@
     },
     "manuallyHidden": {
         "message": "مخفي يدوياً"
+    },
+    "invidiousPermissionRefresh": {
+        "message": "قام المتصفح بإلغاء التصاريح المطلوبة للعمل على Invidious وغيرها من مواقع الطرف الثالث. الرجاء النقر على الزر أدناه لإعادة تنشيط هذا التصريح."
     },
     "acceptPermission": {
         "message": "قَبُول الإذن"
@@ -699,6 +781,9 @@
     },
     "incorrectCategory": {
         "message": "تغيير الفئة"
+    },
+    "nonMusicCategoryOnMusic": {
+        "message": "هذا الفيديو مصنف كموسيقى. هل أنت متأكد من وجود رعاية؟ إن كانت هذه بالفعل \"فقرة غير موسيقية\"، قم بفتح خيارات الإضافة و فعّل هذه الفئة. ثم يمكنك تقديم هذه الفقرة كـ \"غير موسيقي\" بدلاً من رعاية. يرجى قراءة المبادئ التوجيهية إن كنت محتار."
     },
     "multipleSegments": {
         "message": "أجزاء متعددة"
@@ -864,6 +949,9 @@
     "confirmResetToDefault": {
         "message": "هل أنت متأكد من أنك تريد إعادة تعيين كافة الإعدادات إلى حالتها الافتراضية؟ لا يمكنك التراجع عن ذلك."
     },
+    "exportSegments": {
+        "message": "تصدير الفقرات"
+    },
     "Import": {
         "message": "استورد",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
@@ -915,6 +1003,9 @@
     },
     "exportSegmentsAsURL": {
         "message": "شارك كرابط"
+    },
+    "fetchTimeout": {
+        "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
