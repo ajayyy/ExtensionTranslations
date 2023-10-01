@@ -196,10 +196,10 @@
         "message": "إخفاء الأزرار على مشغل اليوتيوب"
     },
     "hideButtonsDescription": {
-        "message": "هذا يخفي الأزرار التي تظهر على مشغل اليوتيوب لإرسال أجزاء للتخطي."
+        "message": "يخفي الأزرار التي تظهر على مشغل اليوتيوب لإرسال أقسام للتخطي."
     },
     "showSkipButton": {
-        "message": "إبقاء زر \"تخطي للعنوان الرئيس\" على المشغّل"
+        "message": "إبقاء زر \"تخطي للابراز\" على المشغّل"
     },
     "showInfoButton": {
         "message": "إظهار زر \"معلومات\" على مشغّل اليوتيوب"
@@ -268,7 +268,10 @@
         "message": "إشعارات تخطي صغيرة للتخطي التلقائي"
     },
     "noticeVisibilityMode3": {
-        "message": "إشعار تخطي متلاش للتخطي التلقائي"
+        "message": "إشعارات تخطي متلاش للتخطي التلقائي"
+    },
+    "noticeVisibilityMode4": {
+        "message": "إشعارات تخطي متلاشية"
     },
     "website": {
         "message": "موقع الويب",
@@ -315,6 +318,9 @@
     "yourWork": {
         "message": "عملك",
         "description": "Used to describe the section that will show you the statistics from your submissions."
+    },
+    "502": {
+        "message": "يبدو أن الخادم محمَّل أكثر من اللازم. حاول مرة أخرى في بضع ثوان."
     },
     "errorCode": {
         "message": "رمز الخطأ: "
@@ -385,6 +391,10 @@
     },
     "supportOtherSites": {
         "message": "دعم مواقع يوتيوب الطرف الثالث"
+    },
+    "supportOtherSitesDescription": {
+        "message": "دعم منصات يوتيوب الطرف ثالث. لتمكين الدعم، يجب عليك قبول التصاريح الإضافية.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
         "message": "المواقع المدعومة: "
@@ -841,6 +851,12 @@
     "Import": {
         "message": "استورد",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "hideUpsells": {
+        "message": "إخفاء الخيارات غير المتاحة بدون دفع إضافي"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "إخفاء التنبيهات حول الميزات الجديدة"
     },
     "chooseACountry": {
         "message": "اختر البلد"
