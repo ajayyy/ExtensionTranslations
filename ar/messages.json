@@ -26,17 +26,17 @@
         "message": "أجزاء"
     },
     "SegmentsCap": {
-        "message": "أجزاء من المقطع"
+        "message": "فقرات"
     },
     "Chapters": {
         "message": "الفصول"
     },
     "renderAsChapters": {
-        "message": "جعل المقاطع كفصول",
+        "message": "عرض الفقرات كفصول",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "إظهار المقطع الحالي بجانب وقت الفيديو"
+        "message": "إظهار الفقرة الحالية الحالية بجانب وقت الفيديو"
     },
     "upvoteButtonInfo": {
         "message": "التصويت على هذا الإرسال"
