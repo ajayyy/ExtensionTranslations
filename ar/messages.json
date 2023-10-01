@@ -241,7 +241,7 @@
         "message": "بدلاً من طلب مقاطع من الخادم باستخدام معرف الفيديو ، يتم إرسال الأحرف الأربعة الأولى من تجزئة معرف الفيديو. سيرسل هذا الخادم البيانات مرة أخرى لجميع مقاطع الفيديو ذات التجزئات المتشابهة."
     },
     "enableRefetchWhenNotFound": {
-        "message": "إعادة جلب الشرائح في مقاطع الفيديو الجديدة"
+        "message": "إعادة جلب الاقسام في مقاطع الفيديو الجديدة"
     },
     "whatRefetchWhenNotFound": {
         "message": "إذ كان الفيديو جديد، ولم يتم العثور على أي أقسام، سيتم أستمرار البحث على أقسام كل بضع دقائق بينما تشاهد."
@@ -256,7 +256,7 @@
         "message": "إظهار الإشعار مرة أخرى"
     },
     "showSkipNotice": {
-        "message": "إظهار إشعار بعد تخطي قطاع ما"
+        "message": "إظهار إشعار بعد تخطي قسم ما"
     },
     "showCategoryGuidelines": {
         "message": "إظهار مساعدة الفئة"
@@ -266,6 +266,9 @@
     },
     "noticeVisibilityMode1": {
         "message": "إشعارات تخطي صغيرة للتخطي التلقائي"
+    },
+    "noticeVisibilityMode3": {
+        "message": "إشعار تخطي متلاش للتخطي التلقائي"
     },
     "website": {
         "message": "موقع الويب",
@@ -389,6 +392,24 @@
     "add": {
         "message": "أضِف"
     },
+    "minDuration": {
+        "message": "المدة الدنيا (ثوان):"
+    },
+    "minDurationDescription": {
+        "message": "الاقسام الاصغر من القيمة المحدد لن يتم تخطيها ولا عرضها في المشغل."
+    },
+    "enableManualSkipOnFullVideo": {
+        "message": "استخدام التخطي اليدوي عند وجود لصيقة للفيديو باكمله"
+    },
+    "whatManualSkipOnFullVideo": {
+        "message": "للاشخاص الراغبين بمشاهدة الفيديو دون انقطاع اذا كان مُرعى بالكامل أو دعاية شخصية."
+    },
+    "skipNoticeDuration": {
+        "message": "مدة إيذان التخطي (ثوان):"
+    },
+    "skipNoticeDurationDescription": {
+        "message": "سيبقى إيذان التخطي على الشاشة للمدة المحددة على الأقل. للتخطي اليدوي، قد يكون مرئيًا لفترة أطول."
+    },
     "showUploadButton": {
         "message": "إظهار زر الرفع"
     },
@@ -495,6 +516,9 @@
     "category_outro": {
         "message": "الخاتمة/تترات النهاية"
     },
+    "category_outro_description": {
+        "message": "لائحة المساهمون في العمل أو عند ظهور شاشات النهاية. ليس للاستنتاجات مع معلومات."
+    },
     "category_preview": {
         "message": "معاينة/خلاصة"
     },
@@ -513,17 +537,26 @@
     "category_music_offtopic": {
         "message": "الموسيقى: مقطع غير موسيقي"
     },
+    "category_music_offtopic_description": {
+        "message": "فقط للاستخدام في الفيديوات الموسيقية. يجب استعماله فقط لأجزاء من الفيديو الموسيقي التي ليست مغطات بفئة اخرى."
+    },
     "category_music_offtopic_short": {
         "message": "غير موسيقي"
     },
     "category_poi_highlight": {
         "message": "ابراز"
     },
+    "category_poi_highlight_description": {
+        "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس. على غرار تعليقات \"الفيديو يبدأ عند x\"."
+    },
     "category_poi_highlight_guideline3": {
         "message": "يمكن التخطي إلى عنوان المقطع أو الصورة المصغرة"
     },
     "category_chapter": {
         "message": "فصل"
+    },
+    "category_chapter_description": {
+        "message": "فصول بأسماء مخصصة تصف اجزاء كبرى من فيديو."
     },
     "category_chapter_guideline1": {
         "message": "لا تذكر أسماء العلامة التجارية الراعية"
@@ -554,6 +587,19 @@
     },
     "showOverlay_full": {
         "message": "إظهار التسمية"
+    },
+    "showOverlay_chapter": {
+        "message": "عرض الفصول"
+    },
+    "autoSkipOnMusicVideos": {
+        "message": "تخطي جميع الاقسام تلقائياً عندما يكون هناك قسم غير موسيقي"
+    },
+    "muteSegments": {
+        "message": "السماح بالاقسام التي تكتم الصوت بدلاً التخطي"
+    },
+    "fullVideoSegments": {
+        "message": "إظهار أيقونة عندما يكون الفيديو بالكامل اعلان",
+        "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "previewColor": {
         "message": "لون غير المرسل",
@@ -610,7 +656,10 @@
         "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"فرض قناة التحقق قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا المقطع"
     },
     "forceChannelCheck": {
-        "message": "إجبار القناة على التحقق قبل التخطي"
+        "message": "اجبار التحقق من القناة قبل التخطي"
+    },
+    "whatForceChannelCheck": {
+        "message": "افتراضيا، سيتم تخطي الاقسام مباشرة حتى قبل التعرف على القناة. افتراضيا، قد يتم تخطي بعض الاقسام في بداية الفيديو على القنواة في اللائحة البيضاء. تفعيل هذا الخيار سيوقف ذلك لكن يجعل كل التخطيات لها تأخير طفيف حيث أن الحصول على معرف القناة قد يستغرق بعض الوقت. قد يكون هذا التأخير غير ملحوظ إذا كان لديك إنترنت سريع."
     },
     "downvoteDescription": {
         "message": "خاطئ/التوقيت غير صحيح"
@@ -761,7 +810,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "تخطي ظهور الإشعار",
+        "message": "مظهر إشعار التخطي",
         "description": "Option label"
     },
     "unbind": {
@@ -834,5 +883,14 @@
     },
     "exportSegmentsAsURL": {
         "message": "شارك كرابط"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
+    },
+    "YtNeuterMessage": {
+        "message": "إضافة قائمة تصفية لمنع الاستطلاعات و السلع و العناصر الترويجية الأخرى باستخدام yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "يتطلب uBlock Origin"
     }
 }
