@@ -481,8 +481,17 @@
     "skipNoticeDurationDescription": {
         "message": "سيبقى إيذان التخطي على الشاشة للمدة المحددة على الأقل. للتخطي اليدوي، قد يكون مرئيًا لفترة أطول."
     },
+    "shortCheck": {
+        "message": "التقديم التالي أقصر من مدة التقديم الأدنى المحددة. قد يعني هذا أن التقديم قد يكون موجود بالفعل ولكن يتم تجاهله بسبب هذا الخيار. هل أنت متأكد من رغبتك في التقديم؟"
+    },
+    "liveOrPremiere": {
+        "message": "لا يسمح بالتقديم على بث مباشر أو بث العرض الأولي للفيديو. الرجاء الانتظار حتى ينتهي، ثم قم بتحديث الصفحة و تحقق أن الفقرات لا تزال صالحة."
+    },
     "showUploadButton": {
         "message": "إظهار زر الرفع"
+    },
+    "customServerAddress": {
+        "message": "عنوان خادم SponsorBlock"
     },
     "customServerAddressDescription": {
         "message": "العنوان الذي يستعمله SponsorBlock لاجراء اتصالات للخادم.\nإلا إذا كان لديك حالة خادم خاصة بك، لا ينبغي تغيير هذا."
@@ -493,11 +502,17 @@
     "dataFetchingServerAddressDescription": {
         "message": "العنوان المستخدم لاجراء اتصالات لخادم جلب البينات.\nإلا إذا كان لديك حالة خادم خاصة بك، لا ينبغي تغيير هذا."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "عنوان خادم تخزين الصور المصغرة"
+    },
     "save": {
         "message": "حفظ"
     },
     "reset": {
         "message": "إعادة تعيين"
+    },
+    "customAddressError": {
+        "message": "هذا العنوان ليس في الشكل الصحيح. تأكد من أن لديك http:// أو https:// في البداية و عدم تواجد شريط مائل في النهاية."
     },
     "areYouSureReset": {
         "message": "هل أنت متيقِّن من رغبتك في إعادة تعيين هذا؟"
@@ -519,6 +534,9 @@
     },
     "setOptions": {
         "message": "تعيين الخيارات"
+    },
+    "exportOptionsWarning": {
+        "message": "تحذير: تغيير الخيارات دائم و قد يخرب تثبيتك. هل أنت متأكد من رغبتك في القيام بهذا؟ تأكد من النسخ الاحتياطي للتثبيت القديم تحسبا."
     },
     "confirmNoticeTitle": {
         "message": "إرسال المقطع"
@@ -544,12 +562,22 @@
     "edit": {
         "message": "تعديل"
     },
+    "copyDebugInformation": {
+        "message": "نسخ معلومات التشخيص إلى الحافظة"
+    },
     "copyDebugInformationFailed": {
         "message": "فشل في الكتابة إلى الحافظة"
+    },
+    "copyDebugInformationOptions": {
+        "message": "ينسخ المعلومات إلى الحافظة لتقديمها إلى المطور عند تبليغ خلل / عندما يطلب المطور ذلك. تم إزالة معلومات حساسة مثل معرف مستخدمك السري و قنوات القائمة البيضاء وعنوان الخادم المخصص. غير أنه يحتوي على معلومات مثل المستخدم الخاص بك، المتصفح، نظام التشغيل، رقم اصدار الإضافة. "
     },
     "to": {
         "message": "إلى",
         "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "تم النسخ!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
         "message": "يتضمن الانتقالات"
@@ -566,11 +594,23 @@
     "category_sponsor_guideline1": {
         "message": "دعايات مدفوعة"
     },
+    "category_sponsor_guideline2": {
+        "message": "ليس للتبرعات أو منتجات صانع المحتوى"
+    },
     "category_selfpromo": {
         "message": "دعاية غير مدفوعة/ذاتية"
     },
     "category_selfpromo_description": {
-        "message": "شبيه بـ \"رعاية\" ولكن غير ممولة أو أن تكون دعاية ذاتية. يشمل هذا البضائع من قبل صانع المحتوى أو تبرعات او معلومات حول من تعاونوا معهم."
+        "message": "شبيه بـ \"رعاية\" ولكن غير ممولة أو أن تكون دعاية ذاتية. يشمل هذا منتجات صانع المحتوى أو تبرعات او معلومات حول من تعاونوا معهم."
+    },
+    "category_selfpromo_guideline1": {
+        "message": "التبرعات و العضوية و منتجات صانع المحتوى"
+    },
+    "category_selfpromo_guideline2": {
+        "message": "تصريحات شكر مجانية التي لا تضيف إلى الفيديو"
+    },
+    "category_selfpromo_guideline3": {
+        "message": "ليس للمنتجات المصممة من شركات"
     },
     "category_exclusive_access": {
         "message": "وصول حصري"
@@ -578,11 +618,27 @@
     "category_exclusive_access_description": {
         "message": "فقط لتوسيم مقاطع فيديو بِرُمَّتها. تستخدم عند عرض الفيديو منتج أو خدمة أو موقع حصلوا عليه مجانا أو بثمن مخفف."
     },
+    "category_exclusive_access_pill": {
+        "message": "هذا الفيديو يعرض منتج أو خدمة أو موقع حصل صانع المحتوى عليه مجانا أو بثمن مخفف",
+        "description": "Short description for this category"
+    },
+    "category_exclusive_access_guideline1": {
+        "message": "الفيديو برمّته يعرض شيء حصل صانع المحتوى عليه مجانا أو بثمن مخفف"
+    },
     "category_interaction": {
         "message": "التذكير بالتفاعل (الاشتراك)"
     },
     "category_interaction_description": {
         "message": "عند وجود تذكار قصير للاشتراك أو المتابعة في منتصف محتوى. إذا كان طويل أو حول شيء محدد، يجب أن يكون تحت الترويج الذاتي."
+    },
+    "category_interaction_guideline1": {
+        "message": "تذكيرات قصيرة بالإعجاب أو الاشتراك أو المتابعة"
+    },
+    "category_interaction_guideline2": {
+        "message": "يتضمن تذكيرات غير مباشرة للتعليق"
+    },
+    "category_interaction_guideline3": {
+        "message": "ليس للترويج بشكل عام و انما فقط نداءات لفعل"
     },
     "category_interaction_short": {
         "message": "التذكير بالتفاعل"
@@ -732,6 +788,9 @@
     "youMustSelectACategory": {
         "message": "يوجب تحديد فئة لكل الفقرات المنبغي تقديمها!"
     },
+    "bracketStart": {
+        "message": "(البداية)"
+    },
     "bracketEnd": {
         "message": "(النهاية)"
     },
@@ -797,6 +856,9 @@
     },
     "categoryUpdate1": {
         "message": "الفئات هنا!"
+    },
+    "categoryUpdate2": {
+        "message": "افتح الخيارات لتخطي المقدمات و المؤخرات و ترويج المنتجات إلخ."
     },
     "help": {
         "message": "المساعدة"
@@ -1004,16 +1066,71 @@
     "exportSegmentsAsURL": {
         "message": "شارك كرابط"
     },
+    "Start": {
+        "message": "البداية"
+    },
+    "Middle": {
+        "message": "الوسط"
+    },
     "fetchTimeout": {
         "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
     },
+    "DeArrowPromotionMessage2": {
+        "message": "هل تعبت من طعم النقر؟ تفقد إضافتي الجديدة لتحسين العناوين والصور المصغرة"
+    },
+    "countReplacements": {
+        "message": "قم بحساب تبديل العناوين و الصور المصغرة"
+    },
     "YtNeuterMessage": {
-        "message": "إضافة قائمة تصفية لمنع الاستطلاعات و السلع و العناصر الترويجية الأخرى باستخدام yt-neuter"
+        "message": "إضافة قائمة تصفية لمنع الاستطلاعات و المنتجات و العناصر الترويجية الأخرى باستخدام yt-neuter"
     },
     "requiresUblock": {
         "message": "يتطلب uBlock Origin"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock غير متوافق مع الإضافة \"Zoom to Fill\". هناك العديد من البدائل التي يمكنك استخدامها بدلاً من ذلك والتي ستعمل بشكل صحيح."
+    },
+    "freeTrialStarted": {
+        "message": "بدأت النسخة التجربة المجانية الخاصة بك بنجاح. قم بزيارة اليوتيوب لتجربتها"
+    },
+    "freeTrialEnded": {
+        "message": "انتهت النسخة التجريبية المجانية"
+    },
+    "freeTrialPrompt": {
+        "message": "إذا كنت ترغب في التجربة لمدة ساعة، يمكنك بدء نسخة تجريبية مجانية بالزر أدناه."
+    },
+    "startFreeTrial": {
+        "message": "ابدأ النسخة التجريبية المجانية"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "لا يمكنك التصويت خلال النسخة التجريبية المجانية",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "freeAccessRequested": {
+        "message": "تم تسجيلك بنجاح للوصول المجاني. سيتم إعلامك عند منح الوصول المجاني."
+    },
+    "freeAccessComplete": {
+        "message": "تهانينا! لديك الآن وصول مجاني إلى DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow غير مفعل"
+    },
+    "ActivateDeArrow": {
+        "message": "تفعيل DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "تم تفعيل DeArrow بنجاح"
+    },
+    "Close": {
+        "message": "إغلاق"
+    },
+    "ViewLicenseKey": {
+        "message": "اعرض مفتاح الرّخصة"
+    },
+    "SharingIsCaring": {
+        "message": "المشاركة تعني الاهتمام"
     }
 }
