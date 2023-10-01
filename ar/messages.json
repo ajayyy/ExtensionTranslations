@@ -111,16 +111,16 @@
         "message": "تم التصويت!"
     },
     "serverDown": {
-        "message": "يبدو أن الخادم غير متصل. تواصل مع المطوّر على الفور."
+        "message": "يبدو أن الخادم معطل. تواصل مع المطوّر على الفور."
     },
     "connectionError": {
         "message": "حدث خطأ في الاتصال. رمز الخطأ: "
     },
     "segmentsStillLoading": {
-        "message": "لا تزل الشرائح قيد التحميل..."
+        "message": "لا تزل الفقرات قيد التحميل..."
     },
     "clearTimes": {
-        "message": "مسح الأجزاء"
+        "message": "مسح الفقرات"
     },
     "openPopup": {
         "message": "فتح نافذة SponsorBlock المنبثقة"
@@ -132,10 +132,10 @@
         "message": "أيقونة الإغلاق"
     },
     "OpenSubmissionMenu": {
-        "message": "افتح قائمة الإرسال"
+        "message": "قتح قائمة التقديم"
     },
     "sortSegments": {
-        "message": "ترتيب الأجزاء"
+        "message": "فرز الفقرات"
     },
     "submitCheck": {
         "message": "هل أنت متأكد أنك تريد إرسال هذا؟"
@@ -159,10 +159,10 @@
         "message": "المتصدرين"
     },
     "recordTimesDescription": {
-        "message": "إرسال"
+        "message": "تقديم"
     },
     "submissionEditHint": {
-        "message": "سيظهر تحرير الجزء بعد النقر على إرسال",
+        "message": "سيظهر تحرير القسم بعد النقر على تقديم",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
@@ -178,10 +178,10 @@
         "message": "تعيين اسم مستخدم"
     },
     "copyPublicID": {
-        "message": "نسخ رمز المستخدم"
+        "message": "نسخ معرف المستخدم العام"
     },
     "copySegmentID": {
-        "message": "نسخ معرف الجزء"
+        "message": "نسخ معرف الفقرة"
     },
     "hideThis": {
         "message": "إخفاء هذا"
