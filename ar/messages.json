@@ -273,6 +273,10 @@
     "noticeVisibilityMode4": {
         "message": "إشعارات تخطي متلاشية"
     },
+    "longDescription": {
+        "message": "يتيح لك SponsorBlock تخطي الرعايات و المقدمات و المؤخرات و التذكيرات بالاشتراك و اجزاء أخرى مزعجة من فيديوات اليوتيوب. SponsorBlock إضافة متصفح مصدّر جماعيا يتيح لأي احد بتقديم أوقات البدء و الانتهاء للفقرات المرعية و فقرات اخرى من فيديوات اليوتيوب. و بمجرد أن يقدم شخص واحد هذه المعلونات يستخطى كل شخص آخر مع هذه الإضافة الفقرة المرعية. بالامكان أيضا تخطي الأجزاء الغير موسيقية من فيديوات الموسيقى.",
+        "description": "Full description of the extension on the store pages."
+    },
     "website": {
         "message": "موقع الويب",
         "description": "Used on Firefox Store Page"
@@ -308,6 +312,12 @@
     "previousChapterKeybind": {
         "message": "الفصل السابق",
         "description": "Keybind label"
+    },
+    "keybindDescription": {
+        "message": "حدد مفتاح عن طريق كتابته واختار أي مفاتيح تعديل ترغب في استخدامها."
+    },
+    "0": {
+        "message": "انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت. إذا كان إتصالم بالإنترنت يعمل ، قد يكون الخادم محمل أكثر من اللازم أو مغلق حاليا."
     },
     "disableSkipping": {
         "message": "التخطي مفعل"
@@ -362,6 +372,12 @@
     },
     "enableAutoSkip": {
         "message": "تفعيل التخطي التلقائي"
+    },
+    "audioNotification": {
+        "message": "إشعار صوتي عند التخطي"
+    },
+    "audioNotificationDescription": {
+        "message": "إشعار صوتي عند التخطي سيشغّل صوت كلما يتم تخطي فقرة ما. إن كان معطل (أو التخطي التلقائي معطل) لن يتم تشغيل صوت."
     },
     "youHaveSkipped": {
         "message": "قمت بتخطي "
