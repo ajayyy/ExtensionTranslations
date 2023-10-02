@@ -1045,7 +1045,10 @@
         "message": "نسخ وتصويت معارض"
     },
     "ContinueVoting": {
-        "message": "متابعة التصويت"
+        "message": "المتابعة بالتصويت"
+    },
+    "ChangeCategoryTooltip": {
+        "message": "سيتم تطبيق هذا فورا على فقراتك"
     },
     "downvote": {
         "message": "تصويت سلبي"
@@ -1054,13 +1057,19 @@
         "message": "تصويت إيجابي"
     },
     "hideSegment": {
-        "message": "إخفاء المقطع"
+        "message": "إخفاء الفقرة"
+    },
+    "skipSegment": {
+        "message": "تخطي الفقرة"
     },
     "playChapter": {
-        "message": "شغل الفصل"
+        "message": "تشغيل الفصل"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "استخدم عجلة الماوس أثناء التمرير فوق مربع التعديل لضبط الوقت بسرعة. يمكن استخدام مجموعات مفتاح ctrl أو Shift لضبط التغييرات."
+        "message": "استخدم عجلة الفأرة أثناء التمرير فوق مربع التعديل لضبط الوقت بسرعة. يمكن استخدام مجموعات مفتاح ctrl أو shift للضبط بدقة."
+    },
+    "categoryPillNewFeature": {
+        "message": "جديد! معرفة اذا كان الفيديو برمَّته مَرعي أو دعاية ذاتية"
     },
     "dayAbbreviation": {
         "message": "ي",
