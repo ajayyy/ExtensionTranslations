@@ -499,14 +499,161 @@
     "dataFetchingServerAddress": {
         "message": "Адреса сервера за прикупљање података"
     },
+    "dataFetchingServerAddressDescription": {
+        "message": "Адреса која се користи за упућивање позива серверу за прикупљање података. Осим ако немате сопствену инстанцу сервера, ово не треба мењати."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Адреса сервера кеша сличице"
+    },
     "save": {
         "message": "Сачувај"
+    },
+    "reset": {
+        "message": "Ресетуј"
+    },
+    "customAddressError": {
+        "message": "Ова адреса није у правом облику. Уверите се да садржи http:// или https:// на почетку и да нема косих црта на крају."
+    },
+    "areYouSureReset": {
+        "message": "Желите ли заиста да ресетујете ово?"
+    },
+    "mobileUpdateInfo": {
+        "message": "m.youtube.com је сада подржан"
+    },
+    "exportOptions": {
+        "message": "Увези/Извези све опције"
+    },
+    "exportOptionsCopy": {
+        "message": "Измени/копирај"
+    },
+    "exportOptionsDownload": {
+        "message": "Сачувај у фајл"
+    },
+    "exportOptionsUpload": {
+        "message": "Учитај из фајла"
+    },
+    "whatExportOptions": {
+        "message": "Ово је цела ваша конфигурација у JSON-у. Ово укључује ваш приватни UserID, па будите пажљиви при дељењу овога."
+    },
+    "setOptions": {
+        "message": "Подеси опције"
+    },
+    "exportOptionsWarning": {
+        "message": "Упозорење: Промена опција је трајна и може покварити вашу инсталацију. Желите ли заиста да урадите ово? Обавезно направите резервну копију старог за сваки случај."
+    },
+    "incorrectlyFormattedOptions": {
+        "message": "Овај JSON није правилно форматиран. Ваше опције нису промењене."
+    },
+    "confirmNoticeTitle": {
+        "message": "Пошаљите сегмент"
+    },
+    "submit": {
+        "message": "Пошаљи"
     },
     "cancel": {
         "message": "Откажи"
     },
+    "delete": {
+        "message": "Избриши"
+    },
+    "preview": {
+        "message": "Прегледај"
+    },
+    "unsubmitted": {
+        "message": "Непослано"
+    },
+    "inspect": {
+        "message": "Испитај"
+    },
     "edit": {
         "message": "Измени"
+    },
+    "copyDebugInformation": {
+        "message": "Копирај информације о отклањању грешака у привремену меморију"
+    },
+    "copyDebugInformationFailed": {
+        "message": "Писање у привремену меморију није успело"
+    },
+    "copyDebugInformationOptions": {
+        "message": "Копира информације у привремену меморију које се достављају програмеру када открије грешку / када то програмер затражи. Осетљиве информације, као што су ваш userID, канали на белој листи и прилагођена адреса сервера су уклоњени. Међутим, садржи информације као што су ваш useragent, прегледач, оперативни систем и број верзије додатка. "
+    },
+    "copyDebugInformationComplete": {
+        "message": "Информације о отклањању грешака су копиране у привремену меморију. Слободно уклоните све информације које не бисте желели да делите. Сачувајте ово у текстуалном фајлу или налепите у извештај о грешци."
+    },
+    "keyAlreadyUsed": {
+        "message": "Ова пречица је везана за другу радњу. Изаберите другу."
+    },
+    "to": {
+        "message": "до",
+        "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "Копирано!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
+    "generic_guideline1": {
+        "message": "Укључује глатак прелаз"
+    },
+    "generic_guideline2": {
+        "message": "Пушта као да ништа није прескочено"
+    },
+    "category_sponsor": {
+        "message": "Спонзор"
+    },
+    "category_sponsor_description": {
+        "message": "Плаћена промоција, плаћене препоруке и директне рекламе. Није за самопромоцију или бесплатно позивање на циљеве/креаторе/веб-сајтове/производе који им се допадају."
+    },
+    "category_sponsor_guideline1": {
+        "message": "Плаћене промоције"
+    },
+    "category_sponsor_guideline2": {
+        "message": "Није за донација или прилагођену робу"
+    },
+    "category_selfpromo": {
+        "message": "Неплаћена/Самопромоција"
+    },
+    "category_selfpromo_description": {
+        "message": "Слично као „спонзор”, осим за неплаћену или самопромоцију. Ово укључује одељке о роби, донацијама или информацијама о томе са ким су сарађивали."
+    },
+    "category_selfpromo_guideline1": {
+        "message": "Донације, чланства и прилагођена роба"
+    },
+    "category_selfpromo_guideline2": {
+        "message": "Бесплатни поздрави који не доприносе видео снимку"
+    },
+    "category_selfpromo_guideline3": {
+        "message": "Није за корпоративно дизајниране производе и робу"
+    },
+    "category_exclusive_access": {
+        "message": "Ексклузивни приступ"
+    },
+    "category_exclusive_access_description": {
+        "message": "Само за означавање целих видео снимака. Користи се када видео снимак приказује производ, услугу или локацију, где је аутор добио бесплатан или субвенционисани приступ."
+    },
+    "category_exclusive_access_pill": {
+        "message": "Овај видео снимак приказује производ, услугу или локацију, где је аутор добио бесплатан или субвенционисани приступ",
+        "description": "Short description for this category"
+    },
+    "category_exclusive_access_guideline1": {
+        "message": "Цео видео приказује нешто са бесплатним или субвенционисаним приступом"
+    },
+    "category_interaction": {
+        "message": "Подсетник о интеракцији (праћење)"
+    },
+    "category_interaction_description": {
+        "message": "Када постоји кратак подсетник да лајкујете, претплатите се или их запратите усред садржаја. Ако је дугачак или о нечему конкретном, требало би да буде под самопромоцијом."
+    },
+    "category_interaction_guideline1": {
+        "message": "Кратки подсетници да лајкујете, претплатите се или запратите"
+    },
+    "category_interaction_guideline2": {
+        "message": "Укључује индиректне подсетнике за коментарисање"
+    },
+    "category_interaction_guideline3": {
+        "message": "Није за општу промоцију, само за позиве на радњу"
+    },
+    "category_interaction_short": {
+        "message": "Подсетник за интеракцију"
     },
     "help": {
         "message": "Помоћ"
