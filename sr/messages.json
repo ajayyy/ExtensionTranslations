@@ -210,15 +210,180 @@
     "autoHideInfoButton": {
         "message": "Аутоматски сакриј дугме за информације"
     },
+    "hideDeleteButton": {
+        "message": "Сакриј дугме за брисање на YouTube плејеру"
+    },
+    "showDeleteButton": {
+        "message": "Прикажи дугме за брисање на YouTube плејеру"
+    },
+    "enableViewTracking": {
+        "message": "Омогући праћење броја прескакања"
+    },
+    "whatViewTracking": {
+        "message": "Ова функција прати које сте сегменте прескочили да бисте корисницима дали до знања колико је њихова објава помогла другима и користи се као метрика заједно са позитивним гласовима, како би се осигурало да нежељена пошта не доспе у базу података. Додатак шаље поруку серверу сваки пут када прескочите сегмент. Надамо се да већина људи неће променити ово подешавање да би бројеви приказа били тачни. :)"
+    },
+    "enableViewTrackingInPrivate": {
+        "message": "Омогући праћење броја прескакања у картицама Приватно/Инкогнито"
+    },
+    "enableTrackDownvotes": {
+        "message": "Чувај гласове против сегмента"
+    },
+    "whatTrackDownvotes": {
+        "message": "Сви сегменти које одбаците остаће скривени, чак и након освежавања"
+    },
+    "trackDownvotesWarning": {
+        "message": "Упозорење: Онемогућавање овога ће избрисати све претходно сачуване гласове против"
+    },
+    "enableQueryByHashPrefix": {
+        "message": "Упит по префиксу хеша"
+    },
+    "whatQueryByHashPrefix": {
+        "message": "Уместо захтевања сегмената од сервера помоћу ID-ја видео снимка, шаљу се прва 4 знака хеша ID-ја видео снимка. Овај сервер ће послати податке за све видео снимке са сличним хешовима."
+    },
+    "enableRefetchWhenNotFound": {
+        "message": "Поново прикупи сегменте на новим видео снимцима"
+    },
+    "whatRefetchWhenNotFound": {
+        "message": "Ако је видео снимак нов и нема пронађених сегмената, сегменти ће наставити да се прикупљају сваких неколико минута док гледате видео снимак."
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "Прикажи категорије у менију за слање, чак и без дозволе за слање"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "Неке категорије захтевају дозволу за слање због минималних захтева за репутацијом"
+    },
+    "showNotice": {
+        "message": "Прикажи напомену поново"
+    },
+    "showSkipNotice": {
+        "message": "Прикажи напомену након што је сегмент прескочен"
+    },
+    "showCategoryGuidelines": {
+        "message": "Прикажи помоћ за категорију"
+    },
+    "noticeVisibilityMode0": {
+        "message": "Напомене за прескакање у пуној величини"
+    },
+    "noticeVisibilityMode1": {
+        "message": "Мале напомене о прескакању за аутоматско прескакање"
+    },
+    "noticeVisibilityMode2": {
+        "message": "Све мале напомене о прескакању"
+    },
+    "noticeVisibilityMode3": {
+        "message": "Избледеле напомене о прескакању за аутоматско прескакање"
+    },
+    "noticeVisibilityMode4": {
+        "message": "Све избледеле напомене о прескакању"
+    },
+    "longDescription": {
+        "message": "SponsorBlock вам омогућава да прескочите спонзоре, уводне анимације, завршне анимације, подсетнике за претплату и друге досадне делове YouTube видео снимака. SponsorBlock је додатак за прегледач са скупом збирки који омогућава свакоме да пошаље време почетка и завршетка спонзорисаних сегмената и других сегмената YouTube видео снимака. Када једна особа пошаље ове информације, свима осталима са овим додатком ће се директно прескочити спонзорисани сегмент. Такође, можете да прескочите делове музичких спотова који не садрже музику.",
+        "description": "Full description of the extension on the store pages."
+    },
+    "website": {
+        "message": "Веб-сајт",
+        "description": "Used on Firefox Store Page"
+    },
     "sourceCode": {
         "message": "Изворни код",
         "description": "Used on Firefox Store Page"
+    },
+    "noticeUpdate": {
+        "message": "Напомена је надограђена!",
+        "description": "The first line of the message displayed after the notice was upgraded."
+    },
+    "noticeUpdate2": {
+        "message": "Ако вам се и даље не свиђа, притисните дугме „Никад не приказуј“.",
+        "description": "The second line of the message displayed after the notice was upgraded."
+    },
+    "setSkipShortcut": {
+        "message": "Прескочи сегмент",
+        "description": "Keybind label"
+    },
+    "setStartSponsorShortcut": {
+        "message": "Започни/заврши сегмент",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "Пошаљи сегменте",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Следеће поглавље",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Претходно поглавље",
+        "description": "Keybind label"
+    },
+    "keybindDescription": {
+        "message": "Изаберите тастер тако што ћете га откуцати и изабрати било који модификаторски тастер који желите да користите."
+    },
+    "0": {
+        "message": "Временско ограничење везе. Проверите своју интернет везу. Ако ваш интернет ради, сервер је вероватно преоптерећен или није у функцији."
+    },
+    "disableSkipping": {
+        "message": "Прескакање је омогућено"
+    },
+    "enableSkipping": {
+        "message": "Прескакање је онемогућено"
+    },
+    "yourWork": {
+        "message": "Ваш рад",
+        "description": "Used to describe the section that will show you the statistics from your submissions."
+    },
+    "502": {
+        "message": "Чини се да је сервер преоптерећен. Покушајте поново за неколико секунди."
     },
     "errorCode": {
         "message": "Код грешке: "
     },
     "skip": {
         "message": "Прескочи"
+    },
+    "mute": {
+        "message": "Утишај"
+    },
+    "full": {
+        "message": "Цео видео снимак",
+        "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
+    },
+    "skip_category": {
+        "message": "Прескочити {0}?"
+    },
+    "mute_category": {
+        "message": "Утишати {0}?"
+    },
+    "skip_to_category": {
+        "message": "Прескочити до {0}?",
+        "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "skipped": {
+        "message": "Прескочено: {0}",
+        "description": "Example: Sponsor Skipped"
+    },
+    "muted": {
+        "message": "Утишано: {0}",
+        "description": "Example: Sponsor Muted"
+    },
+    "skipped_to_category": {
+        "message": "Прескочено до {0}",
+        "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "disableAutoSkip": {
+        "message": "Онемогући аутоматско прескакање"
+    },
+    "enableAutoSkip": {
+        "message": "Омогући аутоматско прескакање"
+    },
+    "audioNotification": {
+        "message": "Звучно обавештење при прескакању"
+    },
+    "audioNotificationDescription": {
+        "message": "Звучно обавештење при прескакању ће пустити звук кад год се сегмент прескочи. Ако је онемогућено (или је аутоматско прескакање онемогућено), звук се неће пустити."
+    },
+    "showTimeWithSkips": {
+        "message": "Прикажи време са уклоњеним прескакањима"
     },
     "add": {
         "message": "Додај"
