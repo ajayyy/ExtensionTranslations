@@ -385,8 +385,119 @@
     "showTimeWithSkips": {
         "message": "Прикажи време са уклоњеним прескакањима"
     },
+    "showTimeWithSkipsDescription": {
+        "message": "Ово време се појављује у заградама поред тренутног времена испод траке за премотавање. Ово приказује укупно трајање видео снимка одузето од било ког сегмента. Ово укључује сегменте означене само као „Прикажи у траци за премотавање“."
+    },
+    "youHaveSkipped": {
+        "message": "Прескочили сте "
+    },
+    "minLower": {
+        "message": "минут"
+    },
+    "minsLower": {
+        "message": "минута"
+    },
+    "hourLower": {
+        "message": "сат"
+    },
+    "hoursLower": {
+        "message": "сати"
+    },
+    "youHaveSavedTime": {
+        "message": "Сачували сте људе",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "youHaveSavedTimeEnd": {
+        "message": " њихових живота",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "statusReminder": {
+        "message": "Проверите status.sponsor.ajay.app за статус сервера."
+    },
+    "changeUserID": {
+        "message": "Увези/Извези свој приватни UserID"
+    },
+    "whatChangeUserID": {
+        "message": "Ово треба да остане приватно. Ово је као лозинка и не би требало да се дели ни са ким. Ако неко има ово, може да се лажно представља. Ако тражите свој јавни UserID, кликните на иконицу привремене меморије у искачућем прозору."
+    },
+    "setUserID": {
+        "message": "Подеси приватни UserID"
+    },
+    "userIDChangeWarning": {
+        "message": "Упозорење: Промена приватног UserID-ја је трајна. Желите ли заиста да урадите ово? Обавезно направите резервну копију старог за сваки случај."
+    },
+    "createdBy": {
+        "message": "Направио"
+    },
+    "supportOtherSites": {
+        "message": "Подршка за YouTube-сајтове трећих страна"
+    },
+    "supportOtherSitesDescription": {
+        "message": "Подршка за YouTube клијенте трећих страна. Да бисте омогућили подршку, морате прихватити додатне дозволе.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
+    "supportedSites": {
+        "message": "Подржани сајтови: "
+    },
+    "optionsInfo": {
+        "message": "Омогућите Invidious подршку, онемогућите аутоматско прескакање, сакријте дугмад и још много тога."
+    },
+    "addInvidiousInstance": {
+        "message": "Додај инстанцу клијента треће стране"
+    },
+    "addInvidiousInstanceDescription": {
+        "message": "Додајте прилагођену инстанцу. Ово мора бити форматирано САМО са доменом. Пример: invidious.ajay.app"
+    },
     "add": {
         "message": "Додај"
+    },
+    "addInvidiousInstanceError": {
+        "message": "Ово је неважећи домен. Ово би требало да укључи САМО део са доменом. Пример: invidious.ajay.app"
+    },
+    "resetInvidiousInstance": {
+        "message": "Ресетуј Invidious листу инстанци"
+    },
+    "resetInvidiousInstanceAlert": {
+        "message": "Управо ћете ресетовати Invidious листу инстанци"
+    },
+    "currentInstances": {
+        "message": "Тренутне инстанце:"
+    },
+    "minDuration": {
+        "message": "Минимално трајање (секунде):"
+    },
+    "minDurationDescription": {
+        "message": "Сегменти краћи од подешене вредности неће бити прескочени или приказани у плејеру."
+    },
+    "enableManualSkipOnFullVideo": {
+        "message": "Користи ручно прескакање када постоји ознака за цео видео снимак"
+    },
+    "whatManualSkipOnFullVideo": {
+        "message": "За људе који желе да гледају видео снимак без прекида, ако је у потпуности спонзорисан или самопромотивни."
+    },
+    "skipNoticeDuration": {
+        "message": "Трајање обавештења за прескакање (секунде):"
+    },
+    "skipNoticeDurationDescription": {
+        "message": "Обавештење о прескакању ће остати на екрану најмање оволико секунди. За ручно прескакање може бити видљиво дуже."
+    },
+    "shortCheck": {
+        "message": "Следећи поднесак је краћи од опције минималног трајања. То може значити да је ово већ послато и да се само игнорише због ове опције. Желите ли заиста да пошаљете?"
+    },
+    "liveOrPremiere": {
+        "message": "Није дозвољено слање на активни стрим уживо или премијеру. Сачекајте док се не заврши, а затим освежите страницу и проверите да ли су сегменти још увек важећи."
+    },
+    "showUploadButton": {
+        "message": "Прикажи дугме за отпремање"
+    },
+    "customServerAddress": {
+        "message": "Адреса сервера SponsorBlock"
+    },
+    "customServerAddressDescription": {
+        "message": "Адреса коју SponsorBlock користи за упућивање позива серверу. Осим ако немате сопствену инстанцу сервера, ово не треба мењати."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Адреса сервера за прикупљање података"
     },
     "save": {
         "message": "Сачувај"
