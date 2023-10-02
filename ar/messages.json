@@ -532,17 +532,23 @@
     "exportOptionsUpload": {
         "message": "تحميل من ملف"
     },
+    "whatExportOptions": {
+        "message": "هذا هو كامل إعداداتك في صيغة JSON. يشمل معرف المستخدم السري الخاص بك، لذا تأكد من مشاركته بحكمة."
+    },
     "setOptions": {
         "message": "تعيين الخيارات"
     },
     "exportOptionsWarning": {
         "message": "تحذير: تغيير الخيارات دائم و قد يخرب تثبيتك. هل أنت متأكد من رغبتك في القيام بهذا؟ تأكد من النسخ الاحتياطي للتثبيت القديم تحسبا."
     },
+    "incorrectlyFormattedOptions": {
+        "message": "لم يتم تنسيق JSON بشكل صحيح. لم يتم تغيير الخيارات الخاصة بك."
+    },
     "confirmNoticeTitle": {
-        "message": "إرسال المقطع"
+        "message": "تقديم الفقرة"
     },
     "submit": {
-        "message": "إرسال"
+        "message": "تقديم"
     },
     "cancel": {
         "message": "إلغاء"
@@ -554,7 +560,7 @@
         "message": "معاينة"
     },
     "unsubmitted": {
-        "message": "غير مرسلة"
+        "message": "غير مقَدَّمة"
     },
     "inspect": {
         "message": "فحص"
@@ -566,10 +572,16 @@
         "message": "نسخ معلومات التشخيص إلى الحافظة"
     },
     "copyDebugInformationFailed": {
-        "message": "فشل في الكتابة إلى الحافظة"
+        "message": "فشل النسخ إلى الحافظة"
     },
     "copyDebugInformationOptions": {
-        "message": "ينسخ المعلومات إلى الحافظة لتقديمها إلى المطور عند تبليغ خلل / عندما يطلب المطور ذلك. تم إزالة معلومات حساسة مثل معرف مستخدمك السري و قنوات القائمة البيضاء وعنوان الخادم المخصص. غير أنه يحتوي على معلومات مثل المستخدم الخاص بك، المتصفح، نظام التشغيل، رقم اصدار الإضافة. "
+        "message": "ينسخ المعلومات إلى الحافظة لتقديمها إلى المطور عند تبليغ خلل / عندما يطلب المطور ذلك. تم إزالة معلومات حساسة مثل معرف مستخدمك السري و قنوات القائمة البيضاء وعنوان الخادم المخصص. غير أنه يحتوي على معلومات مثل المستخدم الخاص بك و المتصفح و نظام التشغيل و رقم اصدار الإضافة. "
+    },
+    "copyDebugInformationComplete": {
+        "message": "تم نسخ معلومات التشخيص إلى الحافظة. لا تتردد في إزالة أي معلومات تفضل عدم مشاركتها. إحفظه في ملف نصي أو الصقه في تقرير الخلل البرمجي."
+    },
+    "keyAlreadyUsed": {
+        "message": "هذا الاختصار مرتبط بإجراء آخر. الرجاء تحديد إجراء مختلف."
     },
     "to": {
         "message": "إلى",
@@ -647,19 +659,25 @@
         "message": "انترو"
     },
     "category_intro_description": {
-        "message": "فاصل زمني بدون محتوى فعلي. يمكن أن يكون توقفًا مؤقتًا أو إطارًا ثابتًا أو تكرار الرسوم المتحركة. لا يتضمن انتقالات تحتوي على معلومات."
+        "message": "فاصل زمني بدون محتوى فعلي. يمكن أن يكون توقفًا مؤقتًا أو إطارًا ثابتًا أو رسوم متحركة متكررة. لا يتضمن انتقالات تحتوي على معلومات."
     },
     "category_intro_short": {
-        "message": "استراحة"
+        "message": "انترو"
     },
     "category_intro_guideline1": {
-        "message": "فاصل بدون محتوى فعلي"
+        "message": "فاصل زمني بدون محتوى فعلي"
+    },
+    "category_intro_guideline2": {
+        "message": "ليس للانتقالات التي تحتوي على معلومات"
     },
     "category_outro": {
-        "message": "الخاتمة/تترات النهاية"
+        "message": "شاشات النهاية/الشكر و التقدير"
     },
     "category_outro_description": {
-        "message": "لائحة المساهمون في العمل أو عند ظهور شاشات النهاية. ليس للاستنتاجات مع معلومات."
+        "message": "لائحة الشكر و التقدير أو عند ظهور شاشات النهاية. ليس للاستنتاجات مع معلومات."
+    },
+    "category_outro_guideline1": {
+        "message": "لا تضم محتوى، حتى إذا كانت شاشات النهاية على الشاشة"
     },
     "category_preview": {
         "message": "معاينة/خلاصة"
@@ -667,8 +685,14 @@
     "category_preview_description": {
         "message": "مجموعة من اللقطات تُظهر ما هو قادم في هذا الفيديو او في فيديوهات اخرى في سلسلة حيث كل المعلومة مكررة لاحقا في الفيديو."
     },
+    "category_preview_guideline1": {
+        "message": "لقطات تظهر لاحقا في الفيديو او في فيديوهات مستقبلية"
+    },
     "category_preview_guideline2": {
-        "message": "موجز الفيديو السابق"
+        "message": "تلخيص فيديو سابق"
+    },
+    "category_preview_guideline3": {
+        "message": "ليس للأقسام التي تضيف محتوى إضافي"
     },
     "category_filler": {
         "message": "حشو خارج عن الموضوع/نكات"
@@ -680,16 +704,16 @@
         "message": "حشو"
     },
     "category_filler_guideline1": {
-        "message": "مشاهد أُضيفت فقط للحشو أو الدعابة"
+        "message": "مشاهد خارجة عن الموضوع أُضيفت فقط للحشو أو الدعابة"
     },
     "category_filler_guideline2": {
-        "message": "تلهيات، مشاهد خلف الكواليس، إعادة عرض مشاهد سابقة"
+        "message": "تلهيات، خلف الكواليس، إعادة عرض مشاهد سابقة"
     },
     "category_filler_guideline3": {
         "message": "ليس للمشاهد الضرورية لفهم الموضوع"
     },
     "category_music_offtopic": {
-        "message": "الموسيقى: مقطع غير موسيقي"
+        "message": "الموسيقى: مقطع لا موسيقي"
     },
     "category_music_offtopic_description": {
         "message": "فقط للاستخدام في الفيديوات الموسيقية. يجب استعماله فقط لأجزاء من الفيديو الموسيقي التي ليست مغطات بفئة اخرى."
@@ -697,11 +721,23 @@
     "category_music_offtopic_short": {
         "message": "غير موسيقي"
     },
+    "category_music_offtopic_guideline1": {
+        "message": "الأجزاء الغير واردة في الاصدارات الرسمية"
+    },
+    "category_music_offtopic_guideline2": {
+        "message": "أجزاء غير موسيقية من العروض الحية"
+    },
     "category_poi_highlight": {
         "message": "ابراز"
     },
     "category_poi_highlight_description": {
         "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس. على غرار تعليقات \"الفيديو يبدأ عند x\"."
+    },
+    "category_poi_highlight_guideline1": {
+        "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس"
+    },
+    "category_poi_highlight_guideline2": {
+        "message": "يمكن تخطي السياق"
     },
     "category_poi_highlight_guideline3": {
         "message": "يمكن التخطي إلى عنوان المقطع أو الصورة المصغرة"
@@ -715,8 +751,17 @@
     "category_chapter_guideline1": {
         "message": "لا تذكر أسماء العلامة التجارية الراعية"
     },
+    "category_chapter_guideline2": {
+        "message": "استخدم فصول أكبر للأقسام العامة"
+    },
+    "category_chapter_guideline3": {
+        "message": "يمكن وضع فصول صغيرة داخل فصول أكبر"
+    },
+    "category_livestream_messages": {
+        "message": "بث مباشر: قراءة التبرعات/الرسائل"
+    },
     "category_livestream_messages_short": {
-        "message": "قراءة الرسالة"
+        "message": "قراءة الرسائل"
     },
     "autoSkip": {
         "message": "تخطي تلقائي"
