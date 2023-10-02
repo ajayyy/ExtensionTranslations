@@ -7,8 +7,208 @@
         "message": "Прескочите спонзорства, молбе за праћење и још много тога на YouTube видео снимцима. Пријавите спонзоре у видео снимцима које гледате да бисте уштедели време другима.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Сервер је одбио овај захтев"
+    },
+    "429": {
+        "message": "Превише пута сте послали спонзор сегмента за овај видео снимак, јесте ли сигурни да их има оволико?"
+    },
+    "409": {
+        "message": "Ово је већ послато раније"
+    },
+    "channelWhitelisted": {
+        "message": "Канал на белој листи!"
+    },
+    "Segment": {
+        "message": "сегмент"
+    },
+    "Segments": {
+        "message": "сегмента"
+    },
+    "SegmentsCap": {
+        "message": "Сегменти"
+    },
+    "Chapters": {
+        "message": "Поглавља"
+    },
+    "renderAsChapters": {
+        "message": "Приказ сегмената као поглавља",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "Прикажите тренутни сегмент поред времена видео снимка"
+    },
+    "upvoteButtonInfo": {
+        "message": "Гласај за ову објаву"
+    },
+    "reportButtonTitle": {
+        "message": "Пријави"
+    },
+    "reportButtonInfo": {
+        "message": "Пријавите ову објаву као нетачну."
+    },
+    "Dismiss": {
+        "message": "Одбаци"
+    },
+    "Loading": {
+        "message": "Учитавање..."
+    },
+    "Hide": {
+        "message": "Никад не приказуј"
+    },
+    "hitGoBack": {
+        "message": "Притисните „Назад“ да бисте дошли до места одакле сте дошли."
+    },
+    "unskip": {
+        "message": "Назад"
+    },
+    "reskip": {
+        "message": "Поново прескочи"
+    },
+    "unmute": {
+        "message": "Укључи звук"
+    },
+    "paused": {
+        "message": "Паузирано"
+    },
+    "manualPaused": {
+        "message": "Тајмер је стао"
+    },
+    "confirmMSG": {
+        "message": "Да бисте изменили или избрисали појединачне вредности, кликните на дугме са информацијама или отворите искачући прозор додатка кликом на иконицу додатка у горњем десном углу."
+    },
+    "clearThis": {
+        "message": "Желите ли заиста да очистите ово?\n\n"
+    },
+    "Unknown": {
+        "message": "Дошло је до грешке при слању времена сегмента „Спонзор“, покушајте поново касније."
+    },
+    "sponsorFound": {
+        "message": "Овај видео снимак има сегменте у бази података!"
+    },
+    "sponsor404": {
+        "message": "Нису пронађени сегменти"
+    },
+    "sponsorStart": {
+        "message": "Започни сегмент сада"
+    },
+    "sponsorEnd": {
+        "message": "Заврши сегмент сада"
+    },
+    "sponsorCancel": {
+        "message": "Откажи прављење сегмента"
+    },
+    "noVideoID": {
+        "message": "Није пронађен ниједан YouTube видео снимак. Ако ово није тачно, освежите картицу."
+    },
+    "refreshSegments": {
+        "message": "Освежи сегменте"
+    },
+    "success": {
+        "message": "Успех!"
+    },
+    "voted": {
+        "message": "Глас послат!"
+    },
+    "serverDown": {
+        "message": "Чини се да сервер није у функцији. Одмах контактирајте програмера."
+    },
+    "connectionError": {
+        "message": "Дошло је до грешке у вези. Кôд грешке: "
+    },
+    "segmentsStillLoading": {
+        "message": "Сегменти се и даље учитавају..."
+    },
+    "clearTimes": {
+        "message": "Очисти сегменте"
+    },
+    "openPopup": {
+        "message": "Отвори SponsorBlock искачући прозор"
+    },
+    "closePopup": {
+        "message": "Затвори искачући прозор"
+    },
+    "closeIcon": {
+        "message": "Затвори иконицу"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Отвори мени за објављивање"
+    },
+    "sortSegments": {
+        "message": "Сортирање сегмената"
+    },
+    "submitCheck": {
+        "message": "Желите ли заиста да објавите ово?"
+    },
+    "whitelistChannel": {
+        "message": "Канал на белој листи"
+    },
+    "removeFromWhitelist": {
+        "message": "Уклони канал са беле листе"
+    },
+    "voteOnTime": {
+        "message": "Гласање за сегмент"
+    },
+    "Submissions": {
+        "message": "Објаве"
+    },
+    "savedPeopleFrom": {
+        "message": "Спасили сте људе од "
+    },
+    "viewLeaderboard": {
+        "message": "Ранг листа"
+    },
+    "recordTimesDescription": {
+        "message": "Пошаљи"
+    },
+    "submissionEditHint": {
+        "message": "Измењивање одељка ће се појавити након што кликнете на „Пошаљи“",
+        "description": "Appears in the popup to inform them that editing has been moved to the video player."
+    },
+    "popupHint": {
+        "message": "Савет: Можете подесити тастерске пречице за слање у опцијама"
+    },
+    "clearTimesButton": {
+        "message": "Очисти времена"
+    },
+    "Username": {
+        "message": "Корисничко име"
+    },
+    "setUsername": {
+        "message": "Подеси корисничко име"
+    },
+    "copyPublicID": {
+        "message": "Копирај јавни UserID"
+    },
+    "copySegmentID": {
+        "message": "Копирај ID сегмента"
+    },
+    "hideThis": {
+        "message": "Сакриј ово"
+    },
     "Options": {
         "message": "Подешавања"
+    },
+    "showButtons": {
+        "message": "Прикажи дугмад на YouTube плејеру"
+    },
+    "hideButtons": {
+        "message": "Сакриј дугмад на YouTube плејеру"
+    },
+    "hideButtonsDescription": {
+        "message": "Ово сакрива дугмад која се појављују на YouTube плејеру за слање сегмената за прескакање."
+    },
+    "showSkipButton": {
+        "message": "Задржи дугме за прескакање на истакнути део видео снимка на плејеру"
+    },
+    "showInfoButton": {
+        "message": "Прикажи дугме за информације на YouTube плејеру"
+    },
+    "hideInfoButton": {
+        "message": "Сакриј дугме за информације на YouTube плејеру"
+    },
+    "autoHideInfoButton": {
+        "message": "Аутоматски сакриј дугме за информације"
     },
     "sourceCode": {
         "message": "Изворни код",
