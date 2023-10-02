@@ -470,7 +470,7 @@
         "message": "الاقسام الاصغر من القيمة المحددة لن يتم تخطيها ولا عرضها في المشغل."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "استخدام التخطي اليدوي عند وجود لصيقة للفيديو باكمله"
+        "message": "استخدام التخطي اليدوي عند وجود وسم للفيديو باكمله"
     },
     "whatManualSkipOnFullVideo": {
         "message": "للاشخاص الراغبين بمشاهدة الفيديو دون انقطاع اذا كان مُرعى بالكامل أو دعاية شخصية."
@@ -1123,7 +1123,7 @@
         "message": "فتح صفحة الخيارات"
     },
     "resetToDefault": {
-        "message": "إعادة تعيين الإعدادات الإفتراضية"
+        "message": "إعادة تعيين الإعدادات"
     },
     "confirmResetToDefault": {
         "message": "هل أنت متأكد من أنك تريد إعادة تعيين كافة الإعدادات إلى حالتها الافتراضية؟ لا يمكنك التراجع عن ذلك."
@@ -1131,9 +1131,15 @@
     "exportSegments": {
         "message": "تصدير الفقرات"
     },
+    "importSegments": {
+        "message": "استيراد الفقرات"
+    },
     "Import": {
-        "message": "استورد",
+        "message": "استيراد",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemFailed": {
+        "message": "مفتاح الترخيص غير صالح"
     },
     "hideUpsells": {
         "message": "إخفاء الخيارات غير المتاحة بدون دفع إضافي"
@@ -1153,27 +1159,68 @@
     "selectYourCountry": {
         "message": "اختر بلدك"
     },
+    "cantAfford": {
+        "message": "إذا كنت لا تستطيع شراء ترخيص، انقر {here} لمعرفة ما إذا كنت مؤهلاً للحصول على خصم",
+        "description": "Keep the curly braces. The word 'here' should be translated as well."
+    },
     "patreonSignIn": {
-        "message": "سجل مع بيتريون (Patreon)"
+        "message": "تسجيل الدخول مع باتريون (Patreon)"
+    },
+    "joinOnPatreon": {
+        "message": "الاشتراك على باتريون"
+    },
+    "oneTimePurchase": {
+        "message": "شراء لمرة واحدة"
+    },
+    "enterLicenseKey": {
+        "message": "أدخل مفتاح الرّخصة"
     },
     "unsubmittedSegmentCounts": {
         "message": "لديك حاليا {0} على {1}",
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
+    "unsubmittedSegmentCountsZero": {
+        "message": "ليس لديك حاليا أي فقرة غير مقدَّمة",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "فقرات غير مقدَّمة",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "فقرة غير مقدَّمة",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
     "videosSingular": {
-        "message": "مقطع",
+        "message": "فيديوهات",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
-        "message": "مقاطع",
+        "message": "فيديو",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "clearUnsubmittedSegments": {
+        "message": "مسح جميع الفقرات",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "هل أنت متأكد من أنك تريد مسح جميع الفقرات غير المقدَّمة؟",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
     "showUnsubmittedSegments": {
-        "message": "أظهر الأجزاء",
+        "message": "اظهار الفقرات",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "إخفاء الفقرات",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
-        "message": "معرف المقطع",
+        "message": "معرف الفيديو",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "عدد الفقرات",
         "description": "Header of the unsubmitted segments list"
     },
     "actions": {
@@ -1183,9 +1230,46 @@
     "exportSegmentsAsURL": {
         "message": "شارك كرابط"
     },
+    "segmentFetchFailureWarning": {
+        "message": "تحذير: الخادم لم يجيب مع الفقرات بعد. قد تكون هناك في الواقع فقرات على هذا الفيديو تم تقديمها مسبقاً لكنك لم تستلمها بسبب مشاكل مع الخادم."
+    },
+    "allowScrollingToEdit": {
+        "message": "السماح بالتمرير لتعديل الأوقات"
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} ثانية",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - عناوين وصور مصغرة أفضل على اليوتيوب",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "استخدام عناوين و صور مصغرة من تقديم مساهمين لتكون وصفية و غير عاطفية",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "إختر الاكثر وصفية"
+    },
+    "resetIcon": {
+        "message": "إعادة ضبط الأيقونة"
+    },
+    "Vote": {
+        "message": "تصويت"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "اكتب عنوانك هنا"
+    },
+    "FailedToRender": {
+        "message": "فشلت المعالجة",
+        "description": "Thumbnail preview failed to render"
+    },
+    "Disabled": {
+        "message": "معطَّل"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "عند تحديد وقت عشوائي، سوف تستخدم بيانات SponsorBlock لضمان عدم تحديد وقت اثناء فقرة اعلانية.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "Start": {
         "message": "البداية"
@@ -1193,11 +1277,41 @@
     "Middle": {
         "message": "الوسط"
     },
+    "onAllPages": {
+        "message": "على جميع الصفحات",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "على جميع الصفحات باستثناء صفحات الفيديو",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "ابداً"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "خدمة توليد الصور المصغرة تسرع بشكل كبير توليد الصور المصغرة بإرسال طلب مجهول مع معرف الفيديو إلى خادم عن بعد. ثم سيتم إنشاء الصورة المصغرة أو سحبها من ذاكرة التخزين المؤقت إذا كان قد تم إنشاؤها بالفعل."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "إذا تم استخدام هذا الخيار صفحات الفيديو، يمكن أن يؤدي ذلك إلى تسرب معرف الفيديوهات غير المُدرَجة إلى هذا الخادم. تعيين الخيار إلى \"على جميع الصفحات باستثناء صفحات الفيديو\" إلى تجنب هذه المشكلة. خيار آخر هو استضافة خدمة إنشاء الصور المصغرة الخاصة بك."
+    },
     "thumbnailGeneratorSourceCode": {
         "message": "الشفرة المصدرية لخدمة توليد الصور المصغرة"
     },
     "fetchTimeout": {
         "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
+    },
+    "Enable": {
+        "message": "تفعيل"
+    },
+    "Error": {
+        "message": "خطأ"
+    },
+    "FillerWarning": {
+        "message": "تحذير: هذه فئة شرسة للغاية. على الأرجح سترجع في تخطي بعض الفقرات، أو تعطّل هذا الخيار في بعض الأحيان. تحذّر من أن العديد من الفيديوهات قد تم تخطي 50% أو اكثر منها! ومع ذلك، تذكر أنه لا تزال هناك إرشادات محددة يتعين اتباعها عند التقديم.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "استخدام عناوين مصدَّرة جماعيا"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
@@ -1213,6 +1327,12 @@
     },
     "requiresUblock": {
         "message": "يتطلب uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "حدث خطأ ما في اكتشاف معرف الفيديو. الرجاء محاولة تحديث الصفحة قبل التقديم للتأكد من أنه يتم التقديم للفيديو الصحيح. إذا كانت هذه المشكلة تحدث كثيرا، يرجى إرسال تقرير عن المشكلة إلى جانب الإضافات الأخرى أو userscripts المثبتة من خلال GitHub، Discord أو Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "شعار مبني على Twemoji مرخص بموجب CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock غير متوافق مع الإضافة \"Zoom to Fill\". هناك العديد من البدائل التي يمكنك استخدامها بدلاً من ذلك والتي ستعمل بشكل صحيح."
