@@ -1,4 +1,12 @@
 {
+    "fullName": {
+        "message": "SponsorBlock за YouTube - Прескочите спонзорства",
+        "description": "Name of the extension."
+    },
+    "Description": {
+        "message": "Прескочите спонзорства, молбе за праћење и још много тога на YouTube видео снимцима. Пријавите спонзоре у видео снимцима које гледате да бисте уштедели време другима.",
+        "description": "Description of the extension."
+    },
     "Options": {
         "message": "Подешавања"
     },
