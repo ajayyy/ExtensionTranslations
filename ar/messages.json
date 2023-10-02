@@ -776,7 +776,7 @@
         "message": "تعطيل"
     },
     "autoSkip_POI": {
-        "message": "تخطي تلقائي حتى البدء"
+        "message": "تخطي تلقائي للبداية"
     },
     "manualSkip_POI": {
         "message": "اسأل عند تحميل الفيديو"
@@ -785,23 +785,27 @@
         "message": "إظهار في شريط التمرير"
     },
     "showOverlay_full": {
-        "message": "إظهار التسمية"
+        "message": "إظهار الوسم"
     },
     "showOverlay_chapter": {
         "message": "عرض الفصول"
     },
     "autoSkipOnMusicVideos": {
-        "message": "تخطي جميع الاقسام تلقائياً عندما يكون هناك قسم غير موسيقي"
+        "message": "تخطي جميع الفقرات تلقائياً عندما يكون هناك فقرة لا موسيقية"
     },
     "muteSegments": {
-        "message": "السماح بالاقسام التي تكتم الصوت بدلاً التخطي"
+        "message": "السماح بالفقرات التي تكتم الصوت بدلاً من التخطي"
     },
     "fullVideoSegments": {
         "message": "إظهار أيقونة عندما يكون الفيديو بالكامل اعلان",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "إظهار الوسوم على الصور المصغرة للفيديوهات أيضا",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
-        "message": "لون غير المرسل",
+        "message": "لون غير مقَدَّم",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
@@ -817,6 +821,12 @@
     "enableTestingServer": {
         "message": "تمكين الخادم التجريبي"
     },
+    "whatEnableTestingServer": {
+        "message": "مساهماتك و أصواتك لن تحسب في الخادم الرئيسي. استخدم هذا الخيار فقط للاختبار."
+    },
+    "testingServerWarning": {
+        "message": "كل مساهماتك و أصواتك لن تحسب في الخادم الرئيسي حين الاتصال بخادم الاختبار. تأكد من تعطيل هذا الخيار عندما ترغب في تقديم مساهمات حقيقية."
+    },
     "bracketNow": {
         "message": "(الآن)"
     },
@@ -829,6 +839,9 @@
     "enableThisCategoryFirst": {
         "message": "لتقديم فقرات مع الفئة \"{0}\"، يوجب تفعيلها في الخيارات. سيتم تحويلك الى الخيارات فورا.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
+    },
+    "poiOnlyOneSegment": {
+        "message": "تحذير: هذا النوع من الفقرة يمكن فقط ان يكون واحد منه فعال في آن واحد كحد اقصى. تقديم عدة سيؤدي الى عرض واحد عشوائي منهم."
     },
     "youMustSelectACategory": {
         "message": "يوجب تحديد فئة لكل الفقرات المنبغي تقديمها!"
@@ -852,6 +865,10 @@
     "manuallyHidden": {
         "message": "مخفي يدوياً"
     },
+    "channelDataNotFound": {
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "لم يتم تحميل معرف القناة بعد. إذا كنت تستخدم \"فيديو مضمن\"، حاول استخدام الصفحة الرئيسية على اليوتيوب بدلاً منه. قد يكون السبب في ذلك أيضًا تغييرات في واجهة اليوتيوب، إذا كنت تعتقد ذلك، قم بتقديم تعليق هنا:"
+    },
     "invidiousPermissionRefresh": {
         "message": "قام المتصفح بإلغاء التصاريح المطلوبة للعمل على Invidious وغيرها من مواقع الطرف الثالث. الرجاء النقر على الزر أدناه لإعادة تنشيط هذا التصريح."
     },
@@ -865,7 +882,7 @@
         "message": "فشل طلب الإذن ، هل نقرت على رفض؟"
     },
     "adblockerIssueWhitelist": {
-        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"فرض قناة التحقق قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا المقطع"
+        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"اجبار التحقق من القناة قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا الفيديو"
     },
     "forceChannelCheck": {
         "message": "اجبار التحقق من القناة قبل التخطي"
@@ -873,8 +890,11 @@
     "whatForceChannelCheck": {
         "message": "افتراضيا، سيتم تخطي الفقرات مباشرة حتى قبل التعرف على القناة. افتراضيا، قد يتم تخطي بعض الفقرات في بداية الفيديو على القنواة في اللائحة البيضاء. تفعيل هذا الخيار سيوقف ذلك لكن يجعل كل التخطيات لها تأخير طفيف حيث أن الحصول على معرف القناة قد يستغرق بعض الوقت. قد يكون هذا التأخير غير ملحوظ إذا كان لديك إنترنت سريع."
     },
+    "forceChannelCheckPopup": {
+        "message": "حاول تفعيل \"اجبار التحقق من القناة قبل التخطي\""
+    },
     "downvoteDescription": {
-        "message": "خاطئ/التوقيت غير صحيح"
+        "message": "توقيت خاطئ/غير صحيح"
     },
     "incorrectVote": {
         "message": "غير صحيح"
@@ -887,10 +907,10 @@
         "message": "تغيير الفئة"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "هذا الفيديو مصنف كموسيقى. هل أنت متأكد من وجود رعاية؟ إن كانت هذه بالفعل \"فقرة غير موسيقية\"، قم بفتح خيارات الإضافة و فعّل هذه الفئة. ثم يمكنك تقديم هذه الفقرة كـ \"غير موسيقي\" بدلاً من رعاية. يرجى قراءة المبادئ التوجيهية إن كنت محتار."
+        "message": "هذا الفيديو مصنف كموسيقى. هل أنت متأكد من وجود رعاية؟ إن كانت هذه بالفعل \"فقرة لا موسيقية\"، قم بفتح خيارات الإضافة و فعّل هذه الفئة. ثم يمكنك تقديم هذه الفقرة كـ \"لا موسيقي\" بدلاً من رعاية. يرجى قراءة المبادئ التوجيهية إن كنت محتار."
     },
     "multipleSegments": {
-        "message": "أجزاء متعددة"
+        "message": "فقرات متعددة"
     },
     "guidelines": {
         "message": "الإرشادات"
@@ -912,14 +932,30 @@
         "message": "فهمت",
         "description": "Used as the button to dismiss a tooltip"
     },
+    "fullVideoTooltipWarning": {
+        "message": "هذاه الفقرة كبيرة. إذا كان الفيديو كله حول موضوع واحد، فغيير من \"تخطي\" إلى \"الفيديو كامل\". راجع الإرشادات لمزيد من المعلومات."
+    },
+    "categoryPillTitleText": {
+        "message": "تم توسيم الفيديو برمّته بهذه الفئة و هو متكامل بشكل صارم بحيث لا يمكن فصله"
+    },
+    "chapterNameTooltipWarning": {
+        "message": "أحد أسماء الفصول مشابهة لفئة. يجب استخدام الفئات عند الإمكان بدلاً من الفصول."
+    },
+    "experiementOptOut": {
+        "message": "الانسحاب من جميع التجارب المستقبلية",
+        "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private."
+    },
     "hideForever": {
-        "message": "إخفاء دائم"
+        "message": "إخفاء للأبد"
     },
     "warningChatInfo": {
         "message": "لاحظنا أنك ترتكب بعض الأخطاء الشائعة. نحن نقدّر عملك حتى الآن، ولكننا نسعى جاهدين نحو الكمال، فحتى الأخطاء الصغيرة جدا مهمة :)"
     },
     "questionButton": {
         "message": "لدي سؤال"
+    },
+    "askAQuestion": {
+        "message": "اطرح سؤالًا"
     },
     "warningConfirmButton": {
         "message": "أنا أفهم السبب"
