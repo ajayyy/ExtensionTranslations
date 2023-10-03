@@ -915,6 +915,13 @@
     "guidelines": {
         "message": "Смернице"
     },
+    "readTheGuidelines": {
+        "message": "Прочитајте смернице!!",
+        "description": "Show the first time they submit or if they are \"high risk\""
+    },
+    "categoryUpdate1": {
+        "message": "Категорије су овде!"
+    },
     "categoryUpdate2": {
         "message": "Отварање опција за прескакање уводних анимација, завршних анимација, робе итд."
     },
@@ -982,5 +989,345 @@
     },
     "helpPageHowSkippingWorks": {
         "message": "Како функционише прескакање"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Сегменти видео снимка ће аутоматски бити прескочени, ако се нађу у бази података. Можете да отворите искачући прозор тако што ћете кликнути на иконицу додатка да бисте добили преглед онога што су."
+    },
+    "helpPageHowSkippingWorks2": {
+        "message": "Кад год прескочите сегмент, добићете обавештење. Ако вам се чини да је време погрешно, гласајте против тако што ћете кликнути на „Гласај против”! Такође, можете гласати у искачућем прозору."
+    },
+    "Submitting": {
+        "message": "Слање"
+    },
+    "helpPageSubmitting1": {
+        "message": "Слање се може извршити у искачућем прозору притиском на дугме „Сегмент почиње сада” или у плејеру видео снимка помоћу дугмади на плејеру."
+    },
+    "helpPageSubmitting2": {
+        "message": "Кликом на дугме за пуштање означава се почетак сегмента, а кликом на икону за заустављање означава се крај. Можете припремити више спонзора пре него што притиснете да пошаљете. Кликом на дугме за отпремање ће се послати. Кликом на канту за смеће ће избрисати."
+    },
+    "Editing": {
+        "message": "Измењивање"
+    },
+    "helpPageEditing1": {
+        "message": "Ако сте забрљали, можете да измените или избришете своје сегменте након што кликнете на дугме са стрелицом нагоре."
+    },
+    "helpPageTooSlow": {
+        "message": "Ово је превише споро"
+    },
+    "helpPageTooSlow1": {
+        "message": "Постоје пречице, ако желите да их користите. Притисните тастер „тачка и зарез” да бисте означили почетак/крај сегмента спонзора и кликните на тастер „апостроф” да бисте послали. Ово се може променити у опцијама. Ако не користите QWERTY, вероватно би требало да промените тастерске пречице."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Могу ли добити копију базе података? Шта се дешава ако нестанеш?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "База података је јавна и доступна на"
+    },
+    "helpPageCopyOfDatabase2": {
+        "message": "Изворни кôд је слободно доступан. Дакле, чак и ако ми се нешто деси, ваши поднесци нису изгубљени."
+    },
+    "helpPageNews": {
+        "message": "Вести и како је направљено"
+    },
+    "helpPageSourceCode": {
+        "message": "Где могу набавити изворни кôд?"
+    },
+    "Credits": {
+        "message": "Заслуге"
+    },
+    "LearnMore": {
+        "message": "Сазнај више"
+    },
+    "FullDetails": {
+        "message": "Потпуни детаљи"
+    },
+    "CopyDownvoteButtonInfo": {
+        "message": "Гласови против и прави локалну копију коју можете поново да пошаљете"
+    },
+    "OpenCategoryWikiPage": {
+        "message": "Отворите вики страницу ове категорије."
+    },
+    "CopyAndDownvote": {
+        "message": "Копирај и гласај против"
+    },
+    "ContinueVoting": {
+        "message": "Наставак гласања"
+    },
+    "ChangeCategoryTooltip": {
+        "message": "Ово ће се одмах применити на ваше сегменте"
+    },
+    "downvote": {
+        "message": "Гласај против"
+    },
+    "upvote": {
+        "message": "Гласај за"
+    },
+    "hideSegment": {
+        "message": "Сакриј сегмент"
+    },
+    "skipSegment": {
+        "message": "Прескочи сегмент"
+    },
+    "playChapter": {
+        "message": "Пусти поглавље"
+    },
+    "SponsorTimeEditScrollNewFeature": {
+        "message": "Користите точкић миша док вам је курсор изнад оквира за измењивање да бисте брзо прилагодили време. Комбинације тастера „Ctrl” или „Shift” могу се користити за фино подешавање промена."
+    },
+    "categoryPillNewFeature": {
+        "message": "Ново! Погледајте када је видео снимак у потпуности спонзорисан или самопромотивни"
+    },
+    "dayAbbreviation": {
+        "message": "д",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "ч",
+        "description": "100h"
+    },
+    "optionsTabBehavior": {
+        "message": "Понашање",
+        "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabInterface": {
+        "message": "Интерфејс",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabKeyBinds": {
+        "message": "Тастерске пречице",
+        "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabBackup": {
+        "message": "Резервна копија/Враћање",
+        "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabAdvanced": {
+        "message": "Остало",
+        "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "noticeVisibilityLabel": {
+        "message": "Прескочи појављивање обавештења",
+        "description": "Option label"
+    },
+    "unbind": {
+        "message": "Одвежи",
+        "description": "Unbind keyboard shortcut"
+    },
+    "notSet": {
+        "message": "Није подешено"
+    },
+    "change": {
+        "message": "Промени"
+    },
+    "youtubeKeybindWarning": {
+        "message": "Ово је уграђена YouTube пречица. Желите ли заиста да је користите?"
+    },
+    "betaServerWarning": {
+        "message": "БЕТА сервер је омогућен!"
+    },
+    "openOptionsPage": {
+        "message": "Отвори страницу са опцијама"
+    },
+    "resetToDefault": {
+        "message": "Ресетуј подешавања на подразумевано"
+    },
+    "confirmResetToDefault": {
+        "message": "Желите ли заиста да ресетујете сва подешавања на подразумеване вредности? Ово се не може поништити."
+    },
+    "exportSegments": {
+        "message": "Извоз сегмената"
+    },
+    "importSegments": {
+        "message": "Увоз сегмената"
+    },
+    "Import": {
+        "message": "Увези",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "Успешно искоришћено!"
+    },
+    "redeemFailed": {
+        "message": "Кључ лиценце је неважећи"
+    },
+    "hideUpsells": {
+        "message": "Сакриј опције које нису доступне без додатног плаћања"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Сакриј савете о новим функцијама"
+    },
+    "chooseACountry": {
+        "message": "Избор државе"
+    },
+    "noDiscount": {
+        "message": "Не испуњавате услове за попуст"
+    },
+    "discountLink": {
+        "message": "Линк за попуст (погледајте розе цену)"
+    },
+    "selectYourCountry": {
+        "message": "Изабери своју државу"
+    },
+    "cantAfford": {
+        "message": "Ако не можете да приуштите куповину лиценце, кликните {овде} да бисте видели да ли испуњавате услове за попуст",
+        "description": "Keep the curly braces. The word 'here' should be translated as well."
+    },
+    "patreonSignIn": {
+        "message": "Пријава помоћу Patreon-а"
+    },
+    "redeem": {
+        "message": "Искористи"
+    },
+    "joinOnPatreon": {
+        "message": "Претплата на Patreon"
+    },
+    "oneTimePurchase": {
+        "message": "Једнократна куповина"
+    },
+    "enterLicenseKey": {
+        "message": "Унесите кључ лиценце"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Тренутно имате {0} на {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Тренутно немате непосланих сегмената",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "непослани сегмент",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "непосланих сегмената",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "видео снимку",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "видео снимака",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Очисти све сегменте",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Желите ли заиста да очистите све непослате сегменте?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Прикажи сегменте",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Сакриј сегменте",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "ID видео снимка",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Број сегмената",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Радње",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Дели као URL адресу"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "Упозорење: Сервер још увек није одговорио сегментима. Можда постоје сегменти на овом видео снимку који су већ послати, али их једноставно нисте добили због проблема са сервером."
+    },
+    "allowScrollingToEdit": {
+        "message": "Дозволи превлачење за измењивање времена"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}с.",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Бољи наслови и сличице на YouTube-у",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Прибављени наслови и сличице да буду описни, а не сензационални",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Изаберите најописнији"
+    },
+    "Original": {
+        "message": "Оригинално"
+    },
+    "OriginalTitle": {
+        "message": "Оригинални наслов"
+    },
+    "CurrentTime": {
+        "message": "Тренутно време"
+    },
+    "resetCustomTitle": {
+        "message": "Ресетовање наслова назад на оригинални текст"
+    },
+    "resetIcon": {
+        "message": "Ресетовање иконице"
+    },
+    "Vote": {
+        "message": "Гласај"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Овде унесите сопствени наслов"
+    },
+    "VideoNotReady": {
+        "message": "Видео снимак није спреман"
+    },
+    "FailedToRender": {
+        "message": "Рендеровање није успело",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Недостаје Canvas",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Изузетак током рендеровања",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Учитавање није успело",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Формат наслова"
+    },
+    "Disabled": {
+        "message": "Онемогућено"
+    },
+    "CapitalizeWords": {
+        "message": "Речи с великим словима"
+    },
+    "TitleCase": {
+        "message": "Велика почетна слова наслова"
+    },
+    "SentenceCase": {
+        "message": "Велика почетна слова реченице"
+    },
+    "LowerCase": {
+        "message": "Мала слова"
+    },
+    "FirstLetterUppercase": {
+        "message": "Прво слово велико"
+    },
+    "shouldCleanEmojis": {
+        "message": "Уклони емоџије"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Када не постоји послата сличица"
     }
 }
