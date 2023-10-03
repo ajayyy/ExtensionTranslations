@@ -147,7 +147,7 @@
         "message": "إزالة القناة من القائمة البيضاء"
     },
     "voteOnTime": {
-        "message": "صوّت لجزء"
+        "message": "صوّت لفقرة"
     },
     "Submissions": {
         "message": "المشاركات"
@@ -963,6 +963,9 @@
     "warningError": {
         "message": "خطأ عند محاولة الإقرار بالتحذير:"
     },
+    "deArrowMessageRecieved": {
+        "message": "لقد تلقيت نصيحة من المشرف"
+    },
     "Donate": {
         "message": "تبرع"
     },
@@ -1306,6 +1309,12 @@
     "Disabled": {
         "message": "معطَّل"
     },
+    "CapitalizeWords": {
+        "message": "تكبير الحرف الأول لكل كلمة"
+    },
+    "TitleCase": {
+        "message": "نسق العنوان"
+    },
     "SentenceCase": {
         "message": "تكبير الحرف الأول في الجملة"
     },
@@ -1313,7 +1322,7 @@
         "message": "أحرف صغيرة"
     },
     "FirstLetterUppercase": {
-        "message": "تكبير الحرف الأول لكل كلمة"
+        "message": "تكبير الحرف الأول"
     },
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
@@ -1414,8 +1423,12 @@
     "renderTimeoutDescription": {
         "message": "إظهار الصور المصغرة الأصلية إذا لم يستطاع توليد صورة مصغرة في هكذا الوقت."
     },
+    "startLocalRenderTimeout": {
+        "message": "مهلة بدء توليد الصور المصغرة محليا (مللي ثانية)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
     "startLocalRenderTimeoutDescription": {
-        "message": "إذا استغرق الخادم هذا كهذه المدة لتوليد صورة مصغرة، ابدأ محاولة توليد صورة مصغرة محليا."
+        "message": "إذا استغرق الخادم مدة كهذه لتوليد صورة مصغرة، ابدأ محاولة توليد صورة مصغرة محليا."
     },
     "Enable": {
         "message": "تفعيل"
@@ -1464,6 +1477,10 @@
     "tip4": {
         "message": "قم بتوفير معلومات كافية لتمكين القيام بخيار واعٍ قبل النقر"
     },
+    "tip5": {
+        "message": "كبّر الاحرف كالجملة (للغات التي تحتوي على تكبير احرف)",
+        "description": "Tip about submitting titles to DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "ملاحظة: تم استيراد إعدادات SponsorBlock الخاصة بك تلقائيا!"
     },
@@ -1487,6 +1504,9 @@
     },
     "openSourceLicenses": {
         "message": "رخص مفتوحة المصدر"
+    },
+    "defaultToOriginals": {
+        "message": "معلومات الفيديو افراضية الى اصلية"
     },
     "whatDefaultToOriginals": {
         "message": "إظهار العنوان و الصورة المصغرة الأصليين بشكل افتراضي، ولكن يكون هناك زر يظهر حين التمرير لرؤية العناوين و الصور المصغرة الخاصين."
@@ -1534,6 +1554,14 @@
     "DeArrowPromotionMessage2": {
         "message": "هل تعبت من طعم النقر؟ تفقد إضافتي الجديدة لتحسين العناوين والصور المصغرة"
     },
+    "RandomThumbnailExplanation": {
+        "message": "تم اختيار هذه الصورة المصغرة من وقت عشوائي من الفيديو بسبب عدم وجود مساهمة على هذا الفيديو حتى الآن",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "تم اختيار هذه الصورة المصغرة من وقت عشوائي من الفيديو و العنوان منسق تلقائيا بسبب عدم وجود مساهمة على هذا الفيديو حتى الآن",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
     "YouCanChangeThisDefaultBelow": {
         "message": "يمكنك تغيير هذه القيمة الافتراضية أدناه",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
@@ -1576,7 +1604,7 @@
         "message": "يتطلب uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "حدث خطأ ما في اكتشاف معرف الفيديو. الرجاء محاولة تحديث الصفحة قبل التقديم للتأكد من أنه يتم التقديم للفيديو الصحيح. إذا كانت هذه المشكلة تحدث كثيرا، يرجى إرسال تقرير عن المشكلة إلى جانب الإضافات الأخرى أو userscripts المثبتة من خلال GitHub، Discord أو Matrix."
+        "message": "حدث خطأ ما في اكتشاف معرف الفيديو. الرجاء محاولة تحديث الصفحة قبل التقديم للتأكد من أنه يتم التقديم للفيديو الصحيح. إذا كانت هذه المشكلة تحدث كثيرا، يرجى إرسال تقرير عن المشكلة إلى جانب الإضافات الأخرى أو userscripts المثبتة من خلالGitHub، Discord أو Matrix."
     },
     "dearrowLogoCredit": {
         "message": "شعار مبني على Twemoji مرخص بموجب CC-BY 4.0"
