@@ -1302,6 +1302,15 @@
     "Disabled": {
         "message": "معطَّل"
     },
+    "SentenceCase": {
+        "message": "تكبير الحرف الأول في الجملة"
+    },
+    "LowerCase": {
+        "message": "أحرف صغيرة"
+    },
+    "FirstLetterUppercase": {
+        "message": "تكبير الحرف الأول لكل كلمة"
+    },
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
@@ -1366,8 +1375,16 @@
     "thumbnailGeneratorDescription2": {
         "message": "إذا تم استخدام هذا الخيار صفحات الفيديو، يمكن أن يؤدي ذلك إلى تسرب معرف الفيديوهات غير المُدرَجة إلى هذا الخادم. تعيين الخيار إلى \"على جميع الصفحات باستثناء صفحات الفيديو\" إلى تجنب هذه المشكلة. خيار آخر هو استضافة خدمة إنشاء الصور المصغرة الخاصة بك."
     },
+    "thumbnailGeneratorDescription3": {
+        "message": "إذا تم تعطيل استخدام خدمة توليد الصور المصغرة، جميع الطلبات سوف تستخدم نظام اسعلام بطريقة k-anonymity، مما يجعل من الصعب على الخادم التنبؤ بأي مقاطع فيديو تم جلبها، وسيتم استخدام خدمة توليد صور مصغرة محلية أبطأ.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "thumbnailGeneratorSourceCode": {
         "message": "الشفرة المصدرية لخدمة توليد الصور المصغرة"
+    },
+    "moreAboutKAnonymity": {
+        "message": "المزيد عن k-anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
         "message": "اظهار دائماً زر \"إظهار الأصلي\""
