@@ -1288,12 +1288,16 @@
         "message": "فشلت المعالجة",
         "description": "Thumbnail preview failed to render"
     },
+    "ExceptionWhileRendering": {
+        "message": "خطأ حين التحميل",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
     "FailedToLoad": {
         "message": "فشل التحميل",
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "صيغة العنوان"
+        "message": "تنسيق العنوان"
     },
     "Disabled": {
         "message": "معطَّل"
@@ -1301,9 +1305,18 @@
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
+    "thumbnailFallbackOption": {
+        "message": "عند عدم وجود صورة مصغرة مقدَّمة"
+    },
     "whatThumbnailFallbackOption": {
         "message": "عند تحديد وقت عشوائي، سوف تستخدم بيانات SponsorBlock لضمان عدم تحديد وقت اثناء فقرة اعلانية.",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "إظهار لقطة شاشة من وقت عشوائي"
+    },
+    "TheOriginalThumbnail": {
+        "message": "إظهار الصورة المصغرة الأصلية"
     },
     "showABlankBox": {
         "message": "إظهار مربع فارغ"
@@ -1321,8 +1334,20 @@
     "keepUnsubmitted": {
         "message": "تخزين الأصوات المقدمة"
     },
+    "whatKeepUnsubmitted": {
+        "message": "حافظ على الأصوات المقدمة بعد التصويت لإظهار العناوين والصور المصغرة التي اخترتها بدلا من الأكثر تصويتا على الخادم."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "تخزين الأصوات المُقدَمة من علامات التبويب الخاصة"
+    },
+    "useThumbnailGenerationService": {
+        "message": "استخدام خدمة توليد الصور المصغرة"
+    },
     "titleMaxLines": {
         "message": "الحد الأقصى للأسطر للعنوان"
+    },
+    "titleMaxLinesDescription": {
+        "message": "سوف توزع عناوين الفيديوهات هكذا سطور في صفحة الاقتراحات."
     },
     "onAllPages": {
         "message": "على جميع الصفحات",
@@ -1344,8 +1369,29 @@
     "thumbnailGeneratorSourceCode": {
         "message": "الشفرة المصدرية لخدمة توليد الصور المصغرة"
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "اظهار دائماً زر \"إظهار الأصلي\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "إذا كنت ترغب دائما في معرفة ما إذا تغير عنوان/صورة مصغرة، قم بتفعيل هذ الخيار."
+    },
+    "showOriginalOnHover": {
+        "message": "إظهار التفاصيل الأصلية حين التمرير"
+    },
+    "showIconForFormattedTitles": {
+        "message": "عرض زر \"إظهار الأصلي\" للعناوين المنسقة تلقائياً"
+    },
     "fetchTimeout": {
         "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "إظهار العناوين و الصور المصغرة الأصلية إذا لم يستجب الخادم في هكذا الوقت."
+    },
+    "renderTimeout": {
+        "message": "مهلة انتهاء محاولة تحميل الصورة المصغرة (مللي ثاني)"
+    },
+    "renderTimeoutDescription": {
+        "message": "إظهار الصور المصغرة الأصلية إذا لم يستطاع توليد صورة مصغرة في هكذا الوقت."
     },
     "startLocalRenderTimeoutDescription": {
         "message": "إذا استغرق الخادم هذا كهذه المدة لتوليد صورة مصغرة، ابدأ محاولة توليد صورة مصغرة محليا."
@@ -1386,11 +1432,80 @@
         "message": "تجنب عبارات الوجه المبالغ فيها",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "فكر بنطاق واسع، لا فقط تجيب على سؤال العنوان الأصلي",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "تجنب وصف ردود الفعل للفيديو (\"صادم\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "قم بتوفير معلومات كافية لتمكين القيام بخيار واعٍ قبل النقر"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "ملاحظة: تم استيراد إعدادات SponsorBlock الخاصة بك تلقائيا!"
+    },
+    "howItWorks": {
+        "message": "آلية العمل"
+    },
+    "discordPromotion": {
+        "message": "تعال ساهم و قدم بعض الاقتراحات و فدم المساعدة على {discord} أو على {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "إذا كنت تحب ما فعلتُه حتى الآن، وترغب في مساعدتي بالمال، إليك رابط"
+    },
+    "termsAgreement": {
+        "message": "باستخدام هذه الإضافة، فإنك توافق على {privacy-policy} و {terms}"
+    },
+    "privacyPolicy": {
+        "message": "سياسة الخصوصية"
+    },
+    "termsOfUse": {
+        "message": "شروط الإستخدام"
+    },
     "openSourceLicenses": {
         "message": "رخص مفتوحة المصدر"
     },
+    "whatDefaultToOriginals": {
+        "message": "إظهار العنوان و الصورة المصغرة الأصليين بشكل افتراضي، ولكن يكون هناك زر يظهر حين التمرير لرؤية العناوين و الصور المصغرة الخاصين."
+    },
+    "replaceTitles": {
+        "message": "استبدال العناوين"
+    },
+    "replaceThumbnails": {
+        "message": "استبدال الصور المصغرة"
+    },
     "useCrowdsourcedTitles": {
         "message": "استخدام عناوين مصدَّرة جماعيا"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "في حالة التعطيل، ستنسيق العناوين ولكن لن يتم استخدم العناوين المقدمة من مساهمين",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "هل أنت متأكد مِن أنك تريد حذف هذا التكوين؟",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "تكوين جديد"
+    },
+    "DeleteConfiguration": {
+        "message": "حذف التكوين"
+    },
+    "ChannelAllowlist": {
+        "message": "قائمة القنوات المسموح بها"
+    },
+    "ConfigurationName": {
+        "message": "اسم التكوين"
+    },
+    "ChannelListInstructions": {
+        "message": "أدخل القنوات التي تريد تطبيق هذا التكوين عليها في المربع أدناه، مفصولة بسطر جديد. كل من معرف القناة وأسماء العرض مدعومة. اسم المستخدم @ غير مدعوم. يمكنك الحصول على معرف القناة من خلال النقر على زر مشاركة في صفحة \"حول\" الخاصة بالقناة.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "لم يتم ضبط تكوين بعد. انقر الزر في الأعلى لإضافة تكوين جديد.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
@@ -1398,8 +1513,36 @@
     "DeArrowPromotionMessage2": {
         "message": "هل تعبت من طعم النقر؟ تفقد إضافتي الجديدة لتحسين العناوين والصور المصغرة"
     },
+    "dearrowStatsMessage": {
+        "message": "تم استبدال {titles} عنوان و {thumbnails} صورة مصغرة منذ تحميلك هذه الإضافة",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} عناوين ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} عنوان ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "و {thumbnails} صور مصغرة",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "و {thumbnails} صورة مصغرة",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "تم استبدال {titleAndThumbnailMessage} منذ تحميلك هذه الإضافة",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "countReplacements": {
-        "message": "قم بحساب تبديل العناوين و الصور المصغرة"
+        "message": "قم بحساب عدد مرات تبديل العناوين و الصور المصغرة"
+    },
+    "countReplacementsDescription": {
+        "message": "تستخدم لإعطائك إحصائيات في المنبثق.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
         "message": "إضافة قائمة تصفية لمنع الاستطلاعات و المنتجات و العناصر الترويجية الأخرى باستخدام yt-neuter"
