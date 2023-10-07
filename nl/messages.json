@@ -1237,12 +1237,37 @@
     "Disabled": {
         "message": "Uitgeschakeld"
     },
+    "onAllPages": {
+        "message": "Op alle pagina's",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Op alle pagina's behalve videopagina's",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
     "Enable": {
         "message": "Inschakelen"
     },
     "Titles": {
         "message": "Titels",
         "description": "Referring to titles of YouTube videos"
+    },
+    "ShowOriginal": {
+        "message": "Originele details weergeven"
+    },
+    "ShowModified": {
+        "message": "Gewijzigde details weergeven"
+    },
+    "showGuidelineHelp": {
+        "message": "Richtlijn hulp weergeven",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vermijd overdreven gezichtsuitdrukkingen",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "howItWorks": {
+        "message": "Hoe het werkt"
     },
     "privacyPolicy": {
         "message": "Privacybeleid"
@@ -1262,6 +1287,14 @@
     },
     "ConfigurationName": {
         "message": "Configuratienaam"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titel ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titels ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "requiresUblock": {
         "message": "uBlock Origin vereist"
