@@ -944,6 +944,9 @@
     "warningError": {
         "message": "Fout bij het bevestigen van de waarschuwing:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Je hebt een tip van een moderator ontvangen"
+    },
     "Donate": {
         "message": "Doneren"
     },
@@ -1219,5 +1222,48 @@
     },
     "allowScrollingToEdit": {
         "message": "Scrollen toestaan om tijdstippen te bewerken"
+    },
+    "CanvasMissing": {
+        "message": "Canvas ontbreekt",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "FailedToLoad": {
+        "message": "Laden mislukt",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Titel formaat"
+    },
+    "Disabled": {
+        "message": "Uitgeschakeld"
+    },
+    "Enable": {
+        "message": "Inschakelen"
+    },
+    "Titles": {
+        "message": "Titels",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "privacyPolicy": {
+        "message": "Privacybeleid"
+    },
+    "termsOfUse": {
+        "message": "Gebruiksvoorwaarden"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Weet u zeker dat u deze configuratie wilt verwijderen?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nieuwe configuratie"
+    },
+    "DeleteConfiguration": {
+        "message": "Configuratie verwijderen"
+    },
+    "ConfigurationName": {
+        "message": "Configuratienaam"
+    },
+    "requiresUblock": {
+        "message": "uBlock Origin vereist"
     }
 }
