@@ -1567,7 +1567,7 @@
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "{titles} Titel und {thumbnails} Thumbnail(s) wurden ersetzt, seit du diese Erweiterung installiert hast",
+        "message": "{titles} Titel und {thumbnails} Thumbnails wurden ersetzt, seit du diese Erweiterung installiert hast",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {

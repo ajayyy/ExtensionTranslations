@@ -944,6 +944,9 @@
     "warningError": {
         "message": "Fout bij het bevestigen van de waarschuwing:"
     },
+    "deArrowMessageRecieved": {
+        "message": "Je hebt een tip van een moderator ontvangen"
+    },
     "Donate": {
         "message": "Doneren"
     },
@@ -1219,5 +1222,121 @@
     },
     "allowScrollingToEdit": {
         "message": "Scrollen toestaan om tijdstippen te bewerken"
+    },
+    "CanvasMissing": {
+        "message": "Canvas ontbreekt",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "FailedToLoad": {
+        "message": "Laden mislukt",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Titel formaat"
+    },
+    "Disabled": {
+        "message": "Uitgeschakeld"
+    },
+    "onAllPages": {
+        "message": "Op alle pagina's",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Op alle pagina's behalve videopagina's",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Enable": {
+        "message": "Inschakelen"
+    },
+    "Titles": {
+        "message": "Titels",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "ShowOriginal": {
+        "message": "Originele details weergeven"
+    },
+    "ShowModified": {
+        "message": "Gewijzigde details weergeven"
+    },
+    "showGuidelineHelp": {
+        "message": "Richtlijn hulp weergeven",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Vermijd overdreven gezichtsuitdrukkingen",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "howItWorks": {
+        "message": "Hoe het werkt"
+    },
+    "privacyPolicy": {
+        "message": "Privacybeleid"
+    },
+    "termsOfUse": {
+        "message": "Gebruiksvoorwaarden"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Weet u zeker dat u deze configuratie wilt verwijderen?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nieuwe configuratie"
+    },
+    "DeleteConfiguration": {
+        "message": "Configuratie verwijderen"
+    },
+    "ConfigurationName": {
+        "message": "Configuratienaam"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titel ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titels ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "uBlock Origin vereist"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock is niet compatibel met de extensie \"Zoom to Fill\". Er zijn veel alternatieven die u in plaats daarvan kunt gebruiken die naar behoren zullen werken."
+    },
+    "freeTrialStarted": {
+        "message": "Uw gratis proefperiode is met succes gestart. Bezoek YouTube om het te testen"
+    },
+    "freeTrialEnded": {
+        "message": "Uw gratis proefperiode is voorbij"
+    },
+    "freeTrialPrompt": {
+        "message": "Als u het een uurtje wilt uitproberen, dan kunt u via de onderstaande knop een gratis proefperiode starten."
+    },
+    "startFreeTrial": {
+        "message": "Start gratis proefperiode"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "U kunt niet stemmen tijdens de gratis proefperiode",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "freeAccessRequested": {
+        "message": "U bent met succes geregistreerd voor gratis toegang. U krijgt een melding wanneer gratis toegang is verleend."
+    },
+    "freeAccessComplete": {
+        "message": "Gefeliciteerd! U heeft nu gratis toegang tot DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow is niet geactiveerd"
+    },
+    "ActivateDeArrow": {
+        "message": "Activeer DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow is met succes geactiveerd"
+    },
+    "Close": {
+        "message": "Sluiten"
+    },
+    "ViewLicenseKey": {
+        "message": "Licentiesleutel weergeven"
     }
 }

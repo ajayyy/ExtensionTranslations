@@ -1,10 +1,339 @@
 {
+    "fullName": {
+        "message": "SponsorBlock за YouTube - Прескочите спонзорства",
+        "description": "Name of the extension."
+    },
+    "Description": {
+        "message": "Прескочите спонзорства, молбе за праћење и још много тога на YouTube видео снимцима. Пријавите спонзоре у видео снимцима које гледате да бисте уштедели време другима.",
+        "description": "Description of the extension."
+    },
+    "400": {
+        "message": "Сервер је одбио овај захтев"
+    },
+    "429": {
+        "message": "Превише пута сте послали спонзор сегмент за овај видео снимак, јесте ли сигурни да их има оволико?"
+    },
+    "409": {
+        "message": "Ово је већ послато раније"
+    },
+    "channelWhitelisted": {
+        "message": "Канал на белој листи!"
+    },
+    "Segment": {
+        "message": "сегмент"
+    },
+    "Segments": {
+        "message": "сегмената"
+    },
+    "SegmentsCap": {
+        "message": "Сегменти"
+    },
+    "Chapters": {
+        "message": "Поглавља"
+    },
+    "renderAsChapters": {
+        "message": "Рендеруј сегменте као поглавља",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "Прикажите тренутни сегмент поред времена видео снимка"
+    },
+    "upvoteButtonInfo": {
+        "message": "Гласај за ову објаву"
+    },
+    "reportButtonTitle": {
+        "message": "Пријави"
+    },
+    "reportButtonInfo": {
+        "message": "Пријавите ову објаву као нетачну."
+    },
+    "Dismiss": {
+        "message": "Одбаци"
+    },
+    "Loading": {
+        "message": "Учитавање..."
+    },
+    "Hide": {
+        "message": "Никад не приказуј"
+    },
+    "hitGoBack": {
+        "message": "Притисните „Назад” да бисте дошли до места одакле сте дошли."
+    },
+    "unskip": {
+        "message": "Назад"
+    },
+    "reskip": {
+        "message": "Поново прескочи"
+    },
+    "unmute": {
+        "message": "Укључи звук"
+    },
+    "paused": {
+        "message": "Паузирано"
+    },
+    "manualPaused": {
+        "message": "Тајмер је стао"
+    },
+    "confirmMSG": {
+        "message": "Да бисте изменили или избрисали појединачне вредности, кликните на дугме са информацијама или отворите искачући прозор додатка кликом на иконицу додатка у горњем десном углу."
+    },
+    "clearThis": {
+        "message": "Желите ли заиста да очистите ово?\n\n"
+    },
+    "Unknown": {
+        "message": "Дошло је до грешке при слању времена спонзор сегмента, покушајте поново касније."
+    },
+    "sponsorFound": {
+        "message": "Овај видео снимак има сегменте у бази података!"
+    },
+    "sponsor404": {
+        "message": "Нису пронађени сегменти"
+    },
+    "sponsorStart": {
+        "message": "Започни сегмент сада"
+    },
+    "sponsorEnd": {
+        "message": "Заврши сегмент сада"
+    },
+    "sponsorCancel": {
+        "message": "Откажи прављење сегмента"
+    },
+    "noVideoID": {
+        "message": "Није пронађен ниједан YouTube видео снимак. Ако ово није тачно, освежите картицу."
+    },
+    "refreshSegments": {
+        "message": "Освежи сегменте"
+    },
+    "success": {
+        "message": "Успех!"
+    },
+    "voted": {
+        "message": "Глас послат!"
+    },
+    "serverDown": {
+        "message": "Чини се да сервер није у функцији. Одмах контактирајте програмера."
+    },
+    "connectionError": {
+        "message": "Дошло је до грешке у вези. Кôд грешке: "
+    },
+    "segmentsStillLoading": {
+        "message": "Сегменти се још увек учитавају..."
+    },
+    "clearTimes": {
+        "message": "Очисти сегменте"
+    },
+    "openPopup": {
+        "message": "Отвори SponsorBlock искачући прозор"
+    },
+    "closePopup": {
+        "message": "Затвори искачући прозор"
+    },
+    "closeIcon": {
+        "message": "Затвори иконицу"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Отвори мени за поднеске"
+    },
+    "sortSegments": {
+        "message": "Сортирање сегмената"
+    },
+    "submitCheck": {
+        "message": "Желите ли заиста да пошаљете ово?"
+    },
+    "whitelistChannel": {
+        "message": "Канал на белој листи"
+    },
+    "removeFromWhitelist": {
+        "message": "Уклони канал са беле листе"
+    },
+    "voteOnTime": {
+        "message": "Гласање за сегмент"
+    },
+    "Submissions": {
+        "message": "Поднесци"
+    },
+    "savedPeopleFrom": {
+        "message": "Сачували сте људе од "
+    },
+    "viewLeaderboard": {
+        "message": "Ранг-листа"
+    },
+    "recordTimesDescription": {
+        "message": "Пошаљи"
+    },
+    "submissionEditHint": {
+        "message": "Измењивање сегмента ће се појавити након што кликнете на „Пошаљи”",
+        "description": "Appears in the popup to inform them that editing has been moved to the video player."
+    },
+    "popupHint": {
+        "message": "Савет: Можете подесити тастерске пречице за слање у опцијама"
+    },
+    "clearTimesButton": {
+        "message": "Очисти времена"
+    },
+    "Username": {
+        "message": "Корисничко име"
+    },
+    "setUsername": {
+        "message": "Подеси корисничко име"
+    },
+    "copyPublicID": {
+        "message": "Копирај јавни UserID"
+    },
+    "copySegmentID": {
+        "message": "Копирај ID сегмента"
+    },
+    "hideThis": {
+        "message": "Сакриј ово"
+    },
     "Options": {
         "message": "Подешавања"
+    },
+    "showButtons": {
+        "message": "Прикажи дугмад на YouTube плејеру"
+    },
+    "hideButtons": {
+        "message": "Сакриј дугмад на YouTube плејеру"
+    },
+    "hideButtonsDescription": {
+        "message": "Ово сакрива дугмад која се појављују на YouTube плејеру за слање сегмената за прескакање."
+    },
+    "showSkipButton": {
+        "message": "Задржи дугме за прескакање на истакнути део видео снимка на плејеру"
+    },
+    "showInfoButton": {
+        "message": "Прикажи дугме за информације на YouTube плејеру"
+    },
+    "hideInfoButton": {
+        "message": "Сакриј дугме за информације на YouTube плејеру"
+    },
+    "autoHideInfoButton": {
+        "message": "Аутоматски сакриј дугме за информације"
+    },
+    "hideDeleteButton": {
+        "message": "Сакриј дугме за брисање на YouTube плејеру"
+    },
+    "showDeleteButton": {
+        "message": "Прикажи дугме за брисање на YouTube плејеру"
+    },
+    "enableViewTracking": {
+        "message": "Омогући праћење броја прескакања"
+    },
+    "whatViewTracking": {
+        "message": "Ова функција прати које сте сегменте прескочили да бисте корисницима дали до знања колико је њихова објава помогла другима и користи се као метрика заједно са позитивним гласовима, како би се осигурало да нежељена пошта не доспе у базу података. Додатак шаље поруку серверу сваки пут када прескочите сегмент. Надамо се да већина људи неће променити ово подешавање да би бројеви приказа били тачни. :)"
+    },
+    "enableViewTrackingInPrivate": {
+        "message": "Омогући праћење броја прескакања у картицама Приватно/Инкогнито"
+    },
+    "enableTrackDownvotes": {
+        "message": "Чувај гласове против сегмента"
+    },
+    "whatTrackDownvotes": {
+        "message": "Сви сегменти које одбаците остаће скривени, чак и након освежавања"
+    },
+    "trackDownvotesWarning": {
+        "message": "Упозорење: Онемогућавање овога ће избрисати све претходно сачуване гласове против"
+    },
+    "enableQueryByHashPrefix": {
+        "message": "Упит по префиксу хеша"
+    },
+    "whatQueryByHashPrefix": {
+        "message": "Уместо захтевања сегмената од сервера помоћу ID-ја видео снимка, шаљу се прва 4 знака хеша ID-ја видео снимка. Овај сервер ће послати податке за све видео снимке са сличним хешовима."
+    },
+    "enableRefetchWhenNotFound": {
+        "message": "Поново прикупи сегменте на новим видео снимцима"
+    },
+    "whatRefetchWhenNotFound": {
+        "message": "Ако је видео снимак нов и нема пронађених сегмената, сегменти ће наставити да се прикупљају сваких неколико минута док гледате видео снимак."
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "Прикажи категорије у менију за слање, чак и без дозволе за слање"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "Неке категорије захтевају дозволу за слање због минималних захтева за репутацијом"
+    },
+    "showNotice": {
+        "message": "Прикажи обавештење поново"
+    },
+    "showSkipNotice": {
+        "message": "Прикажи обавештење након што је сегмент прескочен"
+    },
+    "showCategoryGuidelines": {
+        "message": "Прикажи помоћ за категорију"
+    },
+    "noticeVisibilityMode0": {
+        "message": "Обавештења о прескакању у пуној величини"
+    },
+    "noticeVisibilityMode1": {
+        "message": "Мала обавештења о прескакању за аутоматско прескакање"
+    },
+    "noticeVisibilityMode2": {
+        "message": "Сва мала обавештења о прескакању"
+    },
+    "noticeVisibilityMode3": {
+        "message": "Избледела обавештења о прескакању за аутоматско прескакање"
+    },
+    "noticeVisibilityMode4": {
+        "message": "Сва избледела обавештења о прескакању"
+    },
+    "longDescription": {
+        "message": "SponsorBlock вам омогућава да прескочите спонзоре, уводне анимације, завршне анимације, подсетнике за претплату и друге досадне делове YouTube видео снимака. SponsorBlock је додатак за прегледач са збирком заједнице која омогућава свакоме да пошаље време почетка и завршетка спонзорисаних сегмената и других сегмената YouTube видео снимака. Када једна особа пошаље ове информације, свима осталима са овим додатком ће се директно прескочити спонзорисани сегмент. Такође, можете да прескочите делове музичких спотова који не садрже музику.",
+        "description": "Full description of the extension on the store pages."
+    },
+    "website": {
+        "message": "Веб-сајт",
+        "description": "Used on Firefox Store Page"
     },
     "sourceCode": {
         "message": "Изворни код",
         "description": "Used on Firefox Store Page"
+    },
+    "noticeUpdate": {
+        "message": "Обавештење је надограђено!",
+        "description": "The first line of the message displayed after the notice was upgraded."
+    },
+    "noticeUpdate2": {
+        "message": "Ако вам се и даље не свиђа, притисните дугме „Никад не приказуј”.",
+        "description": "The second line of the message displayed after the notice was upgraded."
+    },
+    "setSkipShortcut": {
+        "message": "Прескочи сегмент",
+        "description": "Keybind label"
+    },
+    "setStartSponsorShortcut": {
+        "message": "Започни/заврши сегмент",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "Пошаљи сегменте",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Следеће поглавље",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Претходно поглавље",
+        "description": "Keybind label"
+    },
+    "keybindDescription": {
+        "message": "Изаберите тастер тако што ћете га откуцати и изабрати било који модификаторски тастер који желите да користите."
+    },
+    "0": {
+        "message": "Временско ограничење везе. Проверите своју интернет везу. Ако ваш интернет ради, сервер је вероватно преоптерећен или није у функцији."
+    },
+    "disableSkipping": {
+        "message": "Прескакање је омогућено"
+    },
+    "enableSkipping": {
+        "message": "Прескакање је онемогућено"
+    },
+    "yourWork": {
+        "message": "Ваш рад",
+        "description": "Used to describe the section that will show you the statistics from your submissions."
+    },
+    "502": {
+        "message": "Чини се да је сервер преоптерећен. Покушајте поново за неколико секунди."
     },
     "errorCode": {
         "message": "Код грешке: "
@@ -12,19 +341,1315 @@
     "skip": {
         "message": "Прескочи"
     },
+    "mute": {
+        "message": "Утишај"
+    },
+    "full": {
+        "message": "Цео видео снимак",
+        "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
+    },
+    "skip_category": {
+        "message": "Прескочити {0}?"
+    },
+    "mute_category": {
+        "message": "Утишати {0}?"
+    },
+    "skip_to_category": {
+        "message": "Прескочити до {0}?",
+        "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "skipped": {
+        "message": "Прескочено: {0}",
+        "description": "Example: Sponsor Skipped"
+    },
+    "muted": {
+        "message": "Утишано: {0}",
+        "description": "Example: Sponsor Muted"
+    },
+    "skipped_to_category": {
+        "message": "Прескочено до {0}",
+        "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "disableAutoSkip": {
+        "message": "Онемогући аутоматско прескакање"
+    },
+    "enableAutoSkip": {
+        "message": "Омогући аутоматско прескакање"
+    },
+    "audioNotification": {
+        "message": "Звучно обавештење при прескакању"
+    },
+    "audioNotificationDescription": {
+        "message": "Звучно обавештење при прескакању ће пустити звук кад год се сегмент прескочи. Ако је онемогућено (или је аутоматско прескакање онемогућено), звук се неће пустити."
+    },
+    "showTimeWithSkips": {
+        "message": "Прикажи време са уклоњеним прескакањима"
+    },
+    "showTimeWithSkipsDescription": {
+        "message": "Ово време се појављује у заградама поред тренутног времена испод траке за премотавање. Ово приказује укупно трајање видео снимка одузето од било ког сегмента. Ово укључује сегменте означене само као „Прикажи у траци за премотавање”."
+    },
+    "youHaveSkipped": {
+        "message": "Прескочили сте "
+    },
+    "minLower": {
+        "message": "минут"
+    },
+    "minsLower": {
+        "message": "минута"
+    },
+    "hourLower": {
+        "message": "сат"
+    },
+    "hoursLower": {
+        "message": "сати"
+    },
+    "youHaveSavedTime": {
+        "message": "Сачували сте људе",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "youHaveSavedTimeEnd": {
+        "message": " њихових живота",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "statusReminder": {
+        "message": "Проверите status.sponsor.ajay.app за статус сервера."
+    },
+    "changeUserID": {
+        "message": "Увези/Извези свој приватни UserID"
+    },
+    "whatChangeUserID": {
+        "message": "Ово треба да остане приватно. Ово је као лозинка и не би требало да се дели ни са ким. Ако неко има ово, може да се лажно представља. Ако тражите свој јавни UserID, кликните на иконицу привремене меморије у искачућем прозору."
+    },
+    "setUserID": {
+        "message": "Подеси приватни UserID"
+    },
+    "userIDChangeWarning": {
+        "message": "Упозорење: Промена приватног UserID-ја је трајна. Желите ли заиста да урадите ово? Обавезно направите резервну копију старог за сваки случај."
+    },
+    "createdBy": {
+        "message": "Направио"
+    },
+    "supportOtherSites": {
+        "message": "Подршка за YouTube-сајтове трећих страна"
+    },
+    "supportOtherSitesDescription": {
+        "message": "Подршка за YouTube клијенте трећих страна. Да бисте омогућили подршку, морате прихватити додатне дозволе.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
+    "supportedSites": {
+        "message": "Подржани сајтови: "
+    },
+    "optionsInfo": {
+        "message": "Омогућите Invidious подршку, онемогућите аутоматско прескакање, сакријте дугмад и још много тога."
+    },
+    "addInvidiousInstance": {
+        "message": "Додај инстанцу клијента треће стране"
+    },
+    "addInvidiousInstanceDescription": {
+        "message": "Додајте прилагођену инстанцу. Ово мора бити форматирано САМО са доменом. Пример: invidious.ajay.app"
+    },
     "add": {
         "message": "Додај"
+    },
+    "addInvidiousInstanceError": {
+        "message": "Ово је неважећи домен. Ово би требало да укључи САМО део са доменом. Пример: invidious.ajay.app"
+    },
+    "resetInvidiousInstance": {
+        "message": "Ресетуј Invidious листу инстанци"
+    },
+    "resetInvidiousInstanceAlert": {
+        "message": "Управо ћете ресетовати Invidious листу инстанци"
+    },
+    "currentInstances": {
+        "message": "Тренутне инстанце:"
+    },
+    "minDuration": {
+        "message": "Минимално трајање (секунде):"
+    },
+    "minDurationDescription": {
+        "message": "Сегменти краћи од подешене вредности неће бити прескочени или приказани у плејеру."
+    },
+    "enableManualSkipOnFullVideo": {
+        "message": "Користи ручно прескакање када постоји ознака за цео видео снимак"
+    },
+    "whatManualSkipOnFullVideo": {
+        "message": "За људе који желе да гледају видео снимак без прекида, ако је у потпуности спонзорисан или самопромотивни."
+    },
+    "skipNoticeDuration": {
+        "message": "Трајање обавештења о прескакању (секунде):"
+    },
+    "skipNoticeDurationDescription": {
+        "message": "Обавештење о прескакању ће остати на екрану најмање оволико секунди. За ручно прескакање може бити видљиво дуже."
+    },
+    "shortCheck": {
+        "message": "Следећи поднесак је краћи од опције минималног трајања. То може значити да је ово већ послато и да се само игнорише због ове опције. Желите ли заиста да пошаљете?"
+    },
+    "liveOrPremiere": {
+        "message": "Није дозвољено слање на активни стрим уживо или премијеру. Сачекајте док се не заврши, а затим освежите страницу и проверите да ли су сегменти још увек важећи."
+    },
+    "showUploadButton": {
+        "message": "Прикажи дугме за отпремање"
+    },
+    "customServerAddress": {
+        "message": "Адреса сервера SponsorBlock"
+    },
+    "customServerAddressDescription": {
+        "message": "Адреса коју SponsorBlock користи за упућивање позива серверу. Осим ако немате сопствену инстанцу сервера, ово не треба мењати."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Адреса сервера за прикупљање података"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Адреса која се користи за упућивање позива серверу за прикупљање података. Осим ако немате сопствену инстанцу сервера, ово не треба мењати."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Адреса сервера кеша сличице"
     },
     "save": {
         "message": "Сачувај"
     },
+    "reset": {
+        "message": "Ресетуј"
+    },
+    "customAddressError": {
+        "message": "Ова адреса није у правом облику. Уверите се да садржи http:// или https:// на почетку и да нема косих црта на крају."
+    },
+    "areYouSureReset": {
+        "message": "Желите ли заиста да ресетујете ово?"
+    },
+    "mobileUpdateInfo": {
+        "message": "m.youtube.com је сада подржан"
+    },
+    "exportOptions": {
+        "message": "Увези/Извези све опције"
+    },
+    "exportOptionsCopy": {
+        "message": "Измени/копирај"
+    },
+    "exportOptionsDownload": {
+        "message": "Сачувај у фајл"
+    },
+    "exportOptionsUpload": {
+        "message": "Учитај из фајла"
+    },
+    "whatExportOptions": {
+        "message": "Ово је цела ваша конфигурација у JSON-у. Ово укључује ваш приватни UserID, па будите пажљиви при дељењу овога."
+    },
+    "setOptions": {
+        "message": "Подеси опције"
+    },
+    "exportOptionsWarning": {
+        "message": "Упозорење: Промена опција је трајна и може покварити вашу инсталацију. Желите ли заиста да урадите ово? Обавезно направите резервну копију старог за сваки случај."
+    },
+    "incorrectlyFormattedOptions": {
+        "message": "Овај JSON није правилно форматиран. Ваше опције нису промењене."
+    },
+    "confirmNoticeTitle": {
+        "message": "Пошаљите сегмент"
+    },
+    "submit": {
+        "message": "Пошаљи"
+    },
     "cancel": {
         "message": "Откажи"
+    },
+    "delete": {
+        "message": "Избриши"
+    },
+    "preview": {
+        "message": "Прегледај"
+    },
+    "unsubmitted": {
+        "message": "Непослато"
+    },
+    "inspect": {
+        "message": "Испитај"
     },
     "edit": {
         "message": "Измени"
     },
+    "copyDebugInformation": {
+        "message": "Копирај информације о отклањању грешака у привремену меморију"
+    },
+    "copyDebugInformationFailed": {
+        "message": "Писање у привремену меморију није успело"
+    },
+    "copyDebugInformationOptions": {
+        "message": "Копира информације у привремену меморију које се достављају програмеру када открије грешку / када то програмер затражи. Осетљиве информације, као што су ваш userID, канали на белој листи и прилагођена адреса сервера су уклоњени. Међутим, садржи информације као што су ваш useragent, прегледач, оперативни систем и број верзије додатка. "
+    },
+    "copyDebugInformationComplete": {
+        "message": "Информације о отклањању грешака су копиране у привремену меморију. Слободно уклоните све информације које не бисте желели да делите. Сачувајте ово у текстуалном фајлу или налепите у извештај о грешци."
+    },
+    "keyAlreadyUsed": {
+        "message": "Ова пречица је везана за другу радњу. Изаберите другу."
+    },
+    "to": {
+        "message": "до",
+        "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "Копирано!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
+    "generic_guideline1": {
+        "message": "Укључује глатак прелаз"
+    },
+    "generic_guideline2": {
+        "message": "Пушта као да ништа није прескочено"
+    },
+    "category_sponsor": {
+        "message": "Спонзор"
+    },
+    "category_sponsor_description": {
+        "message": "Плаћене промоције, плаћене препоруке и директне рекламе. Није за самопромоцију или бесплатно позивање на циљеве/креаторе/веб-сајтове/производе који им се допадају."
+    },
+    "category_sponsor_guideline1": {
+        "message": "Плаћене промоције"
+    },
+    "category_sponsor_guideline2": {
+        "message": "Није за донација или прилагођену робу"
+    },
+    "category_selfpromo": {
+        "message": "Неплаћена промоција/Самопромоција"
+    },
+    "category_selfpromo_description": {
+        "message": "Слично као „спонзор”, осим за неплаћену промоцију или самопромоцију. Ово укључује сегменте о роби, донацијама или информацијама о томе са ким су сарађивали."
+    },
+    "category_selfpromo_guideline1": {
+        "message": "Донације, чланства и прилагођена роба"
+    },
+    "category_selfpromo_guideline2": {
+        "message": "Бесплатни поздрави који не доприносе видео снимку"
+    },
+    "category_selfpromo_guideline3": {
+        "message": "Није за корпоративно дизајниране производе и робу"
+    },
+    "category_exclusive_access": {
+        "message": "Ексклузивни приступ"
+    },
+    "category_exclusive_access_description": {
+        "message": "Само за означавање целих видео снимака. Користи се када видео снимак приказује производ, услугу или локацију, где је аутор добио бесплатан или субвенционисани приступ."
+    },
+    "category_exclusive_access_pill": {
+        "message": "Овај видео снимак приказује производ, услугу или локацију, где је аутор добио бесплатан или субвенционисани приступ",
+        "description": "Short description for this category"
+    },
+    "category_exclusive_access_guideline1": {
+        "message": "Цео видео приказује нешто са бесплатним или субвенционисаним приступом"
+    },
+    "category_interaction": {
+        "message": "Подсетник о интеракцији (праћење)"
+    },
+    "category_interaction_description": {
+        "message": "Када постоји кратак подсетник да лајкујете, претплатите се или их запратите усред садржаја. Ако је дугачак или о нечему конкретном, требало би да буде под самопромоцијом."
+    },
+    "category_interaction_guideline1": {
+        "message": "Кратки подсетници да лајкујете, претплатите се или запратите"
+    },
+    "category_interaction_guideline2": {
+        "message": "Укључује индиректне подсетнике за коментарисање"
+    },
+    "category_interaction_guideline3": {
+        "message": "Није за општу промоцију, само за позиве на радњу"
+    },
+    "category_interaction_short": {
+        "message": "Подсетник за интеракцију"
+    },
+    "category_intro": {
+        "message": "Пауза/Уводна анимација"
+    },
+    "category_intro_description": {
+        "message": "Интервал без стварног садржаја. Може бити пауза, статични кадар, понављајућа анимација. Ово не би требало да се користи за прелазе који садрже информације."
+    },
+    "category_intro_short": {
+        "message": "Пауза"
+    },
+    "category_intro_guideline1": {
+        "message": "Интервал без стварног садржаја"
+    },
+    "category_intro_guideline2": {
+        "message": "Није за прелазе са информацијама"
+    },
+    "category_outro": {
+        "message": "Завршне картице/Кредити"
+    },
+    "category_outro_description": {
+        "message": "Кредити или када се појаве YouTube завршне картице. Није за закључке са информацијама."
+    },
+    "category_outro_guideline1": {
+        "message": "Не укључује садржај, чак и ако су завршне картице на екрану"
+    },
+    "category_preview": {
+        "message": "Преглед/Рекапитулација"
+    },
+    "category_preview_description": {
+        "message": "Колекција клипова који показују шта се дешава у овом видео снимку или другим видео снимцима у серији, где се све информације понављају касније у видео снимку."
+    },
+    "category_preview_guideline1": {
+        "message": "Клипови који се појављују касније или у будућем видео снимку"
+    },
+    "category_preview_guideline2": {
+        "message": "Рекапитулација претходног видео снимка"
+    },
+    "category_preview_guideline3": {
+        "message": "Није за сегменте који додају додатни садржај"
+    },
+    "category_filler": {
+        "message": "Попуњавање/Шале"
+    },
+    "category_filler_description": {
+        "message": "Неповезане сцене су додате само за попуњавање или хумор и нису потребни за разумевање главног садржаја видео снимка. Ово не би требало да укључује сегменте који пружају детаље о контексту или позадини. Ово је веома агресивна категорија намењена када нисте расположени за „забаву”."
+    },
+    "category_filler_short": {
+        "message": "Попуњавање"
+    },
+    "category_filler_guideline1": {
+        "message": "Неповезане сцене само за попуњавање или хумор"
+    },
+    "category_filler_guideline2": {
+        "message": "Ометања, неуспешни снимци, понављања"
+    },
+    "category_filler_guideline3": {
+        "message": "Није за сцене потребне за разумевање теме"
+    },
+    "category_music_offtopic": {
+        "message": "Музика: Сегмент без музике"
+    },
+    "category_music_offtopic_description": {
+        "message": "Само за употребу у музичким спотовима. Ово би требало да се користи само за сегменте музичких спотова који већ нису обухваћени другом категоријом."
+    },
+    "category_music_offtopic_short": {
+        "message": "Без музике"
+    },
+    "category_music_offtopic_guideline1": {
+        "message": "Сегменти који нису у званичним издањима"
+    },
+    "category_music_offtopic_guideline2": {
+        "message": "Сегмент без музике у наступу уживо"
+    },
+    "category_poi_highlight": {
+        "message": "Истакнуто"
+    },
+    "category_poi_highlight_description": {
+        "message": "Део видео снимка који већина људи тражи. Слично коментарима „Видео снимак почиње на x:xx”."
+    },
+    "category_poi_highlight_guideline1": {
+        "message": "Сегмент који већина људи тражи"
+    },
+    "category_poi_highlight_guideline2": {
+        "message": "Може прескочити контекст"
+    },
+    "category_poi_highlight_guideline3": {
+        "message": "Може прескочити на наслов или сличицу"
+    },
+    "category_chapter": {
+        "message": "Поглавље"
+    },
+    "category_chapter_description": {
+        "message": "Поглавља са прилагођеним називима која описују главне делове видео снимка."
+    },
+    "category_chapter_guideline1": {
+        "message": "Не помињите називе брендова спонзора"
+    },
+    "category_chapter_guideline2": {
+        "message": "Користите већа поглавља за опште сегменте"
+    },
+    "category_chapter_guideline3": {
+        "message": "Мања поглавља се могу ставити унутар већих"
+    },
+    "category_livestream_messages": {
+        "message": "Стрим уживо: Читање донација/порука"
+    },
+    "category_livestream_messages_short": {
+        "message": "Читање порука"
+    },
+    "autoSkip": {
+        "message": "Аутоматско прескакање"
+    },
+    "manualSkip": {
+        "message": "Ручно прескакање"
+    },
+    "showOverlay": {
+        "message": "Прикажи у траци за премотавање"
+    },
+    "disable": {
+        "message": "Онемогући"
+    },
+    "autoSkip_POI": {
+        "message": "Аутоматско прескакање на почетак"
+    },
+    "manualSkip_POI": {
+        "message": "Питај када се видео снимак учита"
+    },
+    "showOverlay_POI": {
+        "message": "Прикажи у траци за премотавање"
+    },
+    "showOverlay_full": {
+        "message": "Прикажи ознаку"
+    },
+    "showOverlay_chapter": {
+        "message": "Прикажи поглавља"
+    },
+    "autoSkipOnMusicVideos": {
+        "message": "Аутоматски прескочи све сегменте када постоји сегмент без музике"
+    },
+    "muteSegments": {
+        "message": "Дозволи сегменте који утишавају звук уместо да га прескачу"
+    },
+    "fullVideoSegments": {
+        "message": "Прикажи иконицу када је видео у потпуности реклама",
+        "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Прикажи ознаке и на сличицама видео снимка",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
+    "previewColor": {
+        "message": "Боја непослатих сегмената",
+        "description": "Referring to submissions that have not been sent to the server yet."
+    },
+    "seekBarColor": {
+        "message": "Боја траке за премотавање"
+    },
+    "category": {
+        "message": "Категорија"
+    },
+    "skipOption": {
+        "message": "Опција прескакања",
+        "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "enableTestingServer": {
+        "message": "Омогући сервер за бета тестирање"
+    },
+    "whatEnableTestingServer": {
+        "message": "Ваши поднесци и гласови НЕЋЕ СЕ РАЧУНАТИ за главни сервер. Користите ово само за тестирање."
+    },
+    "testingServerWarning": {
+        "message": "Сви поднесци и гласови НЕЋЕ СЕ РАЧУНАТИ у главном серверу док се повезујете са тест сервером. Обавезно онемогућите ово када желите да правите поднеске."
+    },
+    "bracketNow": {
+        "message": "(Сада)"
+    },
+    "moreCategories": {
+        "message": "Више категорија"
+    },
+    "chooseACategory": {
+        "message": "Избор категорије"
+    },
+    "enableThisCategoryFirst": {
+        "message": "Да бисте послали сегменте са категоријом „{0}”, морате је омогућити у опцијама. Сада ћете бити преусмерени на опције.",
+        "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
+    },
+    "poiOnlyOneSegment": {
+        "message": "Упозорење: Ова врста сегмента може имати највише један активан истовремено. Слање вишеструког броја ће довести до тога да се прикаже насумични."
+    },
+    "youMustSelectACategory": {
+        "message": "Морате да изаберете категорију за све сегменте које шаљете!"
+    },
+    "bracketStart": {
+        "message": "(Почетак)"
+    },
+    "bracketEnd": {
+        "message": "(Крај)"
+    },
+    "End": {
+        "message": "Крај",
+        "description": "Button that skips to the end of a segment"
+    },
+    "hiddenDueToDownvote": {
+        "message": "скривено: глас против"
+    },
+    "hiddenDueToDuration": {
+        "message": "скривено: прекратко"
+    },
+    "manuallyHidden": {
+        "message": "ручно скривено"
+    },
+    "channelDataNotFound": {
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "ID канала још није учитан. Ако користите уграђени видео снимак, покушајте да користите YouTube почетну страницу. Ово такође може бити узроковано променама у изгледу YouTube-а, ако тако мислите, оставите коментар овде:"
+    },
+    "invidiousPermissionRefresh": {
+        "message": "Прегледач је опозвао дозволу потребну за функционисање на Invidious-у и другим сајтовима трећих страна. Кликните на дугме испод да бисте поново активирали ову дозволу."
+    },
+    "acceptPermission": {
+        "message": "Прихвати дозволу"
+    },
+    "permissionRequestSuccess": {
+        "message": "Захтев за дозволу је успео!"
+    },
+    "permissionRequestFailed": {
+        "message": "Захтев за дозволу није успео, кликнули сте на „Одбиј”?"
+    },
+    "adblockerIssueWhitelist": {
+        "message": "Ако не можете да решите ово, онемогућите подешавање „Присилна провера канала пре прескакања”, пошто SponsorBlock не може да преузме информације о каналу за овај видео снимак"
+    },
+    "forceChannelCheck": {
+        "message": "Присилна провера канала пре прескакања"
+    },
+    "whatForceChannelCheck": {
+        "message": "Подразумевано, прескочиће сегменте пре него што уопште сазна шта је канал. Подразумевано, неки сегменти на почетку видео снимка могу бити прескочени на каналима са беле листе. Омогућавање ове опције ће спречити ово, али ће свако прескакање имати мало кашњење, јер добијање ID-ја канала може потрајати. Ово кашњење може бити неприметно, ако имате брз интернет."
+    },
+    "forceChannelCheckPopup": {
+        "message": "Размислите о омогућавању опције „Присилна провера канала пре прескакања”"
+    },
+    "downvoteDescription": {
+        "message": "Нетачан/погрешан тајминг"
+    },
+    "incorrectVote": {
+        "message": "Нетачно"
+    },
+    "harmfulVote": {
+        "message": "Штетно",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
+    },
+    "incorrectCategory": {
+        "message": "Промени категорију"
+    },
+    "nonMusicCategoryOnMusic": {
+        "message": "Овај видео снимак је категорисан као музика. Јесте ли сигурни да ово има спонзора? Ако је ово заправо „Сегмент без музике“, отворите опције додатка и омогућите ову категорију. Затим, можете да пошаљете овај сегмент као „Без музике“ уместо као спонзор. Прочитајте смернице, ако сте збуњени."
+    },
+    "multipleSegments": {
+        "message": "Више сегмената"
+    },
+    "guidelines": {
+        "message": "Смернице"
+    },
+    "readTheGuidelines": {
+        "message": "Прочитајте смернице!!",
+        "description": "Show the first time they submit or if they are \"high risk\""
+    },
+    "categoryUpdate1": {
+        "message": "Категорије су овде!"
+    },
+    "categoryUpdate2": {
+        "message": "Отварање опција за прескакање уводних анимација, завршних анимација, робе итд."
+    },
     "help": {
         "message": "Помоћ"
+    },
+    "GotIt": {
+        "message": "Разумем",
+        "description": "Used as the button to dismiss a tooltip"
+    },
+    "fullVideoTooltipWarning": {
+        "message": "Овај сегмент је велики. Ако је цео видео о једној теми, промените са „Прескочи” на „Цео видео”. Погледајте смернице за више информација."
+    },
+    "categoryPillTitleText": {
+        "message": "Цео овај видео је означен као ова категорија и превише је чврсто интегрисан да би се могао одвојити"
+    },
+    "chapterNameTooltipWarning": {
+        "message": "Једно од ваших назива поглавља је слично категорији. Уместо тога, требало би да користите категорије када је то могуће."
+    },
+    "experiementOptOut": {
+        "message": "Искључивање свих будућих експеримената",
+        "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private."
+    },
+    "hideForever": {
+        "message": "Сакриј заувек"
+    },
+    "warningChatInfo": {
+        "message": "Приметили смо да правите неке уобичајене грешке. Веома ценимо ваш досадашњи рад, али овде тежимо савршенству, тако да су и мале грешке важне :)"
+    },
+    "questionButton": {
+        "message": "Имам питање"
+    },
+    "askAQuestion": {
+        "message": "Постави питање"
+    },
+    "warningConfirmButton": {
+        "message": "Разумем разлог"
+    },
+    "warningError": {
+        "message": "Грешка при покушају потврде упозорења:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Добили сте савет од модератора"
+    },
+    "Donate": {
+        "message": "Донација"
+    },
+    "considerDonating": {
+        "message": "Помозите у финансирању развоја"
+    },
+    "hideDonationLink": {
+        "message": "Сакриј линк за донацију"
+    },
+    "darkModeOptionsPage": {
+        "message": "Тамни режим на страници са опцијама"
+    },
+    "helpPageThanksForInstalling": {
+        "message": "Хвала што сте инсталирали SponsorBlock."
+    },
+    "helpPageReviewOptions": {
+        "message": "Прегледајте опције у наставку"
+    },
+    "helpPageFeatureDisclaimer": {
+        "message": "Многе функције су подразумевано онемогућене. Ако желите да прескочите уводне анимације, завршне анимације, користите Invidious итд., омогућите их испод. Такође, можете сакрити/приказати елементе корисничког интерфејса."
+    },
+    "helpPageHowSkippingWorks": {
+        "message": "Како функционише прескакање"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Сегменти видео снимка ће аутоматски бити прескочени, ако се нађу у бази података. Можете да отворите искачући прозор тако што ћете кликнути на иконицу додатка да бисте добили преглед онога што су."
+    },
+    "helpPageHowSkippingWorks2": {
+        "message": "Кад год прескочите сегмент, добићете обавештење. Ако вам се чини да је време погрешно, гласајте против тако што ћете кликнути на „Гласај против”! Такође, можете гласати у искачућем прозору."
+    },
+    "Submitting": {
+        "message": "Слање"
+    },
+    "helpPageSubmitting1": {
+        "message": "Слање се може извршити у искачућем прозору притиском на дугме „Сегмент почиње сада” или у плејеру видео снимка помоћу дугмади на плејеру."
+    },
+    "helpPageSubmitting2": {
+        "message": "Кликом на дугме за пуштање означава се почетак сегмента, а кликом на иконицу за заустављање означава се крај. Можете припремити више спонзора пре него што притиснете да пошаљете. Кликом на дугме за отпремање ће се послати. Кликом на канту за смеће ће избрисати."
+    },
+    "Editing": {
+        "message": "Измењивање"
+    },
+    "helpPageEditing1": {
+        "message": "Ако сте забрљали, можете да измените или избришете своје сегменте након што кликнете на дугме са стрелицом нагоре."
+    },
+    "helpPageTooSlow": {
+        "message": "Ово је превише споро"
+    },
+    "helpPageTooSlow1": {
+        "message": "Постоје пречице, ако желите да их користите. Притисните тастер „тачка и зарез” да бисте означили почетак/крај сегмента спонзора и кликните на тастер „апостроф” да бисте послали. Ово се може променити у опцијама. Ако не користите QWERTY, вероватно би требало да промените тастерске пречице."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Могу ли добити копију базе података? Шта се дешава ако нестанеш?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "База података је јавна и доступна на"
+    },
+    "helpPageCopyOfDatabase2": {
+        "message": "Изворни кôд је слободно доступан. Дакле, чак и ако ми се нешто деси, ваши поднесци нису изгубљени."
+    },
+    "helpPageNews": {
+        "message": "Вести и како је направљено"
+    },
+    "helpPageSourceCode": {
+        "message": "Где могу набавити изворни кôд?"
+    },
+    "Credits": {
+        "message": "Кредити"
+    },
+    "LearnMore": {
+        "message": "Сазнај више"
+    },
+    "FullDetails": {
+        "message": "Потпуни детаљи"
+    },
+    "CopyDownvoteButtonInfo": {
+        "message": "Гласови против и прављење локалне копије коју можете поново да пошаљете"
+    },
+    "OpenCategoryWikiPage": {
+        "message": "Отворите вики страницу ове категорије."
+    },
+    "CopyAndDownvote": {
+        "message": "Копирај и гласај против"
+    },
+    "ContinueVoting": {
+        "message": "Наставак гласања"
+    },
+    "ChangeCategoryTooltip": {
+        "message": "Ово ће се одмах применити на ваше сегменте"
+    },
+    "downvote": {
+        "message": "Гласај против"
+    },
+    "upvote": {
+        "message": "Гласај за"
+    },
+    "hideSegment": {
+        "message": "Сакриј сегмент"
+    },
+    "skipSegment": {
+        "message": "Прескочи сегмент"
+    },
+    "playChapter": {
+        "message": "Пусти поглавље"
+    },
+    "SponsorTimeEditScrollNewFeature": {
+        "message": "Користите точкић миша док вам је курсор изнад оквира за измењивање да бисте брзо прилагодили време. Комбинације тастера „Ctrl” или „Shift” могу се користити за фино подешавање промена."
+    },
+    "categoryPillNewFeature": {
+        "message": "Ново! Погледајте када је видео снимак у потпуности спонзорисан или самопромотивни"
+    },
+    "dayAbbreviation": {
+        "message": "д.",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "ч.",
+        "description": "100h"
+    },
+    "optionsTabBehavior": {
+        "message": "Понашање",
+        "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabInterface": {
+        "message": "Интерфејс",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabKeyBinds": {
+        "message": "Тастерске пречице",
+        "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabBackup": {
+        "message": "Резервна копија/Враћање",
+        "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabAdvanced": {
+        "message": "Остало",
+        "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "noticeVisibilityLabel": {
+        "message": "Изглед обавештења о прескакању",
+        "description": "Option label"
+    },
+    "unbind": {
+        "message": "Одвежи",
+        "description": "Unbind keyboard shortcut"
+    },
+    "notSet": {
+        "message": "Није подешено"
+    },
+    "change": {
+        "message": "Промени"
+    },
+    "youtubeKeybindWarning": {
+        "message": "Ово је уграђена YouTube пречица. Желите ли заиста да је користите?"
+    },
+    "betaServerWarning": {
+        "message": "БЕТА сервер је омогућен!"
+    },
+    "openOptionsPage": {
+        "message": "Отвори страницу са опцијама"
+    },
+    "resetToDefault": {
+        "message": "Ресетуј подешавања на подразумевано"
+    },
+    "confirmResetToDefault": {
+        "message": "Желите ли заиста да ресетујете сва подешавања на подразумеване вредности? Ово се не може поништити."
+    },
+    "exportSegments": {
+        "message": "Извоз сегмената"
+    },
+    "importSegments": {
+        "message": "Увоз сегмената"
+    },
+    "Import": {
+        "message": "Увези",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "Успешно искоришћено!"
+    },
+    "redeemFailed": {
+        "message": "Кључ лиценце је неважећи"
+    },
+    "hideUpsells": {
+        "message": "Сакриј опције које нису доступне без додатног плаћања"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Сакриј савете о новим функцијама"
+    },
+    "chooseACountry": {
+        "message": "Избор државе"
+    },
+    "noDiscount": {
+        "message": "Не испуњавате услове за попуст"
+    },
+    "discountLink": {
+        "message": "Линк за попуст (погледајте розе цену)"
+    },
+    "selectYourCountry": {
+        "message": "Изабери своју државу"
+    },
+    "cantAfford": {
+        "message": "Ако не можете да приуштите куповину лиценце, кликните {овде} да бисте видели да ли испуњавате услове за попуст",
+        "description": "Keep the curly braces. The word 'here' should be translated as well."
+    },
+    "patreonSignIn": {
+        "message": "Пријава помоћу Patreon-а"
+    },
+    "redeem": {
+        "message": "Искористи"
+    },
+    "joinOnPatreon": {
+        "message": "Претплата на Patreon"
+    },
+    "oneTimePurchase": {
+        "message": "Једнократна куповина"
+    },
+    "enterLicenseKey": {
+        "message": "Унесите кључ лиценце"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Тренутно имате {0} на {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Тренутно немате непослатих сегмената",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "непослати сегмент",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "непослатих сегмената",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "видео снимку",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "видео снимака",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Очисти све сегменте",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Желите ли заиста да очистите све непослате сегменте?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Прикажи сегменте",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Сакриј сегменте",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "ID видео снимка",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Број сегмената",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Радње",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Дели као URL адресу"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "Упозорење: Сервер још увек није одговорио сегментима. Можда постоје сегменти на овом видео снимку који су већ послати, али их једноставно нисте добили због проблема са сервером."
+    },
+    "allowScrollingToEdit": {
+        "message": "Дозволи превлачење за измењивање времена"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}с.",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Бољи наслови и сличице на YouTube-у",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Наслови и сличице да буду описни, а не сензационални",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Изаберите најописнији"
+    },
+    "Original": {
+        "message": "Оригинално"
+    },
+    "OriginalTitle": {
+        "message": "Оригинални наслов"
+    },
+    "CurrentTime": {
+        "message": "Тренутно време"
+    },
+    "resetCustomTitle": {
+        "message": "Ресетовање наслова назад на оригинални текст"
+    },
+    "resetIcon": {
+        "message": "Ресетовање иконице"
+    },
+    "Vote": {
+        "message": "Гласај"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Овде унесите сопствени наслов"
+    },
+    "VideoNotReady": {
+        "message": "Видео снимак није спреман"
+    },
+    "FailedToRender": {
+        "message": "Рендеровање није успело",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "Недостаје Canvas",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Изузетак током рендеровања",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "Учитавање није успело",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Формат наслова"
+    },
+    "Disabled": {
+        "message": "Онемогућено"
+    },
+    "CapitalizeWords": {
+        "message": "Речи с великим словима"
+    },
+    "TitleCase": {
+        "message": "Велика почетна слова наслова"
+    },
+    "SentenceCase": {
+        "message": "Велика почетна слова реченице"
+    },
+    "LowerCase": {
+        "message": "Мала слова"
+    },
+    "FirstLetterUppercase": {
+        "message": "Прво слово велико"
+    },
+    "shouldCleanEmojis": {
+        "message": "Уклони емоџије"
+    },
+    "thumbnailFallbackOption": {
+        "message": "Када не постоји послата сличица"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Када се бира насумично време, користиће SponsorBlock податке да би се осигурало да време у промотивном сегменту није изабрано.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Прикажи снимак екрана из насумичног времена"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Прикажи оригиналну сличицу"
+    },
+    "showABlankBox": {
+        "message": "Прикажи празно поље"
+    },
+    "AutoGenerated": {
+        "message": "Прикажи сличицу коју аутоматски генерише YouTube",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
+    "Start": {
+        "message": "Почетак"
+    },
+    "Middle": {
+        "message": "Средина"
+    },
+    "keepUnsubmitted": {
+        "message": "Чувај послате гласове"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Задржите послате гласове након гласања да бисте на серверу приказали наслове и сличице које сте изабрали уместо оних са највише гласова."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Чувај послате гласове из приватних картица"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Користи услугу генерисања сличица"
+    },
+    "titleMaxLines": {
+        "message": "Максималан број редова за наслов"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Наслови видео снимака ће бити распоређени на оволико редова у предлозима."
+    },
+    "onAllPages": {
+        "message": "На свим страницама",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "На свим страницама, осим страница с видео снимком",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Никада"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Услуга генерисања сличица значајно убрзава генерисање сличица слањем анонимног захтева који садржи ID видео снимка на удаљени сервер. Сличица ће тада бити генерисана или извучена из кеша, ако је већ генерисана."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Ако се користи на страницама с видео снимком, ово може потенцијално да изазове цурење ID-ја видео снимака доступних по позиву на овом серверу. Подешавањем на „На свим страницама, осим страница с видео снимком” избећи ћете овај проблем. Друга опција је да хостујете сопствену услугу генерисања сличица."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ако је употреба услуге генерисања сличица онемогућена, сви захтеви ће користити к-анонимност систем упита, што отежава серверу да предвиди који су видео снимци преузети, а користиће се спорија локална услуга генерисања сличица.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Изворни кôд услуге генерисања сличица"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Више о к-анонимности",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Увек прикажи дугме „Прикажи оригинал”"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Ако желите да увек знате да ли је наслов/сличица промењена, омогућите ово."
+    },
+    "showOriginalOnHover": {
+        "message": "Прикажи оригиналне детаље при лебдењу курсором"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Прикажи дугме „Прикажи оригинал” за аутоматски форматиране наслове"
+    },
+    "fetchTimeout": {
+        "message": "Временско ограничење прикупљања података (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Прикажите оригиналне наслове и сличице, ако сервер не реагује толико времена."
+    },
+    "renderTimeout": {
+        "message": "Временско ограничење рендеровања сличице (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Прикажите оригиналне сличице, ако не може да генерише сличицу толико времена."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Временско ограничење за покретање генерисања локалне сличице (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Ако серверу треба толико времена да генерише сличицу, почните да покушавате да је генеришете локално."
+    },
+    "Enable": {
+        "message": "Омогући"
+    },
+    "Titles": {
+        "message": "Наслови",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Сличице",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Грешка"
+    },
+    "ShowOriginal": {
+        "message": "Прикажи оригиналне детаље"
+    },
+    "ShowModified": {
+        "message": "Прикажи измењене детаље"
+    },
+    "FillerWarning": {
+        "message": "Упозорење: Ово је невероватно агресивна категорија. Највероватније ћете морати да прескочите ствари или да их понекад онемогућите. Имајте на уму да многи видео снимци имају преко 50% или више прескоченог видео снимка! Међутим, запамтите да још увек постоје одређене смернице које треба следити приликом слања.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Придружите се Discord-у или Matrix-у да бисте трајно остали у овом ћаскању",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Прикажи помоћ за смернице",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Избегавајте претеране изразе лица",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Размислите о широј слици, немојте само одговорити на питање из оригиналног наслова",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Избегавајте описивање реакција на видео снимак („шокантно”)",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Наведите довољно информација да направите информисан избор пре него што кликнете"
+    },
+    "tip5": {
+        "message": "Напишите великим словом као реченицу",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Напомена: Ваша подешавања SponsorBlock-а су аутоматски увезена!"
+    },
+    "howItWorks": {
+        "message": "Како то функционише"
+    },
+    "discordPromotion": {
+        "message": "Дођите да допринесете, дате неке предлоге и помогнете на {discord}-у или на {matrix}-у"
+    },
+    "deArrowDonationText": {
+        "message": "Ако вам се свиђа оно што сам до сада радио и желите да ми помогнете новцем, ево линка"
+    },
+    "termsAgreement": {
+        "message": "Коришћењем овог додатка, прихватате следеће документе: {privacy-policy} и {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Политика приватности"
+    },
+    "termsOfUse": {
+        "message": "Услови коришћења"
+    },
+    "openSourceLicenses": {
+        "message": "Лиценце отвореног кода"
+    },
+    "defaultToOriginals": {
+        "message": "Подразумевано за оригиналне информације о видео снимку"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Подразумевано прикажите оригинални наслов и сличицу, али имајте дугме које се појављује при лебдењу курсором да бисте видели прилагођене наслове и сличице."
+    },
+    "replaceTitles": {
+        "message": "Замени наслове"
+    },
+    "replaceThumbnails": {
+        "message": "Замени сличице"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Користи наслове из збирке заједнице"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Ако је онемогућено, форматираће наслове, али неће користити наслове које је послала заједница",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Желите ли заиста да избришете ову конфигурацију?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Нова конфигурација"
+    },
+    "DeleteConfiguration": {
+        "message": "Избриши конфигурацију"
+    },
+    "ChannelAllowlist": {
+        "message": "Листа дозвољених канала"
+    },
+    "ConfigurationName": {
+        "message": "Назив конфигурације"
+    },
+    "ChannelListInstructions": {
+        "message": "Унесите све канале на које желите да примените ову конфигурацију у поље испод, одвојене новим редовима. Подржани су и ID-ови канала и имена за приказ. @ Корисничка имена нису подржана. ID-ове канала можете добити кликом на дугме „Дели” на страници „О каналу”.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Још нема подешавања конфигурација. Кликните на дугме на врху да бисте додали нову конфигурацију.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Зауставите кликбејт заменом наслова и сличица прецизнијим"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Уморни сте од кликбејта? Погледајте мој нови додатак за побољшање наслова и сличица"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Ова сличица је изабрана из насумичне временске ознаке, јер још увек нема послатог видео снимка",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Ова сличица је изабрана из насумичне временске ознаке и наслов је аутоматски форматиран, јер још увек нема послатог видео снимка",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Можете променити ово подразумевано у наставку",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} наслова и {thumbnails} сличица су замењени откако сте инсталирали овај додатак",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} наслов ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} наслова ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "и {thumbnails} сличица",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "и {thumbnails} сличица",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} су замењени откако сте инсталирали овај додатак",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Број замене наслова и сличица"
+    },
+    "countReplacementsDescription": {
+        "message": "Користи се за давање статистике у искачућем прозору.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Додајте листу филтера да бисте блокирали анкете, полице са робом и друге елементе промотивне странице користећи yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Захтева uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Дошло је до грешке при откривању ID-ја видео снимка. Покушајте да освежите пре слања да бисте били сигурни да ће бити послат за прави видео снимак. Ако се ово често дешава, пошаљите извештај о томе заједно са другим додацима или корисничким скриптима, које сте инсталирали преко GitHub-а, Discord-а или Matrix-а."
+    },
+    "dearrowLogoCredit": {
+        "message": "Логотип заснован на Twemoji, лиценциран под CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock није компатибилан с додатком „Zoom to Fill”. Постоји много алтернатива које можете користити уместо тога и које ће исправно радити."
+    },
+    "freeTrialStarted": {
+        "message": "Ваш бесплатни пробни период је успешно почео. Посетите YouTube да бисте тестирали"
+    },
+    "freeTrialEnded": {
+        "message": "Ваш бесплатни пробни период је готов"
+    },
+    "freeTrialPrompt": {
+        "message": "Ако желите да га тестирате на сат времена, можете започети бесплатни пробни период помоћу дугмета испод."
+    },
+    "startFreeTrial": {
+        "message": "Започни бесплатни пробни период"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Не можете гласати током бесплатног пробног периода",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "freeAccessRequested": {
+        "message": "Успешно сте регистровани за бесплатан приступ. Бићете обавештени када се одобри бесплатан приступ."
+    },
+    "freeAccessComplete": {
+        "message": "Честитке! Сада имате бесплатан приступ за DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow није активиран"
+    },
+    "ActivateDeArrow": {
+        "message": "Активирај DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow је успешно активиран"
+    },
+    "Close": {
+        "message": "Затвори"
+    },
+    "ViewLicenseKey": {
+        "message": "Види кључ лиценце"
+    },
+    "SharingIsCaring": {
+        "message": "Дељење је брига"
     }
 }

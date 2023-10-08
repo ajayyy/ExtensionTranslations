@@ -26,17 +26,17 @@
         "message": "أجزاء"
     },
     "SegmentsCap": {
-        "message": "أجزاء من المقطع"
+        "message": "فقرات"
     },
     "Chapters": {
         "message": "الفصول"
     },
     "renderAsChapters": {
-        "message": "جعل المقاطع كفصول",
+        "message": "عرض الفقرات كفصول",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "إظهار المقطع الحالي بجانب وقت الفيديو"
+        "message": "إظهار الفقرة الحالية الحالية بجانب وقت الفيديو"
     },
     "upvoteButtonInfo": {
         "message": "التصويت على هذا الإرسال"
@@ -111,16 +111,16 @@
         "message": "تم التصويت!"
     },
     "serverDown": {
-        "message": "يبدو أن الخادم غير متصل. تواصل مع المطوّر على الفور."
+        "message": "يبدو أن الخادم معطل. تواصل مع المطوّر على الفور."
     },
     "connectionError": {
         "message": "حدث خطأ في الاتصال. رمز الخطأ: "
     },
     "segmentsStillLoading": {
-        "message": "لا تزل الشرائح قيد التحميل..."
+        "message": "لا تزل الفقرات قيد التحميل..."
     },
     "clearTimes": {
-        "message": "مسح الأجزاء"
+        "message": "مسح الفقرات"
     },
     "openPopup": {
         "message": "فتح نافذة SponsorBlock المنبثقة"
@@ -132,10 +132,10 @@
         "message": "أيقونة الإغلاق"
     },
     "OpenSubmissionMenu": {
-        "message": "افتح قائمة الإرسال"
+        "message": "قتح قائمة التقديم"
     },
     "sortSegments": {
-        "message": "ترتيب الأجزاء"
+        "message": "فرز الفقرات"
     },
     "submitCheck": {
         "message": "هل أنت متأكد أنك تريد إرسال هذا؟"
@@ -147,7 +147,7 @@
         "message": "إزالة القناة من القائمة البيضاء"
     },
     "voteOnTime": {
-        "message": "صوّت لجزء"
+        "message": "صوّت لفقرة"
     },
     "Submissions": {
         "message": "المشاركات"
@@ -159,10 +159,10 @@
         "message": "المتصدرين"
     },
     "recordTimesDescription": {
-        "message": "إرسال"
+        "message": "تقديم"
     },
     "submissionEditHint": {
-        "message": "سيظهر تحرير الجزء بعد النقر على إرسال",
+        "message": "سيظهر تحرير القسم بعد النقر على تقديم",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
@@ -178,10 +178,10 @@
         "message": "تعيين اسم مستخدم"
     },
     "copyPublicID": {
-        "message": "نسخ رمز المستخدم"
+        "message": "نسخ معرف المستخدم العام"
     },
     "copySegmentID": {
-        "message": "نسخ معرف الجزء"
+        "message": "نسخ معرف الفقرة"
     },
     "hideThis": {
         "message": "إخفاء هذا"
@@ -196,7 +196,7 @@
         "message": "إخفاء الأزرار على مشغل اليوتيوب"
     },
     "hideButtonsDescription": {
-        "message": "يخفي الأزرار التي تظهر على مشغل اليوتيوب لإرسال أقسام للتخطي."
+        "message": "يخفي الأزرار التي تظهر على مشغل اليوتيوب لإرسال فقرات للتخطي."
     },
     "showSkipButton": {
         "message": "إبقاء زر \"تخطي للابراز\" على المشغّل"
@@ -217,37 +217,37 @@
         "message": "إظهار زر \"حذف\" على مشغّل اليوتيوب"
     },
     "enableViewTracking": {
-        "message": "تمكين تتبع مرات التخطي"
+        "message": "تفعيل تتبع مرات التخطي"
     },
     "whatViewTracking": {
-        "message": "تتعقب هذه المِيزة الأجزاء التي تخطيتها للسماح للمستخدمين بمعرفة مقدار ما ساعد إرسالهم الآخرين واستخدامه كمقياس جنبًا إلى جنب مع الأصوات المؤيدة لضمان عدم وصول البريد العشوائي إلى قاعدة البيانات. :)"
+        "message": "تتعقب هذه المِيزة الفقرات التي تخطيتها للسماح للمستخدمين بمعرفة مقدار مساعدة مشاركاتهم للآخرين و تستخدم كمقياس جنبًا إلى جنب مع الأصوات الايجابية لضمان عدم وصول المشاركات الخاطئة إلى قاعدة البيانات. ترسل الإضافة رسالة للخادم كل مرة تتخطى فيها فقرة. نأمل ألا يغير معظم الناس هذا الاعداد بحيث تكون ارقام مرات العرض دقيقة. :)"
     },
     "enableViewTrackingInPrivate": {
-        "message": "تفعيل تتبع عدد التخطي في علامات التبويب الخاصة / التصفح المتخفي"
+        "message": "تفعيل تتبع مرات التخطي في علامات التبويب الخاصة / التصفح المتخفي"
     },
     "enableTrackDownvotes": {
-        "message": "حفظ التصويت السلبي للمقاطع"
+        "message": "حفظ الأصوات السلبية للفقرات"
     },
     "whatTrackDownvotes": {
-        "message": "أي مقاطع قمت بالتصويت السلبي لها ستبقى مخفية حتى بعد التحديث"
+        "message": "أي فقرات قمت بالتصويت السلبي لها ستبقى مخفية حتى بعد تحديث الصفحة"
     },
     "trackDownvotesWarning": {
-        "message": "تحذير: سيؤدي تعطيل هذا إلى حذف جميع الأصوات المعارضة التي تم تخزينها مسبقًا"
+        "message": "تحذير: سيؤدي تعطيل هذا إلى حذف جميع الأصوات السلبية التي تم تخزينها مسبقًا"
     },
     "enableQueryByHashPrefix": {
         "message": "الاستعلام عن طريق بادئة التجزئة"
     },
     "whatQueryByHashPrefix": {
-        "message": "بدلاً من طلب مقاطع من الخادم باستخدام معرف الفيديو ، يتم إرسال الأحرف الأربعة الأولى من تجزئة معرف الفيديو. سيرسل هذا الخادم البيانات مرة أخرى لجميع مقاطع الفيديو ذات التجزئات المتشابهة."
+        "message": "بدلاً من طلب الفقرات من الخادم باستخدام معرف الفيديو ، يتم إرسال الأحرف الأربعة الأولى من تجزئة معرف الفيديو. سيرسل هذا الخادم بالمقابل بينات كل الفيديوهات بتجزئات مشابهة."
     },
     "enableRefetchWhenNotFound": {
-        "message": "إعادة جلب الاقسام في مقاطع الفيديو الجديدة"
+        "message": "إعادة جلب الفقرات في الفيديوهات الجديدة"
     },
     "whatRefetchWhenNotFound": {
-        "message": "إذ كان الفيديو جديد، ولم يتم العثور على أي أقسام، سيتم أستمرار البحث على أقسام كل بضع دقائق بينما تشاهد."
+        "message": "إذ كان الفيديو جديد، ولم يتم العثور على أي فقرات، سيتم أستمرار البحث عن فقرات كل بضع دقائق بينما تشاهد."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "إظهار الفئات في قائمة الإرسال حتى دون إذن الإرسال"
+        "message": "إظهار الفئات في قائمة التقديم حتى دون إذن التقديم"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "تحتاج بعض الفئات إلى إذن لتقديمها بسبب الحد الأدنى من متطلبات السمعة"
@@ -256,7 +256,7 @@
         "message": "إظهار الإشعار مرة أخرى"
     },
     "showSkipNotice": {
-        "message": "إظهار إشعار بعد تخطي قسم ما"
+        "message": "إظهار إشعار بعد تخطي فقرة ما"
     },
     "showCategoryGuidelines": {
         "message": "إظهار مساعدة الفئة"
@@ -271,13 +271,13 @@
         "message": "حجم صغير لإشعارات التخطي"
     },
     "noticeVisibilityMode3": {
-        "message": "إشعارات تخطي متلاش للتخطي التلقائي"
+        "message": "إشعارات تخطي متلاشية للتخطي التلقائي"
     },
     "noticeVisibilityMode4": {
         "message": "إشعارات تخطي متلاشية"
     },
     "longDescription": {
-        "message": "يتيح لك SponsorBlock تخطي الرعايات و المقدمات و المؤخرات و التذكيرات بالاشتراك و اجزاء أخرى مزعجة من فيديوات اليوتيوب. SponsorBlock إضافة متصفح مصدّر جماعيا يتيح لأي احد بتقديم أوقات البدء و الانتهاء للفقرات المرعية و فقرات اخرى من فيديوات اليوتيوب. و بمجرد أن يقدم شخص واحد هذه المعلونات يستخطى كل شخص آخر مع هذه الإضافة الفقرة المرعية. بالامكان أيضا تخطي الأجزاء الغير موسيقية من فيديوات الموسيقى.",
+        "message": "يتيح لك SponsorBlock تخطي الرعايات و المقدمات و المؤخرات و التذكيرات بالاشتراك و اجزاء أخرى مزعجة من فيديوهات اليوتيوب. SponsorBlock إضافة متصفح مصدّرة جماعيا يتيح لأي احد بتقديم أوقات البدء و الانتهاء للفقرات المرعية و فقرات اخرى من فيديوهات اليوتيوب. و بمجرد أن يقدم شخص واحد هذه المعلونات سيتخطى كل شخص آخر مع هذه الإضافة الفقرة المرعية. بالامكان أيضا تخطي الأجزاء الغير موسيقية من فيديوات الموسيقى.",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -293,19 +293,19 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "إذا كنت لا تزال تعجبه، اضغط على زر لا يظهر أبدا.",
+        "message": "اذا كانت لا تزال تزعجك، اضغط على زر لا تظهر أبداً.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "تخطي الجزء",
+        "message": "تخطي الفقرة",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "بدء/إيقاف الجزء",
+        "message": "بدء/إيقاف الفقرة",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "إرسال الأجزاء",
+        "message": "تقديم الفقرات",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -317,10 +317,10 @@
         "description": "Keybind label"
     },
     "keybindDescription": {
-        "message": "حدد مفتاح عن طريق كتابته واختار أي مفاتيح تعديل ترغب في استخدامها."
+        "message": "حدد مفتاح عن طريق كتابته واختار أي \"مفاتيح تعديل\" ترغب في استخدامها."
     },
     "0": {
-        "message": "انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت. إذا كان إتصالم بالإنترنت يعمل ، قد يكون الخادم محمل أكثر من اللازم أو مغلق حاليا."
+        "message": "انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت. إذا كان إتصالك بالإنترنت يعمل، قد يكون الخادم محمل أكثر من اللازم أو معطل حاليا."
     },
     "disableSkipping": {
         "message": "التخطي مفعل"
@@ -345,7 +345,7 @@
         "message": "كتم"
     },
     "full": {
-        "message": "فيديو كامل",
+        "message": "الفيديو كامل",
         "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
@@ -395,13 +395,13 @@
         "message": "دقيقة"
     },
     "minsLower": {
-        "message": "دقائق"
+        "message": "دقيقة"
     },
     "hourLower": {
         "message": "ساعة"
     },
     "hoursLower": {
-        "message": "ساعات"
+        "message": "ساعة"
     },
     "youHaveSavedTime": {
         "message": "لقد وفّرت على الناس",
@@ -443,7 +443,7 @@
         "message": "تفعيل دعم Invidious، تعطيل التخطي التلقائي، إخفاء الأزرار و المزيد."
     },
     "addInvidiousInstance": {
-        "message": "إضافة حالة لموقع يوتيوب طرف ثالث"
+        "message": "إضافة حالة لمنصة يوتيوب طرف ثالث"
     },
     "addInvidiousInstanceDescription": {
         "message": "اضافة حالة خاصة. يجب ان يحتوي على المجال فقط. مثال: invidious.ajay.app"
@@ -467,19 +467,19 @@
         "message": "المدة الدنيا (ثوان):"
     },
     "minDurationDescription": {
-        "message": "الاقسام الاصغر من القيمة المحدد لن يتم تخطيها ولا عرضها في المشغل."
+        "message": "الاقسام الاصغر من القيمة المحددة لن يتم تخطيها ولا عرضها في المشغل."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "استخدام التخطي اليدوي عند وجود لصيقة للفيديو باكمله"
+        "message": "استخدام التخطي اليدوي عند وجود وسم للفيديو باكمله"
     },
     "whatManualSkipOnFullVideo": {
         "message": "للاشخاص الراغبين بمشاهدة الفيديو دون انقطاع اذا كان مُرعى بالكامل أو دعاية شخصية."
     },
     "skipNoticeDuration": {
-        "message": "مدة إيذان التخطي (ثوان):"
+        "message": "مدة اشعار التخطي (ثوان):"
     },
     "skipNoticeDurationDescription": {
-        "message": "سيبقى إيذان التخطي على الشاشة للمدة المحددة على الأقل. للتخطي اليدوي، قد يكون مرئيًا لفترة أطول."
+        "message": "سيبقى اشعار التخطي على الشاشة للمدة المحددة على الأقل. للتخطي اليدوي، قد يكون مرئيًا لفترة أطول."
     },
     "shortCheck": {
         "message": "التقديم التالي أقصر من مدة التقديم الأدنى المحددة. قد يعني هذا أن التقديم قد يكون موجود بالفعل ولكن يتم تجاهله بسبب هذا الخيار. هل أنت متأكد من رغبتك في التقديم؟"
@@ -532,17 +532,23 @@
     "exportOptionsUpload": {
         "message": "تحميل من ملف"
     },
+    "whatExportOptions": {
+        "message": "هذا هو كامل إعداداتك في صيغة JSON. يشمل معرف المستخدم السري الخاص بك، لذا تأكد من مشاركته بحكمة."
+    },
     "setOptions": {
         "message": "تعيين الخيارات"
     },
     "exportOptionsWarning": {
         "message": "تحذير: تغيير الخيارات دائم و قد يخرب تثبيتك. هل أنت متأكد من رغبتك في القيام بهذا؟ تأكد من النسخ الاحتياطي للتثبيت القديم تحسبا."
     },
+    "incorrectlyFormattedOptions": {
+        "message": "لم يتم تنسيق JSON بشكل صحيح. لم يتم تغيير الخيارات الخاصة بك."
+    },
     "confirmNoticeTitle": {
-        "message": "إرسال المقطع"
+        "message": "تقديم الفقرة"
     },
     "submit": {
-        "message": "إرسال"
+        "message": "تقديم"
     },
     "cancel": {
         "message": "إلغاء"
@@ -554,7 +560,7 @@
         "message": "معاينة"
     },
     "unsubmitted": {
-        "message": "غير مرسلة"
+        "message": "غير مقَدَّمة"
     },
     "inspect": {
         "message": "فحص"
@@ -566,10 +572,16 @@
         "message": "نسخ معلومات التشخيص إلى الحافظة"
     },
     "copyDebugInformationFailed": {
-        "message": "فشل في الكتابة إلى الحافظة"
+        "message": "فشل النسخ إلى الحافظة"
     },
     "copyDebugInformationOptions": {
-        "message": "ينسخ المعلومات إلى الحافظة لتقديمها إلى المطور عند تبليغ خلل / عندما يطلب المطور ذلك. تم إزالة معلومات حساسة مثل معرف مستخدمك السري و قنوات القائمة البيضاء وعنوان الخادم المخصص. غير أنه يحتوي على معلومات مثل المستخدم الخاص بك، المتصفح، نظام التشغيل، رقم اصدار الإضافة. "
+        "message": "ينسخ المعلومات إلى الحافظة لتقديمها إلى المطور عند تبليغ خلل / عندما يطلب المطور ذلك. تم إزالة معلومات حساسة مثل معرف مستخدمك السري و قنوات القائمة البيضاء وعنوان الخادم المخصص. غير أنه يحتوي على معلومات مثل المستخدم الخاص بك و المتصفح و نظام التشغيل و رقم اصدار الإضافة. "
+    },
+    "copyDebugInformationComplete": {
+        "message": "تم نسخ معلومات التشخيص إلى الحافظة. لا تتردد في إزالة أي معلومات تفضل عدم مشاركتها. إحفظه في ملف نصي أو الصقه في تقرير الخلل البرمجي."
+    },
+    "keyAlreadyUsed": {
+        "message": "هذا الاختصار مرتبط بإجراء آخر. الرجاء تحديد إجراء مختلف."
     },
     "to": {
         "message": "إلى",
@@ -641,25 +653,31 @@
         "message": "ليس للترويج بشكل عام و انما فقط نداءات لفعل"
     },
     "category_interaction_short": {
-        "message": "التذكير بالتفاعل"
+        "message": "تذكير بالتفاعل"
     },
     "category_intro": {
         "message": "انترو"
     },
     "category_intro_description": {
-        "message": "فاصل زمني بدون محتوى فعلي. يمكن أن يكون توقفًا مؤقتًا أو إطارًا ثابتًا أو تكرار الرسوم المتحركة. لا يتضمن انتقالات تحتوي على معلومات."
+        "message": "فاصل زمني بدون محتوى فعلي. يمكن أن يكون توقفًا مؤقتًا أو إطارًا ثابتًا أو رسوم متحركة متكررة. لا يتضمن انتقالات تحتوي على معلومات."
     },
     "category_intro_short": {
-        "message": "استراحة"
+        "message": "انترو"
     },
     "category_intro_guideline1": {
-        "message": "فاصل بدون محتوى فعلي"
+        "message": "فاصل زمني بدون محتوى فعلي"
+    },
+    "category_intro_guideline2": {
+        "message": "ليس للانتقالات التي تحتوي على معلومات"
     },
     "category_outro": {
-        "message": "الخاتمة/تترات النهاية"
+        "message": "شاشات نهاية/الشكر و التقدير"
     },
     "category_outro_description": {
-        "message": "لائحة المساهمون في العمل أو عند ظهور شاشات النهاية. ليس للاستنتاجات مع معلومات."
+        "message": "لائحة الشكر و التقدير أو عند ظهور شاشات النهاية. ليس للاستنتاجات مع معلومات."
+    },
+    "category_outro_guideline1": {
+        "message": "لا تضم محتوى، حتى إذا كانت شاشات النهاية على الشاشة"
     },
     "category_preview": {
         "message": "معاينة/خلاصة"
@@ -667,8 +685,14 @@
     "category_preview_description": {
         "message": "مجموعة من اللقطات تُظهر ما هو قادم في هذا الفيديو او في فيديوهات اخرى في سلسلة حيث كل المعلومة مكررة لاحقا في الفيديو."
     },
+    "category_preview_guideline1": {
+        "message": "لقطات تظهر لاحقا في الفيديو او في فيديوهات مستقبلية"
+    },
     "category_preview_guideline2": {
-        "message": "موجز الفيديو السابق"
+        "message": "تلخيص فيديو سابق"
+    },
+    "category_preview_guideline3": {
+        "message": "ليس للأقسام التي تضيف محتوى إضافي"
     },
     "category_filler": {
         "message": "حشو خارج عن الموضوع/نكات"
@@ -680,16 +704,16 @@
         "message": "حشو"
     },
     "category_filler_guideline1": {
-        "message": "مشاهد أُضيفت فقط للحشو أو الدعابة"
+        "message": "مشاهد خارجة عن الموضوع أُضيفت فقط للحشو أو الدعابة"
     },
     "category_filler_guideline2": {
-        "message": "تلهيات، مشاهد خلف الكواليس، إعادة عرض مشاهد سابقة"
+        "message": "تلهيات، خلف الكواليس، إعادة عرض مشاهد سابقة"
     },
     "category_filler_guideline3": {
         "message": "ليس للمشاهد الضرورية لفهم الموضوع"
     },
     "category_music_offtopic": {
-        "message": "الموسيقى: مقطع غير موسيقي"
+        "message": "الموسيقى: مقطع لا موسيقي"
     },
     "category_music_offtopic_description": {
         "message": "فقط للاستخدام في الفيديوات الموسيقية. يجب استعماله فقط لأجزاء من الفيديو الموسيقي التي ليست مغطات بفئة اخرى."
@@ -697,11 +721,23 @@
     "category_music_offtopic_short": {
         "message": "غير موسيقي"
     },
+    "category_music_offtopic_guideline1": {
+        "message": "الأجزاء الغير واردة في الاصدارات الرسمية"
+    },
+    "category_music_offtopic_guideline2": {
+        "message": "أجزاء غير موسيقية من العروض الحية"
+    },
     "category_poi_highlight": {
         "message": "ابراز"
     },
     "category_poi_highlight_description": {
         "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس. على غرار تعليقات \"الفيديو يبدأ عند x\"."
+    },
+    "category_poi_highlight_guideline1": {
+        "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس"
+    },
+    "category_poi_highlight_guideline2": {
+        "message": "يمكن تخطي السياق"
     },
     "category_poi_highlight_guideline3": {
         "message": "يمكن التخطي إلى عنوان المقطع أو الصورة المصغرة"
@@ -715,8 +751,17 @@
     "category_chapter_guideline1": {
         "message": "لا تذكر أسماء العلامة التجارية الراعية"
     },
+    "category_chapter_guideline2": {
+        "message": "استخدم فصول أكبر للأقسام العامة"
+    },
+    "category_chapter_guideline3": {
+        "message": "يمكن وضع فصول صغيرة داخل فصول أكبر"
+    },
+    "category_livestream_messages": {
+        "message": "بث مباشر: قراءة التبرعات/الرسائل"
+    },
     "category_livestream_messages_short": {
-        "message": "قراءة الرسالة"
+        "message": "قراءة الرسائل"
     },
     "autoSkip": {
         "message": "تخطي تلقائي"
@@ -731,7 +776,7 @@
         "message": "تعطيل"
     },
     "autoSkip_POI": {
-        "message": "تخطي تلقائي حتى البدء"
+        "message": "تخطي تلقائي للبداية"
     },
     "manualSkip_POI": {
         "message": "اسأل عند تحميل الفيديو"
@@ -740,23 +785,27 @@
         "message": "إظهار في شريط التمرير"
     },
     "showOverlay_full": {
-        "message": "إظهار التسمية"
+        "message": "إظهار الوسم"
     },
     "showOverlay_chapter": {
         "message": "عرض الفصول"
     },
     "autoSkipOnMusicVideos": {
-        "message": "تخطي جميع الاقسام تلقائياً عندما يكون هناك قسم غير موسيقي"
+        "message": "تخطي جميع الفقرات تلقائياً عندما يكون هناك فقرة لا موسيقية"
     },
     "muteSegments": {
-        "message": "السماح بالاقسام التي تكتم الصوت بدلاً التخطي"
+        "message": "السماح بالفقرات التي تكتم الصوت بدلاً من التخطي"
     },
     "fullVideoSegments": {
         "message": "إظهار أيقونة عندما يكون الفيديو بالكامل اعلان",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "إظهار الوسوم على الصور المصغرة للفيديوهات أيضا",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
-        "message": "لون غير المرسل",
+        "message": "لون غير مقَدَّم",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
@@ -772,6 +821,12 @@
     "enableTestingServer": {
         "message": "تمكين الخادم التجريبي"
     },
+    "whatEnableTestingServer": {
+        "message": "مساهماتك و أصواتك لن تحسب في الخادم الرئيسي. استخدم هذا الخيار فقط للاختبار."
+    },
+    "testingServerWarning": {
+        "message": "لن تحسب كل مساهماتك و أصواتك في الخادم الرئيسي حين اتصالك بالخادم التجريبي. تأكد من تعطيل هذا الخيار عندما ترغب في تقديم مساهمات حقيقية."
+    },
     "bracketNow": {
         "message": "(الآن)"
     },
@@ -784,6 +839,9 @@
     "enableThisCategoryFirst": {
         "message": "لتقديم فقرات مع الفئة \"{0}\"، يوجب تفعيلها في الخيارات. سيتم تحويلك الى الخيارات فورا.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
+    },
+    "poiOnlyOneSegment": {
+        "message": "تحذير: هذا النوع من الفقرة يمكن فقط ان يكون واحد منه فعال في آن واحد كحد اقصى. تقديم عدة سيؤدي الى عرض واحد عشوائي منهم."
     },
     "youMustSelectACategory": {
         "message": "يوجب تحديد فئة لكل الفقرات المنبغي تقديمها!"
@@ -807,6 +865,10 @@
     "manuallyHidden": {
         "message": "مخفي يدوياً"
     },
+    "channelDataNotFound": {
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "لم يتم تحميل معرف القناة بعد. إذا كنت تستخدم \"فيديو مضمن\"، حاول استخدام الصفحة الرئيسية على اليوتيوب بدلاً منه. قد يكون السبب في ذلك أيضًا تغييرات في واجهة اليوتيوب، إذا كنت تعتقد ذلك، قم بتقديم تعليق هنا:"
+    },
     "invidiousPermissionRefresh": {
         "message": "قام المتصفح بإلغاء التصاريح المطلوبة للعمل على Invidious وغيرها من مواقع الطرف الثالث. الرجاء النقر على الزر أدناه لإعادة تنشيط هذا التصريح."
     },
@@ -820,16 +882,19 @@
         "message": "فشل طلب الإذن ، هل نقرت على رفض؟"
     },
     "adblockerIssueWhitelist": {
-        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"فرض قناة التحقق قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا المقطع"
+        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"اجبار التحقق من القناة قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا الفيديو"
     },
     "forceChannelCheck": {
         "message": "اجبار التحقق من القناة قبل التخطي"
     },
     "whatForceChannelCheck": {
-        "message": "افتراضيا، سيتم تخطي الاقسام مباشرة حتى قبل التعرف على القناة. افتراضيا، قد يتم تخطي بعض الاقسام في بداية الفيديو على القنواة في اللائحة البيضاء. تفعيل هذا الخيار سيوقف ذلك لكن يجعل كل التخطيات لها تأخير طفيف حيث أن الحصول على معرف القناة قد يستغرق بعض الوقت. قد يكون هذا التأخير غير ملحوظ إذا كان لديك إنترنت سريع."
+        "message": "افتراضيا، سيتم تخطي الفقرات مباشرة حتى قبل التعرف على القناة. افتراضيا، قد يتم تخطي بعض الفقرات في بداية الفيديو على القنواة في اللائحة البيضاء. تفعيل هذا الخيار سيوقف ذلك لكن يجعل كل التخطيات لها تأخير طفيف حيث أن الحصول على معرف القناة قد يستغرق بعض الوقت. قد يكون هذا التأخير غير ملحوظ إذا كان لديك إنترنت سريع."
+    },
+    "forceChannelCheckPopup": {
+        "message": "حاول تفعيل \"اجبار التحقق من القناة قبل التخطي\""
     },
     "downvoteDescription": {
-        "message": "خاطئ/التوقيت غير صحيح"
+        "message": "توقيت خاطئ/غير صحيح"
     },
     "incorrectVote": {
         "message": "غير صحيح"
@@ -842,10 +907,10 @@
         "message": "تغيير الفئة"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "هذا الفيديو مصنف كموسيقى. هل أنت متأكد من وجود رعاية؟ إن كانت هذه بالفعل \"فقرة غير موسيقية\"، قم بفتح خيارات الإضافة و فعّل هذه الفئة. ثم يمكنك تقديم هذه الفقرة كـ \"غير موسيقي\" بدلاً من رعاية. يرجى قراءة المبادئ التوجيهية إن كنت محتار."
+        "message": "هذا الفيديو مصنف كموسيقى. هل أنت متأكد من وجود رعاية؟ إن كانت هذه بالفعل \"فقرة لا موسيقية\"، قم بفتح خيارات الإضافة و فعّل هذه الفئة. ثم يمكنك تقديم هذه الفقرة كـ \"لا موسيقي\" بدلاً من رعاية. يرجى قراءة المبادئ التوجيهية إن كنت محتار."
     },
     "multipleSegments": {
-        "message": "أجزاء متعددة"
+        "message": "فقرات متعددة"
     },
     "guidelines": {
         "message": "الإرشادات"
@@ -867,14 +932,39 @@
         "message": "فهمت",
         "description": "Used as the button to dismiss a tooltip"
     },
+    "fullVideoTooltipWarning": {
+        "message": "هذاه الفقرة كبيرة. إذا كان الفيديو كله حول موضوع واحد، فغيير من \"تخطي\" إلى \"الفيديو كامل\". راجع الإرشادات لمزيد من المعلومات."
+    },
+    "categoryPillTitleText": {
+        "message": "تم توسيم الفيديو برمّته بهذه الفئة و هو متكامل بشكل صارم بحيث لا يمكن فصله"
+    },
+    "chapterNameTooltipWarning": {
+        "message": "أحد أسماء الفصول مشابهة لفئة. يجب استخدام الفئات عند الإمكان بدلاً من الفصول."
+    },
+    "experiementOptOut": {
+        "message": "الانسحاب من جميع التجارب المستقبلية",
+        "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private."
+    },
     "hideForever": {
-        "message": "إخفاء دائم"
+        "message": "إخفاء للأبد"
+    },
+    "warningChatInfo": {
+        "message": "لاحظنا أنك ترتكب بعض الأخطاء الشائعة. نحن نقدّر عملك حتى الآن، ولكننا نسعى جاهدين نحو الكمال، فحتى الأخطاء الصغيرة جدا مهمة :)"
     },
     "questionButton": {
         "message": "لدي سؤال"
     },
+    "askAQuestion": {
+        "message": "اطرح سؤالًا"
+    },
     "warningConfirmButton": {
         "message": "أنا أفهم السبب"
+    },
+    "warningError": {
+        "message": "خطأ عند محاولة الإقرار بالتحذير:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "لقد تلقيت نصيحة من المشرف"
     },
     "Donate": {
         "message": "تبرع"
@@ -895,19 +985,37 @@
         "message": "يرجى مراجعة الخيارات أدناه"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "العديد من الميزات معطلة بشكل تلقائي. إذا كنت ترغب في تخطي المقدمة و الخاتمة و استخدام الدعوات و إلخ. يمكنك تمكين هذه الميزات بالأسفل. يمكنك أيضًا إخفاء و إظهار عناصر واجهة المستخدم."
+        "message": "العديد من الميزات معطلة افتراضيا. إذا كنت ترغب في تخطي المقدمات أو المؤخرات أو استخدام Invidious أو إلخ.، يمكنك تفعيل هذه الميزات في الأسفل. يمكنك أيضًا إخفاء/إظهار عناصر واجهة المستخدم."
     },
     "helpPageHowSkippingWorks": {
         "message": "كيف يعمل التخطي"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "سيتم تخطي فقرات الفيديو تلقائياً إذا تم العثور عليها في قاعدة البيانات. بالامكان أيضا فتح المنبثق من خلال النقر على أيقونة الإضافة للحصول على معاينة للفقرات."
+    },
+    "helpPageHowSkippingWorks2": {
+        "message": "كلما تتخطى فقرة، ستحصل على إشعار. إذا بدا التوقيت خاطئا بإمكانك التصويت سلبيا عبر ضغط زر التصويت السلبي! يمكنك أيضا التصويت في المنبثق."
+    },
     "Submitting": {
-        "message": "إرسال"
+        "message": "تقديم"
+    },
+    "helpPageSubmitting1": {
+        "message": "يمكن أن يتم التقديم في المنبثق من خلال نقر زر \"بدأ الفقرة الآن\" أو في مشغل الفيديو من خلال الأزرار على المشغل."
+    },
+    "helpPageSubmitting2": {
+        "message": "النقر على زر التشغيل يشير إلى بداية فقرة والنقر على أيقونة الإيقاف يشير إلى نهايتها. يمكنك أيضا إعداد عدة رعايات قبل ضغط زر تقديم. النقر على زر التحميل يكمل عملية التقديم. النقر على القمامة يحذفه."
     },
     "Editing": {
         "message": "التعديل"
     },
+    "helpPageEditing1": {
+        "message": "إذا اخطأت، بامكانك تعديل او حذف الفقرات بعد الضغط على زر السهم الاعلى."
+    },
     "helpPageTooSlow": {
         "message": "هذا بطيء جداً"
+    },
+    "helpPageTooSlow1": {
+        "message": "هناك مفاتيح اختصار إذا كنت ترغب في استخدامها. اضغط على مفتاح الفاصلة المنقوطة للدلالة على بداية/نهاية فقرة رعاية وانقر على فاصلة عليا لتقديمها. يمكن تغيير هذه الاختصارات في قائمة الخيارات. إذا كنت لا تستخدم تخطيط QWERTY، يُنصح بتغيير ارتباطات المفاتيح."
     },
     "helpPageCopyOfDatabase": {
         "message": "هل يمكنني الحصول على نسخة من قاعدة البيانات؟ ماذا يحدث إذا اختفيت؟"
@@ -915,14 +1023,17 @@
     "helpPageCopyOfDatabase1": {
         "message": "قاعدة البيانات عامة ومتاحة على"
     },
+    "helpPageCopyOfDatabase2": {
+        "message": "الشفرة المصدرية متاحة بحرية. لذلك، حتى لو حدث لي شيء ما، فإن مساهماتك لن تذهب بلا جدوى."
+    },
     "helpPageNews": {
         "message": "الأخبار وكيف تم صنعها"
     },
     "helpPageSourceCode": {
-        "message": "أين يمكنني الحصول على شفرة المصدر؟"
+        "message": "أين يمكنني الحصول على الشفرة المصدرية؟"
     },
     "Credits": {
-        "message": "المساهمون في العمل"
+        "message": "الشكر و التقدير"
     },
     "LearnMore": {
         "message": "معرفة المزيد"
@@ -930,14 +1041,20 @@
     "FullDetails": {
         "message": "التفاصيل الكاملة"
     },
+    "CopyDownvoteButtonInfo": {
+        "message": "تصوِّت سلبيا و تنشئ نسخة محلية لك لتعيد تقديمها"
+    },
     "OpenCategoryWikiPage": {
-        "message": "افتح صفحة ويكي هذه الفئة."
+        "message": "افتح صفحة ويكي لهذه الفئة."
     },
     "CopyAndDownvote": {
         "message": "نسخ وتصويت معارض"
     },
     "ContinueVoting": {
-        "message": "متابعة التصويت"
+        "message": "المتابعة بالتصويت"
+    },
+    "ChangeCategoryTooltip": {
+        "message": "سيتم تطبيق هذا فورا على فقراتك"
     },
     "downvote": {
         "message": "تصويت سلبي"
@@ -946,13 +1063,19 @@
         "message": "تصويت إيجابي"
     },
     "hideSegment": {
-        "message": "إخفاء المقطع"
+        "message": "إخفاء الفقرة"
+    },
+    "skipSegment": {
+        "message": "تخطي الفقرة"
     },
     "playChapter": {
-        "message": "شغل الفصل"
+        "message": "تشغيل الفصل"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "استخدم عجلة الماوس أثناء التمرير فوق مربع التعديل لضبط الوقت بسرعة. يمكن استخدام مجموعات مفتاح ctrl أو Shift لضبط التغييرات."
+        "message": "استخدم عجلة الفأرة أثناء التمرير فوق مربع التعديل لضبط الوقت بسرعة. يمكن استخدام مجموعات مفتاح ctrl أو shift للضبط بدقة."
+    },
+    "categoryPillNewFeature": {
+        "message": "جديد! معرفة اذا كان الفيديو برمَّته مَرعي أو دعاية ذاتية"
     },
     "dayAbbreviation": {
         "message": "ي",
@@ -1006,7 +1129,7 @@
         "message": "فتح صفحة الخيارات"
     },
     "resetToDefault": {
-        "message": "إعادة تعيين الإعدادات الإفتراضية"
+        "message": "إعادة تعيين الإعدادات"
     },
     "confirmResetToDefault": {
         "message": "هل أنت متأكد من أنك تريد إعادة تعيين كافة الإعدادات إلى حالتها الافتراضية؟ لا يمكنك التراجع عن ذلك."
@@ -1014,9 +1137,18 @@
     "exportSegments": {
         "message": "تصدير الفقرات"
     },
+    "importSegments": {
+        "message": "استيراد الفقرات"
+    },
     "Import": {
-        "message": "استورد",
+        "message": "استيراد",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "تم الاستبدال بنجاح!"
+    },
+    "redeemFailed": {
+        "message": "مفتاح الترخيص غير صالح"
     },
     "hideUpsells": {
         "message": "إخفاء الخيارات غير المتاحة بدون دفع إضافي"
@@ -1036,27 +1168,71 @@
     "selectYourCountry": {
         "message": "اختر بلدك"
     },
+    "cantAfford": {
+        "message": "إذا كنت لا تستطيع شراء ترخيص، انقر {here} لمعرفة ما إذا كنت مؤهلاً للحصول على خصم",
+        "description": "Keep the curly braces. The word 'here' should be translated as well."
+    },
     "patreonSignIn": {
-        "message": "سجل مع بيتريون (Patreon)"
+        "message": "تسجيل الدخول مع باتريون (Patreon)"
+    },
+    "redeem": {
+        "message": "استبدال"
+    },
+    "joinOnPatreon": {
+        "message": "الاشتراك على باتريون"
+    },
+    "oneTimePurchase": {
+        "message": "شراء لمرة واحدة"
+    },
+    "enterLicenseKey": {
+        "message": "أدخل مفتاح الرّخصة"
     },
     "unsubmittedSegmentCounts": {
         "message": "لديك حاليا {0} على {1}",
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
+    "unsubmittedSegmentCountsZero": {
+        "message": "ليس لديك حاليا أي فقرة غير مقدَّمة",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "فقرات غير مقدَّمة",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "فقرة غير مقدَّمة",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
     "videosSingular": {
-        "message": "مقطع",
+        "message": "فيديوهات",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
-        "message": "مقاطع",
+        "message": "فيديو",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "clearUnsubmittedSegments": {
+        "message": "مسح جميع الفقرات",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "هل أنت متأكد من أنك تريد مسح جميع الفقرات غير المقدَّمة؟",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
     "showUnsubmittedSegments": {
-        "message": "أظهر الأجزاء",
+        "message": "اظهار الفقرات",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "إخفاء الفقرات",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
-        "message": "معرف المقطع",
+        "message": "معرف الفيديو",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "عدد الفقرات",
         "description": "Header of the unsubmitted segments list"
     },
     "actions": {
@@ -1066,14 +1242,311 @@
     "exportSegmentsAsURL": {
         "message": "شارك كرابط"
     },
+    "segmentFetchFailureWarning": {
+        "message": "تحذير: الخادم لم يجيب مع الفقرات بعد. قد تكون هناك في الواقع فقرات على هذا الفيديو تم تقديمها مسبقاً لكنك لم تستلمها بسبب مشاكل مع الخادم."
+    },
+    "allowScrollingToEdit": {
+        "message": "السماح بالتمرير لتعديل الأوقات"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds} ثانية",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - عناوين وصور مصغرة أفضل على اليوتيوب",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "استخدام عناوين و صور مصغرة من تقديم مساهمين لتكون وصفية و غير عاطفية",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "إختر الاكثر وصفية"
+    },
+    "Original": {
+        "message": "الأصلي"
+    },
+    "OriginalTitle": {
+        "message": "العنوان الأصلي"
+    },
+    "CurrentTime": {
+        "message": "الوقت الحالي"
+    },
+    "resetCustomTitle": {
+        "message": "إعادة تعيين العنوان إلى النص الأصلي"
+    },
+    "resetIcon": {
+        "message": "إعادة ضبط الأيقونة"
+    },
+    "Vote": {
+        "message": "تصويت"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "اكتب عنوانك هنا"
+    },
+    "VideoNotReady": {
+        "message": "الفيديو غير جاهز"
+    },
+    "FailedToRender": {
+        "message": "فشلت المعالجة",
+        "description": "Thumbnail preview failed to render"
+    },
+    "CanvasMissing": {
+        "message": "الـcanvas مفقود",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "خطأ حين التحميل",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
+    "FailedToLoad": {
+        "message": "فشل التحميل",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "تنسيق العنوان"
+    },
+    "Disabled": {
+        "message": "معطَّل"
+    },
+    "CapitalizeWords": {
+        "message": "تكبير الحرف الأول لكل كلمة"
+    },
+    "TitleCase": {
+        "message": "نسق العنوان"
+    },
+    "SentenceCase": {
+        "message": "تكبير الحرف الأول في الجملة"
+    },
+    "LowerCase": {
+        "message": "أحرف صغيرة"
+    },
+    "FirstLetterUppercase": {
+        "message": "تكبير الحرف الأول"
+    },
+    "shouldCleanEmojis": {
+        "message": "ازالة الإيموجي"
+    },
+    "thumbnailFallbackOption": {
+        "message": "عند عدم وجود صورة مصغرة مقدَّمة"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "عند تحديد وقت عشوائي، سوف تستخدم بيانات SponsorBlock لضمان عدم تحديد وقت اثناء فقرة اعلانية.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "إظهار لقطة شاشة من وقت عشوائي"
+    },
+    "TheOriginalThumbnail": {
+        "message": "إظهار الصورة المصغرة الأصلية"
+    },
+    "showABlankBox": {
+        "message": "إظهار مربع فارغ"
+    },
+    "AutoGenerated": {
+        "message": "إظهار صورة مصغرة تم توليدها تلقائياً من اليوتيوب",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
     "Start": {
         "message": "البداية"
     },
     "Middle": {
         "message": "الوسط"
     },
+    "keepUnsubmitted": {
+        "message": "تخزين الأصوات المقدمة"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "حافظ على الأصوات المقدمة بعد التصويت لإظهار العناوين والصور المصغرة التي اخترتها بدلا من الأكثر تصويتا على الخادم."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "تخزين الأصوات المُقدَمة من علامات التبويب الخاصة"
+    },
+    "useThumbnailGenerationService": {
+        "message": "استخدام خدمة توليد الصور المصغرة"
+    },
+    "titleMaxLines": {
+        "message": "الحد الأقصى للأسطر للعنوان"
+    },
+    "titleMaxLinesDescription": {
+        "message": "سوف توزع عناوين الفيديوهات هكذا سطور في صفحة الاقتراحات."
+    },
+    "onAllPages": {
+        "message": "على جميع الصفحات",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "على جميع الصفحات باستثناء صفحات الفيديو",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "ابداً"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "خدمة توليد الصور المصغرة تسرع بشكل كبير توليد الصور المصغرة بإرسال طلب مجهول مع معرف الفيديو إلى خادم عن بعد. ثم سيتم إنشاء الصورة المصغرة أو سحبها من ذاكرة التخزين المؤقت إذا كان قد تم إنشاؤها بالفعل."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "إذا تم استخدام هذا الخيار صفحات الفيديو، يمكن أن يؤدي ذلك إلى تسرب معرف الفيديوهات غير المُدرَجة إلى هذا الخادم. تعيين الخيار إلى \"على جميع الصفحات باستثناء صفحات الفيديو\" إلى تجنب هذه المشكلة. خيار آخر هو استضافة خدمة إنشاء الصور المصغرة الخاصة بك."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "إذا تم تعطيل استخدام خدمة توليد الصور المصغرة، جميع الطلبات سوف تستخدم نظام اسعلام بطريقة k-anonymity، مما يجعل من الصعب على الخادم التنبؤ بأي مقاطع فيديو تم جلبها، وسيتم استخدام خدمة توليد صور مصغرة محلية أبطأ.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "الشفرة المصدرية لخدمة توليد الصور المصغرة"
+    },
+    "moreAboutKAnonymity": {
+        "message": "المزيد عن k-anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "اظهار دائماً زر \"إظهار الأصلي\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "إذا كنت ترغب دائما في معرفة ما إذا تغير عنوان/صورة مصغرة، قم بتفعيل هذ الخيار."
+    },
+    "showOriginalOnHover": {
+        "message": "إظهار التفاصيل الأصلية حين التمرير"
+    },
+    "showIconForFormattedTitles": {
+        "message": "عرض زر \"إظهار الأصلي\" للعناوين المنسقة تلقائياً"
+    },
     "fetchTimeout": {
         "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "إظهار العناوين و الصور المصغرة الأصلية إذا لم يستجب الخادم في هكذا الوقت."
+    },
+    "renderTimeout": {
+        "message": "مهلة انتهاء محاولة تحميل الصورة المصغرة (مللي ثاني)"
+    },
+    "renderTimeoutDescription": {
+        "message": "إظهار الصور المصغرة الأصلية إذا لم يستطاع توليد صورة مصغرة في هكذا الوقت."
+    },
+    "startLocalRenderTimeout": {
+        "message": "مهلة بدء توليد الصور المصغرة محليا (مللي ثانية)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "إذا استغرق الخادم مدة كهذه لتوليد صورة مصغرة، ابدأ محاولة توليد صورة مصغرة محليا."
+    },
+    "Enable": {
+        "message": "تفعيل"
+    },
+    "Titles": {
+        "message": "العناوين",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "الصور المصغرة",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "خطأ"
+    },
+    "ShowOriginal": {
+        "message": "إظهار التفاصيل الأصلية"
+    },
+    "ShowModified": {
+        "message": "إظهار التفاصيل المعدلة"
+    },
+    "FillerWarning": {
+        "message": "تحذير: هذه فئة شرسة للغاية. على الأرجح سترجع في تخطي بعض الفقرات، أو تعطّل هذا الخيار في بعض الأحيان. تحذّر من أن العديد من الفيديوهات قد تم تخطي 50% أو اكثر منها! ومع ذلك، تذكر أنه لا تزال هناك إرشادات محددة يتعين اتباعها عند التقديم.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "انضم إلى Discord أو Matrix للبقاء في هذه المحادثة بشكل دائم",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "إظهار مساعدة الإرشادات",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "تجنب عبارات الوجه المبالغ فيها",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "فكر بنطاق واسع، لا فقط تجيب على سؤال العنوان الأصلي",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "تجنب وصف ردود الفعل للفيديو (\"صادم\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "قم بتوفير معلومات كافية لتمكين القيام بخيار واعٍ قبل النقر"
+    },
+    "tip5": {
+        "message": "كبّر الاحرف كالجملة (للغات التي تحتوي على تكبير احرف)",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "ملاحظة: تم استيراد إعدادات SponsorBlock الخاصة بك تلقائيا!"
+    },
+    "howItWorks": {
+        "message": "آلية العمل"
+    },
+    "discordPromotion": {
+        "message": "تعال ساهم و قدم بعض الاقتراحات و فدم المساعدة على {discord} أو على {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "إذا كنت تحب ما فعلتُه حتى الآن، وترغب في مساعدتي بالمال، إليك رابط"
+    },
+    "termsAgreement": {
+        "message": "باستخدام هذه الإضافة، فإنك توافق على {privacy-policy} و {terms}"
+    },
+    "privacyPolicy": {
+        "message": "سياسة الخصوصية"
+    },
+    "termsOfUse": {
+        "message": "شروط الإستخدام"
+    },
+    "openSourceLicenses": {
+        "message": "رخص مفتوحة المصدر"
+    },
+    "defaultToOriginals": {
+        "message": "معلومات الفيديو افراضية الى اصلية"
+    },
+    "whatDefaultToOriginals": {
+        "message": "إظهار العنوان و الصورة المصغرة الأصليين بشكل افتراضي، ولكن يكون هناك زر يظهر حين التمرير لرؤية العناوين و الصور المصغرة الخاصين."
+    },
+    "replaceTitles": {
+        "message": "استبدال العناوين"
+    },
+    "replaceThumbnails": {
+        "message": "استبدال الصور المصغرة"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "استخدام عناوين مصدَّرة جماعيا"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "في حالة التعطيل، ستنسيق العناوين ولكن لن يتم استخدم العناوين المقدمة من مساهمين",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "هل أنت متأكد مِن أنك تريد حذف هذا التكوين؟",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "تكوين جديد"
+    },
+    "DeleteConfiguration": {
+        "message": "حذف التكوين"
+    },
+    "ChannelAllowlist": {
+        "message": "قائمة القنوات المسموح بها"
+    },
+    "ConfigurationName": {
+        "message": "اسم التكوين"
+    },
+    "ChannelListInstructions": {
+        "message": "أدخل القنوات التي تريد تطبيق هذا التكوين عليها في المربع أدناه، مفصولة بسطر جديد. كل من معرف القناة وأسماء العرض مدعومة. اسم المستخدم @ غير مدعوم. يمكنك الحصول على معرف القناة من خلال النقر على زر مشاركة في صفحة \"حول\" الخاصة بالقناة.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "لم يتم ضبط تكوين بعد. انقر الزر في الأعلى لإضافة تكوين جديد.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"
@@ -1081,14 +1554,60 @@
     "DeArrowPromotionMessage2": {
         "message": "هل تعبت من طعم النقر؟ تفقد إضافتي الجديدة لتحسين العناوين والصور المصغرة"
     },
+    "RandomThumbnailExplanation": {
+        "message": "تم اختيار هذه الصورة المصغرة من وقت عشوائي من الفيديو بسبب عدم وجود مساهمة على هذا الفيديو حتى الآن",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "تم اختيار هذه الصورة المصغرة من وقت عشوائي من الفيديو و العنوان منسق تلقائيا بسبب عدم وجود مساهمة على هذا الفيديو حتى الآن",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "يمكنك تغيير هذه القيمة الافتراضية أدناه",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "تم استبدال {titles} عنوان و {thumbnails} صورة مصغرة منذ تحميلك هذه الإضافة",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} عناوين ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} عنوان ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "و {thumbnails} صور مصغرة",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "و {thumbnails} صورة مصغرة",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "تم استبدال {titleAndThumbnailMessage} منذ تحميلك هذه الإضافة",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "countReplacements": {
-        "message": "قم بحساب تبديل العناوين و الصور المصغرة"
+        "message": "قم بحساب عدد مرات تبديل العناوين و الصور المصغرة"
+    },
+    "countReplacementsDescription": {
+        "message": "تستخدم لإعطائك إحصائيات في المنبثق.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
         "message": "إضافة قائمة تصفية لمنع الاستطلاعات و المنتجات و العناصر الترويجية الأخرى باستخدام yt-neuter"
     },
     "requiresUblock": {
         "message": "يتطلب uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "حدث خطأ ما في اكتشاف معرف الفيديو. الرجاء محاولة تحديث الصفحة قبل التقديم للتأكد من أنه يتم التقديم للفيديو الصحيح. إذا كانت هذه المشكلة تحدث كثيرا، يرجى إرسال تقرير عن المشكلة إلى جانب الإضافات الأخرى أو userscripts المثبتة من خلالGitHub، Discord أو Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "شعار مبني على Twemoji مرخص بموجب CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock غير متوافق مع الإضافة \"Zoom to Fill\". هناك العديد من البدائل التي يمكنك استخدامها بدلاً من ذلك والتي ستعمل بشكل صحيح."
