@@ -36,7 +36,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "Прикажите тренутни сегмент поред времена видео снимка"
+        "message": "Прикажи тренутни сегмент поред времена видео снимка"
     },
     "upvoteButtonInfo": {
         "message": "Гласај за ову објаву"
@@ -297,15 +297,15 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Прескочи сегмент",
+        "message": "Прескочити сегмент",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Започни/заврши сегмент",
+        "message": "Започети/завршити сегмент",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Пошаљи сегменте",
+        "message": "Слање сегмената",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -415,7 +415,7 @@
         "message": "Проверите status.sponsor.ajay.app за статус сервера."
     },
     "changeUserID": {
-        "message": "Увези/Извези свој приватни UserID"
+        "message": "Увоз/Извоз приватног UserID"
     },
     "whatChangeUserID": {
         "message": "Ово треба да остане приватно. Ово је као лозинка и не би требало да се дели ни са ким. Ако неко има ово, може да се лажно представља. Ако тражите свој јавни UserID, кликните на иконицу привремене меморије у искачућем прозору."
@@ -521,7 +521,7 @@
         "message": "m.youtube.com је сада подржан"
     },
     "exportOptions": {
-        "message": "Увези/Извези све опције"
+        "message": "Увоз/Извоз свих опција"
     },
     "exportOptionsCopy": {
         "message": "Измени/копирај"
@@ -1098,7 +1098,7 @@
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
-        "message": "Резервна копија/Враћање",
+        "message": "Резервна копија/Враћање података",
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
