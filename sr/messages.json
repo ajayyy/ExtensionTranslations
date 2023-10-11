@@ -797,7 +797,7 @@
         "message": "Дозволи сегменте који утишавају звук уместо да га прескачу"
     },
     "fullVideoSegments": {
-        "message": "Прикажи иконицу када је видео у потпуности реклама",
+        "message": "Прикажи иконицу када је видео снимак у потпуности реклама",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
@@ -1549,7 +1549,7 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "Зауставите кликбејт заменом наслова и сличица прецизнијим"
+        "message": "Заустављање кликбејта заменом наслова и сличица прецизнијим"
     },
     "DeArrowPromotionMessage2": {
         "message": "Уморни сте од кликбејта? Погледајте мој нови додатак за побољшање наслова и сличица"
@@ -1598,7 +1598,7 @@
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Додајте листу филтера да бисте блокирали анкете, полице са робом и друге елементе промотивне странице користећи yt-neuter"
+        "message": "Додавање листе филтера за блокирање анкета, полица са робом и других елемената промотивних страница користећи yt-neuter"
     },
     "requiresUblock": {
         "message": "Захтева uBlock Origin"
