@@ -329,7 +329,7 @@
         "message": "Hoppa över är inaktiverat"
     },
     "yourWork": {
-        "message": "Ditt bidrag",
+        "message": "Ditt arbete",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -1094,7 +1094,7 @@
         "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
-        "message": "Tangentbordsgenvägar",
+        "message": "Snabbtangenter",
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
