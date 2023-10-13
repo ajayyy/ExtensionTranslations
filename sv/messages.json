@@ -473,7 +473,7 @@
         "message": "Använd hoppa över manuellt när det finns en etikett för hela videon"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "För personer som vill titta på videon utan avbrott om den är fullt sponsrad eller självbefordran."
+        "message": "För personer som vill titta på videon utan avbrott om den är helt sponsrad eller egenreklam."
     },
     "skipNoticeDuration": {
         "message": "Antalet sekunder meddelandet för hoppa över ska visas:"
@@ -601,7 +601,7 @@
         "message": "Sponsor"
     },
     "category_sponsor_description": {
-        "message": "Betald marknadsföring, betalda hänvisningar och direktannonser, men inte till självbefodran eller gratis shoutouts till skapare/webbplatser/produkter de gillar."
+        "message": "Betald marknadsföring, betalda hänvisningar och direktannonser. Inte för egenreklam eller gratis shoutouts till kreatörer/webbplatser/produkter de gillar."
     },
     "category_sponsor_guideline1": {
         "message": "Betalda kampanjer"
@@ -610,10 +610,10 @@
         "message": "Inte för donationer eller anpassade varor"
     },
     "category_selfpromo": {
-        "message": "Obetald/självbefodran"
+        "message": "Obetald reklam/egenreklam"
     },
     "category_selfpromo_description": {
-        "message": "Som \"sponsor\" men med undantag för obetald eller självbefodran. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
+        "message": "Som \"sponsor\" men för obetald reklam eller egenreklam. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
     },
     "category_selfpromo_guideline1": {
         "message": "Donationer, medlemskap och anpassade varor"
@@ -641,7 +641,7 @@
         "message": "Interaktionspåminnelse (Prenumerera)"
     },
     "category_interaction_description": {
-        "message": "När där är en kort påminnelse att gilla, prenumerera eller följa dem. Om det är långt eller om det gäller något specifikt bör det istället vara under självbefodran."
+        "message": "När det finns en kort påminnelse om att gilla, prenumerera eller följa dem. Om det varar länge eller handlar om något specifikt bör det istället kategoriseras som egenreklam."
     },
     "category_interaction_guideline1": {
         "message": "Korta påminnelser om att gilla, prenumerera eller följa"
@@ -1075,7 +1075,7 @@
         "message": "Använd mushjulet medan du håller muspekaren över redigeringsrutan för att snabbt justera tiden. Kombinationer av CTRL- eller SKIFT-tangenten kan användas för att finjustera tiden."
     },
     "categoryPillNewFeature": {
-        "message": "Nytt! Se när en video är helt sponsrad eller självbefodran"
+        "message": "Nytt! Se när en video är helt sponsrad eller egenreklam"
     },
     "dayAbbreviation": {
         "message": "d",
