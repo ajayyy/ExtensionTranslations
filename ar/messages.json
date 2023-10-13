@@ -647,7 +647,7 @@
         "message": "تذكيرات قصيرة بالإعجاب أو الاشتراك أو المتابعة"
     },
     "category_interaction_guideline2": {
-        "message": "يتضمن تذكيرات غير مباشرة للتعليق"
+        "message": "يتضمن تذكيرات غير مباشرة بالتعليق"
     },
     "category_interaction_guideline3": {
         "message": "ليس للترويج بشكل عام و انما فقط نداءات لفعل"
@@ -725,13 +725,13 @@
         "message": "الأجزاء الغير واردة في الاصدارات الرسمية"
     },
     "category_music_offtopic_guideline2": {
-        "message": "أجزاء غير موسيقية من العروض الحية"
+        "message": "الأجزاء الغير موسيقية من العروض الحية"
     },
     "category_poi_highlight": {
         "message": "ابراز"
     },
     "category_poi_highlight_description": {
-        "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس. على غرار تعليقات \"الفيديو يبدأ عند x\"."
+        "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس. على غرار تعليقات \"الفيديو يبدأ عند س\"."
     },
     "category_poi_highlight_guideline1": {
         "message": "الجزء من الفيديو الذي يبحث عنه معظم الناس"

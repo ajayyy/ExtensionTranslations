@@ -36,7 +36,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "Прикажите тренутни сегмент поред времена видео снимка"
+        "message": "Прикажи тренутни сегмент поред времена видео снимка"
     },
     "upvoteButtonInfo": {
         "message": "Гласај за ову објаву"
@@ -297,15 +297,15 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Прескочи сегмент",
+        "message": "Прескочити сегмент",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Започни/заврши сегмент",
+        "message": "Започети/завршити сегмент",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Пошаљи сегменте",
+        "message": "Слање сегмената",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -415,7 +415,7 @@
         "message": "Проверите status.sponsor.ajay.app за статус сервера."
     },
     "changeUserID": {
-        "message": "Увези/Извези свој приватни UserID"
+        "message": "Увоз/Извоз приватног UserID"
     },
     "whatChangeUserID": {
         "message": "Ово треба да остане приватно. Ово је као лозинка и не би требало да се дели ни са ким. Ако неко има ово, може да се лажно представља. Ако тражите свој јавни UserID, кликните на иконицу привремене меморије у искачућем прозору."
@@ -521,7 +521,7 @@
         "message": "m.youtube.com је сада подржан"
     },
     "exportOptions": {
-        "message": "Увези/Извези све опције"
+        "message": "Увоз/Извоз свих опција"
     },
     "exportOptionsCopy": {
         "message": "Измени/копирај"
@@ -698,7 +698,7 @@
         "message": "Попуњавање/Шале"
     },
     "category_filler_description": {
-        "message": "Неповезане сцене су додате само за попуњавање или хумор и нису потребни за разумевање главног садржаја видео снимка. Ово не би требало да укључује сегменте који пружају детаље о контексту или позадини. Ово је веома агресивна категорија намењена када нисте расположени за „забаву”."
+        "message": "Неповезане сцене су додате само за попуњавање или хумор и такве сцене нису потребне за разумевање главног садржаја видео снимка. Ово не би требало да укључује сегменте који пружају детаље о контексту или позадини. Ово је веома агресивна категорија намењена када нисте расположени за „забаву”."
     },
     "category_filler_short": {
         "message": "Попуњавање"
@@ -797,7 +797,7 @@
         "message": "Дозволи сегменте који утишавају звук уместо да га прескачу"
     },
     "fullVideoSegments": {
-        "message": "Прикажи иконицу када је видео у потпуности реклама",
+        "message": "Прикажи иконицу када је видео снимак у потпуности реклама",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
@@ -1098,7 +1098,7 @@
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
-        "message": "Резервна копија/Враћање",
+        "message": "Резервна копија/Враћање података",
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
@@ -1549,7 +1549,7 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "Зауставите кликбејт заменом наслова и сличица прецизнијим"
+        "message": "Заустављање кликбејта заменом наслова и сличица прецизнијим"
     },
     "DeArrowPromotionMessage2": {
         "message": "Уморни сте од кликбејта? Погледајте мој нови додатак за побољшање наслова и сличица"
@@ -1598,7 +1598,7 @@
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Додајте листу филтера да бисте блокирали анкете, полице са робом и друге елементе промотивне странице користећи yt-neuter"
+        "message": "Додавање листе филтера за блокирање анкета, полица са робом и других елемената промотивних страница користећи yt-neuter"
     },
     "requiresUblock": {
         "message": "Захтева uBlock Origin"

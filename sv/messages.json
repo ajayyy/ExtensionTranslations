@@ -4,14 +4,14 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Hoppa över sponsringar, prenumerationstiggande och mer på YouTube-videor. Rapportera sponsorer på videor du tittar på för att spara andras tid.",
+        "message": "Hoppa över sponsringar, prenumerationstiggande och mer på YouTube-videor. Rapportera sponsorer på videor du tittar på för att bespara andra tid.",
         "description": "Description of the extension."
     },
     "400": {
         "message": "Servern sa att denna begäran var ogiltig"
     },
     "429": {
-        "message": "Du har skickat in för många sponsormeddelanden för den här videon. Är du säker på att det finns så många?"
+        "message": "Du har skickat in för många sponsortider för den här videon. Är du säker på att det finns så många?"
     },
     "409": {
         "message": "Den här har redan skickats in"
@@ -32,7 +32,7 @@
         "message": "Kapitel"
     },
     "renderAsChapters": {
-        "message": "Gör segment som kapitel",
+        "message": "Visa segment som kapitel",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
@@ -141,7 +141,7 @@
         "message": "Är du säker på att du vill skicka in detta?"
     },
     "whitelistChannel": {
-        "message": "Vitlistkanal"
+        "message": "Vitlista kanalen"
     },
     "removeFromWhitelist": {
         "message": "Ta bort kanal från vitlistan"
@@ -153,7 +153,7 @@
         "message": "Inskickade"
     },
     "savedPeopleFrom": {
-        "message": "Du har sparat andra från "
+        "message": "Du har skonat andra från "
     },
     "viewLeaderboard": {
         "message": "Topplista"
@@ -217,7 +217,7 @@
         "message": "Visa borttagningsknappen på YouTube-spelaren"
     },
     "enableViewTracking": {
-        "message": "Aktivera spåra antalet hoppa över"
+        "message": "Aktivera spårning av antalet överhoppningar"
     },
     "whatViewTracking": {
         "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid en användare har sparat andra och tillsammans med användarnas röster säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar de flesta inte den här inställningen så statistiken hålls tillförlitlig. :)"
@@ -329,7 +329,7 @@
         "message": "Hoppa över är inaktiverat"
     },
     "yourWork": {
-        "message": "Ditt bidrag",
+        "message": "Ditt arbete",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -359,7 +359,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "{0} överhoppade",
+        "message": "{0} överhoppad",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -470,7 +470,7 @@
         "message": "Segment som är kortare än det angivna värdet kommer inte att hoppas över eller visas i spelaren."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Använd manuellt hoppa över när en fullständig videoetikett visas"
+        "message": "Använd hoppa över manuellt när det finns en etikett för hela videon"
     },
     "whatManualSkipOnFullVideo": {
         "message": "För personer som vill titta på videon utan avbrott om den är fullt sponsrad eller självbefordran."
@@ -613,13 +613,13 @@
         "message": "Obetald/självbefodran"
     },
     "category_selfpromo_description": {
-        "message": "Som \"sponsormeddelande\" men med undantag för obetald eller självkampanj. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
+        "message": "Som \"sponsor\" men med undantag för obetald eller självbefodran. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
     },
     "category_selfpromo_guideline1": {
         "message": "Donationer, medlemskap och anpassade varor"
     },
     "category_selfpromo_guideline2": {
-        "message": "Gratis shoutouts som inte läggs till i videon"
+        "message": "Gratis shoutouts som inte tillför något till videon"
     },
     "category_selfpromo_guideline3": {
         "message": "Inte för företagsdesignade produkter och varor"
@@ -671,16 +671,16 @@
         "message": "Inte för övergångar med information"
     },
     "category_outro": {
-        "message": "Slutkort/Credits"
+        "message": "Slutkort/Eftertexter"
     },
     "category_outro_description": {
-        "message": "Credits eller när YouTube-slutkort visas. Inte för slut med information."
+        "message": "Eftertexter eller när YouTube-slutkort visas. Inte för slut med information."
     },
     "category_outro_guideline1": {
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandsgranska/sammanfatta"
+        "message": "Förhandstitt/Sammanfattning"
     },
     "category_preview_description": {
         "message": "Samling av klipp som visar vad som kommer upp i den här videon eller andra videos i en serie där all information upprepas senare i videon."
@@ -1094,7 +1094,7 @@
         "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
-        "message": "Tangentbordsgenvägar",
+        "message": "Snabbtangenter",
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
@@ -1110,7 +1110,7 @@
         "description": "Option label"
     },
     "unbind": {
-        "message": "Ta bort genväg",
+        "message": "Ta bort",
         "description": "Unbind keyboard shortcut"
     },
     "notSet": {
