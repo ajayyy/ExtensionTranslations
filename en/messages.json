@@ -1362,6 +1362,9 @@
     "ignoreAbThumbnailsDescription": {
         "message": "Channels can setup tests on their videos where YouTube will show different thumbnails to each person. This option will always use the first thumbnail to maintain consistency."
     },
+    "abThumbnailsWarning": {
+        "message": "Warning: This video currently has a thumbnail A/B test running. This means that the thumbnail may change often. You probably should not vote for the original thumbnail due to this risk."
+    },
     "whatKeepUnsubmitted": {
         "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
     },
