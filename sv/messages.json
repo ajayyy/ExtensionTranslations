@@ -220,7 +220,7 @@
         "message": "Aktivera spårning av antalet överhoppningar"
     },
     "whatViewTracking": {
-        "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid en användare har sparat andra och tillsammans med användarnas röster säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar de flesta inte den här inställningen så statistiken hålls tillförlitlig. :)"
+        "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid deras bidrag har besparat andra och används tillsammans med användarnas röster för att säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar de flesta inte den här inställningen så att statistiken hålls tillförlitlig. :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Aktivera spåra antalet hoppa över i privata/inkognitoflikar"
@@ -433,7 +433,7 @@
         "message": "Stöd för tredjeparts YouTube-webbplatser"
     },
     "supportOtherSitesDescription": {
-        "message": "Stöd tredjeparts YouTube-klienter. För att aktivera stöd måste du acceptera de extra behörigheterna.",
+        "message": "Stöd YouTube-klienter från tredje part. För att aktivera stöd måste du acceptera de extra behörigheterna.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
@@ -539,7 +539,7 @@
         "message": "Ange alternativ"
     },
     "exportOptionsWarning": {
-        "message": "Varning: Att ändra alternativen är permanent och kan förstöra din installation. Är du säker på att du vill göra detta? Se till och gör en säkerhetskopia för säkerhets skull."
+        "message": "Varning: Att ändra alternativen är permanent och kan förstöra din installation. Är du säker på att du vill göra detta? Se till att göra en säkerhetskopia för säkerhets skull."
     },
     "incorrectlyFormattedOptions": {
         "message": "Denna JSON är inte korrekt formaterad. Dina alternativ har inte ändrats."
@@ -638,7 +638,7 @@
         "message": "Hela videon visar något med gratis eller subventionerad tillgång"
     },
     "category_interaction": {
-        "message": "Interaktionspåminnelse (Prenumerera)"
+        "message": "Interaktionspåminnelse (prenumerera)"
     },
     "category_interaction_description": {
         "message": "När det finns en kort påminnelse om att gilla, prenumerera eller följa dem. Om det varar länge eller handlar om något specifikt bör det istället kategoriseras som egenreklam."
@@ -656,7 +656,7 @@
         "message": "Interaktionspåminnelse"
     },
     "category_intro": {
-        "message": "Uppehåll/Introduktion"
+        "message": "Uppehåll/introduktion"
     },
     "category_intro_description": {
         "message": "Ett intervall utan faktiskt innehåll. Kan vara en paus, statisk ram, upprepande animation. Denna bör inte användas för övergångar som innehåller information."
@@ -671,7 +671,7 @@
         "message": "Inte för övergångar med information"
     },
     "category_outro": {
-        "message": "Slutkort/Eftertexter"
+        "message": "Slutkort/eftertexter"
     },
     "category_outro_description": {
         "message": "Eftertexter eller när YouTube-slutkort visas. Inte för slut med information."
@@ -680,7 +680,7 @@
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandstitt/Sammanfattning"
+        "message": "Förhandstitt/sammanfattning"
     },
     "category_preview_description": {
         "message": "Samling av klipp som visar vad som kommer upp i den här videon eller andra videos i en serie där all information upprepas senare i videon."
@@ -695,7 +695,7 @@
         "message": "Inte för sektioner som lägger till ytterligare innehåll"
     },
     "category_filler": {
-        "message": "Ämnesavvikelse/Skämt"
+        "message": "Ämnesavvikelse/skämt"
     },
     "category_filler_description": {
         "message": "Tangentiella scener endast för utfyllnad eller humor som inte krävs för att förstå det huvudsakliga innehållet i videon. Detta bör inte omfatta segment som tillhandahåller kontext eller bakgrundsdetaljer. Detta är en mycket aggressiv kategori avsedd för när du inte är på humör för \"kul\"."
@@ -976,7 +976,7 @@
         "message": "Dölj donationslänk"
     },
     "darkModeOptionsPage": {
-        "message": "Mörkt läge på Alternativsidan"
+        "message": "Mörkt läge på alternativsidan"
     },
     "helpPageThanksForInstalling": {
         "message": "Tack för att du installerade SponsorBlock."
@@ -1098,7 +1098,7 @@
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
-        "message": "Säkerhetskopiera/Återställ",
+        "message": "Säkerhetskopiera/återställ",
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
