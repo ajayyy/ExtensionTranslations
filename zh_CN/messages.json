@@ -942,6 +942,9 @@
     "questionButton": {
         "message": "我有疑问"
     },
+    "askAQuestion": {
+        "message": "提问"
+    },
     "warningConfirmButton": {
         "message": "我理解原因"
     },
@@ -1135,6 +1138,9 @@
     "hideUpsells": {
         "message": "隐藏需要额外付费才能使用的选项"
     },
+    "hideNewFeatureUpdates": {
+        "message": "隐藏新功能提示"
+    },
     "chooseACountry": {
         "message": "选择国家/地区"
     },
@@ -1231,6 +1237,13 @@
         "message": "{seconds}秒",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
+    "deArrowFullName": {
+        "message": "DeArrow - 优化 Youtube 标题和缩略图",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "chooseDescriptive": {
+        "message": "选择最符合描述的"
+    },
     "Original": {
         "message": "原始"
     },
@@ -1268,8 +1281,59 @@
         "message": "加载失败",
         "description": "Thumbnail failed to load"
     },
+    "titleFormatting": {
+        "message": "标题格式"
+    },
     "Disabled": {
         "message": "停用"
+    },
+    "CapitalizeWords": {
+        "message": "首字母大写"
+    },
+    "TitleCase": {
+        "message": "标题大小写"
+    },
+    "SentenceCase": {
+        "message": "句首大写"
+    },
+    "LowerCase": {
+        "message": "小写"
+    },
+    "FirstLetterUppercase": {
+        "message": "首字母大写"
+    },
+    "shouldCleanEmojis": {
+        "message": "移除表情符号"
+    },
+    "showABlankBox": {
+        "message": "显示空白框"
+    },
+    "Start": {
+        "message": "开头"
+    },
+    "Middle": {
+        "message": "中间"
+    },
+    "titleMaxLines": {
+        "message": "标题的最大行数"
+    },
+    "onAllPages": {
+        "message": "在所有页面",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "在除视频页面以外的所有页面",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "从不"
+    },
+    "moreAboutKAnonymity": {
+        "message": "关于 K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "fetchTimeout": {
+        "message": "数据获取超时时间（毫秒）"
     },
     "Enable": {
         "message": "启用"
@@ -1285,17 +1349,70 @@
     "Error": {
         "message": "错误"
     },
+    "ShowOriginal": {
+        "message": "显示原始详细信息"
+    },
+    "ShowModified": {
+        "message": "显示修改后的详细信息"
+    },
+    "showGuidelineHelp": {
+        "message": "显示帮助",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "howItWorks": {
+        "message": "工作原理"
+    },
     "privacyPolicy": {
         "message": "隐私政策"
     },
     "termsOfUse": {
         "message": "使用条款"
     },
+    "openSourceLicenses": {
+        "message": "开源许可证"
+    },
+    "replaceTitles": {
+        "message": "替换标题"
+    },
+    "replaceThumbnails": {
+        "message": "替换缩略图"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "显示用户提交的标题"
+    },
+    "NewConfiguration": {
+        "message": "新配置"
+    },
+    "DeleteConfiguration": {
+        "message": "删除配置"
+    },
+    "ChannelAllowlist": {
+        "message": "频道白名单"
+    },
+    "ConfigurationName": {
+        "message": "配置名称"
+    },
+    "requiresUblock": {
+        "message": "需要 uBlock Origin"
+    },
+    "dearrowLogoCredit": {
+        "message": "标志来自 Twemoji 并在 CC-BY 4.0 授权下使用"
+    },
     "freeTrialEnded": {
         "message": "您的免费试用已结束"
     },
     "startFreeTrial": {
         "message": "开启免费试用"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "免费试用不能投票",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "freeAccessComplete": {
+        "message": "恭喜！您现在可以免费使用 DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow 未启用"
     },
     "ActivateDeArrow": {
         "message": "启用 DeArrow"
