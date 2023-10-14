@@ -1356,6 +1356,12 @@
     "keepUnsubmitted": {
         "message": "Store Submitted Votes"
     },
+    "ignoreAbThumbnails": {
+        "message": "Never Use A/B Tested Thumbnails"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Channels can setup tests on their videos where YouTube will show different thumbnails to each person. This option will always use the first thumbnail to maintain consistency."
+    },
     "whatKeepUnsubmitted": {
         "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
     },
