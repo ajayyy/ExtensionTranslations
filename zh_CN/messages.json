@@ -1284,5 +1284,32 @@
     },
     "Error": {
         "message": "错误"
+    },
+    "privacyPolicy": {
+        "message": "隐私政策"
+    },
+    "termsOfUse": {
+        "message": "使用条款"
+    },
+    "freeTrialEnded": {
+        "message": "您的免费试用已结束"
+    },
+    "startFreeTrial": {
+        "message": "开启免费试用"
+    },
+    "ActivateDeArrow": {
+        "message": "启用 DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow 已启用"
+    },
+    "Close": {
+        "message": "关闭"
+    },
+    "ViewLicenseKey": {
+        "message": "查看许可证密钥"
+    },
+    "SharingIsCaring": {
+        "message": "分享即是关怀"
     }
 }
