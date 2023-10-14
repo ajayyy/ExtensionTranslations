@@ -178,7 +178,7 @@
         "message": "Ange användarnamn"
     },
     "copyPublicID": {
-        "message": "Kopiera publikt Användar-ID"
+        "message": "Kopiera offentligt användar-ID"
     },
     "copySegmentID": {
         "message": "Kopiera Segment-ID"
@@ -415,16 +415,16 @@
         "message": "Gå till status.sponsor.ajay.app för serverstatus."
     },
     "changeUserID": {
-        "message": "Importera/Exportera ditt privata Användar-ID"
+        "message": "Importera/exportera ditt privata användar-ID"
     },
     "whatChangeUserID": {
-        "message": "Detta ska hållas privat. Detta är som ett lösenord och ska inte delas med någon. Om andra får tag i det kan de utge sig för att vara dig. Om du letar efter ditt offentliga Användar-ID kan du klicka på urklippsikonen i popupen."
+        "message": "Detta ska hållas privat. Detta är som ett lösenord och ska inte delas med någon. Om andra får tag i det kan de utge sig för att vara dig. Om du letar efter ditt offentliga användar-ID kan du klicka på urklippsikonen i popupen."
     },
     "setUserID": {
-        "message": "Ange privat Användar-ID"
+        "message": "Ange privat användar-ID"
     },
     "userIDChangeWarning": {
-        "message": "Varning: Ändring av ditt Användar-ID är permanent. Är du säker att du vill göra detta? Se till att ta en säkerhetskopia av ditt gamla för säkerhets skull."
+        "message": "Varning: Ändring av ditt användar-ID är permanent. Är du säker att du vill göra detta? Se till att ta en säkerhetskopia av ditt gamla för säkerhets skull."
     },
     "createdBy": {
         "message": "Skapad av"
@@ -521,7 +521,7 @@
         "message": "Nu stöds även m.youtube.com"
     },
     "exportOptions": {
-        "message": "Importera/Exportera alla alternativen"
+        "message": "Importera/exportera alla alternativ"
     },
     "exportOptionsCopy": {
         "message": "Redigera/kopiera"
@@ -533,7 +533,7 @@
         "message": "Ladda från fil"
     },
     "whatExportOptions": {
-        "message": "Detta är hela din konfiguration i JSON-format. Det inkluderar ditt Användar-ID, så var noga med hur du hanterar informationen."
+        "message": "Detta är hela din konfiguration i JSON-format. Det inkluderar ditt användar-ID, så var noga med hur du hanterar informationen."
     },
     "setOptions": {
         "message": "Ange alternativ"
@@ -575,7 +575,7 @@
         "message": "Misslyckades med att skriva till urklippet"
     },
     "copyDebugInformationOptions": {
-        "message": "Kopierar information till urklippet för att dela med en utvecklare vid rapportering av ett fel / när en utvecklare ber om det. Känslig data som Användar-ID, vitlistade kanaler, och anpassad serveradress följer inte med. Däremot innehåller det information om useragent, webbläsare, operativsystem, och tilläggsversion. "
+        "message": "Kopierar information till urklippet för att dela med en utvecklare vid rapportering av ett fel eller när en utvecklare ber om det. Känsliga data som användar-ID, vitlistade kanaler, och anpassad serveradress har uteslutits. Däremot innehåller det information som användaragent, webbläsare, operativsystem och tilläggsversion. "
     },
     "copyDebugInformationComplete": {
         "message": "Felsökningsinformation har kopierats till urklippet. Ta bort eventuell information du inte vill dela med dig av. Spara informationen i en textfil eller klistra in den i en felrapport."
