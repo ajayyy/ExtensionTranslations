@@ -178,7 +178,7 @@
         "message": "Ange användarnamn"
     },
     "copyPublicID": {
-        "message": "Kopiera publikt Användar-ID"
+        "message": "Kopiera offentligt användar-ID"
     },
     "copySegmentID": {
         "message": "Kopiera Segment-ID"
@@ -220,7 +220,7 @@
         "message": "Aktivera spårning av antalet överhoppningar"
     },
     "whatViewTracking": {
-        "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid en användare har sparat andra och tillsammans med användarnas röster säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar de flesta inte den här inställningen så statistiken hålls tillförlitlig. :)"
+        "message": "Den här funktionen spårar vilka segment du har hoppat över för att låta användarna veta hur mycket tid deras bidrag har besparat andra och används tillsammans med användarnas röster för att säkerställa att spam inte kommer in i databasen. Detta tillägg skickar ett meddelande till servern varje gång du hoppar över ett segment. Förhoppningsvis ändrar de flesta inte den här inställningen så att statistiken hålls tillförlitlig. :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Aktivera spåra antalet hoppa över i privata/inkognitoflikar"
@@ -415,16 +415,16 @@
         "message": "Gå till status.sponsor.ajay.app för serverstatus."
     },
     "changeUserID": {
-        "message": "Importera/Exportera ditt privata Användar-ID"
+        "message": "Importera/exportera ditt privata användar-ID"
     },
     "whatChangeUserID": {
-        "message": "Detta ska hållas privat. Detta är som ett lösenord och ska inte delas med någon. Om andra får tag i det kan de utge sig för att vara dig. Om du letar efter ditt offentliga Användar-ID kan du klicka på urklippsikonen i popupen."
+        "message": "Detta ska hållas privat. Detta är som ett lösenord och ska inte delas med någon. Om andra får tag i det kan de utge sig för att vara dig. Om du letar efter ditt offentliga användar-ID kan du klicka på urklippsikonen i popupen."
     },
     "setUserID": {
-        "message": "Ange privat Användar-ID"
+        "message": "Ange privat användar-ID"
     },
     "userIDChangeWarning": {
-        "message": "Varning: Ändring av ditt Användar-ID är permanent. Är du säker att du vill göra detta? Se till att ta en säkerhetskopia av ditt gamla för säkerhets skull."
+        "message": "Varning: Ändring av ditt användar-ID är permanent. Är du säker att du vill göra detta? Se till att ta en säkerhetskopia av ditt gamla för säkerhets skull."
     },
     "createdBy": {
         "message": "Skapad av"
@@ -433,7 +433,7 @@
         "message": "Stöd för tredjeparts YouTube-webbplatser"
     },
     "supportOtherSitesDescription": {
-        "message": "Stöd tredjeparts YouTube-klienter. För att aktivera stöd måste du acceptera de extra behörigheterna.",
+        "message": "Stöd YouTube-klienter från tredje part. För att aktivera stöd måste du acceptera de extra behörigheterna.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
@@ -473,7 +473,7 @@
         "message": "Använd hoppa över manuellt när det finns en etikett för hela videon"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "För personer som vill titta på videon utan avbrott om den är fullt sponsrad eller självbefordran."
+        "message": "För personer som vill titta på videon utan avbrott om den är helt sponsrad eller egenreklam."
     },
     "skipNoticeDuration": {
         "message": "Antalet sekunder meddelandet för hoppa över ska visas:"
@@ -521,7 +521,7 @@
         "message": "Nu stöds även m.youtube.com"
     },
     "exportOptions": {
-        "message": "Importera/Exportera alla alternativen"
+        "message": "Importera/exportera alla alternativ"
     },
     "exportOptionsCopy": {
         "message": "Redigera/kopiera"
@@ -533,13 +533,13 @@
         "message": "Ladda från fil"
     },
     "whatExportOptions": {
-        "message": "Detta är hela din konfiguration i JSON-format. Det inkluderar ditt Användar-ID, så var noga med hur du hanterar informationen."
+        "message": "Detta är hela din konfiguration i JSON-format. Det inkluderar ditt användar-ID, så var noga med hur du hanterar informationen."
     },
     "setOptions": {
         "message": "Ange alternativ"
     },
     "exportOptionsWarning": {
-        "message": "Varning: Att ändra alternativen är permanent och kan förstöra din installation. Är du säker på att du vill göra detta? Se till och gör en säkerhetskopia för säkerhets skull."
+        "message": "Varning: Att ändra alternativen är permanent och kan förstöra din installation. Är du säker på att du vill göra detta? Se till att göra en säkerhetskopia för säkerhets skull."
     },
     "incorrectlyFormattedOptions": {
         "message": "Denna JSON är inte korrekt formaterad. Dina alternativ har inte ändrats."
@@ -575,7 +575,7 @@
         "message": "Misslyckades med att skriva till urklippet"
     },
     "copyDebugInformationOptions": {
-        "message": "Kopierar information till urklippet för att dela med en utvecklare vid rapportering av ett fel / när en utvecklare ber om det. Känslig data som Användar-ID, vitlistade kanaler, och anpassad serveradress följer inte med. Däremot innehåller det information om useragent, webbläsare, operativsystem, och tilläggsversion. "
+        "message": "Kopierar information till urklippet för att dela med en utvecklare vid rapportering av ett fel eller när en utvecklare ber om det. Känsliga data som användar-ID, vitlistade kanaler, och anpassad serveradress har uteslutits. Däremot innehåller det information som användaragent, webbläsare, operativsystem och tilläggsversion. "
     },
     "copyDebugInformationComplete": {
         "message": "Felsökningsinformation har kopierats till urklippet. Ta bort eventuell information du inte vill dela med dig av. Spara informationen i en textfil eller klistra in den i en felrapport."
@@ -601,7 +601,7 @@
         "message": "Sponsor"
     },
     "category_sponsor_description": {
-        "message": "Betald marknadsföring, betalda hänvisningar och direktannonser, men inte till självbefodran eller gratis shoutouts till skapare/webbplatser/produkter de gillar."
+        "message": "Betald marknadsföring, betalda hänvisningar och direktannonser. Inte för egenreklam eller gratis shoutouts till kreatörer/webbplatser/produkter de gillar."
     },
     "category_sponsor_guideline1": {
         "message": "Betalda kampanjer"
@@ -610,10 +610,10 @@
         "message": "Inte för donationer eller anpassade varor"
     },
     "category_selfpromo": {
-        "message": "Obetald/självbefodran"
+        "message": "Obetald reklam/egenreklam"
     },
     "category_selfpromo_description": {
-        "message": "Som \"sponsor\" men med undantag för obetald eller självbefodran. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
+        "message": "Som \"sponsor\" men för obetald reklam eller egenreklam. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
     },
     "category_selfpromo_guideline1": {
         "message": "Donationer, medlemskap och anpassade varor"
@@ -638,10 +638,10 @@
         "message": "Hela videon visar något med gratis eller subventionerad tillgång"
     },
     "category_interaction": {
-        "message": "Interaktionspåminnelse (Prenumerera)"
+        "message": "Interaktionspåminnelse (prenumerera)"
     },
     "category_interaction_description": {
-        "message": "När där är en kort påminnelse att gilla, prenumerera eller följa dem. Om det är långt eller om det gäller något specifikt bör det istället vara under självbefodran."
+        "message": "När det finns en kort påminnelse om att gilla, prenumerera eller följa dem. Om det varar länge eller handlar om något specifikt bör det istället kategoriseras som egenreklam."
     },
     "category_interaction_guideline1": {
         "message": "Korta påminnelser om att gilla, prenumerera eller följa"
@@ -656,7 +656,7 @@
         "message": "Interaktionspåminnelse"
     },
     "category_intro": {
-        "message": "Uppehåll/Introduktion"
+        "message": "Uppehåll/introduktion"
     },
     "category_intro_description": {
         "message": "Ett intervall utan faktiskt innehåll. Kan vara en paus, statisk ram, upprepande animation. Denna bör inte användas för övergångar som innehåller information."
@@ -671,7 +671,7 @@
         "message": "Inte för övergångar med information"
     },
     "category_outro": {
-        "message": "Slutkort/Eftertexter"
+        "message": "Slutkort/eftertexter"
     },
     "category_outro_description": {
         "message": "Eftertexter eller när YouTube-slutkort visas. Inte för slut med information."
@@ -680,7 +680,7 @@
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandstitt/Sammanfattning"
+        "message": "Förhandstitt/sammanfattning"
     },
     "category_preview_description": {
         "message": "Samling av klipp som visar vad som kommer upp i den här videon eller andra videos i en serie där all information upprepas senare i videon."
@@ -695,7 +695,7 @@
         "message": "Inte för sektioner som lägger till ytterligare innehåll"
     },
     "category_filler": {
-        "message": "Ämnesavvikelse/Skämt"
+        "message": "Ämnesavvikelse/skämt"
     },
     "category_filler_description": {
         "message": "Tangentiella scener endast för utfyllnad eller humor som inte krävs för att förstå det huvudsakliga innehållet i videon. Detta bör inte omfatta segment som tillhandahåller kontext eller bakgrundsdetaljer. Detta är en mycket aggressiv kategori avsedd för när du inte är på humör för \"kul\"."
@@ -976,7 +976,7 @@
         "message": "Dölj donationslänk"
     },
     "darkModeOptionsPage": {
-        "message": "Mörkt läge på Alternativsidan"
+        "message": "Mörkt läge på alternativsidan"
     },
     "helpPageThanksForInstalling": {
         "message": "Tack för att du installerade SponsorBlock."
@@ -1075,7 +1075,7 @@
         "message": "Använd mushjulet medan du håller muspekaren över redigeringsrutan för att snabbt justera tiden. Kombinationer av CTRL- eller SKIFT-tangenten kan användas för att finjustera tiden."
     },
     "categoryPillNewFeature": {
-        "message": "Nytt! Se när en video är helt sponsrad eller självbefodran"
+        "message": "Nytt! Se när en video är helt sponsrad eller egenreklam"
     },
     "dayAbbreviation": {
         "message": "d",
@@ -1098,7 +1098,7 @@
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
-        "message": "Säkerhetskopiera/Återställ",
+        "message": "Säkerhetskopiera/återställ",
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
@@ -1355,6 +1355,15 @@
     },
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
+    },
+    "ignoreAbThumbnails": {
+        "message": "Använd aldrig A/B-testade miniatyrbilder"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla konsekvens."
+    },
+    "abThumbnailsWarning": {
+        "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att miniatyrbilden kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
     },
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."

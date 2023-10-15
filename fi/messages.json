@@ -1356,6 +1356,15 @@
     "keepUnsubmitted": {
         "message": "Talleta lähetetyt äänet"
     },
+    "ignoreAbThumbnails": {
+        "message": "Älä koskaan käytä A/B-testattuja pienoiskuvia"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanavat voivat asettaa testejä videoilleen, joissa YouTube näyttää eri pienoiskuvat jokaiselle henkilölle. Tämä vaihtoehto käyttää aina ensimmäistä pikkukuvaa johdonmukaisuuden säilyttämiseksi."
+    },
+    "abThumbnailsWarning": {
+        "message": "Varoitus: Tällä videolla on tällä hetkellä pienoiskuvan A/B-testi. Tämä tarkoittaa, että pienoiskuva voi muuttua usein. Sinun ei todennäköisesti kannata äänestää alkuperäistä pienoiskuvaa tämän riskin takia."
+    },
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pienoiskuvat palvelimella olevien eniten äänestettyjen sijaan."
     },

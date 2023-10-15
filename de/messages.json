@@ -1356,6 +1356,15 @@
     "keepUnsubmitted": {
         "message": "Speichere eingereichte Abstimmungen"
     },
+    "ignoreAbThumbnails": {
+        "message": "A/B getestete Thumbnails nie verwenden"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanäle können Tests auf Ihren Videos einrichten, bei denen YouTube unterschiedliche Thumbnails an verschiedene Personen zeigt. Diese Option wird immer das erste Thumbnail verwenden."
+    },
+    "abThumbnailsWarning": {
+        "message": "Warnung: Dieses Video hat aktuell einen A/B Thumbnail-test aktiv. Dies bedeutet, dass das Thumbnail sich oft ändern kann. Du solltest wegen diesem Risiko eventuell nicht für das original Thumbnail voten."
+    },
     "whatKeepUnsubmitted": {
         "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
     },
