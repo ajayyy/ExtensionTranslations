@@ -1356,6 +1356,15 @@
     "keepUnsubmitted": {
         "message": "Zapisz przesłane głosy"
     },
+    "ignoreAbThumbnails": {
+        "message": "Nigdy nie używaj miniatur testowanych metodą A/B"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanały mogą konfigurować testy, podczas których YouTube wyświetla różne miniatury w zależności od osoby. Ta opcja zawsze będzie używać pierwszej miniatury, aby zachować spójność."
+    },
+    "abThumbnailsWarning": {
+        "message": "Uwaga: dla tego filmu wideo przeprowadzany jest obecnie test A/B miniatur. Oznacza to, że miniatura może często się zmieniać. Ze względu na ryzyko należy unikać głosowania na oryginalną miniaturę."
+    },
     "whatKeepUnsubmitted": {
         "message": "Zapisz wysłane głosy i pokazuj tytuły i miniatury, które wybrałeś zamiast najwyżej ocenionych na serwerze."
     },
