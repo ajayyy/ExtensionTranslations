@@ -379,6 +379,9 @@
     "audioNotification": {
         "message": "Notificação de áudio ao ignorar"
     },
+    "showTimeWithSkips": {
+        "message": "Mostrar tempo com saltos removidos"
+    },
     "showTimeWithSkipsDescription": {
         "message": "Esta vez aparece em parênteses ao lado da hora atual abaixo do Seek Bar. Isto mostra a duração total do vídeo menos quaisquer segmentos. Isto inclui segmentos marcados como apenas \"Mostrar em Seek Bar\"."
     },
@@ -408,8 +411,17 @@
     "statusReminder": {
         "message": "Verificar status.sponsor.ajay.app para estado do servidor."
     },
+    "changeUserID": {
+        "message": "Importar/Exportar Seu Usuário Privado"
+    },
+    "whatChangeUserID": {
+        "message": "Isto deve ser mantido em particular. Isto é como uma senha e não deve ser compartilhado com ninguém. Se alguém tiver isso, ele pode representá-lo. Se você está procurando a sua Id de usuário pública, clique no ícone da área de transferência no popup."
+    },
     "setUserID": {
         "message": "Definir UserID Privado"
+    },
+    "userIDChangeWarning": {
+        "message": "Aviso: A alteração do Id privado é permanente. Tem certeza de que deseja fazer isso? Certifique-se de fazer um backup de seu antigo caso desejado."
     },
     "createdBy": {
         "message": "Criado por"
@@ -427,6 +439,9 @@
     "optionsInfo": {
         "message": "Habilitar suporte convidado, desabilitar pulo automático, ocultar botões e muito mais."
     },
+    "addInvidiousInstance": {
+        "message": "Adicionar instância de cliente de terceiros"
+    },
     "addInvidiousInstanceDescription": {
         "message": "Adicione uma instância personalizada. Isso deve ser formatado APENAS com o domínio. Exemplo: invidious.ajay.app"
     },
@@ -435,6 +450,18 @@
     },
     "addInvidiousInstanceError": {
         "message": "Este é um domínio inválido. Isto deve APENAS incluir a parte do domínio. Exemplo: invidious.ajay.app"
+    },
+    "resetInvidiousInstanceAlert": {
+        "message": "Você está prestes a redefinir a lista de instância Invidiosa"
+    },
+    "currentInstances": {
+        "message": "Instâncias Atuais:"
+    },
+    "minDurationDescription": {
+        "message": "Segmentos menores que o valor definido não serão ignorados ou mostrados no jogador."
+    },
+    "enableManualSkipOnFullVideo": {
+        "message": "Usar pule manual quando existir um rótulo completo de vídeo"
     },
     "save": {
         "message": "Guardar"
@@ -462,6 +489,9 @@
     },
     "setOptions": {
         "message": "Definir opções"
+    },
+    "confirmNoticeTitle": {
+        "message": "Enviar Segmento"
     },
     "submit": {
         "message": "Enviar"
