@@ -1360,7 +1360,7 @@
         "message": "Använd aldrig A/B-testade miniatyrbilder"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla konsekvens."
+        "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla regelbundenhet."
     },
     "abThumbnailsWarning": {
         "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att den kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
