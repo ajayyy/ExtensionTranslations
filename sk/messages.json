@@ -1289,6 +1289,12 @@
     "Middle": {
         "message": "Stred"
     },
+    "ignoreAbThumbnails": {
+        "message": "Nepoužívať náhľady A/B testovania"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanály môžu pre videá používať test, pri ktorom sa každému používateľovi zobrazí iný náhľad. Toto nastavanie zobrazí vždy prvý náhľad."
+    },
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
     },
