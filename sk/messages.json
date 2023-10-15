@@ -1295,6 +1295,9 @@
     "ignoreAbThumbnailsDescription": {
         "message": "Kanály môžu pre videá používať test, pri ktorom sa každému používateľovi zobrazí iný náhľad. Toto nastavanie zobrazí vždy prvý náhľad."
     },
+    "abThumbnailsWarning": {
+        "message": "Varovanie: Toto video používa náhľady A/B testovania. Znamená to, že sa môžu meniť. Asi by ste kvôli tomu nemali hlasovať za pôvodný náhľad."
+    },
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
     },
