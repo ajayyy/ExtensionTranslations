@@ -1363,7 +1363,7 @@
         "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla konsekvens."
     },
     "abThumbnailsWarning": {
-        "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att miniatyrbilden kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
+        "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att den kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
     },
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."
