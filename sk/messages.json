@@ -1062,6 +1062,10 @@
     "categoryPillNewFeature": {
         "message": "Nové! Zistite, kedy je video kompletne sponzorované alebo vlastná propagácia"
     },
+    "yearAbbreviation": {
+        "message": "r.",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
