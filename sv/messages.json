@@ -181,7 +181,7 @@
         "message": "Kopiera offentligt användar-ID"
     },
     "copySegmentID": {
-        "message": "Kopiera Segment-ID"
+        "message": "Kopiera segment-ID"
     },
     "hideThis": {
         "message": "Dölj detta"
@@ -1106,7 +1106,7 @@
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
-        "message": "Diverse",
+        "message": "Övrigt",
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
@@ -1364,7 +1364,7 @@
         "message": "Använd aldrig A/B-testade miniatyrbilder"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla regelbundenhet."
+        "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla konsekvens."
     },
     "abThumbnailsWarning": {
         "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att den kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
