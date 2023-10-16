@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Uutta! Näe, kun video on kokonaan sponsoroitu tai itsensä mainostusta"
     },
+    "yearAbbreviation": {
+        "message": "v",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "vrk",
         "description": "100d"
