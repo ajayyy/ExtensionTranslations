@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Nowość! Zobacz, kiedy film jest w całości sponsorowany lub jest autopromocją"
     },
+    "yearAbbreviation": {
+        "message": "r",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
