@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Novinka! Nyní uvidíte, zda je video zcela sponzorované nebo celé obsahuje sebepropagaci"
     },
+    "yearAbbreviation": {
+        "message": " let",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
@@ -1355,6 +1359,15 @@
     },
     "keepUnsubmitted": {
         "message": "Ukládat odeslané hlasy"
+    },
+    "ignoreAbThumbnails": {
+        "message": "Nikdy nepoužívat A/B testované náhledy"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanály mohou nastavit testy na svých videích, kdy bude YouTube zobrazovat různý náhled pro každého uživatele. Tato možnost vždy použije první náhled pro zachování konzistence."
+    },
+    "abThumbnailsWarning": {
+        "message": "Varování: u tohoto videa momentálně běží A/B testování náhledů. To znamená, že se může náhled často měnit. Kvůli tomuto riziku nedoporučujeme hlasovat pro původní náhled."
     },
     "whatKeepUnsubmitted": {
         "message": "Ponechat odeslané hlasy po hlasování pro zobrazení názvů a náhledů, které jste zvolili vy, namísto nejlépe hodnocených na serveru."
