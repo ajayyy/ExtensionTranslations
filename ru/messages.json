@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Новинка! Расширение покажет, когда видео полностью является спонсорским или саморекламой"
     },
+    "yearAbbreviation": {
+        "message": "г.",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "д",
         "description": "100d"
