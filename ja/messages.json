@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "新機能！動画全体が広告もしくは自己宣伝かがわかります"
     },
+    "yearAbbreviation": {
+        "message": "年",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "日",
         "description": "100d"
