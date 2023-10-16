@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "새로운 기능! 이제 동영상 전체가 광고거나 자체 홍보인지 확인해 보세요"
     },
+    "yearAbbreviation": {
+        "message": "년",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "일",
         "description": "100d"
