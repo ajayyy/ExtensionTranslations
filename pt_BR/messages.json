@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Novo! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
     },
+    "yearAbbreviation": {
+        "message": "a",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
