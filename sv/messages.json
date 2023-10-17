@@ -377,10 +377,10 @@
         "message": "Aktivera hoppa över automatiskt"
     },
     "audioNotification": {
-        "message": "Ljudavisering vid hoppa över"
+        "message": "Ljudavisering vid överhoppning"
     },
     "audioNotificationDescription": {
-        "message": "Ljudavisering vid hoppa över kommer att spela upp ett ljud när ett segment hoppas över. Om inaktiverad (eller om hoppa över automatiskt är inaktiverat), kommer inget ljud att spelas upp."
+        "message": "Ljudavisering vid överhoppning kommer att spela upp ett ljud när ett segment hoppas över. Om alternativet är inaktiverat (eller om automatisk överhoppning har inaktiverats), kommer inget ljud att spelas upp."
     },
     "showTimeWithSkips": {
         "message": "Visa tiden med det överhoppade borttaget"
@@ -479,7 +479,7 @@
         "message": "Antalet sekunder meddelandet för hoppa över ska visas:"
     },
     "skipNoticeDurationDescription": {
-        "message": "Meddelandet om att hoppa över kommer att visas på skärmen åtminstone så här många sekunder. För manuell överhoppning kan det visas längre."
+        "message": "Överhoppningsmeddelanden kommer att visas på skärmen i minst så här många sekunder. För manuell överhoppning kan det visas längre."
     },
     "shortCheck": {
         "message": "Följande inskickning är kortare än ditt minstavärde i alternativen. Det skulle kunna betyda att det redan är inskickat och bara ignorerat på grund av detta alternativ. Är du säker på att du vill skicka in?"
@@ -488,7 +488,7 @@
         "message": "Att skicka in på en aktiv liveström eller premiär är inte tillåtet. Vänta tills den är färdig, uppdatera sedan sidan och kontrollera att segmenten fortfarande är giltiga."
     },
     "showUploadButton": {
-        "message": "Visa uppladdningsknapp"
+        "message": "Visa uppladdningsknappen"
     },
     "customServerAddress": {
         "message": "Serveradress för SponsorBlock"
