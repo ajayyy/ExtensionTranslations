@@ -199,7 +199,7 @@
         "message": "Detta döljer knapparna på YouTube-spelaren som du skickar in överhoppade segment med."
     },
     "showSkipButton": {
-        "message": "Behåll knappen hoppa till höjdpunkt på spelaren"
+        "message": "Behåll knappen Hoppa till höjdpunkt på spelaren"
     },
     "showInfoButton": {
         "message": "Visa infoknappen på YouTube-spelaren"
@@ -208,7 +208,7 @@
         "message": "Dölj infoknappen på YouTube-spelaren"
     },
     "autoHideInfoButton": {
-        "message": "Dölj informationsknappen automatiskt"
+        "message": "Dölj infoknappen automatiskt"
     },
     "hideDeleteButton": {
         "message": "Dölj borttagningsknappen på YouTube-spelaren"
@@ -857,7 +857,7 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "dold: rösta ner"
+        "message": "dold: nedröstning"
     },
     "hiddenDueToDuration": {
         "message": "dold: för kort"
@@ -1110,7 +1110,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Utseende på meddelandet för hoppa över",
+        "message": "Utseende på överhoppningsmeddelanden",
         "description": "Option label"
     },
     "unbind": {
