@@ -199,7 +199,7 @@
         "message": "Ово сакрива дугмад која се појављују на YouTube плејеру за слање сегмената за прескакање."
     },
     "showSkipButton": {
-        "message": "Задржи дугме за прескакање на истакнути део видео снимка на плејеру"
+        "message": "Задржи дугме „Прескочити до „Истакнуто”” на плејеру"
     },
     "showInfoButton": {
         "message": "Прикажи дугме за информације на YouTube плејеру"
@@ -355,7 +355,7 @@
         "message": "Утишати {0}?"
     },
     "skip_to_category": {
-        "message": "Прескочити до {0}?",
+        "message": "Прескочити до „{0}”?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
@@ -367,7 +367,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "Прескочено до {0}",
+        "message": "Прескочено до „{0}”",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -635,7 +635,7 @@
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Цео видео приказује нешто са бесплатним или субвенционисаним приступом"
+        "message": "Цео видео снимак приказује нешто са бесплатним или субвенционисаним приступом"
     },
     "category_interaction": {
         "message": "Подсетник о интеракцији (праћење)"
@@ -801,7 +801,7 @@
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Прикажи ознаке и на сличицама видео снимка",
+        "message": "Прикажи ознаке и на сличицама видео снимака",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
@@ -933,10 +933,10 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Овај сегмент је велики. Ако је цео видео о једној теми, промените са „Прескочи” на „Цео видео”. Погледајте смернице за више информација."
+        "message": "Овај сегмент је велики. Ако је цео видео снимак о једној теми, промените са „Прескочи” на „Цео видео снимак”. Погледајте смернице за више информација."
     },
     "categoryPillTitleText": {
-        "message": "Цео овај видео је означен као ова категорија и превише је чврсто интегрисан да би се могао одвојити"
+        "message": "Цео овај видео снимак је означен као ова категорија и превише је чврсто интегрисан да би се могао одвојити"
     },
     "chapterNameTooltipWarning": {
         "message": "Једно од ваших назива поглавља је слично категорији. Уместо тога, требало би да користите категорије када је то могуће."
