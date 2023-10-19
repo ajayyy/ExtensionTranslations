@@ -268,13 +268,13 @@
         "message": "Litet meddelande för hoppa över automatiskt"
     },
     "noticeVisibilityMode2": {
-        "message": "Alla meddelanden är små"
+        "message": "Alla överhoppningsmeddelanden är små"
     },
     "noticeVisibilityMode3": {
-        "message": "Tonat meddelande för hoppa över automatiskt"
+        "message": "Tonade meddelanden för automatisk överhoppning"
     },
     "noticeVisibilityMode4": {
-        "message": "Tonat meddelande"
+        "message": "Alla överhoppningsmeddelanden är tonade"
     },
     "longDescription": {
         "message": "SponsorBlock låter dig hoppa över sponsormeddelanden, introduktioner, eftertexter, prenumerationspåminnelser och andra irriterande delar av YouTube-videor. SponsorBlock är ett crowdsourced webbläsartillägg som låter vem som helst att skicka in start- och sluttid på sponsorsegment och andra segment av YouTube-videor. När en person skickar in denna information kommer alla andra som har detta tillägg installerat att hoppa över det sponsrade segmentet. Du kan även hoppa över icke-musikavsnitt i musikvideor.",
@@ -359,7 +359,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "{0} överhoppad",
+        "message": "{0} hoppades över",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -367,7 +367,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "Hoppat till {0}",
+        "message": "Hoppade till {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -476,7 +476,7 @@
         "message": "För personer som vill titta på videon utan avbrott om den är helt sponsrad eller egenreklam."
     },
     "skipNoticeDuration": {
-        "message": "Antalet sekunder meddelandet för hoppa över ska visas:"
+        "message": "Antalet sekunder överhoppningsmeddelanden ska visas:"
     },
     "skipNoticeDurationDescription": {
         "message": "Överhoppningsmeddelanden kommer att visas på skärmen i minst så här många sekunder. För manuell överhoppning kan det visas längre."
