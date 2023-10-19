@@ -262,10 +262,10 @@
         "message": "Visa kategorihjälp"
     },
     "noticeVisibilityMode0": {
-        "message": "Fullstorlek"
+        "message": "Överhoppningsmeddelanden i full storlek"
     },
     "noticeVisibilityMode1": {
-        "message": "Litet meddelande för hoppa över automatiskt"
+        "message": "Små meddelanden för automatisk överhoppning"
     },
     "noticeVisibilityMode2": {
         "message": "Alla överhoppningsmeddelanden är små"
