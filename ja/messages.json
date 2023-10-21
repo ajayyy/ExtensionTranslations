@@ -277,7 +277,7 @@
         "message": "常に透過タイプのスキップ通知"
     },
     "longDescription": {
-        "message": "SponsorBlockはスポンサー、イントロ、アウトロ、チャンネル登録のお願いなど、YouTube動画の煩わしい部分をスキップします。SponsorBlockはYouTube動画のスポンサー付きセグメントなどの開始時間と終了時間を誰でも投稿できる、クラウドソースのブラウザ拡張機能です。一人がセグメントの情報を送信すると、この拡張機能を使用している他の全員が、スポンサー付きセグメントをスキップできるようになります。また、ミュージックビデオの音楽がない部分をスキップすることもできます。",
+        "message": "SponsorBlock は、スポンサー、イントロ、アウトロ、登録リマインダー、および他の YouTube 動画の煩わしい部分をスキップできるようにするものです。 SponsorBlock は、誰でもスポンサーセグメントやYouTube動画の他のセグメントの開始時間と終了時間を送信できるクラウドソーシングのブラウザ拡張機能です。 1人がこの情報を送信すると、この拡張機能を使用している全員が、スポンサーセグメントをスキップできるようになります。 ミュージックビデオの音楽以外のセクションもスキップできます。",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -380,7 +380,7 @@
         "message": "スキップ時に通知音を鳴らす"
     },
     "audioNotificationDescription": {
-        "message": "セグメントがスキップされた時に音を鳴らします。 無効 (もしくは自動スキップが無効) の場合、音は再生されません。"
+        "message": "セグメントがスキップされた時に音を鳴らします。 無効 (もしくは自動スキップが無効) の場合、音は鳴りません。"
     },
     "showTimeWithSkips": {
         "message": "スキップした分を除いた時間を表示する"
@@ -455,7 +455,7 @@
         "message": "無効なドメイン名です。ドメイン部分だけを含めてください。例: invidious.ajay.app"
     },
     "resetInvidiousInstance": {
-        "message": "Invidiousインスタンス一覧を初期化"
+        "message": "Invidious インスタンス一覧をリセット"
     },
     "resetInvidiousInstanceAlert": {
         "message": "Invidiousインスタンス一覧を初期化しようとしています"
