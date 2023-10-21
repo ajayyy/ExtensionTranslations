@@ -211,7 +211,7 @@
         "message": "情報ボタンを自動的に隠す"
     },
     "hideDeleteButton": {
-        "message": "YouTube プレーヤーに削除ボタンを表示しない"
+        "message": "YouTubeプレイヤーに削除ボタンを表示しない"
     },
     "showDeleteButton": {
         "message": "YouTubeプレイヤーに削除ボタンを表示"
@@ -277,7 +277,7 @@
         "message": "常に透過タイプのスキップ通知"
     },
     "longDescription": {
-        "message": "SponsorBlock は、スポンサー、イントロ、アウトロ、登録リマインダー、および他の YouTube 動画の煩わしい部分をスキップできるようにするものです。 SponsorBlock は、誰でもスポンサーセグメントやYouTube動画の他のセグメントの開始時間と終了時間を送信できるクラウドソーシングのブラウザ拡張機能です。 1人がこの情報を送信すると、この拡張機能を使用している全員が、スポンサーセグメントをスキップできるようになります。 ミュージックビデオの音楽以外のセクションもスキップできます。",
+        "message": "SponsorBlockはスポンサー、イントロ、アウトロ、チャンネル登録のお願いなど、YouTube動画の煩わしい部分をスキップします。SponsorBlockはYouTube動画のスポンサー付きセグメントなどの開始時間と終了時間を誰でも投稿できる、クラウドソースのブラウザ拡張機能です。一人がセグメントの情報を送信すると、この拡張機能を使用している他の全員が、スポンサー付きセグメントをスキップできるようになります。また、ミュージックビデオの音楽がない部分をスキップすることもできます。",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -367,7 +367,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "{0}までスキップしました",
+        "message": "{0}にスキップしました",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -455,7 +455,7 @@
         "message": "無効なドメイン名です。ドメイン部分だけを含めてください。例: invidious.ajay.app"
     },
     "resetInvidiousInstance": {
-        "message": "Invidious インスタンス一覧をリセット"
+        "message": "Invidiousインスタンス一覧を再設定"
     },
     "resetInvidiousInstanceAlert": {
         "message": "Invidiousインスタンス一覧を初期化しようとしています"
@@ -689,7 +689,7 @@
         "message": "後で登場する場面や将来の場面の切り抜き"
     },
     "category_preview_guideline2": {
-        "message": "前回の動画のあらすじ"
+        "message": "以前の動画のあらすじ"
     },
     "category_preview_guideline3": {
         "message": "新たなコンテンツを含むセクションには使用しない"
