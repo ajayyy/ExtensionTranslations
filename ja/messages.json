@@ -211,7 +211,7 @@
         "message": "情報ボタンを自動的に隠す"
     },
     "hideDeleteButton": {
-        "message": "YouTubeプレイヤーに削除ボタンを表示しない"
+        "message": "YouTube プレーヤーに削除ボタンを表示しない"
     },
     "showDeleteButton": {
         "message": "YouTubeプレイヤーに削除ボタンを表示"
