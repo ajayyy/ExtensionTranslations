@@ -625,10 +625,10 @@
         "message": "企業がデザインした製品やグッズには使わない"
     },
     "category_exclusive_access": {
-        "message": "限定アクセス"
+        "message": "利用制限のある話題"
     },
     "category_exclusive_access_description": {
-        "message": "動画全体に対してのみ付与できます。無償または補助金を受けて、製品、サービス、場所を紹介する動画に使用。"
+        "message": "動画全体に対してのみ付与できます。無償または補助金を受けて、製品、サービス、場所を利用している動画に使用。"
     },
     "category_exclusive_access_pill": {
         "message": "この動画は無償または補助金を受けて利用した製品、サービス、または場所を紹介するものです",
