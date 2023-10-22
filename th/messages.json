@@ -80,6 +80,10 @@
     "bracketStart": {
         "message": "(เริ่ม)"
     },
+    "yearAbbreviation": {
+        "message": "ปี",
+        "description": "100y"
+    },
     "titleMaxLines": {
         "message": "จำนวนบรรทัดข้อความสำหรับ ชื่อ ถึงขีดจำกัด"
     }
