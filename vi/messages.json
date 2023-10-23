@@ -1164,7 +1164,7 @@
         "message": "Viết hoa chữ cái đầu tiên"
     },
     "shouldCleanEmojis": {
-        "message": "Bỏ Emoji"
+        "message": "Xoá biểu tượng cảm xúc"
     },
     "thumbnailFallbackOption": {
         "message": "Khi không có hình thu nhỏ nào được gửi"
@@ -1227,6 +1227,21 @@
     },
     "Enable": {
         "message": "Bật"
+    },
+    "replaceTitles": {
+        "message": "Thay thế tiêu đề"
+    },
+    "replaceThumbnails": {
+        "message": "Thay thế hình thu nhỏ"
+    },
+    "freeTrialStarted": {
+        "message": "Thời gian dùng thử miễn phí của bạn đã bắt đầu. Hãy truy cập vào YouTube để thử nghiệm"
+    },
+    "freeTrialEnded": {
+        "message": "Thời gian dùng thử miễn phí của bạn đã kết thúc"
+    },
+    "freeTrialPrompt": {
+        "message": "Nếu bạn muốn dùng thử trong một giờ, bạn có thể bắt đầu dùng thử miễn phí bằng nút bên dưới."
     },
     "startFreeTrial": {
         "message": "Bắt đầu dùng thử miễn phí"
