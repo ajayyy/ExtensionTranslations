@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Új! Láthatod, ha egy videó teljes egészében szponzorált, vagy önpromóció"
     },
+    "yearAbbreviation": {
+        "message": "év",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "n",
         "description": "100d"
@@ -1355,6 +1359,15 @@
     },
     "keepUnsubmitted": {
         "message": "Beküldött szavazatok tárolása"
+    },
+    "ignoreAbThumbnails": {
+        "message": "Soha ne használjon A/B tesztben résztvevő indexképeket"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "A csatornák teszteket végezhetnek a videóikon, amik során a YouTube különböző felhasználóknak különböző indexképeket fog mutatni. Ez a beállítás mindig az első indexképet fogja használni az állandóság kedvéért."
+    },
+    "abThumbnailsWarning": {
+        "message": "Figyelem: Ezen a videón éppen indexkép-A/B teszt fut. Ez azt jelenti, hogy az indexkép gyakran változhat. Ezen kockázat miatt nem ajánlatos az eredeti indexképre szavazni."
     },
     "whatKeepUnsubmitted": {
         "message": "Megtartja a beküldött szavazatokat a szavazás után, hogy mindig azok a címek és indexképek jelenjenek meg, amiket te választottál, a szerver szerint legjobbra értékeltek helyett."

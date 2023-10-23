@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Uutta! Näe, kun video on kokonaan sponsoroitu tai itsensä mainostusta"
     },
+    "yearAbbreviation": {
+        "message": "v",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "vrk",
         "description": "100d"
@@ -1357,13 +1361,13 @@
         "message": "Talleta lähetetyt äänet"
     },
     "ignoreAbThumbnails": {
-        "message": "Älä koskaan käytä A/B-testattuja pienoiskuvia"
+        "message": "Älä käytä A/B-testattuja pienoiskuvia koskaan"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanavat voivat asettaa testejä videoilleen, joissa YouTube näyttää eri pienoiskuvat jokaiselle henkilölle. Tämä vaihtoehto käyttää aina ensimmäistä pikkukuvaa johdonmukaisuuden säilyttämiseksi."
+        "message": "Kanavat voivat määrittää videoilleen testejä, joissa YouTube näyttää eri pienoiskuvat jokaiselle henkilölle. Tämä vaihtoehto käyttää yhtenäisyyden säilyttämiseksi aina ensimmäistä pienoiskuvaa."
     },
     "abThumbnailsWarning": {
-        "message": "Varoitus: Tällä videolla on tällä hetkellä pienoiskuvan A/B-testi. Tämä tarkoittaa, että pienoiskuva voi muuttua usein. Sinun ei todennäköisesti kannata äänestää alkuperäistä pienoiskuvaa tämän riskin takia."
+        "message": "Varoitus: Videolle suoritetaan parhaillaan pienoiskuvien A/B-testausta, jonka vuoksi pienoiskuva voi vaihtua usein. Tämän riskitekijän vuoksi sinun ei todennäköisesti kannata äänestää alkuperäistä pienoiskuvaa."
     },
     "whatKeepUnsubmitted": {
         "message": "Pidä lähetetyt äänet äänestyksen jälkeen näyttääksesi valitsemasi otsikot ja pienoiskuvat palvelimella olevien eniten äänestettyjen sijaan."

@@ -181,7 +181,7 @@
         "message": "Kopiera offentligt användar-ID"
     },
     "copySegmentID": {
-        "message": "Kopiera Segment-ID"
+        "message": "Kopiera segment-ID"
     },
     "hideThis": {
         "message": "Dölj detta"
@@ -199,7 +199,7 @@
         "message": "Detta döljer knapparna på YouTube-spelaren som du skickar in överhoppade segment med."
     },
     "showSkipButton": {
-        "message": "Behåll knappen hoppa till höjdpunkt på spelaren"
+        "message": "Behåll knappen Hoppa till höjdpunkt på spelaren"
     },
     "showInfoButton": {
         "message": "Visa infoknappen på YouTube-spelaren"
@@ -208,7 +208,7 @@
         "message": "Dölj infoknappen på YouTube-spelaren"
     },
     "autoHideInfoButton": {
-        "message": "Dölj informationsknappen automatiskt"
+        "message": "Dölj infoknappen automatiskt"
     },
     "hideDeleteButton": {
         "message": "Dölj borttagningsknappen på YouTube-spelaren"
@@ -262,19 +262,19 @@
         "message": "Visa kategorihjälp"
     },
     "noticeVisibilityMode0": {
-        "message": "Fullstorlek"
+        "message": "Överhoppningsmeddelanden i full storlek"
     },
     "noticeVisibilityMode1": {
-        "message": "Litet meddelande för hoppa över automatiskt"
+        "message": "Små meddelanden för automatisk överhoppning"
     },
     "noticeVisibilityMode2": {
-        "message": "Alla meddelanden är små"
+        "message": "Alla överhoppningsmeddelanden är små"
     },
     "noticeVisibilityMode3": {
-        "message": "Tonat meddelande för hoppa över automatiskt"
+        "message": "Tonade meddelanden för automatisk överhoppning"
     },
     "noticeVisibilityMode4": {
-        "message": "Tonat meddelande"
+        "message": "Alla överhoppningsmeddelanden är tonade"
     },
     "longDescription": {
         "message": "SponsorBlock låter dig hoppa över sponsormeddelanden, introduktioner, eftertexter, prenumerationspåminnelser och andra irriterande delar av YouTube-videor. SponsorBlock är ett crowdsourced webbläsartillägg som låter vem som helst att skicka in start- och sluttid på sponsorsegment och andra segment av YouTube-videor. När en person skickar in denna information kommer alla andra som har detta tillägg installerat att hoppa över det sponsrade segmentet. Du kan även hoppa över icke-musikavsnitt i musikvideor.",
@@ -359,7 +359,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "{0} överhoppad",
+        "message": "{0} hoppades över",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -367,7 +367,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "Hoppat till {0}",
+        "message": "Hoppade till {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -377,10 +377,10 @@
         "message": "Aktivera hoppa över automatiskt"
     },
     "audioNotification": {
-        "message": "Ljudavisering vid hoppa över"
+        "message": "Ljudavisering vid överhoppning"
     },
     "audioNotificationDescription": {
-        "message": "Ljudavisering vid hoppa över kommer att spela upp ett ljud när ett segment hoppas över. Om inaktiverad (eller om hoppa över automatiskt är inaktiverat), kommer inget ljud att spelas upp."
+        "message": "Ljudavisering vid överhoppning kommer att spela upp ett ljud när ett segment hoppas över. Om alternativet är inaktiverat (eller om automatisk överhoppning har inaktiverats), kommer inget ljud att spelas upp."
     },
     "showTimeWithSkips": {
         "message": "Visa tiden med det överhoppade borttaget"
@@ -476,10 +476,10 @@
         "message": "För personer som vill titta på videon utan avbrott om den är helt sponsrad eller egenreklam."
     },
     "skipNoticeDuration": {
-        "message": "Antalet sekunder meddelandet för hoppa över ska visas:"
+        "message": "Antalet sekunder överhoppningsmeddelanden ska visas:"
     },
     "skipNoticeDurationDescription": {
-        "message": "Meddelandet om att hoppa över kommer att visas på skärmen åtminstone så här många sekunder. För manuell överhoppning kan det visas längre."
+        "message": "Överhoppningsmeddelanden kommer att visas på skärmen i minst så här många sekunder. För manuell överhoppning kan det visas längre."
     },
     "shortCheck": {
         "message": "Följande inskickning är kortare än ditt minstavärde i alternativen. Det skulle kunna betyda att det redan är inskickat och bara ignorerat på grund av detta alternativ. Är du säker på att du vill skicka in?"
@@ -488,7 +488,7 @@
         "message": "Att skicka in på en aktiv liveström eller premiär är inte tillåtet. Vänta tills den är färdig, uppdatera sedan sidan och kontrollera att segmenten fortfarande är giltiga."
     },
     "showUploadButton": {
-        "message": "Visa uppladdningsknapp"
+        "message": "Visa uppladdningsknappen"
     },
     "customServerAddress": {
         "message": "Serveradress för SponsorBlock"
@@ -683,7 +683,7 @@
         "message": "Förhandstitt/sammanfattning"
     },
     "category_preview_description": {
-        "message": "Samling av klipp som visar vad som kommer upp i den här videon eller andra videos i en serie där all information upprepas senare i videon."
+        "message": "Samling av klipp som visar vad som kommer i den här videon eller andra videor i en serie där all information upprepas senare i videon."
     },
     "category_preview_guideline1": {
         "message": "Klipp som visas senare, eller i en framtida video"
@@ -857,7 +857,7 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "dold: rösta ner"
+        "message": "dold: nedröstning"
     },
     "hiddenDueToDuration": {
         "message": "dold: för kort"
@@ -923,7 +923,7 @@
         "message": "Kategorier finns här!"
     },
     "categoryUpdate2": {
-        "message": "Öppna alternativen för att hoppa över intros, outros, varor, osv."
+        "message": "Öppna alternativen för att hoppa över intron, outron, varor osv."
     },
     "help": {
         "message": "Hjälp"
@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "Nytt! Se när en video är helt sponsrad eller egenreklam"
     },
+    "yearAbbreviation": {
+        "message": "år",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
@@ -1102,11 +1106,11 @@
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
-        "message": "Diverse",
+        "message": "Övrigt",
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Utseende på meddelandet för hoppa över",
+        "message": "Utseende på överhoppningsmeddelanden",
         "description": "Option label"
     },
     "unbind": {
@@ -1196,7 +1200,7 @@
         "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
     },
     "unsubmittedSegmentsSingular": {
-        "message": "ej inskickade segment",
+        "message": "ej inskickat segment",
         "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
     },
     "unsubmittedSegmentsPlural": {
@@ -1363,7 +1367,7 @@
         "message": "Kanaler kan ordna tester på sina videor där YouTube visar olika miniatyrbilder för varje person. Detta alternativ använder alltid den första miniatyrbilden för att upprätthålla konsekvens."
     },
     "abThumbnailsWarning": {
-        "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att miniatyrbilden kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
+        "message": "Varning: Den här videon kör för närvarande ett A/B-test för miniatyrbilden, vilket innebär att den kan komma att ändras ofta. På grund av denna risk bör du nog inte rösta på den ursprungliga miniatyrbilden."
     },
     "whatKeepUnsubmitted": {
         "message": "Behåll inskickade röster efter att ha röstat för att visa de titlar och miniatyrer som du valde i stället för den högst röstade på servern."

@@ -1077,6 +1077,10 @@
     "categoryPillNewFeature": {
         "message": "¡Nuevo! Mira cuando un video es enteramente un sponsor o una promoción propia"
     },
+    "yearAbbreviation": {
+        "message": "a",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
@@ -1355,6 +1359,15 @@
     },
     "keepUnsubmitted": {
         "message": "Almacenar votos enviados"
+    },
+    "ignoreAbThumbnails": {
+        "message": "Nunca utilice miniaturas en prueba A/B"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Los canales pueden realizar pruebas en sus vídeos en las que YouTube mostrará miniaturas diferentes a cada persona. Esta opción utilizará siempre la primera miniatura para mantener la consistencia."
+    },
+    "abThumbnailsWarning": {
+        "message": "Advertencia: En este vídeo se está realizando una prueba A/B de miniaturas. Esto significa que la miniatura puede cambiar a menudo. Probablemente no deberías votar por la miniatura original debido a este riesgo."
     },
     "whatKeepUnsubmitted": {
         "message": "Mantenga los votos enviados después de la votación para mostrar los títulos y miniaturas que eligió en lugar de uno de los mejores votados en el servidor."
