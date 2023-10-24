@@ -244,7 +244,7 @@
         "message": "新しい動画ではセグメントを再取得する"
     },
     "whatRefetchWhenNotFound": {
-        "message": "動画がまだ新しくセグメントが見つからない場合は、動画を視聴している間、数分おきにセグメントを検索し続けます。"
+        "message": "動画が新しく、セグメントが見つからない場合は、視聴中の数分おきにセグメントを再取得します。"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "登録権限のないカテゴリーも登録メニューに表示する"
@@ -653,7 +653,7 @@
         "message": "一般的なプロモーションではなく、直接的な呼びかけのみに使用すること"
     },
     "category_interaction_short": {
-        "message": "動画の間に挿入される告知"
+        "message": "行動のお願い"
     },
     "category_intro": {
         "message": "合間 / 導入アニメ"
@@ -713,7 +713,7 @@
         "message": "主題の理解に必要な場面には使用しない"
     },
     "category_music_offtopic": {
-        "message": "音楽: 音楽以外のセクション"
+        "message": "音楽: 音楽ではない区間"
     },
     "category_music_offtopic_description": {
         "message": "ミュージックビデオでの使用に限ります。他のカテゴリーに含まれていないミュージックビデオのシーンにのみ使用してください。"
