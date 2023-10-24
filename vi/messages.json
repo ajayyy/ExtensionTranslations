@@ -497,13 +497,13 @@
         "message": "Địa chỉ SponsorBlock dùng để liên hệ với máy chủ.\nTrừ khi bạn có máy chủ riêng, bạn không nên thay đổi mục này."
     },
     "dataFetchingServerAddress": {
-        "message": "Địa Chỉ Máy Chủ Tìm Nạp Dữ Liệu"
+        "message": "Địa chỉ máy chủ tìm nạp dữ liệu"
     },
     "dataFetchingServerAddressDescription": {
         "message": "Địa chỉ dùng để liên lạc với máy chủ tìm nạp dữ liệu.\nTrừ khi bạn có máy chủ riêng, bạn không nên thay đổi mục này."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Địa Chỉ Máy Chủ Lưu Trữ Hình Thu Nhỏ"
+        "message": "Địa chỉ máy chủ lưu hình thu nhỏ"
     },
     "save": {
         "message": "Lưu"
@@ -1044,15 +1044,15 @@
         "message": "Mới! Xem khi nào video được tài trợ hoàn toàn hoặc tự quảng bá"
     },
     "yearAbbreviation": {
-        "message": "năm",
+        "message": " năm",
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "d",
+        "message": " ngày",
         "description": "100d"
     },
     "hourAbbreviation": {
-        "message": "h",
+        "message": " giờ",
         "description": "100h"
     },
     "optionsTabBehavior": {
@@ -1126,6 +1126,46 @@
         "message": "Ẩn các phân đoạn",
         "description": "Show/hide button for the unsubmitted segments list"
     },
+    "videoID": {
+        "message": "ID video",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "allowScrollingToEdit": {
+        "message": "Cho phép cuộn để chỉnh sửa thời gian"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds} giây",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Tiêu đề và Hình thu nhỏ tốt hơn trên YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Tiêu đề và hình thu nhỏ được đóng góp từ cộng đồng để mô tả nội dung video một cách chính xác và không gây giật gân",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Chọn mô tả chi tiết nhất"
+    },
+    "Original": {
+        "message": "Gốc"
+    },
+    "OriginalTitle": {
+        "message": "Tiêu đề gốc"
+    },
+    "CurrentTime": {
+        "message": "Thời điểm hiện tại"
+    },
+    "resetCustomTitle": {
+        "message": "Đặt lại tiêu đề về văn bản gốc"
+    },
+    "resetIcon": {
+        "message": "Đặt lại biểu tượng"
+    },
+    "Vote": {
+        "message": "Bình chọn"
+    },
     "TypeYourOwnTitleHere": {
         "message": "Nhập tiêu đề của bạn ở đây"
     },
@@ -1133,7 +1173,7 @@
         "message": "Video chưa sẵn sàng"
     },
     "FailedToRender": {
-        "message": "Kết xuất thất bại",
+        "message": "Tạo thất bại",
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
@@ -1141,11 +1181,11 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Các lỗi khi kết xuất",
+        "message": "Đã xảy ra ngoại lệ trong quá trình tạo",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
-        "message": "Không thể tải được",
+        "message": "Tải thất bại",
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
@@ -1155,7 +1195,7 @@
         "message": "Tắt"
     },
     "CapitalizeWords": {
-        "message": "Các Từ Viết Hoa"
+        "message": "Viết hoa chữ cái đầu từng từ"
     },
     "TitleCase": {
         "message": "Viết Hoa Từng Chữ"
@@ -1265,6 +1305,12 @@
     "showIconForFormattedTitles": {
         "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
+    "fetchTimeout": {
+        "message": "Thời gian chờ tìm nạp dữ liệu (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Hiện tiêu đề và hình thu nhỏ gốc nếu máy chủ không phản hồi trong khoảng thời gian này."
+    },
     "renderTimeout": {
         "message": "Thời gian chờ tạo hình thu nhỏ (ms)"
     },
@@ -1280,6 +1326,17 @@
     },
     "Enable": {
         "message": "Bật"
+    },
+    "Titles": {
+        "message": "Tiêu đề",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Hình thu nhỏ",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Lỗi"
     },
     "ShowOriginal": {
         "message": "Hiện chi tiết gốc"
