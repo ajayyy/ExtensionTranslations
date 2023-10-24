@@ -1240,6 +1240,9 @@
     "ShowOriginal": {
         "message": "Hiện chi tiết gốc"
     },
+    "ShowModified": {
+        "message": "Hiện chi tiết đã sửa đổi"
+    },
     "tip2": {
         "message": "Hãy nhìn vào tổng thể, đừng chỉ trả lời câu hỏi của tiêu đề gốc",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
@@ -1247,6 +1250,9 @@
     "tip5": {
         "message": "Viết hoa như một câu",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "defaultToOriginals": {
+        "message": "Mặc định hiển thị thông tin gốc của video"
     },
     "whatDefaultToOriginals": {
         "message": "Hiển thị tiêu đề và hình thu nhỏ gốc theo mặc định, nhưng sẽ có thêm một nút xuất hiện khi di chuột để xem tiêu đề và hình thu nhỏ tuỳ chỉnh."
@@ -1263,6 +1269,55 @@
     "whatUseCrowdsourcedTitles": {
         "message": "Nếu tắt, tiện ích vẫn sẽ định dạng tiêu đề nhưng sẽ không sử dụng các tiêu đề được đóng góp từ cộng đồng",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "DeleteConfiguration": {
+        "message": "Xoá cấu hình"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} tiêu đề và {thumbnails} hình thu nhỏ đã được thay thế kể từ khi bạn cài đặt tiện ích mở rộng này",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} tiêu đề ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} tiêu đề ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "và {thumbnails} hình thu nhỏ",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "và {thumbnails} hình thu nhỏ",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} đã được thay thế kể từ khi bạn cài đặt tiện ích mở rộng này",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Đếm số lần thay thế tiêu đề và hình thu nhỏ"
+    },
+    "countReplacementsDescription": {
+        "message": "Được sử dụng để cung cấp cho bạn số liệu thống kê trong cửa sổ bật lên.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Thêm một danh sách bộ lọc để chặn các khảo sát, kệ sản phẩm và các phần tử quảng cáo khác bằng yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Yêu cầu uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Đã xảy ra lỗi khi phát hiện ID video. Vui lòng thử làm mới trang trước khi gửi bình chọn để đảm bảo nó được gửi đúng video. Nếu lỗi này xảy ra nhiều lần, vui lòng gửi báo cáo về lỗi này cùng với các tiện ích mở rộng hoặc userscript khác mà bạn đã cài đặt thông qua GitHub, Discord hoặc Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo dựa trên Twemoji được cấp phép theo CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock không tương thích với tiện ích mở rộng \"Zoom to Fill\". Có nhiều lựa chọn thay thế khác mà bạn có thể sử dụng để SponsorBlock hoạt động bình thường."
     },
     "freeTrialStarted": {
         "message": "Thời gian dùng thử miễn phí của bạn đã bắt đầu. Hãy truy cập vào YouTube để thử nghiệm"
