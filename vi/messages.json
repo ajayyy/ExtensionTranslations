@@ -932,6 +932,9 @@
     "warningConfirmButton": {
         "message": "Tôi hiểu lí do này"
     },
+    "deArrowMessageRecieved": {
+        "message": "Bạn đã nhận được một lời khuyên từ người kiểm duyệt"
+    },
     "Donate": {
         "message": "Ủng hộ"
     },
@@ -1219,20 +1222,47 @@
     "titleMaxLinesDescription": {
         "message": "Tiêu đề video sẽ được trải dài trên số dòng này trong phần Đề xuất."
     },
+    "alwaysShowShowOriginalButton": {
+        "message": "Luôn hiển thị nút \"Hiện chi tiết gốc\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Nếu bạn luôn muốn biết liệu tiêu đề/hình thu nhỏ có bị thay đổi hay không, hãy bật tính năng này."
+    },
     "showOriginalOnHover": {
-        "message": "Hiện nguyên gốc khi di chuột qua"
+        "message": "Hiện chi tiết gốc khi di chuột qua"
     },
     "showIconForFormattedTitles": {
-        "message": "Hiện nút \"Hiển nguyên gốc\" cho các tiêu đề được định dạng tự động"
+        "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
     "Enable": {
         "message": "Bật"
+    },
+    "ShowOriginal": {
+        "message": "Hiện chi tiết gốc"
+    },
+    "tip2": {
+        "message": "Hãy nhìn vào tổng thể, đừng chỉ trả lời câu hỏi của tiêu đề gốc",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip5": {
+        "message": "Viết hoa như một câu",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Hiển thị tiêu đề và hình thu nhỏ gốc theo mặc định, nhưng sẽ có thêm một nút xuất hiện khi di chuột để xem tiêu đề và hình thu nhỏ tuỳ chỉnh."
     },
     "replaceTitles": {
         "message": "Thay thế tiêu đề"
     },
     "replaceThumbnails": {
         "message": "Thay thế hình thu nhỏ"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Sử dụng tiêu đề được đóng góp từ cộng đồng"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Nếu tắt, tiện ích vẫn sẽ định dạng tiêu đề nhưng sẽ không sử dụng các tiêu đề được đóng góp từ cộng đồng",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "freeTrialStarted": {
         "message": "Thời gian dùng thử miễn phí của bạn đã bắt đầu. Hãy truy cập vào YouTube để thử nghiệm"
