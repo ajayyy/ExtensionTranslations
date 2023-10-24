@@ -1104,6 +1104,9 @@
     "confirmResetToDefault": {
         "message": "Bạn chắc chắn muốn đặt lại cài đặt về mặc định? Điều này sẽ không thể hoàn tác được."
     },
+    "hideNewFeatureUpdates": {
+        "message": "Ẩn lời nhắc về các tính năng mới"
+    },
     "chooseACountry": {
         "message": "Chọn một quốc gia"
     },
@@ -1222,6 +1225,34 @@
     "titleMaxLinesDescription": {
         "message": "Tiêu đề video sẽ được trải dài trên số dòng này trong phần Đề xuất."
     },
+    "onAllPages": {
+        "message": "Trên tất cả các trang",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Trên tất cả các trang trừ trang video",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Không bao giờ"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Dịch vụ tạo hình thu nhỏ giúp tăng tốc đáng kể quá trình tạo hình thu nhỏ bằng cách gửi yêu cầu ẩn danh với ID video đến máy chủ từ xa. Sau đó, hình thu nhỏ sẽ được tạo hoặc được lấy từ bộ nhớ đệm nếu nó đã được tạo trước đó."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Nếu được sử dụng trên các trang video có thể tiềm ẩn việc rò rỉ các ID video không công khai đến máy chủ này. Đặt tuỳ chọn này thành \"Trên tất cả các trang trừ trang video\" sẽ tránh được vấn đề trên. Một lựa chọn khác là tự lưu trữ dịch vụ tạo hình thu nhỏ của riêng bạn."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Nếu việc sử dụng dịch vụ tạo hình thu nhỏ bị tắt, tất cả các yêu cầu sẽ sử dụng hệ thống truy vấn k-anonymity, điều này khiến máy chủ khó dự đoán video nào đã được tìm nạp và sẽ sử dụng dịch vụ tạo hình thu nhỏ cục bộ chậm hơn.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Mã nguồn dịch vụ tạo hình thu nhỏ"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Tìm hiểu thêm về K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "alwaysShowShowOriginalButton": {
         "message": "Luôn hiển thị nút \"Hiện chi tiết gốc\""
     },
@@ -1234,6 +1265,19 @@
     "showIconForFormattedTitles": {
         "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
+    "renderTimeout": {
+        "message": "Thời gian chờ tạo hình thu nhỏ (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Hiện hình thu nhỏ gốc nếu không thể tạo hình thu nhỏ trong khoảng thời gian này."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Thời gian chờ để bắt đầu tạo hình thu nhỏ cục bộ (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Nếu máy chủ mất quá nhiều thời gian để tạo hình thu nhỏ, hãy bắt đầu thử tạo một hình thu nhỏ cục bộ."
+    },
     "Enable": {
         "message": "Bật"
     },
@@ -1243,13 +1287,60 @@
     "ShowModified": {
         "message": "Hiện chi tiết đã sửa đổi"
     },
+    "FillerWarning": {
+        "message": "Cảnh báo: Đây là một danh mục cực kỳ khó. Rất có thể bạn sẽ phải bỏ qua một số nội dung hoặc đôi khi phải tắt nó. Xin lưu ý rằng nhiều video có tỉ lệ bỏ qua đến 50% hoặc nhiều hơn! Tuy nhiên, hãy nhớ rằng vẫn có những nguyên tắc cụ thể cần tuân thủ khi gửi.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Tham gia Discord hoặc Matrix để duy trì cuộc trò chuyện này vĩnh viễn",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Hiện trợ giúp cho Hướng dẫn",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Tránh biểu cảm khuôn mặt được phóng đại",
+        "description": "Referring to the thumbnail of a video"
+    },
     "tip2": {
         "message": "Hãy nhìn vào tổng thể, đừng chỉ trả lời câu hỏi của tiêu đề gốc",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
+    "tip3": {
+        "message": "Tránh mô tả các phản ứng đối với video (\"gây sốc\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Cung cấp đủ thông tin để đưa ra lựa chọn sáng suốt trước khi nhấp vào"
+    },
     "tip5": {
         "message": "Viết hoa như một câu",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Lưu ý: Cài đặt SponsorBlock của bạn đã được nhập tự động!"
+    },
+    "howItWorks": {
+        "message": "Cách thức hoạt động"
+    },
+    "discordPromotion": {
+        "message": "Hãy đến đóng góp, đưa ra một số đề xuất và trợ giúp trên {discord} hoặc trên {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Nếu bạn thích những gì tôi đã làm cho đến nay và muốn giúp đỡ tôi về mặt tài chính, đây là một đường liên kết"
+    },
+    "termsAgreement": {
+        "message": "Bằng cách sử dụng tiện ích mở rộng này, bạn đồng ý với {privacy-policy} và {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Chính sách quyền riêng tư"
+    },
+    "termsOfUse": {
+        "message": "Điều khoản sử dụng"
+    },
+    "openSourceLicenses": {
+        "message": "Giấy phép nguồn mở"
     },
     "defaultToOriginals": {
         "message": "Mặc định hiển thị thông tin gốc của video"
@@ -1270,8 +1361,47 @@
         "message": "Nếu tắt, tiện ích vẫn sẽ định dạng tiêu đề nhưng sẽ không sử dụng các tiêu đề được đóng góp từ cộng đồng",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
+    "areYouSureDeleteConfig": {
+        "message": "Bạn có chắc chắn muốn xóa cấu hình này không?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Cấu hình mới"
+    },
     "DeleteConfiguration": {
         "message": "Xoá cấu hình"
+    },
+    "ChannelAllowlist": {
+        "message": "Danh sách kênh cho phép"
+    },
+    "ConfigurationName": {
+        "message": "Tên cấu hình"
+    },
+    "ChannelListInstructions": {
+        "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới được phân cách bằng dòng. Cả ID kênh và tên kênh đều được hỗ trợ. Tuy nhiên, @ Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấp vào nút Chia sẻ trên trang Giới thiệu của kênh.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Dừng clickbait bằng cách thay thế tiêu đề và hình thu nhỏ bằng những thông tin chính xác hơn"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Mệt mỏi vì clickbait? Hãy xem qua tiện ích mở rộng mới của tôi để cải thiện tiêu đề và hình thu nhỏ"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Hình thu nhỏ này được chọn từ một thời điểm ngẫu nhiên trong video vì chưa có đóng góp nào cho video này",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Hình thu nhỏ này được chọn từ một thời điểm ngẫu nhiên trong video và tiêu đề được định dạng tự động vì chưa có đóng góp nào cho video này",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Bạn có thể thay đổi mặc định này bên dưới",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
         "message": "{titles} tiêu đề và {thumbnails} hình thu nhỏ đã được thay thế kể từ khi bạn cài đặt tiện ích mở rộng này",
