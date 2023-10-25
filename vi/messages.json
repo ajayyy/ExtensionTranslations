@@ -1116,11 +1116,33 @@
     "patreonSignIn": {
         "message": "Đăng nhập bằng Patreon"
     },
+    "redeem": {
+        "message": "Đổi"
+    },
     "joinOnPatreon": {
         "message": "Đăng ký trên Patreon"
     },
+    "oneTimePurchase": {
+        "message": "Mua một lần"
+    },
     "enterLicenseKey": {
         "message": "Nhập mã bản quyền"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Bạn hiện có {0} phân đoạn chưa gửi đi trên {1} video",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Bạn hiện không có bất kỳ phân đoạn chưa gửi đi nào",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "phân đoạn chưa gửi",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "phân đoạn chưa gửi",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
     "videosSingular": {
         "message": "video",
@@ -1130,12 +1152,28 @@
         "message": "video",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "clearUnsubmittedSegments": {
+        "message": "Xóa tất cả phân đoạn",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Bạn có chắc chắn muốn xóa tất cả các phân đoạn chưa gửi không?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Hiện các phân đoạn",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
     "hideUnsubmittedSegments": {
         "message": "Ẩn các phân đoạn",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
         "message": "ID video",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Số lượng phân đoạn",
         "description": "Header of the unsubmitted segments list"
     },
     "allowScrollingToEdit": {
