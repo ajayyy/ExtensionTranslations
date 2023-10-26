@@ -178,7 +178,7 @@
         "message": "ユーザー名を設定"
     },
     "copyPublicID": {
-        "message": "パブリックユーザIDをコピー"
+        "message": "パブリックユーザ ID をコピー"
     },
     "copySegmentID": {
         "message": "セグメントIDをコピー"
@@ -190,31 +190,31 @@
         "message": "オプション"
     },
     "showButtons": {
-        "message": "YouTubeプレイヤーにボタンを表示"
+        "message": "YouTube プレーヤーにボタンを表示"
     },
     "hideButtons": {
-        "message": "YouTubeプレイヤーにボタンを表示しない"
+        "message": "YouTube プレーヤーにボタンを表示しない"
     },
     "hideButtonsDescription": {
-        "message": "YouTubeプレイヤーのセグメント登録ボタンを非表示にします。"
+        "message": "YouTube プレーヤーのセグメント提出ボタンを非表示にします。"
     },
     "showSkipButton": {
-        "message": "「ハイライトまでスキップ」ボタンをプレイヤーに常に表示する"
+        "message": "「ハイライトまでスキップ」ボタンをプレーヤーに常に表示する"
     },
     "showInfoButton": {
-        "message": "YouTubeプレイヤーに情報ボタンを表示する"
+        "message": "YouTube プレーヤーに情報ボタンを表示する"
     },
     "hideInfoButton": {
-        "message": "YouTubeプレイヤーに情報ボタンを表示しない"
+        "message": "YouTube プレーヤーに情報ボタンを表示しない"
     },
     "autoHideInfoButton": {
         "message": "情報ボタンを自動的に隠す"
     },
     "hideDeleteButton": {
-        "message": "YouTubeプレイヤーに削除ボタンを表示しない"
+        "message": "YouTube プレーヤーに削除ボタンを表示しない"
     },
     "showDeleteButton": {
-        "message": "YouTubeプレイヤーに削除ボタンを表示"
+        "message": "YouTube プレーヤーに削除ボタンを表示"
     },
     "enableViewTracking": {
         "message": "スキップの集計を有効にする"
@@ -359,7 +359,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "{0}をスキップしました",
+        "message": "{0}を飛ばしました",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -467,7 +467,7 @@
         "message": "最小持続時間（秒）:"
     },
     "minDurationDescription": {
-        "message": "設定値より短いセグメントはスキップされず、プレイヤーにも表示されません。"
+        "message": "設定値より短いセグメントはスキップされず、プレーヤーにも表示されません。"
     },
     "enableManualSkipOnFullVideo": {
         "message": "動画全体のラベルが存在する場合は手動スキップを使用する"
@@ -1000,7 +1000,7 @@
         "message": "登録する"
     },
     "helpPageSubmitting1": {
-        "message": "登録するには「セグメント開始を記録」ボタンを押します。これはポップアップ、またはビデオプレーヤー内にあります。"
+        "message": "登録するには「セグメント開始を記録」ボタンを押します。これはポップアップ、または動画プレーヤー内にあります。"
     },
     "helpPageSubmitting2": {
         "message": "再生ボタンをクリックするとセグメントの開始、停止アイコンをクリックすると終了となります。 複数の広告部分を指定してから送信ボタンを押すことができます。アップロードボタンをクリックすると登録メニューが表示されます。ゴミ箱をクリックすると削除されます。"
