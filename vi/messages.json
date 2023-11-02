@@ -497,13 +497,13 @@
         "message": "Địa chỉ SponsorBlock dùng để liên hệ với máy chủ.\nTrừ khi bạn có máy chủ riêng, bạn không nên thay đổi mục này."
     },
     "dataFetchingServerAddress": {
-        "message": "Địa Chỉ Máy Chủ Tìm Nạp Dữ Liệu"
+        "message": "Địa chỉ máy chủ tìm nạp dữ liệu"
     },
     "dataFetchingServerAddressDescription": {
         "message": "Địa chỉ dùng để liên lạc với máy chủ tìm nạp dữ liệu.\nTrừ khi bạn có máy chủ riêng, bạn không nên thay đổi mục này."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Địa Chỉ Máy Chủ Lưu Trữ Hình Thu Nhỏ"
+        "message": "Địa chỉ máy chủ lưu hình thu nhỏ"
     },
     "save": {
         "message": "Lưu"
@@ -682,6 +682,9 @@
     "category_preview": {
         "message": "Xem trước/Tóm tắt"
     },
+    "category_preview_description": {
+        "message": "Tập hợp các đoạn video ngắn cho thấy những gì sẽ xảy ra trong video hiện tại hoặc các video khác trong cùng một loạt video, trong đó tất cả thông tin được lặp lại ở phần sau của video."
+    },
     "category_preview_guideline1": {
         "message": "Các clip xuất hiện sau đó hoặc trong một video trong tương lai"
     },
@@ -699,6 +702,9 @@
     },
     "category_filler_short": {
         "message": "Cảnh phụ"
+    },
+    "category_filler_guideline1": {
+        "message": "Các cảnh phụ chỉ để dông dài hoặc gây cười"
     },
     "category_filler_guideline2": {
         "message": "Các phân cảnh làm phiền, quay lỗi, phát lại"
@@ -739,8 +745,17 @@
     "category_chapter": {
         "message": "Chương"
     },
+    "category_chapter_description": {
+        "message": "Các chương được đặt tên tuỳ chỉnh mô tả các phần chính của video."
+    },
     "category_chapter_guideline1": {
         "message": "Không nhắc đến tên nhà tài trợ"
+    },
+    "category_chapter_guideline2": {
+        "message": "Sử dụng các chương lớn hơn cho các phần chung"
+    },
+    "category_chapter_guideline3": {
+        "message": "Các chương nhỏ hơn có thể được đặt bên trong các chương lớn hơn"
     },
     "category_livestream_messages": {
         "message": "Luồng phát trực tiếp: Đọc Quyên góp/Tin nhắn"
@@ -784,6 +799,10 @@
     "fullVideoSegments": {
         "message": "Hiển thị biểu tượng khi video hoàn toàn là quảng cáo",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Hiện nhãn trên hình thu nhỏ video",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
         "message": "Màu khi chưa được gửi đi",
@@ -849,6 +868,9 @@
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
         "message": "Không xác định được ID kênh. Nếu bạn đang xem video này trên 1 trang web thứ 3, hãy mở lại video này trên trang chủ Youtube rồi thử lại. Điều này cũng có thể do những thay đổi trong mã nguồn trang web YouTube, nếu bạn nghĩ vậy, hãy bình luận tại đây:"
+    },
+    "invidiousPermissionRefresh": {
+        "message": "Trình duyệt đã thu hồi quyền cần thiết để hoạt động trên Invidious và các trang web bên thứ ba khác. Vui lòng nhấp vào nút bên dưới để kích hoạt lại quyền này."
     },
     "acceptPermission": {
         "message": "Cho phép truy cập"
@@ -916,12 +938,18 @@
     "categoryPillTitleText": {
         "message": "Toàn bộ video này được gắn thẻ vào thể loại này và được tích hợp quá chặt chẽ để có thể tách ra"
     },
+    "chapterNameTooltipWarning": {
+        "message": "Một trong các tên chương của bạn tương tự như một danh mục. Bạn nên sử dụng danh mục khi có thể thay vì tên chương."
+    },
     "experiementOptOut": {
         "message": "Từ chối tham gia thử nghiệm trong tương lai",
         "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private."
     },
     "hideForever": {
         "message": "Ẩn vĩnh viễn"
+    },
+    "warningChatInfo": {
+        "message": "Chúng tôi nhận thấy rằng bạn đã mắc một số lỗi phổ biến. Chúng tôi đánh giá rất cao công việc của bạn cho đến nay, nhưng chúng tôi luôn cố gắng hướng đến sự hoàn hảo ở đây, vì vậy ngay cả những lỗi nhỏ cũng quan trọng :)"
     },
     "questionButton": {
         "message": "Tôi có một câu hỏi"
@@ -931,6 +959,12 @@
     },
     "warningConfirmButton": {
         "message": "Tôi hiểu lí do này"
+    },
+    "warningError": {
+        "message": "Lỗi khi cố gắng xác nhận cảnh báo:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Bạn đã nhận được một lời khuyên từ người kiểm duyệt"
     },
     "Donate": {
         "message": "Ủng hộ"
@@ -1034,6 +1068,9 @@
     "skipSegment": {
         "message": "Bỏ qua phân đoạn"
     },
+    "playChapter": {
+        "message": "Phát chương"
+    },
     "SponsorTimeEditScrollNewFeature": {
         "message": "Sử dụng con lăn chuột của bạn khi di chuột qua hộp chỉnh sửa để nhanh chóng điều chỉnh thời gian. Kết hợp phím ctrl hoặc shift có thể được sử dụng để tinh chỉnh các thay đổi."
     },
@@ -1041,15 +1078,15 @@
         "message": "Mới! Xem khi nào video được tài trợ hoàn toàn hoặc tự quảng bá"
     },
     "yearAbbreviation": {
-        "message": "năm",
+        "message": " năm",
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "d",
+        "message": " ngày",
         "description": "100d"
     },
     "hourAbbreviation": {
-        "message": "h",
+        "message": " giờ",
         "description": "100h"
     },
     "optionsTabBehavior": {
@@ -1101,24 +1138,152 @@
     "confirmResetToDefault": {
         "message": "Bạn chắc chắn muốn đặt lại cài đặt về mặc định? Điều này sẽ không thể hoàn tác được."
     },
+    "exportSegments": {
+        "message": "Xuất phân đoạn"
+    },
+    "importSegments": {
+        "message": "Nhập phân đoạn"
+    },
+    "Import": {
+        "message": "Nhập",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "Đổi thành công!"
+    },
+    "redeemFailed": {
+        "message": "Khoá cấp phép không hợp lệ"
+    },
+    "hideUpsells": {
+        "message": "Ẩn các tuỳ chọn không khả dụng nếu không thanh toán thêm"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Ẩn lời nhắc về các tính năng mới"
+    },
     "chooseACountry": {
         "message": "Chọn một quốc gia"
+    },
+    "noDiscount": {
+        "message": "Bạn không đủ điều kiện để được giảm giá"
+    },
+    "discountLink": {
+        "message": "Đường liên kết giảm giá (Xem giá màu hồng)"
     },
     "selectYourCountry": {
         "message": "Chọn quốc gia"
     },
+    "cantAfford": {
+        "message": "Nếu bạn không đủ khả năng mua khoá cấp phép, hãy nhấp vào {đây} để xem bạn có đủ điều kiện được giảm giá hay không",
+        "description": "Keep the curly braces. The word 'here' should be translated as well."
+    },
     "patreonSignIn": {
         "message": "Đăng nhập bằng Patreon"
+    },
+    "redeem": {
+        "message": "Đổi"
     },
     "joinOnPatreon": {
         "message": "Đăng ký trên Patreon"
     },
+    "oneTimePurchase": {
+        "message": "Mua một lần"
+    },
     "enterLicenseKey": {
         "message": "Nhập mã bản quyền"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Bạn hiện có {0} phân đoạn chưa gửi đi trên {1} video",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Bạn hiện không có bất kỳ phân đoạn chưa gửi đi nào",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "phân đoạn chưa gửi",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "phân đoạn chưa gửi",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "video",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Xóa tất cả phân đoạn",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Bạn có chắc chắn muốn xóa tất cả các phân đoạn chưa gửi không?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Hiện các phân đoạn",
+        "description": "Show/hide button for the unsubmitted segments list"
     },
     "hideUnsubmittedSegments": {
         "message": "Ẩn các phân đoạn",
         "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "ID video",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Số lượng phân đoạn",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Thao tác",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Chia sẻ dưới dạng URL"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "Cảnh báo: Máy chủ chưa phản hồi với các phân đoạn. Thực tế có thể đã có các phân đoạn được gửi đi trên video này, nhưng bạn chưa nhận được chúng do vấn đề với máy chủ."
+    },
+    "allowScrollingToEdit": {
+        "message": "Cho phép cuộn để chỉnh sửa thời gian"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds} giây",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Tiêu đề và Hình thu nhỏ tốt hơn trên YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Tiêu đề và hình thu nhỏ được đóng góp từ cộng đồng để mô tả nội dung video một cách chính xác và không gây giật gân",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Chọn mô tả chi tiết nhất"
+    },
+    "Original": {
+        "message": "Gốc"
+    },
+    "OriginalTitle": {
+        "message": "Tiêu đề gốc"
+    },
+    "CurrentTime": {
+        "message": "Thời điểm hiện tại"
+    },
+    "resetCustomTitle": {
+        "message": "Đặt lại tiêu đề về văn bản gốc"
+    },
+    "resetIcon": {
+        "message": "Đặt lại biểu tượng"
+    },
+    "Vote": {
+        "message": "Bình chọn"
     },
     "TypeYourOwnTitleHere": {
         "message": "Nhập tiêu đề của bạn ở đây"
@@ -1127,7 +1292,7 @@
         "message": "Video chưa sẵn sàng"
     },
     "FailedToRender": {
-        "message": "Kết xuất thất bại",
+        "message": "Tạo thất bại",
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
@@ -1135,11 +1300,11 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Các lỗi khi kết xuất",
+        "message": "Đã xảy ra ngoại lệ trong quá trình tạo",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
-        "message": "Không thể tải được",
+        "message": "Tải thất bại",
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
@@ -1149,7 +1314,7 @@
         "message": "Tắt"
     },
     "CapitalizeWords": {
-        "message": "Các Từ Viết Hoa"
+        "message": "Viết hoa chữ cái đầu từng từ"
     },
     "TitleCase": {
         "message": "Viết Hoa Từng Chữ"
@@ -1180,10 +1345,10 @@
         "message": "Hiện hình thu nhỏ gốc"
     },
     "showABlankBox": {
-        "message": "Hiện một ô trống"
+        "message": "Hiện ô trống"
     },
     "AutoGenerated": {
-        "message": "Hiện một hình thu nhỏ được tạo tự động bởi YouTube",
+        "message": "Hiện hình thu nhỏ được tạo tự động bởi YouTube",
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
@@ -1219,20 +1384,246 @@
     "titleMaxLinesDescription": {
         "message": "Tiêu đề video sẽ được trải dài trên số dòng này trong phần Đề xuất."
     },
+    "onAllPages": {
+        "message": "Trên tất cả các trang",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Trên tất cả các trang trừ trang video",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Không bao giờ"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Dịch vụ tạo hình thu nhỏ giúp tăng tốc đáng kể quá trình tạo hình thu nhỏ bằng cách gửi yêu cầu ẩn danh với ID video đến máy chủ từ xa. Sau đó, hình thu nhỏ sẽ được tạo hoặc được lấy từ bộ nhớ đệm nếu nó đã được tạo trước đó."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Nếu được sử dụng trên các trang video có thể tiềm ẩn việc rò rỉ các ID video không công khai đến máy chủ này. Đặt tuỳ chọn này thành \"Trên tất cả các trang trừ trang video\" sẽ tránh được vấn đề trên. Một lựa chọn khác là tự lưu trữ dịch vụ tạo hình thu nhỏ của riêng bạn."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Nếu việc sử dụng dịch vụ tạo hình thu nhỏ bị tắt, tất cả các yêu cầu sẽ sử dụng hệ thống truy vấn k-anonymity, điều này khiến máy chủ khó dự đoán video nào đã được tìm nạp và sẽ sử dụng dịch vụ tạo hình thu nhỏ cục bộ chậm hơn.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Mã nguồn dịch vụ tạo hình thu nhỏ"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Tìm hiểu thêm về K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Luôn hiển thị nút \"Hiện chi tiết gốc\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Nếu bạn luôn muốn biết liệu tiêu đề/hình thu nhỏ có bị thay đổi hay không, hãy bật tính năng này."
+    },
     "showOriginalOnHover": {
-        "message": "Hiện nguyên gốc khi di chuột qua"
+        "message": "Hiện chi tiết gốc khi di chuột qua"
     },
     "showIconForFormattedTitles": {
-        "message": "Hiện nút \"Hiển nguyên gốc\" cho các tiêu đề được định dạng tự động"
+        "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
+    },
+    "fetchTimeout": {
+        "message": "Thời gian chờ tìm nạp dữ liệu (ms)"
+    },
+    "fetchTimeoutDescription": {
+        "message": "Hiện tiêu đề và hình thu nhỏ gốc nếu máy chủ không phản hồi trong khoảng thời gian này."
+    },
+    "renderTimeout": {
+        "message": "Thời gian chờ tạo hình thu nhỏ (ms)"
+    },
+    "renderTimeoutDescription": {
+        "message": "Hiện hình thu nhỏ gốc nếu không thể tạo hình thu nhỏ trong khoảng thời gian này."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Thời gian chờ để bắt đầu tạo hình thu nhỏ cục bộ (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Nếu máy chủ mất quá nhiều thời gian để tạo hình thu nhỏ, hãy bắt đầu thử tạo một hình thu nhỏ cục bộ."
     },
     "Enable": {
         "message": "Bật"
+    },
+    "Titles": {
+        "message": "Tiêu đề",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Hình thu nhỏ",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Lỗi"
+    },
+    "ShowOriginal": {
+        "message": "Hiện chi tiết gốc"
+    },
+    "ShowModified": {
+        "message": "Hiện chi tiết đã sửa đổi"
+    },
+    "FillerWarning": {
+        "message": "Cảnh báo: Đây là một danh mục cực kỳ khó. Rất có thể bạn sẽ phải bỏ qua một số nội dung hoặc đôi khi phải tắt nó. Xin lưu ý rằng nhiều video có tỉ lệ bỏ qua đến 50% hoặc nhiều hơn! Tuy nhiên, hãy nhớ rằng vẫn có những nguyên tắc cụ thể cần tuân thủ khi gửi.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Tham gia Discord hoặc Matrix để duy trì cuộc trò chuyện này vĩnh viễn",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Hiện trợ giúp cho Hướng dẫn",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Tránh biểu cảm khuôn mặt được phóng đại",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Hãy nhìn vào tổng thể, đừng chỉ trả lời câu hỏi của tiêu đề gốc",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Tránh mô tả các phản ứng đối với video (\"gây sốc\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Cung cấp đủ thông tin để đưa ra lựa chọn sáng suốt trước khi nhấp vào"
+    },
+    "tip5": {
+        "message": "Viết hoa như một câu",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Lưu ý: Cài đặt SponsorBlock của bạn đã được nhập tự động!"
+    },
+    "howItWorks": {
+        "message": "Cách thức hoạt động"
+    },
+    "discordPromotion": {
+        "message": "Hãy đến đóng góp, đưa ra một số đề xuất và trợ giúp trên {discord} hoặc trên {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Nếu bạn thích những gì tôi đã làm cho đến nay và muốn giúp đỡ tôi về mặt tài chính, đây là một đường liên kết"
+    },
+    "termsAgreement": {
+        "message": "Bằng cách sử dụng tiện ích mở rộng này, bạn đồng ý với {privacy-policy} và {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Chính sách quyền riêng tư"
+    },
+    "termsOfUse": {
+        "message": "Điều khoản sử dụng"
+    },
+    "openSourceLicenses": {
+        "message": "Giấy phép nguồn mở"
+    },
+    "defaultToOriginals": {
+        "message": "Mặc định hiển thị thông tin gốc của video"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Hiển thị tiêu đề và hình thu nhỏ gốc theo mặc định, nhưng sẽ có thêm một nút xuất hiện khi di chuột để xem tiêu đề và hình thu nhỏ tuỳ chỉnh."
     },
     "replaceTitles": {
         "message": "Thay thế tiêu đề"
     },
     "replaceThumbnails": {
         "message": "Thay thế hình thu nhỏ"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Sử dụng tiêu đề được đóng góp từ cộng đồng"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Nếu tắt, tiện ích vẫn sẽ định dạng tiêu đề nhưng sẽ không sử dụng các tiêu đề được đóng góp từ cộng đồng",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Bạn có chắc chắn muốn xóa cấu hình này không?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Cấu hình mới"
+    },
+    "DeleteConfiguration": {
+        "message": "Xoá cấu hình"
+    },
+    "ChannelAllowlist": {
+        "message": "Danh sách kênh cho phép"
+    },
+    "ConfigurationName": {
+        "message": "Tên cấu hình"
+    },
+    "ChannelListInstructions": {
+        "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới được phân cách bằng dòng. Cả ID kênh và tên kênh đều được hỗ trợ. Tuy nhiên, @ Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấp vào nút Chia sẻ trên trang Giới thiệu của kênh.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Dừng clickbait bằng cách thay thế tiêu đề và hình thu nhỏ bằng những thông tin chính xác hơn"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Mệt mỏi vì clickbait? Hãy xem qua tiện ích mở rộng mới của tôi để cải thiện tiêu đề và hình thu nhỏ"
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Hình thu nhỏ này được chọn từ một thời điểm ngẫu nhiên trong video vì chưa có đóng góp nào cho video này",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Hình thu nhỏ này được chọn từ một thời điểm ngẫu nhiên trong video và tiêu đề được định dạng tự động vì chưa có đóng góp nào cho video này",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Bạn có thể thay đổi mặc định này bên dưới",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} tiêu đề và {thumbnails} hình thu nhỏ đã được thay thế kể từ khi bạn cài đặt tiện ích mở rộng này",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} tiêu đề ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} tiêu đề ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "và {thumbnails} hình thu nhỏ",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "và {thumbnails} hình thu nhỏ",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} đã được thay thế kể từ khi bạn cài đặt tiện ích mở rộng này",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Đếm số lần thay thế tiêu đề và hình thu nhỏ"
+    },
+    "countReplacementsDescription": {
+        "message": "Được sử dụng để cung cấp cho bạn số liệu thống kê trong cửa sổ bật lên.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Thêm một danh sách bộ lọc để chặn các khảo sát, kệ sản phẩm và các phần tử quảng cáo khác bằng yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Yêu cầu uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Đã xảy ra lỗi khi phát hiện ID video. Vui lòng thử làm mới trang trước khi gửi bình chọn để đảm bảo nó được gửi đúng video. Nếu lỗi này xảy ra nhiều lần, vui lòng gửi báo cáo về lỗi này cùng với các tiện ích mở rộng hoặc userscript khác mà bạn đã cài đặt thông qua GitHub, Discord hoặc Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo dựa trên Twemoji được cấp phép theo CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock không tương thích với tiện ích mở rộng \"Zoom to Fill\". Có nhiều lựa chọn thay thế khác mà bạn có thể sử dụng để SponsorBlock hoạt động bình thường."
     },
     "freeTrialStarted": {
         "message": "Thời gian dùng thử miễn phí của bạn đã bắt đầu. Hãy truy cập vào YouTube để thử nghiệm"

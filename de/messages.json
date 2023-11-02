@@ -689,7 +689,7 @@
         "message": "Clips, die später oder in einem zukünftigen Video erscheinen"
     },
     "category_preview_guideline2": {
-        "message": "Zusammenfassung eines vorherigen Videos"
+        "message": "Rückblick zu einem vorherigen Video"
     },
     "category_preview_guideline3": {
         "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
@@ -1078,7 +1078,7 @@
         "message": "Neu! Sieh, wenn ein Video ausschließlich Sponsor oder Eigenwerbung ist"
     },
     "yearAbbreviation": {
-        "message": "J",
+        "message": "y",
         "description": "100y"
     },
     "dayAbbreviation": {
