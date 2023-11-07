@@ -680,7 +680,8 @@
         "message": "Don't include content, even if endcards are on screen"
     },
     "category_preview": {
-        "message": "Preview/Recap"
+        "message": "Preview/Recap/Hook",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Collection of clips that show what is coming up in in this video or other videos in a series where all information is repeated later in the video."
