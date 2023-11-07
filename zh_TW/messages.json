@@ -676,9 +676,6 @@
     "category_outro_guideline1": {
         "message": "即使結尾的資訊卡已開始顯示也不應包含內容"
     },
-    "category_preview": {
-        "message": "預覽/摘要"
-    },
     "category_preview_description": {
         "message": "展示即將播放的影片或整系列內容的短片集錦，所有內容都會在後面影片中重複"
     },
