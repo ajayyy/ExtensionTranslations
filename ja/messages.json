@@ -638,7 +638,7 @@
         "message": "動画全体が無料または補助金を受けてアクセスしたものを紹介している"
     },
     "category_interaction": {
-        "message": "行動のお願い (登録/寄付など)"
+        "message": "行動を促すメッセージ(チャンネル登録)"
     },
     "category_interaction_description": {
         "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かについてのシーンは、自己の宣伝に分類すべきです。"
@@ -678,6 +678,10 @@
     },
     "category_outro_guideline1": {
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
+    },
+    "category_preview": {
+        "message": "予告/要約/フック",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
