@@ -644,7 +644,7 @@
         "message": "Cuando hay un breve recordatorio para dar me gusta, suscribirse o seguirlos en medio del contenido. Si es largo o sobre algo específico, debería estar bajo promoción propia en su lugar."
     },
     "category_interaction_guideline1": {
-        "message": "Breve recordatorio para dar me gusta, suscribirse o seguir"
+        "message": "Recordatorios breves para dar me gusta, suscribirse o seguir"
     },
     "category_interaction_guideline2": {
         "message": "Incluye recordatorios indirectos para comentar"
@@ -678,9 +678,6 @@
     },
     "category_outro_guideline1": {
         "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
-    },
-    "category_preview": {
-        "message": "Vista previa/Recapitulación"
     },
     "category_preview_description": {
         "message": "Colección de clips que muestran lo que vendrá en este video u otros videos en una serie en la cual toda la información es repetida en el video."
