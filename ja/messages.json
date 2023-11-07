@@ -679,9 +679,6 @@
     "category_outro_guideline1": {
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
-    "category_preview": {
-        "message": "予告や以前のあらすじ"
-    },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
     },
