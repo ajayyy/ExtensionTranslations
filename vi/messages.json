@@ -679,9 +679,6 @@
     "category_outro_guideline1": {
         "message": "Không bao gồm nội dung, ngay cả khi thẻ kết thúc ở trên màn hình"
     },
-    "category_preview": {
-        "message": "Xem trước/Tóm tắt"
-    },
     "category_preview_description": {
         "message": "Tập hợp các đoạn video ngắn cho thấy những gì sẽ xảy ra trong video hiện tại hoặc các video khác trong cùng một loạt video, trong đó tất cả thông tin được lặp lại ở phần sau của video."
     },
