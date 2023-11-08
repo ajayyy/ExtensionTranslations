@@ -1568,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Устали от кликбейта? Попробуйте моё новое расширение, улучшающее названия и значки"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Также попробуйте DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "В качестве значка установлен случайный кадр из видео, так как для видео не был предложен значок",
         "description": "A description during on boarding to explain the random thumbnail setting"
