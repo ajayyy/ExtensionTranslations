@@ -1572,6 +1572,10 @@
         "message": "Tutustu myös DeArrowiin",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse otsikoiden korvaus ominaisuuden tarkistamista DeArrowissa.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Tämä pienoiskuva on valittu satunnaisesta kohdasta, koska videolle ei vielä ole lähetetty ilmoituksia",
         "description": "A description during on boarding to explain the random thumbnail setting"
