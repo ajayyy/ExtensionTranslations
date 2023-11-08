@@ -1564,6 +1564,10 @@
     "DeArrowPromotionMessage2": {
         "message": "어그로에 지치나요? 제목과 미리 보기 이미지를 향상시키는 확장 프로그램을 확인해 보세요"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "DeArrow도 확인해보세요",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했어요",
         "description": "A description during on boarding to explain the random thumbnail setting"
