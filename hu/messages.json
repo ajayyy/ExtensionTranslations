@@ -1572,6 +1572,10 @@
         "message": "Próbáld ki a DeArrow bővítményt is",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nem tetszik ez a cím? Ha inkább a lenti címet preferálod, próbáld ki a DeArrow cím-lecserélő funkcióját.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, mert még nincsenek beküldések ehhez a videóhoz",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1669,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "A megosztás törődés"
+    },
+    "cleanPopup": {
+        "message": "Nem szükséges elemek elrejtése a szegmens lista ablakban"
     }
 }
