@@ -1564,6 +1564,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Втомилися від клікбейта? Спробуйте моє нове розширення, що поліпшує назви та значки"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Також перевірте DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Цей значок вибрано з випадкової позначки часу, оскільки для цього відео не було нічого запропоновано",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1661,5 +1665,8 @@
     },
     "SharingIsCaring": {
         "message": "Щедра душа меду не жаліє"
+    },
+    "cleanPopup": {
+        "message": "Сховати безлад у спливаючому вікні списку сегментів"
     }
 }
