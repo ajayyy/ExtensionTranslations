@@ -1568,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Eleged van a kattintásvadász videókból? Nézd meg az új bővítményem, ami a címek és indexképek minőségén próbál javítani"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Próbáld ki a DeArrow bővítményt is",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, mert még nincsenek beküldések ehhez a videóhoz",
         "description": "A description during on boarding to explain the random thumbnail setting"
