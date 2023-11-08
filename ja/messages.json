@@ -680,7 +680,7 @@
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
     "category_preview": {
-        "message": "予告/要約/フック",
+        "message": "予告/あらすじ/ほのめかし",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1568,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "誇張表現による案内にうんざりしませんか？題名とサムネイルを改善する、新しい拡張機能を開発しました"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "DeArrow もご覧ください",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "この動画のサムネイルはまだ登録されていないので、サムネイルは動画からランダムに生成されています",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1665,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "分けあうとは捧げあうこと"
+    },
+    "cleanPopup": {
+        "message": "ポップアップのセグメント一覧をすっきり表示"
     }
 }
