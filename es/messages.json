@@ -1568,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "¿Cansado/a del clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "También echa un vistazo a DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1665,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Compartir es demostrar interés"
+    },
+    "cleanPopup": {
+        "message": "Ocultar interferencias en la ventana emergente de la lista de segmentos"
     }
 }
