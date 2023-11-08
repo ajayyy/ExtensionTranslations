@@ -680,7 +680,8 @@
         "message": "Ne legyen benne tartalom, akkor sem, ha a zárókártyák már a képernyőn vannak"
     },
     "category_preview": {
-        "message": "Előzetes/Ismétlés"
+        "message": "Előzetes/Ismétlés/Horog",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Olyan klipek gyűjteménye, amik azt mutatják, hogy mi következik majd ebben, vagy a sorozat más videóiban és minden információ megismétlődik később a videóban."
@@ -1567,6 +1568,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Eleged van a kattintásvadász videókból? Nézd meg az új bővítményem, ami a címek és indexképek minőségén próbál javítani"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Próbáld ki a DeArrow bővítményt is",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nem tetszik ez a cím? Ha inkább a lenti címet preferálod, próbáld ki a DeArrow cím-lecserélő funkcióját.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Ez az indexkép egy véletlenszerű időpontról lett választva, mert még nincsenek beküldések ehhez a videóhoz",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "A megosztás törődés"
+    },
+    "cleanPopup": {
+        "message": "Nem szükséges elemek elrejtése a szegmens lista ablakban"
     }
 }

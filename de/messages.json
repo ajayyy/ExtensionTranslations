@@ -680,7 +680,8 @@
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
     },
     "category_preview": {
-        "message": "Vorschau/Zusammenfassung"
+        "message": "Vorschau/Zusammenfassung/Hook",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Sammlung von Clips, die zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später im Video wiederholt werden."

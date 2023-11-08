@@ -644,7 +644,7 @@
         "message": "Cuando hay un breve recordatorio para dar me gusta, suscribirse o seguirlos en medio del contenido. Si es largo o sobre algo específico, debería estar bajo promoción propia en su lugar."
     },
     "category_interaction_guideline1": {
-        "message": "Breve recordatorio para dar me gusta, suscribirse o seguir"
+        "message": "Recordatorios breves para dar me gusta, suscribirse o seguir"
     },
     "category_interaction_guideline2": {
         "message": "Incluye recordatorios indirectos para comentar"
@@ -680,7 +680,8 @@
         "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
     },
     "category_preview": {
-        "message": "Vista previa/Recapitulación"
+        "message": "Vista previa/Recapitulación/Gancho",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Colección de clips que muestran lo que vendrá en este video u otros videos en una serie en la cual toda la información es repetida en el video."
@@ -1567,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "¿Cansado/a del clickbait? Échele un vistazo a mi nueva extensión para mejorar títulos y miniaturas"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "También echa un vistazo a DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Compartir es demostrar interés"
+    },
+    "cleanPopup": {
+        "message": "Ocultar interferencias en la ventana emergente de la lista de segmentos"
     }
 }

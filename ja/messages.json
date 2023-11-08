@@ -557,7 +557,7 @@
         "message": "削除"
     },
     "preview": {
-        "message": "プレビュー"
+        "message": "予告"
     },
     "unsubmitted": {
         "message": "未送信"
@@ -638,7 +638,7 @@
         "message": "動画全体が無料または補助金を受けてアクセスしたものを紹介している"
     },
     "category_interaction": {
-        "message": "行動のお願い (登録/寄付など)"
+        "message": "行動を促すメッセージ(チャンネル登録)"
     },
     "category_interaction_description": {
         "message": "動画の途中に挿入される、高評価・チャンネル登録・通知オンなどを促す短いシーン。長かったり、特定の何かについてのシーンは、自己の宣伝に分類すべきです。"
@@ -680,7 +680,8 @@
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
     "category_preview": {
-        "message": "予告や以前のあらすじ"
+        "message": "予告/あらすじ/ほのめかし",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
@@ -1567,6 +1568,14 @@
     "DeArrowPromotionMessage2": {
         "message": "誇張表現による案内にうんざりしませんか？題名とサムネイルを改善する、新しい拡張機能を開発しました"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "DeArrow もご覧ください",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "この題名は気に入りませんか？　次のような題名にしたい場合は、DeArrowの題名置換機を用いることを検討してください。",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "この動画のサムネイルはまだ登録されていないので、サムネイルは動画からランダムに生成されています",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "分けあうとは捧げあうこと"
+    },
+    "cleanPopup": {
+        "message": "ポップアップのセグメント一覧をすっきり表示"
     }
 }

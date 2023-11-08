@@ -680,7 +680,8 @@
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
     "category_preview": {
-        "message": "Prévia/Recapitulação"
+        "message": "Previa/Recapitulação/Gancho Narrativo",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Coleção de clipes que mostram o que está por vir neste vídeo ou em outros vídeos em uma série onde todas as informações são repetidas mais tarde no vídeo."
@@ -1567,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Cansado de clickbait? Confira minha nova extensão para melhorar os títulos e miniaturas"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Confira também o DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura é escolhida de um horário aleatório porque ainda não há envio neste vídeo",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Compartilhar é cuidar"
+    },
+    "cleanPopup": {
+        "message": "Esconder desordem da lista de segmentos no popup"
     }
 }

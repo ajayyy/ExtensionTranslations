@@ -680,7 +680,8 @@
         "message": "Nezahrnuje obsah, i když jsou na obrazovce závěrečné karty"
     },
     "category_preview": {
-        "message": "Náhled / shrnutí"
+        "message": "Náhled/shrnutí/upoutání diváka",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Sbírka klipů, které zobrazují, co se objeví v tomto videu nebo v jiných videích v sérii, kdy jsou všechny informace zopakovány později ve videu."
@@ -1567,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Jste unaveni clickbaity? Vyzkoušejte mé nové rozšíření pro vylepšení názvů a náhledů"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Mrkněte na DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Tento náhled byl vybrán z náhodného času, protože u tohoto videa zatím nebyl nastaven vlastní náhled",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Daruj a budeš obdarován"
+    },
+    "cleanPopup": {
+        "message": "Skrýt zbytečnosti ve vyskakovacím okně seznamu segmentů"
     }
 }

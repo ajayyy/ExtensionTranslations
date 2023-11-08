@@ -680,7 +680,8 @@
         "message": "Nie zawiera treści, nawet jeśli na ekranie są karty końcowe"
     },
     "category_preview": {
-        "message": "Zapowiedź/Podsumowanie"
+        "message": "Zapowiedź/Podsumowanie/Teaser",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Zbiór klipów pokazujących to, co pojawi się w tym filmie lub innych filmach w serii, w której wszystkie informacje są powtarzane później w filmie."
@@ -1567,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Zmęczony clickbait'ami? Sprawdź nowy dodatek do przeglądarki, który poprawia tytuły filmów oraz ich miniatury, tak aby były adekwatne do treści"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Wypróbuj także rozszerzenie DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Ta miniaturka została utworzona z losowej klatki, ponieważ nie było jeszcze zgłoszenia do tego filmu",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Dzielenie się to troska"
+    },
+    "cleanPopup": {
+        "message": "Kompaktowy interfejs wyskakującego okienku listy segmentów"
     }
 }

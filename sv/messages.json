@@ -680,7 +680,8 @@
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandstitt/sammanfattning"
+        "message": "Förhandsgranskning/sammanfattning/hook",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Samling av klipp som visar vad som kommer i den här videon eller andra videor i en serie där all information upprepas senare i videon."
@@ -1567,6 +1568,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Trött på klickbete? Kolla in mitt nya tillägg för att förbättra titlar och miniatyrbilder"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Ta även och kolla in DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Gillar du inte den här titeln? Om du föredrar titeln nedan, bör du kolla in funktionen för titelbyte i DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel eftersom det inte finns något inskickat på den här videon ännu",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "Delad glädje är dubbel glädje"
+    },
+    "cleanPopup": {
+        "message": "Dölj röran i segmentlistans popup"
     }
 }

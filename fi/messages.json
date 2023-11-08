@@ -680,7 +680,8 @@
         "message": "Älä sisällytä sisältöä, vaikka loppukortit olisivatkin näytöllä"
     },
     "category_preview": {
-        "message": "Esikatselu/Kertaus"
+        "message": "Esikatselu/Kertaus/Koukutus",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Kokoelma leikkeitä, jotka kertovat mitä video sisältää tai sarjan muut videot sisältävät ja joiden kaikki informaatio toistuu videossa myöhemmin."
@@ -1567,6 +1568,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Kyllästynyt clickbaitteihin? Tutustu uuteen laajennukseeni, joka parantaa otsikoita ja pienoiskuvia"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Tutustu myös DeArrowiin",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse otsikoiden korvaus ominaisuuden tarkistamista DeArrowissa.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Tämä pienoiskuva on valittu satunnaisesta kohdasta, koska videolle ei vielä ole lähetetty ilmoituksia",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1664,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "Jakaminen on välittämistä"
+    },
+    "cleanPopup": {
+        "message": "Piilota ylimääräisyydet Osiolistan ponnahduksesta"
     }
 }
