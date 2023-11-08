@@ -1568,6 +1568,10 @@
     "DeArrowPromotionMessage2": {
         "message": "Trött på klickbete? Kolla in mitt nya tillägg för att förbättra titlar och miniatyrbilder"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Ta även och kolla in DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "RandomThumbnailExplanation": {
         "message": "Denna miniatyrbild väljs från en slumpmässig tidsstämpel eftersom det inte finns något inskickat på den här videon ännu",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1665,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Delad glädje är dubbel glädje"
+    },
+    "cleanPopup": {
+        "message": "Dölj röran i segmentlistans popup"
     }
 }
