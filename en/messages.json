@@ -1669,5 +1669,8 @@
     },
     "SharingIsCaring": {
         "message": "Sharing is caring"
+    },
+    "cleanPopup": {
+        "message": "Hide Clutter in Segment List Popup"
     }
 }
