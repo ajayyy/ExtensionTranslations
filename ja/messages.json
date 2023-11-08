@@ -1572,6 +1572,10 @@
         "message": "DeArrow もご覧ください",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "この題名は気に入りませんか？　次のような題名にしたい場合は、DeArrowの題名置換機を用いることを検討してください。",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "この動画のサムネイルはまだ登録されていないので、サムネイルは動画からランダムに生成されています",
         "description": "A description during on boarding to explain the random thumbnail setting"
