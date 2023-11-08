@@ -679,6 +679,10 @@
     "category_outro_guideline1": {
         "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
     },
+    "category_preview": {
+        "message": "Vista previa/Recapitulación/Gancho",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_description": {
         "message": "Colección de clips que muestran lo que vendrá en este video u otros videos en una serie en la cual toda la información es repetida en el video."
     },
