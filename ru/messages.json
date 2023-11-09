@@ -1572,6 +1572,10 @@
         "message": "Также попробуйте DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Не нравится название? Если вы предпочитаете вариант ниже, попробуйте функцию замены названий в DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "В качестве значка установлен случайный кадр из видео, так как для видео не был предложен значок",
         "description": "A description during on boarding to explain the random thumbnail setting"
