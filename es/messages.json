@@ -1572,6 +1572,10 @@
         "message": "También echa un vistazo a DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "¿No te gusta este título? Si prefieres el título de abajo, considera probar la función de reemplazo de títulos en DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
         "description": "A description during on boarding to explain the random thumbnail setting"
