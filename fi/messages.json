@@ -1573,7 +1573,7 @@
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse otsikoiden korvaus ominaisuuden tarkistamista DeArrowissa.",
+        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse tutustumista DeArrown otsikkokorvaukseen.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
