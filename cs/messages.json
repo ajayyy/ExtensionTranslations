@@ -1572,6 +1572,10 @@
         "message": "Mrkněte na DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nelíbí se vám tento název? Pokud byste raději viděli název níže, mrkněte na funkci nahrazení názvu v DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Tento náhled byl vybrán z náhodného času, protože u tohoto videa zatím nebyl nastaven vlastní náhled",
         "description": "A description during on boarding to explain the random thumbnail setting"
