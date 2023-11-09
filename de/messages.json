@@ -1568,6 +1568,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Genug von Clickbait? Schau dir meine neue Erweiterung zum Verbessern von Titeln und Thumbnails an"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Schau dir auch DeArrow an",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Dieser Titel gefällt dir nicht? Wenn du den unten stehenden Titel bevorzugst, schau dir das Titelersetzungsfeature in DeArrow an.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Dieses Thumbnail wurde von einem zufälligen Zeitstempel gewählt, da es noch keine Einreichungen für dieses Video gibt",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1665,5 +1673,8 @@
     },
     "SharingIsCaring": {
         "message": "Teilen macht Freude"
+    },
+    "cleanPopup": {
+        "message": "Verstecke Unordnung in Segmentlisten-Popups"
     }
 }
