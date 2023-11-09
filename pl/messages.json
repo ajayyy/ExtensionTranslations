@@ -1572,6 +1572,10 @@
         "message": "Wypróbuj także rozszerzenie DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nie podoba Ci się ten tytuł? Jeśli wolisz poniższy tytuł, rozważ skorzystanie z funkcji zamiany tytułu w rozszerzeniu DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Ta miniaturka została utworzona z losowej klatki, ponieważ nie było jeszcze zgłoszenia do tego filmu",
         "description": "A description during on boarding to explain the random thumbnail setting"
