@@ -1374,7 +1374,7 @@
         "message": "Zapisz wysłane głosy i pokazuj tytuły i miniatury, które wybrałeś zamiast najwyżej ocenionych na serwerze."
     },
     "keepUnsubmittedInPrivate": {
-        "message": "Zapisuj zgłoszenia z kart prywatncyh"
+        "message": "Zapisuj zgłoszenia z kart prywatnych"
     },
     "useThumbnailGenerationService": {
         "message": "Używaj usługi generowania miniatur"
@@ -1511,10 +1511,10 @@
         "message": "Używając tego rozszerzenia, zgadzasz się z {privacy-policy} i {terms}"
     },
     "privacyPolicy": {
-        "message": "Polityka Prywatności"
+        "message": "polityką prywatności"
     },
     "termsOfUse": {
-        "message": "Warunki Użytkowania"
+        "message": "warunkami użytkowania"
     },
     "openSourceLicenses": {
         "message": "Licencje Open Source"
@@ -1539,7 +1539,7 @@
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
-        "message": "Czy jesteś pewien, że chcesz usunąć tę konfigurację?",
+        "message": "Czy na pewno chcesz usunąć tę konfigurację?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
