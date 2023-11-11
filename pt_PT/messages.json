@@ -463,6 +463,9 @@
     "enableManualSkipOnFullVideo": {
         "message": "Usar pule manual quando existir um rótulo completo de vídeo"
     },
+    "showUploadButton": {
+        "message": "Mostrar botão de envio"
+    },
     "save": {
         "message": "Guardar"
     },
