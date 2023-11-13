@@ -680,7 +680,7 @@
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
     },
     "category_preview": {
-        "message": "Vorschau/Zusammenfassung/Hook",
+        "message": "Vorschau/Rückblick/Hook",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
