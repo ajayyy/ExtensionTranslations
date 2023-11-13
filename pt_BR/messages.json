@@ -680,7 +680,7 @@
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
     "category_preview": {
-        "message": "Previa/Recapitulação/Gancho Narrativo",
+        "message": "Prévia/Recapitulação",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -848,7 +848,7 @@
         "message": "Você deve selecionar uma categoria para todos os segmentos que você está enviando!"
     },
     "bracketStart": {
-        "message": "(Início) "
+        "message": "(Início)"
     },
     "bracketEnd": {
         "message": "(Fim)"
