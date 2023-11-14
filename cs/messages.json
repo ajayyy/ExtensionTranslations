@@ -592,7 +592,7 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
-        "message": "Zahrnout přechody segmentů"
+        "message": "Zahrnuje přechody"
     },
     "generic_guideline2": {
         "message": "Hraje, jako kdyby nebylo nic přeskočeno"
