@@ -1128,7 +1128,7 @@
         "message": "Dies ist ein vorhandenes YouTube-Kürzel. Bist du sicher, dass du es verwenden möchtest?"
     },
     "betaServerWarning": {
-        "message": "BETA Server ist aktiviert!"
+        "message": "BETA-Server ist aktiviert!"
     },
     "openOptionsPage": {
         "message": "Einstellungen öffnen"
