@@ -1573,7 +1573,7 @@
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Dieser Titel gefällt dir nicht? Wenn du den Titel unten bevorzugst, schau dir die Titelersetzungsfunktion in DeArrow an.",
+        "message": "Gefällt dir dieser Titel nicht? Wenn du den unten stehenden Titel bevorzugst, schau dir die Titelersetzungsfunktion in DeArrow an.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
