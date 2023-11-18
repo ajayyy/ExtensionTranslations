@@ -1423,7 +1423,7 @@
         "message": "カーソルを重ねたさいに改変前の概要欄を表示する"
     },
     "showIconForFormattedTitles": {
-        "message": "自動整形された題名に「元を表示」ボタンを表示"
+        "message": "自動整形されたタイトルに「元を表示」ボタンを表示"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
