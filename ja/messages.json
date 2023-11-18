@@ -244,7 +244,7 @@
         "message": "新しい動画ではセグメントを再取得する"
     },
     "whatRefetchWhenNotFound": {
-        "message": "動画が新しく、セグメントが見つからない場合は、視聴中の数分おきにセグメントを再取得します。"
+        "message": "動画がまだ新しくセグメントが見つからない場合は、動画を視聴している間、数分おきにセグメントを検索し続けます。"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "登録権限のないカテゴリーも登録メニューに表示する"
@@ -1272,13 +1272,13 @@
         "message": "元"
     },
     "OriginalTitle": {
-        "message": "元のタイトル"
+        "message": "元の題名"
     },
     "CurrentTime": {
         "message": "現在の時間"
     },
     "resetCustomTitle": {
-        "message": "タイトルを元の文字列に戻す"
+        "message": "題名を元の文字列に戻す"
     },
     "resetIcon": {
         "message": "アイコンを元に戻す"
@@ -1309,7 +1309,7 @@
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "タイトルの形式"
+        "message": "題名の形式"
     },
     "Disabled": {
         "message": "無効"
@@ -1380,10 +1380,10 @@
         "message": "サムネイル生成サービスを使用"
     },
     "titleMaxLines": {
-        "message": "タイトルの最大行数"
+        "message": "題名の最大行数"
     },
     "titleMaxLinesDescription": {
-        "message": "動画のタイトルを改行する際の最大行数"
+        "message": "動画の題名を改行するさいの最大行数"
     },
     "onAllPages": {
         "message": "すべてのページで",
@@ -1417,19 +1417,19 @@
         "message": "「元を表示」ボタンを常に表示する"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "タイトル/サムネイルが変更されたかどうかを常に知りたい場合は、これを有効にしてください。"
+        "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
     },
     "showOriginalOnHover": {
         "message": "カーソルを重ねたさいに改変前の概要欄を表示する"
     },
     "showIconForFormattedTitles": {
-        "message": "自動整形されたタイトルに「元を表示」ボタンを表示"
+        "message": "自動整形された題名に「元を表示」ボタンを表示"
     },
     "fetchTimeout": {
         "message": "データ取得のタイムアウト (ミリ秒)"
     },
     "fetchTimeoutDescription": {
-        "message": "この時間内にサーバーが応答しなければ、元のタイトルとサムネイルを表示する。"
+        "message": "この時間内にサーバーが応答しなければ、元の題名と画像を表示する。"
     },
     "renderTimeout": {
         "message": "サムネイル描画の時間切れまで (ミリ秒)"
@@ -1492,7 +1492,7 @@
         "message": "動画を視聴するかを判断できる十分な情報を提供する"
     },
     "tip5": {
-        "message": "タイトルを文章としてキャピタライズする",
+        "message": "英語の題名は文章として大文字化する",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
@@ -1523,7 +1523,7 @@
         "message": "最初は動画の元の情報を表示"
     },
     "whatDefaultToOriginals": {
-        "message": "デフォルトでは元のタイトルとサムネイルを表示します。ホバー時に、改善された題名とサムネイルを表示するためのボタンが表示されます。"
+        "message": "最初は元の題名とサムネイルを表示します。マウスを乗せると、改善された題名とサムネイルを表示するためのボタンが表示されます。"
     },
     "replaceTitles": {
         "message": "題名を置換"
@@ -1563,17 +1563,17 @@
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "タイトルとサムネイルをより正確なものに置き換え、クリックベイトを防ぎます"
+        "message": "題名とサムネイルをより正確にし誇張された案内を置き換える"
     },
     "DeArrowPromotionMessage2": {
-        "message": "クリックベイトにうんざりしていますか？タイトルとサムネイルを改善する、新しい拡張機能を開発しました"
+        "message": "誇張表現による案内にうんざりしませんか？題名とサムネイルを改善する、新しい拡張機能を開発しました"
     },
     "DeArrowPromotionMessage3": {
         "message": "DeArrow もご覧ください",
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "このタイトルは気に入りませんか？次のような題名にしたい場合は、DeArrowのタイトル置換機能 をご確認ください。",
+        "message": "この題名は気に入りませんか？　次のような題名にしたい場合は、DeArrowの題名置換機を用いることを検討してください。",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
@@ -1581,7 +1581,7 @@
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "この動画のサムネイルとタイトルはまだ登録されていないので、サムネイルは動画からランダムに生成、タイトルは自動整形されています",
+        "message": "この動画のサムネイルと題名はまだ登録されていないので、サムネイルは動画からランダムに生成、題名は自動整形されています",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
@@ -1593,11 +1593,11 @@
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
-        "message": "{titles}件のタイトル",
+        "message": "{titles}件の題名",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlesPart": {
-        "message": "{titles}件のタイトル",
+        "message": "{titles}件の題名",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
@@ -1613,7 +1613,7 @@
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "タイトルとサムネイルの置換数を数える"
+        "message": "題名とサムネイルの置換数を数える"
     },
     "countReplacementsDescription": {
         "message": "ポップアップ内に統計を表示するのに使用",
