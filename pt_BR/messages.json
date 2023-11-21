@@ -99,7 +99,7 @@
         "message": "Cancelar criação de segmento"
     },
     "noVideoID": {
-        "message": "Nenhum vídeo do YouTube encontrado.\nSe isto estiver errado, atualize a guia."
+        "message": "Nenhum vídeo do YouTube encontrado.\nSe isso for um erro, atualize a página."
     },
     "refreshSegments": {
         "message": "Atualizar segmentos"
@@ -178,7 +178,7 @@
         "message": "Definir nome de usuário"
     },
     "copyPublicID": {
-        "message": "Copiar ID de usuário pública"
+        "message": "Copiar ID público de usuário"
     },
     "copySegmentID": {
         "message": "Copiar ID do segmento"
@@ -208,7 +208,7 @@
         "message": "Ocultar botão de informações no reprodutor do YouTube"
     },
     "autoHideInfoButton": {
-        "message": "Ocultar automaticamente o botão de informação"
+        "message": "Ocultar automaticamente o botão de informações"
     },
     "hideDeleteButton": {
         "message": "Ocultar botão de apagar no reprodutor do YouTube"
@@ -271,7 +271,7 @@
         "message": "Todos os avisos de pulo, mesmo de curta duração"
     },
     "noticeVisibilityMode3": {
-        "message": "Avisos de pulo semitransparente no pulo automático"
+        "message": "Avisos de pulo semitransparentes no pulo automático"
     },
     "noticeVisibilityMode4": {
         "message": "Todos os avisos de pulo semitransparente"
@@ -680,7 +680,7 @@
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
     "category_preview": {
-        "message": "Prévia/Recapitulação",
+        "message": "Prévia/Recapitulação/Gancho Narrativo",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1353,7 +1353,7 @@
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
-        "message": "Inicio"
+        "message": "Início"
     },
     "Middle": {
         "message": "Meio"
@@ -1644,7 +1644,7 @@
         "message": "Se você quiser testá-lo por uma hora, você pode iniciar um teste gratuito com o botão abaixo."
     },
     "startFreeTrial": {
-        "message": "Iniciar avaliação gratuita"
+        "message": "Iniciar teste grátis"
     },
     "youCannotVoteDuringTrial": {
         "message": "Você não pode votar durante o teste gratuito",
@@ -1654,13 +1654,13 @@
         "message": "Você está registrado com sucesso para acesso gratuito. Você será notificado quando o acesso gratuito for concedido."
     },
     "freeAccessComplete": {
-        "message": "Parabéns! Agora você tem acesso gratuito à DeArrow <3"
+        "message": "Parabéns! Agora você tem acesso gratuito ao DeArrow"
     },
     "DeArrowNotActivated": {
         "message": "DeArrow não está ativado"
     },
     "ActivateDeArrow": {
-        "message": "Ative DeArrow"
+        "message": "Ativar DeArrow"
     },
     "DeArrowIsActivated": {
         "message": "DeArrow foi ativado com sucesso"
@@ -1669,7 +1669,7 @@
         "message": "Fechar"
     },
     "ViewLicenseKey": {
-        "message": "Visualizar Chave de Licença"
+        "message": "Visualizar chave de licença"
     },
     "SharingIsCaring": {
         "message": "Compartilhar é cuidar"
