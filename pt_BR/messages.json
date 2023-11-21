@@ -274,7 +274,7 @@
         "message": "Avisos de pulo semitransparentes no pulo automático"
     },
     "noticeVisibilityMode4": {
-        "message": "Todos os avisos de pulo semitransparente"
+        "message": "Todos os avisos de pulo semitransparentes"
     },
     "longDescription": {
         "message": "O SponsorBlock permite que você pule patrocinadores, introduções, créditos finais, lembretes de inscrição, e outras partes irritantes dos vídeos do YouTube. O SponsorBlock é uma extensão de navegador de colaboração coletiva que permite enviar a qualquer um o tempo inicial e final de segmentos patrocinados de vídeos do YouTube. Assim que uma pessoa enviar essa informação, todas as outras pessoas com essa extensão irão pular o segmento patrocinado. Você também pode pular seções sem música em vídeos de música.",
@@ -533,7 +533,7 @@
         "message": "Importar de um arquivo"
     },
     "whatExportOptions": {
-        "message": "Essa é a sua configuração completa em JSON. Isso inclui seu ID de usuário privado, então tenha certeza de compartilhá-lo com sabedoria."
+        "message": "Essa é a sua configuração completa em JSON. Inclui sua identificação de usuário particular, então não compartilhe."
     },
     "setOptions": {
         "message": "Definir opções"
@@ -895,7 +895,7 @@
         "message": "Considere ativar \"Forçar verificação do canal antes de pular\""
     },
     "downvoteDescription": {
-        "message": "Tempo errado/incorreto"
+        "message": "Tempo incorreto"
     },
     "incorrectVote": {
         "message": "Incorreto"
@@ -917,14 +917,14 @@
         "message": "Diretrizes"
     },
     "readTheGuidelines": {
-        "message": "Leia as Diretrizes!!",
+        "message": "Leia as diretrizes!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
         "message": "As categorias estão aqui!"
     },
     "categoryUpdate2": {
-        "message": "Abra as opções para ignorar as introduções, créditos finais, promoção de mercadoria, etc."
+        "message": "Abrir opções para ignorar introduções, créditos finais, promoção de mercadoria, etc."
     },
     "help": {
         "message": "Ajuda"
@@ -1076,7 +1076,7 @@
         "message": "Use a roda do mouse enquanto mantêm o cursor sobre a caixa de edição para ajustar o tempo rapidamente. Combinações das teclas ctrl e shift podem ser usadas para refinar as mudanças."
     },
     "categoryPillNewFeature": {
-        "message": "Novo! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
+        "message": "Novidade! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
     },
     "yearAbbreviation": {
         "message": "a",
