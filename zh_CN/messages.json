@@ -496,6 +496,15 @@
     "customServerAddressDescription": {
         "message": "SponsorBlock 用于联系服务器的地址。\n除非您有自己的服务器实例，否则这不应该更改。"
     },
+    "dataFetchingServerAddress": {
+        "message": "数据获取服务器地址"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "用于联系数据获取服务器的地址。\n如果您没有自己的服务器实例，请不要更改此项。"
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "缩略图缓存服务器地址"
+    },
     "save": {
         "message": "保存"
     },
@@ -670,6 +679,10 @@
     "category_outro_guideline1": {
         "message": "不应包含内容，即使结尾演职员表已经出现。"
     },
+    "category_preview": {
+        "message": "预览/概要/钩子",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_description": {
         "message": "展示此视频或同系列后续视频将出现的画面集锦，所有内容都将在之后再次出现。"
     },
@@ -833,6 +846,9 @@
     },
     "youMustSelectACategory": {
         "message": "您必须为所有您要提交的片段选择类别！"
+    },
+    "bracketStart": {
+        "message": "（开始）"
     },
     "bracketEnd": {
         "message": "（结束）"
