@@ -25,6 +25,12 @@
     "Segments": {
         "message": "segmenter"
     },
+    "SegmentsCap": {
+        "message": "Segmenter"
+    },
+    "Chapters": {
+        "message": "Kapitler"
+    },
     "upvoteButtonInfo": {
         "message": "Gi plusstemme til denne innsendingen"
     },
@@ -260,6 +266,14 @@
     },
     "setSubmitKeybind": {
         "message": "Send inn segmenter",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Neste kapittel",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Forrige kapittel",
         "description": "Keybind label"
     },
     "keybindDescription": {
@@ -502,6 +516,10 @@
         "message": "til",
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
+    "CopiedExclamation": {
+        "message": "Kopiert!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
     "category_sponsor": {
         "message": "Sponsor"
     },
@@ -566,6 +584,9 @@
     "category_poi_highlight_description": {
         "message": "Den del av videoen som de fleste er interessert i. Tilsvarende kommentarer som \"Videoen begynner på x\"."
     },
+    "category_chapter": {
+        "message": "Kapittel"
+    },
     "category_livestream_messages": {
         "message": "Direktesending: Donasjons-/Meldingshøytlesninger"
     },
@@ -595,6 +616,9 @@
     },
     "showOverlay_full": {
         "message": "Vis merke"
+    },
+    "showOverlay_chapter": {
+        "message": "Vis kapitler"
     },
     "autoSkipOnMusicVideos": {
         "message": "Autohopp over alle segmenter når det er et segment uten musikk"
@@ -648,6 +672,9 @@
     "youMustSelectACategory": {
         "message": "Du må velge en kategori for alle segmentene du sender inn!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(Slutt)"
     },
@@ -684,6 +711,10 @@
     },
     "downvoteDescription": {
         "message": "Feil tidtaking"
+    },
+    "harmfulVote": {
+        "message": "Skadelig",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
     },
     "incorrectCategory": {
         "message": "Endre kategori"
@@ -729,6 +760,9 @@
     },
     "questionButton": {
         "message": "SpørsmålsKnapp"
+    },
+    "askAQuestion": {
+        "message": "Still et spørsmål"
     },
     "Donate": {
         "message": "Donér"
@@ -879,5 +913,123 @@
     },
     "confirmResetToDefault": {
         "message": "Er du sikker på at du vil tilbakestille alle innstillingene til standardverdiene? Dette kan ikke angres."
+    },
+    "Import": {
+        "message": "Importér",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemFailed": {
+        "message": "Lisensnøkkelen er ugyldig"
+    },
+    "joinOnPatreon": {
+        "message": "Abonner på Patreon"
+    },
+    "oneTimePurchase": {
+        "message": "Éngangskjøp"
+    },
+    "enterLicenseKey": {
+        "message": "Skriv inn lisensnøkkel"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "videoer",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "videoID": {
+        "message": "Video-ID",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Handlinger",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Originaltittel"
+    },
+    "resetIcon": {
+        "message": "Tilbakestill ikon"
+    },
+    "Vote": {
+        "message": "Stem"
+    },
+    "Disabled": {
+        "message": "Skrudd av"
+    },
+    "LowerCase": {
+        "message": "Småbokstaver"
+    },
+    "shouldCleanEmojis": {
+        "message": "Fjern emojier"
+    },
+    "showABlankBox": {
+        "message": "Vis en tom boks"
+    },
+    "Start": {
+        "message": "Start"
+    },
+    "Middle": {
+        "message": "I midten"
+    },
+    "onAllPages": {
+        "message": "På alle sider",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Aldri"
+    },
+    "Enable": {
+        "message": "Skru på"
+    },
+    "Titles": {
+        "message": "Titteler",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniatyrbilder",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Feil"
+    },
+    "ShowOriginal": {
+        "message": "Vis opprinnelige detaljer"
+    },
+    "howItWorks": {
+        "message": "Hvordan det virker"
+    },
+    "privacyPolicy": {
+        "message": "Personvernretningslinjer"
+    },
+    "termsOfUse": {
+        "message": "Vilkår for bruk"
+    },
+    "NewConfiguration": {
+        "message": "Nytt oppsett"
+    },
+    "DeleteConfiguration": {
+        "message": "Slett oppsett"
+    },
+    "ConfigurationName": {
+        "message": "Oppsettets navn"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} tittel",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titler",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "Krever uBlock Origin"
+    },
+    "Close": {
+        "message": "Lukk"
     }
 }
