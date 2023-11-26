@@ -735,7 +735,7 @@
         "message": "La parte del video que la mayoría de gente está buscando. Similar a los comentarios que dicen \"El video comienza en x\"."
     },
     "category_poi_highlight_guideline1": {
-        "message": "La sección que la mayoría de personas están buscando"
+        "message": "Sección que busca la mayoría"
     },
     "category_poi_highlight_guideline2": {
         "message": "Puede omitir contexto"
@@ -1213,7 +1213,7 @@
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
-        "message": "videos",
+        "message": "vídeos",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
@@ -1290,7 +1290,7 @@
         "message": "Escribe tu propio título aquí"
     },
     "VideoNotReady": {
-        "message": "El video no está listo"
+        "message": "El vídeo no está listo"
     },
     "FailedToRender": {
         "message": "Error al procesar",
@@ -1626,7 +1626,7 @@
         "message": "Requiere uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Algo ha salido mal con la detección de la ID de vídeo. Intente actualizar la página antes de enviar para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envía un reporte del mismo junto con las otras extensiones o scripts de usuario que has instalado a través de GitHub, Discord o Matrix."
+        "message": "Algo ha salido mal con la detección de la Id del vídeo. Intente actualizar la página antes de enviarlo para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envíe un reporte del mismo junto con las otras extensiones o scripts de usuario que haya instalado a través de GitHub, Discord o Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basado en Twemoji licenciado bajo CC-BY 4.0"
