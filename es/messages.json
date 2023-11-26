@@ -708,7 +708,7 @@
         "message": "Escenas tangenciales solo de relleno o humor"
     },
     "category_filler_guideline2": {
-        "message": "Distracciones, meteduras de pata, repeticiones"
+        "message": "Distracciones, bloopers, repeticiones"
     },
     "category_filler_guideline3": {
         "message": "No para escenas requeridas para entender el tema"
@@ -1499,7 +1499,7 @@
         "message": "Nota: ¡Tu configuración de SponsorBlock se ha importado automáticamente!"
     },
     "howItWorks": {
-        "message": "Como funciona"
+        "message": "¿Cómo funciona?"
     },
     "discordPromotion": {
         "message": "Ven a contribuir, haz algunas sugerencias y ayuda en {discord} o en {matrix}"
@@ -1511,10 +1511,10 @@
         "message": "Al usar esta extensión, aceptas la {privacy-policy} y los {terms}"
     },
     "privacyPolicy": {
-        "message": "Política de privacidad"
+        "message": "Política de Privacidad"
     },
     "termsOfUse": {
-        "message": "Términos de uso"
+        "message": "Términos de Uso"
     },
     "openSourceLicenses": {
         "message": "Licencias de código abierto"
