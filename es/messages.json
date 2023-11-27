@@ -437,7 +437,7 @@
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
-        "message": "Sitios soportados: "
+        "message": "Sitios compatibles: "
     },
     "optionsInfo": {
         "message": "Activar el soporte para Invidious, desactivar la omisión automática, oculta botones y más."
@@ -974,7 +974,7 @@
         "message": "Ayuda a financiar el desarrollo"
     },
     "hideDonationLink": {
-        "message": "Ocular Enlace de Donación"
+        "message": "Ocultar enlace de donación"
     },
     "darkModeOptionsPage": {
         "message": "Modo Oscuro en la página de Opciones"
