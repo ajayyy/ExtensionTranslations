@@ -1475,5 +1475,14 @@
     },
     "ViewLicenseKey": {
         "message": "Zobraziť licenčný kľúč"
+    },
+    "syncDisabledWarning": {
+        "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nebude bez úložiska fungovať."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
     }
 }
