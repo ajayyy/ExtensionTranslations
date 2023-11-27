@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Упрощённый вид всплывающего окна"
+    },
+    "syncDisabledWarning": {
+        "message": "Внимание: В вашем браузере не включено хранилище расширений. При попытке изменить настройки, они не будут сохранены."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow не может работать без хранилища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Вы можете включить его, перейдя на страницу about:config и установив значение для \"webextensions.storage.sync.enabled\" на true."
     }
 }
