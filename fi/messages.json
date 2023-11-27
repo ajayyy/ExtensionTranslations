@@ -1676,5 +1676,11 @@
     },
     "cleanPopup": {
         "message": "Piilota ylimääräisyydet Osiolistan ponnahduksesta"
+    },
+    "syncDisabledWarning": {
+        "message": "Varoitus: Lisäosien tallennustila on poistettu käytöstä selaimessasi. Asetuksia ei tallennu, jos yrität tallentaa ne."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow ei toimi ilman tallennustilaa."
     }
 }
