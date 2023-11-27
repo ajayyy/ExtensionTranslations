@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Warnung: Erweiterungsspeicher wurde in deinem Browser deaktiviert. Einstellungen werden nicht gespeichert, wenn du versuchst, sie zu speichern."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow funktioniert nicht ohne Speicher."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Du kannst es aktivieren, indem du zu about:config gehst und den Wert \"webextensions.storage.sync.enabled\" auf true setzt."
     }
 }
