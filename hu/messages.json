@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Nem szükséges elemek elrejtése a szegmens lista ablakban"
+    },
+    "syncDisabledWarning": {
+        "message": "Figyelem: A bővítménytárhely le lett tiltva a böngésződben. A beállítások nem lesznek elmentve, ha menteni próbálod őket."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "A DeArrow nem fog működni tárhely nélkül."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Engedélyezheted, ha elmész az about:config címre, és a \"webextensions.storage.sync.enabled\" értéket true-ra állítod."
     }
 }
