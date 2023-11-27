@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Сховати безлад у спливаючому вікні списку сегментів"
+    },
+    "syncDisabledWarning": {
+        "message": "Попередження: сховище розширень було вимкнено у вашому браузері. Налаштування не будуть збережені, якщо ви спробуєте їх зберегти."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "Derow не буде працювати без сховища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Ви можете ввімкнути його, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" на true."
     }
 }
