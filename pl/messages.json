@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Kompaktowy interfejs wyskakującego okienka listy segmentów"
+    },
+    "syncDisabledWarning": {
+        "message": "Uwaga: pamięć rozszerzeń nie jest włączona w tej przeglądarce. Ustawienia nie zostaną zapisane, jeśli spróbujesz je ustawić."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nie będzie działać bez zapisania ustawień."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Aby włączyć przechowywanie, przejdź do about:config i ustaw \"webextensions.storage.sync.enabled\" na wartość true."
     }
 }
