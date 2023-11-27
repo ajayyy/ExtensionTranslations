@@ -1677,6 +1677,9 @@
     "cleanPopup": {
         "message": "ポップアップのセグメント一覧をすっきり表示"
     },
+    "syncDisabledWarning": {
+        "message": "警告: このブラウザには、拡張機能が保存領域を使う許可がありません。設定を保存できません。"
+    },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow は保存領域を使わないと動作しません。"
     },
