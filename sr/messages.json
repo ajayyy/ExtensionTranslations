@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Сакриј неред у искачућем прозору листе сегмената"
+    },
+    "syncDisabledWarning": {
+        "message": "Упозорење: Меморија додатка је онемогућена у вашем прегледачу. Подешавања неће бити сачувана ако покушате да их сачувате."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow неће функционисати без меморије."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Можете је омогућити тако што ћете отићи на страницу about:config и подесити вредност за „webextensions.storage.sync.enabled” на true."
     }
 }
