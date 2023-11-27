@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Dölj röran i segmentlistans popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Varning: Tilläggslagring har inaktiverats i din webbläsare. Inställningarna kommer inte att sparas om du försöker spara dem."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow fungerar inte utan lagring."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Du kan aktivera det genom att gå till about:config och ställa in värdet av \"webextensions.storage.sync.enabled\" till true."
     }
 }
