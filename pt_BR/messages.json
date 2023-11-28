@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Esconder desordem da lista de segmentos no popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Aviso: O armazenamento da extensão foi desativado no seu navegador. As configurações não serão salvas se você tentar salvá-las."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "O DeArrow não irá funcionar sem armazenamento."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Você pode ativar isso acessando about:config e definir o valor de \"webextensions.storage.sync.enabled\" como true."
     }
 }
