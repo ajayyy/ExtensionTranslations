@@ -1676,5 +1676,14 @@
     },
     "cleanPopup": {
         "message": "Skrýt zbytečnosti ve vyskakovacím okně seznamu segmentů"
+    },
+    "syncDisabledWarning": {
+        "message": "Varování: ve vašem prohlížeči bylo zakázáno úložiště rozšíření. Nastavení nebudou uložena."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nebude fungovat bez přístupu k úložišti."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Můžete ji povolit na stránce about:config nastavením hodnoty „webextensions.storage.sync.enabled“ na „true“."
     }
 }
