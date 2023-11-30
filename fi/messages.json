@@ -1682,5 +1682,8 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow ei toimi ilman tallennustilaa."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Voit ottaa sen käyttöön menemällä osoitteeseen about:config, ja asettamalla \"webextension.storage.sync.enabled\" asetuksen todeksi."
     }
 }
