@@ -1272,7 +1272,7 @@
         "message": "Original"
     },
     "OriginalTitle": {
-        "message": "Título original"
+        "message": "Título Original"
     },
     "CurrentTime": {
         "message": "Tiempo Actual"
@@ -1465,7 +1465,7 @@
         "message": "Mostrar detalles modificados"
     },
     "FillerWarning": {
-        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos videos tienen más del 50 % o más del video omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
+        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
