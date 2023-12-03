@@ -10,9 +10,6 @@
     "400": {
         "message": "Sunucu isteğin geçersiz olduğunu iletti"
     },
-    "429": {
-        "message": "Sadece bu video için çok fazla sponsor süresi belirtti, bu kadar fazla olduğuna emin misin?"
-    },
     "409": {
         "message": "Bu daha önce zaten gönderilmiş"
     },
