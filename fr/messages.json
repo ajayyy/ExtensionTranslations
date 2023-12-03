@@ -10,9 +10,6 @@
     "400": {
         "message": "Le serveur indique que cette requête est invalide"
     },
-    "429": {
-        "message": "Vous cherchez à soummettre trop de segments pour cette vidéo, êtes vous sûr-e de ne pas avoir fait une erreur ?"
-    },
     "409": {
         "message": "Ce segment a déjà été soumis auparavant"
     },
