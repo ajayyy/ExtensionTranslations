@@ -10,9 +10,6 @@
     "400": {
         "message": "Servern sa att denna begäran var ogiltig"
     },
-    "429": {
-        "message": "Du har skickat in för många sponsortider för den här videon. Är du säker på att det finns så många?"
-    },
     "409": {
         "message": "Den här har redan skickats in"
     },
