@@ -10,9 +10,6 @@
     "400": {
         "message": "Tjeneren sa at denne forespørselen var ugyldig"
     },
-    "429": {
-        "message": "Du har sendt inn for mange sponsortidspunkter på denne ene videoen, er du sikker på at det er såpass mange?"
-    },
     "409": {
         "message": "Dette har allerede blitt sendt inn tidligere"
     },
