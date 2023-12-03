@@ -1677,6 +1677,9 @@
     "syncDisabledWarning": {
         "message": "Warning: Extension storage has been disabled in your browser. Settings will not be saved if you try saving them."
     },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow will not function without storage."
+    },
     "syncDisabledFirefoxSuggestions": {
         "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" to true."
     }
