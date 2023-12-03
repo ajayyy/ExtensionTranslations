@@ -10,9 +10,6 @@
     "400": {
         "message": "Der Server meldet, dass diese Anfrage ungültig war."
     },
-    "429": {
-        "message": "Du hast zu viele Segmente für dieses Video eingereicht. Sind es wirklich so viele?"
-    },
     "409": {
         "message": "Dieser Inhalt wurde bereits eingereicht."
     },
