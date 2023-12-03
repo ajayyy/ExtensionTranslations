@@ -10,9 +10,6 @@
     "400": {
         "message": "El servidor dijo que esta solicitud no era válida"
     },
-    "429": {
-        "message": "Has enviado demasiados tiempos de sponsor en este video, ¿estas seguro de que hay tantos?"
-    },
     "409": {
         "message": "Esto ya ha sido enviado antes"
     },
