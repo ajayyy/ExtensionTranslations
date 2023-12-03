@@ -10,9 +10,6 @@
     "400": {
         "message": "Serwer odpowiedział, że to zapytanie jest niepoprawne"
     },
-    "429": {
-        "message": "Zgłoszono za dużo segmentów sponsora dla tego jednego filmu. Czy na pewno jest ich tak dużo?"
-    },
     "409": {
         "message": "To już zostało wysłane wcześniej"
     },
