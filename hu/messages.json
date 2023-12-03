@@ -10,9 +10,6 @@
     "400": {
         "message": "Szerver: Ez a kérés érvénytelen"
     },
-    "429": {
-        "message": "Túl sok szponzoridőt jelöltél be ezen a videón. Biztosan van ennyi?"
-    },
     "409": {
         "message": "Ez már korábban be lett küldve"
     },
