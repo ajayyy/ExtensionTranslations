@@ -10,9 +10,6 @@
     "400": {
         "message": "O servidor disse que esse pedido foi inválido"
     },
-    "429": {
-        "message": "Você enviou muitos segmentos para esse vídeo, tem certeza de que são tantos assim?"
-    },
     "409": {
         "message": "Esse segmento já foi enviado."
     },
