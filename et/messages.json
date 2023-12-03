@@ -10,9 +10,6 @@
     "400": {
         "message": "Server ütles, et see taotlus oli sobimatu"
     },
-    "429": {
-        "message": "Sa oled sellele ühele videole liiga palju sponsoriaegu saatnud, kas oled kindel, et neid on tõesti nii palju?"
-    },
     "409": {
         "message": "See on juba varasemalt saadetud"
     },
