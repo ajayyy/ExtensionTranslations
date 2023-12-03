@@ -10,9 +10,6 @@
     "400": {
         "message": "Server hlásí, že tento požadavek je neplatný"
     },
-    "429": {
-        "message": "Pro toto video jste přidali příliš mnoho příspěvků. Jste si jistí, že jich je tolik?"
-    },
     "409": {
         "message": "Tento příspěvek byl již přidán dříve"
     },
