@@ -10,9 +10,6 @@
     "400": {
         "message": "Serveris ziņo, ka šis pieprasījums ir nederīgs"
     },
-    "429": {
-        "message": "Jūs esat aizsūtījis pārāk daudz sponsoru laika sprīžus šim video; vai esat pārliecināts, ka šeit ir tik daudz?"
-    },
     "409": {
         "message": "Šis jau ir ticis aizsūtīts iepriekš"
     },
