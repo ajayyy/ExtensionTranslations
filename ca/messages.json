@@ -10,9 +10,6 @@
     "400": {
         "message": "El server ha dit que aquesta sol·licitud es invalida"
     },
-    "429": {
-        "message": "Heu enviat massa vegades patrocinadors per a aquest vídeo, esteu segur que n'hi ha tants?"
-    },
     "409": {
         "message": "Això ja s'ha enviat abans"
     },
