@@ -10,9 +10,6 @@
     "400": {
         "message": "Serveren sagde at denne efterspørgsel var ugyldig"
     },
-    "429": {
-        "message": "Du har indsendt for mange reklamesegmenter til den her video, er du helt sikker på at der er så mange?"
-    },
     "409": {
         "message": "Dette er allerede blevet indsendt"
     },
