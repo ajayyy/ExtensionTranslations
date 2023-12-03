@@ -10,9 +10,6 @@
     "400": {
         "message": "Server je rekao da je zahtjev neispravan"
     },
-    "429": {
-        "message": "Unio si previše vremena sponzora za ovaj video, jesi li siguran da ih ima toliko?"
-    },
     "409": {
         "message": "Ovo je već unešeno prije"
     },
