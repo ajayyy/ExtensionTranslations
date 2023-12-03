@@ -10,9 +10,6 @@
     "400": {
         "message": "Server hlási, že táto požiadavka je neplatná"
     },
-    "429": {
-        "message": "Pre toto video ste pridali príliš veľa segmentov. Ste si istí, že ich je toľko?"
-    },
     "409": {
         "message": "Tento segment už bol pridaný"
     },
