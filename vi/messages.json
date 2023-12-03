@@ -10,9 +10,6 @@
     "400": {
         "message": "Máy chủ báo yêu cầu này không hợp lệ"
     },
-    "429": {
-        "message": "Bạn đã đăng quá nhiều đoạn quảng cáo tài trợ cho video này, bạn có chắc có nhiều đến thế không?"
-    },
     "409": {
         "message": "Đoạn này đã được đăng rồi"
     },
