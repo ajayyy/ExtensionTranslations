@@ -10,9 +10,6 @@
     "400": {
         "message": "Richiesta non valida"
     },
-    "429": {
-        "message": "Stai inviando troppi segmenti per questo video, sei sicuro che ce ne siano così tanti?"
-    },
     "409": {
         "message": "Questo è già stato inviato"
     },
