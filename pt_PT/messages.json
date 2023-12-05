@@ -845,7 +845,7 @@
         "message": "Você deve selecionar uma categoria para todos os segmentos que você está enviando!"
     },
     "bracketStart": {
-        "message": "(Início) "
+        "message": "(Início)"
     },
     "bracketEnd": {
         "message": "(Fim)"
@@ -1259,7 +1259,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Miniaturas e títulos selecionados pela comunidade para descrever os vídeos de forma objetiva, sem sensacionalismo e sem truques para ganhar cliques.",
+        "message": "Miniaturas e títulos selecionados pela comunidade para descrever os vídeos de forma objetiva, sem sensacionalismo e sem truques para ganhar cliques",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1321,7 +1321,7 @@
         "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
     },
     "LowerCase": {
-        "message": "tudo minúsculo"
+        "message": "Letra minúscula"
     },
     "FirstLetterUppercase": {
         "message": "Primeira letra em maiúscula"
@@ -1400,7 +1400,7 @@
         "message": "Usar o serviço em páginas de vídeos traz o risco de vazar identificação de vídeos não-listados para o servidor. Selecione a opção \"Em todas as páginas, exceto de vídeos\" para que isso não ocorra. Outra opção é hospedar seu próprio serviço de geração de miniaturas."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Se o serviço de geração de miniaturas estiver desativado, todas as solicitações usarão um sistema anônimo de consultas, dificultando para o servidor prever quais vídeos já foram buscados, e um servidor local mais lento será usado.",
+        "message": "Se o serviço de geração de miniaturas estiver desativado, todas as solicitações usarão um sistema anónimo de consultas, dificultando para o servidor prever quais vídeos já foram obtidos, e um servidor local mais lento será usado.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
