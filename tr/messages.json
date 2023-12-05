@@ -1640,5 +1640,14 @@
     },
     "SharingIsCaring": {
         "message": "Paylaşmak önemsemektir"
+    },
+    "syncDisabledWarning": {
+        "message": "Uyarı: Tarayıcınızda uzantı depolama devre dışı bırakıldı. Kaydetmeyi denerseniz ayarlar kaydedilmeyecektir."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow depolama olmadan çalışmayacaktır."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "about:config sayfasına gidip \"webextensions.storage.sync.enabled\" değerini true olarak ayarlayarak etkinleştirebilirsiniz."
     }
 }
