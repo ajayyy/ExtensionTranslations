@@ -1524,10 +1524,6 @@
     "ConfigurationName": {
         "message": "Nome Configurazione"
     },
-    "ChannelListInstructions": {
-        "message": "Inserisci tutti i canali a cui vuoi applicare a questa configurazione nella casella sottostante, uno per riga. Sono accettati sia l'ID del Canale che il nome. I nomi utente non sono supportati. Puoi ottenere l'ID del canale facendo clic sul pulsante \"Condividi\" presente sulla pagina \"Informazioni\" del canale.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Ancora nessuna configurazione. Fare clic sul pulsante in alto per aggiungere una nuova configurazione.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
