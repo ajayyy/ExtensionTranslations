@@ -1365,10 +1365,6 @@
     "ConfigurationName": {
         "message": "組態名稱"
     },
-    "ChannelListInstructions": {
-        "message": "在下方框格內輸入任何您想套用此組態設定的頻道，以換行分隔。支援頻道 ID 與頻道名稱。不支援 @ 用戶名。您可在頻道的「關於」頁面點擊分享按鈕來獲取頻道 ID。",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "未有組態設定。點擊頂部的按鈕來新建組態。",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
