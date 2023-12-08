@@ -1551,10 +1551,6 @@
     "ConfigurationName": {
         "message": "Nazwa konfiguracji"
     },
-    "ChannelListInstructions": {
-        "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. @ Nazwy użytkowników nie są obsługiwane. Możesz uzyskać identyfikator kanału klikając przycisk udostępniania na stronie kanału.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Nie skonfigurowano jeszcze SponsorBlock, aby to zrobić, kliknij przycisk powyżej, aby dodać nową konfigurację.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
