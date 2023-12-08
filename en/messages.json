@@ -10,9 +10,6 @@
     "400": {
         "message": "Server said this request was invalid"
     },
-    "429": {
-        "message": "You have submitted too many sponsor times for this one video, are you sure there are this many?"
-    },
     "409": {
         "message": "This has already been submitted before"
     },
