@@ -1551,10 +1551,6 @@
     "ConfigurationName": {
         "message": "Назва конфігурації"
     },
-    "ChannelListInstructions": {
-        "message": "Введіть усі канали, до яких ви хочете застосувати цю конфігурацію, у поле нижче, відокремлюючи їх новими рядками. Підтримуються як ідентифікатори каналів, так і їхні назви. Імена користувачів не підтримуються. Ідентифікатори каналів можна отримати, натиснувши кнопку \"Поділитися\" на сторінці про канал.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Конфігурацій ще немає. Натисніть кнопку вгорі, щоб додати нову конфігурацію.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
