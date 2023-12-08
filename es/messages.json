@@ -677,7 +677,7 @@
         "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
     },
     "category_preview": {
-        "message": "Vista previa/Recapitulación/Gancho",
+        "message": "Vista previa/Recapitulación/Enganche",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1456,10 +1456,10 @@
         "message": "Error"
     },
     "ShowOriginal": {
-        "message": "Mostrar detalles originales"
+        "message": "Mostrar Detalles Originales"
     },
     "ShowModified": {
-        "message": "Mostrar detalles modificados"
+        "message": "Mostrar Detalles Modificados"
     },
     "FillerWarning": {
         "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
@@ -1514,7 +1514,7 @@
         "message": "Términos de Uso"
     },
     "openSourceLicenses": {
-        "message": "Licencias de código abierto"
+        "message": "Licencias de Código Abierto"
     },
     "defaultToOriginals": {
         "message": "Optar por defecto a la información original del video"
