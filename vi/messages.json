@@ -1551,10 +1551,6 @@
     "ConfigurationName": {
         "message": "Tên cấu hình"
     },
-    "ChannelListInstructions": {
-        "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới được phân cách bằng dòng. Cả ID kênh và tên kênh đều được hỗ trợ. Tuy nhiên, @ Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấp vào nút Chia sẻ trên trang Giới thiệu của kênh.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
