@@ -1551,6 +1551,10 @@
     "ConfigurationName": {
         "message": "設定の名前"
     },
+    "ChannelListInstructions": {
+        "message": "この設定を適用するチャンネルを、改行で区切り下のボックスに入力します。チャンネルIDと表示名の両方に対応します。@username 形式には対応しません。 チャンネルの概要を表示し「共有」ボタンを押すと、チャンネルIDを取得できます。概要を表示するには、そのチャンネルのページのチャンネル名の下に表示されているチャンネルの説明を押します。",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
