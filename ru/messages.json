@@ -1551,6 +1551,10 @@
     "ConfigurationName": {
         "message": "Название конфигурации"
     },
+    "ChannelListInstructions": {
+        "message": "Введите в поле ниже с новой строки все каналы, к которым вы хотите применить к эту настройку. Поддерживаются как названия, так и идентификаторы каналов. @Псевдонимы не поддерживаются. Идентификатор канала можно получить, нажав на кнопку «Поделиться каналом» в разделе с его описанием. Чтобы попасть в этот раздел, нажмите на краткое описание на странице канала под его названием.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Конфигурации еще не настроены. Нажмите на кнопку вверху, чтобы добавить новую конфигурацию.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
