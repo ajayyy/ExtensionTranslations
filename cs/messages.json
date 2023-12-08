@@ -1551,10 +1551,6 @@
     "ConfigurationName": {
         "message": "Název konfigurace"
     },
-    "ChannelListInstructions": {
-        "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, a oddělte je novými řádky. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména nejsou podporována. ID kanálu získáte po kliknutí na tlačítko sdílení na stránce o kanálu.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
