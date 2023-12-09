@@ -1551,6 +1551,10 @@
     "ConfigurationName": {
         "message": "Määrityksen nimi"
     },
+    "ChannelListInstructions": {
+        "message": "Syötä alla olevaan ruutuun omille riveilleen ne kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukset eivät kelpaa. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta. Tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
