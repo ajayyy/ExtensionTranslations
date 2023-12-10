@@ -333,7 +333,7 @@
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
     },
     "errorCode": {
-        "message": "Código de error: "
+        "message": "Código de Error: "
     },
     "skip": {
         "message": "Omitir"
