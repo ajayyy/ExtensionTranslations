@@ -575,7 +575,7 @@
         "message": "Kopiert Informationen in die Zwischenablage, welche einem Entwickler gegebenenfalls (z. B. um einen Fehler zu melden) zur Verfügung gestellt werden können. Personenbezogene Daten wie die Benutzer-ID, Kanäle auf der Whitelist und die benutzerdefinierte Serveradresse wurden entfernt. Die Debug-Informationen enthalten jedoch unter anderem den Useragent, den Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
     },
     "copyDebugInformationComplete": {
-        "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Verwende einen Texteditor um die Informationen in einer Textdatei zu speichern (um diese ggf. einem Fehlerbericht hinzuzufügen)."
+        "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Speichere diese in einer Textdatei, oder füge sie einem Fehlerbericht hinzu."
     },
     "keyAlreadyUsed": {
         "message": "Diese Verknüpfung ist an eine andere Aktion gebunden. Bitte wähle eine andere."
@@ -977,13 +977,13 @@
         "message": "Dunkler Modus auf der Optionsseite"
     },
     "helpPageThanksForInstalling": {
-        "message": "Danke fürs installieren von SponsorBlock."
+        "message": "Danke fürs Installieren von SponsorBlock."
     },
     "helpPageReviewOptions": {
         "message": "Bitte überprüfe die unten stehenden Optionen"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "Viele Funktionen sind standardmäßig deaktiviert. Wenn du Intros und Outtros überspringen willst, Invidious verwenden willst, usw. aktiviere sie unten. Du kannst auch UI-Elemente verstecken/anzeigen."
+        "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
     "helpPageHowSkippingWorks": {
         "message": "Wie überspringen funktioniert"
@@ -998,7 +998,7 @@
         "message": "Übermitteln"
     },
     "helpPageSubmitting1": {
-        "message": "Das übermitteln kann entweder im Popup durch das drücken vom \"Segment Started Jetzt\" Knopf oder im Videoplayer mit den Knöpfen im Player gemacht werden."
+        "message": "Das Einreichen kann entweder im Pop-up durch Drücken des \"Segment Startet Jetzt\" Knopf oder im Videoplayer mit den Knöpfen im Player gemacht werden."
     },
     "helpPageSubmitting2": {
         "message": "Mit einem Klick auf den Play-Button wird der Beginn eines Segments markiert, und mit einem Klick auf den Stop-Button dessen Ende. Du kannst mehrere Segmente anlegen, bevor du durch Klicken des Upload-Buttons zum Einreichen fortfährst. Ein Klick auf die Mülltonne löscht deine angelegten Segmente."
@@ -1013,10 +1013,10 @@
         "message": "Das ist zu langsam"
     },
     "helpPageTooSlow1": {
-        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste um den Anfang/das Ende eines Sponsor-Segments zu markieren und die Abostrophe-Taste um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du eventuell die Keybinds ändern."
+        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste um den Anfang / das Ende eines Sponsor-Segments zu markieren und die Apostroph-Taste um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Kann ich eine kopie der Datenbank erhalten? Was passiert wenn du verschwindest?"
+        "message": "Kann ich eine Kopie der Datenbank erhalten? Was passiert, wenn du verschwindest?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "Die Datenbank ist öffentlich und verfügbar unter"
