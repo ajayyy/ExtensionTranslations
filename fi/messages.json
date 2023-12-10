@@ -1552,7 +1552,7 @@
         "message": "Määrityksen nimi"
     },
     "ChannelListInstructions": {
-        "message": "Syötä alla olevaan ruutuun omille riveilleen ne kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukset eivät kelpaa. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta. Tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
+        "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1675,12 +1675,12 @@
         "message": "Piilota ylimääräisyydet Osiolistan ponnahduksesta"
     },
     "syncDisabledWarning": {
-        "message": "Varoitus: Lisäosien tallennustila on poistettu käytöstä selaimessasi. Asetuksia ei tallennu, jos yrität tallentaa ne."
+        "message": "Varoitus: Lisäosien tallennustila on poistettu käytöstä selaimestasi, eivätkä niiden asetukset sen vuoksi tallennu."
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow ei toimi ilman tallennustilaa."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "Voit ottaa sen käyttöön menemällä osoitteeseen about:config, ja asettamalla \"webextension.storage.sync.enabled\" asetuksen todeksi."
+        "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\"-asetuksen todeksi."
     }
 }
