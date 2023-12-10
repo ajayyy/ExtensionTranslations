@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock für YouTube - Überspringe gesponserte Videosegmente",
+        "message": "SponsorBlock für YouTube – Überspringe gesponserte Videosegmente",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1022,7 +1022,7 @@
         "message": "Die Datenbank ist öffentlich und verfügbar unter"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "Der Quellcode ist frei verfügbar. Selbst, wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
+        "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
     },
     "helpPageNews": {
         "message": "Nachrichten und wie es gemacht wird"
