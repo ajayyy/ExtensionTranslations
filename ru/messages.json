@@ -20,7 +20,7 @@
         "message": "сегмент"
     },
     "Segments": {
-        "message": "сегментов"
+        "message": "сегменты"
     },
     "SegmentsCap": {
         "message": "Сегменты"
@@ -632,7 +632,7 @@
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Всё видео - демонстрация чего-либо, к чему авторам был дан эксклюзивный доступ"
+        "message": "Всё видео - демонстрация чего-либо, к чему автору видео был дан бесплатный или субсидированный доступ"
     },
     "category_interaction": {
         "message": "Напоминание о взаимодействии (подписка)"
