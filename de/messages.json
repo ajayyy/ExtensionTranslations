@@ -199,13 +199,13 @@
         "message": "Zum Highlight springen-Knopf im Player behalten"
     },
     "showInfoButton": {
-        "message": "Zeige Info-Knopf im Youtube-Videoplayer"
+        "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
     },
     "hideInfoButton": {
         "message": "Deaktiviere Info-Knopf im Youtube-Videoplayer"
     },
     "autoHideInfoButton": {
-        "message": "Info-Button automatisch ausblenden"
+        "message": "Info-Knopf automatisch ausblenden"
     },
     "hideDeleteButton": {
         "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
@@ -491,7 +491,7 @@
         "message": "SponsorBlock Serveradresse"
     },
     "customServerAddressDescription": {
-        "message": "Die Adresse die SponsorBlock verwendet um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
+        "message": "Die Adresse, die SponsorBlock verwendet, um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
     },
     "dataFetchingServerAddress": {
         "message": "Server-Adresse für Datenabfrage"
