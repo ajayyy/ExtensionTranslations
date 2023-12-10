@@ -141,7 +141,7 @@
         "message": "Kanal zur Whitelist hinzufügen"
     },
     "removeFromWhitelist": {
-        "message": "Kanal aus der Whitelist entfernen"
+        "message": "Kanal von der Ausnahmeliste entfernen"
     },
     "voteOnTime": {
         "message": "Über ein Segment abstimmen"
@@ -256,7 +256,7 @@
         "message": "Zeige Pop-up nach dem Überspringen eines Segments"
     },
     "showCategoryGuidelines": {
-        "message": "Zeige Kategorien-Hilfe"
+        "message": "Kategorienhilfe anzeigen"
     },
     "noticeVisibilityMode0": {
         "message": "Skip-Meldung in voller größe"
@@ -330,7 +330,7 @@
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
-        "message": "Der Server ist wahrescheinlich überlastet. Probiere es später nochmal."
+        "message": "Der Server ist wahrscheinlich überlastet. Probiere es später nochmal."
     },
     "errorCode": {
         "message": "Fehlermeldung: "
@@ -1022,13 +1022,13 @@
         "message": "Die Datenbank ist öffentlich und verfügbar unter"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde wären deine Übermittlungen nicht verloren."
+        "message": "Der Quellcode ist frei verfügbar. Selbst, wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
     },
     "helpPageNews": {
         "message": "Nachrichten und wie es gemacht wird"
     },
     "helpPageSourceCode": {
-        "message": "Wo kann ich den Quellcode kriegen?"
+        "message": "Wo kann ich den Quellcode bekommen?"
     },
     "Credits": {
         "message": "Mitwirkende"
@@ -1298,7 +1298,7 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Fehler beim Rendern",
+        "message": "Renderfehler",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
@@ -1377,7 +1377,7 @@
         "message": "Thumbnail-Erstellungsdienst verwenden"
     },
     "titleMaxLines": {
-        "message": "Maximale Zeilen für Titel"
+        "message": "Maximale Zeilenanzahl für Titel"
     },
     "titleMaxLinesDescription": {
         "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
