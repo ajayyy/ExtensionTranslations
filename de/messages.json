@@ -914,7 +914,7 @@
         "message": "Richtlinien"
     },
     "readTheGuidelines": {
-        "message": "Lese die Richtlinien!",
+        "message": "Lies die Richtlinien!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
@@ -971,7 +971,7 @@
         "message": "Hilf beim Finanzieren der Entwicklung"
     },
     "hideDonationLink": {
-        "message": "Verstecke Spendenlink"
+        "message": "Spendenlink verbergen"
     },
     "darkModeOptionsPage": {
         "message": "Dunkler Modus auf der Optionsseite"
