@@ -1405,6 +1405,10 @@
     "DeleteConfiguration": {
         "message": "Zmazať nastavenia"
     },
+    "ChannelListInstructions": {
+        "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "DeArrowPromotionMessage": {
         "message": "Zastavte clickbait presnejšími názvami a miniatúrami"
     },
