@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Прибрати Емодзі"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Великі слова для неангломовних назв"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Виявлення мови не ідеальне, і виявляє деяких англійські назви як неанглійські."
+    },
     "thumbnailFallbackOption": {
         "message": "За відсутності відправленого значка"
     },
