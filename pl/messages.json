@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Zamieniaj słowa na wielkie litery w nie-angielskich tytułach"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Wykrywanie języka nie jest doskonałe i czasami wykrywa angielskie tytuły tak, jakby były w innym języku."
+    },
     "thumbnailFallbackOption": {
         "message": "Gdy nie przesłano żadnej miniatury dla filmu"
     },
