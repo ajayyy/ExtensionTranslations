@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Remove Emojis"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Capitalize Words for Non-English Titles"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Language detection is not perfect and detects some English titles as non-English."
+    },
     "thumbnailFallbackOption": {
         "message": "When No Submitted Thumbnail Exists"
     },
