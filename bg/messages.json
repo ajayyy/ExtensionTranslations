@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Премахване на емоджитата"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Писане с главни букви на думите в неанглийските заглавия"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Разпознаването на езика не е перфектно и разпознава някои английски заглавия като неанглийски."
+    },
     "thumbnailFallbackOption": {
         "message": "Когато няма изпратена миниатюра"
     },
