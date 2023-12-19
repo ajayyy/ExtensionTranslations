@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "英語ではない題名も大文字化する"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "言語推定機能は完璧ではないので、英語で書かれた題名を英語でないと判定することがあります"
+    },
     "thumbnailFallbackOption": {
         "message": "投稿されたサムネイルなしなら"
     },
