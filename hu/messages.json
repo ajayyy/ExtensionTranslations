@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Hangulatjelek eltávolítása"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Nagybetűs szavak nem angol címek esetén"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "A nyelvfelismerés nem tökéletes és néhány angol címet nem angolként ismer fel."
+    },
     "thumbnailFallbackOption": {
         "message": "Ha nincs beküldött indexkép"
     },
