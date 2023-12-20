@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Odebrat smajlíky"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Velká písmena u neanglických názvů"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Rozpoznávání jazyka není dokonalé a může rozpoznat některé anglické názvy jako neanglické."
+    },
     "thumbnailFallbackOption": {
         "message": "Pokud neexistuje žádný komunitní náhled"
     },
