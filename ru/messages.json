@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Убирать эмодзи"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Заглавные буквы для заголовков на языках, отличных от английского"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Определение языка не идеально, некоторые английские заголовки могут не распознаться правильно."
+    },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
     },
