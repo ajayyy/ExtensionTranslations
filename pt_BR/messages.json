@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Palavras em maiúsculas para títulos não ingleses"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Detecção de idiomas não é perfeita! Pode detecta alguns títulos em inglês como não-inglês."
+    },
     "thumbnailFallbackOption": {
         "message": "Quando não houver nenhuma miniatura enviada"
     },
