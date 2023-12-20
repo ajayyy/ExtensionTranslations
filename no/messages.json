@@ -864,8 +864,17 @@
     "ChangeCategoryTooltip": {
         "message": "Dette vil umiddelbart gjelde for dine segmenter"
     },
+    "downvote": {
+        "message": "Stem ned"
+    },
+    "upvote": {
+        "message": "Stem opp"
+    },
     "hideSegment": {
         "message": "Skjul segment"
+    },
+    "skipSegment": {
+        "message": "Hopp over segment"
     },
     "playChapter": {
         "message": "Spill av kapittel"
