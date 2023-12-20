@@ -10,9 +10,6 @@
     "400": {
         "message": "Serwer odpowiedział, że to zapytanie jest niepoprawne"
     },
-    "429": {
-        "message": "Zgłoszono za dużo segmentów sponsora dla tego jednego filmu. Czy na pewno jest ich tak dużo?"
-    },
     "409": {
         "message": "To już zostało wysłane wcześniej"
     },
@@ -23,7 +20,7 @@
         "message": "segment"
     },
     "Segments": {
-        "message": "segmentów"
+        "message": "segmenty/ów"
     },
     "SegmentsCap": {
         "message": "Segmenty"
@@ -1332,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Zamieniaj słowa na wielkie litery w nie-angielskich tytułach"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Wykrywanie języka nie jest doskonałe i czasami wykrywa angielskie tytuły tak, jakby były w innym języku."
+    },
     "thumbnailFallbackOption": {
         "message": "Gdy nie przesłano żadnej miniatury dla filmu"
     },
@@ -1374,7 +1377,7 @@
         "message": "Zapisz wysłane głosy i pokazuj tytuły i miniatury, które wybrałeś zamiast najwyżej ocenionych na serwerze."
     },
     "keepUnsubmittedInPrivate": {
-        "message": "Zapisuj zgłoszenia z kart prywatncyh"
+        "message": "Zapisuj zgłoszenia z kart prywatnych"
     },
     "useThumbnailGenerationService": {
         "message": "Używaj usługi generowania miniatur"
@@ -1511,10 +1514,10 @@
         "message": "Używając tego rozszerzenia, zgadzasz się z {privacy-policy} i {terms}"
     },
     "privacyPolicy": {
-        "message": "Polityka Prywatności"
+        "message": "polityką prywatności"
     },
     "termsOfUse": {
-        "message": "Warunki Użytkowania"
+        "message": "warunkami użytkowania"
     },
     "openSourceLicenses": {
         "message": "Licencje Open Source"
@@ -1539,7 +1542,7 @@
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
-        "message": "Czy jesteś pewien, że chcesz usunąć tę konfigurację?",
+        "message": "Czy na pewno chcesz usunąć tę konfigurację?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
@@ -1555,7 +1558,7 @@
         "message": "Nazwa konfiguracji"
     },
     "ChannelListInstructions": {
-        "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. @ Nazwy użytkowników nie są obsługiwane. Możesz uzyskać identyfikator kanału klikając przycisk udostępniania na stronie kanału.",
+        "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. Nazwy użytkowników z @ nie są obsługiwane. Identyfikator kanału można uzyskać, klikając przycisk udostępniania na stronie informacji o kanale. Aby uzyskać dostęp do informacji o kanale, kliknij opis kanału, wyświetlany pod nazwą użytkownika na stronie kanału.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1571,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "Wypróbuj także rozszerzenie DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nie podoba Ci się ten tytuł? Jeśli wolisz poniższy tytuł, rozważ skorzystanie z funkcji zamiany tytułu w rozszerzeniu DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Ta miniaturka została utworzona z losowej klatki, ponieważ nie było jeszcze zgłoszenia do tego filmu",
@@ -1671,6 +1678,15 @@
         "message": "Dzielenie się to troska"
     },
     "cleanPopup": {
-        "message": "Kompaktowy interfejs wyskakującego okienku listy segmentów"
+        "message": "Kompaktowy interfejs wyskakującego okienka listy segmentów"
+    },
+    "syncDisabledWarning": {
+        "message": "Uwaga: pamięć rozszerzeń nie jest włączona w tej przeglądarce. Ustawienia nie zostaną zapisane, jeśli spróbujesz je ustawić."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nie będzie działać bez zapisania ustawień."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Aby włączyć przechowywanie, przejdź do about:config i ustaw \"webextensions.storage.sync.enabled\" na wartość true."
     }
 }

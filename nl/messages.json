@@ -10,9 +10,6 @@
     "400": {
         "message": "Server zegt dat het verzoek ongeldig is"
     },
-    "429": {
-        "message": "U heeft te veel sponsortijdstippen ingediend voor deze video. Weet u zeker dat er zoveel zijn?"
-    },
     "409": {
         "message": "Dit is al eerder ingediend"
     },

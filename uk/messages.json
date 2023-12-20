@@ -10,9 +10,6 @@
     "400": {
         "message": "Сервер відхилив цей запит"
     },
-    "429": {
-        "message": "Ви відправили занадто багато спонсорів для цього відео. Ви впевнені, що їх так багато?"
-    },
     "409": {
         "message": "Цей запит був відправлений раніше"
     },
@@ -679,6 +676,10 @@
     "category_outro_guideline1": {
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
+    "category_preview": {
+        "message": "Попередній перегляд/короткий зміст/зав'язка",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_description": {
         "message": "Колекція кліпів, які показують, що відбувається в цьому відео або інших відео в серії, де вся інформація повторюється пізніше у відео."
     },
@@ -1328,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Прибрати Емодзі"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Великі слова для неангломовних назв"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Виявлення мови не ідеальне, і виявляє деяких англійські назви як неанглійські."
+    },
     "thumbnailFallbackOption": {
         "message": "За відсутності відправленого значка"
     },
@@ -1551,7 +1558,7 @@
         "message": "Назва конфігурації"
     },
     "ChannelListInstructions": {
-        "message": "Введіть усі канали, до яких ви хочете застосувати цю конфігурацію, у поле нижче, відокремлюючи їх новими рядками. Підтримуються як ідентифікатори каналів, так і їхні назви. Імена користувачів не підтримуються. Ідентифікатори каналів можна отримати, натиснувши кнопку \"Поділитися\" на сторінці про канал.",
+        "message": "Введіть будь-які канали, до яких ви хочете застосувати цю конфігурацію в полі нижче, через нові рядки. Як ID каналів, так і імена відображення підтримуються. @ імена користувачів не підтримуються. Ви можете отримати ID каналу від натискання кнопки Поділитися на сторінці каналу. Для переходу до сторінки, натисніть на опис каналу, який з'являється нижче назву каналу на сторінці їхнього каналу.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1567,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "Також перевірте DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Не подобається ця назва? Якщо ви надаєте перевагу нижньому заголовку, спробуйте перевірити властивість заміни в DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Цей значок вибрано з випадкової позначки часу, оскільки для цього відео не було нічого запропоновано",
@@ -1668,5 +1679,14 @@
     },
     "cleanPopup": {
         "message": "Сховати безлад у спливаючому вікні списку сегментів"
+    },
+    "syncDisabledWarning": {
+        "message": "Попередження: сховище розширень було вимкнено у вашому браузері. Налаштування не будуть збережені, якщо ви спробуєте їх зберегти."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "Derow не буде працювати без сховища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Ви можете ввімкнути його, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" на true."
     }
 }

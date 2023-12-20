@@ -10,9 +10,6 @@
     "400": {
         "message": "Сервер отклонил этот запрос"
     },
-    "429": {
-        "message": "Вы отправили слишком много сегментов для этого видео. Вы уверены, что их так много?"
-    },
     "409": {
         "message": "Этот запрос был отправлен ранее"
     },
@@ -199,7 +196,7 @@
         "message": "Эта настройка скрывает кнопки для отправки сегментов, расположенные в плеере YouTube."
     },
     "showSkipButton": {
-        "message": "Не скрывать кнопку «Пропустить до важного» в плеере YouTube"
+        "message": "Показывать кнопку «Пропустить до важного» в плеере YouTube"
     },
     "showInfoButton": {
         "message": "Показывать кнопку информации в плеере YouTube"
@@ -635,7 +632,7 @@
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Всё видео - демонстрация чего-либо, к чему авторам был дан эксклюзивный доступ"
+        "message": "Всё видео - демонстрация чего-либо, к чему автору видео был дан бесплатный или субсидированный доступ"
     },
     "category_interaction": {
         "message": "Напоминание о взаимодействии (подписка)"
@@ -1332,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Убирать эмодзи"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Заглавные буквы для заголовков на языках, отличных от английского"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Определение языка не идеально, некоторые англоязычные заголовки могут быть неправильно распознаны."
+    },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
     },
@@ -1555,7 +1558,7 @@
         "message": "Название конфигурации"
     },
     "ChannelListInstructions": {
-        "message": "Введите все каналы, которые вы хотите применить к этой конфигурации в поле ниже, разделяя каждый новой строкой. Поддерживаются как ID каналов, так и отображаемые имена. @ Имена пользователей не поддерживаются. Вы можете получить ID канала, нажав кнопку \"Поделиться\" на странице \"О канале\".",
+        "message": "Введите в поле ниже с новой строки все каналы, к которым вы хотите применить к эту настройку. Поддерживаются как названия, так и идентификаторы каналов. @Псевдонимы не поддерживаются. Идентификатор канала можно получить, нажав на кнопку «Поделиться каналом» в разделе с его описанием. Чтобы попасть в этот раздел, нажмите на краткое описание на странице канала под его названием.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1571,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "Также попробуйте DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Не нравится название? Если вы предпочитаете вариант ниже, попробуйте функцию замены названий в DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "В качестве значка установлен случайный кадр из видео, так как для видео не был предложен значок",
@@ -1669,5 +1676,17 @@
     },
     "SharingIsCaring": {
         "message": "Не жмись - поделись"
+    },
+    "cleanPopup": {
+        "message": "Упрощённый вид всплывающего окна"
+    },
+    "syncDisabledWarning": {
+        "message": "Внимание: В вашем браузере не включено хранилище расширений. При попытке изменить настройки, они не будут сохранены."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow не может работать без хранилища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Вы можете включить его, перейдя на страницу about:config и установив значение для \"webextensions.storage.sync.enabled\" на true."
     }
 }

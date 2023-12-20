@@ -10,9 +10,6 @@
     "400": {
         "message": "Richiesta non valida"
     },
-    "429": {
-        "message": "Stai inviando troppi segmenti per questo video, sei sicuro che ce ne siano così tanti?"
-    },
     "409": {
         "message": "Questo è già stato inviato"
     },
@@ -1527,10 +1524,6 @@
     "ConfigurationName": {
         "message": "Nome Configurazione"
     },
-    "ChannelListInstructions": {
-        "message": "Inserisci tutti i canali a cui vuoi applicare a questa configurazione nella casella sottostante, uno per riga. Sono accettati sia l'ID del Canale che il nome. I nomi utente non sono supportati. Puoi ottenere l'ID del canale facendo clic sul pulsante \"Condividi\" presente sulla pagina \"Informazioni\" del canale.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Ancora nessuna configurazione. Fare clic sul pulsante in alto per aggiungere una nuova configurazione.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
@@ -1540,6 +1533,10 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Stanco del clickbait? Scopri la mia nuova estensione per migliorare i titoli e le anteprime"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Non ti piace questo titolo? Se preferisci il titolo qui sotto, vedi la funzione di sostituzione del titolo di DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Questa anteprima è tratta da un timestamp casuale perché non è stata inviata nessuna anteprima personalizzata per questo video",

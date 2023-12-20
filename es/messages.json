@@ -10,9 +10,6 @@
     "400": {
         "message": "El servidor dijo que esta solicitud no era válida"
     },
-    "429": {
-        "message": "Has enviado demasiados tiempos de sponsor en este video, ¿estas seguro de que hay tantos?"
-    },
     "409": {
         "message": "Esto ya ha sido enviado antes"
     },
@@ -42,10 +39,10 @@
         "message": "Votar positivamente este envío"
     },
     "reportButtonTitle": {
-        "message": "Reportar"
+        "message": "Denunciar"
     },
     "reportButtonInfo": {
-        "message": "Reportar este envío como incorrecto."
+        "message": "Denunciar este envío como incorrecto."
     },
     "Dismiss": {
         "message": "Descartar"
@@ -336,7 +333,7 @@
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
     },
     "errorCode": {
-        "message": "Código de error: "
+        "message": "Código de Error: "
     },
     "skip": {
         "message": "Omitir"
@@ -437,7 +434,7 @@
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
-        "message": "Sitios soportados: "
+        "message": "Sitios compatibles: "
     },
     "optionsInfo": {
         "message": "Activar el soporte para Invidious, desactivar la omisión automática, oculta botones y más."
@@ -680,7 +677,7 @@
         "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
     },
     "category_preview": {
-        "message": "Vista previa/Recapitulación/Gancho",
+        "message": "Vista previa/Recapitulación/Enganche",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -708,7 +705,7 @@
         "message": "Escenas tangenciales solo de relleno o humor"
     },
     "category_filler_guideline2": {
-        "message": "Distracciones, meteduras de pata, repeticiones"
+        "message": "Distracciones, bloopers, repeticiones"
     },
     "category_filler_guideline3": {
         "message": "No para escenas requeridas para entender el tema"
@@ -735,7 +732,7 @@
         "message": "La parte del video que la mayoría de gente está buscando. Similar a los comentarios que dicen \"El video comienza en x\"."
     },
     "category_poi_highlight_guideline1": {
-        "message": "La sección que la mayoría de personas están buscando"
+        "message": "Sección que busca la mayoría"
     },
     "category_poi_highlight_guideline2": {
         "message": "Puede omitir contexto"
@@ -974,7 +971,7 @@
         "message": "Ayuda a financiar el desarrollo"
     },
     "hideDonationLink": {
-        "message": "Ocular Enlace de Donación"
+        "message": "Ocultar enlace de donación"
     },
     "darkModeOptionsPage": {
         "message": "Modo Oscuro en la página de Opciones"
@@ -1213,7 +1210,7 @@
         "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
-        "message": "videos",
+        "message": "vídeos",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
@@ -1272,7 +1269,7 @@
         "message": "Original"
     },
     "OriginalTitle": {
-        "message": "Título original"
+        "message": "Título Original"
     },
     "CurrentTime": {
         "message": "Tiempo Actual"
@@ -1290,7 +1287,7 @@
         "message": "Escribe tu propio título aquí"
     },
     "VideoNotReady": {
-        "message": "El video no está listo"
+        "message": "El vídeo no está listo"
     },
     "FailedToRender": {
         "message": "Error al procesar",
@@ -1331,6 +1328,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Eliminar emojis"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Poner en mayúsculas los títulos que no están en inglés"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "La detección de idiomas no es perfecta y detecta algunos títulos en inglés como no en inglés."
     },
     "thumbnailFallbackOption": {
         "message": "Cuando no exista una miniatura enviada"
@@ -1459,13 +1462,13 @@
         "message": "Error"
     },
     "ShowOriginal": {
-        "message": "Mostrar detalles originales"
+        "message": "Mostrar Detalles Originales"
     },
     "ShowModified": {
-        "message": "Mostrar detalles modificados"
+        "message": "Mostrar Detalles Modificados"
     },
     "FillerWarning": {
-        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos videos tienen más del 50 % o más del video omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
+        "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1499,7 +1502,7 @@
         "message": "Nota: ¡Tu configuración de SponsorBlock se ha importado automáticamente!"
     },
     "howItWorks": {
-        "message": "Como funciona"
+        "message": "¿Cómo funciona?"
     },
     "discordPromotion": {
         "message": "Ven a contribuir, haz algunas sugerencias y ayuda en {discord} o en {matrix}"
@@ -1511,13 +1514,13 @@
         "message": "Al usar esta extensión, aceptas la {privacy-policy} y los {terms}"
     },
     "privacyPolicy": {
-        "message": "Política de privacidad"
+        "message": "Política de Privacidad"
     },
     "termsOfUse": {
-        "message": "Términos de uso"
+        "message": "Términos de Uso"
     },
     "openSourceLicenses": {
-        "message": "Licencias de código abierto"
+        "message": "Licencias de Código Abierto"
     },
     "defaultToOriginals": {
         "message": "Optar por defecto a la información original del video"
@@ -1555,7 +1558,7 @@
         "message": "Nombre de configuración"
     },
     "ChannelListInstructions": {
-        "message": "Introduzca los canales que desee aplicar a esta configuración en el cuadro de abajo, separados por nuevas líneas. Se admiten tanto los IDs de canal, como los nombres visibles. Los @ Nombres de usuario no son compatibles. Puede obtener IDs de canal haciendo clic en el botón compartir en la página de acerca de del canal.",
+        "message": "Ingrese los canales a los que desee aplicar esta configuración en el siguiente cuadro, separados por nuevas líneas. Se admiten tanto ID de canal como nombres de pantalla. No se admiten @ nombres de usuario. Puedes obtener los ID de canal haciendo clic en el botón compartir de la página acerca del canal. Para ir a la página de información, haga clic en la descripción del canal que aparece debajo de su nombre en la página del canal.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1571,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "También echa un vistazo a DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "¿No te gusta este título? Si prefieres el título de abajo, considera probar la función de reemplazo de títulos en DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura se elige desde una marca de tiempo aleatoria porque aún no hay un envío para este video",
@@ -1622,7 +1629,7 @@
         "message": "Requiere uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Algo ha salido mal con la detección de la ID de vídeo. Intente actualizar la página antes de enviar para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envía un reporte del mismo junto con las otras extensiones o scripts de usuario que has instalado a través de GitHub, Discord o Matrix."
+        "message": "Algo ha salido mal con la detección de la ID de vídeo. Intente actualizar la página antes de enviarlo para asegurarse de que se envía el vídeo correcto. Si esto está sucediendo con frecuencia, por favor envíe un reporte del mismo junto con las otras extensiones o scripts de usuario que haya instalado a través de GitHub, Discord o Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basado en Twemoji licenciado bajo CC-BY 4.0"
@@ -1672,5 +1679,14 @@
     },
     "cleanPopup": {
         "message": "Ocultar interferencias en la ventana emergente de la lista de segmentos"
+    },
+    "syncDisabledWarning": {
+        "message": "Advertencia: El almacenamiento de extensiones ha sido desactivado en su navegador. Los ajustes no se guardarán si lo intenta."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow no funcionará sin almacenamiento."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Puede activarlo yendo a about:config y estableciendo el valor de \"webextensions.storage.sync.enabled\" a \"true\"."
     }
 }
