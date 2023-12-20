@@ -876,6 +876,10 @@
     "categoryPillNewFeature": {
         "message": "Nyhet! Se om en video er fullstendig sponset eller selvpromotert"
     },
+    "yearAbbreviation": {
+        "message": "å",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "d",
         "description": "100d"
@@ -933,12 +937,24 @@
     "confirmResetToDefault": {
         "message": "Er du sikker på at du vil tilbakestille alle innstillingene til standardverdiene? Dette kan ikke angres."
     },
+    "exportSegments": {
+        "message": "Eksporter segmenter"
+    },
+    "importSegments": {
+        "message": "Importer segmenter"
+    },
     "Import": {
         "message": "Importér",
         "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
     },
+    "redeemSuccess": {
+        "message": "Innløsning vellykket!"
+    },
     "redeemFailed": {
         "message": "Lisensnøkkelen er ugyldig"
+    },
+    "hideUpsells": {
+        "message": "Skjul alternativer som krever ekstra betaling"
     },
     "chooseACountry": {
         "message": "Velg et land"
@@ -1038,12 +1054,18 @@
     "Middle": {
         "message": "I midten"
     },
+    "keepUnsubmitted": {
+        "message": "Lagre innsendte stemmer"
+    },
     "onAllPages": {
         "message": "På alle sider",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {
         "message": "Aldri"
+    },
+    "fetchTimeout": {
+        "message": "Tidsavbrudd for datainnhenting (ms)"
     },
     "Enable": {
         "message": "Skru på"
@@ -1061,6 +1083,17 @@
     },
     "ShowOriginal": {
         "message": "Vis opprinnelige detaljer"
+    },
+    "tip1": {
+        "message": "Unngå overdrevne ansiktsuttrykk",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip5": {
+        "message": "Skriv den med stor bokstav først som en setning",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Merk: Dine SponsorBlock innstillinger har blitt automatisk importert!"
     },
     "howItWorks": {
         "message": "Hvordan det virker"
@@ -1086,6 +1119,10 @@
     "ConfigurationName": {
         "message": "Oppsettets navn"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Sjekk også ut DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} tittel",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
@@ -1097,7 +1134,29 @@
     "requiresUblock": {
         "message": "Krever uBlock Origin"
     },
+    "dearrowLogoCredit": {
+        "message": "Logoen er basert på Twemoji som er lisensiert under CC-BY 4.0"
+    },
+    "startFreeTrial": {
+        "message": "Start gratis prøveperiode"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Du kan ikke stemme under den gratis prøveperioden",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow er ikke aktivert"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktiver DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow har nå blitt aktivert"
+    },
     "Close": {
         "message": "Lukk"
+    },
+    "ViewLicenseKey": {
+        "message": "Vis Lisensnøkkel"
     }
 }
