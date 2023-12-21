@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Уклони емоџије"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Велика слова за наслове који нису на енглеском"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Откривање језика није савршено и открива неке наслове на енглеском као да нису на енглеском."
+    },
     "thumbnailFallbackOption": {
         "message": "Када не постоји поднесена сличица"
     },
