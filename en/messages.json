@@ -301,6 +301,10 @@
         "message": "Start/stop segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Open submission menu",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Submit segments",
         "description": "Keybind label"
