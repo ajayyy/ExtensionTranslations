@@ -301,8 +301,16 @@
         "message": "Starte/Stoppe Segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Einreichungsmenü öffnen",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Segmente einreichen",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Überspring-Hinweis schließen",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1328,6 +1336,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Wörter für nicht-englische Titel groß schreiben"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Spracherkennung ist nicht perfekt und kann einige Englische Titel als nicht-englisch erkennen."
     },
     "thumbnailFallbackOption": {
         "message": "Wenn kein Thumbnail eingereicht wurde"
