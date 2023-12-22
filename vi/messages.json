@@ -10,9 +10,6 @@
     "400": {
         "message": "Máy chủ báo yêu cầu này không hợp lệ"
     },
-    "429": {
-        "message": "Bạn đã đăng quá nhiều đoạn quảng cáo tài trợ cho video này, bạn có chắc có nhiều đến thế không?"
-    },
     "409": {
         "message": "Đoạn này đã được đăng rồi"
     },
@@ -678,6 +675,10 @@
     },
     "category_outro_guideline1": {
         "message": "Không bao gồm nội dung, ngay cả khi thẻ kết thúc ở trên màn hình"
+    },
+    "category_preview": {
+        "message": "Xem trước/Tóm tắt/Gây chú ý",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Tập hợp các đoạn video ngắn cho thấy những gì sẽ xảy ra trong video hiện tại hoặc các video khác trong cùng một loạt video, trong đó tất cả thông tin được lặp lại ở phần sau của video."
@@ -1550,10 +1551,6 @@
     "ConfigurationName": {
         "message": "Tên cấu hình"
     },
-    "ChannelListInstructions": {
-        "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới được phân cách bằng dòng. Cả ID kênh và tên kênh đều được hỗ trợ. Tuy nhiên, @ Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấp vào nút Chia sẻ trên trang Giới thiệu của kênh.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
@@ -1563,6 +1560,14 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Mệt mỏi vì clickbait? Hãy xem qua tiện ích mở rộng mới của tôi để cải thiện tiêu đề và hình thu nhỏ"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Đồng thời, hãy xem qua DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Không thích tiêu đề này ư? Đừng lo, nếu tiêu đề dưới đây làm bạn cảm thấy thú vị hơn, hãy xem xét việc sử dụng tính năng Thay thế tiêu đề trong DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Hình thu nhỏ này được chọn từ một thời điểm ngẫu nhiên trong video vì chưa có đóng góp nào cho video này",
@@ -1661,5 +1666,8 @@
     },
     "SharingIsCaring": {
         "message": "Chia sẻ là yêu thương"
+    },
+    "cleanPopup": {
+        "message": "Ẩn phần lộn xộn trong danh sách phân đoạn bật lên"
     }
 }

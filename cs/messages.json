@@ -10,9 +10,6 @@
     "400": {
         "message": "Server hlásí, že tento požadavek je neplatný"
     },
-    "429": {
-        "message": "Pro toto video jste přidali příliš mnoho příspěvků. Jste si jistí, že jich je tolik?"
-    },
     "409": {
         "message": "Tento příspěvek byl již přidán dříve"
     },
@@ -592,7 +589,7 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
-        "message": "Zahrnout přechody segmentů"
+        "message": "Zahrnuje přechody"
     },
     "generic_guideline2": {
         "message": "Hraje, jako kdyby nebylo nic přeskočeno"
@@ -1332,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Odebrat smajlíky"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Velká písmena u neanglických názvů"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Rozpoznávání jazyka není dokonalé a může rozpoznat některé anglické názvy jako neanglické."
+    },
     "thumbnailFallbackOption": {
         "message": "Pokud neexistuje žádný komunitní náhled"
     },
@@ -1555,7 +1558,7 @@
         "message": "Název konfigurace"
     },
     "ChannelListInstructions": {
-        "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, a oddělte je novými řádky. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména nejsou podporována. ID kanálu získáte po kliknutí na tlačítko sdílení na stránce o kanálu.",
+        "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, každý kanál na nový řádek. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména podporována nejsou. ID kanálu získáte po kliknutí na tlačítko sdílení v informacích o kanálu. Na tuto stránku se dostanete kliknutím na popis kanálu, který se zobrazí pod názvem kanálu na jeho stránce.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1571,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "Mrkněte na DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nelíbí se vám tento název? Pokud byste raději viděli název níže, mrkněte na funkci nahrazení názvu v DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Tento náhled byl vybrán z náhodného času, protože u tohoto videa zatím nebyl nastaven vlastní náhled",
@@ -1672,5 +1679,14 @@
     },
     "cleanPopup": {
         "message": "Skrýt zbytečnosti ve vyskakovacím okně seznamu segmentů"
+    },
+    "syncDisabledWarning": {
+        "message": "Varování: ve vašem prohlížeči bylo zakázáno úložiště rozšíření. Nastavení nebudou uložena."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nebude fungovat bez přístupu k úložišti."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Můžete ji povolit na stránce about:config nastavením hodnoty „webextensions.storage.sync.enabled“ na „true“."
     }
 }

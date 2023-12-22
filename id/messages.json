@@ -10,9 +10,6 @@
     "400": {
         "message": "Server menyatakan permintaan ini tidak valid"
     },
-    "429": {
-        "message": "Anda terlalu banyak mengirim waktu sponsor pada video ini, apakah anda yakin ada sebanyak ini?"
-    },
     "409": {
         "message": "Ini sudah dikirim sebelumnya"
     },

@@ -10,9 +10,6 @@
     "400": {
         "message": "Serverul a spus că această cerere este invalidă"
     },
-    "429": {
-        "message": "Ai trimis prea multe timpuri ale sponsorizărilor pentru acest videoclip, sunteți sigur că sunt atât de multe?"
-    },
     "409": {
         "message": "Acest lucru a fost deja trimis înainte"
     },

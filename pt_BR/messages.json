@@ -10,9 +10,6 @@
     "400": {
         "message": "O servidor disse que esse pedido foi inválido"
     },
-    "429": {
-        "message": "Você enviou muitos segmentos para esse vídeo, tem certeza de que são tantos assim?"
-    },
     "409": {
         "message": "Esse segmento já foi enviado."
     },
@@ -99,7 +96,7 @@
         "message": "Cancelar criação de segmento"
     },
     "noVideoID": {
-        "message": "Nenhum vídeo do YouTube encontrado.\nSe isto estiver errado, atualize a guia."
+        "message": "Nenhum vídeo do YouTube encontrado.\nSe isso for um erro, atualize a página."
     },
     "refreshSegments": {
         "message": "Atualizar segmentos"
@@ -178,7 +175,7 @@
         "message": "Definir nome de usuário"
     },
     "copyPublicID": {
-        "message": "Copiar ID de usuário pública"
+        "message": "Copiar ID público de usuário"
     },
     "copySegmentID": {
         "message": "Copiar ID do segmento"
@@ -208,7 +205,7 @@
         "message": "Ocultar botão de informações no reprodutor do YouTube"
     },
     "autoHideInfoButton": {
-        "message": "Ocultar automaticamente o botão de informação"
+        "message": "Ocultar automaticamente o botão de informações"
     },
     "hideDeleteButton": {
         "message": "Ocultar botão de apagar no reprodutor do YouTube"
@@ -271,10 +268,10 @@
         "message": "Todos os avisos de pulo, mesmo de curta duração"
     },
     "noticeVisibilityMode3": {
-        "message": "Avisos de pulo semitransparente no pulo automático"
+        "message": "Avisos de pulo semitransparentes no pulo automático"
     },
     "noticeVisibilityMode4": {
-        "message": "Todos os avisos de pulo semitransparente"
+        "message": "Todos os avisos de pulo semitransparentes"
     },
     "longDescription": {
         "message": "O SponsorBlock permite que você pule patrocinadores, introduções, créditos finais, lembretes de inscrição, e outras partes irritantes dos vídeos do YouTube. O SponsorBlock é uma extensão de navegador de colaboração coletiva que permite enviar a qualquer um o tempo inicial e final de segmentos patrocinados de vídeos do YouTube. Assim que uma pessoa enviar essa informação, todas as outras pessoas com essa extensão irão pular o segmento patrocinado. Você também pode pular seções sem música em vídeos de música.",
@@ -533,7 +530,7 @@
         "message": "Importar de um arquivo"
     },
     "whatExportOptions": {
-        "message": "Essa é a sua configuração completa em JSON. Isso inclui seu ID de usuário privado, então tenha certeza de compartilhá-lo com sabedoria."
+        "message": "Essa é a sua configuração completa em JSON. Inclui sua identificação de usuário particular, então não compartilhe."
     },
     "setOptions": {
         "message": "Definir opções"
@@ -680,7 +677,7 @@
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
     "category_preview": {
-        "message": "Previa/Recapitulação/Gancho Narrativo",
+        "message": "Prévia/Recapitulação/Gancho Narrativo",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -848,7 +845,7 @@
         "message": "Você deve selecionar uma categoria para todos os segmentos que você está enviando!"
     },
     "bracketStart": {
-        "message": "(Início) "
+        "message": "(Início)"
     },
     "bracketEnd": {
         "message": "(Fim)"
@@ -895,7 +892,7 @@
         "message": "Considere ativar \"Forçar verificação do canal antes de pular\""
     },
     "downvoteDescription": {
-        "message": "Tempo errado/incorreto"
+        "message": "Tempo incorreto"
     },
     "incorrectVote": {
         "message": "Incorreto"
@@ -917,14 +914,14 @@
         "message": "Diretrizes"
     },
     "readTheGuidelines": {
-        "message": "Leia as Diretrizes!!",
+        "message": "Leia as diretrizes!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
         "message": "As categorias estão aqui!"
     },
     "categoryUpdate2": {
-        "message": "Abra as opções para ignorar as introduções, créditos finais, promoção de mercadoria, etc."
+        "message": "Abrir opções para ignorar introduções, créditos finais, promoção de mercadoria, etc."
     },
     "help": {
         "message": "Ajuda"
@@ -1076,7 +1073,7 @@
         "message": "Use a roda do mouse enquanto mantêm o cursor sobre a caixa de edição para ajustar o tempo rapidamente. Combinações das teclas ctrl e shift podem ser usadas para refinar as mudanças."
     },
     "categoryPillNewFeature": {
-        "message": "Novo! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
+        "message": "Novidade! Veja quando um vídeo é inteiramente patrocinado ou de auto-promoção"
     },
     "yearAbbreviation": {
         "message": "a",
@@ -1332,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Palavras em maiúsculas para títulos não ingleses"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Detecção de idiomas não é perfeita! Pode detecta alguns títulos em inglês como não-inglês."
+    },
     "thumbnailFallbackOption": {
         "message": "Quando não houver nenhuma miniatura enviada"
     },
@@ -1353,7 +1356,7 @@
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
-        "message": "Inicio"
+        "message": "Início"
     },
     "Middle": {
         "message": "Meio"
@@ -1555,7 +1558,7 @@
         "message": "Nome do ajuste"
     },
     "ChannelListInstructions": {
-        "message": "Insira na caixa os canais que receberão os ajustes, separados por quebra de linha (Enter). São aceitos o nome de exibição ou ID do canal. Nomes de usuários (@) não são aceitos. A ID do canal pode ser encontrada na página Sobre, clicando no botão Compartilhar (seta).",
+        "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1571,6 +1574,10 @@
     "DeArrowPromotionMessage3": {
         "message": "Confira também o DeArrow",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Não gostou deste título? Se interessou pelo título abaixo? Considere conferir o recurso de substituição de título DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Esta miniatura é escolhida de um horário aleatório porque ainda não há envio neste vídeo",
@@ -1640,7 +1647,7 @@
         "message": "Se você quiser testá-lo por uma hora, você pode iniciar um teste gratuito com o botão abaixo."
     },
     "startFreeTrial": {
-        "message": "Iniciar avaliação gratuita"
+        "message": "Iniciar teste grátis"
     },
     "youCannotVoteDuringTrial": {
         "message": "Você não pode votar durante o teste gratuito",
@@ -1650,13 +1657,13 @@
         "message": "Você está registrado com sucesso para acesso gratuito. Você será notificado quando o acesso gratuito for concedido."
     },
     "freeAccessComplete": {
-        "message": "Parabéns! Agora você tem acesso gratuito à DeArrow <3"
+        "message": "Parabéns! Agora você tem acesso gratuito ao DeArrow"
     },
     "DeArrowNotActivated": {
         "message": "DeArrow não está ativado"
     },
     "ActivateDeArrow": {
-        "message": "Ative DeArrow"
+        "message": "Ativar DeArrow"
     },
     "DeArrowIsActivated": {
         "message": "DeArrow foi ativado com sucesso"
@@ -1665,12 +1672,21 @@
         "message": "Fechar"
     },
     "ViewLicenseKey": {
-        "message": "Visualizar Chave de Licença"
+        "message": "Visualizar chave de licença"
     },
     "SharingIsCaring": {
         "message": "Compartilhar é cuidar"
     },
     "cleanPopup": {
         "message": "Esconder desordem da lista de segmentos no popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Aviso: O armazenamento da extensão foi desativado no seu navegador. As configurações não serão salvas se você tentar salvá-las."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "O DeArrow não irá funcionar sem armazenamento."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Você pode ativar isso acessando about:config e definir o valor de \"webextensions.storage.sync.enabled\" como true."
     }
 }

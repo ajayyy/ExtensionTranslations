@@ -10,9 +10,6 @@
     "400": {
         "message": "서버에서 잘못된 요청이라고 응답했어요"
     },
-    "429": {
-        "message": "이 동영상에 너무 많은 \"후원이나 협찬\" 구간을 제출했어요. 확실한가요?"
-    },
     "409": {
         "message": "이전에 이미 제출된 적이 있어요"
     },
@@ -678,6 +675,10 @@
     },
     "category_outro_guideline1": {
         "message": "최종 화면이 표시됐더라도, 콘텐츠가 포함되는 구간이 아니어야 함"
+    },
+    "category_preview": {
+        "message": "미리 보기/요약/흥미 유발",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "이 구간은 동영상의 뒷부분에서 반복되는 현재 동영상 또는 시리즈의 다른 동영상에 나온 정보를 보여주는 클립 모음이 해당돼요."
@@ -1551,7 +1552,7 @@
         "message": "구성 이름"
     },
     "ChannelListInstructions": {
-        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요.",
+        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1567,6 +1568,10 @@
     "DeArrowPromotionMessage3": {
         "message": "DeArrow도 확인해보세요",
         "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "이 제목이 마음에 들지 않으세요? 아래 제목을 더 선호하신다면, DeArrow의 제목 변경 기능을 확인해보세요!",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "아직 이 동영상으로 제출된 항목이 없어서 미리 보기 이미지를 임의 시점의 사진으로 선택했어요",
@@ -1665,5 +1670,17 @@
     },
     "SharingIsCaring": {
         "message": "나눔은 사랑이죠"
+    },
+    "cleanPopup": {
+        "message": "구간 목록 팝업 정리하기"
+    },
+    "syncDisabledWarning": {
+        "message": "경고: 브라우저에서 확장 프로그램 저장 공간이 비활성화 되었어요. 설정이 저장되지 않아요."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow는 저장 기능이 없으면 사용할 수 없어요."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
     }
 }

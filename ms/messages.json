@@ -10,9 +10,6 @@
     "400": {
         "message": "Pelayan mengatakan permintaan ini tidak sah"
     },
-    "429": {
-        "message": "Anda telah menghantar terlalu banyak masa penaja untuk video yang satu ini, adakah anda pasti ada banyak ini?"
-    },
     "409": {
         "message": "Perkara ini telah dikemukakan sebelumnya"
     },

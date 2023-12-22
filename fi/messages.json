@@ -10,9 +10,6 @@
     "400": {
         "message": "Palvelin sanoi tämän pyynnön olevan virheellinen"
     },
-    "429": {
-        "message": "Olet lähettänyt liian monta sponsorointiaikaa tälle yhdelle videolle. Oletko varma, että niitä on näin monta?"
-    },
     "409": {
         "message": "Tämä on jo lähetetty aiemmin"
     },
@@ -680,7 +677,7 @@
         "message": "Älä sisällytä sisältöä, vaikka loppukortit olisivatkin näytöllä"
     },
     "category_preview": {
-        "message": "Esikatselu/Kertaus/Koukutus",
+        "message": "Esikatselu/Kertaus/Koukku",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1555,7 +1552,7 @@
         "message": "Määrityksen nimi"
     },
     "ChannelListInstructions": {
-        "message": "Syötä alla olevaan ruutuun omille riveilleen ne kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukset eivät kelpaa. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta.",
+        "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1573,7 +1570,7 @@
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse otsikoiden korvaus ominaisuuden tarkistamista DeArrowissa.",
+        "message": "Etkö pidä tästä otsikosta? Jos pidät alemmasta otsikosta enemmän, harkitse tutustumista DeArrown otsikkokorvaukseen.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
@@ -1676,5 +1673,14 @@
     },
     "cleanPopup": {
         "message": "Piilota ylimääräisyydet Osiolistan ponnahduksesta"
+    },
+    "syncDisabledWarning": {
+        "message": "Varoitus: Lisäosien tallennustila on poistettu käytöstä selaimestasi, eivätkä niiden asetukset sen vuoksi tallennu."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow ei toimi ilman tallennustilaa."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\"-asetuksen todeksi."
     }
 }

@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock für YouTube - Überspringe gesponserte Videosegmente",
+        "message": "SponsorBlock für YouTube – Überspringe gesponserte Videosegmente",
         "description": "Name of the extension."
     },
     "Description": {
@@ -9,9 +9,6 @@
     },
     "400": {
         "message": "Der Server meldet, dass diese Anfrage ungültig war."
-    },
-    "429": {
-        "message": "Du hast zu viele Segmente für dieses Video eingereicht. Sind es wirklich so viele?"
     },
     "409": {
         "message": "Dieser Inhalt wurde bereits eingereicht."
@@ -144,7 +141,7 @@
         "message": "Kanal zur Whitelist hinzufügen"
     },
     "removeFromWhitelist": {
-        "message": "Kanal aus der Whitelist entfernen"
+        "message": "Kanal von der Ausnahmeliste entfernen"
     },
     "voteOnTime": {
         "message": "Über ein Segment abstimmen"
@@ -202,13 +199,13 @@
         "message": "Zum Highlight springen-Knopf im Player behalten"
     },
     "showInfoButton": {
-        "message": "Zeige Info-Knopf im Youtube-Videoplayer"
+        "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
     },
     "hideInfoButton": {
         "message": "Deaktiviere Info-Knopf im Youtube-Videoplayer"
     },
     "autoHideInfoButton": {
-        "message": "Info-Button automatisch ausblenden"
+        "message": "Info-Knopf automatisch ausblenden"
     },
     "hideDeleteButton": {
         "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
@@ -259,7 +256,7 @@
         "message": "Zeige Pop-up nach dem Überspringen eines Segments"
     },
     "showCategoryGuidelines": {
-        "message": "Zeige Kategorien-Hilfe"
+        "message": "Kategorienhilfe anzeigen"
     },
     "noticeVisibilityMode0": {
         "message": "Skip-Meldung in voller größe"
@@ -333,7 +330,7 @@
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
-        "message": "Der Server ist wahrescheinlich überlastet. Probiere es später nochmal."
+        "message": "Der Server ist wahrscheinlich überlastet. Probiere es später nochmal."
     },
     "errorCode": {
         "message": "Fehlermeldung: "
@@ -494,7 +491,7 @@
         "message": "SponsorBlock Serveradresse"
     },
     "customServerAddressDescription": {
-        "message": "Die Adresse die SponsorBlock verwendet um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
+        "message": "Die Adresse, die SponsorBlock verwendet, um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
     },
     "dataFetchingServerAddress": {
         "message": "Server-Adresse für Datenabfrage"
@@ -578,7 +575,7 @@
         "message": "Kopiert Informationen in die Zwischenablage, welche einem Entwickler gegebenenfalls (z. B. um einen Fehler zu melden) zur Verfügung gestellt werden können. Personenbezogene Daten wie die Benutzer-ID, Kanäle auf der Whitelist und die benutzerdefinierte Serveradresse wurden entfernt. Die Debug-Informationen enthalten jedoch unter anderem den Useragent, den Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
     },
     "copyDebugInformationComplete": {
-        "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Verwende einen Texteditor um die Informationen in einer Textdatei zu speichern (um diese ggf. einem Fehlerbericht hinzuzufügen)."
+        "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Speichere diese in einer Textdatei, oder füge sie einem Fehlerbericht hinzu."
     },
     "keyAlreadyUsed": {
         "message": "Diese Verknüpfung ist an eine andere Aktion gebunden. Bitte wähle eine andere."
@@ -680,7 +677,7 @@
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
     },
     "category_preview": {
-        "message": "Vorschau/Zusammenfassung/Hook",
+        "message": "Vorschau/Rückblick/Hook",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -917,7 +914,7 @@
         "message": "Richtlinien"
     },
     "readTheGuidelines": {
-        "message": "Lese die Richtlinien!",
+        "message": "Lies die Richtlinien!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
@@ -974,19 +971,19 @@
         "message": "Hilf beim Finanzieren der Entwicklung"
     },
     "hideDonationLink": {
-        "message": "Verstecke Spendenlink"
+        "message": "Spendenlink verbergen"
     },
     "darkModeOptionsPage": {
         "message": "Dunkler Modus auf der Optionsseite"
     },
     "helpPageThanksForInstalling": {
-        "message": "Danke fürs installieren von SponsorBlock."
+        "message": "Danke fürs Installieren von SponsorBlock."
     },
     "helpPageReviewOptions": {
         "message": "Bitte überprüfe die unten stehenden Optionen"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "Viele Funktionen sind standardmäßig deaktiviert. Wenn du Intros und Outtros überspringen willst, Invidious verwenden willst, usw. aktiviere sie unten. Du kannst auch UI-Elemente verstecken/anzeigen."
+        "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
     "helpPageHowSkippingWorks": {
         "message": "Wie überspringen funktioniert"
@@ -1001,7 +998,7 @@
         "message": "Übermitteln"
     },
     "helpPageSubmitting1": {
-        "message": "Das übermitteln kann entweder im Popup durch das drücken vom \"Segment Started Jetzt\" Knopf oder im Videoplayer mit den Knöpfen im Player gemacht werden."
+        "message": "Das Einreichen kann entweder im Pop-up durch Drücken des \"Segment Startet Jetzt\" Knopf oder im Videoplayer mit den Knöpfen im Player gemacht werden."
     },
     "helpPageSubmitting2": {
         "message": "Mit einem Klick auf den Play-Button wird der Beginn eines Segments markiert, und mit einem Klick auf den Stop-Button dessen Ende. Du kannst mehrere Segmente anlegen, bevor du durch Klicken des Upload-Buttons zum Einreichen fortfährst. Ein Klick auf die Mülltonne löscht deine angelegten Segmente."
@@ -1016,22 +1013,22 @@
         "message": "Das ist zu langsam"
     },
     "helpPageTooSlow1": {
-        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste um den Anfang/das Ende eines Sponsor-Segments zu markieren und die Abostrophe-Taste um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du eventuell die Keybinds ändern."
+        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste um den Anfang / das Ende eines Sponsor-Segments zu markieren und die Apostroph-Taste um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Kann ich eine kopie der Datenbank erhalten? Was passiert wenn du verschwindest?"
+        "message": "Kann ich eine Kopie der Datenbank erhalten? Was passiert, wenn du verschwindest?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "Die Datenbank ist öffentlich und verfügbar unter"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde wären deine Übermittlungen nicht verloren."
+        "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
     },
     "helpPageNews": {
         "message": "Nachrichten und wie es gemacht wird"
     },
     "helpPageSourceCode": {
-        "message": "Wo kann ich den Quellcode kriegen?"
+        "message": "Wo kann ich den Quellcode bekommen?"
     },
     "Credits": {
         "message": "Mitwirkende"
@@ -1128,7 +1125,7 @@
         "message": "Dies ist ein vorhandenes YouTube-Kürzel. Bist du sicher, dass du es verwenden möchtest?"
     },
     "betaServerWarning": {
-        "message": "BETA Server ist aktiviert!"
+        "message": "BETA-Server ist aktiviert!"
     },
     "openOptionsPage": {
         "message": "Einstellungen öffnen"
@@ -1301,7 +1298,7 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Fehler beim Rendern",
+        "message": "Renderfehler",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
@@ -1349,7 +1346,7 @@
         "message": "Zeige eine leere Box"
     },
     "AutoGenerated": {
-        "message": "YouTube-generiertes Thumbnail anzeigen",
+        "message": "Von YouTube automatisch generiertes Thumbnail anzeigen",
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
@@ -1365,10 +1362,10 @@
         "message": "A/B getestete Thumbnails nie verwenden"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanäle können Tests auf Ihren Videos einrichten, bei denen YouTube unterschiedliche Thumbnails an verschiedene Personen zeigt. Diese Option wird immer das erste Thumbnail verwenden."
+        "message": "Kanäle können Tests auf Ihren Videos einrichten, bei denen YouTube jeder Person verschiedene Thumbnails zeigt. Diese Option wird immer das erste Thumbnail verwenden, um Konsistenz zu bewahren."
     },
     "abThumbnailsWarning": {
-        "message": "Warnung: Dieses Video hat aktuell einen A/B Thumbnail-test aktiv. Dies bedeutet, dass das Thumbnail sich oft ändern kann. Du solltest wegen diesem Risiko eventuell nicht für das original Thumbnail voten."
+        "message": "Warnung: Dieses Video hat aktuell einen A/B Thumbnail-Test aktiv. Das bedeutet, dass das Thumbnail sich oft ändern kann. Du solltest wegen dieses Risikos eventuell nicht für das originale Thumbnail abstimmen."
     },
     "whatKeepUnsubmitted": {
         "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
@@ -1380,7 +1377,7 @@
         "message": "Thumbnail-Erstellungsdienst verwenden"
     },
     "titleMaxLines": {
-        "message": "Maximale Zeilen für Titel"
+        "message": "Maximale Zeilenanzahl für Titel"
     },
     "titleMaxLinesDescription": {
         "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
@@ -1555,7 +1552,7 @@
         "message": "Name der Konfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Gib alle Kanäle, auf die du diese Konfiguration anwenden möchtest, in das untenstehende Feld, in eigene Zeilen, ein. Sowohl Kanal-IDs als auch Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Die Kanal-ID findest du, indem du auf den Teilen-Knopf auf der Kanalinfo-Seite klickst.",
+        "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1567,6 +1564,14 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Genug von Clickbait? Schau dir meine neue Erweiterung zum Verbessern von Titeln und Thumbnails an"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Schau dir auch DeArrow an",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Gefällt dir dieser Titel nicht? Wenn du den unten stehenden Titel bevorzugst, schau dir die Titelersetzungsfunktion in DeArrow an.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Dieses Thumbnail wurde von einem zufälligen Zeitstempel gewählt, da es noch keine Einreichungen für dieses Video gibt",
@@ -1665,5 +1670,17 @@
     },
     "SharingIsCaring": {
         "message": "Teilen macht Freude"
+    },
+    "cleanPopup": {
+        "message": "Verstecke Unordnung im Segmentlisten-Popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Warnung: Erweiterungsspeicher wurde in deinem Browser deaktiviert. Einstellungen werden nicht gespeichert, wenn du versuchst, sie zu speichern."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow funktioniert nicht ohne Speicher."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Du kannst es aktivieren, indem du zu about:config gehst und den Wert \"webextensions.storage.sync.enabled\" auf true setzt."
     }
 }

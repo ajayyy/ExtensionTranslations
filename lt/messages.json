@@ -1,1 +1,43 @@
-{}
+{
+    "paused": {
+        "message": "Pauzė"
+    },
+    "Username": {
+        "message": "Vartotojo vardas"
+    },
+    "website": {
+        "message": "Svetainė",
+        "description": "Used on Firefox Store Page"
+    },
+    "skip": {
+        "message": "Praleisti"
+    },
+    "mute": {
+        "message": "Užtildyti"
+    },
+    "minLower": {
+        "message": "minutė"
+    },
+    "minsLower": {
+        "message": "minučių"
+    },
+    "hourLower": {
+        "message": "valanda"
+    },
+    "hoursLower": {
+        "message": "valandų"
+    },
+    "add": {
+        "message": "Pridėti"
+    },
+    "edit": {
+        "message": "Redaguoti"
+    },
+    "category_music_offtopic_short": {
+        "message": "Ne-muzika"
+    },
+    "End": {
+        "message": "Pabaiga",
+        "description": "Button that skips to the end of a segment"
+    }
+}

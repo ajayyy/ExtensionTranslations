@@ -10,9 +10,6 @@
     "400": {
         "message": "Server hlási, že táto požiadavka je neplatná"
     },
-    "429": {
-        "message": "Pre toto video ste pridali príliš veľa segmentov. Ste si istí, že ich je toľko?"
-    },
     "409": {
         "message": "Tento segment už bol pridaný"
     },
@@ -1408,6 +1405,10 @@
     "DeleteConfiguration": {
         "message": "Zmazať nastavenia"
     },
+    "ChannelListInstructions": {
+        "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "DeArrowPromotionMessage": {
         "message": "Zastavte clickbait presnejšími názvami a miniatúrami"
     },
@@ -1475,5 +1476,14 @@
     },
     "ViewLicenseKey": {
         "message": "Zobraziť licenčný kľúč"
+    },
+    "syncDisabledWarning": {
+        "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nebude bez úložiska fungovať."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
     }
 }

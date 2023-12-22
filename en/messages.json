@@ -1333,6 +1333,12 @@
     "shouldCleanEmojis": {
         "message": "Remove Emojis"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Capitalize Words for Non-English Titles"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Language detection is not perfect and detects some English titles as non-English."
+    },
     "thumbnailFallbackOption": {
         "message": "When No Submitted Thumbnail Exists"
     },
@@ -1556,7 +1562,7 @@
         "message": "Configuration Name"
     },
     "ChannelListInstructions": {
-        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page.",
+        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {

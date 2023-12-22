@@ -10,9 +10,6 @@
     "400": {
         "message": "Tjeneren sa at denne forespørselen var ugyldig"
     },
-    "429": {
-        "message": "Du har sendt inn for mange sponsortidspunkter på denne ene videoen, er du sikker på at det er såpass mange?"
-    },
     "409": {
         "message": "Dette har allerede blitt sendt inn tidligere"
     },
@@ -24,6 +21,16 @@
     },
     "Segments": {
         "message": "segmenter"
+    },
+    "SegmentsCap": {
+        "message": "Segmenter"
+    },
+    "Chapters": {
+        "message": "Kapitler"
+    },
+    "renderAsChapters": {
+        "message": "Vis segmenter som kapitler",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "upvoteButtonInfo": {
         "message": "Gi plusstemme til denne innsendingen"
@@ -103,6 +110,9 @@
     "connectionError": {
         "message": "En tilkoblingsfeil har oppstått. Feilkode: "
     },
+    "segmentsStillLoading": {
+        "message": "Segmenter laster fortsatt..."
+    },
     "clearTimes": {
         "message": "Tøm segmenter"
     },
@@ -111,6 +121,12 @@
     },
     "closePopup": {
         "message": "Lukk oppsprett"
+    },
+    "closeIcon": {
+        "message": "Lukk ikon"
+    },
+    "sortSegments": {
+        "message": "Sorter Segmenter"
     },
     "submitCheck": {
         "message": "Er du sikker på at du vil sende inn dette?"
@@ -154,6 +170,9 @@
     },
     "copyPublicID": {
         "message": "Kopiér offentlig bruker-ID"
+    },
+    "copySegmentID": {
+        "message": "Kopier Segment-ID"
     },
     "hideThis": {
         "message": "Skjul dette"
@@ -260,6 +279,14 @@
     },
     "setSubmitKeybind": {
         "message": "Send inn segmenter",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Neste kapittel",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Forrige kapittel",
         "description": "Keybind label"
     },
     "keybindDescription": {
@@ -502,11 +529,18 @@
         "message": "til",
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
+    "CopiedExclamation": {
+        "message": "Kopiert!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
     "category_sponsor": {
         "message": "Sponsor"
     },
     "category_sponsor_description": {
         "message": "Betalt promotering, betalte henvisninger, og reklamer direkte til seerne. Ikke for selvpromotering eller gratis hyllester av saker/skapere/nettsteder/produkter som de liker."
+    },
+    "category_sponsor_guideline1": {
+        "message": "Betalte kampanjer"
     },
     "category_selfpromo": {
         "message": "Ubetalt/Selvpromotering"
@@ -566,6 +600,9 @@
     "category_poi_highlight_description": {
         "message": "Den del av videoen som de fleste er interessert i. Tilsvarende kommentarer som \"Videoen begynner på x\"."
     },
+    "category_chapter": {
+        "message": "Kapittel"
+    },
     "category_livestream_messages": {
         "message": "Direktesending: Donasjons-/Meldingshøytlesninger"
     },
@@ -595,6 +632,9 @@
     },
     "showOverlay_full": {
         "message": "Vis merke"
+    },
+    "showOverlay_chapter": {
+        "message": "Vis kapitler"
     },
     "autoSkipOnMusicVideos": {
         "message": "Autohopp over alle segmenter når det er et segment uten musikk"
@@ -648,6 +688,9 @@
     "youMustSelectACategory": {
         "message": "Du må velge en kategori for alle segmentene du sender inn!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(Slutt)"
     },
@@ -684,6 +727,10 @@
     },
     "downvoteDescription": {
         "message": "Feil tidtaking"
+    },
+    "harmfulVote": {
+        "message": "Skadelig",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
     },
     "incorrectCategory": {
         "message": "Endre kategori"
@@ -729,6 +776,9 @@
     },
     "questionButton": {
         "message": "SpørsmålsKnapp"
+    },
+    "askAQuestion": {
+        "message": "Still et spørsmål"
     },
     "Donate": {
         "message": "Donér"
@@ -814,14 +864,30 @@
     "ChangeCategoryTooltip": {
         "message": "Dette vil umiddelbart gjelde for dine segmenter"
     },
+    "downvote": {
+        "message": "Stem ned"
+    },
+    "upvote": {
+        "message": "Stem opp"
+    },
     "hideSegment": {
         "message": "Skjul segment"
+    },
+    "skipSegment": {
+        "message": "Hopp over segment"
+    },
+    "playChapter": {
+        "message": "Spill av kapittel"
     },
     "SponsorTimeEditScrollNewFeature": {
         "message": "Bruk musehjulet mens du peker over redigeringsboksen for å raskt justere tiden. Kombinasjoner av ctrl- eller shift-tasten kan brukes til å finjustere endringene."
     },
     "categoryPillNewFeature": {
         "message": "Nyhet! Se om en video er fullstendig sponset eller selvpromotert"
+    },
+    "yearAbbreviation": {
+        "message": "å",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": "d",
@@ -879,5 +945,227 @@
     },
     "confirmResetToDefault": {
         "message": "Er du sikker på at du vil tilbakestille alle innstillingene til standardverdiene? Dette kan ikke angres."
+    },
+    "exportSegments": {
+        "message": "Eksporter segmenter"
+    },
+    "importSegments": {
+        "message": "Importer segmenter"
+    },
+    "Import": {
+        "message": "Importér",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "Innløsning vellykket!"
+    },
+    "redeemFailed": {
+        "message": "Lisensnøkkelen er ugyldig"
+    },
+    "hideUpsells": {
+        "message": "Skjul alternativer som krever ekstra betaling"
+    },
+    "chooseACountry": {
+        "message": "Velg et land"
+    },
+    "selectYourCountry": {
+        "message": "Velg ditt land"
+    },
+    "redeem": {
+        "message": "Løs inn"
+    },
+    "joinOnPatreon": {
+        "message": "Abonner på Patreon"
+    },
+    "oneTimePurchase": {
+        "message": "Éngangskjøp"
+    },
+    "enterLicenseKey": {
+        "message": "Skriv inn lisensnøkkel"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Du har for øyeblikket {0} på {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Du har ingen segmenter som ikke er sendt inn",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "ikke-innsendt segment",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "ikke-innsendte segmenter",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "videoer",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "videoID": {
+        "message": "Video-ID",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Handlinger",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Del som en URL"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Bedre titler og miniatyrbilder på YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Originaltittel"
+    },
+    "resetIcon": {
+        "message": "Tilbakestill ikon"
+    },
+    "Vote": {
+        "message": "Stem"
+    },
+    "VideoNotReady": {
+        "message": "Videoen er ikke klar"
+    },
+    "CanvasMissing": {
+        "message": "Canvas mangler",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "Disabled": {
+        "message": "Skrudd av"
+    },
+    "LowerCase": {
+        "message": "Småbokstaver"
+    },
+    "shouldCleanEmojis": {
+        "message": "Fjern emojier"
+    },
+    "showABlankBox": {
+        "message": "Vis en tom boks"
+    },
+    "Start": {
+        "message": "Start"
+    },
+    "Middle": {
+        "message": "I midten"
+    },
+    "keepUnsubmitted": {
+        "message": "Lagre innsendte stemmer"
+    },
+    "onAllPages": {
+        "message": "På alle sider",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Aldri"
+    },
+    "fetchTimeout": {
+        "message": "Tidsavbrudd for datainnhenting (ms)"
+    },
+    "Enable": {
+        "message": "Skru på"
+    },
+    "Titles": {
+        "message": "Titteler",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Miniatyrbilder",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Feil"
+    },
+    "ShowOriginal": {
+        "message": "Vis opprinnelige detaljer"
+    },
+    "tip1": {
+        "message": "Unngå overdrevne ansiktsuttrykk",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip5": {
+        "message": "Skriv den med stor bokstav først som en setning",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Merk: Dine SponsorBlock innstillinger har blitt automatisk importert!"
+    },
+    "howItWorks": {
+        "message": "Hvordan det virker"
+    },
+    "privacyPolicy": {
+        "message": "Personvernretningslinjer"
+    },
+    "termsOfUse": {
+        "message": "Vilkår for bruk"
+    },
+    "replaceTitles": {
+        "message": "Erstatt Tittler"
+    },
+    "replaceThumbnails": {
+        "message": "Erstatt Miniatyrbilder"
+    },
+    "NewConfiguration": {
+        "message": "Nytt oppsett"
+    },
+    "DeleteConfiguration": {
+        "message": "Slett oppsett"
+    },
+    "ConfigurationName": {
+        "message": "Oppsettets navn"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Sjekk også ut DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} tittel",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titler",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "requiresUblock": {
+        "message": "Krever uBlock Origin"
+    },
+    "dearrowLogoCredit": {
+        "message": "Logoen er basert på Twemoji som er lisensiert under CC-BY 4.0"
+    },
+    "startFreeTrial": {
+        "message": "Start gratis prøveperiode"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Du kan ikke stemme under den gratis prøveperioden",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow er ikke aktivert"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktiver DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow har nå blitt aktivert"
+    },
+    "Close": {
+        "message": "Lukk"
+    },
+    "ViewLicenseKey": {
+        "message": "Vis Lisensnøkkel"
     }
 }

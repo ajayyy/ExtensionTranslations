@@ -10,9 +10,6 @@
     "400": {
         "message": "Servern sa att denna begäran var ogiltig"
     },
-    "429": {
-        "message": "Du har skickat in för många sponsortider för den här videon. Är du säker på att det finns så många?"
-    },
     "409": {
         "message": "Den här har redan skickats in"
     },
@@ -680,7 +677,7 @@
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandsgranskning/sammanfattning/hook",
+        "message": "Förhandstitt/sammanfattning/hook",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1555,7 +1552,7 @@
         "message": "Konfigurationsnamn"
     },
     "ChannelListInstructions": {
-        "message": "Ange vilka kanaler du vill verkställa för denna konfiguration i rutan nedan, åtskilda av nya rader. Både kanal-ID och visningsnamn stöds. @ Användarnamn stöds inte. Du finner kanal-ID:t genom att klicka på delaknappen på kanalens omsida.",
+        "message": "Ange vilka kanaler du vill verkställa denna konfiguration på i rutan nedan, åtskilda av nya rader. Både kanal-ID och visningsnamn stöds. @-användarnamn stöds inte. Du finner kanal-ID:t genom att klicka på delaknappen på kanalens omsida. För att komma till omsidan, klicka på kanalbeskrivningen som visas under deras kanalnamn på deras kanalsida.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1676,5 +1673,14 @@
     },
     "cleanPopup": {
         "message": "Dölj röran i segmentlistans popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Varning: Tilläggslagring har inaktiverats i din webbläsare. Inställningarna kommer inte att sparas om du försöker spara dem."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow fungerar inte utan lagring."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Du kan aktivera det genom att gå till about:config och ställa in värdet av \"webextensions.storage.sync.enabled\" till true."
     }
 }
