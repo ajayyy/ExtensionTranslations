@@ -301,8 +301,16 @@
         "message": "Szegmens kezdése/befejezése",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Beküldő menü megnyitása",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Szegmensek beküldése",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Átugrási értesítő bezárása",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
