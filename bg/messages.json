@@ -301,8 +301,16 @@
         "message": "Начало/край на сегмент",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Отваряне на менюто за изпращане",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Изпращане на сегментите",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Затваряне на уведомлението за пропускане",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
