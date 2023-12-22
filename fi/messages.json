@@ -301,8 +301,16 @@
         "message": "Aloita/lopeta osio",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Avaa lähetys-valikko",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Lähetä osiot",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Sulje ohitus-ilmoitus",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
