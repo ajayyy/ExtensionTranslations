@@ -1329,6 +1329,12 @@
     "shouldCleanEmojis": {
         "message": "이모지 제거"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "영어 외 제목도 대문자 표기"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "언어 감지는 완벽하지 않으며 일부 영어 제목을 영어가 아닌 것으로 감지할 수 있어요."
+    },
     "thumbnailFallbackOption": {
         "message": "제출한 미리 보기 이미지가 없으면"
     },
