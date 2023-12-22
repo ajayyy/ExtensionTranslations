@@ -301,8 +301,16 @@
         "message": "Rozpocznij/zatrzymaj segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otwórz menu zgłoszenia",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Prześlij segmenty",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Zamknij powiadomienie o pominięciu",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
