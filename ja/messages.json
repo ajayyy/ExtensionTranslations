@@ -301,8 +301,16 @@
         "message": "セグメントを開始/終了",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "登録メニューを開く",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "セグメントの登録",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "スキップの通知を閉じる",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
