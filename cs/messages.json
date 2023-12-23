@@ -301,8 +301,16 @@
         "message": "Začít/ukončit segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otevřít nabídku příspěvků",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Odeslat segmenty",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Zavřít oznámení o přeskočení",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
