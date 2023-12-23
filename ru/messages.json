@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "Импорт/Экспорт всех настроек"
     },
+    "exportOtherData": {
+        "message": "Импортировать/экспортировать остальные данные"
+    },
     "exportOptionsCopy": {
         "message": "Редактировать/скопировать"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Вы можете включить его, перейдя на страницу about:config и установив значение для \"webextensions.storage.sync.enabled\" на true."
+    },
+    "storageFull": {
+        "message": "Хранилище расширения заполнено. Пожалуйста, удалите несколько неотправленных сегментов в настройках."
     }
 }
