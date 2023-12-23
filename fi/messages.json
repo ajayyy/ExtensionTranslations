@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "Vie/tuo kaikki asetukset"
     },
+    "exportOtherData": {
+        "message": "Tuo/vie kaikki muut tiedot"
+    },
     "exportOptionsCopy": {
         "message": "Muokkaa/kopioi"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\"-asetuksen todeksi."
+    },
+    "storageFull": {
+        "message": "Laajennuksen tallennustila on täynnä. Poista joitakin lähettämättömiä osioita asetuksista."
     }
 }
