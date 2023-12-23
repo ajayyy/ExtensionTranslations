@@ -520,6 +520,9 @@
     "exportOptions": {
         "message": "Bütün Ayarlarını İçe/Dışa Aktar"
     },
+    "exportOtherData": {
+        "message": "Diğer tüm veriyi al/ver"
+    },
     "exportOptionsCopy": {
         "message": "Düzenle/kopyala"
     },
@@ -844,6 +847,9 @@
     "youMustSelectACategory": {
         "message": "Göndereceğin tüm kısımlar için bir kategori seçmelisin!"
     },
+    "bracketStart": {
+        "message": "(Baş)"
+    },
     "bracketEnd": {
         "message": "(Son)"
     },
@@ -1071,6 +1077,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Yeni! Videonun bütünü sponsor veya kendi reklamıysa bu uyarıyı görün"
+    },
+    "yearAbbreviation": {
+        "message": "y",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": "g",
@@ -1351,6 +1361,12 @@
     "keepUnsubmitted": {
         "message": "Sunulan oyları sakla"
     },
+    "ignoreAbThumbnails": {
+        "message": "Küçük Resimlerin A/B Testini Bastır"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Video yükleyenler, videolarında farklı kişilere farklı başlık ve küçük resim gösterebilirler. Bu seçenek seçilirse, tutarlılık için her zaman ilk seçenek kullanılacaktır."
+    },
     "abThumbnailsWarning": {
         "message": "Uyarı: Bu videoda şu anda bir küçük resim A/B testi uygulanmaktadır. Bu, küçük resmin sık sık değişebileceği anlamına gelir. Bu risk nedeniyle muhtemelen orijinal küçük resme oy vermemelisiniz."
     },
@@ -1362,6 +1378,12 @@
     },
     "useThumbnailGenerationService": {
         "message": "Küçük Resim Oluşturma Servisini Kullan"
+    },
+    "titleMaxLines": {
+        "message": "Başlık için izin verilen satır sayısı"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Video başlıkları önerilerde bu kadar satıra yayılacaktır."
     },
     "onAllPages": {
         "message": "Tüm Sayfalarda",
@@ -1539,6 +1561,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Clickbaitlerden sıkıldınız mı? Başlıkları ve küçük resimleri iyileştiren yeni uzantımı kontrol edin"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "DeArrow'a da bir bakış at",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Bu başlığı beğenmediniz mi? Aşağıdaki başlığı tercih ediyorsanız, DeArrow'daki başlık değiştirme özelliğine de bakmayı unutmayın.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1645,5 +1675,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "about:config sayfasına gidip \"webextensions.storage.sync.enabled\" değerini true olarak ayarlayarak etkinleştirebilirsiniz."
+    },
+    "storageFull": {
+        "message": "Depolama dolu. Gönderilmemiş kimi kısımları silmeyi deneyin."
     }
 }
