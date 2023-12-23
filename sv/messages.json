@@ -301,8 +301,16 @@
         "message": "Starta/stoppa segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Öppna inskickningsmenyn",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Skicka in segment",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Stäng överhoppningsmeddelande",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1328,6 +1336,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Ta bort emojis"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Använd versaler för icke-engelska titlar"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Språkdetekteringen är inte perfekt och upptäcker vissa engelska titlar som icke-engelska."
     },
     "thumbnailFallbackOption": {
         "message": "När ingen inskickad miniatyrbild finns"
