@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "Import/Export All Options"
     },
+    "exportOtherData": {
+        "message": "Import/Export All Other Data"
+    },
     "exportOptionsCopy": {
         "message": "Edit/copy"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" to true."
+    },
+    "storageFull": {
+        "message": "Extension storage is full. Please delete some unsubmitted segments in the options."
     }
 }
