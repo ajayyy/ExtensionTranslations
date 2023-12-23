@@ -301,8 +301,16 @@
         "message": "Iniciar/parar segmento",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Abrir menu de submissão",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Enviar segmentos",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Fechar aviso de ignorar",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
