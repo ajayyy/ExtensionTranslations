@@ -301,8 +301,16 @@
         "message": "구간 시작/종료",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "제출 메뉴 열기",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "구간 제출",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "건너뛰기 알림 닫기",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
