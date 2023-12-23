@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Ignore patrocinadores, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
+        "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
     "400": {
