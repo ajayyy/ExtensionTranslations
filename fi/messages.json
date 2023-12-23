@@ -1337,6 +1337,12 @@
     "shouldCleanEmojis": {
         "message": "Poista emojit"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Näytä englanninkielestä poikkeavien otsikoiden sanat isoilla alkukirjaimilla"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Kielen tunnistus ei ole täydellinen ja voi tunnistaa joitakin englanninkielisiä otsikoita eri kielisiksi."
+    },
     "thumbnailFallbackOption": {
         "message": "Kun lähetettyä pienoiskuvaa ei ole"
     },
