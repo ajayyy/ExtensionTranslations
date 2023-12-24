@@ -298,8 +298,16 @@
         "message": "Segment štart/stop",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otvoriť menu pre odoslanie segmentov",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Odoslať segmenty",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Zatvoriť oznámenie o preskočení segmentov",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
