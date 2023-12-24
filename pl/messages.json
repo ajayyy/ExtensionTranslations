@@ -1699,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Aby włączyć przechowywanie, przejdź do about:config i ustaw \"webextensions.storage.sync.enabled\" na wartość true."
+    },
+    "storageFull": {
+        "message": "Pamięć rozszerzenia jest przepełniona. Aby zwolnić miejsce, wyczyść nieprzesłane segmenty w ustawieniach."
     }
 }
