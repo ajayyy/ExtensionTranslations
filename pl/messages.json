@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "Importuj/Eksportuj wszystkie ustawienia"
     },
+    "exportOtherData": {
+        "message": "Importuj/eksportuj wszystkie pozostałe dane"
+    },
     "exportOptionsCopy": {
         "message": "Edytuj/kopiuj"
     },
