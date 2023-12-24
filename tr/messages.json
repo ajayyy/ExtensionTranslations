@@ -301,8 +301,16 @@
         "message": "Kısmı başlat/durdur",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Gönderiler menüsünü aç",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Segmentleri gönder",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Atlama bildirimini kapat",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1332,6 +1340,9 @@
     "shouldCleanEmojis": {
         "message": "Emojileri Sil"
     },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Dil tanıma mükemmel değildir ve bazı başlıkları gerçeğinden başka diller olarak algılayabilir."
+    },
     "thumbnailFallbackOption": {
         "message": "Sunulan Küçük Resim Yoksa"
     },
@@ -1418,6 +1429,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
+    },
+    "showOriginalOnHover": {
+        "message": "Üzerine gelindiğinde asıl ayrıntıları göster"
     },
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
@@ -1551,6 +1565,10 @@
     "ConfigurationName": {
         "message": "Yapılandırma Adı"
     },
+    "ChannelListInstructions": {
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Henüz yapılandırma ayarlanmadı. Yeni bir yapılandırma eklemek için üstteki düğmeye tıklayın.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
@@ -1666,6 +1684,9 @@
     },
     "SharingIsCaring": {
         "message": "Paylaşmak önemsemektir"
+    },
+    "cleanPopup": {
+        "message": "Kısım listesinde ıvırzıvırı sakla"
     },
     "syncDisabledWarning": {
         "message": "Uyarı: Tarayıcınızda uzantı depolama devre dışı bırakıldı. Kaydetmeyi denerseniz ayarlar kaydedilmeyecektir."
