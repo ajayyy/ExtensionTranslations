@@ -680,7 +680,7 @@
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
     "category_preview": {
-        "message": "Попередній перегляд/короткий зміст/зав'язка",
+        "message": "Прев'ю/короткий зміст/зав'язка\nor\nПрев'ю/короткий зміст/зачіпка\nor\nПрев'ю/резюме/зав'язка\nor\nПрев'ю/підсумок/зав'язка\n\nMore appropriate in meaning: зав'язка than зачіпка",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
