@@ -301,8 +301,16 @@
         "message": "Започети/завршити сегмент",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Отварање менија за подношење",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Подношење сегмената",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Затварање обавештења о прескакању",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Увоз/Извоз свих опција"
+    },
+    "exportOtherData": {
+        "message": "Увоз/извоз свих осталих података"
     },
     "exportOptionsCopy": {
         "message": "Измени/копирај"
@@ -1688,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Можете је омогућити тако што ћете отићи на страницу about:config и подесити вредност за „webextensions.storage.sync.enabled” на true."
+    },
+    "storageFull": {
+        "message": "Меморија додатка је пуна. Избришите неке неподнесене сегменте у опцијама."
     }
 }
