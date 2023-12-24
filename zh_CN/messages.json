@@ -1396,6 +1396,9 @@
     "titleMaxLines": {
         "message": "标题的最大行数"
     },
+    "titleMaxLinesDescription": {
+        "message": "视频标题会按建议分布在多行中。"
+    },
     "onAllPages": {
         "message": "在所有页面",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
