@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "すべての設定をインポート/エクスポート"
     },
+    "exportOtherData": {
+        "message": "ほかの全データを保存・復元する"
+    },
     "exportOptionsCopy": {
         "message": "編集/コピー"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "有効化するには、about:config から webextensions.storage.sync.enabled の値を true に設定します。"
+    },
+    "storageFull": {
+        "message": "拡張機能が利用できる領域に空きがありません。提出していない項目を削除してください。"
     }
 }
