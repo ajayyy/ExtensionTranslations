@@ -529,7 +529,7 @@
         "message": "すべての設定をインポート/エクスポート"
     },
     "exportOtherData": {
-        "message": "ほかの全データを保存・復元する"
+        "message": "ほかの全データををインポート/エクスポート"
     },
     "exportOptionsCopy": {
         "message": "編集/コピー"
@@ -1701,6 +1701,6 @@
         "message": "有効化するには、about:config から webextensions.storage.sync.enabled の値を true に設定します。"
     },
     "storageFull": {
-        "message": "拡張機能が利用できる領域に空きがありません。提出していない項目を削除してください。"
+        "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
     }
 }
