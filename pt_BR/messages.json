@@ -301,8 +301,16 @@
         "message": "Iniciar/parar segmento",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Abrir menu para envios de segmentos",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Enviar segmentos",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Fecha notificação de salto",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Importar/Exportar todas as opções"
+    },
+    "exportOtherData": {
+        "message": "Importar/Exportar Todos os Outros Dados"
     },
     "exportOptionsCopy": {
         "message": "Editar/copiar"
@@ -1688,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Você pode ativar isso acessando about:config e definir o valor de \"webextensions.storage.sync.enabled\" como true."
+    },
+    "storageFull": {
+        "message": "O armazenamento da extensão está cheio. Por favor, exclua alguns segmentos não enviados nas opções."
     }
 }
