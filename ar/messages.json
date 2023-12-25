@@ -520,6 +520,9 @@
     "exportOptions": {
         "message": "إستيراد/تصدير جميع الإعدادات"
     },
+    "exportOtherData": {
+        "message": "استيراد/تصدير جميع البيانات الأخرى"
+    },
     "exportOptionsCopy": {
         "message": "تعديل/نسخ"
     },
