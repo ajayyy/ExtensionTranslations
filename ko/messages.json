@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "모든 설정 가져오기/내보내기"
     },
+    "exportOtherData": {
+        "message": "기타 모든 데이터 가져오기/내보내기"
+    },
     "exportOptionsCopy": {
         "message": "수정/복사"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
+    },
+    "storageFull": {
+        "message": "확장 프로그램 저장공간이 가득 찼어요. 설정에서 미제출한 구간을 삭제해 주세요."
     }
 }
