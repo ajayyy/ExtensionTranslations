@@ -528,6 +528,9 @@
     "exportOptions": {
         "message": "Összes beállítás importálása / exportálása"
     },
+    "exportOtherData": {
+        "message": "Egyéb adatok importálása / exportálása"
+    },
     "exportOptionsCopy": {
         "message": "Szerkesztés/másolás"
     },
@@ -1696,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Engedélyezheted, ha elmész az about:config címre, és a \"webextensions.storage.sync.enabled\" értéket true-ra állítod."
+    },
+    "storageFull": {
+        "message": "A bővítmény tárhelye megtelt. Kérlek, törölj néhány beküldetlen szegmenst a beállításokban."
     }
 }
