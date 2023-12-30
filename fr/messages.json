@@ -524,6 +524,9 @@
     "exportOptions": {
         "message": "Importer/Exporter toutes les options"
     },
+    "exportOtherData": {
+        "message": "Importer/Exporter toutes les autres données"
+    },
     "exportOptionsCopy": {
         "message": "Modifier/copier"
     },
@@ -679,6 +682,10 @@
     },
     "category_outro_guideline1": {
         "message": "Ne dois pas inclure de contenu, même si les écrans de fin sont apparus"
+    },
+    "category_preview": {
+        "message": "Aperçu/Résumé/Crochet",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Collection de clips qui montrent ce qui se passe dans cette vidéo ou d'autres vidéos d'une série où toutes les informations sont répétées plus tard dans la vidéo."
@@ -1329,6 +1336,12 @@
     "shouldCleanEmojis": {
         "message": "Émojis supprimés"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Mettre en majuscule les mots pour les titres non-anglais"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "La détection de la langue n'est pas parfaite et détecte certains titres en anglais comme non-anglais."
+    },
     "thumbnailFallbackOption": {
         "message": "Quand aucune miniature soumise n'existe"
     },
@@ -1357,6 +1370,15 @@
     },
     "keepUnsubmitted": {
         "message": "Stocker les votes soumis"
+    },
+    "ignoreAbThumbnails": {
+        "message": "Ne jamais utiliser les miniatures des tests A/B"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Les chaines peuvent mettre en place des tests sur leurs vidéos où YouTube montrera différentes miniatures pour chaque personne. Cette option utilisera toujours la première miniature pour maintenir la cohérence."
+    },
+    "abThumbnailsWarning": {
+        "message": "Avertissement : Cette vidéo a actuellement une miniature de test A/B. Cela signifie que la vignette peut changer souvent. Vous ne devriez probablement pas voter pour la miniature originale en raison de ce risque."
     },
     "whatKeepUnsubmitted": {
         "message": "Garder les votes soumis après un vote pour afficher les titres et miniatures que vous avez choisis au lieu de ceux ayant reçu le plus de votes sur le serveur."
@@ -1552,6 +1574,14 @@
     "DeArrowPromotionMessage2": {
         "message": "Fatigué des pièges à clics ? Découvrez ma nouvelle extension pour améliorer les titres et les miniatures"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "Voir aussi DeFrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Vous n'aimez pas ce titre? Si vous préférez le titre ci-dessous, envisagez de consulter la fonction de remplacement du titre dans DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Cette miniature est choisie à partir d'une image aléatoire car il n'y a pas encore de soumission sur cette vidéo",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1649,5 +1679,17 @@
     },
     "SharingIsCaring": {
         "message": "Partager c'est aimer"
+    },
+    "syncDisabledWarning": {
+        "message": "Attention : le stockage des extensions a été désactivé dans votre navigateur. Les paramètres ne seront pas enregistrés si vous essayez de les sauvegarder."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow ne fonctionnera pas sans stockage."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Vous pouvez l'activer en allant dans about:config et en définissant la valeur de \"webextensions.storage.sync.enabled\" à true."
+    },
+    "storageFull": {
+        "message": "Le stockage de l'extension est plein. Veuillez supprimer certains segments non soumis dans les options."
     }
 }
