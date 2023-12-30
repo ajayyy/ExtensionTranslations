@@ -301,6 +301,10 @@
         "message": "Commencer/arrêter le segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Ouvrir le menu de contribution",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Soumettre les segments",
         "description": "Keybind label"
@@ -1070,6 +1074,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Nouveau ! Soyez prévenu-e quand une vidéo est entièrement sponsorisée ou autopromotionnelle"
+    },
+    "yearAbbreviation": {
+        "message": "y",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": "j",
