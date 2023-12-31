@@ -1692,7 +1692,7 @@
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
     },
     "syncDisabledWarning": {
-        "message": "Warnung: Erweiterungsspeicher wurde in deinem Browser deaktiviert. Einstellungen werden nicht gespeichert, wenn du versuchst, sie zu speichern."
+        "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow funktioniert nicht ohne Speicher."
