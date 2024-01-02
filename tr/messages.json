@@ -114,7 +114,7 @@
         "message": "Bağlantı hatası oluştu. Hata kodu: "
     },
     "segmentsStillLoading": {
-        "message": "Bölümler hala yükleniyor..."
+        "message": "Kısımlar hâlâ yükleniyor..."
     },
     "clearTimes": {
         "message": "Kısımları temizle"
@@ -226,7 +226,7 @@
         "message": "Kısımların olumsuz oylarını depola"
     },
     "whatTrackDownvotes": {
-        "message": "Olumsuz oy verdiğiniz segmentler, sayfayı tazeledikten sonra da gizli kalacaktır"
+        "message": "Olumsuz oy verdiğiniz kısımlar, sayfayı tazeledikten sonra da gizli kalacaktır"
     },
     "trackDownvotesWarning": {
         "message": "Uyarı: Bu ayarı devre dışı bırakırsanız, halihazırda saklanan olumsuz oylar silinecek"
@@ -306,7 +306,7 @@
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Segmentleri gönder",
+        "message": "Kısımları gönder",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -1339,6 +1339,9 @@
     },
     "shouldCleanEmojis": {
         "message": "Emojileri Sil"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "İngilizce Olmayan Başlıkları Büyük Harflerle Yaz"
     },
     "onlyTitleCaseInEnglishDescription": {
         "message": "Dil tanıma mükemmel değildir ve bazı başlıkları gerçeğinden başka diller olarak algılayabilir."
