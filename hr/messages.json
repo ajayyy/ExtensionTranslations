@@ -273,6 +273,10 @@
         "message": "Pokreni/prekini segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otvori preglednik prijava",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Pošalji segmente",
         "description": "Keybind label"
