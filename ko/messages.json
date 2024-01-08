@@ -301,8 +301,16 @@
         "message": "구간 시작/종료",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "제출 메뉴 열기",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "구간 제출",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "건너뛰기 알림 닫기",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "모든 설정 가져오기/내보내기"
+    },
+    "exportOtherData": {
+        "message": "기타 모든 데이터 가져오기/내보내기"
     },
     "exportOptionsCopy": {
         "message": "수정/복사"
@@ -1329,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "이모지 제거"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "영어 외 제목도 대문자 표기"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "언어 감지는 완벽하지 않으며 일부 영어 제목을 영어가 아닌 것으로 감지할 수 있어요."
+    },
     "thumbnailFallbackOption": {
         "message": "제출한 미리 보기 이미지가 없으면"
     },
@@ -1682,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
+    },
+    "storageFull": {
+        "message": "확장 프로그램 저장공간이 가득 찼어요. 설정에서 미제출한 구간을 삭제해 주세요."
     }
 }

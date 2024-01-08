@@ -301,8 +301,16 @@
         "message": "Aloita/lopeta osio",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Avaa lähetys-valikko",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Lähetä osiot",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Sulje ohitus-ilmoitus",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Vie/tuo kaikki asetukset"
+    },
+    "exportOtherData": {
+        "message": "Tuo/vie kaikki muut tiedot"
     },
     "exportOptionsCopy": {
         "message": "Muokkaa/kopioi"
@@ -1329,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "Poista emojit"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Näytä englanninkielestä poikkeavien otsikoiden sanat isoilla alkukirjaimilla"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Kielen tunnistus ei ole täydellinen ja voi tunnistaa joitakin englanninkielisiä otsikoita eri kielisiksi."
+    },
     "thumbnailFallbackOption": {
         "message": "Kun lähetettyä pienoiskuvaa ei ole"
     },
@@ -1682,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\"-asetuksen todeksi."
+    },
+    "storageFull": {
+        "message": "Laajennuksen tallennustila on täynnä. Poista joitakin lähettämättömiä osioita asetuksista."
     }
 }

@@ -301,8 +301,16 @@
         "message": "Почати/зупинити сегмент",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Відкрити меню надсилання",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Надіслати сегменти",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Закрити сповіщення про пропуск",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -520,6 +528,9 @@
     "exportOptions": {
         "message": "Імпорт/Експорт всіх налаштувань"
     },
+    "exportOtherData": {
+        "message": "Імпорт/експорт всіх інших даних"
+    },
     "exportOptionsCopy": {
         "message": "Змінити/копіювати"
     },
@@ -677,7 +688,7 @@
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
     "category_preview": {
-        "message": "Попередній перегляд/короткий зміст/зав'язка",
+        "message": "Прев'ю/короткий зміст/зав'язка\nor\nПрев'ю/короткий зміст/зачіпка\nor\nПрев'ю/резюме/зав'язка\nor\nПрев'ю/підсумок/зав'язка\n\nMore appropriate in meaning: зав'язка than зачіпка",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1688,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Ви можете ввімкнути його, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" на true."
+    },
+    "storageFull": {
+        "message": "Сховище розширень повне. Будь ласка, видаліть деякі невідіслані сегменти у опціях."
     }
 }

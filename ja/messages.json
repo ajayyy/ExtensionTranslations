@@ -301,8 +301,16 @@
         "message": "セグメントを開始/終了",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "登録メニューを開く",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "セグメントの登録",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "スキップの通知を閉じる",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "すべての設定をインポート/エクスポート"
+    },
+    "exportOtherData": {
+        "message": "ほかの全データををインポート/エクスポート"
     },
     "exportOptionsCopy": {
         "message": "編集/コピー"
@@ -1333,7 +1344,7 @@
         "message": "英語ではない題名も大文字化する"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "言語推定機能は完璧ではないので、英語で書かれた題名を英語でないと判定することがあります"
+        "message": "言語の検出は確実ではないので、英語の題名を英語でないと判定することもあります"
     },
     "thumbnailFallbackOption": {
         "message": "投稿されたサムネイルなしなら"
@@ -1688,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "有効化するには、about:config から webextensions.storage.sync.enabled の値を true に設定します。"
+    },
+    "storageFull": {
+        "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
     }
 }

@@ -247,7 +247,7 @@
         "message": "Tampilkan kategori di dalam menu submisi bahkan tanpa izin submisi"
     },
     "whatShowCategoryWithoutPermission": {
-        "message": "Beberapa kategori memerlukan izin untuk mengirim karena persyaratan reputasi minimum"
+        "message": "Beberapa kategori memerlukan izin pengajuan karena persyaratan reputasi minimum"
     },
     "showNotice": {
         "message": "Tampilkan Pemberitahuan Lagi"
@@ -302,7 +302,7 @@
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Kirim segmen",
+        "message": "Ajukan segmen",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -516,6 +516,9 @@
     },
     "exportOptions": {
         "message": "Impor/Ekspor Semua Pengaturan"
+    },
+    "exportOtherData": {
+        "message": "Impor/Ekspor Semua Data Lain"
     },
     "exportOptionsCopy": {
         "message": "Edit/salin"
@@ -988,10 +991,10 @@
         "message": "Kapanpun Anda melewati segmen, Anda akan mendapatkan pemberitahuan. Jika pengaturan waktu terlihat salah tolak dengan mengklik jempol bawah! Anda juga dapat memilih dalam popup."
     },
     "Submitting": {
-        "message": "Mengirim"
+        "message": "Mengajukan"
     },
     "helpPageSubmitting1": {
-        "message": "Mengirim bisa baik dilakukan di maklumat dengan menekan tombol \"Mulai Segmen Sekarang\" atau di pemutar video dengan tombol di pemutar."
+        "message": "Pengajuan bisa dilakukan baik di sembulan dengan menekan \"Mulai Segmen Sekarang\" atau di pemutar video dengan tombolnya."
     },
     "helpPageSubmitting2": {
         "message": "Klik tombol putar indikasikan memulai segmen dan klik tombol ikon stop indikasikan mengakhiri. Kamu bisa persiapkan beberapa sponsor sebelum menekan kirim. Klik tombol unggah akan mengirimkan. Klik tombol sampah akan menghapuskan."
@@ -1184,11 +1187,11 @@
         "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
     },
     "unsubmittedSegmentsSingular": {
-        "message": "segmen yang belum dikirim",
+        "message": "segmen belum diajukan",
         "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
     },
     "unsubmittedSegmentsPlural": {
-        "message": "segmen yang belum dikirim",
+        "message": "segmen belum diajukan",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
     "videosSingular": {
@@ -1200,15 +1203,15 @@
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
-        "message": "Hapus semua segmen",
+        "message": "Kosongkan segmen",
         "description": "Label for a button in settings"
     },
     "clearUnsubmittedSegmentsConfirm": {
-        "message": "Yakin ingin menghapus semua segmen yang belum disubmit?",
+        "message": "Yakin ingin menghapus semua segmen yang belum diajukan?",
         "description": "Confirmation message for the Clear unsubmitted segments button"
     },
     "showUnsubmittedSegments": {
-        "message": "Tampilkan Segmen",
+        "message": "Tampilkan segmen",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "hideUnsubmittedSegments": {
@@ -1241,5 +1244,15 @@
     },
     "OriginalTitle": {
         "message": "Judul asli"
+    },
+    "keepUnsubmitted": {
+        "message": "Tampung Suara Teraju"
+    },
+    "tip5": {
+        "message": "Besarkan huruf seperti kalimat",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "storageFull": {
+        "message": "Penyimpanan sudah penuh. Mohon hapus beberapa segmen teraju di opsi."
     }
 }

@@ -301,8 +301,16 @@
         "message": "Začít/ukončit segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otevřít nabídku příspěvků",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Odeslat segmenty",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Zavřít oznámení o přeskočení",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -520,6 +528,9 @@
     "exportOptions": {
         "message": "Importovat / exportovat všechny možnosti"
     },
+    "exportOtherData": {
+        "message": "Importovat/exportovat všechna ostatní data"
+    },
     "exportOptionsCopy": {
         "message": "Upravit/kopírovat"
     },
@@ -677,7 +688,7 @@
         "message": "Nezahrnuje obsah, i když jsou na obrazovce závěrečné karty"
     },
     "category_preview": {
-        "message": "Náhled/shrnutí/upoutání diváka",
+        "message": "Náhled / shrnutí / upoutání diváka",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1688,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Můžete ji povolit na stránce about:config nastavením hodnoty „webextensions.storage.sync.enabled“ na „true“."
+    },
+    "storageFull": {
+        "message": "Úložiště rozšíření je plné. Odstraňte prosím nějaké neodeslané segmenty v možnostech."
     }
 }

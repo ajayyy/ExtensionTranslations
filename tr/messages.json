@@ -114,7 +114,7 @@
         "message": "Bağlantı hatası oluştu. Hata kodu: "
     },
     "segmentsStillLoading": {
-        "message": "Bölümler hala yükleniyor..."
+        "message": "Kısımlar hâlâ yükleniyor..."
     },
     "clearTimes": {
         "message": "Kısımları temizle"
@@ -226,7 +226,7 @@
         "message": "Kısımların olumsuz oylarını depola"
     },
     "whatTrackDownvotes": {
-        "message": "Olumsuz oy verdiğiniz segmentler, sayfayı tazeledikten sonra da gizli kalacaktır"
+        "message": "Olumsuz oy verdiğiniz kısımlar, sayfayı tazeledikten sonra da gizli kalacaktır"
     },
     "trackDownvotesWarning": {
         "message": "Uyarı: Bu ayarı devre dışı bırakırsanız, halihazırda saklanan olumsuz oylar silinecek"
@@ -301,8 +301,16 @@
         "message": "Kısmı başlat/durdur",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Gönderiler menüsünü aç",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
-        "message": "Segmentleri gönder",
+        "message": "Kısımları gönder",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Atlama bildirimini kapat",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Bütün Ayarlarını İçe/Dışa Aktar"
+    },
+    "exportOtherData": {
+        "message": "Diğer tüm veriyi al/ver"
     },
     "exportOptionsCopy": {
         "message": "Düzenle/kopyala"
@@ -844,6 +855,9 @@
     "youMustSelectACategory": {
         "message": "Göndereceğin tüm kısımlar için bir kategori seçmelisin!"
     },
+    "bracketStart": {
+        "message": "(Baş)"
+    },
     "bracketEnd": {
         "message": "(Son)"
     },
@@ -1071,6 +1085,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Yeni! Videonun bütünü sponsor veya kendi reklamıysa bu uyarıyı görün"
+    },
+    "yearAbbreviation": {
+        "message": "y",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": "g",
@@ -1322,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "Emojileri Sil"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "İngilizce Olmayan Başlıkları Büyük Harflerle Yaz"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Dil tanıma mükemmel değildir ve bazı başlıkları gerçeğinden başka diller olarak algılayabilir."
+    },
     "thumbnailFallbackOption": {
         "message": "Sunulan Küçük Resim Yoksa"
     },
@@ -1351,6 +1375,12 @@
     "keepUnsubmitted": {
         "message": "Sunulan oyları sakla"
     },
+    "ignoreAbThumbnails": {
+        "message": "Küçük Resimlerin A/B Testini Bastır"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Video yükleyenler, videolarında farklı kişilere farklı başlık ve küçük resim gösterebilirler. Bu seçenek seçilirse, tutarlılık için her zaman ilk seçenek kullanılacaktır."
+    },
     "abThumbnailsWarning": {
         "message": "Uyarı: Bu videoda şu anda bir küçük resim A/B testi uygulanmaktadır. Bu, küçük resmin sık sık değişebileceği anlamına gelir. Bu risk nedeniyle muhtemelen orijinal küçük resme oy vermemelisiniz."
     },
@@ -1362,6 +1392,12 @@
     },
     "useThumbnailGenerationService": {
         "message": "Küçük Resim Oluşturma Servisini Kullan"
+    },
+    "titleMaxLines": {
+        "message": "Başlık için izin verilen satır sayısı"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Video başlıkları önerilerde bu kadar satıra yayılacaktır."
     },
     "onAllPages": {
         "message": "Tüm Sayfalarda",
@@ -1396,6 +1432,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
+    },
+    "showOriginalOnHover": {
+        "message": "Üzerine gelindiğinde asıl ayrıntıları göster"
     },
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
@@ -1529,6 +1568,10 @@
     "ConfigurationName": {
         "message": "Yapılandırma Adı"
     },
+    "ChannelListInstructions": {
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Henüz yapılandırma ayarlanmadı. Yeni bir yapılandırma eklemek için üstteki düğmeye tıklayın.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
@@ -1538,6 +1581,14 @@
     },
     "DeArrowPromotionMessage2": {
         "message": "Clickbaitlerden sıkıldınız mı? Başlıkları ve küçük resimleri iyileştiren yeni uzantımı kontrol edin"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "DeArrow'a da bir bakış at",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Bu başlığı beğenmediniz mi? Aşağıdaki başlığı tercih ediyorsanız, DeArrow'daki başlık değiştirme özelliğine de bakmayı unutmayın.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
         "message": "Bu küçük resim, bu videoda henüz bir topluluk gönderisi olmadığı için rastgele bir zaman damgasından seçilir",
@@ -1637,6 +1688,9 @@
     "SharingIsCaring": {
         "message": "Paylaşmak önemsemektir"
     },
+    "cleanPopup": {
+        "message": "Kısım listesinde ıvırzıvırı sakla"
+    },
     "syncDisabledWarning": {
         "message": "Uyarı: Tarayıcınızda uzantı depolama devre dışı bırakıldı. Kaydetmeyi denerseniz ayarlar kaydedilmeyecektir."
     },
@@ -1645,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "about:config sayfasına gidip \"webextensions.storage.sync.enabled\" değerini true olarak ayarlayarak etkinleştirebilirsiniz."
+    },
+    "storageFull": {
+        "message": "Depolama dolu. Gönderilmemiş kimi kısımları silmeyi deneyin."
     }
 }

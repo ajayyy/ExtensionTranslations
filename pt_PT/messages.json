@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Ignore patrocinadores, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
+        "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
     "400": {
@@ -301,8 +301,16 @@
         "message": "Iniciar/parar segmento",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Abrir menu de submissão",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Enviar segmentos",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Fechar aviso de ignorar",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Importar/Exportar todas as opções"
+    },
+    "exportOtherData": {
+        "message": "Importar/Exportar Todos os outros dados"
     },
     "exportOptionsCopy": {
         "message": "Editar/copiar"
@@ -1329,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Colocar palavras em maiúsculas em títulos que não sejam em inglês"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "A deteção de idiomas não é perfeita e deteta alguns títulos em inglês como não ingleses."
+    },
     "thumbnailFallbackOption": {
         "message": "Quando não houver nenhuma miniatura enviada"
     },
@@ -1682,5 +1699,8 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Pode ativar, acedendo a about:config e definindo o valor de \"webextensions.storage.sync.enabled\" como verdadeiro."
+    },
+    "storageFull": {
+        "message": "O armazenamento da extensão está cheio. Elimine alguns segmentos não submetidos nas opções."
     }
 }

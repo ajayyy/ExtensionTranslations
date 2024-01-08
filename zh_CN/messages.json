@@ -301,8 +301,16 @@
         "message": "片段开始/停止",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "打开提交菜单",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "提交片段",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "关闭跳过通知",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "导入/导出所有选项"
+    },
+    "exportOtherData": {
+        "message": "导入/导出所有其他数据"
     },
     "exportOptionsCopy": {
         "message": "编辑/复制"
@@ -1329,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "移除表情符号"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "将非英语标题的单词大写"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "语言检测并不完美，有些英语标题会被检测为非英语。"
+    },
     "thumbnailFallbackOption": {
         "message": "当未提交缩略图时"
     },
@@ -1355,11 +1372,32 @@
     "Middle": {
         "message": "中间"
     },
+    "keepUnsubmitted": {
+        "message": "保存已提交的投票"
+    },
     "ignoreAbThumbnails": {
         "message": "永不使用经 A/B 测试的缩略图"
     },
+    "ignoreAbThumbnailsDescription": {
+        "message": "频道可以为视频设置测试功能，可让 YouTube 向每个人显示不同的缩略图。此选项将始终使用第一个缩略图来保持一致性。"
+    },
+    "abThumbnailsWarning": {
+        "message": "警告：此视频目前正在运行缩略图 A/B 测试，其缩略图可能经常发生变动。因此，不推荐您投票给原始缩略图。"
+    },
+    "whatKeepUnsubmitted": {
+        "message": "投票后保持已提交的投票，以显示您选择的标题和缩略图，不显示服务器上投票最高的。"
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "保存私有标签中提交的投票"
+    },
+    "useThumbnailGenerationService": {
+        "message": "使用缩略图生成服务"
+    },
     "titleMaxLines": {
         "message": "标题的最大行数"
+    },
+    "titleMaxLinesDescription": {
+        "message": "视频标题会按建议分布在多行中。"
     },
     "onAllPages": {
         "message": "在所有页面",

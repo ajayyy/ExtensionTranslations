@@ -298,8 +298,16 @@
         "message": "Segment štart/stop",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Otvoriť menu pre odoslanie segmentov",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Odoslať segmenty",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Zatvoriť oznámenie o preskočení segmentov",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1263,6 +1271,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Odstrániť emoji"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Zobraziť názvy v inom ako anglickom jazyku s veľkými počiatočnými písmenami"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Rozpoznanie jazyka nie je dokonalé, a môže sa teda stať, že anglické názvy bude považovať za názvy v inom jazyku."
     },
     "whatThumbnailFallbackOption": {
         "message": "Pri výbere náhodného času použije dáta SponsorBlock pre zaručenie, že nebude vybraný čas v reklamnom segmente.",

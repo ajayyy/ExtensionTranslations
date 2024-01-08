@@ -301,8 +301,16 @@
         "message": "Starte/Stoppe Segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Einreichungsmenü öffnen",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Segmente einreichen",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Überspring-Hinweis schließen",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -519,6 +527,9 @@
     },
     "exportOptions": {
         "message": "Alle Einstellungen importieren/exportieren"
+    },
+    "exportOtherData": {
+        "message": "Alle anderen Daten Importieren/Exportieren"
     },
     "exportOptionsCopy": {
         "message": "Bearbeiten/Kopieren"
@@ -1329,6 +1340,12 @@
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Wörter für nicht-englische Titel groß schreiben"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Spracherkennung ist nicht perfekt und kann einige Englische Titel als nicht-englisch erkennen."
+    },
     "thumbnailFallbackOption": {
         "message": "Wenn kein Thumbnail eingereicht wurde"
     },
@@ -1675,12 +1692,15 @@
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
     },
     "syncDisabledWarning": {
-        "message": "Warnung: Erweiterungsspeicher wurde in deinem Browser deaktiviert. Einstellungen werden nicht gespeichert, wenn du versuchst, sie zu speichern."
+        "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow funktioniert nicht ohne Speicher."
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Du kannst es aktivieren, indem du zu about:config gehst und den Wert \"webextensions.storage.sync.enabled\" auf true setzt."
+    },
+    "storageFull": {
+        "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
     }
 }
