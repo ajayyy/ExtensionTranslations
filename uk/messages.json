@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Зберігати надіслані голоси"
     },
+    "showLiveCover": {
+        "message": "Показувати аватар каналу на майбутніх відео",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Ніколи не використовувати A/B ескізи"
     },
