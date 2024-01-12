@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "送信済みの投票を保存"
     },
+    "showLiveCover": {
+        "message": "今後の動画でチャンネルアイコンを表示する",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "比較試験用サムネイルを用いない"
     },
