@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Чувај поднесене гласове"
     },
+    "showLiveCover": {
+        "message": "Прикажи аватар канала на предстојећим видео снимцима",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Никад не користи A/B тестиране сличице"
     },
