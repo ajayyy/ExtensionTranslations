@@ -1376,7 +1376,7 @@
         "message": "Zapisz przesłane głosy"
     },
     "showLiveCover": {
-        "message": "Pokaż awatar kanału na ekranie autoodtwarzania",
+        "message": "Pokaż awatar kanału na ekranie następnych filmów",
         "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
