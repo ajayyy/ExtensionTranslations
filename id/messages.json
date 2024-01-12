@@ -301,6 +301,10 @@
         "message": "Mulai/hentikan segmen",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Buka menu submisi",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Ajukan segmen",
         "description": "Keybind label"
@@ -1071,6 +1075,10 @@
     "categoryPillNewFeature": {
         "message": "Baru! Lihat jika sebuah video disponsori seluruhnya atau mempromosikan diri"
     },
+    "yearAbbreviation": {
+        "message": "t",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "h",
         "description": "100d"
@@ -1233,8 +1241,15 @@
     "exportSegmentsAsURL": {
         "message": "Bagikan sebagai Tautan"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Peringatan: Server belum merespon dengan segmen. Mungkin sebenarnya sudah ada segmen di video ini namun Anda belum menerimanya karena ada masalah dengan server."
+    },
     "allowScrollingToEdit": {
         "message": "Izinkan Menggulir Untuk Menyunting Waktu"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}dtk",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "chooseDescriptive": {
         "message": "Pilih yang lebih detail"
@@ -1244,6 +1259,12 @@
     },
     "OriginalTitle": {
         "message": "Judul asli"
+    },
+    "CurrentTime": {
+        "message": "Waktu Sekarang"
+    },
+    "resetIcon": {
+        "message": "Atur Ulang Ikon"
     },
     "keepUnsubmitted": {
         "message": "Tampung Suara Teraju"
