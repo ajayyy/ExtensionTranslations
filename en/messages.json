@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Store Submitted Votes"
     },
+    "showLiveCover": {
+        "message": "Show Channel Avatar on Upcoming Videos",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Never Use A/B Tested Thumbnails"
     },
