@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Zapisz przesłane głosy"
     },
+    "showLiveCover": {
+        "message": "Pokaż awatar kanału na ekranie autoodtwarzania",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Nigdy nie używaj miniatur testowanych metodą A/B"
     },
