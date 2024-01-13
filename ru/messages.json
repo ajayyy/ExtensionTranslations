@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Хранить отправленные оценки"
     },
+    "showLiveCover": {
+        "message": "Показывать аватарку канала на последующих видео",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Никогда не использовать значки, проверенные A/B тестами"
     },
