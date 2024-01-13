@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Sunulan oyları sakla"
     },
+    "showLiveCover": {
+        "message": "Gelecek Videolarda Kanal Avatarını Göster",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Küçük Resimlerin A/B Testini Bastır"
     },
