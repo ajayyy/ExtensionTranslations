@@ -301,6 +301,10 @@
         "message": "Inizio/Fine segmento",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Apri menu di invio",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Invia segmenti",
         "description": "Keybind label"
