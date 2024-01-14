@@ -309,6 +309,10 @@
         "message": "Submit segments",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Preview segment",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Close skip notice",
         "description": "Keybind label"
