@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Speichere eingereichte Abstimmungen"
     },
+    "showLiveCover": {
+        "message": "Kanal-Avatar auf kommenden Videos anzeigen",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "A/B getestete Thumbnails nie verwenden"
     },
