@@ -1375,6 +1375,10 @@
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
     },
+    "showLiveCover": {
+        "message": "Visa kanalavatar på kommande videor",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Använd aldrig A/B-testade miniatyrbilder"
     },
