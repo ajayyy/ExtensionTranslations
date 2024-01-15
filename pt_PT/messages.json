@@ -1706,5 +1706,9 @@
     },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Elimine alguns segmentos não submetidos nas opções."
+    },
+    "previewSegmentRequired": {
+        "message": "Pré-visualize os seus segmentos antes de submeter. Pode fazer isto ao clicar no botão pré-visualizar ou usando o seguinte atalho:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
