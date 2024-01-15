@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Pamięć rozszerzenia jest przepełniona. Aby zwolnić miejsce, wyczyść nieprzesłane segmenty w ustawieniach."
+    },
+    "previewSegmentRequired": {
+        "message": "Proszę sprawdź swoje segmenty przed przesłaniem. Można to zrobić korzystając z przycisku podglądu lub z następującego skrótu:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
