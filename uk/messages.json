@@ -310,7 +310,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Попередній перегляд сегменту",
+        "message": "Прев'ю сегмента",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -1712,7 +1712,7 @@
         "message": "Сховище розширень повне. Будь ласка, видаліть деякі невідіслані сегменти у опціях."
     },
     "previewSegmentRequired": {
-        "message": "Будь ласка, попередньо перегляньте сегменти перед передачею. Це можна зробити натиснувши кнопку попереднього перегляду або скористайтеся наступними ярликами:",
+        "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку прев'ю або скориставшись наступною комбінацією клавіш:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
