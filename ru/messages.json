@@ -309,6 +309,10 @@
         "message": "Отправить сегменты",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Проверка сегмента",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Закрыть уведомление о пропуске",
         "description": "Keybind label"
