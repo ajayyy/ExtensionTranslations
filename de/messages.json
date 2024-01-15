@@ -309,6 +309,10 @@
         "message": "Segmente einreichen",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Segment Vorschau",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Überspring-Hinweis schließen",
         "description": "Keybind label"
