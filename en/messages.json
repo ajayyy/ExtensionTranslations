@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Extension storage is full. Please delete some unsubmitted segments in the options."
+    },
+    "previewSegmentRequired": {
+        "message": "Please preview your segments before submitting. You can do this by clicking the preview button or using the following shortcut:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
