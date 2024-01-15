@@ -309,6 +309,10 @@
         "message": "Kısımları gönder",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Kısmı ön izle",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Atlama bildirimini kapat",
         "description": "Keybind label"
