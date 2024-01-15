@@ -309,6 +309,10 @@
         "message": "Lähetä osiot",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Osion esikatselu",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Sulje ohitus-ilmoitus",
         "description": "Keybind label"
