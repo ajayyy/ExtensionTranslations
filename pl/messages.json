@@ -309,6 +309,10 @@
         "message": "Prześlij segmenty",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Podgląd segmentu",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Zamknij powiadomienie o pominięciu",
         "description": "Keybind label"
