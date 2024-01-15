@@ -309,6 +309,10 @@
         "message": "Enviar segmentos",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Pré-visualizar segmento",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Fecha notificação de salto",
         "description": "Keybind label"
