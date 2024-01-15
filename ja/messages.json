@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
+    },
+    "previewSegmentRequired": {
+        "message": "提出のまえにセグメントを確認してください。確認ボタンをクリックするか，次のショートカットで確認できます: ",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
