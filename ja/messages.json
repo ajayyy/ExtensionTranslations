@@ -310,7 +310,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "セグメントを確かめる",
+        "message": "セグメントをプレビュー",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
