@@ -310,7 +310,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Проверка сегмента",
+        "message": "Предпросмотр сегмента",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
