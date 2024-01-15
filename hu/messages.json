@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "A bővítmény tárhelye megtelt. Kérlek, törölj néhány beküldetlen szegmenst a beállításokban."
+    },
+    "previewSegmentRequired": {
+        "message": "Kérlek, ellenőrizd a szegmenseidet beküldés előtt. Ezt az Előnézet gomb segítségével teheted meg, vagy ide kattintva:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
