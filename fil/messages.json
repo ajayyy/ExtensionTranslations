@@ -19,6 +19,12 @@
     "Segments": {
         "message": "segments"
     },
+    "SegmentsCap": {
+        "message": "Mga segments"
+    },
+    "Chapters": {
+        "message": "Mga chapters"
+    },
     "upvoteButtonInfo": {
         "message": "I-upvote ang submission na ito"
     },
@@ -32,7 +38,7 @@
         "message": "I-dismiss"
     },
     "Loading": {
-        "message": "Loading..."
+        "message": "Naglo-load..."
     },
     "Hide": {
         "message": "Hindi ipakita"
@@ -94,6 +100,9 @@
     "connectionError": {
         "message": "Nagkaroon ng error sa koneksyon. Error code: "
     },
+    "segmentsStillLoading": {
+        "message": "Naglo-load pa ang segment..."
+    },
     "clearTimes": {
         "message": "I-clear ang mga segments"
     },
@@ -103,10 +112,131 @@
     "closePopup": {
         "message": "Isara ang Popup"
     },
+    "sortSegments": {
+        "message": "I-sort yung segments"
+    },
     "submitCheck": {
         "message": "Sigurado ka bang gusto mong isumite ito?"
     },
     "whitelistChannel": {
         "message": "I-whitelist itong channel"
+    },
+    "removeFromWhitelist": {
+        "message": "Tanggalin yung channel sa whitelist"
+    },
+    "Submissions": {
+        "message": "Mga submissions"
+    },
+    "savedPeopleFrom": {
+        "message": "Nai-save mo ang mga tao mula sa "
+    },
+    "viewLeaderboard": {
+        "message": "Mga leaderboard"
+    },
+    "recordTimesDescription": {
+        "message": "I-submit"
+    },
+    "copyPublicID": {
+        "message": "I-kopiya ng publikong UserID"
+    },
+    "hideThis": {
+        "message": "Itago ito"
+    },
+    "setSkipShortcut": {
+        "message": "I-skip yung segment",
+        "description": "Keybind label"
+    },
+    "skip_category": {
+        "message": "I-skip yung {0}?"
+    },
+    "skip_to_category": {
+        "message": "I-skip sa {0}?",
+        "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "skipped_to_category": {
+        "message": "Na I-skip sa {0}",
+        "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "save": {
+        "message": "I-save"
+    },
+    "reset": {
+        "message": "I-reset"
+    },
+    "mobileUpdateInfo": {
+        "message": "May support sa m.youtube.com"
+    },
+    "exportOptionsCopy": {
+        "message": "I-edit/kopiya"
+    },
+    "exportOptionsDownload": {
+        "message": "I-save sa file"
+    },
+    "incorrectlyFormattedOptions": {
+        "message": "Ang JSON ay hindi na-format nang maayos. Hindi nagbago ang iyong options."
+    },
+    "submit": {
+        "message": "I-submit"
+    },
+    "edit": {
+        "message": "I-edIt"
+    },
+    "CopiedExclamation": {
+        "message": "Nakopya!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
+    "category_selfpromo_guideline1": {
+        "message": "Mga donasyon, membership, at custom merch"
+    },
+    "autoSkip": {
+        "message": "I-auto skip"
+    },
+    "bracketNow": {
+        "message": "(Ngayon)"
+    },
+    "readTheGuidelines": {
+        "message": "Basain mo yung Guidelines muna!!",
+        "description": "Show the first time they submit or if they are \"high risk\""
+    },
+    "fullVideoTooltipWarning": {
+        "message": "Ang laki yung segment ito. Kung ang buong video ay tungkol sa isang paksa, pagkatapos ay baguhin mula sa \"I-skip\" patungo sa \"Buong Video\". Tingnan ang mga guidelines para sa higit pang impormasyon."
+    },
+    "helpPageThanksForInstalling": {
+        "message": "Salamat sa pag-iinstall ng SponsorBlock."
+    },
+    "hideSegment": {
+        "message": "Itago itong segment"
+    },
+    "skipSegment": {
+        "message": "I-skip itong segment"
+    },
+    "playChapter": {
+        "message": "I-play na chapter"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Kasalukuyan kang mayroong {0} sa {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "videosPlural": {
+        "message": "ng mga videos",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "I-clear lahat ng segments",
+        "description": "Label for a button in settings"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Itago ng mga segments",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "shouldCleanEmojis": {
+        "message": "I-tangal ng mga emojis"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Tingnan din ang DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "requiresUblock": {
+        "message": "I-require ng uBlock Origin"
     }
 }
