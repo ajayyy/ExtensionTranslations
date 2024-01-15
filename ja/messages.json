@@ -309,6 +309,10 @@
         "message": "セグメントの登録",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "セグメントを確かめる",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "スキップの通知を閉じる",
         "description": "Keybind label"
