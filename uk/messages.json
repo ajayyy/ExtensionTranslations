@@ -310,7 +310,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Прев'ю сегмента",
+        "message": "Передогляд сегменту",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -692,7 +692,7 @@
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
     "category_preview": {
-        "message": "Прев'ю/Підсумок/Зачіпка",
+        "message": "Передогляд/Підсумок/Зачіпка",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1712,7 +1712,7 @@
         "message": "Сховище розширень повне. Будь ласка, видаліть деякі невідіслані сегменти у опціях."
     },
     "previewSegmentRequired": {
-        "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку прев'ю або скориставшись наступною комбінацією клавіш:",
+        "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку передогляд або скориставшись наступною комбінацією клавіш:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
