@@ -309,6 +309,10 @@
         "message": "Подношење сегмената",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Преглед сегмента",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Затварање обавештења о прескакању",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Чувај поднесене гласове"
     },
+    "showLiveCover": {
+        "message": "Прикажи аватар канала на предстојећим видео снимцима",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Никад не користи A/B тестиране сличице"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Меморија додатка је пуна. Избришите неке неподнесене сегменте у опцијама."
+    },
+    "previewSegmentRequired": {
+        "message": "Прегледајте своје сегменте пре слања. То можете учинити кликом на дугме „Прегледај” или коришћењем следеће пречице:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

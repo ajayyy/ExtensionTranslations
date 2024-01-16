@@ -309,6 +309,10 @@
         "message": "Prześlij segmenty",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Podgląd segmentu",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Zamknij powiadomienie o pominięciu",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Zapisz przesłane głosy"
     },
+    "showLiveCover": {
+        "message": "Pokaż awatar kanału na ekranie następnych filmów",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Nigdy nie używaj miniatur testowanych metodą A/B"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Pamięć rozszerzenia jest przepełniona. Aby zwolnić miejsce, wyczyść nieprzesłane segmenty w ustawieniach."
+    },
+    "previewSegmentRequired": {
+        "message": "Proszę sprawdź swoje segmenty przed przesłaniem. Można to zrobić korzystając z przycisku podglądu lub z następującego skrótu:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

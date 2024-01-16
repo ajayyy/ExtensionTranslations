@@ -309,6 +309,10 @@
         "message": "Szegmensek beküldése",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Szegmens előnézete",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Átugrási értesítő bezárása",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Beküldött szavazatok tárolása"
     },
+    "showLiveCover": {
+        "message": "Csatorna avatár mutatása a következő videókon",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Soha ne használjon A/B tesztben résztvevő indexképeket"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "A bővítmény tárhelye megtelt. Kérlek, törölj néhány beküldetlen szegmenst a beállításokban."
+    },
+    "previewSegmentRequired": {
+        "message": "Kérlek, ellenőrizd a szegmenseidet beküldés előtt. Ezt az Előnézet gomb segítségével teheted meg, vagy ide kattintva:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

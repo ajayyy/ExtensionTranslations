@@ -309,6 +309,10 @@
         "message": "セグメントの登録",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "セグメントをプレビュー",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "スキップの通知を閉じる",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "送信済みの投票を保存"
     },
+    "showLiveCover": {
+        "message": "今後の動画でチャンネルアイコンを表示する",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "比較試験用サムネイルを用いない"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
+    },
+    "previewSegmentRequired": {
+        "message": "提出のまえにセグメントを確認してください。確認ボタンをクリックするか，次のショートカットで確認できます: ",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

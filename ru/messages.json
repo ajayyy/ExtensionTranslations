@@ -309,6 +309,10 @@
         "message": "Отправить сегменты",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Предпросмотр сегмента",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Закрыть уведомление о пропуске",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Хранить отправленные оценки"
     },
+    "showLiveCover": {
+        "message": "Показывать аватарку канала на последующих видео",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Никогда не использовать значки, проверенные A/B тестами"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Хранилище расширения заполнено. Пожалуйста, удалите несколько неотправленных сегментов в настройках."
+    },
+    "previewSegmentRequired": {
+        "message": "Проверьте выделенные сегменты перед отправкой. Это можно сделать при помощи кнопки «Предпросмотр» или по нажатию сочетания клавиш:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

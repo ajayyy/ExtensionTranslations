@@ -309,6 +309,10 @@
         "message": "Надіслати сегменти",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Прев'ю сегмента",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Закрити сповіщення про пропуск",
         "description": "Keybind label"
@@ -667,7 +671,7 @@
         "message": "Пауза/заставка"
     },
     "category_intro_description": {
-        "message": "Частина відео без значимого контенту. Може бути паузою, статичним кадром, що повторюється анімацією. Це не повинно використовуватися для переходів, що містять інформацію."
+        "message": "Частина відео без значущого контенту. Може бути паузою, статичним кадром, повторюваною анімацією. Це не слід використовувати для переходів, що містять інформацію."
     },
     "category_intro_short": {
         "message": "Заставка"
@@ -688,7 +692,7 @@
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
     "category_preview": {
-        "message": "Прев'ю/короткий зміст/зав'язка\nor\nПрев'ю/короткий зміст/зачіпка\nor\nПрев'ю/резюме/зав'язка\nor\nПрев'ю/підсумок/зав'язка\n\nMore appropriate in meaning: зав'язка than зачіпка",
+        "message": "Прев'ю/Підсумок/Зачіпка",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -707,7 +711,7 @@
         "message": "Дотичне наповнення/Жарти"
     },
     "category_filler_description": {
-        "message": "Дотичні сцени додані лише для наповнення або гумору, які не потрібні для розуміння основного вмісту відео. Це не повинно включати сегменти, що надають контекст або передісторію\". Це дуже агресивна категорія, призначена для випадків, коли ви не в настрої «розважатися»."
+        "message": "Дотичні сцени додані лише для наповнення або гумору, які не потрібні для розуміння основного вмісту відео. Це не повинно включати сегменти, що надають контекст або передісторію. Це дуже агресивна категорія, призначена для випадків, коли ви не в настрої «розважатися»."
     },
     "category_filler_short": {
         "message": "Наповнення"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Зберігати надіслані голоси"
     },
+    "showLiveCover": {
+        "message": "Показувати аватар каналу на майбутніх відео",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Ніколи не використовувати A/B ескізи"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Сховище розширень повне. Будь ласка, видаліть деякі невідіслані сегменти у опціях."
+    },
+    "previewSegmentRequired": {
+        "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку прев'ю або скориставшись наступною комбінацією клавіш:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

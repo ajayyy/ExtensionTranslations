@@ -309,6 +309,10 @@
         "message": "Skicka in segment",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Förhandsgranska segment",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Stäng överhoppningsmeddelande",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Lagra inskickade röster"
     },
+    "showLiveCover": {
+        "message": "Visa kanalavatar på kommande videor",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Använd aldrig A/B-testade miniatyrbilder"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Tilläggslagringen är full. Ta bort några oinskickade segment i alternativen."
+    },
+    "previewSegmentRequired": {
+        "message": "Förhandsgranska dina segment innan du skickar in dem. Du kan göra detta genom att klicka på förhandsgranskningsknappen eller använda följande genväg:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

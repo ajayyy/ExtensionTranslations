@@ -309,6 +309,10 @@
         "message": "Lähetä osiot",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Osion esikatselu",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Sulje ohitus-ilmoitus",
         "description": "Keybind label"
@@ -1374,6 +1378,10 @@
     },
     "keepUnsubmitted": {
         "message": "Talleta lähetetyt äänet"
+    },
+    "showLiveCover": {
+        "message": "Näytä kanavan kuvake tulevissa videoissa",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
         "message": "Älä käytä A/B-testattuja pienoiskuvia koskaan"

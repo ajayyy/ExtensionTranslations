@@ -309,6 +309,10 @@
         "message": "Kısımları gönder",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Kısmı ön izle",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Atlama bildirimini kapat",
         "description": "Keybind label"
@@ -688,7 +692,7 @@
         "message": "Bitiş kartları ekranda olsa bile içerik eklemeyin"
     },
     "category_preview": {
-        "message": "Ön İzleme/Özet/Anlatı Kancası",
+        "message": "Çıkacak Klipler/Özet/İma",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1374,6 +1378,10 @@
     },
     "keepUnsubmitted": {
         "message": "Sunulan oyları sakla"
+    },
+    "showLiveCover": {
+        "message": "Gelecek Videolarda Kanal Avatarını Göster",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
         "message": "Küçük Resimlerin A/B Testini Bastır"
