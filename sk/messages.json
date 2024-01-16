@@ -1499,5 +1499,9 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
+    },
+    "previewSegmentRequired": {
+        "message": "Skontrolujte si segmenty pred odoslaním. Môžete tak spraviť kliknutím na tlačidlo Náhľad alebo použite tento odkaz:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
