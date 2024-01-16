@@ -1379,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Almacenar votos enviados"
     },
+    "showLiveCover": {
+        "message": "Mostrar avatar del Canal en los próximos videos",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Nunca utilice miniaturas en prueba A/B"
     },
