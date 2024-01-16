@@ -309,6 +309,10 @@
         "message": "구간 제출",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "구간 미리보기",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "건너뛰기 알림 닫기",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "제출된 투표 저장"
     },
+    "showLiveCover": {
+        "message": "다음 동영상에 채널 아바타 표시",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "A/B 테스트 중인 미리 보기 이미지 배제"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "확장 프로그램 저장공간이 가득 찼어요. 설정에서 미제출한 구간을 삭제해 주세요."
+    },
+    "previewSegmentRequired": {
+        "message": "제출하기 전에 구간을 미리 확인해주세요. 미리보기 버튼이나 단축키를 눌러 확인할 수 있어요. 단축키:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
