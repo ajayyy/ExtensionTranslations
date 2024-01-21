@@ -314,7 +314,7 @@
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Überspring-Hinweis schließen",
+        "message": "Überspringen-Hinweis schließen",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1345,10 +1345,10 @@
         "message": "Emojis entfernen"
     },
     "onlyTitleCaseInEnglish": {
-        "message": "Wörter für nicht-englische Titel groß schreiben"
+        "message": "Wörter für nicht-englische Titel großschreiben"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "Spracherkennung ist nicht perfekt und kann einige Englische Titel als nicht-englisch erkennen."
+        "message": "Spracherkennung ist nicht perfekt und erkennt einige englische Titel als nicht-englisch."
     },
     "thumbnailFallbackOption": {
         "message": "Wenn kein Thumbnail eingereicht wurde"
@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
+    },
+    "previewSegmentRequired": {
+        "message": "Sieh dir bitte eine Vorschau deiner Segmente an, bevor du sie einreichst. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

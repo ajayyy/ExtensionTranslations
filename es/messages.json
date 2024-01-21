@@ -309,6 +309,10 @@
         "message": "Enviar segmentos",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Previsualizar segmento",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Cerrar aviso de salto",
         "description": "Keybind label"
@@ -1375,6 +1379,10 @@
     "keepUnsubmitted": {
         "message": "Almacenar votos enviados"
     },
+    "showLiveCover": {
+        "message": "Mostrar avatar del Canal en los próximos videos",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Nunca utilice miniaturas en prueba A/B"
     },
@@ -1702,5 +1710,9 @@
     },
     "storageFull": {
         "message": "El almacenamiento de la extensión está lleno. Por favor, elimine algunos segmentos no enviados en las opciones."
+    },
+    "previewSegmentRequired": {
+        "message": "Por favor previsualice sus segmentos antes de enviarlo. Puede hacerlo haciendo clic en el botón de vista previa o utilizando el siguiente acceso directo:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

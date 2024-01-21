@@ -309,6 +309,10 @@
         "message": "Изпращане на сегментите",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Преглед на сегмента",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Затваряне на уведомлението за пропускане",
         "description": "Keybind label"
@@ -1706,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Мястото за съхранение на разширението е пълно. Моля, изтрийте някои неподадени сегменти в опциите."
+    },
+    "previewSegmentRequired": {
+        "message": "Моля, прегледайте сегментите си, преди да ги изпратите. Можете да направите това, като кликнете върху бутона за преглед или като използвате следния пряк път:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
