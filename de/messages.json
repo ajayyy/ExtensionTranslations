@@ -1712,7 +1712,7 @@
         "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
     },
     "previewSegmentRequired": {
-        "message": "Sieh dir bitte eine Vorschau deiner Segmente an, bevor du sie einreichst. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
+        "message": "Bitte sieh dir deine Segmente vor dem Absenden an. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }

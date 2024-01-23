@@ -1710,5 +1710,9 @@
     },
     "storageFull": {
         "message": "Laajennuksen tallennustila on täynnä. Poista joitakin lähettämättömiä osioita asetuksista."
+    },
+    "previewSegmentRequired": {
+        "message": "Esikatselethan osiosi ennen sen lähettämistä. Paina esikatsele painiketta tai käytä pikanäppäintä:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
