@@ -1711,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "Please preview your segments before submitting. You can do this by clicking the preview button or using the following shortcut:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Act as VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
