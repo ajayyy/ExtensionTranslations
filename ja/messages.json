@@ -1709,11 +1709,11 @@
         "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
     },
     "previewSegmentRequired": {
-        "message": "提出のまえにセグメントを確認してください。確認ボタンをクリックするか，次のショートカットで確認できます: ",
+        "message": "送信前にセグメントを確認してください。プレビューボタンをクリックするか、次のショートカットから確認できます:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
-        "message": "有料会員として投稿する",
+        "message": "VIPとして振る舞う",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
