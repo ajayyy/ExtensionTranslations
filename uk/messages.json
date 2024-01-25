@@ -1711,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку передогляд або скориставшись наступною комбінацією клавіш:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Діяти як VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
