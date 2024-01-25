@@ -1707,5 +1707,13 @@
     },
     "storageFull": {
         "message": "Depolama dolu. Gönderilmemiş kimi kısımları silmeyi deneyin."
+    },
+    "previewSegmentRequired": {
+        "message": "Hazırladığınız kısımları göndermeden önce gözden geçirin. Bunun için ön izleme düğmesini veya şu kısayolu kullanabilirsiniz:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "VIP gibi davran",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
