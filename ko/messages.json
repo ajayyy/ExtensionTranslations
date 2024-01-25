@@ -1711,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "제출하기 전에 구간을 미리 확인해주세요. 미리보기 버튼이나 단축키를 눌러 확인할 수 있어요. 단축키:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "VIP 모드",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
