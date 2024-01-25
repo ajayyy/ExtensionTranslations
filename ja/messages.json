@@ -1711,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "提出のまえにセグメントを確認してください。確認ボタンをクリックするか，次のショートカットで確認できます: ",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "有料会員として投稿する",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
