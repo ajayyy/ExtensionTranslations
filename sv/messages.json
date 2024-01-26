@@ -1295,9 +1295,6 @@
     "resetIcon": {
         "message": "Återställ ikon"
     },
-    "Vote": {
-        "message": "Rösta"
-    },
     "TypeYourOwnTitleHere": {
         "message": "Skriv din egen titel här"
     },
@@ -1714,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "Förhandsgranska dina segment innan du skickar in dem. Du kan göra detta genom att klicka på förhandsgranskningsknappen eller använda följande genväg:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Agera som VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }

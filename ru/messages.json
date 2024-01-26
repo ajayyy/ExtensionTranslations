@@ -1295,9 +1295,6 @@
     "resetIcon": {
         "message": "Сбросить значок"
     },
-    "Vote": {
-        "message": "Проголосовать"
-    },
     "TypeYourOwnTitleHere": {
         "message": "Введите ваше название здесь"
     },
@@ -1714,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "Проверьте выделенные сегменты перед отправкой. Это можно сделать при помощи кнопки «Предпросмотр» или по нажатию сочетания клавиш:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Действовать как VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }

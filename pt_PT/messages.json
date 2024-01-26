@@ -1291,9 +1291,6 @@
     "resetIcon": {
         "message": "Redefinir ícone"
     },
-    "Vote": {
-        "message": "Votar"
-    },
     "TypeYourOwnTitleHere": {
         "message": "Digite um título melhor"
     },
@@ -1710,5 +1707,9 @@
     "previewSegmentRequired": {
         "message": "Pré-visualize os seus segmentos antes de submeter. Pode fazer isto ao clicar no botão pré-visualizar ou usando o seguinte atalho:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Aja como VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
