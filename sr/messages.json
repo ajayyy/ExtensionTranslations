@@ -1711,5 +1711,9 @@
     "previewSegmentRequired": {
         "message": "Прегледајте своје сегменте пре слања. То можете учинити кликом на дугме „Прегледај” или коришћењем следеће пречице:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Понашај се као VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
