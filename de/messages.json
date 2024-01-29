@@ -1709,7 +1709,11 @@
         "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
     },
     "previewSegmentRequired": {
-        "message": "Bitte sieh dir deine Segmente vor dem Absenden an. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
+        "message": "Bitte überprüfe deine Segmente vor dem Absenden. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Als VIP handeln",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
