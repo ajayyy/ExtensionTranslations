@@ -124,6 +124,9 @@
     "removeFromWhitelist": {
         "message": "Tanggalin yung channel sa whitelist"
     },
+    "voteOnTime": {
+        "message": "I-boto ang mga Segment"
+    },
     "Submissions": {
         "message": "Mga submissions"
     },
@@ -136,18 +139,38 @@
     "recordTimesDescription": {
         "message": "I-submit"
     },
+    "Username": {
+        "message": "Username"
+    },
     "copyPublicID": {
         "message": "I-kopiya ng publikong UserID"
     },
     "hideThis": {
         "message": "Itago ito"
     },
+    "website": {
+        "message": "Website",
+        "description": "Used on Firefox Store Page"
+    },
+    "sourceCode": {
+        "message": "Ang Source Code",
+        "description": "Used on Firefox Store Page"
+    },
     "setSkipShortcut": {
         "message": "I-skip yung segment",
         "description": "Keybind label"
     },
+    "skip": {
+        "message": "I-skip"
+    },
+    "mute": {
+        "message": "I-mute"
+    },
     "skip_category": {
         "message": "I-skip yung {0}?"
+    },
+    "mute_category": {
+        "message": "I-mute {0}?"
     },
     "skip_to_category": {
         "message": "I-skip sa {0}?",
@@ -181,6 +204,10 @@
     "edit": {
         "message": "I-edIt"
     },
+    "to": {
+        "message": "sa",
+        "description": "Used between segments. Example: 1:20 to 1:30"
+    },
     "CopiedExclamation": {
         "message": "Nakopya!",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
@@ -188,18 +215,49 @@
     "category_selfpromo_guideline1": {
         "message": "Mga donasyon, membership, at custom merch"
     },
+    "category_exclusive_access": {
+        "message": "Exclusive Access"
+    },
+    "category_exclusive_access_description": {
+        "message": "Para lang sa pag-label ng buong video. Ginagamit kapag ang isang video ay nagpapakita ng isang produkto, serbisyo, o lokasyon na natanggap nila nang libre o may suportang pinansyal."
+    },
+    "category_interaction": {
+        "message": "Paalala sa interaksyon (Subscribe)"
+    },
+    "category_interaction_description": {
+        "message": "Kapag may paalala na mag-like, mag-subscribe o sundan sila sa gitna ng content. Kung ito ay mahaba o tungkol sa isang partikular na bagay, dapat itong lagyan ng label sa ilalim ng \"sariling promosyon\" sa halip."
+    },
+    "category_chapter": {
+        "message": "Mga chapters"
+    },
     "autoSkip": {
         "message": "I-auto skip"
     },
+    "category": {
+        "message": "Kategorya"
+    },
     "bracketNow": {
         "message": "(Ngayon)"
+    },
+    "chooseACategory": {
+        "message": "Pumili ng kategorya"
     },
     "readTheGuidelines": {
         "message": "Basain mo yung Guidelines muna!!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
+    "help": {
+        "message": "Tulong"
+    },
+    "GotIt": {
+        "message": "Okay",
+        "description": "Used as the button to dismiss a tooltip"
+    },
     "fullVideoTooltipWarning": {
         "message": "Ang laki yung segment ito. Kung ang buong video ay tungkol sa isang paksa, pagkatapos ay baguhin mula sa \"I-skip\" patungo sa \"Buong Video\". Tingnan ang mga guidelines para sa higit pang impormasyon."
+    },
+    "Donate": {
+        "message": "Mag-donate"
     },
     "helpPageThanksForInstalling": {
         "message": "Salamat sa pag-iinstall ng SponsorBlock."
@@ -212,6 +270,12 @@
     },
     "playChapter": {
         "message": "I-play na chapter"
+    },
+    "chooseACountry": {
+        "message": "Pumili ng bansa"
+    },
+    "selectYourCountry": {
+        "message": "Piliin ang iyong bansa"
     },
     "unsubmittedSegmentCounts": {
         "message": "Kasalukuyan kang mayroong {0} sa {1}",
