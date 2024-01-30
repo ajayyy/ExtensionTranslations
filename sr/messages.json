@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Сакриј савете о новим функцијама"
     },
-    "chooseACountry": {
-        "message": "Избор државе"
-    },
-    "noDiscount": {
-        "message": "Не испуњавате услове за попуст"
-    },
-    "discountLink": {
-        "message": "Линк за попуст (погледајте розе цену)"
-    },
-    "selectYourCountry": {
-        "message": "Изабери своју државу"
-    },
-    "cantAfford": {
-        "message": "Ако не можете да приуштите куповину лиценце, кликните {овде} да бисте видели да ли испуњавате услове за попуст",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Пријава помоћу Patreon-а"
-    },
     "redeem": {
         "message": "Искористи"
-    },
-    "joinOnPatreon": {
-        "message": "Претплата на Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Једнократна куповина"
     },
     "enterLicenseKey": {
         "message": "Унесите кључ лиценце"
