@@ -1128,33 +1128,8 @@
     "hideUpsells": {
         "message": "Opties verbergen die niet beschikbaar zijn zonder extra betaling"
     },
-    "chooseACountry": {
-        "message": "Land kiezen"
-    },
-    "noDiscount": {
-        "message": "U komt niet in aanmerking voor een korting"
-    },
-    "discountLink": {
-        "message": "Kortingslink (zie de roze prijs)"
-    },
-    "selectYourCountry": {
-        "message": "Selecteer uw land"
-    },
-    "cantAfford": {
-        "message": "Als u het zich niet kunt veroorloven om een licentie aan te schaffen, klik dan {hier} om te zien of u in aanmerking komt voor een korting",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Aanmelden met Patreon"
-    },
     "redeem": {
         "message": "Inwisselen"
-    },
-    "joinOnPatreon": {
-        "message": "Abonneren op Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Eenmalige aankoop"
     },
     "enterLicenseKey": {
         "message": "Licentiesleutel invoeren"
