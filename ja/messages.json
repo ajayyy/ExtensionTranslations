@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "新機能に関する案内を非表示"
     },
-    "chooseACountry": {
-        "message": "国を選択"
-    },
-    "noDiscount": {
-        "message": "割引の資格を満たしていません"
-    },
-    "discountLink": {
-        "message": "割引リンク (ピンク色の価格を参照)"
-    },
-    "selectYourCountry": {
-        "message": "国を選択してください"
-    },
-    "cantAfford": {
-        "message": "ライセンスを購入する余裕がない方は、{こちら} をクリックして割引が適用されるかどうか確認できます",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Patreonでサインイン"
-    },
     "redeem": {
         "message": "適用する"
-    },
-    "joinOnPatreon": {
-        "message": "Patreonで購読する"
-    },
-    "oneTimePurchase": {
-        "message": "買い切り購入"
     },
     "enterLicenseKey": {
         "message": "ライセンスキーを入力"
