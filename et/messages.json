@@ -1135,33 +1135,8 @@
     "hideUpsells": {
         "message": "Peida valikud, mis on saadaval vaid lisatasu eest"
     },
-    "chooseACountry": {
-        "message": "Vali riik"
-    },
-    "noDiscount": {
-        "message": "Sa ei kvalifitseeru allahindluse saamiseks"
-    },
-    "discountLink": {
-        "message": "Soodushinna link (vaata roosat hinda)"
-    },
-    "selectYourCountry": {
-        "message": "Vali oma riik"
-    },
-    "cantAfford": {
-        "message": "Kui litsentsi ostmine ei ole jõukohane, klõpsa {here}, et näha kas kvalifitseerud allahindluse saamisele",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Logi Patreoniga sisse"
-    },
     "redeem": {
         "message": "Lunasta"
-    },
-    "joinOnPatreon": {
-        "message": "Telli Patreonis"
-    },
-    "oneTimePurchase": {
-        "message": "Ühekordne ost"
     },
     "enterLicenseKey": {
         "message": "Sisesta litsentsivõti"
