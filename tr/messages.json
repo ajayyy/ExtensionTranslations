@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Yeni güncellemeler hakkında mesajları gizle"
     },
-    "chooseACountry": {
-        "message": "Bir ülke seçiniz"
-    },
-    "noDiscount": {
-        "message": "İndirim için uygun değilsiniz"
-    },
-    "discountLink": {
-        "message": "İndirim Bağlantısı (Pembe fiyatı gör)"
-    },
-    "selectYourCountry": {
-        "message": "Ülkenizi seçin"
-    },
-    "cantAfford": {
-        "message": "Lisans satın almaya gücünüz yetmiyorsa, indirim almaya uygun olup olmadığınızı görmek için {here} tıklayın",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Patreon ile giriş yap"
-    },
     "redeem": {
         "message": "Kullan"
-    },
-    "joinOnPatreon": {
-        "message": "Patreon'da Destekle"
-    },
-    "oneTimePurchase": {
-        "message": "Tek seferlik satın alım"
     },
     "enterLicenseKey": {
         "message": "Lisans Anahtarını Girin"
