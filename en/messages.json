@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Hide prompts about new features"
     },
-    "chooseACountry": {
-        "message": "Choose a country"
-    },
-    "noDiscount": {
-        "message": "You do not qualify for a discount"
-    },
-    "discountLink": {
-        "message": "Discount Link (See the pink price)"
-    },
-    "selectYourCountry": {
-        "message": "Select your country"
-    },
-    "cantAfford": {
-        "message": "If you can't afford to purchase a license, click {here} to see if you are eligible for a discount",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Sign in with Patreon"
-    },
     "redeem": {
         "message": "Redeem"
-    },
-    "joinOnPatreon": {
-        "message": "Subscribe on Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "One Time Purchase"
     },
     "enterLicenseKey": {
         "message": "Enter License Key"
