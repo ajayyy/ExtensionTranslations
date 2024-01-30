@@ -1118,33 +1118,8 @@
     "hideUpsells": {
         "message": "Sembunyikan pilihan tidak tersedia tanpa pembayaran tambahan"
     },
-    "chooseACountry": {
-        "message": "Pilih negara"
-    },
-    "noDiscount": {
-        "message": "Anda tidak layak untuk diskaun"
-    },
-    "discountLink": {
-        "message": "Pautan Diskaun (Lihat harga pink)"
-    },
-    "selectYourCountry": {
-        "message": "Pilih negara anda"
-    },
-    "cantAfford": {
-        "message": "Jika anda tidak mampu untuk membeli lesen, tekan {sini} untuk melihat sama ada anda layak untuk diskaun",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Daftar masuk dengan Patreon"
-    },
     "redeem": {
         "message": "Tebus"
-    },
-    "joinOnPatreon": {
-        "message": "Langgan di Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Pembelian Sekali"
     },
     "enterLicenseKey": {
         "message": "Masukkan Kunci Lesen"
