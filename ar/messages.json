@@ -1161,33 +1161,8 @@
     "hideNewFeatureUpdates": {
         "message": "إخفاء التنبيهات حول الميزات الجديدة"
     },
-    "chooseACountry": {
-        "message": "اختر البلد"
-    },
-    "noDiscount": {
-        "message": "أنت لست مؤهلاً للحصول على خصم"
-    },
-    "discountLink": {
-        "message": "رابط الخصم (انظر إلى السعر الوردي)"
-    },
-    "selectYourCountry": {
-        "message": "اختر بلدك"
-    },
-    "cantAfford": {
-        "message": "إذا كنت لا تستطيع شراء ترخيص، انقر {here} لمعرفة ما إذا كنت مؤهلاً للحصول على خصم",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "تسجيل الدخول مع باتريون (Patreon)"
-    },
     "redeem": {
         "message": "استبدال"
-    },
-    "joinOnPatreon": {
-        "message": "الاشتراك على باتريون"
-    },
-    "oneTimePurchase": {
-        "message": "شراء لمرة واحدة"
     },
     "enterLicenseKey": {
         "message": "أدخل مفتاح الرّخصة"
