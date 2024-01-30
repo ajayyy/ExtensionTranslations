@@ -1169,33 +1169,8 @@
     "hideNewFeatureUpdates": {
         "message": "隐藏新功能提示"
     },
-    "chooseACountry": {
-        "message": "选择国家/地区"
-    },
-    "noDiscount": {
-        "message": "您无法使用折扣"
-    },
-    "discountLink": {
-        "message": "优惠折扣链接（查看粉色价格）"
-    },
-    "selectYourCountry": {
-        "message": "选择所在国家/地区"
-    },
-    "cantAfford": {
-        "message": "如果您无法负担得起许可证的价格，请点击 {here} 查看您是否有资格获得折扣",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "使用 Patreon 登录"
-    },
     "redeem": {
         "message": "兑换"
-    },
-    "joinOnPatreon": {
-        "message": "在 Patreon 上支持我"
-    },
-    "oneTimePurchase": {
-        "message": "一次性购买"
     },
     "enterLicenseKey": {
         "message": "输入注册码"
