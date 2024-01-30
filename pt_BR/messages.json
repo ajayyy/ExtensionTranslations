@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Ocultar avisos sobre novos recursos"
     },
-    "chooseACountry": {
-        "message": "Escolha um país"
-    },
-    "noDiscount": {
-        "message": "Você não se qualifica para um desconto"
-    },
-    "discountLink": {
-        "message": "Link para desconto (veja o preço rosa)"
-    },
-    "selectYourCountry": {
-        "message": "Selecione o seu país"
-    },
-    "cantAfford": {
-        "message": "Se você não puder comprar uma licença, clique {aqui} para ver se você tem direito a um desconto",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Entrar com Patreon"
-    },
     "redeem": {
         "message": "Resgatar"
-    },
-    "joinOnPatreon": {
-        "message": "Inscreva-se no Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Compra única"
     },
     "enterLicenseKey": {
         "message": "Inserir chave de licença"
