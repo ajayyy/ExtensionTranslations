@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Skrýt informace o nových funkcích"
     },
-    "chooseACountry": {
-        "message": "Vyberte zemi"
-    },
-    "noDiscount": {
-        "message": "Nemáte nárok na slevu"
-    },
-    "discountLink": {
-        "message": "Slevový odkaz (viz růžová cena)"
-    },
-    "selectYourCountry": {
-        "message": "Vyberte vaši zemi"
-    },
-    "cantAfford": {
-        "message": "Pokud si nemůžete dovolit zakoupení licence, klikněte {sem}, abyste zjistili, zda máte nárok na slevu",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Přihlásit se pomocí Patreonu"
-    },
     "redeem": {
         "message": "Uplatnit"
-    },
-    "joinOnPatreon": {
-        "message": "Odebírat na Patreonu"
-    },
-    "oneTimePurchase": {
-        "message": "Jednorázový nákup"
     },
     "enterLicenseKey": {
         "message": "Zadejte licenční klíč"

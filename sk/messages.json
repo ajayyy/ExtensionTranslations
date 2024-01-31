@@ -1141,33 +1141,8 @@
     "hideUpsells": {
         "message": "Skryť platené nastavenia"
     },
-    "chooseACountry": {
-        "message": "Vybrať krajinu"
-    },
-    "noDiscount": {
-        "message": "Nemáte nárok na zľavu"
-    },
-    "discountLink": {
-        "message": "Odkaz na zľavu (ružová cena)"
-    },
-    "selectYourCountry": {
-        "message": "Vyberte krajinu"
-    },
-    "cantAfford": {
-        "message": "Ak si nemôžete dovoliť kúpiť licenciu, kliknite {sem} a zistite, či máte nárok na zľavu",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Prihlásiť sa cez Patreon"
-    },
     "redeem": {
         "message": "Uplatniť"
-    },
-    "joinOnPatreon": {
-        "message": "Kúpte si Patreon predplatné"
-    },
-    "oneTimePurchase": {
-        "message": "Jednorazový nákup"
     },
     "enterLicenseKey": {
         "message": "Zadajte licenčný kľúč"

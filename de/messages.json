@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Verstecke Hinweise über neue Funktionen"
     },
-    "chooseACountry": {
-        "message": "Wähle ein Land"
-    },
-    "noDiscount": {
-        "message": "Du bist nicht für einen Rabatt qualifiziert"
-    },
-    "discountLink": {
-        "message": "Rabatt-Link (Siehe rosa Preis)"
-    },
-    "selectYourCountry": {
-        "message": "Wähle dein Land"
-    },
-    "cantAfford": {
-        "message": "Wenn du dir keine Lizenz leisten kannst, klicke {here} um zu sehen, ob du Anspruch auf einen Rabatt hast",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Mit Patreon anmelden"
-    },
     "redeem": {
         "message": "Einlösen"
-    },
-    "joinOnPatreon": {
-        "message": "Auf Patreon abonnieren"
-    },
-    "oneTimePurchase": {
-        "message": "Einmaliger Kauf"
     },
     "enterLicenseKey": {
         "message": "Lizenzschlüssel eingeben"

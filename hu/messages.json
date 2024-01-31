@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Üzenetek elrejtése új funkciókról"
     },
-    "chooseACountry": {
-        "message": "Válassz országot"
-    },
-    "noDiscount": {
-        "message": "Nem vagy jogosult kedvezményre"
-    },
-    "discountLink": {
-        "message": "Kedvezményes link (A rózsaszín árat figyeld)"
-    },
-    "selectYourCountry": {
-        "message": "Válaszd ki az országodat"
-    },
-    "cantAfford": {
-        "message": "Ha nem engedheted meg magadnak a licenc megvásárlását, kattints {ide}, hogy megtudd, jogosult vagy-e kedvezményre",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Bejelentkezés Patreonnal"
-    },
     "redeem": {
         "message": "Beváltás"
-    },
-    "joinOnPatreon": {
-        "message": "Feliratkozás Patreonon"
-    },
-    "oneTimePurchase": {
-        "message": "Egyszeri vásárlás"
     },
     "enterLicenseKey": {
         "message": "Add meg a licenc kulcsot"

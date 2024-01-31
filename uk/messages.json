@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Приховати підказки про нові функції"
     },
-    "chooseACountry": {
-        "message": "Виберіть країну"
-    },
-    "noDiscount": {
-        "message": "Ви не відповідаєте вимогам на знижку"
-    },
-    "discountLink": {
-        "message": "Посилання на знижку (див. рожеву ціну)"
-    },
-    "selectYourCountry": {
-        "message": "Виберіть вашу країну"
-    },
-    "cantAfford": {
-        "message": "Якщо ви не можете дозволити собі придбати ліцензію, натисніть {тут}, щоб дізнатися, чи маєте ви право на знижку",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Вхід через Patreon"
-    },
     "redeem": {
         "message": "Купон"
-    },
-    "joinOnPatreon": {
-        "message": "Підписатися на Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Разова покупка"
     },
     "enterLicenseKey": {
         "message": "Введіть ліцензійний ключ"

@@ -1158,33 +1158,8 @@
     "hideNewFeatureUpdates": {
         "message": "Skjul tips om nye funktioner"
     },
-    "chooseACountry": {
-        "message": "Vælg et land"
-    },
-    "noDiscount": {
-        "message": "Du kvalificerer dig ikke til en rabat"
-    },
-    "discountLink": {
-        "message": "Rabat Link (Se den lyserøde pris)"
-    },
-    "selectYourCountry": {
-        "message": "Vælg dit land"
-    },
-    "cantAfford": {
-        "message": "Hvis du ikke har råd til at købe en licens, så klik på {here} for at se, om du er berettiget til en rabat",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Log på med Patreon"
-    },
     "redeem": {
         "message": "Indløs"
-    },
-    "joinOnPatreon": {
-        "message": "Abonner på Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Engangskøb"
     },
     "enterLicenseKey": {
         "message": "Indtast Licensnøgle"

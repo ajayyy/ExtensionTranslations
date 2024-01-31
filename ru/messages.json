@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Скрыть подсказки о новых функциях"
     },
-    "chooseACountry": {
-        "message": "Выберите страну"
-    },
-    "noDiscount": {
-        "message": "Вы не подпадаете под условия скидки"
-    },
-    "discountLink": {
-        "message": "Ссылка на скидку (смотрите розовую цену)"
-    },
-    "selectYourCountry": {
-        "message": "Выберите вашу страну"
-    },
-    "cantAfford": {
-        "message": "Если вы не можете позволить себе приобрести лицензию, нажмите {сюда}, чтобы узнать, имеете ли вы право на скидку",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Войти через Patreon"
-    },
     "redeem": {
         "message": "Использовать"
-    },
-    "joinOnPatreon": {
-        "message": "Подписаться на Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Единоразовая покупка"
     },
     "enterLicenseKey": {
         "message": "Введите лицензионный ключ"

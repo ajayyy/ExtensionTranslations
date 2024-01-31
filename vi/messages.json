@@ -1158,33 +1158,8 @@
     "hideNewFeatureUpdates": {
         "message": "Ẩn lời nhắc về các tính năng mới"
     },
-    "chooseACountry": {
-        "message": "Chọn một quốc gia"
-    },
-    "noDiscount": {
-        "message": "Bạn không đủ điều kiện để được giảm giá"
-    },
-    "discountLink": {
-        "message": "Đường liên kết giảm giá (Xem giá màu hồng)"
-    },
-    "selectYourCountry": {
-        "message": "Chọn quốc gia"
-    },
-    "cantAfford": {
-        "message": "Nếu bạn không đủ khả năng mua khoá cấp phép, hãy nhấp vào {đây} để xem bạn có đủ điều kiện được giảm giá hay không",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Đăng nhập bằng Patreon"
-    },
     "redeem": {
         "message": "Đổi"
-    },
-    "joinOnPatreon": {
-        "message": "Đăng ký trên Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Mua một lần"
     },
     "enterLicenseKey": {
         "message": "Nhập mã bản quyền"

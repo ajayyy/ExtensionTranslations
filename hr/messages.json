@@ -879,33 +879,8 @@
     "hideUpsells": {
         "message": "Sakrij opcije koje nisu dostupne bez dodatnog plaćanja"
     },
-    "chooseACountry": {
-        "message": "Odaberi zemlju"
-    },
-    "noDiscount": {
-        "message": "Ne ispunjavaš uvjete za popust"
-    },
-    "discountLink": {
-        "message": "Poveznica za popust (pogledaj ružičastu cijenu)"
-    },
-    "selectYourCountry": {
-        "message": "Odaberi svoju zemlju"
-    },
-    "cantAfford": {
-        "message": "Ako si ne možeš priuštiti kupnju licence, pritisni {here} da vidiš imaš li pravo na popust",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Prijavi se putem Patreona"
-    },
     "redeem": {
         "message": "Iskoristi kupon"
-    },
-    "joinOnPatreon": {
-        "message": "Pretplati se na Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Jednokratna kupnja"
     },
     "enterLicenseKey": {
         "message": "Upiši licencni ključ"

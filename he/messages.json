@@ -679,33 +679,8 @@
     "hideUpsells": {
         "message": "הסתרת אפשרויות שאינן זמינות ללא תשלום נוסף"
     },
-    "chooseACountry": {
-        "message": "בחירת מדינה"
-    },
-    "noDiscount": {
-        "message": "לא נמצאה זכאות להנחה"
-    },
-    "discountLink": {
-        "message": "קישור להנחה (ראה מחיר ורוד)"
-    },
-    "selectYourCountry": {
-        "message": "בחירת מדינתך"
-    },
-    "cantAfford": {
-        "message": "אם אינך יכול להרשות לעצמך לרכוש רישיון, יש ללחוץ {here} כדי לראות אם קיימת זכאות להנחה",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "כניסה באמצעות Patreon"
-    },
     "redeem": {
         "message": "מימוש"
-    },
-    "joinOnPatreon": {
-        "message": "מינוי באמצעות Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "רכישה חד פעמית"
     },
     "enterLicenseKey": {
         "message": "הזנת מפתח רישיון"

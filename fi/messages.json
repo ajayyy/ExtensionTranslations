@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "Piilota ilmoitukset uusista ominaisuuksista"
     },
-    "chooseACountry": {
-        "message": "Valitse maa"
-    },
-    "noDiscount": {
-        "message": "Et ole oikeutettu alennukseen"
-    },
-    "discountLink": {
-        "message": "Alennuslinkki (ks. pinkki hinta)"
-    },
-    "selectYourCountry": {
-        "message": "Valitse maasi"
-    },
-    "cantAfford": {
-        "message": "Jos sinulla ei ole varaa lisenssiin, paina {tästä} nähdäksesi oletko oikeutettu alennukseen",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Kirjaudu sisään Patreonilla"
-    },
     "redeem": {
         "message": "Lunasta"
-    },
-    "joinOnPatreon": {
-        "message": "Tilaa Patreonissa"
-    },
-    "oneTimePurchase": {
-        "message": "Kertaluontoinen osto"
     },
     "enterLicenseKey": {
         "message": "Syötä lisenssiavain"

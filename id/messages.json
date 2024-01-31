@@ -1155,33 +1155,8 @@
     "hideUpsells": {
         "message": "Sembunyikan opsi yang tidak tersedia tanpa pembayaran tambahan"
     },
-    "chooseACountry": {
-        "message": "Pilih negara"
-    },
-    "noDiscount": {
-        "message": "Anda tidak memenuhi syarat untuk mendapatkan diskon"
-    },
-    "discountLink": {
-        "message": "Tautan Diskon (Lihat harga pink)"
-    },
-    "selectYourCountry": {
-        "message": "Pilih negaramu"
-    },
-    "cantAfford": {
-        "message": "Jika Anda tidak mampu membeli lisensi, klik {here} untuk melihat jika Anda memenuhi syarat untuk mendapatkan diskon",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Masuk dengan Patreon"
-    },
     "redeem": {
         "message": "Tukar"
-    },
-    "joinOnPatreon": {
-        "message": "Gabung di Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Pembelian satu kali"
     },
     "enterLicenseKey": {
         "message": "Masukkan Kode Lisensi"

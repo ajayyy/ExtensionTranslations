@@ -1173,33 +1173,8 @@
     "hideNewFeatureUpdates": {
         "message": "새로운 기능에 관한 프롬프트 숨기기"
     },
-    "chooseACountry": {
-        "message": "국가 선택"
-    },
-    "noDiscount": {
-        "message": "할인 조건에 해당하시지 않아요"
-    },
-    "discountLink": {
-        "message": "할인 링크 (분홍색 가격 확인)"
-    },
-    "selectYourCountry": {
-        "message": "국가를 선택하세요"
-    },
-    "cantAfford": {
-        "message": "요금을 결제할 여력이 아니시라면, {여기}서 할인 혜택을 받을 수 있는지 확인해 보세요",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Patreon으로 로그인"
-    },
     "redeem": {
         "message": "등록"
-    },
-    "joinOnPatreon": {
-        "message": "Patreon에서 구독"
-    },
-    "oneTimePurchase": {
-        "message": "일회성 구매"
     },
     "enterLicenseKey": {
         "message": "라이선스 키를 입력하세요"

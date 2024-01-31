@@ -1135,33 +1135,8 @@
     "hideUpsells": {
         "message": "Ascunde opțiunile indisponibile fără o plată suplimentara"
     },
-    "chooseACountry": {
-        "message": "Selectați țara"
-    },
-    "noDiscount": {
-        "message": "Nu te califici pentru o reducere"
-    },
-    "discountLink": {
-        "message": "Link de reducere (Vezi prețul roz)"
-    },
-    "selectYourCountry": {
-        "message": "Selectaţi ţara"
-    },
-    "cantAfford": {
-        "message": "Dacă nu vă puteți permite să achiziționați o licență, faceți clic pe {aici} pentru a vedea dacă sunteți eligibil pentru o reducere",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "Conectează-te cu Patreon"
-    },
     "redeem": {
         "message": "Folosește"
-    },
-    "joinOnPatreon": {
-        "message": "Abonează-te pe Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Achiziție unică"
     },
     "enterLicenseKey": {
         "message": "Introdu cheia de licență"

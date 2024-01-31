@@ -1014,15 +1014,6 @@
     "redeemFailed": {
         "message": "লাইসেন্স কী অবৈধ"
     },
-    "chooseACountry": {
-        "message": "দেশ নির্বাচন করুন"
-    },
-    "discountLink": {
-        "message": "মূল্যছাড় লিঙ্ক (পিংক মূল্য দেখুন)"
-    },
-    "selectYourCountry": {
-        "message": "আপনার দেশ নির্বাচন করুন"
-    },
     "redeem": {
         "message": "ফিরত"
     },

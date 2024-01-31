@@ -1131,33 +1131,8 @@
     "hideNewFeatureUpdates": {
         "message": "隱藏關於新功能的提示"
     },
-    "chooseACountry": {
-        "message": "選擇國家"
-    },
-    "noDiscount": {
-        "message": "你不能使用優惠"
-    },
-    "discountLink": {
-        "message": "優惠連結（看粉色的價格）"
-    },
-    "selectYourCountry": {
-        "message": "選擇國家"
-    },
-    "cantAfford": {
-        "message": "若你無法購買授權，請點 {here} 以檢查你是否可用優惠",
-        "description": "Keep the curly braces. The word 'here' should be translated as well."
-    },
-    "patreonSignIn": {
-        "message": "使用 Patreon 登入"
-    },
     "redeem": {
         "message": "兌換"
-    },
-    "joinOnPatreon": {
-        "message": "在 Patreon 上訂閱"
-    },
-    "oneTimePurchase": {
-        "message": "一次性購買"
     },
     "enterLicenseKey": {
         "message": "請輸入授權金鑰"

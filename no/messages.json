@@ -965,20 +965,8 @@
     "hideUpsells": {
         "message": "Skjul alternativer som krever ekstra betaling"
     },
-    "chooseACountry": {
-        "message": "Velg et land"
-    },
-    "selectYourCountry": {
-        "message": "Velg ditt land"
-    },
     "redeem": {
         "message": "Løs inn"
-    },
-    "joinOnPatreon": {
-        "message": "Abonner på Patreon"
-    },
-    "oneTimePurchase": {
-        "message": "Éngangskjøp"
     },
     "enterLicenseKey": {
         "message": "Skriv inn lisensnøkkel"
