@@ -1475,5 +1475,9 @@
     "previewSegmentRequired": {
         "message": "Skontrolujte si segmenty pred odoslaním. Môžete tak spraviť kliknutím na tlačidlo Náhľad alebo použite tento odkaz:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Vystupovať ako VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
