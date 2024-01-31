@@ -1635,7 +1635,7 @@
         "message": "Your free trial is over"
     },
     "freeTrialPrompt": {
-        "message": "If you want to test it out for an hour, you can start a free trial with the button below."
+        "message": "If you want to test it out, you can start a free trial with the button below."
     },
     "startFreeTrial": {
         "message": "Start free trial"
