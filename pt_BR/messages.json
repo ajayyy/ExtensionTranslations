@@ -1635,7 +1635,7 @@
         "message": "Sua avaliação gratuita terminou"
     },
     "freeTrialPrompt": {
-        "message": "Se você quiser testá-lo por uma hora, você pode iniciar um teste gratuito com o botão abaixo."
+        "message": "Se você quiser testá-lo, você pode iniciar um teste gratuito com o botão abaixo."
     },
     "startFreeTrial": {
         "message": "Iniciar teste grátis"
