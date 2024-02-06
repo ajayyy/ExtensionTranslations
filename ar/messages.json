@@ -301,8 +301,20 @@
         "message": "بدء/إيقاف الفقرة",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "قتح قائمة التقديم",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "تقديم الفقرات",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "معاينة الفقرة",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "إغلاق إشعار التخطي",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1304,6 +1316,12 @@
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "تكبير الحرف الأول لكل كلمة للعناوين غير الانكليزية"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "خاصية الكشف عن اللغة غير مثالية و ترى بعض العناوين الانكليزية كغير انكليزية."
+    },
     "thumbnailFallbackOption": {
         "message": "عند عدم وجود صورة مصغرة مقدَّمة"
     },
@@ -1332,6 +1350,10 @@
     },
     "keepUnsubmitted": {
         "message": "تخزين الأصوات المقدمة"
+    },
+    "showLiveCover": {
+        "message": "إظهار الصورة الرمزية للقناة على الفيديوهات القادمة",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
         "message": "عدم استخدام الصور المصغرة من ضمن اختبار أ-ب أبداً"
@@ -1526,6 +1548,10 @@
     "ConfigurationName": {
         "message": "اسم التكوين"
     },
+    "ChannelListInstructions": {
+        "message": "أدخل القنوات التي تريد تطبيق هذا التكوين عليها في المربع أدناه، مفصولة بسطر جديد. كل من معرف القناة وأسماء العرض مدعومة. اسم المستخدم @ غير مدعوم. يمكنك الحصول على معرف القناة من خلال النقر على زر مشاركة في صفحة \"حول\" الخاصة بالقناة.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "لم يتم ضبط تكوين بعد. انقر الزر في الأعلى لإضافة تكوين جديد.",
         "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
@@ -1644,5 +1670,21 @@
     },
     "cleanPopup": {
         "message": "إخفاء الفوضى في منبثقة قائمة الفقرات"
+    },
+    "syncDisabledWarning": {
+        "message": "تحذير: تم تعطيل مساحة تخزين الاضافة في المتصفح. لن يتم حفظ الإعدادات إن حاولت حفظها."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "لن يعمل DeArrow بدون مساحة تخزين."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "يمكنك تفعيلها عن طريق الذهاب الى about:config و تعيين قيمة \"webextensions.storage.sync.enabled\" الى true."
+    },
+    "storageFull": {
+        "message": "مساحة تخزين الاضافة ممتلئة. الرجاء حذف بعض الفقرات الغير مُقدمة في قائمة الخيارات."
+    },
+    "previewSegmentRequired": {
+        "message": "الرجاء معاينة الفقرات قبل التقديم. يمكنك القيام بذلك بالنقر على زر المعاينة أو باستخدام الاختصار التالي:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     }
 }
