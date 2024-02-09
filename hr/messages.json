@@ -1120,5 +1120,9 @@
     },
     "ViewLicenseKey": {
         "message": "Pogledaj ključ za licencu"
+    },
+    "actAsVip": {
+        "message": "Agiraj kao VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
