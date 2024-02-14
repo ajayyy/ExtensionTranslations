@@ -301,8 +301,20 @@
         "message": "Start/stop segment",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Åbn indsendelsesmenu",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Indsend segmenter",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "Forhåndsvis segment",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Luk spring over-meddelelse",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -500,7 +512,7 @@
         "message": "Adressen der bliver brugt til at kontakte datahentningsserveren.\nHvis du ikke har din egen serverinstans skal dette ikke ændres."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Serveradresse på mellemlager for miniaturebilleder"
+        "message": "Serveradresse på mellemlager for thumbnails"
     },
     "save": {
         "message": "Gem"
@@ -519,6 +531,9 @@
     },
     "exportOptions": {
         "message": "Importer/Eksporter Alle Indstillinger"
+    },
+    "exportOtherData": {
+        "message": "Importer/eksporter alle andre data"
     },
     "exportOptionsCopy": {
         "message": "Rediger/kopier"
@@ -738,7 +753,7 @@
         "message": "Kan springe kontekst over"
     },
     "category_poi_highlight_guideline3": {
-        "message": "Kan springe til titlen eller thumbnailen"
+        "message": "Kan springe til titlen eller thumbnailet"
     },
     "category_chapter": {
         "message": "Kapitel"
@@ -799,7 +814,7 @@
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Vis også etiketter på videominiaturer",
+        "message": "Vis også etiketter på videothumbnails",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
@@ -1230,11 +1245,11 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - Bedre titler og miniaturer på YouTube",
+        "message": "DeArrow - Bedre titler og thumbnails på YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Bruger crowdsourcing til at gøre titler og miniaturer beskrivende og ikke sensationelle",
+        "message": "Bruger crowdsourcing til at gøre titler og thumbnails beskrivende og ikke sensationelle",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1262,7 +1277,7 @@
         "message": "Video er ikke klar"
     },
     "FailedToRender": {
-        "message": "Kunne ikke gengive",
+        "message": "Kunne ikke indlæse",
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
@@ -1270,7 +1285,7 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Undtagelse under gengivelse",
+        "message": "Undtagelse under indlæsning",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
@@ -1286,30 +1301,45 @@
     "CapitalizeWords": {
         "message": "Skriv ord med store begyndelsesbogstaver"
     },
+    "TitleCase": {
+        "message": "Stor eller små bogstaver på titlen"
+    },
     "SentenceCase": {
         "message": "Første bogstav i sætning med stort"
+    },
+    "LowerCase": {
+        "message": "Små bogstaver"
+    },
+    "FirstLetterUppercase": {
+        "message": "Første bogstav store bogstaver"
     },
     "shouldCleanEmojis": {
         "message": "Fjern emojier"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Kapitalisér ord for ikke-engelske titler"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Sprogdetektering er ikke perfekt, og registrerer nogle engelske titler som ikke-engelske."
+    },
     "thumbnailFallbackOption": {
-        "message": "Når ingen indsendte miniaturebilleder findes"
+        "message": "Når ingen indsendte thumbnails findes"
     },
     "whatThumbnailFallbackOption": {
-        "message": "Når du vælger et tilfældigt tidspunkt, bruges der SponsorBlock-data for at sikre at der ikke vælges et tidspunkt i et salgsfremmende segment.",
+        "message": "Når du vælger et tilfældigt tidspunkt, bruges der SponsorBlock-data for at sikre, at der ikke vælges et tidspunkt i et salgsfremmende segment.",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
         "message": "Vis et skærmbillede fra et tilfældigt tidspunkt"
     },
     "TheOriginalThumbnail": {
-        "message": "Vis det oprindelige miniaturebillede"
+        "message": "Vis det oprindelige thumbnail"
     },
     "showABlankBox": {
         "message": "Vis et tomt felt"
     },
     "AutoGenerated": {
-        "message": "Vis et miniaturebillede auto-genereret af YouTube",
+        "message": "Vis et thumbnail auto-genereret af YouTube",
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
@@ -1321,38 +1351,92 @@
     "keepUnsubmitted": {
         "message": "Gem indsendte stemmer"
     },
+    "showLiveCover": {
+        "message": "Vis kanalavatar på kommende videoer",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
-        "message": "Brug aldrig A/B-testede miniaturebilleder"
+        "message": "Brug aldrig A/B-testede thumbnails"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanaler kan konfigurere tests på deres videoer, hvor YouTube vil vise forskellige miniaturer til hver person. Denne indstilling vil altid bruge den første miniature for at være konsekvent."
+        "message": "Kanaler kan konfigurere tests på deres videoer, hvor YouTube vil vise forskellige thumbnails til hver person. Denne indstilling vil altid bruge den første thumbnail for at være konsekvent."
+    },
+    "abThumbnailsWarning": {
+        "message": "Advarsel: Denne video har i øjeblikket en A/B thumbnail-test kørende. Det betyder, at thumbnailet kan ændre sig ofte. Du burde sandsynligvis ikke stemme for det oprindelige thumbnail på grund af denne risiko."
     },
     "whatKeepUnsubmitted": {
-        "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og miniaturer, du valgte, i stedet for den mest populære på serveren."
+        "message": "Behold indsendte stemmer efter afstemningen for at vise de titler og thumbnails, du valgte, i stedet for den mest populære på serveren."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Gem indsendte stemmer fra private faner"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Brug thumbnailgenereringstjeneste"
+    },
+    "titleMaxLines": {
+        "message": "Maksimum linjer for titel"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videotitler vil blive spredt ud over så mange linjer i forslag."
+    },
+    "onAllPages": {
+        "message": "På alle sider",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "På alle sider undtagen video-sider",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {
         "message": "Aldrig"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Miniaturegenereringstjenesten fremskynder dannelsen af miniaturer væsentligt ved at sende en anonym anmodning med video-ID'et til en ekstern server. Miniaturebilledet vil derefter enten blive genereret eller trukket fra et mellemlager, hvis det allerede er blevet genereret."
+        "message": "Thumbnailgenereringstjenesten fremskynder dannelsen af thumbnails væsentligt ved at sende en anonym anmodning med video-Id'et til en ekstern server. Thumbnailet vil derefter enten blive genereret eller trukket fra et mellemlager, hvis det allerede er blevet genereret."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Hvis det bruges på videosider, kan dette potentielt lække video-ID'er til den pågældende server. Indstilling af dette til \"På alle sider undtagen videosider\" vil undgå dette problem. En anden mulighed er at være vært for din egen miniaturegenereringstjeneste."
+        "message": "Hvis det bruges på videosider, kan dette potentielt lække video-Id'er til den pågældende server. Indstilling af dette til \"På alle sider undtagen videosider\" vil undgå dette problem. En anden mulighed er at være vært for din egen thumbnailgenereringstjeneste."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Hvis brugen af thumbnailgenereringstjenesten er deaktiveret, vil alle anmodninger bruge et k-anonymitets forespørgselssystem, hvilket gør det sværere for serveren at forudsige hvilke videoer, der blev hentet, og en langsommere lokal thumbnailgenereringstjeneste vil blive brugt.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Thumbnailgenereringstjeneste kildekode"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mere om K-anonymitet",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Vis altid \"Vis original\"-knappen"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "Aktivér dette, hvis du altid vil vide om en titel eller et miniaturebillede er ændret."
+        "message": "Aktivér dette, hvis du altid vil vide om en titel eller et thumbnail er ændret."
+    },
+    "showOriginalOnHover": {
+        "message": "Vis originale detajler, når musen holdes over"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Vis \"Vis original\"-knappen for automatisk formateret titler"
     },
     "fetchTimeout": {
         "message": "Timeout for dataindlæsning (ms)"
     },
     "fetchTimeoutDescription": {
-        "message": "Vis originale titler og miniaturer hvis serveren ikke reagerer indenfor dette tidsrum."
+        "message": "Vis originale titler og thumbnails hvis serveren ikke reagerer indenfor dette tidsrum."
     },
     "renderTimeout": {
-        "message": "Tidsgrænse for generering af miniaturebilleder (ms)"
+        "message": "Tidsgrænse for generering af thumbnails (ms)"
     },
     "renderTimeoutDescription": {
-        "message": "Vis originale miniaturebilleder, hvis der ikke kan genereres et miniaturebillede inden for denne tidsramme."
+        "message": "Vis originale thumbnails, hvis der ikke kan genereres et thumbnail inden for denne tidsramme."
+    },
+    "startLocalRenderTimeout": {
+        "message": "Timeouten for start af lokale thumbnailgenereringstjeneste (ms)",
+        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
+    },
+    "startLocalRenderTimeoutDescription": {
+        "message": "Vis serveren tager så lang tid at generere et thumbnail, så begynd at generere et lokalt."
     },
     "Enable": {
         "message": "Aktivér"
@@ -1362,7 +1446,7 @@
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "Miniaturer",
+        "message": "Thumbnails",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "Error": {
@@ -1371,21 +1455,240 @@
     "ShowOriginal": {
         "message": "Vis oprindelige detaljer"
     },
+    "ShowModified": {
+        "message": "Vis ændrede detaljer"
+    },
     "FillerWarning": {
         "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Deltag på Discord eller Matrix for at blive i denne chat permanent",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Vis retningslinjerhjælp",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Undgå overdrevne ansigtsudtryk",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Tænk det store billede, besvar ikke bare den oprindelige titels spørgsmål",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Undgå at beskrive reaktioner på videoen (\"chokerende\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Giv nok information til at foretage et informeret valg, før du klikker"
+    },
+    "tip5": {
+        "message": "Kapitaliser det som en sætning",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Bemærk: Dine SponsorBlock-indstillinger er automatisk blevet importeret!"
+    },
+    "howItWorks": {
+        "message": "Hvordan det virker"
+    },
+    "discordPromotion": {
+        "message": "Kom bidrag, lav nogle forslag og hjælp på {discord} og {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Hvis du kan lide, hvad jeg har gjort indtil videre, og ønsker at hjælpe mig med penge, så er der et link her"
+    },
+    "termsAgreement": {
+        "message": "Ved at bruge denne udvidelse, accepterer du {privacy-policy} og {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Privatlivspolitik"
+    },
+    "termsOfUse": {
+        "message": "Brugsvilkår"
+    },
+    "openSourceLicenses": {
+        "message": "Åben kildekode-licenser"
     },
     "defaultToOriginals": {
         "message": "Vis original videoinformation som standard"
     },
     "whatDefaultToOriginals": {
-        "message": "Vis den oprindelige titel og det oprindelige miniaturebillede som standard, men hav en knap der vises når man holder musen over til at se de brugerdefinerede titler og miniaturebilleder."
+        "message": "Vis den oprindelige titel og det oprindelige thumbnail som standard, men hav en knap, der vises, når man holder musen over til at se de brugerdefinerede titler og thumbnails."
+    },
+    "replaceTitles": {
+        "message": "Erstat Titler"
+    },
+    "replaceThumbnails": {
+        "message": "Erstat thumbnails"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Brug crowdsourcede titler"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Hvis deaktiveret, vil det formatere titler, men ikke bruge fællesskabsindsendte titler",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Er du sikker på, at du vil slette denne konfiguration?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Ny konfiguration"
+    },
+    "DeleteConfiguration": {
+        "message": "Slet konfiguration"
+    },
+    "ChannelAllowlist": {
+        "message": "Kanal tillads-liste"
+    },
+    "ConfigurationName": {
+        "message": "Konfigurationsnavn"
+    },
+    "ChannelListInstructions": {
+        "message": "Indtast alle kanaler, du ønsker at anvende denne konfigurationer til, i boksen nedenfor, adskilt af nye linjer. Både kanal IDer og viste navne understøttes. @ Brugernavne understøttes ikke. Du kan få kanal IDer ved at klikke på Del knappen på kanalens om-side. For at komme til om-siden, skal du klikke på kanalbeskrivelsen, der vises under kanalens navn på der kanal-side.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Ingen konfigurationer er sat op endnu. Klik på knappen øverst for at tilføje en ny konfiguration.",
+        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stop clickbait ved at erstatte titler og thumbnails med nogle, der er mere præcise"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Træt af clickbait? Tjek min nye udvidelse for at forbedre titler og thumbnails"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Tjek også DeArrow ud",
+        "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
         "message": "Kan du ikke lide denne titel? Hvis du foretrækker titlen nedenfor, så overvej at tjekke titelerstatningsfunktionen i DeArrow.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
+    "RandomThumbnailExplanation": {
+        "message": "Dette thumbnail er valgt fra et tilfældigt tidspunkt, fordi der ikke er en indsendelse på denne video endnu",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Dette thumbnail er valgt fra et tilfædigt tidspunkt og titlen er autoformateret fordi der ikke er en indsendelse på denne video endnu",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Du kan ændre denne standard nedenfor",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titler og {thumbnails} thumbnails er blevet erstattet siden du installerede denne udvidelse",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titel ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} titler ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "og {thumbnails} thumbnail",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "og {thumbnails} thumbnails",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} er blevet erstattet siden du installerede denne udvidelse",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Tæl titel og thumbnail-erstatninger"
+    },
+    "countReplacementsDescription": {
+        "message": "Bruges til at give dig statistik i popupen.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Tilføj en filterliste til at blokere undersøgelse, merchhylder og andre salgsfremmende sideelementer ved hjælp af yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Kræver uBlock Origin"
+    },
     "videoIDWrongWhenSubmittingError": {
         "message": "Noget er gået galt med videoID detektionen. Prøv at opdatere før du indsender for at sikre, at det bliver indsendt til den korrekte video. Hvis dette sker meget, så send venligst en rapport om dette sammen med de andre udvidelser eller brugerscripts, du har installeret via GitHub, Discord eller Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo baseret på Twemoji licenseret under CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock er ikke kompatibel med udvidelsen \"Zoom to Fill\". Der er mange alternativer, du kan bruge i steder, som vil fungere korrekt."
+    },
+    "freeTrialStarted": {
+        "message": "Din gratis prøveperiode er startet. Besøg YouTube for at teste den ud"
+    },
+    "freeTrialEnded": {
+        "message": "Din gratis prøveperiode er overstået"
+    },
+    "freeTrialPrompt": {
+        "message": "Hvis du ønsker at teste det ud, kan du starte en gratis prøveversion med knappen nedenfor."
+    },
+    "startFreeTrial": {
+        "message": "Start gratis prøveperiode"
+    },
+    "youCannotVoteDuringTrial": {
+        "message": "Du kan ikke stemme under den gratis prøveperiode",
+        "description": "Refers to voting for DeArrow titles and thumbnails"
+    },
+    "freeAccessRequested": {
+        "message": "Du er tilmeldt gratis adgang. Du får besked, når der gives gratis adgang."
+    },
+    "freeAccessComplete": {
+        "message": "Tillykke! Du har nu gratis adgang til DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow er ikke aktiveret"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktiver DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow er blevet aktiveret"
+    },
+    "Close": {
+        "message": "Luk"
+    },
+    "ViewLicenseKey": {
+        "message": "Vis licensnøgle"
+    },
+    "SharingIsCaring": {
+        "message": "Delt glæde er dobbelt glæde"
+    },
+    "cleanPopup": {
+        "message": "Skjul uorden i segmentlistepopup"
+    },
+    "syncDisabledWarning": {
+        "message": "Advarsel: Udvidelseslager er blevet deaktiveret i din browser. Indstillinger vil ikke blive gemt, hvis du forsøger at gemme dem."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow vil ikke fungere uden lager."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Du kan aktivere det ved at til about:config og indstille værdien af \"webextensions.storage.sync.enabled\" til true."
+    },
+    "storageFull": {
+        "message": "Udvidelseslager er fuldt. Slet venligst nogle uindsendte segmenter i indstillingerne."
+    },
+    "previewSegmentRequired": {
+        "message": "Gennemse venligst dine segmenter før du indsender dem. Du kan gøre dette ved at klikke på forhåndsvisningsknappen eller ved at bruge følgende genvej:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Stem som VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }

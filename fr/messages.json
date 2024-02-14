@@ -309,6 +309,10 @@
         "message": "Soumettre les segments",
         "description": "Keybind label"
     },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Fermer l'alerte de saut",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Chapitre suivant",
         "description": "Keybind label"
@@ -1651,6 +1655,9 @@
     },
     "SharingIsCaring": {
         "message": "Partager c'est aimer"
+    },
+    "cleanPopup": {
+        "message": "Cacher les détails dans l'affichage de la liste des segments"
     },
     "syncDisabledWarning": {
         "message": "Attention : le stockage des extensions a été désactivé dans votre navigateur. Les paramètres ne seront pas enregistrés si vous essayez de les sauvegarder."

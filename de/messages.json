@@ -427,7 +427,7 @@
         "message": "Private Benutzer-ID importieren/exportieren"
     },
     "whatChangeUserID": {
-        "message": "Dies sollte geheim gehalten und wie ein Passwort behandelt, also mit niemandem geteilt werden. Andere könnten sich damit als dich ausgeben. Wenn du nach deiner öffentlichen Profilkennung suchst, klicke auf das „Kopieren“-Symbol neben deinem Anmeldenamen im Pop-up."
+        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit als dich ausgeben. Wenn du nach deiner öffentlichen Benutzer-ID suchst, klicke auf das Kopieren-Symbol im Pop-up."
     },
     "setUserID": {
         "message": "Private Benutzer-ID festlegen"
