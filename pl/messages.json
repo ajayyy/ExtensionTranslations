@@ -368,7 +368,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "Pominięto {0}",
+        "message": "{0} — pominięto",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
