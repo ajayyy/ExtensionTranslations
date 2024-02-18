@@ -14,7 +14,7 @@
         "message": "Ez már korábban be lett küldve"
     },
     "channelWhitelisted": {
-        "message": "A csatorna az engedélyezőlistára került!"
+        "message": "A csatorna engedélyezve lett!"
     },
     "Segment": {
         "message": "szegmens"
