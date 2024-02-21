@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Прикажи дугме „Прикажи оригинал” за аутоматски форматиране наслове"
     },
-    "fetchTimeout": {
-        "message": "Временско ограничење прикупљања података (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Прикажите оригиналне наслове и сличице, ако сервер не реагује толико времена."
-    },
-    "renderTimeout": {
-        "message": "Временско ограничење рендеровања сличице (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Прикажите оригиналне сличице, ако не може да генерише сличицу толико времена."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Временско ограничење за покретање генерисања локалне сличице (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Ако серверу треба толико времена да генерише сличицу, почните да покушавате да је генеришете локално."
-    },
     "Enable": {
         "message": "Омогући"
     },
