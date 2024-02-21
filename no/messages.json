@@ -1058,9 +1058,6 @@
     "Never": {
         "message": "Aldri"
     },
-    "fetchTimeout": {
-        "message": "Tidsavbrudd for datainnhenting (ms)"
-    },
     "Enable": {
         "message": "Skru på"
     },
