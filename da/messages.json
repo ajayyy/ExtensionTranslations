@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Vis \"Vis original\"-knappen for automatisk formateret titler"
     },
-    "fetchTimeout": {
-        "message": "Timeout for dataindlæsning (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Vis originale titler og thumbnails hvis serveren ikke reagerer indenfor dette tidsrum."
-    },
-    "renderTimeout": {
-        "message": "Tidsgrænse for generering af thumbnails (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Vis originale thumbnails, hvis der ikke kan genereres et thumbnail inden for denne tidsramme."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Timeouten for start af lokale thumbnailgenereringstjeneste (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Vis serveren tager så lang tid at generere et thumbnail, så begynd at generere et lokalt."
-    },
     "Enable": {
         "message": "Aktivér"
     },
