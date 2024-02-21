@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Показване на бутон „Покажи оригинала“ за автоматично форматираните заглавия"
     },
-    "fetchTimeout": {
-        "message": "Време за извличане на данните (мс)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Показване на оригиналните заглавия и миниатюри, ако сървърът не отговори за толкова време."
-    },
-    "renderTimeout": {
-        "message": "Време за визуализиране на миниатюри (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Показване на оригиналните миниатюри, ако не може да се генерира миниатюра за толкова време."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Време за стартиране на локалното генериране на миниатюри (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Ако сървърът се нуждае от толкова време, за да генерира миниатюра, да се опита да се генерира локално."
-    },
     "Enable": {
         "message": "Активиране"
     },
