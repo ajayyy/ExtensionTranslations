@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "自動整形された題名に「元を表示」ボタンを表示"
     },
-    "fetchTimeout": {
-        "message": "データ取得のタイムアウト (ミリ秒)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "この時間内にサーバーが応答しなければ、元の題名と画像を表示する。"
-    },
-    "renderTimeout": {
-        "message": "サムネイル描画の時間切れまで (ミリ秒)"
-    },
-    "renderTimeoutDescription": {
-        "message": "この時間内にサムネイルを生成できなければ、元のサムネイルを表示します。"
-    },
-    "startLocalRenderTimeout": {
-        "message": "手元でのサムネイル生成までの待ち時間 (ミリ秒)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "サーバーでのサムネイル生成にこれより時間がかかれば、端末内で生成します。"
-    },
     "Enable": {
         "message": "有効"
     },
