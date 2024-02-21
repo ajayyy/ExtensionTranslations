@@ -1037,12 +1037,6 @@
     "Never": {
         "message": "Nikada"
     },
-    "fetchTimeout": {
-        "message": "Vrijeme za preuzimanje podataka (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Prikaži izvorne naslove i minijature ako poslužitelj ne odgovori u roku ovog vremena."
-    },
     "Enable": {
         "message": "Uključi"
     },
