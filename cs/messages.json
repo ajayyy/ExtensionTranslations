@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
     },
-    "fetchTimeout": {
-        "message": "Časový limit načtení dat (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Zobrazit původní názvy a náhledy, pokud server do tohoto času neodpoví."
-    },
-    "renderTimeout": {
-        "message": "Časový limit vykreslování miniatur (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Zobrazit původní miniaturu, pokud v tomto čase nebude vygenerována vlastní."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Časový limit pro spuštění lokálního generátoru miniatur (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Pokud serveru dlouho trvá generovat náhled, pokusit se o jeho lokální vygenerování."
-    },
     "Enable": {
         "message": "Povolit"
     },
