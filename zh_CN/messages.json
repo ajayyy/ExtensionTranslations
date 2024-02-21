@@ -1386,9 +1386,6 @@
         "message": "关于 K-Anonymity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
-    "fetchTimeout": {
-        "message": "数据获取超时时间（毫秒）"
-    },
     "Enable": {
         "message": "启用"
     },
