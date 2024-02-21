@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
     },
-    "fetchTimeout": {
-        "message": "데이터 가져오기 시간(ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "서버가 시간 내 응답하지 않는다면 원본 제목과 미리 보기 이미지를 표시해요."
-    },
-    "renderTimeout": {
-        "message": "미리 보기 이미지 렌더링 시간(ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "서버가 시간 내 미리 보기 이미지를 생성하지 않는다면 원본 미리 보기 이미지를 표시해요."
-    },
-    "startLocalRenderTimeout": {
-        "message": "미리 보기 이미지 로컬 생성 시작 시간(ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "서버에서 미리 보기 이미지를 생성하는 데 이만큼 오래 걸리면, 대신 로컬에서 생성하기 시작해요."
-    },
     "Enable": {
         "message": "사용"
     },
