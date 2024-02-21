@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Отображать кнопку \"Показать изначальные сведения\" для автоматически форматированных названий"
     },
-    "fetchTimeout": {
-        "message": "Время ожидания получения данных (мс)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Показывать изначальные названия и значки, если сервер не отвечает за это время."
-    },
-    "renderTimeout": {
-        "message": "Время ожидания отрисовки значка (мс)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Показать изначальный значок, если за указанное время не удалось сгенерировать новый."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Время ожидания для начала использования локального генератора значков (мс)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Если сервер слишком долго создаёт значок, начать создавать его локально."
-    },
     "Enable": {
         "message": "Включить"
     },
