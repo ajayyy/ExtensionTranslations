@@ -1394,25 +1394,6 @@
     "showIconForFormattedTitles": {
         "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
-    "fetchTimeout": {
-        "message": "Thời gian chờ tìm nạp dữ liệu (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Hiện tiêu đề và hình thu nhỏ gốc nếu máy chủ không phản hồi trong khoảng thời gian này."
-    },
-    "renderTimeout": {
-        "message": "Thời gian chờ tạo hình thu nhỏ (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Hiện hình thu nhỏ gốc nếu không thể tạo hình thu nhỏ trong khoảng thời gian này."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Thời gian chờ để bắt đầu tạo hình thu nhỏ cục bộ (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Nếu máy chủ mất quá nhiều thời gian để tạo hình thu nhỏ, hãy bắt đầu thử tạo một hình thu nhỏ cục bộ."
-    },
     "Enable": {
         "message": "Bật"
     },
