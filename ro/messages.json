@@ -1269,12 +1269,6 @@
     "whatKeepUnsubmitted": {
         "message": "Păstrați voturile depuse după vot pentru a afișa titlurile și miniaturile pe care le-ați ales în loc de cea de sus votată pe server."
     },
-    "fetchTimeout": {
-        "message": "Timp preluare date (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Arată titlurile originale și miniaturile în cazul în care serverul nu răspunde în acest timp."
-    },
     "Enable": {
         "message": "Activare"
     },
