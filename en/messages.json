@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Display \"Show Original\" Button for Auto-Formatted Titles"
     },
-    "fetchTimeout": {
-        "message": "Data Fetch Timeout (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Show original titles and thumbnails if the server doesn't respond in this much time."
-    },
-    "renderTimeout": {
-        "message": "Thumbnail Render Timeout (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Show original thumbnails if it cannot generate a thumbnail in this much time."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Start Local Thumbnail Generation Timeout (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "If the server takes this long to generate a thumbnail, start trying to generate one locally."
-    },
     "Enable": {
         "message": "Enable"
     },
