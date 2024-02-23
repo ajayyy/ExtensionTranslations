@@ -281,6 +281,10 @@
         "message": "Send inn segmenter",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Forhåndsvis segmentet",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Neste kapittel",
         "description": "Keybind label"
@@ -389,6 +393,9 @@
     },
     "whatChangeUserID": {
         "message": "Dette bør holdes privat. Det er som et passord og bør ikke deles med noen. Hvis noen har dette kan de utgi seg som deg. Hvis du leter etter din offentlige bruker-ID, klikker du på utklippstavlen i oppsprettsvinduet."
+    },
+    "setUserID": {
+        "message": "Bestem privat bruker-ID"
     },
     "createdBy": {
         "message": "Opprettet av"
@@ -594,6 +601,9 @@
     "category_music_offtopic_short": {
         "message": "Ikke-musikk"
     },
+    "category_music_offtopic_guideline1": {
+        "message": "Seksjoner om ikke er i offisielle utgivelser"
+    },
     "category_poi_highlight": {
         "message": "Høydepunkt"
     },
@@ -694,11 +704,18 @@
     "bracketEnd": {
         "message": "(Slutt)"
     },
+    "End": {
+        "message": "Slutt",
+        "description": "Button that skips to the end of a segment"
+    },
     "hiddenDueToDownvote": {
         "message": "skjult: stemt ned"
     },
     "hiddenDueToDuration": {
         "message": "skjult: for kort"
+    },
+    "manuallyHidden": {
+        "message": "manuelt skjult"
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
@@ -727,6 +744,9 @@
     },
     "downvoteDescription": {
         "message": "Feil tidtaking"
+    },
+    "incorrectVote": {
+        "message": "Feil"
     },
     "harmfulVote": {
         "message": "Skadelig",
@@ -779,6 +799,9 @@
     },
     "askAQuestion": {
         "message": "Still et spørsmål"
+    },
+    "warningConfirmButton": {
+        "message": "Jeg forstår grunnen"
     },
     "Donate": {
         "message": "Donér"
@@ -995,8 +1018,20 @@
         "message": "videoer",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "showUnsubmittedSegments": {
+        "message": "Vis segmenter",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Skjul segmenter",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
     "videoID": {
         "message": "Video-ID",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Antall segmenter",
         "description": "Header of the unsubmitted segments list"
     },
     "actions": {
@@ -1020,6 +1055,9 @@
     "OriginalTitle": {
         "message": "Originaltittel"
     },
+    "CurrentTime": {
+        "message": "Nåværende tidspunkt"
+    },
     "resetIcon": {
         "message": "Tilbakestill ikon"
     },
@@ -1029,6 +1067,13 @@
     "CanvasMissing": {
         "message": "Canvas mangler",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "FailedToLoad": {
+        "message": "Mislyktes i å lastes inn",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Tittelformat"
     },
     "Disabled": {
         "message": "Skrudd av"
@@ -1075,6 +1120,13 @@
     "ShowOriginal": {
         "message": "Vis opprinnelige detaljer"
     },
+    "ShowModified": {
+        "message": "Vis endrede detaljer"
+    },
+    "showGuidelineHelp": {
+        "message": "Vis retningslinje-hjelp",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
     "tip1": {
         "message": "Unngå overdrevne ansiktsuttrykk",
         "description": "Referring to the thumbnail of a video"
@@ -1095,6 +1147,9 @@
     "termsOfUse": {
         "message": "Vilkår for bruk"
     },
+    "openSourceLicenses": {
+        "message": "Åpenkilde-lisenser"
+    },
     "replaceTitles": {
         "message": "Erstatt Tittler"
     },
@@ -1106,6 +1161,9 @@
     },
     "DeleteConfiguration": {
         "message": "Slett oppsett"
+    },
+    "ChannelAllowlist": {
+        "message": "Hviteliste for kanaler"
     },
     "ConfigurationName": {
         "message": "Oppsettets navn"
@@ -1127,6 +1185,9 @@
     },
     "dearrowLogoCredit": {
         "message": "Logoen er basert på Twemoji som er lisensiert under CC-BY 4.0"
+    },
+    "freeTrialEnded": {
+        "message": "Din gratis prøveperiode er over"
     },
     "startFreeTrial": {
         "message": "Start gratis prøveperiode"
