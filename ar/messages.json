@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "عرض زر \"إظهار الأصلي\" للعناوين المنسقة تلقائياً"
     },
-    "fetchTimeout": {
-        "message": "انتهاء مهلة جلب البينات (مللي ثانية)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "إظهار العناوين و الصور المصغرة الأصلية إذا لم يستجب الخادم في هكذا الوقت."
-    },
-    "renderTimeout": {
-        "message": "مهلة انتهاء محاولة تحميل الصورة المصغرة (مللي ثاني)"
-    },
-    "renderTimeoutDescription": {
-        "message": "إظهار الصور المصغرة الأصلية إذا لم يستطاع توليد صورة مصغرة في هكذا الوقت."
-    },
-    "startLocalRenderTimeout": {
-        "message": "مهلة بدء توليد الصور المصغرة محليا (مللي ثانية)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "إذا استغرق الخادم مدة كهذه لتوليد صورة مصغرة، ابدأ محاولة توليد صورة مصغرة محليا."
-    },
     "Enable": {
         "message": "تفعيل"
     },

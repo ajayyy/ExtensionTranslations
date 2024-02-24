@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
     },
-    "fetchTimeout": {
-        "message": "Betöltési időtúllépés (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Eredeti címek és indexképek mutatása, ha a szerver nem válaszol az itt megadott idő alatt."
-    },
-    "renderTimeout": {
-        "message": "Indexkép kirajzolási időtúllépés (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Eredeti indexképek mutatása, ha ennyi idő alatt nem sikerül előkészíteni egy indexképet."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Idő helyi indexkép készítés kezdetéig (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Ha ennyi ideig tart a szervernek egy indexkép elkészítése, akkor kezdjen el helyileg készíteni egyet helyette."
-    },
     "Enable": {
         "message": "Engedélyez"
     },

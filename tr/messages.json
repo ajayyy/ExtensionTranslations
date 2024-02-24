@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
     },
-    "fetchTimeout": {
-        "message": "Veri Alma Zaman Aşımı (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Eğer sunucu belirtilen süre içinde yanıt vermezse, orijinal başlıkları ve küçük resimleri göster."
-    },
-    "renderTimeout": {
-        "message": "Küçük resim çizim zamanaşımı (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Şu sürede küçük resim getirilemezse aslındakini göster."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Yerel Küçük Resim Oluşturmaya Başlamak İçin Zaman Aşımı (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Eğerki sunucu ile bir küçük resim oluşturmak uzun sürerse yerelde bir küçük resim oluşturmayı dene."
-    },
     "Enable": {
         "message": "Etkinleştir"
     },

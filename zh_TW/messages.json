@@ -1280,12 +1280,6 @@
     "Never": {
         "message": "永不"
     },
-    "fetchTimeout": {
-        "message": "數據獲取超時（毫秒）"
-    },
-    "renderTimeout": {
-        "message": "縮圖渲染超時（毫秒）"
-    },
     "Enable": {
         "message": "啟用"
     },

@@ -1411,25 +1411,6 @@
     "showIconForFormattedTitles": {
         "message": "Afficher le bouton \"Afficher l'original\" pour les titres automatiquement formatés"
     },
-    "fetchTimeout": {
-        "message": "Délai d'acquisition des données (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Afficher les titres et les miniatures d'origine si le serveur ne répond pas après ce délai."
-    },
-    "renderTimeout": {
-        "message": "Délai de rendu des miniatures (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Afficher les miniatures d'origine s'il ne peut pas générer de vignette dans ce laps de temps."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Délai d'expiration de la génération de miniatures locales (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Si le serveur prend trop de temps pour générer une miniature, commencez à essayer d'en générer une localement."
-    },
     "Enable": {
         "message": "Activé"
     },

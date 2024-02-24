@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
     },
-    "fetchTimeout": {
-        "message": "Tempo limite de busca de dados (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Mostrar títulos e miniaturas originais se o servidor não responder neste período."
-    },
-    "renderTimeout": {
-        "message": "Tempo limite da miniatura de renderização (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Mostrar miniaturas originais se não for possível gerar uma miniatura nesse período."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Tempo limite (em ms) para iniciar criação local de miniatura",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Se o servidor não gerar uma miniatura nesse período, tentará criar uma versão na sua máquina."
-    },
     "Enable": {
         "message": "Ativar"
     },

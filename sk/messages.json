@@ -1317,15 +1317,6 @@
     "showIconForFormattedTitles": {
         "message": "Zobraziť tlačidlo \"Ukázať originál\" pri automaticky upravených názvoch"
     },
-    "fetchTimeoutDescription": {
-        "message": "Zobraziť pôvodné názvy a miniatúry, ak server neodpovie za tento čas."
-    },
-    "renderTimeoutDescription": {
-        "message": "Zobraziť pôvodné miniatúry, ak server nedokáže vygenerovať miniatúru za tento čas."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Ak serveru trvá generovanie miniaturý príliš dlho, začať generovanie lokálne."
-    },
     "Enable": {
         "message": "Povoliť"
     },

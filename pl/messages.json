@@ -368,7 +368,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "Pominięto {0}",
+        "message": "{0} — pominięto",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -1418,25 +1418,6 @@
     },
     "showIconForFormattedTitles": {
         "message": "Wyświetl przycisk \"Pokaż oryginał\" dla automatycznie sformatowanych tytułów"
-    },
-    "fetchTimeout": {
-        "message": "Limit czasu pobierania danych (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Pokaż oryginalne tytuły i miniatury, jeśli serwer nie odpowiada w tym czasie."
-    },
-    "renderTimeout": {
-        "message": "Limit czasu renderowania miniatur (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Pokaż oryginalną miniaturę, jeżeli w tym czasie nie uda się wygenerować nowej."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Rozpocznij lokalne generowanie miniatur (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Jeśli serwerowi zajmuje za dużo czasu wygenerowanie miniatury, spróbuj wygenerować takową lokalnie."
     },
     "Enable": {
         "message": "Włącz"

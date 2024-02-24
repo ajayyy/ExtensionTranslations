@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
     },
-    "fetchTimeout": {
-        "message": "Daten-Abruf-Timeout (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Zeige originale Titel und Thumbnails, wenn der Server nicht innerhalb dieser Zeit antwortet."
-    },
-    "renderTimeout": {
-        "message": "Thumbnail Render-Timeout (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Zeige originale Thumbnails, wenn kein Thumbnail in dieser Zeit generiert werden kann."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Starte lokalen Thumbnail-Erstellungsdienst Timeout (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Wenn der Server so lange braucht, um ein Thumbnail zu generieren, starte den Versuch, eines lokal zu generieren."
-    },
     "Enable": {
         "message": "Aktivieren"
     },

@@ -1419,25 +1419,6 @@
     "showIconForFormattedTitles": {
         "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"
     },
-    "fetchTimeout": {
-        "message": "Tietojen noudon aikakatkaisu (ms)"
-    },
-    "fetchTimeoutDescription": {
-        "message": "Näytä alkuperäiset otsikot ja pienoiskuvat, jos palvelin ei vastaa tässä ajassa."
-    },
-    "renderTimeout": {
-        "message": "Pienoiskuvien renderöinnin aikakatkaisu (ms)"
-    },
-    "renderTimeoutDescription": {
-        "message": "Näytä alkuperäiset pienoiskuvat, jos pienoiskuvaa ei voida luoda tässä ajassa."
-    },
-    "startLocalRenderTimeout": {
-        "message": "Käynnistä paikallisten pienoiskuvien luonnin aikakatkaisu (ms)",
-        "description": "If the server takes this long to generate a thumbnail, it start trying to generate one locally."
-    },
-    "startLocalRenderTimeoutDescription": {
-        "message": "Jos pienoiskuvan luonti palvelimella kestää näin kauan, pyritään kuva luomaan paikallisesti."
-    },
     "Enable": {
         "message": "Ota käyttöön"
     },
