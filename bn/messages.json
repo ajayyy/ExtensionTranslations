@@ -544,6 +544,9 @@
     "exportOptionsUpload": {
         "message": "ফাইল থেকে লোড করুন"
     },
+    "whatExportOptions": {
+        "message": "এটি JSON-এ আপনার সম্পূর্ণ কনফিগারেশন। এতে আপনার ব্যক্তিগত UserID অন্তর্ভুক্ত রয়েছে, তাই এটিকে বিজ্ঞতার সাথে শেয়ার করতে ভুলবেন না."
+    },
     "setOptions": {
         "message": "অপশন সেট করুন"
     },
@@ -600,6 +603,9 @@
         "message": "কপি হয়েছে!",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
+    "generic_guideline2": {
+        "message": "এমনভাবে চালায় যেন কিছুই বাদ যায়নি"
+    },
     "category_sponsor": {
         "message": "স্পন্সর"
     },
@@ -608,6 +614,9 @@
     },
     "category_sponsor_guideline1": {
         "message": "পেইড প্রচারণা"
+    },
+    "category_sponsor_guideline2": {
+        "message": "অনুদান বা কাস্টম পণ্যদ্রব্যের জন্য নয়"
     },
     "category_selfpromo": {
         "message": "বিনা অর্থপ্রাপ্ত/স্ব-প্রচার"
