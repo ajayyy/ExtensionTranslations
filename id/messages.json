@@ -1244,6 +1244,13 @@
     "keepUnsubmitted": {
         "message": "Tampung Suara Teraju"
     },
+    "Never": {
+        "message": "Tidak pernah"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Pelajari lebih lanjut tentang K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
     "tip5": {
         "message": "Besarkan huruf seperti kalimat",
         "description": "Tip about submitting titles to DeArrow"
