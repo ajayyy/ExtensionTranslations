@@ -442,7 +442,7 @@
         "message": "Unterstütze Drittanbieter YouTube-Seiten"
     },
     "supportOtherSitesDescription": {
-        "message": "Unterstütze YouTube-Clients von Drittanbietern. Um die Unterstützung zu aktivieren, müssen Sie die zusätzlichen Berechtigungen akzeptieren.",
+        "message": "Unterstütze YouTube-Clients von Drittanbietern. Um die Unterstützung zu aktivieren, musst du die zusätzlichen Berechtigungen akzeptieren.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
@@ -1483,7 +1483,7 @@
         "message": "Falls dir gefällt, was ich bisher gemacht habe und du mir mit Geld aushelfen willst, ist hier ein Link"
     },
     "termsAgreement": {
-        "message": "Durch die Verwendung dieser Erweiterung stimmen Sie der {privacy-policy} und den {terms} zu"
+        "message": "Durch die Verwendung dieser Erweiterung stimmst du der {privacy-policy} und den {terms} zu"
     },
     "privacyPolicy": {
         "message": "Datenschutzerklärung"
