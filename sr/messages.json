@@ -1621,10 +1621,6 @@
     "startFreeTrial": {
         "message": "Започни бесплатни пробни период"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Не можете гласати током бесплатног пробног периода",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Успешно сте регистровани за бесплатан приступ. Бићете обавештени када се одобри бесплатан приступ."
     },
