@@ -1192,10 +1192,6 @@
     "startFreeTrial": {
         "message": "Start gratis prøveperiode"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Du kan ikke stemme under den gratis prøveperioden",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "DeArrowNotActivated": {
         "message": "DeArrow er ikke aktivert"
     },
