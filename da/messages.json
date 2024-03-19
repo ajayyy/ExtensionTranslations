@@ -87,10 +87,10 @@
         "message": "Ingen segmenter fundet"
     },
     "sponsorStart": {
-        "message": "Segment Begynder Nu"
+        "message": "Start segment nu"
     },
     "sponsorEnd": {
-        "message": "Segment Slutter Nu"
+        "message": "Afslut segment nu"
     },
     "sponsorCancel": {
         "message": "Annuller Oprettelse Af Segment"
