@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Предупреждение: Отключение этой настройки удалит все ранее сохранённые оценки"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Хранить голоса против в приватных/инкогнито вкладках"
+    },
     "enableQueryByHashPrefix": {
         "message": "Запрос по префиксу хэша"
     },
