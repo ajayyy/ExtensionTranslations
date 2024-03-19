@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Warning: Disabling this will delete all previously stored downvotes"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Store segment downvotes in private/incognito tabs"
+    },
     "enableQueryByHashPrefix": {
         "message": "Query By Hash Prefix"
     },

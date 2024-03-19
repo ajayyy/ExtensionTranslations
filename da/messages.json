@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Advarsel: Deaktivering af dette vil slette alle tidligere gemte nedstemmer"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Gem segment-nedstemmer i private faner/incognito-faner"
+    },
     "enableQueryByHashPrefix": {
         "message": "Søg via hashpræfiks"
     },
@@ -1055,7 +1058,7 @@
         "message": "Alle Detaljer"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "Nedstemmer og opretter en lokal kopi for dig at genindsende"
+        "message": "Nedstemmer og opretter en lokal kopi som du kan genindsende"
     },
     "OpenCategoryWikiPage": {
         "message": "Åbn denne kategoris wikiside."

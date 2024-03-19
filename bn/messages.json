@@ -301,8 +301,20 @@
         "message": "সেগমেন্ট শুরু/শেষ",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "সাবমিশন মেনু খুলুন",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "সেগমেন্ট জমা দিন",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "সেগমেন্ট প্রিভিউ দেখুন",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "এড়িয়ে যাওয়ার বিজ্ঞপ্তি বন্ধ করুন",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -469,6 +481,9 @@
     "enableManualSkipOnFullVideo": {
         "message": "সম্পূর্ণ ভিডিওর লেবেল যুক্ত থাকলে ম্যানুয়াল স্কিপ দেখান"
     },
+    "whatManualSkipOnFullVideo": {
+        "message": "যারা ভিডিওটি সম্পূর্ণ স্পন্সর বা স্ব-প্রচার হলে নিরবচ্ছিন্নভাবে দেখতে চান তাদের জন্য."
+    },
     "skipNoticeDuration": {
         "message": "নোটিশ প্রদর্শন করার দৈর্ঘ্য (সেকেন্ড):"
     },
@@ -490,6 +505,15 @@
     "customServerAddressDescription": {
         "message": "এ ঠিকানা SponsorBlock সার্ভারে সাথে যোগাযোগ করতে ব্যবহার করে।\nআপনার নিজের সার্ভার না থাকলে এটি পরিবর্তন করবেন না।"
     },
+    "dataFetchingServerAddress": {
+        "message": "ডেটা আনয়ন সার্ভারের ঠিকানা"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "ডেটা আনার সার্ভারে কল করতে ব্যবহৃত ঠিকানা।\nআপনার নিজের সার্ভার না থাকলে, এটি পরিবর্তন করা উচিত নয়।."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "থাম্বনেল ক্যাশে সার্ভারের ঠিকানা"
+    },
     "save": {
         "message": "সংরক্ষণ করুন"
     },
@@ -508,6 +532,9 @@
     "exportOptions": {
         "message": "সব অপশন ইম্পোর্ট/এক্সপোর্ট করুন"
     },
+    "exportOtherData": {
+        "message": "অন্যান্য সমস্ত ডেটা আমদানি/রপ্তানি করুন"
+    },
     "exportOptionsCopy": {
         "message": "সম্পাদন/কপি করুন"
     },
@@ -516,6 +543,9 @@
     },
     "exportOptionsUpload": {
         "message": "ফাইল থেকে লোড করুন"
+    },
+    "whatExportOptions": {
+        "message": "এটি JSON-এ আপনার সম্পূর্ণ কনফিগারেশন। এতে আপনার ব্যক্তিগত UserID অন্তর্ভুক্ত রয়েছে, তাই এটিকে বিজ্ঞতার সাথে শেয়ার করতে ভুলবেন না."
     },
     "setOptions": {
         "message": "অপশন সেট করুন"
@@ -573,6 +603,9 @@
         "message": "কপি হয়েছে!",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
+    "generic_guideline2": {
+        "message": "এমনভাবে চালায় যেন কিছুই বাদ যায়নি"
+    },
     "category_sponsor": {
         "message": "স্পন্সর"
     },
@@ -581,6 +614,9 @@
     },
     "category_sponsor_guideline1": {
         "message": "পেইড প্রচারণা"
+    },
+    "category_sponsor_guideline2": {
+        "message": "অনুদান বা কাস্টম পণ্যদ্রব্যের জন্য নয়"
     },
     "category_selfpromo": {
         "message": "বিনা অর্থপ্রাপ্ত/স্ব-প্রচার"
