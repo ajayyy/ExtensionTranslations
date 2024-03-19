@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "تحذير: سيؤدي تعطيل هذا إلى حذف جميع الأصوات السلبية التي تم تخزينها مسبقًا"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "حفظ الأصوات السلبية للفقرات التي تقدم في وضع التصفح المتخفي"
+    },
     "enableQueryByHashPrefix": {
         "message": "الاستعلام عن طريق بادئة التجزئة"
     },
