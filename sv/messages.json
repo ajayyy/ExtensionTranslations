@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Varning: Om detta inaktiveras kommer alla tidigare lagrade nerröstningar att tas bort"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Lagra segmentnerröstningar i privata/inkognito flikar"
+    },
     "enableQueryByHashPrefix": {
         "message": "Fråga efter hash-prefix"
     },
