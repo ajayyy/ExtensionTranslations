@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Figyelem: A beállítás kikapcsolása letöröl minden korábban eltárolt szavazatot"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Leszavazások tárolása privát/inkognitó füleken"
+    },
     "enableQueryByHashPrefix": {
         "message": "Lekérdezés Hash előtaggal"
     },
