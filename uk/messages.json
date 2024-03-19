@@ -1624,10 +1624,6 @@
     "startFreeTrial": {
         "message": "Почати пробний період"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Ви не можете голосувати під час безплатного пробного періоду",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Ви успішно зареєстровані для безкоштовного доступу. Ви отримаєте повідомлення про надання безкоштовного доступу."
     },
