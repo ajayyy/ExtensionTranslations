@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Попередження: вимкнення цієї опції призведе до видалення всіх раніше збережених голосів \"проти\""
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Зберігати голоси \"проти\" сегмента в приватних/анонімних вкладках"
+    },
     "enableQueryByHashPrefix": {
         "message": "Пошук по частині хеша"
     },
