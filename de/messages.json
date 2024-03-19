@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Speichere Downvotes von Segmenten in Privaten/Inkognito Tabs"
+    },
     "enableQueryByHashPrefix": {
         "message": "Abfrage nach Hash-Präfix"
     },
