@@ -1455,10 +1455,6 @@
     "startFreeTrial": {
         "message": "开启免费试用"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "免费试用不能投票",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessComplete": {
         "message": "恭喜！您现在可以免费使用 DeArrow"
     },
