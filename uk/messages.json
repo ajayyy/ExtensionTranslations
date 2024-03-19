@@ -178,7 +178,7 @@
         "message": "Копіювати публічний UserID"
     },
     "copySegmentID": {
-        "message": "Копіювати ID сегменту"
+        "message": "Копіювати ID сегмента"
     },
     "hideThis": {
         "message": "Приховати це"
@@ -313,7 +313,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Передогляд сегменту",
+        "message": "Передогляд сегмента",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
