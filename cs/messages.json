@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Varování: Zakázání této možnosti odstraní všechny dříve uložené hlasy proti"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Ukládat hlasy proti segmentům v soukromých/anonymních oknech"
+    },
     "enableQueryByHashPrefix": {
         "message": "Dotaz podle hash předpony"
     },
