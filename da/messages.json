@@ -1624,10 +1624,6 @@
     "startFreeTrial": {
         "message": "Start gratis prøveperiode"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Du kan ikke stemme under den gratis prøveperiode",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Du er tilmeldt gratis adgang. Du får besked, når der gives gratis adgang."
     },
