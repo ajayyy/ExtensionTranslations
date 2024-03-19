@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Varoitus: Tämän käytöstä poisto poistaa kaikki aiemmat negatiiviset äänet"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Säilytä osioiden alaäänet yksityisissä/incognito-välilehdissä"
+    },
     "enableQueryByHashPrefix": {
         "message": "Kysely tiiviste-etuliittellä"
     },
