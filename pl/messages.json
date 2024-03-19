@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Uwaga: Wyłączenie tego usunie wszystkie poprzednio zapisane łapki w dół"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Zapisuj segmenty z łapką w dół na kartach prywatnych / w trybie incognito"
+    },
     "enableQueryByHashPrefix": {
         "message": "Zapytanie według prefiksu Hash"
     },
