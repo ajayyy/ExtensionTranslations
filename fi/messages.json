@@ -1624,10 +1624,6 @@
     "startFreeTrial": {
         "message": "Aloita ilmainen kokeilu"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Et voi äänestää ilmaisen kokeilun aikana",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Olet rekisteröitynyt ilmaiskäyttöä varten. Saat ilmoituksen kun ilmainen käyttöoikeus on myönnetty."
     },
