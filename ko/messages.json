@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "경고: 사용하지 않으면 이전에 저장된 비추천 구간이 삭제돼요"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "시크릿/사생활 보호 탭에서 비추천한 구간 저장"
+    },
     "enableQueryByHashPrefix": {
         "message": "해시 접두사로 요청 전송"
     },
