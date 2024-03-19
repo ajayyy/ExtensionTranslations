@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Внимание: Деактивирането на това ще изтрие всички по-рано запазени отрицателни гласове"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Съхраняване на гласовете против за сегменти в частни/инкогнито раздели"
+    },
     "enableQueryByHashPrefix": {
         "message": "Заявка по префикс на хеш"
     },
