@@ -22,6 +22,9 @@
     "Segments": {
         "message": "സെഗ്‌മെന്റുകൾ"
     },
+    "SegmentsCap": {
+        "message": "ഭാഗങ്ങൾ"
+    },
     "Chapters": {
         "message": "അദ്ധ്യായങ്ങള്‍"
     },
@@ -621,9 +624,20 @@
         "message": "എല്ലാ പേജുകളിലും",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
+    "Titles": {
+        "message": "തലക്കെട്ട്",
+        "description": "Referring to titles of YouTube videos"
+    },
     "Thumbnails": {
         "message": "ലഘുചിത്രങ്ങൾ",
         "description": "Referring to thumbnails of YouTube videos"
+    },
+    "tip5": {
+        "message": "ഒരു വാചകം പോലെ വലിയക്ഷരമാക്കുക",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "howItWorks": {
+        "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു"
     },
     "privacyPolicy": {
         "message": "സ്വകാര്യതാ നയം"
@@ -634,8 +648,38 @@
     "openSourceLicenses": {
         "message": "ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ"
     },
+    "replaceThumbnails": {
+        "message": "ലഘുചിത്രങ്ങൾ മാറ്റുക"
+    },
+    "requiresUblock": {
+        "message": "യുബ്ലോക്ക് ഒറിജിൻ ആവശ്യമാണ്"
+    },
+    "freeTrialEnded": {
+        "message": "നിങ്ങളുടെ സൗജന്യ ട്രയൽ അവസാനിച്ചിരിക്കുന്നു"
+    },
+    "freeTrialPrompt": {
+        "message": "നിങ്ങൾക്ക് ഇത് പരീക്ഷിക്കാൻ താൽപ്പര്യമുണ്ടെങ്കിൽ, ചുവടെയുള്ള ബട്ടൺ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഒരു സൗജന്യ ട്രയൽ ആരംഭിക്കാം."
+    },
+    "startFreeTrial": {
+        "message": "സൗജന്യ ട്രയൽ ആരംഭിക്കുക"
+    },
+    "freeAccessRequested": {
+        "message": "സൗജന്യ പ്രവേശനത്തിനായി നിങ്ങൾ വിജയകരമായി രജിസ്റ്റർ ചെയ്തിരിക്കുന്നു. സൗജന്യ ആക്സസ് അനുവദിക്കുമ്പോൾ നിങ്ങളെ അറിയിക്കുന്നതാണ്."
+    },
+    "freeAccessComplete": {
+        "message": "അഭിനന്ദനങ്ങൾ! നിങ്ങൾക്ക് ഇപ്പോൾ ഡീആരോവിലേക്ക് സൗജന്യ ആക്സസ് ലഭിച്ചിരിക്കുന്നു"
+    },
+    "ActivateDeArrow": {
+        "message": "ഡിആരോ ആക്റ്റവേറ്റ് ചെയ്യുക"
+    },
     "Close": {
         "message": "അടയ്ക്കുക"
+    },
+    "ViewLicenseKey": {
+        "message": "ലൈസൻസ് കീ കാണുക"
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "സ്റ്റോറേജ് ഇല്ലാതെ ഡീആരോ പ്രവർത്തിക്കില്ല."
     },
     "actAsVip": {
         "message": "വി ഐ പി ആയി പ്രവർത്തിക്കുക",
