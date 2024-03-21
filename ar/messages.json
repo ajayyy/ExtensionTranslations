@@ -1666,5 +1666,9 @@
     "previewSegmentRequired": {
         "message": "الرجاء معاينة الفقرات قبل التقديم. يمكنك القيام بذلك بالنقر على زر المعاينة أو باستخدام الاختصار التالي:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "التصرف كـ VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
