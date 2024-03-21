@@ -161,6 +161,9 @@
     "setUsername": {
         "message": "ഉപയോക്തൃനാമം സജ്ജമാക്കുക"
     },
+    "copySegmentID": {
+        "message": "ഭാഗത്തിന്റെ ഐഡി കോപ്പി ചെയ്യുക"
+    },
     "hideThis": {
         "message": "ഇത് മറയ്ക്കുക"
     },
@@ -270,12 +273,22 @@
     "skip": {
         "message": "ഒഴിവാക്കുക"
     },
+    "mute": {
+        "message": "നിശബ്ദമാക്കുക"
+    },
     "full": {
         "message": "മുഴുവൻ വിഡിയോയും",
         "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
         "message": "{0} ഒഴിവാക്കുക?"
+    },
+    "mute_category": {
+        "message": "നിശ്ശബ്ദമാക്കണോ {0}?"
+    },
+    "muted": {
+        "message": "{0} നിശബ്‍ദമാക്കി",
+        "description": "Example: Sponsor Muted"
     },
     "disableAutoSkip": {
         "message": "യാന്ത്രിക ഒഴിവാക്കൽ പ്രവർത്തനരഹിതമാക്കുക"
@@ -383,6 +396,9 @@
     },
     "exportOptionsDownload": {
         "message": "ഫയലിലേക്ക് സംരക്ഷിക്കുക"
+    },
+    "exportOptionsUpload": {
+        "message": "ഫയലിൽ നിന്നും ലോഡ് ചെയ്യുക"
     },
     "setOptions": {
         "message": "ഓപ്ഷനുകൾ സജ്ജമാക്കുക"
@@ -536,6 +552,10 @@
     "showOverlay_chapter": {
         "message": "അധ്യായങ്ങൾ കാണിക്കുക"
     },
+    "previewColor": {
+        "message": "സമർപ്പിക്കാത്ത നിറം",
+        "description": "Referring to submissions that have not been sent to the server yet."
+    },
     "seekBarColor": {
         "message": "ബാർ കളർ തേടുക"
     },
@@ -637,16 +657,81 @@
     "skipSegment": {
         "message": "ഭാഗം സ്കിപ് ചെയ്യുക"
     },
+    "yearAbbreviation": {
+        "message": "വർ",
+        "description": "100y"
+    },
+    "dayAbbreviation": {
+        "message": "ദിവ",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "മണി",
+        "description": "100h"
+    },
     "change": {
         "message": "മാറ്റുക"
+    },
+    "exportSegments": {
+        "message": "ഭാഗങ്ങൾ എക്സ്‌പോർട് ചെയ്യുക"
+    },
+    "importSegments": {
+        "message": "ഭാഗങ്ങൾ ഇമ്പോർറ്റ് ചെയ്യു"
+    },
+    "Import": {
+        "message": "ഇമ്പോർട്ട്‌",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "നിങ്ങൾക്ക് നിലവിൽ സമർപ്പിക്കാത്ത ഭാഗങ്ങളൊന്നുമില്ല",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "സമർപ്പിക്കാത്ത ഭാഗം",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "സമർപ്പിക്കാത്ത ഭാഗങ്ങൾ",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "വീഡിയോ",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
     },
     "videosPlural": {
         "message": "വീഡിയോകൾ",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "clearUnsubmittedSegments": {
+        "message": "എല്ലാ ഭാഗങ്ങളും മായ്‌ക്കുക",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "നിങ്ങളുടെ സമർപ്പിക്കാത്ത എല്ലാ ഭാഗങ്ങളും മായ്‌ക്കണമെന്ന് തീർച്ചയാണോ?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "ഭാഗങ്ങൾ പ്രദർശിപ്പിക്കുക",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "ഭാഗങ്ങൾ മറയ്ക്കുക",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
     "videoID": {
         "message": "വീഡിയോ ഐഡി",
         "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "ഭാഗങ്ങളുടെ എണ്ണം",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "പ്രവർത്തികൾ",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "മുന്നറിയിപ്പ്: ഭാഗങ്ങളുമായി സെർവർ ഇതുവരെ പ്രതികരിച്ചിട്ടില്ല. ഈ വീഡിയോയിൽ ഇതിനകം സമർപ്പിച്ചിരിക്കുന്ന ഭാഗങ്ങൾ യഥാർത്ഥത്തിൽ ഉണ്ടായിരിക്കാം, എന്നാൽ സെർവറിലെ പ്രശ്‌നങ്ങൾ കാരണം നിങ്ങൾക്ക് അവ ലഭിച്ചിട്ടുണ്ടാവില്ല."
     },
     "Original": {
         "message": "ഒറിജിനൽ"
@@ -654,14 +739,33 @@
     "CurrentTime": {
         "message": "നിലവിലെ സമയം"
     },
+    "TitleCase": {
+        "message": "തലക്കെട്ട് കേസ്"
+    },
+    "SentenceCase": {
+        "message": "ശിക്ഷാ കേസ്"
+    },
     "LowerCase": {
         "message": "ചെറിയക്ഷരം"
+    },
+    "FirstLetterUppercase": {
+        "message": "ആദ്യ അക്ഷരം വലിയക്ഷരം"
+    },
+    "showABlankBox": {
+        "message": "ഒരു ശൂന്യ ബോക്സ് കാണിക്കുക"
+    },
+    "AutoGenerated": {
+        "message": "യൂട്യൂബ് സ്വയമേവ സൃഷ്‌ടിച്ച ഒരു ലഘുചിത്രം കാണിക്കുക",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
         "message": "തുടക്കം"
     },
     "Middle": {
         "message": "മദ്ധ്യം"
+    },
+    "keepUnsubmitted": {
+        "message": "സമർപ്പിച്ച വോട്ടുകൾ സംഭരിക്കുക"
     },
     "onAllPages": {
         "message": "എല്ലാ പേജുകളിലും",
