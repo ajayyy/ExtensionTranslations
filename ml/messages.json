@@ -118,6 +118,9 @@
     "closePopup": {
         "message": "പോപ്പ്അപ്പ് അടയ്‌ക്കുക"
     },
+    "OpenSubmissionMenu": {
+        "message": "സമർപ്പണ മെനു തുറക്കുക"
+    },
     "sortSegments": {
         "message": "ഭാഗങ്ങൾ തരം തിരിക്കുക"
     },
@@ -237,6 +240,14 @@
     },
     "setSkipShortcut": {
         "message": "ഭാഗം സ്കിപ് ചെയ്യുക",
+        "description": "Keybind label"
+    },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "സമർപ്പണ മെനു തുറക്കുക",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "സെഗ്‌മെന്റുകൾ സമർപ്പിക്കുക",
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
