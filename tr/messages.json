@@ -695,7 +695,7 @@
         "message": "Bitiş kartları ekranda olsa bile içerik eklemeyin"
     },
     "category_preview": {
-        "message": "Çıkacak Klipler/Özet/İma",
+        "message": "Ön İzleme/Özet/Kanca",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
