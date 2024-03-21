@@ -767,6 +767,15 @@
     "keepUnsubmitted": {
         "message": "സമർപ്പിച്ച വോട്ടുകൾ സംഭരിക്കുക"
     },
+    "useThumbnailGenerationService": {
+        "message": "ലഘുചിത്ര ജനറേഷൻ സേവനം ഉപയോഗിക്കുക"
+    },
+    "titleMaxLines": {
+        "message": "ശീർഷകത്തിനുള്ള പരമാവധി വരികൾ"
+    },
+    "titleMaxLinesDescription": {
+        "message": "നിർദ്ദേശങ്ങളിൽ വീഡിയോ ശീർഷകങ്ങൾ ഇത്രയധികം വരികളിൽ വ്യാപിക്കും."
+    },
     "onAllPages": {
         "message": "എല്ലാ പേജുകളിലും",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
