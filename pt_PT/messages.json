@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Aviso: Desativar isto excluirá todos os votos negativos armazenados anteriormente"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Armazenar segmento de votos negativos em separadores privados/incógnitos"
+    },
     "enableQueryByHashPrefix": {
         "message": "Consulta por prefixo de hash"
     },
