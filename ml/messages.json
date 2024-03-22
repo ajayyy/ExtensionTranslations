@@ -28,6 +28,10 @@
     "Chapters": {
         "message": "അദ്ധ്യായങ്ങള്‍"
     },
+    "renderAsChapters": {
+        "message": "ഭാഗങ്ങൾ അധ്യായങ്ങളായി തർജ്ജിമചെയ്യുക",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
     "showSegmentNameInChapterBar": {
         "message": "വീഡിയോ സമയത്തിനപ്പുറം നിലവിലെ ഭാഗം കാണിക്കുക"
     },
@@ -217,6 +221,9 @@
     },
     "showSkipNotice": {
         "message": "ഒരു സെഗ്മെന്റ് ഒഴിവാക്കിയതിനുശേഷം അറിയിപ്പ് കാണിക്കുക"
+    },
+    "showCategoryGuidelines": {
+        "message": "വിഭാഗത്തിന്റെ സഹായം കാണിക്കുക"
     },
     "longDescription": {
         "message": "സ്പോൺസർമാർ, ആമുഖങ്ങൾ, ros ട്ട്‌ട്രോകൾ, സബ്‌സ്‌ക്രിപ്‌ഷൻ ഓർമ്മപ്പെടുത്തലുകൾ, YouTube വീഡിയോകളുടെ മറ്റ് ശല്യപ്പെടുത്തുന്ന ഭാഗങ്ങൾ എന്നിവ ഒഴിവാക്കാൻ സ്‌പോൺസർബ്ലോക്ക് നിങ്ങളെ അനുവദിക്കുന്നു. സ്പോൺ‌സർ‌ബ്ലോക്ക് ഒരു ക്ര crow ഡ്സോഴ്സ്ഡ് ബ്ര browser സർ എക്സ്റ്റൻഷനാണ്, ഇത് സ്പോൺസർ ചെയ്ത സെഗ്‌മെന്റുകളുടെയും YouTube വീഡിയോകളുടെ മറ്റ് സെഗ്‌മെൻറുകളുടെയും ആരംഭ, അവസാന സമയങ്ങൾ സമർപ്പിക്കാൻ ആരെയും അനുവദിക്കുക. ഒരു വ്യക്തി ഈ വിവരങ്ങൾ‌ സമർപ്പിച്ചുകഴിഞ്ഞാൽ‌, ഈ വിപുലീകരണമുള്ള മറ്റെല്ലാവരും സ്പോൺ‌സർ‌ ചെയ്‌ത സെഗ്‌മെൻറിനെ മറികടക്കും. സംഗീത വീഡിയോകളുടെ സംഗീതേതര വിഭാഗങ്ങളും നിങ്ങൾക്ക് ഒഴിവാക്കാം.",
@@ -557,8 +564,14 @@
     "disable": {
         "message": "പ്രവർത്തനരഹിതമാക്കുക"
     },
+    "manualSkip_POI": {
+        "message": "വീഡിയോ ലോഡുചെയ്യുമ്പോൾ ചോദിക്കുക"
+    },
     "showOverlay_POI": {
         "message": "സീക്ക് ബാറിൽ കാണിക്കുക"
+    },
+    "showOverlay_full": {
+        "message": "ലേബൽ കാണിക്കുക"
     },
     "showOverlay_chapter": {
         "message": "അധ്യായങ്ങൾ കാണിക്കുക"
@@ -615,6 +628,18 @@
     "hiddenDueToDuration": {
         "message": "മറഞ്ഞിരിക്കുന്നു: വളരെ ചെറുതാണ്"
     },
+    "manuallyHidden": {
+        "message": "സ്വമേധയാ മറച്ചിരിക്കുന്നു"
+    },
+    "acceptPermission": {
+        "message": "അനുമതി സ്വീകരിക്കുക"
+    },
+    "permissionRequestSuccess": {
+        "message": "അനുമതി അഭ്യർത്ഥന വിജയിച്ചു!"
+    },
+    "permissionRequestFailed": {
+        "message": "അനുമതി അഭ്യർത്ഥന പരാജയപ്പെട്ടു, നിങ്ങൾ നിരസിക്കുക എന്നതിൽ ക്ലിക്ക് ചെയ്തോ?"
+    },
     "forceChannelCheck": {
         "message": "ഒഴിവാക്കുന്നതിനുമുമ്പ് ചാനൽ പരിശോധന നിർബന്ധിക്കുക"
     },
@@ -630,6 +655,9 @@
     "harmfulVote": {
         "message": "ഹാനികരമായത്",
         "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
+    },
+    "incorrectCategory": {
+        "message": "വിഭാഗം മാറ്റുക"
     },
     "nonMusicCategoryOnMusic": {
         "message": "ഈ വീഡിയോയെ സംഗീതമായി വർഗ്ഗീകരിച്ചിരിക്കുന്നു. ഇതിന് ഒരു സ്പോൺസർ ഉണ്ടെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് യഥാർത്ഥത്തിൽ \"സംഗീതേതര വിഭാഗമാണ്\" എങ്കിൽ, വിപുലീകരണ ഓപ്ഷനുകൾ തുറന്ന് ഈ വിഭാഗം പ്രാപ്തമാക്കുക. തുടർന്ന്, സ്പോൺസറിന് പകരം \"നോൺ-മ്യൂസിക്\" എന്ന് നിങ്ങൾക്ക് ഈ സെഗ്മെന്റ് സമർപ്പിക്കാൻ കഴിയും. നിങ്ങൾ ആശയക്കുഴപ്പത്തിലാണെങ്കിൽ ദയവായി മാർഗ്ഗനിർദ്ദേശങ്ങൾ വായിക്കുക."
@@ -679,6 +707,10 @@
     "hourAbbreviation": {
         "message": "മണി",
         "description": "100h"
+    },
+    "optionsTabInterface": {
+        "message": "ഇൻ്റർഫേസ്",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "change": {
         "message": "മാറ്റുക"
@@ -741,14 +773,42 @@
         "message": "പ്രവർത്തികൾ",
         "description": "Header of the unsubmitted segments list"
     },
+    "exportSegmentsAsURL": {
+        "message": "യുആർഎൽ ആയി പങ്കിടുക"
+    },
     "segmentFetchFailureWarning": {
         "message": "മുന്നറിയിപ്പ്: ഭാഗങ്ങളുമായി സെർവർ ഇതുവരെ പ്രതികരിച്ചിട്ടില്ല. ഈ വീഡിയോയിൽ ഇതിനകം സമർപ്പിച്ചിരിക്കുന്ന ഭാഗങ്ങൾ യഥാർത്ഥത്തിൽ ഉണ്ടായിരിക്കാം, എന്നാൽ സെർവറിലെ പ്രശ്‌നങ്ങൾ കാരണം നിങ്ങൾക്ക് അവ ലഭിച്ചിട്ടുണ്ടാവില്ല."
     },
     "Original": {
         "message": "ഒറിജിനൽ"
     },
+    "OriginalTitle": {
+        "message": "യഥാർത്ഥ തലക്കെട്ട്"
+    },
     "CurrentTime": {
         "message": "നിലവിലെ സമയം"
+    },
+    "resetCustomTitle": {
+        "message": "ശീർഷകം യഥാർത്ഥ വാചകത്തിലേക്ക് പുനഃക്രമീകരിക്കുക"
+    },
+    "resetIcon": {
+        "message": "ഐക്കൺ പുനഃക്രമീകരിക്കുക"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "നിങ്ങളുടെ സ്വന്തം തലക്കെട്ട് ഇവിടെ ടൈപ്പുചെയ്യുക"
+    },
+    "VideoNotReady": {
+        "message": "വീഡിയോ തയ്യാറായിട്ടില്ല"
+    },
+    "FailedToLoad": {
+        "message": "ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "പ്രവർത്തന രഹിതമാണ്‌"
+    },
+    "CapitalizeWords": {
+        "message": "വാക്കുകൾ വലിയക്ഷരമാക്കുക"
     },
     "TitleCase": {
         "message": "തലക്കെട്ട് കേസ്"
@@ -761,6 +821,21 @@
     },
     "FirstLetterUppercase": {
         "message": "ആദ്യ അക്ഷരം വലിയക്ഷരം"
+    },
+    "shouldCleanEmojis": {
+        "message": "ഇമോജികൾ നീക്കം ചെയ്യുക"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "ഇംഗ്ലീഷ് ഇതര തലക്കെട്ടുകൾക്കുള്ള വാക്കുകൾ വലിയക്ഷരമാക്കുക"
+    },
+    "thumbnailFallbackOption": {
+        "message": "സമർപ്പിച്ച ലഘുചിത്രം നിലവിലില്ലാത്തപ്പോൾ"
+    },
+    "RandomTime": {
+        "message": "ക്രമാനുസൃതമല്ലാത്ത സമയത്തിൽ നിന്നുള്ള ഒരു സ്ക്രീൻഷോട്ട് കാണിക്കുക"
+    },
+    "TheOriginalThumbnail": {
+        "message": "യഥാർത്ഥ ലഘുചിത്രം കാണിക്കുക"
     },
     "showABlankBox": {
         "message": "ഒരു ശൂന്യ ബോക്സ് കാണിക്കുക"
@@ -791,6 +866,19 @@
         "message": "എല്ലാ പേജുകളിലും",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
+    "onAllPagesExceptVideo": {
+        "message": "വീഡിയോ പേജുകൾ ഒഴികെ എല്ലാ പേജുകളിലും",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "എല്ലായ്പ്പോഴും \"ഒറിജിനൽ കാണിക്കുക\" ബട്ടൺ പ്രദർശിപ്പിക്കുക"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "ഒരു ശീർഷകം/ലഘുചിത്രം മാറിയിട്ടുണ്ടോ എന്ന് നിങ്ങൾക്ക് എപ്പോഴും അറിയണമെങ്കിൽ, ഇത് പ്രവർത്തനക്ഷമമാക്കുക."
+    },
+    "Enable": {
+        "message": "പ്രവർത്തനക്ഷമമാക്കുക"
+    },
     "Titles": {
         "message": "തലക്കെട്ട്",
         "description": "Referring to titles of YouTube videos"
@@ -798,6 +886,23 @@
     "Thumbnails": {
         "message": "ലഘുചിത്രങ്ങൾ",
         "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "എറർ"
+    },
+    "ShowOriginal": {
+        "message": "യഥാർത്ഥ വിശദാംശങ്ങൾ കാണിക്കുക"
+    },
+    "ShowModified": {
+        "message": "പരിഷ്കരിച്ച വിശദാംശങ്ങൾ കാണിക്കുക"
+    },
+    "chatboxDescription": {
+        "message": "ഈ ചാറ്റിൽ സ്ഥിരമായി തുടരാൻ ഡിസ്കോഡ് അല്ലെങ്കിൽ മാട്രിക്സിൽ ചേരുക",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "tip1": {
+        "message": "അതിശയോക്തി കലർന്ന മുഖഭാവങ്ങൾ ഒഴിവാക്കുക",
+        "description": "Referring to the thumbnail of a video"
     },
     "tip5": {
         "message": "ഒരു വാചകം പോലെ വലിയക്ഷരമാക്കുക",
