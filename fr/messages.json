@@ -309,6 +309,10 @@
         "message": "Soumettre les segments",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Aperçu du segment",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Fermer l'alerte de saut",
         "description": "Keybind label"
@@ -1347,6 +1351,10 @@
     "keepUnsubmitted": {
         "message": "Stocker les votes soumis"
     },
+    "showLiveCover": {
+        "message": "Afficher l'avatar de la chaine sur les vidéos à venir",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Ne jamais utiliser les miniatures des tests A/B"
     },
@@ -1647,5 +1655,13 @@
     },
     "storageFull": {
         "message": "Le stockage de l'extension est plein. Veuillez supprimer certains segments non soumis dans les options."
+    },
+    "previewSegmentRequired": {
+        "message": "Veuillez prévisualiser vos segments avant de les soumettre. Vous pouvez le faire en cliquant sur le bouton de prévisualisation ou en utilisant le raccourci suivant :",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Agir en tant que VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
