@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Uwaga: Wyłączenie tego usunie wszystkie poprzednio zapisane łapki w dół"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Zapisuj segmenty z łapką w dół na kartach prywatnych / w trybie incognito"
+    },
     "enableQueryByHashPrefix": {
         "message": "Zapytanie według prefiksu Hash"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Wypróbuj za darmo"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Nie możesz głosować podczas darmowego okresu próbnego",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Pomyślnie zarejestrowano w celu uzyskania bezpłatnego dostępu. Poczekaj na powiadomienie, aż bezpłatny dostęp zostanie przyznany."

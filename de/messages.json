@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Speichere Downvotes von Segmenten in privaten/Inkognito-Tabs"
+    },
     "enableQueryByHashPrefix": {
         "message": "Abfrage nach Hash-Präfix"
     },
@@ -1477,7 +1480,7 @@
         "message": "So funktioniert es"
     },
     "discordPromotion": {
-        "message": "Bring dich mit ein, mach Vorschläge und hilf auf {discord} oder {matrix} aus"
+        "message": "Bring dich mit ein, mache Vorschläge und hilf auf {discord} oder {matrix} mit"
     },
     "deArrowDonationText": {
         "message": "Falls dir gefällt, was ich bisher gemacht habe und du mir mit Geld aushelfen willst, ist hier ein Link"
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Gratis Probezeit starten"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Du kannst während der gratis Probezeit nicht abstimmen",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Du hast dich erfolgreich für den kostenlosen Zugriff registriert. Du wirst benachrichtigt, wenn dieser gewährt wird."

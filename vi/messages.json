@@ -1592,10 +1592,6 @@
     "startFreeTrial": {
         "message": "Bắt đầu dùng thử miễn phí"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Bạn không thể bình chọn trong thời gian dùng thử miễn phí",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Bạn đã đăng ký thành công quyền truy cập miễn phí. Bạn sẽ nhận được thông báo khi được cấp quyền truy cập miễn phí."
     },

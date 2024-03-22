@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Aviso: Desativar isto excluirá todos os votos negativos armazenados anteriormente"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Armazenar segmento de votos negativos em separadores privados/incógnitos"
+    },
     "enableQueryByHashPrefix": {
         "message": "Consulta por prefixo de hash"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Iniciar avaliação gratuita"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Você não pode votar durante o teste gratuito",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Você está registrado com sucesso para acesso gratuito. Você será notificado quando o acesso gratuito for concedido."

@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "경고: 사용하지 않으면 이전에 저장된 비추천 구간이 삭제돼요"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "시크릿/사생활 보호 탭에서 비추천한 구간 저장"
+    },
     "enableQueryByHashPrefix": {
         "message": "해시 접두사로 요청 전송"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "무료 체험 시작"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "무료 체험 중에는 투표할 수 없어요",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."

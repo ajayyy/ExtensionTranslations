@@ -22,6 +22,19 @@
     "Segments": {
         "message": "സെഗ്‌മെന്റുകൾ"
     },
+    "SegmentsCap": {
+        "message": "ഭാഗങ്ങൾ"
+    },
+    "Chapters": {
+        "message": "അദ്ധ്യായങ്ങള്‍"
+    },
+    "renderAsChapters": {
+        "message": "ഭാഗങ്ങൾ അധ്യായങ്ങളായി തർജ്ജിമചെയ്യുക",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "വീഡിയോ സമയത്തിനപ്പുറം നിലവിലെ ഭാഗം കാണിക്കുക"
+    },
     "upvoteButtonInfo": {
         "message": "ഈ സമർപ്പണം ഉയർത്തുക"
     },
@@ -48,6 +61,9 @@
     },
     "reskip": {
         "message": "റെസ്കിപ്പ്"
+    },
+    "unmute": {
+        "message": "അൺമ്യൂട്ട് ചെയ്യുക"
     },
     "paused": {
         "message": "താൽക്കാലികമായി നിർത്തി"
@@ -76,8 +92,14 @@
     "sponsorEnd": {
         "message": "സെഗ്മെന്റ് ഇപ്പോൾ അവസാനിക്കുന്നു"
     },
+    "sponsorCancel": {
+        "message": "ഭാഗങ്ങൾ നിർമിക്കുന്നത് റദ്ദാക്കുക"
+    },
     "noVideoID": {
         "message": "YouTube വീഡിയോകളൊന്നും കണ്ടെത്തിയില്ല.\nഇത് തെറ്റാണെങ്കിൽ, ടാബ് പുതുക്കുക."
+    },
+    "refreshSegments": {
+        "message": "ഭാഗങ്ങൾ റിഫ്രഷ് ചെയ്യുക"
     },
     "success": {
         "message": "വിജയം!"
@@ -99,6 +121,12 @@
     },
     "closePopup": {
         "message": "പോപ്പ്അപ്പ് അടയ്‌ക്കുക"
+    },
+    "OpenSubmissionMenu": {
+        "message": "സമർപ്പണ മെനു തുറക്കുക"
+    },
+    "sortSegments": {
+        "message": "ഭാഗങ്ങൾ തരം തിരിക്കുക"
     },
     "submitCheck": {
         "message": "ഇത് സമർപ്പിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"
@@ -139,6 +167,9 @@
     },
     "setUsername": {
         "message": "ഉപയോക്തൃനാമം സജ്ജമാക്കുക"
+    },
+    "copySegmentID": {
+        "message": "ഭാഗത്തിന്റെ ഐഡി കോപ്പി ചെയ്യുക"
     },
     "hideThis": {
         "message": "ഇത് മറയ്ക്കുക"
@@ -191,6 +222,9 @@
     "showSkipNotice": {
         "message": "ഒരു സെഗ്മെന്റ് ഒഴിവാക്കിയതിനുശേഷം അറിയിപ്പ് കാണിക്കുക"
     },
+    "showCategoryGuidelines": {
+        "message": "വിഭാഗത്തിന്റെ സഹായം കാണിക്കുക"
+    },
     "longDescription": {
         "message": "സ്പോൺസർമാർ, ആമുഖങ്ങൾ, ros ട്ട്‌ട്രോകൾ, സബ്‌സ്‌ക്രിപ്‌ഷൻ ഓർമ്മപ്പെടുത്തലുകൾ, YouTube വീഡിയോകളുടെ മറ്റ് ശല്യപ്പെടുത്തുന്ന ഭാഗങ്ങൾ എന്നിവ ഒഴിവാക്കാൻ സ്‌പോൺസർബ്ലോക്ക് നിങ്ങളെ അനുവദിക്കുന്നു. സ്പോൺ‌സർ‌ബ്ലോക്ക് ഒരു ക്ര crow ഡ്സോഴ്സ്ഡ് ബ്ര browser സർ എക്സ്റ്റൻഷനാണ്, ഇത് സ്പോൺസർ ചെയ്ത സെഗ്‌മെന്റുകളുടെയും YouTube വീഡിയോകളുടെ മറ്റ് സെഗ്‌മെൻറുകളുടെയും ആരംഭ, അവസാന സമയങ്ങൾ സമർപ്പിക്കാൻ ആരെയും അനുവദിക്കുക. ഒരു വ്യക്തി ഈ വിവരങ്ങൾ‌ സമർപ്പിച്ചുകഴിഞ്ഞാൽ‌, ഈ വിപുലീകരണമുള്ള മറ്റെല്ലാവരും സ്പോൺ‌സർ‌ ചെയ്‌ത സെഗ്‌മെൻറിനെ മറികടക്കും. സംഗീത വീഡിയോകളുടെ സംഗീതേതര വിഭാഗങ്ങളും നിങ്ങൾക്ക് ഒഴിവാക്കാം.",
         "description": "Full description of the extension on the store pages."
@@ -210,6 +244,30 @@
     "noticeUpdate2": {
         "message": "നിങ്ങൾക്ക് ഇപ്പോഴും ഇഷ്‌ടമായില്ലെങ്കിൽ, ഒരിക്കലും കാണിക്കരുത് ബട്ടൺ അമർത്തുക.",
         "description": "The second line of the message displayed after the notice was upgraded."
+    },
+    "setSkipShortcut": {
+        "message": "ഭാഗം സ്കിപ് ചെയ്യുക",
+        "description": "Keybind label"
+    },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "സമർപ്പണ മെനു തുറക്കുക",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "സെഗ്‌മെന്റുകൾ സമർപ്പിക്കുക",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "ഭാഗം പ്രിവ്യു ചെയ്യുക",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "അടുത്ത അധ്യായം",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "മുമ്പത്തെ അധ്യായം",
+        "description": "Keybind label"
     },
     "0": {
         "message": "കണക്ഷൻ കാലഹരണപ്പെട്ടു. നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ പരിശോധിക്കുക. നിങ്ങളുടെ ഇൻറർനെറ്റ് പ്രവർത്തിക്കുന്നുണ്ടെങ്കിൽ, സെർവർ ഓവർലോഡ് അല്ലെങ്കിൽ ഡ. ൺ ആയിരിക്കാം."
@@ -233,8 +291,22 @@
     "skip": {
         "message": "ഒഴിവാക്കുക"
     },
+    "mute": {
+        "message": "നിശബ്ദമാക്കുക"
+    },
+    "full": {
+        "message": "മുഴുവൻ വിഡിയോയും",
+        "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
+    },
     "skip_category": {
         "message": "{0} ഒഴിവാക്കുക?"
+    },
+    "mute_category": {
+        "message": "നിശ്ശബ്ദമാക്കണോ {0}?"
+    },
+    "muted": {
+        "message": "{0} നിശബ്‍ദമാക്കി",
+        "description": "Example: Sponsor Muted"
     },
     "disableAutoSkip": {
         "message": "യാന്ത്രിക ഒഴിവാക്കൽ പ്രവർത്തനരഹിതമാക്കുക"
@@ -282,6 +354,9 @@
     },
     "createdBy": {
         "message": "ഉണ്ടാക്കിയത്"
+    },
+    "supportedSites": {
+        "message": "പിന്തുണയ്ക്കുന്ന സൈറ്റുകൾ: "
     },
     "optionsInfo": {
         "message": "ആക്രമണാത്മക പിന്തുണ പ്രാപ്തമാക്കുക, ഓട്ടോസ്കിപ്പ് അപ്രാപ്തമാക്കുക, ബട്ടണുകൾ മറയ്ക്കുക എന്നിവയും അതിലേറെയും."
@@ -337,6 +412,12 @@
     "exportOptions": {
         "message": "എല്ലാ ഓപ്ഷനുകളും ഇറക്കുമതി ചെയ്യുക / കയറ്റുമതി ചെയ്യുക"
     },
+    "exportOptionsDownload": {
+        "message": "ഫയലിലേക്ക് സംരക്ഷിക്കുക"
+    },
+    "exportOptionsUpload": {
+        "message": "ഫയലിൽ നിന്നും ലോഡ് ചെയ്യുക"
+    },
     "setOptions": {
         "message": "ഓപ്ഷനുകൾ സജ്ജമാക്കുക"
     },
@@ -360,6 +441,9 @@
     },
     "preview": {
         "message": "പ്രിവ്യൂ"
+    },
+    "unsubmitted": {
+        "message": "സമർപ്പിച്ചിട്ടില്ലാത്തത്"
     },
     "inspect": {
         "message": "പരിശോധിക്കുക"
@@ -389,17 +473,33 @@
     "category_sponsor_description": {
         "message": "പണമടച്ചുള്ള പ്രമോഷൻ, പണമടച്ചുള്ള റഫറലുകൾ, നേരിട്ടുള്ള പരസ്യങ്ങൾ. സ്വയം പ്രൊമോഷനോ അല്ലെങ്കിൽ കാരണങ്ങൾ / സ്രഷ്‌ടാക്കൾ / വെബ്‌സൈറ്റുകൾ / ഉൽപ്പന്നങ്ങൾ എന്നിവയ്‌ക്ക് സ shout ജന്യ ശബ്ദമുയർത്തുന്നതിനോ അല്ല."
     },
+    "category_sponsor_guideline1": {
+        "message": "പണമടച്ചുള്ള പ്രമോഷനുകൾ"
+    },
     "category_selfpromo": {
         "message": "പണമടയ്ക്കാത്ത / സ്വയം പ്രമോഷൻ"
     },
     "category_selfpromo_description": {
         "message": "പണമടയ്ക്കാത്ത അല്ലെങ്കിൽ സ്വയം പ്രമോഷൻ ഒഴികെ \"സ്പോൺസർ\" എന്നതിന് സമാനമാണ്. ചരക്കുകൾ, സംഭാവനകൾ, അല്ലെങ്കിൽ അവർ ആരുമായി സഹകരിച്ചു എന്നതിനെക്കുറിച്ചുള്ള വിവരങ്ങൾ എന്നിവ ഇതിൽ ഉൾപ്പെടുന്നു."
     },
+    "category_exclusive_access_description": {
+        "message": "മുഴുവൻ വീഡിയോകളും ലേബൽ ചെയ്യുന്നതിന് മാത്രം. അവർക്ക് സൗജന്യമോ സബ്‌സിഡിയോ ആയ ആക്‌സസ് ലഭിച്ച ഉൽപ്പന്നമോ സേവനമോ ലൊക്കേഷനോ ഒരു വീഡിയോ കാണിക്കുമ്പോൾ ഉപയോഗിക്കുന്നു."
+    },
+    "category_exclusive_access_pill": {
+        "message": "അവർക്ക് സൗജന്യമോ സബ്‌സിഡിയോ ആയ ആക്‌സസ് ലഭിച്ച ഒരു ഉൽപ്പന്നമോ സേവനമോ ലൊക്കേഷനോ ഈ വീഡിയോ കാണിക്കുന്നു",
+        "description": "Short description for this category"
+    },
     "category_interaction": {
         "message": "ഇന്ററാക്ഷൻ ഓർമ്മപ്പെടുത്തൽ (സബ്‌സ്‌ക്രൈബുചെയ്യുക)"
     },
     "category_interaction_description": {
         "message": "ഉള്ളടക്കത്തിന്റെ മധ്യത്തിൽ ഇഷ്‌ടപ്പെടാനോ സബ്‌സ്‌ക്രൈബുചെയ്യാനോ പിന്തുടരാനോ ഒരു ഹ്രസ്വ ഓർമ്മപ്പെടുത്തൽ ഉണ്ടാകുമ്പോൾ. ഇത് ദൈർഘ്യമേറിയതോ നിർദ്ദിഷ്ടമായതോ ആയ കാര്യങ്ങളാണെങ്കിൽ, അത് സ്വയം പ്രൊമോഷന് കീഴിലായിരിക്കണം."
+    },
+    "category_interaction_guideline1": {
+        "message": "ലൈക്ക് ചെയ്യാനോ സബ്‌സ്‌ക്രൈബ് ചെയ്യാനോ പിന്തുടരാനോ ഉള്ള ചെറിയ ഓർമ്മപ്പെടുത്തലുകൾ"
+    },
+    "category_interaction_guideline2": {
+        "message": "അഭിപ്രായമിടാനുള്ള പരോക്ഷ ഓർമ്മപ്പെടുത്തലുകൾ ഉൾപ്പെടുന്നു"
     },
     "category_interaction_short": {
         "message": "ഇടപെടൽ ഓർമ്മപ്പെടുത്തൽ"
@@ -419,6 +519,12 @@
     "category_outro_description": {
         "message": "ക്രെഡിറ്റുകൾ അല്ലെങ്കിൽ YouTube എൻഡ്‌കാർഡുകൾ ദൃശ്യമാകുമ്പോൾ. വിവരങ്ങളുമായുള്ള നിഗമനങ്ങളിൽ അല്ല."
     },
+    "category_preview_guideline2": {
+        "message": "മുമ്പത്തെ വീഡിയോയുടെ റീക്യാപ്പ്"
+    },
+    "category_filler_short": {
+        "message": "ഫില്ലർ"
+    },
     "category_music_offtopic": {
         "message": "സംഗീതം: സംഗീതേതര വിഭാഗം"
     },
@@ -427,6 +533,18 @@
     },
     "category_music_offtopic_short": {
         "message": "നോൺ-മ്യൂസിക്"
+    },
+    "category_chapter": {
+        "message": "അധ്യായം"
+    },
+    "category_chapter_description": {
+        "message": "ഒരു വീഡിയോയുടെ പ്രധാന ഭാഗങ്ങൾ വിവരിക്കുന്ന ഇഷ്‌ടാനുസൃത പേരുള്ള ചാപ്റ്ററുകൾ."
+    },
+    "category_chapter_guideline2": {
+        "message": "പൊതു വിഭാഗങ്ങൾക്കായി വലിയ അധ്യായങ്ങൾ ഉപയോഗിക്കുക"
+    },
+    "category_chapter_guideline3": {
+        "message": "വലിയവയ്ക്കുള്ളിൽ ചെറിയ അധ്യായങ്ങൾ സ്ഥാപിക്കാം"
     },
     "category_livestream_messages": {
         "message": "ലൈവ്സ്ട്രീം: സംഭാവന / സന്ദേശ വായന"
@@ -445,6 +563,22 @@
     },
     "disable": {
         "message": "പ്രവർത്തനരഹിതമാക്കുക"
+    },
+    "manualSkip_POI": {
+        "message": "വീഡിയോ ലോഡുചെയ്യുമ്പോൾ ചോദിക്കുക"
+    },
+    "showOverlay_POI": {
+        "message": "സീക്ക് ബാറിൽ കാണിക്കുക"
+    },
+    "showOverlay_full": {
+        "message": "ലേബൽ കാണിക്കുക"
+    },
+    "showOverlay_chapter": {
+        "message": "അധ്യായങ്ങൾ കാണിക്കുക"
+    },
+    "previewColor": {
+        "message": "സമർപ്പിക്കാത്ത നിറം",
+        "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
         "message": "ബാർ കളർ തേടുക"
@@ -484,11 +618,27 @@
     "bracketEnd": {
         "message": "(അവസാനിക്കുന്നു)"
     },
+    "End": {
+        "message": "അവസാനം",
+        "description": "Button that skips to the end of a segment"
+    },
     "hiddenDueToDownvote": {
         "message": "മറഞ്ഞിരിക്കുന്നു: താഴേക്ക്"
     },
     "hiddenDueToDuration": {
         "message": "മറഞ്ഞിരിക്കുന്നു: വളരെ ചെറുതാണ്"
+    },
+    "manuallyHidden": {
+        "message": "സ്വമേധയാ മറച്ചിരിക്കുന്നു"
+    },
+    "acceptPermission": {
+        "message": "അനുമതി സ്വീകരിക്കുക"
+    },
+    "permissionRequestSuccess": {
+        "message": "അനുമതി അഭ്യർത്ഥന വിജയിച്ചു!"
+    },
+    "permissionRequestFailed": {
+        "message": "അനുമതി അഭ്യർത്ഥന പരാജയപ്പെട്ടു, നിങ്ങൾ നിരസിക്കുക എന്നതിൽ ക്ലിക്ക് ചെയ്തോ?"
     },
     "forceChannelCheck": {
         "message": "ഒഴിവാക്കുന്നതിനുമുമ്പ് ചാനൽ പരിശോധന നിർബന്ധിക്കുക"
@@ -501,6 +651,13 @@
     },
     "downvoteDescription": {
         "message": "തെറ്റായ / തെറ്റായ സമയം"
+    },
+    "harmfulVote": {
+        "message": "ഹാനികരമായത്",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
+    },
+    "incorrectCategory": {
+        "message": "വിഭാഗം മാറ്റുക"
     },
     "nonMusicCategoryOnMusic": {
         "message": "ഈ വീഡിയോയെ സംഗീതമായി വർഗ്ഗീകരിച്ചിരിക്കുന്നു. ഇതിന് ഒരു സ്പോൺസർ ഉണ്ടെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് യഥാർത്ഥത്തിൽ \"സംഗീതേതര വിഭാഗമാണ്\" എങ്കിൽ, വിപുലീകരണ ഓപ്ഷനുകൾ തുറന്ന് ഈ വിഭാഗം പ്രാപ്തമാക്കുക. തുടർന്ന്, സ്പോൺസറിന് പകരം \"നോൺ-മ്യൂസിക്\" എന്ന് നിങ്ങൾക്ക് ഈ സെഗ്മെന്റ് സമർപ്പിക്കാൻ കഴിയും. നിങ്ങൾ ആശയക്കുഴപ്പത്തിലാണെങ്കിൽ ദയവായി മാർഗ്ഗനിർദ്ദേശങ്ങൾ വായിക്കുക."
@@ -520,5 +677,284 @@
     },
     "categoryUpdate2": {
         "message": "ആമുഖങ്ങൾ, ഉൽ‌പ്പന്നങ്ങൾ‌, ചരക്കുകൾ‌ മുതലായവ ഒഴിവാക്കുന്നതിനുള്ള ഓപ്ഷനുകൾ‌ തുറക്കുക."
+    },
+    "help": {
+        "message": "സഹായം"
+    },
+    "hideForever": {
+        "message": "എന്നേക്കും മറയ്ക്കുക"
+    },
+    "Donate": {
+        "message": "സംഭാവന ചെയ്യുക"
+    },
+    "LearnMore": {
+        "message": "കൂടുതൽ അറിയുക"
+    },
+    "hideSegment": {
+        "message": "ഭാഗം മറയ്ക്കുക"
+    },
+    "skipSegment": {
+        "message": "ഭാഗം സ്കിപ് ചെയ്യുക"
+    },
+    "yearAbbreviation": {
+        "message": "വർ",
+        "description": "100y"
+    },
+    "dayAbbreviation": {
+        "message": "ദിവ",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "മണി",
+        "description": "100h"
+    },
+    "optionsTabInterface": {
+        "message": "ഇൻ്റർഫേസ്",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "change": {
+        "message": "മാറ്റുക"
+    },
+    "exportSegments": {
+        "message": "ഭാഗങ്ങൾ എക്സ്‌പോർട് ചെയ്യുക"
+    },
+    "importSegments": {
+        "message": "ഭാഗങ്ങൾ ഇമ്പോർറ്റ് ചെയ്യു"
+    },
+    "Import": {
+        "message": "ഇമ്പോർട്ട്‌",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "നിങ്ങൾക്ക് നിലവിൽ സമർപ്പിക്കാത്ത ഭാഗങ്ങളൊന്നുമില്ല",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "സമർപ്പിക്കാത്ത ഭാഗം",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "സമർപ്പിക്കാത്ത ഭാഗങ്ങൾ",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "വീഡിയോ",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "വീഡിയോകൾ",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "എല്ലാ ഭാഗങ്ങളും മായ്‌ക്കുക",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "നിങ്ങളുടെ സമർപ്പിക്കാത്ത എല്ലാ ഭാഗങ്ങളും മായ്‌ക്കണമെന്ന് തീർച്ചയാണോ?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "ഭാഗങ്ങൾ പ്രദർശിപ്പിക്കുക",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "ഭാഗങ്ങൾ മറയ്ക്കുക",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "വീഡിയോ ഐഡി",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "ഭാഗങ്ങളുടെ എണ്ണം",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "പ്രവർത്തികൾ",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "യുആർഎൽ ആയി പങ്കിടുക"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "മുന്നറിയിപ്പ്: ഭാഗങ്ങളുമായി സെർവർ ഇതുവരെ പ്രതികരിച്ചിട്ടില്ല. ഈ വീഡിയോയിൽ ഇതിനകം സമർപ്പിച്ചിരിക്കുന്ന ഭാഗങ്ങൾ യഥാർത്ഥത്തിൽ ഉണ്ടായിരിക്കാം, എന്നാൽ സെർവറിലെ പ്രശ്‌നങ്ങൾ കാരണം നിങ്ങൾക്ക് അവ ലഭിച്ചിട്ടുണ്ടാവില്ല."
+    },
+    "Original": {
+        "message": "ഒറിജിനൽ"
+    },
+    "OriginalTitle": {
+        "message": "യഥാർത്ഥ തലക്കെട്ട്"
+    },
+    "CurrentTime": {
+        "message": "നിലവിലെ സമയം"
+    },
+    "resetCustomTitle": {
+        "message": "ശീർഷകം യഥാർത്ഥ വാചകത്തിലേക്ക് പുനഃക്രമീകരിക്കുക"
+    },
+    "resetIcon": {
+        "message": "ഐക്കൺ പുനഃക്രമീകരിക്കുക"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "നിങ്ങളുടെ സ്വന്തം തലക്കെട്ട് ഇവിടെ ടൈപ്പുചെയ്യുക"
+    },
+    "VideoNotReady": {
+        "message": "വീഡിയോ തയ്യാറായിട്ടില്ല"
+    },
+    "FailedToLoad": {
+        "message": "ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "description": "Thumbnail failed to load"
+    },
+    "Disabled": {
+        "message": "പ്രവർത്തന രഹിതമാണ്‌"
+    },
+    "CapitalizeWords": {
+        "message": "വാക്കുകൾ വലിയക്ഷരമാക്കുക"
+    },
+    "TitleCase": {
+        "message": "തലക്കെട്ട് കേസ്"
+    },
+    "SentenceCase": {
+        "message": "ശിക്ഷാ കേസ്"
+    },
+    "LowerCase": {
+        "message": "ചെറിയക്ഷരം"
+    },
+    "FirstLetterUppercase": {
+        "message": "ആദ്യ അക്ഷരം വലിയക്ഷരം"
+    },
+    "shouldCleanEmojis": {
+        "message": "ഇമോജികൾ നീക്കം ചെയ്യുക"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "ഇംഗ്ലീഷ് ഇതര തലക്കെട്ടുകൾക്കുള്ള വാക്കുകൾ വലിയക്ഷരമാക്കുക"
+    },
+    "thumbnailFallbackOption": {
+        "message": "സമർപ്പിച്ച ലഘുചിത്രം നിലവിലില്ലാത്തപ്പോൾ"
+    },
+    "RandomTime": {
+        "message": "ക്രമാനുസൃതമല്ലാത്ത സമയത്തിൽ നിന്നുള്ള ഒരു സ്ക്രീൻഷോട്ട് കാണിക്കുക"
+    },
+    "TheOriginalThumbnail": {
+        "message": "യഥാർത്ഥ ലഘുചിത്രം കാണിക്കുക"
+    },
+    "showABlankBox": {
+        "message": "ഒരു ശൂന്യ ബോക്സ് കാണിക്കുക"
+    },
+    "AutoGenerated": {
+        "message": "യൂട്യൂബ് സ്വയമേവ സൃഷ്‌ടിച്ച ഒരു ലഘുചിത്രം കാണിക്കുക",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
+    "Start": {
+        "message": "തുടക്കം"
+    },
+    "Middle": {
+        "message": "മദ്ധ്യം"
+    },
+    "keepUnsubmitted": {
+        "message": "സമർപ്പിച്ച വോട്ടുകൾ സംഭരിക്കുക"
+    },
+    "useThumbnailGenerationService": {
+        "message": "ലഘുചിത്ര ജനറേഷൻ സേവനം ഉപയോഗിക്കുക"
+    },
+    "titleMaxLines": {
+        "message": "ശീർഷകത്തിനുള്ള പരമാവധി വരികൾ"
+    },
+    "titleMaxLinesDescription": {
+        "message": "നിർദ്ദേശങ്ങളിൽ വീഡിയോ ശീർഷകങ്ങൾ ഇത്രയധികം വരികളിൽ വ്യാപിക്കും."
+    },
+    "onAllPages": {
+        "message": "എല്ലാ പേജുകളിലും",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "വീഡിയോ പേജുകൾ ഒഴികെ എല്ലാ പേജുകളിലും",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "എല്ലായ്പ്പോഴും \"ഒറിജിനൽ കാണിക്കുക\" ബട്ടൺ പ്രദർശിപ്പിക്കുക"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "ഒരു ശീർഷകം/ലഘുചിത്രം മാറിയിട്ടുണ്ടോ എന്ന് നിങ്ങൾക്ക് എപ്പോഴും അറിയണമെങ്കിൽ, ഇത് പ്രവർത്തനക്ഷമമാക്കുക."
+    },
+    "Enable": {
+        "message": "പ്രവർത്തനക്ഷമമാക്കുക"
+    },
+    "Titles": {
+        "message": "തലക്കെട്ട്",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "ലഘുചിത്രങ്ങൾ",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "എറർ"
+    },
+    "ShowOriginal": {
+        "message": "യഥാർത്ഥ വിശദാംശങ്ങൾ കാണിക്കുക"
+    },
+    "ShowModified": {
+        "message": "പരിഷ്കരിച്ച വിശദാംശങ്ങൾ കാണിക്കുക"
+    },
+    "chatboxDescription": {
+        "message": "ഈ ചാറ്റിൽ സ്ഥിരമായി തുടരാൻ ഡിസ്കോഡ് അല്ലെങ്കിൽ മാട്രിക്സിൽ ചേരുക",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "tip1": {
+        "message": "അതിശയോക്തി കലർന്ന മുഖഭാവങ്ങൾ ഒഴിവാക്കുക",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip5": {
+        "message": "ഒരു വാചകം പോലെ വലിയക്ഷരമാക്കുക",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "howItWorks": {
+        "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു"
+    },
+    "privacyPolicy": {
+        "message": "സ്വകാര്യതാ നയം"
+    },
+    "termsOfUse": {
+        "message": "ഉപയോഗ നിബന്ധനകൾ"
+    },
+    "openSourceLicenses": {
+        "message": "ഓപ്പൺ സോഴ്‌സ് ലൈസൻസുകൾ"
+    },
+    "replaceThumbnails": {
+        "message": "ലഘുചിത്രങ്ങൾ മാറ്റുക"
+    },
+    "requiresUblock": {
+        "message": "യുബ്ലോക്ക് ഒറിജിൻ ആവശ്യമാണ്"
+    },
+    "freeTrialEnded": {
+        "message": "നിങ്ങളുടെ സൗജന്യ ട്രയൽ അവസാനിച്ചിരിക്കുന്നു"
+    },
+    "freeTrialPrompt": {
+        "message": "നിങ്ങൾക്ക് ഇത് പരീക്ഷിക്കാൻ താൽപ്പര്യമുണ്ടെങ്കിൽ, ചുവടെയുള്ള ബട്ടൺ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഒരു സൗജന്യ ട്രയൽ ആരംഭിക്കാം."
+    },
+    "startFreeTrial": {
+        "message": "സൗജന്യ ട്രയൽ ആരംഭിക്കുക"
+    },
+    "freeAccessRequested": {
+        "message": "സൗജന്യ പ്രവേശനത്തിനായി നിങ്ങൾ വിജയകരമായി രജിസ്റ്റർ ചെയ്തിരിക്കുന്നു. സൗജന്യ ആക്സസ് അനുവദിക്കുമ്പോൾ നിങ്ങളെ അറിയിക്കുന്നതാണ്."
+    },
+    "freeAccessComplete": {
+        "message": "അഭിനന്ദനങ്ങൾ! നിങ്ങൾക്ക് ഇപ്പോൾ ഡീആരോവിലേക്ക് സൗജന്യ ആക്സസ് ലഭിച്ചിരിക്കുന്നു"
+    },
+    "ActivateDeArrow": {
+        "message": "ഡിആരോ ആക്റ്റവേറ്റ് ചെയ്യുക"
+    },
+    "Close": {
+        "message": "അടയ്ക്കുക"
+    },
+    "ViewLicenseKey": {
+        "message": "ലൈസൻസ് കീ കാണുക"
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "സ്റ്റോറേജ് ഇല്ലാതെ ഡീആരോ പ്രവർത്തിക്കില്ല."
+    },
+    "actAsVip": {
+        "message": "വി ഐ പി ആയി പ്രവർത്തിക്കുക",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }

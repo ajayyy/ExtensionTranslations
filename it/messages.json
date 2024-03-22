@@ -1617,10 +1617,6 @@
     "startFreeTrial": {
         "message": "Avvia la prova gratuita"
     },
-    "youCannotVoteDuringTrial": {
-        "message": "Non puoi votare durante la prova gratuita",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
-    },
     "freeAccessRequested": {
         "message": "Ti sei registrato correttamente per l'accesso gratuito. Riceverai una notifica quando sarà concesso l'accesso gratuito."
     },

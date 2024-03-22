@@ -220,13 +220,16 @@
         "message": "Zapnúť počítanie preskočení v inkognito oknách"
     },
     "enableTrackDownvotes": {
-        "message": "Uložiť segmenty, ktoré boli downvotované"
+        "message": "Uložiť hlasovania proti"
     },
     "whatTrackDownvotes": {
-        "message": "Všetky segmenty, ktoré znížite, zostanú skryté aj po obnovení"
+        "message": "Všetky segmenty, ku ktorým zahlasujete proti, zostanú skryté aj po obnovení stránky"
     },
     "trackDownvotesWarning": {
-        "message": "Varovanie: Vypnutím tejto funkcie sa vymažú všetky predtým uložené downvoty"
+        "message": "Varovanie: Vypnutím tohoto nastavenia sa zmažú všetky predtým uložené hlasovania proti"
+    },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Uloží hlasovania proti zo súkromných/inkognito záložiek"
     },
     "enableQueryByHashPrefix": {
         "message": "Dopyt podľa hash prefixu"
@@ -1428,10 +1431,6 @@
     },
     "startFreeTrial": {
         "message": "Začať skúšobné obdobie"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Počas skúšobnej doby nie je možné hlasovať",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Úspešne ste sa zaregistrovali pre prístup zdarma. Po aktivácii vám príde oznámenie."

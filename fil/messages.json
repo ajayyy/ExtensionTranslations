@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock para YouTube - I-skip ang mga Sponsorships",
+        "message": "SponsorBlock para sa YouTube - I-skip ang mga Sponsorships",
         "description": "Name of the extension."
     },
     "Description": {
@@ -131,7 +131,7 @@
         "message": "Mga submissions"
     },
     "savedPeopleFrom": {
-        "message": "Nai-save mo ang mga tao mula sa "
+        "message": "Na i-save mo ang mga tao mula sa "
     },
     "viewLeaderboard": {
         "message": "Mga leaderboard"
@@ -148,6 +148,9 @@
     "hideThis": {
         "message": "Itago ito"
     },
+    "Options": {
+        "message": "Mga options"
+    },
     "website": {
         "message": "Website",
         "description": "Used on Firefox Store Page"
@@ -160,11 +163,23 @@
         "message": "I-skip yung segment",
         "description": "Keybind label"
     },
+    "setStartSponsorShortcut": {
+        "message": "I-simula o I-tigil yung segment",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "I-submit ang mga segments",
+        "description": "Keybind label"
+    },
     "skip": {
         "message": "I-skip"
     },
     "mute": {
         "message": "I-mute"
+    },
+    "full": {
+        "message": "Full Video",
+        "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
         "message": "I-skip yung {0}?"
@@ -176,9 +191,29 @@
         "message": "I-skip sa {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "skipped": {
+        "message": "Na I-skip ng {0}",
+        "description": "Example: Sponsor Skipped"
+    },
+    "muted": {
+        "message": "Na I-mute ng {0}",
+        "description": "Example: Sponsor Muted"
+    },
     "skipped_to_category": {
         "message": "Na I-skip sa {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "minLower": {
+        "message": "minuto"
+    },
+    "minsLower": {
+        "message": "minuto"
+    },
+    "hourLower": {
+        "message": "oras"
+    },
+    "hoursLower": {
+        "message": "oras"
     },
     "save": {
         "message": "I-save"
@@ -201,6 +236,12 @@
     "submit": {
         "message": "I-submit"
     },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "delete": {
+        "message": "I-delete"
+    },
     "edit": {
         "message": "I-edIt"
     },
@@ -211,6 +252,9 @@
     "CopiedExclamation": {
         "message": "Nakopya!",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
+    "category_sponsor": {
+        "message": "Sponsor"
     },
     "category_selfpromo_guideline1": {
         "message": "Mga donasyon, membership, at custom merch"
@@ -227,6 +271,12 @@
     "category_interaction_description": {
         "message": "Kapag may paalala na mag-like, mag-subscribe o sundan sila sa gitna ng content. Kung ito ay mahaba o tungkol sa isang partikular na bagay, dapat itong lagyan ng label sa ilalim ng \"sariling promosyon\" sa halip."
     },
+    "category_intro_short": {
+        "message": "Intermisyon"
+    },
+    "category_poi_highlight": {
+        "message": "Highlight"
+    },
     "category_chapter": {
         "message": "Mga chapters"
     },
@@ -241,6 +291,12 @@
     },
     "chooseACategory": {
         "message": "Pumili ng kategorya"
+    },
+    "incorrectVote": {
+        "message": "Mali"
+    },
+    "guidelines": {
+        "message": "Mga Guidelines"
     },
     "readTheGuidelines": {
         "message": "Basain mo yung Guidelines muna!!",
@@ -275,6 +331,10 @@
         "message": "Kasalukuyan kang mayroong {0} sa {1}",
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
+    "videosSingular": {
+        "message": "video",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
     "videosPlural": {
         "message": "ng mga videos",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
@@ -283,9 +343,17 @@
         "message": "I-clear lahat ng segments",
         "description": "Label for a button in settings"
     },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Sigurado ka na i-clear lahat ng mga segments na hindi mo pa na i-submit?",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
     "hideUnsubmittedSegments": {
         "message": "Itago ng mga segments",
         "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "shouldCleanEmojis": {
         "message": "I-tangal ng mga emojis"
@@ -296,5 +364,8 @@
     },
     "requiresUblock": {
         "message": "I-require ng uBlock Origin"
+    },
+    "Close": {
+        "message": "I-close"
     }
 }

@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Uyarı: Bu ayarı devre dışı bırakırsanız, halihazırda saklanan olumsuz oylar silinecek"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Gizli sekmede kısımlar için verilen olumsuz oyları depola"
+    },
     "enableQueryByHashPrefix": {
         "message": "Karma Ön eki ile Sorgula"
     },
@@ -692,7 +695,7 @@
         "message": "Bitiş kartları ekranda olsa bile içerik eklemeyin"
     },
     "category_preview": {
-        "message": "Çıkacak Klipler/Özet/İma",
+        "message": "Çıkacak/Özet/Anlatım Kancası",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Ücretsiz denemeyi başlat"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Ücretsiz deneme süresince oy kullanamazsınız",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Başarı ile bedava erişime kayıt oldun. Bedava erişime sahip olduğunda bu sana bildirilecek."

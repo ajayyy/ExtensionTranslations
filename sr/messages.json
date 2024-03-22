@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Упозорење: Онемогућавање овога ће избрисати све претходно сачуване гласове против"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Чувај гласове против у приватним/инкогнито картицама"
+    },
     "enableQueryByHashPrefix": {
         "message": "Упит по префиксу хеша"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Започни бесплатни пробни период"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Не можете гласати током бесплатног пробног периода",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Успешно сте регистровани за бесплатан приступ. Бићете обавештени када се одобри бесплатан приступ."

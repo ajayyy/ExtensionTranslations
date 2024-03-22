@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Внимание: Деактивирането на това ще изтрие всички по-рано запазени отрицателни гласове"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Съхраняване на гласовете против за сегменти в частни/инкогнито раздели"
+    },
     "enableQueryByHashPrefix": {
         "message": "Заявка по префикс на хеш"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Начало на безплатния пробен период"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Не можете да гласувате по време на безплатния пробен период",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Успешно сте регистрирани за безплатен достъп. Ще бъдете уведомени, когато ви бъде предоставен безплатен достъп."

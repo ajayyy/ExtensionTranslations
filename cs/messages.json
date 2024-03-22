@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Varování: Zakázání této možnosti odstraní všechny dříve uložené hlasy proti"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Ukládat hlasy proti segmentům v soukromých/anonymních oknech"
+    },
     "enableQueryByHashPrefix": {
         "message": "Dotaz podle hash předpony"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Spustit bezplatnou zkušební verzi"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "V průběhu zkušební doby nemůžete hlasovat",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Úspěšně jste se zaregistrovali pro bezplatný přístup. Jakmile vám bude udělen přístup, budete upozorněni."

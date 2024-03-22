@@ -178,7 +178,7 @@
         "message": "Копіювати публічний UserID"
     },
     "copySegmentID": {
-        "message": "Копіювати ID сегменту"
+        "message": "Копіювати ID сегмента"
     },
     "hideThis": {
         "message": "Приховати це"
@@ -230,6 +230,9 @@
     },
     "trackDownvotesWarning": {
         "message": "Попередження: вимкнення цієї опції призведе до видалення всіх раніше збережених голосів \"проти\""
+    },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Зберігати голоси \"проти\" сегмента в приватних/анонімних вкладках"
     },
     "enableQueryByHashPrefix": {
         "message": "Пошук по частині хеша"
@@ -310,7 +313,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Передогляд сегменту",
+        "message": "Передогляд сегмента",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Почати пробний період"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Ви не можете голосувати під час безплатного пробного періоду",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Ви успішно зареєстровані для безкоштовного доступу. Ви отримаєте повідомлення про надання безкоштовного доступу."

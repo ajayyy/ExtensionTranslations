@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Предупреждение: Отключение этой настройки удалит все ранее сохранённые оценки"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Хранить голоса против в приватных/инкогнито вкладках"
+    },
     "enableQueryByHashPrefix": {
         "message": "Запрос по префиксу хэша"
     },
@@ -1620,10 +1623,6 @@
     },
     "startFreeTrial": {
         "message": "Попробовать бесплатно"
-    },
-    "youCannotVoteDuringTrial": {
-        "message": "Вы не можете голосовать в пробной версии",
-        "description": "Refers to voting for DeArrow titles and thumbnails"
     },
     "freeAccessRequested": {
         "message": "Вы успешно зарегистрировались на получение бесплатной лицензии. Вы будете уведомлены, когда она будет предоставлена."
