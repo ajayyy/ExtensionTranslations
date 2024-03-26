@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "警告: 無効化するとこれまでの低評価記録がすべて削除されます"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "プライベート/シークレットタブにセグメントの反対票を保存"
+    },
     "enableQueryByHashPrefix": {
         "message": "ハッシュプレフィックスを使って要求"
     },
