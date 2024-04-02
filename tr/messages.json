@@ -695,7 +695,7 @@
         "message": "Bitiş kartları ekranda olsa bile içerik eklemeyin"
     },
     "category_preview": {
-        "message": "Çıkacak/Özet/Anlatım Kancası",
+        "message": "Ön İzleme/Özet/İma",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -765,7 +765,7 @@
         "message": "Bir videonun ana kısımlarını açıklayan özel adlandırılmış bölümler."
     },
     "category_chapter_guideline1": {
-        "message": "Sponsor marka isimlerinden bahsetme"
+        "message": "Sponsor marka isimlerinden bahsetmekten sakının"
     },
     "category_chapter_guideline2": {
         "message": "Genel segmentler için daha büyük bölümler kullanın"
