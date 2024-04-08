@@ -309,6 +309,10 @@
         "message": "Ajukan segmen",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Pratinjau Segmen",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Bab selanjutnya",
         "description": "Keybind label"
@@ -1253,6 +1257,9 @@
     },
     "alwaysShowShowOriginalButton": {
         "message": "Selalu tampilkan tombol \"Tampikan Asli\""
+    },
+    "showOriginalOnHover": {
+        "message": "Lihat Detail Original Saat Diarahkan"
     },
     "tip5": {
         "message": "Besarkan huruf seperti kalimat",
