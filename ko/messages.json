@@ -72,7 +72,7 @@
         "message": "타이머가 정지됨"
     },
     "confirmMSG": {
-        "message": "구간의 길이를 수정하거나 삭제하고 싶다면, 정보 버튼을 클릭하거나 우측 상단에 있는 확장 프로그램 아이콘을 눌러 확장 프로그램 팝업을 열 수 있어요."
+        "message": "구간의 길이를 수정하거나 삭제하고 싶다면, 정보 버튼을 누르거나 우측 상단에 있는 확장 프로그램 아이콘을 눌러 확장 프로그램 팝업을 여세요."
     },
     "clearThis": {
         "message": "정말로 초기화할까요?\n\n"
@@ -313,7 +313,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "구간 미리보기",
+        "message": "구간 미리 보기",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -416,7 +416,7 @@
         "message": "시간"
     },
     "youHaveSavedTime": {
-        "message": "나 덕분에 다른 분이 건너뛴 구간:",
+        "message": "나 덕분에 다른 사람이 건너뛴 구간:",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
@@ -430,7 +430,7 @@
         "message": "비공개 사용자 ID 가져오기/내보내기"
     },
     "whatChangeUserID": {
-        "message": "이 정보를 다른 분께 공개하지 마세요. 이건 비밀번호와 같으며 누구와도 공유해서는 안 되는 정보랍니다. 다른 분이 이 정보를 습득한다면, 나를 사칭할 수도 있어요. 공개 사용자 ID를 찾고 있다면, 팝업 내 클립보드 아이콘을 눌러주세요."
+        "message": "이 정보를 다른 사람에게 공개하지 마세요. 이건 비밀번호와 같으며 누구와도 공유해서는 안 되는 정보랍니다. 다른 사람이 이 정보를 습득한다면, 나를 사칭할 수도 있어요. 공개 사용자 ID를 찾고 있다면, 팝업 내 클립보드 아이콘을 눌러주세요."
     },
     "setUserID": {
         "message": "비공개 사용자 ID 설정"
@@ -442,7 +442,7 @@
         "message": "개발자: "
     },
     "supportOtherSites": {
-        "message": "제3자 YouTube 사이트 지원"
+        "message": "제삼자 YouTube 사이트 지원"
     },
     "supportOtherSitesDescription": {
         "message": "제삼자 YouTube 클라이언트에서도 기능을 지원하도록 해요. 이 기능을 사용하려면 추가 권한을 허용해야 해요.",
@@ -455,7 +455,7 @@
         "message": "Invidious 지원 활성화, 자동 건너뛰기 사용 안 함, 버튼 숨기기 등이 있어요."
     },
     "addInvidiousInstance": {
-        "message": "제3자 클라이언트 인스턴스 추가"
+        "message": "제삼자 클라이언트 인스턴스 추가"
     },
     "addInvidiousInstanceDescription": {
         "message": "맞춤 인스턴스를 추가해요. 도메인 형식으로 되어있어야 해요. 예시: invidious.ajay.app"
