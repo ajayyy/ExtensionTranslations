@@ -1088,7 +1088,7 @@
         "message": "Odtwórz rozdział"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "Użyj scroll'a myszy po najechaniu nad pole edycji, aby szybko dostosować czas. Kombinacje z ctrl'em i shift'em mogą być użyte, aby doszlifować zmiany."
+        "message": "Użyj pokrętła myszy po najechaniu nad pole edycji, aby szybko dostosować czas. Można użyć kombinacji z klawiszami Ctrl lub Shift, aby doszlifować zmiany."
     },
     "categoryPillNewFeature": {
         "message": "Nowość! Zobacz, kiedy film jest w całości sponsorowany lub jest autopromocją"
