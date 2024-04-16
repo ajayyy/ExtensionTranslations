@@ -1320,10 +1320,10 @@
         "message": "Usuń Emoji"
     },
     "onlyTitleCaseInEnglish": {
-        "message": "Zamieniaj słowa na wielkie litery w nie-angielskich tytułach"
+        "message": "Używaj samych wielkich liter w nieanglojęzycznych tytułach"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "Wykrywanie języka nie jest doskonałe i czasami wykrywa angielskie tytuły tak, jakby były w innym języku."
+        "message": "Wykrywanie języka nie jest doskonałe i czasami oznacza angielskie tytuły jako nieanglojęzyczne."
     },
     "thumbnailFallbackOption": {
         "message": "Gdy nie przesłano żadnej miniatury dla filmu"
@@ -1661,10 +1661,10 @@
         "message": "Aby włączyć przechowywanie, przejdź do about:config i ustaw \"webextensions.storage.sync.enabled\" na wartość true."
     },
     "storageFull": {
-        "message": "Pamięć rozszerzenia jest przepełniona. Aby zwolnić miejsce, wyczyść nieprzesłane segmenty w ustawieniach."
+        "message": "Pamięć rozszerzenia jest przepełniona. Wyczyść nieprzesłane segmenty w ustawieniach, aby zwolnić miejsce."
     },
     "previewSegmentRequired": {
-        "message": "Proszę sprawdź swoje segmenty przed przesłaniem. Można to zrobić korzystając z przycisku podglądu lub z następującego skrótu:",
+        "message": "Sprawdź segmenty przed przesłaniem. Można to zrobić korzystając z przycisku „Podgląd” lub z następującego skrótu:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
