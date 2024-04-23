@@ -1308,13 +1308,13 @@
         "message": "Title Case"
     },
     "SentenceCase": {
-        "message": "Sentence Case"
+        "message": "Sentence case"
     },
     "LowerCase": {
-        "message": "Lower Case"
+        "message": "lower case"
     },
     "FirstLetterUppercase": {
-        "message": "First Letter Uppercase"
+        "message": "First letter uppercase"
     },
     "shouldCleanEmojis": {
         "message": "Remove Emojis"
