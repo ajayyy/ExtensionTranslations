@@ -328,6 +328,14 @@
         "message": "Előző fejezet",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "DeArrow engedélyezése/tiltása",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Beküldő menü megnyitása",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Válassz egy billentyűt azzal, hogy lenyomod és válaszd ki a módosító billentyű(ke)t, amiket használni szeretnél."
     },
