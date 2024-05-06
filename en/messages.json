@@ -328,6 +328,14 @@
         "message": "Previous chapter",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Toggle enabling DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Open submission menu",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Select a key by typing it and choose any modifier keys you wish to use."
     },
