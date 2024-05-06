@@ -328,6 +328,14 @@
         "message": "Předchozí kapitola",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Zapnout/vypnout DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Otevřít nabídku příspěvků",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Vyberte klávesu jejím zadáním a zvolte si modifikátory, které chcete použít."
     },
