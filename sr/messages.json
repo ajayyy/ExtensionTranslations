@@ -328,6 +328,14 @@
         "message": "Претходно поглавље",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Укључи/искључи омогућавање DeArrow-а",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Отварање менија за подношење",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Изаберите тастер тако што ћете га откуцати и изабрати било који модификаторски тастер који желите да користите."
     },
