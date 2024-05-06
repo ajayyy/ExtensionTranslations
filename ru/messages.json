@@ -328,6 +328,14 @@
         "message": "Предыдущий эпизод",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Включить/выключить DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Открыть меню отправки",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Нажмите на любую кнопку, чтобы выбрать её, а так же выберите модификаторы, если нужно."
     },
