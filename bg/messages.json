@@ -328,6 +328,14 @@
         "message": "Предишна глава",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Вкл. / Изкл. на DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Отваряне на менюто за изпращане",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Изберете клавиш, като го натиснете, заедно с всички клавишни модификатори, които искате да използвате."
     },
