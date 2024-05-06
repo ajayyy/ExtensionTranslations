@@ -328,6 +328,14 @@
         "message": "Capítulo anterior",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Activando DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Abrir menú de envíos",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Selecciona una tecla escribiéndola y elige las teclas modificadoras que desees utilizar."
     },
