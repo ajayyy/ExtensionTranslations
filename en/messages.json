@@ -328,11 +328,11 @@
         "message": "Previous chapter",
         "description": "Keybind label"
     },
-    "enableDearrowKey": {
+    "enableDeArrowKey": {
         "message": "Toggle enabling DeArrow",
         "description": "Keybind label in DeArrow"
     },
-    "openDearrowMenu": {
+    "openDeArrowMenu": {
         "message": "Open submission menu",
         "description": "Keybind label in DeArrow"
     },
