@@ -328,6 +328,10 @@
         "message": "이전 챕터",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "제출 메뉴 열기",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "등록하고 싶은 키를 눌러주세요. 필요하다면 보조 키를 선택하실 수도 있어요."
     },
