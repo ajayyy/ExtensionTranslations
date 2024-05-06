@@ -328,6 +328,14 @@
         "message": "Попередній розділ",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Перемикач ввімкнення DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Відкрити меню надсилання",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Виберіть клавішу, набравши її та виберіть бажану клавішу-модифікатор."
     },
