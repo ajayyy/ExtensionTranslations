@@ -328,6 +328,14 @@
         "message": "Poprzedni rozdział",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Włącz/wyłącz DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Otwórz menu zgłoszenia",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Wybierz przycisk, wpisując go i wybierz dowolne klucze modyfikujące, których chcesz użyć."
     },
