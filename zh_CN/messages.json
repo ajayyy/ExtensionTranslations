@@ -1404,6 +1404,9 @@
     "thumbnailGeneratorDescription1": {
         "message": "缩略图生成服务通过向远程服务器发送带有视频 ID 的匿名请求，大大加快了缩略图生成速度。然后将生成缩略图，或将已经生成的缩略图从缓存中调出。"
     },
+    "thumbnailGeneratorDescription2": {
+        "message": "如果在视频页面使用，可能会向该服务器泄露未列出的视频 ID 。设置为“在除视频页面之外的所有页面”将避免此问题。另一种选择是部署您自己的缩略图生成服务。"
+    },
     "moreAboutKAnonymity": {
         "message": "关于 K-Anonymity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
