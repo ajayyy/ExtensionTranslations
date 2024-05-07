@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "警告：禁用此功能将删除所有先前保存的差评"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "在私人/隐身标签页中保存片段差评数"
+    },
     "enableQueryByHashPrefix": {
         "message": "按哈希前缀查询"
     },
@@ -309,6 +312,10 @@
         "message": "提交片段",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "片段预览",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "关闭跳过通知",
         "description": "Keybind label"
@@ -320,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "上一章节",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "切换启用 DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "打开提交菜单",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "请按下想绑定的按键。如果您想使用组合快捷键，请勾选左侧的选项。"
@@ -1347,6 +1362,10 @@
     "keepUnsubmitted": {
         "message": "保存已提交的投票"
     },
+    "showLiveCover": {
+        "message": "在即将播放的视频上显示频道头像",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "永不使用经 A/B 测试的缩略图"
     },
@@ -1381,6 +1400,9 @@
     },
     "Never": {
         "message": "从不"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "缩略图生成服务通过向远程服务器发送带有视频 ID 的匿名请求，大大加快了缩略图生成速度。然后将生成缩略图，或将已经生成的缩略图从缓存中调出。"
     },
     "moreAboutKAnonymity": {
         "message": "关于 K-Anonymity",
