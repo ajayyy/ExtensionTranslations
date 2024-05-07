@@ -328,6 +328,10 @@
         "message": "이전 챕터",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "DeArrow 켜기/끄기",
+        "description": "Keybind label in DeArrow"
+    },
     "openDeArrowMenu": {
         "message": "제출 메뉴 열기",
         "description": "Keybind label in DeArrow"
