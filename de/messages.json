@@ -328,6 +328,14 @@
         "message": "Vorheriges Kapitel",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "DeArrow ein/ausschalten",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Einreichungsmenü öffnen",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Wähle eine Taste durch Eingeben aus, und wähle (optional) gewünschte Hilfstasten."
     },
