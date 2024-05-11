@@ -329,7 +329,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Activando DeArrow",
+        "message": "Tecla que activa DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
