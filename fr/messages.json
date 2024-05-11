@@ -328,6 +328,14 @@
         "message": "Chapitre précédent",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Activer/Désactiver DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Ouvrir le menu de contribution",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Sélectionnez une touche en utilisant le clavier et choisissez les touches de modification que vous souhaitez utiliser."
     },
