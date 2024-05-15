@@ -328,6 +328,10 @@
         "message": "Forrige kapitel",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "Åbn indsendelsesmenu",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Vælg en tast ved at trykke på den og vælg de modificeringstaster du ønsker at bruge."
     },
