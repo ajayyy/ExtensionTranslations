@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Názvy videí budou v návrzích rozloženy na tento počet řádků."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Úroveň sytosti náhledů"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Zmenšit výraznost náhledů snížením jejich barvy"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Skrýt podrobnosti při načítání"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Skrýt názvy a náhledy při načítání dat ze serveru. Pokud je tato funkce zakázána, při změně názvů a náhledů uvidíte blikání."
+    },
     "onAllPages": {
         "message": "Na všech stránkách",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
