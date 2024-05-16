@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "Video titles will be spread over this many lines in suggestions."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Thumbnail saturation level"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Make thumbnails less vibrant by reducing their color"
+    },
     "onAllPages": {
         "message": "On All Pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
