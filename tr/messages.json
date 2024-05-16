@@ -328,6 +328,14 @@
         "message": "Önceki bölüm",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "DeArrow'u devreye almayı aç",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Gönderiler menüsünü aç",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Kullanmak istediğiniz tuşu yazın ve kombine etmek istediğiniz tuşları seçin."
     },
@@ -1381,6 +1389,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "Video başlıkları önerilerde bu kadar satıra yayılacaktır."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Küçük resmin renk doyması"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Küçük resimleri, renklerini soldurarak daha az belirgin yap"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Verilerin getirilmesi devam ederken ayrıntıları gizle"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Sunucudan veri çekilirken başlıkları ve küçük resimleri gösterme. Bu seçenek kapalı ise başlıklar ve küçük resimler değiştirilirken ekranda parlamalar olabilir."
     },
     "onAllPages": {
         "message": "Tüm Sayfalarda",
