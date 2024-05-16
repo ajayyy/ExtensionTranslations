@@ -1431,7 +1431,7 @@
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
     "showOriginalOnHover": {
-        "message": "Eredeti tulajdonságok megjelenítése, ha felette van a kurzor"
+        "message": "Eredeti adatok megjelenítése, ha felette van a kurzor"
     },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
@@ -1451,10 +1451,10 @@
         "message": "Hiba"
     },
     "ShowOriginal": {
-        "message": "Eredeti tulajdonságok megjelenítése"
+        "message": "Eredeti adatok megjelenítése"
     },
     "ShowModified": {
-        "message": "Módosított részletek mutatása"
+        "message": "Módosított adatok mutatása"
     },
     "FillerWarning": {
         "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
