@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Наслови видео снимака ће бити распоређени на оволико редова у предлозима."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Ниво засићености сличица"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Учините сличице мање живописним смањењем њихове боје"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Сакриј детаље током прикупљања података"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Сакријте наслове и сличице док се прикупљају подаци са сервера. Ако је онемогућено, видећете треперење када се наслови и сличице мењају."
+    },
     "onAllPages": {
         "message": "На свим страницама",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
