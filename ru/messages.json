@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "Предложенные названия видео будут расположены на этом количестве строк."
     },
+    "hideDetailsWhileFetching": {
+        "message": "Скрыть сведения до получения"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Скрыть оригинальные названия и значки до момента загрузки альтернатив с сервера. Если отключено, сведения будут заменяться по мере их получения, вызывая мерцание."
+    },
     "onAllPages": {
         "message": "На всех страницах",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
