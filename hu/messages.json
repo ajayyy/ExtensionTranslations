@@ -1063,7 +1063,7 @@
         "message": "Tudj meg többet"
     },
     "FullDetails": {
-        "message": "Teljes részletek"
+        "message": "Teljes adatok"
     },
     "CopyDownvoteButtonInfo": {
         "message": "Leszavazza és készít egy helyi másolatot, amit beküldhetsz"
@@ -1395,6 +1395,12 @@
     },
     "whatSaturateThumbnails": {
         "message": "Tedd az indexképeket kevésbé élénkké a színeik csökkentésével"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Adatok elrejtése betöltés közben"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Címek és indexképek elrejtése, amíg az adatok betöltődnek a szerverről. Ha le van tiltva, villanásokat fogsz látni, amikor a címek és indexképek megváltoznak."
     },
     "onAllPages": {
         "message": "Minden oldalon",
