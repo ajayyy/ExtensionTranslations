@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "Заглавията на видеоклиповете ще бъдат разпределени на толкова реда в предложенията."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Ниво на наситеност на миниатюрата"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Прави миниатюрите по-малко ярки, като намалява цвета им"
+    },
     "onAllPages": {
         "message": "На всички страници",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
