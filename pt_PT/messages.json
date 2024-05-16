@@ -1392,6 +1392,12 @@
     "whatSaturateThumbnails": {
         "message": "Tornar as miniaturas menos vibrantes reduzindo a sua cor"
     },
+    "hideDetailsWhileFetching": {
+        "message": "Ocultar detalhes durante a pesquisa"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Oculta títulos e miniaturas durante a obtenção de dados do servidor. Se estiver desativado, os títulos e as miniaturas ficarão intermitentes à medida que forem mudando."
+    },
     "onAllPages": {
         "message": "Em todas as páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
