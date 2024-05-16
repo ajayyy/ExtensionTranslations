@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "A videók címei ennyi sorban lesznek elosztva a javaslatokban."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Indexkép szaturációs szint"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Tedd az indexképeket kevésbé élénkké a színeik csökkentésével"
+    },
     "onAllPages": {
         "message": "Minden oldalon",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
