@@ -87,7 +87,7 @@
         "message": "Kısım bulunamadı"
     },
     "sponsorStart": {
-        "message": "Kısım Şimdi Başlıyor"
+        "message": "Kısmı Şimdi Başlat"
     },
     "sponsorEnd": {
         "message": "Kısım Şimdi Bitiyor"
@@ -442,7 +442,7 @@
         "message": "Oluşturan"
     },
     "supportOtherSites": {
-        "message": "3. Taraf Youtube Sitelerini Destekle"
+        "message": "3. Taraf YouTube Sitelerini Destekle"
     },
     "supportOtherSitesDescription": {
         "message": "3. taraflarca yazılmış YouTube istemcileri desteği. Kullanabilmek için ilave izinler vermelisiniz.",
