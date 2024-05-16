@@ -1390,6 +1390,9 @@
     "titleMaxLinesDescription": {
         "message": "Відео назви будуть поширюватися на стільки рядків в пропозиціях."
     },
+    "hideDetailsWhileFetching": {
+        "message": "Сховати подробиці під час отримання"
+    },
     "onAllPages": {
         "message": "На всіх сторінках",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
