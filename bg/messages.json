@@ -1396,6 +1396,12 @@
     "whatSaturateThumbnails": {
         "message": "Прави миниатюрите по-малко ярки, като намалява цвета им"
     },
+    "hideDetailsWhileFetching": {
+        "message": "Скриване на подробностите при извличане"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Скриване на заглавията и миниатюрите при извличане на данни от сървъра. Ако е деактивирано, заглавията и миниатюрите ще мигат, докато се сменят."
+    },
     "onAllPages": {
         "message": "На всички страници",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
