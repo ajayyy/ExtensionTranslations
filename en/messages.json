@@ -1396,6 +1396,12 @@
     "whatSaturateThumbnails": {
         "message": "Make thumbnails less vibrant by reducing their color"
     },
+    "hideDetailsWhileFetching": {
+        "message": "Hide details while fetching"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Hide titles and thumbnails while fetching data from the server. If disabled, you will experience flashing as the titles and thumbnails change over."
+    },
     "onAllPages": {
         "message": "On All Pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
