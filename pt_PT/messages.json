@@ -1386,6 +1386,12 @@
     "titleMaxLinesDescription": {
         "message": "Os títulos do vídeo serão quebrados por esta quantidade de linhas nas sugestões."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Nível de saturação das miniaturas"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Tornar as miniaturas menos vibrantes reduzindo a sua cor"
+    },
     "onAllPages": {
         "message": "Em todas as páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
