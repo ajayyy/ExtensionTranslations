@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Atenție: Dezactivarea acestei opțiuni va șterge toate downvote-urile stocate anterior"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Stocați voturile negative ale segmentului în file private/incognito"
+    },
     "enableQueryByHashPrefix": {
         "message": "Interogare după Prefix Hash"
     },
@@ -301,8 +304,20 @@
         "message": "Pornește/oprește segmentul",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Deschideți meniul de trimitere",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Predă segmentele",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "Previzualizare segment",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Închideți notificarea de ignorare",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -499,6 +514,9 @@
     "dataFetchingServerAddressDescription": {
         "message": "Adresa folosită pentru a efectua apeluri către serverul de preluare a datelor.\nDacă nu ai propria ta instanță de server, acest lucru nu ar trebui schimbat."
     },
+    "thumbnailCacheServerAddress": {
+        "message": "Adresa serverului cache miniaturi"
+    },
     "save": {
         "message": "Salvează"
     },
@@ -516,6 +534,9 @@
     },
     "exportOptions": {
         "message": "Importă/Exportă Toate Opțiunile"
+    },
+    "exportOtherData": {
+        "message": "Import/Exporta toate celelalte date"
     },
     "exportOptionsCopy": {
         "message": "Editare/Copiere"
@@ -672,6 +693,10 @@
     },
     "category_outro_guideline1": {
         "message": "Nu include conținutul, chiar dacă end card-urile sunt pe ecran"
+    },
+    "category_preview": {
+        "message": "Previzualizare/Recapitulare/Cârlig",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "Colecția de clipuri care arată ce se află în acest videoclip sau alte videoclipuri într-o serie în care toate informațiile sunt repetate mai târziu în videoclip."
@@ -837,6 +862,9 @@
     "youMustSelectACategory": {
         "message": "Trebuie să selectaţi o categorie pentru toate segmentele pe care le trimiteţi!"
     },
+    "bracketStart": {
+        "message": "(Start)"
+    },
     "bracketEnd": {
         "message": "(Sfârșit)"
     },
@@ -942,11 +970,17 @@
     "questionButton": {
         "message": "Am o întrebare"
     },
+    "askAQuestion": {
+        "message": "Pune o întrebare"
+    },
     "warningConfirmButton": {
         "message": "Înțeleg motivul"
     },
     "warningError": {
         "message": "Eroare la încercarea de a confirma avertismentul:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Ați primit un sfat de la un moderator"
     },
     "Donate": {
         "message": "Donează"
@@ -1059,6 +1093,10 @@
     "categoryPillNewFeature": {
         "message": "Nou! Vezi când un videoclip este sponsorizat în întregime sau auto-promovat"
     },
+    "yearAbbreviation": {
+        "message": "Y",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "zile",
         "description": "100d"
@@ -1134,6 +1172,9 @@
     },
     "hideUpsells": {
         "message": "Ascunde opțiunile indisponibile fără o plată suplimentara"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Ascundeți solicitările despre noile funcții"
     },
     "redeem": {
         "message": "Folosește"
@@ -1262,6 +1303,30 @@
     },
     "CapitalizeWords": {
         "message": "Capitalizează cuvintele"
+    },
+    "TitleCase": {
+        "message": "Litere De Titlu"
+    },
+    "SentenceCase": {
+        "message": "Cazul de Sentință"
+    },
+    "LowerCase": {
+        "message": "Literă mică"
+    },
+    "FirstLetterUppercase": {
+        "message": "Prima literă majuscule"
+    },
+    "shouldCleanEmojis": {
+        "message": "Eliminați Emoji"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Scrieți cu majuscule cuvinte pentru titluri care nu sunt în limba engleză"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Detectarea limbii nu este perfectă și detectează unele titluri în limba engleză ca non-engleze."
+    },
+    "thumbnailFallbackOption": {
+        "message": "Când nu există nicio miniatură trimisă"
     },
     "keepUnsubmitted": {
         "message": "Stochează voturile trimise"

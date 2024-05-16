@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Advertencia: Desactivar esto eliminará todos los votos negativos previamente almacenados"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Almacenar los votos negativos de segmentos en pestañas privadas/incognito"
+    },
     "enableQueryByHashPrefix": {
         "message": "Consulta Por Prefijo Hash"
     },
@@ -324,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "Capítulo anterior",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Tecla que activa DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Abrir menú de envíos",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Selecciona una tecla escribiéndola y elige las teclas modificadoras que desees utilizar."

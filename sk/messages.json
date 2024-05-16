@@ -321,6 +321,14 @@
         "message": "Predošlá kapitola",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Prepínač DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Otvoriť menu pre odoslanie segmentov",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Vyberte kláves jeho zadaním a vyberte všetky modifikačné klávesy, ktoré chcete použiť."
     },

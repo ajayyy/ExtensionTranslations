@@ -328,6 +328,14 @@
         "message": "Предыдущий эпизод",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Включить/выключить DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Открыть меню отправки",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Нажмите на любую кнопку, чтобы выбрать её, а так же выберите модификаторы, если нужно."
     },
@@ -420,7 +428,7 @@
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
-        "message": " их жизней",
+        "message": " их жизни",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "statusReminder": {

@@ -204,6 +204,9 @@
     "whatViewTracking": {
         "message": "ഡേറ്റാബേസിലേക്ക് സ്പാം വരില്ലെന്ന് ഉറപ്പുവരുത്തുന്നതിനായി ഉപയോക്താക്കളുടെ സമർപ്പിക്കൽ മറ്റുള്ളവരെ എത്രമാത്രം സഹായിച്ചിട്ടുണ്ടെന്നും അപ്‌വോട്ടുകൾക്കൊപ്പം ഒരു മെട്രിക്കായി ഉപയോഗിച്ചുവെന്നും ഉപയോക്താക്കളെ അറിയിക്കുന്നതിന് നിങ്ങൾ ഒഴിവാക്കിയ സെഗ്‌മെന്റുകൾ ഈ സവിശേഷത ട്രാക്കുചെയ്യുന്നു. നിങ്ങൾ ഒരു സെഗ്മെന്റ് ഒഴിവാക്കുമ്പോഴെല്ലാം വിപുലീകരണം സെർവറിലേക്ക് ഒരു സന്ദേശം അയയ്ക്കുന്നു. കാഴ്ച നമ്പറുകൾ കൃത്യമാകുന്നതിനായി മിക്ക ആളുകളും ഈ ക്രമീകരണം മാറ്റില്ലെന്ന് കരുതുന്നു. :)"
     },
+    "enableTrackDownvotes": {
+        "message": "ഭാഗത്തിൻറെ വിയോജിപ്പുകൾ സൂക്ഷിക്കുക"
+    },
     "enableQueryByHashPrefix": {
         "message": "ഹാഷ് പ്രിഫിക്‌സ് പ്രകാരം അന്വേഷണം"
     },
@@ -467,6 +470,10 @@
         "message": "ടു",
         "description": "Used between segments. Example: 1:20 to 1:30"
     },
+    "CopiedExclamation": {
+        "message": "പകർത്തി!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
     "category_sponsor": {
         "message": "സ്പോൺസർ"
     },
@@ -482,12 +489,18 @@
     "category_selfpromo_description": {
         "message": "പണമടയ്ക്കാത്ത അല്ലെങ്കിൽ സ്വയം പ്രമോഷൻ ഒഴികെ \"സ്പോൺസർ\" എന്നതിന് സമാനമാണ്. ചരക്കുകൾ, സംഭാവനകൾ, അല്ലെങ്കിൽ അവർ ആരുമായി സഹകരിച്ചു എന്നതിനെക്കുറിച്ചുള്ള വിവരങ്ങൾ എന്നിവ ഇതിൽ ഉൾപ്പെടുന്നു."
     },
+    "category_exclusive_access": {
+        "message": "പ്രത്യേകമായ ആക്സസ്"
+    },
     "category_exclusive_access_description": {
         "message": "മുഴുവൻ വീഡിയോകളും ലേബൽ ചെയ്യുന്നതിന് മാത്രം. അവർക്ക് സൗജന്യമോ സബ്‌സിഡിയോ ആയ ആക്‌സസ് ലഭിച്ച ഉൽപ്പന്നമോ സേവനമോ ലൊക്കേഷനോ ഒരു വീഡിയോ കാണിക്കുമ്പോൾ ഉപയോഗിക്കുന്നു."
     },
     "category_exclusive_access_pill": {
         "message": "അവർക്ക് സൗജന്യമോ സബ്‌സിഡിയോ ആയ ആക്‌സസ് ലഭിച്ച ഒരു ഉൽപ്പന്നമോ സേവനമോ ലൊക്കേഷനോ ഈ വീഡിയോ കാണിക്കുന്നു",
         "description": "Short description for this category"
+    },
+    "category_exclusive_access_guideline1": {
+        "message": "മുഴുവൻ വീഡിയോയും സൗജന്യ അല്ലെങ്കിൽ സബ്‌സിഡി ആക്‌സസ് ഉള്ള എന്തെങ്കിലും പ്രദർശിപ്പിക്കുന്നു"
     },
     "category_interaction": {
         "message": "ഇന്ററാക്ഷൻ ഓർമ്മപ്പെടുത്തൽ (സബ്‌സ്‌ക്രൈബുചെയ്യുക)"
@@ -513,17 +526,26 @@
     "category_intro_short": {
         "message": "ഇടവേള"
     },
+    "category_intro_guideline1": {
+        "message": "യഥാർത്ഥ ഉള്ളടക്കം ഇല്ലാത്ത ഇടവേള"
+    },
     "category_outro": {
         "message": "എൻഡ്‌കാർഡുകൾ / ക്രെഡിറ്റുകൾ"
     },
     "category_outro_description": {
         "message": "ക്രെഡിറ്റുകൾ അല്ലെങ്കിൽ YouTube എൻഡ്‌കാർഡുകൾ ദൃശ്യമാകുമ്പോൾ. വിവരങ്ങളുമായുള്ള നിഗമനങ്ങളിൽ അല്ല."
     },
+    "category_preview_guideline1": {
+        "message": "പിന്നീടോ, ഭാവി വിഡിയോയിലോ ദൃശ്യമാകുന്ന ക്ലിപ്പുകൾ"
+    },
     "category_preview_guideline2": {
         "message": "മുമ്പത്തെ വീഡിയോയുടെ റീക്യാപ്പ്"
     },
     "category_filler_short": {
         "message": "ഫില്ലർ"
+    },
+    "category_filler_guideline2": {
+        "message": "ശ്രദ്ധതിരിക്കുന്നത്, അമ്പരിപ്പിക്കുന്ന തെറ്റുകൾ, റീപ്ലേകൾ"
     },
     "category_music_offtopic": {
         "message": "സംഗീതം: സംഗീതേതര വിഭാഗം"
@@ -533,6 +555,12 @@
     },
     "category_music_offtopic_short": {
         "message": "നോൺ-മ്യൂസിക്"
+    },
+    "category_music_offtopic_guideline1": {
+        "message": "ഔദ്യോഗിക റിലീസുകളിൽ ഇല്ലാത്ത വിഭാഗങ്ങൾ"
+    },
+    "category_music_offtopic_guideline2": {
+        "message": "ഒരു തത്സമയ പ്രകടനത്തിൽ സംഗീതം അല്ലാത്തത്"
     },
     "category_chapter": {
         "message": "അധ്യായം"

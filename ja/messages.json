@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "警告: 無効化するとこれまでの低評価記録がすべて削除されます"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "プライベート/シークレットタブにセグメントの反対票を保存"
+    },
     "enableQueryByHashPrefix": {
         "message": "ハッシュプレフィックスを使って要求"
     },
@@ -324,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "前のチャプター",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "DeArrowの有効状態を切替",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "送信メニューを開く",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "使用したいキーをキーボードで入力し、修飾キーを以下から選択してください。"

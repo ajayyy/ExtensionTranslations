@@ -328,6 +328,10 @@
         "message": "Capítulo anterior",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "Abrir menu de submissão",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Selecione uma tecla, digitando-a e escolha as teclas modificadoras que deseja usar."
     },

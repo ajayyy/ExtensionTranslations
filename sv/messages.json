@@ -328,6 +328,14 @@
         "message": "Föregående kapitel",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Växla aktivering av DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Öppna inskickningsmenyn",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Välj en tangent genom att trycka på den och välj sedan en av modifieringstangenterna som du vill använda."
     },

@@ -328,6 +328,10 @@
         "message": "Edellinen kappale",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "Avaa lähetys-valikko",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Valitse näppäin painamalla sitä ja valitse haluamasi vaihtonäppäin."
     },

@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Attention : Désactiver ceci supprimera tous les contre-votes précédemment enregistrés"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Stocker les votes contre envoyés dans les onglets de navigation privée"
+    },
     "enableQueryByHashPrefix": {
         "message": "Requête par préfixe du hash"
     },
@@ -324,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "Chapitre précédent",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Activer/Désactiver DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Ouvrir le menu de contribution",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Sélectionnez une touche en utilisant le clavier et choisissez les touches de modification que vous souhaitez utiliser."
@@ -1528,6 +1539,10 @@
     },
     "ConfigurationName": {
         "message": "Nom de la configuration"
+    },
+    "ChannelListInstructions": {
+        "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les ID de chaîne et les noms d'affichage sont pris en charge. Les @Utilisateur ne sont pas pris en charge. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne. Elle se situe sur la page de la chaîne, en dessous de son nom.",
+        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Aucune configuration configurée pour l'instant. Cliquez sur le bouton en haut pour ajouter une nouvelle configuration.",

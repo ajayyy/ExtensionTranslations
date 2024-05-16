@@ -32,6 +32,9 @@
         "message": "Vis segmenter som kapitler",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "showSegmentNameInChapterBar": {
+        "message": "Vis gjeldende Segment utenom videotid"
+    },
     "upvoteButtonInfo": {
         "message": "Gi plusstemme til denne innsendingen"
     },
@@ -125,6 +128,9 @@
     "closeIcon": {
         "message": "Lukk ikon"
     },
+    "OpenSubmissionMenu": {
+        "message": "Åpne innsendingsmenyen"
+    },
     "sortSegments": {
         "message": "Sorter Segmenter"
     },
@@ -215,6 +221,18 @@
     },
     "enableViewTrackingInPrivate": {
         "message": "Aktiver telling av antall hopp i privat/inkognito-faner"
+    },
+    "enableTrackDownvotes": {
+        "message": "Lagre segment-downvotes"
+    },
+    "whatTrackDownvotes": {
+        "message": "Alle segmenter du stemmer ned, vil forbli skjult selv etter oppdatering"
+    },
+    "trackDownvotesWarning": {
+        "message": "Advarsel: Deaktivering av dette vil slette alle tidligere lagrede nedstemmer"
+    },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Lagre segment nedstemming i privat-/inkognitofane"
     },
     "enableQueryByHashPrefix": {
         "message": "Forespør ut i fra saltings-prefiks"

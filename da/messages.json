@@ -328,6 +328,10 @@
         "message": "Forrige kapitel",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "Åbn indsendelsesmenu",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Vælg en tast ved at trykke på den og vælg de modificeringstaster du ønsker at bruge."
     },
@@ -351,7 +355,7 @@
         "message": "Fejlkode: "
     },
     "skip": {
-        "message": "Spring Over"
+        "message": "Spring over"
     },
     "mute": {
         "message": "Gør Tavs"
@@ -560,7 +564,7 @@
         "message": "Denne JSON er ikke formateret korrekt. Dine indstillinger er ikke blevet ændret."
     },
     "confirmNoticeTitle": {
-        "message": "Indsend Segment"
+        "message": "Indsend segment"
     },
     "submit": {
         "message": "Indsend"
@@ -1055,7 +1059,7 @@
         "message": "Læs mere"
     },
     "FullDetails": {
-        "message": "Alle Detaljer"
+        "message": "Alle detaljer"
     },
     "CopyDownvoteButtonInfo": {
         "message": "Nedstemmer og opretter en lokal kopi som du kan genindsende"
