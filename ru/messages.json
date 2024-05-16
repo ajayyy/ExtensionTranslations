@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "Предложенные названия видео будут расположены на этом количестве строк."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Уровень насыщенности значков"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Сделать значки менее насыщенными, уменьшив их цвет"
+    },
     "hideDetailsWhileFetching": {
         "message": "Скрыть сведения до получения"
     },
