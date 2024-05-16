@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Thumbnail-Sättigungslevel"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Mache Thumbnails weniger lebhaft durch das reduzieren ihrer Farben"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Details während des Abrufs ausblenden"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Blende Titel und Thumbnails während des Abrufens von Datem vom Server aus. Wenn deaktiviert wirst du aufblinkende Titel und Thumbnails sehen während diese sich ändern."
+    },
     "onAllPages": {
         "message": "Auf allen Seiten",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
