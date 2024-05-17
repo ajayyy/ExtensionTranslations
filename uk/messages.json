@@ -1390,8 +1390,17 @@
     "titleMaxLinesDescription": {
         "message": "Відео назви будуть поширюватися на стільки рядків в пропозиціях."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Рівень насиченості значків"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Зробити значки менш яскравими, зменшивши їхній колір"
+    },
     "hideDetailsWhileFetching": {
         "message": "Сховати подробиці під час отримання"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Приховувати заголовки та значки під час отримання даних з сервера. Якщо цю опцію вимкнено, ви побачите миготіння під час зміни заголовків та значків."
     },
     "onAllPages": {
         "message": "На всіх сторінках",
