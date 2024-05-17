@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Los títulos de los videos se extenderán en esta cantidad de líneas en las sugerencias."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Nivel de saturación de miniatura"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Atenuar miniaturas reduciendo su color"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Ocultar detalles al obtener datos"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Ocultar títulos y miniaturas al obtener datos desde el servidor. Si está deshabilitado, experimentará parpadeos al cambiar los títulos y miniaturas."
+    },
     "onAllPages": {
         "message": "En todas las páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
