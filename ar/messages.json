@@ -328,6 +328,10 @@
         "message": "الفصل السابق",
         "description": "Keybind label"
     },
+    "openDeArrowMenu": {
+        "message": "قتح قائمة التقديم",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "حدد مفتاح عن طريق كتابته واختار أي \"مفاتيح تعديل\" ترغب في استخدامها."
     },
