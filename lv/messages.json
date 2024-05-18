@@ -18,5 +18,29 @@
     },
     "Segment": {
         "message": "segments"
+    },
+    "Segments": {
+        "message": "segmentu"
+    },
+    "sponsorEnd": {
+        "message": "Beigt segmentu"
+    },
+    "sponsorCancel": {
+        "message": "Beigt segmenta izveidi"
+    },
+    "noVideoID": {
+        "message": "YouTube video netika atrasts. Ja šis nav pareizi, pārlādē lapu"
+    },
+    "refreshSegments": {
+        "message": "Pārlādēt segmentus"
+    },
+    "success": {
+        "message": "Izdevās!"
+    },
+    "Username": {
+        "message": "Lietotājvārds"
+    },
+    "errorCode": {
+        "message": "Kļūdas kods: "
     }
 }
