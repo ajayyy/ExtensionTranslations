@@ -383,7 +383,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} вимкнено звук",
+        "message": "{0} Вимкнено звук",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
