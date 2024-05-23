@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "제안된 동영상 제목이 차지할 수 있는 최대 줄 수예요."
     },
+    "thumbnailSaturationLevel": {
+        "message": "미리 보기 이미지 채도 수준"
+    },
+    "whatSaturateThumbnails": {
+        "message": "미리 보기 이미지를 덜 선명하게 만들어요"
+    },
     "onAllPages": {
         "message": "모든 페이지에서",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
