@@ -328,6 +328,14 @@
         "message": "Capítulo anterior",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Alternar ao habilitar DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Abrir menu de Envio",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
         "message": "Selecione uma tecla, digitando-a e escolha as teclas modificadoras que deseja usar."
     },
@@ -1381,6 +1389,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "Os títulos do vídeo serão quebrados por esta quantidade de linhas nas sugestões."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Nível de saturação da Miniatura"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Torne as miniaturas menos vibrantes reduzindo sua cor (Também uma solução para Daltônicos)"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Não mostrar detalhes enquanto busca dados no servidor"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Ocultar títulos e miniaturas ao buscar dados do servidor. Se desativado, você terá a experiência de ver tudo piscando na sua frente quando os títulos e miniaturas mudarem."
     },
     "onAllPages": {
         "message": "Em todas as páginas",

@@ -1386,6 +1386,12 @@
     "titleMaxLinesDescription": {
         "message": "Videoiden otsikot jakautuvat ehdotuksissa tässä määritetylle rivimäärälle."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Pienoiskuvan kylläisyyden taso"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Tee pienoiskuvista vähemmän värikkäitä vähentämällä niiden väriä"
+    },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

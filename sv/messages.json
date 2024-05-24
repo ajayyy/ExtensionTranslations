@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Videotitlar kommer att spridas över så här många rader i förslag."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Miniatyrens mättnadsnivå"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Gör miniatyrerna mindre livfyllda genom att minska deras färg"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Dölj detaljer under hämtning"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Dölj titlar och miniatyrer under hämtning av data från servern. Om inaktiverad kommer du att uppleva blinkande när titlarna och miniatyrerna ändras."
+    },
     "onAllPages": {
         "message": "På alla sidor",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

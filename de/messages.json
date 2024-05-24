@@ -211,13 +211,13 @@
         "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
     },
     "showDeleteButton": {
-        "message": "Zeige den Löschen-Knopf im Youtube-Videoplayer"
+        "message": "Löschen-Knopf im Youtube-Videoplayer anzeigen"
     },
     "enableViewTracking": {
         "message": "Aktiviere das Zählen übersprungener Segmente"
     },
     "whatViewTracking": {
-        "message": "Diese Funktion erfasst, welche Segmente du übersprungen hast, um andere Nutzer zu zeigen, wie hilfreich ihre Beiträge sind. Außerdem stellt dies zusammen mit positiven Bewertungen sicher, dass keine unerwünschten Inhalte in die Datenbank gelangen. Die Erweiterung sendet jedes Mal, wenn du ein Segment überspringst, eine Meldung an den Server. Hoffentlich verändern die meisten Nutzer diese Einstellung nicht, um unsere Statistik zu verbessern :)"
+        "message": "Diese Funktion erfasst, welche Segmente du übersprungen hast, um anderen Nutzer zu zeigen, wie hilfreich ihre Beiträge sind. Außerdem stellt dies zusammen mit positiven Bewertungen sicher, dass keine unerwünschten Inhalte in die Datenbank gelangen. Die Erweiterung sendet jedes Mal, wenn du ein Segment überspringst, eine Meldung an den Server. Hoffentlich verändern die meisten Nutzer diese Einstellung nicht, um unsere Statistik zu verbessern :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Aktiviere den Übersprungen Zähler in Privaten/Incognito Tabs"
@@ -806,7 +806,7 @@
         "message": "Beim Laden des Videos fragen"
     },
     "showOverlay_POI": {
-        "message": "In Suchleiste anzeigen"
+        "message": "In der Video-Zeitleiste anzeigen"
     },
     "showOverlay_full": {
         "message": "Label zeigen"
@@ -1389,6 +1389,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "Videotitel werden in Vorschlägen über so viele Zeilen verteilt."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Thumbnail-Sättigungslevel"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Mache Thumbnails weniger lebhaft durch das reduzieren ihrer Farben"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Details während des Abrufs ausblenden"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Blende Titel und Thumbnails während des Abrufens von Datem vom Server aus. Wenn deaktiviert wirst du aufblinkende Titel und Thumbnails sehen während diese sich ändern."
     },
     "onAllPages": {
         "message": "Auf allen Seiten",

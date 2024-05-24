@@ -1063,7 +1063,7 @@
         "message": "Tudj meg többet"
     },
     "FullDetails": {
-        "message": "Teljes részletek"
+        "message": "Teljes adatok"
     },
     "CopyDownvoteButtonInfo": {
         "message": "Leszavazza és készít egy helyi másolatot, amit beküldhetsz"
@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "A videók címei ennyi sorban lesznek elosztva a javaslatokban."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Indexkép szaturációs szint"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Tedd az indexképeket kevésbé élénkké a színeik csökkentésével"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Adatok elrejtése betöltés közben"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Címek és indexképek elrejtése, amíg az adatok betöltődnek a szerverről. Ha le van tiltva, villanásokat fogsz látni, amikor a címek és indexképek megváltoznak."
+    },
     "onAllPages": {
         "message": "Minden oldalon",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1425,7 +1437,7 @@
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
     "showOriginalOnHover": {
-        "message": "Eredeti tulajdonságok megjelenítése, ha felette van a kurzor"
+        "message": "Eredeti adatok megjelenítése, ha felette van a kurzor"
     },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
@@ -1445,10 +1457,10 @@
         "message": "Hiba"
     },
     "ShowOriginal": {
-        "message": "Eredeti tulajdonságok megjelenítése"
+        "message": "Eredeti adatok megjelenítése"
     },
     "ShowModified": {
-        "message": "Módosított részletek mutatása"
+        "message": "Módosított adatok mutatása"
     },
     "FillerWarning": {
         "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
