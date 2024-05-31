@@ -1392,6 +1392,9 @@
     "whatSaturateThumbnails": {
         "message": "Tee pienoiskuvista vähemmän värikkäitä vähentämällä niiden väriä"
     },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Piilota otsikot ja pienoiskuvat kun tietoja haetaan palvelimelta. Jos poistettu käytöstä, koet vilkkumista, kun otsikot ja pienoiskuvat vaihtuvat."
+    },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
