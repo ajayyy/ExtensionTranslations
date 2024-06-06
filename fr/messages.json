@@ -1399,6 +1399,9 @@
     "hideDetailsWhileFetching": {
         "message": "Masquer les détails pendant la récupération d'infos"
     },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Masquer les titres et les miniatures pendant la récupération de données à partir du serveur. Si l'option est désactivée, les titres et les miniatures clignoteront au moment de les échanger."
+    },
     "onAllPages": {
         "message": "Sur toutes les pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
