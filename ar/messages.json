@@ -328,6 +328,10 @@
         "message": "الفصل السابق",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "مفتاح تفعيل DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
     "openDeArrowMenu": {
         "message": "قتح قائمة التقديم",
         "description": "Keybind label in DeArrow"
@@ -1385,6 +1389,15 @@
     },
     "titleMaxLinesDescription": {
         "message": "سوف توزع عناوين الفيديوهات هكذا سطور في صفحة الاقتراحات."
+    },
+    "whatSaturateThumbnails": {
+        "message": "تقليل سطوع الصور المصغرة من خلال تخفيض الوانها"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "إخفاء التفاصيل أثناء الجلب"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "إخفاء العناوين و الصور المصغرة عند جلب البيانات من الخادم. في حالة تعطيل الخيار، سترى تغيرات مفاجئة في العناوين و الصور المصغرة مع تناوبهم."
     },
     "onAllPages": {
         "message": "على جميع الصفحات",
