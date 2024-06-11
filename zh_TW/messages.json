@@ -301,6 +301,10 @@
         "message": "開始/停止片段",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "開啟提交選單",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "提交片段",
         "description": "Keybind label"
