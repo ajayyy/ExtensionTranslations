@@ -228,6 +228,9 @@
     "trackDownvotesWarning": {
         "message": "Upozorenje: Onemogućavanjem ovoga izbrisati će svi prijašnje spremljeni doljeglasovi"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Spremi glasanja protiv segmenta u privatne/inkognito kartice"
+    },
     "enableQueryByHashPrefix": {
         "message": "Upit po prefiksu kontrolnog identifikacijskog broja"
     },
@@ -672,6 +675,9 @@
         "message": "Kraj",
         "description": "Button that skips to the end of a segment"
     },
+    "hiddenDueToDownvote": {
+        "message": "skriveno: glasaj protiv"
+    },
     "hiddenDueToDuration": {
         "message": "sakriveno: redak je prekratak"
     },
@@ -762,6 +768,9 @@
     "helpPageHowSkippingWorks": {
         "message": "Kako preskakanje radi"
     },
+    "helpPageHowSkippingWorks2": {
+        "message": "Kadgod preskoči segment, dobit ćeš obavijest. Ako se vrijeme čini pogrešnim, glasaj protiv pritiskom gumba „Glasaj protiv”! Glasati možeš i u skočnom prozoru."
+    },
     "Submitting": {
         "message": "Slanje"
     },
@@ -785,6 +794,9 @@
     },
     "FullDetails": {
         "message": "Potpuni detalji"
+    },
+    "CopyDownvoteButtonInfo": {
+        "message": "Glasuje protiv i stvara lokalnu kopiju za ponovno slanje"
     },
     "OpenCategoryWikiPage": {
         "message": "Otvorite wiki stranicu ove kategorije."
