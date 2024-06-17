@@ -1390,6 +1390,12 @@
     "titleMaxLinesDescription": {
         "message": "Tytuły filmów zostaną rozmieszczone w tylu wierszach na liście polecanych filmów."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Poziom nasycenia miniaturki"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Zmniejsz intensywność miniaturek redukując ich kolor"
+    },
     "onAllPages": {
         "message": "Na wszystkich stronach",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
