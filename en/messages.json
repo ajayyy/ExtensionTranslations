@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Act as VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Submissions cannot be accepted from your browser at the moment because YouTube seems to have injected some server-side advertisements that the extension is not able to remove. Please contact if you are receiving this error."
     }
 }
