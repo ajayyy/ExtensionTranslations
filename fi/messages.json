@@ -1683,5 +1683,8 @@
     "actAsVip": {
         "message": "Toimi VIP käyttäjänä",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Lähetyksiä ei voida hyväksyä selaimestasi tällä hetkellä, koska YouTube on näyttävästi pistänyt palvelinpuolen mainoksia videoon, joita laajennus ei voi poistaa. Ota yhteyttä jos saat tämän virheen."
     }
 }
