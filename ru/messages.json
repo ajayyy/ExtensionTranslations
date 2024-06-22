@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Действовать как VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Сегменты, отправленные из вашего браузера, не могут быть приняты, так как YouTube, похоже, начал встраивать в видео рекламу таким образом, что SponsorBlock не может её удалить. Пожалуйста, свяжитесь с нами, если вы получили эту ошибку."
     }
 }
