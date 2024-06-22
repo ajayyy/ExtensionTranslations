@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "VIP-ként",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "A beküldés jelenleg nem lehetséges a böngésződből, mert a YouTube szerveroldali hirdetéseket illesztett a videóba, amit a bővítmény nem tud eltávolítani. Kérlek jelentkezz, ha ezt a hibát kapod."
     }
 }
