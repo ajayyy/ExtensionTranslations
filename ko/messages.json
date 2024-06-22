@@ -1396,6 +1396,12 @@
     "whatSaturateThumbnails": {
         "message": "미리 보기 이미지를 덜 선명하게 만들어요"
     },
+    "hideDetailsWhileFetching": {
+        "message": "가져올 때 세부 사항 숨기기"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "서버에서 데이터를 가져올 때 제목 및 미리 보기 이미지를 숨겨요. 사용하지 않는 경우, 제목 및 미리 보기 이미지가 변경될 때 깜박임이 발생해요."
+    },
     "onAllPages": {
         "message": "모든 페이지에서",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."

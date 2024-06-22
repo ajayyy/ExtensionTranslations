@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "Tytuły filmów zostaną rozmieszczone w tylu wierszach na liście polecanych filmów."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Poziom nasycenia miniaturki"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Zmniejsz intensywność miniaturek redukując ich kolor"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Ukryj szczegóły podczas pobierania"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Ukryj tytuły i miniaturki podczas pobierania danych z serwera. Jeśli to ustawienie zostanie wyłączone, tytuły i miniaturki będą migać podczas zamiany."
+    },
     "onAllPages": {
         "message": "Na wszystkich stronach",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
