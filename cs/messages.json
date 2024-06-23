@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Akce jako VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Z vašeho prohlížeče momentálně nelze přijímat příspěvky, jelikož YouTube do videa nejspíše vložil serverové reklamy, které toto rozšíření nedokáže odebrat. Pokud vidíte tuto chybu, kontaktujte nás prosím."
     }
 }
