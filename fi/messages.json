@@ -1685,6 +1685,6 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "Lähetyksiä ei voida hyväksyä selaimestasi tällä hetkellä, koska YouTube on näyttävästi pistänyt palvelinpuolen mainoksia videoon, joita laajennus ei voi poistaa. Ota yhteyttä jos saat tämän virheen."
+        "message": "Lähetyksiä ei voida tällä hetkellä hyväksyä selaimestasi, koska YouTube näyttää sisällyttäneen videoon palvelinpuolen mainoksia, joita laajennus ei voi poistaa. Ota yhteyttä jos kohtaat tämän virheen."
     }
 }
