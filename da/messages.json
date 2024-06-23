@@ -1674,5 +1674,8 @@
     "actAsVip": {
         "message": "Stem som VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Indsendelser kan ikke accepteres fra din browser i øjeblikket, fordi YouTube lader til at have injiceret nogle server-side-reklamer, som udvidelsen ikke er i stand til at fjerne. Kontakt os venligst hvis du modtager denne fejl."
     }
 }
