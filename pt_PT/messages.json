@@ -1688,6 +1688,6 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "De momento, não é possível aceitar envios a partir do seu navegador porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não consegue remover. Contacte se estiver a receber este erro."
+        "message": "De momento, não é possível aceitar envios a partir do seu navegador porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não consegue remover. Contacte-nos se estiver a receber este erro."
     }
 }
