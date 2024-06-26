@@ -380,10 +380,30 @@
         "message": "Tingnan din ang DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "dearrowStatsMessage2": {
+        "message": "Ang {titleAndThumbnailMessage} ay napalitan mula noong na-install mo ang extension na ito",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "requiresUblock": {
         "message": "I-require ng uBlock Origin"
     },
+    "freeTrialStarted": {
+        "message": "Nagsimula na yung free trial mo. Subukan mo sa YouTube"
+    },
+    "freeAccessComplete": {
+        "message": "Congrats! Mayroon kang free access sa DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "Na deactivate na yung DeArrow"
+    },
     "Close": {
         "message": "I-close"
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "Hindi gagana ang DeArrow kapang walang storage."
+    },
+    "actAsVip": {
+        "message": "Kumilos bilang VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     }
 }
