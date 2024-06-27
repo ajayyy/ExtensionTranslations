@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Não Abuse de seus poderes como VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Envios não podem ser aceitos do seu navegador no momento porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não é capaz de remover. Por favor, entre em contato se estiver recebendo este erro."
     }
 }
