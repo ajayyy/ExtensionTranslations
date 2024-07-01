@@ -1477,5 +1477,8 @@
     "actAsVip": {
         "message": "Vystupovať ako VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Segmenty teraz nemôžu byť akceptované, lebo Youtube vložil do videa reklamy, ktoré toto rozšírenie nevie odstrániť. Napíšte nám prosím."
     }
 }
