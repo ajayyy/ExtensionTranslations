@@ -107,9 +107,40 @@
         "message": "ข้ามไป {0} หรือไม่",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "skipped": {
+        "message": "ข้าม {0} แล้ว",
+        "description": "Example: Sponsor Skipped"
+    },
+    "muted": {
+        "message": "ปิดเสียง {0} แล้ว",
+        "description": "Example: Sponsor Muted"
+    },
+    "skipped_to_category": {
+        "message": "ข้ามไป {0} แล้ว",
+        "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "disableAutoSkip": {
+        "message": "ปิดการข้ามอัตโนมัติ"
+    },
+    "enableAutoSkip": {
+        "message": "เปิดการข้ามอัตโนมัติ"
+    },
+    "minLower": {
+        "message": "นาที"
+    },
+    "minsLower": {
+        "message": "นาที"
+    },
+    "hourLower": {
+        "message": "ชั่วโมง"
+    },
     "supportOtherSitesDescription": {
         "message": "สนับสนุนลูกค้า YouTube บุคคลที่สาม.\nในการเปิดใช้งานการสนับสนุน คุณต้องยอมรับการอนุญาตพิเศษ!",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
+    "CopiedExclamation": {
+        "message": "คัดลอกแล้ว",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "bracketStart": {
         "message": "(เริ่ม)"
