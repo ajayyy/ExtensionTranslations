@@ -1390,6 +1390,18 @@
     "titleMaxLinesDescription": {
         "message": "動画の題名を改行するさいの最大行数"
     },
+    "thumbnailSaturationLevel": {
+        "message": "サムネイルの彩度"
+    },
+    "whatSaturateThumbnails": {
+        "message": "サムネイルの色を減らし鮮やさを減らす"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "取得中の詳細を非表示"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "サーバーからデータ取得中に題名とサムネイルを非表示にします。無効なら、題名とサムネイルが変更されると点滅します。"
+    },
     "onAllPages": {
         "message": "すべてのページで",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1678,5 +1690,8 @@
     "actAsVip": {
         "message": "VIPとして振る舞う",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "YouTube が、拡張機能で削除できないサーバーサイドの広告を挿入しているようです。そのため現時点では、このブラウザからの提出を受け付けできません。 このエラーが発生した場合、お問い合わせください。"
     }
 }
