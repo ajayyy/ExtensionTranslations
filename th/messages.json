@@ -64,11 +64,48 @@
     "clearThis": {
         "message": "คุณมั่นใจว่าจะลบส่วนนี้หรือไม่?\n\n"
     },
+    "Unknown": {
+        "message": "มีปัญหาในการส่งช่วงเวลาสปอนเซอร์ของคุณ กรุณาลองใหม่อีกครั้งในภายหลัง"
+    },
     "sponsor404": {
         "message": "ไม่พบส่วนในวีดีโอนี้"
     },
+    "voted": {
+        "message": "โหวตเรียบร้อยแล้ว"
+    },
+    "serverDown": {
+        "message": "ดูเหมือนว่าเซิร์ฟเวอร์จะล่ม โปรดติดต่อผู้พัฒนาทันที"
+    },
+    "segmentsStillLoading": {
+        "message": "กำลังโหลดช่วง..."
+    },
+    "sortSegments": {
+        "message": "จัดช่วง"
+    },
     "clearTimesButton": {
         "message": "ล้างเวลา"
+    },
+    "Username": {
+        "message": "ชื่อผู้ใช้"
+    },
+    "setUsername": {
+        "message": "ตั้งชื่อผู้ใช้"
+    },
+    "copyPublicID": {
+        "message": "คัดลอกไอดีผู้ใช้สาธารณะ"
+    },
+    "Options": {
+        "message": "การตั้งค่า"
+    },
+    "skip_category": {
+        "message": "ข้าม {0} หรือไม่"
+    },
+    "mute_category": {
+        "message": "ปิดเสียง {0} หรือไม่"
+    },
+    "skip_to_category": {
+        "message": "ข้ามไป {0} หรือไม่",
+        "description": "Used for skipping to things (Skip to Highlight)"
     },
     "supportOtherSitesDescription": {
         "message": "สนับสนุนลูกค้า YouTube บุคคลที่สาม.\nในการเปิดใช้งานการสนับสนุน คุณต้องยอมรับการอนุญาตพิเศษ!",
