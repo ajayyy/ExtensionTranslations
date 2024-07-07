@@ -336,12 +336,88 @@
     "cancel": {
         "message": "ยกเลิก"
     },
+    "delete": {
+        "message": "ลบ"
+    },
+    "preview": {
+        "message": "ดูตัวอย่าง"
+    },
+    "unsubmitted": {
+        "message": "ยังไม่ได้ส่ง"
+    },
     "CopiedExclamation": {
         "message": "คัดลอกแล้ว",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
+    "category_intro": {
+        "message": "ช่วงพัก/อนิเมชั่นอินโทร"
+    },
+    "category_intro_short": {
+        "message": "ช่วงพัก"
+    },
+    "category_poi_highlight": {
+        "message": "ไฮไลต์"
+    },
+    "category_chapter": {
+        "message": "ส่วนเนื้อหา"
+    },
+    "category_chapter_guideline3": {
+        "message": "สามารถใส่ส่วนเนื้อหาที่เล็กกว่าในส่วนเนื้อหาที่ใหญ่กว่าได้"
+    },
+    "autoSkip": {
+        "message": "ข้ามอัตโนมัติ"
+    },
+    "manualSkip": {
+        "message": "ข้ามด้วยตนเอง"
+    },
+    "manualSkip_POI": {
+        "message": "ถามเมื่อวิดีโอโหลด"
+    },
+    "showOverlay_chapter": {
+        "message": "แสดงส่วนเนื้อหา"
+    },
+    "bracketNow": {
+        "message": "(ตอนนี้)"
+    },
     "bracketStart": {
         "message": "(เริ่ม)"
+    },
+    "bracketEnd": {
+        "message": "(จบ)"
+    },
+    "hiddenDueToDownvote": {
+        "message": "ถูกซ่อน: ไม่เห็นด้วย"
+    },
+    "hiddenDueToDuration": {
+        "message": "ถูกซ่อน: สั้นเกินไป"
+    },
+    "incorrectVote": {
+        "message": "ไม่ถูกต้อง"
+    },
+    "harmfulVote": {
+        "message": "เป็นภัย",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
+    },
+    "help": {
+        "message": "ช่วยเหลือ"
+    },
+    "questionButton": {
+        "message": "ฉันมีคำถาม"
+    },
+    "askAQuestion": {
+        "message": "ถามคำถาม"
+    },
+    "deArrowMessageRecieved": {
+        "message": "คุณได้รับข้อแนะนำจากผู้ดูแล"
+    },
+    "helpPageThanksForInstalling": {
+        "message": "ขอบคุณที่ติดตั้ง SponsorBlock"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "ฐานข้อมูลเป็นสาธารณะและสามารถดูได้ที่"
+    },
+    "Credits": {
+        "message": "เครดิต"
     },
     "yearAbbreviation": {
         "message": "ปี",
