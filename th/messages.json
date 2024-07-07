@@ -71,6 +71,9 @@
     "manualPaused": {
         "message": "หยุดการจับเวลาแล้ว"
     },
+    "confirmMSG": {
+        "message": "เพื่อแก้ไขหรือลบค่าใดค่าหนึ่ง คลิกปุ่มข้อมูลหรือเปิดป๊อปอัพส่วนขยายโดยคลิกไอคอนส่วนขยายในมุมบนขวา"
+    },
     "clearThis": {
         "message": "คุณมั่นใจว่าจะลบส่วนนี้หรือไม่?\n\n"
     },
@@ -83,6 +86,24 @@
     "sponsor404": {
         "message": "ไม่พบส่วนในวีดีโอนี้"
     },
+    "sponsorStart": {
+        "message": "เริ่มส่วนตอนนี้"
+    },
+    "sponsorEnd": {
+        "message": "จบส่วนตอนนี้"
+    },
+    "sponsorCancel": {
+        "message": "ยกเลิกการสร้างส่วน"
+    },
+    "noVideoID": {
+        "message": "ไม่พบวิดีโอ YouTube\nถ้านี่ไม่ถูกต้อง รีเฟรชแท็บนี้"
+    },
+    "refreshSegments": {
+        "message": "รีเฟรชส่วน"
+    },
+    "success": {
+        "message": "สำเร็จ!"
+    },
     "voted": {
         "message": "โหวตเรียบร้อยแล้ว"
     },
@@ -92,8 +113,20 @@
     "segmentsStillLoading": {
         "message": "กำลังโหลดช่วง..."
     },
+    "openPopup": {
+        "message": "เปิดป๊อปอัพ SponsorBlock"
+    },
+    "closePopup": {
+        "message": "ปิดป๊อปอัพ"
+    },
+    "closeIcon": {
+        "message": "ปิดไอคอน"
+    },
     "sortSegments": {
         "message": "จัดช่วง"
+    },
+    "voteOnTime": {
+        "message": "โหวตส่วน"
     },
     "clearTimesButton": {
         "message": "ล้างเวลา"
