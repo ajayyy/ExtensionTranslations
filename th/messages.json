@@ -25,6 +25,16 @@
     "SegmentsCap": {
         "message": "ส่วน"
     },
+    "Chapters": {
+        "message": "ส่วนเนื้อหา"
+    },
+    "renderAsChapters": {
+        "message": "แสดงส่วนเป็นส่วนเนื้อหา",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "แสดงส่วนปัจจุบันข้างเวลาของวิดีโอ"
+    },
     "upvoteButtonInfo": {
         "message": "เห็นด้วยกับรายงานนี้"
     },
@@ -66,6 +76,9 @@
     },
     "Unknown": {
         "message": "มีปัญหาในการส่งช่วงเวลาสปอนเซอร์ของคุณ กรุณาลองใหม่อีกครั้งในภายหลัง"
+    },
+    "sponsorFound": {
+        "message": "วิดีโอนี้มีส่วนในฐานข้อมูล!"
     },
     "sponsor404": {
         "message": "ไม่พบส่วนในวีดีโอนี้"
