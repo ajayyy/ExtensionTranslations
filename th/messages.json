@@ -134,6 +134,9 @@
     "voteOnTime": {
         "message": "โหวตส่วน"
     },
+    "savedPeopleFrom": {
+        "message": "คุณได้ช่วยผู้คนจากส่วน "
+    },
     "viewLeaderboard": {
         "message": "กระดานผู้นำ"
     },
@@ -186,6 +189,52 @@
     "showDeleteButton": {
         "message": "แสดงปุ่มลบในโปรแกรมเล่น YouTube"
     },
+    "enableViewTracking": {
+        "message": "เปิดการติดตามการนับจำนวนการข้าม"
+    },
+    "enableTrackDownvotes": {
+        "message": "บันทึกส่วนที่ไม่เห็นด้วย"
+    },
+    "whatTrackDownvotes": {
+        "message": "ส่วนที่คุณไม่เห็นด้วยจะยังคงถูกซ่อนแม้ว่าจะรีเฟรชแล้ว"
+    },
+    "website": {
+        "message": "เว็บไซต์",
+        "description": "Used on Firefox Store Page"
+    },
+    "sourceCode": {
+        "message": "ซอร์สโค้ด",
+        "description": "Used on Firefox Store Page"
+    },
+    "noticeUpdate2": {
+        "message": "ถ้าคุณยังไม่ชอบ ให้กดปุ่มไม่แสดงเสมอ",
+        "description": "The second line of the message displayed after the notice was upgraded."
+    },
+    "setSkipShortcut": {
+        "message": "ข้ามส่วน",
+        "description": "Keybind label"
+    },
+    "setStartSponsorShortcut": {
+        "message": "เริ่ม/หยุดส่วน",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "ส่งส่วน",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "พรีวิวส่วน",
+        "description": "Keybind label"
+    },
+    "disableSkipping": {
+        "message": "การข้ามเปิดอยู่"
+    },
+    "enableSkipping": {
+        "message": "การข้ามปิดอยู่"
+    },
+    "errorCode": {
+        "message": "รหัสข้อผิดพลาด: "
+    },
     "skip_category": {
         "message": "ข้าม {0} หรือไม่"
     },
@@ -223,9 +272,69 @@
     "hourLower": {
         "message": "ชั่วโมง"
     },
+    "setUserID": {
+        "message": "ตั้ง UserID ส่วนตัว"
+    },
+    "createdBy": {
+        "message": "สร้างขึ้นโดย"
+    },
     "supportOtherSitesDescription": {
         "message": "สนับสนุนลูกค้า YouTube บุคคลที่สาม.\nในการเปิดใช้งานการสนับสนุน คุณต้องยอมรับการอนุญาตพิเศษ!",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
+    },
+    "supportedSites": {
+        "message": "เว็บไซต์ที่รองรับ: "
+    },
+    "optionsInfo": {
+        "message": "เปิดการรองรับ Invidious ปิดการข้ามอัตโนมัติ ซ่อนปุ่ม ฯลฯ"
+    },
+    "add": {
+        "message": "เพิ่ม"
+    },
+    "addInvidiousInstanceError": {
+        "message": "โดเมนนี้ไม่ถูกต้อง ควรใส่แค่ส่วนโดเมนเท่านั้น ตัวอย่าง: invidious.ajay.app"
+    },
+    "minDuration": {
+        "message": "ระยะเวลาขั้นต่ำ (วินาที):"
+    },
+    "minDurationDescription": {
+        "message": "ส่วนที่สั้นกว่าค่าที่ตั้งไว้จะไม่ถูกข้ามหรือแสดงในโปรแกรมเล่น"
+    },
+    "enableManualSkipOnFullVideo": {
+        "message": "ใช้การข้ามด้วยตนเองเมื่อมีป้ายทั้งวิดีโอ"
+    },
+    "skipNoticeDuration": {
+        "message": "ระยะเวลาการแจ้งเตือนการข้าม (วินาที):"
+    },
+    "showUploadButton": {
+        "message": "แสดงปุ่มอัปโหลด"
+    },
+    "customServerAddress": {
+        "message": "ที่อยู่เซิร์ฟเวอร์ SponsorBlock"
+    },
+    "save": {
+        "message": "บันทึก"
+    },
+    "reset": {
+        "message": "คืนค่าเดิม"
+    },
+    "mobileUpdateInfo": {
+        "message": "รองรับ m.youtube.com แล้ว"
+    },
+    "exportOptionsCopy": {
+        "message": "แก้ไข/คัดลอก"
+    },
+    "exportOptionsDownload": {
+        "message": "บันทึกเป็นไฟล์"
+    },
+    "exportOptionsUpload": {
+        "message": "โหลดจากไฟล์"
+    },
+    "submit": {
+        "message": "ส่ง"
+    },
+    "cancel": {
+        "message": "ยกเลิก"
     },
     "CopiedExclamation": {
         "message": "คัดลอกแล้ว",
