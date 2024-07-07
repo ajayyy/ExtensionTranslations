@@ -113,6 +113,9 @@
     "segmentsStillLoading": {
         "message": "กำลังโหลดช่วง..."
     },
+    "clearTimes": {
+        "message": "ล้างส่วน"
+    },
     "openPopup": {
         "message": "เปิดป๊อปอัพ SponsorBlock"
     },
@@ -125,8 +128,21 @@
     "sortSegments": {
         "message": "จัดช่วง"
     },
+    "submitCheck": {
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการส่งสิ่งนี้"
+    },
     "voteOnTime": {
         "message": "โหวตส่วน"
+    },
+    "viewLeaderboard": {
+        "message": "กระดานผู้นำ"
+    },
+    "recordTimesDescription": {
+        "message": "ส่ง"
+    },
+    "submissionEditHint": {
+        "message": "การแก้ไขส่วนจะปรากฏหลังคุณคลิกส่ง",
+        "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "clearTimesButton": {
         "message": "ล้างเวลา"
@@ -140,8 +156,35 @@
     "copyPublicID": {
         "message": "คัดลอกไอดีผู้ใช้สาธารณะ"
     },
+    "copySegmentID": {
+        "message": "คัดลอก ID ส่วน"
+    },
+    "hideThis": {
+        "message": "ซ่อนสิ่งนี้"
+    },
     "Options": {
         "message": "การตั้งค่า"
+    },
+    "showButtons": {
+        "message": "แสดงปุ่มในโปรแกรมเล่น YouTube"
+    },
+    "hideButtons": {
+        "message": "ซ่อนปุ่มในโปรแกรมเล่น YouTube"
+    },
+    "showInfoButton": {
+        "message": "แสดงปุ่มข้อมูลในโปรแกรมเล่น YouTube"
+    },
+    "hideInfoButton": {
+        "message": "ซ่อนปุ่มข้อมูลในโปรแกรมเล่น YouTube"
+    },
+    "autoHideInfoButton": {
+        "message": "ซ่อนปุ่มข้อมูลโดยอัตโนมัติ"
+    },
+    "hideDeleteButton": {
+        "message": "ซ่อนปุ่มลบในโปรแกรมเล่น YouTube"
+    },
+    "showDeleteButton": {
+        "message": "แสดงปุ่มลบในโปรแกรมเล่น YouTube"
     },
     "skip_category": {
         "message": "ข้าม {0} หรือไม่"
