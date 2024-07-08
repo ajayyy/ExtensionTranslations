@@ -257,6 +257,10 @@
         "message": "เริ่ม/หยุดส่วน",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "เปิดเมนูการส่ง",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "ส่งส่วน",
         "description": "Keybind label"
@@ -264,6 +268,22 @@
     "setPreviewKeybind": {
         "message": "พรีวิวส่วน",
         "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "ปิดการแจ้งเตือนการข้าม",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "ส่วนเนื้อหาต่อไป",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "ส่วนเนื้อหาก่อนหน้า",
+        "description": "Keybind label"
+    },
+    "openDeArrowMenu": {
+        "message": "เปิดเมนูการส่ง",
+        "description": "Keybind label in DeArrow"
     },
     "disableSkipping": {
         "message": "การข้ามเปิดอยู่"
@@ -273,6 +293,16 @@
     },
     "errorCode": {
         "message": "รหัสข้อผิดพลาด: "
+    },
+    "skip": {
+        "message": "ข้าม"
+    },
+    "mute": {
+        "message": "ปิดเสียง"
+    },
+    "full": {
+        "message": "ทั้งวิดีโอ",
+        "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
         "message": "ข้าม {0} หรือไม่"
@@ -302,6 +332,9 @@
     "enableAutoSkip": {
         "message": "เปิดการข้ามอัตโนมัติ"
     },
+    "youHaveSkipped": {
+        "message": "คุณได้ข้ามส่วน "
+    },
     "minLower": {
         "message": "นาที"
     },
@@ -310,6 +343,20 @@
     },
     "hourLower": {
         "message": "ชั่วโมง"
+    },
+    "hoursLower": {
+        "message": "ชั่วโมง"
+    },
+    "youHaveSavedTime": {
+        "message": "คุณได้ช่วยผู้คน",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "youHaveSavedTimeEnd": {
+        "message": " ของชีวิตพวกเขา",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "statusReminder": {
+        "message": "ตรวจสอบสถานะของเซิร์ฟเวอร์ได้ที่ status.sponsor.ajay.app"
     },
     "setUserID": {
         "message": "ตั้ง UserID ส่วนตัว"
@@ -342,8 +389,14 @@
     "enableManualSkipOnFullVideo": {
         "message": "ใช้การข้ามด้วยตนเองเมื่อมีป้ายทั้งวิดีโอ"
     },
+    "whatManualSkipOnFullVideo": {
+        "message": "สำหรับผู้ที่ต้องการดูวิดีโอที่เป็นสปอนเซอร์หรือการโปรโมทตัวเองทั้งวิดีโอโดยไม่ถูกขัดจังหวะ"
+    },
     "skipNoticeDuration": {
         "message": "ระยะเวลาการแจ้งเตือนการข้าม (วินาที):"
+    },
+    "skipNoticeDurationDescription": {
+        "message": "การแจ้งเตือนการข้ามจะอยู่บนหน้าจอเป็นเวลาอย่างน้อยเท่านี้ อาจจะอยู่ได้นานกว่าสำหรับการข้ามด้วยตนเอง"
     },
     "showUploadButton": {
         "message": "แสดงปุ่มอัปโหลด"
