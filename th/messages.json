@@ -110,6 +110,9 @@
     "serverDown": {
         "message": "ดูเหมือนว่าเซิร์ฟเวอร์จะล่ม โปรดติดต่อผู้พัฒนาทันที"
     },
+    "connectionError": {
+        "message": "เกิดข้อผิดพลาดในการเชื่อมต่อ รหัสข้อผิดพลาด: "
+    },
     "segmentsStillLoading": {
         "message": "กำลังโหลดช่วง..."
     },
@@ -124,6 +127,9 @@
     },
     "closeIcon": {
         "message": "ปิดไอคอน"
+    },
+    "OpenSubmissionMenu": {
+        "message": "เปิดเมนูการส่ง"
     },
     "sortSegments": {
         "message": "จัดช่วง"
@@ -146,6 +152,9 @@
     "submissionEditHint": {
         "message": "การแก้ไขส่วนจะปรากฏหลังคุณคลิกส่ง",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
+    },
+    "popupHint": {
+        "message": "คำแนะนำ: คุณสามารถกำหนดปุ่มสำหรับการส่งได้ในการตั้งค่า"
     },
     "clearTimesButton": {
         "message": "ล้างเวลา"
@@ -174,6 +183,9 @@
     "hideButtons": {
         "message": "ซ่อนปุ่มในโปรแกรมเล่น YouTube"
     },
+    "hideButtonsDescription": {
+        "message": "นี่ซ่อนปุ่มที่ปรากฏในโปรแกรมเล่น YouTube ที่ใช้ในการส่งส่วนข้าม"
+    },
     "showInfoButton": {
         "message": "แสดงปุ่มข้อมูลในโปรแกรมเล่น YouTube"
     },
@@ -197,6 +209,9 @@
     },
     "whatTrackDownvotes": {
         "message": "ส่วนที่คุณไม่เห็นด้วยจะยังคงถูกซ่อนแม้ว่าจะรีเฟรชแล้ว"
+    },
+    "trackDownvotesWarning": {
+        "message": "คำเตือน: การปิดการใช้งานสิ่งนี้จะลบการไม่เห็นด้วยที่ได้บันทึกไว้ก่อนหน้านี้ทั้งหมด"
     },
     "website": {
         "message": "เว็บไซต์",
