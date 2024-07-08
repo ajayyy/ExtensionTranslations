@@ -237,6 +237,10 @@
     "showCategoryGuidelines": {
         "message": "แสดงความช่วยเหลือหมวดหมู่"
     },
+    "longDescription": {
+        "message": "SponsorBlock ให้คุณข้ามสปอนเซอร์ อินโทร เอาท์โทร การแจ้งเตือนการสมัครสมาชิก และส่วนน่ารำคาญอื่น ๆ ของวิดีโอ YouTube\nSponsorBlock เป็นส่วนขยายเบราว์เซอร์ที่ให้ใครก็ได้ส่งเวลาเริ่มและจบของส่วนสปอนเซอร์และส่วนอื่น ๆ ของวิดีโอ YouTube เมื่อมีคนใดคนหนึ่งส่งข้อมูลนี้ ทุกคนที่ใช้ส่วนขยายนี้ก็จะข้ามส่วนสปอนเซอร์นั้น คุณสามารถข้ามส่วนที่ไม่ใช่เพลงในวิดีโอเพลงได้เช่นกัน",
+        "description": "Full description of the extension on the store pages."
+    },
     "website": {
         "message": "เว็บไซต์",
         "description": "Used on Firefox Store Page"
