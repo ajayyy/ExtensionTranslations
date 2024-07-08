@@ -213,6 +213,30 @@
     "trackDownvotesWarning": {
         "message": "คำเตือน: การปิดการใช้งานสิ่งนี้จะลบการไม่เห็นด้วยที่ได้บันทึกไว้ก่อนหน้านี้ทั้งหมด"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "บันทึกส่วนที่ไม่เห็นด้วยในแท็บส่วนตัว/ไม่ระบุตัวตน"
+    },
+    "enableRefetchWhenNotFound": {
+        "message": "ดึงข้อมูลส่วนในวิดีโอใหม่อีกครั้ง"
+    },
+    "whatRefetchWhenNotFound": {
+        "message": "ถ้าวิดีโอเป็นวิดีโอใหม่และไม่พบเจอส่วน มันจะพยายามดึงข้อมูลใหม่ทุก ๆ ไม่กี่นาทีขณะที่คุณดู"
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "แสดงหมวดหมู่ในเมนูการส่งแม้ว่าจะไม่ได้รับอนุญาตให้ส่ง"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "จำเป็นต้องได้รับอนุญาตในการส่งหมวดหมู่บางหมวดเนื่องจากข้อกำหนดชื่อเสียงขั้นต่ำ"
+    },
+    "showNotice": {
+        "message": "แสดงการแจ้งเตือนอีกครั้ง"
+    },
+    "showSkipNotice": {
+        "message": "แสดงการแจ้งเตือนหลังข้ามส่วน"
+    },
+    "showCategoryGuidelines": {
+        "message": "แสดงความช่วยเหลือหมวดหมู่"
+    },
     "website": {
         "message": "เว็บไซต์",
         "description": "Used on Firefox Store Page"
