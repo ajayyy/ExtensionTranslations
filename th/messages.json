@@ -429,6 +429,9 @@
     "reset": {
         "message": "คืนค่าเดิม"
     },
+    "areYouSureReset": {
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตสิ่งนี้"
+    },
     "mobileUpdateInfo": {
         "message": "รองรับ m.youtube.com แล้ว"
     },
@@ -455,6 +458,22 @@
     },
     "unsubmitted": {
         "message": "ยังไม่ได้ส่ง"
+    },
+    "inspect": {
+        "message": "ดู"
+    },
+    "edit": {
+        "message": "แก้ไข"
+    },
+    "copyDebugInformation": {
+        "message": "คัดลอกข้อมูลการดีบั๊กไปยังคลิปบอร์ด"
+    },
+    "copyDebugInformationFailed": {
+        "message": "คัดลอกไปยังคลิปบอร์ดไม่สำเร็จ"
+    },
+    "to": {
+        "message": "ถึง",
+        "description": "Used between segments. Example: 1:20 to 1:30"
     },
     "CopiedExclamation": {
         "message": "คัดลอกแล้ว",
