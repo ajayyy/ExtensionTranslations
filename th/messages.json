@@ -485,6 +485,12 @@
     "category_intro_short": {
         "message": "ช่วงพัก"
     },
+    "category_outro": {
+        "message": "การ์ดจบ/เครดิต"
+    },
+    "category_outro_description": {
+        "message": "เครดิตหรือเมื่อการ์ดจบของ YouTube ปรากฏ ไม่ใช้สำหรับข้อสรุปที่มีข้อมูล"
+    },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
     },
@@ -500,14 +506,35 @@
     "manualSkip": {
         "message": "ข้ามด้วยตนเอง"
     },
+    "showOverlay": {
+        "message": "แสดงในแถบกรอ"
+    },
+    "autoSkip_POI": {
+        "message": "ข้ามไปที่จุดเริ่มต้นโดยอัตโนมัติ"
+    },
     "manualSkip_POI": {
         "message": "ถามเมื่อวิดีโอโหลด"
+    },
+    "showOverlay_POI": {
+        "message": "แสดงในแถบกรอ"
     },
     "showOverlay_chapter": {
         "message": "แสดงส่วนเนื้อหา"
     },
+    "category": {
+        "message": "หมวดหมู่"
+    },
     "bracketNow": {
         "message": "(ตอนนี้)"
+    },
+    "moreCategories": {
+        "message": "หมวดหมู่เพิ่มเติม"
+    },
+    "chooseACategory": {
+        "message": "เลือกหมวดหมู่"
+    },
+    "youMustSelectACategory": {
+        "message": "คุณต้องเลือกหมวดหมู่ของส่วนทุกส่วนที่คุณจะส่ง!"
     },
     "bracketStart": {
         "message": "(เริ่ม)"
@@ -528,8 +555,37 @@
         "message": "เป็นภัย",
         "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
     },
+    "incorrectCategory": {
+        "message": "เปลี่ยนหมวดหมู่"
+    },
+    "multipleSegments": {
+        "message": "ส่วนหลายส่วน"
+    },
+    "guidelines": {
+        "message": "แนวปฏิบัติ"
+    },
+    "readTheGuidelines": {
+        "message": "อ่านแนวปฏิบัติ!!",
+        "description": "Show the first time they submit or if they are \"high risk\""
+    },
+    "categoryUpdate2": {
+        "message": "เปิดการตั้งค่าเพื่อข้ามอินโทร เอาต์โทร สินค้า ฯลฯ"
+    },
     "help": {
         "message": "ช่วยเหลือ"
+    },
+    "GotIt": {
+        "message": "เข้าใจแล้ว",
+        "description": "Used as the button to dismiss a tooltip"
+    },
+    "fullVideoTooltipWarning": {
+        "message": "ส่วนนี้ใหญ่ ถ้าทั้งวิดีโอเกี่ยวข้องกับเรื่องเดียว ให้เปลี่ยนจาก \"ข้าม\" เป็น \"ทั้งวิดีโอ\" ดูแนวปฏิบัติสำหรับข้อมูลเพิ่มเติม"
+    },
+    "chapterNameTooltipWarning": {
+        "message": "หนึ่งในชื่อของส่วนเนื้อหาของคุณคล้ายกับหมวดหมู่ใดหมวดหมู่หนึ่ง คุณควรใช้หมวดหมู่แทนเมื่อเป็นไปได้"
+    },
+    "hideForever": {
+        "message": "ซ่อนตลอด"
     },
     "questionButton": {
         "message": "ฉันมีคำถาม"
@@ -537,11 +593,23 @@
     "askAQuestion": {
         "message": "ถามคำถาม"
     },
+    "warningConfirmButton": {
+        "message": "ฉันเข้าใจสาเหตุแล้ว"
+    },
     "deArrowMessageRecieved": {
         "message": "คุณได้รับข้อแนะนำจากผู้ดูแล"
     },
+    "hideDonationLink": {
+        "message": "ซ่อนลิงค์การบริจาค"
+    },
+    "darkModeOptionsPage": {
+        "message": "โหมดมืดในหน้าการตั้งค่า"
+    },
     "helpPageThanksForInstalling": {
         "message": "ขอบคุณที่ติดตั้ง SponsorBlock"
+    },
+    "helpPageFeatureDisclaimer": {
+        "message": "ฟีเจอร์หลายอย่างถูกปิดใช้งานโดยค่าเริ่มต้น ถ้าคุณต้องการข้ามอินโทร เอาต์โทร ใช้ Invidious ฯลฯ ให้เปิดใช้งานมันข้างล่าง คุณสามารถซ่อน/แสดงองค์ประกอบของ UI ได้เช่นกัน"
     },
     "helpPageCopyOfDatabase1": {
         "message": "ฐานข้อมูลเป็นสาธารณะและสามารถดูได้ที่"
