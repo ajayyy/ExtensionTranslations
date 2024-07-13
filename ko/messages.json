@@ -1475,22 +1475,22 @@
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
-        "message": "과장된 표현이 나타나지 않도록 해요",
+        "message": "과한 표현을 지양해야 함",
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "원본 제목의 질문에 단순히 답하는 것이 아니라, 맥락을 고려해주세요",
+        "message": "원본 제목의 질문에 단순히 답하는 것이 아니라, 맥락을 고려해야 함",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "동영상에 대한 반응(\"충격\")을 담지 않도록 해요",
+        "message": "동영상에 대한 반응(\"충격\")을 담지 않아야 함",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "충분한 정보를 제공해 클릭하기 전 올바른 선택을 할 수 있도록 해요"
+        "message": "누르기 전 충분한 정보를 제공해 현명한 선택을 하도록 해야 함"
     },
     "tip5": {
-        "message": "대소문자는 문장처럼 적용해주세요",
+        "message": "문장처럼 대소문자를 적용해야 함",
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
@@ -1512,7 +1512,7 @@
         "message": "개인정보 취급방침"
     },
     "termsOfUse": {
-        "message": "이용약관"
+        "message": "이용 약관"
     },
     "openSourceLicenses": {
         "message": "오픈소스 라이선스"
