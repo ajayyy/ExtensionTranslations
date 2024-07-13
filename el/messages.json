@@ -32,6 +32,9 @@
         "message": "Θεώρηση τμημάτων ως κεφάλαια",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "showSegmentNameInChapterBar": {
+        "message": "Εμφάνιση Τρέχοντος Τμήματος Εκτός Του Χρόνου Βίντεο"
+    },
     "upvoteButtonInfo": {
         "message": "Θετική ψήφος για αυτήν την υποβολή"
     },
@@ -110,6 +113,9 @@
     "connectionError": {
         "message": "Παρουσιάστηκε σφάλμα σύνδεσης. Κωδικός σφάλματος: "
     },
+    "segmentsStillLoading": {
+        "message": "Τμήματα εξακολουθούν να φορτώνονται..."
+    },
     "clearTimes": {
         "message": "Καθαρισμός τμημάτων"
     },
@@ -118,6 +124,12 @@
     },
     "closePopup": {
         "message": "Κλείσιμο αναδυόμενου παραθύρου"
+    },
+    "closeIcon": {
+        "message": "Εικονίδιο Κλεισίματος"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Άνοιγμα Μενού Υποβολής"
     },
     "sortSegments": {
         "message": "Ταξινόμηση Τμημάτων"
@@ -219,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Προειδοποίηση: Η απενεργοποίηση αυτής της επιλογής θα διαγράψει όλες τις προηγούμενες αποθηκευμένες καταψηφίσεις"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Αποθήκευσε τις αρνητικές ψήφους των τμημάτων σε ιδιωτικές/ανώνυμες καρτέλες"
+    },
     "enableQueryByHashPrefix": {
         "message": "Αιτήματα μέσω προθέματος Hash"
     },
@@ -230,6 +245,12 @@
     },
     "whatRefetchWhenNotFound": {
         "message": "Εάν το βίντεο είναι καινούργιο, και δεν έχουν βρεθεί τμήματα, θα συνεχιστεί η αναζήτηση κάθε μερικά λεπτά, ενώ το παρακολουθείτε."
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "Εμφάνιση κατηγοριών στο μενού υποβολής ακόμα και χωρίς άδεια υποβολής"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "Ορισμένες κατηγορίες απαιτούν άδεια υποβολής λόγω ελάχιστων απαιτήσεων φήμης"
     },
     "showNotice": {
         "message": "Επανεμφάνιση ειδοποιήσεων"
@@ -283,9 +304,37 @@
         "message": "Έναρξη/Τέλος τμήματος",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Άνοιγμα μενού υποβολής",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Υποβολή Τμημάτων",
         "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "Προεπισκόπηση τμήματος",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Κλείσιμο ειδοποίησης παράλειψης",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Επόμενο κεφάλαιο",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Προηγούμενο κεφάλαιο",
+        "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Εναλλαγή ενεργοποίησης DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Άνοιγμα μενού υποβολής",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Επιλέξτε ένα πλήκτρο πατώντας το και επιλέξτε όποιο πρόσθετο πλήκτρο ελέγχου επιθυμείτε."
@@ -385,8 +434,14 @@
     "statusReminder": {
         "message": "Ελέγξτε το status.sponsor.ajay.app για την κατάσταση διακομιστή."
     },
+    "changeUserID": {
+        "message": "Εισάγετε/Εξάγετε Το Ιδιωτικό Σας UserID"
+    },
     "whatChangeUserID": {
         "message": "Κρατείστε το μυστικό. Αυτό είναι σαν ένα κωδικό πρόσβασης όπου δε θα έπρεπε να μοιράζεστε με κανένα. Εάν το αποκτήσει κάποιος, μπορεί να σας υποδυθεί. Εάν ψάχνετε για τη δημόσια ταυτότητα χρήστη σας, πατήστε πάνω στο αναδυόμενο εικονίδιο πρόχειρου."
+    },
+    "setUserID": {
+        "message": "Όρισε Ιδιωτικό UserID"
     },
     "createdBy": {
         "message": "Δημιουργήθηκε από"
