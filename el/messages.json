@@ -443,11 +443,18 @@
     "setUserID": {
         "message": "Όρισε Ιδιωτικό UserID"
     },
+    "userIDChangeWarning": {
+        "message": "Προσοχή: Η αλλαγή του Ιδιωτικού UserID είναι μόνιμη. Είστε βέβαιοι ότι θέλετε να το αλλάξετε; Βεβαιωθείτε ότι έχετε δημιουργήσει αντίγραφο ασφαλείας του παλιού σας για παν ενδεχόμενο."
+    },
     "createdBy": {
         "message": "Δημιουργήθηκε από"
     },
     "supportOtherSites": {
         "message": "Υποστήριξη 3των ιστοσελίδων τύπου YouTube"
+    },
+    "supportOtherSitesDescription": {
+        "message": "Υποστήριξη τρίτων YouTube πελατών. Για να ενεργοποιήσετε την υποστήριξη, πρέπει να αποδεχτείτε τις επιπλέον άδειες.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
         "message": "Υποστηριζόμενες Ιστοσελίδες: "
@@ -482,6 +489,12 @@
     "minDurationDescription": {
         "message": "Τμήματα μικρότερα από την καθορισμένη τιμή δε θα παραλείπονται ή δε θα εμφανίζονται στην οθόνη αναπαραγωγής."
     },
+    "enableManualSkipOnFullVideo": {
+        "message": "Χρησιμοποίησε χειροκίνητη παράλειψη όταν πλήρης ετικέτα βίντεο υφίσταται"
+    },
+    "whatManualSkipOnFullVideo": {
+        "message": "Για τους ανθρώπους που θέλουν να παρακολουθήσουν το βίντεο αδιάκοπα αν είναι πλήρως χορηγούμενο ή αυτοπροωθούμενο."
+    },
     "skipNoticeDuration": {
         "message": "Διάρκεια ειδοποίησης παράλειψης (σε δευτερόλεπτα):"
     },
@@ -502,6 +515,9 @@
     },
     "customServerAddressDescription": {
         "message": "Η διεύθυνση που χρησιμοποιείται για την επικοινωνία με τον διακομιστή του SponsorBlock. Εάν δε διαθέτετε το δικό σας διακομιστή, αυτή η επιλογή δεν πρέπει να αλλάξει."
+    },
+    "dataFetchingServerAddress": {
+        "message": "Διεύθυνση Διακομιστή Ανάκτησης Δεδομένων"
     },
     "save": {
         "message": "Αποθήκευση"
