@@ -438,7 +438,7 @@
         "message": "Importer/Exporter Votre ID privé d'utilisateur"
     },
     "whatChangeUserID": {
-        "message": "Cela doit rester privé. À l'instar d'un mot de passe, il ne doit être partagé avec personne. Si une autre personne est en possession de cette donnée, elle peut usurper votre identité SponsorBlock. Si vous cherchez votre UserID public, cliquez sur l'icône du presse-papiers dans l'encart."
+        "message": "Cela doit rester privé. Il s'agit d'un mot de passe qui ne doit être communiqué à personne. Si quelqu’un l'a, il peut usurper votre identité. Si vous cherchez votre identifiant public, cliquez sur l'icône presse-papiers dans l'encart."
     },
     "setUserID": {
         "message": "Définir l'ID privé d'utilisateur"
