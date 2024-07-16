@@ -213,6 +213,9 @@
     "enableViewTracking": {
         "message": "เปิดการติดตามการนับจำนวนการข้าม"
     },
+    "whatViewTracking": {
+        "message": "ฟีเจอร์นี้ติดตามส่วนที่คุณได้ข้ามเพื่อให้ผู้ใช้ได้ทราบว่าการส่งส่วนของพวกเขาช่วยผู้อื่นได้เท่าไรและใช้เป็นมาตรวัดพร้อมกับการแสดงความเห็นด้วยเพื่อให้มั่นใจว่าการสแปมไม่เข้าไปในฐานข้อมูล ส่วนขยายจะส่งข้อความไปยังเซิร์ฟเวอร์ในแต่ละครั้งที่คุณข้ามส่วนใดส่วนหนึ่ง หวังว่าคนส่วนใหญ่ไม่เปลี่ยนการตั้งค่านี้เพื่อให้เลขการดูแม่นยำ :)"
+    },
     "enableViewTrackingInPrivate": {
         "message": "เปิดการนับการข้ามในแท็บส่วนตัว/ไม่ระบุตัวตน"
     },
@@ -249,6 +252,21 @@
     "showCategoryGuidelines": {
         "message": "แสดงความช่วยเหลือหมวดหมู่"
     },
+    "noticeVisibilityMode0": {
+        "message": "การแจ้งเตือนการข้ามขนาดเต็ม"
+    },
+    "noticeVisibilityMode1": {
+        "message": "การแจ้งเตือนการข้ามขนาดเล็กสำหรับการข้ามโดยอัตโนมัติ"
+    },
+    "noticeVisibilityMode2": {
+        "message": "การแจ้งเตือนการข้ามขนาดเล็กทั้งหมด"
+    },
+    "noticeVisibilityMode3": {
+        "message": "การแจ้งเตือนการข้ามแบบจางสำหรับการข้ามโดยอัตโนมัติ"
+    },
+    "noticeVisibilityMode4": {
+        "message": "การแจ้งเตือนการข้ามแบบจางทั้งหมด"
+    },
     "longDescription": {
         "message": "SponsorBlock ให้คุณข้ามสปอนเซอร์ อินโทร เอาต์โทร การแจ้งเตือนการสมัครสมาชิก และส่วนน่ารำคาญอื่น ๆ ของวิดีโอ YouTube\nSponsorBlock เป็นส่วนขยายเบราว์เซอร์ที่ให้ใครก็ได้ส่งเวลาเริ่มและจบของส่วนสปอนเซอร์และส่วนอื่น ๆ ของวิดีโอ YouTube เมื่อมีคนใดคนหนึ่งส่งข้อมูลนี้ ทุกคนที่ใช้ส่วนขยายนี้ก็จะข้ามส่วนสปอนเซอร์นั้น คุณสามารถข้ามส่วนที่ไม่ใช่เพลงในวิดีโอเพลงได้เช่นกัน",
         "description": "Full description of the extension on the store pages."
@@ -260,6 +278,10 @@
     "sourceCode": {
         "message": "ซอร์สโค้ด",
         "description": "Used on Firefox Store Page"
+    },
+    "noticeUpdate": {
+        "message": "การแจ้งเตือนได้ถูกอัปเกรดแล้ว!",
+        "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
         "message": "ถ้าคุณยังไม่ชอบ ให้กดปุ่มไม่แสดงเสมอ",
@@ -297,9 +319,16 @@
         "message": "ส่วนเนื้อหาก่อนหน้า",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "เปิด/ปิดการใช้งาน DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
     "openDeArrowMenu": {
         "message": "เปิดเมนูการส่ง",
         "description": "Keybind label in DeArrow"
+    },
+    "keybindDescription": {
+        "message": "เลือกปุ่มโดยการพิมพ์ปุ่มนั้นและเลือกปุ่มแก้ไขที่คุณต้องการใช้"
     },
     "0": {
         "message": "หมดเวลาสำหรับการเชื่อมต่อ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต ถ้าอินเทอร์เน็ตของคุณใช้งานได้ เซิร์ฟเวอร์อาจจะกำลังโอเวอร์โหลดหรือล่ม"
