@@ -81,7 +81,7 @@
         "message": "Erro ao enviar os seus segmentos, tente novamente mais tarde."
     },
     "sponsorFound": {
-        "message": "Este vídeo tem segmentos no banco de dados!"
+        "message": "Este vídeo tem segmentos na base de dados!"
     },
     "sponsor404": {
         "message": "Nenhum segmento encontrado"
@@ -297,7 +297,7 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Pular segmento",
+        "message": "Ignorar segmento",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
@@ -718,13 +718,13 @@
         "message": "Enrolação/Piadas"
     },
     "category_filler_description": {
-        "message": "Cenas tangenciais inseridas apenas por enrolação ou humor que não são necessárias para compreender o tópico principal do vídeo. Isto não deve incluir segmentos que fornecem contexto ou detalhes de segundo plano. Esta é uma categoria muito agressiva para quando você não está com disposição para \"diversão\"."
+        "message": "Cenas tangenciais inseridas apenas para encher tempo ou humor que não são necessárias para compreender o tópico principal do vídeo. Isto não deve incluir segmentos que fornecem contexto ou detalhes de segundo plano. Esta é uma categoria muito agressiva para quando você não está com disposição para \"diversão\"."
     },
     "category_filler_short": {
         "message": "Enrolação"
     },
     "category_filler_guideline1": {
-        "message": "Cenas tangenciais apenas para enrolação ou humor"
+        "message": "Cenas tangenciais apenas para encher tempo ou humor"
     },
     "category_filler_guideline2": {
         "message": "Distrações, erros de gravação, repetições"
