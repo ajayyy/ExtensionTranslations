@@ -703,7 +703,7 @@
         "message": "Не для сегментов с контентом, даже если на видео показываются конечные заставки"
     },
     "category_preview": {
-        "message": "Предпросмотр, краткое содержание или завязка",
+        "message": "Предпросмотр, пересказ или завязка",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
