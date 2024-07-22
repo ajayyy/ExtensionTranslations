@@ -8,13 +8,13 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "서버에서 잘못된 요청이라고 응답했어요"
+        "message": "서버에서 이 요청이 잘못됐다고 응답했어요"
     },
     "409": {
         "message": "이전에 이미 제출된 적이 있어요"
     },
     "channelWhitelisted": {
-        "message": "채널을 화이트리스트에 추가했어요!"
+        "message": "채널을 허용 목록에 추가했어요!"
     },
     "Segment": {
         "message": "구간"
@@ -51,10 +51,10 @@
         "message": "불러오는 중..."
     },
     "Hide": {
-        "message": "창 닫기"
+        "message": "표시 안 함"
     },
     "hitGoBack": {
-        "message": "다시 돌아가려면 건너뛰지 않기 버튼을 누르세요."
+        "message": "다시 돌아가려면 건너뛰지 않기를 누르세요."
     },
     "unskip": {
         "message": "건너뛰지 않기"
@@ -72,7 +72,7 @@
         "message": "타이머가 정지됨"
     },
     "confirmMSG": {
-        "message": "구간의 길이를 수정하거나 삭제하고 싶다면, 정보 버튼을 누르거나 우측 상단에 있는 확장 프로그램 아이콘을 눌러 확장 프로그램 팝업을 여세요."
+        "message": "각 값을 편집하거나 삭제하려면, 정보 버튼을 누르거나 우측 상단에 있는 확장 프로그램 아이콘을 눌러 확장 프로그램 팝업을 여세요."
     },
     "clearThis": {
         "message": "정말로 초기화할까요?\n\n"
@@ -138,10 +138,10 @@
         "message": "정말로 이걸 제출할까요?"
     },
     "whitelistChannel": {
-        "message": "화이트리스트에 채널 추가"
+        "message": "허용 목록에 채널 추가"
     },
     "removeFromWhitelist": {
-        "message": "화이트리스트에서 채널 제거"
+        "message": "허용 목록에서 채널 제거"
     },
     "voteOnTime": {
         "message": "구간 투표"
@@ -281,7 +281,7 @@
         "description": "Full description of the extension on the store pages."
     },
     "website": {
-        "message": "웹사이트",
+        "message": "웹 사이트",
         "description": "Used on Firefox Store Page"
     },
     "sourceCode": {
@@ -329,7 +329,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow 켜기/끄기",
+        "message": "DeArrow 켜기/끄기 전환",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -432,7 +432,7 @@
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "statusReminder": {
-        "message": "Status.sponsor.ajay.app 사이트를 확인하여 서버 상태를 확인하세요."
+        "message": "Status.sponsor.ajay.app에서 서버 상태를 확인하세요."
     },
     "changeUserID": {
         "message": "비공개 사용자 ID 가져오기/내보내기"
@@ -457,10 +457,10 @@
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
-        "message": "지원되는 사이트: "
+        "message": "지원하는 사이트: "
     },
     "optionsInfo": {
-        "message": "Invidious 지원 활성화, 자동 건너뛰기 사용 안 함, 버튼 숨기기 등이 있어요."
+        "message": "Invidious 지원 사용, 자동 건너뛰기 사용 안 함, 버튼 숨기기 등이 있어요."
     },
     "addInvidiousInstance": {
         "message": "제삼자 클라이언트 인스턴스 추가"
@@ -490,7 +490,7 @@
         "message": "설정한 값보다 작은 구간은 건너뛰지 않으며 탐색 바에 표시되지 않아요."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "동영상 전체 라벨이 존재하는 경우 수동 건너뛰기 사용"
+        "message": "동영상 전체 라벨이 존재할 때 수동 건너뛰기 사용"
     },
     "whatManualSkipOnFullVideo": {
         "message": "전반적인 동영상 내용이 협찬이거나 자체 홍보인 경우에도 동영상을 계속 시청하고자 하는 분을 위한 설정이에요."
@@ -514,7 +514,7 @@
         "message": "SponsorBlock 서버 주소"
     },
     "customServerAddressDescription": {
-        "message": "SponsorBlock이 서버에 연결을 보낼 주소예요.\n따로 구축한 서버 인스턴스가 없으면, 이 주소를 변경하지 않는 게 좋아요."
+        "message": "SponsorBlock이 서버에 연결을 보낼 주소예요.\n따로 구축한 서버 인스턴스가 없으면, 이 주소를 변경하지 않아야 해요."
     },
     "dataFetchingServerAddress": {
         "message": "데이터를 가져올 서버 주소"
@@ -523,7 +523,7 @@
         "message": "주소가 데이터를 가져올 서버에 연결하는 데 사용돼요.\n따로 구축한 서버 인스턴스가 없다면, 변경하지 않는 게 좋아요."
     },
     "thumbnailCacheServerAddress": {
-        "message": "미리 보기 이미지 캐시 서버 주소"
+        "message": "썸네일 캐시 서버 주소"
     },
     "save": {
         "message": "저장"
@@ -532,13 +532,13 @@
         "message": "초기화"
     },
     "customAddressError": {
-        "message": "올바르지 않은 주소예요. http:// 또는 https://로 시작해야 하고 마지막 문자에 빗금이 있지 않아야 해요."
+        "message": "올바르지 않은 형식의 주소예요. http:// 또는 https://로 시작해야 하고 마지막 문자에 빗금이 없어야 해요."
     },
     "areYouSureReset": {
         "message": "이걸 정말로 초기화할까요?"
     },
     "mobileUpdateInfo": {
-        "message": "이제 m.youtube.com 링크를 지원해요."
+        "message": "이제 m.youtube.com 링크를 지원해요"
     },
     "exportOptions": {
         "message": "모든 설정 가져오기/내보내기"
@@ -547,7 +547,7 @@
         "message": "그 외 모든 데이터 가져오기/내보내기"
     },
     "exportOptionsCopy": {
-        "message": "수정/복사"
+        "message": "편집/복사"
     },
     "exportOptionsDownload": {
         "message": "파일로 저장하기"
@@ -556,7 +556,7 @@
         "message": "파일에서 불러오기"
     },
     "whatExportOptions": {
-        "message": "JSON의 전체 구성 파일이에요. 나의 비공개 사용자 ID가 포함되어 있으니, 공유할 때 주의하세요."
+        "message": "JSON의 전체 구성 파일이에요. 비공개 사용자 ID가 포함되어 있으니, 공유할 때 주의하세요."
     },
     "setOptions": {
         "message": "옵션 저장"
@@ -580,7 +580,7 @@
         "message": "삭제"
     },
     "preview": {
-        "message": "처음부터 보기"
+        "message": "미리 보기"
     },
     "unsubmitted": {
         "message": "미제출됨"
@@ -589,7 +589,7 @@
         "message": "구간 보기"
     },
     "edit": {
-        "message": "수정"
+        "message": "편집"
     },
     "copyDebugInformation": {
         "message": "디버그 정보를 클립보드에 복사하기"
@@ -601,10 +601,10 @@
         "message": "버그를 신고할 때나 개발자가 요청했을 때 필요한 디버그 정보를 클립보드에 복사해요. 사용자 ID, 화이트리스트 채널 목록, 맞춤 서버 주소 같은 민감한 정보는 포함되지 않아요. 디버그 정보에는 사용자 에이전트, 브라우저 정보, 사용 중인 운영 체제, 확장 프로그램의 버전 정보가 포함돼요. "
     },
     "copyDebugInformationComplete": {
-        "message": "디버그 정보가 복사됐어요. 공유하고 싶지 않은 정보를 지우셔도 돼요. 텍스트 파일로 저장하거나 버그 신고 시 이걸 붙여넣기 해주세요."
+        "message": "디버그 정보가 클립보드에 복사됐어요. 공유하고 싶지 않은 정보를 지우셔도 돼요. 이걸 텍스트 파일로 저장하거나 버그 제보 시 이걸 붙여넣기해 주세요."
     },
     "keyAlreadyUsed": {
-        "message": "이 단축키는 다른 동작에 할당됐어요. 다른 키를 선택해주세요."
+        "message": "이 단축키는 다른 동작에 할당됐어요. 다른 키로 선택해 주세요."
     },
     "to": {
         "message": "-",
@@ -734,7 +734,7 @@
         "message": "주제와 관련 없는 내용이 포함된 구간이어야 함"
     },
     "category_filler_guideline3": {
-        "message": "주제 이해와 관련 없는 구간이어야 함"
+        "message": "주제 이해와 관련 없는 장면이어야 함"
     },
     "category_music_offtopic": {
         "message": "음악이 아닌 구간"
@@ -755,16 +755,16 @@
         "message": "하이라이트"
     },
     "category_poi_highlight_description": {
-        "message": "이 구간은 많은 분이 찾는 동영상의 내용이 포함됐어요. \"바쁘신 분들은...\" 댓글과 유사해요."
+        "message": "이 구간은 많은 사람이 찾는 동영상의 부분이 포함됐어요. \"동영상은 x부터 시작해요\" 댓글과 유사해요."
     },
     "category_poi_highlight_guideline1": {
-        "message": "많은 사람이 찾는 구간이어야 함"
+        "message": "많은 사람이 찾는 부분이어야 함"
     },
     "category_poi_highlight_guideline2": {
         "message": "전반적인 동영상의 맥락과 일치하는 구간이어야 함"
     },
     "category_poi_highlight_guideline3": {
-        "message": "제목, 미리보기 이미지와 연관 있는 구간이어야 함"
+        "message": "제목 또는 썸네일로 건너뛸 수 있어야 함"
     },
     "category_chapter": {
         "message": "챕터"
@@ -803,7 +803,7 @@
         "message": "시점으로 자동 이동"
     },
     "manualSkip_POI": {
-        "message": "동영상을 클릭했을 때 묻기"
+        "message": "동영상을 불러왔을 때 묻기"
     },
     "showOverlay_POI": {
         "message": "탐색 바에 표시"
@@ -843,13 +843,13 @@
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "enableTestingServer": {
-        "message": "테스트 서버 활성화"
+        "message": "베타 테스트 서버 사용"
     },
     "whatEnableTestingServer": {
-        "message": "제출과 투표가 메인 서버에 반영되지 않을 거예요. 테스트를 목적으로 사용하세요."
+        "message": "제출과 투표가 메인 서버에 반영되지 않을 거예요. 테스트용으로만 사용하세요."
     },
     "testingServerWarning": {
-        "message": "제출과 투표가 테스트 서버에 연결하는 동안은 메인 서버에 반영되지 않을 거예요. 실제 제출을 원하시면 비활성화하는 걸 잊지 마세요."
+        "message": "제출과 투표가 테스트 서버에 연결하는 동안 메인 서버에 반영되지 않을 거예요. 실제 제출 시에는 사용하지 않는 걸 잊지 마세요."
     },
     "bracketNow": {
         "message": "(현재)"
@@ -861,7 +861,7 @@
         "message": "카테고리 선택"
     },
     "enableThisCategoryFirst": {
-        "message": "\"{0}\" 카테고리의 구간을 제출하려면, 설정에서 사용을 해주셔야 해요. 바로 설정 창으로 이동하실 거예요.",
+        "message": "\"{0}\" 카테고리의 구간을 제출하려면, 설정에서 사용해야 해요. 바로 설정 창으로 이동하실 거예요.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
@@ -894,7 +894,7 @@
         "message": "채널 ID를 불러오지 못했어요. 임베디드 동영상인 경우, YouTube 홈페이지에서 시도해보세요. YouTube 레이아웃 변화로 인해 발생한 문제일 수도 있어요. 그렇게 생각하신다면 다음 사이트에서 의견을 남겨주세요: "
     },
     "invidiousPermissionRefresh": {
-        "message": "브라우저가 Invidious와 다른 제삼자 사이트에서 동작하기 위한 권한을 회수했어요. 권한을 다시 부여하려면 아래 버튼을 눌러주세요."
+        "message": "브라우저가 Invidious와 다른 제삼자 사이트에서 동작하기 위한 권한을 회수했어요. 이 권한을 다시 부여하려면 아래 버튼을 눌러주세요."
     },
     "acceptPermission": {
         "message": "권한 허용"
