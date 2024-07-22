@@ -150,7 +150,7 @@
         "message": "제출"
     },
     "savedPeopleFrom": {
-        "message": "나 덕분에 다른 분이 건너뛴 구간: "
+        "message": "나 덕분에 다른 사람이 건너뛴 구간: "
     },
     "viewLeaderboard": {
         "message": "순위표"
@@ -163,7 +163,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "도움말: 설정에서 제출 단축키를 설정하실 수 있어요"
+        "message": "도움말: 설정에서 제출용 단축키를 설정할 수 있어요"
     },
     "clearTimesButton": {
         "message": "구간 초기화"
@@ -238,7 +238,7 @@
         "message": "해시 접두사로 요청 전송"
     },
     "whatQueryByHashPrefix": {
-        "message": "동영상 ID로 구간을 요청하는 대신, 동영상 ID의 처음 해시 4자리를 전송해요. 서버가 유사한 해시가 포함된 동영상의 데이터를 보낼 거예요."
+        "message": "동영상 ID로 구간을 요청하는 대신, 동영상 ID의 첫 해시 4자리를 보내요. 서버가 유사한 해시가 포함된 모든 동영상의 데이터를 보낼 거예요."
     },
     "enableRefetchWhenNotFound": {
         "message": "새로운 동영상에서 구간 정보 자동 갱신"
@@ -277,7 +277,7 @@
         "message": "모든 건너뛰기 알림 숨김"
     },
     "longDescription": {
-        "message": "SponsorBlock은 스폰서 광고, 인트로, 아웃트로, 구독 요청 구간과 같은 동영상 감상에 짜증 나는 구간을 건너뛸 수 있게 해줘요. SponsorBlock은 여러분이 참여하는 확장 프로그램으로 누구나 YouTube 동영상에 있는 스폰서 광고 구간, 카테고리에 있는 다른 구간을 생성할 수 있답니다. 구간을 제출하게 되면, 확장 프로그램을 사용하는 다른 분은 스폰서 광고 구간을 건너뛰게 될 거예요. 또한 이 확장 프로그램으로 뮤직비디오에서 음악이 아닌 구간도 건너뛸 수 있어요.",
+        "message": "SponsorBlock을 사용하면 영상에서 스폰서 광고, 인트로 영상, 아웃트로 영상, 구독 광고와 그 외 쓸데없는 부분을 즉시 건너뛸 수 있습니다. SponsorBlock은 모든 사람들이 참여하는 브라우저 확장 기능으로 확장 기능 사용자는 스폰서 광고 또는 다른 광고의 시작 시간과 끝 시간을 확인하여 서버로 전송할 수 있습니다. 이러한 정보가 전송되면 그 영상을 보는 다른 사용자들은 광고 구간이 나오기 전에 자동으로 건너뛸 수 있습니다. SponsorBlock을 사용하면 뮤직 비디오에서 음악이나 노래가 아닌 구간도 건너뛸 수 있습니다.",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -293,7 +293,7 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "여전히 알림 창이 마음에 들지 않는다면, 창 닫기 버튼을 눌러주세요.",
+        "message": "여전히 알림 창이 마음에 들지 않는다면, 표시 안 함 버튼을 눌러주세요.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
@@ -499,7 +499,7 @@
         "message": "건너뛰기 알림 길이(초):"
     },
     "skipNoticeDurationDescription": {
-        "message": "몇 초간 건너뛰기 알림이 표시될지 지정해요. 수동 건너뛰기를 한 경우, 알림이 더 길게 표시될 수 있어요."
+        "message": "최소 몇 초간 건너뛰기 알림이 표시될지 지정해요. 수동 건너뛰기의 경우, 알림이 더 길게 표시될 수 있어요."
     },
     "shortCheck": {
         "message": "이 제출은 설정된 최소 기간보다 작아요. 이미 제출되었을 수도 있으며, 설정으로 인해 무시되었을 수도 있어요. 그래도 제출할까요?"
@@ -821,11 +821,11 @@
         "message": "구간을 건너뛰지 않고 음소거 처리"
     },
     "fullVideoSegments": {
-        "message": "동영상 전체가 광고인 경우 아이콘 표시",
+        "message": "동영상 전체가 광고일 때 아이콘 표시",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "동영상 미리 보기 사진에도 라벨 표시",
+        "message": "동영상 썸네일에도 라벨 표시",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
@@ -915,7 +915,7 @@
         "message": "기본적으로, 무슨 채널인지 알기 전 구간을 건너뛰어요. 화이트리스트 내 채널의 동영상 시작 부분에 있는 일부 구간이 건너뛰는 현상을 방지할 수 있지만 채널 ID를 가져오는 데 시간이 소요되어 건너뛰기에 지연이 발생할 수 있어요. 고속 인터넷을 사용하고 있다면 체감하지 못할 수도 있어요."
     },
     "forceChannelCheckPopup": {
-        "message": "\"건너뛰기 전 채널 강제 확인\"을 설정에서 활성화하는 것을 고려해보세요."
+        "message": "\"건너뛰기 전 채널 강제 확인\"을 설정에서 사용하는 걸 고려해 보세요"
     },
     "downvoteDescription": {
         "message": "구간의 시간이 잘못 입력됐어요"
@@ -973,7 +973,7 @@
         "message": "다시 보지 않음"
     },
     "warningChatInfo": {
-        "message": "현재 일반적인 실수들을 저지르고 계셔서 알려드려요. 지금까지 작업해주신 것은 감사드리지만, 저희는 완벽을 추구하고 있기 때문에 아주 작은 실수라도 문제가 될 수 있어요 :)"
+        "message": "자주 하는 실수를 저지르고 있으셔서 알려드려요. 지금까지 작업해주신 것은 감사드리지만, 저희는 완벽을 추구하고 있기 때문에 아주 작은 실수라도 문제가 될 수 있어요 :)"
     },
     "questionButton": {
         "message": "질문이 있어요"
@@ -997,19 +997,19 @@
         "message": "개발 자금을 지원해주세요"
     },
     "hideDonationLink": {
-        "message": "후원 링크 숨김"
+        "message": "후원 링크 숨기기"
     },
     "darkModeOptionsPage": {
-        "message": "설정 페이지에서 어두운 테마 사용"
+        "message": "설정 페이지에서 어두운 모드 사용"
     },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlock을 설치해 주셔서 감사드려요."
     },
     "helpPageReviewOptions": {
-        "message": "아래 설정을 확인해 보세요"
+        "message": "아래 설정을 검토해 보세요"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "기본값으로 많은 기능이 사용되지 않아요. 인트로, 아웃트로 같은 부분을 건너뛰고 싶으시다면 아래 설정을 사용해야 해요. 또한 UI 요소를 숨기거나 표시할 수 있답니다."
+        "message": "기본적으로 많은 기능이 꺼져 있어요. 인트로, 아웃트로, Invidious 사용 등을 원한다면, 아래에서 켜야 해요. 또한 UI 요소를 숨기거나 표시할 수 있답니다."
     },
     "helpPageHowSkippingWorks": {
         "message": "건너뛰기가 작동하는 방법"
@@ -1030,25 +1030,25 @@
         "message": "시작 아이콘을 누르면 구간의 시점을 정할 수 있고 정지 아이콘을 누르면 구간의 종점을 정할 수 있어요. 제출하기 전 여러 구간을 설정할 수 있는데, 업로드 아이콘을 눌러 제출할 수 있어요. 휴지통 아이콘을 눌러 구간을 삭제하실 수도 있어요."
     },
     "Editing": {
-        "message": "구간 수정 방법"
+        "message": "편집 방법"
     },
     "helpPageEditing1": {
-        "message": "구간을 잘못 설정했다면, 위쪽 화살표 버튼을 누른 다음 구간을 수정하거나 삭제할 수 있어요."
+        "message": "구간을 잘못 설정했다면, 위쪽 화살표 버튼을 누른 다음 구간을 편집하거나 삭제할 수 있어요."
     },
     "helpPageTooSlow": {
         "message": "이건 너무 느린 거 같아요"
     },
     "helpPageTooSlow1": {
-        "message": "원하는 경우 단축키를 사용할 수 있어요. 쌍반점(세미콜론) 키를 눌러 스폰서 광고 구간의 시점/종점을 설정할 수 있으며 작은따옴표 키를 눌러 구간을 제출할 수 있답니다. 언제든지 설정에서 변경할 수 있어요. QWERTY 자판을 사용하지 않는 경우, 단축키를 변경해야 할 수도 있어요."
+        "message": "원하는 경우 단축키를 사용할 수 있어요. 쌍반점 키를 눌러 후원이나 협찬 구간의 시점/종점을 설정할 수 있으며 작은따옴표 키를 눌러 구간을 제출할 수 있답니다. 언제든지 설정에서 변경할 수 있어요. QWERTY 자판을 사용하지 않는 경우, 단축키를 변경해야 할 수도 있어요."
     },
     "helpPageCopyOfDatabase": {
-        "message": "데이터베이스의 복사본을 구할 수 있나요? 개발자분께 무슨 일이 생기면 어떻게 되는 거죠?"
+        "message": "데이터베이스의 복사본을 구할 수 있나요? 개발자가 사라지면 어떻게 되나요?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "데이터베이스는 여기에서 확인하실 수 있어요:"
+        "message": "데이터베이스는 여기에서 확인할 수 있어요:"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "또한 소스 코드는 자유롭게 사용할 수 있어요. 따라서 데이터베이스에 무슨 일이 생기더라도, 제출된 구간이 사라지는 일은 없을 거예요."
+        "message": "또한 소스 코드는 자유롭게 사용할 수 있어요. 그러므로, 저에게 무슨 일이 생겨도 제출이 사라지는 일은 없을 거예요."
     },
     "helpPageNews": {
         "message": "새로운 변경 사항은 어디에서 확인하나요?"
@@ -1063,10 +1063,10 @@
         "message": "자세히 보기"
     },
     "FullDetails": {
-        "message": "전체 세부 정보"
+        "message": "모든 상세 정보"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "비추천 후 다시 제출할 수 있는 제출되지 않은 복사본을 생성해요"
+        "message": "비추천 및 다시 제출할 수 있는 사본을 생성해요"
     },
     "OpenCategoryWikiPage": {
         "message": "이 카테고리의 위키 페이지를 열어요."
@@ -1096,10 +1096,10 @@
         "message": "챕터 재생"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "편집 상자 위에 마우스 커서를 올린 채 스크롤해서 시간을 빠르게 조정해 보세요. Ctrl이나 Shift 키를 누른 채로 스크롤하면 세밀하게 조정할 수 있어요."
+        "message": "편집 상자 위에 마우스 휠을 스크롤해서 시간을 빠르게 조정해 보세요. Ctrl이나 Shift 키로 세밀하게 조정할 수 있어요."
     },
     "categoryPillNewFeature": {
-        "message": "새로운 기능! 이제 동영상 전체가 광고거나 자체 홍보인지 확인해 보세요"
+        "message": "신규! 이제 동영상 전체가 광고거나 자체 홍보인지 확인해 보세요"
     },
     "yearAbbreviation": {
         "message": "년",
@@ -1148,10 +1148,10 @@
         "message": "변경"
     },
     "youtubeKeybindWarning": {
-        "message": "설정한 키와 기존 YouTube 단축키가 중복돼요. 그래도 사용할까요?"
+        "message": "기존 YouTube 단축키와 겹쳐요. 그래도 사용할까요?"
     },
     "betaServerWarning": {
-        "message": "테스트 서버가 활성화됐어요!"
+        "message": "베타 서버를 사용 중이에요!"
     },
     "openOptionsPage": {
         "message": "설정 페이지 열기"
@@ -1182,7 +1182,7 @@
         "message": "(추가 결제 없이는 숨김 설정을 사용할 수 없어요)"
     },
     "hideNewFeatureUpdates": {
-        "message": "새로운 기능에 관한 프롬프트 숨기기"
+        "message": "신규 기능에 관한 프롬프트 숨기기"
     },
     "redeem": {
         "message": "등록"
