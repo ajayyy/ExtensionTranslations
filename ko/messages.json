@@ -244,7 +244,7 @@
         "message": "새로운 동영상에서 구간 정보 자동 갱신"
     },
     "whatRefetchWhenNotFound": {
-        "message": "새로운 동영상이고 구간을 찾지 못했다면, 동영상을 보는 동안 몇 분 단위로 구간 정보를 갱신해요."
+        "message": "신규 동영상이고 구간을 찾지 못했다면, 동영상을 보는 동안 몇 분마다 구간 정보를 갱신해요."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "제출 권한이 없는 카테고리도 제출 메뉴에 표시"
@@ -293,7 +293,7 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "여전히 알림 창이 마음에 들지 않는다면, 표시 안 함 버튼을 눌러주세요.",
+        "message": "여전히 알림 창이 마음에 들지 않는다면, 표시 안 함 버튼을 누르세요.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
@@ -337,10 +337,10 @@
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
-        "message": "등록하고 싶은 키를 눌러주세요. 필요하다면 보조 키를 선택하실 수도 있어요."
+        "message": "키를 입력해서 등록해 주세요. 필요하다면 보조 키를 선택해 주세요."
     },
     "0": {
-        "message": "연결에 실패했어요. 인터넷 연결을 확인하세요. 인터넷 연결이 되어 있는 경우, 서버가 과부하됐거나 다운된 것일 수도 있어요."
+        "message": "연결 시간을 초과했어요. 인터넷 연결을 확인하세요. 인터넷이 작동 중이라면, 서버가 과부하 됐거나 다운된 것일 수도 있어요."
     },
     "disableSkipping": {
         "message": "건너뛰기 켜짐"
@@ -520,7 +520,7 @@
         "message": "데이터를 가져올 서버 주소"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "주소가 데이터를 가져올 서버에 연결하는 데 사용돼요.\n따로 구축한 서버 인스턴스가 없다면, 변경하지 않는 게 좋아요."
+        "message": "데이터를 가져올 서버에 요청하는 데 사용되는 주소예요.\n따로 구축한 서버 인스턴스가 없다면, 변경하지 않아야 해요."
     },
     "thumbnailCacheServerAddress": {
         "message": "썸네일 캐시 서버 주소"
@@ -764,7 +764,7 @@
         "message": "전반적인 동영상의 맥락과 일치하는 구간이어야 함"
     },
     "category_poi_highlight_guideline3": {
-        "message": "제목 또는 썸네일로 건너뛸 수 있어야 함"
+        "message": "제목 또는 썸네일과 연관 있어야 함"
     },
     "category_chapter": {
         "message": "챕터"
@@ -846,10 +846,10 @@
         "message": "베타 테스트 서버 사용"
     },
     "whatEnableTestingServer": {
-        "message": "제출과 투표가 메인 서버에 반영되지 않을 거예요. 테스트용으로만 사용하세요."
+        "message": "제출과 투표가 메인 서버에 반영되지 않아요. 테스트용으로만 사용하세요."
     },
     "testingServerWarning": {
-        "message": "제출과 투표가 테스트 서버에 연결하는 동안 메인 서버에 반영되지 않을 거예요. 실제 제출 시에는 사용하지 않는 걸 잊지 마세요."
+        "message": "제출과 투표가 테스트 서버에 연결하는 동안 메인 서버에 반영되지 않아요. 실제 제출 시에는 사용하지 않는 걸 잊지 마세요."
     },
     "bracketNow": {
         "message": "(현재)"
@@ -865,10 +865,10 @@
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
-        "message": "경고: 이 유형의 구간은 한 개만 있을 수 있어요. 여러 구간을 제출하게 되면 다른 분께는 구간 중 하나가 무작위로 표시돼요."
+        "message": "경고: 이 유형의 구간은 한 번에 최대 한 개만 사용할 수 있어요. 여러 구간을 제출하면 구간 중 하나가 무작위로 표시돼요."
     },
     "youMustSelectACategory": {
-        "message": "제출해야 하는 모든 구간의 카테고리를 선택해 주세요!"
+        "message": "제출하는 모든 구간에 대해 카테고리를 선택해야 해요!"
     },
     "bracketStart": {
         "message": "(시작)"
@@ -963,7 +963,7 @@
         "message": "동영상 전체가 해당 카테고리로 지정됐고 부분적으로 나누기 어려워요"
     },
     "chapterNameTooltipWarning": {
-        "message": "챕터의 이름 중 하나가 카테고리와 유사해요. 가능한 경우 카테고리를 대신 사용해 주세요."
+        "message": "챕터의 이름 중 하나가 카테고리와 유사해요. 가능하다면 카테고리를 대신 사용해 주세요."
     },
     "experiementOptOut": {
         "message": "향후 모든 실험 기능 비활성화",
@@ -973,7 +973,7 @@
         "message": "다시 보지 않음"
     },
     "warningChatInfo": {
-        "message": "자주 하는 실수를 저지르고 있으셔서 알려드려요. 지금까지 작업해주신 것은 감사드리지만, 저희는 완벽을 추구하고 있기 때문에 아주 작은 실수라도 문제가 될 수 있어요 :)"
+        "message": "자주 하는 실수를 저지르고 있으셔서 알려드려요. 지금까지 작업해 주신 것은 감사드리지만, 저희는 완벽을 추구하고 있기 때문에 아주 작은 실수라도 문제가 될 수 있어요 :)"
     },
     "questionButton": {
         "message": "질문이 있어요"
@@ -1063,7 +1063,7 @@
         "message": "자세히 보기"
     },
     "FullDetails": {
-        "message": "모든 상세 정보"
+        "message": "모든 세부 정보"
     },
     "CopyDownvoteButtonInfo": {
         "message": "비추천 및 다시 제출할 수 있는 사본을 생성해요"
@@ -1096,7 +1096,7 @@
         "message": "챕터 재생"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "편집 상자 위에 마우스 휠을 스크롤해서 시간을 빠르게 조정해 보세요. Ctrl이나 Shift 키로 세밀하게 조정할 수 있어요."
+        "message": "편집 상자 위로 마우스 휠을 스크롤해서 시간을 빠르게 조정해 보세요. Ctrl이나 Shift 키로 세밀하게 조정할 수 있어요."
     },
     "categoryPillNewFeature": {
         "message": "신규! 이제 동영상 전체가 광고거나 자체 홍보인지 확인해 보세요"
@@ -1134,7 +1134,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "건너뛰기 알림 표시 방법",
+        "message": "건너뛰기 알림 형식",
         "description": "Option label"
     },
     "unbind": {
@@ -1219,7 +1219,7 @@
         "description": "Label for a button in settings"
     },
     "clearUnsubmittedSegmentsConfirm": {
-        "message": "정말 미제출한 구간을 모두 초기화할까요?",
+        "message": "정말로 모든 미제출한 구간을 초기화할까요?",
         "description": "Confirmation message for the Clear unsubmitted segments button"
     },
     "showUnsubmittedSegments": {
@@ -1246,10 +1246,10 @@
         "message": "URL로 공유"
     },
     "segmentFetchFailureWarning": {
-        "message": "경고: 서버에서 구간 정보를 불러오지 못했어요. 동영상에 이미 제출된 구간이 있을 수 있지만 서버의 문제로 인해 수신되지 않았을 수도 있어요."
+        "message": "경고: 서버에서 구간 정보를 가져오지 못했어요. 이 동영상에 이미 제출된 구간이 있을 수 있지만 서버 문제로 인해 수신하지 못했어요."
     },
     "allowScrollingToEdit": {
-        "message": "스크롤하여 구간 편집 허용"
+        "message": "스크롤로 구간 편집 허용"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds}초",
@@ -1350,7 +1350,7 @@
         "message": "빈 상자 표시"
     },
     "AutoGenerated": {
-        "message": "YouTube가 자동 생성한 미리 보기 이미지 표시",
+        "message": "YouTube가 자동 생성한 썸네일 표시",
         "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
     },
     "Start": {
@@ -1382,7 +1382,7 @@
         "message": "비공개 탭에서 제출한 투표 저장"
     },
     "useThumbnailGenerationService": {
-        "message": "미리 보기 이미지 생성 서비스 사용"
+        "message": "썸네일 생성 서비스 사용"
     },
     "titleMaxLines": {
         "message": "제목의 최대 줄 수"
@@ -1391,16 +1391,16 @@
         "message": "제안된 동영상 제목이 차지할 수 있는 최대 줄 수예요."
     },
     "thumbnailSaturationLevel": {
-        "message": "미리 보기 이미지 채도 수준"
+        "message": "썸네일 채도 수준"
     },
     "whatSaturateThumbnails": {
         "message": "미리 보기 이미지를 덜 선명하게 만들어요"
     },
     "hideDetailsWhileFetching": {
-        "message": "가져올 때 세부 사항 숨기기"
+        "message": "가져오는 동안 세부 정보 숨기기"
     },
     "hideDetailsWhileFetchingDescription": {
-        "message": "서버에서 데이터를 가져올 때 제목 및 미리 보기 이미지를 숨겨요. 사용하지 않는 경우, 제목 및 미리 보기 이미지가 변경될 때 깜박임이 발생해요."
+        "message": "서버에서 데이터를 가져오는 동안 제목과 썸네일을 숨겨요. 사용하지 않는 경우, 제목과 썸네일이 변경될 때 깜박임이 발생해요."
     },
     "onAllPages": {
         "message": "모든 페이지에서",
@@ -1414,17 +1414,17 @@
         "message": "사용 안 함"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "미리 보기 이미지 생성 서비스는 원격 서버로 동영상 ID가 담긴 익명 요청을 전송해 미리 보기 이미지 생성 속도를 크게 향상시켜요. 요청이 전송된 이후에는 미리 보기 이미지를 생성하거나, 이미 생성한 것이 있다면 캐시에서 꺼내요."
+        "message": "썸네일 생성 서비스는 원격 서버로 동영상 ID가 담긴 익명 요청을 전송해 썸네일 생성 속도를 크게 높여줘요. 그런 다음 썸네일을 생성하거나, 이미 생성한 것이 있다면 캐시에서 가져와요."
     },
     "thumbnailGeneratorDescription2": {
         "message": "동영상 페이지에서 이용하면, '일부 공개' 동영상의 ID가 서버로 누출될 수 있어요. \"동영상 페이지를 제외한 모든 페이지에서\"로 설정하면 문제가 발생하지 않아요. 아니면 미리 보기 이미지 생성 서비스를 스스로 호스팅할 수도 있어요."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "미리 보기 이미지 생성 서비스를 사용할 수 없게 되면, 모든 요청을 K-anonymity 쿼리 시스템을 이용해 보내게 되어, 서버에서 어떤 동영상을 가져왔는지 예측하기 힘들어지고, 미리 보기 이미지를 로컬에서 더 느리게 생성하게 돼요.",
+        "message": "썸네일 생성 서비스를 사용하지 않으면, 모든 요청을 K-anonymity 쿼리 시스템을 사용해 보내게 되어, 서버에서 어떤 동영상을 가져왔는지 예측하기 힘들어지고, 느린 썸네일 생성 서비스를 사용하게 돼요.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
-        "message": "미리 보기 이미지 생성 서비스 소스 코드"
+        "message": "썸네일 생성 서비스 소스 코드"
     },
     "moreAboutKAnonymity": {
         "message": "K-Anonymity 더 알아보기",
@@ -1434,10 +1434,10 @@
         "message": "항상 \"원본 보기\" 버튼 표시"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "제목/미리 보기 이미지가 바뀌었는지 항상 확인하고 싶다면 켜세요."
+        "message": "제목/썸네일이 변경됐는지 항상 확인하고 싶다면 이걸 켜세요."
     },
     "showOriginalOnHover": {
-        "message": "마우스를 올렸을 때 원본 정보 보기"
+        "message": "마우스를 올렸을 때 원본 세부 정보 표시"
     },
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
@@ -1450,17 +1450,17 @@
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "미리 보기 이미지",
+        "message": "썸네일",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "Error": {
         "message": "오류"
     },
     "ShowOriginal": {
-        "message": "원본 정보 보기"
+        "message": "원본 세부 정보 표시"
     },
     "ShowModified": {
-        "message": "수정된 정보 보기"
+        "message": "수정된 세부 정보 표시"
     },
     "FillerWarning": {
         "message": "경고: 매우 공격적인 카테고리예요. '건너뛰지 않기'를 이용하거나, 가끔 '사용 안 함'으로 설정해야 할 가능성이 높아요. 많은 동영상에서 동영상의 50% 이상을 건너뛸 수 있으니 주의하세요! 하지만, 그럼에도 제출할 때 따라야 하는 지침이 분명히 있다는 사실을 잊지 마세요.",
@@ -1479,15 +1479,15 @@
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "원본 제목의 질문에 단순히 답하는 것이 아니라, 맥락을 고려해야 함",
+        "message": "원본 제목의 질문에 단순히 답하는 것이 아니라, 전체적인 맥락을 고려해야 함",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "동영상에 대한 반응(\"충격\")을 담지 않아야 함",
+        "message": "동영상에 대한 반응(\"충격\")을 묘사하지 않아야 함",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "누르기 전 충분한 정보를 제공해 현명한 선택을 하도록 해야 함"
+        "message": "누르기 전 현명한 선택을 하도록 충분한 정보를 제공해야 함"
     },
     "tip5": {
         "message": "문장처럼 대소문자를 적용해야 함",
@@ -1515,7 +1515,7 @@
         "message": "이용 약관"
     },
     "openSourceLicenses": {
-        "message": "오픈소스 라이선스"
+        "message": "오픈 소스 라이선스"
     },
     "defaultToOriginals": {
         "message": "원본 동영상 정보를 기본값으로"
@@ -1527,7 +1527,7 @@
         "message": "제목 대체"
     },
     "replaceThumbnails": {
-        "message": "미리 보기 이미지 대체"
+        "message": "썸네일 대체"
     },
     "useCrowdsourcedTitles": {
         "message": "사용자 참여 제목 사용"
@@ -1537,7 +1537,7 @@
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
-        "message": "이 구성을 삭제할까요?",
+        "message": "정말로 이 구성을 삭제할까요?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
@@ -1587,7 +1587,7 @@
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "확장 프로그램을 설치한 뒤 제목 {titles}개와 미리 보기 이미지 {thumbnails}개를 교체했어요",
+        "message": "확장 프로그램을 설치한 후 제목 {titles}개와 썸네일 {thumbnails}개를 교체했어요",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
@@ -1599,19 +1599,19 @@
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
-        "message": "및 미리 보기 이미지 {thumbnails}개",
+        "message": "및 썸네일 {thumbnails}개",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailsPart": {
-        "message": "및 미리 보기 이미지 {thumbnails}개",
+        "message": "및 썸네일 {thumbnails}개",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessage2": {
-        "message": "확장 프로그램을 설치한 뒤 {titleAndThumbnailMessage}를 교체했어요",
+        "message": "확장 프로그램을 설치한 후 {titleAndThumbnailMessage}를 교체했어요",
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "제목과 미리 보기 이미지 교체 횟수 세기"
+        "message": "제목과 썸네일 교체 횟수 세기"
     },
     "countReplacementsDescription": {
         "message": "팝업 창에서 통계를 표시할 때 이용해요.",
@@ -1633,19 +1633,19 @@
         "message": "SponsorBlock은 \"Zoom to Fill\" 확장 프로그램과 호환되지 않아요. 잘 호환되는 대안 확장 프로그램이 많이 있어요."
     },
     "freeTrialStarted": {
-        "message": "무료 체험을 성공적으로 시작했어요. YouTube에 들어가 시험해보세요"
+        "message": "무료 체험을 시작했어요. YouTube에 방문해 시험해 보세요"
     },
     "freeTrialEnded": {
         "message": "무료 체험이 끝났어요"
     },
     "freeTrialPrompt": {
-        "message": "1시간 동안 시험해보고 싶다면, 아래 버튼을 눌러 무료 체험을 시작할 수 있어요."
+        "message": "시험해 보고 싶다면, 아래 버튼을 눌러 무료 체험을 시작하세요."
     },
     "startFreeTrial": {
         "message": "무료 체험 시작"
     },
     "freeAccessRequested": {
-        "message": "무료 이용에 성공적으로 등록했어요. 무료로 이용할 수 있게 되면 알려드릴게요."
+        "message": "무료 이용에 등록했어요. 무료 이용이 가능하게 되면 알려드릴게요."
     },
     "freeAccessComplete": {
         "message": "축하해요! 이제 DeArrow를 무료로 이용할 수 있어요"
@@ -1675,13 +1675,13 @@
         "message": "경고: 브라우저에서 확장 프로그램 저장 공간이 비활성화 되었어요. 설정이 저장되지 않아요."
     },
     "syncDisabledWarningDeArrow": {
-        "message": "DeArrow는 저장 기능이 없으면 사용할 수 없어요."
+        "message": "DeArrow는 저장 공간이 없으면 작동하지 않아요."
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
     },
     "storageFull": {
-        "message": "확장 프로그램 저장공간이 가득 찼어요. 설정에서 미제출한 구간을 삭제해 주세요."
+        "message": "확장 프로그램 저장 공간이 가득 찼어요. 설정에서 미제출한 구간 일부를 삭제해 주세요."
     },
     "previewSegmentRequired": {
         "message": "제출하기 전에 구간을 미리 확인해주세요. 미리보기 버튼이나 단축키를 눌러 확인할 수 있어요. 단축키:",
