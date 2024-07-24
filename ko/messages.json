@@ -51,7 +51,7 @@
         "message": "불러오는 중..."
     },
     "Hide": {
-        "message": "표시 안 함"
+        "message": "창 닫기"
     },
     "hitGoBack": {
         "message": "다시 돌아가려면 건너뛰지 않기를 누르세요."
@@ -293,7 +293,7 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "여전히 알림 창이 마음에 들지 않는다면, 표시 안 함 버튼을 누르세요.",
+        "message": "여전히 알림 창이 마음에 들지 않는다면, 창 닫기 버튼을 누르세요.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
