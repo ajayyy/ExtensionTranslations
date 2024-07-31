@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Понашај се као VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке рекламе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
     }
 }
