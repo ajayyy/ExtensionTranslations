@@ -196,7 +196,7 @@
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
     "showSkipButton": {
-        "message": "Zum Highlight springen-Knopf im Player behalten"
+        "message": "„Zum Highlight springen“-Knopf im Player behalten"
     },
     "showInfoButton": {
         "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
@@ -211,7 +211,7 @@
         "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
     },
     "showDeleteButton": {
-        "message": "Löschen-Knopf im Youtube-Videoplayer anzeigen"
+        "message": "Löschen-Knopf im YouTube-Videoplayer anzeigen"
     },
     "enableViewTracking": {
         "message": "Aktiviere das Zählen übersprungener Segmente"
@@ -329,7 +329,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow ein/ausschalten",
+        "message": "DeArrow ein-/ausschalten",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -544,7 +544,7 @@
         "message": "Alle Einstellungen importieren/exportieren"
     },
     "exportOtherData": {
-        "message": "Alle anderen Daten Importieren/Exportieren"
+        "message": "Alle anderen Daten importieren/exportieren"
     },
     "exportOptionsCopy": {
         "message": "Bearbeiten/Kopieren"
@@ -664,7 +664,7 @@
         "message": "Interaktions-Erinnerungen (Abonnieren, etc.)"
     },
     "category_interaction_description": {
-        "message": "Wenn es eine kurze Erinnerung zum \"Daumen hoch\" geben, Abonnieren, oder Folgen in der Mitte des Inhalts gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter \"Unbezahlt/Eigenwerbung\" sein."
+        "message": "Wenn es eine kurze Erinnerung zum Daumen-hoch-Geben, Abonnieren, oder Folgen in der Mitte des Inhalts gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter \"Unbezahlt/Eigenwerbung\" sein."
     },
     "category_interaction_guideline1": {
         "message": "Kurze Erinnerungen zum Liken, Abonnieren oder Folgen"
@@ -1039,7 +1039,7 @@
         "message": "Das ist zu langsam"
     },
     "helpPageTooSlow1": {
-        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste um den Anfang / das Ende eines Sponsor-Segments zu markieren und die Apostroph-Taste um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
+        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste, um den Anfang / das Ende eines Sponsor-Segments zu markieren, und die Apostroph-Taste, um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
     },
     "helpPageCopyOfDatabase": {
         "message": "Kann ich eine Kopie der Datenbank erhalten? Was passiert, wenn du verschwindest?"
@@ -1096,7 +1096,7 @@
         "message": "Kapitel abspielen"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "Benutze das Mausrad während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
+        "message": "Benutze das Mausrad, während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
     },
     "categoryPillNewFeature": {
         "message": "Neu! Sieh, wenn ein Video ausschließlich Sponsor oder Eigenwerbung ist"
