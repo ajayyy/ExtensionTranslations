@@ -1099,7 +1099,7 @@
         "message": "Benutze das Mausrad, während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
     },
     "categoryPillNewFeature": {
-        "message": "Neu! Sieh, wenn ein Video ausschließlich Sponsor oder Eigenwerbung ist"
+        "message": "Neu! Sieh, wenn ein Video ausschließlich gesponsert oder Eigenwerbung ist"
     },
     "yearAbbreviation": {
         "message": "y",
@@ -1367,16 +1367,16 @@
         "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
-        "message": "A/B getestete Thumbnails nie verwenden"
+        "message": "A/B-getestete Thumbnails nie verwenden"
     },
     "ignoreAbThumbnailsDescription": {
         "message": "Kanäle können Tests auf Ihren Videos einrichten, bei denen YouTube jeder Person verschiedene Thumbnails zeigt. Diese Option wird immer das erste Thumbnail verwenden, um Konsistenz zu bewahren."
     },
     "abThumbnailsWarning": {
-        "message": "Warnung: Dieses Video hat aktuell einen A/B Thumbnail-Test aktiv. Das bedeutet, dass das Thumbnail sich oft ändern kann. Du solltest wegen dieses Risikos eventuell nicht für das originale Thumbnail abstimmen."
+        "message": "Warnung: Dieses Video hat aktuell einen A/B-Thumbnail-Test aktiv. Das bedeutet, dass sich das Thumbnail oft ändern kann. Du solltest wegen dieses Risikos eventuell nicht für das originale Thumbnail abstimmen."
     },
     "whatKeepUnsubmitted": {
-        "message": "Behalte übermittelte Abstimmungen um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
+        "message": "Behalte übermittelte Abstimmungen, um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
     },
     "keepUnsubmittedInPrivate": {
         "message": "Von privaten Tabs eingereichte Bewertungen speichern"
@@ -1414,7 +1414,7 @@
         "message": "Nie"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Generierung von Thumbnails erheblich, in dem er eine anonyme Anfrage mit der Video‑ID an einen Server schickt. Das Thumbnailbild wird dann entweder generiert oder aus einem Cache bezogen, wenn es zuvor bereits generiert wurde."
+        "message": "Der Thumbnail-Generierungsdienst beschleunigt die Generierung von Thumbnails erheblich, indem er eine anonyme Anfrage mit der Video‑ID an einen Server schickt. Das Thumbnail wird dann entweder generiert oder aus einem Cache bezogen, wenn es zuvor bereits generiert wurde."
     },
     "thumbnailGeneratorDescription2": {
         "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
@@ -1424,14 +1424,14 @@
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
-        "message": "Thumbnail-Erstellungsdienst Quellcode"
+        "message": "Thumbnail-Erstellungsdienst-Quellcode"
     },
     "moreAboutKAnonymity": {
         "message": "Mehr über k-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
-        "message": "Zeige immer den \"Original anzeigen\"-Knopf an"
+        "message": "Zeige immer den „Original anzeigen“-Knopf an"
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
@@ -1440,7 +1440,7 @@
         "message": "Zeige originale Details, wenn du mit dem Mauszeiger darauf zeigst"
     },
     "showIconForFormattedTitles": {
-        "message": "Zeige \"Original anzeigen\"-Knopf für automatisch formatierte Titel"
+        "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
     },
     "Enable": {
         "message": "Aktivieren"
@@ -1483,7 +1483,7 @@
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "Vermeide Beschreibungen von Reaktionen zum Video (\"Schockierend\")",
+        "message": "Vermeide Beschreibungen von Reaktionen zum Video („schockierend“)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
@@ -1494,7 +1494,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Hinweis: Deine SponsorBlock Einstellungen wurden automatisch importiert!"
+        "message": "Hinweis: Deine SponsorBlock-Einstellungen wurden automatisch importiert!"
     },
     "howItWorks": {
         "message": "So funktioniert es"
@@ -1553,7 +1553,7 @@
         "message": "Name der Konfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
+        "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal-IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
         "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1624,25 +1624,25 @@
         "message": "Benötigt uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Etwas ist bei der Video-ID-Erkennung schief gelaufen. Bitte versuche vor dem Absenden, die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, schicke bitte einen Bericht mit deinen installierten Erweiterungen und Userscripts auf GitHub, Discord oder Matrix."
+        "message": "Etwas ist bei der Video-ID-Erkennung schiefgelaufen. Bitte versuche vor dem Absenden, die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, schicke bitte einen Bericht mit deinen installierten Erweiterungen und Userscripts auf GitHub, Discord oder Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo basierend auf Twemoji lizenziert unter CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
-        "message": "SponsorBlock ist nicht mit der Erweiterung \"Zoom to Fill\" kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
+        "message": "SponsorBlock ist nicht mit der Erweiterung „Zoom to Fill“ kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
     },
     "freeTrialStarted": {
-        "message": "Deine gratis Probezeit wurde erfolgreich gestartet. Besuche YouTube, um es auszuprobieren"
+        "message": "Deine Gratisprobezeit wurde erfolgreich gestartet. Besuche YouTube, um es auszuprobieren"
     },
     "freeTrialEnded": {
-        "message": "Deine gratis Probezeit ist vorbei"
+        "message": "Deine Gratisprobezeit ist vorbei"
     },
     "freeTrialPrompt": {
-        "message": "Wenn du es für eine Stunde ausprobieren möchtest, kannst du mit dem Knopf unten eine gratis Probezeit starten."
+        "message": "Wenn du es für eine Stunde ausprobieren möchtest, kannst du mit dem Knopf unten eine Gratisprobezeit starten."
     },
     "startFreeTrial": {
-        "message": "Gratis Probezeit starten"
+        "message": "Gratisprobezeit starten"
     },
     "freeAccessRequested": {
         "message": "Du hast dich erfolgreich für den kostenlosen Zugriff registriert. Du wirst benachrichtigt, wenn dieser gewährt wird."
@@ -1692,6 +1692,6 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "Einreichungen können im Moment von deinem Browser nicht akzeptiert werden, weil YouTube scheinbar serverseitige Werbung eingespeist hat, die die Erweiterung nicht entfernen kann. Bitte kontaktiere uns, wenn du diesen Fehler erhältst."
+        "message": "Einreichungen können im Moment von deinem Browser nicht akzeptiert werden, weil YouTube scheinbar serverseitige Werbung eingespeist hat, welche die Erweiterung nicht entfernen kann. Bitte kontaktiere uns, wenn du diesen Fehler erhältst."
     }
 }
