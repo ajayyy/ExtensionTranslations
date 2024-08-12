@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Apagar Configuração"
     },
-    "ChannelAllowlist": {
-        "message": "Canais permitidos"
-    },
     "ConfigurationName": {
         "message": "Nome do ajuste"
     },
     "ChannelListInstructions": {
         "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Parar clickbait substituindo títulos e miniaturas com mais precisão"
