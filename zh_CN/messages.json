@@ -1462,9 +1462,6 @@
     "DeleteConfiguration": {
         "message": "删除配置"
     },
-    "ChannelAllowlist": {
-        "message": "频道白名单"
-    },
     "ConfigurationName": {
         "message": "配置名称"
     },
