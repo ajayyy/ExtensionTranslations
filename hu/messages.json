@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Konfiguráció törlése"
     },
+    "ChannelAllowlist": {
+        "message": "Csatornára vonatkozó beállítások"
+    },
     "ConfigurationName": {
         "message": "Konfiguráció neve"
     },
