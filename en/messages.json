@@ -1547,18 +1547,18 @@
         "message": "Delete Configuration"
     },
     "ChannelAllowlist": {
-        "message": "Channel Allowlist"
+        "message": "Channel-specific settings"
     },
     "ConfigurationName": {
         "message": "Configuration Name"
     },
     "ChannelListInstructions": {
         "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "No configurations setup yet. Click the button at the top to add a new configuration.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Stop clickbait by replacing titles and thumbnails with more accurate ones"
