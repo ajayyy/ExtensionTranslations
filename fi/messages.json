@@ -1539,6 +1539,9 @@
     "DeleteConfiguration": {
         "message": "Poista määritys"
     },
+    "ChannelAllowlist": {
+        "message": "Kanavakohtaiset asetukset"
+    },
     "ConfigurationName": {
         "message": "Määrityksen nimi"
     },
