@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Xoá cấu hình"
     },
-    "ChannelAllowlist": {
-        "message": "Danh sách kênh cho phép"
-    },
     "ConfigurationName": {
         "message": "Tên cấu hình"
     },
     "ChannelListInstructions": {
         "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới, cách nhau từng dòng. Cả ID kênh và tên hiển thị đều được hỗ trợ. @Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấn vào nút chia sẻ trên trang giới thiệu kênh. Để tới trang giới thiệu, hãy nhấn vào mô tả kênh xuất hiện bên dưới tên kênh của họ.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Dừng clickbait bằng cách thay thế tiêu đề và hình thu nhỏ bằng những thông tin chính xác hơn"
