@@ -1339,15 +1339,12 @@
     "DeleteConfiguration": {
         "message": "刪除設定"
     },
-    "ChannelAllowlist": {
-        "message": "頻道白名單"
-    },
     "ConfigurationName": {
         "message": "組態名稱"
     },
     "NoConfigurationsSetup": {
         "message": "未有組態設定。點擊頂部的按鈕來新建組態。",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} 個標題",
