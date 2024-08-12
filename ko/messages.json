@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "구성 삭제"
     },
-    "ChannelAllowlist": {
-        "message": "채널 허용 목록"
-    },
     "ConfigurationName": {
         "message": "구성 이름"
     },
     "ChannelListInstructions": {
         "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "아직 설정한 구성이 없어요. 위쪽의 버튼을 눌러 새 구성을 추가하세요.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "제목과 미리 보기 이미지를 더 정확한 것으로 대체해 어그로를 멈춰요"
