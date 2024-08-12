@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Odstranit konfiguraci"
     },
-    "ChannelAllowlist": {
-        "message": "Seznam povolených kanálů"
-    },
     "ConfigurationName": {
         "message": "Název konfigurace"
     },
     "ChannelListInstructions": {
         "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, každý kanál na nový řádek. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména podporována nejsou. ID kanálu získáte po kliknutí na tlačítko sdílení v informacích o kanálu. Na tuto stránku se dostanete kliknutím na popis kanálu, který se zobrazí pod názvem kanálu na jeho stránce.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Zastavte clickbaity nahrazením názvů a náhledů jejich přesnějšími verzemi"
