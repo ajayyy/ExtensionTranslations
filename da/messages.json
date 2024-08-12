@@ -1530,19 +1530,16 @@
     "DeleteConfiguration": {
         "message": "Slet konfiguration"
     },
-    "ChannelAllowlist": {
-        "message": "Kanal tillads-liste"
-    },
     "ConfigurationName": {
         "message": "Konfigurationsnavn"
     },
     "ChannelListInstructions": {
         "message": "Indtast alle kanaler, du ønsker at anvende denne konfigurationer til, i boksen nedenfor, adskilt af nye linjer. Både kanal IDer og viste navne understøttes. @ Brugernavne understøttes ikke. Du kan få kanal IDer ved at klikke på Del knappen på kanalens om-side. For at komme til om-siden, skal du klikke på kanalbeskrivelsen, der vises under kanalens navn på der kanal-side.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Ingen konfigurationer er sat op endnu. Klik på knappen øverst for at tilføje en ny konfiguration.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Stop clickbait ved at erstatte titler og thumbnails med nogle, der er mere præcise"
