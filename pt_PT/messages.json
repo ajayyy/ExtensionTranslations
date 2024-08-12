@@ -1542,6 +1542,9 @@
     "DeleteConfiguration": {
         "message": "Apagar Configuração"
     },
+    "ChannelAllowlist": {
+        "message": "Definições específicas do canal"
+    },
     "ConfigurationName": {
         "message": "Nome do ajuste"
     },
