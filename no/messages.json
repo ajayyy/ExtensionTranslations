@@ -1180,9 +1180,6 @@
     "DeleteConfiguration": {
         "message": "Slett oppsett"
     },
-    "ChannelAllowlist": {
-        "message": "Hviteliste for kanaler"
-    },
     "ConfigurationName": {
         "message": "Oppsettets navn"
     },
