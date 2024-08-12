@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Konfiguration löschen"
     },
-    "ChannelAllowlist": {
-        "message": "Liste erlaubter Kanäle"
-    },
     "ConfigurationName": {
         "message": "Name der Konfiguration"
     },
     "ChannelListInstructions": {
         "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal-IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Noch keine Konfigurationen eingerichtet. Klicke oben auf den Knopf, um eine neue Konfiguration hinzuzufügen.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Stoppe Clickbait, indem du Titel und Thumbnails durch genauere ersetzt"
