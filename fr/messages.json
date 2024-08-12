@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Supprimer la configuration"
     },
-    "ChannelAllowlist": {
-        "message": "Liste des Chaînes Autorisées"
-    },
     "ConfigurationName": {
         "message": "Nom de la configuration"
     },
     "ChannelListInstructions": {
         "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les ID de chaîne et les noms d'affichage sont pris en charge. Les @Utilisateur ne sont pas pris en charge. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne. Elle se situe sur la page de la chaîne, en dessous de son nom.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Aucune configuration configurée pour l'instant. Cliquez sur le bouton en haut pour ajouter une nouvelle configuration.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Arrêtez les pièges à clics en remplaçant les titres et les miniatures par des éléments plus exacts"
