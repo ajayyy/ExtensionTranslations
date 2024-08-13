@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "設定を削除"
     },
+    "ChannelAllowlist": {
+        "message": "チャンネル固有の設定"
+    },
     "ConfigurationName": {
         "message": "設定の名前"
     },
