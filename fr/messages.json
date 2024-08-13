@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Supprimer la configuration"
     },
+    "ChannelAllowlist": {
+        "message": "Paramètres par chaîne"
+    },
     "ConfigurationName": {
         "message": "Nom de la configuration"
     },
