@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "구성 삭제"
     },
+    "ChannelAllowlist": {
+        "message": "채널별 설정"
+    },
     "ConfigurationName": {
         "message": "구성 이름"
     },
