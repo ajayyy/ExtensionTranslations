@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Избриши конфигурацију"
     },
+    "ChannelAllowlist": {
+        "message": "Подешавања специфична за канал"
+    },
     "ConfigurationName": {
         "message": "Назив конфигурације"
     },
