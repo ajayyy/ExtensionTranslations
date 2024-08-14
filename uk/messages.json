@@ -301,7 +301,7 @@
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Почати/зупинити сегмент",
+        "message": "Початок/кінець сегмента",
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
