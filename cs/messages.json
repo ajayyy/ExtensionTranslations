@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Odstranit konfiguraci"
     },
+    "ChannelAllowlist": {
+        "message": "Nastavení pro tento kanál"
+    },
     "ConfigurationName": {
         "message": "Název konfigurace"
     },
