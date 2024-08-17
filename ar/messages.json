@@ -1390,6 +1390,9 @@
     "titleMaxLinesDescription": {
         "message": "سوف توزع عناوين الفيديوهات هكذا سطور في صفحة الاقتراحات."
     },
+    "thumbnailSaturationLevel": {
+        "message": "مستوى تشبع الصورة المصغرة"
+    },
     "whatSaturateThumbnails": {
         "message": "تقليل سطوع الصور المصغرة من خلال تخفيض الوانها"
     },
@@ -1542,6 +1545,9 @@
     },
     "DeleteConfiguration": {
         "message": "حذف التكوين"
+    },
+    "ChannelAllowlist": {
+        "message": "إعدادات لقناة محددة"
     },
     "ConfigurationName": {
         "message": "اسم التكوين"
