@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Xoá cấu hình"
     },
+    "ChannelAllowlist": {
+        "message": "Cài đặt riêng cho kênh"
+    },
     "ConfigurationName": {
         "message": "Tên cấu hình"
     },
