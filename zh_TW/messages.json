@@ -309,6 +309,14 @@
         "message": "提交片段",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "預覽片段",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "關閉略過提示",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "下一章節",
         "description": "Keybind label"
