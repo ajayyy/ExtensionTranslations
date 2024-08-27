@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "警告: 停用此項將全數刪除先前儲存的倒讚"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "在隱私/無痕模式下儲存片段倒讚"
+    },
     "enableQueryByHashPrefix": {
         "message": "使用雜湊前綴查詢"
     },
@@ -324,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "上一章節",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "啟用 DeArrow 快捷鍵",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "開啟提交選單",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "按下按鍵以選擇並選擇想要使用的修飾鍵"
@@ -508,6 +519,9 @@
     "dataFetchingServerAddress": {
         "message": "數據源伺服器位址"
     },
+    "dataFetchingServerAddressDescription": {
+        "message": "此為 SponsorBlock 與伺服器互動的網址。\n除非您有自己的伺服器，否則此選項不該被更動。"
+    },
     "thumbnailCacheServerAddress": {
         "message": "縮圖暫存伺服器位址"
     },
@@ -528,6 +542,9 @@
     },
     "exportOptions": {
         "message": "匯入/匯出所有設定"
+    },
+    "exportOtherData": {
+        "message": "匯入/匯出其他資料"
     },
     "exportOptionsCopy": {
         "message": "編輯／複製"
@@ -684,6 +701,10 @@
     },
     "category_outro_guideline1": {
         "message": "即使結尾的資訊卡已開始顯示也不應包含內容"
+    },
+    "category_preview": {
+        "message": "預覽 / 回顧 / 摘要節錄",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
         "message": "展示即將播放的影片或整系列內容的短片集錦，所有內容都會在後面影片中重複"
@@ -1282,6 +1303,9 @@
     "TheOriginalThumbnail": {
         "message": "顯示原始縮圖"
     },
+    "showABlankBox": {
+        "message": "顯示空格"
+    },
     "Start": {
         "message": "開始"
     },
@@ -1318,6 +1342,21 @@
     },
     "ShowOriginal": {
         "message": "顯示原始詳細資訊"
+    },
+    "showGuidelineHelp": {
+        "message": "顯示說明方針",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "避免誇張的臉部情緒",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip5": {
+        "message": "如同句子般地將地一位字母大寫",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "注意：您的 SponsorBlock 設定已自動匯入！"
     },
     "howItWorks": {
         "message": "如何運作"
