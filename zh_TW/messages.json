@@ -721,6 +721,9 @@
     "category_filler": {
         "message": "離題閒聊/玩笑"
     },
+    "category_filler_description": {
+        "message": "與影片主要內容無關的填充詞或笑話，但不應包含與前後或背景有關者。這是較為前衛的片段分類，適合暫時放棄樂趣的觀眾。"
+    },
     "category_filler_short": {
         "message": "填充詞"
     },
@@ -821,6 +824,10 @@
         "message": "在整個影片都是廣告時顯示圖示",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "在影片縮圖中顯示標籤",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
         "message": "未提交的顏色",
         "description": "Referring to submissions that have not been sent to the server yet."
@@ -862,6 +869,9 @@
     },
     "youMustSelectACategory": {
         "message": "您必須為所有您要提交的片段選擇類別！"
+    },
+    "bracketStart": {
+        "message": "（開始）"
     },
     "bracketEnd": {
         "message": "(結束)"
@@ -962,6 +972,9 @@
     "hideForever": {
         "message": "永久隱藏"
     },
+    "warningChatInfo": {
+        "message": "我們注意到了一些新手錯誤。我們雖然感謝您到目前的貢獻，不過我們追求完美，所以即使是最小的錯誤也會有所差異：）"
+    },
     "questionButton": {
         "message": "我要發問"
     },
@@ -973,6 +986,9 @@
     },
     "warningError": {
         "message": "在認知警告時發生錯誤："
+    },
+    "deArrowMessageRecieved": {
+        "message": "您從管理者中收到了提示"
     },
     "Donate": {
         "message": "贊助"
@@ -1228,6 +1244,9 @@
     },
     "exportSegmentsAsURL": {
         "message": "分享連結"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "警告：此伺服器尚未回傳任何片段，導致未被載入的片段與您所上傳的產生衝突。"
     },
     "allowScrollingToEdit": {
         "message": "允許在編輯時滾動"
