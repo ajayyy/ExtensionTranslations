@@ -1255,6 +1255,10 @@
         "message": "{seconds} 秒",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
+    "deArrowFullName": {
+        "message": "DeArrow—優化 YouTube 標題和影片縮圖",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
     "Original": {
         "message": "原始"
     },
