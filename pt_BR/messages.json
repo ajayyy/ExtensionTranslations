@@ -305,7 +305,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Abrir menu para envios de segmentos",
+        "message": "Abrir menu de envios",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -333,7 +333,7 @@
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Abrir menu de Envio",
+        "message": "Abrir menu de envios",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
@@ -1313,10 +1313,10 @@
         "message": "Todas As Palavras Começam Com Letras Maiúsculas"
     },
     "TitleCase": {
-        "message": "Maioria em Maiúsculas, Exceto Preposições em Inglês"
+        "message": "Maioria em Maiúsculas, Exceto Preposições"
     },
     "SentenceCase": {
-        "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
+        "message": "Só a primeira letra maiúscula"
     },
     "LowerCase": {
         "message": "tudo minúsculo"
@@ -1688,7 +1688,7 @@
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
-        "message": "Não Abuse de seus poderes como VIP",
+        "message": "Ativar modo VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
