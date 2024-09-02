@@ -1546,6 +1546,9 @@
     "DeleteConfiguration": {
         "message": "Yapılandırmayı Sil"
     },
+    "ChannelAllowlist": {
+        "message": "Kanala özgü ayarlar"
+    },
     "ConfigurationName": {
         "message": "Yapılandırma Adı"
     },
@@ -1690,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "YouTube sunucuları tarafından reklam işlenmesi nedeniyle tarayıcınız üzerinden bildirdiğiniz kısımları şu anda kabul edemiyoruz. Bu hatayı aldığınızda iletişime geçiniz."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow kullanım dışı. Kullanıma almak için tıklayın",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
