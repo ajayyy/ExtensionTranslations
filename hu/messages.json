@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "A beküldés jelenleg nem lehetséges a böngésződből, mert a YouTube szerveroldali hirdetéseket illesztett a videóba, amit a bővítmény nem tud eltávolítani. Kérlek jelentkezz, ha ezt a hibát kapod."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow le van tiltva - kattints az engedélyezéshez",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
