@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "В момента не могат да бъдат приемани заявки от браузъра ви, тъй като YouTube изглежда е инжектирал някои реклами от страна на сървъра, които разширението не може да премахне. Моля, свържете се с нас, ако получавате тази грешка."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow е деактивиран - кликнете, за да го активирате",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
