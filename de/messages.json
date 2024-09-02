@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Einreichungen können im Moment von deinem Browser nicht akzeptiert werden, weil YouTube scheinbar serverseitige Werbung eingespeist hat, welche die Erweiterung nicht entfernen kann. Bitte kontaktiere uns, wenn du diesen Fehler erhältst."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow ist deaktiviert - Klicke zum Aktivieren",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
