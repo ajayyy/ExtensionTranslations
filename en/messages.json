@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Submissions cannot be accepted from your browser at the moment because YouTube seems to have injected some server-side advertisements that the extension is not able to remove. Please contact if you are receiving this error."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow is disabled - click to enable",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
