@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "YouTube が、拡張機能で削除できないサーバーサイドの広告を挿入しているようです。そのため現時点では、このブラウザからの提出を受け付けできません。 このエラーが発生した場合、お問い合わせください。"
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow は無効中 - クリックで有効にする",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
