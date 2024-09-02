@@ -1376,13 +1376,13 @@
         "message": "Попередження: це відео зараз має зменшену мініатюру A/B тесту. Це означає, що мініатюра може змінюватися часто. Вам, напевно, не слід голосувати за оригінальну мініатюру через цей ризик.\n\nПопередження: для цього відео наразі виконується A/B-тестування мініатюр. Це означає, що мініатюра може часто змінюватися. Вам, напевно, не слід голосувати за оригінальну мініатюру через цей ризик."
     },
     "whatKeepUnsubmitted": {
-        "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовок і мініатюру, а не топ голосів на сервері."
+        "message": "Зберігати надіслані оцінки, щоб показувалися обрані вами заголовки та мініатюри, а не топ голосів на сервері."
     },
     "keepUnsubmittedInPrivate": {
         "message": "Зберігати подані голоси з приватних вкладок"
     },
     "useThumbnailGenerationService": {
-        "message": "Використовувати службу генерації мініатюр"
+        "message": "Використовувати Службу генерації мініатюр"
     },
     "titleMaxLines": {
         "message": "Максимальна кількість рядків для заголовку"
@@ -1564,7 +1564,7 @@
         "message": "Боріться з клікбейтом шляхом заміни назв і значків на більш коректні"
     },
     "DeArrowPromotionMessage2": {
-        "message": "Втомилися від клікбейта? Спробуйте моє нове розширення, що поліпшує назви та значки"
+        "message": "Втомилися від клікбейту? Спробуйте моє нове розширення для покращення заголовків та мініатюр"
     },
     "DeArrowPromotionMessage3": {
         "message": "Також перевірте DeArrow",
@@ -1575,11 +1575,11 @@
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
-        "message": "Цей значок вибрано з випадкової позначки часу, оскільки для цього відео не було нічого запропоновано",
+        "message": "Цю мініатюру вибрано з випадкової позначки часу, оскільки для цього відео ще нічого не було запропоновано",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Цей значок вибрано з випадкової позначки часу, а назва автоматично відформатована, оскільки для цього відео не було нічого запропоновано",
+        "message": "Цю мініатюру вибрано з випадкової позначки часу, а заголовок автоматично відформатовано, оскільки для цього відео ще нічого не було запропоновано",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
@@ -1611,7 +1611,7 @@
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Лічильник замін назв і мініатюр"
+        "message": "Лічильник замін заголовків та мініатюр"
     },
     "countReplacementsDescription": {
         "message": "Використовується для надання статистики у спливаючому вікні.",
@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "На цей момент сегменти не можуть бути прийняті з вашого браузера, оскільки на YouTube, здається, була введена деяка реклама на стороні сервера таким чином, що розширення не може її вилучити. Будь ласка, зв'яжіться з нами, якщо ви отримали таку помилку."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow вимкнено – натисніть, щоб увімкнути",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
