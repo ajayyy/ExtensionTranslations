@@ -1009,7 +1009,7 @@
         "message": "Будь ласка, ознайомтеся з налаштуваннями нижче"
     },
     "helpPageFeatureDisclaimer": {
-        "message": "Багато функцій за замовчуванням відключені. Якщо ви хочете пропускати початкові і кінцеві заставки, використовувати Invidious, тощо, увімкніть їх нижче. Ви також можете приховати / показати елементи інтерфейсу."
+        "message": "Багато функцій за замовчуванням відключені. Якщо ви хочете пропускати початкові та кінцеві заставки, використовувати Invidious, тощо, увімкніть їх нижче. Ви також можете приховати/показати елементи інтерфейсу (UI)."
     },
     "helpPageHowSkippingWorks": {
         "message": "Як працює пропуск"
@@ -1524,16 +1524,16 @@
         "message": "Показувати оригінальний заголовок та мініатюру за замовчуванням, але мати кнопку, при наведенні на яку з'являються користувацькі заголовки та мініатюри."
     },
     "replaceTitles": {
-        "message": "Замінити назви"
+        "message": "Замінювати заголовки"
     },
     "replaceThumbnails": {
-        "message": "Замінити мініатюри"
+        "message": "Замінювати мініатюри"
     },
     "useCrowdsourcedTitles": {
-        "message": "Використовувати Покращені Заголовки"
+        "message": "Використовувати краудсорсингові заголовки"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Якщо вимкнено, він буде форматувати заголовки, але не використовуватиме назви, представлені спільнотою",
+        "message": "Якщо вимкнено, заголовки будуть форматовані, але заголовки, представлені спільнотою, використані не будуть",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1587,15 +1587,15 @@
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "{titles} назв і {thumbnails} мініатюр було замінено з моменту встановлення розширення",
+        "message": "{titles} заголовків та {thumbnails} мініатюр було замінено з моменту встановлення розширення",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
-        "message": "{titles} назва ",
+        "message": "{titles} заголовок ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlesPart": {
-        "message": "{titles} назв ",
+        "message": "{titles} заголовків ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
@@ -1681,7 +1681,7 @@
         "message": "Ви можете ввімкнути його, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" на true."
     },
     "storageFull": {
-        "message": "Сховище розширень повне. Будь ласка, видаліть деякі невідіслані сегменти у опціях."
+        "message": "Сховище розширення повне. Будь ласка, видаліть деякі невідіслані сегменти у налаштуваннях."
     },
     "previewSegmentRequired": {
         "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку передогляд або скориставшись наступною комбінацією клавіш:",
