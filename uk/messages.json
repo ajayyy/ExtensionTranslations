@@ -1256,7 +1256,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow – кращі Заголовки та Мініатюри в YouTube",
+        "message": "DeArrow – Кращі Заголовки та Мініатюри в YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
@@ -1270,7 +1270,7 @@
         "message": "Оригінал"
     },
     "OriginalTitle": {
-        "message": "Оригінальна назва"
+        "message": "Оригінальний заголовок"
     },
     "CurrentTime": {
         "message": "Поточний час"
@@ -1282,7 +1282,7 @@
         "message": "Оригінальна іконка"
     },
     "TypeYourOwnTitleHere": {
-        "message": "Введіть вашу назву тут"
+        "message": "Введіть ваш заголовок тут"
     },
     "VideoNotReady": {
         "message": "Відео не готове"
@@ -1319,7 +1319,7 @@
         "message": "Як у реченнях"
     },
     "LowerCase": {
-        "message": "Нижній Регістр"
+        "message": "малі літери"
     },
     "FirstLetterUppercase": {
         "message": "Перша Буква Великою"
@@ -1328,10 +1328,10 @@
         "message": "Прибрати Емодзі"
     },
     "onlyTitleCaseInEnglish": {
-        "message": "Великі слова для неангломовних назв"
+        "message": "Слова З Великої Літери Для Неангломовних Заголовків"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "Виявлення мови не ідеальне, і виявляє деяких англійські назви як неанглійські."
+        "message": "Розпізнавання мови не є досконалим, і визначає деякі англійські заголовки як неанглійські."
     },
     "thumbnailFallbackOption": {
         "message": "За відсутності відправленої мініатюри"
@@ -1420,7 +1420,7 @@
         "message": "Якщо його використовувати на сторінках з відео, це може призвести до потенційного витоку videoID на цей сервер. Встановлення для цього параметра значення \"На всіх сторінках, крім сторінок з відео\" допоможе уникнути цієї проблеми. Інший варіант – розмістити власний сервіс генерації мініатюр."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Якщо використання служби генерації мініатюр вимкнено, для всіх запитів використовуватиметься система запитів з k-анонімністю, що ускладнює передбачення сервером того, які саме відео було отримано, а також використовуватиметься повільніша локальна служба генерації мініатюр.",
+        "message": "Якщо використання служби генерації мініатюр вимкнено, для всіх запитів використовуватиметься система пошуку з K-анонімністю, що ускладнює передбачення сервером того, які саме відео були отримані, а також використовуватиметься повільніша локальна служба генерації мініатюр.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
