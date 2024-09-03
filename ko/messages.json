@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "지금은 브라우저로부터 제출을 받을 수 없어요. YouTube에서 확장 프로그램이 제거할 수 없는 서버측 광고를 삽입한 것 같아요. 이 오류를 겪고 있다면 문의해주세요."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow가 꺼져 있어요 - 켜려면 누르세요",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
