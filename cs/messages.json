@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Z vašeho prohlížeče momentálně nelze přijímat příspěvky, jelikož YouTube do videa nejspíše vložil serverové reklamy, které toto rozšíření nedokáže odebrat. Pokud vidíte tuto chybu, kontaktujte nás prosím."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow je zakázán - klikněte pro povolení",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
