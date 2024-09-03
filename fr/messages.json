@@ -1494,7 +1494,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
+        "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
     },
     "howItWorks": {
         "message": "Comment ça marche"
@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Les contributions envoyées à partir de votre navigateur ne peuvent pas être acceptées pour le moment. En effet, YouTube semble avoir injecté des publicités côté serveur que l'extension n'est pas en mesure de retirer. Merci de nous contacter si vous constatez cette erreur."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow est désactivé, cliquez pour activer",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
