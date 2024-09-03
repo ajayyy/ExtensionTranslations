@@ -258,23 +258,26 @@
     "showSkipNotice": {
         "message": "Show Notice After A Segment Is Skipped"
     },
+    "showUpcomingNotice": {
+        "message": "Show Notice Before A Segment Starts"
+    },
     "showCategoryGuidelines": {
         "message": "Show Category Help"
     },
     "noticeVisibilityMode0": {
-        "message": "Full Size Skip Notices"
+        "message": "Full Size Notices"
     },
     "noticeVisibilityMode1": {
-        "message": "Small Skip Notices for Auto Skip"
+        "message": "Small Notices for Auto Skip"
     },
     "noticeVisibilityMode2": {
-        "message": "All Small Skip Notices"
+        "message": "All Small Notices"
     },
     "noticeVisibilityMode3": {
-        "message": "Faded Skip Notices for Auto Skip"
+        "message": "Faded Notices for Auto Skip"
     },
     "noticeVisibilityMode4": {
-        "message": "All Faded Skip Notices"
+        "message": "All Faded Notices"
     },
     "longDescription": {
         "message": "SponsorBlock lets you skip over sponsors, intros, outros, subscription reminders, and other annoying parts of YouTube videos. SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of YouTube videos. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment. You can also skip over non music sections of music videos.",
@@ -377,6 +380,10 @@
     "skip_to_category": {
         "message": "Skip to {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "Upcoming {0}",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "{0} Skipped",
@@ -1134,7 +1141,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Skip notice appearance",
+        "message": "Notice appearance",
         "description": "Option label"
     },
     "unbind": {
