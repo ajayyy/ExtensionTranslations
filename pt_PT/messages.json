@@ -328,6 +328,10 @@
         "message": "Capítulo anterior",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Ativação do DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
     "openDeArrowMenu": {
         "message": "Abrir menu de submissão",
         "description": "Keybind label in DeArrow"
@@ -1689,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "De momento, não é possível aceitar envios a partir do seu navegador porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não consegue remover. Contacte-nos se estiver a receber este erro."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow está desativado - clique para ativar",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
