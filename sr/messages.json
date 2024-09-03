@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке рекламе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow је онемогућен – додирните да омогућите",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
