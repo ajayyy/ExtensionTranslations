@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Сегменты, отправленные из вашего браузера, не могут быть приняты, так как YouTube, похоже, начал встраивать в видео рекламу таким образом, что SponsorBlock не может её удалить. Пожалуйста, свяжитесь с нами, если вы получили эту ошибку."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow отключён - нажмите, чтобы включить",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
