@@ -1697,5 +1697,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow е деактивиран - кликнете, за да го активирате",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Сигурни ли сте, че тази оригинална миниатюра отговаря на насоките на DeArrow? Ако просто предпочитате да виждате оригинални миниатюри по принцип, помислете дали да не промените опцията „Когато няма подадена миниатюра“ в настройките на DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
