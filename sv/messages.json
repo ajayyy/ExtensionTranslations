@@ -1547,18 +1547,18 @@
         "message": "Ta bort konfiguration"
     },
     "ChannelAllowlist": {
-        "message": "Godkännandelista för kanaler"
+        "message": "Kanalspecifikainställningar"
     },
     "ConfigurationName": {
         "message": "Konfigurationsnamn"
     },
     "ChannelListInstructions": {
         "message": "Ange vilka kanaler du vill verkställa denna konfiguration på i rutan nedan, åtskilda av nya rader. Både kanal-ID och visningsnamn stöds. @-användarnamn stöds inte. Du finner kanal-ID:t genom att klicka på delaknappen på kanalens omsida. För att komma till omsidan, klicka på kanalbeskrivningen som visas under deras kanalnamn på deras kanalsida.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Inga konfigurationer konfigurerade ännu. Klicka på knappen högst upp för att lägga till en ny konfiguration.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Stoppa klickbete genom att ersätta titlar och miniatyrbilder med mer exakta"
@@ -1690,5 +1690,12 @@
     "actAsVip": {
         "message": "Agera som VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Inskickningar accepteras inte från din webbläsare just nu eftersom YouTube verkar ha injicerat vissa server-side-annonser som tillägget inte kan ta bort. Kontakta gärna oss om du får detta felet."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow är inaktiverat - klicka för att aktivera",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

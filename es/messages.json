@@ -356,7 +356,7 @@
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
     },
     "errorCode": {
-        "message": "Código de Error: "
+        "message": "Código de error: "
     },
     "skip": {
         "message": "Omitir"
@@ -453,7 +453,7 @@
         "message": "Soportar sitios de YouTube de terceros"
     },
     "supportOtherSitesDescription": {
-        "message": "Admite clientes de YouTube de terceros. Para activar la compatibilidad, debes aceptar los permisos adicionales.",
+        "message": "Admite clientes de YouTube de terceros. Para habilitar el soporte, debe aceptar los permisos adicionales.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
@@ -700,10 +700,10 @@
         "message": "Créditos o cuando aparecen las tarjetas finales de YouTube. No para conclusiones con información."
     },
     "category_outro_guideline1": {
-        "message": "No incluyas contenido, incluso si se están mostrando las tarjetas finales"
+        "message": "No incluyas contenido, aun si las tarjetas finales están en pantalla"
     },
     "category_preview": {
-        "message": "Vista previa/Recapitulación/Enganche",
+        "message": "Vista previa/Recapitulación/Gancho",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_preview_description": {
@@ -1270,7 +1270,7 @@
         "message": "Original"
     },
     "OriginalTitle": {
-        "message": "Título Original"
+        "message": "Título original"
     },
     "CurrentTime": {
         "message": "Tiempo Actual"
@@ -1292,7 +1292,7 @@
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
-        "message": "Canvas faltante",
+        "message": "Canvas HTML faltante",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
@@ -1331,7 +1331,7 @@
         "message": "Poner en mayúsculas los títulos que no están en inglés"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "La detección de idiomas no es perfecta y detecta algunos títulos en inglés como no en inglés."
+        "message": "La detección de idiomas no es perfecta y detecta algunos títulos en Inglés como si no estuvieran en Inglés."
     },
     "thumbnailFallbackOption": {
         "message": "Cuando no exista una miniatura enviada"
@@ -1546,19 +1546,16 @@
     "DeleteConfiguration": {
         "message": "Eliminar configuración"
     },
-    "ChannelAllowlist": {
-        "message": "Lista de canales permitidos"
-    },
     "ConfigurationName": {
         "message": "Nombre de configuración"
     },
     "ChannelListInstructions": {
         "message": "Ingrese los canales a los que desee aplicar esta configuración en el siguiente cuadro, separados por nuevas líneas. Se admiten tanto ID de canal como nombres de pantalla. No se admiten @ nombres de usuario. Puedes obtener los ID de canal haciendo clic en el botón compartir de la página acerca del canal. Para ir a la página de información, haga clic en la descripción del canal que aparece debajo de su nombre en la página del canal.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Aún no hay configuraciones establecidas. Haga clic en el botón en la parte superior para añadir una nueva configuración.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Dejar de hacer clic reemplazando títulos y miniaturas por otros más precisos"
@@ -1690,5 +1687,8 @@
     "actAsVip": {
         "message": "Actuar como VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
     }
 }

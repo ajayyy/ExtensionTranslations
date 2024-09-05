@@ -1547,18 +1547,18 @@
         "message": "Konfiguráció törlése"
     },
     "ChannelAllowlist": {
-        "message": "Csatorna engedélyezőlista"
+        "message": "Csatornára vonatkozó beállítások"
     },
     "ConfigurationName": {
         "message": "Konfiguráció neve"
     },
     "ChannelListInstructions": {
         "message": "Add azokat a csatornákat a lenti dobozhoz külön-külön sorokban, amiket hozzá szeretnél rendelni ehhez a konfigurációhoz. Csatornaazonosítók és megjelenítési nevek is támogatottak. @-os felhasználónevek nem támogatottak. A csatornaazonosítót megkaphatod a \"Csatorna megosztása\" gombra kattintva a csatorna Névjegyén. A Névjegyhez kattints a csatorna leírására a név alatt a csatorna oldalán.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Még nincsenek konfigurációk. Kattints a fenti gombra egy új konfiguráció hozzáadásához.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Szüntesd meg a kattintásvadász tartalmakat a címek és indexképek lecserélésével!"
@@ -1690,5 +1690,12 @@
     "actAsVip": {
         "message": "VIP-ként",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "A beküldés jelenleg nem lehetséges a böngésződből, mert a YouTube szerveroldali hirdetéseket illesztett a videóba, amit a bővítmény nem tud eltávolítani. Kérlek jelentkezz, ha ezt a hibát kapod."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow le van tiltva - kattints az engedélyezéshez",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

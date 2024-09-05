@@ -1390,12 +1390,23 @@
     "replaceThumbnails": {
         "message": "Nahradiť náhľady"
     },
+    "areYouSureDeleteConfig": {
+        "message": "Naozaj chcete toto nastavenie zmazať?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
     "DeleteConfiguration": {
         "message": "Zmazať nastavenia"
     },
+    "ChannelAllowlist": {
+        "message": "Špecifické nastavenie kanálu"
+    },
     "ChannelListInstructions": {
         "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Zatiaľ neexistujú žiadne nastavenia. Pridať nastavenie môžete kliknutím na tlačidlo hore.",
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Zastavte clickbait presnejšími názvami a miniatúrami"
@@ -1477,5 +1488,12 @@
     "actAsVip": {
         "message": "Vystupovať ako VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Segmenty teraz nemôžu byť akceptované, lebo Youtube vložil do videa reklamy, ktoré toto rozšírenie nevie odstrániť. Napíšte nám prosím."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow je vypnutý - kliknutím sem ho zapnete",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

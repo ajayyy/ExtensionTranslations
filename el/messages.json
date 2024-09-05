@@ -32,6 +32,9 @@
         "message": "Θεώρηση τμημάτων ως κεφάλαια",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "showSegmentNameInChapterBar": {
+        "message": "Εμφάνιση Τρέχοντος Τμήματος Εκτός Του Χρόνου Βίντεο"
+    },
     "upvoteButtonInfo": {
         "message": "Θετική ψήφος για αυτήν την υποβολή"
     },
@@ -110,6 +113,9 @@
     "connectionError": {
         "message": "Παρουσιάστηκε σφάλμα σύνδεσης. Κωδικός σφάλματος: "
     },
+    "segmentsStillLoading": {
+        "message": "Τμήματα εξακολουθούν να φορτώνονται..."
+    },
     "clearTimes": {
         "message": "Καθαρισμός τμημάτων"
     },
@@ -118,6 +124,12 @@
     },
     "closePopup": {
         "message": "Κλείσιμο αναδυόμενου παραθύρου"
+    },
+    "closeIcon": {
+        "message": "Εικονίδιο Κλεισίματος"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Άνοιγμα Μενού Υποβολής"
     },
     "sortSegments": {
         "message": "Ταξινόμηση Τμημάτων"
@@ -219,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Προειδοποίηση: Η απενεργοποίηση αυτής της επιλογής θα διαγράψει όλες τις προηγούμενες αποθηκευμένες καταψηφίσεις"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Αποθήκευσε τις αρνητικές ψήφους των τμημάτων σε ιδιωτικές/ανώνυμες καρτέλες"
+    },
     "enableQueryByHashPrefix": {
         "message": "Αιτήματα μέσω προθέματος Hash"
     },
@@ -230,6 +245,12 @@
     },
     "whatRefetchWhenNotFound": {
         "message": "Εάν το βίντεο είναι καινούργιο, και δεν έχουν βρεθεί τμήματα, θα συνεχιστεί η αναζήτηση κάθε μερικά λεπτά, ενώ το παρακολουθείτε."
+    },
+    "enableShowCategoryWithoutPermission": {
+        "message": "Εμφάνιση κατηγοριών στο μενού υποβολής ακόμα και χωρίς άδεια υποβολής"
+    },
+    "whatShowCategoryWithoutPermission": {
+        "message": "Ορισμένες κατηγορίες απαιτούν άδεια υποβολής λόγω ελάχιστων απαιτήσεων φήμης"
     },
     "showNotice": {
         "message": "Επανεμφάνιση ειδοποιήσεων"
@@ -283,9 +304,37 @@
         "message": "Έναρξη/Τέλος τμήματος",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Άνοιγμα μενού υποβολής",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Υποβολή Τμημάτων",
         "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "Προεπισκόπηση τμήματος",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Κλείσιμο ειδοποίησης παράλειψης",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Επόμενο κεφάλαιο",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "Προηγούμενο κεφάλαιο",
+        "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Εναλλαγή ενεργοποίησης DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Άνοιγμα μενού υποβολής",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Επιλέξτε ένα πλήκτρο πατώντας το και επιλέξτε όποιο πρόσθετο πλήκτρο ελέγχου επιθυμείτε."
@@ -385,14 +434,27 @@
     "statusReminder": {
         "message": "Ελέγξτε το status.sponsor.ajay.app για την κατάσταση διακομιστή."
     },
+    "changeUserID": {
+        "message": "Εισάγετε/Εξάγετε Το Ιδιωτικό Σας UserID"
+    },
     "whatChangeUserID": {
         "message": "Κρατείστε το μυστικό. Αυτό είναι σαν ένα κωδικό πρόσβασης όπου δε θα έπρεπε να μοιράζεστε με κανένα. Εάν το αποκτήσει κάποιος, μπορεί να σας υποδυθεί. Εάν ψάχνετε για τη δημόσια ταυτότητα χρήστη σας, πατήστε πάνω στο αναδυόμενο εικονίδιο πρόχειρου."
+    },
+    "setUserID": {
+        "message": "Όρισε Ιδιωτικό UserID"
+    },
+    "userIDChangeWarning": {
+        "message": "Προσοχή: Η αλλαγή του Ιδιωτικού UserID είναι μόνιμη. Είστε βέβαιοι ότι θέλετε να το αλλάξετε; Βεβαιωθείτε ότι έχετε δημιουργήσει αντίγραφο ασφαλείας του παλιού σας για παν ενδεχόμενο."
     },
     "createdBy": {
         "message": "Δημιουργήθηκε από"
     },
     "supportOtherSites": {
         "message": "Υποστήριξη 3των ιστοσελίδων τύπου YouTube"
+    },
+    "supportOtherSitesDescription": {
+        "message": "Υποστήριξη τρίτων YouTube πελατών. Για να ενεργοποιήσετε την υποστήριξη, πρέπει να αποδεχτείτε τις επιπλέον άδειες.",
+        "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
         "message": "Υποστηριζόμενες Ιστοσελίδες: "
@@ -427,6 +489,12 @@
     "minDurationDescription": {
         "message": "Τμήματα μικρότερα από την καθορισμένη τιμή δε θα παραλείπονται ή δε θα εμφανίζονται στην οθόνη αναπαραγωγής."
     },
+    "enableManualSkipOnFullVideo": {
+        "message": "Χρησιμοποίησε χειροκίνητη παράλειψη όταν πλήρης ετικέτα βίντεο υφίσταται"
+    },
+    "whatManualSkipOnFullVideo": {
+        "message": "Για τους ανθρώπους που θέλουν να παρακολουθήσουν το βίντεο αδιάκοπα αν είναι πλήρως χορηγούμενο ή αυτοπροωθούμενο."
+    },
     "skipNoticeDuration": {
         "message": "Διάρκεια ειδοποίησης παράλειψης (σε δευτερόλεπτα):"
     },
@@ -448,6 +516,12 @@
     "customServerAddressDescription": {
         "message": "Η διεύθυνση που χρησιμοποιείται για την επικοινωνία με τον διακομιστή του SponsorBlock. Εάν δε διαθέτετε το δικό σας διακομιστή, αυτή η επιλογή δεν πρέπει να αλλάξει."
     },
+    "dataFetchingServerAddress": {
+        "message": "Διεύθυνση Διακομιστή Ανάκτησης Δεδομένων"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Η διεύθυνση που χρησιμοποιείται για την επικοινωνία με τον διακομιστή ανάκτησης δεδομένων. Εάν δε διαθέτετε το δικό σας διακομιστή, αυτή η επιλογή δεν πρέπει να αλλάξει."
+    },
     "save": {
         "message": "Αποθήκευση"
     },
@@ -466,6 +540,9 @@
     "exportOptions": {
         "message": "Εισαγωγή/Εξαγωγή όλων των ρυθμίσεων"
     },
+    "exportOtherData": {
+        "message": "Εισαγωγή/Εξαγωγή Όλων Των Άλλων Δεδομένων"
+    },
     "exportOptionsCopy": {
         "message": "Επεξεργασία/αντιγραφή"
     },
@@ -474,6 +551,9 @@
     },
     "exportOptionsUpload": {
         "message": "Φόρτωση από αρχείο"
+    },
+    "whatExportOptions": {
+        "message": "Αυτές είναι όλες σας οι ρυθμίσεις σε αρχείο JSON. Αυτό περιλαμβάνει και την ιδιωτική ταυτότητα χρήστη, οπότε μοιραστείτε το με προσοχή."
     },
     "setOptions": {
         "message": "Ορισμός Επιλογών"
@@ -526,6 +606,10 @@
     "to": {
         "message": "έως",
         "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "Αντιγράφηκε!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
         "message": "Συμπερίληψη τμημάτων μεταβάσεων"
@@ -615,6 +699,13 @@
     "category_outro_guideline1": {
         "message": "Μη συμπερίληψη περιεχομένου, ακόμα και αν τα προτεινόμενα βίντεο βρίσκονται στην οθόνη"
     },
+    "category_preview": {
+        "message": "Προεπισκόπηση/Περίληψη",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_preview_description": {
+        "message": "Συλλογή από κλιπ που δείχνουν τι έρχεται σε αυτό το βίντεο ή άλλα βίντεο σε μια σειρά όπου όλες οι πληροφορίες επαναλαμβάνονται αργότερα στο βίντεο."
+    },
     "category_preview_guideline1": {
         "message": "Κλιπ που εμφανίζονται μετά, ή σε μελλοντικά βίντεο"
     },
@@ -626,6 +717,9 @@
     },
     "category_filler": {
         "message": "Σπατάλη Χρόνου/Περιττό σχόλιο"
+    },
+    "category_filler_description": {
+        "message": "Εφεδρικές σκηνές που προστίθενται μόνο για περιττό χρόνο ή χιούμορ που δεν απαιτούνται για να κατανοήσουν το κύριο περιεχόμενο του βίντεο. Αυτό δεν θα πρέπει να περιλαμβάνει τμήματα που παρέχουν συμφραζόμενα ή λεπτομέρειες παρασκηνίου. Αυτή είναι μια πολύ επιθετική κατηγορία που προορίζεται για όταν δεν είστε στη διάθεση για \"διασκέδαση\"."
     },
     "category_filler_short": {
         "message": "Περιττό"
@@ -669,6 +763,18 @@
     "category_poi_highlight_guideline3": {
         "message": "Παράλειψη προς το περιεχόμενο όπου παρουσιάζεται στον τίτλο ή το εικονίδιο"
     },
+    "category_chapter": {
+        "message": "Κεφάλαιο"
+    },
+    "category_chapter_guideline1": {
+        "message": "Μην αναφέρετε τα εμπορικά ονόματα χορηγών"
+    },
+    "category_chapter_guideline2": {
+        "message": "Χρησιμοποιήστε μεγαλύτερα κεφάλαια για γενικά τμήματα"
+    },
+    "category_chapter_guideline3": {
+        "message": "Μικρότερα κεφάλαια μπορούν να τοποθετηθούν μέσα σε μεγαλύτερα"
+    },
     "category_livestream_messages": {
         "message": "Ζωντανή μετάδοση: Δωρεές/Ανάγνωση Μηνυμάτων από δωρεές"
     },
@@ -699,6 +805,9 @@
     "showOverlay_full": {
         "message": "Εμφάνιση Ετικέτας"
     },
+    "showOverlay_chapter": {
+        "message": "Εμφάνιση Κεφαλαίων"
+    },
     "autoSkipOnMusicVideos": {
         "message": "Αυτόματη παράλειψη όλων των τμημάτων όταν είναι «Χωρίς μουσική»"
     },
@@ -708,6 +817,10 @@
     "fullVideoSegments": {
         "message": "Εμφάνιση εικονιδίου όταν όλο το βίντεο είναι διαφημιστικό εξολοκλήρου",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Εμφάνιση ετικετών και στις εικόνες προεπισκόπησης των βίντεο",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
         "message": "Χρώμα Μη Υποβληθέντων",
@@ -751,8 +864,15 @@
     "youMustSelectACategory": {
         "message": "Πρέπει να επιλέξετε Κατηγορία για όλα τα τμήματα που υποβάλετε!"
     },
+    "bracketStart": {
+        "message": "(Έναρξη)"
+    },
     "bracketEnd": {
         "message": "(τέλος)"
+    },
+    "End": {
+        "message": "Τέλος",
+        "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
         "message": "κρυφό: αρνητική ψήφος"
@@ -766,6 +886,9 @@
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
         "message": "Η ταυτότητα καναλιού δεν έχει φορτώσει ακόμα. Εάν χρησιμοποιείτε ενσωματωμένο βίντεο, δοκιμάστε αντιθέτως να το ανοίξετε στο YouTube. Μπορεί επίσης να ευθύνονται αλλαγές στη διάταξη του YouTube, εάν το πιστεύετε, γράψτε ένα σχόλιο εδώ:"
+    },
+    "invidiousPermissionRefresh": {
+        "message": "Το πρόγραμμα περιήγησης έχει ανακαλέσει την άδεια που απαιτείται για να λειτουργήσει σε Invidious και άλλους ιστότοπους τρίτων. Παρακαλώ κάντε κλικ στο παρακάτω κουμπί για να επανενεργοποιήσετε αυτή την άδεια."
     },
     "acceptPermission": {
         "message": "Αποδεχτείτε την άδεια"
@@ -790,6 +913,13 @@
     },
     "downvoteDescription": {
         "message": "Λάθος Συγχρονισμός"
+    },
+    "incorrectVote": {
+        "message": "Λάθος"
+    },
+    "harmfulVote": {
+        "message": "Επιβλαβές",
+        "description": "Used for chapter segments when the text is harmful/offensive to remove it faster"
     },
     "incorrectCategory": {
         "message": "Αλλαγή κατηγορίας"
@@ -826,6 +956,9 @@
     "categoryPillTitleText": {
         "message": "Ολόκληρο το βίντεο έχει χαρακτηριστεί ως αυτής της κατηγορίας οπότε είναι αυστηρά ενσωματωμένη ώστε να μπορείτε να το διαφοροποιήσετε σε τμήματα"
     },
+    "chapterNameTooltipWarning": {
+        "message": "Ένα από τα ονόματα κεφαλαίων σας είναι παρόμοιο με μια κατηγορία. Θα πρέπει να χρησιμοποιείτε κατηγορίες όταν είναι εφικτό."
+    },
     "experiementOptOut": {
         "message": "Αποχή από μελλοντικά πειράματα",
         "description": "This is used in a popup about a new experiment to get a list of unlisted videos to back up since all unlisted videos uploaded before 2017 will be set to private."
@@ -833,14 +966,23 @@
     "hideForever": {
         "message": "Απόκρυψη για πάντα"
     },
+    "warningChatInfo": {
+        "message": "Παρατηρήσαμε ότι κάνατε κάποια κοινά λάθη. Εκτιμούμε πολύ το έργο σας μέχρι στιγμής, αλλά αγωνιζόμαστε προς την τελειότητα εδώ, οπότε ακόμα και πολύ μικρά λάθη έχουν σημασία:)"
+    },
     "questionButton": {
         "message": "Έχω μια ερώτηση"
+    },
+    "askAQuestion": {
+        "message": "Κάντε μια ερώτηση"
     },
     "warningConfirmButton": {
         "message": "Κατανοώ το λόγο"
     },
     "warningError": {
         "message": "Σφάλμα κατά τη γνωστοποίηση της προειδοποίησης:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "Έχετε λάβει μια συμβουλή από έναν συντονιστή"
     },
     "Donate": {
         "message": "Δωρεά"
@@ -941,6 +1083,12 @@
     "hideSegment": {
         "message": "Απόκρυψη τμήματος"
     },
+    "skipSegment": {
+        "message": "Παράλειψη τμήματος"
+    },
+    "playChapter": {
+        "message": "Αναπαραγωγή κεφαλαίου"
+    },
     "SponsorTimeEditScrollNewFeature": {
         "message": "Χρήση της ροδέλας ποντικιού καθώς είναι πάνω από το παράθυρο επεξεργασίας για να αλλάξετε γρηγορότερα τον χρόνο. Συνδυασμοί όπως το ctrl ή το shift χρησιμοποιούνται για να τελειοποιήσετε τις αλλαγές."
     },
@@ -1003,5 +1151,426 @@
     },
     "confirmResetToDefault": {
         "message": "Είστε βέβαιοι ότι θέλετε να επαναφέρετε όλες τις ρυθμίσεις στις προεπιλεγμένες τιμές τους; Αυτό δεν μπορεί να αναιρεθεί."
+    },
+    "exportSegments": {
+        "message": "Εξαγωγή τμημάτων"
+    },
+    "importSegments": {
+        "message": "Εισαγωγή τμημάτων"
+    },
+    "Import": {
+        "message": "Εισαγωγή",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemSuccess": {
+        "message": "Επιτυχής Εξαργύρωση!"
+    },
+    "redeemFailed": {
+        "message": "Το κλειδί άδειας δεν είναι έγκυρο"
+    },
+    "hideUpsells": {
+        "message": "Η απόκρυψη ρυθμίσεων δεν είναι διαθέσιμη χωρίς επιπλέον πληρωμή"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Απόκρυψη πληροφοριών σχετικά με νέες λειτουργίες"
+    },
+    "redeem": {
+        "message": "Εξαργύρωση"
+    },
+    "enterLicenseKey": {
+        "message": "Εισαγωγή κλειδιού της άδειας χρήσης"
+    },
+    "unsubmittedSegmentCounts": {
+        "message": "Αυτή τη στιγμή έχετε {0} σε {1}",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
+    },
+    "unsubmittedSegmentCountsZero": {
+        "message": "Αυτή τη στιγμή δεν έχετε μη υποβληθέντα τμήματα",
+        "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
+    },
+    "unsubmittedSegmentsSingular": {
+        "message": "μη υποβληθέν τμήμα",
+        "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
+    },
+    "unsubmittedSegmentsPlural": {
+        "message": "μη υποβληθέντα τμήματα",
+        "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
+    },
+    "videosSingular": {
+        "message": "βίντεο",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
+    "videosPlural": {
+        "message": "βίντεο",
+        "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "clearUnsubmittedSegments": {
+        "message": "Καθαρισμός όλων των τμημάτων",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "Είστε βέβαιοι ότι θέλετε να καθαρίσετε όλα τα μη υποβληθέντα τμήματά σας;",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "Εμφάνιση τμημάτων",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "Απόκρυψη τμημάτων",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "videoID": {
+        "message": "ID Βίντεο",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "Αριθμός τμημάτων",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "Ενέργειες",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "Κοινή χρήση ως URL"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "Προειδοποίηση: Ο διακομιστής δεν έχει απαντήσει ακόμα με τμήματα. Μπορεί στην πραγματικότητα να υπάρχουν τμήματα σε αυτό το βίντεο που έχουν ήδη υποβληθεί, αλλά απλά δεν τα έχετε λάβει λόγω προβλημάτων με το διακομιστή."
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Καλύτεροι τίτλοι και εικονίδια προεπισκόπησης στο YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "chooseDescriptive": {
+        "message": "Επιλέξτε το πιο περιγραφικό"
+    },
+    "Original": {
+        "message": "Αρχικό"
+    },
+    "OriginalTitle": {
+        "message": "Αρχικός Τίτλος"
+    },
+    "CurrentTime": {
+        "message": "Τρέχουσα ώρα"
+    },
+    "resetCustomTitle": {
+        "message": "Επαναφορά Τίτλου Πίσω Στο Αρχικό Κείμενο"
+    },
+    "resetIcon": {
+        "message": "Επαναφορά εικονιδίου"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Πληκτρολογήστε τον δικό σας τίτλο εδώ"
+    },
+    "VideoNotReady": {
+        "message": "Το βίντεο δεν είναι έτοιμο"
+    },
+    "CanvasMissing": {
+        "message": "Ο καμβάς λείπει",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "FailedToLoad": {
+        "message": "Αποτυχία φόρτωσης",
+        "description": "Thumbnail failed to load"
+    },
+    "titleFormatting": {
+        "message": "Μορφή Τίτλου"
+    },
+    "Disabled": {
+        "message": "Απενεργοποιημένο"
+    },
+    "shouldCleanEmojis": {
+        "message": "Αφαιρέστε τα emojis"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Η ανίχνευση γλώσσας δεν είναι τέλεια και ανιχνεύει μερικούς αγγλικούς τίτλους ως μη αγγλικούς."
+    },
+    "RandomTime": {
+        "message": "Εμφάνιση στιγμιότυπου οθόνης από τυχαίο χρόνο"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Εμφάνιση του αρχικού εικονιδίου προεπισκόπησης"
+    },
+    "showABlankBox": {
+        "message": "Εμφάνιση ενός κενού πλαισίου"
+    },
+    "AutoGenerated": {
+        "message": "Εμφάνιση εικονιδίου προεπισκόπησης που δημιουργήθηκε αυτόματα από το YouTube",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
+    "Start": {
+        "message": "Έναρξη"
+    },
+    "Middle": {
+        "message": "Μέση"
+    },
+    "showLiveCover": {
+        "message": "Εμφάνιση Avatar καναλιών στα προσεχή βίντεο",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Τα κανάλια μπορούν να ρυθμίσουν δοκιμές στα βίντεο τους, όπου το YouTube θα εμφανίζει διαφορετικές μικρογραφίες σε κάθε άτομο. Αυτή η επιλογή θα χρησιμοποιεί πάντα την πρώτη μικρογραφία για να διατηρεί τη συνέπεια."
+    },
+    "abThumbnailsWarning": {
+        "message": "Προειδοποίηση: Αυτό το βίντεο εκτελείται επί του παρόντος μια δοκιμή μικρογραφίας A/B. Αυτό σημαίνει ότι η μικρογραφία μπορεί να αλλάζει συχνά. Πιθανώς δε θα πρέπει να ψηφίσετε για την αρχική μικρογραφία λόγω αυτού του κινδύνου."
+    },
+    "titleMaxLines": {
+        "message": "Μέγιστος αριθμός γραμμών για τον τίτλο"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Οι τίτλοι βίντεο θα εξαπλωθούν σε τόσες πολλές γραμμές στις προτάσεις."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Επίπεδο κορεσμού εικονιδίων προεπισκόπησης"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Κάντε τα εικονίδια προεπισκόπησης λιγότερο έντονα μειώνοντας το χρώμα τους"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Απόκρυψη λεπτομερειών κατά την ανάκτηση"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Απόκρυψη τίτλων και εικονιδίων προεπισκόπησης κατά τη λήψη δεδομένων από το διακομιστή. Αν είναι απενεργοποιημένο, θα δείτε εικόνες να αναβοσβήνουν καθώς οι τίτλοι και οι μικρογραφίες αλλάζουν πάνω."
+    },
+    "onAllPages": {
+        "message": "Σε όλες τις σελίδες",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Σε όλες τις σελίδες εκτός των σελίδων βίντεο",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Ποτέ"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Η υπηρεσία δημιουργίας μικρογραφιών επιταχύνει σημαντικά την παραγωγή μικρογραφιών στέλνοντας ένα ανώνυμο αίτημα με το videoID σε έναν απομακρυσμένο διακομιστή. Η μικρογραφία είτε θα δημιουργηθεί ή θα τραβηχθεί από μια κρύπτη αν έχει ήδη δημιουργηθεί."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Αν χρησιμοποιηθεί σε σελίδες βίντεο, αυτό θα μπορούσε δυνητικά να διαρρεύσει μη καταχωρημένα videoIDs σε αυτόν τον διακομιστή. Ρυθμίζοντας αυτό στην επιλογή \"Σε όλες τις σελίδες εκτός από τις σελίδες βίντεο\" θα αποτρέψει αυτό το πρόβλημα. Μια άλλη επιλογή είναι να φιλοξενήσετε τη δική σας υπηρεσία δημιουργίας μικρογραφιών."
+    },
+    "moreAboutKAnonymity": {
+        "message": "Περισσότερα για το K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "Enable": {
+        "message": "Ενεργοποίηση"
+    },
+    "Titles": {
+        "message": "Τίτλοι",
+        "description": "Referring to titles of YouTube videos"
+    },
+    "Thumbnails": {
+        "message": "Εικονίδια προεπισκόπησης",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "Error": {
+        "message": "Σφάλμα"
+    },
+    "ShowOriginal": {
+        "message": "Εμφάνιση Αρχικών Λεπτομερειών"
+    },
+    "ShowModified": {
+        "message": "Εμφάνιση Τροποποιημένων Λεπτομερειών"
+    },
+    "chatboxDescription": {
+        "message": "Γίνετε μέλος στο Discord ή Matrix για να μείνετε μόνιμα σε αυτή τη συνομιλία",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "tip1": {
+        "message": "Αποφύγετε υπερβολικές εκφράσεις προσώπου",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Σκεφτείτε τη μεγάλη εικόνα, μην απαντάτε απλά στην ερώτηση του αρχικού τίτλου",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Αποφύγετε την περιγραφή των αντιδράσεων στο βίντεο (\"σοκαριστικό\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Παρέχετε αρκετές πληροφορίες για να κάνετε μια ενημερωμένη επιλογή πριν κάνετε κλικ"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Σημείωση: Οι ρυθμίσεις του SponsorBlock έχουν εισαχθεί αυτόματα!"
+    },
+    "howItWorks": {
+        "message": "Πώς λειτουργεί"
+    },
+    "discordPromotion": {
+        "message": "Συμβάλετε, κάντε κάποιες προτάσεις και βοηθήστε στο {discord} ή στο {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Αν σας αρέσει αυτό που έχω κάνει μέχρι στιγμής και θέλετε να με βοηθήσετε με χρήματα, εδώ είναι ένας σύνδεσμος"
+    },
+    "termsAgreement": {
+        "message": "Με τη χρήση αυτής της επέκτασης, συμφωνείτε με το {privacy-policy} και {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Πολιτική Απορρήτου"
+    },
+    "termsOfUse": {
+        "message": "Όροι Χρήσης"
+    },
+    "openSourceLicenses": {
+        "message": "Άδειες Ανοικτού Κώδικα"
+    },
+    "defaultToOriginals": {
+        "message": "Προεπιλογή Στις Αρχικές Πληροφορίες Βίντεο"
+    },
+    "replaceTitles": {
+        "message": "Αντικατάσταση Τίτλων"
+    },
+    "replaceThumbnails": {
+        "message": "Αντικατάσταση Εικονιδίων Προεπισκόπησης"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Αν απενεργοποιηθεί, θα μορφοποιήσει τους τίτλους αλλά δε θα χρησιμοποιήσει τίτλους που έχουν υποβληθεί από την κοινότητα",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Είστε βέβαιοι ότι θα θέλατε να διαγράψετε αυτή την διαμόρφωση;",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Νέα ρύθμιση παραμέτρων"
+    },
+    "DeleteConfiguration": {
+        "message": "Διαγραφή ρύθμισης παραμέτρων"
+    },
+    "ConfigurationName": {
+        "message": "Όνομα της διαμόρφωσης"
+    },
+    "ChannelListInstructions": {
+        "message": "Εισάγετε τα κανάλια που θέλετε να εφαρμόσετε αυτή τη ρύθμιση στο παρακάτω πλαίσιο, διαχωρισμένα με νέες γραμμές. Και τα αναγνωριστικά καναλιών και τα ονόματα εμφάνισης υποστηρίζονται. @ Ονόματα χρηστών δεν υποστηρίζονται. Μπορείτε να πάρετε αναγνωριστικά καναλιού κάνοντας κλικ στο κουμπί κοινοποίησης στη σελίδα σχετικά του καναλιού. Για να φτάσετε στη σελίδα σχετικά, κάντε κλικ στην περιγραφή του καναλιού που εμφανίζεται κάτω από το όνομα του καναλιού στη σελίδα του καναλιού.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Καμία ρύθμιση παραμέτρων ακόμα. Κάντε κλικ στο κουμπί στο επάνω μέρος για να προσθέσετε μια νέα ρύθμιση.",
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Σταματήστε το clickbait αντικαθιστώντας τίτλους και εικονίδια προεπισκόπησης με πιο ακριβείς"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Σας έχει κουράσει το clickbait; Ελέγξτε τη νέα μου επέκταση για τη βελτίωση των τίτλων και των εικονιδίων προεπισκόπησης"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Επίσης ελέγξτε το DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Δεν αρέσει αυτός ο τίτλος; Αν προτιμάτε τον παρακάτω τίτλο, σκεφτείτε να ελέγξετε τη λειτουργία αντικατάστασης τίτλου στο DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Αυτό το εικονίδιο προεπισκόπησης επιλέγεται από μια τυχαία χρονοσήμανση επειδή δεν υπάρχει ακόμα κάποια υποβολή σε αυτό το βίντεο",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Αυτό το εικονίδιο προεπισκόπησης επιλέγεται από μια τυχαία χρονοσήμανση και ο τίτλος είναι αυτόματα μορφοποιημένος επειδή δεν υπάρχει ακόμα κάποια υποβολή σε αυτό το βίντεο",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Μπορείτε να αλλάξετε αυτήν την προεπιλογή παρακάτω",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "Οι {titles} τίτλοι και τα {thumbnails} εικονίδια προεπισκόπησης έχουν αντικατασταθεί από τότε που εγκαταστήσατε αυτήν την επέκταση",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} τίτλος ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} τίτλοι ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "και {thumbnails} εικονίδιο προεπισκόπησης",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "και {thumbnails} εικονίδια προεπισκόπησης",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Οι {titleAndThumbnailMessage} έχουν αντικατασταθεί από τότε που εγκαταστήσατε αυτήν την επέκταση",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacementsDescription": {
+        "message": "Χρησιμοποιείται για να σας δώσει στατιστικά στο αναδυόμενο παράθυρο.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "requiresUblock": {
+        "message": "Απαιτεί uBlock Origin"
+    },
+    "dearrowLogoCredit": {
+        "message": "Λογότυπο βασισμένο σε Twemoji με άδεια CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "Το SponsorBlock δεν είναι συμβατό με την επέκταση \"Zoom to Fill\". Υπάρχουν πολλές εναλλακτικές που μπορείτε να χρησιμοποιήσετε αντ' αυτού που θα λειτουργήσουν σωστά."
+    },
+    "freeTrialStarted": {
+        "message": "Η δωρεάν δοκιμή σας ξεκίνησε επιτυχώς. Επισκεφθείτε το YouTube για να το δοκιμάσετε"
+    },
+    "freeTrialEnded": {
+        "message": "Η δωρεάν δοκιμαστική περίοδος σας έχει τελειώσει"
+    },
+    "freeTrialPrompt": {
+        "message": "Αν θέλετε να το δοκιμάσετε, μπορείτε να ξεκινήσετε μια δωρεάν δοκιμαστική περίοδο με το παρακάτω κουμπί."
+    },
+    "startFreeTrial": {
+        "message": "Έναρξη δωρεάν δοκιμαστικής περιόδου"
+    },
+    "freeAccessRequested": {
+        "message": "Έχετε εγγραφεί με επιτυχία για δωρεάν πρόσβαση. Θα ειδοποιηθείτε όταν σας δοθεί δωρεάν πρόσβαση."
+    },
+    "freeAccessComplete": {
+        "message": "Συγχαρητήρια! Τώρα έχετε δωρεάν πρόσβαση στο DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "Το DeArrow δεν είναι ενεργοποιημένο"
+    },
+    "ActivateDeArrow": {
+        "message": "Ενεργοποίηση DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "Το DeArrow έχει ενεργοποιηθεί με επιτυχία"
+    },
+    "Close": {
+        "message": "Κλείσιμο"
+    },
+    "ViewLicenseKey": {
+        "message": "Προβολή Κλειδιού Άδειας"
+    },
+    "SharingIsCaring": {
+        "message": "Το να μοιράζεσαι σημαίνει φροντίδα"
+    },
+    "syncDisabledWarning": {
+        "message": "Προειδοποίηση: Η αποθήκευση επεκτάσεων έχει απενεργοποιηθεί στο πρόγραμμα περιήγησης σας. Οι ρυθμίσεις δε θα αποθηκευτούν αν προσπαθήσετε να τις αποθηκεύσετε."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "Το DeArrow δε θα λειτουργήσει χωρίς αποθηκευτικό χώρο."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Μπορείτε να το ενεργοποιήσετε πηγαίνοντας στο about:config και ορίζοντας την τιμή του \"webextensions.storage.sync.enabled\" σε true."
+    },
+    "storageFull": {
+        "message": "Ο αποθηκευτικός χώρος επεκτάσεων είναι πλήρης. Παρακαλούμε διαγράψτε μερικά μη υποβληθέντα τμήματα στις επιλογές."
+    },
+    "previewSegmentRequired": {
+        "message": "Παρακαλούμε κάνετε προεπισκόπηση των τμημάτων σας πριν από την υποβολή. Μπορείτε να το κάνετε κάνοντας κλικ στο κουμπί προεπισκόπησης ή χρησιμοποιώντας την ακόλουθη συντόμευση:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Λειτουργία VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Οι υποβολές δεν μπορούν να γίνουν δεκτές από το πρόγραμμα περιήγησης σας αυτή τη στιγμή, επειδή το YouTube φαίνεται να έχει εγχύσει μερικές διαφημίσεις σε επίπεδο διακομιστή, που η επέκταση δεν είναι σε θέση να αφαιρέσει. Παρακαλώ επικοινωνήστε εάν λαμβάνετε αυτό το σφάλμα."
     }
 }

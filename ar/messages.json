@@ -1390,6 +1390,9 @@
     "titleMaxLinesDescription": {
         "message": "سوف توزع عناوين الفيديوهات هكذا سطور في صفحة الاقتراحات."
     },
+    "thumbnailSaturationLevel": {
+        "message": "مستوى تشبع الصورة المصغرة"
+    },
     "whatSaturateThumbnails": {
         "message": "تقليل سطوع الصور المصغرة من خلال تخفيض الوانها"
     },
@@ -1544,18 +1547,18 @@
         "message": "حذف التكوين"
     },
     "ChannelAllowlist": {
-        "message": "قائمة القنوات المسموح بها"
+        "message": "إعدادات لقناة محددة"
     },
     "ConfigurationName": {
         "message": "اسم التكوين"
     },
     "ChannelListInstructions": {
         "message": "أدخل القنوات التي تريد تطبيق هذا التكوين عليها في المربع أدناه، مفصولة بسطر جديد. كل من معرف القناة وأسماء العرض مدعومة. اسم المستخدم @ غير مدعوم. يمكنك الحصول على معرف القناة من خلال النقر على زر مشاركة في صفحة \"حول\" الخاصة بالقناة.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "لم يتم ضبط تكوين بعد. انقر الزر في الأعلى لإضافة تكوين جديد.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "إيقاف طعم النقرة من خلال استبدال العناوين والصور المصغرة ببدائل أكثر دقة"

@@ -1547,18 +1547,18 @@
         "message": "Yapılandırmayı Sil"
     },
     "ChannelAllowlist": {
-        "message": "İzin Verilen Kanallar"
+        "message": "Kanala özgü ayarlar"
     },
     "ConfigurationName": {
         "message": "Yapılandırma Adı"
     },
     "ChannelListInstructions": {
         "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Henüz yapılandırma ayarlanmadı. Yeni bir yapılandırma eklemek için üstteki düğmeye tıklayın.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Başlıkları ve küçük resimleri daha doğru olanlarla değiştirerek clickbaitleri durdurun"
@@ -1657,7 +1657,7 @@
         "message": "Dearrow'u aktifleştir"
     },
     "DeArrowIsActivated": {
-        "message": "DeArrow başarı ile aktifleştirildi"
+        "message": "DeArrow başarıyla aktifleştirildi"
     },
     "Close": {
         "message": "Kapat"
@@ -1690,5 +1690,12 @@
     "actAsVip": {
         "message": "VIP gibi davran",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "YouTube sunucuları tarafından reklam işlenmesi nedeniyle tarayıcınız üzerinden bildirdiğiniz kısımları şu anda kabul edemiyoruz. Bu hatayı aldığınızda iletişime geçiniz."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow kullanım dışı. Kullanıma almak için tıklayın",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

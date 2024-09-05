@@ -1547,18 +1547,18 @@
         "message": "Избриши конфигурацију"
     },
     "ChannelAllowlist": {
-        "message": "Листа дозвољених канала"
+        "message": "Подешавања специфична за канал"
     },
     "ConfigurationName": {
         "message": "Назив конфигурације"
     },
     "ChannelListInstructions": {
         "message": "Унесите све канале на које желите да примените ову конфигурацију у поље испод, одвојене новим редовима. Подржани су и ID-ови канала и имена за приказ. @ Корисничка имена нису подржана. ID-ове канала можете добити кликом на дугме за дељење на страници о каналу. Да бисте дошли до странице са информацијама, кликните на опис канала који се појављује испод назива канала на страници канала.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Још нема подешавања конфигурација. Кликните на дугме на врху да бисте додали нову конфигурацију.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Заустављање кликбејта заменом наслова и сличица прецизнијим"
@@ -1690,5 +1690,12 @@
     "actAsVip": {
         "message": "Понашај се као VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке рекламе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow је онемогућен – додирните да омогућите",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

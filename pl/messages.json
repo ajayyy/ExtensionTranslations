@@ -1547,18 +1547,18 @@
         "message": "Usuń konfigurację"
     },
     "ChannelAllowlist": {
-        "message": "Biała lista kanałów"
+        "message": "Ustawienia specyficzne dla kanału"
     },
     "ConfigurationName": {
         "message": "Nazwa konfiguracji"
     },
     "ChannelListInstructions": {
         "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. Nazwy użytkowników z @ nie są obsługiwane. Identyfikator kanału można uzyskać, klikając przycisk udostępniania na stronie informacji o kanale. Aby uzyskać dostęp do informacji o kanale, kliknij opis kanału, wyświetlany pod nazwą użytkownika na stronie kanału.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Nie skonfigurowano jeszcze SponsorBlock, aby to zrobić, kliknij przycisk powyżej, aby dodać nową konfigurację.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Pozbądź się clickbait'ów, zastępuj tytuły bardziej adekwatnymi do treści"
@@ -1690,5 +1690,8 @@
     "actAsVip": {
         "message": "Działaj jako VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "W tej chwili nie można wysyłać zgłoszeń z Twojej przeglądarki, ponieważ wydaje się, że zostały wstawione wstępnie wyrenderowane reklamy po stronie serwera YouTube, których rozszerzenie nie jest w stanie usunąć. Jeśli widzisz ten błąd, skontaktuj się z nami."
     }
 }

@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Cảnh báo: Tắt tính năng này sẽ xóa tất cả các phiếu phản đối đã lưu trữ trước đó"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Lưu trữ các hạ bình chọn của phân đoạn trong tab ẩn danh"
+    },
     "enableQueryByHashPrefix": {
         "message": "Truy vấn theo Hash Prefix"
     },
@@ -301,8 +304,20 @@
         "message": "Bắt đầu/dừng phân đoạn",
         "description": "Keybind label"
     },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "Mở menu phân đoạn đã gửi",
+        "description": "Keybind label"
+    },
     "setSubmitKeybind": {
         "message": "Gửi phân đoạn",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "Xem trước Phân đoạn",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "Đóng thông báo bỏ qua",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -312,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "Chương trước",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Bật/tắt chức năng DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Mở menu phân đoạn đã gửi",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Chọn một phím bằng cách nhập nó và chọn bất kỳ phím bổ trợ nào bạn muốn sử dụng."
@@ -519,6 +542,9 @@
     },
     "exportOptions": {
         "message": "Nhập/xuất tất cả tùy chọn"
+    },
+    "exportOtherData": {
+        "message": "Nhập/Xuất Tất cả Dữ liệu Khác"
     },
     "exportOptionsCopy": {
         "message": "Chỉnh sửa/sao chép"
@@ -1301,6 +1327,12 @@
     "shouldCleanEmojis": {
         "message": "Xoá biểu tượng cảm xúc"
     },
+    "onlyTitleCaseInEnglish": {
+        "message": "Viết hoa các Tiêu đề không phải là tiếng Anh"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Phát hiện từ ngữ không hoàn thiện và một số tiêu đề tiếng Anh không phải tiếng Anh."
+    },
     "thumbnailFallbackOption": {
         "message": "Khi không có hình thu nhỏ nào được gửi"
     },
@@ -1330,6 +1362,10 @@
     "keepUnsubmitted": {
         "message": "Lưu bình chọn đã gửi"
     },
+    "showLiveCover": {
+        "message": "Hiển thị Avatar kênh trên các video sắp ra mắt",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
     "ignoreAbThumbnails": {
         "message": "Không bao giờ sử dụng hình thu nhỏ được thử nghiệm A/B"
     },
@@ -1353,6 +1389,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "Tiêu đề video sẽ được trải dài trên số dòng này trong phần Đề xuất."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Độ bão hoà của hình thu nhỏ"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Làm cho hình thu nhỏ bớt sống động hơn bằng cách giảm màu của chúng"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Ẩn chi tiết trong khi tìm nạp"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Ẩn tiêu đề và hình thu nhỏ khi lấy dữ liệu từ máy chủ. Nếu tắt, bạn sẽ thấy giật hình khi tiêu đề và hình thu nhỏ thay đổi."
     },
     "onAllPages": {
         "message": "Trên tất cả các trang",
@@ -1499,14 +1547,18 @@
         "message": "Xoá cấu hình"
     },
     "ChannelAllowlist": {
-        "message": "Danh sách kênh cho phép"
+        "message": "Cài đặt riêng cho kênh"
     },
     "ConfigurationName": {
         "message": "Tên cấu hình"
     },
+    "ChannelListInstructions": {
+        "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới, cách nhau từng dòng. Cả ID kênh và tên hiển thị đều được hỗ trợ. @Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấn vào nút chia sẻ trên trang giới thiệu kênh. Để tới trang giới thiệu, hãy nhấn vào mô tả kênh xuất hiện bên dưới tên kênh của họ.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Dừng clickbait bằng cách thay thế tiêu đề và hình thu nhỏ bằng những thông tin chính xác hơn"
@@ -1618,5 +1670,28 @@
     },
     "cleanPopup": {
         "message": "Ẩn phần lộn xộn trong danh sách phân đoạn bật lên"
+    },
+    "syncDisabledWarning": {
+        "message": "Cảnh báo: Lưu trữ tiện ích mở rộng đã bị vô hiệu hóa trong trình duyệt của bạn. Cài đặt này sẽ không được lưu."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow sẽ không hoạt động nếu không có bộ lưu trữ."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Bạn có thể kích hoạt tính năng này bằng cách vào about:config và đặt giá trị \"webextensions.storage.sync.enabled\" thành true."
+    },
+    "storageFull": {
+        "message": "Bộ nhớ tiện ích mở rộng đã đầy. Vui lòng xóa một số phân đoạn chưa gửi trong tùy chọn."
+    },
+    "previewSegmentRequired": {
+        "message": "Vui lòng xem trước các phân đoạn của bạn trước khi gửi. Bạn có thể thực hiện việc này bằng cách nhấp vào nút xem trước hoặc sử dụng phím tắt sau:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Tham gia với tư cách là VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Hiện tại, không thể nhận phân đoạn đã gửi từ trình duyệt của bạn vì có vẻ như YouTube đã chèn một số quảng cáo từ phía máy chủ mà tiện ích mở rộng chưa thể xóa được. Vui lòng báo cáo với chúng tôi nếu bạn gặp lỗi này."
     }
 }

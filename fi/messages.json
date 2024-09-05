@@ -1540,18 +1540,18 @@
         "message": "Poista määritys"
     },
     "ChannelAllowlist": {
-        "message": "Sallitut kanavat"
+        "message": "Kanavakohtaiset asetukset"
     },
     "ConfigurationName": {
         "message": "Määrityksen nimi"
     },
     "ChannelListInstructions": {
         "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Pysäytä clickbaitit korvaamalla otsikot ja pienoiskuvat tarkemmilla versioilla"
@@ -1683,5 +1683,8 @@
     "actAsVip": {
         "message": "Toimi VIP käyttäjänä",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Lähetyksiä ei voida tällä hetkellä hyväksyä selaimestasi, koska YouTube näyttää sisällyttäneen videoon palvelinpuolen mainoksia, joita laajennus ei voi poistaa. Ota yhteyttä jos kohtaat tämän virheen."
     }
 }

@@ -81,7 +81,7 @@
         "message": "Erro ao enviar os seus segmentos, tente novamente mais tarde."
     },
     "sponsorFound": {
-        "message": "Este vídeo tem segmentos no banco de dados!"
+        "message": "Este vídeo tem segmentos na base de dados!"
     },
     "sponsor404": {
         "message": "Nenhum segmento encontrado"
@@ -297,7 +297,7 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Pular segmento",
+        "message": "Ignorar segmento",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
@@ -327,6 +327,10 @@
     "previousChapterKeybind": {
         "message": "Capítulo anterior",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Ativação do DeArrow",
+        "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
         "message": "Abrir menu de submissão",
@@ -718,13 +722,13 @@
         "message": "Enrolação/Piadas"
     },
     "category_filler_description": {
-        "message": "Cenas tangenciais inseridas apenas por enrolação ou humor que não são necessárias para compreender o tópico principal do vídeo. Isto não deve incluir segmentos que fornecem contexto ou detalhes de segundo plano. Esta é uma categoria muito agressiva para quando você não está com disposição para \"diversão\"."
+        "message": "Cenas tangenciais inseridas apenas para encher tempo ou humor que não são necessárias para compreender o tópico principal do vídeo. Isto não deve incluir segmentos que fornecem contexto ou detalhes de segundo plano. Esta é uma categoria muito agressiva para quando você não está com disposição para \"diversão\"."
     },
     "category_filler_short": {
         "message": "Enrolação"
     },
     "category_filler_guideline1": {
-        "message": "Cenas tangenciais apenas para enrolação ou humor"
+        "message": "Cenas tangenciais apenas para encher tempo ou humor"
     },
     "category_filler_guideline2": {
         "message": "Distrações, erros de gravação, repetições"
@@ -1543,18 +1547,18 @@
         "message": "Apagar Configuração"
     },
     "ChannelAllowlist": {
-        "message": "Canais permitidos"
+        "message": "Definições específicas do canal"
     },
     "ConfigurationName": {
         "message": "Nome do ajuste"
     },
     "ChannelListInstructions": {
         "message": "Introduza os canais aos quais pretende aplicar esta configuração na caixa abaixo, separados por novas linhas. São suportados IDs de canal e nomes de apresentação. Os nomes de utilizador @ não são suportados. Pode obter IDs de canal ao clicar no botão de partilha na página acerca do canal. Para aceder a página sobre, clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Parar clickbait substituindo títulos e miniaturas com mais precisão"
@@ -1686,5 +1690,12 @@
     "actAsVip": {
         "message": "Aja como VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "De momento, não é possível aceitar envios a partir do seu navegador porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não consegue remover. Contacte-nos se estiver a receber este erro."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow está desativado - clique para ativar",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

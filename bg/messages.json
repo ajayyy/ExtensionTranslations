@@ -1547,18 +1547,18 @@
         "message": "Изтриване на конфигурацията"
     },
     "ChannelAllowlist": {
-        "message": "Списък с разрешени канали"
+        "message": "Специфични за канала настройки"
     },
     "ConfigurationName": {
         "message": "Име на конфигурация"
     },
     "ChannelListInstructions": {
         "message": "Въведете в полето по-долу всички канали, които искате да приложите към тази конфигурация, разделени с нови редове. Поддържат се както идентификатори на канали, така и показвани имена. @Потребителските имена не се поддържат. Можете да получите идентификаторите на каналите, като щракнете върху бутона за споделяне в страницата за канала. За да стигнете до страницата за канала, щракнете върху описанието на канала, което се появява под името му на страницата му.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Все още няма настроени конфигурации. Щракнете върху бутона в горната част, за да добавите нова конфигурация.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Спрете примамките за кликване, като замените заглавията и миниатюрите с по-точни"
@@ -1690,5 +1690,16 @@
     "actAsVip": {
         "message": "Действайте като VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "В момента не могат да бъдат приемани заявки от браузъра ви, тъй като YouTube изглежда е инжектирал някои реклами от страна на сървъра, които разширението не може да премахне. Моля, свържете се с нас, ако получавате тази грешка."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow е деактивиран - кликнете, за да го активирате",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Сигурни ли сте, че тази оригинална миниатюра отговаря на насоките на DeArrow? Ако просто предпочитате да виждате оригинални миниатюри по принцип, помислете дали да не промените опцията „Когато няма подадена миниатюра“ в настройките на DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

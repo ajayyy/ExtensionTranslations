@@ -438,7 +438,7 @@
         "message": "Importer/Exporter Votre ID privé d'utilisateur"
     },
     "whatChangeUserID": {
-        "message": "Cela doit rester privé. À l'instar d'un mot de passe, il ne doit être partagé avec personne. Si une autre personne est en possession de cette donnée, elle peut usurper votre identité SponsorBlock. Si vous cherchez votre UserID public, cliquez sur l'icône du presse-papiers dans l'encart."
+        "message": "Cela doit rester privé. Il s'agit d'un mot de passe qui ne doit être communiqué à personne. Si quelqu’un l'a, il peut usurper votre identité. Si vous cherchez votre identifiant public, cliquez sur l'icône presse-papiers dans l'encart."
     },
     "setUserID": {
         "message": "Définir l'ID privé d'utilisateur"
@@ -1494,7 +1494,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Note : vos paramètres SponsorBlock ont été automatiquement importés !"
+        "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
     },
     "howItWorks": {
         "message": "Comment ça marche"
@@ -1547,18 +1547,18 @@
         "message": "Supprimer la configuration"
     },
     "ChannelAllowlist": {
-        "message": "Liste des Chaînes Autorisées"
+        "message": "Paramètres par chaîne"
     },
     "ConfigurationName": {
         "message": "Nom de la configuration"
     },
     "ChannelListInstructions": {
         "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les ID de chaîne et les noms d'affichage sont pris en charge. Les @Utilisateur ne sont pas pris en charge. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne. Elle se situe sur la page de la chaîne, en dessous de son nom.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Aucune configuration configurée pour l'instant. Cliquez sur le bouton en haut pour ajouter une nouvelle configuration.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Arrêtez les pièges à clics en remplaçant les titres et les miniatures par des éléments plus exacts"
@@ -1690,5 +1690,12 @@
     "actAsVip": {
         "message": "Agir en tant que VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Les contributions envoyées à partir de votre navigateur ne peuvent pas être acceptées pour le moment. En effet, YouTube semble avoir injecté des publicités côté serveur que l'extension n'est pas en mesure de retirer. Merci de nous contacter si vous constatez cette erreur."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow est désactivé, cliquez pour activer",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }

@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "警告: 停用此項將全數刪除先前儲存的倒讚"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "在隱私/無痕模式下儲存片段倒讚"
+    },
     "enableQueryByHashPrefix": {
         "message": "使用雜湊前綴查詢"
     },
@@ -309,6 +312,14 @@
         "message": "提交片段",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "預覽片段",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "關閉略過提示",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "下一章節",
         "description": "Keybind label"
@@ -316,6 +327,14 @@
     "previousChapterKeybind": {
         "message": "上一章節",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "啟用 DeArrow 快捷鍵",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "開啟提交選單",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "按下按鍵以選擇並選擇想要使用的修飾鍵"
@@ -500,6 +519,9 @@
     "dataFetchingServerAddress": {
         "message": "數據源伺服器位址"
     },
+    "dataFetchingServerAddressDescription": {
+        "message": "此為 SponsorBlock 與伺服器互動的網址。\n除非您有自己的伺服器，否則此選項不該被更動。"
+    },
     "thumbnailCacheServerAddress": {
         "message": "縮圖暫存伺服器位址"
     },
@@ -520,6 +542,9 @@
     },
     "exportOptions": {
         "message": "匯入/匯出所有設定"
+    },
+    "exportOtherData": {
+        "message": "匯入/匯出其他資料"
     },
     "exportOptionsCopy": {
         "message": "編輯／複製"
@@ -677,6 +702,10 @@
     "category_outro_guideline1": {
         "message": "即使結尾的資訊卡已開始顯示也不應包含內容"
     },
+    "category_preview": {
+        "message": "預覽 / 回顧 / 摘要節錄",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_description": {
         "message": "展示即將播放的影片或整系列內容的短片集錦，所有內容都會在後面影片中重複"
     },
@@ -691,6 +720,9 @@
     },
     "category_filler": {
         "message": "離題閒聊/玩笑"
+    },
+    "category_filler_description": {
+        "message": "與影片主要內容無關的填充詞或笑話，但不應包含與前後或背景有關者。這是較為前衛的片段分類，適合暫時放棄樂趣的觀眾。"
     },
     "category_filler_short": {
         "message": "填充詞"
@@ -792,6 +824,10 @@
         "message": "在整個影片都是廣告時顯示圖示",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "在影片縮圖中顯示標籤",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
     "previewColor": {
         "message": "未提交的顏色",
         "description": "Referring to submissions that have not been sent to the server yet."
@@ -833,6 +869,9 @@
     },
     "youMustSelectACategory": {
         "message": "您必須為所有您要提交的片段選擇類別！"
+    },
+    "bracketStart": {
+        "message": "（開始）"
     },
     "bracketEnd": {
         "message": "(結束)"
@@ -933,6 +972,9 @@
     "hideForever": {
         "message": "永久隱藏"
     },
+    "warningChatInfo": {
+        "message": "我們注意到了一些新手錯誤。我們雖然感謝您到目前的貢獻，不過我們追求完美，所以即使是最小的錯誤也會有所差異：）"
+    },
     "questionButton": {
         "message": "我要發問"
     },
@@ -944,6 +986,9 @@
     },
     "warningError": {
         "message": "在認知警告時發生錯誤："
+    },
+    "deArrowMessageRecieved": {
+        "message": "您從管理者中收到了提示"
     },
     "Donate": {
         "message": "贊助"
@@ -1200,12 +1245,19 @@
     "exportSegmentsAsURL": {
         "message": "分享連結"
     },
+    "segmentFetchFailureWarning": {
+        "message": "警告：此伺服器尚未回傳任何片段，導致未被載入的片段與您所上傳的產生衝突。"
+    },
     "allowScrollingToEdit": {
         "message": "允許在編輯時滾動"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} 秒",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow—優化 YouTube 標題和影片縮圖",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "Original": {
         "message": "原始"
@@ -1274,6 +1326,9 @@
     "TheOriginalThumbnail": {
         "message": "顯示原始縮圖"
     },
+    "showABlankBox": {
+        "message": "顯示空格"
+    },
     "Start": {
         "message": "開始"
     },
@@ -1311,6 +1366,21 @@
     "ShowOriginal": {
         "message": "顯示原始詳細資訊"
     },
+    "showGuidelineHelp": {
+        "message": "顯示說明方針",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "避免誇張的臉部情緒",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip5": {
+        "message": "如同句子般地將地一位字母大寫",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "注意：您的 SponsorBlock 設定已自動匯入！"
+    },
     "howItWorks": {
         "message": "如何運作"
     },
@@ -1339,15 +1409,12 @@
     "DeleteConfiguration": {
         "message": "刪除設定"
     },
-    "ChannelAllowlist": {
-        "message": "頻道白名單"
-    },
     "ConfigurationName": {
         "message": "組態名稱"
     },
     "NoConfigurationsSetup": {
         "message": "未有組態設定。點擊頂部的按鈕來新建組態。",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} 個標題",

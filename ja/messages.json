@@ -1334,7 +1334,7 @@
         "message": "言語の検出は確実ではないので、英語の題名を英語でないと判定することもあります"
     },
     "thumbnailFallbackOption": {
-        "message": "投稿されたサムネイルなしなら"
+        "message": "投稿されたサムネイルがないなら"
     },
     "whatThumbnailFallbackOption": {
         "message": "ランダムな時間を選択時には、SponsorBlock のデータを使って広告シーンが選ばれないようにします。",
@@ -1389,6 +1389,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "動画の題名を改行するさいの最大行数"
+    },
+    "thumbnailSaturationLevel": {
+        "message": "サムネイルの彩度"
+    },
+    "whatSaturateThumbnails": {
+        "message": "サムネイルの色を減らし鮮やさを減らす"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "取得中の詳細を非表示"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "サーバーからデータ取得中に題名とサムネイルを非表示にします。無効なら、題名とサムネイルが変更されると点滅します。"
     },
     "onAllPages": {
         "message": "すべてのページで",
@@ -1535,18 +1547,18 @@
         "message": "設定を削除"
     },
     "ChannelAllowlist": {
-        "message": "チャンネル許可リスト"
+        "message": "チャンネル固有の設定"
     },
     "ConfigurationName": {
         "message": "設定の名前"
     },
     "ChannelListInstructions": {
         "message": "この設定を適用するチャンネルを、改行で区切り下のボックスに入力します。チャンネルIDと表示名の両方に対応します。@username 形式には対応しません。 チャンネルの概要を表示し「共有」ボタンを押すと、チャンネルIDを取得できます。概要を表示するには、そのチャンネルのページのチャンネル名の下に表示されているチャンネルの説明を押します。",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "題名とサムネイルをより正確にし誇張された案内を置き換える"
@@ -1678,5 +1690,16 @@
     "actAsVip": {
         "message": "VIPとして振る舞う",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "YouTube が、拡張機能で削除できないサーバーサイドの広告を挿入しているようです。そのため現時点では、このブラウザからの提出を受け付けできません。 このエラーが発生した場合、お問い合わせください。"
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow は無効中 - クリックで有効にする",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "元のサムネイルはDeArrowのガイドラインに従っていますか？元のサムネイルを優先したいなら、DeArrowの設定「投稿されたサムネイルがないなら」があります。",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

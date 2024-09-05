@@ -305,7 +305,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Abrir menu para envios de segmentos",
+        "message": "Abrir menu de envios",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -333,7 +333,7 @@
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Abrir menu de Envio",
+        "message": "Abrir menu de envios",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
@@ -1313,10 +1313,10 @@
         "message": "Todas As Palavras Começam Com Letras Maiúsculas"
     },
     "TitleCase": {
-        "message": "Maioria em Maiúsculas, Exceto Preposições em Inglês"
+        "message": "Maioria em Maiúsculas, Exceto Preposições"
     },
     "SentenceCase": {
-        "message": "Só a primeira letra maiúscula, todo o resto, incluindo substantivos próprios, em minúsculas"
+        "message": "Só a primeira letra maiúscula"
     },
     "LowerCase": {
         "message": "tudo minúsculo"
@@ -1547,18 +1547,18 @@
         "message": "Apagar Configuração"
     },
     "ChannelAllowlist": {
-        "message": "Canais permitidos"
+        "message": "Configurações específicas do canal"
     },
     "ConfigurationName": {
         "message": "Nome do ajuste"
     },
     "ChannelListInstructions": {
         "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
-        "description": "Instructions for the channel allowlist feature in DeArrow to configure settings for specific channels"
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
-        "description": "Appears when there are no channel configurations setup yet on the channel allow list page"
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
         "message": "Parar clickbait substituindo títulos e miniaturas com mais precisão"
@@ -1688,7 +1688,10 @@
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
-        "message": "Não Abuse de seus poderes como VIP",
+        "message": "Ativar modo VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Envios não podem ser aceitos do seu navegador no momento porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não é capaz de remover. Por favor, entre em contato se estiver recebendo este erro."
     }
 }
