@@ -1035,6 +1035,12 @@
     "shouldCleanEmojis": {
         "message": "Ukloni emojije"
     },
+    "Start": {
+        "message": "Početak"
+    },
+    "Middle": {
+        "message": "Sredina"
+    },
     "keepUnsubmitted": {
         "message": "Spremi poslane glasove"
     },
