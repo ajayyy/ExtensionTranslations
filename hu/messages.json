@@ -1697,5 +1697,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow le van tiltva - kattints az engedélyezéshez",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Biztos vagy benne, hogy ez az eredeti indexkép megfelel a DeArrow irányelveinek? Ha inkább csak az eredeti indexképeket szeretnéd látni, fontold meg a \"Ha nincs beküldött indexkép\" opció használatát a DeArrow beállításokban.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
