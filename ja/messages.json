@@ -1334,7 +1334,7 @@
         "message": "言語の検出は確実ではないので、英語の題名を英語でないと判定することもあります"
     },
     "thumbnailFallbackOption": {
-        "message": "投稿されたサムネイルなしなら"
+        "message": "投稿されたサムネイルがないなら"
     },
     "whatThumbnailFallbackOption": {
         "message": "ランダムな時間を選択時には、SponsorBlock のデータを使って広告シーンが選ばれないようにします。",
@@ -1697,5 +1697,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow は無効中 - クリックで有効にする",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "元のサムネイルはDeArrowのガイドラインに従っていますか？元のサムネイルを優先したいなら、DeArrowの設定「投稿されたサムネイルがないなら」があります。",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
