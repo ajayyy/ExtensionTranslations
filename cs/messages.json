@@ -1697,5 +1697,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow je zakázán - klikněte pro povolení",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Jste si jisti, že tento původní náhled je v souladu s pokyny služby DeArrow? Pokud obecně pouze upřednostňujete vidět původní náhledy, zvažte změnu možnosti „Pokud neexistuje žádný komunitní náhled“ v nastavení doplňku DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
