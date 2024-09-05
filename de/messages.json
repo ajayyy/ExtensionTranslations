@@ -1400,7 +1400,7 @@
         "message": "Details während des Abrufs ausblenden"
     },
     "hideDetailsWhileFetchingDescription": {
-        "message": "Blende Titel und Thumbnails während des Abrufens von Datem vom Server aus. Wenn deaktiviert wirst du aufblinkende Titel und Thumbnails sehen während diese sich ändern."
+        "message": "Blende Titel und Thumbnails während des Abrufens von Daten vom Server aus. Wenn deaktiviert wirst du aufblinkende Titel und Thumbnails sehen während diese sich ändern."
     },
     "onAllPages": {
         "message": "Auf allen Seiten",
