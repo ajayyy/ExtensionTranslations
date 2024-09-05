@@ -1697,5 +1697,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow is disabled - click to enable",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Are you sure that this original thumbnail follows the DeArrow guidelines? If you just prefer seeing original thumbnails in general, consider changing the \"When no submitted thumbnail exists\" option in the DeArrow settings.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
