@@ -1699,7 +1699,7 @@
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
-        "message": "Вы уверены, что оригинальный значок соответствует руководству DeArrow? Если вы в целом предпочитаете оригинальные значки, можно изменить настройку DeArrow «При отсутствии отправленного значка».",
+        "message": "Вы уверены, что оригинальный значок соответствует правилам DeArrow? Если вы в целом предпочитаете оригинальные значки, можно изменить настройку DeArrow «При отсутствии отправленного значка».",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
