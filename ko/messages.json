@@ -713,7 +713,7 @@
         "message": "향후 동영상에 나타나는 장면이 있는 구간이어야 함"
     },
     "category_preview_guideline2": {
-        "message": "이전 동영상을 요약하는 구간이어야 함"
+        "message": "이전 동영상을 요약해야 함"
     },
     "category_preview_guideline3": {
         "message": "추가 콘텐츠가 있는 구간이 아니어야 함"
