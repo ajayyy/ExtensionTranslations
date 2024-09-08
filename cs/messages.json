@@ -591,6 +591,9 @@
     "edit": {
         "message": "Upravit"
     },
+    "copyDebugLogs": {
+        "message": "Kopírovat protokoly ladění"
+    },
     "copyDebugInformation": {
         "message": "Zkopírovat ladící informace do schránky"
     },
