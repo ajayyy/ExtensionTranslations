@@ -591,6 +591,9 @@
     "edit": {
         "message": "Редагувати"
     },
+    "copyDebugLogs": {
+        "message": "Копіювати дебаг журнали"
+    },
     "copyDebugInformation": {
         "message": "Скопіювати налагоджувальну інформацію в буфер обміну"
     },
