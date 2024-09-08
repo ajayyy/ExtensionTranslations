@@ -591,6 +591,9 @@
     "edit": {
         "message": "편집"
     },
+    "copyDebugLogs": {
+        "message": "디버그 로그 복사"
+    },
     "copyDebugInformation": {
         "message": "디버그 정보를 클립보드에 복사하기"
     },
