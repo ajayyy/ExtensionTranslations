@@ -591,6 +591,9 @@
     "edit": {
         "message": "Düzenle"
     },
+    "copyDebugLogs": {
+        "message": "Hata Giderme Kayıtlarını Kopyala"
+    },
     "copyDebugInformation": {
         "message": "Onarım Bilgisini Panoya Kopyala"
     },
