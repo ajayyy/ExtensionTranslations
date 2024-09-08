@@ -33,7 +33,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "Mostra il Segmento Corrente Affianco alla Durata del Video"
+        "message": "Mostra il segmento corrente accanto alla durata del video"
     },
     "upvoteButtonInfo": {
         "message": "Vota questo contributo"
@@ -129,10 +129,10 @@
         "message": "Icona Chiudi"
     },
     "OpenSubmissionMenu": {
-        "message": "Apri Menu Invio"
+        "message": "Apri menu invio"
     },
     "sortSegments": {
-        "message": "Ordina Segmenti"
+        "message": "Ordina segmenti"
     },
     "submitCheck": {
         "message": "Sei sicuro di volerlo inviare?"
@@ -337,7 +337,7 @@
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
-        "message": "Seleziona un tasto digitandolo e spunta qualsiasi tasto modificatore che desideri utilizzare."
+        "message": "Seleziona un tasto digitandolo e scegli qualsiasi tasto modificatore che desideri utilizzare."
     },
     "0": {
         "message": "Timeout della connessione. Controlla la tua connessione a Internet. Se internet sta funzionando, il server è probabilmente sovraccarico oppure giù."
@@ -490,10 +490,10 @@
         "message": "I segmenti più brevi del valore impostato non verranno saltati o visualizzati nel lettore."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Usa il salto manuale quando esiste un'etichetta del video completo"
+        "message": "Usa il salto manuale quando c'è un'etichetta per il video completo"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Per le persone che vogliono guardare il video senza interruzioni se contiene sponsorizzazioni o autopromozioni."
+        "message": "Per le persone che vogliono guardare il video senza interruzioni se è una sponsorizzazione o autopromozione."
     },
     "skipNoticeDuration": {
         "message": "Salta durata avviso (secondi):"
@@ -523,7 +523,7 @@
         "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Indirizzo del Server Cache Miniature"
+        "message": "Indirizzo del server cache delle miniature"
     },
     "save": {
         "message": "Salva"
@@ -1394,10 +1394,10 @@
         "message": "I titoli dei video saranno diffusi su questo numero di righe nei suggerimenti."
     },
     "thumbnailSaturationLevel": {
-        "message": "Livello saturazione anteprime"
+        "message": "Livello saturazione miniature"
     },
     "whatSaturateThumbnails": {
-        "message": "Riduci il colore delle anteprime"
+        "message": "Riduci il colore delle miniature"
     },
     "hideDetailsWhileFetching": {
         "message": "Nascondi i dettagli durante il loro recupero"
