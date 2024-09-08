@@ -591,6 +591,9 @@
     "edit": {
         "message": "Редактировать"
     },
+    "copyDebugLogs": {
+        "message": "Скопировать логи отладки"
+    },
     "copyDebugInformation": {
         "message": "Скопировать отладочную информацию в буфер обмена"
     },
