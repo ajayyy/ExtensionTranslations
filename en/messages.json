@@ -591,6 +591,9 @@
     "edit": {
         "message": "Edit"
     },
+    "copyDebugLogs": {
+        "message": "Copy Debug Logs"
+    },
     "copyDebugInformation": {
         "message": "Copy Debug Information To Clipboard"
     },
