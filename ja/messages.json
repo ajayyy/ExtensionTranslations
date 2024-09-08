@@ -591,6 +591,9 @@
     "edit": {
         "message": "編集"
     },
+    "copyDebugLogs": {
+        "message": "デバッグのログをコピー"
+    },
     "copyDebugInformation": {
         "message": "デバッグ情報をクリップボードにコピー"
     },
