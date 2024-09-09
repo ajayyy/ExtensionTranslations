@@ -591,6 +591,9 @@
     "edit": {
         "message": "Éditer"
     },
+    "copyDebugLogs": {
+        "message": "Copier les journaux de débogage"
+    },
     "copyDebugInformation": {
         "message": "Copier les informations de débogage dans le presse-papiers"
     },
