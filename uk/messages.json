@@ -1113,7 +1113,7 @@
         "description": "100d"
     },
     "hourAbbreviation": {
-        "message": "г",
+        "message": "год",
         "description": "100h"
     },
     "optionsTabBehavior": {
