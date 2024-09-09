@@ -591,6 +591,9 @@
     "edit": {
         "message": "Szerkesztés"
     },
+    "copyDebugLogs": {
+        "message": "Hibakeresési napló másolása"
+    },
     "copyDebugInformation": {
         "message": "Hibakeresési információ másolása a vágólapra"
     },
