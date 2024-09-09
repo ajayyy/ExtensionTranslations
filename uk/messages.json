@@ -415,7 +415,7 @@
         "message": "хвилину"
     },
     "minsLower": {
-        "message": "хвилин"
+        "message": "хв"
     },
     "hourLower": {
         "message": "година"
@@ -1109,7 +1109,7 @@
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "д",
+        "message": "дн",
         "description": "100d"
     },
     "hourAbbreviation": {
