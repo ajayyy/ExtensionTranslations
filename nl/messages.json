@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Waarschuwing: als u dit uitschakelt, worden alle eerder opgeslagen tegenstemmen verwijderd"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Segmet downvotes in privé/incognito tabs opslaan"
+    },
     "enableQueryByHashPrefix": {
         "message": "Opvragen via hash-voorvoegsel"
     },
