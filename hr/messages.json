@@ -499,6 +499,9 @@
     "edit": {
         "message": "Uredi"
     },
+    "copyDebugLogs": {
+        "message": "Kopiraj zapisnike o otklanjanju grešaka"
+    },
     "copyDebugInformation": {
         "message": "Kopiraj Informaciju Za Otklanjanje Pogrešaka U Međuspremnik"
     },
