@@ -591,6 +591,9 @@
     "edit": {
         "message": "Éditer"
     },
+    "copyDebugLogs": {
+        "message": "Copier les journaux de débogage"
+    },
     "copyDebugInformation": {
         "message": "Copier les informations de débogage dans le presse-papiers"
     },
@@ -1697,5 +1700,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow est désactivé, cliquez pour activer",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Confirmez-vous que la miniature originale suit bien les directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand aucune miniature soumise existe\" dans les paramètres DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

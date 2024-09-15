@@ -591,6 +591,9 @@
     "edit": {
         "message": "Düzenle"
     },
+    "copyDebugLogs": {
+        "message": "Hata Giderme Kayıtlarını Kopyala"
+    },
     "copyDebugInformation": {
         "message": "Onarım Bilgisini Panoya Kopyala"
     },
@@ -1697,5 +1700,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow kullanım dışı. Kullanıma almak için tıklayın",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Orijinal küçük resmin DeArrow kurallarına uyduğuna emin misiniz? Eğer sadece orijinal küçük resimleri görmeyi tercih ediyorsanız DeArrow ayarlarındaki “Küçük resim gönderilmemiş ise” seçeneğini değiştirebilirsiniz.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

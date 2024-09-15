@@ -591,6 +591,9 @@
     "edit": {
         "message": "Измени"
     },
+    "copyDebugLogs": {
+        "message": "Копирај евиденције о отклањању грешака"
+    },
     "copyDebugInformation": {
         "message": "Копирај информације о отклањању грешака у привремену меморију"
     },
@@ -1697,5 +1700,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow је онемогућен – додирните да омогућите",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Сигурни сте да ова оригинална сличица прати DeArrow смернице? Ако више волите да видите оригиналне сличице, размислите о промени опције „Када не постоји поднесена сличица” у DeArrow подешавањима.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

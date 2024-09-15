@@ -33,7 +33,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "Mostra il Segmento Corrente Affianco alla Durata del Video"
+        "message": "Mostra il segmento corrente accanto alla durata del video"
     },
     "upvoteButtonInfo": {
         "message": "Vota questo contributo"
@@ -129,10 +129,10 @@
         "message": "Icona Chiudi"
     },
     "OpenSubmissionMenu": {
-        "message": "Apri Menu Invio"
+        "message": "Apri menu invio"
     },
     "sortSegments": {
-        "message": "Ordina Segmenti"
+        "message": "Ordina segmenti"
     },
     "submitCheck": {
         "message": "Sei sicuro di volerlo inviare?"
@@ -231,6 +231,9 @@
     "trackDownvotesWarning": {
         "message": "Attenzione: Disabilitarlo eliminerà tutti i voti negativi precedentemente memorizzati"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Memorizza i voti negativi ai segmenti in schede private/in incognito"
+    },
     "enableQueryByHashPrefix": {
         "message": "Ricerca tramite prefisso hash"
     },
@@ -309,6 +312,10 @@
         "message": "Invia segmenti",
         "description": "Keybind label"
     },
+    "setPreviewKeybind": {
+        "message": "Anteprima segmento",
+        "description": "Keybind label"
+    },
     "setCloseSkipNoticeKeybind": {
         "message": "Chiudi l'avviso di salto",
         "description": "Keybind label"
@@ -321,8 +328,16 @@
         "message": "Capitolo precedente",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Attiva/disattiva DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Apri menù di invio",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
-        "message": "Seleziona un tasto digitandolo e spunta qualsiasi tasto modificatore che desideri utilizzare."
+        "message": "Seleziona un tasto digitandolo e scegli qualsiasi tasto modificatore che desideri utilizzare."
     },
     "0": {
         "message": "Timeout della connessione. Controlla la tua connessione a Internet. Se internet sta funzionando, il server è probabilmente sovraccarico oppure giù."
@@ -475,10 +490,10 @@
         "message": "I segmenti più brevi del valore impostato non verranno saltati o visualizzati nel lettore."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Usa il salto manuale quando esiste un'etichetta del video completo"
+        "message": "Usa il salto manuale quando c'è un'etichetta per il video completo"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Per le persone che vogliono guardare il video senza interruzioni se contiene sponsorizzazioni o autopromozioni."
+        "message": "Per le persone che vogliono guardare il video senza interruzioni se è una sponsorizzazione o autopromozione."
     },
     "skipNoticeDuration": {
         "message": "Salta durata avviso (secondi):"
@@ -502,13 +517,13 @@
         "message": "L'indirizzo che SponsorBlock usa per effettuare richieste al server. Questo non dovrebbe essere modificato a meno che tu non abbia un tuo server."
     },
     "dataFetchingServerAddress": {
-        "message": "Indirizzo Server di Recupero Dati"
+        "message": "Indirizzo del server di recupero dati"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia l'istanza del tuo server, non dovrebbe essere modificato."
+        "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Indirizzo del Server Cache Miniature"
+        "message": "Indirizzo del server cache delle miniature"
     },
     "save": {
         "message": "Salva"
@@ -575,6 +590,9 @@
     },
     "edit": {
         "message": "Modifica"
+    },
+    "copyDebugLogs": {
+        "message": "Copia log di debug"
     },
     "copyDebugInformation": {
         "message": "Copia Informazioni di Debug Negli Appunti"
@@ -1375,6 +1393,18 @@
     "titleMaxLinesDescription": {
         "message": "I titoli dei video saranno diffusi su questo numero di righe nei suggerimenti."
     },
+    "thumbnailSaturationLevel": {
+        "message": "Livello saturazione miniature"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Riduci il colore delle miniature"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Nascondi i dettagli durante il loro recupero"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Nascondi i titoli e le miniature durante il recupero dei dati dal server. Se disabilitato, i titoli e le anteprime potrebbero lampeggiare mentre cambiano."
+    },
     "onAllPages": {
         "message": "Su Tutte le Pagine",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1519,6 +1549,9 @@
     "DeleteConfiguration": {
         "message": "Elimina configurazione"
     },
+    "ChannelAllowlist": {
+        "message": "Opzioni specifiche del canale"
+    },
     "ConfigurationName": {
         "message": "Nome Configurazione"
     },
@@ -1652,5 +1685,24 @@
     },
     "storageFull": {
         "message": "L'archiviazione dell'estensione è piena. Ti preghiamo di eliminare qualche segmento non inviato nelle opzioni."
+    },
+    "previewSegmentRequired": {
+        "message": "Si prega di visualizzare i segmenti prima di inviarli. È possibile farlo cliccando sul pulsante di anteprima o utilizzando la seguente scorciatoia:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Agisci come VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Non possiamo accettare contributi dal tuo browser in questo momento perché sembra che YouTube abbia inserito delle pubblicità lato server nel video, che l'estensione non può rimuovere. Per favore contattaci se ricevi questo errore."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow è disabilitato - clicca per abilitare",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Sei sicuro che questa miniatura originale segue le linee guida di DeArrow? Se preferisci vedere le miniature originali in generale, considera di cambiare l'opzione per \"Quando non esiste nessuna miniatura presentata\" nelle impostazioni DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
