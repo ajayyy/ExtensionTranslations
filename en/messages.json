@@ -155,6 +155,9 @@
     "viewLeaderboard": {
          "message": "Leaderboard"
     },
+    "viewApiStatus": {
+        "message": "Status"
+    },
     "recordTimesDescription": {
          "message": "Submit"
     },
