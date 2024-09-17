@@ -1693,5 +1693,9 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Hiện tại, không thể nhận phân đoạn đã gửi từ trình duyệt của bạn vì có vẻ như YouTube đã chèn một số quảng cáo từ phía máy chủ mà tiện ích mở rộng chưa thể xóa được. Vui lòng báo cáo với chúng tôi nếu bạn gặp lỗi này."
+    },
+    "DeArrowIsDisabled": {
+        "message": "Đã vô hiệu hoá DeArrow - nhấn để kích hoạt",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
