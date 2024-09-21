@@ -591,6 +591,9 @@
     "edit": {
         "message": "تعديل"
     },
+    "copyDebugLogs": {
+        "message": "نسخ سجلات التصحيح"
+    },
     "copyDebugInformation": {
         "message": "نسخ معلومات التشخيص إلى الحافظة"
     },
@@ -1690,5 +1693,16 @@
     "actAsVip": {
         "message": "التصرف كـ VIP",
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "لا يمكن قبول المشاركات من متصفحك في الوقت الحالي لأن يوتيوب يبدو أنه قام بحقن بعض الإعلانات من جانب الخادم والتي لا تستطيع الإضافة إزالتها. يرجى الاتصال بنا إذا كنت تتلقى هذا الخطأ."
+    },
+    "DeArrowIsDisabled": {
+        "message": "تم تعطيل DeArrow - انقر للتفعيل",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "هل أنت متأكد من أن هذه الصورة المصغرة الأصلية تتبع إرشادات DeArrow؟ إذا كنت تفضل رؤية الصور المصغرة الأصلية بشكل عام، ففكر في تغيير خيار \"عندما لا توجد صورة مصغرة مرسلة\" في إعدادات DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

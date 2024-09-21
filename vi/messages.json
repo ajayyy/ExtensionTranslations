@@ -591,6 +591,9 @@
     "edit": {
         "message": "Chỉnh sửa"
     },
+    "copyDebugLogs": {
+        "message": "Chép Nhật Ký Gỡ Lỗi"
+    },
     "copyDebugInformation": {
         "message": "Sao chép thông tin gỡ lỗi vào khay nhớ tạm"
     },
@@ -1693,5 +1696,13 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Hiện tại, không thể nhận phân đoạn đã gửi từ trình duyệt của bạn vì có vẻ như YouTube đã chèn một số quảng cáo từ phía máy chủ mà tiện ích mở rộng chưa thể xóa được. Vui lòng báo cáo với chúng tôi nếu bạn gặp lỗi này."
+    },
+    "DeArrowIsDisabled": {
+        "message": "Đã vô hiệu hoá DeArrow - nhấn để kích hoạt",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Bạn có chắc rằng hình thu nhỏ gốc này tuân theo các nguyên tắc của DeArrow không? Nếu bạn chỉ thích xem hình thu nhỏ gốc nói chung, hãy cân nhắc thay đổi tùy chọn 'Khi không có hình thu nhỏ được gửi' trong cài đặt của DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
