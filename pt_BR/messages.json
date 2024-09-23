@@ -591,6 +591,9 @@
     "edit": {
         "message": "Editar"
     },
+    "copyDebugLogs": {
+        "message": "Copiar logs de depuração"
+    },
     "copyDebugInformation": {
         "message": "Copiar informações de depuração para a área de transferência"
     },
@@ -1693,5 +1696,13 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Envios não podem ser aceitos do seu navegador no momento porque o YouTube parece ter injetado alguns anúncios do lado do servidor que a extensão não é capaz de remover. Por favor, entre em contato se estiver recebendo este erro."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow está desabilitado - Clique aqui para habilitar",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Tem certeza que esta miniatura original segue as diretrizes Derow? Se você apenas prefere ver as miniaturas originais em geral, considere alterar a opção \"Quando nenhuma miniatura enviada existe\" nas configurações da Derow",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
