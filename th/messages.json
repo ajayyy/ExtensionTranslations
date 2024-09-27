@@ -409,6 +409,9 @@
     "statusReminder": {
         "message": "ตรวจสอบสถานะของเซิร์ฟเวอร์ได้ที่ status.sponsor.ajay.app"
     },
+    "changeUserID": {
+        "message": "นำเข้า/ส่งออกรหัส UserID ส่วนตัวของคุณ"
+    },
     "setUserID": {
         "message": "ตั้ง UserID ส่วนตัว"
     },
@@ -467,6 +470,12 @@
     "mobileUpdateInfo": {
         "message": "รองรับ m.youtube.com แล้ว"
     },
+    "exportOptions": {
+        "message": "นำเข้า/ส่งออกการตั้งค่าทั้งหมด"
+    },
+    "exportOtherData": {
+        "message": "นำเข้า/ส่งออกข้อมูลอื่นๆ ทั้งหมด"
+    },
     "exportOptionsCopy": {
         "message": "แก้ไข/คัดลอก"
     },
@@ -475,6 +484,12 @@
     },
     "exportOptionsUpload": {
         "message": "โหลดจากไฟล์"
+    },
+    "setOptions": {
+        "message": "จัดการตั้งค่า"
+    },
+    "confirmNoticeTitle": {
+        "message": "ส่งส่วน"
     },
     "submit": {
         "message": "ส่ง"
@@ -497,6 +512,9 @@
     "edit": {
         "message": "แก้ไข"
     },
+    "copyDebugLogs": {
+        "message": "คัดลอกบันทึกการดีบัก"
+    },
     "copyDebugInformation": {
         "message": "คัดลอกข้อมูลการดีบั๊กไปยังคลิปบอร์ด"
     },
@@ -510,6 +528,15 @@
     "CopiedExclamation": {
         "message": "คัดลอกแล้ว",
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
+    },
+    "category_sponsor": {
+        "message": "สปอนเซอร์"
+    },
+    "category_sponsor_guideline1": {
+        "message": "โปรโมชั่นที่ได้รับเงิน"
+    },
+    "category_exclusive_access": {
+        "message": "การเข้าถึงโดยเฉพาะ"
     },
     "category_intro": {
         "message": "ช่วงพัก/อนิเมชั่นอินโทร"
