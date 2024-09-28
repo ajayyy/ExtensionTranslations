@@ -387,6 +387,9 @@
     "enableAutoSkip": {
         "message": "เปิดการข้ามอัตโนมัติ"
     },
+    "audioNotification": {
+        "message": "เล่นเสียงเมี่อข้ามตอน"
+    },
     "showTimeWithSkips": {
         "message": "แสดงเวลาถ้าข้ามทั้งหมด"
     },
