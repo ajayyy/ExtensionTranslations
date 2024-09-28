@@ -339,6 +339,10 @@
     "enableSkipping": {
         "message": "การข้ามปิดอยู่"
     },
+    "yourWork": {
+        "message": "ผลงานของคุณ",
+        "description": "Used to describe the section that will show you the statistics from your submissions."
+    },
     "502": {
         "message": "ดูเหมือนว่าเซิร์ฟเวอร์กำลังโอเวอร์โหลด ลองอีกครั้งในอีกไม่กี่วินาที"
     },
@@ -382,6 +386,9 @@
     },
     "enableAutoSkip": {
         "message": "เปิดการข้ามอัตโนมัติ"
+    },
+    "showTimeWithSkips": {
+        "message": "แสดงเวลาถ้าข้ามทั้งหมด"
     },
     "youHaveSkipped": {
         "message": "คุณได้ข้ามส่วน "
@@ -484,6 +491,9 @@
     },
     "exportOptionsUpload": {
         "message": "โหลดจากไฟล์"
+    },
+    "whatExportOptions": {
+        "message": "นี่คือการตั้งค่าทั้งหมดของคุณในไฟล์ json ซึ่งรวมถึงรหัสผู้ใช้ส่วนตัวของคุณ ดังนั้นควรแชร์อย่างระมัดระวัง"
     },
     "setOptions": {
         "message": "จัดการตั้งค่า"
