@@ -591,6 +591,9 @@
     "edit": {
         "message": "Redigera"
     },
+    "copyDebugLogs": {
+        "message": "Kopiera felsökningsloggar"
+    },
     "copyDebugInformation": {
         "message": "Kopiera felsökningsinformation till urklippet"
     },
