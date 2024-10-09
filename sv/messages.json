@@ -1700,5 +1700,9 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow är inaktiverat - klicka för att aktivera",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Är du säker på att denna ursprungliga miniatyrbild följer DeArrows riktlinjer? Om du bara föredrar att se originalminiatyrer i allmänhet, överväg att ändra alternativet \"När ingen inskickad miniatyrbild finns\" i DeArrows inställningar.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
