@@ -1497,8 +1497,8 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Перевірити всі рекомендації для надсилання",
-        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+        "message": "Перевірте всі рекомендації перед надсиланням",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
