@@ -1486,6 +1486,18 @@
         "message": "Isot kirjaimet lauseen tapaan ",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Tarkista kaikki säännöt lähettääksesi",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Minun otsikko on kirjoitettu kuin virke",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Minun otsikko ei vain vastaa otsikossa esitettyyn kysymykseen",
+        "description": "Tip title in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
     },
