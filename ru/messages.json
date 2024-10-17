@@ -1496,6 +1496,14 @@
         "message": "Начинать с прописной буквы как предложение ",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Ознакомьтесь с полным руководством перед отправкой",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Подразумевается, что заголовки составляются от лица автора видео. Оценка и проверка достоверности — не задача DeArrow. Заголовки не должны служить комментариями.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примечание: Ваши настройки SponsorBlock были импортированы автоматически!"
     },
