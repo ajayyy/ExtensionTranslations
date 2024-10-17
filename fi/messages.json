@@ -587,6 +587,9 @@
     "edit": {
         "message": "Muokkaa"
     },
+    "copyDebugLogs": {
+        "message": "Kopioi virheenkorjauslokit"
+    },
     "copyDebugInformation": {
         "message": "Kopioi vianetsintätiedot leikepöydälle"
     },
@@ -1488,15 +1491,35 @@
     },
     "checkAllToSubmit": {
         "message": "Tarkista kaikki säännöt lähettääksesi",
-        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
-        "message": "Minun otsikko on kirjoitettu kuin virke",
+        "message": "Otsikkoni on kirjoitettu kuin virke",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
-        "message": "Minun otsikko ei vain vastaa otsikossa esitettyyn kysymykseen",
+        "message": "Otsikkoni ei vain vastaa otsikossa esitettyyn kysymykseen",
         "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Otsikoiden pitäisi kuvailla videota, tai tarinaa ylipäätään. Sinun pitää katsoa koko video tietääksesi, mistä siinä oikeastaan ​​on kyse, sen sijaan että luotat kiehtovaan alkuperäiseen otsikkoon.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Otsikkoni ei ole yhteenveto päätelmästä tai aiheettomasti spoilaa",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Otsikot eivät ole tarkoitettu korvaamaan koko videon katselua, vaan ne on tarkoitettu sitä varten, jotta tietäisit, pitäisikö sinun klikata vai ei.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Otsikkoni ei tarkista faktoja, pilkkaa, tai kritisoi videota tai sen luojaa",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Otsikot on tarkoitettu olemaan luojan ja videon näkökulmasta. Videon luokittelu tai faktojen tarkistaminen on DeArrowin toiminnan ulkopuolella. Otsikot eivät ole tarkoitettu kommenttiosiona.",
+        "description": "Tip subtitle in DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
