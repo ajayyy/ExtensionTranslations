@@ -1496,6 +1496,14 @@
         "message": "Mettre en majuscule comme une phrase",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Vérifiez l'ensemble des instructions avant de pouvoir envoyer",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Dans mon titre, les majuscules sont utilisées comme dans les phrases",
+        "description": "Tip title in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
     },
