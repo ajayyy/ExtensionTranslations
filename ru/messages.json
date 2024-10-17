@@ -1500,8 +1500,32 @@
         "message": "Ознакомьтесь с полным руководством перед отправкой",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
     },
+    "sentenceCaseTipTitle": {
+        "message": "Порядок заглавных букв в названии соответствует правилам языка",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Предложенное название не отвечает на вопрос, содержащийся в оригинальном",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Названия должны описывать видео или историю в целом. Нельзя полагаться только на оригинальное название — необходимо изучить видео целиком, чтобы понять его замысел.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Название не подводит итоги видео и не служит спойлером без крайней необходимости",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Названия не призваны заменять просмотр всего видео, они лишь должны давать понимание, имеет ли смысл переходить по ним.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Название не высмеивает и не критикует автора или видео, не оценивает его достоверность",
+        "description": "Tip title in DeArrow"
+    },
     "noFactCheckTipSubTitle": {
-        "message": "Подразумевается, что заголовки составляются от лица автора видео. Оценка и проверка достоверности — не задача DeArrow. Заголовки не должны служить комментариями.",
+        "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности — не задача DeArrow. Названия не должны служить комментариями.",
         "description": "Tip subtitle in DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
