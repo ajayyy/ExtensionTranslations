@@ -1721,5 +1721,13 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Lähetyksiä ei voida tällä hetkellä hyväksyä selaimestasi, koska YouTube näyttää sisällyttäneen videoon palvelinpuolen mainoksia, joita laajennus ei voi poistaa. Ota yhteyttä jos kohtaat tämän virheen."
+    },
+    "DeArrowIsDisabled": {
+        "message": "Dearrow on pois päältä - klikkaa ottaaksesi käyttöön",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Oletko varma, että tämä alkuperäinen pienoiskuva seuraa DeArrowin sääntöjä? Jos haluat vain nähdä alkuperäisiä pienoiskuvia ylipäätään, harkitse \"Kun lähetettyä pienoiskuvaa ei ole\" asetuksen vaihtamista DeArrow asetuksissa.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
