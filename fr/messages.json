@@ -1504,6 +1504,30 @@
         "message": "Dans mon titre, les majuscules sont utilisées comme dans les phrases",
         "description": "Tip title in DeArrow"
     },
+    "answeringQuestionTipTitle": {
+        "message": "Mon titre n'est pas simplement une réponse à la question posée dans le titre original",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Un titre doit décrire ce qui est raconté dans la vidéo. Assurez-vous d'avoir regardé la vidéo en entier pour mieux connaître son contenu et ne pas faire confiance aveuglément au titre original.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mon titre ne résume pas la conclusion de la vidéo et ne la spoile pas",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Un titre ne doit pas remplacer le visionnage d'une vidéo, mais doit vous aider à savoir s'il est utile de cliquer dessus.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mon titre ne fact-checke/moque/critique pas la vidéo, ni la personne l'ayant créée",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Un titre doit respecter la perspective de la vidéo et de la personne l'ayant créée. DeArrow ne sert pas à évaluer ou à fact-checker les vidéos. Ce n'est pas une section Commentaires.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
     },
