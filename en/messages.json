@@ -1496,6 +1496,38 @@
         "message": "Capitalize it like a sentence",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Check all the guidelines to submit",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
+    "sentenceCaseTipTitle": {
+        "message": "My title is capitalized like a sentence",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "My title does not just answer a question posed in the title",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Titles should describe the video, or the story in general. You should make sure to watch the full video to know what it is actually about instead of relying on an intriguing original title.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "My title does not summarize a conclusion or spoil unnecessarily",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Titles are not meant to replace watching the video entirely, but instead meant for you to know if you should click or not.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "My title does not fact check, mock, or critique the video or the creator",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Titles are meant to be from the perspective of the creator and the video. Rating or fact-checking the video itself is out of scope of DeArrow. Titles are not meant as a comment section.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note: Your SponsorBlock settings have been automatically imported!"
     },
