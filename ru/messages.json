@@ -1505,7 +1505,7 @@
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
-        "message": "Предложенное название не отвечает на вопрос, содержащийся в оригинальном",
+        "message": "Предложенное название не является ответом на вопрос из оригинального",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipSubTitle": {
@@ -1517,7 +1517,7 @@
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Названия не призваны заменять просмотр всего видео, они лишь должны давать понимание, имеет ли смысл переходить по ним.",
+        "message": "Названия не призваны заменять просмотр всего видео, они лишь должны давать понимание, имеет ли смысл открывать видео.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
@@ -1525,7 +1525,7 @@
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности — не задача DeArrow. Названия не должны служить комментариями.",
+        "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности видео — не задача DeArrow. Названия не должны служить комментариями.",
         "description": "Tip subtitle in DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
