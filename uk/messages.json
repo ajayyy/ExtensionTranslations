@@ -1496,6 +1496,10 @@
         "message": "Пишіть першу букву великою, як в реченні",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Перевірити всі рекомендації для надсилання",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
     },
