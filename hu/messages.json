@@ -1496,6 +1496,38 @@
         "message": "Úgy használj nagybetűket, mintha egy mondat lenne",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Olvass el minden irányelvet a beküldéshez",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+    },
+    "sentenceCaseTipTitle": {
+        "message": "A címem kis-/nagybetűi úgy vannak formázva, mint egy mondat",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "A címem nem csak megválaszol egy, az eredeti címben feltett kérdést",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "A címeknek a videót, vagy a történetet kellene leírniuk. Nézd meg a teljes videót, hogy tudd, miről szól valójában, ahelyett, hogy egy figyelemfelkeltő eredeti címre támaszkodnál.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "A címem nem egy konklúziót foglal össze és nem tartalmaz felesleges spoilert",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "A címek nem arra vannak, hogy kiváltsák a videó megtekintését, hanem abban segítenek, hogy tudd, hogy rákattints-e vagy sem.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "A címem nem ellenőrzi, gúnyolja, vagy kritizálja a videót, vagy a készítőt",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "A címek a készítő és a videó szemszögéből írandók. A videó értékelése vagy ellenőrizése nem tartozik a DeArrow szándékai közé. A címek nem használandók komment szekcióként.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Megjegyzés: A SponsorBlock beállításaid automatikusan betöltésre kerültek!"
     },
