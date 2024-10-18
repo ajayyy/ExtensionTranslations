@@ -1498,7 +1498,7 @@
     },
     "checkAllToSubmit": {
         "message": "Před odesláním si přečtěte všechny pokyny",
-        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
         "message": "Můj název je kapitalizován jako věta",
