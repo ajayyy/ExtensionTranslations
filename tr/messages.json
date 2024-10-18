@@ -1524,6 +1524,26 @@
         "message": "Başlığım videoyu veya üreticisini sorgulamıyor, eleştirmiyor, aşağılamıyor veya gülünç duruma düşürmüyor",
         "description": "Tip title in DeArrow"
     },
+    "noFactCheckTipSubTitle": {
+        "message": "Başlıklar videonun ve üreticinin bakış açısını yansıtmalıdır. Video içeriğinin doğruluğunu sorgulamak ve yargılamak DeArrow'un kapsamında değildir. Başlıklar yorum kısmı yerine geçmemelidir.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Algılanan sözcük: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Başlıkta gereksiz eylemler kullanmayınız",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Tüm başlıkları büyük harfle başlatınız. Başlıklar cümle gibi biçimlendirilmeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Başlıklar nokta (.) ile bitmemeli",
+        "description": "A DeArrow automatic warning"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
     },
