@@ -1498,7 +1498,7 @@
     },
     "checkAllToSubmit": {
         "message": "Ознакомьтесь с полным руководством перед отправкой",
-        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting"
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
         "message": "Порядок заглавных букв в названии соответствует правилам языка",
@@ -1527,6 +1527,22 @@
     "noFactCheckTipSubTitle": {
         "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности видео — не задача DeArrow. Названия не должны служить комментариями.",
         "description": "Tip subtitle in DeArrow"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Названия не должны заканчиваться точкой",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Не следует добавлять ответ на вопрос в исходном названии. Названия должны описывать видео или историю в целом.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Названия не должны высмеивать и критиковать автора или видео, не должны оценивать его достоверность",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Названия не должны содержать эмодзи",
+        "description": "A DeArrow automatic warning"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примечание: Ваши настройки SponsorBlock были импортированы автоматически!"
