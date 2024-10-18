@@ -1504,6 +1504,17 @@
         "message": "제목은 동영상 전체를 미리 보도록 대체하는 게 아니라, 동영상을 누를지 말지 알려줘야 해요.",
         "description": "Tip subtitle in DeArrow"
     },
+    "DeArrowDiscussingWarning": {
+        "message": "제목의 시작 부분에서 필요하지 않은 동사를 사용하지 마세요.",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "제목은 이모지를 포함하지 않아야 해요",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "제출 전 경고를 해결해야 해요"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "참고: SponsorBlock 설정을 자동으로 가져왔어요!"
     },
