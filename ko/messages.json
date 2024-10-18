@@ -1496,6 +1496,10 @@
         "message": "문장처럼 대소문자를 적용해야 함",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "제출하려면 모든 지침을 확인하세요",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "참고: SponsorBlock 설정을 자동으로 가져왔어요!"
     },
