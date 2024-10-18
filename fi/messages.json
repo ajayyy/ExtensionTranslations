@@ -1521,6 +1521,10 @@
         "message": "Otsikot on tarkoitettu olemaan luojan ja videon näkökulmasta. Videon luokittelu tai faktojen tarkistaminen on DeArrowin toiminnan ulkopuolella. Otsikot eivät ole tarkoitettu kommenttiosiona.",
         "description": "Tip subtitle in DeArrow"
     },
+    "DetectedWord": {
+        "message": "Havaittu sana: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
     },
