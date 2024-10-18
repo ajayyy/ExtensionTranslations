@@ -1500,6 +1500,10 @@
         "message": "제출하려면 모든 지침을 확인하세요",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "noSummariesTipSubTitle": {
+        "message": "제목은 동영상 전체를 미리 보도록 대체하는 게 아니라, 동영상을 누를지 말지 알려줘야 해요.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "참고: SponsorBlock 설정을 자동으로 가져왔어요!"
     },
