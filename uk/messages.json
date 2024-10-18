@@ -1500,6 +1500,22 @@
         "message": "Перевірте всі рекомендації перед надсиланням",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "DeArrowDiscussingWarning": {
+        "message": "Не використовуйте непотрібні дієслова на початку заголовку",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Почніть всі заголовки з великої літери. Назви повинні бути відформатовані як речення",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Заголовки не повинні закінчуватися на '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Назви не повинні містити емодзі",
+        "description": "A DeArrow automatic warning"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
     },
