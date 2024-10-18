@@ -1528,6 +1528,18 @@
         "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности видео — не задача DeArrow. Названия не должны служить комментариями.",
         "description": "Tip subtitle in DeArrow"
     },
+    "DetectedWord": {
+        "message": "Обнаружено слово: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Не следует использовать ненужные глаголы в начале названия",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Название должно начинаться с заглавной буквы. Порядок заглавных букв должен соответствовать обычному предложению.",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEndWithPeriodWarning": {
         "message": "Названия не должны заканчиваться точкой",
         "description": "A DeArrow automatic warning"
@@ -1540,9 +1552,16 @@
         "message": "Названия не должны высмеивать и критиковать автора или видео, не должны оценивать его достоверность",
         "description": "A DeArrow automatic warning"
     },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Названия не должны содержать исходные элементы сенсации",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEmojiWarning": {
         "message": "Названия не должны содержать эмодзи",
         "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Необходимо устранить предупреждение перед отправкой"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примечание: Ваши настройки SponsorBlock были импортированы автоматически!"
