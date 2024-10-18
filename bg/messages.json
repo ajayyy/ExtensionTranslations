@@ -1496,6 +1496,10 @@
         "message": "Първата буква от изречението да е главна ",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Отметнете всички насоки за подаване",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
     },
