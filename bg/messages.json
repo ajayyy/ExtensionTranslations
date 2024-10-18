@@ -1500,6 +1500,34 @@
         "message": "Отметнете всички насоки за подаване",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "sentenceCaseTipTitle": {
+        "message": "Заглавието ми се пише с главна буква като изречение",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Заглавието ми не просто отговаря на въпроса, поставен в заглавието",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Заглавията трябва да описват видеоклипа или историята като цяло. Трябва да се уверите, че сте гледали цялото видео, за да разберете за какво всъщност става дума, вместо да разчитате на интригуващо оригинално заглавие.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Заглавието ми не обобщава заключението и не разваля излишно",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Заглавията нямат за цел да заместят изцяло гледането на видеоклипа, а по-скоро да ви помогнат да разберете дали да кликнете или не.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Заглавието ми не проверява фактите, не се подиграва и не критикува видеоклипа или създателя му",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Заглавията трябва да са от гледната точка на създателя и на видеото. Оценяването или проверката на фактите на самото видео е извън обхвата на DeArrow. Заглавията не са предназначени за секция за коментари.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
     },
