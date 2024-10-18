@@ -1496,6 +1496,34 @@
         "message": "Bir cümle gibi ilk harfi büyüt",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Göndermek için tüm yönergeleri kontrol et",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Başlığım bir cümle gibi büyük harfle başlıyor",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Başlığım, başlıktaki bir sorunun cevabından ibaret değil",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Başlıklar videoyu betimlemeli veya içeriğini özetlemeli. Videonun orijinal başlığına bağlı kalmak yerine videonun tamamını izleyerek içeriğini öğrenmelisiniz.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Başlığım bir yargının özeti veya gereksiz bir spoiler değil",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Başlığı okumak videoyu izlemenin yerine geçmemeli, videoyu izleyip izlememeniz gerektiği ile ilgili size fikir vermeli.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Başlığım videoyu veya üreticisini sorgulamıyor, eleştirmiyor, aşağılamıyor veya gülünç duruma düşürmüyor",
+        "description": "Tip title in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
     },
