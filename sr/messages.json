@@ -1496,6 +1496,73 @@
         "message": "Напишите великим словом као реченицу",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Прихватите све смернице пре подношења",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Мој наслов је написан великим словима као реченица",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Мој наслов не одговара само на питање постављено у наслову",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Наслови треба да описују видео снимак или причу уопште. Обавезно погледајте цео видео снимак да бисте сазнали о чему се заправо ради уместо да се ослањате на интригантан оригинални наслов.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Мој наслов не сажима закључак нити непотребно квари",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Наслови нису намењени да у потпуности замене гледање видео снимка, већ да знате треба ли да кликнете или не.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Мој наслов не проверава чињенице, исмејава или критикује видео снимак или креатора",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Наслови треба да буду из перспективе аутора и видео снимка. Оцењивање или провера чињеница самог видео снимка је ван делокруга DeArrow-а. Наслови нису замишљени као одељак за коментаре.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Откривена реч: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Немојте користити непотребне глаголе на почетку наслова",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Започните све наслове великим словом. Наслове треба обликовати као реченицу",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Наслови не би требало да се завршавају с „.”",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Немојте само додати одговор на питање у оригиналном наслову. Наслови треба да описују видео снимак или причу уопште",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Наслови не би требало да проверавају чињенице, исмевају или критикују видео снимак или креатора",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Наслови не би требало да задрже сензационалне елементе оригиналног наслова",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Наслови не би требало да садрже емоџије",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Морате решити упозорење пре подношења"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Напомена: Ваша подешавања SponsorBlock-а су аутоматски увезена!"
     },
