@@ -1544,6 +1544,25 @@
         "message": "Başlıklar nokta (.) ile bitmemeli",
         "description": "A DeArrow automatic warning"
     },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Orijinal başlıktaki sorunun cevabını ekleyip bırakmayın. Başlıklar videoyu betimlemeli veya içeriğini özetlemelidir",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Başlıklar videoyu veya üreticisini sorgulayıp yargılamamalı, eleştirmemeli, aşağılamamalı veya gülünç duruma düşürmemeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Başlıklar orijinal başlıktaki çarpıcı ögeleri içermemeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Başlıklarda emoji olmamalı",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Göndermeden önce uyarıyı incelemelisiniz"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
     },
