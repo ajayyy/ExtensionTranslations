@@ -1528,6 +1528,41 @@
         "message": "Titles are meant to be from the perspective of the creator and the video. Rating or fact-checking the video itself is out of scope of DeArrow. Titles are not meant as a comment section.",
         "description": "Tip subtitle in DeArrow"
     },
+    "DetectedWord": {
+        "message": "Detected word: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Don't use unnecessary verbs at the start of the title",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Start all titles with a capital letter. Titles should be formatted like a sentence",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Titles should not end with a '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Don't just add an answer to a question in the original title. Titles should describe the video, or the story in general",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Titles should not fact check, mock, or critique the video or the creator",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Titles should not keep sensational elements from the original title",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Titles should not contain emojis",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "You must resolve the warning before submitting"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Note: Your SponsorBlock settings have been automatically imported!"
     },
