@@ -7,6 +7,9 @@
         "message": "I-skip ang mga sponsorships, subscription begging at marami pa sa mga YouTube videos. I-report ang mga sponsor sa videos na napapanood mo upang makatipid sa oras ng iba.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Mali ang request mo sa server"
+    },
     "409": {
         "message": "Naisumite na ito noon"
     },
@@ -65,7 +68,7 @@
         "message": "Para sa pag-edit o tanggalin ng mga individual values, pindutin ang info button o ang extension icon sa kanang sulok sa itaas."
     },
     "clearThis": {
-        "message": "Sigurado ka bang gusto mong tanggalin ito?"
+        "message": "Sigurado ka bang gusto mong tanggalin ito?  \n\n"
     },
     "Unknown": {
         "message": "May error na nagkaroon sa pagsusumite sa iyong sponsor times, subukang muli mamaya."
@@ -139,17 +142,53 @@
     "recordTimesDescription": {
         "message": "I-submit"
     },
+    "popupHint": {
+        "message": "Hinto: Maaari kang mag-set up ng mga keybinds para i-pagsusumite sa options"
+    },
     "Username": {
         "message": "Username"
     },
+    "setUsername": {
+        "message": "I-palit yung username"
+    },
     "copyPublicID": {
         "message": "I-kopiya ng publikong UserID"
+    },
+    "copySegmentID": {
+        "message": "I-kopiya ng Segment ID"
     },
     "hideThis": {
         "message": "Itago ito"
     },
     "Options": {
         "message": "Mga options"
+    },
+    "showButtons": {
+        "message": "Ipakita ang Delete Button sa YouTube Player"
+    },
+    "hideButtons": {
+        "message": "Itago ang Delete Button sa YouTube Player"
+    },
+    "showSkipButton": {
+        "message": "Ipakita lagi ang Skip To Highlight Button Sa Player"
+    },
+    "showInfoButton": {
+        "message": "Ipakita ang Info Button sa YouTube Player"
+    },
+    "hideInfoButton": {
+        "message": "Itago ang Info Button sa YouTube Player"
+    },
+    "hideDeleteButton": {
+        "message": "Itago ang Delete Button sa YouTube Player"
+    },
+    "showDeleteButton": {
+        "message": "Ipakita ang Delete Button sa YouTube Player"
+    },
+    "enableTrackDownvotesInPrivate": {
+        "message": "I-store sa mga na-downvote ng segments sa private/incognito tabs"
+    },
+    "showNotice": {
+        "message": "Ipakita yung notice ulit"
     },
     "website": {
         "message": "Website",
@@ -169,6 +208,10 @@
     },
     "setSubmitKeybind": {
         "message": "I-submit ang mga segments",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "Susunood na chapter",
         "description": "Keybind label"
     },
     "skip": {
@@ -375,6 +418,12 @@
     },
     "shouldCleanEmojis": {
         "message": "I-tangal ng mga emojis"
+    },
+    "replaceTitles": {
+        "message": "Palitan ng mga Titles"
+    },
+    "replaceThumbnails": {
+        "message": "Palitan ng mga Thumbnails"
     },
     "DeArrowPromotionMessage3": {
         "message": "Tingnan din ang DeArrow",
