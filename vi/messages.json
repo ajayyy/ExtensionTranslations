@@ -1379,7 +1379,7 @@
         "message": "Cảnh báo: Video này đang chạy thử nghiệm A/B đối với hình thu nhỏ, do đó hình thu nhỏ có thể thay đổi thường xuyên. Có lẽ bạn không nên bình chọn cho hình thu nhỏ gốc vì rủi ro này."
     },
     "whatKeepUnsubmitted": {
-        "message": "Giữ lại các bình chọn đã gửi để hiển thị tiêu đề và hình thu nhỏ mà bạn đã bình chọn, thay vì tiêu đề và hình thu nhỏ được bình chọn nhiều nhất trên máy chủ.\n\n"
+        "message": "Giữ lại các bình chọn đã gửi để hiển thị tiêu đề và hình thu nhỏ mà bạn đã bình chọn, thay vì tiêu đề và hình thu nhỏ được bình chọn nhiều nhất trên máy chủ.\n"
     },
     "keepUnsubmittedInPrivate": {
         "message": "Lưu bình chọn đã gửi từ tab riêng tư"
