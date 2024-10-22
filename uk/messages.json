@@ -1500,6 +1500,22 @@
         "message": "Перевірте всі рекомендації перед надсиланням",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "sentenceCaseTipTitle": {
+        "message": "Моя назва написана з великої літери, як речення",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Моя назва не просто відповідає на питання, поставлене в заголовку",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Назви повинні описувати відео або історію в цілому. Ви повинні обов'язково переглянути повне відео, щоб знати, про що воно насправді, а не покладатися на оригінальну назву, що інтригує.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Моя назва не підсумовує висновок і не псує його без потреби",
+        "description": "Tip title in DeArrow"
+    },
     "DeArrowDiscussingWarning": {
         "message": "Не використовуйте непотрібні дієслова на початку заголовку",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
