@@ -329,7 +329,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Bật/tắt chức năng DeArrow",
+        "message": "Bật/tắt DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -1499,6 +1499,14 @@
     "checkAllToSubmit": {
         "message": "Kiểm tra tất cả các hướng dẫn để gửi",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Tiêu đề không nên kết thúc bằng \".\"",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Tiêu đề không nên có biểu tượng hình",
+        "description": "A DeArrow automatic warning"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Lưu ý: Cài đặt SponsorBlock của bạn đã được nhập tự động!"
