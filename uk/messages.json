@@ -1516,6 +1516,22 @@
         "message": "Моя назва не підсумовує висновок і не псує його без потреби",
         "description": "Tip title in DeArrow"
     },
+    "noSummariesTipSubTitle": {
+        "message": "Назви не призначені для того, щоб повністю замінити перегляд відео, а скоріше для того, щоб ви знали, чи варто натискати на них чи ні.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Моя назва не перевіряє факти, не висміює і не критикує відео або його автора",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Назви мають бути подані з точки зору автора та відео. DeArrow не займається оцінюванням або перевіркою фактів щодо самого відео. Назви не є коментарями до відео.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Виявлено слово: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
     "DeArrowDiscussingWarning": {
         "message": "Не використовуйте непотрібні дієслова на початку заголовку",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
@@ -1528,9 +1544,24 @@
         "message": "Заголовки не повинні закінчуватися на '.'",
         "description": "A DeArrow automatic warning"
     },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Не просто додавайте відповідь на питання в оригінальній назві. Назви повинні описувати відео або історію в цілому",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Назви не повинні перевіряти факти, висміювати чи критикувати відео або творця",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Назви не повинні містити сенсаційних елементів з оригінальної назви",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEmojiWarning": {
         "message": "Назви не повинні містити емодзі",
         "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Ви повинні усунути попередження перед надсиланням"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
