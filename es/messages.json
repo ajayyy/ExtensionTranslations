@@ -1493,6 +1493,41 @@
         "message": "Pon la primera letra en mayúscula",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "DetectedWord": {
+        "message": "Palabra detectada: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "No usar verbos innecesarios al inicio del título",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Comenzar todos los títulos con una letra mayúscula. Los títulos deben ser formateados como una frase",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Los títulos no deben terminar con un '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "No sólo agregue una respuesta a una pregunta en el título original. Los títulos deben describir el vídeo, o la historia en general",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Los títulos no deben verificar los hechos, burlarse o criticar el vídeo o al creador",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Los títulos no deben mantener elementos sensacionalistas del título original",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Los títulos no deben contener emojis",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Debe resolver la advertencia antes de enviar"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Nota: ¡Tu configuración de SponsorBlock se ha importado automáticamente!"
     },

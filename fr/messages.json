@@ -1496,6 +1496,73 @@
         "message": "Mettre en majuscule comme une phrase",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Vérifiez l'ensemble des instructions avant de pouvoir envoyer",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Dans mon titre, les majuscules sont utilisées comme dans les phrases",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Mon titre n'est pas simplement une réponse à la question posée dans le titre original",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Un titre doit décrire ce qui est raconté dans la vidéo. Assurez-vous d'avoir regardé la vidéo en entier pour mieux connaître son contenu et ne pas faire confiance aveuglément au titre original.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mon titre ne résume pas la conclusion de la vidéo et ne la spoile pas",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Un titre ne doit pas remplacer le visionnage d'une vidéo, mais doit vous aider à savoir s'il est utile de cliquer dessus.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mon titre ne fact-checke/moque/critique pas la vidéo, ni la personne l'ayant créée",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Un titre doit respecter la perspective de la vidéo et de la personne l'ayant créée. DeArrow ne sert pas à évaluer ou à fact-checker les vidéos. Ce n'est pas une section Commentaires.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Mot détecté : ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "N'utilisez pas de verbe inutile au début du titre",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Un titre doit commencer par une lettre majuscule et doit être formaté comme une phrase",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Un titre ne doit pas se terminer par un '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Ne vous contentez pas de répondre à une question posée dans le titre original. Un titre doit décrire ce qui est raconté dans la vidéo.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Un titre ne doit pas fact-checker/moquer/critiquer la vidéo en question, ni la personne l'ayant créée",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Un titre ne doit pas conserver les éléments sensationnels du titre original",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Un titre ne doit pas contenir d'emojis",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Vous devez traiter l'avertissement avant d'envoyer le titre"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
     },

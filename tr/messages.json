@@ -1496,6 +1496,73 @@
         "message": "Bir cümle gibi ilk harfi büyüt",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Göndermek için tüm yönergeleri kontrol et",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Başlığım bir cümle gibi büyük harfle başlıyor",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Başlığım, başlıktaki bir sorunun cevabından ibaret değil",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Başlıklar videoyu betimlemeli veya içeriğini özetlemeli. Videonun orijinal başlığına bağlı kalmak yerine videonun tamamını izleyerek içeriğini öğrenmelisiniz.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Başlığım bir yargının özeti veya gereksiz bir spoiler değil",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Başlığı okumak videoyu izlemenin yerine geçmemeli, videoyu izleyip izlememeniz gerektiği ile ilgili size fikir vermeli.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Başlığım videoyu veya üreticisini sorgulamıyor, eleştirmiyor, aşağılamıyor veya gülünç duruma düşürmüyor",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Başlıklar videonun ve üreticinin bakış açısını yansıtmalıdır. Video içeriğinin doğruluğunu sorgulamak ve yargılamak DeArrow'un kapsamında değildir. Başlıklar yorum kısmı yerine geçmemelidir.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Algılanan sözcük: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Başlıkta gereksiz eylemler kullanmayınız",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Tüm başlıkları büyük harfle başlatınız. Başlıklar cümle gibi biçimlendirilmeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Başlıklar nokta (.) ile bitmemeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Orijinal başlıktaki sorunun cevabını ekleyip bırakmayın. Başlıklar videoyu betimlemeli veya içeriğini özetlemelidir",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Başlıklar videoyu veya üreticisini sorgulayıp yargılamamalı, eleştirmemeli, aşağılamamalı veya gülünç duruma düşürmemeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Başlıklar orijinal başlıktaki çarpıcı ögeleri içermemeli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Başlıklarda emoji olmamalı",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Göndermeden önce uyarıyı incelemelisiniz"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Not: SponsorBlock ayarların otomatik olarak içeri aktarıldı!"
     },

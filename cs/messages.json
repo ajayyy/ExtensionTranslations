@@ -1496,6 +1496,73 @@
         "message": "Použijte velká písmena jako ve větě",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Před odesláním si přečtěte všechny pokyny",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Můj název je kapitalizován jako věta",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Můj název neodpovídá pouze na otázku v aktuálním názvu",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Názvy by měly popisovat video, nebo obecně jeho obsah/příběh. Nejprve zhlédněte celé video, abyste opravdu věděli, o čem je, než abyste se spoléhali na původní název snažící se zaujmout.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Můj název neshrnuje závěr ani nevyzrazuje zápletku",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Názvy nemají nahradit celé video, ale máte se díky nim rozhodnout, zda na dané video chcete kliknout.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Můj název nekontroluje fakta, nezesměšňuje ani nekrizituje video nebo tvůrce",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Názvy mají být z pohledu tvůrce a videa. Hodnocení nebo kontrola faktů samotného videa je mimo působnost DeArrow. Názvy nejsou určeny jako sekce komentářů.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Zjištěno slovo: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Na začátku názvu nepoužívejte zbytečná slovesa",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Začněte všechny názvy velkým písmenem. Názvy by měly být formátovány jako věta",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Názvy by neměly končit tečkou",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Nepřidávejte pouze odpověď na otázku v původním. Názvy by měly popisovat video nebo příběh obecně",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Názvy by neměly ověřovat fakta, zesměšňovat ani kritizovat video nebo tvůrce",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Názvy by neměly zachovávat senzacechtivé prvky z původního názvu",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Názvy by neměly obsahovat emotikony",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Před odesláním vyřešte varování"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Poznámka: vaše nastavení doplňku SponsorBlock byla automaticky importována!"
     },

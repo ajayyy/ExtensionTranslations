@@ -1496,6 +1496,73 @@
         "message": "Úgy használj nagybetűket, mintha egy mondat lenne",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Olvass el minden irányelvet a beküldéshez",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "A címem kis-/nagybetűi úgy vannak formázva, mint egy mondat (az angolban szokásos \"minden szó nagybetű\" helyett)",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "A címem nem csak megválaszol egy, az eredeti címben feltett kérdést",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "A címeknek a videót, vagy a történetet kellene leírniuk. Nézd meg a teljes videót, hogy tudd, miről szól valójában, ahelyett, hogy egy figyelemfelkeltő eredeti címre támaszkodnál.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "A címem nem egy konklúziót foglal össze és nem tartalmaz felesleges spoilert",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "A címek nem arra vannak, hogy kiváltsák a videó megtekintését, hanem abban segítenek, hogy tudd, hogy rákattints-e vagy sem.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "A címem nem ellenőrzi, gúnyolja, vagy kritizálja a videót, vagy a készítőt",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "A címek a készítő és a videó szemszögéből írandók. A videó értékelése vagy ellenőrizése nem tartozik a DeArrow szándékai közé. A címek nem használandók komment szekcióként.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Észlelt szó: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Ne használj felesleges igéket a cím elején",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Minden címet nagybetűvel kezdj! A címek kis-/nagybetűit úgy kell formázni, mint egy mondatban (az angolban szokásos \"minden szó nagybetű\" helyett)",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "A címek ne végződjenek ponttal",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Ne csak hozzáadj egy választ az eredeti címben feltett kérdéshez! A címeknek a videót, vagy magát a történetet kell leírniuk",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "A címeknek nem szabad ellenőrizni, gúnyolni, vagy kritizálni a videót, vagy a készítőt",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "A címek ne tartsanak meg szenzációhajhász elemeket az eredeti címből",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "A címek ne tartalmazzanak emojikat",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Tegyél eleget a figyelmeztetésnek a beküldés előtt"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Megjegyzés: A SponsorBlock beállításaid automatikusan betöltésre kerültek!"
     },

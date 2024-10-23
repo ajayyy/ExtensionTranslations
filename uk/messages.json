@@ -217,7 +217,7 @@
         "message": "Увімкнути відстеження кількості пропусків сегментів"
     },
     "whatViewTracking": {
-        "message": "Ця можливість відстежує, які сегменти Ви пропустили, щоб допомогти користувачам дізнатися, наскільки їх внесок допоміг іншим, і використовується як показник разом із голосами \"за\" щоб переконатися, що спам не влучає у базу даних. Розширення надсилає повідомлення на сервер кожен раз, коли Ви пропускаєте сегмент. Сподіваюсь, більшість людей не поміняє це налаштування, щоб кількість переглядів була точною. :)"
+        "message": "Ця можливість відстежує, які сегменти Ви пропустили, щоб допомогти користувачам дізнатися, наскільки їхній внесок допоміг іншим, і використовується як показник разом із голосами \"за\" щоб переконатися, що спам не влучає у базу даних. Розширення надсилає повідомлення на сервер кожен раз, коли Ви пропускаєте сегмент. Сподіваюсь, більшість людей не поміняє це налаштування, щоб статистика переглядів була точною. :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Увімкнути відстеження пропусків у вкладках інкогніто"
@@ -428,7 +428,7 @@
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
-        "message": " їх життів",
+        "message": " їхніх життів",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "statusReminder": {
@@ -1397,7 +1397,7 @@
         "message": "Рівень насиченості мініатюри"
     },
     "whatSaturateThumbnails": {
-        "message": "Зробити мініатюри менш яскравими, зменшивши їх колір"
+        "message": "Зробити мініатюри менш яскравими, зменшивши їхній колір"
     },
     "hideDetailsWhileFetching": {
         "message": "Сховати подробиці під час отримання"
@@ -1495,6 +1495,73 @@
     "tip5": {
         "message": "Пишіть першу букву великою, як в реченні",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Перевірте всі рекомендації перед надсиланням",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Моя назва написана з великої літери, як речення",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Моя назва не просто відповідає на питання, поставлене в заголовку",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Назви повинні описувати відео або історію в цілому. Ви повинні обов'язково переглянути повне відео, щоб знати, про що воно насправді, а не покладатися на оригінальну назву, що інтригує.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Моя назва не підсумовує висновок і не псує його без потреби",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Назви не призначені для того, щоб повністю замінити перегляд відео, а скоріше для того, щоб ви знали, чи варто натискати на них чи ні.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Моя назва не перевіряє факти, не висміює і не критикує відео або його автора",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Назви мають бути подані з точки зору автора та відео. DeArrow не займається оцінюванням або перевіркою фактів щодо самого відео. Назви не є коментарями до відео.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Виявлено слово: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Не використовуйте непотрібні дієслова на початку заголовку",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Почніть всі заголовки з великої літери. Назви повинні бути відформатовані як речення",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Заголовки не повинні закінчуватися на '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Не просто додавайте відповідь на питання в оригінальній назві. Назви повинні описувати відео або історію в цілому",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Назви не повинні перевіряти факти, висміювати чи критикувати відео або творця",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Назви не повинні містити сенсаційних елементів з оригінальної назви",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Назви не повинні містити емодзі",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Ви повинні усунути попередження перед надсиланням"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"

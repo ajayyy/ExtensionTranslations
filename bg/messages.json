@@ -1496,6 +1496,73 @@
         "message": "Първата буква от изречението да е главна ",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Отметнете всички насоки за подаване",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Заглавието ми се пише с главна буква като изречение",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Заглавието ми не просто отговаря на въпроса, поставен в заглавието",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Заглавията трябва да описват видеоклипа или историята като цяло. Трябва да се уверите, че сте гледали цялото видео, за да разберете за какво всъщност става дума, вместо да разчитате на интригуващо оригинално заглавие.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Заглавието ми не обобщава заключението и не разваля излишно",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Заглавията нямат за цел да заместят изцяло гледането на видеоклипа, а по-скоро да ви помогнат да разберете дали да кликнете или не.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Заглавието ми не проверява фактите, не се подиграва и не критикува видеоклипа или създателя му",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Заглавията трябва да са от гледната точка на създателя и на видеото. Оценяването или проверката на фактите на самото видео е извън обхвата на DeArrow. Заглавията не са предназначени за секция за коментари.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Открита дума: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Не използвайте ненужни глаголи в началото на заглавието",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Започвайте всички заглавия с главна буква. Заглавията трябва да бъдат оформени като изречение",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Заглавията не трябва да завършват с точка",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Не добавяйте просто отговор на въпрос в първоначалното заглавие. Заглавията трябва да описват видеоклипа или историята като цяло",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Заглавията не трябва да проверяват фактите, да се подиграват или да критикуват видеоклипа или неговия създател",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Заглавията не трябва да запазват сензационни елементи от оригиналното заглавие",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Заглавията не трябва да съдържат емотикони",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Трябва да отстраните предупреждението преди изпращане"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Забележка: Вашите настройки на SponsorBlock са автоматично импортирани!"
     },

@@ -499,7 +499,7 @@
         "message": "Отображение уведомления о пропуске (в секундах):"
     },
     "skipNoticeDurationDescription": {
-        "message": "Уведомление о пропуске будет оставаться на экране столько-то секунд. При ручном пропуске оно может быть видно дольше."
+        "message": "Уведомление о пропуске будет оставаться на экране как минимум в течение этого времени. Может быть активно дольше при пропуске вручную."
     },
     "shortCheck": {
         "message": "Следующий диапазон времени короче, чем Ваша настройка минимальной длительности. Это может означать, что он уже был отправлен, и просто игнорируется из-за этой настройки. Вы действительно хотите отправить?"
@@ -1334,7 +1334,7 @@
         "message": "Заглавные буквы для заголовков на языках, отличных от английского"
     },
     "onlyTitleCaseInEnglishDescription": {
-        "message": "Определение языка не идеально, некоторые англоязычные заголовки могут быть неправильно распознаны."
+        "message": "Определение языка не идеально, некоторые англоязычные названия могут быть неправильно распознаны."
     },
     "thumbnailFallbackOption": {
         "message": "При отсутствии отправленного значка"
@@ -1495,6 +1495,73 @@
     "tip5": {
         "message": "Начинать с прописной буквы как предложение ",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Ознакомьтесь с полным руководством перед отправкой",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Порядок заглавных букв в названии соответствует правилам языка",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Предложенное название не является ответом на вопрос из оригинального",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Названия должны описывать видео или историю в целом. Нельзя полагаться только на оригинальное название — необходимо изучить видео целиком, чтобы понять его замысел.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Название не подводит итоги видео и не служит спойлером без крайней необходимости",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Названия не призваны заменять просмотр всего видео, они лишь должны давать понимание, имеет ли смысл открывать видео.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Название не высмеивает и не критикует автора или видео, не оценивает его достоверность",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Подразумевается, что названия составлены от лица автора видео. Оценка и проверка достоверности видео — не задача DeArrow. Названия не должны служить комментариями.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Обнаруженное слово: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Не следует использовать ненужные глаголы в начале названия",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Название должно начинаться с заглавной буквы. Порядок заглавных букв должен соответствовать обычному предложению",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Названия не должны заканчиваться точкой",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Не следует отвечать на вопрос из исходного названия. Названия должны описывать видео или историю в целом",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Названия не должны высмеивать и критиковать автора или видео, не должны оценивать его достоверность",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Названия не должны содержать исходные элементы сенсации",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Названия не должны содержать эмодзи",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Необходимо устранить предупреждение перед отправкой"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Примечание: Ваши настройки SponsorBlock были импортированы автоматически!"

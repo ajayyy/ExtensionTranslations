@@ -329,7 +329,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Bật/tắt chức năng DeArrow",
+        "message": "Bật/tắt DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -1379,7 +1379,7 @@
         "message": "Cảnh báo: Video này đang chạy thử nghiệm A/B đối với hình thu nhỏ, do đó hình thu nhỏ có thể thay đổi thường xuyên. Có lẽ bạn không nên bình chọn cho hình thu nhỏ gốc vì rủi ro này."
     },
     "whatKeepUnsubmitted": {
-        "message": "Giữ lại các bình chọn đã gửi để hiển thị tiêu đề và hình thu nhỏ mà bạn đã bình chọn, thay vì tiêu đề và hình thu nhỏ được bình chọn nhiều nhất trên máy chủ.\n\n"
+        "message": "Giữ lại các bình chọn đã gửi để hiển thị tiêu đề và hình thu nhỏ mà bạn đã bình chọn, thay vì tiêu đề và hình thu nhỏ được bình chọn nhiều nhất trên máy chủ.\n"
     },
     "keepUnsubmittedInPrivate": {
         "message": "Lưu bình chọn đã gửi từ tab riêng tư"
@@ -1495,6 +1495,18 @@
     "tip5": {
         "message": "Viết hoa như một câu",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Kiểm tra tất cả các hướng dẫn để gửi",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Tiêu đề không nên kết thúc bằng \".\"",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Tiêu đề không nên có biểu tượng hình",
+        "description": "A DeArrow automatic warning"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Lưu ý: Cài đặt SponsorBlock của bạn đã được nhập tự động!"

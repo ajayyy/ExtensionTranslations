@@ -592,7 +592,7 @@
         "message": "Bearbeiten"
     },
     "copyDebugLogs": {
-        "message": "Debug-Protokolle kopieren"
+        "message": "Debug-Logs kopieren"
     },
     "copyDebugInformation": {
         "message": "Debug-Informationen in Zwischenablage kopieren"
@@ -1496,6 +1496,73 @@
         "message": "Verwende Groß- und Kleinschreibung wie in einem Satz",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Überprüfe alle Richtlinien",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Mein Titel verwendet Groß- und Kleinschreibung wie in einem Satz",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Mein Titel beantwortet nicht einfach nur eine im Originaltitel gestellte Frage",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Titel sollten das Video oder das Geschehen im Allgemeinen beschreiben. Schaue immer das gesamte Video an, um zu wissen, worüber es tatsächlich ist, als dich auf einen interessanten Originaltitel zu verlassen.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mein Titel ist keine Zusammenfassung einer Schlussfolgerung oder ein unnötiger Spoiler",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Titel sind nicht dafür gedacht, das Video vollständig zu ersetzen, sondern dafür, zu wissen, ob es sich lohnt, es anzuschauen.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mein Titel verspottet oder kritisiert das Video oder den Kanal nicht und überprüft nicht die im Video präsentierten Tatsachen",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Titel sollen aus der Perspektive des Videos und des Erstellers sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Erkanntes Wort: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Verwende keine unnötigen Verben am Anfang eines Titels.",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Beginne alle Titel mit einem Großbuchstaben. Titel sollten Groß- und Kleinschreibung wie in einem Satz verwenden.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Titel sollten nicht mit einem Punkt ‚.‘ enden.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Beantworte nicht einfach eine im Originaltitel gestellte Frage. Titel sollten das Video beschreiben, oder das Geschehen allgemein.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Titel sollten das Video oder den Kanal nicht verspotten oder kritisieren und die im Video präsentierten Tatsachen nicht überprüfen.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Titel sollten keine sensationalistischen Elemente des Originaltitels behalten.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Titel sollten keine Emojis enthalten.",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Du musst das angezeigte Problem beheben, bevor du diesen Titel einreichen kannst."
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Hinweis: Deine SponsorBlock-Einstellungen wurden automatisch importiert!"
     },
@@ -1702,7 +1769,7 @@
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
-        "message": "Sind Sie sicher, dass dieses Original-Miniaturbild den DeArrow-Richtlinien entspricht? Wenn Sie generell lieber Original-Miniaturbilder sehen möchten, sollten Sie die Option „Wenn kein eingereichtes Miniaturbild vorhanden ist“ in den DeArrow-Einstellungen ändern.",
+        "message": "Bist du sicher, dass dieses originale Thumbnail den DeArrow-Richtlinien entspricht? Falls du allgemein lieber die ursprünglichen Thumbnails sehen möchtest, ändere die Option „Wenn kein Thumbnail eingereicht wurde“ in den DeArrow-Einstellungen.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }
