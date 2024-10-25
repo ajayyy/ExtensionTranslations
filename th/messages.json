@@ -465,11 +465,17 @@
     "skipNoticeDurationDescription": {
         "message": "การแจ้งเตือนการข้ามจะอยู่บนหน้าจอเป็นเวลาอย่างน้อยเท่านี้ อาจจะอยู่ได้นานกว่าสำหรับการข้ามด้วยตนเอง"
     },
+    "liveOrPremiere": {
+        "message": "ไม่สามารถบันทึกส่วนในไลฟ์สดหรือการแสดงครั้งแรกได้ โปรดรอจนกว่าไลฟ์สดหรือการแสดงครั้งแรกจบลงแล้วรีเฟรชหน้าวิดีโอและตรวจสอบให้แน่ใจว่าส่วนที่สร้างไว้ยังคงถูกต้อง"
+    },
     "showUploadButton": {
         "message": "แสดงปุ่มอัปโหลด"
     },
     "customServerAddress": {
         "message": "ที่อยู่เซิร์ฟเวอร์ SponsorBlock"
+    },
+    "customServerAddressDescription": {
+        "message": "ที่อยู่ที่ SponsorBlock ใช้ในการติดต่อกับเซิร์ฟเวอร์\nไม่ควรเปลี่ยนที่อยู่นี้ ยกเว้นว่าท่านมีเซิร์ฟเวอร์เป็นของตัวเอง"
     },
     "save": {
         "message": "บันทึก"
@@ -537,6 +543,9 @@
     "copyDebugInformationFailed": {
         "message": "คัดลอกไปยังคลิปบอร์ดไม่สำเร็จ"
     },
+    "keyAlreadyUsed": {
+        "message": "คีย์ลัดนี้ถูกใช้ในคำสั่งอื่นแล้ว โปรดเลือกคีย์ลัดใหม่"
+    },
     "to": {
         "message": "ถึง",
         "description": "Used between segments. Example: 1:20 to 1:30"
@@ -550,6 +559,9 @@
     },
     "category_sponsor_guideline1": {
         "message": "โปรโมชั่นที่ได้รับเงิน"
+    },
+    "category_selfpromo_guideline1": {
+        "message": "การบริจาค การสมัครสมาชิก และสินค้าของครีเอเตอร์"
     },
     "category_exclusive_access": {
         "message": "การเข้าถึงโดยเฉพาะ"
@@ -571,6 +583,12 @@
     },
     "category_outro_description": {
         "message": "เครดิตหรือเมื่อการ์ดจบของ YouTube ปรากฏ ไม่ใช้สำหรับข้อสรุปที่มีข้อมูล"
+    },
+    "category_preview_guideline1": {
+        "message": "คลิปที่ปรากฎภายหลัง หรือในวิดีโอถัดไป"
+    },
+    "category_preview_guideline2": {
+        "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
