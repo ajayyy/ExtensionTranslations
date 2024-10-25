@@ -390,6 +390,9 @@
     "audioNotification": {
         "message": "เล่นเสียงเมี่อข้ามตอน"
     },
+    "audioNotificationDescription": {
+        "message": "เสียงแจ้งเตือนจะดังขั้นเมื่อมีส่วนถูกข้าม เสียงนี้จะไม่ดังขึ้นถ้าตัวเลือกนี้ถูกปิดหรือการข้ามส่วนอัตโนมัติถูกปิด"
+    },
     "showTimeWithSkips": {
         "message": "แสดงเวลาถ้าข้ามทั้งหมด"
     },
@@ -550,6 +553,12 @@
     },
     "category_exclusive_access": {
         "message": "การเข้าถึงโดยเฉพาะ"
+    },
+    "category_interaction_guideline1": {
+        "message": "ประโยคชักชวนสั้น ๆ ให้กดไลค์ แสดงความคิดเห็น หรือกดติดตาม"
+    },
+    "category_interaction_guideline2": {
+        "message": "รวมถึงคำเปรยให้แสดงความคิดเห็นทางอ้อมด้วย"
     },
     "category_intro": {
         "message": "ช่วงพัก/อนิเมชั่นอินโทร"
