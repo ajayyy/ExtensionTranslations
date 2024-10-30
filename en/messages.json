@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Remove Emojis"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Only format user-submitted titles"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Capitalize Words for Non-English Titles"
     },
