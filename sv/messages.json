@@ -1496,6 +1496,29 @@
         "message": "Använd versaler som i en mening",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Markera alla riktlinjer för att skicka in",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "DetectedWord": {
+        "message": "Upptäckta ord: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Använd inte onödiga verb i början av titeln",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Titlar ska inte sluta med en '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Titlar ska inte innehålla emojis",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Du måste lösa varningen innan du skickar in"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Obs: Dina SponsorBlock-inställningar har automatiskt importerats!"
     },
