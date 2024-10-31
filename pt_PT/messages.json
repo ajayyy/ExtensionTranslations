@@ -591,6 +591,9 @@
     "edit": {
         "message": "Editar"
     },
+    "copyDebugLogs": {
+        "message": "Copiar registos de depuração"
+    },
     "copyDebugInformation": {
         "message": "Copiar informações de depuração para a área de transferência"
     },
@@ -1327,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Apenas formatar títulos enviados pelo utilizador"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Colocar palavras em maiúsculas em títulos que não sejam em inglês"
     },
@@ -1492,6 +1498,10 @@
     "tip5": {
         "message": "Comece as frases com maiúsculas",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Verificar todas as diretrizes a enviar",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Observação: suas configurações do SponsorBlock foram importadas automaticamente!"
