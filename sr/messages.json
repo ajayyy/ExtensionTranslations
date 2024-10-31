@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Уклони емоџије"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Форматирај само наслове које су поднели корисници"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Велика слова за наслове који нису на енглеском"
     },
