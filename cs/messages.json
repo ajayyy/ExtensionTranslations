@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Odebrat smajlíky"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Formátovat pouze názvy odeslané uživateli"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Velká písmena u neanglických názvů"
     },
