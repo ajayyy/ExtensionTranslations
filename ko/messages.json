@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "이모지 제거"
     },
+    "onlyFormatCustomTitles": {
+        "message": "사용자가 제출한 제목만 형식 맞춤"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "영어 외 제목도 대문자 표기"
     },
@@ -1507,6 +1510,14 @@
     "DeArrowDiscussingWarning": {
         "message": "제목의 시작 부분에서 필요하지 않은 동사를 사용하지 마세요.",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "제목은 대문자로 시작해주세요. 제목은 문장처럼 대소문자 형식을 갖춰야 해요",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "제목은 '.'으로 끝나지 않아야 해요",
+        "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
         "message": "제목은 이모지를 포함하지 않아야 해요",
