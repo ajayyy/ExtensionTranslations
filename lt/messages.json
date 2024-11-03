@@ -41,11 +41,29 @@
     "reportButtonTitle": {
         "message": "Pranešti"
     },
+    "reportButtonInfo": {
+        "message": "Praneškite apie šį pateikimą kaip neteisingą."
+    },
+    "Dismiss": {
+        "message": "Atmesti"
+    },
+    "Loading": {
+        "message": "Įkeliama..."
+    },
+    "Hide": {
+        "message": "Niekada nerodyti"
+    },
+    "hitGoBack": {
+        "message": "Paspauskite Grąžinti praleistą, kad grįžtumėte ten, iš kur buvote."
+    },
+    "unskip": {
+        "message": "Grąžinti praleistą"
+    },
     "paused": {
-        "message": "Pauzė"
+        "message": "Pristabdyta"
     },
     "Username": {
-        "message": "Vartotojo vardas"
+        "message": "Naudotojo vardas"
     },
     "website": {
         "message": "Svetainė",
@@ -55,7 +73,7 @@
         "message": "Praleisti"
     },
     "mute": {
-        "message": "Užtildyti"
+        "message": "Nutildyti"
     },
     "minLower": {
         "message": "minutė"
@@ -76,7 +94,7 @@
         "message": "Redaguoti"
     },
     "category_music_offtopic_short": {
-        "message": "Ne-muzika"
+        "message": "Ne muzika"
     },
     "End": {
         "message": "Pabaiga",
