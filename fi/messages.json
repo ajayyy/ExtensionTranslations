@@ -328,6 +328,10 @@
         "message": "Edellinen kappale",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "DeArrown käyttöönotto/käytöstä poisto",
+        "description": "Keybind label in DeArrow"
+    },
     "openDeArrowMenu": {
         "message": "Avaa lähetys-valikko",
         "description": "Keybind label in DeArrow"
@@ -1326,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Poista emojit"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Muotoile vain käyttäjälähtöiset otsikot"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Näytä englanninkielestä poikkeavien otsikoiden sanat isoilla alkukirjaimilla"
     },
@@ -1394,6 +1401,9 @@
     },
     "whatSaturateThumbnails": {
         "message": "Tee pienoiskuvista vähemmän värikkäitä vähentämällä niiden väriä"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Piilota tiedot noudettaessa"
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Piilota otsikot ja pienoiskuvat kun tietoja haetaan palvelimelta. Jos poistettu käytöstä, koet vilkkumista, kun otsikot ja pienoiskuvat vaihtuvat."
@@ -1524,6 +1534,37 @@
     "DetectedWord": {
         "message": "Havaittu sana: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Älä aloita otsikoita tarpeettomilla verbeillä",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Aloita kaikki otsikot isolla kirjaimella. Otsikot tulee muotoilla lauseiden tapaan",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Otsikot eivät saa päättyä '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Älä vain vasta alkuperäisen otsikon kysymykseen. Otsikon tulee kuvata videota tai tarinaa yleisesti",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Otsikoiden ei tule korjata videon faktoja, eikä pilkata tai kritisoida sitä tai sen sen tekijää",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Otsikoiden ei tule säilyttää alkuperäisen otsikon sensaatiomaisia elementtejä",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Otsikoiden ei tule sisältää emojeita",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Varoituksen aiheuttaja on korjattava ennen lähetystä"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Huomioi: SponsorBlock-asetuksesi on tuotu automaattisesti!"
