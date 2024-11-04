@@ -1496,6 +1496,10 @@
         "message": "英語の題名は文章として大文字化する",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "DeArrowEmojiWarning": {
+        "message": "題名に絵文字を含めないでください",
+        "description": "A DeArrow automatic warning"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "注: SponsorBlock の設定が自動でインポートされました！"
     },
