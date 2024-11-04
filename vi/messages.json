@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Xoá biểu tượng cảm xúc"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Chỉ định dạng các tiêu đề do người dùng gửi"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Viết hoa các Tiêu đề không phải là tiếng Anh"
     },
@@ -1500,13 +1503,68 @@
         "message": "Kiểm tra tất cả các hướng dẫn để gửi",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "sentenceCaseTipTitle": {
+        "message": "Tiêu đề của tôi được viết hoa như một câu",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Tiêu đề của tôi không chỉ trả lời một câu hỏi được đặt ra trong tiêu đề",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Tiêu đề nên mô tả video hoặc nội dung câu chuyện nói chung. Bạn nên xem toàn bộ video để biết chính xác nội dung thay vì chỉ dựa vào một tiêu đề gốc hấp dẫn.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Tiêu đề của tôi không tóm tắt kết luận hoặc tiết lộ nội dung không cần thiết",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Tiêu đề không nhằm thay thế việc xem video hoàn toàn, mà giúp bạn quyết định có nên nhấp vào hay không.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Tiêu đề của tôi không kiểm chứng, chế giễu hoặc phê bình video hay người tạo ra nó",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Tiêu đề nên đến từ góc nhìn của người tạo và video. Đánh giá hoặc kiểm chứng video là ngoài phạm vi của DeArrow. Tiêu đề không nhằm mục đích làm phần bình luận.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Từ đã phát hiện: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Không sử dụng động từ không cần thiết ở đầu tiêu đề",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Bắt đầu tất cả tiêu đề bằng chữ cái viết hoa. Tiêu đề nên được định dạng như một câu",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEndWithPeriodWarning": {
         "message": "Tiêu đề không nên kết thúc bằng \".\"",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Không chỉ thêm câu trả lời cho một câu hỏi trong tiêu đề gốc. Tiêu đề nên mô tả video hoặc câu chuyện nói chung",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Tiêu đề không nên kiểm chứng, chế giễu hoặc phê bình video hay người sáng tạo",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Tiêu đề không nên giữ lại các yếu tố giật gân từ tiêu đề gốc",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
         "message": "Tiêu đề không nên có biểu tượng hình",
         "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Bạn phải giải quyết cảnh báo trước khi gửi"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Lưu ý: Cài đặt SponsorBlock của bạn đã được nhập tự động!"
