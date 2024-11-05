@@ -1263,7 +1263,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "人目を引くような題名と画像ではなく、クラウドソーシングの力でより説明的に改善",
+        "message": "大げさな題名や画像をやめクラウドソーシングにより説明的な内容に改善",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1496,9 +1496,40 @@
         "message": "英語の題名は文章として大文字化する",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "DetectedWord": {
+        "message": "検出された単語: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "題名の最初には不要な英語の動詞を使わない",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "すべての題名の最初が英語なら大文字で始めます。題名は英文のように整形してください",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "題名の終わりを . (ピリオド)にしない",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "元の題名の質問に答えたり、単に付け加えるだけにはしません。題名では、その動画または話の筋を説明してください",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "題名では、その動画や作成者について、真偽の確認を含めたり、馬鹿にしたり批判してはいけません",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "題名には元の題名にある大げさな内容を残しません",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEmojiWarning": {
         "message": "題名に絵文字を含めないでください",
         "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "送信前に警告内容を解決してください"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "注: SponsorBlock の設定が自動でインポートされました！"
