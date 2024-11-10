@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Emojileri Sil"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Yalnızca kullanıcılar tarafından gönderilen başlıkları biçimlendir"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "İngilizce Olmayan Başlıkları Büyük Harflerle Yaz"
     },

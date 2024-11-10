@@ -1255,6 +1255,9 @@
     "shouldCleanEmojis": {
         "message": "Odstrániť emoji"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Naformátovať len názvy odoslané používateľmi"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Zobraziť názvy v inom ako anglickom jazyku s veľkými počiatočnými písmenami"
     },

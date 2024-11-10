@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Премахване на емоджитата"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Форматиране само на заглавия, подадени от потребителите"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Писане с главни букви на думите в неанглийските заглавия"
     },

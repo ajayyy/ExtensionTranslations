@@ -390,6 +390,9 @@
     "audioNotification": {
         "message": "เล่นเสียงเมี่อข้ามตอน"
     },
+    "audioNotificationDescription": {
+        "message": "เสียงแจ้งเตือนจะดังขั้นเมื่อมีส่วนถูกข้าม เสียงนี้จะไม่ดังขึ้นถ้าตัวเลือกนี้ถูกปิดหรือการข้ามส่วนอัตโนมัติถูกปิด"
+    },
     "showTimeWithSkips": {
         "message": "แสดงเวลาถ้าข้ามทั้งหมด"
     },
@@ -462,17 +465,26 @@
     "skipNoticeDurationDescription": {
         "message": "การแจ้งเตือนการข้ามจะอยู่บนหน้าจอเป็นเวลาอย่างน้อยเท่านี้ อาจจะอยู่ได้นานกว่าสำหรับการข้ามด้วยตนเอง"
     },
+    "liveOrPremiere": {
+        "message": "ไม่สามารถบันทึกส่วนในไลฟ์สดหรือการแสดงครั้งแรกได้ โปรดรอจนกว่าไลฟ์สดหรือการแสดงครั้งแรกจบลงแล้วรีเฟรชหน้าวิดีโอและตรวจสอบให้แน่ใจว่าส่วนที่สร้างไว้ยังคงถูกต้อง"
+    },
     "showUploadButton": {
         "message": "แสดงปุ่มอัปโหลด"
     },
     "customServerAddress": {
         "message": "ที่อยู่เซิร์ฟเวอร์ SponsorBlock"
     },
+    "customServerAddressDescription": {
+        "message": "ที่อยู่ที่ SponsorBlock ใช้ในการติดต่อกับเซิร์ฟเวอร์\nคุณไม่ควรเปลี่ยนที่อยู่นี้ ยกเว้นว่าคุณมีเซิร์ฟเวอร์เป็นของตัวเอง"
+    },
     "save": {
         "message": "บันทึก"
     },
     "reset": {
         "message": "คืนค่าเดิม"
+    },
+    "customAddressError": {
+        "message": "ที่อยู่ไม่ถูกต้อง ตรวจสอบให้แน่ใจว่ามี http:// หรือ https:// นำหน้าและไม่มีเครื่องหมาย / ตามท้าย"
     },
     "areYouSureReset": {
         "message": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตสิ่งนี้"
@@ -484,7 +496,7 @@
         "message": "นำเข้า/ส่งออกการตั้งค่าทั้งหมด"
     },
     "exportOtherData": {
-        "message": "นำเข้า/ส่งออกข้อมูลอื่นๆ ทั้งหมด"
+        "message": "นำเข้า/ส่งออกข้อมูลอื่น ๆ ทั้งหมด"
     },
     "exportOptionsCopy": {
         "message": "แก้ไข/คัดลอก"
@@ -496,10 +508,13 @@
         "message": "โหลดจากไฟล์"
     },
     "whatExportOptions": {
-        "message": "นี่คือการตั้งค่าทั้งหมดของคุณในไฟล์ json ซึ่งรวมถึงรหัสผู้ใช้ส่วนตัวของคุณ ดังนั้นควรแชร์อย่างระมัดระวัง"
+        "message": "นี่คือการตั้งค่าทั้งหมดของคุณในไฟล์ JSON ซึ่งรวมถึงไอดีผู้ใช้ส่วนตัวของคุณ ดังนั้นควรแชร์อย่างระมัดระวัง"
     },
     "setOptions": {
         "message": "จัดการตั้งค่า"
+    },
+    "exportOptionsWarning": {
+        "message": "คำเตือน: การเปลี่ยนแปลงค่านี้มีผลถาวร และสามารถทำให้เกิดความเสียหายต่อการติดตั้งได้ คุณแน่ใจหรือไม่ที่จะบันทึก โปรดสำรองข้อมูลเก่าเผื่อไว้"
     },
     "confirmNoticeTitle": {
         "message": "ส่งส่วน"
@@ -534,6 +549,9 @@
     "copyDebugInformationFailed": {
         "message": "คัดลอกไปยังคลิปบอร์ดไม่สำเร็จ"
     },
+    "keyAlreadyUsed": {
+        "message": "คีย์ลัดนี้ถูกใช้ในคำสั่งอื่นแล้ว โปรดเลือกคีย์ลัดอื่น"
+    },
     "to": {
         "message": "ถึง",
         "description": "Used between segments. Example: 1:20 to 1:30"
@@ -548,8 +566,17 @@
     "category_sponsor_guideline1": {
         "message": "โปรโมชั่นที่ได้รับเงิน"
     },
+    "category_selfpromo_guideline1": {
+        "message": "การบริจาค การสมัครสมาชิก และสินค้าของครีเอเตอร์"
+    },
     "category_exclusive_access": {
         "message": "การเข้าถึงโดยเฉพาะ"
+    },
+    "category_interaction_guideline1": {
+        "message": "ประโยคชักชวนสั้น ๆ ให้กดไลค์ แสดงความคิดเห็น หรือกดติดตาม"
+    },
+    "category_interaction_guideline2": {
+        "message": "รวมถึงคำเปรยให้แสดงความคิดเห็นทางอ้อมด้วย"
     },
     "category_intro": {
         "message": "ช่วงพัก/อนิเมชั่นอินโทร"
@@ -561,7 +588,16 @@
         "message": "การ์ดจบ/เครดิต"
     },
     "category_outro_description": {
-        "message": "เครดิตหรือเมื่อการ์ดจบของ YouTube ปรากฏ ไม่ใช้สำหรับข้อสรุปที่มีข้อมูล"
+        "message": "เครดิตหรือเมื่อการ์ดจบของ YouTube ปรากฏ ไม่ใช่สำหรับข้อสรุปที่มีข้อมูล"
+    },
+    "category_outro_guideline1": {
+        "message": "อย่ารวมเนื้อหา แม้การ์ดจบของ YouTube จะปรากฏอยู่บนหน้าจอก็ตาม"
+    },
+    "category_preview_guideline1": {
+        "message": "คลิปที่ปรากฎภายหลัง หรือในวิดีโอถัดไป"
+    },
+    "category_preview_guideline2": {
+        "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
@@ -704,5 +740,8 @@
     },
     "titleMaxLines": {
         "message": "จำนวนบรรทัดข้อความสำหรับ ชื่อ ถึงขีดจำกัด"
+    },
+    "requiresUblock": {
+        "message": "ต้องมี uBlock Origin"
     }
 }

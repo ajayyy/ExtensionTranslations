@@ -1,9 +1,69 @@
 {
+    "fullName": {
+        "message": "„SponsorBlock“, skirta „YouTube“ – praleiskite rėmimus",
+        "description": "Name of the extension."
+    },
+    "Description": {
+        "message": "Praleiskite rėmimus, prenumeratos maldavimus ir daugiau „YouTube“ vaizdo įrašuose. Praneškite apie žiūrėtų vaizdo įrašų rėmėjus, kad sutaupytumėte kitų laiko.",
+        "description": "Description of the extension."
+    },
+    "400": {
+        "message": "Serveris pranešė, kad ši užklausa netinkama."
+    },
+    "409": {
+        "message": "Tai jau buvo pateikta anksčiau."
+    },
+    "channelWhitelisted": {
+        "message": "Kanalas įtrauktas į leidžiamąjį sąrašą."
+    },
+    "Segment": {
+        "message": "segmentas"
+    },
+    "Segments": {
+        "message": "segmentų"
+    },
+    "SegmentsCap": {
+        "message": "Segmentai"
+    },
+    "Chapters": {
+        "message": "Skyriai"
+    },
+    "renderAsChapters": {
+        "message": "Atvaizduoti segmentus kaip skyrius",
+        "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "showSegmentNameInChapterBar": {
+        "message": "Rodyti dabartinį segmentą šalia vaizdo įrašo laiko"
+    },
+    "upvoteButtonInfo": {
+        "message": "Balsuoti už šią pateikiamą"
+    },
+    "reportButtonTitle": {
+        "message": "Pranešti"
+    },
+    "reportButtonInfo": {
+        "message": "Praneškite apie šį pateikimą kaip neteisingą."
+    },
+    "Dismiss": {
+        "message": "Atmesti"
+    },
+    "Loading": {
+        "message": "Įkeliama..."
+    },
+    "Hide": {
+        "message": "Niekada nerodyti"
+    },
+    "hitGoBack": {
+        "message": "Paspauskite Grąžinti praleistą, kad grįžtumėte ten, iš kur buvote."
+    },
+    "unskip": {
+        "message": "Grąžinti praleistą"
+    },
     "paused": {
-        "message": "Pauzė"
+        "message": "Pristabdyta"
     },
     "Username": {
-        "message": "Vartotojo vardas"
+        "message": "Naudotojo vardas"
     },
     "website": {
         "message": "Svetainė",
@@ -13,7 +73,7 @@
         "message": "Praleisti"
     },
     "mute": {
-        "message": "Užtildyti"
+        "message": "Nutildyti"
     },
     "minLower": {
         "message": "minutė"
@@ -34,7 +94,7 @@
         "message": "Redaguoti"
     },
     "category_music_offtopic_short": {
-        "message": "Ne-muzika"
+        "message": "Ne muzika"
     },
     "End": {
         "message": "Pabaiga",
