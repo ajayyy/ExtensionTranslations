@@ -1765,7 +1765,7 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "Submissions cannot be accepted from your browser at the moment because YouTube seems to have injected some server-side advertisements that the extension is not able to remove. Please contact if you are receiving this error."
+        "message": "Submissions cannot be accepted from your browser at the moment because YouTube seems to have injected some server-side advertisements that the extension is not able to remove. Please reload the page and try submitting again. If you keep receiving this error please contact us on {discord} or on {matrix}."
     },
     "DeArrowIsDisabled": {
         "message": "DeArrow is disabled - click to enable",
