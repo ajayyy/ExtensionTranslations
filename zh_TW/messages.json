@@ -1330,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "移除表情符號"
     },
+    "onlyFormatCustomTitles": {
+        "message": "僅格式化用戶提交的標題"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "僅針對非英文標題套用標題大小寫"
     },
