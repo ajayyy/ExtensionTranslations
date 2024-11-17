@@ -367,11 +367,11 @@
         "message": "Mut {0}?"
     },
     "skip_to_category": {
-        "message": "Sari la {0}?",
+        "message": "Treceți la {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "skipped": {
-        "message": "Sărit peste {0}",
+        "message": "{0} a fost omis",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
