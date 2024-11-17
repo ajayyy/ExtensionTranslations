@@ -57,7 +57,7 @@
         "message": "Apasă unskip pentru a reveni."
     },
     "unskip": {
-        "message": "Anulează"
+        "message": "Anulați"
     },
     "reskip": {
         "message": "Sari peste"
@@ -379,7 +379,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "Sărit la {0}",
+        "message": "S-a trecut la {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -798,7 +798,7 @@
         "message": "Întreabă când se încarcă videoclipul"
     },
     "showOverlay_POI": {
-        "message": "Arată În Bara de Derulare"
+        "message": "Afișați în bara de derulare"
     },
     "showOverlay_full": {
         "message": "Arată eticheta"
@@ -1391,5 +1391,9 @@
     },
     "Error": {
         "message": "Eroare"
+    },
+    "FillerWarning": {
+        "message": "Atenție: Aceasta este o categorie deosebit de agresivă. Probabil va trebui să anulați diverse omiteri sau chiar să dezactivați opțiunea. Multe videoclipuri vor avea omiteri de peste 50% din durata lor! Cu toate acestea, rețineți că există niște reguli clare pentru propuneri.",
+        "description": "Warning that appears when enabling the filler tangent category"
     }
 }
