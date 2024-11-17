@@ -29,11 +29,11 @@
         "message": "Capitolele"
     },
     "renderAsChapters": {
-        "message": "Randarea segmentelor ca, capitole",
+        "message": "Afișați segmentele folosind formatul capitolelor",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
-        "message": "Arată ora video din segmentul curent"
+        "message": "Afișează segmentul curent lângă indicatorul de timp"
     },
     "upvoteButtonInfo": {
         "message": "Votează această înregistrare"
@@ -57,7 +57,7 @@
         "message": "Apasă unskip pentru a reveni."
     },
     "unskip": {
-        "message": "Unskip"
+        "message": "Anulează"
     },
     "reskip": {
         "message": "Sari peste"
@@ -821,7 +821,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Culoare Nepredată",
+        "message": "Culoare pentru segmente nepredate",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
