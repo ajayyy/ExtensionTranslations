@@ -591,6 +591,9 @@
     "edit": {
         "message": "Edytuj"
     },
+    "copyDebugLogs": {
+        "message": "Kopiuj dzienniki debugowania"
+    },
     "copyDebugInformation": {
         "message": "Skopiuj informacje debugowania do schowka"
     },
@@ -1327,6 +1330,9 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Formatuj tylko przesłane tytuły"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Używaj samych wielkich liter w nieanglojęzycznych tytułach"
     },
@@ -1492,6 +1498,34 @@
     "tip5": {
         "message": "Zacznij od wielkiej litery jak w zdaniu ",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Zaznacz wszystkie pola wytycznych, aby przesłać",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Mój tytuł zaczyna się wielką literą, tak jak zdanie",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Mój tytuł to nie tylko odpowiedź na postawione w tytule pytanie",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Tytuły powinny opisywać film lub fabułę w ogóle. Zamiast polegać na ciekawym, oryginalnym tytule, obejrzyj cały film, aby dowiedzieć się, o czym on właściwie jest.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mój tytuł nie podsumowuje wniosków i nie spoileruje bez potrzeby",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Tytuły nie mają na celu zastąpienia obejrzenia filmu, lecz dają znać, czy warto na niego kliknąć.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mój tytuł nie weryfikuje faktów, nie wyśmiewa ani nie krytykuje filmu ani jego twórcy",
+        "description": "Tip title in DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Twoje ustawienia z SponsorBlock zostały automatycznie zaimportowane!"
