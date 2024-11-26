@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Zeige Pop-up nach dem Überspringen eines Segments"
     },
+    "showUpcomingNotice": {
+        "message": "Zeige Popup, bevor ein Segment beginnt"
+    },
     "showCategoryGuidelines": {
         "message": "Kategorienhilfe anzeigen"
     },
@@ -1329,6 +1332,9 @@
     },
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
+    },
+    "onlyFormatCustomTitles": {
+        "message": "Nur eingereichte Titel formatieren"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Wörter für nicht-englische Titel großschreiben"
