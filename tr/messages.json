@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Bir Kısmı Atladıktan Sonra Uyarı Göster"
     },
+    "showUpcomingNotice": {
+        "message": "Bir Kısım Başlamadan Önce Uyarı Göster"
+    },
     "showCategoryGuidelines": {
         "message": "Kategori Yardımını Göster"
     },
