@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Zobrazit upozornění po přeskočení segmentu"
     },
+    "showUpcomingNotice": {
+        "message": "Zobrazit oznámení před začátkem segmentu"
+    },
     "showCategoryGuidelines": {
         "message": "Zobrazit nápovědu ke kategorii"
     },
