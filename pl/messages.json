@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Pokaż informację po pominięciu segmentu"
     },
+    "showUpcomingNotice": {
+        "message": "Wyświetl powiadomienie przed rozpoczęciem segmentu"
+    },
     "showCategoryGuidelines": {
         "message": "Pokaż pomoc kategorii"
     },
