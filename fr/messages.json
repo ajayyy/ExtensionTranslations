@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Notifier après qu'un segment a été sauté"
     },
+    "showUpcomingNotice": {
+        "message": "Afficher un message avant le début d'un segment"
+    },
     "showCategoryGuidelines": {
         "message": "Affiche l'aide de la catégorie"
     },
