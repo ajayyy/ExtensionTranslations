@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Показывать уведомление после пропуска сегмента"
     },
+    "showUpcomingNotice": {
+        "message": "Показывать уведомление перед началом сегмента"
+    },
     "showCategoryGuidelines": {
         "message": "Показать справку для категории"
     },
