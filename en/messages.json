@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Show Notice After A Segment Is Skipped"
     },
+    "showUpcomingNotice": {
+        "message": "Show Notice Before A Segment Starts"
+    },
     "showCategoryGuidelines": {
         "message": "Show Category Help"
     },
