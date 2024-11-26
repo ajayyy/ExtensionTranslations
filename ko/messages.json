@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "구간을 건너뛴 후 알림 표시"
     },
+    "showUpcomingNotice": {
+        "message": "구간 시작 전 알림 표시"
+    },
     "showCategoryGuidelines": {
         "message": "카테고리 도움말 표시"
     },
