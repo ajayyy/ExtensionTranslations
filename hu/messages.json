@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Jelezzen, ha egy szegmens át lett ugorva"
     },
+    "showUpcomingNotice": {
+        "message": "Értesítés mutatása szegmens kezdete előtt"
+    },
     "showCategoryGuidelines": {
         "message": "Kategória útmutató megjelenítése"
     },
