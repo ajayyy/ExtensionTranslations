@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Näytä ilmoitus ohitetun osion jälkeen"
     },
+    "showUpcomingNotice": {
+        "message": "Näytä ilmoitus ennen kuin osio alkaa"
+    },
     "showCategoryGuidelines": {
         "message": "Näytä kategorian ohje"
     },
@@ -377,6 +380,10 @@
     "skip_to_category": {
         "message": "Ohita kohtaan: {0}",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "Tulossa: ",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "{0} ohitettu",
