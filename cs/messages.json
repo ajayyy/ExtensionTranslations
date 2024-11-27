@@ -381,6 +381,10 @@
         "message": "Přeskočit na {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "Nadcházející {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "Segment {0} přeskočen",
         "description": "Example: Sponsor Skipped"
