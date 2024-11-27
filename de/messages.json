@@ -403,7 +403,7 @@
         "message": "Audio-Benachrichtigung beim Überspringen"
     },
     "audioNotificationDescription": {
-        "message": "Es wird ein Ton abgespielt, wenn ein Segment übersprungen wird. Wenn deaktiviert (oder wenn Automatisches-Überspringen deaktiviert ist), wird kein Ton abgespielt."
+        "message": "Es wird ein Ton abgespielt, wenn ein Segment übersprungen wird. Wenn deaktiviert (oder wenn automatisches Überspringen deaktiviert ist), wird kein Ton abgespielt."
     },
     "showTimeWithSkips": {
         "message": "Videodauer nach Abzug der überspringbaren Videosegmente anzeigen"
