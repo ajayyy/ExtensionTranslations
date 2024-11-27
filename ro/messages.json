@@ -796,7 +796,7 @@
         "message": "Sari Peste Manual"
     },
     "showOverlay": {
-        "message": "Afișați în bara de derulare"
+        "message": "Afișare în bara de derulare"
     },
     "disable": {
         "message": "Dezactivare"
@@ -808,7 +808,7 @@
         "message": "Întreabă când se încarcă videoclipul"
     },
     "showOverlay_POI": {
-        "message": "Afișați în bara de derulare"
+        "message": "Afișare în bara de derulare"
     },
     "showOverlay_full": {
         "message": "Arată eticheta"
@@ -831,7 +831,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Culoare pentru segmente nepredate",
+        "message": "Culoare pentru propuneri nepredate",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
