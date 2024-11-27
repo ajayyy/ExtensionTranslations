@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Visa ett meddelande efter att ett segment har hoppats över"
     },
+    "showUpcomingNotice": {
+        "message": "Visa meddelande innan ett segment startar"
+    },
     "showCategoryGuidelines": {
         "message": "Visa kategorihjälp"
     },
@@ -1500,6 +1503,18 @@
         "message": "Markera alla riktlinjer för att skicka in",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
+    "sentenceCaseTipTitle": {
+        "message": "Min titel är versalgemen som en mening",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Titlar ska beskriva videon eller berättelsen i allmänhet. Du bör se till att titta på den fullständiga videon för att veta vad det faktiskt handlar om i stället för att förlita sig på en spännande originaltitel.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Min titel faktakontrollerar, hånar eller kritiserar inte videon eller skaparen",
+        "description": "Tip title in DeArrow"
+    },
     "DetectedWord": {
         "message": "Upptäckta ord: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
@@ -1508,8 +1523,20 @@
         "message": "Använd inte onödiga verb i början av titeln",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
     },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Starta alla titlar med en versal. Titlar ska formateras som en mening",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEndWithPeriodWarning": {
         "message": "Titlar ska inte sluta med en '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Lägg inte bara till ett svar på en fråga i den ursprungliga titeln. Titlar ska beskriva videon eller berättelsen i allmänhet",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Titlar ska inte faktakontrollera, håna eller kritiserar videon eller skaparen",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {

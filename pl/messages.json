@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Pokaż informację po pominięciu segmentu"
     },
+    "showUpcomingNotice": {
+        "message": "Wyświetl powiadomienie przed rozpoczęciem segmentu"
+    },
     "showCategoryGuidelines": {
         "message": "Pokaż pomoc kategorii"
     },
@@ -590,6 +593,9 @@
     },
     "edit": {
         "message": "Edytuj"
+    },
+    "copyDebugLogs": {
+        "message": "Kopiuj dzienniki debugowania"
     },
     "copyDebugInformation": {
         "message": "Skopiuj informacje debugowania do schowka"
@@ -1327,6 +1333,9 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Formatuj tylko przesłane tytuły"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Używaj samych wielkich liter w nieanglojęzycznych tytułach"
     },
@@ -1492,6 +1501,73 @@
     "tip5": {
         "message": "Zacznij od wielkiej litery jak w zdaniu ",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Zaznacz wszystkie pola wytycznych, aby przesłać",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Mój tytuł zaczyna się wielką literą, tak jak zdanie",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Mój tytuł to nie tylko odpowiedź na postawione w tytule pytanie",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Tytuły powinny opisywać film lub fabułę w ogóle. Zamiast polegać na ciekawym, oryginalnym tytule, obejrzyj cały film, aby dowiedzieć się, o czym on właściwie jest.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mój tytuł nie podsumowuje wniosków i nie spoileruje bez potrzeby",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Tytuły nie mają na celu zastąpienia obejrzenia filmu, lecz dają znać, czy warto na niego kliknąć.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mój tytuł nie weryfikuje faktów, nie wyśmiewa ani nie krytykuje filmu ani jego twórcy",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Tytuły mają być przedstawiane z perspektywy twórcy i filmu. Ocenianie lub sprawdzanie faktów dotyczących samego filmu nie jest tym, czym zajmuje się DeArrow. Tytuły nie mają być sekcją komentarzy.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Wykryte słowo: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Nie używaj zbędnych czasowników na początku tytułu",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Rozpocznij wszystkie tytuły wielką literą. Tytuły powinny być pisane jak zdania",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Tytuły nie powinny kończyć się znakiem '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Nie ma potrzeby odpowiadać na pytanie w oryginalnym tytule. Tytuły powinny opisywać film lub fabułę w ogóle",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Tytuły nie powinny weryfikować faktów, wyśmiewać ani krytykować filmu ani jego twórcy",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Tytuły nie powinny zawierać elementów sensacyjnych z tytułu oryginalnego",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Tytuły nie powinny zawierać emoji",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Przed wysłaniem należy rozwiązać ostrzeżenie"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Twoje ustawienia z SponsorBlock zostały automatycznie zaimportowane!"
@@ -1693,5 +1769,13 @@
     },
     "submissionFailedServerSideAds": {
         "message": "W tej chwili nie można wysyłać zgłoszeń z Twojej przeglądarki, ponieważ wydaje się, że zostały wstawione wstępnie wyrenderowane reklamy po stronie serwera YouTube, których rozszerzenie nie jest w stanie usunąć. Jeśli widzisz ten błąd, skontaktuj się z nami."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow jest wyłączony - kliknij, aby włączyć",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Czy na pewno ta oryginalna miniatura jest zgodna z wytycznymi DeArrow? Jeśli wolisz po prostu oglądać oryginalne miniatury, sprawdź opcję \"Gdy nie przesłano żadnej miniatury dla filmu\" w ustawieniach DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     }
 }

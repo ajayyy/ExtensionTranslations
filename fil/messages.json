@@ -190,6 +190,9 @@
     "showNotice": {
         "message": "Ipakita yung notice ulit"
     },
+    "showUpcomingNotice": {
+        "message": "Ipakita muna yung notice bago magsimula ang mga Segment"
+    },
     "website": {
         "message": "Website",
         "description": "Used on Firefox Store Page"

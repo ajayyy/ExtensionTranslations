@@ -170,6 +170,18 @@
         "message": "اگر همچنان این را نمی‌پسندید، گزینه هرگز نمایش نده را انتخاب کنید.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
+    "setSkipShortcut": {
+        "message": "رد کردن بخش",
+        "description": "Keybind label"
+    },
+    "nextChapterKeybind": {
+        "message": "بخش بعدی",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "بخش پیشین",
+        "description": "Keybind label"
+    },
     "disableSkipping": {
         "message": "ردکردن فعال است"
     },
@@ -209,8 +221,22 @@
     "minLower": {
         "message": "دقیقه"
     },
+    "minsLower": {
+        "message": "دقیقه"
+    },
     "hourLower": {
         "message": "ساعت"
+    },
+    "hoursLower": {
+        "message": "ساعت"
+    },
+    "youHaveSavedTime": {
+        "message": "شما دیگران را نجات دادید از",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
+    },
+    "youHaveSavedTimeEnd": {
+        "message": " از زندگی‌شان",
+        "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "createdBy": {
         "message": "ایجاد شده توسط"
@@ -232,6 +258,9 @@
     },
     "mobileUpdateInfo": {
         "message": "m.youtube.com اکنون پشتیبانی می‌شود"
+    },
+    "exportOptionsDownload": {
+        "message": "ذخیره در فایل"
     },
     "setOptions": {
         "message": "تنظیم گزینه‌ها"
@@ -263,6 +292,10 @@
     "to": {
         "message": "به",
         "description": "Used between segments. Example: 1:20 to 1:30"
+    },
+    "CopiedExclamation": {
+        "message": "کپی شد!",
+        "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "category_sponsor": {
         "message": "اسپانسر"

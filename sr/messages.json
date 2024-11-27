@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Прикажи обавештење након што је сегмент прескочен"
     },
+    "showUpcomingNotice": {
+        "message": "Прикажи обавештење пре почетка сегмента"
+    },
     "showCategoryGuidelines": {
         "message": "Прикажи помоћ за категорију"
     },
