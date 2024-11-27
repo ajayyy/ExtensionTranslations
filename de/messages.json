@@ -54,7 +54,7 @@
         "message": "Verstecken"
     },
     "hitGoBack": {
-        "message": "Klicke auf \"Nicht überspringen\" um die Aktion rückgängig zu machen."
+        "message": "Klicke auf „Nicht überspringen“, um die Aktion rückgängig zu machen."
     },
     "unskip": {
         "message": "Nicht überspringen"
@@ -220,7 +220,7 @@
         "message": "Diese Funktion erfasst, welche Segmente du übersprungen hast, um anderen Nutzer zu zeigen, wie hilfreich ihre Beiträge sind. Außerdem stellt dies zusammen mit positiven Bewertungen sicher, dass keine unerwünschten Inhalte in die Datenbank gelangen. Die Erweiterung sendet jedes Mal, wenn du ein Segment überspringst, eine Meldung an den Server. Hoffentlich verändern die meisten Nutzer diese Einstellung nicht, um unsere Statistik zu verbessern :)"
     },
     "enableViewTrackingInPrivate": {
-        "message": "Aktiviere den Übersprungen Zähler in Privaten/Incognito Tabs"
+        "message": "Aktiviere Zählen übersprungener Segmente in Inkognito-Fenstern"
     },
     "enableTrackDownvotes": {
         "message": "Speichere Downvotes von Segmenten"
@@ -256,16 +256,16 @@
         "message": "Hinweis erneut anzeigen"
     },
     "showSkipNotice": {
-        "message": "Zeige Pop-up nach dem Überspringen eines Segments"
+        "message": "Zeige Hinweis nach dem Überspringen eines Segments"
     },
     "showUpcomingNotice": {
-        "message": "Zeige Popup, bevor ein Segment beginnt"
+        "message": "Zeige Hinweis, bevor ein Segment beginnt"
     },
     "showCategoryGuidelines": {
         "message": "Kategorienhilfe anzeigen"
     },
     "noticeVisibilityMode0": {
-        "message": "Skip-Meldung in voller größe"
+        "message": "Überspringen-Meldung in voller Größe"
     },
     "noticeVisibilityMode1": {
         "message": "Kleine Skip-Meldung für Auto-Skips"
@@ -453,7 +453,7 @@
         "message": "Erstellt von"
     },
     "supportOtherSites": {
-        "message": "Unterstütze Drittanbieter YouTube-Seiten"
+        "message": "Unterstütze Drittanbieter-YouTube-Seiten"
     },
     "supportOtherSitesDescription": {
         "message": "Unterstütze YouTube-Clients von Drittanbietern. Um die Unterstützung zu aktivieren, musst du die zusätzlichen Berechtigungen akzeptieren.",
@@ -514,7 +514,7 @@
         "message": "Upload-Knopf anzeigen"
     },
     "customServerAddress": {
-        "message": "SponsorBlock Serveradresse"
+        "message": "SponsorBlock-Serveradresse"
     },
     "customServerAddressDescription": {
         "message": "Die Adresse, die SponsorBlock verwendet, um Anfragen an den Server zu senden. Solange du keine eigene Serverinstanz hast, sollte das nicht geändert werden."
@@ -550,7 +550,7 @@
         "message": "Alle anderen Daten importieren/exportieren"
     },
     "exportOptionsCopy": {
-        "message": "Bearbeiten/Kopieren"
+        "message": "Bearbeiten / kopieren"
     },
     "exportOptionsDownload": {
         "message": "Als Datei speichern"
@@ -642,7 +642,7 @@
         "message": "Unbezahlt/​Eigenwerbung"
     },
     "category_selfpromo_description": {
-        "message": "Ähnlich wie \"Gesponsorte Videosegmente\", jedoch für unbezahlte oder Eigenwerbung. Dies beinhaltet Bereiche über Merchandise, Spenden, oder Informationen darüber, mit wem zusammengearbeitet wurde."
+        "message": "Ähnlich wie \"Gesponsorte Videosegmente\", jedoch für unbezahlte oder Eigenwerbung. Dies beinhaltet Bereiche über Merchandise, Spenden oder Informationen darüber, mit wem zusammengearbeitet wurde."
     },
     "category_selfpromo_guideline1": {
         "message": "Spenden, Mitgliedschaften und eigene Fanartikel"
@@ -761,7 +761,7 @@
         "message": "Highlight"
     },
     "category_poi_highlight_description": {
-        "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\" Kommentare."
+        "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\"-Kommentare."
     },
     "category_poi_highlight_guideline1": {
         "message": "Bereiche, die die meisten Personen suchen"
@@ -821,7 +821,7 @@
         "message": "Kapitel zeigen"
     },
     "autoSkipOnMusicVideos": {
-        "message": "Alle Segmente automatisch überspringen, wenn ein nicht-Musiksegment vorhanden ist"
+        "message": "Alle Segmente automatisch überspringen, wenn ein Nicht-Musiksegment vorhanden ist"
     },
     "muteSegments": {
         "message": "Segmente zulassen, die den Ton ausschalten anstatt zu überspringen"
@@ -855,7 +855,7 @@
         "message": "Deine Beiträge und Bewertungen/Meldungen werden NICHT an den Hauptserver übertragen. Benutze diese Option also nur für Tests."
     },
     "testingServerWarning": {
-        "message": "Alle Beiträge und Bewertungen/Meldungen werden NICHT an den Hauptserver übertragen. Deaktiviere die Betatest-Server Option um Einreichungen an den Hauptserver zu senden."
+        "message": "Alle Beiträge und Bewertungen/Meldungen werden NICHT an den Hauptserver übertragen. Deaktiviere die Betatest-Server Option, um Einreichungen an den Hauptserver zu senden."
     },
     "bracketNow": {
         "message": "(jetzt)"
@@ -912,13 +912,13 @@
         "message": "Berechtigungsanfrage fehlgeschlagen, hast du sie abgelehnt?"
     },
     "adblockerIssueWhitelist": {
-        "message": "Falls du dies nicht beheben kannst, deaktiviere die Einstellung 'Kanalprüfung vor dem Überspringen von Segmenten erzwingen', da SponsorBlock nicht in der Lage ist die Kanal-Informationen für dieses Video abzurufen"
+        "message": "Falls du dies nicht beheben kannst, deaktiviere die Einstellung 'Kanalprüfung vor dem Überspringen von Segmenten erzwingen', da SponsorBlock nicht in der Lage ist, die Kanal-Informationen für dieses Video abzurufen"
     },
     "forceChannelCheck": {
         "message": "Kanalprüfung vor dem Überspringen von Segmenten erzwingen"
     },
     "whatForceChannelCheck": {
-        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhapt weiss, welcher Kanal das ist. Normalerweise führt dies dazu, dass Videosegmente von erlaubten Kanälen am Anfang übersprungen werden. Das aktivieren dieser Option verhindert dies, hat jedoch eine leichte Verzögerung beim überspringen zur folge, da die Kanal-ID erst eingelesen werden muss. Diese sollte bei einer schnellen Internetverbindung jedoch kaum bemerkbar sein."
+        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhaupt weiß, von welchem Kanal das Video ist. Normalerweise führt dies dazu, dass Videosegmente von erlaubten Kanälen am Anfang übersprungen werden. Das Aktivieren dieser Option verhindert das, hat jedoch eine leichte Verzögerung beim Uberspringen zur Folge, da die Kanal-ID erst eingelesen werden muss. Diese sollte bei einer schnellen Internetverbindung jedoch kaum bemerkbar sein."
     },
     "forceChannelCheckPopup": {
         "message": "Eventuell solltest du die Option \"Kanalprüfung vor dem Überspringen von Segmenten erzwingen\" aktivieren."
@@ -937,7 +937,7 @@
         "message": "Kategorie ändern"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "Dieses Video ist als Musikvideo kategorisiert. Bist du dir sicher, dass es ein gesponsertes Videosegment hat? Wenn dies tatsächlich ein Musikvideoteil ohne Musik ist, öffne die Optionen von SponsorBlock und aktiviere diese Kategorie. Danach kannst du dieses Segment als solches markieren. Bitte lese die Richtlinien, wenn du dir nicht sicher bist."
+        "message": "Dieses Video ist als Musikvideo kategorisiert. Bist du dir sicher, dass es ein gesponsertes Videosegment hat? Wenn dies tatsächlich ein Musikvideoteil ohne Musik ist, öffne die Optionen von SponsorBlock und aktiviere diese Kategorie. Danach kannst du dieses Segment als solches markieren. Bitte lies die Richtlinien, wenn du dir nicht sicher bist."
     },
     "multipleSegments": {
         "message": "Mehrere Segmente"
@@ -953,7 +953,7 @@
         "message": "Kategorien sind hier!"
     },
     "categoryUpdate2": {
-        "message": "Öffne die Optionen um das Verhalten bei Intros, Outros, Merchandising (Fanartikel) usw. einzustellen."
+        "message": "Öffne die Optionen, um das Verhalten bei Intros, Outros, Merchandising (Fanartikel) usw. einzustellen."
     },
     "help": {
         "message": "Hilfe"
@@ -1018,19 +1018,19 @@
         "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Wie überspringen funktioniert"
+        "message": "Wie das Überspringen funktioniert"
     },
     "helpPageHowSkippingWorks1": {
         "message": "Videosegmente werden automatisch übersprungen, wenn sie in der Datenbank gefunden werden. Du kannst das Popup öffnen, indem du auf das Erweiterungssymbol klickst, um eine Vorschau darüber zu erhalten, was diese sind."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Wann immer du ein Segment überspringst, erhältst du eine Benachrichtigung. Wenn das Timing falsch erscheint, kannst du das Segment herunter stimmen! Du kannst auch im Pop-up abstimmen."
+        "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment herunterstimmen! Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
         "message": "Übermitteln"
     },
     "helpPageSubmitting1": {
-        "message": "Das Einreichen kann entweder im Pop-up durch Drücken des \"Segment Startet Jetzt\" Knopf oder im Videoplayer mit den Knöpfen im Player gemacht werden."
+        "message": "Das Einreichen kann entweder im Popup durch Drücken des „Segment startet jetzt“-Knopfs oder mit den Knöpfen im Wiedergabefenster gemacht werden."
     },
     "helpPageSubmitting2": {
         "message": "Mit einem Klick auf den Play-Button wird der Beginn eines Segments markiert, und mit einem Klick auf den Stop-Button dessen Ende. Du kannst mehrere Segmente anlegen, bevor du durch Klicken des Upload-Buttons zum Einreichen fortfährst. Ein Klick auf die Mülltonne löscht deine angelegten Segmente."
@@ -1319,7 +1319,7 @@
         "message": "Wörter großschreiben"
     },
     "TitleCase": {
-        "message": "Großschreibung in Überschriften"
+        "message": "Jedes Wort groß"
     },
     "SentenceCase": {
         "message": "Satzschreibung"
@@ -1606,7 +1606,7 @@
         "message": "Ersetze Thumbnails"
     },
     "useCrowdsourcedTitles": {
-        "message": "Verwende crowdsourced Titel"
+        "message": "Verwende eingereichte Titel"
     },
     "whatUseCrowdsourcedTitles": {
         "message": "Wenn deaktiviert, werden Titel formatiert, aber keine von der Community übermittelten Titel verwendet",
