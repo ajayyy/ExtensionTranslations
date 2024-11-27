@@ -36,7 +36,7 @@
         "message": "Afișează segmentul curent lângă indicatorul de timp"
     },
     "upvoteButtonInfo": {
-        "message": "Votează această înregistrare"
+        "message": "Apreciază această propunere"
     },
     "reportButtonTitle": {
         "message": "Raportează"
@@ -392,10 +392,10 @@
         "message": "Notificare Audio Când Sari"
     },
     "audioNotificationDescription": {
-        "message": "Notificarea audio va reda un sunet atunci când sari peste o sponsorizare. Dacă este dezactivat (sau autoskip este dezactivat), niciun sunet va fi redat."
+        "message": "Semnalul sonor se va reda atunci când omiteți un segment. Dacă acesta sau omiterea automată sunt dezactivate, nu va fi redat niciun sunet."
     },
     "showTimeWithSkips": {
-        "message": "Arată timpul cu săriturile eliminate"
+        "message": "Afișare durată totală după omiterea segmentelor"
     },
     "showTimeWithSkipsDescription": {
         "message": "Acest timp apare în paranteze lângă ora curentă sub bara de progres. Aceasta arată durata totală a videoclipului minus orice segment. Aceasta include segmente marcate doar ca \"Afișare în Seekbar\"."
@@ -786,7 +786,7 @@
         "message": "Sari Peste Manual"
     },
     "showOverlay": {
-        "message": "Arată În Bara de Derulare"
+        "message": "Afișați în bara de derulare"
     },
     "disable": {
         "message": "Dezactivare"
