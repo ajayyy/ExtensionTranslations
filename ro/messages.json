@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Arată o notificare după ce un segment este sărit"
     },
+    "showUpcomingNotice": {
+        "message": "Avertizați înainte de începerea unui segment"
+    },
     "showCategoryGuidelines": {
         "message": "Afișează Categoria de Ajutor"
     },
@@ -369,6 +372,10 @@
     "skip_to_category": {
         "message": "Treceți la {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "{0} în curând",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "{0} a fost omis",
@@ -582,6 +589,9 @@
     },
     "edit": {
         "message": "Editare"
+    },
+    "copyDebugLogs": {
+        "message": "Copiere informații de depanare"
     },
     "copyDebugInformation": {
         "message": "Copiază Informațiile de Depanare În Clipboard"
@@ -1395,5 +1405,13 @@
     "FillerWarning": {
         "message": "Atenție: Aceasta este o categorie deosebit de agresivă. Probabil va trebui să anulați diverse omiteri sau chiar să dezactivați opțiunea. Multe videoclipuri vor avea omiteri de peste 50% din durata lor! Cu toate acestea, rețineți că există niște reguli clare pentru propuneri.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "tip5": {
+        "message": "Aplicați majuscule precum într-o propoziție",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Cuvânt problemă: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     }
 }
