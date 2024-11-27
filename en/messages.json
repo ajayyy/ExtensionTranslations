@@ -381,6 +381,10 @@
         "message": "Skip to {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "Upcoming {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} Skipped",
         "description": "Example: Sponsor Skipped"
