@@ -249,6 +249,9 @@
     "showSkipNotice": {
         "message": "แสดงการแจ้งเตือนหลังข้ามส่วน"
     },
+    "showUpcomingNotice": {
+        "message": "แสดงการแจ้งเตือนก่อนเข้าส่วน"
+    },
     "showCategoryGuidelines": {
         "message": "แสดงความช่วยเหลือหมวดหมู่"
     },
@@ -728,6 +731,10 @@
     "yearAbbreviation": {
         "message": "ปี",
         "description": "100y"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds} วินาที",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "ignoreAbThumbnails": {
         "message": "ไม่ใช้ภาพขนาดย่อที่สุ่มจากช่วงหนึ่งของเนื้อหา"
