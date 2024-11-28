@@ -381,6 +381,10 @@
         "message": "{0} kısmına atlansın mı?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "{0} yaklaşıyor",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} Atlandı",
         "description": "Example: Sponsor Skipped"

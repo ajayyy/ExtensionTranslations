@@ -381,6 +381,10 @@
         "message": "Прескачане до {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "Предстои {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} пропуснат",
         "description": "Example: Sponsor Skipped"

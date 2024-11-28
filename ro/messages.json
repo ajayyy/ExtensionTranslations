@@ -36,7 +36,7 @@
         "message": "Afișează segmentul curent lângă indicatorul de timp"
     },
     "upvoteButtonInfo": {
-        "message": "Votează această înregistrare"
+        "message": "Apreciază această propunere"
     },
     "reportButtonTitle": {
         "message": "Raportează"
@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Arată o notificare după ce un segment este sărit"
     },
+    "showUpcomingNotice": {
+        "message": "Avertizați înainte de începerea unui segment"
+    },
     "showCategoryGuidelines": {
         "message": "Afișează Categoria de Ajutor"
     },
@@ -370,6 +373,10 @@
         "message": "Treceți la {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "{0} în curând",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} a fost omis",
         "description": "Example: Sponsor Skipped"
@@ -392,10 +399,10 @@
         "message": "Notificare Audio Când Sari"
     },
     "audioNotificationDescription": {
-        "message": "Notificarea audio va reda un sunet atunci când sari peste o sponsorizare. Dacă este dezactivat (sau autoskip este dezactivat), niciun sunet va fi redat."
+        "message": "Semnalul sonor se va reda atunci când omiteți un segment. Dacă acesta sau omiterea automată sunt dezactivate, nu va fi redat niciun sunet."
     },
     "showTimeWithSkips": {
-        "message": "Arată timpul cu săriturile eliminate"
+        "message": "Afișare durată totală după omiterea segmentelor"
     },
     "showTimeWithSkipsDescription": {
         "message": "Acest timp apare în paranteze lângă ora curentă sub bara de progres. Aceasta arată durata totală a videoclipului minus orice segment. Aceasta include segmente marcate doar ca \"Afișare în Seekbar\"."
@@ -582,6 +589,9 @@
     },
     "edit": {
         "message": "Editare"
+    },
+    "copyDebugLogs": {
+        "message": "Copiere informații de depanare"
     },
     "copyDebugInformation": {
         "message": "Copiază Informațiile de Depanare În Clipboard"
@@ -786,7 +796,7 @@
         "message": "Sari Peste Manual"
     },
     "showOverlay": {
-        "message": "Arată În Bara de Derulare"
+        "message": "Afișare în bara de derulare"
     },
     "disable": {
         "message": "Dezactivare"
@@ -798,7 +808,7 @@
         "message": "Întreabă când se încarcă videoclipul"
     },
     "showOverlay_POI": {
-        "message": "Afișați în bara de derulare"
+        "message": "Afișare în bara de derulare"
     },
     "showOverlay_full": {
         "message": "Arată eticheta"
@@ -821,7 +831,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Culoare pentru segmente nepredate",
+        "message": "Culoare pentru propuneri nepredate",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
@@ -1395,5 +1405,13 @@
     "FillerWarning": {
         "message": "Atenție: Aceasta este o categorie deosebit de agresivă. Probabil va trebui să anulați diverse omiteri sau chiar să dezactivați opțiunea. Multe videoclipuri vor avea omiteri de peste 50% din durata lor! Cu toate acestea, rețineți că există niște reguli clare pentru propuneri.",
         "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "tip5": {
+        "message": "Aplicați majuscule precum într-o propoziție",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Cuvânt problemă: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     }
 }
