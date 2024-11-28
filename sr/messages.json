@@ -382,7 +382,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
-        "message": "Следи {0}",
+        "message": "Предстоји {0}",
         "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
