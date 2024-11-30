@@ -75,6 +75,10 @@
     "mute": {
         "message": "Nutildyti"
     },
+    "upcoming": {
+        "message": "Netrukus: {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "minLower": {
         "message": "minutė"
     },
