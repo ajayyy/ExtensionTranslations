@@ -569,6 +569,9 @@
     "category_sponsor_guideline1": {
         "message": "โปรโมชั่นที่ได้รับเงิน"
     },
+    "category_sponsor_guideline2": {
+        "message": "ไม่ควรใช้สำหรับการบริจาคหรือสินค้า"
+    },
     "category_selfpromo_description": {
         "message": "คล้ายกับ \"สปอนเซอร์\" แต่ยกเว้นสำหรับการโปรโมทตัวเอง ซึ่งรวมถึงสินค้า, การบริจาค, หรือข้อมูลเกี่ยวกับผู้ที่เขาร่วมมือด้วย"
     },
@@ -605,8 +608,17 @@
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
+    "category_filler_guideline1": {
+        "message": "เป็นฉากตัวเสริมหรือฉากเพื่อความตลก"
+    },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
+    },
+    "category_poi_highlight_guideline2": {
+        "message": "สามารถข้ามผ่านบริบทได้"
+    },
+    "category_poi_highlight_guideline3": {
+        "message": "สามารถข้ามไปยังชื่อหรือภาพปกได้"
     },
     "category_chapter": {
         "message": "ส่วนเนื้อหา"
@@ -635,8 +647,15 @@
     "showOverlay_chapter": {
         "message": "แสดงส่วนเนื้อหา"
     },
+    "seekBarColor": {
+        "message": "สีแถบกรอ"
+    },
     "category": {
         "message": "หมวดหมู่"
+    },
+    "skipOption": {
+        "message": "ตัวเลือกการข้าม",
+        "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "bracketNow": {
         "message": "(ตอนนี้)"
@@ -661,6 +680,9 @@
     },
     "hiddenDueToDuration": {
         "message": "ถูกซ่อน: สั้นเกินไป"
+    },
+    "forceChannelCheck": {
+        "message": "บังคับให้ตรวจช่องก่อนข้าม"
     },
     "incorrectVote": {
         "message": "ไม่ถูกต้อง"
@@ -713,6 +735,9 @@
     "deArrowMessageRecieved": {
         "message": "คุณได้รับข้อแนะนำจากผู้ดูแล"
     },
+    "Donate": {
+        "message": "บริจาค"
+    },
     "hideDonationLink": {
         "message": "ซ่อนลิงค์การบริจาค"
     },
@@ -725,19 +750,85 @@
     "helpPageFeatureDisclaimer": {
         "message": "ฟีเจอร์หลายอย่างถูกปิดใช้งานโดยค่าเริ่มต้น ถ้าคุณต้องการข้ามอินโทร เอาต์โทร ใช้ Invidious ฯลฯ ให้เปิดใช้งานมันข้างล่าง คุณสามารถซ่อน/แสดงองค์ประกอบของ UI ได้เช่นกัน"
     },
+    "Editing": {
+        "message": "การดัดแปลง"
+    },
     "helpPageCopyOfDatabase1": {
         "message": "ฐานข้อมูลเป็นสาธารณะและสามารถดูได้ที่"
     },
     "Credits": {
         "message": "เครดิต"
     },
+    "LearnMore": {
+        "message": "เรียนรู้เพิ่มเติม"
+    },
+    "FullDetails": {
+        "message": "รายละเอียดเต็ม"
+    },
+    "upvote": {
+        "message": "เห็นด้วย"
+    },
+    "hideSegment": {
+        "message": "ซ่อนส่วน"
+    },
+    "skipSegment": {
+        "message": "ข้ามส่วน"
+    },
     "yearAbbreviation": {
         "message": "ปี",
         "description": "100y"
     },
+    "dayAbbreviation": {
+        "message": "ว.",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "ชม.",
+        "description": "100h"
+    },
+    "optionsTabBehavior": {
+        "message": "พฤติกรรม",
+        "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabBackup": {
+        "message": "สำรอง/กู้คืน",
+        "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "notSet": {
+        "message": "ไม่ได้ตั้ง"
+    },
+    "openOptionsPage": {
+        "message": "เปิดการตั้งค่า"
+    },
+    "exportSegments": {
+        "message": "ส่งออกส่วน"
+    },
+    "importSegments": {
+        "message": "นำเข้าส่วน"
+    },
+    "Import": {
+        "message": "นำเข้า",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "videosSingular": {
+        "message": "วิดีโอ",
+        "description": "Example: You currently have 3 unsubmitted segments on 1 *video*"
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} วินาที",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "Original": {
+        "message": "ต้นฉบับ"
+    },
+    "OriginalTitle": {
+        "message": "ชื่อต้นฉบับ"
+    },
+    "CurrentTime": {
+        "message": "เวลาปัจจุบัน"
+    },
+    "Middle": {
+        "message": "ตอนกลาง"
     },
     "ignoreAbThumbnails": {
         "message": "ไม่ใช้ภาพขนาดย่อที่สุ่มจากช่วงหนึ่งของเนื้อหา"
@@ -751,7 +842,29 @@
     "titleMaxLines": {
         "message": "จำนวนบรรทัดข้อความสำหรับ ชื่อ ถึงขีดจำกัด"
     },
+    "Thumbnails": {
+        "message": "ภาพปก",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "privacyPolicy": {
+        "message": "นโยบายความเป็นส่วนตัว"
+    },
+    "termsOfUse": {
+        "message": "เงื่อนไขการใช้งาน"
+    },
+    "replaceTitles": {
+        "message": "แทนที่ชื่อ"
+    },
+    "replaceThumbnails": {
+        "message": "แทนที่ภาพปก"
+    },
     "requiresUblock": {
         "message": "ต้องมี uBlock Origin"
+    },
+    "ActivateDeArrow": {
+        "message": "เปิดใช้งาน DeArrow"
+    },
+    "Close": {
+        "message": "ปิด"
     }
 }
