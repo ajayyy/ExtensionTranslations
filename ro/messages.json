@@ -390,10 +390,10 @@
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
-        "message": "Dezactivează Autoskip"
+        "message": "Dezactivare omitere automată"
     },
     "enableAutoSkip": {
-        "message": "Activează Autoskip"
+        "message": "Activare omitere automată"
     },
     "audioNotification": {
         "message": "Notificare Audio Când Sari"
@@ -663,7 +663,7 @@
         "message": "Întreaga înregistrare video prezintă ceva cu acces liber sau subvenționat"
     },
     "category_interaction": {
-        "message": "Reamintire de Interactiune (Abonare)"
+        "message": "Memento de interacțiune (Abonare)"
     },
     "category_interaction_description": {
         "message": "Când există o scurtă remintire pentru like, abonare sau urmărire în mijlocul conținutului. Daca este mai lung sau despre ceva specific, folosiți autopromovarea."
@@ -681,7 +681,7 @@
         "message": "Reamintire de Interacțiune"
     },
     "category_intro": {
-        "message": "Pauză/Animație Intro"
+        "message": "Tranziție / introducere"
     },
     "category_intro_description": {
         "message": "Un interval fără conținut. Poate fi o pauză, un cadru static, o animație care se repeta. Nu ar trebui sa fie folosit pentru tranziții care conțin informații."
@@ -790,7 +790,7 @@
         "message": "Citire Mesaj"
     },
     "autoSkip": {
-        "message": "Sari Peste Automat"
+        "message": "Omitere automată"
     },
     "manualSkip": {
         "message": "Sari Peste Manual"
@@ -835,13 +835,13 @@
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
-        "message": "Culoarea Barei de Derulare"
+        "message": "Culoarea barei de derulare"
     },
     "category": {
         "message": "Categorie"
     },
     "skipOption": {
-        "message": "Opțiunea Săriturii",
+        "message": "Mod de omitere",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "enableTestingServer": {

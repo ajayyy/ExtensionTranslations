@@ -381,6 +381,10 @@
         "message": "{0}로 이동할까요?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "{0} 예고",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0}을 건너뜀",
         "description": "Example: Sponsor Skipped"
