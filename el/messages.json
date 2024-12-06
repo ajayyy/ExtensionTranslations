@@ -258,6 +258,9 @@
     "showSkipNotice": {
         "message": "Εμφάνιση ειδοποιήσεων μετά την παράλειψη κάθε τμήματος"
     },
+    "showUpcomingNotice": {
+        "message": "Εμφάνιση Ειδοποίησης Πριν Την Έναρξη Ενός Τμήματος"
+    },
     "showCategoryGuidelines": {
         "message": "Εμφάνιση βοήθειας κατηγοριών"
     },
@@ -377,6 +380,10 @@
     "skip_to_category": {
         "message": "Παράλειψη προς το σημείο «{0}»;",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "Επερχόμενο {0}",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "Παραλείφθηκε «{0}»",
