@@ -572,8 +572,11 @@
     "category_sponsor_guideline2": {
         "message": "ไม่ควรใช้สำหรับการบริจาคหรือสินค้า"
     },
+    "category_selfpromo": {
+        "message": "ไม่ได้ค่าจ้าง/การโปรโมทตัวเอง"
+    },
     "category_selfpromo_description": {
-        "message": "คล้ายกับ \"สปอนเซอร์\" แต่ยกเว้นสำหรับการโปรโมทตัวเอง ซึ่งรวมถึงสินค้า, การบริจาค, หรือข้อมูลเกี่ยวกับผู้ที่เขาร่วมมือด้วย"
+        "message": "คล้ายกับ \"สปอนเซอร์\" แต่ยกเว้นสำหรับการโปรโมทตัวเอง ซึ่งรวมถึงสินค้า, การบริจาค, หรือข้อมูลเกี่ยวกับผู้ที่ร่วมมือด้วย"
     },
     "category_selfpromo_guideline1": {
         "message": "การบริจาค การสมัครสมาชิก และสินค้าของครีเอเตอร์"
@@ -592,6 +595,9 @@
     },
     "category_intro_short": {
         "message": "ช่วงพัก"
+    },
+    "category_intro_guideline1": {
+        "message": "ช่วงที่ไม่มีเนื้อหาสำคัญ"
     },
     "category_outro": {
         "message": "การ์ดจบ/เครดิต"
@@ -613,6 +619,9 @@
     },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
+    },
+    "category_poi_highlight_description": {
+        "message": "ส่วนของวีดีโอที่คนส่วนใหญ่กำลังตามหา คล้ายกับความคิดเห็น \"วิดีโอเริ่มต้นที่ x\""
     },
     "category_poi_highlight_guideline2": {
         "message": "สามารถข้ามผ่านบริบทได้"
@@ -869,5 +878,9 @@
     },
     "Close": {
         "message": "ปิด"
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow ปิดการใช้งานอยู่ - คลิกเพื่อเปิดการใช้งาน",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
     }
 }
