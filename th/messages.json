@@ -681,6 +681,9 @@
     "hiddenDueToDuration": {
         "message": "ถูกซ่อน: สั้นเกินไป"
     },
+    "adblockerIssueWhitelist": {
+        "message": "ถ้าคุณไม่สามารถแก้ไขปัญหานี้ได้ ให้ปิด 'บังคับให้ตรวจช่องก่อนข้าม' เพราะ SponsorBlock ไม่สามารถเรียกข้อมูลช่องสำหรับวิดีโอนี้ได้"
+    },
     "forceChannelCheck": {
         "message": "บังคับให้ตรวจช่องก่อนข้าม"
     },
