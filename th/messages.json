@@ -644,6 +644,9 @@
     "showOverlay": {
         "message": "แสดงในแถบกรอ"
     },
+    "disable": {
+        "message": "ปิดใช้งาน"
+    },
     "autoSkip_POI": {
         "message": "ข้ามไปที่จุดเริ่มต้นโดยอัตโนมัติ"
     },
