@@ -199,7 +199,7 @@
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
     "showSkipButton": {
-        "message": "„Zum Highlight springen“-Knopf im Player behalten"
+        "message": "„Zum Highlight springen“-Knopf im Wiedergabefenster behalten"
     },
     "showInfoButton": {
         "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
@@ -768,7 +768,7 @@
         "message": "Highlight"
     },
     "category_poi_highlight_description": {
-        "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie \"Video startet bei x\"-Kommentare."
+        "message": "Der Abschnitt des Videos, nach dem die meisten Leute suchen, ähnlich wie „Video startet bei x“-Kommentare."
     },
     "category_poi_highlight_guideline1": {
         "message": "Bereiche, die die meisten Personen suchen"
