@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Hide titles and thumbnails while fetching data from the server. If disabled, you will experience flashing as the titles and thumbnails change over."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Don't show YouTube's translated titles",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
     "onAllPages": {
         "message": "On All Pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
