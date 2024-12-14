@@ -485,7 +485,7 @@
         "message": "Videosegmente, die kürzer als der festgelegte Wert sind, werden nicht übersprungen oder im Player angezeigt."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Verwende manuelles Überspringen, wenn ein vollständiges Video Label existiert"
+        "message": "Verwende manuelles Überspringen, wenn ein „Vollständiges Video“-Label existiert"
     },
     "whatManualSkipOnFullVideo": {
         "message": "Für Personen, die das Video ohne Unterbrechungen schauen wollen, wenn es vollständig gesponsert oder Eigenwerbung ist."
@@ -955,7 +955,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Dieses Segment ist lang. Wenn das gesamte Video nur ein Thema behandelt, wechsle von \"Überspringen\" zu \"Ganzes Video\". Erfahre mehr in den Richtlinien."
+        "message": "Dieses Segment ist lang. Wenn das gesamte Video nur ein Thema behandelt, wechsle von „Überspringen“ zu „Vollständiges Video“. Erfahre mehr in den Richtlinien."
     },
     "categoryPillTitleText": {
         "message": "Das gesamte Video fällt unter diese Kategorie und ist zu stark integriert, um es zu trennen"
