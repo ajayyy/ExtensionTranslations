@@ -96,7 +96,7 @@
         "message": "Cancelar Creación de Segmento"
     },
     "noVideoID": {
-        "message": "No se encontró vídeo de YouTube.\nSi esto es incorrecto, actualice la pestaña."
+        "message": "No se ha encontrado ningún vídeo de YouTube.\nSi esto es incorrecto, actualice la pestaña."
     },
     "refreshSegments": {
         "message": "Actualizar segmentos"
