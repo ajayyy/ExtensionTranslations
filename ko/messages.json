@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "서버에서 데이터를 가져오는 동안 제목과 썸네일을 숨겨요. 사용하지 않는 경우, 제목과 썸네일이 변경될 때 깜박임이 발생해요."
     },
+    "ignoreTranslatedTitles": {
+        "message": "YouTube가 번역한 제목 표시하지 않기",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "때로 YouTube가 제목을 사용자의 언어로 자동 번역하기도 해요. 이 설정은 사용자 참여 제목이 없는 경우에만 적용돼요."
+    },
     "onAllPages": {
         "message": "모든 페이지에서",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
