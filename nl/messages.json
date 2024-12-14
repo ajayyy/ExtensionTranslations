@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Knoppen op YouTube-speler weergeven"
     },
-    "hideButtons": {
-        "message": "Knoppen op YouTube-speler verbergen"
-    },
     "hideButtonsDescription": {
         "message": "Dit verbergt de knoppen die verschijnen op de YouTube-speler om segmenten over te slaan."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Info-knop op YouTube-speler weergeven"
     },
-    "hideInfoButton": {
-        "message": "Info-knop op YouTube-speler verbergen"
-    },
     "autoHideInfoButton": {
         "message": "Infoknop automatisch verbergen"
-    },
-    "hideDeleteButton": {
-        "message": "Verwijderen-knop op YouTube-speler verbergen"
     },
     "showDeleteButton": {
         "message": "Verwijderen-knop op YouTube-speler weergeven"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "In plaats van segmenten op te vragen bij de server met behulp van de video-ID, worden de eerste 4 tekens van de hash van de video-ID verzonden. Deze server zal gegevens terugsturen voor alle video's met een vergelijkbare hash."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Segmenten voor nieuwe video's opnieuw ophalen"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Als de video nieuw is en er geen segmenten worden gevonden, zal om de zoveel minuten opnieuw worden gecontroleerd terwijl u kijkt."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Categorieën in indieningsmenu weergeven, zelfs zonder toestemming voor indienen"
