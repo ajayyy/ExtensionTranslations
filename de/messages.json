@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Knöpfe im YouTube-Videoplayer anzeigen"
     },
-    "hideButtons": {
-        "message": "Knöpfe im YouTube-Videoplayer deaktivieren"
-    },
     "hideButtonsDescription": {
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
     },
-    "hideInfoButton": {
-        "message": "Deaktiviere Info-Knopf im Youtube-Videoplayer"
-    },
     "autoHideInfoButton": {
         "message": "Info-Knopf automatisch ausblenden"
-    },
-    "hideDeleteButton": {
-        "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
     },
     "showDeleteButton": {
         "message": "Löschen-Knopf im YouTube-Wiedergabefenster anzeigen"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Anstatt Segmente mit der Video-ID vom Server anzufordern, werden die ersten 4 Zeichen des Hashs der Video-ID gesendet. Der Server sendet Daten für alle Videos mit ähnlichen Hashes zurück."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Segmente bei neuen Videos erneut abrufen"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Wenn das Video neu ist und keine Segmente gefunden wurden, wird während des Betrachtens alle paar Minuten erneut eine Anfrage gesendet."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Zeige Kategorien im Einreichungsmenü auch ohne Einreichungsberechtigungen"
