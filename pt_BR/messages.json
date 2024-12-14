@@ -314,11 +314,11 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Alternar ao habilitar DeArrow",
+        "message": "Ativar/desativar o DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Abrir menu de envios",
+        "message": "Abrir menu de Envio",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
@@ -577,7 +577,7 @@
         "message": "Editar"
     },
     "copyDebugLogs": {
-        "message": "Copiar logs de depuração"
+        "message": "Copiar Logs de Depuração"
     },
     "copyDebugInformation": {
         "message": "Copiar informações de depuração para a área de transferência"
@@ -1244,7 +1244,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - Miniaturas e títulos objetivos no YouTube",
+        "message": "DeArrow - Melhores títulos e miniaturas no YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
@@ -1480,6 +1480,17 @@
     "tip5": {
         "message": "Comece as frases com maiúsculas",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Os títulos devem ser do ponto de vista do criador e do vídeo. Avaliar ou checar fatos sobre o vídeo em si está fora do escopo do DeArrow. Os títulos não devem ser uma seção de comentários.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Os títulos não devem verificar fatos, zombar ou criticar o vídeo e seu criador",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Você deve resolver o aviso antes de enviar"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Observação: suas configurações do SponsorBlock foram importadas automaticamente!"
