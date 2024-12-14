@@ -1418,6 +1418,10 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Скриване на заглавията и миниатюрите при извличане на данни от сървъра. Ако е деактивирано, заглавията и миниатюрите ще мигат, докато се сменят."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Да не се показват преведените заглавия в YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
     "onAllPages": {
         "message": "На всички страници",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
