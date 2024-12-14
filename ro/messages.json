@@ -42,7 +42,7 @@
         "message": "Raportează"
     },
     "reportButtonInfo": {
-        "message": "Raportează această înregistrare ca fiind incorectă."
+        "message": "Semnalează propunerea ca fiind incorectă."
     },
     "Dismiss": {
         "message": "Renunță"
@@ -54,13 +54,13 @@
         "message": "Nu mai afișa niciodată"
     },
     "hitGoBack": {
-        "message": "Apasă unskip pentru a reveni."
+        "message": "Apăsați butonul „Anulați“ pentru a reveni."
     },
     "unskip": {
         "message": "Anulați"
     },
     "reskip": {
-        "message": "Sari peste"
+        "message": "Treci peste"
     },
     "unmute": {
         "message": "Activare sunet"
