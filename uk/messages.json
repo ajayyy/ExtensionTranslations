@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Приховувати заголовки та мініатюри під час отримання даних з сервера. Якщо цю опцію вимкнено, ви побачите миготіння під час зміни заголовків та мініатюр."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Не показувати перекладені назви YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube іноді буде автоматично перекладати заголовки на вашу рідну мову. Цей параметр застосовується лише тоді, коли заголовок краудсорсингу недоступний."
+    },
     "onAllPages": {
         "message": "На всіх сторінках",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
