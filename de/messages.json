@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Blende Titel und Thumbnails während des Abrufens von Daten vom Server aus. Wenn deaktiviert, wirst du aufblinkende Titel und Thumbnails sehen, während diese sich ändern."
     },
+    "ignoreTranslatedTitles": {
+        "message": "YouTubes übersetzte Titel nicht anzeigen",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube übersetzt manchmal automatisch Titel in deine ausgewählte Sprache. Diese Option hat nur dann eine Auswirkung, wenn kein eingereichter Titel verfügbar ist."
+    },
     "onAllPages": {
         "message": "Auf allen Seiten",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
