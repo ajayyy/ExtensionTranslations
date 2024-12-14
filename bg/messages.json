@@ -1422,6 +1422,9 @@
         "message": "Да не се показват преведените заглавия в YouTube",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Понякога YouTube автоматично превежда заглавията на родния ви език. Тази опция се прилага само когато не е налично заглавие, предоставено от общността."
+    },
     "onAllPages": {
         "message": "На всички страници",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
