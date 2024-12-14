@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Прикажи дугмад на YouTube плејеру"
     },
-    "hideButtons": {
-        "message": "Сакриј дугмад на YouTube плејеру"
-    },
     "hideButtonsDescription": {
         "message": "Ово сакрива дугмад која се појављују на YouTube плејеру за подношење сегмената за прескакање."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Прикажи дугме за информације на YouTube плејеру"
     },
-    "hideInfoButton": {
-        "message": "Сакриј дугме за информације на YouTube плејеру"
-    },
     "autoHideInfoButton": {
         "message": "Аутоматски сакриј дугме за информације"
-    },
-    "hideDeleteButton": {
-        "message": "Сакриј дугме за брисање на YouTube плејеру"
     },
     "showDeleteButton": {
         "message": "Прикажи дугме за брисање на YouTube плејеру"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Уместо захтевања сегмената од сервера помоћу ID-а видео снимка, шаљу се прва 4 знака хеша ID-а видео снимка. Овај сервер ће послати податке за све видео снимке са сличним хешовима."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Поново прикупи сегменте на новим видео снимцима"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Ако је видео снимак нов и нема пронађених сегмената, сегменти ће наставити да се прикупљају сваких неколико минута док гледате видео снимак."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Прикажи категорије у менију за подношење, чак и без дозволе за подношење"
