@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Dölj titlar och miniatyrer under hämtning av data från servern. Om inaktiverad kommer du att uppleva blinkande när titlarna och miniatyrerna ändras."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Visa inte YouTubes översatta titlar",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube kommer ibland att automatiskt översätta titlar till ditt modersmål. Detta alternativ gäller endast när en crowdsourced titel inte är tillgänglig."
+    },
     "onAllPages": {
         "message": "På alla sidor",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
