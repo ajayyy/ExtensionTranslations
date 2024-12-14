@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Kuva YouTube'i mängijal nupud"
     },
-    "hideButtons": {
-        "message": "Peida YouTube'i mängijal nupud"
-    },
     "hideButtonsDescription": {
         "message": "See peidab nupud, mis kuvatakse YouTube'i mängijal vahelejätmiste segmentide saatmiseks."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Kuva YouTube'i mängijal infonupp"
     },
-    "hideInfoButton": {
-        "message": "Peida YouTube'i mängijal infonupp"
-    },
     "autoHideInfoButton": {
         "message": "Peida infonupp automaatselt"
-    },
-    "hideDeleteButton": {
-        "message": "Peida YouTube'i mängijal kustutusnupp"
     },
     "showDeleteButton": {
         "message": "Kuva YouTube'i mängijal kustutusnupp"
@@ -236,12 +227,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "VideoID järgi segmentide küsimise asemel saadetakse videoID räsi 4 esimest märki ning server saadab tagasi kõigi sarnaste räsidega videote andmed."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Too segmendid uutel videotel uuesti"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Kui video on uus ning segmente ei leitud, proovitakse vaatamise ajal iga paari minuti tagant uuesti segmente tuua."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Näita segmentide menüüs ka ilma saatmise loata kategooriaid"
