@@ -186,9 +186,6 @@
     "showButtons": {
         "message": "Tunjukkan Butang Pada Pemain YouTube"
     },
-    "hideButtons": {
-        "message": "Sembunyikan Butang Pada Pemain YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Ini menyembunyikan butang yang muncul di pemain YouTube untuk menyerahkan segmen langkau."
     },
@@ -198,14 +195,8 @@
     "showInfoButton": {
         "message": "Tunjukkan Butang Maklumat Pada Pemain YouTube"
     },
-    "hideInfoButton": {
-        "message": "Sembunyikan Butang Maklumat Pada Pemain YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Auto-sembunyikan Butang Maklumat"
-    },
-    "hideDeleteButton": {
-        "message": "Sembunyikan Butang Padam Pada Pemain YouTube"
     },
     "showDeleteButton": {
         "message": "Tunjukkan Butang Padam Pada Pemain YouTube"
@@ -233,12 +224,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Daripada meminta segmen dari pelayan menggunakan videoID, 4 watak pertama hash videoID dihantar. Pelayan ini akan menghantar kembali data untuk semua video dengan hash yang serupa."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Perbaharui Segmen Pada Video Baru"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Sekiranya videonya baru, dan tidak ada segmen yang dijumpai, video akan terus diambil setiap beberapa minit semasa anda menonton."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Tunjuk kategori dalam menu penghantaran walaupun tanpa kebenaran penghantaran"
