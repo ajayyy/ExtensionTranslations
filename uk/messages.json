@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Показувати кнопки в плеєрі YouTube"
     },
-    "hideButtons": {
-        "message": "Приховати кнопки в плеєрі YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Це налаштування приховує кнопки для надсилання спонсорських вставок, які з'являються в плеєрі YouTube."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Показувати кнопку інформації в плеєрі YouTube"
     },
-    "hideInfoButton": {
-        "message": "Приховати кнопку інформації в плеєрі YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Кнопка \"Автоматично сховати інформацію\""
-    },
-    "hideDeleteButton": {
-        "message": "Приховати кнопку видалення в плеєрі YouTube"
     },
     "showDeleteButton": {
         "message": "Показувати кнопку видалення в плеєрі YouTube"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Замість надсилання на сервер videoID, для отримання сегментів будуть використовуватися перші 4 символи хеша videoID. Сервер видасть дані для всіх відео зі схожими хешами."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Перевіряти сегменти в нових відео"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Якщо відео нове і для нього не знайдено сегментів, то інформація про них буде оновлюватися кожні пару хвилин, поки ви дивитеся відео."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Показувати категорії в меню подання навіть без дозволу на подання"
