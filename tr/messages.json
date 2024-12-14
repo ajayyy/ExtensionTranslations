@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Sunucudan veri çekilirken başlıkları ve küçük resimleri gösterme. Bu seçenek kapalı ise başlıklar ve küçük resimler değiştirilirken ekranda parlamalar olabilir."
     },
+    "ignoreTranslatedTitles": {
+        "message": "YouTube çevirisi başlıkları gösterme",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube bazen orijinal başlıkları sizin dilinize çevirir. Bu özellik topluluk çevirisi yoksa çalışır."
+    },
     "onAllPages": {
         "message": "Tüm Sayfalarda",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
