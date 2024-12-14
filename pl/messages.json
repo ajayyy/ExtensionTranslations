@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Pokaż przyciski na odtwarzaczu YouTube"
     },
-    "hideButtons": {
-        "message": "Ukryj przyciski na odtwarzaczu YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Ta opcja ukrywa przyciski do zamieszczania segmentów pojawiające się na odtwarzaczu YouTube."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Pokaż przycisk informacyjny na odtwarzaczu YouTube"
     },
-    "hideInfoButton": {
-        "message": "Ukryj przycisk informacyjny na odtwarzaczu YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Autoukrywanie przycisku informacji"
-    },
-    "hideDeleteButton": {
-        "message": "Ukryj przycisk usuwania na odtwarzaczu YouTube"
     },
     "showDeleteButton": {
         "message": "Pokaż przycisk usuwania na odtwarzaczu YouTube"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Zamiast wysyłać do serwera zapytanie o segmenty używając ID filmu, wysyłane są 4 pierwsze znaki hashu tego ID. Serwer zwróci dane dla wszystkich filmów z podobnymi hashami."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Ponawiaj pobieranie segmentów na nowych filmach"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Jeśli film jest nowy i nie znaleziono żadnych segmentów, dane będą pobierane na nowo co kilka minut w czasie oglądania."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Pokaż kategorie w menu zgłoszeń, nawet bez uprawnień do zgłaszania"
