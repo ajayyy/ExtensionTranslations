@@ -1419,7 +1419,7 @@
         "message": "Сакријте наслове и сличице док се прикупљају подаци са сервера. Ако је онемогућено, видећете треперење када се наслови и сличице мењају."
     },
     "ignoreTranslatedTitles": {
-        "message": "Не приказуј YouTube-ове преведене наслове",
+        "message": "Не приказуј YouTube-ове аутоматски преведене наслове",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
     "ignoreTranslatedTitlesDescription": {
