@@ -261,6 +261,9 @@
     "showSkipNotice": {
         "message": "Hiển thị thông báo sau khi bỏ qua phân đoạn"
     },
+    "showUpcomingNotice": {
+        "message": "Hiện thông báo trước khi một phân đoạn được bắt đầu"
+    },
     "showCategoryGuidelines": {
         "message": "Hiển thị Danh mục Trợ giúp"
     },
@@ -380,6 +383,10 @@
     "skip_to_category": {
         "message": "Bỏ qua đến {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "Sẵn diễn ra {0}",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "{0} đã bỏ qua",
@@ -1414,6 +1421,9 @@
     "ignoreTranslatedTitles": {
         "message": "Không hiện tiêu đề đã được dịch bởi Youtube",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Đôi khi Youtube sẽ tự động dịch các tiêu đề sang ngôn ngữ ưu thích của bạn. Tuỳ chọn này chỉ được áp dụng khi tiêu đề do cộng đồng đóng góp không có sẵn."
     },
     "onAllPages": {
         "message": "Trên tất cả các trang",
