@@ -186,9 +186,6 @@
     "showButtons": {
         "message": "Zobraziť tlačidlá v YouTube prehrávači"
     },
-    "hideButtons": {
-        "message": "Skryť tlačidlá v YouTube prehrávači"
-    },
     "hideButtonsDescription": {
         "message": "Skryje tlačidlá pre preskočenie segmentov, ktoré sa zobrazujú v YouTube prehrávači."
     },
@@ -198,14 +195,8 @@
     "showInfoButton": {
         "message": "Zobraziť info tlačidlo v YouTube prehrávači"
     },
-    "hideInfoButton": {
-        "message": "Skryť info tlačidlo v YouTube prehrávači"
-    },
     "autoHideInfoButton": {
         "message": "Automaticky skryť tlačidlo Info"
-    },
-    "hideDeleteButton": {
-        "message": "Skryť tlačidlo Zmazať v YouTube prehrávači"
     },
     "showDeleteButton": {
         "message": "Zobraziť tlačidlo Zmazať v YouTube prehrávači"
@@ -236,12 +227,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Namiesto dopytovania segmentov zo servera podľa videoID sa použijú prvé 4 znaky hashu videoID. Server odošle späť dáta za všetky videá s podobným hashom."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Opakovane načítavať segmenty nových videí"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Ak je video nové a nenašli sa žiadne segmenty, opakovane sa budú každých pár minút načítavať kým sa video prehráva."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Zobraziť kategórie v odosielacom menu aj bez oprávnenia na odosielanie"
