@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Piilota otsikot ja pienoiskuvat kun tietoja haetaan palvelimelta. Jos poistettu käytöstä, koet vilkkumista, kun otsikot ja pienoiskuvat vaihtuvat."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Älä näytä YouTuben käännettyjä otsikoita",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube joskus kääntää otsikot automaattisesti äidinkielellesi. Tämä asetus pätee vain, kun käyttäjälähteistä otsikkoa ei ole saatavilla."
+    },
     "onAllPages": {
         "message": "Kaikilla sivuilla",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
