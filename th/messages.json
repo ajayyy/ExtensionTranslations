@@ -632,6 +632,9 @@
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
+    "category_filler_short": {
+        "message": "ตัวเสริม"
+    },
     "category_filler_guideline1": {
         "message": "เป็นฉากตัวเสริมหรือฉากเพื่อความตลก"
     },
@@ -640,6 +643,9 @@
     },
     "category_poi_highlight_description": {
         "message": "ส่วนของวีดีโอที่คนส่วนใหญ่กำลังตามหา คล้ายกับความคิดเห็น \"วิดีโอเริ่มต้นที่ x\""
+    },
+    "category_poi_highlight_guideline1": {
+        "message": "ช่วงเวลาที่คนส่วนใหญ่กำลังมองหา"
     },
     "category_poi_highlight_guideline2": {
         "message": "สามารถข้ามผ่านบริบทได้"
