@@ -192,23 +192,14 @@
     "showButtons": {
         "message": "แสดงปุ่มในโปรแกรมเล่น YouTube"
     },
-    "hideButtons": {
-        "message": "ซ่อนปุ่มในโปรแกรมเล่น YouTube"
-    },
     "hideButtonsDescription": {
         "message": "นี่ซ่อนปุ่มที่ปรากฏในโปรแกรมเล่น YouTube ที่ใช้ในการส่งส่วนข้าม"
     },
     "showInfoButton": {
         "message": "แสดงปุ่มข้อมูลในโปรแกรมเล่น YouTube"
     },
-    "hideInfoButton": {
-        "message": "ซ่อนปุ่มข้อมูลในโปรแกรมเล่น YouTube"
-    },
     "autoHideInfoButton": {
         "message": "ซ่อนปุ่มข้อมูลโดยอัตโนมัติ"
-    },
-    "hideDeleteButton": {
-        "message": "ซ่อนปุ่มลบในโปรแกรมเล่น YouTube"
     },
     "showDeleteButton": {
         "message": "แสดงปุ่มลบในโปรแกรมเล่น YouTube"
@@ -233,12 +224,6 @@
     },
     "enableTrackDownvotesInPrivate": {
         "message": "บันทึกส่วนที่ไม่เห็นด้วยในแท็บส่วนตัว/ไม่ระบุตัวตน"
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "ดึงข้อมูลส่วนในวิดีโอใหม่อีกครั้ง"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "ถ้าวิดีโอเป็นวิดีโอใหม่และไม่พบเจอส่วน มันจะพยายามดึงข้อมูลใหม่ทุก ๆ ไม่กี่นาทีขณะที่คุณดู"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "แสดงหมวดหมู่ในเมนูการส่งแม้ว่าจะไม่ได้รับอนุญาตให้ส่ง"
