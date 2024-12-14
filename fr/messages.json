@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Afficher les boutons sur le lecteur YouTube"
     },
-    "hideButtons": {
-        "message": "Cacher les boutons sur le lecteur YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Ceci enlève du lecteur YouTube les boutons permettant de soumettre des segments."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Montrer le bouton Info sur le lecteur YouTube"
     },
-    "hideInfoButton": {
-        "message": "Cacher le bouton Info sur le lecteur YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Masquer automatiquement le bouton Info"
-    },
-    "hideDeleteButton": {
-        "message": "Cacher le bouton Supprimer sur le lecteur YouTube"
     },
     "showDeleteButton": {
         "message": "Montrer le bouton Supprimer sur le lecteur YouTube"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Plutôt que de récupérer depuis le serveur les segments à sauter à l'aide de l'identifiant de la vidéo, les 4 premiers caractères du hash de l'identifiant de la vidéo sont envoyés. Le serveur renverra les données pour toutes les vidéos ayant des hash similaires."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Récupérer les segments sur les nouvelles vidéos"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Si la vidéo vient de sortir et qu'aucun segment n'a été encore trouvé, SponsorBlock en cherchera durant la lecture de la vidéo."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Afficher les catégories dans le menu des contributions, même celles sans autorisation"
