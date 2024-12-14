@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Сакријте наслове и сличице док се прикупљају подаци са сервера. Ако је онемогућено, видећете треперење када се наслови и сличице мењају."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Не приказуј YouTube-ове преведене наслове",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube ће понекад аутоматски преводити наслове на ваш матерњи језик. Ова опција се примењује само када наслов од заједнице није доступан."
+    },
     "onAllPages": {
         "message": "На свим страницама",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
