@@ -196,7 +196,7 @@
         "message": "This hides the buttons that appear on the YouTube player to submit skip segments."
     },
     "showSkipButton": {
-        "message": "Keep skip to highlight button on Player"
+        "message": "Keep skip to highlight button on player"
     },
     "showInfoButton": {
         "message": "Show info button on YouTube player"
