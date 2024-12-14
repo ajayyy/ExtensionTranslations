@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Mostrar botões no reprodutor do YouTube"
     },
-    "hideButtons": {
-        "message": "Ocultar botões no reprodutor do YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Esta opção oculta os botões que aparecem para enviar segmentos no reprodutor do YouTube."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Mostrar botão de informações no reprodutor do YouTube"
     },
-    "hideInfoButton": {
-        "message": "Ocultar botão de informações no reprodutor do YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Ocultar automaticamente o botão de informações"
-    },
-    "hideDeleteButton": {
-        "message": "Ocultar botão de apagar no reprodutor do YouTube"
     },
     "showDeleteButton": {
         "message": "Mostrar botão de apagar no reprodutor do YouTube"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Em vez de solicitar segmentos do servidor usando o videoID, são enviados os 4 primeiros caracteres da hash do videoID. Este servidor enviará dados de volta para todos os vídeos com hashes similares."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Recuperar segmentos em novos vídeos"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Se o vídeo for novo e nenhum segmento for encontrado, continuaremos buscando enquanto você assiste."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Mostrar categorias no menu de envios mesmo sem permissão de envio"
