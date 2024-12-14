@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Visa knappar på YouTube-spelaren"
     },
-    "hideButtons": {
-        "message": "Dölj knappar på YouTube-spelaren"
-    },
     "hideButtonsDescription": {
         "message": "Detta döljer knapparna på YouTube-spelaren som du skickar in överhoppade segment med."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Visa infoknappen på YouTube-spelaren"
     },
-    "hideInfoButton": {
-        "message": "Dölj infoknappen på YouTube-spelaren"
-    },
     "autoHideInfoButton": {
         "message": "Dölj infoknappen automatiskt"
-    },
-    "hideDeleteButton": {
-        "message": "Dölj borttagningsknappen på YouTube-spelaren"
     },
     "showDeleteButton": {
         "message": "Visa borttagningsknappen på YouTube-spelaren"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "I stället för att begära segment från servern med hjälp av video-ID skickas de första 4 tecknen i hashen av video-ID:et. Servern kommer då att skicka tillbaka data för alla videor med liknande hashar."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Uppdatera segment på nya videor"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Om videon är ny och inga segment hittades då kommer den att uppdateras med några minuters mellanrum medan du tittar på videon."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Visa kategorier i inlämningsmenyn även utan inlämningstillstånd"
