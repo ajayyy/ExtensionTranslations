@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Gombok mutatása a YouTube lejátszón"
     },
-    "hideButtons": {
-        "message": "Gombok elrejtése a YouTube lejátszón"
-    },
     "hideButtonsDescription": {
         "message": "Ez elrejti az átugrandó szegmensek megjelöléséhez használt gombokat a YouTube lejátszón."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Info gomb mutatása a YouTube lejátszón"
     },
-    "hideInfoButton": {
-        "message": "Info gomb elrejtése a YouTube lejátszón"
-    },
     "autoHideInfoButton": {
         "message": "Info gomb automatikus elrejtése"
-    },
-    "hideDeleteButton": {
-        "message": "Törlés gomb elrejtése a YouTube lejátszón"
     },
     "showDeleteButton": {
         "message": "Törlés gomb mutatása a YouTube lejátszón"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "A szerverről videoID helyett, a videoID hash első négy karaktere lesz elküldve szegmenslekéréskor. A szerver visszaküldi az összes hasonló hashel rendelkező videó adatait."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Szegmensek újrakeresése új videókon"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Ha a videó új, és még nem találhatóak szegmensek, a bővítmény pár percenkét újra keresi őket, miközben nézed."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Kategóriák megjelenítése a beküldési menüben beküldési engedély nélkül is"
