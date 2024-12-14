@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Скрыть оригинальные названия и значки до момента загрузки альтернатив с сервера. Если отключено, сведения будут заменяться по мере их получения, вызывая мерцание."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Игнорировать автоперевод названий видео",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube иногда автоматически переводит названия на ваш язык. Настройка действительна только при отсутствии предложенных пользователями названий."
+    },
     "onAllPages": {
         "message": "На всех страницах",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
