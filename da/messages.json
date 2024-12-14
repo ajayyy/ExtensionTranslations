@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Vis knapper på YouTube-afspiller"
     },
-    "hideButtons": {
-        "message": "Skjul knapper på YouTube-afspiller"
-    },
     "hideButtonsDescription": {
         "message": "Dette skjuler knapperne, der vises på YouTube-afspilleren til indsendelse af overspringssegmenter."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Vis Info-knap på YouTube-afspiller"
     },
-    "hideInfoButton": {
-        "message": "Skjul Info-knap på YouTube-afspiller"
-    },
     "autoHideInfoButton": {
         "message": "Skjul Info-knap automatisk"
-    },
-    "hideDeleteButton": {
-        "message": "Skjul Slet-knappen på YouTube-afspiller"
     },
     "showDeleteButton": {
         "message": "Vis Slet-knappen på YouTube-afspiller"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "I stedet for at anmode om segmenter fra serveren ved hjælp af videoID'et sendes de første 4 tegn af videoID'ets hash. Denne server vil sende data tilbage for alle videoer med lignende hashes."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Opdater segmenter på nye videoer"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Hvis videoen er ny og der ikke er fundet nogen segmenter, vil den opdatere med et par minutters mellemrum, mens du ser videoen."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Vis kategorier i indsendelsesmenuen selv uden tilladelse til indsendelse"
