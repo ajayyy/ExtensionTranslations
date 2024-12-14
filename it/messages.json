@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Mostra i pulsanti sul video"
     },
-    "hideButtons": {
-        "message": "Nascondi i pulsanti sul video"
-    },
     "hideButtonsDescription": {
         "message": "Nasconde i pulsanti che appaiono sul video per inviare i segmenti da nascondere."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Mostra il pulsante delle informazioni sopra al video"
     },
-    "hideInfoButton": {
-        "message": "Nascondi il pulsante d'informazioni sopra al video"
-    },
     "autoHideInfoButton": {
         "message": "Nascondi in automatico il Pulsante di Informazioni"
-    },
-    "hideDeleteButton": {
-        "message": "Nascondi il pulsante elimina"
     },
     "showDeleteButton": {
         "message": "Mostra il pulsante elimina"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Invece di richiedere i segmenti dal server utilizzando l'ID del video, viene inviato un hash dei primi 4 caratteri dell'ID. Questo server invierà i dati per tutti i video con hash simili."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Ricarica i segmenti su nuovi video"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Se il video è nuovo, e non risultano esserci segmenti, continueremo a cercarne di nuovi ogni pochi minuti."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Mostra le categorie nel menu d'invio anche senza l'autorizzazione all'invio"
