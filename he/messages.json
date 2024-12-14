@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "הצגת כפתורים על הנגן של יוטיוב"
     },
-    "hideButtons": {
-        "message": "הסתרת כפתורים על הנגן של יוטיוב"
-    },
     "hideButtonsDescription": {
         "message": "זה מחביא את הכפתורים שמופיעים בנגן YouTube להגיש מקטעי דילוג."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "הראה כפתור מידע בנגן YouTube"
     },
-    "hideInfoButton": {
-        "message": "החבא כפתור מידע בנגן YouTube"
-    },
     "autoHideInfoButton": {
         "message": "הסתרה אוטומטית של כפתורי אינפורמציה"
-    },
-    "hideDeleteButton": {
-        "message": "הסתרת כפתור מחיקה על הנגן של יוטיוב"
     },
     "showDeleteButton": {
         "message": "הצגת כפתור מחיקה על הנגן של יוטיוב"
@@ -233,12 +224,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "במקום לבקש מקטעים מהשרת לפי מזהה סרטון, נשלחים ארבעת התווים הראשונים של ה-hash של מזהה הסרטון. שרת זה ישלח בחזרה נתונים לכל הסרטונים עם hash מתאים."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "השג מקטעים של סרטונים חדשים"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "אם הסרטון חדש, ואין בו אף מקטע, הוא יחפש מחדש מקטעים כל כמה דקות בהן תצפה/י בסרטון."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "הצג קטגוריה בתפריט ההגשה גם ללא הרשאת הגשה"
