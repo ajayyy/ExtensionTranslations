@@ -1418,6 +1418,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Címek és indexképek elrejtése, amíg az adatok betöltődnek a szerverről. Ha le van tiltva, villanásokat fogsz látni, amikor a címek és indexképek megváltoznak."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Ne mutassa a YouTube fordított címeit",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "A YouTube néha automatikusan lefordít címeket a te nyelvedre. Ez a beállítás csak akkor számít, ha nincs közösség által beküldött cím."
+    },
     "onAllPages": {
         "message": "Minden oldalon",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
