@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Hiển thị nút trên trình chạy video Youtube"
     },
-    "hideButtons": {
-        "message": "Không hiển thị nút trên trình chạy video Youtube"
-    },
     "hideButtonsDescription": {
         "message": "Không hiển thị nút trên trình chạy video Youtube để đăng đoạn quảng cáo."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Hiển thị nút thông tin trên trình chạy video Youtube"
     },
-    "hideInfoButton": {
-        "message": "Không hiển thị nút thông tin trên trình chạy video Youtube"
-    },
     "autoHideInfoButton": {
         "message": "Tự động ẩn nút Info"
-    },
-    "hideDeleteButton": {
-        "message": "Không hiển thị nút xóa trên trình chạy video Youtube"
     },
     "showDeleteButton": {
         "message": "Hiển thị nút xóa trên trình chạy video Youtube"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Thay vì yêu cầu phân đoạn từ máy chủ bằng cách sử dụng videoID, 4 ký tự đầu tiên của hash của videoID sẽ được gửi. Máy chủ sau đó sẽ gửi dữ liệu cho tất cả video với các hash tương tự."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Nạp lại các đoạn trên video mới"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Nếu đây là video mới và chưa có phân đoạn nào được xác định, SponsorBlock sẽ tiếp tục truy vấn dữ liệu mỗi vài phút trong khi bạn đang xem."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Hiện danh mục trong menu phân đoạn đã gửi mà không cần sự cho phép gửi phân đoạn đó"
