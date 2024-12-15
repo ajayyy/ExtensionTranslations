@@ -187,7 +187,7 @@
         "message": "Сакриј ово"
     },
     "Options": {
-        "message": "Подешавања"
+        "message": "Опције"
     },
     "showButtons": {
         "message": "Прикажи дугмад на YouTube плејеру"
@@ -527,7 +527,7 @@
         "message": "Ресетуј"
     },
     "customAddressError": {
-        "message": "Ова адреса није у исправном облику. Уверите се да садржи http:// или https:// на почетку и да нема косих црта на крају."
+        "message": "Ова адреса није у исправном формату. Уверите се да садржи http:// или https:// на почетку и да нема косих црта на крају."
     },
     "areYouSureReset": {
         "message": "Желите ли заиста да ресетујете ово?"
@@ -539,7 +539,7 @@
         "message": "Увоз/Извоз свих опција"
     },
     "exportOtherData": {
-        "message": "Увоз/извоз свих осталих података"
+        "message": "Увоз/Извоз свих осталих података"
     },
     "exportOptionsCopy": {
         "message": "Измени/копирај"
@@ -613,7 +613,7 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
-        "message": "Укључује глатак прелаз"
+        "message": "Укључује глатки прелаз"
     },
     "generic_guideline2": {
         "message": "Пушта као да ништа није прескочено"
@@ -692,10 +692,10 @@
         "message": "Није за прелазе са информацијама"
     },
     "category_outro": {
-        "message": "Завршне картице/Кредити"
+        "message": "Завршне картице/Заслуге"
     },
     "category_outro_description": {
-        "message": "Кредити или када се појаве YouTube завршне картице. Није за закључке са информацијама."
+        "message": "Заслуге или када се појаве YouTube завршне картице. Није за закључке са информацијама."
     },
     "category_outro_guideline1": {
         "message": "Не укључује садржај, чак и ако су завршне картице на екрану"
@@ -916,7 +916,7 @@
         "message": "Размислите о омогућавању опције „Присилна провера канала пре прескакања”"
     },
     "downvoteDescription": {
-        "message": "Нетачан/погрешан тајминг"
+        "message": "Нетачно/погрешно одређено време"
     },
     "incorrectVote": {
         "message": "Нетачно"
@@ -929,7 +929,7 @@
         "message": "Промени категорију"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "Овај видео снимак је категорисан као музика. Јесте ли сигурни да ово има спонзора? Ако је ово заправо „Сегмент без музике“, отворите опције додатка и омогућите ову категорију. Затим, можете да поднесете овај сегмент као „Без музике“ уместо као спонзор. Прочитајте смернице, ако сте збуњени."
+        "message": "Овај видео снимак је категорисан као музика. Јесте ли сигурни да ово има спонзора? Ако је ово заправо „Сегмент без музике”, отворите опције додатка и омогућите ову категорију. Затим, можете да поднесете овај сегмент као „Без музике” уместо као спонзор. Прочитајте смернице, ако сте збуњени."
     },
     "multipleSegments": {
         "message": "Више сегмената"
@@ -1034,13 +1034,13 @@
         "message": "Ако сте забрљали, можете да измените или избришете своје сегменте након што кликнете на дугме са стрелицом нагоре."
     },
     "helpPageTooSlow": {
-        "message": "Ово је превише споро"
+        "message": "Ово је преспоро"
     },
     "helpPageTooSlow1": {
         "message": "Постоје пречице, ако желите да их користите. Притисните тастер „тачка и зарез” да бисте означили почетак/крај сегмента и кликните на тастер „апостроф” да бисте поднели. Ово се може променити у опцијама. Ако не користите QWERTY, вероватно би требало да промените тастерске пречице."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Могу ли добити копију базе података? Шта се дешава ако нестанеш?"
+        "message": "Могу ли добити копију базе података? Шта се дешава ако нестанете?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "База података је јавна и доступна на"
@@ -1055,7 +1055,7 @@
         "message": "Где могу набавити изворни кôд?"
     },
     "Credits": {
-        "message": "Кредити"
+        "message": "Заслуге"
     },
     "LearnMore": {
         "message": "Сазнај више"
@@ -1067,7 +1067,7 @@
         "message": "Гласови против и прављење локалне копије коју можете поново да поднесете"
     },
     "OpenCategoryWikiPage": {
-        "message": "Отворите вики страницу ове категорије."
+        "message": "Отворите вики-страницу ове категорије."
     },
     "CopyAndDownvote": {
         "message": "Копирај и гласај против"
@@ -1250,7 +1250,7 @@
         "message": "Дозволи превлачење за измењивање времена"
     },
     "NoticeTimeAfterSkip": {
-        "message": "{seconds}с.",
+        "message": "{seconds}с",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
@@ -1258,7 +1258,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Наслови и сличице да буду описни, а не сензационални",
+        "message": "Наслови и сличице из збирке заједнице да буду описни, а не сензационалнистички",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1495,7 +1495,7 @@
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "Наведите довољно информација да направите информисан избор пре него што кликнете"
+        "message": "Наведите довољно информација да направите информисан избор пре него што се кликне"
     },
     "tip5": {
         "message": "Напишите великим словом као реченицу",
@@ -1526,7 +1526,7 @@
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Мој наслов не проверава чињенице, исмејава или критикује видео снимак или креатора",
+        "message": "Мој наслов не проверава чињенице, исмејава или критикује видео снимак или аутора",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
@@ -1542,7 +1542,7 @@
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
     },
     "DeArrowStartLowerCaseWarning": {
-        "message": "Започните све наслове великим словом. Наслове треба обликовати као реченицу",
+        "message": "Започните све наслове великим словом. Наслове треба саставити као реченицу",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
@@ -1550,15 +1550,15 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
-        "message": "Немојте само додати одговор на питање у оригиналном наслову. Наслови треба да описују видео снимак или причу уопште",
+        "message": "Немојте само додати одговор на питање у оригиналном наслову. Наслови треба да описују видео снимак или причу уопштено",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Наслови не би требало да проверавају чињенице, исмевају или критикују видео снимак или креатора",
+        "message": "Наслови не би требало да проверавају чињенице, исмевају или критикују видео снимак или аутора",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
-        "message": "Наслови не би требало да задрже сензационалне елементе оригиналног наслова",
+        "message": "Наслови не би требало да задрже сензационалистичке елементе оригиналног наслова",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
@@ -1581,7 +1581,7 @@
         "message": "Ако вам се свиђа оно што сам до сада радио и желите да ми помогнете новцем, ево линка"
     },
     "termsAgreement": {
-        "message": "Коришћењем овог додатка, прихватате следеће документе: {privacy-policy} и {terms}"
+        "message": "Коришћењем овог додатка, прихватате {privacy-policy} и {terms}"
     },
     "privacyPolicy": {
         "message": "Политика приватности"
@@ -1608,7 +1608,7 @@
         "message": "Користи наслове из збирке заједнице"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Ако је онемогућено, форматираће наслове, али неће користити наслове које је поднела заједница",
+        "message": "Ако је онемогућено, форматираће наслове, али неће користити наслове из збирке заједнице",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1686,7 +1686,7 @@
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Број замене наслова и сличица"
+        "message": "Бројање замена наслова и сличица"
     },
     "countReplacementsDescription": {
         "message": "Користи се за давање статистике у искачућем прозору.",
@@ -1767,10 +1767,10 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке рекламе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
+        "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке огласе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
     },
     "DeArrowIsDisabled": {
-        "message": "DeArrow је онемогућен – додирните да омогућите",
+        "message": "DeArrow је онемогућен - додирните да омогућите",
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
