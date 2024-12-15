@@ -1403,6 +1403,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Skrýt názvy a náhledy při načítání dat ze serveru. Pokud je tato funkce zakázána, při změně názvů a náhledů uvidíte blikání."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Nezobrazovat názvy přeložené službou YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube někdy automaticky přeloží názvy do vašeho rodného jazyka. Tato možnost se použije pouze v případě, že není dostupný komunitní název."
+    },
     "onAllPages": {
         "message": "Na všech stránkách",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
