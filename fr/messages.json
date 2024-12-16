@@ -1403,6 +1403,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Masquer les titres et les miniatures pendant la récupération de données à partir du serveur. Si l'option est désactivée, les titres et les miniatures clignoteront au moment de les échanger."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Ne pas afficher les titres traduits par YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Il arrive que YouTube traduise automatiquement les titres dans votre langue. Cette option s'applique uniquement si aucun titre crowdsourcé n'est disponible."
+    },
     "onAllPages": {
         "message": "Sur toutes les pages",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
