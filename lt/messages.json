@@ -106,5 +106,12 @@
     "End": {
         "message": "Pabaiga",
         "description": "Button that skips to the end of a segment"
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Nerodyti „YouTube“ išverstų pavadinimų",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Kartais „YouTube“ automatiškai išverčia pavadinimus į jūsų gimtąją kalbą. Ši parinktis taikoma tik tada, kai nėra sutelktinio šaltinio pavadinimo."
     }
 }
