@@ -1404,11 +1404,11 @@
         "message": "Sunucudan veri çekilirken başlıkları ve küçük resimleri gösterme. Bu seçenek kapalı ise başlıklar ve küçük resimler değiştirilirken ekranda parlamalar olabilir."
     },
     "ignoreTranslatedTitles": {
-        "message": "YouTube çevirisi başlıkları gösterme",
+        "message": "YouTube'un çevrilen başlıklarını gösterme",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
     "ignoreTranslatedTitlesDescription": {
-        "message": "YouTube bazen orijinal başlıkları sizin dilinize çevirir. Bu özellik topluluk çevirisi yoksa çalışır."
+        "message": "YouTube bazen orijinal başlıkları sizin dilinize çevirir. Bu özellik kitle kaynaklı bir başlık olmadığında çalışır."
     },
     "onAllPages": {
         "message": "Tüm Sayfalarda",
