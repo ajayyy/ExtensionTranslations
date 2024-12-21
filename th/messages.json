@@ -587,6 +587,10 @@
     "category_exclusive_access": {
         "message": "เข้าถึงโดยเฉพาะ"
     },
+    "category_exclusive_access_pill": {
+        "message": "วิดีโอนี้นำเสนอผลิตภัณฑ์ บริการ หรือสถานที่ที่ได้รับสิทธิ์เข้าถึงได้แบบฟรีหรือแบบได้รับเงินอุดสนุน",
+        "description": "Short description for this category"
+    },
     "category_interaction_guideline1": {
         "message": "ประโยคชักชวนสั้น ๆ ให้กดไลค์ แสดงความคิดเห็น หรือกดติดตาม"
     },
