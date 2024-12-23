@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Показване на бутоните в плейъра на YouTube"
     },
-    "hideButtons": {
-        "message": "Скриване на бутоните в плейъра на YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Това скрива бутоните, които се показват в плейъра на YouTube за изпращане на сегменти за пропускане."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Показване на бутона за информация в плейъра на YouTube"
     },
-    "hideInfoButton": {
-        "message": "Скриване на бутона за информация в плейъра на YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Автоматично скриване на бутона за информация"
-    },
-    "hideDeleteButton": {
-        "message": "Скриване на бутона за изтриване в плейъра на YouTube"
     },
     "showDeleteButton": {
         "message": "Показване на бутона за изтриване в плейъра на YouTube"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Вместо да се изискват сегменти от сървъра с помощта на videoID, се изпращат първите 4 знака от хеша на videoID. Този сървър ще изпрати обратно данни за всички видеоклипове с подобни хешове."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Повторно извличане на сегментите при нови видеоклипове"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Ако видеоклипът е нов и няма намерени сегменти, той ще продължи да извлича на всеки няколко минути, докато гледате."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Показване на категории в менюто за изпращане дори без разрешение за изпращане"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Скриване на заглавията и миниатюрите при извличане на данни от сървъра. Ако е деактивирано, заглавията и миниатюрите ще мигат, докато се сменят."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Да не се показват преведените заглавия в YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Понякога YouTube автоматично превежда заглавията на родния ви език. Тази опция се прилага само когато не е налично заглавие, предоставено от общността."
     },
     "onAllPages": {
         "message": "На всички страници",

@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Näytä painikkeet YouTuben soittimessa"
     },
-    "hideButtons": {
-        "message": "Piilota painikkeet YouTuben soittimessa"
-    },
     "hideButtonsDescription": {
         "message": "Tämä piilottaa YouTuben soittimessa näkyvät, ohitettavien aikojen lähettämiseen käytetyt painikkeet."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Näytä info-painike YouTuben soittimessa"
     },
-    "hideInfoButton": {
-        "message": "Piilota info-painike YouTuben soittimesta"
-    },
     "autoHideInfoButton": {
         "message": "Piilota info-painike automaattisesti"
-    },
-    "hideDeleteButton": {
-        "message": "Piilota poista-painike YouTuben soittimessa"
     },
     "showDeleteButton": {
         "message": "Näytä poista-painike YouTuben soittimessa"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Sen sijaan, että videoID:tä käyttäen pyydettäisiin osioita palvelimelta, videoID:n tiivisteen 4 ensimmäistä merkkiä lähetetään. Palvelin lähettää takaisin dataa kaikista videoista, joilla on samankaltaiset tiivisteet."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Hae osiot uudelleen uusissa videoissa"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Jos video on uusi, eikä osioita löydy, niitä haetaan uudelleen muutaman minuutin välein katsoessasi."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Näytä kategoriat lähetysvalikossa myös ilman lähetyslupaa"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Piilota otsikot ja pienoiskuvat kun tietoja haetaan palvelimelta. Jos poistettu käytöstä, koet vilkkumista, kun otsikot ja pienoiskuvat vaihtuvat."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Älä näytä YouTuben käännettyjä otsikoita",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube joskus kääntää otsikot automaattisesti äidinkielellesi. Tämä asetus pätee vain, kun käyttäjälähteistä otsikkoa ei ole saatavilla."
     },
     "onAllPages": {
         "message": "Kaikilla sivuilla",

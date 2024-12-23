@@ -161,9 +161,6 @@
     "showButtons": {
         "message": "Mostra els botons al reproductor de YouTube"
     },
-    "hideButtons": {
-        "message": "Amaga els botons al reproductor de YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Això amaga els botons que apareixen al reproductor de YouTube per enviar segments."
     },
@@ -172,9 +169,6 @@
     },
     "showInfoButton": {
         "message": "Mostra el botó d'informació al reproductor de YouTube"
-    },
-    "hideInfoButton": {
-        "message": "Amaga el botó d'informació al reproductor de YouTube"
     },
     "autoHideInfoButton": {
         "message": "Amaga automàticament el botó d'informació"

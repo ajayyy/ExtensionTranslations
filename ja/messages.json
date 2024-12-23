@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "YouTube プレーヤーにボタンを表示"
     },
-    "hideButtons": {
-        "message": "YouTube プレーヤーにボタンを表示しない"
-    },
     "hideButtonsDescription": {
         "message": "YouTube プレーヤーのセグメント提出ボタンを非表示にします。"
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "YouTube プレーヤーに情報ボタンを表示する"
     },
-    "hideInfoButton": {
-        "message": "YouTube プレーヤーに情報ボタンを表示しない"
-    },
     "autoHideInfoButton": {
         "message": "情報ボタンを自動的に隠す"
-    },
-    "hideDeleteButton": {
-        "message": "YouTube プレーヤーに削除ボタンを表示しない"
     },
     "showDeleteButton": {
         "message": "YouTube プレーヤーに削除ボタンを表示"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "動画IDを使用してサーバーからセグメントを要求する代わりに、動画IDのハッシュから最初の4文字が送信されます。それに対して、サーバーは類似したハッシュを持つすべての動画のデータを返却します。"
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "新しい動画ではセグメントを再取得する"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "動画がまだ新しくセグメントが見つからない場合は、動画を視聴している間、数分おきにセグメントを検索し続けます。"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "登録権限のないカテゴリーも登録メニューに表示する"

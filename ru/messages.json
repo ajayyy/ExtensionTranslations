@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Показывать кнопки в плеере YouTube"
     },
-    "hideButtons": {
-        "message": "Скрыть кнопки в плеере YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Эта настройка скрывает кнопки для отправки сегментов, расположенные в плеере YouTube."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Показывать кнопку информации в плеере YouTube"
     },
-    "hideInfoButton": {
-        "message": "Скрыть кнопку информации в плеере YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Автоматически скрывать кнопку информации"
-    },
-    "hideDeleteButton": {
-        "message": "Скрыть кнопку удаления в плеере YouTube"
     },
     "showDeleteButton": {
         "message": "Показывать кнопку удаления в плеере YouTube"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Вместо отправки на сервер ID видео, для получения сегментов будут использоваться первые 4 символа хэша ID. Сервер вернёт данные для всех видео с похожими хэшами."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Перепроверять сегменты в новых видео"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Если видео новое и для него не найдено сегментов, то информация о них будет обновляться каждые пару минут, пока вы смотрите видео."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Показывать категории в меню отправки даже без разрешения на публикацию"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Скрыть оригинальные названия и значки до момента загрузки альтернатив с сервера. Если отключено, сведения будут заменяться по мере их получения, вызывая мерцание."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Игнорировать автоперевод названий видео",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube иногда автоматически переводит названия на ваш язык. Настройка действительна только при отсутствии предложенных пользователями названий."
     },
     "onAllPages": {
         "message": "На всех страницах",

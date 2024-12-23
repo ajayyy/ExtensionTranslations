@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "ইউটিউব প্লেয়ারে বোতাম দেখান"
     },
-    "hideButtons": {
-        "message": "ইউটিউব প্লেয়ারে বোতাম বাদ দিন"
-    },
     "hideButtonsDescription": {
         "message": "এটি স্কিপ সেগমেন্ট জমা দেওয়ার জন্য ইউটিউব প্লেয়ারে প্রদর্শিত বোতামগুলিকে লুকিয়ে রাখে।"
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "ইউটিউব প্লেয়ারে তথ্য বোতাম দেখান"
     },
-    "hideInfoButton": {
-        "message": "ইউটিউব প্লেয়ারে তথ্য বোতাম লুকান"
-    },
     "autoHideInfoButton": {
         "message": "অটো-লুকান তথ্য বোতাম"
-    },
-    "hideDeleteButton": {
-        "message": "ইউটিউব প্লেয়ারে ডিলিট বোতাম লুকান"
     },
     "showDeleteButton": {
         "message": "ইউটিউব প্লেয়ারে ডিলিট বোতাম দেখান"
@@ -236,12 +227,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "সার্ভার থেকে videoID দিয়ে অংশ অনুরোধ করার পরিবর্তে videoID এর হ্যাশ এর প্রথম ৪ অক্ষর পাঠানো হয়। এই সার্ভার সমতুল্য হ্যাশ এর সকল ভিডিও এর তথ্য ফেরত পাঠাবে।"
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "নতুন ভিডিওতে আবার অংশটি যোগার করুন"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "যদি ভিডিওটি নতুন হয়, এবং কোন অংশ পাওয়া না যায়, আপনার দেখার সময় কয়েক মিনিট পর পরই এটি তথ্য আনতে থাকবে।"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "জমার অনুমতি ছাড়াই বিভাগসমূহকে জমা মেনুতে দেখান"

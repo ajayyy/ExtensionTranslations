@@ -96,7 +96,7 @@
         "message": "Cancelar Creación de Segmento"
     },
     "noVideoID": {
-        "message": "No se encontró vídeo de YouTube.\nSi esto es incorrecto, actualice la pestaña."
+        "message": "No se ha encontrado ningún vídeo de YouTube.\nSi esto es incorrecto, actualice la pestaña."
     },
     "refreshSegments": {
         "message": "Actualizar segmentos"
@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Mostrar botones en el reproductor de YouTube"
     },
-    "hideButtons": {
-        "message": "Ocultar botones en el reproductor de YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Esto oculta los botones que aparecen en el reproductor de YouTube que se usan para enviar segmentos saltados."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Mostrar botón de información en el reproductor de YouTube"
     },
-    "hideInfoButton": {
-        "message": "Ocultar botón de información en el reproductor de YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Ocular automáticamente el Botón de Información"
-    },
-    "hideDeleteButton": {
-        "message": "Ocultar botón de eliminar en el reproductor de YouTube"
     },
     "showDeleteButton": {
         "message": "Mostrar botón de eliminar en el reproductor de YouTube"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "En el lugar de solicitar segmentos del servidor usando el videoID, se envían los primeros 4 caracteres del hash del videoID. Este servidor devolverá los datos de todos los vídeos con hashes similares."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Actualizar Segmentos En Nuevos Vídeos"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Si el video es nuevo, y no hay segmentos encontrados, seguirá recuperándose cada pocos minutos mientras veas."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Mostrar categorías en el menú de envío, incluso al no tener permiso de envío"

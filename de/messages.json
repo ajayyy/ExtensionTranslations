@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Knöpfe im YouTube-Videoplayer anzeigen"
     },
-    "hideButtons": {
-        "message": "Knöpfe im YouTube-Videoplayer deaktivieren"
-    },
     "hideButtonsDescription": {
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
     },
-    "hideInfoButton": {
-        "message": "Deaktiviere Info-Knopf im Youtube-Videoplayer"
-    },
     "autoHideInfoButton": {
         "message": "Info-Knopf automatisch ausblenden"
-    },
-    "hideDeleteButton": {
-        "message": "Deaktiviere den Löschen-Knopf im Youtube-Videoplayer"
     },
     "showDeleteButton": {
         "message": "Löschen-Knopf im YouTube-Wiedergabefenster anzeigen"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Anstatt Segmente mit der Video-ID vom Server anzufordern, werden die ersten 4 Zeichen des Hashs der Video-ID gesendet. Der Server sendet Daten für alle Videos mit ähnlichen Hashes zurück."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Segmente bei neuen Videos erneut abrufen"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Wenn das Video neu ist und keine Segmente gefunden wurden, wird während des Betrachtens alle paar Minuten erneut eine Anfrage gesendet."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Zeige Kategorien im Einreichungsmenü auch ohne Einreichungsberechtigungen"
@@ -319,7 +304,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Segment Vorschau",
+        "message": "Segmentvorschau",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -335,7 +320,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow ein-/ausschalten",
+        "message": "DeArrow ein‐ / ausschalten",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -448,7 +433,7 @@
         "message": "Private Benutzer-ID importieren/exportieren"
     },
     "whatChangeUserID": {
-        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit als dich ausgeben. Wenn du nach deiner öffentlichen Benutzer-ID suchst, klicke auf das Kopieren-Symbol im Pop-up."
+        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit als dich ausgeben. Wenn du nach deiner öffentlichen Nutzer-ID suchst, klicke auf das Kopieren-Symbol im Popup."
     },
     "setUserID": {
         "message": "Private Benutzer-ID festlegen"
@@ -500,7 +485,7 @@
         "message": "Videosegmente, die kürzer als der festgelegte Wert sind, werden nicht übersprungen oder im Player angezeigt."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Verwende manuelles Überspringen, wenn ein vollständiges Video Label existiert"
+        "message": "Verwende manuelles Überspringen, wenn ein „Vollständiges Video“-Label existiert"
     },
     "whatManualSkipOnFullVideo": {
         "message": "Für Personen, die das Video ohne Unterbrechungen schauen wollen, wenn es vollständig gesponsert oder Eigenwerbung ist."
@@ -515,7 +500,7 @@
         "message": "Die folgende Einsendung ist kürzer als deine Mindestdauer. Das könnte bedeuten, dass dieses Videosegment bereits eingereicht wurde und aufgrund dieser Option einfach ignoriert wird. Bist du dir sicher, dass du es übermitteln möchtest?"
     },
     "liveOrPremiere": {
-        "message": "Das Einreichen eines aktiven Livestreams oder Premiere ist nicht erlaubt. Bitte warte bis es zu ende ist, lade die Seite neu und überprüfe, dass die Segmente noch immer korrekt sind."
+        "message": "Das Einreichen während eines aktiven Livestreams oder einer Premiere ist nicht erlaubt. Bitte warte, bis es zu Ende ist, lade die Seite neu und überprüfe, dass die Segmente noch immer korrekt sind."
     },
     "showUploadButton": {
         "message": "Upload-Knopf anzeigen"
@@ -970,7 +955,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Dieses Segment ist lang. Wenn das gesamte Video nur ein Thema behandelt, wechsle von \"Überspringen\" zu \"Ganzes Video\". Erfahre mehr in den Richtlinien."
+        "message": "Dieses Segment ist lang. Wenn das gesamte Video nur ein Thema behandelt, wechsle von „Überspringen“ zu „Vollständiges Video“. Erfahre mehr in den Richtlinien."
     },
     "categoryPillTitleText": {
         "message": "Das gesamte Video fällt unter diese Kategorie und ist zu stark integriert, um es zu trennen"
@@ -1244,7 +1229,7 @@
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
-        "message": "Video ID",
+        "message": "Video-ID",
         "description": "Header of the unsubmitted segments list"
     },
     "segmentCount": {
@@ -1326,7 +1311,7 @@
         "message": "Wörter großschreiben"
     },
     "TitleCase": {
-        "message": "Jedes Wort groß"
+        "message": "Großschreibung in Überschriften"
     },
     "SentenceCase": {
         "message": "Satzschreibung"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Blende Titel und Thumbnails während des Abrufens von Daten vom Server aus. Wenn deaktiviert, wirst du aufblinkende Titel und Thumbnails sehen, während diese sich ändern."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "YouTubes übersetzte Titel nicht anzeigen",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube übersetzt manchmal automatisch Titel in deine ausgewählte Sprache. Diese Option hat nur dann eine Auswirkung, wenn kein eingereichter Titel verfügbar ist."
     },
     "onAllPages": {
         "message": "Auf allen Seiten",

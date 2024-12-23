@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "在 YouTube 播放器上顯示按鈕"
     },
-    "hideButtons": {
-        "message": "在 YouTube 播放器上隱藏按鈕"
-    },
     "hideButtonsDescription": {
         "message": "這會隱藏 YouTube 播放器上提交片段的按鈕"
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "在 YouTube 播放器上顯示資訊按鈕"
     },
-    "hideInfoButton": {
-        "message": "在 YouTube 播放器上隱藏資訊按鈕"
-    },
     "autoHideInfoButton": {
         "message": "自動隱藏資訊按鈕"
-    },
-    "hideDeleteButton": {
-        "message": "在 YouTube 播放器上隱藏刪除按鈕"
     },
     "showDeleteButton": {
         "message": "在 YouTube 播放器上顯示刪除按鈕"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "與其使用影片 ID 來查詢片段，這會使用影片 ID 的雜湊前4碼來查詢。伺服器會送回所有有類似雜湊的影片片段資料"
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "在新影片重新擷取片段"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "如果這部影片是新的，而且目前沒有找到片段的話，系統會每分鐘重新擷取一次"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "即使沒有提交權限，仍在提交選單中顯示類別"

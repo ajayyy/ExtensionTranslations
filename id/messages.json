@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Tampilkan Tombol Di Pemutar Video YouTube"
     },
-    "hideButtons": {
-        "message": "Sembunyikan Tombol Di Pemutar Video YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Ini akan menyembunyikan tombol yang muncul di pemutar YouTube untuk mengirimkan segmen yang dilewati."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Tampilkan Tombol Info Di Pemutar Video YouTube"
     },
-    "hideInfoButton": {
-        "message": "Sembunyikan Tombol Info Di Pemutar Video YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Otomatis Sembunyikan Tombol Info"
-    },
-    "hideDeleteButton": {
-        "message": "Sembunyikan Tombol Hapus Di Pemutar Video YouTube"
     },
     "showDeleteButton": {
         "message": "Tampilkan Tombol Hapus Di Pemutar Video YouTube"
@@ -236,12 +227,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Daripada meminta segmen dari server menggunakan videoID, 4 huruf pertama dari hash dari videoID dikirim. Server akan mengirim kembali data untuk semua video dengan hash yang mirip."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Fetch Ulang Segmen Di Video Baru"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Jika ini merupakan video baru, dan tidak ada segmen yang ditemukan, SponsorBlock akan terus merefetch setiap beberapa menit saat anda menonton."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Tampilkan kategori di dalam menu submisi bahkan tanpa izin submisi"

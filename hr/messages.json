@@ -186,9 +186,6 @@
     "showButtons": {
         "message": "Prikaži gumbe na YouTube Playeru"
     },
-    "hideButtons": {
-        "message": "Sakrij gumbe na YouTube playeru"
-    },
     "hideButtonsDescription": {
         "message": "Ovo skriva gumbe koji se pojavljuju na YouTube playeru za slanje odsječaka za preskakanje."
     },
@@ -198,14 +195,8 @@
     "showInfoButton": {
         "message": "Prikaži gumb za informacije na YouTube Playeru"
     },
-    "hideInfoButton": {
-        "message": "Sakrij gumb za informacije na YouTube Playeru"
-    },
     "autoHideInfoButton": {
         "message": "Automatski sakrij info gumb"
-    },
-    "hideDeleteButton": {
-        "message": "Sakrij gumb za brisanje na YouTube playeru"
     },
     "showDeleteButton": {
         "message": "Pokaži gumb za brisanje na YouTube sviraču"
@@ -236,12 +227,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Umjesto zahtijeva za segmentima s poslužitelja koristeći videoID, prva 4 znaka sigurnosnog kontrolnog broja video ID-a su poslani. Taj poslužitelj poslat će nazad podatke za sva videa sa sličnim sigurnosnim kontrolnim brojevima."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Ponovo preuzmi segmente novih videa"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Ukoliko je video nov, i ako nisu pronađeni novi segmenti, preuzimanje će se nastavit svakih par minuta dok gledaš."
     },
     "showNotice": {
         "message": "Prikaži napomenu opet"

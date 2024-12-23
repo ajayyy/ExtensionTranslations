@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "YouTube 탐색 바에서 버튼 표시"
     },
-    "hideButtons": {
-        "message": "YouTube 탐색 바에서 버튼 숨김"
-    },
     "hideButtonsDescription": {
         "message": "건너뛸 구간을 제출할 수 있는 YouTube 탐색 바에 있는 버튼을 숨겨요."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "YouTube 탐색 바에서 정보 버튼 표시"
     },
-    "hideInfoButton": {
-        "message": "YouTube 탐색 바에서 정보 버튼 숨김"
-    },
     "autoHideInfoButton": {
         "message": "정보 버튼 자동 숨김"
-    },
-    "hideDeleteButton": {
-        "message": "YouTube 탐색 바에서 삭제 버튼 숨김"
     },
     "showDeleteButton": {
         "message": "YouTube 탐색 바에서 삭제 버튼 표시"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "동영상 ID로 구간을 요청하는 대신, 동영상 ID의 첫 해시 4자리를 보내요. 서버가 유사한 해시가 포함된 모든 동영상의 데이터를 보낼 거예요."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "새로운 동영상에서 구간 정보 자동 갱신"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "신규 동영상이고 구간을 찾지 못했다면, 동영상을 보는 동안 몇 분마다 구간 정보를 갱신해요."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "제출 권한이 없는 카테고리도 제출 메뉴에 표시"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "서버에서 데이터를 가져오는 동안 제목과 썸네일을 숨겨요. 사용하지 않는 경우, 제목과 썸네일이 변경될 때 깜박임이 발생해요."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "YouTube가 번역한 제목 표시 안 함",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "때로 YouTube가 제목을 사용자의 언어로 자동 번역하기도 해요. 이 설정은 사용자 참여 제목이 없는 경우에만 적용돼요."
     },
     "onAllPages": {
         "message": "모든 페이지에서",

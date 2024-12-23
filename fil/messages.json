@@ -166,20 +166,11 @@
     "showButtons": {
         "message": "Ipakita ang Delete Button sa YouTube Player"
     },
-    "hideButtons": {
-        "message": "Itago ang Delete Button sa YouTube Player"
-    },
     "showSkipButton": {
         "message": "Ipakita lagi ang Skip To Highlight Button Sa Player"
     },
     "showInfoButton": {
         "message": "Ipakita ang Info Button sa YouTube Player"
-    },
-    "hideInfoButton": {
-        "message": "Itago ang Info Button sa YouTube Player"
-    },
-    "hideDeleteButton": {
-        "message": "Itago ang Delete Button sa YouTube Player"
     },
     "showDeleteButton": {
         "message": "Ipakita ang Delete Button sa YouTube Player"

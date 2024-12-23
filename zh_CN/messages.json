@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "在 Youtube 播放器上显示按钮"
     },
-    "hideButtons": {
-        "message": "在 Youtube 播放器上隐藏按钮"
-    },
     "hideButtonsDescription": {
         "message": "这将隐藏在 YouTube 播放器上提交赞助商广告的按钮。我了解这个东西打扰到了某些人。除了使用那个按钮，这个弹窗也可以用来提交赞助商广告。 要隐藏出现的通知，请使用通知中显示的写着 ”不再显示“ 的按钮。您可以在以后再次启用这些设置。"
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "在 Youtube 播放器上显示信息按钮"
     },
-    "hideInfoButton": {
-        "message": "在 Youtube 播放器上隐藏信息按钮"
-    },
     "autoHideInfoButton": {
         "message": "自动隐藏信息按钮"
-    },
-    "hideDeleteButton": {
-        "message": "在 Youtube 播放器上隐藏删除按钮"
     },
     "showDeleteButton": {
         "message": "在 Youtube 播放器上显示删除按钮"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "使用视频 ID 哈希值的前 4 个字符而非整个视频 ID 向服务器查询片段。服务器将返回所有具有类似哈希值的视频数据。"
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "在新视频中再次获取片段"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "如果视频是新的且没有发现可跳片段，将在您观看时每隔几分钟再次获取信息。"
     },
     "enableShowCategoryWithoutPermission": {
         "message": "在提交菜单中显示类别，即使没有提交权限"

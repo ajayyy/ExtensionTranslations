@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Mostrar botões no player do Youtube"
     },
-    "hideButtons": {
-        "message": "Esconder botões no player do Youtube"
-    },
     "hideButtonsDescription": {
         "message": "Isto esconde os botões que aparecem no player do Youtube para submeter patrocínios. Entendemos que possa ser\n incómodo a algumas pessoas. Em vez de usar esses botões pode usar os do popup. Para esconder a mensagem que aparece, \n ususe o botão na mesma que diz \"Don't show this again\". Pode sempre reactivar estas definições novamente."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Mostrar botão de Informações no player do Youtube"
     },
-    "hideInfoButton": {
-        "message": "Esconder botão de Informações no player do Youtube"
-    },
     "autoHideInfoButton": {
         "message": "Ocultar automaticamente o Botão de Informação"
-    },
-    "hideDeleteButton": {
-        "message": "Esconder botão de Apagar no player do Youtube"
     },
     "showDeleteButton": {
         "message": "Mostrar botão de Apagar no player do Youtube"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Em vez de solicitar segmentos do servidor usando o videoID, são enviados os 4 primeiros caracteres da hash do videoID. Este servidor enviará dados de volta para todos os vídeos com hashes similares."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Recuperar segmentos em novos vídeos"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Se o vídeo for novo e nenhum segmento for encontrado, continuaremos buscando enquanto você assiste."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Mostrar categorias no menu de envios mesmo sem permissão de envio"

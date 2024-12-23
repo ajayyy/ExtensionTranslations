@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Visa knappar på YouTube-spelaren"
     },
-    "hideButtons": {
-        "message": "Dölj knappar på YouTube-spelaren"
-    },
     "hideButtonsDescription": {
         "message": "Detta döljer knapparna på YouTube-spelaren som du skickar in överhoppade segment med."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Visa infoknappen på YouTube-spelaren"
     },
-    "hideInfoButton": {
-        "message": "Dölj infoknappen på YouTube-spelaren"
-    },
     "autoHideInfoButton": {
         "message": "Dölj infoknappen automatiskt"
-    },
-    "hideDeleteButton": {
-        "message": "Dölj borttagningsknappen på YouTube-spelaren"
     },
     "showDeleteButton": {
         "message": "Visa borttagningsknappen på YouTube-spelaren"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "I stället för att begära segment från servern med hjälp av video-ID skickas de första 4 tecknen i hashen av video-ID:et. Servern kommer då att skicka tillbaka data för alla videor med liknande hashar."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Uppdatera segment på nya videor"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Om videon är ny och inga segment hittades då kommer den att uppdateras med några minuters mellanrum medan du tittar på videon."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Visa kategorier i inlämningsmenyn även utan inlämningstillstånd"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Dölj titlar och miniatyrer under hämtning av data från servern. Om inaktiverad kommer du att uppleva blinkande när titlarna och miniatyrerna ändras."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Visa inte YouTubes översatta titlar",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube kommer ibland att automatiskt översätta titlar till ditt modersmål. Detta alternativ gäller endast när en crowdsourced titel inte är tillgänglig."
     },
     "onAllPages": {
         "message": "På alla sidor",

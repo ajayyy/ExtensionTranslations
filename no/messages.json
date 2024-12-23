@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Vis knapper på YouTube-avspilleren"
     },
-    "hideButtons": {
-        "message": "Skjul knapper på YouTube-avspilleren"
-    },
     "hideButtonsDescription": {
         "message": "Dette skjuler knappene som dukker opp på YouTube-avspilleren for å sende inn hoppesegmenter."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Vis infoknappen på YouTube-avspilleren"
     },
-    "hideInfoButton": {
-        "message": "Skjul infoknappen på YouTube-avspilleren"
-    },
     "autoHideInfoButton": {
         "message": "Skjul infoknappen automatisk"
-    },
-    "hideDeleteButton": {
-        "message": "Skjul Slett-knappen på YouTube-avspilleren"
     },
     "showDeleteButton": {
         "message": "Vis Slett-knappen på YouTube-avspilleren"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "I stedet for å forespørre segmenter fra tjeneren ut i fra video-ID-en, blir de første 4 tegnene i saltingskoden til video-ID-en sendt. Denne tjeneren vil svare tilbake med data for alle videoer med lignende saltingskoder."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Innhent segmenter i nye videoer på nytt"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Hvis videoen er ny, og ingen segmenter ble funnet, vil den forsøke å innhente på nytt med noen minutters mellomrom mens du ser på videoen."
     },
     "showNotice": {
         "message": "Vis varselet igjen"

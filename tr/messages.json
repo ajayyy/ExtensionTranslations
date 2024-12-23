@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "YouTube oynatıcısında Butonları Göster"
     },
-    "hideButtons": {
-        "message": "YouTube Oynatıcısındaki Butonları Gizle"
-    },
     "hideButtonsDescription": {
         "message": "Bu YouTube oynatıcısındaki bölüm geçişlerini yolladığınız butonları saklayacaktır."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "YouTube Oynatıcısındaki Bilgi Butonunu Göster"
     },
-    "hideInfoButton": {
-        "message": "YouTube Oynatıcısındaki Bilgi Butonunu Gizle"
-    },
     "autoHideInfoButton": {
         "message": "Bilgi düğmesini otomatik gizle"
-    },
-    "hideDeleteButton": {
-        "message": "YouTube Oynatıcısında Silme Tuşunu Gizle"
     },
     "showDeleteButton": {
         "message": "YouTube Oynatıcısında Silme Tuşunu Göster"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Video Kimliğini kullanarak sunucudan kısımları talep etmek yerine, Video Kimliğinin karmasının ilk 4 karakterini gönderir. Bu sunucu, benzer karmalara sahip tüm videolar için verileri geri gönderir."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Yeni Videolardaki Kısımları Sürekli Sorgula"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Eğer video yeni ve kısımları bulunmuyorsa, sen videoyu izlerken her birkaç dakikada bir kısımları edinmeye çalışır."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Gönderim izni olmasa bile gönderim menüsünde kategorileri gösterme"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Sunucudan veri çekilirken başlıkları ve küçük resimleri gösterme. Bu seçenek kapalı ise başlıklar ve küçük resimler değiştirilirken ekranda parlamalar olabilir."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "YouTube'un çevrilen başlıklarını gösterme",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube bazen orijinal başlıkları sizin dilinize çevirir. Bu özellik kitle kaynaklı bir başlık olmadığında çalışır."
     },
     "onAllPages": {
         "message": "Tüm Sayfalarda",

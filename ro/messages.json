@@ -42,7 +42,7 @@
         "message": "Raportează"
     },
     "reportButtonInfo": {
-        "message": "Raportează această înregistrare ca fiind incorectă."
+        "message": "Semnalează propunerea ca fiind incorectă."
     },
     "Dismiss": {
         "message": "Renunță"
@@ -54,13 +54,13 @@
         "message": "Nu mai afișa niciodată"
     },
     "hitGoBack": {
-        "message": "Apasă unskip pentru a reveni."
+        "message": "Apăsați butonul „Anulați“ pentru a reveni."
     },
     "unskip": {
         "message": "Anulați"
     },
     "reskip": {
-        "message": "Sari peste"
+        "message": "Treci peste"
     },
     "unmute": {
         "message": "Activare sunet"
@@ -189,9 +189,6 @@
     "showButtons": {
         "message": "Arată Butoanele Pe Playerul De YouTube"
     },
-    "hideButtons": {
-        "message": "Ascunde Butoanele Pe Playerul De YouTube"
-    },
     "hideButtonsDescription": {
         "message": "Asta ascunde butoanele ce apar pe playerul de YouTube pentru a trimite segmente."
     },
@@ -201,14 +198,8 @@
     "showInfoButton": {
         "message": "Arată Butoanele De Informații Pe Playerul De YouTube"
     },
-    "hideInfoButton": {
-        "message": "Ascunde Butoanele De Informații Pe Playerul De YouTube"
-    },
     "autoHideInfoButton": {
         "message": "Ascunde Automat Butonul De Info"
-    },
-    "hideDeleteButton": {
-        "message": "Ascunde Butonul De Ștergere Pe Playerul De YouTube"
     },
     "showDeleteButton": {
         "message": "Arată Butonul De Ștergere Pe Playerul De YouTube"
@@ -239,12 +230,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "În loc să solicite segmente de pe server folosind ID-ul video, primele 4 caractere ale hash-ului ID-ul videoului sunt trimise. Acest server va trimite înapoi date pentru toate videoclipurile cu hash-uri similare."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Refacere segmente pe videoclipuri noi"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Dacă videoclipul este nou și nu sunt segmente găsite, va continua să se refeteze la fiecare câteva minute în timp ce vizionați."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Arată categoriile în meniul de adăugare chiar fără permisiunea de adăugare"

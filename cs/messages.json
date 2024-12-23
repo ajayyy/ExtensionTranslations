@@ -192,9 +192,6 @@
     "showButtons": {
         "message": "Zobrazit tlačítka na YouTube přehrávači"
     },
-    "hideButtons": {
-        "message": "Skrýt tlačítka na YouTube přehrávači"
-    },
     "hideButtonsDescription": {
         "message": "Skryje tlačítka, která se zobrazí v YouTube přehrávači pro přeskočení segmentů."
     },
@@ -204,14 +201,8 @@
     "showInfoButton": {
         "message": "Zobrazit informační tlačítko v YouTube přehrávači"
     },
-    "hideInfoButton": {
-        "message": "Skrýt informační tlačítko v YouTube přehrávači"
-    },
     "autoHideInfoButton": {
         "message": "Automaticky skrýt informační tlačítko"
-    },
-    "hideDeleteButton": {
-        "message": "Skrýt tlačítko Odstranit v YouTube přehrávači"
     },
     "showDeleteButton": {
         "message": "Zobrazit tlačítko Odstranit v YouTube přehrávači"
@@ -242,12 +233,6 @@
     },
     "whatQueryByHashPrefix": {
         "message": "Místo žádání o segmenty ze serveru pomocí videoID jsou poslány první 4 charaktery hashe ve videoID. Tento server odešle zpět data pro všechna videa s podobnými hashy."
-    },
-    "enableRefetchWhenNotFound": {
-        "message": "Automaticky znovu načítat segmenty na nových videích"
-    },
-    "whatRefetchWhenNotFound": {
-        "message": "Pokud je video nové a nejsou nalezeny žádné segmenty, bude rozšíření každých několik minut refetchovat data, zatímco sledujete video."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Zobrazit kategorie v nabídce odeslání i bez oprávnění k odeslání"
@@ -1417,6 +1402,13 @@
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Skrýt názvy a náhledy při načítání dat ze serveru. Pokud je tato funkce zakázána, při změně názvů a náhledů uvidíte blikání."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Nezobrazovat názvy přeložené službou YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube někdy automaticky přeloží názvy do vašeho rodného jazyka. Tato možnost se použije pouze v případě, že není dostupný komunitní název."
     },
     "onAllPages": {
         "message": "Na všech stránkách",
