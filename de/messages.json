@@ -226,7 +226,7 @@
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Speichere Downvotes von Segmenten in privaten/Inkognito-Tabs"
+        "message": "Speichere negative Bewertungen von Segmenten in privaten/Inkognito-Tabs"
     },
     "enableQueryByHashPrefix": {
         "message": "Abfrage nach Hash-Präfix"
