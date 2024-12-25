@@ -1393,6 +1393,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Oculta títulos e miniaturas durante a obtenção de dados do servidor. Se estiver desativado, os títulos e as miniaturas ficarão intermitentes à medida que forem mudando."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Não mostrar os títulos traduzidos do YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Por vezes, o YouTube traduz automaticamente os títulos para a sua língua materna. Esta opção só se aplica quando não está disponível um título de recolha coletiva de dados."
+    },
     "onAllPages": {
         "message": "Em todas as páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
