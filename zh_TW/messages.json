@@ -29,7 +29,7 @@
         "message": "章節"
     },
     "renderAsChapters": {
-        "message": "將片段渲染成章節",
+        "message": "將片段顯示成章節",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "showSegmentNameInChapterBar": {
@@ -642,7 +642,7 @@
         "message": "僅用於標記整部影片。用於影片展示創作者免費或贊助體驗的產品、服務或地點。"
     },
     "category_exclusive_access_pill": {
-        "message": "此影片展示了創作者免費或贊助體驗的產品、服務或地點",
+        "message": "這部影片展示了創作者免費或贊助體驗的產品、服務或地點",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
@@ -661,7 +661,7 @@
         "message": "包含間接提醒觀眾留言"
     },
     "category_interaction_guideline3": {
-        "message": "並非一般促銷、只限於要求進行某動作"
+        "message": "不用於一般推廣，僅用於行動呼籲"
     },
     "category_interaction_short": {
         "message": "互動提醒"
@@ -1033,7 +1033,7 @@
         "message": "我可以取得資料庫的副本嗎？如果作者消失了怎麼辦？"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "資料庫是公開的且可以在這取用："
+        "message": "資料庫是公開的且可以在以下位置取用："
     },
     "helpPageCopyOfDatabase2": {
         "message": "原始碼是公開的。因此，即使作者發生任何狀況，您的提交內容也不會遺失。"
@@ -1045,10 +1045,10 @@
         "message": "我在哪裡可以取得原始碼？"
     },
     "Credits": {
-        "message": "致謝"
+        "message": "鳴謝"
     },
     "LearnMore": {
-        "message": "深入瞭解"
+        "message": "深入了解"
     },
     "FullDetails": {
         "message": "完整詳細資訊"
@@ -1142,7 +1142,7 @@
         "message": "已啟用測試版伺服器！"
     },
     "openOptionsPage": {
-        "message": "打開選項頁面"
+        "message": "開啟選項頁面"
     },
     "resetToDefault": {
         "message": "將設定重設為預設值"
@@ -1244,7 +1244,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - 最佳化 YouTube 標題和縮圖",
+        "message": "DeArrow - 更好的 YouTube 標題與縮圖",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
@@ -1264,19 +1264,19 @@
         "message": "目前時間"
     },
     "resetCustomTitle": {
-        "message": "將標題重設回原始文字"
+        "message": "將標題重設為原始文字"
     },
     "resetIcon": {
         "message": "重設圖示"
     },
     "TypeYourOwnTitleHere": {
-        "message": "在此輸入您的標題"
+        "message": "在這裡輸入您的標題"
     },
     "VideoNotReady": {
         "message": "影片尚未準備就緒"
     },
     "FailedToRender": {
-        "message": "渲染失敗",
+        "message": "繪製失敗",
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
@@ -1292,7 +1292,7 @@
         "description": "Thumbnail failed to load"
     },
     "titleFormatting": {
-        "message": "標題式樣"
+        "message": "標題格式"
     },
     "Disabled": {
         "message": "已停用"
@@ -1316,7 +1316,7 @@
         "message": "移除表情符號"
     },
     "onlyFormatCustomTitles": {
-        "message": "僅格式化用戶提交的標題"
+        "message": "僅格式化使用者提交的標題"
     },
     "onlyTitleCaseInEnglish": {
         "message": "僅針對非英文標題套用標題大小寫"
@@ -1619,10 +1619,10 @@
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "使用更準確的標題和縮圖取代點選誘餌內容，以杜絕點選誘餌"
+        "message": "使用更準確的標題和縮圖取代誘餌式點擊內容，以杜絕誘餌式點擊"
     },
     "DeArrowPromotionMessage2": {
-        "message": "厭倦了點選誘餌嗎？來看看我的新擴充功能，可以改善標題和縮圖"
+        "message": "厭倦了誘餌式點擊嗎？來看看我的新擴充功能，可以改善標題與縮圖"
     },
     "DeArrowPromotionMessage3": {
         "message": "也來看看 DeArrow",
@@ -1676,7 +1676,7 @@
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "使用 yt-neuter 新增過濾清單，以封鎖問卷調查、周邊商品貨架和其他廣頁頁面元素"
+        "message": "使用 yt-neuter 新增篩選清單，以封鎖問卷調查、周邊商品貨架和其他廣頁頁面元素"
     },
     "requiresUblock": {
         "message": "需要 uBlock Origin"
@@ -1685,7 +1685,7 @@
         "message": "影片 ID 偵測發生問題。提交前請先重新整理，以確保提交到正確的影片。如果這個問題經常發生，請透過 GitHub、Discord 或 Matrix 回報，並附上您已安裝的其他擴充功能或使用者指令碼。"
     },
     "dearrowLogoCredit": {
-        "message": "此 Logo 基於 Twemoji 設計，並依照 CC-BY 4.0 授權使用。"
+        "message": "標誌基於 Twemoji，並採 CC 姓名標示 4.0 授權。"
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock 與「Zoom to Fill」擴充功能不相容。不過您仍可以使用許多其他可以正常運作的替代方案。"
