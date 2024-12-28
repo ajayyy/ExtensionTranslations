@@ -246,6 +246,9 @@
     "showSkipNotice": {
         "message": "إظهار إشعار بعد تخطي فقرة ما"
     },
+    "showUpcomingNotice": {
+        "message": "إظهار إشعار قبل أن يبدأ الجزء"
+    },
     "showCategoryGuidelines": {
         "message": "إظهار مساعدة الفئة"
     },
@@ -365,6 +368,10 @@
     "skip_to_category": {
         "message": "تخطي إلى {0}؟",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "{0} قادم",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "تم تخطي {0}",
