@@ -725,6 +725,9 @@
     "forceChannelCheck": {
         "message": "บังคับให้ตรวจช่องก่อนข้าม"
     },
+    "downvoteDescription": {
+        "message": "กำหนดเวลาไม่ถูกต้อง/ผิด"
+    },
     "incorrectVote": {
         "message": "ไม่ถูกต้อง"
     },
