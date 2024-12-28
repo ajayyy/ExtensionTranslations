@@ -618,17 +618,27 @@
     "category_outro_guideline1": {
         "message": "อย่ารวมเนื้อหา แม้การ์ดจบของ YouTube จะปรากฏอยู่บนหน้าจอก็ตาม"
     },
+    "category_preview": {
+        "message": "ตัวอย่าง/สรุปสั้น/ล่อใจ",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_guideline1": {
         "message": "คลิปที่ปรากฎภายหลัง หรือในวิดีโอถัดไป"
     },
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
+    "category_filler": {
+        "message": "ตัวเสริม/ฉากตลก"
+    },
     "category_filler_short": {
         "message": "ตัวเสริม"
     },
     "category_filler_guideline1": {
         "message": "เป็นฉากตัวเสริมหรือฉากเพื่อความตลก"
+    },
+    "category_music_offtopic": {
+        "message": "เพลง: ส่วนที่ไม่ใช่เสียงเพลง"
     },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
@@ -867,6 +877,10 @@
     "videosPlural": {
         "message": "วิดีโอ",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "videoID": {
+        "message": "ID วิดิโอ",
+        "description": "Header of the unsubmitted segments list"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} วินาที",
