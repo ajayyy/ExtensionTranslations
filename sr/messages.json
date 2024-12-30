@@ -288,11 +288,11 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Прескочити сегмент",
+        "message": "Прескакање сегмента",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Започети/завршити сегмент",
+        "message": "Започињање/завршавање сегмента",
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
@@ -320,7 +320,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Укључи/искључи омогућавање DeArrow-а",
+        "message": "Укључивање/искључивање DeArrow-а",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
