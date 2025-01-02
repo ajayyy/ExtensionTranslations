@@ -1290,6 +1290,13 @@
     "titleMaxLinesDescription": {
         "message": "V odporúčaniach budú názvy videí zobrazené na daný počet riadkov."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Nezobrazovať preložené názvy",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube niekedy automaticky preloží názvy do vášho jazyka. Toto nastavenie sa použije iba ak nie je dostupný názov z crowdsourcingu."
+    },
     "onAllPages": {
         "message": "Na všetkých stránkach",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
