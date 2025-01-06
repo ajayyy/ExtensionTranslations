@@ -1408,7 +1408,7 @@
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
     "ignoreTranslatedTitlesDescription": {
-        "message": "Il arrive que YouTube traduise automatiquement les titres dans votre langue. Cette option s'applique uniquement si aucun titre crowdsourcé n'est disponible."
+        "message": "YouTube traduit automatiquement certains titres dans votre langue. Cette option s'applique uniquement si aucun titre crowdsourcé n'est disponible."
     },
     "onAllPages": {
         "message": "Sur toutes les pages",
