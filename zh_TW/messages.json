@@ -439,7 +439,7 @@
         "message": "設定密鑰 ID"
     },
     "userIDChangeWarning": {
-        "message": "警告：變更用戶 ID 後即無法復原。您確定要這樣做嗎？請務必先備份您的舊用戶 ID，以備不時之需。"
+        "message": "警告：變更使用者 ID 後即無法復原。您確定要這樣做嗎？請務必先備份您的舊使用者 ID，以備不時之需。"
     },
     "createdBy": {
         "message": "作者"
@@ -892,7 +892,7 @@
         "message": "未偵測到頻道ID，如果您正在使用嵌入式YouTube播放器，請移至YouTube網站上觀看本影片。此問題亦有可能是由於YouTube改變了系統架構，如果你認為這是造成此問題的原因，請留言告訴我們："
     },
     "invidiousPermissionRefresh": {
-        "message": "瀏覽器已撤銷 Invidious 和其他第三方網站運作所需的權限。請點選下方的按鈕重新啟用此權限。"
+        "message": "瀏覽器已收回 Invidious 和其他第三方網站運作所需的權限。請點選下方的按鈕重新啟用此權限。"
     },
     "acceptPermission": {
         "message": "允許權限"
@@ -1294,7 +1294,7 @@
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "渲染時發生例外狀況",
+        "message": "繪製時發生例外狀況",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
