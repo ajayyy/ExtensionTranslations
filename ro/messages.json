@@ -708,18 +708,6 @@
     "category_preview_guideline3": {
         "message": "Nu pentru secțiunile care adaugă conținut suplimentar"
     },
-    "category_filler": {
-        "message": "Glume de Umplutură/Tangențiale"
-    },
-    "category_filler_description": {
-        "message": "Scenele tactil adăugate numai pentru umplutură sau umor care nu sunt necesare pentru a înțelege conținutul principal al videoclipului. Aceasta nu ar trebui să includă segmente care să ofere detalii de context sau de fundal. Aceasta este o categorie foarte agresivă, pentru care nu ești în starea de spirit pentru \"distracție\"."
-    },
-    "category_filler_short": {
-        "message": "Materiale de umplutură"
-    },
-    "category_filler_guideline1": {
-        "message": "Scenele tactil numai pentru umplere sau umor"
-    },
     "category_filler_guideline2": {
         "message": "Distracții, blooper, reluări"
     },
