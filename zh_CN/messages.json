@@ -706,18 +706,6 @@
     "category_preview_guideline3": {
         "message": "不含有新添加的内容"
     },
-    "category_filler": {
-        "message": "离题的闲聊/笑话"
-    },
-    "category_filler_description": {
-        "message": "离题片段标签仅在出现不需要理解视频主要内容的拖时间/无关笑话片段时使用。此标签不能包含有意义的内容或背景细节。这是非常激进的类别，代表您没有心情娱乐。"
-    },
-    "category_filler_short": {
-        "message": "离题"
-    },
-    "category_filler_guideline1": {
-        "message": "拖时间/无意义笑话等离题片段"
-    },
     "category_filler_guideline2": {
         "message": "分心、花絮、重播"
     },
