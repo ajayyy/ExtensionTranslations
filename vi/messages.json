@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Không dành cho các phần thêm nội dung bổ sung"
     },
-    "category_filler": {
-        "message": "Cảnh phụ"
-    },
-    "category_filler_description": {
-        "message": "Tập hợp các cảnh không bắt buộc để xem trong video. Điều này không bao gồm các đoạn chứa nội dung hoặc nói về ngữ cảnh của video. Đây là một danh mục rất nghiêm ngặt được sử dụng khi bạn không có tâm trạng \"vui vẻ\"."
-    },
-    "category_filler_short": {
-        "message": "Cảnh phụ"
-    },
-    "category_filler_guideline1": {
-        "message": "Các cảnh phụ chỉ để dông dài hoặc gây cười"
-    },
     "category_filler_guideline2": {
         "message": "Các phân cảnh làm phiền, quay lỗi, phát lại"
     },
