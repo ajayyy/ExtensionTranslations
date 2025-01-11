@@ -667,18 +667,6 @@
     "category_preview_guideline3": {
         "message": "Niet voor secties die extra inhoud toevoegen"
     },
-    "category_filler": {
-        "message": "Opvulling zijspoor/humor"
-    },
-    "category_filler_description": {
-        "message": "Zijspoor-scènes die alleen ter opvulling of als humor worden toegevoegd en niet noodzakelijk zijn om de hoofdinhoud van de video te begrijpen. Segmenten die context of achtergrondinformatie verschaffen, mogen hier niet onder vallen. Dit is een zeer agressieve categorie, bedoeld voor als u niet in de stemming bent voor \"plezier\"."
-    },
-    "category_filler_short": {
-        "message": "Opvulling"
-    },
-    "category_filler_guideline1": {
-        "message": "Zijspoor-scènes alleen voor opvulling of humor"
-    },
     "category_filler_guideline2": {
         "message": "Afleidingen, bloopers, herhalingen"
     },
