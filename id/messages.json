@@ -693,18 +693,6 @@
     "category_preview_guideline3": {
         "message": "Bukan untuk bagian yang menambahkan konten tambahan"
     },
-    "category_filler": {
-        "message": "Pengisi Tak berkaitan/Lawakan"
-    },
-    "category_filler_description": {
-        "message": "Adegan tangensial ditambahkan hanya untuk pengisi atau humor yang tidak diperlukan untuk memahami isi utama video. Ini tidak boleh mencakup segmen yang memberikan detail konteks atau latar belakang. Ini adalah kategori sangat agresif yang ditujukan saat Anda tidak sedang ingin \"bersenang-senang\"."
-    },
-    "category_filler_short": {
-        "message": "Isian"
-    },
-    "category_filler_guideline1": {
-        "message": "Scene tangen hanya untuk isian atau humor"
-    },
     "category_filler_guideline2": {
         "message": "Gangguan, blooper, replay"
     },
