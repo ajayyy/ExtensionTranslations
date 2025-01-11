@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Nie dla sekcji, które zawierają potrzebne informacje"
     },
-    "category_filler": {
-        "message": "Wypełniacz nietematyczny/żart"
-    },
-    "category_filler_description": {
-        "message": "To jest bardzo agresywna kategoria, której możesz użyć, jeżeli nie masz ochoty, by widzieć scenki humorystyczne/wypełniacze."
-    },
-    "category_filler_short": {
-        "message": "Wypełniacz"
-    },
-    "category_filler_guideline1": {
-        "message": "Przerywniki lub sceny czysto humorystyczne"
-    },
     "category_filler_guideline2": {
         "message": "Rozpraszacze, wpadki, powtórki"
     },
