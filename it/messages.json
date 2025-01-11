@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Non per sezioni che aggiungono contenuti in più"
     },
-    "category_filler": {
-        "message": "Riempitivi irrilevanti/Battute"
-    },
-    "category_filler_description": {
-        "message": "Scene tangenziali aggiunte solo come riempimento o per umorismo, non necessarie alla comprensione del contenuto principale del video. Non dovrebbe includere i segmenti che forniscono contesto o dettagli di background. Questa è una categoria molto aggressiva, pensata per quanto non si è in un mood \"divertente\"."
-    },
-    "category_filler_short": {
-        "message": "Filler"
-    },
-    "category_filler_guideline1": {
-        "message": "Scene non correlate usate solo come filler o umorismo"
-    },
     "category_filler_guideline2": {
         "message": "Distrazioni, bloopers, replay"
     },
