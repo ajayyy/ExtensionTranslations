@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "不適用於提供額外內容的區段"
     },
-    "category_filler": {
-        "message": "閒聊/搞笑片段"
-    },
-    "category_filler_description": {
-        "message": "為了增加趣味或搞笑效果而加入的離題場景，對於理解影片主要內容並非必要。這不包含提供背景資訊或細節的片段。這個分類相當嚴格，適合您只想專注於主要內容、不想被「趣味」內容分心的情況。"
-    },
-    "category_filler_short": {
-        "message": "額外片段"
-    },
-    "category_filler_guideline1": {
-        "message": "純粹為了增加趣味或搞笑效果的離題場景"
-    },
     "category_filler_guideline2": {
         "message": "例如：分心橋段、失誤/NG 鏡頭、畫面重播"
     },
