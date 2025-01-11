@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Nem olyan részekhez, amik új tartalmat adnak a videóhoz"
     },
-    "category_filler": {
-        "message": "Témától eltérő töltelék/viccek"
-    },
-    "category_filler_description": {
-        "message": "Csak töltelékként, vagy humornak hozzáadott részek, amik nem szükségesek a videó fő tartalmának megértéséhez. Ne tartalmazzon olyan szegmenseket, amik kontextust, vagy alapvető információkat szolgáltatnak\". Ez egy nagyon agresszív kategória arra, amikor nincs kedved a \"szórakozáshoz\"."
-    },
-    "category_filler_short": {
-        "message": "Töltelék"
-    },
-    "category_filler_guideline1": {
-        "message": "Témától eltérő jelenetek tölteléknek, vagy humornak"
-    },
     "category_filler_guideline2": {
         "message": "Figyelemelterelődés, bakik, újrajátszások"
     },
