@@ -699,18 +699,6 @@
     "category_preview_guideline3": {
         "message": "Ikke til afsnit, der tilføjer yderligere indhold"
     },
-    "category_filler": {
-        "message": "Irrelevante udfyldningsscener/jokes"
-    },
-    "category_filler_description": {
-        "message": "Tangentielle scener kun tilføjet som fyldstof eller humor, som ikke er nødvendige for at forstå videoens hovedindhold. Dette bør ikke omfatte segmenter, der giver kontekst eller baggrundsdetaljer. Dette er en meget aggressiv kategori beregnet til når du ikke er i humør til \"sjov\"."
-    },
-    "category_filler_short": {
-        "message": "Fyldstof"
-    },
-    "category_filler_guideline1": {
-        "message": "Tangentielle scener kun til fyld eller humor"
-    },
     "category_filler_guideline2": {
         "message": "Distraktioner, bloopers, replays"
     },
