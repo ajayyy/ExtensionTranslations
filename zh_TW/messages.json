@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "在YouTube影片跳過贊助廣告、訂閱提醒……和更多。 在您觀賞的影片上標記贊助廣告來節省大家的時間。",
+        "message": "在YouTube影片跳過贊助廣告、訂閱提醒……和更多。在您觀賞的影片上標記贊助廣告來節省大家的時間。",
         "description": "Description of the extension."
     },
     "400": {
@@ -114,7 +114,7 @@
         "message": "看起來伺服器已離線。立即聯繫開發者"
     },
     "connectionError": {
-        "message": "已發生連線錯誤。錯誤碼： "
+        "message": "已發生連線錯誤。錯誤碼："
     },
     "segmentsStillLoading": {
         "message": "片段仍在載入中..."
@@ -458,7 +458,7 @@
         "message": "啟用 Invidious 支援，停用自動跳過、隱藏按鈕等。"
     },
     "addInvidiousInstance": {
-        "message": "新增第三方的客戶端實例"
+        "message": "新增第三方的用戶端實例"
     },
     "addInvidiousInstanceDescription": {
         "message": "新增自訂實例。僅限輸入網域名稱。例如：invidious.ajay.app"
@@ -470,10 +470,10 @@
         "message": "這是個無效的域名。它只應該包含域名部分。例如：invidious.ajay.app"
     },
     "resetInvidiousInstance": {
-        "message": "重製 Invidious 進程列表"
+        "message": "重製 Invidious 行程列表"
     },
     "resetInvidiousInstanceAlert": {
-        "message": "您即將重製 Invidious 進程列表"
+        "message": "您即將重製 Invidious 行程列表"
     },
     "currentInstances": {
         "message": "目前進程："
@@ -527,7 +527,7 @@
         "message": "重置"
     },
     "customAddressError": {
-        "message": "這個地址不正確。確定您在開始處有 http:// 或 https:// 且沒有尾部反斜杠"
+        "message": "這個地址不正確。確定您在開始處有 http:// 或 https:// 且沒有尾部反斜線"
     },
     "areYouSureReset": {
         "message": "您確定要重製這個嗎？"
@@ -596,10 +596,10 @@
         "message": "無法寫入剪貼簿"
     },
     "copyDebugInformationOptions": {
-        "message": "複製資訊到剪貼板，在提交錯誤或開發者需要時提供給他。敏感資訊例如：您的使用者 ID，白名單頻道和自定伺服器地址等已被移除。但是，它仍然包含例如您的 useragent ，瀏覽器，作業系統和擴充版本等資訊。 "
+        "message": "複製資訊到剪貼簿，在提交錯誤或開發者需要時提供給他。敏感資訊例如：您的使用者 ID，白名單頻道和自定伺服器地址等已被移除。但是，它仍然包含例如您的 useragent，瀏覽器，作業系統和擴充版本等資訊。 "
     },
     "copyDebugInformationComplete": {
-        "message": "除錯資訊已複製到剪貼板中。您可以任意移除任何您不想分享的資訊。請將其另存為文字文件或貼到錯誤報告中。"
+        "message": "除錯資訊已複製到剪貼簿中。您可以任意移除任何您不想分享的資訊。請將其另存為文字文件或貼到錯誤報告中。"
     },
     "keyAlreadyUsed": {
         "message": "此快捷鍵已設定至其他動作。請選擇其他快捷鍵。"
@@ -634,7 +634,7 @@
         "message": "非付費/自我推廣"
     },
     "category_selfpromo_description": {
-        "message": "類似 “贊助商廣告” ，但是非付費或自我推廣。這包括有關商品、捐贈或與他人合作的信息。"
+        "message": "類似「贊助商廣告」，但是非付費或自我推廣。這包括有關商品、捐贈或與他人合作的資訊。"
     },
     "category_selfpromo_guideline1": {
         "message": "贊助、會員資格和客製化周邊商品"
