@@ -720,7 +720,7 @@
         "message": "Toissijaiset kohtaukset/Vitsit"
     },
     "category_filler_description": {
-        "message": "Täytteeksi tai huumoriksi lisättyjä toissijaisia kohtauksia, joita videon pääsisällön ymmärrys ei edellytä. Tämän ei tulisi sisältää aiheeseen liittyviä tai taustatietoja tarjoavia osioita. Tämä on erittäin aggressiivinen kategoria niihin hetkiin, kun et välitä \"huvituksista\"."
+        "message": "Täytteenä tai kevennyksenä toimivia toissijaisia kohtauksia, jotka eivät ole videon pääsisällön ymmärtämisen kannalta oleellisia. Tämän ei tulisi sisältää aiheeseen liittyviä tai taustatietoja tarjoavia osioita. Tämä on erittäin aggressiivinen kategoria hetkiin, joina et välitä \"huvituksista\"."
     },
     "category_filler_short": {
         "message": "Toissijaiset kohtaukset"
@@ -1471,7 +1471,7 @@
         "message": "Näytä muokatut tiedot"
     },
     "FillerWarning": {
-        "message": "Varoitus: Tämä on uskomattoman agressiivinen kategoria. Joudut todennäköisesti peruuttaa ohituksia tai poistaa kategorian käytöstä joskus. Otathan huomioon, että monissa videoissa yli 50% videosta voi tulla ohitetuksi! Muista kuitenkin, että osioiden lähettämisessä on tietyt säännöt joita tulisi seurata.",
+        "message": "Varoitus: Tämä on erittäin agressiivinen kategoria ja on hyvin todennäköistä, että joudut joskus perumaan ohituksia tai poistamaan sen käytöstä. Huomioithan, että monista videoista saatetaan ohittaa yli 50 %! Muista myös seurata lähetyssääntöjä.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
