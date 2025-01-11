@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock para o YouTube - Salte patrocínios",
+        "message": "SponsorBlock para o YouTube - Ignore patrocínios",
         "description": "Name of the extension."
     },
     "Description": {
@@ -63,7 +63,7 @@
         "message": "Reverter salto"
     },
     "reskip": {
-        "message": "Saltar novamente"
+        "message": "Ignorar novamente"
     },
     "unmute": {
         "message": "Reativar o som"
