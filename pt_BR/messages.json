@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Não é para seções que adicionam conteúdo adicional"
     },
-    "category_filler": {
-        "message": "Enrolação/Piadas"
-    },
-    "category_filler_description": {
-        "message": "Cenas tangenciais inseridas apenas por enrolação ou humor que não são necessárias para compreender o tópico principal do vídeo. Isto não deve incluir segmentos que fornecem contexto ou detalhes de segundo plano. Esta é uma categoria muito agressiva para quando você não está com disposição para \"diversão\"."
-    },
-    "category_filler_short": {
-        "message": "Enrolação"
-    },
-    "category_filler_guideline1": {
-        "message": "Cenas tangenciais apenas para enrolação ou humor"
-    },
     "category_filler_guideline2": {
         "message": "Distrações, erros de gravação, repetições"
     },
