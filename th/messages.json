@@ -628,15 +628,6 @@
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
-    "category_filler": {
-        "message": "ตัวเสริม/ฉากตลก"
-    },
-    "category_filler_short": {
-        "message": "ตัวเสริม"
-    },
-    "category_filler_guideline1": {
-        "message": "เป็นฉากตัวเสริมหรือฉากเพื่อความตลก"
-    },
     "category_music_offtopic": {
         "message": "เพลง: ส่วนที่ไม่ใช่เสียงเพลง"
     },
