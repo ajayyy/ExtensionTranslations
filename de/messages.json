@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
     },
-    "category_filler": {
-        "message": "Füller/Witze"
-    },
-    "category_filler_description": {
-        "message": "Nebensächliche Szenen, die nur als Füller oder Witz dienen und nicht benötigt sind, um den Hauptinhalt des Videos zu verstehen. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern. Dies ist eine sehr aggressive Kategorie, die dafür gedacht ist, wenn du nicht in der Stimmung für \"Spaß\" bist."
-    },
-    "category_filler_short": {
-        "message": "Füller"
-    },
-    "category_filler_guideline1": {
-        "message": "Nebensächliche Szenen nur für Füller oder Humor"
-    },
     "category_filler_guideline2": {
         "message": "Ablenkungen, Patzer, Wiederholungen"
     },
