@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Ek içerik ekleyen bölümler için değil"
     },
+    "category_filler": {
+        "message": "Geyik Muhabbeti / Şakalar"
+    },
+    "category_filler_description": {
+        "message": "Videonun ana içeriğini anlamak için gerekli olmayan, yalnızca geyik muhabbeti veya şakalardan oluşan sahneler. Bu, bağlam veya arka plan ayrıntılarını sağlayan kısımları içermemelidir. Bu, \"eğlence\" havasında olmadığınız zamanlar için tasarlanmış çok agresif bir kategoridir."
+    },
+    "category_filler_short": {
+        "message": "Alâkasız"
+    },
+    "category_filler_guideline1": {
+        "message": "Geyik muhabbeti veya şakalar"
+    },
     "category_filler_guideline2": {
         "message": "Dikkat dağıtıcı şeyler, hatalar, tekrarlar"
     },
