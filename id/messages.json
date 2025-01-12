@@ -566,6 +566,9 @@
     "edit": {
         "message": "Ubah"
     },
+    "copyDebugLogs": {
+        "message": "Salin Log Awakutu"
+    },
     "copyDebugInformation": {
         "message": "Salin Informasi Debug Ke Papan Klip"
     },
@@ -1312,8 +1315,25 @@
     "keepUnsubmitted": {
         "message": "Tampung Suara Teraju"
     },
+    "ignoreAbThumbnails": {
+        "message": "Jangan Gunakan Gambar pada Uji A/B"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "S'bunyikan rincian saat ambil data"
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Jangan terjemahkan judul video",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube terkadang otomatis menerjemahkan judul ke bahasa bawaan. Opsi ini hanya berlaku jika judul urun daya tidak ada."
+    },
     "onAllPages": {
         "message": "Pada Semua Halaman",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Di Semua Laman kecuali Video",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {
