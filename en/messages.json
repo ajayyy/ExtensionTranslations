@@ -889,7 +889,7 @@
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Channel ID is not loaded yet. If you are using an embedded video, try using the YouTube homepage instead. This could also be caused by changes in the YouTube layout, if you think so, make a comment here:"
+        "message": "Channel ID is not loaded yet. If you are using an embedded video, try using the YouTube homepage instead. Also, this feature is not supported on tv.youtube.com. This could also be caused by changes in the YouTube layout, if you think so, make a comment here:"
     },
     "invidiousPermissionRefresh": {
         "message": "The browser has revoked the permission needed to function on Invidious and other 3rd-party sites. Please click the button below to reactivate this permission."
@@ -1776,5 +1776,9 @@
     "areYouSureOriginalVote": {
         "message": "Are you sure that this original thumbnail follows the DeArrow guidelines? If you just prefer seeing original thumbnails in general, consider changing the \"When no submitted thumbnail exists\" option in the DeArrow settings.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "On YouTube TV, SponsorBlock is not compatible with live and recently-recorded content. If this is a recent recording, please wait a few hours for the processed version of the recording to become available.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     }
 }
