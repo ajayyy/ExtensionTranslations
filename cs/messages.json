@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Není pro sekce, které přidávají další obsah"
     },
+    "category_filler": {
+        "message": "Mimo téma / vtipy"
+    },
+    "category_filler_description": {
+        "message": "Scény, které se netýkají tématu, nebo vtipy, které nejsou nutné k pochopení hlavního obsahu videa. Kategorie by neměla zahrnovat segmenty poskytující podrobnosti o kontextu nebo pozadí. Jedná se o velmi agresivní kategorii myšlenou pro chvíle, kdy nemáte náladu na „zábavu“."
+    },
+    "category_filler_short": {
+        "message": "Mimo téma"
+    },
+    "category_filler_guideline1": {
+        "message": "Scény mimo téma nebo vtipy"
+    },
     "category_filler_guideline2": {
         "message": "Rozptýlení, nepovedené scénky, opakování"
     },
