@@ -716,18 +716,6 @@
     "category_preview_guideline3": {
         "message": "Inte för sektioner som lägger till ytterligare innehåll"
     },
-    "category_filler": {
-        "message": "Ämnesavvikelse/skämt"
-    },
-    "category_filler_description": {
-        "message": "Tangentiella scener endast för utfyllnad eller humor som inte krävs för att förstå det huvudsakliga innehållet i videon. Detta bör inte omfatta segment som tillhandahåller kontext eller bakgrundsdetaljer. Detta är en mycket aggressiv kategori avsedd för när du inte är på humör för \"kul\"."
-    },
-    "category_filler_short": {
-        "message": "Utfyllnad"
-    },
-    "category_filler_guideline1": {
-        "message": "Tangentiella scener endast för utfyllnad eller humor"
-    },
     "category_filler_guideline2": {
         "message": "Distraktioner, bloopers, repriser"
     },

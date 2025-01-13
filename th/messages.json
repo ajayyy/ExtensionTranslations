@@ -388,7 +388,7 @@
         "message": "เสียงแจ้งเตือนจะดังขั้นเมื่อมีส่วนถูกข้าม เสียงนี้จะไม่ดังขึ้นถ้าตัวเลือกนี้ถูกปิดหรือการข้ามส่วนอัตโนมัติถูกปิด"
     },
     "showTimeWithSkips": {
-        "message": "แสดงเวลาถ้าข้ามทั้งหมด"
+        "message": "แสดงเวลาถ้าข้ามทุกๆ ส่วนที่มี"
     },
     "showTimeWithSkipsDescription": {
         "message": "เวลานี้ปรากฏในวงเล็บถัดจากเวลาปัจจุบันที่แถบกรอ ซึ่งแสดงระยะเวลาวิดีโอถ้าข้ามทุกส่วน ซึ่งรวมถึงส่วนที่ปรับตัวเลือกการข้ามเป็น \"แสดงในแถบกรอ\" ด้วย"
@@ -564,7 +564,7 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline2": {
-        "message": "ปรับเวลาให้ดูเหมือนว่าไม่มีอะไรถูกข้าม"
+        "message": "เล่นให้ดูเหมือนว่าไม่มีอะไรถูกข้าม"
     },
     "category_sponsor": {
         "message": "สปอนเซอร์"
@@ -618,17 +618,18 @@
     "category_outro_guideline1": {
         "message": "อย่ารวมเนื้อหา แม้การ์ดจบของ YouTube จะปรากฏอยู่บนหน้าจอก็ตาม"
     },
+    "category_preview": {
+        "message": "ตัวอย่าง/สรุปสั้น/ล่อใจ",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_guideline1": {
         "message": "คลิปที่ปรากฎภายหลัง หรือในวิดีโอถัดไป"
     },
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
-    "category_filler_short": {
-        "message": "ตัวเสริม"
-    },
-    "category_filler_guideline1": {
-        "message": "เป็นฉากตัวเสริมหรือฉากเพื่อความตลก"
+    "category_music_offtopic": {
+        "message": "เพลง: ส่วนที่ไม่ใช่เสียงเพลง"
     },
     "category_poi_highlight": {
         "message": "ไฮไลต์"
@@ -714,6 +715,9 @@
     },
     "forceChannelCheck": {
         "message": "บังคับให้ตรวจช่องก่อนข้าม"
+    },
+    "downvoteDescription": {
+        "message": "กำหนดเวลาไม่ถูกต้อง/ผิด"
     },
     "incorrectVote": {
         "message": "ไม่ถูกต้อง"
@@ -867,6 +871,10 @@
     "videosPlural": {
         "message": "วิดีโอ",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
+    },
+    "videoID": {
+        "message": "ID วิดิโอ",
+        "description": "Header of the unsubmitted segments list"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} วินาที",

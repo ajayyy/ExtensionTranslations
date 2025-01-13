@@ -246,6 +246,9 @@
     "showSkipNotice": {
         "message": "إظهار إشعار بعد تخطي فقرة ما"
     },
+    "showUpcomingNotice": {
+        "message": "إظهار إشعار قبل أن يبدأ الجزء"
+    },
     "showCategoryGuidelines": {
         "message": "إظهار مساعدة الفئة"
     },
@@ -365,6 +368,10 @@
     "skip_to_category": {
         "message": "تخطي إلى {0}؟",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "{0} قادم",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "تم تخطي {0}",
@@ -708,18 +715,6 @@
     },
     "category_preview_guideline3": {
         "message": "ليس للأقسام التي تضيف محتوى إضافي"
-    },
-    "category_filler": {
-        "message": "حشو خارج عن الموضوع/نكات"
-    },
-    "category_filler_description": {
-        "message": "مشاهد أُضيفت فقط للحشو أو الدعابة و هي غير ضرورية لفهم المحتوي الرئيسي للفيديو. لا ينبغي أن يضم الأجزاء المبينة للسياق أو تفاصيل اضافية. هذه فئة شرسة تنبغي لحين لا تكون في المزاج للـ\"متعة\"."
-    },
-    "category_filler_short": {
-        "message": "حشو"
-    },
-    "category_filler_guideline1": {
-        "message": "مشاهد خارجة عن الموضوع أُضيفت فقط للحشو أو الدعابة"
     },
     "category_filler_guideline2": {
         "message": "تلهيات، خلف الكواليس، إعادة عرض مشاهد سابقة"

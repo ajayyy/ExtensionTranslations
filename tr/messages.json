@@ -717,16 +717,16 @@
         "message": "Ek içerik ekleyen bölümler için değil"
     },
     "category_filler": {
-        "message": "Konuyla Alakasız / Şaka"
+        "message": "Geyik Muhabbeti / Şakalar"
     },
     "category_filler_description": {
-        "message": "Videonun ana içeriğini anlamak için gerekli olmayan, yalnızca zaman geçirme veya mizah için eklenen teğet sahnelerdir. Bu, bağlam veya arka plan ayrıntılarını sağlayan kısımları içermemelidir. Bu, \"eğlence\" havasında olmadığınız zamanlar için tasarlanmış çok agresif bir kategoridir."
+        "message": "Videonun ana içeriğini anlamak için gerekli olmayan, yalnızca geyik muhabbeti veya şakalardan oluşan sahneler. Bu, bağlam veya arka plan ayrıntılarını sağlayan kısımları içermemelidir. Bu, \"eğlence\" havasında olmadığınız zamanlar için tasarlanmış çok agresif bir kategoridir."
     },
     "category_filler_short": {
-        "message": "Alakasız Konu"
+        "message": "Alâkasız"
     },
     "category_filler_guideline1": {
-        "message": "Yalnızca dolgu veya mizah için teğet sahneler"
+        "message": "Geyik muhabbeti veya şakalar"
     },
     "category_filler_guideline2": {
         "message": "Dikkat dağıtıcı şeyler, hatalar, tekrarlar"

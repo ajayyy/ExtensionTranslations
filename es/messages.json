@@ -703,18 +703,6 @@
     "category_preview_guideline3": {
         "message": "No para secciones que añaden contenido adicional"
     },
-    "category_filler": {
-        "message": "Tangentes de Relleno/Chistes"
-    },
-    "category_filler_description": {
-        "message": "Escenas tangenciales añadidas solo como relleno o humor que no son necesarias para entender el contenido principal del video. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
-    },
-    "category_filler_short": {
-        "message": "Relleno"
-    },
-    "category_filler_guideline1": {
-        "message": "Escenas tangenciales solo de relleno o humor"
-    },
     "category_filler_guideline2": {
         "message": "Distracciones, bloopers, repeticiones"
     },

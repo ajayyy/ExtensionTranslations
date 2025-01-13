@@ -680,18 +680,6 @@
     "category_preview_guideline3": {
         "message": "Nie pre sekcie, ktoré majú dodatočný obsah"
     },
-    "category_filler": {
-        "message": "Výplň Tangent / Vtipy"
-    },
-    "category_filler_description": {
-        "message": "Vedľajšie scény pridané len ako výplň alebo humor, ktoré nie sú potrebné na pochopenie hlavného obsahu videa. Nemali by sem patriť segmenty poskytujúce kontext alebo detaily pozadia. Toto je veľmi agresívna kategória určená na to, keď nemáte náladu na \"zábavu\"."
-    },
-    "category_filler_short": {
-        "message": "Odbočka"
-    },
-    "category_filler_guideline1": {
-        "message": "Nepodstatné scény slúžiace len ako výplň alebo humor"
-    },
     "category_filler_guideline2": {
         "message": "Nepodarené a opakované zábery"
     },
@@ -1289,6 +1277,13 @@
     },
     "titleMaxLinesDescription": {
         "message": "V odporúčaniach budú názvy videí zobrazené na daný počet riadkov."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Nezobrazovať preložené názvy",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube niekedy automaticky preloží názvy do vášho jazyka. Toto nastavenie sa použije iba ak nie je dostupný názov z crowdsourcingu."
     },
     "onAllPages": {
         "message": "Na všetkých stránkach",

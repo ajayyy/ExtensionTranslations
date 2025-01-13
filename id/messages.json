@@ -566,6 +566,9 @@
     "edit": {
         "message": "Ubah"
     },
+    "copyDebugLogs": {
+        "message": "Salin Log Awakutu"
+    },
     "copyDebugInformation": {
         "message": "Salin Informasi Debug Ke Papan Klip"
     },
@@ -692,18 +695,6 @@
     },
     "category_preview_guideline3": {
         "message": "Bukan untuk bagian yang menambahkan konten tambahan"
-    },
-    "category_filler": {
-        "message": "Pengisi Tak berkaitan/Lawakan"
-    },
-    "category_filler_description": {
-        "message": "Adegan tangensial ditambahkan hanya untuk pengisi atau humor yang tidak diperlukan untuk memahami isi utama video. Ini tidak boleh mencakup segmen yang memberikan detail konteks atau latar belakang. Ini adalah kategori sangat agresif yang ditujukan saat Anda tidak sedang ingin \"bersenang-senang\"."
-    },
-    "category_filler_short": {
-        "message": "Isian"
-    },
-    "category_filler_guideline1": {
-        "message": "Scene tangen hanya untuk isian atau humor"
     },
     "category_filler_guideline2": {
         "message": "Gangguan, blooper, replay"
@@ -1324,8 +1315,25 @@
     "keepUnsubmitted": {
         "message": "Tampung Suara Teraju"
     },
+    "ignoreAbThumbnails": {
+        "message": "Jangan Gunakan Gambar pada Uji A/B"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "S'bunyikan rincian saat ambil data"
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Jangan terjemahkan judul video",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube terkadang otomatis menerjemahkan judul ke bahasa bawaan. Opsi ini hanya berlaku jika judul urun daya tidak ada."
+    },
     "onAllPages": {
         "message": "Pada Semua Halaman",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Di Semua Laman kecuali Video",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {

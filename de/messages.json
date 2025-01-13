@@ -226,7 +226,7 @@
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Speichere Downvotes von Segmenten in privaten/Inkognito-Tabs"
+        "message": "Speichere negative Bewertungen von Segmenten in privaten/Inkognito-Tabs"
     },
     "enableQueryByHashPrefix": {
         "message": "Abfrage nach Hash-Präfix"
@@ -717,16 +717,16 @@
         "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
     },
     "category_filler": {
-        "message": "Füller/Witze"
+        "message": "Nebensachen / Witze"
     },
     "category_filler_description": {
-        "message": "Nebensächliche Szenen, die nur als Füller oder Witz dienen und nicht benötigt sind, um den Hauptinhalt des Videos zu verstehen. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern. Dies ist eine sehr aggressive Kategorie, die dafür gedacht ist, wenn du nicht in der Stimmung für \"Spaß\" bist."
+        "message": "Nebensächliche Szenen, die nicht benötigt sind, um den Hauptinhalt des Videos zu verstehen oder als Witz dienen. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern. Dies ist eine sehr aggressive Kategorie, die dafür gedacht ist, wenn du nicht in der Stimmung für „Spaß“ bist."
     },
     "category_filler_short": {
-        "message": "Füller"
+        "message": "Nebensachen"
     },
     "category_filler_guideline1": {
-        "message": "Nebensächliche Szenen nur für Füller oder Humor"
+        "message": "Nebensächliche Szenen oder Witze"
     },
     "category_filler_guideline2": {
         "message": "Ablenkungen, Patzer, Wiederholungen"
