@@ -366,7 +366,7 @@
         "message": "要靜音 {0} 嗎？"
     },
     "skip_to_category": {
-        "message": "跳至 {0}？",
+        "message": "跳到{0}？",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
@@ -382,7 +382,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "已跳至 {0}",
+        "message": "已跳到 {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
