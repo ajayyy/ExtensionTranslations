@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Pas pour les sections qui ajoutent du contenu supplémentaire"
     },
+    "category_filler": {
+        "message": "Digressions/Blagues"
+    },
+    "category_filler_description": {
+        "message": "Digressions ou blagues non nécessaires à la compréhension du contenu principal de la vidéo. Il ne devrait pas y avoir de segments fournissant du contexte ou des détails. Il s'agit d'une catégorie très agressive destinée aux moments où vous n'êtes pas d'humeur à vous amuser."
+    },
+    "category_filler_short": {
+        "message": "Digressions"
+    },
+    "category_filler_guideline1": {
+        "message": "Scènes de digression ou blagues"
+    },
     "category_filler_guideline2": {
         "message": "Distractions, bêtisiers, replays"
     },

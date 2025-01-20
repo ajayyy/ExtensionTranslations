@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Nie dla sekcji, które zawierają potrzebne informacje"
     },
+    "category_filler": {
+        "message": "Wypełniacze/Żarty"
+    },
+    "category_filler_description": {
+        "message": "Wypełniacze lub żarty, które nie są wymagane do zrozumienia głównej treści filmu. Nie powinno to obejmować segmentów dostarczających kontekstu lub szczegółów tła. To bardzo agresywna kategoria przeznaczona na momenty, gdy nie masz ochoty na \"zabawę\"."
+    },
+    "category_filler_short": {
+        "message": "Wypełniacze"
+    },
+    "category_filler_guideline1": {
+        "message": "Sceny wypełniające lub żarty"
+    },
     "category_filler_guideline2": {
         "message": "Rozpraszacze, wpadki, powtórki"
     },
