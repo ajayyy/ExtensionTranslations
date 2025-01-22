@@ -382,7 +382,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "已跳到{0}",
+        "message": "已跳至{0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "disableAutoSkip": {
@@ -634,7 +634,7 @@
         "message": "非付費/自我推廣"
     },
     "category_selfpromo_description": {
-        "message": "與「贊助商廣告」類別相似，但不包含未付費或自我宣傳的內容。這包含商品、捐款或合作對象資訊等章節。"
+        "message": "與「贊助商廣告」類別相似，但不包含未付費或自我宣傳的內容。包含商品、捐款或合作對象資訊等章節。"
     },
     "category_selfpromo_guideline1": {
         "message": "贊助、會員資格和客製化周邊商品"
@@ -741,10 +741,10 @@
         "message": "精華"
     },
     "category_poi_highlight_description": {
-        "message": "大部分觀眾想看的影片片段。類似於「影片精華從幾分幾秒開始」的留言。"
+        "message": "影片中大家最想看的地方。類似於「影片精華從幾分幾秒開始」的留言。"
     },
     "category_poi_highlight_guideline1": {
-        "message": "大部分觀眾想要看的片段"
+        "message": "影片中大家最想看的地方"
     },
     "category_poi_highlight_guideline2": {
         "message": "可以幫助略過前後文、背景資訊"
