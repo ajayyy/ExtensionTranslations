@@ -646,7 +646,7 @@
         "message": "企業がデザインした製品やグッズには使わない"
     },
     "category_exclusive_access": {
-        "message": "利用制限のある話題"
+        "message": "独占的な広告"
     },
     "category_exclusive_access_description": {
         "message": "動画全体に対してのみ付与できます。無償または補助金を受けて、製品、サービス、場所を利用している動画に使用。"
@@ -656,7 +656,7 @@
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "動画全体が無料または補助金を受けてアクセスしたものを紹介している"
+        "message": "無料または補助金を受けて利用したものを動画全体で紹介している"
     },
     "category_interaction": {
         "message": "行動のお願い (登録/寄付など)"
