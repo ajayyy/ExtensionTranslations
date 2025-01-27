@@ -1204,6 +1204,9 @@
         "message": "Crowdsourcing názvov a miniatúr tak, aby boli opisné a nie senzačné",
         "description": "Description of the Clickbait extension."
     },
+    "chooseDescriptive": {
+        "message": "Vyberte najvhodnejší opis"
+    },
     "Original": {
         "message": "Originál"
     },
@@ -1213,11 +1216,30 @@
     "CurrentTime": {
         "message": "Aktuálny čas"
     },
+    "resetCustomTitle": {
+        "message": "Vrátiť späť pôvodný názov"
+    },
+    "resetIcon": {
+        "message": "Reset ikona"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Sem napíšte váš názov"
+    },
+    "VideoNotReady": {
+        "message": "Video nie je pripravené"
+    },
+    "FailedToRender": {
+        "message": "Nepodarilo sa zobraziť",
+        "description": "Thumbnail preview failed to render"
+    },
     "titleFormatting": {
         "message": "Formát názvu"
     },
     "Disabled": {
         "message": "Zakázané"
+    },
+    "CapitalizeWords": {
+        "message": "Prvé Písmená Veľké"
     },
     "TitleCase": {
         "message": "Prvé písmená slov veľké"
@@ -1265,6 +1287,9 @@
     },
     "Middle": {
         "message": "Stred"
+    },
+    "keepUnsubmitted": {
+        "message": "Uložiť odoslané hlasy"
     },
     "ignoreAbThumbnails": {
         "message": "Nepoužívať náhľady A/B testovania"
