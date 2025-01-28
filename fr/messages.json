@@ -196,7 +196,7 @@
         "message": "Ceci enlève du lecteur YouTube les boutons permettant de soumettre des segments."
     },
     "showSkipButton": {
-        "message": "Conserver le bouton \"Aller au point essentiel\" sur le lecteur"
+        "message": "Conserver le bouton du lecteur Aller au temps fort"
     },
     "showInfoButton": {
         "message": "Montrer le bouton Info sur le lecteur YouTube"
@@ -634,7 +634,7 @@
         "message": "Non rémunéré/autopromotion"
     },
     "category_selfpromo_description": {
-        "message": "Semblable aux \"messages commerciaux\", excepté pour la promotion non rémunérée ou l'autopromotion. Cela inclut les marchandises, les dons et les informations sur leurs collaborateurs."
+        "message": "Catégorie similaire à Message sponsorisé, sauf qu'elle est destinée aux promotions non rémunérées et à l'autopromotion. Cela inclut les sections à propos des produits dérivés, des dons ou des personnalités invitées."
     },
     "category_selfpromo_guideline1": {
         "message": "Dons, abonnements (payant) et produits dérivés"
@@ -732,7 +732,7 @@
         "message": "Distractions, bêtisiers, replays"
     },
     "category_filler_guideline3": {
-        "message": "Pas pour les scènes requises pour comprendre le sujet"
+        "message": "Pas pour les scènes nécessaires à la compréhension du sujet"
     },
     "category_music_offtopic": {
         "message": "Musique : Segment non musical"
@@ -750,34 +750,34 @@
         "message": "Pas de musique pendant les concerts en direct"
     },
     "category_poi_highlight": {
-        "message": "Point essentiel"
+        "message": "Temps fort"
     },
     "category_poi_highlight_description": {
-        "message": "La partie de la vidéo que la plupart des gens veut voir. Similaire aux commentaires de type « La vidéo commence à x minutes »."
+        "message": "La partie de la vidéo qui intéresse la majorité des spectateurs. Similaire aux commentaires du type « La vidéo commence à x minutes »."
     },
     "category_poi_highlight_guideline1": {
-        "message": "Section la plus regardée"
+        "message": "Section qui intéresse la majorité des spectateurs"
     },
     "category_poi_highlight_guideline2": {
-        "message": "Peut sauter le contexte"
+        "message": "Possibilité de passer le contexte"
     },
     "category_poi_highlight_guideline3": {
-        "message": "Peut passer au sujet cité dans le titre ou la miniature"
+        "message": "Possibilité de passer au sujet dans le titre ou la miniature"
     },
     "category_chapter": {
         "message": "Chapitre"
     },
     "category_chapter_description": {
-        "message": "Noms de chapitres personnalisés décrivant les sections importantes d'une vidéo."
+        "message": "Chapitres personnalisés décrivant les sections importantes d'une vidéo."
     },
     "category_chapter_guideline1": {
-        "message": "Ne pas mentionner les marques du sponsor"
+        "message": "Ne pas mentionner le nom du sponsor"
     },
     "category_chapter_guideline2": {
-        "message": "Utiliser de plus grands chapitres pour les sections générales"
+        "message": "Utiliser de grands chapitres pour les sections générales"
     },
     "category_chapter_guideline3": {
-        "message": "Les plus petits chapitres peuvent être placés dans les plus grands"
+        "message": "Les chapitres plus petits peuvent être placés dans les plus grands"
     },
     "category_livestream_messages": {
         "message": "Stream : lecture de dons et messages"
@@ -961,7 +961,7 @@
         "message": "L'intégralité de cette vidéo est classée dans cette catégorie ce qui la rend trop intriquée pour l'en séparer"
     },
     "chapterNameTooltipWarning": {
-        "message": "Un des noms du chapitre est similaire à la catégorie. Tu devrais plutôt utiliser une catégorie si possible."
+        "message": "Le nom d'un de vos chapitres ressemble au nom d'une catégorie. Si possible, vous devriez plutôt utiliser une catégorie."
     },
     "experiementOptOut": {
         "message": "Se désinscrire de toutes les futures expériences",
@@ -1471,7 +1471,7 @@
         "message": "Montrer les détails modifiés"
     },
     "FillerWarning": {
-        "message": "Avertissement: Il s'agit d'une catégorie incroyablement agressive. Il est très probable que vous devrez annuler ou le désactiver parfois. Soyez averti que beaucoup de vidéos ont plus de 50% ou plus de la vidéo sautée! Cependant, n'oubliez pas qu'il y a encore des directives spécifiques à suivre lors de la soumission.",
+        "message": "Attention : cette catégorie est particulièrement agressive. Par moments, il se peut que vous deviez revenir en arrière, voire même désactiver la catégorie. Notez que certaines vidéos peuvent voir plus de 50 % de leur contenu être passé ! Souvenez-vous néanmoins que les soumissions de segments doivent respecter les directives spécifiques à cette catégorie.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
