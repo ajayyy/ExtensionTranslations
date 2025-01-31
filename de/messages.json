@@ -1546,7 +1546,7 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
-        "message": "Titel sollten nicht mit einem Punkt ‚.‘ enden.",
+        "message": "Titel sollten nicht mit einem Punkt ‚.‘ enden",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
