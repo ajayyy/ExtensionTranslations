@@ -1501,6 +1501,30 @@
         "message": "Κεφαλαιοποίηση σαν μια πρόταση",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Ελέγξτε όλες τις κατευθυντήριες γραμμές για υποβολή",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Ο τίτλος μου κεφαλαιοποιείται σαν μια πρόταση",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Ο τίτλος μου δεν απαντά απλά σε μια ερώτηση που τίθεται στον τίτλο",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Οι τίτλοι θα πρέπει να περιγράφουν το βίντεο ή την ιστορία γενικότερα. Θα πρέπει να φροντίσετε να παρακολουθήσετε το πλήρες βίντεο για να ξέρετε για τι μιλάει αντί να βασίζεστε σε ένα ενδιαφέροντα πρωτότυπο τίτλο.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Ο τίτλος μου δεν συνοψίζει ένα συμπέρασμα ή αποκαλύπτει το περιεχόμενο άσκοπα",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Οι τίτλοι δεν προορίζονται να αντικαταστήσουν την παρακολούθηση του βίντεο εξ' ολοκλήρου, αλλά αντιθέτως για να ξέρετε αν πρέπει να κάνετε κλικ ή όχι.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "Σημείωση: Οι ρυθμίσεις του SponsorBlock έχουν εισαχθεί αυτόματα!"
     },
