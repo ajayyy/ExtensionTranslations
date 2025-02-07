@@ -1473,6 +1473,9 @@
     "ShowModified": {
         "message": "수정된 세부 정보 표시"
     },
+    "ShowFormatted": {
+        "message": "형식에 맞춘 세부 정보 표시"
+    },
     "FillerWarning": {
         "message": "경고: 매우 공격적인 카테고리예요. '건너뛰지 않기'를 이용하거나, 가끔 '사용 안 함'으로 설정해야 할 가능성이 높아요. 많은 동영상에서 동영상의 50% 이상을 건너뛸 수 있으니 주의하세요! 하지만, 그럼에도 제출할 때 따라야 하는 지침이 분명히 있다는 사실을 잊지 마세요.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1797,6 +1800,10 @@
     "vote": {
         "message": "{0}표",
         "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_other": {
+        "message": "기타",
+        "description": "Category for DeArrow casual mode"
     },
     "ClassicMode": {
         "message": "클래식 모드",
