@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "登録メニューを開く"
     },
+    "OpenCasualVoteMenu": {
+        "message": "カジュアルモードのメニューを開く"
+    },
     "sortSegments": {
         "message": "セグメントを並び替え"
     },
@@ -652,7 +655,7 @@
         "message": "動画全体に対してのみ付与できます。無償または補助金を受けて、製品、サービス、場所を利用している動画に使用。"
     },
     "category_exclusive_access_pill": {
-        "message": "この動画は無償または補助金を受けて利用した製品、サービス、または場所を紹介するものです",
+        "message": "この動画は無償または補助金を受けて利用した製品、サービス、または場所を紹介しています",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
@@ -1470,6 +1473,9 @@
     "ShowModified": {
         "message": "改善の詳細を表示"
     },
+    "ShowFormatted": {
+        "message": "改善の詳細を表示"
+    },
     "FillerWarning": {
         "message": "警告: 非常に積極的な分類です。ほとんどの場合、スキップを取り消したり、時に無効にしなくてはなりません。多くの動画において、全体の半分以上がスキップされることに注意してください。登録には従うべき具体的なガイドラインがあることを忘れないでください。",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1776,5 +1782,61 @@
     "areYouSureOriginalVote": {
         "message": "元のサムネイルはDeArrowのガイドラインに従っていますか？元のサムネイルを優先したいなら、DeArrowの設定「投稿されたサムネイルがないなら」があります。",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "元の題名が好きですか？",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "はい"
+    },
+    "No": {
+        "message": "いいえ"
+    },
+    "votes": {
+        "message": "{0} 票",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} 票",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "面白い",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "独創的",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "上手",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "説明的",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "ほか",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "従来のモード",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "クラウドソース経由で登録された題名がある全動画で、ガイドラインに基づいて標準化された題名に置き換えられます。"
+    },
+    "CasualMode": {
+        "message": "カジュアルモード",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "動画が十分に説明されているか、面白いか、上手なら元の題名のままにします。\n表示する題名の分類を選択します。\n題名が分類に適合するかどうかを投票できます。"
+    },
+    "minimumVotes": {
+        "message": "投票数の下限",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     }
 }
