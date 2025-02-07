@@ -1764,5 +1764,43 @@
     "areYouSureOriginalVote": {
         "message": "Är du säker på att denna ursprungliga miniatyrbild följer DeArrows riktlinjer? Om du bara föredrar att se originalminiatyrer i allmänhet, överväg att ändra alternativet \"När ingen inskickad miniatyrbild finns\" i DeArrows inställningar.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "Yes": {
+        "message": "Ja"
+    },
+    "No": {
+        "message": "Nej"
+    },
+    "votes": {
+        "message": "{0} röster",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} röst",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Rolig",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreativ",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Smart",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Beskrivande",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Annat",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klassiskt läge",
+        "description": "Classic mode is a mode in DeArrow"
     }
 }
