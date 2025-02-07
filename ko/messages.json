@@ -1801,6 +1801,22 @@
         "message": "{0}표",
         "description": "Appears as `1 vote`. Do not change the {0}"
     },
+    "dearrow_category_funny": {
+        "message": "재미있음",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "창의적임",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "기발함",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "설명적임",
+        "description": "Category for DeArrow casual mode"
+    },
     "dearrow_category_other": {
         "message": "기타",
         "description": "Category for DeArrow casual mode"
