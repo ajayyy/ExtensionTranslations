@@ -1836,7 +1836,7 @@
         "message": "Сохранять забавные или хитроумные оригинальные названия, которые хорошо описывают видео.\nВыберите категории названий для отображения.\nВы сможете голосовать за (не)соответствие названия категории."
     },
     "minimumVotes": {
-        "message": "Минимум",
+        "message": "Минимум голосов",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     }
 }
