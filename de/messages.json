@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Einreichungsmenü öffnen"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Öffne Menü des ungezwungenen Modus"
+    },
     "sortSegments": {
         "message": "Segmente sortieren"
     },
@@ -1776,5 +1779,61 @@
     "areYouSureOriginalVote": {
         "message": "Bist du sicher, dass dieses originale Thumbnail den DeArrow-Richtlinien entspricht? Falls du allgemein lieber die ursprünglichen Thumbnails sehen möchtest, ändere die Option „Wenn kein Thumbnail eingereicht wurde“ in den DeArrow-Einstellungen.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Gefällt dir der Originaltitel?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Ja"
+    },
+    "No": {
+        "message": "Nein"
+    },
+    "votes": {
+        "message": "{0} Stimmen",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} Stimme",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Witzig",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreativ",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Clever",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Beschreibend",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Anderer Grund",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klassischer Modus",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titel werden mit einem auf den Richtlinien basierten, standardisierten Format auf allen Videos ersetzt, für die ein eingereichter Titel existiert."
+    },
+    "CasualMode": {
+        "message": "Ungezwungener Modus",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Behalte Originaltitel, wenn sie das Video ausreichend beschreiben, clever oder witzig sind.\nWähle aus, welche Kategorien von Titeln du sehen möchtest.\nDu kannst darüber abstimmen, ob ein Titel in eine Kategorie passt oder nicht."
+    },
+    "minimumVotes": {
+        "message": "Mindest-Stimmanzahl",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     }
 }
