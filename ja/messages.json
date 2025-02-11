@@ -891,8 +891,8 @@
         "message": "手動で非表示"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "チャンネルIDがまだ読み込まれていません。埋め込み動画でご覧になっている場合は、代わりにYouTubeの公式サイトで再生してみてください。この問題はYouTubeがレイアウトを変更した際にも発生する可能性があります。その場合は、こちらからお知らせください:"
+        "message": "チャンネルIDがまだ読み込まれていません。埋め込み動画でご覧になっている場合は、代わりにYouTubeの公式サイトで再生してみてください。この問題はYouTubeがレイアウトを変更した際にも発生する可能性があります。その場合は、こちらからお知らせください:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Invidiousなどのサードパーティーサイトで機能するために必要な権限をブラウザーが拒否しています。この権限を許可するには下のボタンをクリックしてください。"
@@ -945,7 +945,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "カテゴリーはこちらです！"
+        "message": "カテゴリーはこちらです！",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "導入/終了シーン・グッズ紹介などをスキップする設定を開く"
@@ -989,7 +990,8 @@
         "message": "警告の確認中にエラーが発生しました:"
     },
     "deArrowMessageRecieved": {
-        "message": "調整役からの助言があります"
+        "message": "調整役からの助言があります",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "寄付"
