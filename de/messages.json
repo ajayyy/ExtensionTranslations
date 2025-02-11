@@ -323,7 +323,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow ein‐ / ausschalten",
+        "message": "DeArrow ein-/ausschalten",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -891,8 +891,8 @@
         "message": "manuell versteckt"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Kanal-ID wurde noch nicht geladen. Falls du ein eingebettetes Video benutzt, probiere stattdessen die YouTube-Homepage. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, schreibe hier einen Kommentar:"
+        "message": "Kanal-ID wurde noch nicht geladen. Falls du ein eingebettetes Video benutzt, probiere stattdessen die YouTube-Homepage. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, schreibe hier einen Kommentar:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Der Browser hat die Berechtigung, welche zum Verwenden von Invidious und anderen Drittanbieter-Seiten benötigt wird, widerrufen. Bitte klicke auf die Schaltfläche unten, um diese Berechtigung zu reaktivieren."
@@ -989,7 +989,8 @@
         "message": "Fehler beim Anerkennen der Verwarnung:"
     },
     "deArrowMessageRecieved": {
-        "message": "Du hast einen Tipp von einem Moderator erhalten"
+        "message": "Du hast einen Tipp von einem Moderator erhalten",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Spenden"
@@ -1508,11 +1509,11 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Überprüfe alle Richtlinien",
+        "message": "Überprüfe alle Richtlinien zum Einsenden",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
-        "message": "Mein Titel verwendet Groß- und Kleinschreibung wie in einem Satz",
+        "message": "Mein Titel verwendet Groß- und Kleinschreibung, wie in einem Satz.",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
@@ -1532,7 +1533,7 @@
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Mein Titel verspottet oder kritisiert das Video oder den Kanal nicht und überprüft nicht die im Video präsentierten Tatsachen",
+        "message": "Mein Titel dient nicht der Überprüfung der Fakten, der Verspottung, oder der Kritik an dem Video oder seinem Ersteller.",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
