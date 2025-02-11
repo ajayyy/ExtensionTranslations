@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Ouvrir le menu Contribution"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Ouvrir le menu du mode relaxé"
+    },
     "sortSegments": {
         "message": "Trier les segments"
     },
@@ -1472,6 +1475,9 @@
     "ShowModified": {
         "message": "Montrer les détails modifiés"
     },
+    "ShowFormatted": {
+        "message": "Afficher les détails formatés"
+    },
     "FillerWarning": {
         "message": "Attention : cette catégorie est particulièrement agressive. Par moments, il se peut que vous deviez revenir en arrière, voire même désactiver la catégorie. Notez que certaines vidéos peuvent voir plus de 50 % de leur contenu être passé ! Souvenez-vous néanmoins que les soumissions de segments doivent respecter les directives spécifiques à cette catégorie.",
         "description": "Warning that appears when enabling the filler tangent category"
@@ -1779,9 +1785,50 @@
         "message": "Confirmez-vous que la miniature originale suit bien les directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand aucune miniature soumise existe\" dans les paramètres DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "likeOriginalTitle": {
+        "message": "Vous aimez le titre original ?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Oui"
+    },
+    "No": {
+        "message": "Non"
+    },
+    "votes": {
+        "message": "{0} votes",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} vote",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Drôle",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Créatif",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Bien trouvé",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptif",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Autre",
+        "description": "Category for DeArrow casual mode"
+    },
     "ClassicMode": {
         "message": "Mode classique",
         "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Les titres sont remplacés par d'autres titres crowdsourcés dont le format est normalisé de manière à respecter les directives."
     },
     "CasualMode": {
         "message": "Mode relaxé",
