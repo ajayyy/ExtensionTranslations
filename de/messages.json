@@ -45,7 +45,7 @@
         "message": "Melden"
     },
     "reportButtonInfo": {
-        "message": "Beitrag als unzulässig melden."
+        "message": "Beitrag als fehlerhaft melden."
     },
     "Dismiss": {
         "message": "Abbrechen"
@@ -84,7 +84,7 @@
         "message": "Dein Beitrag konnte nicht übertragen werden, bitte versuche es später erneut."
     },
     "sponsorFound": {
-        "message": "Die Datenbank enthält überspringbare Segmente für dieses Video!"
+        "message": "Dieses Video hat Segmente in der Datenbank!"
     },
     "sponsor404": {
         "message": "Keine Segmente gefunden"
@@ -1137,7 +1137,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Aussehen der Überspringen-Meldung",
+        "message": "Aussehen der Überspringen-Benachrichtigung",
         "description": "Option label"
     },
     "unbind": {
@@ -1343,7 +1343,7 @@
         "message": "Wenn kein Thumbnail eingereicht wurde"
     },
     "whatThumbnailFallbackOption": {
-        "message": "Bei der Auswahl einer zufälligen Zeit wird mittels SponsorBlock Daten sichergestellt, dass keine Zeit in einem Werbesegment ausgewählt wird.",
+        "message": "Bei der Auswahl einer zufälligen Zeit wird mittels SponsorBlock-Daten sichergestellt, dass keine Zeit in einem Werbesegment ausgewählt wird.",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
@@ -1430,7 +1430,7 @@
         "message": "Der Thumbnail-Generierungsdienst beschleunigt die Generierung von Thumbnails erheblich, indem er eine anonyme Anfrage mit der Video‑ID an einen Server schickt. Das Thumbnail wird dann entweder generiert oder aus einem Cache bezogen, wenn es zuvor bereits generiert wurde."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
+        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von „Auf allen Seiten außer Videoseiten“ vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
     },
     "thumbnailGeneratorDescription3": {
         "message": "Wenn die Verwendung des Thumbnail-Erstellungsdienstes deaktiviert ist, werden alle Anfragen ein k-Anonymitäts-Anfragesystem verwenden, welches es für den Server schwieriger macht, vorauszusagen, welche Videos abgerufen wurden. Außerdem wird ein langsamerer, lokaler Thumbnail-Erstellungsdienst verwendet.",
@@ -1598,7 +1598,7 @@
         "message": "Nutzungsbedingungen"
     },
     "openSourceLicenses": {
-        "message": "Open Source Lizenzen"
+        "message": "Open-Source-Lizenzen"
     },
     "defaultToOriginals": {
         "message": "Standardmäßig die ursprünglichen Videoinformationen verwenden"
