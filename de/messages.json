@@ -262,13 +262,13 @@
         "message": "Kleine Skip-Meldung für Auto-Skips"
     },
     "noticeVisibilityMode2": {
-        "message": "Alles kleine Skip-Meldungen"
+        "message": "Alle kleinen Skip-Meldungen"
     },
     "noticeVisibilityMode3": {
         "message": "Verblasste Skip-Meldung für Auto-Skip"
     },
     "noticeVisibilityMode4": {
-        "message": "Alles verblasste Skip-Meldungen"
+        "message": "Alle verblassten Skip-Meldungen"
     },
     "longDescription": {
         "message": "SponsorBlock lässt dich gesponserte Videosegmente, Intros, Outros, Interaktions-Erinnerungen, Musikvideoteile ohne Musik und andere nervige Teile von YouTube-Videos überspringen. SponsorBlock ist eine crowdsourced Browser-Erweiterung, in der jeder die Start- und Endzeit gesponserter Videosegmente und anderer Segmente von YouTube-Videos einreicht. Sobald eine Person diese Informationen einreicht, überspringen alle anderen mit dieser Erweiterung das gesponserte Segment.",
@@ -343,7 +343,7 @@
         "message": "Überspringen ist deaktiviert"
     },
     "yourWork": {
-        "message": "Deine Statistik",
+        "message": "Dein Werk",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -470,7 +470,7 @@
         "message": "Hinzufügen"
     },
     "addInvidiousInstanceError": {
-        "message": "Dies ist eine ungültige Domain. Dies soll NUR den Domain-Teil beinhalten. Beispiel: invidious.ajay.app"
+        "message": "Dies ist eine ungültige Domain. Dies sollte NUR den Domain-Teil beinhalten. Beispiel: invidious.ajay.app"
     },
     "resetInvidiousInstance": {
         "message": "Invidious-Instanzliste zurücksetzen"
@@ -569,7 +569,7 @@
         "message": "Segment übermitteln"
     },
     "submit": {
-        "message": "Übermitteln"
+        "message": "Senden"
     },
     "cancel": {
         "message": "Abbrechen"
@@ -1109,7 +1109,7 @@
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "T",
+        "message": "T.",
         "description": "100d"
     },
     "hourAbbreviation": {
@@ -1440,7 +1440,7 @@
         "message": "Thumbnail-Erstellungsdienst-Quellcode"
     },
     "moreAboutKAnonymity": {
-        "message": "Mehr über k-Anonymität",
+        "message": "Mehr über K-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
