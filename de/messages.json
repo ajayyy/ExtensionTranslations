@@ -521,7 +521,7 @@
         "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDiese sollte nicht geändert werden, außer du hast deine eigene Serverinstanz."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Thumbnail Cache Server-Adresse"
+        "message": "Thumbnail-Cache-Server-Adresse"
     },
     "save": {
         "message": "Speichern"
@@ -542,7 +542,7 @@
         "message": "Alle Einstellungen importieren/exportieren"
     },
     "exportOtherData": {
-        "message": "Alle anderen Daten importieren/exportieren"
+        "message": "Importiere/Exportiere Alle anderen Daten"
     },
     "exportOptionsCopy": {
         "message": "Bearbeiten / kopieren"
@@ -945,7 +945,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategorien sind hier!"
+        "message": "Kategorien sind hier!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Öffne die Optionen, um das Verhalten bei Intros, Outros, Merchandising (Fanartikel) usw. einzustellen."
@@ -1529,7 +1530,7 @@
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Titel sind nicht dafür gedacht, das Video vollständig zu ersetzen, sondern dafür, zu wissen, ob es sich lohnt, es anzuschauen.",
+        "message": "Titel sind nicht zum Ersetzen des ganzen Videos gedacht, sondern zum Erkennen, ob es sich lohnt, es anzuschauen.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
@@ -1537,7 +1538,7 @@
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Titel sollen aus der Perspektive des Videos und des Erstellers sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow.",
+        "message": "Titel sollen aus der Perspektive des Erstellers und des Videos sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow. Titel sind kein Kommentarbereich.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1561,7 +1562,7 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Titel sollten das Video oder den Kanal nicht verspotten oder kritisieren und die im Video präsentierten Tatsachen nicht überprüfen.",
+        "message": "Titel dienen nicht der Überprüfung der Fakten, der Verspottung, oder der Kritik an dem Video oder seinem Ersteller.",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
