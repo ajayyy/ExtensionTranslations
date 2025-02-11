@@ -217,7 +217,7 @@
         "message": "Abilita il conteggio dei salti nelle schede private/anonime"
     },
     "enableTrackDownvotes": {
-        "message": "Memorizza i voti negativi del segmento"
+        "message": "Memorizza i voti negativi ai segmenti"
     },
     "whatTrackDownvotes": {
         "message": "I segmenti votati negativamente rimarranno nascosti anche dopo aver ricaricato la pagina"
@@ -876,8 +876,8 @@
         "message": "nascosto manualmente"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "L'ID del canale non è ancora caricato. Se stai usando un video incorporato, prova piuttosto a usare la pagina principale di YouTube. Questo potrebbe esser causato dalle modifiche al layout di YouTube, se pensi che sia così, scrivi qui un commento:"
+        "message": "L'ID del canale non è ancora caricato. Se stai usando un video incorporato, prova piuttosto a usare la pagina principale di YouTube. Questo potrebbe esser causato dalle modifiche al layout di YouTube, se pensi che sia così, scrivi qui un commento:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Il browser ha revocato il permesso necessario per funzionare su Invidious e altri siti di terze parti. Clicca sul pulsante qui sotto per riattivare questo permesso."
@@ -930,7 +930,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Le categorie sono qui!"
+        "message": "Le categorie sono qui!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Apri queste opzioni per saltare le introduzioni, conclusioni, vendita di prodotti ecc."
@@ -974,7 +975,8 @@
         "message": "Errore durante il tentativo di riconoscere l'avviso:"
     },
     "deArrowMessageRecieved": {
-        "message": "Hai ricevuto un suggerimento da un moderatore"
+        "message": "Hai ricevuto un suggerimento da un moderatore",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Dona"
