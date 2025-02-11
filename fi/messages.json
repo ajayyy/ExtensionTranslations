@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Avaa Lähetykset-valikko"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Avaa kasuaalitilan valikko"
+    },
     "sortSegments": {
         "message": "Järjestä osiot"
     },
@@ -888,8 +891,8 @@
         "message": "manuaalisesti piilotettu"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Kanavan ID ei ole vielä latautunut. Jos käytät upotettua videota, kokeile sen sijaan käyttää YouTuben kotisivua. Tämä voi myös johtua muutoksista YouTuben ulkoasussa. Jos luulet luulet niin, tee kommenti tänne:"
+        "message": "Kanavan ID ei ole vielä latautunut. Jos käytät upotettua videota, kokeile sen sijaan käyttää YouTuben kotisivua. Tämä voi myös johtua muutoksista YouTuben ulkoasussa. Jos luulet luulet niin, tee kommenti tänne:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Selain on perunut laajennuksen oikeuden toimia Invidious- ja muilla kolmannen osapuolen sivustoilla. Palauta käyttöoikeus painamalla alla olevaa painiketta."
@@ -942,7 +945,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategoriat ovat täällä!"
+        "message": "Kategoriat ovat täällä!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Avaa asetukset ohittaaksesi introt, outrot, kauppatavarat, jne."
@@ -986,7 +990,8 @@
         "message": "Virhe yritettäessä kuitata varoitusta:"
     },
     "deArrowMessageRecieved": {
-        "message": "Olet saanut valvojalta vinkin"
+        "message": "Olet saanut valvojalta vinkin",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Lahjoita"
@@ -1818,5 +1823,9 @@
     "ClassicMode": {
         "message": "Klassinen tila",
         "description": "Classic mode is a mode in DeArrow"
+    },
+    "CasualMode": {
+        "message": "Kasuaalitila",
+        "description": "Casual mode is a mode in DeArrow"
     }
 }
