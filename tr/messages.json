@@ -888,8 +888,8 @@
         "message": "elle gizlendi"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Kanal kimliği henüz yüklenmedi. Gömülü bir video kullanıyorsanız, bunun yerine YouTube ana sayfasından izlemeyi deneyin. Bu, YouTube düzenindeki değişikliklerden de kaynaklanabilir, eğer öyleyse, buraya bir yorum yazın:"
+        "message": "Kanal kimliği henüz yüklenmedi. Gömülü bir video kullanıyorsanız, bunun yerine YouTube ana sayfasından izlemeyi deneyin. Bu, YouTube düzenindeki değişikliklerden de kaynaklanabilir, eğer öyleyse, buraya bir yorum yazın:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Tarayıcınız, eklentinin Invidious ve diğer 3. taraf sitelerde çalışması için gerekli izni kaldırdı. Bu izni yeniden etkinleştirmek için lütfen aşağıdaki butona tıklayın."
@@ -942,7 +942,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategoriler burada!"
+        "message": "Kategoriler burada!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Girişleri, bitişleri, ürünleri ve benzeri şeyleri atlamak için ayarları açın."
@@ -986,7 +987,8 @@
         "message": "Uyarıyı tanımlamaya çalışırken hata oluştu:"
     },
     "deArrowMessageRecieved": {
-        "message": "Moderatör tarafından bir öneri aldınız"
+        "message": "Moderatör tarafından bir öneri aldınız",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Bağış Yap"
