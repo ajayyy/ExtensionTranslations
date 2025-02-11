@@ -888,8 +888,8 @@
         "message": "ręcznie ukryty"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "ID kanału nie zostało jeszcze załadowane. Jeśli używasz embeddowanego filmu, spróbuj użyć strony głównej YouTube'a. Może to być również spowodowane zmianami w layout'cie YouTube'a, jeśli myślisz, że to przez to, dodaj swój komentarz tutaj:"
+        "message": "ID kanału nie zostało jeszcze załadowane. Jeśli używasz embeddowanego filmu, spróbuj użyć strony głównej YouTube'a. Może to być również spowodowane zmianami w layout'cie YouTube'a, jeśli myślisz, że to przez to, dodaj swój komentarz tutaj:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Przeglądarka cofnęła uprawnienia potrzebne do działania na witrynach Invidious i innych witrynach stron trzecich. Kliknij poniższy przycisk, aby reaktywować to uprawnienie."
@@ -942,7 +942,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategorie są tutaj!"
+        "message": "Kategorie są tutaj!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Otwórz opcje, aby pominąć intra, outra, merch, itp."
@@ -986,7 +987,8 @@
         "message": "Błąd podczas próby potwierdzenia ostrzeżenia:"
     },
     "deArrowMessageRecieved": {
-        "message": "Otrzymana wiadomość od moderatora"
+        "message": "Otrzymana wiadomość od moderatora",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Wesprzyj nas"
