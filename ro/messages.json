@@ -342,7 +342,7 @@
         "message": "Codul Erorii: "
     },
     "skip": {
-        "message": "Sari"
+        "message": "Omiteți"
     },
     "mute": {
         "message": "Mut"
@@ -769,7 +769,7 @@
         "message": "Omitere automată"
     },
     "manualSkip": {
-        "message": "Sari Peste Manual"
+        "message": "Omitere manuală"
     },
     "showOverlay": {
         "message": "Afișare în bara de derulare"
@@ -868,8 +868,8 @@
         "message": "ascuns manual"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "ID-ul canalului nu este încă încărcat. Dacă utilizați un videoclip încorporat, încercați în schimb să utilizați pagina de pornire YouTube. Acest lucru ar putea fi cauzat și de modificările aduse aspectului YouTube, dacă credeți că faceți un comentariu aici:"
+        "message": "ID-ul canalului nu este încă încărcat. Dacă utilizați un videoclip încorporat, încercați în schimb să utilizați pagina de pornire YouTube. Acest lucru ar putea fi cauzat și de modificările aduse aspectului YouTube, dacă credeți că faceți un comentariu aici:",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Browserul a revocat permisiunea necesară pentru a funcționa pe site-urile Invidioase și pe alte site-uri de 3 părți. Vă rugăm să faceți clic pe butonul de mai jos pentru a reactiva această permisiune."
@@ -922,7 +922,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Categoriile sunt aici!"
+        "message": "Categoriile sunt aici!",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Deschide opțiunile pentru a sări peste intro-uri, outro-uri, merch, etc."
@@ -966,7 +967,8 @@
         "message": "Eroare la încercarea de a confirma avertismentul:"
     },
     "deArrowMessageRecieved": {
-        "message": "Ați primit un sfat de la un moderator"
+        "message": "Ați primit un sfat de la un moderator",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Donează"
