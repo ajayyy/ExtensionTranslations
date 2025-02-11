@@ -11,7 +11,7 @@
         "message": "เซิร์ฟเวอร์รายงานว่าคำขอนี้ไม่ถูกต้อง"
     },
     "409": {
-        "message": "สปอนเซอร์นี้ได้รับการรายงานมาก่อน"
+        "message": "ส่วนนี้ได้ถูกส่งมาก่อนหน้านี้แล้ว"
     },
     "channelWhitelisted": {
         "message": "ช่องนี้ถูกนำเข้ารายการอนุญาตพิเศษแล้ว"
@@ -802,7 +802,8 @@
         "message": "ฉันเข้าใจสาเหตุแล้ว"
     },
     "deArrowMessageRecieved": {
-        "message": "คุณได้รับข้อแนะนำจากผู้ดูแล"
+        "message": "คุณได้รับข้อแนะนำจากผู้ดูแล",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "บริจาค"
