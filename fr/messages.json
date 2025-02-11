@@ -888,8 +888,8 @@
         "message": "masqué manuellement"
     },
     "channelDataNotFound": {
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Le Channel ID n'est pas encore chargé. Si vous utilisez une vidéo intégrée, essayez plutôt d'utiliser la page d'accueil de YouTube. Le problème peut également être causé par des changements dans l'interface de YouTube, si vous pensez que c'est le cas, écrivez un commentaire ici :"
+        "message": "Le Channel ID n'est pas encore chargé. Si vous utilisez une vidéo intégrée, essayez plutôt d'utiliser la page d'accueil de YouTube. Le problème peut également être causé par des changements dans l'interface de YouTube, si vous pensez que c'est le cas, écrivez un commentaire ici :",
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
     },
     "invidiousPermissionRefresh": {
         "message": "Le navigateur a refusé l'autorisation nécessaire pour pouvoir fonctionner sur Invidious et d'autres sites tiers. Veuillez cliquer sur le bouton ci-dessous pour réactiver cette autorisation."
@@ -942,7 +942,8 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Les catégories sont là !"
+        "message": "Les catégories sont là !",
+        "description": "categoryUpdate1 \n\nA feature launch."
     },
     "categoryUpdate2": {
         "message": "Ouvrir les options pour sauter les introductions, postfaces, produits dérivés, etc."
@@ -986,7 +987,8 @@
         "message": "Erreur lors de la tentative de reconnaissance de l'avertissement :"
     },
     "deArrowMessageRecieved": {
-        "message": "Vous avez reçu une astuce d'un modérateur"
+        "message": "Vous avez reçu une astuce d'un modérateur",
+        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
     },
     "Donate": {
         "message": "Faire un don"
@@ -1776,5 +1778,20 @@
     "areYouSureOriginalVote": {
         "message": "Confirmez-vous que la miniature originale suit bien les directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand aucune miniature soumise existe\" dans les paramètres DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "ClassicMode": {
+        "message": "Mode classique",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "CasualMode": {
+        "message": "Mode relaxé",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Conserver les titres originaux lorsqu'ils décrivent suffisamment bien la vidéo, ou lorsqu'ils sont drôles ou bien trouvés.\nChoisissez les catégories des titres que vous souhaitez voir.\nVous pourrez voter pour ou contre un titre s'il correspond bien, ou non, à une catégorie."
+    },
+    "minimumVotes": {
+        "message": "Votes minimums",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     }
 }
