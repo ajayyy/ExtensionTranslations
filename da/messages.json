@@ -859,8 +859,8 @@
         "message": "manuelt skjult"
     },
     "channelDataNotFound": {
-        "message": "Kanal-ID er ikke indlæst endnu. Hvis du bruger en integreret video, så prøv i stedet at bruge YouTube-hjemmesiden. Dette kunne også være forårsaget af ændringer i YouTube-layout. Hvis du mener det, så lav en kommentar her:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Kanal-ID er ikke indlæst endnu. Hvis du bruger en integreret video, så prøv i stedet at bruge YouTube-hjemmesiden. Dette kunne også være forårsaget af ændringer i YouTube-layout. Hvis du mener det, så lav en kommentar her:"
     },
     "invidiousPermissionRefresh": {
         "message": "Browseren har ophævet tilladelserne til at fungere på Invidious eller andre tredjepartssider. Klik venligst på knappen nedenfor for at genaktivere denne tilladelse."
@@ -913,8 +913,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategorier er her!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Kategorier er her!"
     },
     "categoryUpdate2": {
         "message": "Åbn mulighederne for at springe intros, outros, merch osv. over."
@@ -958,8 +957,7 @@
         "message": "Fejl under anerkendelse af advarsel:"
     },
     "deArrowMessageRecieved": {
-        "message": "Du har modtaget et tip fra en moderator",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Du har modtaget et tip fra en moderator"
     },
     "Donate": {
         "message": "Doner"
