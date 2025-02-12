@@ -876,8 +876,8 @@
         "message": "手動隱藏"
     },
     "channelDataNotFound": {
-        "message": "未偵測到頻道ID，如果您正在使用嵌入式YouTube播放器，請移至YouTube網站上觀看本影片。此問題亦有可能是由於YouTube改變了系統架構，如果你認為這是造成此問題的原因，請留言告訴我們：",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "未偵測到頻道ID，如果您正在使用嵌入式YouTube播放器，請移至YouTube網站上觀看本影片。此問題亦有可能是由於YouTube改變了系統架構，如果你認為這是造成此問題的原因，請留言告訴我們："
     },
     "invidiousPermissionRefresh": {
         "message": "瀏覽器已收回 Invidious 和其他第三方網站運作所需的權限。請點選下方的按鈕重新啟用此權限。"
@@ -930,8 +930,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "類別功能已推出！",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "類別功能已推出！"
     },
     "categoryUpdate2": {
         "message": "開啟選項以跳過開場、結尾、工商等。"
@@ -975,8 +974,7 @@
         "message": "嘗試確認警告時發生錯誤："
     },
     "deArrowMessageRecieved": {
-        "message": "您從管理者中收到了提示",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "您從管理者中收到了提示"
     },
     "Donate": {
         "message": "贊助"
