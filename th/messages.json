@@ -802,8 +802,7 @@
         "message": "ฉันเข้าใจสาเหตุแล้ว"
     },
     "deArrowMessageRecieved": {
-        "message": "คุณได้รับข้อแนะนำจากผู้ดูแล",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "คุณได้รับข้อแนะนำจากผู้ดูแล"
     },
     "Donate": {
         "message": "บริจาค"
