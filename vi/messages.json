@@ -876,8 +876,8 @@
         "message": "ẩn thủ công"
     },
     "channelDataNotFound": {
-        "message": "Không xác định được ID kênh. Nếu bạn đang xem video này trên 1 trang web thứ 3, hãy mở lại video này trên trang chủ Youtube rồi thử lại. Điều này cũng có thể do những thay đổi trong mã nguồn trang web YouTube, nếu bạn nghĩ vậy, hãy bình luận tại đây:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Không xác định được ID kênh. Nếu bạn đang xem video này trên 1 trang web thứ 3, hãy mở lại video này trên trang chủ Youtube rồi thử lại. Điều này cũng có thể do những thay đổi trong mã nguồn trang web YouTube, nếu bạn nghĩ vậy, hãy bình luận tại đây:"
     },
     "invidiousPermissionRefresh": {
         "message": "Trình duyệt đã thu hồi quyền cần thiết để hoạt động trên Invidious và các trang web bên thứ ba khác. Vui lòng nhấp vào nút bên dưới để kích hoạt lại quyền này."
@@ -930,8 +930,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Danh mục ở đây!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Danh mục ở đây!"
     },
     "categoryUpdate2": {
         "message": "Mở Tùy chọn để bỏ qua đoạn mở đầu, kết thúc, giới thiệu hàng hoá, v.v."
@@ -975,8 +974,7 @@
         "message": "Lỗi khi cố gắng xác nhận cảnh báo:"
     },
     "deArrowMessageRecieved": {
-        "message": "Bạn đã nhận được một lời khuyên từ người kiểm duyệt",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Bạn đã nhận được một lời khuyên từ người kiểm duyệt"
     },
     "Donate": {
         "message": "Ủng hộ"
