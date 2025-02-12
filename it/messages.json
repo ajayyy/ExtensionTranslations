@@ -876,8 +876,8 @@
         "message": "nascosto manualmente"
     },
     "channelDataNotFound": {
-        "message": "L'ID del canale non è ancora caricato. Se stai usando un video incorporato, prova piuttosto a usare la pagina principale di YouTube. Questo potrebbe esser causato dalle modifiche al layout di YouTube, se pensi che sia così, scrivi qui un commento:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "L'ID del canale non è ancora caricato. Se stai usando un video incorporato, prova piuttosto a usare la pagina principale di YouTube. Questo potrebbe esser causato dalle modifiche al layout di YouTube, se pensi che sia così, scrivi qui un commento:"
     },
     "invidiousPermissionRefresh": {
         "message": "Il browser ha revocato il permesso necessario per funzionare su Invidious e altri siti di terze parti. Clicca sul pulsante qui sotto per riattivare questo permesso."
@@ -930,8 +930,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Le categorie sono qui!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Le categorie sono qui!"
     },
     "categoryUpdate2": {
         "message": "Apri queste opzioni per saltare le introduzioni, conclusioni, vendita di prodotti ecc."
@@ -975,8 +974,7 @@
         "message": "Errore durante il tentativo di riconoscere l'avviso:"
     },
     "deArrowMessageRecieved": {
-        "message": "Hai ricevuto un suggerimento da un moderatore",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Hai ricevuto un suggerimento da un moderatore"
     },
     "Donate": {
         "message": "Dona"
