@@ -891,8 +891,8 @@
         "message": "manuaalisesti piilotettu"
     },
     "channelDataNotFound": {
-        "message": "Kanavan ID ei ole vielä latautunut. Jos käytät upotettua videota, kokeile sen sijaan käyttää YouTuben kotisivua. Tämä voi myös johtua muutoksista YouTuben ulkoasussa. Jos luulet luulet niin, tee kommenti tänne:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Kanavan ID ei ole vielä latautunut. Jos käytät upotettua videota, kokeile sen sijaan käyttää YouTuben kotisivua. Tämä voi myös johtua muutoksista YouTuben ulkoasussa. Jos luulet luulet niin, tee kommenti tänne:"
     },
     "invidiousPermissionRefresh": {
         "message": "Selain on perunut laajennuksen oikeuden toimia Invidious- ja muilla kolmannen osapuolen sivustoilla. Palauta käyttöoikeus painamalla alla olevaa painiketta."
@@ -945,8 +945,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategoriat ovat täällä!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Kategoriat ovat täällä!"
     },
     "categoryUpdate2": {
         "message": "Avaa asetukset ohittaaksesi introt, outrot, kauppatavarat, jne."
@@ -990,8 +989,7 @@
         "message": "Virhe yritettäessä kuitata varoitusta:"
     },
     "deArrowMessageRecieved": {
-        "message": "Olet saanut valvojalta vinkin",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Olet saanut valvojalta vinkin"
     },
     "Donate": {
         "message": "Lahjoita"
