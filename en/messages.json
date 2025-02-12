@@ -1842,5 +1842,9 @@
     "minimumVotes": {
         "message": "Minimum votes",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Show original thumbnail on casual mode voted videos",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }
