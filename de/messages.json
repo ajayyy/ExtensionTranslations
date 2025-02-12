@@ -135,7 +135,7 @@
         "message": "Einreichungsmenü öffnen"
     },
     "OpenCasualVoteMenu": {
-        "message": "Öffne Menü des ungezwungenen Modus"
+        "message": "Öffne Menü des entspannten Modus"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
@@ -1464,6 +1464,10 @@
         "message": "Thumbnails",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Stimmen für Originaltitel",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Fehler"
     },
@@ -1829,7 +1833,7 @@
         "message": "Titel werden mit einem auf den Richtlinien basierten, standardisierten Format auf allen Videos ersetzt, für die ein eingereichter Titel existiert."
     },
     "CasualMode": {
-        "message": "Ungezwungener Modus",
+        "message": "Entspannter Modus",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
@@ -1840,7 +1844,7 @@
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Zeige ursprüngliches Thumbnail auf Videos, für die im ungezwungenen Modus der Originaltitel angezeigt wird",
+        "message": "Zeige ursprüngliches Thumbnail auf Videos, für die im entspannten Modus der Originaltitel angezeigt wird",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }
