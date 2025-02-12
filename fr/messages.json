@@ -891,8 +891,8 @@
         "message": "masqué manuellement"
     },
     "channelDataNotFound": {
-        "message": "Le Channel ID n'est pas encore chargé. Si vous utilisez une vidéo intégrée, essayez plutôt d'utiliser la page d'accueil de YouTube. Le problème peut également être causé par des changements dans l'interface de YouTube, si vous pensez que c'est le cas, écrivez un commentaire ici :",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Le Channel ID n'est pas encore chargé. Si vous utilisez une vidéo intégrée, essayez plutôt d'utiliser la page d'accueil de YouTube. Le problème peut également être causé par des changements dans l'interface de YouTube, si vous pensez que c'est le cas, écrivez un commentaire ici :"
     },
     "invidiousPermissionRefresh": {
         "message": "Le navigateur a refusé l'autorisation nécessaire pour pouvoir fonctionner sur Invidious et d'autres sites tiers. Veuillez cliquer sur le bouton ci-dessous pour réactiver cette autorisation."
@@ -945,8 +945,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Les catégories sont là !",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Les catégories sont là !"
     },
     "categoryUpdate2": {
         "message": "Ouvrir les options pour sauter les introductions, postfaces, produits dérivés, etc."
@@ -990,8 +989,7 @@
         "message": "Erreur lors de la tentative de reconnaissance de l'avertissement :"
     },
     "deArrowMessageRecieved": {
-        "message": "Vous avez reçu une astuce d'un modérateur",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Vous avez reçu une astuce d'un modérateur"
     },
     "Donate": {
         "message": "Faire un don"
