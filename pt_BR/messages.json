@@ -876,8 +876,8 @@
         "message": "oculto manualmente"
     },
     "channelDataNotFound": {
-        "message": "O ID do canal ainda não foi carregado. Se você estiver usando um vídeo incorporado, tente usar a página inicial do YouTube. Isso também pode ser causado por mudanças no layout do YouTube, se este for o caso, comente aqui:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "O ID do canal ainda não foi carregado. Se você estiver usando um vídeo incorporado, tente usar a página inicial do YouTube. Isso também pode ser causado por mudanças no layout do YouTube, se este for o caso, comente aqui:"
     },
     "invidiousPermissionRefresh": {
         "message": "O navegador revogou a permissão necessária para funcionar em Invidious e em outros sites de terceiros. Por favor, clique no botão abaixo para reativar essa permissão."
@@ -930,8 +930,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "As categorias estão aqui!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "As categorias estão aqui!"
     },
     "categoryUpdate2": {
         "message": "Abrir opções para ignorar introduções, créditos finais, promoção de mercadoria, etc."
@@ -975,8 +974,7 @@
         "message": "Erro ao tentar reconhecer o aviso:"
     },
     "deArrowMessageRecieved": {
-        "message": "Você recebeu uma dica de um moderador",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Você recebeu uma dica de um moderador"
     },
     "Donate": {
         "message": "Doar"
