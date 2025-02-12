@@ -888,8 +888,8 @@
         "message": "manuellt dold"
     },
     "channelDataNotFound": {
-        "message": "Kanal-ID:t är inte laddat ännu. Om du använder en inbäddad video, prova att använda YouTube-hemsidan istället. Detta kan också bero på förändringar i layouten hos YouTube och om du tror så är fallet kommentera det här:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Kanal-ID:t är inte laddat ännu. Om du använder en inbäddad video, prova att använda YouTube-hemsidan istället. Detta kan också bero på förändringar i layouten hos YouTube och om du tror så är fallet kommentera det här:"
     },
     "invidiousPermissionRefresh": {
         "message": "Webbläsaren har återkallat behörigheten som behövs för att fungera på Invidious och andra tredjepartssajter. Klicka på knappen nedan för att återaktivera denna behörighet."
@@ -942,8 +942,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategorier finns här!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Kategorier finns här!"
     },
     "categoryUpdate2": {
         "message": "Öppna alternativen för att hoppa över introduktioner, avslutningar, varor osv."
@@ -987,8 +986,7 @@
         "message": "Fel vid försök att bekräfta varning:"
     },
     "deArrowMessageRecieved": {
-        "message": "Du har fått ett tips från en moderator",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Du har fått ett tips från en moderator"
     },
     "Donate": {
         "message": "Donera"
