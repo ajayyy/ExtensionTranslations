@@ -891,8 +891,8 @@
         "message": "manuell versteckt"
     },
     "channelDataNotFound": {
-        "message": "Kanal-ID wurde noch nicht geladen. Falls du ein eingebettetes Video benutzt, probiere stattdessen die YouTube-Homepage. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, schreibe hier einen Kommentar:",
-        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at."
+        "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
+        "message": "Kanal-ID wurde noch nicht geladen. Falls du ein eingebettetes Video benutzt, probiere stattdessen die YouTube-Homepage. Dies könnte auch durch Änderungen im YouTube-Layout verursacht werden. Sollte das der Fall sein, schreibe hier einen Kommentar:"
     },
     "invidiousPermissionRefresh": {
         "message": "Der Browser hat die Berechtigung, welche zum Verwenden von Invidious und anderen Drittanbieter-Seiten benötigt wird, widerrufen. Bitte klicke auf die Schaltfläche unten, um diese Berechtigung zu reaktivieren."
@@ -945,8 +945,7 @@
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
-        "message": "Kategorien sind hier!",
-        "description": "categoryUpdate1 \n\nA feature launch."
+        "message": "Kategorien sind hier!"
     },
     "categoryUpdate2": {
         "message": "Öffne die Optionen, um das Verhalten bei Intros, Outros, Merchandising (Fanartikel) usw. einzustellen."
@@ -990,8 +989,7 @@
         "message": "Fehler beim Anerkennen der Verwarnung:"
     },
     "deArrowMessageRecieved": {
-        "message": "Du hast einen Tipp von einem Moderator erhalten",
-        "description": "deArrowMessageRecieved \n\n\"tip\" as in advice"
+        "message": "Du hast einen Tipp von einem Moderator erhalten"
     },
     "Donate": {
         "message": "Spenden"
