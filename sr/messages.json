@@ -1842,5 +1842,9 @@
     "minimumVotes": {
         "message": "Минимум гласова",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Прикажи оригиналну сличицу на видео снимцима с гласовима у обичном режиму",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }
