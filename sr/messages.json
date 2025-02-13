@@ -1464,6 +1464,10 @@
         "message": "Сличице",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Гласови у обичном режиму",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Грешка"
     },
