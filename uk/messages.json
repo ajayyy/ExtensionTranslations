@@ -1836,5 +1836,12 @@
     "minimumVotes": {
         "message": "Мінімум голосів",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "newCasualMode": {
+        "message": "Нова функція: випадковий режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Відкрити налаштування"
     }
 }
