@@ -1464,6 +1464,10 @@
         "message": "Pienoiskuvat",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Kasuaaliset äänet",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Virhe"
     },
@@ -1472,6 +1476,9 @@
     },
     "ShowModified": {
         "message": "Näytä muokatut tiedot"
+    },
+    "ShowFormatted": {
+        "message": "Näytä muotoillut tiedot"
     },
     "FillerWarning": {
         "message": "Varoitus: Tämä on erittäin agressiivinen kategoria ja on hyvin todennäköistä, että joudut joskus perumaan ohituksia tai poistamaan sen käytöstä. Huomioithan, että monista videoista saatetaan ohittaa yli 50 %! Muista myös seurata lähetyssääntöjä.",
@@ -1788,7 +1795,7 @@
         "message": "Kyllä"
     },
     "No": {
-        "message": "Ei"
+        "message": "En"
     },
     "votes": {
         "message": "{0} ääntä",
@@ -1807,7 +1814,7 @@
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_clever": {
-        "message": "Älykäs",
+        "message": "Nokkela",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_descriptive": {
@@ -1819,12 +1826,30 @@
         "description": "Category for DeArrow casual mode"
     },
     "ClassicMode": {
-        "message": "Klassinen tila",
+        "message": "Perinteinen tila",
         "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Otsikot korvataan vakiomuodoilla, perustuen yhteisölähtöisen otsikon sisältävien videoiden sääntöihin."
     },
     "CasualMode": {
         "message": "Kasuaalitila",
         "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Säilytä alkuperäiset otsikot, kun ne kuvaavat videota riittävän hyvin ja ovat nokkelia tai hauskoja.\nValitse otsikkokateroriat, jotka haluat nähdä.\nVoit äänestää otsikoiden sopivuudesta katogorioihin."
+    },
+    "minimumVotes": {
+        "message": "Äänten vähimmäismäärä",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Näytä kasuaalitilassa äänestettujen videoiden alkuperäiset pienoiskuvat",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Uusi ominaisuus: Kasuaalitila",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "OpenSettings": {
         "message": "Avaa asetukset"
