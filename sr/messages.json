@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Отвори мени за подношење"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Отвори мени обичног режима"
+    },
     "sortSegments": {
         "message": "Сортирање сегмената"
     },
@@ -1461,6 +1464,10 @@
         "message": "Сличице",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Гласови у обичном режиму",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Грешка"
     },
@@ -1469,6 +1476,9 @@
     },
     "ShowModified": {
         "message": "Прикажи измењене детаље"
+    },
+    "ShowFormatted": {
+        "message": "Прикажи форматиране детаље"
     },
     "FillerWarning": {
         "message": "Упозорење: Ово је невероватно агресивна категорија. Вероватно ћете морати да премотате уназад ствари или да их понекад онемогућите. Имајте на уму да многи видео снимци имају преко 50% или више прескоченог видео снимка! Међутим, запамтите да још увек постоје одређене смернице које треба следити приликом подношења.",
@@ -1776,5 +1786,65 @@
     "areYouSureOriginalVote": {
         "message": "Сигурни сте да ова оригинална сличица прати DeArrow смернице? Ако више волите да видите оригиналне сличице, размислите о промени опције „Када не постоји поднесена сличица” у DeArrow подешавањима.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Свиђа вам се оригинални наслов?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Да"
+    },
+    "No": {
+        "message": "Не"
+    },
+    "votes": {
+        "message": "Гласови: {0}",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "Гласови: {0}",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Смешно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Креативно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Паметно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Описно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Остало",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Класични режим",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Наслови се замењују стандардизованим форматима на основу смерница за све видео снимке у којима постоји наслов из збирке заједнице."
+    },
+    "CasualMode": {
+        "message": "Обични режим",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Задржите оригиналне наслове када довољно добро описују видео снимак и када су паметни или смешни.\nИзаберите које категорије наслова желите да видите.\nМоћи ћете да гласате да ли се наслов уклапа у категорију или не."
+    },
+    "minimumVotes": {
+        "message": "Минимум гласова",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Прикажи оригиналну сличицу на видео снимцима с гласовима у обичном режиму",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }

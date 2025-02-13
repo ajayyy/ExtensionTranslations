@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Открыть меню отправки"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Открыть меню обычного режима"
+    },
     "sortSegments": {
         "message": "Сортировать сегменты"
     },
@@ -1461,6 +1464,10 @@
         "message": "Значки",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Голосов в обычном режиме",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Ошибка"
     },
@@ -1468,6 +1475,9 @@
         "message": "Показать изначальные сведения"
     },
     "ShowModified": {
+        "message": "Показать изменённые сведения"
+    },
+    "ShowFormatted": {
         "message": "Показать изменённые сведения"
     },
     "FillerWarning": {
@@ -1776,5 +1786,72 @@
     "areYouSureOriginalVote": {
         "message": "Вы уверены, что оригинальный значок соответствует правилам DeArrow? Если вы в целом предпочитаете оригинальные значки, можно изменить настройку DeArrow «При отсутствии отправленного значка».",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Нравится оригинальное название?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Да"
+    },
+    "No": {
+        "message": "Нет"
+    },
+    "votes": {
+        "message": "голосов: {0}",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "голосов: {0}",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Забавные",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Креативные",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Хитроумные",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Информативные",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Прочие",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Классический режим",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Заменять названия стандартизированным форматом в соответствии с руководством у всех видео с предложенными названиями."
+    },
+    "CasualMode": {
+        "message": "Обычный режим",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Сохранять забавные или хитроумные оригинальные названия, которые хорошо описывают видео.\nВыберите категории названий для отображения.\nВы сможете голосовать за (не)соответствие названия категории."
+    },
+    "minimumVotes": {
+        "message": "Минимум голосов",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Показать оригинальный значок для видео с голосами обычного режима",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Новая функция: Обычный режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Открыть настройки"
     }
 }

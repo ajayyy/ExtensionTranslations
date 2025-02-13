@@ -45,7 +45,7 @@
         "message": "Melden"
     },
     "reportButtonInfo": {
-        "message": "Beitrag als unzulässig melden."
+        "message": "Beitrag als fehlerhaft melden."
     },
     "Dismiss": {
         "message": "Abbrechen"
@@ -84,7 +84,7 @@
         "message": "Dein Beitrag konnte nicht übertragen werden, bitte versuche es später erneut."
     },
     "sponsorFound": {
-        "message": "Die Datenbank enthält überspringbare Segmente für dieses Video!"
+        "message": "Dieses Video hat Segmente in der Datenbank!"
     },
     "sponsor404": {
         "message": "Keine Segmente gefunden"
@@ -133,6 +133,9 @@
     },
     "OpenSubmissionMenu": {
         "message": "Einreichungsmenü öffnen"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "Öffne Menü des entspannten Modus"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
@@ -259,13 +262,13 @@
         "message": "Kleine Skip-Meldung für Auto-Skips"
     },
     "noticeVisibilityMode2": {
-        "message": "Alles kleine Skip-Meldungen"
+        "message": "Alle kleinen Skip-Meldungen"
     },
     "noticeVisibilityMode3": {
         "message": "Verblasste Skip-Meldung für Auto-Skip"
     },
     "noticeVisibilityMode4": {
-        "message": "Alles verblasste Skip-Meldungen"
+        "message": "Alle verblassten Skip-Meldungen"
     },
     "longDescription": {
         "message": "SponsorBlock lässt dich gesponserte Videosegmente, Intros, Outros, Interaktions-Erinnerungen, Musikvideoteile ohne Musik und andere nervige Teile von YouTube-Videos überspringen. SponsorBlock ist eine crowdsourced Browser-Erweiterung, in der jeder die Start- und Endzeit gesponserter Videosegmente und anderer Segmente von YouTube-Videos einreicht. Sobald eine Person diese Informationen einreicht, überspringen alle anderen mit dieser Erweiterung das gesponserte Segment.",
@@ -320,7 +323,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow ein‐ / ausschalten",
+        "message": "DeArrow ein-/ausschalten",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -340,7 +343,7 @@
         "message": "Überspringen ist deaktiviert"
     },
     "yourWork": {
-        "message": "Deine Statistik",
+        "message": "Dein Werk",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -467,7 +470,7 @@
         "message": "Hinzufügen"
     },
     "addInvidiousInstanceError": {
-        "message": "Dies ist eine ungültige Domain. Dies soll NUR den Domain-Teil beinhalten. Beispiel: invidious.ajay.app"
+        "message": "Dies ist eine ungültige Domain. Dies sollte NUR den Domain-Teil beinhalten. Beispiel: invidious.ajay.app"
     },
     "resetInvidiousInstance": {
         "message": "Invidious-Instanzliste zurücksetzen"
@@ -518,7 +521,7 @@
         "message": "Die Adresse, welche für Anfragen an den Abrufserver verwendet wird.\nDiese sollte nicht geändert werden, außer du hast deine eigene Serverinstanz."
     },
     "thumbnailCacheServerAddress": {
-        "message": "Thumbnail Cache Server-Adresse"
+        "message": "Thumbnail-Cache-Server-Adresse"
     },
     "save": {
         "message": "Speichern"
@@ -539,7 +542,7 @@
         "message": "Alle Einstellungen importieren/exportieren"
     },
     "exportOtherData": {
-        "message": "Alle anderen Daten importieren/exportieren"
+        "message": "Importiere/Exportiere Alle anderen Daten"
     },
     "exportOptionsCopy": {
         "message": "Bearbeiten / kopieren"
@@ -566,7 +569,7 @@
         "message": "Segment übermitteln"
     },
     "submit": {
-        "message": "Übermitteln"
+        "message": "Senden"
     },
     "cancel": {
         "message": "Abbrechen"
@@ -1100,11 +1103,11 @@
         "message": "Neu! Sieh, wenn ein Video ausschließlich gesponsert oder Eigenwerbung ist"
     },
     "yearAbbreviation": {
-        "message": "y",
+        "message": "J.",
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "T",
+        "message": "T.",
         "description": "100d"
     },
     "hourAbbreviation": {
@@ -1132,7 +1135,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Aussehen der Überspringen-Meldung",
+        "message": "Aussehen der Überspringen-Benachrichtigung",
         "description": "Option label"
     },
     "unbind": {
@@ -1338,7 +1341,7 @@
         "message": "Wenn kein Thumbnail eingereicht wurde"
     },
     "whatThumbnailFallbackOption": {
-        "message": "Bei der Auswahl einer zufälligen Zeit wird mittels SponsorBlock Daten sichergestellt, dass keine Zeit in einem Werbesegment ausgewählt wird.",
+        "message": "Bei der Auswahl einer zufälligen Zeit wird mittels SponsorBlock-Daten sichergestellt, dass keine Zeit in einem Werbesegment ausgewählt wird.",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
@@ -1425,7 +1428,7 @@
         "message": "Der Thumbnail-Generierungsdienst beschleunigt die Generierung von Thumbnails erheblich, indem er eine anonyme Anfrage mit der Video‑ID an einen Server schickt. Das Thumbnail wird dann entweder generiert oder aus einem Cache bezogen, wenn es zuvor bereits generiert wurde."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von \"Auf allen Seiten außer Videoseiten\" vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
+        "message": "Wenn auf Videoseiten verwendet, könnten nicht gelistete Video-IDs an den Server weitergegeben werden. Das Verwenden von „Auf allen Seiten außer Videoseiten“ vermeidet dieses Problem. Eine andere Option ist es, einen eigenen Thumbnail-Generierungsdienst zu hosten."
     },
     "thumbnailGeneratorDescription3": {
         "message": "Wenn die Verwendung des Thumbnail-Erstellungsdienstes deaktiviert ist, werden alle Anfragen ein k-Anonymitäts-Anfragesystem verwenden, welches es für den Server schwieriger macht, vorauszusagen, welche Videos abgerufen wurden. Außerdem wird ein langsamerer, lokaler Thumbnail-Erstellungsdienst verwendet.",
@@ -1435,7 +1438,7 @@
         "message": "Thumbnail-Erstellungsdienst-Quellcode"
     },
     "moreAboutKAnonymity": {
-        "message": "Mehr über k-Anonymität",
+        "message": "Mehr über K-Anonymität",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
@@ -1461,6 +1464,10 @@
         "message": "Thumbnails",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Stimmen für Originaltitel",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Fehler"
     },
@@ -1469,6 +1476,9 @@
     },
     "ShowModified": {
         "message": "Zeige veränderte Details"
+    },
+    "ShowFormatted": {
+        "message": "Zeige formatierte Details"
     },
     "FillerWarning": {
         "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich musst du Einiges manuell ent-überspringen, oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
@@ -1502,11 +1512,11 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Überprüfe alle Richtlinien",
+        "message": "Überprüfe alle Richtlinien zum Einsenden",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
-        "message": "Mein Titel verwendet Groß- und Kleinschreibung wie in einem Satz",
+        "message": "Mein Titel verwendet Groß- und Kleinschreibung, wie in einem Satz.",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
@@ -1522,15 +1532,15 @@
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Titel sind nicht dafür gedacht, das Video vollständig zu ersetzen, sondern dafür, zu wissen, ob es sich lohnt, es anzuschauen.",
+        "message": "Titel sind nicht zum Ersetzen des ganzen Videos gedacht, sondern zum Erkennen, ob es sich lohnt, es anzuschauen.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Mein Titel verspottet oder kritisiert das Video oder den Kanal nicht und überprüft nicht die im Video präsentierten Tatsachen",
+        "message": "Mein Titel dient nicht der Überprüfung der Fakten, der Verspottung, oder der Kritik an dem Video oder seinem Ersteller.",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Titel sollen aus der Perspektive des Videos und des Erstellers sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow.",
+        "message": "Titel sollen aus der Perspektive des Erstellers und des Videos sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow. Titel sind kein Kommentarbereich.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1546,7 +1556,7 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
-        "message": "Titel sollten nicht mit einem Punkt ‚.‘ enden.",
+        "message": "Titel sollten nicht mit einem Punkt ‚.‘ enden",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
@@ -1554,7 +1564,7 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Titel sollten das Video oder den Kanal nicht verspotten oder kritisieren und die im Video präsentierten Tatsachen nicht überprüfen.",
+        "message": "Titel dienen nicht der Überprüfung der Fakten, der Verspottung, oder der Kritik an dem Video oder seinem Ersteller.",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
@@ -1590,7 +1600,7 @@
         "message": "Nutzungsbedingungen"
     },
     "openSourceLicenses": {
-        "message": "Open Source Lizenzen"
+        "message": "Open-Source-Lizenzen"
     },
     "defaultToOriginals": {
         "message": "Standardmäßig die ursprünglichen Videoinformationen verwenden"
@@ -1776,5 +1786,65 @@
     "areYouSureOriginalVote": {
         "message": "Bist du sicher, dass dieses originale Thumbnail den DeArrow-Richtlinien entspricht? Falls du allgemein lieber die ursprünglichen Thumbnails sehen möchtest, ändere die Option „Wenn kein Thumbnail eingereicht wurde“ in den DeArrow-Einstellungen.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Gefällt dir der Originaltitel?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Ja"
+    },
+    "No": {
+        "message": "Nein"
+    },
+    "votes": {
+        "message": "{0} Stimmen",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} Stimme",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Witzig",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreativ",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Clever",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Beschreibend",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Anderer Grund",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klassischer Modus",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titel werden mit einem auf den Richtlinien basierten, standardisierten Format auf allen Videos ersetzt, für die ein eingereichter Titel existiert."
+    },
+    "CasualMode": {
+        "message": "Entspannter Modus",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Behalte Originaltitel, wenn sie das Video ausreichend beschreiben, clever oder witzig sind.\nWähle aus, welche Kategorien von Titeln du sehen möchtest.\nDu kannst darüber abstimmen, ob ein Titel in eine Kategorie passt oder nicht."
+    },
+    "minimumVotes": {
+        "message": "Mindest-Stimmanzahl",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Zeige ursprüngliches Thumbnail auf Videos, für die im entspannten Modus der Originaltitel angezeigt wird",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }

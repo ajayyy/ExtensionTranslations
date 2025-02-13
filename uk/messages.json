@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Не для розділів, які додають додатковий вміст"
     },
+    "category_filler": {
+        "message": "Відволікаючі теми/жарти"
+    },
+    "category_filler_description": {
+        "message": "Сегменти з відволікаючими сценами або жартами, які не є необхідними для розуміння основного змісту відео. Сюди не слід включати сегменти, що надають контекст або фонові деталі. Це дуже агресивна категорія, призначена для тих випадків, коли ви не в настрої для «веселощів»."
+    },
+    "category_filler_short": {
+        "message": "Відволікаючі теми"
+    },
+    "category_filler_guideline1": {
+        "message": "Відволікаючі сцени або жарти"
+    },
     "category_filler_guideline2": {
         "message": "Відволікання, ляпи, повтори"
     },
@@ -1449,6 +1461,10 @@
         "message": "Мініатюри",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Довільні голоси",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Помилка"
     },
@@ -1457,6 +1473,9 @@
     },
     "ShowModified": {
         "message": "Показати змінену інформацію"
+    },
+    "ShowFormatted": {
+        "message": "Показати подробиці форматування"
     },
     "FillerWarning": {
         "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
@@ -1764,5 +1783,65 @@
     "areYouSureOriginalVote": {
         "message": "Ви впевнені, що ця оригінальна мініатюра відповідає рекомендаціям DeArrow? Якщо ви в цілому просто віддаєте перевагу переглядати оригінальні мініатюри, подумайте про зміну параметра \"За відсутності відправленої мініатюри\" в налаштуваннях DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Сподобався оригінал?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Так"
+    },
+    "No": {
+        "message": "Ні"
+    },
+    "votes": {
+        "message": "{0} голосів",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} голос",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Смішні",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Творчий",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Розумний",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Описовий",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Інше",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Класичний режим",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Назви замінюються стандартизованими форматами на основі всіх відеороликів, де існує назва краудсорсингу."
+    },
+    "CasualMode": {
+        "message": "Звичайний режим",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "minimumVotes": {
+        "message": "Мінімум голосів",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "newCasualMode": {
+        "message": "Нова функція: випадковий режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Відкрити налаштування"
     }
 }

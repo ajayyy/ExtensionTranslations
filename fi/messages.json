@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Avaa Lähetykset-valikko"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Avaa kasuaalitilan valikko"
+    },
     "sortSegments": {
         "message": "Järjestä osiot"
     },
@@ -1776,5 +1779,54 @@
     "areYouSureOriginalVote": {
         "message": "Oletko varma, että tämä alkuperäinen pienoiskuva seuraa DeArrowin sääntöjä? Jos haluat vain nähdä alkuperäisiä pienoiskuvia ylipäätään, harkitse \"Kun lähetettyä pienoiskuvaa ei ole\" asetuksen vaihtamista DeArrow asetuksissa.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Pidätkö alkuperäisestä otsikosta?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Kyllä"
+    },
+    "No": {
+        "message": "Ei"
+    },
+    "votes": {
+        "message": "{0} ääntä",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} ääni",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Hauska",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Luova",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Älykäs",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Kuvaava",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Muu",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klassinen tila",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "CasualMode": {
+        "message": "Kasuaalitila",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Avaa asetukset"
     }
 }

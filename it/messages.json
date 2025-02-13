@@ -217,7 +217,7 @@
         "message": "Abilita il conteggio dei salti nelle schede private/anonime"
     },
     "enableTrackDownvotes": {
-        "message": "Memorizza i voti negativi del segmento"
+        "message": "Memorizza i voti negativi ai segmenti"
     },
     "whatTrackDownvotes": {
         "message": "I segmenti votati negativamente rimarranno nascosti anche dopo aver ricaricato la pagina"

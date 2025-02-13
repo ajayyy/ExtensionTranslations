@@ -288,7 +288,7 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Ignorar segmento",
+        "message": "Pular segmento",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {

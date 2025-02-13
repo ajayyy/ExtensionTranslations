@@ -93,7 +93,7 @@
         "message": "Đoạn quảng cáo bắt đầu vào lúc này"
     },
     "sponsorEnd": {
-        "message": "Phân đoạn kết thúc vào lúc này"
+        "message": "Đoạn quảng cáo kết thúc vào lúc này"
     },
     "sponsorCancel": {
         "message": "Huỷ tạo phân đoạn"
@@ -389,7 +389,7 @@
         "message": "Tắt tự động bỏ qua"
     },
     "enableAutoSkip": {
-        "message": "Bật tự động bỏ qua quảng cáo"
+        "message": "Bật tự động bỏ qua"
     },
     "audioNotification": {
         "message": "Thông báo bằng âm thanh khi bỏ qua"
@@ -774,7 +774,7 @@
         "message": "Đọc tin nhắn"
     },
     "autoSkip": {
-        "message": "Tự động bỏ qua quảng cáo"
+        "message": "Tự động bỏ qua"
     },
     "manualSkip": {
         "message": "Bỏ qua thủ công"

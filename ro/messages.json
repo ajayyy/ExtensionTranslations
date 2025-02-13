@@ -342,7 +342,7 @@
         "message": "Codul Erorii: "
     },
     "skip": {
-        "message": "Sari"
+        "message": "Omiteți"
     },
     "mute": {
         "message": "Mut"
@@ -769,7 +769,7 @@
         "message": "Omitere automată"
     },
     "manualSkip": {
-        "message": "Sari Peste Manual"
+        "message": "Omitere manuală"
     },
     "showOverlay": {
         "message": "Afișare în bara de derulare"
