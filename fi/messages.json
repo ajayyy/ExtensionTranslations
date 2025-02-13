@@ -1825,5 +1825,8 @@
     "CasualMode": {
         "message": "Kasuaalitila",
         "description": "Casual mode is a mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Avaa asetukset"
     }
 }
