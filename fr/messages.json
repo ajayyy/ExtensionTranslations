@@ -1464,6 +1464,10 @@
         "message": "Miniatures",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Votes en mode relaxé",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Erreur"
     },
@@ -1838,5 +1842,16 @@
     "minimumVotes": {
         "message": "Votes minimums",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Afficher la miniature originale sur les vidéos ayant des votes en mode relaxé",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nouvelle fonctionnalité : mode relaxé",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Ouvrir les paramètres"
     }
 }
