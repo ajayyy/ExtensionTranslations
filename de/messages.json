@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Zeige ursprüngliches Thumbnail auf Videos, für die im entspannten Modus der Originaltitel angezeigt wird",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Neue Funktion: Gelegenheitsmodus",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Einstellungen öffnen"
     }
 }
