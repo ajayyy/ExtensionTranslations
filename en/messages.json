@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Show original thumbnail on casual mode voted videos",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "New feature: Casual mode",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Open settings"
     }
 }
