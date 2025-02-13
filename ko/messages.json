@@ -1464,6 +1464,10 @@
         "message": "썸네일",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "캐주얼 모드 투표 수",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "오류"
     },
@@ -1838,5 +1842,16 @@
     "minimumVotes": {
         "message": "최소 투표 수",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "캐주얼 모드로 투표 받은 동영상은 원본 썸네일 표시",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "새 기능: 캐주얼 모드",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "설정 열기"
     }
 }
