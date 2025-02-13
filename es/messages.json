@@ -1698,5 +1698,8 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
+    },
+    "OpenSettings": {
+        "message": "Abrir la configuración"
     }
 }
