@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Показать оригинальный значок для видео с голосами обычного режима",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Новая функция: Обычный режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Открыть настройки"
     }
 }
