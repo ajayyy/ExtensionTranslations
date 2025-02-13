@@ -1464,6 +1464,10 @@
         "message": "Indexképek",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Alkalmi szavazatok",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Hiba"
     },
@@ -1838,5 +1842,9 @@
     "minimumVotes": {
         "message": "Minimális szavazatszám",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Eredeti indexképek mutatása alkalmi módban szavazott videókon",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     }
 }
