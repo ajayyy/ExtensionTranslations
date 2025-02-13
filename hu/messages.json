@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Eredeti indexképek mutatása alkalmi módban szavazott videókon",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Új funkció: Alkalmi mód",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Beállítások megnyitása"
     }
 }
