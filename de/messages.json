@@ -1481,7 +1481,7 @@
         "message": "Zeige formatierte Details"
     },
     "FillerWarning": {
-        "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich musst du Einiges manuell ent-überspringen, oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
+        "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich musst du Einiges manuell nicht überspringen, oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1822,7 +1822,7 @@
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_other": {
-        "message": "Anderer Grund",
+        "message": "Sonstiges",
         "description": "Category for DeArrow casual mode"
     },
     "ClassicMode": {
