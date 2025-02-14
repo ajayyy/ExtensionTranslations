@@ -135,7 +135,7 @@
         "message": "Einreichungsmenü öffnen"
     },
     "OpenCasualVoteMenu": {
-        "message": "Öffne Menü des entspannten Modus"
+        "message": "Öffne Menü des lockeren Modus"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
@@ -1833,7 +1833,7 @@
         "message": "Titel werden mit einem auf den Richtlinien basierten, standardisierten Format auf allen Videos ersetzt, für die ein eingereichter Titel existiert."
     },
     "CasualMode": {
-        "message": "Entspannter Modus",
+        "message": "Lockerer Modus",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
@@ -1844,11 +1844,11 @@
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Zeige ursprüngliches Thumbnail auf Videos, für die im entspannten Modus der Originaltitel angezeigt wird",
+        "message": "Zeige auch das ursprüngliche Thumbnail",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
-        "message": "Neue Funktion: Gelegenheitsmodus",
+        "message": "Neue Funktion: lockerer Modus",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "OpenSettings": {
