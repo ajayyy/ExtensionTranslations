@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Zobrazit původní náhled u videí, kde jste hlasovali v normálním režimu",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nová funkce: normální režim",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Otevřít nastavení"
     }
 }
