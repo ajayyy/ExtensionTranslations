@@ -1447,9 +1447,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "題名/サムネイルが変更されているかを常に知りたければ、これを有効化します。"
     },
-    "showOriginalOnHover": {
-        "message": "カーソルを乗せると改変前の概要欄を表示する"
-    },
     "showIconForFormattedTitles": {
         "message": "自動整形された題名に「元を表示」ボタンを表示"
     },
