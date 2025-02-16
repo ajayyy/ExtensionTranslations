@@ -1447,9 +1447,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ако желите да увек знате да ли је наслов/сличица промењена, омогућите ово."
     },
-    "showOriginalOnHover": {
-        "message": "Прикажи оригиналне детаље при преласку курсором"
-    },
     "showIconForFormattedTitles": {
         "message": "Прикажи дугме „Прикажи оригинал” за аутоматски форматиране наслове"
     },
