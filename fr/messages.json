@@ -1447,9 +1447,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si vous souhaitez toujours savoir si un titre/miniature a été modifié, activez cette option."
     },
-    "showOriginalOnHover": {
-        "message": "Afficher les détails originaux sur Hover"
-    },
     "showIconForFormattedTitles": {
         "message": "Afficher le bouton \"Afficher l'original\" pour les titres automatiquement formatés"
     },
