@@ -1395,9 +1395,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ak chcete vždy vedieť, či sa názov/miniatúra zmenila, zapnite si túto funkciu."
     },
-    "showOriginalOnHover": {
-        "message": "Zobraziť pôvodné detaily pri ukázaní myšou"
-    },
     "showIconForFormattedTitles": {
         "message": "Zobraziť tlačidlo \"Ukázať originál\" pri automaticky upravených názvoch"
     },
