@@ -1447,9 +1447,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "제목/썸네일이 변경됐는지 항상 확인하고 싶다면 이걸 켜세요."
     },
-    "showOriginalOnHover": {
-        "message": "마우스를 올렸을 때 원본 세부 정보 표시"
-    },
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
     },
