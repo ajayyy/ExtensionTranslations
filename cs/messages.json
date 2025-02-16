@@ -1447,9 +1447,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
     },
-    "showOriginalOnHover": {
-        "message": "Zobrazit původní podrobnosti při přejetí myši"
-    },
     "showIconForFormattedTitles": {
         "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
     },
