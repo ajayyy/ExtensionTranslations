@@ -1761,5 +1761,22 @@
     "areYouSureOriginalVote": {
         "message": "您確定此原始縮圖符合 DeArrow 規範嗎？如果您只是通常比較喜歡看到原始縮圖，請考慮在 DeArrow 設定中變更「當沒有提交的縮圖時」選項。",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "Yes": {
+        "message": "是"
+    },
+    "No": {
+        "message": "否"
+    },
+    "votes": {
+        "message": "{0} 票",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} 票",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "OpenSettings": {
+        "message": "開啟設定"
     }
 }
