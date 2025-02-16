@@ -1432,9 +1432,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "如果您希望隨時掌握標題/縮圖是否已變更，請啟用此選項。"
     },
-    "showOriginalOnHover": {
-        "message": "滑鼠游標停留時顯示原始詳細資訊"
-    },
     "showIconForFormattedTitles": {
         "message": "針對自動格式化的標題顯示「顯示原始版本」按鈕"
     },
