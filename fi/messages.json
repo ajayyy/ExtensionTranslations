@@ -1447,6 +1447,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Käytä tätä, jos haluat aina tietää, onko otsikko tai pienoiskuva muuttunut."
     },
+    "showOriginalOnHover": {
+        "message": "Vaihda muokattujen ja alkuperäisten tietojen välillä osoitettaessa"
+    },
     "showIconForFormattedTitles": {
         "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"
     },
