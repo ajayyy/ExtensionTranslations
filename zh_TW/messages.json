@@ -1776,6 +1776,10 @@
         "message": "{0} 票",
         "description": "Appears as `1 vote`. Do not change the {0}"
     },
+    "dearrow_category_other": {
+        "message": "其他",
+        "description": "Category for DeArrow casual mode"
+    },
     "OpenSettings": {
         "message": "開啟設定"
     }
