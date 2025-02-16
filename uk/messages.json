@@ -1444,9 +1444,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Якщо ви бажаєте завжди знати, що заголовок/мініатюра змінена, увімкніть це."
     },
-    "showOriginalOnHover": {
-        "message": "Показати оригінальну інформацію при наведенні"
-    },
     "showIconForFormattedTitles": {
         "message": "Відображати кнопку \"Показати оригінал\" для автоформатованих заголовків"
     },
