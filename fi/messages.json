@@ -1837,7 +1837,7 @@
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
-        "message": "Säilytä alkuperäiset otsikot, kun ne kuvaavat videota riittävän hyvin ja ovat nokkelia tai hauskoja.\nValitse otsikkokateroriat, jotka haluat nähdä.\nVoit äänestää otsikoiden sopivuudesta katogorioihin."
+        "message": "Säilytä alkuperäiset otsikot, kun ne kuvaavat videota riittävän hyvin ja ovat nokkelia tai hauskoja.\nValitse otsikkokateroriat, jotka haluat nähdä.\nVoit äänestää otsikoiden sopivuudesta kategorioihin."
     },
     "minimumVotes": {
         "message": "Äänten vähimmäismäärä",
