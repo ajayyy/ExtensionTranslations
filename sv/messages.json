@@ -1444,9 +1444,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
-    "showOriginalOnHover": {
-        "message": "Visa originaldetaljer när muspekaren hålls över"
-    },
     "showIconForFormattedTitles": {
         "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
     },
