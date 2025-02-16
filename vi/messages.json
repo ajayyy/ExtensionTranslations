@@ -1432,9 +1432,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Nếu bạn luôn muốn biết liệu tiêu đề/hình thu nhỏ có bị thay đổi hay không, hãy bật tính năng này."
     },
-    "showOriginalOnHover": {
-        "message": "Hiện chi tiết gốc khi di chuột qua"
-    },
     "showIconForFormattedTitles": {
         "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
