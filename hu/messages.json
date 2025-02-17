@@ -1447,6 +1447,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
+    "showOriginalOnHover": {
+        "message": "Váltson eredeti és módosított adatok között, ha felé visszük a kurzort"
+    },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
     },
