@@ -1393,9 +1393,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktivér dette, hvis du altid vil vide om en titel eller et thumbnail er ændret."
     },
-    "showOriginalOnHover": {
-        "message": "Vis originale detajler, når musen holdes over"
-    },
     "showIconForFormattedTitles": {
         "message": "Vis \"Vis original\"-knappen for automatisk formateret titler"
     },

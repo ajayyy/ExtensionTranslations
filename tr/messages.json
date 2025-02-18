@@ -1444,9 +1444,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
     },
-    "showOriginalOnHover": {
-        "message": "Üzerine gelindiğinde asıl ayrıntıları göster"
-    },
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
     },

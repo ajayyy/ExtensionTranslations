@@ -114,7 +114,7 @@
         "message": "看起來伺服器已離線。立即聯繫開發者"
     },
     "connectionError": {
-        "message": "已發生連線錯誤。錯誤碼："
+        "message": "發生連線錯誤。錯誤碼："
     },
     "segmentsStillLoading": {
         "message": "片段仍在載入中..."
@@ -133,6 +133,9 @@
     },
     "OpenSubmissionMenu": {
         "message": "開啟提交選單"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "開啟隨性模式選單"
     },
     "sortSegments": {
         "message": "排序片段"
@@ -470,10 +473,10 @@
         "message": "這是個無效的域名。它只應該包含域名部分。例如：invidious.ajay.app"
     },
     "resetInvidiousInstance": {
-        "message": "重製 Invidious 行程列表"
+        "message": "重設 Invidious 實例清單"
     },
     "resetInvidiousInstanceAlert": {
-        "message": "您即將重製 Invidious 行程列表"
+        "message": "您即將重設 Invidious 實例清單"
     },
     "currentInstances": {
         "message": "目前進程："
@@ -596,7 +599,7 @@
         "message": "無法寫入剪貼簿"
     },
     "copyDebugInformationOptions": {
-        "message": "複製資訊到剪貼簿，在提交錯誤或開發者需要時提供給他。敏感資訊例如：您的使用者 ID，白名單頻道和自定伺服器地址等已被移除。但是，它仍然包含例如您的 useragent，瀏覽器，作業系統和擴充版本等資訊。 "
+        "message": "將資訊複製到剪貼簿，以便在回報錯誤或開發人員要求時提供。已移除敏感資訊，例如您的使用者 ID、已加入白名單的頻道和自訂伺服器網址。不過，其中包含您的使用者代理程式、瀏覽器、作業系統和擴充功能版本號碼等資訊。"
     },
     "copyDebugInformationComplete": {
         "message": "除錯資訊已複製到剪貼簿中。您可以任意移除任何您不想分享的資訊。請將其另存為文字文件或貼到錯誤報告中。"
@@ -715,6 +718,18 @@
     },
     "category_preview_guideline3": {
         "message": "不適用於提供額外內容的區段"
+    },
+    "category_filler": {
+        "message": "離題/笑話"
+    },
+    "category_filler_description": {
+        "message": "與影片主要內容理解無關的離題場景或笑話。這不包含提供背景或脈絡細節的片段。這是一個非常嚴格的分類，專為你不想「有趣」時準備的。"
+    },
+    "category_filler_short": {
+        "message": "離題"
+    },
+    "category_filler_guideline1": {
+        "message": "離題的場景或笑話"
     },
     "category_filler_guideline2": {
         "message": "例如：分心橋段、失誤/NG 鏡頭、畫面重播"
@@ -1433,7 +1448,7 @@
         "message": "如果您希望隨時掌握標題/縮圖是否已變更，請啟用此選項。"
     },
     "showOriginalOnHover": {
-        "message": "滑鼠游標停留時顯示原始詳細資訊"
+        "message": "滑鼠懸停時切換自訂細節與原始細節"
     },
     "showIconForFormattedTitles": {
         "message": "針對自動格式化的標題顯示「顯示原始版本」按鈕"
@@ -1449,6 +1464,10 @@
         "message": "縮圖",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "隨性投票",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "錯誤"
     },
@@ -1457,6 +1476,9 @@
     },
     "ShowModified": {
         "message": "顯示修改後的詳細資訊"
+    },
+    "ShowFormatted": {
+        "message": "顯示格式化細節"
     },
     "FillerWarning": {
         "message": "警告：這是一個非常嚴格的類別。您很可能需要取消跳過某些內容，或有時必須停用它。請注意，許多影片的跳過內容可能會超過 50% 或更多！不過，請記住，提交片段時仍須遵守特定規範。",
@@ -1764,5 +1786,72 @@
     "areYouSureOriginalVote": {
         "message": "您確定此原始縮圖符合 DeArrow 規範嗎？如果您只是通常比較喜歡看到原始縮圖，請考慮在 DeArrow 設定中變更「當沒有提交的縮圖時」選項。",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "喜歡原始標題嗎？",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "是"
+    },
+    "No": {
+        "message": "否"
+    },
+    "votes": {
+        "message": "{0} 票",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} 票",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "好笑",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "有創意",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "巧妙",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "具描述性",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "其他",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "經典模式",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "所有影片若存在群眾外包標題，標題都會被替換為基於準則的標準化格式。"
+    },
+    "CasualMode": {
+        "message": "隨性模式",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "標題若已足夠清楚描述影片，且具備巧妙或幽默的元素，則保留原始標題。\n選擇你想要看到的標題類別。\n你可以針對標題是否符合某個類別進行投票。"
+    },
+    "minimumVotes": {
+        "message": "最低票數",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "在隨性模式下，針對已投票影片顯示原始縮圖",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "新功能：隨性模式",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "開啟設定"
     }
 }

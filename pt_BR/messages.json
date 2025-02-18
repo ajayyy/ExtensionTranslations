@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Abrir menu de envio"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Abrir menu do modo casual"
+    },
     "sortSegments": {
         "message": "Organizar segmentos"
     },
@@ -308,7 +311,7 @@
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Fecha notificação de salto",
+        "message": "Fecha notificação de pulo",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -715,6 +718,18 @@
     },
     "category_preview_guideline3": {
         "message": "Não é para seções que adicionam conteúdo adicional"
+    },
+    "category_filler": {
+        "message": "Enrolação/Piadas"
+    },
+    "category_filler_description": {
+        "message": "Cenas ou piadas que não são necessárias para entender o conteúdo principal do vídeo. Isto não deve incluir segmentos fornecendo contexto ou detalhes de fundo. Esta categoria é muito agressiva para quando você não está com o humor para \"divertir\"."
+    },
+    "category_filler_short": {
+        "message": "Tangentes"
+    },
+    "category_filler_guideline1": {
+        "message": "Cenas ou piadas tangenciais"
     },
     "category_filler_guideline2": {
         "message": "Distrações, erros de gravação, repetições"
@@ -1433,7 +1448,7 @@
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
     },
     "showOriginalOnHover": {
-        "message": "Mostrar detalhes originais quando passar o ponteiro"
+        "message": "Trocar entre detalhes personalizados e detalhes originais no hover"
     },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
@@ -1449,6 +1464,10 @@
         "message": "Miniaturas",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Votos casuais",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Erro"
     },
@@ -1457,6 +1476,9 @@
     },
     "ShowModified": {
         "message": "Mostrar Detalhes Modificados"
+    },
+    "ShowFormatted": {
+        "message": "Exibir detalhes formatados"
     },
     "FillerWarning": {
         "message": "Atenção: essa categoria é altamente rigorosa. Pode ser que você precise reverter pulos ou desabilitá-los por um tempo. Saiba que alguns vídeos podem ter pulos com mais da metade da duração total. Entretanto, lembre-se de que ainda há orientações específicas a seguir ao submeter segmentos.",
@@ -1764,5 +1786,72 @@
     "areYouSureOriginalVote": {
         "message": "Tem certeza que esta miniatura original segue as diretrizes Derow? Se você apenas prefere ver as miniaturas originais em geral, considere alterar a opção \"Quando nenhuma miniatura enviada existe\" nas configurações da Derow",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Gostou do título original?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Sim"
+    },
+    "No": {
+        "message": "Não"
+    },
+    "votes": {
+        "message": "{0} votos",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} voto",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Engraçado",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Criativo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Inteligente",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descritiva",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Outro",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Modo clássico",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Títulos são substituídos por formatos padronizados com base nas diretrizes de todos os vídeos onde existe um título de crowdsource."
+    },
+    "CasualMode": {
+        "message": "Modo casual",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Mantenha títulos originais quando eles descreverem o vídeo bem o suficiente e forem inteligentes ou engraçados.\nEscolha quais categorias de títulos você quer ver.\nVocê será capaz de votar se um título se encaixa em uma categoria ou não."
+    },
+    "minimumVotes": {
+        "message": "Mínimo de votos",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Mostrar miniatura original de vídeos no modo casual",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Novo recurso: Modo casual",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Abrir configurações"
     }
 }

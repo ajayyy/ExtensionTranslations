@@ -1448,7 +1448,7 @@
         "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
     },
     "showOriginalOnHover": {
-        "message": "Zobrazit původní podrobnosti při přejetí myši"
+        "message": "Při přejetí myší přepnout mezi vlastními a původními podrobnostmi"
     },
     "showIconForFormattedTitles": {
         "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
@@ -1846,5 +1846,12 @@
     "showOriginalWhenCasual": {
         "message": "Zobrazit původní náhled u videí, kde jste hlasovali v normálním režimu",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nová funkce: normální režim",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Otevřít nastavení"
     }
 }

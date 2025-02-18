@@ -1444,9 +1444,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
     },
-    "showOriginalOnHover": {
-        "message": "Mostrar detalhes originais quando passar o ponteiro"
-    },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
     },

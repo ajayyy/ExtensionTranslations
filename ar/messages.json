@@ -1429,9 +1429,6 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "إذا كنت ترغب دائما في معرفة ما إذا تغير عنوان/صورة مصغرة، قم بتفعيل هذ الخيار."
     },
-    "showOriginalOnHover": {
-        "message": "إظهار التفاصيل الأصلية حين التمرير"
-    },
     "showIconForFormattedTitles": {
         "message": "عرض زر \"إظهار الأصلي\" للعناوين المنسقة تلقائياً"
     },

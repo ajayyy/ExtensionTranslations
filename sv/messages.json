@@ -1445,7 +1445,7 @@
         "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
     "showOriginalOnHover": {
-        "message": "Visa originaldetaljer när muspekaren hålls över"
+        "message": "Växla mellan anpassade detaljer och originaldetaljer vid mus över"
     },
     "showIconForFormattedTitles": {
         "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
@@ -1831,5 +1831,8 @@
     "minimumVotes": {
         "message": "Minsta antal röster",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "OpenSettings": {
+        "message": "Öppna inställningar"
     }
 }
