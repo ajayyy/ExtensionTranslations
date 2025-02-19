@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Öppna inskickningsmenyn"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Öppna menyn för casualt läge"
+    },
     "sortSegments": {
         "message": "Sortera segment"
     },
@@ -217,7 +220,7 @@
         "message": "Aktivera spåra antalet hoppa över i privata/inkognitoflikar"
     },
     "enableTrackDownvotes": {
-        "message": "Lagra segmentnedröstningar"
+        "message": "Lagra segmentnerröstningar"
     },
     "whatTrackDownvotes": {
         "message": "Alla segment du röstat ner kommer att förbli dolda även efter uppdatering"
@@ -1461,6 +1464,10 @@
         "message": "Miniatyrer",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Casuala röster",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Fel"
     },
@@ -1825,12 +1832,20 @@
     "ClassicModeDescription": {
         "message": "Titlar ersätts med standardiserade format baserat på riktlinjerna för alla videoklipp där en crowdsourcad titel finns."
     },
+    "CasualMode": {
+        "message": "Casualt läge",
+        "description": "Casual mode is a mode in DeArrow"
+    },
     "CasualModeDescription": {
         "message": "Behåll originaltitlarna när de beskriver videon tillräckligt bra och är smarta eller roliga.\nVälj vilka kategorier av titlar du vill se.\nDu kommer att kunna rösta om en titel passar in i en kategori eller inte."
     },
     "minimumVotes": {
         "message": "Minsta antal röster",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Visa originalminiatyrbilder på videor som röstats fram i casualt läge",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
         "message": "Ny funktion: Casualt läge",
