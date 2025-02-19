@@ -1447,6 +1447,9 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
+    "showOriginalOnHover": {
+        "message": "Bei Mouseover zwischen benutzerdefinierten Details und Originaldetails wechseln"
+    },
     "showIconForFormattedTitles": {
         "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
     },
