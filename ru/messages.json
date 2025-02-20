@@ -1851,6 +1851,9 @@
         "message": "Новая функция: Обычный режим",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Отображать значок обычного режима только при наличии предложенного названия"
+    },
     "OpenSettings": {
         "message": "Открыть настройки"
     }
