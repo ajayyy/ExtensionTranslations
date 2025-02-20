@@ -1851,6 +1851,9 @@
         "message": "Ny funktion: Casualt läge",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Visa endast ikonen för casualt läge när en anpassad titel är tillgänglig"
+    },
     "OpenSettings": {
         "message": "Öppna inställningar"
     }
