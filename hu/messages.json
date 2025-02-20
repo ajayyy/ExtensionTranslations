@@ -1851,6 +1851,9 @@
         "message": "Új funkció: Alkalmi mód",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Csak akkor mutassa az alkalmi mód ikonját, ha elérhető egy egyedi cím"
+    },
     "OpenSettings": {
         "message": "Beállítások megnyitása"
     }
