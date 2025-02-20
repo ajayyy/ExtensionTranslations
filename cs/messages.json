@@ -1851,6 +1851,9 @@
         "message": "Nová funkce: normální režim",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zobrazit ikonu normálního režimu pouze, pokud je dostupný vlastní název"
+    },
     "OpenSettings": {
         "message": "Otevřít nastavení"
     }
