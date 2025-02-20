@@ -1851,6 +1851,9 @@
         "message": "新功能：隨性模式",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "只有在有可用的自訂標題時才顯示隨性模式圖示"
+    },
     "OpenSettings": {
         "message": "開啟設定"
     }
