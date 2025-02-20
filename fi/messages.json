@@ -1851,6 +1851,9 @@
         "message": "Uusi ominaisuus: Kasuaalitila",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Näytä kasuaalitilan kuvake vain kun mukautettu otsikko on saatavilla"
+    },
     "OpenSettings": {
         "message": "Avaa asetukset"
     }
