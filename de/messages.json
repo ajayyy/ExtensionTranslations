@@ -1851,6 +1851,9 @@
         "message": "Neue Funktion: lockerer Modus",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zeige Symbol des lockeren Modus nur, wenn ein eingereichter Titel verfügbar ist"
+    },
     "OpenSettings": {
         "message": "Einstellungen öffnen"
     }
