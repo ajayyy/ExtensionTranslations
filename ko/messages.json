@@ -1848,6 +1848,9 @@
         "message": "새 기능: 캐주얼 모드",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "사용자 지정 제목을 사용할 수 있을 때만 캐주얼 모드 아이콘 표시"
+    },
     "OpenSettings": {
         "message": "설정 열기"
     }
