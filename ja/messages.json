@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "カーソルを乗せると、改善済みの詳細と元の詳細を入れ替え"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "カジュアルモードの題名が表示されている時、カーソルを乗せると改善済みの題名を表示"
+    },
     "showIconForFormattedTitles": {
         "message": "自動整形された題名に「元を表示」ボタンを表示"
     },
@@ -1850,6 +1853,9 @@
     "newCasualMode": {
         "message": "新機能: カジュアルモード",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "改善された題名が利用可能な場合にのみカジュアルモードアイコンを表示"
     },
     "OpenSettings": {
         "message": "設定を開く"
