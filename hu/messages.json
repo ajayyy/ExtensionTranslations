@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Váltson eredeti és módosított adatok között, ha felé visszük a kurzort"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Módosított cím mutatása a kurzor felé vitele esetén, ha épp egy alkalmi módos cím látható"
+    },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
     },
