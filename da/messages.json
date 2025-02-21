@@ -1076,7 +1076,7 @@
         "message": "Kopier og nedstem"
     },
     "ContinueVoting": {
-        "message": "Fortsæt Afstemning"
+        "message": "Fortsæt afstemning"
     },
     "ChangeCategoryTooltip": {
         "message": "Dette vil øjeblikkeligt gælde for dine indsendelser"
@@ -1514,8 +1514,36 @@
         "message": "Kapitaliser det som en sætning",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "checkAllToSubmit": {
+        "message": "Tjek alle retningslinjerne for at indsende",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Min titel bruger stort begyndelsesbogstav som i en sætning",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Min titel besvarer ikke blot et spørgsmål stillet i titlen",
+        "description": "Tip title in DeArrow"
+    },
     "answeringQuestionTipSubTitle": {
         "message": "Titler skal beskrive videoen, eller fortællingen generelt. Du bør sørge for at se hele videoen for at vide hvad den faktisk handler om, i stedet for at fæste lid til en spændende originaltitel.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Min titel opsummerer ikke en konklusion eller afslører noget unødvendigt",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Titler er ikke beregnet til at stå i stedet for at se videoen, men blot til at du kan afgøre, om du skal klikke eller ej.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Min titel hverken faktatjekker, gør nar af eller kritiserer videoen eller skaberen",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Titler er beregnet til at være fra skaberens og videoens perspektiv. Bedømmelse eller faktatjek af selve videoen er uden for DeArrows rammer. Titler er ikke ment som en kommentarsektion.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1525,6 +1553,10 @@
     "DeArrowDiscussingWarning": {
         "message": "Brug ikke unødvendige udsagnsord/verber i starten af titlen",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Start alle titler med et stort bogstav. Titler skal formateres som en sætning.",
+        "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
         "message": "Titler bør ikke slutte med et '.'",
