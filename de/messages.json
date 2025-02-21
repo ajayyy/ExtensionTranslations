@@ -1448,7 +1448,10 @@
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
     "showOriginalOnHover": {
-        "message": "Bei Mouseover zwischen benutzerdefinierten Details und Originaldetails wechseln"
+        "message": "Beim Daraufzeigen zwischen eingereichten und originalen Details wechseln"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des lockeren Modus angezeigt wird"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
