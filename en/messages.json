@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Swap between custom details and original details on hover"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Show custom title on hover if a casual mode title is being shown"
+    },
     "showIconForFormattedTitles": {
         "message": "Display \"Show Original\" Button for Auto-Formatted Titles"
     },
