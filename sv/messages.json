@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Växla mellan anpassade detaljer och originaldetaljer vid mus över"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Visa anpassad titel vid mus över om en titel i casualt läge visas"
+    },
     "showIconForFormattedTitles": {
         "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
     },
