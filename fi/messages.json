@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Vaihda muokattujen ja alkuperäisten tietojen välillä osoitettaessa"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Näytä mukautettu otsikko osoitettaessa, jos kasuaalitilan otsikko näytetään"
+    },
     "showIconForFormattedTitles": {
         "message": "Näytä automaattisesti muotoilluille otsikoille \"Näytä alkuperäinen\" -painike"
     },
