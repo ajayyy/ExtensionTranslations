@@ -135,7 +135,7 @@
         "message": "Gönderiler Menüsünü Aç"
     },
     "OpenCasualVoteMenu": {
-        "message": "Sıradan Mod menüsünü aç"
+        "message": "Sıradan mod menüsünü aç"
     },
     "sortSegments": {
         "message": "Kısımları Sırala"
@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Fareyle üzerine gelindiğinde özel ayrıntılar ve orijinal ayrıntılar arasında geçiş yap"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Bir sıradan mod başlığı gösteriliyorsa özel başlığı üzerine gelindiğinde göster"
+    },
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
     },
@@ -1465,7 +1468,7 @@
         "description": "Referring to thumbnails of YouTube videos"
     },
     "CasualVotes": {
-        "message": "Sıradan Mod Oyları",
+        "message": "Sıradan mod oyları",
         "description": "Referring to the number of votes submitted under casual mode in DeArrow"
     },
     "Error": {
