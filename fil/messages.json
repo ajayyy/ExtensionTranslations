@@ -320,6 +320,9 @@
     "category_intro_short": {
         "message": "Intermisyon"
     },
+    "category_music_offtopic_description": {
+        "message": "Para sa music videos."
+    },
     "category_poi_highlight": {
         "message": "Highlight"
     },
@@ -413,11 +416,17 @@
     "shouldCleanEmojis": {
         "message": "I-tangal ng mga emojis"
     },
+    "openSourceLicenses": {
+        "message": "Mga Open Source licensya"
+    },
     "replaceTitles": {
         "message": "Palitan ng mga Titles"
     },
     "replaceThumbnails": {
         "message": "Palitan ng mga Thumbnails"
+    },
+    "NewConfiguration": {
+        "message": "Bagong configurasyon"
     },
     "DeArrowPromotionMessage3": {
         "message": "Tingnan din ang DeArrow",
