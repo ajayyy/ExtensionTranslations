@@ -115,6 +115,9 @@
     "closePopup": {
         "message": "Isara ang Popup"
     },
+    "OpenSubmissionMenu": {
+        "message": "Buksan ang Submission Menu"
+    },
     "sortSegments": {
         "message": "I-sort yung segments"
     },
@@ -184,6 +187,13 @@
     "showUpcomingNotice": {
         "message": "Ipakita muna yung notice bago magsimula ang mga Segment"
     },
+    "noticeVisibilityMode2": {
+        "message": "Lahat ang mga maliit na skip notices"
+    },
+    "longDescription": {
+        "message": "Hinahayaan ka ng SponsorBlock na laktawan ang mga sponsor, intro, outros, mga paalala sa subscription, at iba pang walang kwentang bahagi ng mga YouTube videos. Ang SponsorBlock ay isang crowdsourced browser extension na maaaring isumite ng sinuman ang ilang partikular na naka-sponsor na segment at iba pang mga segment ng mga video sa YouTube. Kapag ang isang tao ay nagsumite ng isang segment, lahat ng iba pang may ganitong extension ay lalaktawan sa ibabaw mismo ng naka-sponsor na segment. Maaari mo ring laktawan ang mga seksyong hindi musika ng mga music video.",
+        "description": "Full description of the extension on the store pages."
+    },
     "website": {
         "message": "Website",
         "description": "Used on Firefox Store Page"
@@ -191,6 +201,14 @@
     "sourceCode": {
         "message": "Ang Source Code",
         "description": "Used on Firefox Store Page"
+    },
+    "noticeUpdate": {
+        "message": "Na-upgrade na ang notice!",
+        "description": "The first line of the message displayed after the notice was upgraded."
+    },
+    "noticeUpdate2": {
+        "message": "Kung ayaw mo pa rin, pindutin ang never show button.",
+        "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
         "message": "I-skip yung segment",
@@ -204,9 +222,22 @@
         "message": "I-submit ang mga segments",
         "description": "Keybind label"
     },
+    "setCloseSkipNoticeKeybind": {
+        "message": "I-close yung skip notice",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Susunood na chapter",
         "description": "Keybind label"
+    },
+    "0": {
+        "message": "Connection Timeout. Suriin ang iyong koneksyon sa internet. Kung gumagana ang iyong internet, ang server ay nasa mataas na trapiko o down ang server."
+    },
+    "disableSkipping": {
+        "message": "Naka-on ng mga I-skip"
+    },
+    "enableSkipping": {
+        "message": "Naka-off ng mga I-skip"
     },
     "skip": {
         "message": "I-skip"
@@ -227,6 +258,10 @@
     "skip_to_category": {
         "message": "I-skip sa {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
+    },
+    "upcoming": {
+        "message": "Paparating na {0}",
+        "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
         "message": "Na I-skip ng {0}",
@@ -251,6 +286,9 @@
     },
     "hoursLower": {
         "message": "oras"
+    },
+    "supportedSites": {
+        "message": "Mga katugmang site: "
     },
     "customServerAddress": {
         "message": "SponsorBlock Server Address"
@@ -302,6 +340,12 @@
     "category_sponsor": {
         "message": "Sponsor"
     },
+    "category_selfpromo": {
+        "message": "'Di bayad/Pang-sariling promosyon"
+    },
+    "category_selfpromo_description": {
+        "message": "Katulad ng \"sponsor\" kategorya, maliban sa hindi bayad o napag-promote sa sarili. May kasamang mga seksyon tungkol sa merchandise, mga donasyon, o tungkol sa kung kanino sila nag-collab."
+    },
     "category_selfpromo_guideline1": {
         "message": "Mga donasyon, membership, at custom merch"
     },
@@ -310,6 +354,10 @@
     },
     "category_exclusive_access_description": {
         "message": "Para lang sa pag-label ng buong video. Ginagamit kapag ang isang video ay nagpapakita ng isang produkto, serbisyo, o lokasyon na natanggap nila nang libre o may suportang pinansyal."
+    },
+    "category_exclusive_access_pill": {
+        "message": "Itong video na ito ay yung produkto, serbisyo o lokasyon kung saan sila nakatanggap ng libre o may subsidized na access",
+        "description": "Short description for this category"
     },
     "category_interaction": {
         "message": "Paalala sa interaksyon (Subscribe)"
@@ -370,6 +418,9 @@
     "helpPageThanksForInstalling": {
         "message": "Salamat sa pag-iinstall ng SponsorBlock."
     },
+    "helpPageTooSlow": {
+        "message": "Ito ay masyadong mabagal"
+    },
     "Credits": {
         "message": "Mga credits"
     },
@@ -381,6 +432,9 @@
     },
     "playChapter": {
         "message": "I-play na chapter"
+    },
+    "youtubeKeybindWarning": {
+        "message": "Ito ay isang built-in na YouTube shortcut. Sigurado ka bang gusto mong gamitin ang keybind na ito?"
     },
     "unsubmittedSegmentCounts": {
         "message": "Kasalukuyan kang mayroong {0} sa {1}",
@@ -406,6 +460,13 @@
         "message": "Itago ng mga segments",
         "description": "Show/hide button for the unsubmitted segments list"
     },
+    "videoID": {
+        "message": "Video ID",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "segmentFetchFailureWarning": {
+        "message": "Babala: Ang server ay hindi pa tumutugon sa anumang segment. Maaaring mayroon talagang mga segment sa video na ito na naisumite na ngunit hindi mo pa lang natatanggap ang mga ito dahil sa mga isyu sa server."
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
@@ -413,11 +474,21 @@
     "shouldCleanEmojis": {
         "message": "I-tangal ng mga emojis"
     },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Mga titles ay hindi dapat magtapos sa isang tuldok ('.')",
+        "description": "A DeArrow automatic warning"
+    },
+    "openSourceLicenses": {
+        "message": "Mga Open Source licensya"
+    },
     "replaceTitles": {
         "message": "Palitan ng mga Titles"
     },
     "replaceThumbnails": {
         "message": "Palitan ng mga Thumbnails"
+    },
+    "NewConfiguration": {
+        "message": "Bagong configurasyon"
     },
     "DeArrowPromotionMessage3": {
         "message": "Tingnan din ang DeArrow",

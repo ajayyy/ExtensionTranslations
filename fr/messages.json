@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Passer des détails personnalisés aux détails originaux en les survolant"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Afficher le titre personnalisé en survolant un titre issu du mode relaxé"
+    },
     "showIconForFormattedTitles": {
         "message": "Afficher le bouton \"Afficher l'original\" pour les titres automatiquement formatés"
     },
@@ -1850,6 +1853,9 @@
     "newCasualMode": {
         "message": "Nouvelle fonctionnalité : mode relaxé",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Afficher l'icône du mode relaxé uniquement lorsqu'un titre personnalisé est disponible"
     },
     "OpenSettings": {
         "message": "Ouvrir les paramètres"

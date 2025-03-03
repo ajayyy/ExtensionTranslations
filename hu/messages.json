@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Váltson eredeti és módosított adatok között, ha felé visszük a kurzort"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Módosított cím mutatása a kurzor felé vitele esetén, ha épp egy alkalmi módos cím látható"
+    },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
     },
@@ -1850,6 +1853,9 @@
     "newCasualMode": {
         "message": "Új funkció: Alkalmi mód",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Csak akkor mutassa az alkalmi mód ikonját, ha elérhető egy egyedi cím"
     },
     "OpenSettings": {
         "message": "Beállítások megnyitása"

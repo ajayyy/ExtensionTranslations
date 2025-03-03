@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Při přejetí myší přepnout mezi vlastními a původními podrobnostmi"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zobrazit vlastní název po přejetí myší, pokud je zobrazen název z normálního režimu"
+    },
     "showIconForFormattedTitles": {
         "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
     },
@@ -1850,6 +1853,9 @@
     "newCasualMode": {
         "message": "Nová funkce: normální režim",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zobrazit ikonu normálního režimu pouze, pokud je dostupný vlastní název"
     },
     "OpenSettings": {
         "message": "Otevřít nastavení"

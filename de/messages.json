@@ -1447,6 +1447,12 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
     },
+    "showOriginalOnHover": {
+        "message": "Beim Daraufzeigen zwischen eingereichten und originalen Details wechseln"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des lockeren Modus angezeigt wird"
+    },
     "showIconForFormattedTitles": {
         "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
     },
@@ -1847,6 +1853,9 @@
     "newCasualMode": {
         "message": "Neue Funktion: lockerer Modus",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zeige Symbol des lockeren Modus nur, wenn ein eingereichter Titel verfügbar ist"
     },
     "OpenSettings": {
         "message": "Einstellungen öffnen"

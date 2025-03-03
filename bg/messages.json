@@ -1450,6 +1450,9 @@
     "showOriginalOnHover": {
         "message": "Смяна на персонализираните детайли и оригиналните детайли при преминаване върху тях"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Показване на персонализирано заглавие при поставяне на мишката, ако се показва заглавие в нормален режим"
+    },
     "showIconForFormattedTitles": {
         "message": "Показване на бутон „Покажи оригинала“ за автоматично форматираните заглавия"
     },
@@ -1850,6 +1853,9 @@
     "newCasualMode": {
         "message": "Нова функция: Нормален режим",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Показване на иконата за нормален режим само когато е налично персонализирано заглавие"
     },
     "OpenSettings": {
         "message": "Отваряне на настройките"
