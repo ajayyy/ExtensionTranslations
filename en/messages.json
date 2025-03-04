@@ -396,6 +396,10 @@
         "message": "Skipped to {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "Voted on {0}",
+        "description": "Example: Voted on Sponsor"
+    },
     "disableAutoSkip": {
         "message": "Disable Auto Skip"
     },
