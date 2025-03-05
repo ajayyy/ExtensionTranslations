@@ -314,6 +314,14 @@
         "message": "Close skip notice",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Downvote segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Upvote segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Next chapter",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Skipped to {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Voted on {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Disable Auto Skip"
