@@ -314,6 +314,14 @@
         "message": "Átugrási értesítő bezárása",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Szegmens leszavazása",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Szegmens felszavazása",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Következő fejezet",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Ide ugorva: {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Sikeres szavazat: {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Auto átugrás kikapcsolása"
