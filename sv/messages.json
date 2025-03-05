@@ -314,6 +314,14 @@
         "message": "Stäng överhoppningsmeddelande",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Rösta ner segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Rösta upp segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Nästa kapitel",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Hoppade till {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Röstade på {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Inaktivera hoppa över automatiskt"
@@ -882,7 +894,7 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "dold: nedröstning"
+        "message": "dold: nerröstning"
     },
     "hiddenDueToDuration": {
         "message": "dold: för kort"
