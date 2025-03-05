@@ -314,6 +314,14 @@
         "message": "Fermer l'alerte de saut",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Voter contre un segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Voter pour un segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Chapitre suivant",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Sauté à {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "A voté sur {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Désactiver le passage automatique"
