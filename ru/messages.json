@@ -314,6 +314,14 @@
         "message": "Закрыть уведомление о пропуске",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Проголосовать против сегмента",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Проголосовать за сегмент",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Следующий эпизод",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Пропущено до {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Голос за категорию {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Отключить автоматический пропуск"
