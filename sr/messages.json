@@ -314,6 +314,14 @@
         "message": "Затварање обавештења о прескакању",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Гласање против сегмента",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Гласање за сегмент",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Следеће поглавље",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Прескочено на сегмент {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Гласано за категорију {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Онемогући аутоматско прескакање"
