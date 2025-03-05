@@ -314,6 +314,14 @@
         "message": "Sulje ohitus-ilmoitus",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Äänestä osio alas",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Äänestä osio ylös",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Seuraava kappale",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Ohitettiin kohtaan: {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "{0} äänestetty",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Poista automaattinen ohitus käytöstä"
