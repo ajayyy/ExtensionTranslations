@@ -1695,5 +1695,8 @@
     "areYouSureOriginalVote": {
         "message": "هل أنت متأكد من أن هذه الصورة المصغرة الأصلية تتبع إرشادات DeArrow؟ إذا كنت تفضل رؤية الصور المصغرة الأصلية بشكل عام، ففكر في تغيير خيار \"عندما لا توجد صورة مصغرة مرسلة\" في إعدادات DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "فتح الإعدادات"
     }
 }
