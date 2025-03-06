@@ -1462,6 +1462,9 @@
     "showOriginalOnHover": {
         "message": "Переключать между предложенными и оригинальными сведениями при наведении курсора"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Показывать предложенное название при наведении, если отображается название обычного режима"
+    },
     "showIconForFormattedTitles": {
         "message": "Отображать кнопку \"Показать изначальные сведения\" для автоматически форматированных названий"
     },
@@ -1798,6 +1801,10 @@
     "areYouSureOriginalVote": {
         "message": "Вы уверены, что оригинальный значок соответствует правилам DeArrow? Если вы в целом предпочитаете оригинальные значки, можно изменить настройку DeArrow «При отсутствии отправленного значка».",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Белый список каналов не поддерживается на tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Нравится оригинальное название?",
