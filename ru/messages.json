@@ -1802,6 +1802,10 @@
         "message": "Вы уверены, что оригинальный значок соответствует правилам DeArrow? Если вы в целом предпочитаете оригинальные значки, можно изменить настройку DeArrow «При отсутствии отправленного значка».",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "SponsorBlock не поддерживает трансляции и недавно записанный контент на YouTube TV. Если это недавняя запись - пожалуйста, подождите несколько часов, пока не станет доступна обработанная версия.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
     "yttvNoChannelWhitelist": {
         "message": "Белый список каналов не поддерживается на tv.youtube.com.",
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
