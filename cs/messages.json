@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Otevřít nabídku příspěvků"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Otevřít nabídku normálního režimu"
+    },
     "sortSegments": {
         "message": "Seřadit segmenty"
     },
@@ -715,6 +718,18 @@
     },
     "category_preview_guideline3": {
         "message": "Není pro sekce, které přidávají další obsah"
+    },
+    "category_filler": {
+        "message": "Mimo téma / vtipy"
+    },
+    "category_filler_description": {
+        "message": "Scény, které se netýkají tématu, nebo vtipy, které nejsou nutné k pochopení hlavního obsahu videa. Kategorie by neměla zahrnovat segmenty poskytující podrobnosti o kontextu nebo pozadí. Jedná se o velmi agresivní kategorii myšlenou pro chvíle, kdy nemáte náladu na „zábavu“."
+    },
+    "category_filler_short": {
+        "message": "Mimo téma"
+    },
+    "category_filler_guideline1": {
+        "message": "Scény mimo téma nebo vtipy"
     },
     "category_filler_guideline2": {
         "message": "Rozptýlení, nepovedené scénky, opakování"
@@ -1433,7 +1448,10 @@
         "message": "Pokud chcete vždy vědět, zda byl změněn název/náhled, povolte tuto funkci."
     },
     "showOriginalOnHover": {
-        "message": "Zobrazit původní podrobnosti při přejetí myši"
+        "message": "Při přejetí myší přepnout mezi vlastními a původními podrobnostmi"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zobrazit vlastní název po přejetí myší, pokud je zobrazen název z normálního režimu"
     },
     "showIconForFormattedTitles": {
         "message": "U automaticky formátovaných názvů zobrazit tlačítko „Zobrazit původní“"
@@ -1449,6 +1467,10 @@
         "message": "Náhledy",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Hlasy v normálním režimu",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Chyba"
     },
@@ -1457,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Zobrazit upravené podrobnosti"
+    },
+    "ShowFormatted": {
+        "message": "Zobrazit formátované podrobnosti"
     },
     "FillerWarning": {
         "message": "Varování: Jedná se o velmi agresivní kategorii. S největší pravděpodobností budete muset někdy zrušit přeskočení nebo kategorii zakázat. Upozorňujeme, že u mnoha videí je přeskočeno více než 50 % videa! Nezapomeňte však, že při odesílání je stále třeba dodržovat konkrétní pokyny.",
@@ -1764,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Jste si jisti, že tento původní náhled je v souladu s pokyny služby DeArrow? Pokud obecně pouze upřednostňujete vidět původní náhledy, zvažte změnu možnosti „Pokud neexistuje žádný komunitní náhled“ v nastavení doplňku DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Líbí se vám původní název?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Ano"
+    },
+    "No": {
+        "message": "Ne"
+    },
+    "votes": {
+        "message": "{0} hlasů",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} hlas",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Zábavné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreativní",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Chytré",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Popisné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Jiné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klasický režim",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Názvy budou nahrazeny standardizovanými formáty založenými na pokynech pro všechna videa, kde existují komunitní názvy."
+    },
+    "CasualMode": {
+        "message": "Normální režim",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Ponechat původní názvy, pokud popisují video dostatečně dobře a jsou chytré nebo zábavné.\nVyberte, které kategorie názvů chcete vidět.\nBudete moci hlasovat, zda název do těchto kategorií patří, nebo ne."
+    },
+    "minimumVotes": {
+        "message": "Minimum hlasů",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Zobrazit původní náhled u videí, kde jste hlasovali v normálním režimu",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nová funkce: normální režim",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zobrazit ikonu normálního režimu pouze, pokud je dostupný vlastní název"
+    },
+    "OpenSettings": {
+        "message": "Otevřít nastavení"
     }
 }

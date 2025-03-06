@@ -11,7 +11,7 @@
         "message": "เซิร์ฟเวอร์รายงานว่าคำขอนี้ไม่ถูกต้อง"
     },
     "409": {
-        "message": "สปอนเซอร์นี้ได้รับการรายงานมาก่อน"
+        "message": "ส่วนนี้ได้ถูกส่งมาก่อนหน้านี้แล้ว"
     },
     "channelWhitelisted": {
         "message": "ช่องนี้ถูกนำเข้ารายการอนุญาตพิเศษแล้ว"
@@ -228,6 +228,9 @@
     "enableTrackDownvotesInPrivate": {
         "message": "บันทึกส่วนที่ไม่เห็นด้วยในแท็บส่วนตัว/ไม่ระบุตัวตน"
     },
+    "enableQueryByHashPrefix": {
+        "message": "คิวรีตามคำนำหน้าแฮช"
+    },
     "enableShowCategoryWithoutPermission": {
         "message": "แสดงหมวดหมู่ในเมนูการส่งแม้ว่าจะไม่ได้รับอนุญาตให้ส่ง"
     },
@@ -363,6 +366,10 @@
         "message": "ข้ามไป {0} หรือไม่",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "{0} ที่กำลังมา",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "ข้าม {0} แล้ว",
         "description": "Example: Sponsor Skipped"
@@ -422,14 +429,20 @@
     "changeUserID": {
         "message": "นำเข้า/ส่งออกรหัส UserID ส่วนตัวของคุณ"
     },
+    "whatChangeUserID": {
+        "message": "ควรเก็บสิ่งนี้ไว้ส่วนตัว สิ่งนี้เหมือนรหัสผ่านและไม่ควรจะแบ่งปันกับคนอื่น ถ้าใครบางคนมีสิ่งนี้ เขาจะสามารถปลอมตัวเป็นคุณได้ ถ้าคุณกำลังมองหาไอดีผู้ใช้สาธารณะ ให้คลิกไอคอนคลิปบอร์ดในป๊อปอัพ"
+    },
     "setUserID": {
-        "message": "ตั้ง UserID ส่วนตัว"
+        "message": "ตั้งไอดีผู้ใช้ส่วนตัว"
     },
     "userIDChangeWarning": {
         "message": "คำเตือน: การเปลี่ยน UserID ส่วนตัว เป็นการเปลี่ยนแบบถาวร คุณแน่ใจที่จะทำแบบนี้ไหม? โปรดอย่าลืมสำรองข้อมูลเก่าของคุณก่อนเปลี่ยนไว้"
     },
     "createdBy": {
         "message": "สร้างขึ้นโดย"
+    },
+    "supportOtherSites": {
+        "message": "รองรับเว็บไซต์ YouTube บุคคลที่สาม"
     },
     "supportOtherSitesDescription": {
         "message": "สนับสนุนลูกค้า YouTube บุคคลที่สาม.\nในการเปิดใช้งานการสนับสนุน คุณต้องยอมรับการอนุญาตพิเศษ!",
@@ -441,11 +454,23 @@
     "optionsInfo": {
         "message": "เปิดการรองรับ Invidious ปิดการข้ามอัตโนมัติ ซ่อนปุ่ม ฯลฯ"
     },
+    "addInvidiousInstanceDescription": {
+        "message": "เพิ่มอินสแตนซ์ที่กำหนดเอง โดยต้องจัดรูปแบบโดยใช้โดเมนเท่านั้น ตัวอย่าง: invidious.ajay.app"
+    },
     "add": {
         "message": "เพิ่ม"
     },
     "addInvidiousInstanceError": {
         "message": "โดเมนนี้ไม่ถูกต้อง ควรใส่แค่ส่วนโดเมนเท่านั้น ตัวอย่าง: invidious.ajay.app"
+    },
+    "resetInvidiousInstance": {
+        "message": "รีเซ็ตรายการอินสแตนซ์ของ Invidious"
+    },
+    "resetInvidiousInstanceAlert": {
+        "message": "คุณกำลังจะรีเซ็ตรายการอินสแตนซ์ของ Invidious"
+    },
+    "currentInstances": {
+        "message": "อินสแตนซ์ปัจจุบัน:"
     },
     "minDuration": {
         "message": "ระยะเวลาขั้นต่ำ (วินาที):"
@@ -465,6 +490,9 @@
     "skipNoticeDurationDescription": {
         "message": "การแจ้งเตือนการข้ามจะอยู่บนหน้าจอเป็นเวลาอย่างน้อยเท่านี้ อาจจะอยู่ได้นานกว่าสำหรับการข้ามด้วยตนเอง"
     },
+    "shortCheck": {
+        "message": "การส่งส่วนนี้สั้นกว่าการตั้งค่าระยะเวลาขั้นต่ำของคุณ นี่อาจหมายความว่าส่วนนี้ได้ถูกส่งไปแล้ว และแค่ถูกละเลยเนื่องจากการตั้งค่านี้ คุณแน่ใจหรือไม่ว่าต้องการจะส่งส่วนนี้"
+    },
     "liveOrPremiere": {
         "message": "ไม่สามารถบันทึกส่วนในไลฟ์สดหรือการแสดงครั้งแรกได้ โปรดรอจนกว่าไลฟ์สดหรือการแสดงครั้งแรกจบลงแล้วรีเฟรชหน้าวิดีโอและตรวจสอบให้แน่ใจว่าส่วนที่สร้างไว้ยังคงถูกต้อง"
     },
@@ -476,6 +504,9 @@
     },
     "customServerAddressDescription": {
         "message": "ที่อยู่ที่ SponsorBlock ใช้ในการติดต่อกับเซิร์ฟเวอร์\nคุณไม่ควรเปลี่ยนที่อยู่นี้ ยกเว้นว่าคุณมีเซิร์ฟเวอร์เป็นของตัวเอง"
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "ที่อยู่เซิร์ฟเวอร์แคชภาพปก"
     },
     "save": {
         "message": "บันทึก"
@@ -551,6 +582,9 @@
     },
     "copyDebugInformationFailed": {
         "message": "คัดลอกไปยังคลิปบอร์ดไม่สำเร็จ"
+    },
+    "copyDebugInformationComplete": {
+        "message": "ข้อมูลดีบั๊กได้ถูกคัดลอกไปยังคลิปบอร์ดเรียบร้อยแล้ว คุณสามารถลบข้อมูลที่ไม่ต้องการแบ่งปันได้ ให้บันทึกในไฟล์ข้อความหรือวางในการรายงานบั๊ก"
     },
     "keyAlreadyUsed": {
         "message": "คีย์ลัดนี้ถูกใช้ในคำสั่งอื่นแล้ว โปรดเลือกคีย์ลัดอื่น"

@@ -288,7 +288,7 @@
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
-        "message": "Ignorar segmento",
+        "message": "Pular segmento",
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
@@ -557,7 +557,7 @@
         "message": "Definir opções"
     },
     "exportOptionsWarning": {
-        "message": "Aviso: Alterar as opções é permanente e pode fazer a extensão parar de funcionar. Tem certeza que deseja fazer isso? Certifique-se de fazer um backup por precaução."
+        "message": "Aviso: Alterar as opções é permanente e pode fazer a extensão parar de funcionar. Tem a certeza que pretende fazer isto? Certifique-se de fazer uma cópia de segurança por precaução."
     },
     "incorrectlyFormattedOptions": {
         "message": "Este JSON não está formatado corretamente. Suas opções não foram alteradas."
@@ -715,6 +715,18 @@
     },
     "category_preview_guideline3": {
         "message": "Não é para seções que adicionam conteúdo adicional"
+    },
+    "category_filler": {
+        "message": "Tangentes/Piadas"
+    },
+    "category_filler_description": {
+        "message": "Cenas tangenciais ou piadas que não são necessárias para compreender o conteúdo principal do vídeo. Isto não deve incluir segmentos que forneçam contexto ou pormenores de fundo. Esta é uma categoria muito agressiva, destinada a ser utilizada quando não está com disposição para “diversão”."
+    },
+    "category_filler_short": {
+        "message": "Tangentes"
+    },
+    "category_filler_guideline1": {
+        "message": "Cenas ou piadas tangenciais"
     },
     "category_filler_guideline2": {
         "message": "Distrações, erros de gravação, repetições"
@@ -1431,9 +1443,6 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
-    },
-    "showOriginalOnHover": {
-        "message": "Mostrar detalhes originais quando passar o ponteiro"
     },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"

@@ -217,7 +217,7 @@
         "message": "Abilita il conteggio dei salti nelle schede private/anonime"
     },
     "enableTrackDownvotes": {
-        "message": "Memorizza i voti negativi del segmento"
+        "message": "Memorizza i voti negativi ai segmenti"
     },
     "whatTrackDownvotes": {
         "message": "I segmenti votati negativamente rimarranno nascosti anche dopo aver ricaricato la pagina"
@@ -1424,9 +1424,6 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
-    },
-    "showOriginalOnHover": {
-        "message": "Mostra i Dettagli Originali al Passaggio del Mouse"
     },
     "showIconForFormattedTitles": {
         "message": "Mostra il pulsante \"Mostra Originale\" per i titoli formattati automaticamente"

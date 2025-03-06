@@ -129,10 +129,13 @@
         "message": "Закрити вікно"
     },
     "closeIcon": {
-        "message": "Закрити іконку"
+        "message": "Значок закриття"
     },
     "OpenSubmissionMenu": {
         "message": "Відкрити меню надсилання"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "Відкрити меню звичайного режиму"
     },
     "sortSegments": {
         "message": "Сортувати сегменти"
@@ -628,7 +631,7 @@
         "message": "Платні акції"
     },
     "category_sponsor_guideline2": {
-        "message": "Не для пожертвувань чи товарів на замовлення"
+        "message": "Не для пожертвувань чи мерча"
     },
     "category_selfpromo": {
         "message": "Самореклама/рекомендація"
@@ -716,6 +719,18 @@
     "category_preview_guideline3": {
         "message": "Не для розділів, які додають додатковий вміст"
     },
+    "category_filler": {
+        "message": "Дотичні теми/Жарти"
+    },
+    "category_filler_description": {
+        "message": "Дотичні сцени або жарти, які не потрібні для розуміння основного вмісту відео. Сюди не слід включати сегменти, що надають контекст або передісторію. Це дуже агресивна категорія, призначена для випадків, коли ви не в настрої \"розважатися\"."
+    },
+    "category_filler_short": {
+        "message": "Дотичні теми"
+    },
+    "category_filler_guideline1": {
+        "message": "Дотичні сцени або жарти"
+    },
     "category_filler_guideline2": {
         "message": "Відволікання, ляпи, повтори"
     },
@@ -756,7 +771,7 @@
         "message": "Розділ"
     },
     "category_chapter_description": {
-        "message": "Розділи з іменами користувача, що описують основні розділи відео."
+        "message": "Глави з користувацькими назвами, що описують основні розділи відео."
     },
     "category_chapter_guideline1": {
         "message": "Не згадуйте про торгові марки спонсорів"
@@ -933,7 +948,7 @@
         "message": "Категорії тут!"
     },
     "categoryUpdate2": {
-        "message": "Відкрийте налаштування, щоб пропускати початкові і кінцеві заставки, саморекламу та інше."
+        "message": "Відкрийте налаштування щоб пропускати початкові і кінцеві заставки, мерч та інше."
     },
     "help": {
         "message": "Довідка"
@@ -1265,7 +1280,7 @@
         "message": "Скинути заголовок до оригінального тексту"
     },
     "resetIcon": {
-        "message": "Оригінальна іконка"
+        "message": "Скинути значок"
     },
     "TypeYourOwnTitleHere": {
         "message": "Введіть ваш заголовок тут"
@@ -1433,7 +1448,10 @@
         "message": "Якщо ви бажаєте завжди знати, що заголовок/мініатюра змінена, увімкніть це."
     },
     "showOriginalOnHover": {
-        "message": "Показати оригінальну інформацію при наведенні"
+        "message": "Перемкнути між користувацькими та оригінальними відомостями при наведенні"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Показувати користувацький заголовок на наведенні, якщо відображається заголовок звичайного режиму"
     },
     "showIconForFormattedTitles": {
         "message": "Відображати кнопку \"Показати оригінал\" для автоформатованих заголовків"
@@ -1449,6 +1467,10 @@
         "message": "Мініатюри",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Голосів у звичайному режимі",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Помилка"
     },
@@ -1457,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Показати змінену інформацію"
+    },
+    "ShowFormatted": {
+        "message": "Показати подробиці форматування"
     },
     "FillerWarning": {
         "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
@@ -1681,7 +1706,7 @@
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Додати список фільтрів для блокування опитувань, полиць з товарами та інших елементів промо-сторінки з використанням yt-neuter"
+        "message": "Додати список фільтрів для блокування опитувань, полиць з мерчем та інших елементів промо-сторінки використовуючи yt-neuter"
     },
     "requiresUblock": {
         "message": "Потрібен uBlock Origin"
@@ -1764,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Ви впевнені, що ця оригінальна мініатюра відповідає рекомендаціям DeArrow? Якщо ви в цілому просто віддаєте перевагу переглядати оригінальні мініатюри, подумайте про зміну параметра \"За відсутності відправленої мініатюри\" в налаштуваннях DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Сподобався оригінал?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Так"
+    },
+    "No": {
+        "message": "Ні"
+    },
+    "votes": {
+        "message": "{0} голосів",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} голос",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Смішні",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Творчий",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Розумний",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Описовий",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Інше",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Класичний режим",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Назви замінюються стандартизованими форматами на основі всіх відеороликів, де існує назва краудсорсингу."
+    },
+    "CasualMode": {
+        "message": "Звичайний режим",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Залишайте оригінальні назви, якщо вони достатньо добре описують відео, є розумними або смішними.\nВиберіть, які категорії назв ви хочете бачити.\nВи зможете проголосувати, чи підходить назва до категорії чи ні."
+    },
+    "minimumVotes": {
+        "message": "Мінімум голосів",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Показати оригінальну мініатюру проголосованого відео в звичайному режимі",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Нова функція: Звичайний режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Показувати значок звичайного режиму тільки коли наявна користувацька назва"
+    },
+    "OpenSettings": {
+        "message": "Відкрити налаштування"
     }
 }

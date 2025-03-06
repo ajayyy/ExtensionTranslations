@@ -716,6 +716,18 @@
     "category_preview_guideline3": {
         "message": "Όχι για μέρη που περιλαμβάνουν πρόσθετο περιεχόμενο"
     },
+    "category_filler": {
+        "message": "Μπερδέματα/Αστεία"
+    },
+    "category_filler_description": {
+        "message": "Εφαπτόμενες σκηνές ή αστεία που δεν απαιτούνται για τη κατανόηση του κυριώς περιεχομένου του βίντεο. Αυτό δε θα πρέπει να περιλαμβάνει τμήματα που παρέχουν επεξήγηση ή λεπτομέρειες εις βάθος. Πρόκειται για μια πολύ επιθετική κατηγορία που προορίζεται για όταν δεν είστε σε διάθεση για \"διασκέδαση\"."
+    },
+    "category_filler_short": {
+        "message": "Εφαπτόμενα"
+    },
+    "category_filler_guideline1": {
+        "message": "Εφαπτόμενες σκηνές ή αστεία"
+    },
     "category_filler_guideline2": {
         "message": "Αποσπάσεις, επαναλήψεις, αποτυχημένες λήψεις"
     },
@@ -1419,9 +1431,21 @@
         "message": "Αν η χρήση της υπηρεσίας δημιουργίας εικόνων μικρογραφίας είναι απενεργοποιημένη, όλες οι αιτήσεις θα χρησιμοποιήσουν ένα σύστημα ερωτημάτων k-ανωνυμίας, που καθιστά δυσκολότερο για το διακομιστή να προβλέψει ποια βίντεο ανακτήθηκαν, και μια πιο αργή τοπική υπηρεσία δημιουργίας μικρογραφιών θα χρησιμοποιηθεί.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Πηγαίος Κώδικας Υπηρεσίας Δημιουργίας Μικρογραφιών"
+    },
     "moreAboutKAnonymity": {
         "message": "Περισσότερα για το K-Anonymity",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Να Εμφανίζεται Πάντα Το Κουμπί \"Εμφάνιση Αρχικού\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Αν θέλετε να ξέρετε πάντα αν ένας τίτλος/μικρογραφία έχει αλλάξει, ενεργοποιήστε το."
+    },
+    "showIconForFormattedTitles": {
+        "message": "Εμφάνιση κουμπιού \"Εμφάνιση αρχικού\" για αυτόματα διαμορφωμένους τίτλους"
     },
     "Enable": {
         "message": "Ενεργοποίηση"
@@ -1443,9 +1467,17 @@
     "ShowModified": {
         "message": "Εμφάνιση Τροποποιημένων Λεπτομερειών"
     },
+    "FillerWarning": {
+        "message": "Προειδοποίηση: Αυτή είναι μια απίστευτα επιθετική κατηγορία. Πιθανότατα θα πρέπει να κάνετε αναίρεση παράλειψης ή να το απενεργοποιήσετε μερικές φορές. Προειδοποιούμε ότι σε πολλά βίντεο παραλείπεται τουλάχιστον το 50%! Ωστόσο, να θυμάστε ότι εξακολουθούν να υπάρχουν συγκεκριμένες κατευθυντήριες γραμμές που πρέπει να ακολουθηθούν κατά την υποβολή.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
     "chatboxDescription": {
         "message": "Γίνετε μέλος στο Discord ή Matrix για να μείνετε μόνιμα σε αυτή τη συνομιλία",
         "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Εμφάνιση Βοήθειας Κατευθυντήριας Γραμμής",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
         "message": "Αποφύγετε υπερβολικές εκφράσεις προσώπου",
@@ -1461,6 +1493,34 @@
     },
     "tip4": {
         "message": "Παρέχετε αρκετές πληροφορίες για να κάνετε μια ενημερωμένη επιλογή πριν κάνετε κλικ"
+    },
+    "tip5": {
+        "message": "Κεφαλαιοποίηση σαν μια πρόταση",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Ελέγξτε όλες τις κατευθυντήριες γραμμές για υποβολή",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Ο τίτλος μου κεφαλαιοποιείται σαν μια πρόταση",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Ο τίτλος μου δεν απαντά απλά σε μια ερώτηση που τίθεται στον τίτλο",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Οι τίτλοι θα πρέπει να περιγράφουν το βίντεο ή την ιστορία γενικότερα. Θα πρέπει να φροντίσετε να παρακολουθήσετε το πλήρες βίντεο για να ξέρετε για τι μιλάει αντί να βασίζεστε σε ένα ενδιαφέροντα πρωτότυπο τίτλο.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Ο τίτλος μου δεν συνοψίζει ένα συμπέρασμα ή αποκαλύπτει το περιεχόμενο άσκοπα",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Οι τίτλοι δεν προορίζονται να αντικαταστήσουν την παρακολούθηση του βίντεο εξ' ολοκλήρου, αλλά αντιθέτως για να ξέρετε αν πρέπει να κάνετε κλικ ή όχι.",
+        "description": "Tip subtitle in DeArrow"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Σημείωση: Οι ρυθμίσεις του SponsorBlock έχουν εισαχθεί αυτόματα!"

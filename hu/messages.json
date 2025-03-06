@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Beküldés menü megnyitása"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Alkalmi mód menü megnyitása"
+    },
     "sortSegments": {
         "message": "Szegmensek rendezése"
     },
@@ -1445,7 +1448,10 @@
         "message": "Engedélyezd, ha mindig tudni szeretnéd, ha megváltozott egy cím/indexkép."
     },
     "showOriginalOnHover": {
-        "message": "Eredeti adatok megjelenítése, ha felette van a kurzor"
+        "message": "Váltson eredeti és módosított adatok között, ha felé visszük a kurzort"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Módosított cím mutatása a kurzor felé vitele esetén, ha épp egy alkalmi módos cím látható"
     },
     "showIconForFormattedTitles": {
         "message": "\"Eredeti tulajdonságok megjelenítése\" gomb mutatása az automatikusan formázott címeknél"
@@ -1461,6 +1467,10 @@
         "message": "Indexképek",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Alkalmi szavazatok",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Hiba"
     },
@@ -1469,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Módosított adatok mutatása"
+    },
+    "ShowFormatted": {
+        "message": "Formázott adatok mutatása"
     },
     "FillerWarning": {
         "message": "Figyelem: Ez egy nagyon agresszív kategória. Valószínűleg kell majd visszaugranod, vagy néha letiltanod. Vedd figyelembe, hogy sok videónak több, mint fele átugrásra kerülhet. Azonban emlékezz rá, hogy még így is vannak követendő irányelvek a beküldésnél.",
@@ -1776,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Biztos vagy benne, hogy ez az eredeti indexkép megfelel a DeArrow irányelveinek? Ha inkább csak az eredeti indexképeket szeretnéd látni, fontold meg a \"Ha nincs beküldött indexkép\" opció használatát a DeArrow beállításokban.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Tetszik az eredeti cím?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Igen"
+    },
+    "No": {
+        "message": "Nem"
+    },
+    "votes": {
+        "message": "{0} szavazat",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} szavazat",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Vicces",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreatív",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Okos",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Leíró",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Egyéb",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klasszikus mód",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "A címek lecserélésre kerülnek az irányelveken alapuló egységes formázás alapján minden olyan videón, ahol van közösség által beküldött cím."
+    },
+    "CasualMode": {
+        "message": "Alkalmi mód",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Maradjanak meg az eredeti címek, ha megfelelően leírják a videót és találóak vagy viccesek.\nVálaszd ki, hogy milyen kategóriájú címeket szeretnél látni.\nSzavazni tudsz majd, hogy egy cím beleillik-e egy kategóriába, vagy sem."
+    },
+    "minimumVotes": {
+        "message": "Minimális szavazatszám",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Eredeti indexképek mutatása alkalmi módban szavazott videókon",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Új funkció: Alkalmi mód",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Csak akkor mutassa az alkalmi mód ikonját, ha elérhető egy egyedi cím"
+    },
+    "OpenSettings": {
+        "message": "Beállítások megnyitása"
     }
 }

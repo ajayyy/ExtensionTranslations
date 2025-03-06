@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Отваряне на менюто за изпращане"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Отваряне на менюто в нормален режим"
+    },
     "sortSegments": {
         "message": "Сортиране на сегментите"
     },
@@ -1445,7 +1448,10 @@
         "message": "Ако искате винаги да знаете дали заглавието/миниатюрата са се променили, разрешете тази опция."
     },
     "showOriginalOnHover": {
-        "message": "Показване на оригиналните подробности при преминаване с мишката"
+        "message": "Смяна на персонализираните детайли и оригиналните детайли при преминаване върху тях"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Показване на персонализирано заглавие при поставяне на мишката, ако се показва заглавие в нормален режим"
     },
     "showIconForFormattedTitles": {
         "message": "Показване на бутон „Покажи оригинала“ за автоматично форматираните заглавия"
@@ -1461,6 +1467,10 @@
         "message": "Миниатюри",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Гласове в нормален режим",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Грешка"
     },
@@ -1469,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Показване на изменените подробности"
+    },
+    "ShowFormatted": {
+        "message": "Показване на форматирани детайли"
     },
     "FillerWarning": {
         "message": "Внимание: Това е изключително агресивна категория. Най-вероятно ще се наложи да връщате пропуснатото или да го забраните понякога. Предупреждаваме ви, че при много видеоклипове се пропускат над 50% или повече от видеото! Не забравяйте обаче, че все пак има конкретни насоки, които трябва да се спазват при изпращане.",
@@ -1776,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Сигурни ли сте, че тази оригинална миниатюра отговаря на насоките на DeArrow? Ако просто предпочитате да виждате оригинални миниатюри по принцип, помислете дали да не промените опцията „Когато няма подадена миниатюра“ в настройките на DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Харесвате ли оригиналното заглавие?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Да"
+    },
+    "No": {
+        "message": "Не"
+    },
+    "votes": {
+        "message": "{0} гласа",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} глас",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Смешно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Творческо",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Умно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Описателно",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Други",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Класически режим",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Заглавията се заменят със стандартизирани формати въз основа на насоките за всички видеоклипове, за които има заглавие, предоставено от аудиторията."
+    },
+    "CasualMode": {
+        "message": "Нормален режим",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Запазете оригиналните заглавия, когато те описват видеоклипа достатъчно добре и са умни или забавни.\nИзберете кои категории заглавия искате да виждате.\nЩе можете да гласувате дали дадено заглавие се вписва в дадена категория или не."
+    },
+    "minimumVotes": {
+        "message": "Минимум гласове",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Показване на оригиналната миниатюра на гласуваните видеоклипове в нормален режим",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Нова функция: Нормален режим",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Показване на иконата за нормален режим само когато е налично персонализирано заглавие"
+    },
+    "OpenSettings": {
+        "message": "Отваряне на настройките"
     }
 }

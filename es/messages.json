@@ -341,7 +341,7 @@
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
     },
     "errorCode": {
-        "message": "Código de error: "
+        "message": "Código de Error: "
     },
     "skip": {
         "message": "Omitir"
@@ -1409,8 +1409,8 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
     },
-    "showOriginalOnHover": {
-        "message": "Mostrar detalles originales al pasar el cursor"
+    "showCustomOnHoverIfCasual": {
+        "message": "Mostrar título personalizado al pasar el cursor si se muestra un título de modo ocasional"
     },
     "showIconForFormattedTitles": {
         "message": "Mostrar el botón \"Mostrar original\" para los títulos autoformateados"
@@ -1698,5 +1698,8 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
+    },
+    "OpenSettings": {
+        "message": "Abrir la configuración"
     }
 }

@@ -63,7 +63,7 @@
         "message": "Anulați"
     },
     "reskip": {
-        "message": "Treci peste"
+        "message": "Omiteți"
     },
     "unmute": {
         "message": "Activare sunet"
@@ -342,7 +342,7 @@
         "message": "Codul Erorii: "
     },
     "skip": {
-        "message": "Sari"
+        "message": "Omiteți"
     },
     "mute": {
         "message": "Mut"
@@ -387,7 +387,7 @@
         "message": "Notificare Audio Când Sari"
     },
     "audioNotificationDescription": {
-        "message": "Semnalul sonor se va reda atunci când omiteți un segment. Dacă acesta sau omiterea automată sunt dezactivate, nu va fi redat niciun sunet."
+        "message": "Semnalul sonor se va reda atunci când omiteți un segment. Dacă dezactivați această setare sau omiterea automată, nu se va reda niciun sunet."
     },
     "showTimeWithSkips": {
         "message": "Afișare durată totală după omiterea segmentelor"
@@ -708,6 +708,12 @@
     "category_preview_guideline3": {
         "message": "Nu pentru secțiunile care adaugă conținut suplimentar"
     },
+    "category_filler": {
+        "message": "subiecte tangențiale și glume"
+    },
+    "category_filler_short": {
+        "message": "subiecte tangențiale"
+    },
     "category_filler_guideline2": {
         "message": "Distracții, blooper, reluări"
     },
@@ -769,7 +775,7 @@
         "message": "Omitere automată"
     },
     "manualSkip": {
-        "message": "Sari Peste Manual"
+        "message": "Omitere manuală"
     },
     "showOverlay": {
         "message": "Afișare în bara de derulare"

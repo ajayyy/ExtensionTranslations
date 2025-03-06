@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Open Submission Menu"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Open casual mode menu"
+    },
     "sortSegments": {
         "message": "Sort Segments"
     },
@@ -311,6 +314,14 @@
         "message": "Close skip notice",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Downvote segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Upvote segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Next chapter",
         "description": "Keybind label"
@@ -384,6 +395,10 @@
     "skipped_to_category": {
         "message": "Skipped to {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Voted on {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Disable Auto Skip"
@@ -1445,7 +1460,10 @@
         "message": "If you want to always know if a title/thumbnail has changed, enable this."
     },
     "showOriginalOnHover": {
-        "message": "Show Original Details on Hover"
+        "message": "Swap between custom details and original details on hover"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Show custom title on hover if a casual mode title is being shown"
     },
     "showIconForFormattedTitles": {
         "message": "Display \"Show Original\" Button for Auto-Formatted Titles"
@@ -1461,6 +1479,10 @@
         "message": "Thumbnails",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Casual votes",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Error"
     },
@@ -1469,6 +1491,9 @@
     },
     "ShowModified": {
         "message": "Show Modified Details"
+    },
+    "ShowFormatted": {
+        "message": "Show Formatted Details"
     },
     "FillerWarning": {
         "message": "Warning: This is an incredibly aggressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
@@ -1784,5 +1809,75 @@
     "yttvNoChannelWhitelist": {
         "message": "Channel whitelisting is not supported on tv.youtube.com.",
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Like the original title?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Yes"
+    },
+    "No": {
+        "message": "No"
+    },
+    "votes": {
+        "message": "{0} votes",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} vote",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Funny",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creative",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Clever",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptive",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Other",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Classic mode",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titles are replaced with standardized formats based on the guidelines on all videos where a crowdsourced title exists."
+    },
+    "CasualMode": {
+        "message": "Casual mode",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Keep original titles when they describe the video well enough and are clever or funny.\nChoose which categories of titles you want to see.\nYou'll be able to vote if a title fits into a category or not."
+    },
+    "minimumVotes": {
+        "message": "Minimum votes",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Show original thumbnail on casual mode voted videos",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "New feature: Casual mode",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Only show casual mode icon when a custom title is available"
+    },
+    "OpenSettings": {
+        "message": "Open settings"
     }
 }

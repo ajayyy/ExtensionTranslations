@@ -1346,9 +1346,6 @@
     "alwaysShowShowOriginalButton": {
         "message": "Selalu tampilkan tombol \"Tampikan Asli\""
     },
-    "showOriginalOnHover": {
-        "message": "Lihat Detail Original Saat Diarahkan"
-    },
     "Titles": {
         "message": "Judul",
         "description": "Referring to titles of YouTube videos"

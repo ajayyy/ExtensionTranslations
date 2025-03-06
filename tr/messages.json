@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Gönderiler Menüsünü Aç"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Sıradan mod menüsünü aç"
+    },
     "sortSegments": {
         "message": "Kısımları Sırala"
     },
@@ -1445,7 +1448,10 @@
         "message": "Eğerki her zaman bir başlık/küçük resminin değişip değişmediğini bilmek istiyorsanız, bunu etkinleştirin."
     },
     "showOriginalOnHover": {
-        "message": "Üzerine gelindiğinde asıl ayrıntıları göster"
+        "message": "Fareyle üzerine gelindiğinde özel ayrıntılar ve orijinal ayrıntılar arasında geçiş yap"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Bir sıradan mod başlığı gösteriliyorsa özel başlığı üzerine gelindiğinde göster"
     },
     "showIconForFormattedTitles": {
         "message": "Otomatik Formatlanmış Başlıklar İçin 'Orijinalini Göster\" Butonunu Göster"
@@ -1461,6 +1467,10 @@
         "message": "Küçük Resimler",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Sıradan mod oyları",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Hata"
     },
@@ -1469,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Değiştirilmiş Ayrıntıları Göster"
+    },
+    "ShowFormatted": {
+        "message": "Biçimlendirilmiş Ayrıntıları Göster"
     },
     "FillerWarning": {
         "message": "Uyarı: Bu son derece agresif bir kategoridir. Muhtemelen bazı içerikleri atlamak veya bazen devre dışı bırakmanız gerekebilir. Ancak unutmayın, gönderirken hala belirli kurallara uymamız gerektiğini unutmayın. Birçok video, videonun %50'den fazlasının atlandığı veya daha fazla olduğu bir durumdadır!",
@@ -1776,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Orijinal küçük resmin DeArrow kurallarına uyduğuna emin misiniz? Eğer sadece orijinal küçük resimleri görmeyi tercih ediyorsanız DeArrow ayarlarındaki “Küçük resim gönderilmemiş ise” seçeneğini değiştirebilirsiniz.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Orijinal başlığı beğendiniz mi?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Evet"
+    },
+    "No": {
+        "message": "Hayır"
+    },
+    "votes": {
+        "message": "{0} oy",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} oy",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Komik",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Yaratıcı",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Zekice",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Betimleyici",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Diğer",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klasik mod",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Başlıklar, topluluğun tanımladığı ve yönergelerdeki standartlara uyan birimlerdeki başlıklarla değiştirilir."
+    },
+    "CasualMode": {
+        "message": "Sıradan Mod",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Başka biri videonun yeterli düzeyde olduğunu ve zekice yahut eğlenceli olduğunu belirttiğinde orijinal başlığı koru.\nHangi tür kategorilerde başlıkların görünmesini istediğini belirle.\nBir başlığın belirlenmiş kategoriye uygun olup olmadığına dair oy verebilirsin."
+    },
+    "minimumVotes": {
+        "message": "Gerekli Oy",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Sıradan Mod Oyları tarafından seçilmiş videolarda orijinal kapak resmini göster",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Yeni Özellik: Sıradan Mod",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Sıradan Mod simgesini yalnızca özel başlık mevcut olduğunda göster"
+    },
+    "OpenSettings": {
+        "message": "Ayarları aç"
     }
 }

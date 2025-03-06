@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Öppna inskickningsmenyn"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Öppna menyn för casualt läge"
+    },
     "sortSegments": {
         "message": "Sortera segment"
     },
@@ -715,6 +718,18 @@
     },
     "category_preview_guideline3": {
         "message": "Inte för sektioner som lägger till ytterligare innehåll"
+    },
+    "category_filler": {
+        "message": "Ämnesavvikelse/skämt"
+    },
+    "category_filler_description": {
+        "message": "Ämnesavvikande scener eller humor som inte krävs för att förstå det huvudsakliga innehållet i videon. Detta bör inte omfatta segment som tillhandahåller kontext eller bakgrundsdetaljer. Detta är en mycket aggressiv kategori avsedd för när du inte är på humör för \"kul\"."
+    },
+    "category_filler_short": {
+        "message": "Ämnesavvikelse"
+    },
+    "category_filler_guideline1": {
+        "message": "Ämnesavvikande scener eller skämt"
     },
     "category_filler_guideline2": {
         "message": "Distraktioner, bloopers, repriser"
@@ -1433,7 +1448,10 @@
         "message": "Om du alltid vill veta om en titel/miniatyrbild har ändrats, aktivera detta."
     },
     "showOriginalOnHover": {
-        "message": "Visa originaldetaljer när muspekaren hålls över"
+        "message": "Växla mellan anpassade detaljer och originaldetaljer vid mus över"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Visa anpassad titel vid mus över om en titel i casualt läge visas"
     },
     "showIconForFormattedTitles": {
         "message": "Visa knappen \"Visa original\" för automatiskt formaterade titlar"
@@ -1449,6 +1467,10 @@
         "message": "Miniatyrer",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Casuala röster",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Fel"
     },
@@ -1457,6 +1479,9 @@
     },
     "ShowModified": {
         "message": "Visa ändrade uppgifter"
+    },
+    "ShowFormatted": {
+        "message": "Visa formaterade detaljer"
     },
     "FillerWarning": {
         "message": "Varning: Detta är en otroligt aggressiv kategori. Du kommer sannolikt att behöva avbryta grejer, eller inaktivera det ibland. Var beredd på att många videor har över 50% eller mer av videon överhoppad! Kom dock i håg att det fortfarande finns specifika riktlinjer att följa när du skickar in.",
@@ -1764,5 +1789,75 @@
     "areYouSureOriginalVote": {
         "message": "Är du säker på att denna ursprungliga miniatyrbild följer DeArrows riktlinjer? Om du bara föredrar att se originalminiatyrer i allmänhet, överväg att ändra alternativet \"När ingen inskickad miniatyrbild finns\" i DeArrows inställningar.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Gilla den ursprungliga titeln?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Ja"
+    },
+    "No": {
+        "message": "Nej"
+    },
+    "votes": {
+        "message": "{0} röster",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} röst",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Rolig",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreativ",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Smart",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Beskrivande",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Annat",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klassiskt läge",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titlar ersätts med standardiserade format baserat på riktlinjerna för alla videoklipp där en crowdsourcad titel finns."
+    },
+    "CasualMode": {
+        "message": "Casualt läge",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Behåll originaltitlarna när de beskriver videon tillräckligt bra och är smarta eller roliga.\nVälj vilka kategorier av titlar du vill se.\nDu kommer att kunna rösta om en titel passar in i en kategori eller inte."
+    },
+    "minimumVotes": {
+        "message": "Minsta antal röster",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Visa originalminiatyrbilder på videor som röstats fram i casualt läge",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Ny funktion: Casualt läge",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Visa endast ikonen för casualt läge när en anpassad titel är tillgänglig"
+    },
+    "OpenSettings": {
+        "message": "Öppna inställningar"
     }
 }
