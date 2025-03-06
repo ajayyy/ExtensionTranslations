@@ -314,6 +314,14 @@
         "message": "Zavřít oznámení o přeskočení",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Hlasovat proti segmentu",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Hlasovat pro segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Další kapitola",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Přeskočeno na {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Hlasováno u {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Zakázat automatické přeskočení"
@@ -1789,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "Jste si jisti, že tento původní náhled je v souladu s pokyny služby DeArrow? Pokud obecně pouze upřednostňujete vidět původní náhledy, zvažte změnu možnosti „Pokud neexistuje žádný komunitní náhled“ v nastavení doplňku DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "Na YouTube TV není SponsorBlock kompatibilní s živým a nedávno nahraným obsahem. Pokud se jedná o nedávno nahraný obsah, počkejte prosím několik hodin, než bude dostupná zpracovaná verze nahrávky.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Povolení kanálů není na tv.youtube.com k dispozici.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Líbí se vám původní název?",
