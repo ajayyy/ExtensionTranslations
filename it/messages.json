@@ -1754,5 +1754,8 @@
     "areYouSureOriginalVote": {
         "message": "Sei sicuro che questa miniatura originale segue le linee guida di DeArrow? Se preferisci vedere le miniature originali in generale, considera di cambiare l'opzione per \"Quando non esiste nessuna miniatura presentata\" nelle impostazioni DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "No": {
+        "message": "No"
     }
 }
