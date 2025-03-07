@@ -1802,6 +1802,14 @@
         "message": "Oletko varma, että tämä alkuperäinen pienoiskuva seuraa DeArrowin sääntöjä? Jos haluat vain nähdä alkuperäisiä pienoiskuvia ylipäätään, harkitse \"Kun lähetettyä pienoiskuvaa ei ole\" asetuksen vaihtamista DeArrow asetuksissa.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "SponsorBlock ei ole yhteensopiva suorien lähetysten tai juuri nauhoitetun sisällön kanssa YouTube TV:ssä. Jos tämä on äskettäin nauhoitettu, odotathan muutaman tunnin, että nauhoituksen käsitelty versio tulee saataville.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Kanava valkolistaus ei ole tuettu tv.youtube.com-sivulla.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
     "likeOriginalTitle": {
         "message": "Pidätkö alkuperäisestä otsikosta?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
