@@ -314,6 +314,14 @@
         "message": "건너뛰기 알림 닫기",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "구간 비추천",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "구간 추천",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "다음 챕터",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "{0}로 건너뛰었어요",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "{0}에 투표 완료",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "자동 건너뛰기 사용 안 함"
@@ -1446,6 +1458,9 @@
     },
     "whatAlwaysShowShowOriginalButton": {
         "message": "제목/썸네일이 변경됐는지 항상 확인하고 싶다면 이걸 켜세요."
+    },
+    "showOriginalOnHover": {
+        "message": "마우스를 올렸을 때 사용자 지정 세부 정보를 원본 세부 정보로 교체"
     },
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
