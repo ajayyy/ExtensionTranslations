@@ -1462,6 +1462,9 @@
     "showOriginalOnHover": {
         "message": "마우스를 올렸을 때 사용자 지정 세부 정보를 원본 세부 정보로 교체"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "마우스를 캐주얼 모드 제목에 올렸을 때 사용자 지정 제목 표시"
+    },
     "showIconForFormattedTitles": {
         "message": "자동으로 지정된 형식의 제목에 \"원본 보기\" 버튼 표시"
     },
@@ -1798,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "정말로 원본 썸네일이 DeArrow 지침을 준수하나요? 기본값으로 원본 썸네일을 보고 싶다면, \"제출한 미리 보기 이미지가 없으면\" 설정을 변경해주세요.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "YouTube TV에서 SponsorBlock은 실시간 및 최근 녹화된 콘텐츠를 지원하지 않아요. 최근 녹화된 콘텐츠라면 녹화를 처리할 때까지 몇 시간 정도 기다려 주세요.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "tv.youtube.com에서는 채널을 허용 목록에 추가할 수 없어요.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "원본 제목이 좋으신가요?",
