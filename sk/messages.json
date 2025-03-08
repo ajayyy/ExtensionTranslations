@@ -311,6 +311,14 @@
         "message": "Zatvoriť oznámenie o preskočení segmentov",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Hlasovať nie za segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Hlasovať za segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Ďalšia kapitola",
         "description": "Keybind label"
@@ -384,6 +392,10 @@
     "skipped_to_category": {
         "message": "Preskočené na {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Hlasované za {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Zakázať Automatické Preskočenie"
@@ -1280,6 +1292,10 @@
         "message": "Nepodarilo sa zobraziť",
         "description": "Thumbnail preview failed to render"
     },
+    "CanvasMissing": {
+        "message": "Chýba okno pre zobrazenie náhľadu",
+        "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
     "FailedToLoad": {
         "message": "Nahrávanie neúspešné",
         "description": "Thumbnail failed to load"
@@ -1415,6 +1431,12 @@
     "ShowOriginal": {
         "message": "Zobraziť pôvodné detaily"
     },
+    "ShowModified": {
+        "message": "Zobraziť upravené detaily"
+    },
+    "ShowFormatted": {
+        "message": "Zobraziť naformátované detaily"
+    },
     "tip1": {
         "message": "Vyhýbajte sa prehnaným výrazom tváre",
         "description": "Referring to the thumbnail of a video"
@@ -1441,6 +1463,21 @@
     "answeringQuestionTipSubTitle": {
         "message": "Názov by mal opisovať video a jeho obsah. Mali by ste si pozrieť celé video namiesto toho, že si len prečítate zaujímavý pôvodný názov.",
         "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Rozpoznané slovo: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Názvy by nemali končiť bodkou",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Názvy by nemali obsahovať emoji",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Pred odoslaním musíte vyriešiť problém"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Poznámka: Vaše nastavenia SponsorBlocku boli automaticky naimportované!"
@@ -1523,6 +1560,14 @@
     "YouCanChangeThisDefaultBelow": {
         "message": "Nižsie môžete zmeniť toto východzie nastavenie",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} názov ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} názvov ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
         "message": "a {thumbnails} náhľadov",
