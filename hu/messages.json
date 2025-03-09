@@ -314,6 +314,14 @@
         "message": "Átugrási értesítő bezárása",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Szegmens leszavazása",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Szegmens felszavazása",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Következő fejezet",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Ide ugorva: {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Sikeres szavazat: {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Auto átugrás kikapcsolása"
@@ -1789,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "Biztos vagy benne, hogy ez az eredeti indexkép megfelel a DeArrow irányelveinek? Ha inkább csak az eredeti indexképeket szeretnéd látni, fontold meg a \"Ha nincs beküldött indexkép\" opció használatát a DeArrow beállításokban.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "YouTube TV-n a SponsorBlock nem kompatibilis élő és nemrég felvett tartalommal. Ha ez egy új felvétel, kérlek várj néhány órát, hogy a feldolgozott verzió elérhetővé váljon.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Az engedélyezőlistára tétel nem támogatott tv.youtube.com-on.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Tetszik az eredeti cím?",

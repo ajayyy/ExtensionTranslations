@@ -314,6 +314,14 @@
         "message": "Atlama bildirimini kapat",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Kısma eksi puan ver",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Kısma artı puan ver",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Sonraki bölüm",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "{0} kısmına atlandı",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "{0} üzerinde oylandı",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Otomatik Atlamayı Devredışı Bırak"

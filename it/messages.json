@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Apri menu invio"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Apri menu' modalità casuale"
+    },
     "sortSegments": {
         "message": "Ordina segmenti"
     },
@@ -311,6 +314,14 @@
         "message": "Chiudi l'avviso di salto",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Vota negativamente segmento",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Vota positivamente segmento",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Capitolo successivo",
         "description": "Keybind label"
@@ -384,6 +395,10 @@
     "skipped_to_category": {
         "message": "Saltato a {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Votato il {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Disabilita Salto Automatico"
@@ -1754,5 +1769,8 @@
     "areYouSureOriginalVote": {
         "message": "Sei sicuro che questa miniatura originale segue le linee guida di DeArrow? Se preferisci vedere le miniature originali in generale, considera di cambiare l'opzione per \"Quando non esiste nessuna miniatura presentata\" nelle impostazioni DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "No": {
+        "message": "No"
     }
 }

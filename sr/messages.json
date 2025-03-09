@@ -314,6 +314,14 @@
         "message": "Затварање обавештења о прескакању",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Гласање против сегмента",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Гласање за сегмент",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Следеће поглавље",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Прескочено на сегмент {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Гласано за категорију {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Онемогући аутоматско прескакање"
@@ -1789,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "Сигурни сте да ова оригинална сличица прати DeArrow смернице? Ако више волите да видите оригиналне сличице, размислите о промени опције „Када не постоји поднесена сличица” у DeArrow подешавањима.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "На YouTube TV-у, SponsorBlock није компатибилан са уживо и недавно снимљеним садржајем. Ако је ово недавни снимак, сачекајте неколико сати да обрађена верзија снимка постане доступна.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Стављање канала на белу листу није подржано на tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Свиђа вам се оригинални наслов?",

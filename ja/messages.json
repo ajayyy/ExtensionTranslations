@@ -314,6 +314,14 @@
         "message": "スキップの通知を閉じる",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "セグメントに反対票",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "セグメントに賛成票",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "次のチャプター",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "{0}にスキップしました",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "{0}の投票",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "自動スキップを無効化"
@@ -1789,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "元のサムネイルはDeArrowのガイドラインに従っていますか？元のサムネイルを優先したいなら、DeArrowの設定「投稿されたサムネイルがないなら」があります。",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "SponsorBlockは、YouTube TV 上のライブ配信と最近録画されたコンテンツに対応していません。最近の録画では、変換済みの動画が利用可能になるまで数時間お待ちください。",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "チャンネルのホワイトリストは tv.youtube.com では対応していません。",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "元の題名が好きですか？",

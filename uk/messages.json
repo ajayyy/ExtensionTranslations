@@ -388,6 +388,10 @@
         "message": "Пропущено до {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "Проголосували у {0}",
+        "description": "Example: Voted on Sponsor"
+    },
     "disableAutoSkip": {
         "message": "Вимкнути автоматичний пропуск"
     },
@@ -1789,6 +1793,14 @@
     "areYouSureOriginalVote": {
         "message": "Ви впевнені, що ця оригінальна мініатюра відповідає рекомендаціям DeArrow? Якщо ви в цілому просто віддаєте перевагу переглядати оригінальні мініатюри, подумайте про зміну параметра \"За відсутності відправленої мініатюри\" в налаштуваннях DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "На YouTube TV SponsorBlock не сумісний з живим і нещодавно записаним вмістом. Якщо це останній запис, будь ласка, зачекайте кілька годин на оброблену версію запису, щоб отримати доступ.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Білий список каналів не підтримується на tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Сподобався оригінал?",

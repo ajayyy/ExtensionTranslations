@@ -314,6 +314,14 @@
         "message": "Fermer l'alerte de saut",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Voter contre un segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Voter pour un segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Chapitre suivant",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Sauté à {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "A voté sur {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Désactiver le passage automatique"
@@ -1789,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "Confirmez-vous que la miniature originale suit bien les directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand aucune miniature soumise existe\" dans les paramètres DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "SponsorBlock pour YouTube TV n'est pas compatible avec le contenu en direct ou enregistré récemment. S'il s'agit d'un enregistrement récent, merci de patienter quelques heures que la version traitée de l'enregistrement soit disponible.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "La liste blanche des chaînes n'est pas prise en charge sur tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Vous aimez le titre original ?",

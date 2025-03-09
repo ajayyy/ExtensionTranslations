@@ -388,6 +388,10 @@
         "message": "Zu {0} gesprungen",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "Über {0} abgestimmt",
+        "description": "Example: Voted on Sponsor"
+    },
     "disableAutoSkip": {
         "message": "Automatisches Überspringen deaktivieren"
     },
@@ -1789,6 +1793,10 @@
     "areYouSureOriginalVote": {
         "message": "Bist du sicher, dass dieses originale Thumbnail den DeArrow-Richtlinien entspricht? Falls du allgemein lieber die ursprünglichen Thumbnails sehen möchtest, ändere die Option „Wenn kein Thumbnail eingereicht wurde“ in den DeArrow-Einstellungen.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Kanal Whitelists werden auf tv.youtube.com nicht unterstützt.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Gefällt dir der Originaltitel?",

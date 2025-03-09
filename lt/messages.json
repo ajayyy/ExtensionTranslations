@@ -65,6 +65,9 @@
     "paused": {
         "message": "Pristabdyta"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Atverti įprasto režimo meniu"
+    },
     "Username": {
         "message": "Naudotojo vardas"
     },
@@ -113,5 +116,31 @@
     },
     "ignoreTranslatedTitlesDescription": {
         "message": "Kartais „YouTube“ automatiškai išverčia pavadinimus į jūsų gimtąją kalbą. Ši parinktis taikoma tik tada, kai nėra sutelktinio šaltinio pavadinimo."
+    },
+    "likeOriginalTitle": {
+        "message": "Patinka originalus pavadinimas?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Taip"
+    },
+    "No": {
+        "message": "Ne"
+    },
+    "votes": {
+        "message": "{0} balsai (-ų)",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} balsas",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Juokingas",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kūrybinis",
+        "description": "Category for DeArrow casual mode"
     }
 }
