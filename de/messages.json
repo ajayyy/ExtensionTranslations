@@ -314,6 +314,14 @@
         "message": "Überspringen-Hinweis schließen",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Segment negativ bewerten",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Segment positiv bewerten",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Nächstes Kapitel",
         "description": "Keybind label"
