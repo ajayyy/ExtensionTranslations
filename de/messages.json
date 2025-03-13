@@ -14,7 +14,7 @@
         "message": "Dieser Inhalt wurde bereits eingereicht."
     },
     "channelWhitelisted": {
-        "message": "Der Kanal wurde auf die Whitelist gesetzt!"
+        "message": "Der Kanal wurde zur Ausnahmeliste hinzugefügt!"
     },
     "Segment": {
         "message": "Segment"
@@ -144,7 +144,7 @@
         "message": "Bist du sicher, dass du dies übermitteln willst?"
     },
     "whitelistChannel": {
-        "message": "Kanal zur Whitelist hinzufügen"
+        "message": "Kanal zur Ausnahmeliste hinzufügen"
     },
     "removeFromWhitelist": {
         "message": "Kanal von der Ausnahmeliste entfernen"
@@ -611,7 +611,7 @@
         "message": "Fehler beim Kopieren in die Zwischenablage"
     },
     "copyDebugInformationOptions": {
-        "message": "Kopiert Informationen in die Zwischenablage, welche einem Entwickler gegebenenfalls (z. B. um einen Fehler zu melden) zur Verfügung gestellt werden können. Personenbezogene Daten wie die Benutzer-ID, Kanäle auf der Whitelist und die benutzerdefinierte Serveradresse wurden entfernt. Die Debug-Informationen enthalten jedoch unter anderem den Useragent, den Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
+        "message": "Kopiert Informationen in die Zwischenablage, welche einem Entwickler gegebenenfalls (z. B. um einen Fehler zu melden) zur Verfügung gestellt werden können. Personenbezogene Daten wie die Benutzer-ID, Kanäle auf der Ausnahmeliste und die benutzerdefinierte Serveradresse wurden entfernt. Die Debug-Informationen enthalten jedoch unter anderem den Useragent, Browser, das Betriebssystem und die Versionsnummer der Erweiterung. "
     },
     "copyDebugInformationComplete": {
         "message": "Die Debug-Informationen wurden in die Zwischenablage kopiert. Du kannst alle Informationen entfernen, die du nicht teilen möchtest. Speichere diese in einer Textdatei, oder füge sie einem Fehlerbericht hinzu."
@@ -925,7 +925,7 @@
         "message": "Kanalprüfung vor dem Überspringen von Segmenten erzwingen"
     },
     "whatForceChannelCheck": {
-        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhaupt weiß, von welchem Kanal das Video ist. Normalerweise führt dies dazu, dass Videosegmente von erlaubten Kanälen am Anfang übersprungen werden. Das Aktivieren dieser Option verhindert das, hat jedoch eine leichte Verzögerung beim Uberspringen zur Folge, da die Kanal-ID erst eingelesen werden muss. Diese sollte bei einer schnellen Internetverbindung jedoch kaum bemerkbar sein."
+        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhaupt weiß, von welchem Kanal das Video ist. Normalerweise führt dies dazu, dass Videosegmente von Kanälen, die sich auf der Ausnahmeliste befinden, am Anfang trotzdem übersprungen werden. Das Aktivieren dieser Option verhindert das, hat jedoch eine leichte Verzögerung beim Überspringen zur Folge, da die Kanal-ID erst eingelesen werden muss. Diese sollte bei einer schnellen Internetverbindung jedoch kaum bemerkbar sein."
     },
     "forceChannelCheckPopup": {
         "message": "Eventuell solltest du die Option \"Kanalprüfung vor dem Überspringen von Segmenten erzwingen\" aktivieren."
@@ -1803,7 +1803,7 @@
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvNoChannelWhitelist": {
-        "message": "Kanal Whitelists werden auf tv.youtube.com nicht unterstützt.",
+        "message": "Ausnahmelisten für Kanäle werden auf tv.youtube.com nicht unterstützt.",
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
