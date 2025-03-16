@@ -150,7 +150,7 @@
         "message": "Votează pe un Segment"
     },
     "Submissions": {
-        "message": "Submisii"
+        "message": "Propuneri"
     },
     "savedPeopleFrom": {
         "message": "Ați facilitat altora omiterea a "
@@ -296,7 +296,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Deschideți meniul de trimitere",
+        "message": "Deschidere meniu de propuneri",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -327,8 +327,16 @@
         "message": "Capitolul anterior",
         "description": "Keybind label"
     },
+    "enableDeArrowKey": {
+        "message": "Activați DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Deschidere meniu de propuneri",
+        "description": "Keybind label in DeArrow"
+    },
     "keybindDescription": {
-        "message": "Selectează o tastă prin a o tasta, și alege orice taste modificatoare pe care dorești să o folosești."
+        "message": "Pentru modificare, apăsați tasta dorită și bifați tastele auxiliare."
     },
     "0": {
         "message": "Eroare de Conexiune. Verifică-ți conexiunea la internet. Daca internetul functionează, serverul este probabil supraîncărcat sau a căzut."
@@ -356,7 +364,7 @@
         "message": "Mut"
     },
     "full": {
-        "message": "Video complet",
+        "message": "Întregul videoclip",
         "description": "Used for the name of the option to label an entire video as sponsor or self promotion."
     },
     "skip_category": {
@@ -384,6 +392,10 @@
     "skipped_to_category": {
         "message": "S-a trecut la {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Ați votat {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Dezactivare omitere automată"
@@ -795,13 +807,13 @@
         "message": "Omitere automată la început"
     },
     "manualSkip_POI": {
-        "message": "Întreabă când se încarcă videoclipul"
+        "message": "Notificare după încărcarea clipului"
     },
     "showOverlay_POI": {
         "message": "Afișare în bara de derulare"
     },
     "showOverlay_full": {
-        "message": "Arată eticheta"
+        "message": "Afișare etichetă"
     },
     "showOverlay_chapter": {
         "message": "Afișează Capitolele"
@@ -821,7 +833,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Culoare pentru propuneri nepredate",
+        "message": "Culoare pentru propuneri nefinalizate",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
