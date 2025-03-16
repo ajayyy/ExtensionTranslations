@@ -262,7 +262,7 @@
         "message": "Petite notification lors du passage automatique"
     },
     "noticeVisibilityMode2": {
-        "message": "Toute les petites notifications de passage"
+        "message": "Toutes les petites notifications de passage"
     },
     "noticeVisibilityMode3": {
         "message": "Notifications estompées lors du passage automatique"
@@ -299,7 +299,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Ouvrir le menu de contribution",
+        "message": "Ouvrir le menu de contribution ",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -307,19 +307,19 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Aperçu du segment",
+        "message": "Aperçu du segment ",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Fermer l'alerte de saut",
+        "message": "Fermer l'alerte de saut ",
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Voter contre un segment",
+        "message": "Voter contre un segment ",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Voter pour un segment",
+        "message": "Voter pour un segment ",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
