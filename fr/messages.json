@@ -262,13 +262,13 @@
         "message": "Petite notification lors du passage automatique"
     },
     "noticeVisibilityMode2": {
-        "message": "Toutes les petites notifications de passage"
+        "message": "Réduire toutes les notifications de passage"
     },
     "noticeVisibilityMode3": {
         "message": "Notifications estompées lors du passage automatique"
     },
     "noticeVisibilityMode4": {
-        "message": "Toute les notifications de passage sont estompées"
+        "message": "Estomper toutes les notifications de passage"
     },
     "longDescription": {
         "message": "SponsorBlock vous permet de passer les messages sponsorisés, les introductions, les postfaces, les rappels d'abonnement et autres passages ennuyeux des vidéos YouTube. SponsorBlock est une extension de navigateur web qui permet à tout le monde de soumettre les temps de début et de fin des passages sponsorisés et d'autres segments de vidéos YouTube. Dès que quelqu'un-e soumet ces informations, toutes les autres personnes possédant l'extension passeront directement les segments sponsorisés. Vous pouvez également sauter les sections non musicales des vidéos musicales.",
@@ -299,7 +299,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Ouvrir le menu de contribution ",
+        "message": "Ouvrir le menu de contribution",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -307,19 +307,19 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Aperçu du segment ",
+        "message": "Aperçu du segment",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Fermer l'alerte de saut ",
+        "message": "Fermer l'alerte de saut",
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Voter contre un segment ",
+        "message": "Voter contre un segment",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Voter pour un segment ",
+        "message": "Voter pour un segment",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
