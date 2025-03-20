@@ -350,6 +350,15 @@
     "enableSkipping": {
         "message": "Skipping is disabled"
     },
+    "disableChannelSpecificSettings": {
+        "message": "Channel-specific settings are enabled"
+    },
+    "enableChannelSpecificSettings": {
+        "message": "Channel-specific settings are disabled"
+    },
+    "deleteChannelSpecificSettings": {
+        "message": "Delete channel-specific settings"
+    },
     "yourWork": {
         "message": "Your Work",
         "description": "Used to describe the section that will show you the statistics from your submissions."
@@ -800,6 +809,9 @@
     "category_livestream_messages_short": {
         "message": "Message Reading"
     },
+    "global": {
+        "message": "Global"
+    },
     "autoSkip": {
         "message": "Auto skip"
     },
@@ -929,6 +941,9 @@
     },
     "forceChannelCheckPopup": {
         "message": "Consider Enabling \"Force channel check before skipping\""
+    },
+    "forceChannelCheckRequired": {
+        "message": "\"Force Channel Check Before Skipping\" is required for channel-specific category selections to work properly."
     },
     "downvoteDescription": {
         "message": "Incorrect/Wrong Timing"
