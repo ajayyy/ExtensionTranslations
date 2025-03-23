@@ -135,7 +135,7 @@
         "message": "Mở Menu Phân Đoạn Đã Gửi"
     },
     "OpenCasualVoteMenu": {
-        "message": "Mở menu chế độ đơn giản"
+        "message": "Mở menu chế độ thoải mái"
     },
     "sortSegments": {
         "message": "Sắp xếp phân đoạn"
@@ -389,7 +389,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} đã ngắt tiếng (Muted)",
+        "message": "{0} đã được tắt tiếng",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -448,7 +448,7 @@
         "message": "Nhập/Xuất UserID bí mật của bạn"
     },
     "whatChangeUserID": {
-        "message": "Đây là mã cần được giữ bí mật. Nó giống như mật khẩu và không nên được chia sẻ cho bất kì ai khác. Nếu có ai đó lấy được mã này, họ có thể mạo danh bạn. Còn nếu như bạn đang tìm ID người dùng công khai, hãy nhấn vào icon bộ nhớ tạm trong popup."
+        "message": "Đây là mã cần được giữ bí mật. Nó giống như mật khẩu và không nên được chia sẻ cho bất kì ai khác. Nếu có ai đó lấy được mã này, họ có thể mạo danh bạn. Còn nếu như bạn đang tìm userID công khai, hãy nhấn vào hình khay nhớ tạm trong popup."
     },
     "setUserID": {
         "message": "Đặt UserID bí mật"
@@ -970,7 +970,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Phân đoạn này là lớn. Nếu toàn bộ video nói về một chủ đề, hãy chuyển từ \"Bỏ qua\" thành \"Toàn bộ video\". Xem hướng dẫn để biết thêm thông tin."
+        "message": "Phân đoạn này có độ dài lớn. Nếu toàn bộ video nói về một chủ đề, hãy chuyển từ \"Bỏ qua\" thành \"Toàn bộ video\". Xem hướng dẫn để biết thêm thông tin."
     },
     "categoryPillTitleText": {
         "message": "Toàn bộ video này được gắn thẻ vào thể loại này và được tích hợp quá chặt chẽ để có thể tách ra"
@@ -1025,16 +1025,16 @@
         "message": "Nhiều tính năng sẽ bị tắt theo mặc định. Nếu bạn muốn bỏ qua phần intro, sử dụng trên các trang web bên thứ 3 như Invidious, v. v...., bạn có thể bật nó ở bên dưới. Bạn cũng có thể cho hiện/ẩn UI người dùng."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Việc bỏ qua 1 đoạn trong video được thực hiện thế nào?"
+        "message": "Cách bỏ qua phân đoạn hoạt động"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Các phân đoạn trong video sẽ tự động bị bỏ qua nếu chúng được tìm thấy trong cơ sở dữ liệu của chúng tôi. Bạn có thể mở cửa sổ xem trước các phân đoạn ấy bằng cách nhấp vào biểu tượng tiện ích mở rộng."
+        "message": "Các phân đoạn trong video sẽ tự động bị bỏ qua nếu chúng được tìm thấy trong cơ sở dữ liệu. Bạn có thể mở cửa sổ bật lên bằng cách nhấp vào biểu tượng tiện ích mở rộng để xem trước chúng là gì."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Bất cứ khi nào bỏ qua một phân đoạn, bạn sẽ nhận được 1 cửa sổ thông báo bât. Nếu phân đoạn có vẻ sai, hãy bỏ phiếu bằng cách nhấp vào nút downvote! Bạn cũng có thể bỏ phiếu trong cửa sổ bật lên khi nhấn vào biểu tượng tiện ích mở rộng. Và bạn có thể tắt việc hiển thị bảng thông báo này trong phần cài đặt tiện ích."
+        "message": "Bất cứ khi nào bỏ qua một phân đoạn, bạn sẽ nhận được thông báo. Nếu thời gian phân đoạn có vẻ sai, hãy bỏ phiếu bằng cách nhấp vào nút phản đối! Bạn cũng có thể bỏ phiếu trong cửa sổ bật lên."
     },
     "Submitting": {
-        "message": "Đang gửi lên"
+        "message": "Việc gửi lên"
     },
     "helpPageSubmitting1": {
         "message": "Việc gửi một phân đoạn mới có thể được thực hiện trong cửa sổ bật lên bằng cách nhấn vào nút \"Đoạn quảng cáo bắt đầu vào lúc này\" hoặc trong trình phát video bằng các nút trên thanh trình phát."
@@ -1046,28 +1046,28 @@
         "message": "Chỉnh sửa"
     },
     "helpPageEditing1": {
-        "message": "Nếu bạn muốn chỉnh sửa thời gian phân đoạn hoặc kiểu của phân đoạn, bạn có thể chỉnh sửa hoặc xóa các phân đoạn của mình sau khi nhấp vào nút \"Đăng đoạn quảng cáo\"."
+        "message": "Nếu bạn làm sai, bạn có thể chỉnh sửa hoặc xóa các phân đoạn của mình sau khi nhấp vào nút mũi tên."
     },
     "helpPageTooSlow": {
-        "message": "Nếu như bạn cảm thấy thao tác ở trên quá chậm..."
+        "message": "Thao tác này quá chậm..."
     },
     "helpPageTooSlow1": {
-        "message": "Bạn có thể sử dụng các hotkeys - phím nóng. Nhấn phím dấu chấm phẩy (;) để chỉ ra điểm bắt đầu / kết thúc của phân đoạn nhà tài trợ và nhấp vào dấu nháy đơn (') để gửi. Nếu bạn không sử dụng QWERTY, có lẽ bạn nên thay đổi keybinding bằng cách vào phần cài đặt của tiện ích."
+        "message": "Bạn có thể sử dụng các hotkeys (phím nóng). Nhấn phím dấu chấm phẩy (;) để chỉ ra điểm bắt đầu / kết thúc của phân đoạn nhà tài trợ và nhấp vào dấu nháy đơn (') để gửi. Nếu bạn không sử dụng QWERTY, bạn nên thay đổi cách gắn phím (bằng cách vào phần cài đặt của tiện ích)."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Tôi có thể lấy bản sao của database không? Điều gì xảy ra nếu có chuyện tệ (server chết, chủ nhân trang web mất, ...)?"
+        "message": "Tôi có thể lấy bản sao của cơ sở dữ liệu không? Điều gì sẽ xảy ra nếu bạn biến mất?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Database được công khai và luôn có sẵn tại "
+        "message": "Cơ sở dữ liệu được công khai và luôn có sẵn tại"
     },
     "helpPageCopyOfDatabase2": {
-        "message": "Mã nguồn mở cũng luôn có sẵn. Vì vậy, ngay cả khi có điều gì đó tệ, các phân đoạn cũng sẽ không biến mất."
+        "message": "Mã nguồn mở cũng được có sẵn một cách tự do. Vì vậy, ngay cả khi có điều gì đó xảy đến với mình, các phân đoạn bạn đã gửi cũng sẽ không biến mất."
     },
     "helpPageNews": {
-        "message": "Tôi có thể cập nhật tin tức ở đâu?"
+        "message": "Cập nhật tin tức và cách hoạt động"
     },
     "helpPageSourceCode": {
-        "message": "Bạn có thể tìm thấy source code ở đâu?"
+        "message": "Tôi có thể tìm thấy mã nguồn ở đâu?"
     },
     "Credits": {
         "message": "Lời cảm ơn đến"
@@ -1079,13 +1079,13 @@
         "message": "Xem toàn bộ đầy đủ thông tin"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "Hạ bình chọn và tạo một bản sao cục bộ cho bạn gửi lại"
+        "message": "Phản đối và tạo một bản sao cục bộ để cho bạn gửi lại"
     },
     "OpenCategoryWikiPage": {
-        "message": "Mở trang wiki của danh mục này để tìm hiểu thêm."
+        "message": "Mở trang wiki của danh mục này."
     },
     "CopyAndDownvote": {
-        "message": "Sao chép và hạ bình chọn"
+        "message": "Sao chép và phản đối"
     },
     "ContinueVoting": {
         "message": "Tiếp tục bỏ phiếu"
@@ -1097,7 +1097,7 @@
         "message": "Phản đối"
     },
     "upvote": {
-        "message": "Bình chọn"
+        "message": "Đồng ý"
     },
     "hideSegment": {
         "message": "Ẩn phân đoạn"
@@ -1803,81 +1803,81 @@
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvLiveContentWarning": {
-        "message": "On YouTube TV, SponsorBlock is not compatible with live and recently-recorded content. If this is a recent recording, please wait a few hours for the processed version of the recording to become available.",
+        "message": "Trên YouTube TV, SponsorBlock không có tích hợp với các nội dung trực tiếp và được ghi hình gần đây. Nếu đây là một bản ghi hình gần đây, xin hãy đợi vài tiếng để cho phiên bản đã được xử lý trở nên có sẵn.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "yttvNoChannelWhitelist": {
-        "message": "Channel whitelisting is not supported on tv.youtube.com.",
+        "message": "Danh sách trắng kênh không được hỗ trợ trên tv.youtube.com.",
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
-        "message": "Like the original title?",
+        "message": "Thích tiêu đề nguyên gốc không?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
     },
     "Yes": {
-        "message": "Yes"
+        "message": "Có"
     },
     "No": {
-        "message": "No"
+        "message": "Không"
     },
     "votes": {
-        "message": "{0} votes",
+        "message": "{0} bình chọn",
         "description": "Appears as `5 votes`. Do not change the {0}"
     },
     "vote": {
-        "message": "{0} vote",
+        "message": "{0} bình chọn",
         "description": "Appears as `1 vote`. Do not change the {0}"
     },
     "dearrow_category_funny": {
-        "message": "Funny",
+        "message": "Hài hước",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_creative": {
-        "message": "Creative",
+        "message": "Sáng tạo",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_clever": {
-        "message": "Clever",
+        "message": "Thông minh",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_descriptive": {
-        "message": "Descriptive",
+        "message": "Chi tiết",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_other": {
-        "message": "Other",
+        "message": "Khác",
         "description": "Category for DeArrow casual mode"
     },
     "ClassicMode": {
-        "message": "Classic mode",
+        "message": "Chế độ nguyên bản",
         "description": "Classic mode is a mode in DeArrow"
     },
     "ClassicModeDescription": {
-        "message": "Titles are replaced with standardized formats based on the guidelines on all videos where a crowdsourced title exists."
+        "message": "Các tiêu đề được thay thế với các dạng được tiêu chuẩn hóa dựa trên bộ hướng dẫn trên tất cả video khi có một tựa đề được cộng đồng đóng góp."
     },
     "CasualMode": {
-        "message": "Casual mode",
+        "message": "Chế độ thoải mái",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
-        "message": "Keep original titles when they describe the video well enough and are clever or funny.\nChoose which categories of titles you want to see.\nYou'll be able to vote if a title fits into a category or not."
+        "message": "Giữ tiêu đề cơ bản khi chúng mô tả đủ tốt video và có tính thông minh hoặc hài hước.\nHãy chọn danh mục của tiêu đề bạn muốn xem.\nBạn sẽ có thể bình chọn nếu tiêu đề có hợp vào một danh mục hay không."
     },
     "minimumVotes": {
-        "message": "Minimum votes",
+        "message": "Số bình chọn nhỏ nhất",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Show original thumbnail on casual mode voted videos",
+        "message": "Hiển thị hình thu nhỏ gốc trên các video đã bình chọn trong chế độ thoải mái",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
-        "message": "New feature: Casual mode",
+        "message": "Chức năng mới: Chế độ thoải mái",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "onlyShowCasualIconForCustom": {
-        "message": "Only show casual mode icon when a custom title is available"
+        "message": "Chỉ hiện hình chế độ thoải mái khi một tiêu đề tự đặt có sẵn"
     },
     "OpenSettings": {
-        "message": "Open settings"
+        "message": "Mở cài đặt"
     }
 }
