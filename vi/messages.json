@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Mở Menu Phân Đoạn Đã Gửi"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Open casual mode menu"
+    },
     "sortSegments": {
         "message": "Sắp xếp phân đoạn"
     },
@@ -311,6 +314,14 @@
         "message": "Đóng thông báo bỏ qua",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Downvote segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Upvote segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Chương tiếp",
         "description": "Keybind label"
@@ -384,6 +395,10 @@
     "skipped_to_category": {
         "message": "Đã bỏ qua đến {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Voted on {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Tắt tự động bỏ qua"
@@ -715,6 +730,18 @@
     },
     "category_preview_guideline3": {
         "message": "Không dành cho các phần thêm nội dung bổ sung"
+    },
+    "category_filler": {
+        "message": "Tangents/Jokes"
+    },
+    "category_filler_description": {
+        "message": "Tangential scenes or jokes that are not required to understand the main content of the video. This should not include segments providing context or background details. This is a very aggressive category meant for when you aren't in the mood for \"fun\"."
+    },
+    "category_filler_short": {
+        "message": "Tangents"
+    },
+    "category_filler_guideline1": {
+        "message": "Tangential scenes or jokes"
     },
     "category_filler_guideline2": {
         "message": "Các phân cảnh làm phiền, quay lỗi, phát lại"
@@ -1432,6 +1459,12 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Nếu bạn luôn muốn biết liệu tiêu đề/hình thu nhỏ có bị thay đổi hay không, hãy bật tính năng này."
     },
+    "showOriginalOnHover": {
+        "message": "Swap between custom details and original details on hover"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Show custom title on hover if a casual mode title is being shown"
+    },
     "showIconForFormattedTitles": {
         "message": "Hiển thị nút \"Hiện chi tiết gốc\" cho các tiêu đề được định dạng tự động"
     },
@@ -1446,6 +1479,10 @@
         "message": "Hình thu nhỏ",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Casual votes",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Lỗi"
     },
@@ -1454,6 +1491,9 @@
     },
     "ShowModified": {
         "message": "Hiện chi tiết đã sửa đổi"
+    },
+    "ShowFormatted": {
+        "message": "Show Formatted Details"
     },
     "FillerWarning": {
         "message": "Cảnh báo: Đây là một danh mục cực kỳ khó. Rất có thể bạn sẽ phải bỏ qua một số nội dung hoặc đôi khi phải tắt nó. Xin lưu ý rằng nhiều video có tỉ lệ bỏ qua đến 50% hoặc nhiều hơn! Tuy nhiên, hãy nhớ rằng vẫn có những nguyên tắc cụ thể cần tuân thủ khi gửi.",
@@ -1761,5 +1801,83 @@
     "areYouSureOriginalVote": {
         "message": "Bạn có chắc rằng hình thu nhỏ gốc này tuân theo các nguyên tắc của DeArrow không? Nếu bạn chỉ thích xem hình thu nhỏ gốc nói chung, hãy cân nhắc thay đổi tùy chọn 'Khi không có hình thu nhỏ được gửi' trong cài đặt của DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "On YouTube TV, SponsorBlock is not compatible with live and recently-recorded content. If this is a recent recording, please wait a few hours for the processed version of the recording to become available.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Channel whitelisting is not supported on tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Like the original title?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Yes"
+    },
+    "No": {
+        "message": "No"
+    },
+    "votes": {
+        "message": "{0} votes",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} vote",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Funny",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creative",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Clever",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptive",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Other",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Classic mode",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titles are replaced with standardized formats based on the guidelines on all videos where a crowdsourced title exists."
+    },
+    "CasualMode": {
+        "message": "Casual mode",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Keep original titles when they describe the video well enough and are clever or funny.\nChoose which categories of titles you want to see.\nYou'll be able to vote if a title fits into a category or not."
+    },
+    "minimumVotes": {
+        "message": "Minimum votes",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Show original thumbnail on casual mode voted videos",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "New feature: Casual mode",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Only show casual mode icon when a custom title is available"
+    },
+    "OpenSettings": {
+        "message": "Open settings"
     }
 }
