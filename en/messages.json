@@ -753,7 +753,7 @@
         "message": "Music: Non-Music Section"
     },
     "category_music_offtopic_description": {
-        "message": "Only for use in music videos. This only should be used for sections of music videos that aren't already covered by another category."
+        "message": "Only for use in music videos. This category exists detached from other categories and is allowed to overlap with other categegories."
     },
     "category_music_offtopic_short": {
         "message": "Non-Music"
