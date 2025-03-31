@@ -314,6 +314,14 @@
         "message": "關閉跳過提醒",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "倒讚片段",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "按讚片段",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "下一章節",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "已跳至{0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "已對{0}投票",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "停用自動跳過"
@@ -1341,7 +1353,7 @@
         "message": "當沒有提交的縮圖時"
     },
     "whatThumbnailFallbackOption": {
-        "message": "選擇隨機時間時，系統會使用 SponsorBlock 資料，確保不會選到推廣片段中的時間。",
+        "message": "當選擇隨機時間時，會使用 SponsorBlock 的資料來確保不會選到贊助或廣告宣傳的區段。",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
@@ -1449,6 +1461,9 @@
     },
     "showOriginalOnHover": {
         "message": "滑鼠懸停時切換自訂細節與原始細節"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "滑鼠懸停時顯示自訂標題（若目前顯示隨性模式標題）"
     },
     "showIconForFormattedTitles": {
         "message": "針對自動格式化的標題顯示「顯示原始版本」按鈕"
@@ -1591,7 +1606,7 @@
         "message": "如果您喜歡我目前為止的成果，並想提供金錢贊助，請點選此連結"
     },
     "termsAgreement": {
-        "message": "使用此擴充功能，即表示您同意 {privacy-policy} 和 {terms}"
+        "message": "使用這個擴充功能，即表示您同意 {privacy-policy} 和 {terms}"
     },
     "privacyPolicy": {
         "message": "隱私權政策"
@@ -1786,6 +1801,14 @@
     "areYouSureOriginalVote": {
         "message": "您確定此原始縮圖符合 DeArrow 規範嗎？如果您只是通常比較喜歡看到原始縮圖，請考慮在 DeArrow 設定中變更「當沒有提交的縮圖時」選項。",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "在 YouTube TV 上，SponsorBlock 與直播和最近錄製的內容不相容。如果這是最近錄製的內容，請稍候幾個小時，等待錄製內容的處理版本可用。",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "tv.youtube.com 不支援頻道白名單功能。",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "喜歡原始標題嗎？",
