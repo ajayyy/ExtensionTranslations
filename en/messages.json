@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "You are about to reset the Invidious instance list"
     },
+    "invidiousDisabledSafari": {
+        "message": "Invidious support is not available on Safari at the moment due to a bug in Safari. When Apple fixes the bug, it will be added back."
+    },
     "currentInstances": {
         "message": "Current Instances:"
     },
