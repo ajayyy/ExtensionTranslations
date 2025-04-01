@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Vous êtes sur le point de réinitialiser la liste des instances Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "La prise en charge d'Invidious n'est actuellement pas disponible sur Safari en raison d'un bug dans Safari. Une fois le bug corrigé par Apple, elle sera réintégrée."
+    },
     "currentInstances": {
         "message": "Instances actuelles :"
     },
