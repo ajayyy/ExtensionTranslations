@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Вы собираетесь сбросить список инстансов Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "В настоящее время из-за ошибки в Safari отсутствует поддержка Invidious. Когда Apple исправит ошибку, она будет добавлена обратно."
+    },
     "currentInstances": {
         "message": "Текущие инстансы:"
     },
