@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Olet nollaamassa Invidious-instanssien listan"
     },
+    "invidiousDisabledSafari": {
+        "message": "Invidious tuki ei ole saatavilla Safari-selaimella tällä hetkellä Safarissa olevan vian takia. Kun Apple korjaa vian, se lisätään takaisin."
+    },
     "currentInstances": {
         "message": "Nykyiset instanssit:"
     },
