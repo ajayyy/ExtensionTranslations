@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Chystáte se obnovit seznam relací Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "Podpora Invidious není v tuto chvíli v prohlížeči Safari dostupná kvůli chybě v prohlížeči. Jakmile Apple chybu opraví, bude funkce přidána zpět."
+    },
     "currentInstances": {
         "message": "Aktuální relace:"
     },
