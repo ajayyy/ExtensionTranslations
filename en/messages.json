@@ -490,9 +490,6 @@
     "resetInvidiousInstanceAlert": {
         "message": "You are about to reset the Invidious instance list"
     },
-    "invidiousDisabledSafari": {
-        "message": "Invidious support is not available on Safari at the moment due to a bug in Safari. When Apple fixes the bug, it will be added back."
-    },
     "currentInstances": {
         "message": "Current Instances:"
     },
@@ -832,6 +829,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Auto skip all segments when there is a non-music segment"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Auto-Skip non-music segments on YouTube Music only. The setting to auto-skip all segments on videos with non-music segments also works on YouTube Music only"
     },
     "muteSegments": {
         "message": "Allow segments that mute audio instead of skip"
