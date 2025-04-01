@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Abrir menu de envio"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Abrir o menu do modo casual"
+    },
     "sortSegments": {
         "message": "Organizar segmentos"
     },
@@ -384,6 +387,10 @@
     "skipped_to_category": {
         "message": "Pulado para {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Votado em {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Desativar pulo automático"
@@ -1458,6 +1465,10 @@
         "message": "Miniaturas",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Votos casuais",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Erro"
     },
@@ -1773,5 +1784,75 @@
     "areYouSureOriginalVote": {
         "message": "Tem a certeza de que esta miniatura original segue as diretrizes DeArrow? Se preferir ver miniaturas originais em geral, considere alterar a opção “Quando não existe uma miniatura apresentada” nas definições DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "likeOriginalTitle": {
+        "message": "Gostou do título original?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Sim"
+    },
+    "No": {
+        "message": "Não"
+    },
+    "votes": {
+        "message": "{0} votos",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} voto",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Engraçado",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Criativo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Inteligente",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descritivo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Outros",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Modo clássico",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Os títulos são substituídos por formatos normalizados com base nas diretrizes em todos os vídeos em que existe um título de crowdsourcing."
+    },
+    "CasualMode": {
+        "message": "Modo casual",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Mantenha os títulos originais quando estes descreverem o vídeo suficientemente bem e forem inteligentes ou divertidos.\nEscolha as categorias de títulos que quer ver.\nPoderá votar se um título se enquadra numa categoria ou não."
+    },
+    "minimumVotes": {
+        "message": "Votação mínima",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Mostrar a miniatura original de vídeos no modo casual",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nova funcionalidade: Modo casual",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Mostrar o ícone do modo casual apenas quando estiver disponível um título personalizado"
+    },
+    "OpenSettings": {
+        "message": "Abrir as definições"
     }
 }
