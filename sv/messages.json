@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Du kommer nu att återställa Invidious instanslista"
     },
+    "invidiousDisabledSafari": {
+        "message": "Invidious support är inte tillgängligt på Safari just nu på grund av ett fel i Safari. När Apple fixar felet kommer den att läggas tillbaka."
+    },
     "currentInstances": {
         "message": "Nuvarande Instanser:"
     },
