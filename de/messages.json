@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Du bist dabei, die Liste der Invidious-Instanzen zurückzusetzen"
     },
+    "invidiousDisabledSafari": {
+        "message": "Die Unterstützung von Invidious ist aufgrund eines Fehlers in Safari derzeit nicht verfügbar. Sobald Apple den Fehler behebt, wird es wieder hinzugefügt."
+    },
     "currentInstances": {
         "message": "Aktuelle Instanzen:"
     },
