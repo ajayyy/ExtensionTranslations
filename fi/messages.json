@@ -491,7 +491,7 @@
         "message": "Olet nollaamassa Invidious-instanssien listan"
     },
     "invidiousDisabledSafari": {
-        "message": "Invidious tuki ei ole saatavilla Safari-selaimella tällä hetkellä Safarissa olevan vian takia. Kun Apple korjaa vian, se lisätään takaisin."
+        "message": "Invidious-tuki ei ole tällä hetkellä käytettävissä Safarissa siinä olevan vian takia. Tuki palautetaan Applen korjattua vian."
     },
     "currentInstances": {
         "message": "Nykyiset instanssit:"
