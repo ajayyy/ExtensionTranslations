@@ -482,6 +482,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Ви збираєтеся скинути список інстанси Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "Безглузда підтримка на даний момент недоступна в Safari через помилку в Safari. Коли Apple виправляє помилку, вона буде додана назад."
+    },
     "currentInstances": {
         "message": "Поточні інстанси:"
     },

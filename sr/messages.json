@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Управо ћете ресетовати Invidious листу инстанци"
     },
+    "invidiousDisabledSafari": {
+        "message": "Тренутно није доступна подршка за Invidious у Safari-ју због грешке у Safari-ју. Када Apple исправи грешку, подршка ће бити поново додата."
+    },
     "currentInstances": {
         "message": "Тренутне инстанце:"
     },

@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Otwórz menu zgłoszenia"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Otwórz menu trybu swobodnego"
+    },
     "sortSegments": {
         "message": "Sortuj segmenty"
     },
@@ -311,6 +314,14 @@
         "message": "Zamknij powiadomienie o pominięciu",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Oceń segment negatywnie",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Oceń segment pozytywnie",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Następny rozdział",
         "description": "Keybind label"
@@ -384,6 +395,10 @@
     "skipped_to_category": {
         "message": "Przewinięto do {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Zagłosowano na {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Wyłącz autopomijanie"

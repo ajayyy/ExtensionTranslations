@@ -1437,6 +1437,10 @@
     "ShowFormatted": {
         "message": "Zobraziť naformátované detaily"
     },
+    "showGuidelineHelp": {
+        "message": "Zobraziť inštrukcie",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
     "tip1": {
         "message": "Vyhýbajte sa prehnaným výrazom tváre",
         "description": "Referring to the thumbnail of a video"
@@ -1455,6 +1459,10 @@
     "tip5": {
         "message": "Vetu začnite veľkým písmenom",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Pred odoslaním si prečítajte všetky inštrukcie",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
         "message": "Môj názov začína veľkým písmenom",

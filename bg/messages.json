@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "На път сте да нулирате списъка на Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "В момента поддръжката на Invidious не е налична в Safari поради грешка в Safari. Когато Apple отстрани грешката, ще бъде добавен обратно."
+    },
     "currentInstances": {
         "message": "Текущи екземпляри:"
     },
