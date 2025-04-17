@@ -946,6 +946,9 @@
     "incorrectCategory": {
         "message": "שינוי קטגוריה"
     },
+    "nonMusicCategoryOnMusic": {
+        "message": "סרטון זה מסווג כמוזיקה. האם אתה בטוח שיש בו נותן חסות? אם זהו למעשה \"קטע לא מוסיקה\", פתח את אפשרויות ההרחבה ואפשר קטגוריה זו. לאחר מכן, באפשרותך להגיש את הקטע הזה כ\"לא מוזיקה \"במקום נותן חסות. אנא קרא את ההנחיות אם אתה מסופק."
+    },
     "multipleSegments": {
         "message": "מספר מקטעים"
     },
@@ -959,12 +962,24 @@
     "categoryUpdate1": {
         "message": "קטגוריות נמצאות כאן!"
     },
+    "categoryUpdate2": {
+        "message": "פתח את האפשרויות לדלג על Intros, Outros, Merch וכו '."
+    },
     "help": {
         "message": "עזרה"
     },
     "GotIt": {
         "message": "הבנתי",
         "description": "Used as the button to dismiss a tooltip"
+    },
+    "fullVideoTooltipWarning": {
+        "message": "זהו קטע גדול. אם הסרטון כולו עוסק בנושא אחד, שנה מ\"דלג\" ל\"ווידיאו מלא\". עיין בהנחיות למידע נוסף."
+    },
+    "categoryPillTitleText": {
+        "message": "הסרטון כולו מסומן כקטגוריה זו ומשולב כדי להיות מסוגל להפריד"
+    },
+    "chapterNameTooltipWarning": {
+        "message": "אחד משמות הפרקים שלך דומה לקטגוריה. עליך להשתמש בקטגוריות במידת האפשר במקום."
     },
     "experiementOptOut": {
         "message": "לא מעוניין להשתתף בניסויים עתידיים",
@@ -973,14 +988,23 @@
     "hideForever": {
         "message": "הסתרה לעד"
     },
+    "warningChatInfo": {
+        "message": "שמנו לב שאתה עושה כמה טעויות נפוצות. אנו מעריכים מאוד את העבודה שלך עד כה, אך אנו שואפים לשלמות כאן, כך שאפילו טעויות קטנות מאוד חשובות :)"
+    },
     "questionButton": {
         "message": "יש לי שאלה נוספת"
+    },
+    "askAQuestion": {
+        "message": "שאל שאלה"
     },
     "warningConfirmButton": {
         "message": "הבנתי את הסיכונים"
     },
     "warningError": {
         "message": "שגיאה בעת ניסיון לאשר אזהרה:"
+    },
+    "deArrowMessageRecieved": {
+        "message": "קיבלת טיפ מהמנחה"
     },
     "Donate": {
         "message": "תרומה"
@@ -1000,11 +1024,23 @@
     "helpPageReviewOptions": {
         "message": "נא לסקור את האפשרויות הבאות"
     },
+    "helpPageFeatureDisclaimer": {
+        "message": "תכונות רבות מושבתות כברירת מחדל. אם אתה רוצה לדלג על Intros, Outros, השתמש ב- Invidious וכו ', הפעל אותם למטה. אתה יכול גם להסתיר/להציג אלמנטים של ממשק משתמש."
+    },
     "helpPageHowSkippingWorks": {
         "message": "כיצד דילוג עובד"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "קטעי וידאו ידלגו אוטומטית אם הם יימצאו במסד הנתונים. אתה יכול לפתוח את החלון קופץ על ידי לחיצה על סמל ההרחבה כדי לקבל תצוגה מקדימה של מה שהם."
+    },
+    "helpPageHowSkippingWorks2": {
+        "message": "בכל פעם שתדלג על קטע, תבחין. אם התזמון נראה לא נכון הצבעה על ידי לחיצה על הדיסלייק! אתה יכול גם להצביע בלייק."
+    },
     "Submitting": {
         "message": "שולח"
+    },
+    "helpPageSubmitting1": {
+        "message": "הגשה יכולה להיעשות בחלון קובץ על ידי לחיצה על כפתור \"הקטע מתחיל עכשיו\" או בנגן הווידיאו עם הכפתורים על הנגן."
     },
     "Editing": {
         "message": "עריכה"
