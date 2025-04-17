@@ -294,8 +294,40 @@
         "message": "דלג קטע",
         "description": "Keybind label"
     },
+    "setStartSponsorShortcut": {
+        "message": "התחל/עצור מקטע",
+        "description": "Keybind label"
+    },
+    "setOpenSubmissionMenuKeybind": {
+        "message": "פתח תפריט הגשה",
+        "description": "Keybind label"
+    },
+    "setSubmitKeybind": {
+        "message": "הגש מקטעים",
+        "description": "Keybind label"
+    },
+    "setPreviewKeybind": {
+        "message": "קטע בתצוגה מקדימה",
+        "description": "Keybind label"
+    },
+    "setCloseSkipNoticeKeybind": {
+        "message": "סגור התראת דילוג",
+        "description": "Keybind label"
+    },
+    "setDownvoteKeybind": {
+        "message": "דירוג שלילי מקטע",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "דירוג חיובי מקטע",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "הפרק הבא",
+        "description": "Keybind label"
+    },
+    "previousChapterKeybind": {
+        "message": "הפרק הקודם",
         "description": "Keybind label"
     },
     "disableSkipping": {
