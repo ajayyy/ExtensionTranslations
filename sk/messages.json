@@ -312,7 +312,7 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Hlasovať nie za segment",
+        "message": "Hlasovať proti segmentu",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
@@ -1442,10 +1442,10 @@
         "message": "Zobraziť pôvodné detaily"
     },
     "ShowModified": {
-        "message": "Zobraziť upravené detaily"
+        "message": "Zobraziť upravené podrobnosti"
     },
     "ShowFormatted": {
-        "message": "Zobraziť naformátované detaily"
+        "message": "Zobraziť naformátované podrobnosti"
     },
     "showGuidelineHelp": {
         "message": "Zobraziť inštrukcie",
@@ -1471,7 +1471,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Pred odoslaním si prečítajte všetky inštrukcie",
+        "message": "Skontrolujte všetky pokyny na odoslanie",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
