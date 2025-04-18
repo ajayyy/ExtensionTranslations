@@ -731,6 +731,9 @@
     "category_filler": {
         "message": "Mimo tému/vtipy"
     },
+    "category_filler_description": {
+        "message": "Vedľajšie scény alebo vtipy, ktoré nie sú potrebné na pochopenie hlavného obsahu videa. Kategória by nemala zahŕňať segmenty poskytujúce podrobnosti o kontexte alebo pozadí. Ide o veľmi agresívnu kategóriu určenú na to, keď nemáte náladu na „zábavu“."
+    },
     "category_filler_short": {
         "message": "Mimo tému"
     },
@@ -1296,6 +1299,10 @@
         "message": "Chýba okno pre zobrazenie náhľadu",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
+    "ExceptionWhileRendering": {
+        "message": "Chyba počas vykresľovania",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
+    },
     "FailedToLoad": {
         "message": "Nahrávanie neúspešné",
         "description": "Thumbnail failed to load"
@@ -1374,6 +1381,9 @@
     },
     "abThumbnailsWarning": {
         "message": "Varovanie: Toto video používa náhľady A/B testovania. Znamená to, že sa môžu meniť. Asi by ste kvôli tomu nemali hlasovať za pôvodný náhľad."
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Po hlasovaní ponechajte odoslané hlasy, aby sa namiesto najlepšie hodnotených titulov na serveri zobrazovali tituly a náhľady, ktoré ste vybrali."
     },
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
