@@ -187,10 +187,10 @@
         "message": "Copy Segment ID"
     },
     "loopChapter":{
-        "message": "Loop Chapter"
+        "message": "Loop chapter"
     },
     "unloopChapter":{
-        "message": "Unloop Chapter"
+        "message": "Unloop chapter"
     },
     "hideThis": {
         "message": "Hide this"
