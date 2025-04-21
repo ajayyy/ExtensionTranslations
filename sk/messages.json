@@ -1255,6 +1255,12 @@
     "exportSegmentsAsURL": {
         "message": "Zdieľať URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Varovanie: Server zatiaľ neodpovedal so segmentmi. V tomto videu sa už môžu nachádzať odoslané segmenty, ale kvôli chybe na serveri ste ich neobdržali."
+    },
+    "allowScrollingToEdit": {
+        "message": "Povoliť skrolovanie k časom úprav"
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
@@ -1385,6 +1391,9 @@
     "whatKeepUnsubmitted": {
         "message": "Po hlasovaní ponechajte odoslané hlasy, aby sa namiesto najlepšie hodnotených titulov na serveri zobrazovali tituly a náhľady, ktoré ste vybrali."
     },
+    "keepUnsubmittedInPrivate": {
+        "message": "Ukladať odoslané hlasy z anonymných kariet"
+    },
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
     },
@@ -1393,6 +1402,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "V odporúčaniach budú názvy videí zobrazené na daný počet riadkov."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Úroveň sýtosti náhľadov"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Zmenšiť výraznosť náhľadov znížením ich farby"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Skryť podrobnosti počas načítavania"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Skryť názvy a náhľady pri načítavaní dát zo servera. Ak je táto funkcia zakázaná, pri zmene názvov a náhľadov uvidíte blikanie."
     },
     "ignoreTranslatedTitles": {
         "message": "Nezobrazovať preložené názvy",
@@ -1414,6 +1435,13 @@
     },
     "thumbnailGeneratorDescription1": {
         "message": "Služba generovania miniatúr výrazne urýchľuje generovanie miniatúr odoslaním anonymnej požiadavky s ID videa na server. Miniatúra sa potom buď vygeneruje, alebo stiahne z vyrovnávacej pamäte, ak už bola vygenerovaná."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Pri použití na stránkach s videom by mohlo dôjsť k úniku nezaradených ID videí na tento server. Nastavením tejto možnosti na „Na všetkých stránkach okrem stránok videí‘ sa tomuto problému vyhnete. Ďalšou možnosťou je hosťovať vlastnú službu generovania miniatúr."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ak je používanie služby generovania miniatúr zakázané, všetky požiadavky budú používať systém k-anonymných dopytov, čo sťažuje serveru predvídať, ktoré videá boli načítané, a bude použitá pomalšia miestna služba generovania miniatúr.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
         "message": "Zdrojový kód služby pre generovanie miniatúr"
