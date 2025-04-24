@@ -1501,6 +1501,10 @@
     "ShowFormatted": {
         "message": "Zobraziť naformátované podrobnosti"
     },
+    "FillerWarning": {
+        "message": "Varovanie: Toto je veľmi agresívna kategória. S najväčšou pravdepodobnosťou budete musieť niekedy zrušiť preskočenie alebo zakázať kategóriu. Upozorňujeme, že pri mnohých videách je preskočených viac ako 50 % videa! Nezabudnite však, že pri odosielaní je stále potrebné dodržiavať konkrétne pokyny.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
     "chatboxDescription": {
         "message": "Ak chcete v tomto chate zostať natrvalo, pripojte sa na Discord alebo Matrix",
         "description": "Appears on the top of the integrated chatbox"
@@ -1536,6 +1540,10 @@
         "message": "Môj názov začína veľkým písmenom",
         "description": "Tip title in DeArrow"
     },
+    "answeringQuestionTipTitle": {
+        "message": "Môj názov neodpovedá len na otázku v aktuálnom názve",
+        "description": "Tip title in DeArrow"
+    },
     "answeringQuestionTipSubTitle": {
         "message": "Názov by mal opisovať video a jeho obsah. Mali by ste si pozrieť celé video namiesto toho, že si len prečítate zaujímavý pôvodný názov.",
         "description": "Tip subtitle in DeArrow"
@@ -1545,19 +1553,43 @@
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Nadpisy nemajú úplne nahradiť sledovanie videa, ale slúžia na to, aby si vedel, či naň kliknúť alebo nie.",
+        "message": "Názvy nemajú úplne nahradiť sledovanie videa, ale slúžia na to, aby si vedel, či naň kliknúť alebo nie.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
         "message": "Môj názov neoveruje fakty, nezosmiešňuje ani nekritizuje video alebo jeho autora",
         "description": "Tip title in DeArrow"
     },
+    "noFactCheckTipSubTitle": {
+        "message": "Názvy majú vychádzať z pohľadu tvorcu a samotného videa. Hodnotenie alebo overovanie faktov vo videu nepatrí do rozsahu projektu DeArrow. Názvy nemajú slúžiť ako sekcia komentárov.",
+        "description": "Tip subtitle in DeArrow"
+    },
     "DetectedWord": {
         "message": "Rozpoznané slovo: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
+    "DeArrowDiscussingWarning": {
+        "message": "Na začiatku názvu nepoužívajte zbytočné slovesá",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Začnite všetky názvy veľkým písmenom. Nadpisy by mali byť naformátované ako veta",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEndWithPeriodWarning": {
         "message": "Názvy by nemali končiť bodkou",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Nepridávajte len odpoveď na pôvodnú otázku. Názvy by mali všeobecne popisovať video alebo príbeh",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Názvy by nemali overovať fakty, nezosmiešňovať ani kritizovať video alebo tvorcu",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Názvy by nemali zachovávať senzáciechtivé prvky z pôvodného názvu",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
@@ -1602,6 +1634,10 @@
     },
     "useCrowdsourcedTitles": {
         "message": "Používať crowdsource-ové názvy"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Pri zakázaní budú názvy formátované, ale nebudú použité ich verzie vytvorené komunitou",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Naozaj chcete toto nastavenie zmazať?",
