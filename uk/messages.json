@@ -186,6 +186,9 @@
     "copySegmentID": {
         "message": "Копіювати ID сегмента"
     },
+    "loopChapter": {
+        "message": "Повторення розділу"
+    },
     "hideThis": {
         "message": "Приховати це"
     },
@@ -824,6 +827,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Автоматично пропустити усі сегменти, якщо присутній сегмент без музики"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Автоматично пропустити лише на music.youtube.com"
     },
     "muteSegments": {
         "message": "Дозволити сегменти, які відключають звук замість пропуску"
