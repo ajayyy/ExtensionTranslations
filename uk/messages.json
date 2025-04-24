@@ -187,7 +187,10 @@
         "message": "Копіювати ID сегмента"
     },
     "loopChapter": {
-        "message": "Повторення розділу"
+        "message": "Повтор розділу"
+    },
+    "unloopChapter": {
+        "message": "Вимкнути повтор розділу"
     },
     "hideThis": {
         "message": "Приховати це"
@@ -253,7 +256,7 @@
         "message": "Показувати сповіщення після пропуску сегмента"
     },
     "showUpcomingNotice": {
-        "message": "Показати сповіщення, перед початком сегменту"
+        "message": "Показати примітку перед початком сегмента"
     },
     "showCategoryGuidelines": {
         "message": "Показати Довідку по Категоріях"
@@ -315,6 +318,14 @@
     },
     "setCloseSkipNoticeKeybind": {
         "message": "Закрити сповіщення про пропуск",
+        "description": "Keybind label"
+    },
+    "setDownvoteKeybind": {
+        "message": "Проголосувати \"проти\" сегмента",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Проголосувати \"за\" сегмент",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
