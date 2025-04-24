@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Szegmens ID másolása"
     },
+    "loopChapter": {
+        "message": "Fejezet ismétlése"
+    },
+    "unloopChapter": {
+        "message": "Fejezet ismétlésének befejezése"
+    },
     "hideThis": {
         "message": "Elrejtés"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Minden szegmens automatikus átugrása, ha van nem-zene szegmens"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Csak a music.youtube.com-on ugorja át automatikusan"
     },
     "muteSegments": {
         "message": "Szegmensek engedélyezése, amelyek lenémítják a hangot az átugrás helyett"
