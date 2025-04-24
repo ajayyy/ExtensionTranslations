@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Копирај ID сегмента"
     },
+    "loopChapter": {
+        "message": "Понављање поглавља"
+    },
+    "unloopChapter": {
+        "message": "Без понављања поглавља"
+    },
     "hideThis": {
         "message": "Сакриј ово"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Аутоматски прескочи све сегменте када постоји сегмент без музике"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Аутоматско прескакање само на music.youtube.com"
     },
     "muteSegments": {
         "message": "Дозволи сегменте који утишавају звук уместо да га прескачу"
