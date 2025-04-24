@@ -839,6 +839,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Auto skip all segments when there is a non-music segment"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Only auto skip on music.youtube.com"
+    },
     "muteSegments": {
         "message": "Allow segments that mute audio instead of skip"
     },
