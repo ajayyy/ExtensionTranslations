@@ -180,6 +180,12 @@
     "copySegmentID": {
         "message": "Copiar ID de Segmento"
     },
+    "loopChapter": {
+        "message": "Acoplar cspítulo"
+    },
+    "unloopChapter": {
+        "message": "Desacoplar capítulo"
+    },
     "hideThis": {
         "message": "No mostrar esto"
     },
