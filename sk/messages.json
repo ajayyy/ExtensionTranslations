@@ -183,6 +183,12 @@
     "copySegmentID": {
         "message": "Skopírovať ID segmentu"
     },
+    "loopChapter": {
+        "message": "Opakovať kapitolu"
+    },
+    "unloopChapter": {
+        "message": "Zrušiť opakovanie kapitoly"
+    },
     "hideThis": {
         "message": "Skryť"
     },
@@ -827,6 +833,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Automaticky preskočiť všetky segmenty ak neexistuje segment bez hudby"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Automaticky preskočiť len na music.youtube.com"
+    },
     "muteSegments": {
         "message": "Povoliť segmenty, ktoré namiesto preskočenia stíšía zvuk"
     },
@@ -1446,8 +1455,21 @@
     "thumbnailGeneratorSourceCode": {
         "message": "Zdrojový kód služby pre generovanie miniatúr"
     },
+    "moreAboutKAnonymity": {
+        "message": "Viac informácií o K-Anonymite",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Vždy zobrazovať tlačidlo „Zobraziť originál\""
+    },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ak chcete vždy vedieť, či sa názov/miniatúra zmenila, zapnite si túto funkciu."
+    },
+    "showOriginalOnHover": {
+        "message": "Pri prechode myšou prepni medzi vlastnými a pôvodnými podrobnosťami"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zobraziť vlastný názov pri prejdení myšou, ak je zobrazený názov z normálneho režimu"
     },
     "showIconForFormattedTitles": {
         "message": "Zobraziť tlačidlo \"Ukázať originál\" pri automaticky upravených názvoch"
@@ -1463,6 +1485,10 @@
         "message": "Náhľady",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Hlasy v normálnom režime",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Chyba"
     },
@@ -1474,6 +1500,10 @@
     },
     "ShowFormatted": {
         "message": "Zobraziť naformátované podrobnosti"
+    },
+    "chatboxDescription": {
+        "message": "Ak chcete v tomto chate zostať natrvalo, pripojte sa na Discord alebo Matrix",
+        "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
         "message": "Zobraziť inštrukcie",
@@ -1509,6 +1539,18 @@
     "answeringQuestionTipSubTitle": {
         "message": "Názov by mal opisovať video a jeho obsah. Mali by ste si pozrieť celé video namiesto toho, že si len prečítate zaujímavý pôvodný názov.",
         "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Môj názov nezhrňuje záver ani neprezrádza zápletku",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Nadpisy nemajú úplne nahradiť sledovanie videa, ale slúžia na to, aby si vedel, či naň kliknúť alebo nie.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Môj názov neoveruje fakty, nezosmiešňuje ani nekritizuje video alebo jeho autora",
+        "description": "Tip title in DeArrow"
     },
     "DetectedWord": {
         "message": "Rozpoznané slovo: ",
