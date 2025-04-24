@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Segment-ID kopieren"
     },
+    "loopChapter": {
+        "message": "Kapitel wiederholen"
+    },
+    "unloopChapter": {
+        "message": "Kapitel nicht mehr wiederholen"
+    },
     "hideThis": {
         "message": "Verstecken"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Alle Segmente automatisch überspringen, wenn ein Nicht-Musiksegment vorhanden ist"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Nur auf music.youtube.com automatisch überspringen"
     },
     "muteSegments": {
         "message": "Segmente zulassen, die den Ton ausschalten anstatt zu überspringen"
