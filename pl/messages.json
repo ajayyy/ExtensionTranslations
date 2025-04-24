@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Otwórz menu zgłoszenia"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Otwórz menu trybu swobodnego"
+    },
     "sortSegments": {
         "message": "Sortuj segmenty"
     },
@@ -311,6 +314,14 @@
         "message": "Zamknij powiadomienie o pominięciu",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Oceń segment negatywnie",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Oceń segment pozytywnie",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Następny rozdział",
         "description": "Keybind label"
@@ -384,6 +395,10 @@
     "skipped_to_category": {
         "message": "Przewinięto do {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Zagłosowano na {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Wyłącz autopomijanie"
@@ -474,6 +489,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Zresetujesz listę instancji Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Wsparcie dla Invidious jest niedostępne w Safari z powodu błędu Safari. Zostanie dodane z powrotem, gdy Apple naprawi błąd."
     },
     "currentInstances": {
         "message": "Obecne instancje:"
@@ -1444,6 +1462,12 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Jeśli chcesz zawsze wiedzieć, czy tytuł/miniaturka uległa zmianie, włącz tę opcję."
     },
+    "showOriginalOnHover": {
+        "message": "Zamień między niestandardowymi a oryginalnymi szczegółami po najechaniu na nie"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Pokaż niestandardowy tytuł po najechaniu, jeżeli tytuł trybu casual jest pokazywany"
+    },
     "showIconForFormattedTitles": {
         "message": "Wyświetl przycisk \"Pokaż oryginał\" dla automatycznie sformatowanych tytułów"
     },
@@ -1458,6 +1482,10 @@
         "message": "Miniaturki",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Głosy casual",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Błąd"
     },
@@ -1466,6 +1494,9 @@
     },
     "ShowModified": {
         "message": "Pokaż zmienione szczegóły"
+    },
+    "ShowFormatted": {
+        "message": "Pokaż Sformatowane Szczegóły"
     },
     "FillerWarning": {
         "message": "Uwaga: To jest niezwykle agresywna kategoria. Najprawdopodobniej będziesz musiał często cofać lub czasami nawet wyłączyć automatyczne pomijanie. Wiele filmów ma ponad 50% filmu oznaczonego tą kategorią! Należy jednak pamiętać, że nadal istnieją szczegółowe wytyczne, których należy przestrzegać przy wysyłaniu segmentów.",
@@ -1773,5 +1804,9 @@
     "areYouSureOriginalVote": {
         "message": "Czy na pewno ta oryginalna miniatura jest zgodna z wytycznymi DeArrow? Jeśli wolisz po prostu oglądać oryginalne miniatury, sprawdź opcję \"Gdy nie przesłano żadnej miniatury dla filmu\" w ustawieniach DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "SponsorBlock nie jest kompatybilny z treściami nagranymi niedawno i na żywo na YouTube TV. Jeśli to jest niedawne nagranie, proszę poczekać kilka godzin na dostępność przetworzonej wersji nagrania.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     }
 }

@@ -314,6 +314,14 @@
         "message": "Fecha notificação de pulo",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Segmento de Downvote",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Segmento de Downvote",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Próximo capítulo",
         "description": "Keybind label"
@@ -387,6 +395,10 @@
     "skipped_to_category": {
         "message": "Pulado para {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Votou em {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Desativar pulo automático"
@@ -477,6 +489,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Você está prestes a redefinir a lista de instâncias do Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "No momento, o suporte ao Invidious não está disponível no Safari devido a um bug no navegador. Quando a Apple corrigir o bug, ele será adicionado novamente."
     },
     "currentInstances": {
         "message": "Instâncias atuais:"
@@ -1450,6 +1465,9 @@
     "showOriginalOnHover": {
         "message": "Trocar entre detalhes personalizados e detalhes originais no hover"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "Mostrar título personalizado ao passar o mouse se um título de modo casual estiver sendo mostrado"
+    },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
     },
@@ -1787,6 +1805,14 @@
         "message": "Tem certeza que esta miniatura original segue as diretrizes Derow? Se você apenas prefere ver as miniaturas originais em geral, considere alterar a opção \"Quando nenhuma miniatura enviada existe\" nas configurações da Derow",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "No YouTube TV, o SponsorBlock não é compatível com conteúdo ao vivo e gravado recentemente. Se esta for uma gravação recente, por favor, espere algumas horas para que a versão processada da gravação fique disponível.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Lista branca de canais não é suportada em tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
     "likeOriginalTitle": {
         "message": "Gostou do título original?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
@@ -1850,6 +1876,9 @@
     "newCasualMode": {
         "message": "Novo recurso: Modo casual",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Mostrar apenas o ícone do modo casual quando um título personalizado estiver disponível"
     },
     "OpenSettings": {
         "message": "Abrir configurações"

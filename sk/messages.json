@@ -312,7 +312,7 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Hlasovať nie za segment",
+        "message": "Hlasovať proti segmentu",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
@@ -730,6 +730,9 @@
     },
     "category_filler": {
         "message": "Mimo tému/vtipy"
+    },
+    "category_filler_description": {
+        "message": "Vedľajšie scény alebo vtipy, ktoré nie sú potrebné na pochopenie hlavného obsahu videa. Kategória by nemala zahŕňať segmenty poskytujúce podrobnosti o kontexte alebo pozadí. Ide o veľmi agresívnu kategóriu určenú na to, keď nemáte náladu na „zábavu“."
     },
     "category_filler_short": {
         "message": "Mimo tému"
@@ -1252,6 +1255,12 @@
     "exportSegmentsAsURL": {
         "message": "Zdieľať URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Varovanie: Server zatiaľ neodpovedal so segmentmi. V tomto videu sa už môžu nachádzať odoslané segmenty, ale kvôli chybe na serveri ste ich neobdržali."
+    },
+    "allowScrollingToEdit": {
+        "message": "Povoliť skrolovanie k časom úprav"
+    },
     "NoticeTimeAfterSkip": {
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
@@ -1295,6 +1304,10 @@
     "CanvasMissing": {
         "message": "Chýba okno pre zobrazenie náhľadu",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Chyba počas vykresľovania",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
         "message": "Nahrávanie neúspešné",
@@ -1375,6 +1388,12 @@
     "abThumbnailsWarning": {
         "message": "Varovanie: Toto video používa náhľady A/B testovania. Znamená to, že sa môžu meniť. Asi by ste kvôli tomu nemali hlasovať za pôvodný náhľad."
     },
+    "whatKeepUnsubmitted": {
+        "message": "Po hlasovaní ponechajte odoslané hlasy, aby sa namiesto najlepšie hodnotených titulov na serveri zobrazovali tituly a náhľady, ktoré ste vybrali."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Ukladať odoslané hlasy z anonymných kariet"
+    },
     "useThumbnailGenerationService": {
         "message": "Použiť službu generovania miniatúr"
     },
@@ -1383,6 +1402,18 @@
     },
     "titleMaxLinesDescription": {
         "message": "V odporúčaniach budú názvy videí zobrazené na daný počet riadkov."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Úroveň sýtosti náhľadov"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Zmenšiť výraznosť náhľadov znížením ich farby"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Skryť podrobnosti počas načítavania"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Skryť názvy a náhľady pri načítavaní dát zo servera. Ak je táto funkcia zakázaná, pri zmene názvov a náhľadov uvidíte blikanie."
     },
     "ignoreTranslatedTitles": {
         "message": "Nezobrazovať preložené názvy",
@@ -1404,6 +1435,13 @@
     },
     "thumbnailGeneratorDescription1": {
         "message": "Služba generovania miniatúr výrazne urýchľuje generovanie miniatúr odoslaním anonymnej požiadavky s ID videa na server. Miniatúra sa potom buď vygeneruje, alebo stiahne z vyrovnávacej pamäte, ak už bola vygenerovaná."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Pri použití na stránkach s videom by mohlo dôjsť k úniku nezaradených ID videí na tento server. Nastavením tejto možnosti na „Na všetkých stránkach okrem stránok videí‘ sa tomuto problému vyhnete. Ďalšou možnosťou je hosťovať vlastnú službu generovania miniatúr."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Ak je používanie služby generovania miniatúr zakázané, všetky požiadavky budú používať systém k-anonymných dopytov, čo sťažuje serveru predvídať, ktoré videá boli načítané, a bude použitá pomalšia miestna služba generovania miniatúr.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
         "message": "Zdrojový kód služby pre generovanie miniatúr"
@@ -1432,10 +1470,14 @@
         "message": "Zobraziť pôvodné detaily"
     },
     "ShowModified": {
-        "message": "Zobraziť upravené detaily"
+        "message": "Zobraziť upravené podrobnosti"
     },
     "ShowFormatted": {
-        "message": "Zobraziť naformátované detaily"
+        "message": "Zobraziť naformátované podrobnosti"
+    },
+    "showGuidelineHelp": {
+        "message": "Zobraziť inštrukcie",
+        "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
         "message": "Vyhýbajte sa prehnaným výrazom tváre",
@@ -1455,6 +1497,10 @@
     "tip5": {
         "message": "Vetu začnite veľkým písmenom",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Skontrolujte všetky pokyny na odoslanie",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
         "message": "Môj názov začína veľkým písmenom",

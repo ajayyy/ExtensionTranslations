@@ -490,6 +490,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Az Invidious példányok listájának visszaállítására készülsz"
     },
+    "invidiousDisabledSafari": {
+        "message": "Safariban jelenleg nem elérhető az Invidious támogatás egy Safari hiba miatt. A funkció vissza fog kerülni, amint az Apple kijavítja a hibát."
+    },
     "currentInstances": {
         "message": "Jelenlegi példányok:"
     },
