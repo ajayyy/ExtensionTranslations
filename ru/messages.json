@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Копировать ID сегмента"
     },
+    "loopChapter": {
+        "message": "Зациклить"
+    },
+    "unloopChapter": {
+        "message": "Продолжить просмотр"
+    },
     "hideThis": {
         "message": "Скрыть это"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Пропускать все сегменты автоматически при наличии сегмента без музыки"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Пропускать автоматически только на music.youtube.com"
     },
     "muteSegments": {
         "message": "Разрешить сегменты, которые отключают звук вместо пропуска"
