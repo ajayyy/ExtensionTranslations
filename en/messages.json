@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Copy Segment ID"
     },
+    "loopChapter":{
+        "message": "Loop chapter"
+    },
+    "unloopChapter":{
+        "message": "Unloop chapter"
+    },
     "hideThis": {
         "message": "Hide this"
     },
