@@ -403,7 +403,7 @@
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "voted_on": {
-        "message": "Проголосували у {0}",
+        "message": "Проголосовано за {0}",
         "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
