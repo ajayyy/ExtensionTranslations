@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Zkopírovat ID segmentu"
     },
+    "loopChapter": {
+        "message": "Opakovat kapitolu"
+    },
+    "unloopChapter": {
+        "message": "Zrušit opakování kapitoly"
+    },
     "hideThis": {
         "message": "Skrýt"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Automaticky přeskočit všechny segmenty, když je ve videu nehudební segment"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Automaticky přeskakovat pouze na music.youtube.com"
     },
     "muteSegments": {
         "message": "Povolit segmenty, které místo přeskočení ztlumují zvuk"
