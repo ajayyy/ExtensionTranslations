@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Kopiera segment-ID"
     },
+    "loopChapter": {
+        "message": "Slinga kapitel"
+    },
+    "unloopChapter": {
+        "message": "Sluta slinga kapitel"
+    },
     "hideThis": {
         "message": "Dölj detta"
     },
