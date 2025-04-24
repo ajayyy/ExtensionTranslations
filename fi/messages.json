@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Kopioi osion ID"
     },
+    "loopChapter": {
+        "message": "Jatkuvasti toista kappale"
+    },
+    "unloopChapter": {
+        "message": "Poista kappaleen jatkuva toisto"
+    },
     "hideThis": {
         "message": "Piilota tämä"
     },
