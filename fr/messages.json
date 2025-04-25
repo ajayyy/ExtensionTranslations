@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Copier l'identifiant du segment"
     },
+    "loopChapter": {
+        "message": "Lire le chapitre en boucle"
+    },
+    "unloopChapter": {
+        "message": "Ne plus lire le chapitre en boucle"
+    },
     "hideThis": {
         "message": "Cacher"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Passer automatiquement tous les segments lorsqu'il y a un segment non musical"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Passer automatiquement seulement sur music.youtube.com"
     },
     "muteSegments": {
         "message": "Autoriser les segments qui mettent l'audio en sourdine plutôt que de les passer"
