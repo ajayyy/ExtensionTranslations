@@ -214,31 +214,31 @@
         "message": "Aktiver optælling af antal overspring"
     },
     "whatViewTracking": {
-        "message": "Denne funktion registrerer hvilke segmenter, du har sprunget over, så brugere kan se, hvor meget deres bidrag har hjulpet andre, og bruges som en måleenhed sammen med upvotes for at sikre, at spam ikke kommer ind i databasen. Udvidelsen sender en besked til serveren hver gang, du springer et segment over. Forhåbentlig ændrer de fleste ikke denne indstilling, så visningstallene er korrekte. :)"
+        "message": "Funktionen registrerer, hvilke segmenter du springer over, så brugerne kan se, hvor meget deres bidrag har hjulpet andre, og bruges som en måleenhed sammen med upvotes til at forhindre spam i databasen. Hver gang du springer et segment over, sender udvidelsen en besked til serveren. Forhåbentlig lader de fleste denne indstilling være, så visningstallene forbliver korrekte. :)"
     },
     "enableViewTrackingInPrivate": {
-        "message": "Aktiver optælling af antal overspringninger i inkognitovinduer (private vinduer)"
+        "message": "Aktiver optælling af antal overspring i inkognitovinduer (private vinduer)"
     },
     "enableTrackDownvotes": {
         "message": "Gem segment-downvotes"
     },
     "whatTrackDownvotes": {
-        "message": "Ethvert segment, du nedstemmer, vil forblive skjult selv efter genindlæsning"
+        "message": "Ethvert segment, du nedstemmer, forbliver skjult selv efter genindlæsning"
     },
     "trackDownvotesWarning": {
-        "message": "Advarsel: Deaktivering af dette vil slette alle tidligere gemte nedstemmer"
+        "message": "Advarsel: Deaktivering af dette sletter alle tidligere gemte downvotes"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Gem segment-nedstemmer i private faner/incognito-faner"
+        "message": "Gem segment-downvotes i inkognitofaner (private faner)"
     },
     "enableQueryByHashPrefix": {
         "message": "Søg via hashpræfiks"
     },
     "whatQueryByHashPrefix": {
-        "message": "I stedet for at anmode om segmenter fra serveren ved hjælp af videoID'et sendes de første 4 tegn af videoID'ets hash. Denne server vil sende data tilbage for alle videoer med lignende hashes."
+        "message": "I stedet for at anmode serveren om segmenter med videoID’et, sendes kun de første 4 tegn af videoID’ets hash. Serveren returnerer derefter data for alle videoer med lignende hashes."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Vis kategorier i indsendelsesmenuen selv uden tilladelse til indsendelse"
+        "message": "Vis kategorier i indsendelsesmenuen, selv uden indsendelsestilladelse"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "Nogle kategorier kræver tilladelse til at indsende på grund af minimumskrav til omdømme"
@@ -247,10 +247,10 @@
         "message": "Vis meddelelse igen"
     },
     "showSkipNotice": {
-        "message": "Vis meddelelse efter et segment er oversprunget"
+        "message": "Vis meddelelse, når et segment er sprunget over"
     },
     "showUpcomingNotice": {
-        "message": "Vis meddelelse før et segment starter"
+        "message": "Vis meddelelse, før et segment starter"
     },
     "showCategoryGuidelines": {
         "message": "Vis kategorihjælp"
