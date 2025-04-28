@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Otvoriť menu pre odoslanie segmentu"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Otvoriť ponuku normálneho režimu"
+    },
     "sortSegments": {
         "message": "Triedenie segmentov"
     },
@@ -1623,6 +1626,9 @@
     "openSourceLicenses": {
         "message": "Open Source licencie"
     },
+    "defaultToOriginals": {
+        "message": "Pôvodné informácie o videu ako predvolené"
+    },
     "whatDefaultToOriginals": {
         "message": "Zobraziť pôvodný názov a náhľad. Zobraziť tlačidlo pri prejdení myšou, čím sa ukáže vlastný názov a náhľad."
     },
@@ -1673,6 +1679,10 @@
         "message": "Vyskúšajte aj DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nepáči sa vám tento názov? Ak by ste radšej videli názov nižšie, pozrite si funkciu nahradenia názvu v DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Tento náhľad bol vybraný náhodne, keďže toto video ešte nemá žiadne segmenty",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1685,6 +1695,10 @@
         "message": "Nižsie môžete zmeniť toto východzie nastavenie",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
+    "dearrowStatsMessage": {
+        "message": "Od inštalácie tohto rozšírenia bolo nahradených {titles} názvov a {thumbnails} miniatúr",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} názov ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
@@ -1696,6 +1710,27 @@
     "dearrowStatsMessageThumbnailPart": {
         "message": "a {thumbnails} náhľadov",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "a {thumbnails} miniatúr",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Od inštalácie tohto rozšírenia sme nahradili {titleAndThumbnailMessage}",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Počítať nahradenie názvov a miniatúr"
+    },
+    "countReplacementsDescription": {
+        "message": "Slúži na poskytovanie štatistík v pop-upe.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Pridať zoznam filtrov do blokových prieskumov, predaja merchandise a ďalších propagačných prvkov pomocou yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Vyžaduje uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
         "message": "Nastala chyba pri detekcii videoID. Aby bol segment priradený k správenmu videu, skúste prosím znovu nahrať stránku. Ak sa vám táto chyba stáva často, odošlite správu so zoznamom nainštalovaných rozšírení a userscriptov cez GitHub, Discord alebo Matrix."
