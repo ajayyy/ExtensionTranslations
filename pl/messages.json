@@ -20,7 +20,7 @@
         "message": "segment"
     },
     "Segments": {
-        "message": "segmenty/ów"
+        "message": "segmenty(-ów)"
     },
     "SegmentsCap": {
         "message": "Segmenty"
@@ -135,7 +135,7 @@
         "message": "Otwórz menu zgłoszenia"
     },
     "OpenCasualVoteMenu": {
-        "message": "Otwórz menu trybu swobodnego"
+        "message": "Otwórz menu trybu casual"
     },
     "sortSegments": {
         "message": "Sortuj segmenty"
@@ -185,6 +185,12 @@
     },
     "copySegmentID": {
         "message": "Kopiuj ID segmentu"
+    },
+    "loopChapter": {
+        "message": "Zapętl rozdział"
+    },
+    "unloopChapter": {
+        "message": "Wyłącz zapętlenie rozdziału"
     },
     "hideThis": {
         "message": "Ukryj to"
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Automatycznie pomiń wszystkie segmenty, gdy istnieje segment niemuzyczny"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Pomijaj automatycznie tylko na music.youtube.com"
     },
     "muteSegments": {
         "message": "Zezwalaj na segmenty, które wyciszą dźwięk zamiast pomijać"
@@ -1808,5 +1817,58 @@
     "yttvLiveContentWarning": {
         "message": "SponsorBlock nie jest kompatybilny z treściami nagranymi niedawno i na żywo na YouTube TV. Jeśli to jest niedawne nagranie, proszę poczekać kilka godzin na dostępność przetworzonej wersji nagrania.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Dodawanie kanałów do wyjątków nie jest obsługiwane na tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Podoba ci się oryginalny tytuł?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Tak"
+    },
+    "No": {
+        "message": "Nie"
+    },
+    "votes": {
+        "message": "{0} głosy(-ów)",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} głos",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Zabawne",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreatywne",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Inne",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Tryb klasyczny",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "CasualMode": {
+        "message": "Tryb casual",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "minimumVotes": {
+        "message": "Minimalna liczba głosów",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "newCasualMode": {
+        "message": "Nowa funkcja: tryb casual",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "OpenSettings": {
+        "message": "Otwórz ustawienia"
     }
 }

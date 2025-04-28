@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Otvoriť menu pre odoslanie segmentu"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Otvoriť ponuku normálneho režimu"
+    },
     "sortSegments": {
         "message": "Triedenie segmentov"
     },
@@ -182,6 +185,12 @@
     },
     "copySegmentID": {
         "message": "Skopírovať ID segmentu"
+    },
+    "loopChapter": {
+        "message": "Opakovať kapitolu"
+    },
+    "unloopChapter": {
+        "message": "Zrušiť opakovanie kapitoly"
     },
     "hideThis": {
         "message": "Skryť"
@@ -486,6 +495,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Chystáte sa obnoviť zoznam inštancií Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Podpora Invidious momentálne nie je dostupná v prehliadači Safari kvôli chybe v prehliadači. Akonáhle Apple chybu opraví, funkcia bude pridaná späť."
     },
     "currentInstances": {
         "message": "Aktuálne inštancie:"
@@ -826,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Automaticky preskočiť všetky segmenty ak neexistuje segment bez hudby"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Automaticky preskočiť len na music.youtube.com"
     },
     "muteSegments": {
         "message": "Povoliť segmenty, ktoré namiesto preskočenia stíšía zvuk"
@@ -1446,8 +1461,21 @@
     "thumbnailGeneratorSourceCode": {
         "message": "Zdrojový kód služby pre generovanie miniatúr"
     },
+    "moreAboutKAnonymity": {
+        "message": "Viac informácií o K-Anonymite",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Vždy zobrazovať tlačidlo „Zobraziť originál\""
+    },
     "whatAlwaysShowShowOriginalButton": {
         "message": "Ak chcete vždy vedieť, či sa názov/miniatúra zmenila, zapnite si túto funkciu."
+    },
+    "showOriginalOnHover": {
+        "message": "Pri prechode myšou prepni medzi vlastnými a pôvodnými podrobnosťami"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Zobraziť vlastný názov pri prejdení myšou, ak je zobrazený názov z normálneho režimu"
     },
     "showIconForFormattedTitles": {
         "message": "Zobraziť tlačidlo \"Ukázať originál\" pri automaticky upravených názvoch"
@@ -1463,6 +1491,10 @@
         "message": "Náhľady",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Hlasy v normálnom režime",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Chyba"
     },
@@ -1474,6 +1506,14 @@
     },
     "ShowFormatted": {
         "message": "Zobraziť naformátované podrobnosti"
+    },
+    "FillerWarning": {
+        "message": "Varovanie: Toto je veľmi agresívna kategória. S najväčšou pravdepodobnosťou budete musieť niekedy zrušiť preskočenie alebo zakázať kategóriu. Upozorňujeme, že pri mnohých videách je preskočených viac ako 50 % videa! Nezabudnite však, že pri odosielaní je stále potrebné dodržiavať konkrétne pokyny.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Ak chcete v tomto chate zostať natrvalo, pripojte sa na Discord alebo Matrix",
+        "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
         "message": "Zobraziť inštrukcie",
@@ -1506,16 +1546,56 @@
         "message": "Môj názov začína veľkým písmenom",
         "description": "Tip title in DeArrow"
     },
+    "answeringQuestionTipTitle": {
+        "message": "Môj názov neodpovedá len na otázku v aktuálnom názve",
+        "description": "Tip title in DeArrow"
+    },
     "answeringQuestionTipSubTitle": {
         "message": "Názov by mal opisovať video a jeho obsah. Mali by ste si pozrieť celé video namiesto toho, že si len prečítate zaujímavý pôvodný názov.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Môj názov nezhrňuje záver ani neprezrádza zápletku",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Názvy nemajú úplne nahradiť sledovanie videa, ale slúžia na to, aby si vedel, či naň kliknúť alebo nie.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Môj názov neoveruje fakty, nezosmiešňuje ani nekritizuje video alebo jeho autora",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Názvy majú vychádzať z pohľadu tvorcu a samotného videa. Hodnotenie alebo overovanie faktov vo videu nepatrí do rozsahu projektu DeArrow. Názvy nemajú slúžiť ako sekcia komentárov.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
         "message": "Rozpoznané slovo: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
+    "DeArrowDiscussingWarning": {
+        "message": "Na začiatku názvu nepoužívajte zbytočné slovesá",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Začnite všetky názvy veľkým písmenom. Nadpisy by mali byť naformátované ako veta",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEndWithPeriodWarning": {
         "message": "Názvy by nemali končiť bodkou",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Nepridávajte len odpoveď na pôvodnú otázku. Názvy by mali všeobecne popisovať video alebo príbeh",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Názvy by nemali overovať fakty, nezosmiešňovať ani kritizovať video alebo tvorcu",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Názvy by nemali zachovávať senzáciechtivé prvky z pôvodného názvu",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
@@ -1549,6 +1629,9 @@
     "openSourceLicenses": {
         "message": "Open Source licencie"
     },
+    "defaultToOriginals": {
+        "message": "Pôvodné informácie o videu ako predvolené"
+    },
     "whatDefaultToOriginals": {
         "message": "Zobraziť pôvodný názov a náhľad. Zobraziť tlačidlo pri prejdení myšou, čím sa ukáže vlastný názov a náhľad."
     },
@@ -1560,6 +1643,10 @@
     },
     "useCrowdsourcedTitles": {
         "message": "Používať crowdsource-ové názvy"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Pri zakázaní budú názvy formátované, ale nebudú použité ich verzie vytvorené komunitou",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
         "message": "Naozaj chcete toto nastavenie zmazať?",
@@ -1595,6 +1682,10 @@
         "message": "Vyskúšajte aj DeArrow",
         "description": "DeArrow is the name of the extension"
     },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nepáči sa vám tento názov? Ak by ste radšej videli názov nižšie, pozrite si funkciu nahradenia názvu v DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "Tento náhľad bol vybraný náhodne, keďže toto video ešte nemá žiadne segmenty",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1607,6 +1698,10 @@
         "message": "Nižsie môžete zmeniť toto východzie nastavenie",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
+    "dearrowStatsMessage": {
+        "message": "Od inštalácie tohto rozšírenia bolo nahradených {titles} názvov a {thumbnails} miniatúr",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} názov ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
@@ -1618,6 +1713,27 @@
     "dearrowStatsMessageThumbnailPart": {
         "message": "a {thumbnails} náhľadov",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "a {thumbnails} miniatúr",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "Od inštalácie tohto rozšírenia sme nahradili {titleAndThumbnailMessage}",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Počítať nahradenie názvov a miniatúr"
+    },
+    "countReplacementsDescription": {
+        "message": "Slúži na poskytovanie štatistík v pop-upe.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Pridať zoznam filtrov do blokových prieskumov, predaja merchandise a ďalších propagačných prvkov pomocou yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Vyžaduje uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
         "message": "Nastala chyba pri detekcii videoID. Aby bol segment priradený k správenmu videu, skúste prosím znovu nahrať stránku. Ak sa vám táto chyba stáva často, odošlite správu so zoznamom nainštalovaných rozšírení a userscriptov cez GitHub, Discord alebo Matrix."
@@ -1661,6 +1777,12 @@
     "ViewLicenseKey": {
         "message": "Zobraziť licenčný kľúč"
     },
+    "SharingIsCaring": {
+        "message": "Zdieľanie je starostlivosť"
+    },
+    "cleanPopup": {
+        "message": "Skryť zbytočnosti vo vyskakovacom okne zoznamu segmentov"
+    },
     "syncDisabledWarning": {
         "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."
     },
@@ -1669,6 +1791,9 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
+    },
+    "storageFull": {
+        "message": "Úložisko rozšírenia je plné. Prosím, odstráňte niektoré neodoslané segmenty v možnostiach."
     },
     "previewSegmentRequired": {
         "message": "Skontrolujte si segmenty pred odoslaním. Môžete tak spraviť kliknutím na tlačidlo Náhľad alebo použite tento odkaz:",
@@ -1684,5 +1809,87 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow je vypnutý - kliknutím sem ho zapnete",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Ste si istí, že tento pôvodný náhľad je v súlade s pokynmi služby DeArrow? Ak vo všeobecnosti uprednostňujete zobraziť pôvodné náhľady, zvážte zmenu možnosti „Ak neexistuje žiadny komunitný náhľad\" v nastaveniach doplnku DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "Na YouTube TV nie je SponsorBlock kompatibilný s živým a nedávno nahraným obsahom. Ak ide o nedávno nahraný obsah, počkajte prosím niekoľko hodín, kým bude dostupná spracovaná verzia nahrávky.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Funkcia bielej listiny kanálov nie je podporovaná na tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Páči sa vám pôvodný názov?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Áno"
+    },
+    "No": {
+        "message": "Nie"
+    },
+    "votes": {
+        "message": "{0} hlasov",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} hlas",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Zábavné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreatívne",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Chytré",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Popisné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Iné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klasický režim",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Názvy budú nahradené štandardizovanými formátmi založenými na pokynoch pre všetky videá, kde existujú komunitné názvy."
+    },
+    "CasualMode": {
+        "message": "Normálny režim",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Ponechať pôvodné názvy, ak dostatočne dobre popisujú video a sú chytré alebo zábavné.\nVyberte, ktoré kategórie názvov chcete vidieť.\nBudete môcť hlasovať, či názov do týchto kategórií patrí, alebo nie."
+    },
+    "minimumVotes": {
+        "message": "Minimum hlasov",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Zobraziť pôvodnú miniatúru pri videách, kde ste hlasovali v normálnom režime",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nová funkcia: normálny režim",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zobraziť ikonu normálneho režimu iba v prípade, že je dostupný vlastný názov"
+    },
+    "OpenSettings": {
+        "message": "Otvoriť nastavenia"
     }
 }

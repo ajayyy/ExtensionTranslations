@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Kopioi osion ID"
     },
+    "loopChapter": {
+        "message": "Jatkuvasti toista kappale"
+    },
+    "unloopChapter": {
+        "message": "Poista kappaleen jatkuva toisto"
+    },
     "hideThis": {
         "message": "Piilota tämä"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Ohita kaikki osiot automaattisesti, kun videossa on \"Musiikiton\" osio"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Ohita automaattisesti vain music.youtube.com-osoittessa"
     },
     "muteSegments": {
         "message": "Salli osiot, jotka mykistävät äänen ohittamisen sijaan"

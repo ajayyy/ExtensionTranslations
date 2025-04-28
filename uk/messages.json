@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Копіювати ID сегмента"
     },
+    "loopChapter": {
+        "message": "Повтор розділу"
+    },
+    "unloopChapter": {
+        "message": "Вимкнути повтор розділу"
+    },
     "hideThis": {
         "message": "Приховати це"
     },
@@ -250,7 +256,7 @@
         "message": "Показувати сповіщення після пропуску сегмента"
     },
     "showUpcomingNotice": {
-        "message": "Показати сповіщення, перед початком сегменту"
+        "message": "Показати примітку перед початком сегмента"
     },
     "showCategoryGuidelines": {
         "message": "Показати Довідку по Категоріях"
@@ -312,6 +318,14 @@
     },
     "setCloseSkipNoticeKeybind": {
         "message": "Закрити сповіщення про пропуск",
+        "description": "Keybind label"
+    },
+    "setDownvoteKeybind": {
+        "message": "Проголосувати \"проти\" сегмента",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Проголосувати \"за\" сегмент",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -389,7 +403,7 @@
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "voted_on": {
-        "message": "Проголосували у {0}",
+        "message": "Проголосовано за {0}",
         "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
@@ -824,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Автоматично пропустити усі сегменти, якщо присутній сегмент без музики"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Автоматично пропустити лише на music.youtube.com"
     },
     "muteSegments": {
         "message": "Дозволити сегменти, які відключають звук замість пропуску"

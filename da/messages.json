@@ -60,7 +60,7 @@
         "message": "Tryk på unskip for at gå tilbage til hvor du kom fra."
     },
     "unskip": {
-        "message": "Annuller overspringning"
+        "message": "Annuller overspring"
     },
     "reskip": {
         "message": "Spring over"
@@ -169,7 +169,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Tip: Du kan opsætte genvejstaster til indsendelse i indstillingerne"
+        "message": "Tip: Du kan opsætte tastebindinger til indsendelse i indstillingerne"
     },
     "clearTimesButton": {
         "message": "Ryd tider"
@@ -178,13 +178,13 @@
         "message": "Brugernavn"
     },
     "setUsername": {
-        "message": "Angiv brugernavn"
+        "message": "Indstil brugernavn"
     },
     "copyPublicID": {
-        "message": "Kopier offentligt bruger-ID"
+        "message": "Kopiér offentligt bruger-ID"
     },
     "copySegmentID": {
-        "message": "Kopier segment-ID"
+        "message": "Kopiér segment-ID"
     },
     "hideThis": {
         "message": "Skjul dette"
@@ -211,34 +211,34 @@
         "message": "Vis Slet-knappen på YouTube-afspiller"
     },
     "enableViewTracking": {
-        "message": "Aktiver optælling af antal overspringninger"
+        "message": "Aktiver optælling af antal overspring"
     },
     "whatViewTracking": {
-        "message": "Denne funktion registrerer hvilke segmenter, du har sprunget over, så brugere kan se, hvor meget deres bidrag har hjulpet andre, og bruges som en måleenhed sammen med upvotes for at sikre, at spam ikke kommer ind i databasen. Udvidelsen sender en besked til serveren hver gang, du springer et segment over. Forhåbentlig ændrer de fleste ikke denne indstilling, så visningstallene er korrekte. :)"
+        "message": "Funktionen registrerer, hvilke segmenter du springer over, så brugerne kan se, hvor meget deres bidrag har hjulpet andre, og bruges som en måleenhed sammen med upvotes til at forhindre spam i databasen. Hver gang du springer et segment over, sender udvidelsen en besked til serveren. Forhåbentlig lader de fleste denne indstilling være, så visningstallene forbliver korrekte. :)"
     },
     "enableViewTrackingInPrivate": {
-        "message": "Aktiver optælling af antal overspringninger i inkognitovinduer (private vinduer)"
+        "message": "Aktiver optælling af antal overspring i inkognitovinduer (private vinduer)"
     },
     "enableTrackDownvotes": {
         "message": "Gem segment-downvotes"
     },
     "whatTrackDownvotes": {
-        "message": "Ethvert segment, du nedstemmer, vil forblive skjult selv efter genindlæsning"
+        "message": "Ethvert segment, du nedstemmer, forbliver skjult selv efter genindlæsning"
     },
     "trackDownvotesWarning": {
-        "message": "Advarsel: Deaktivering af dette vil slette alle tidligere gemte nedstemmer"
+        "message": "Advarsel: Deaktivering af dette sletter alle tidligere gemte downvotes"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Gem segment-nedstemmer i private faner/incognito-faner"
+        "message": "Gem segment-downvotes i inkognitofaner (private faner)"
     },
     "enableQueryByHashPrefix": {
         "message": "Søg via hashpræfiks"
     },
     "whatQueryByHashPrefix": {
-        "message": "I stedet for at anmode om segmenter fra serveren ved hjælp af videoID'et sendes de første 4 tegn af videoID'ets hash. Denne server vil sende data tilbage for alle videoer med lignende hashes."
+        "message": "I stedet for at anmode serveren om segmenter med videoID’et, sendes kun de første 4 tegn af videoID’ets hash. Serveren returnerer derefter data for alle videoer med lignende hashes."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Vis kategorier i indsendelsesmenuen selv uden tilladelse til indsendelse"
+        "message": "Vis kategorier i indsendelsesmenuen, selv uden indsendelsestilladelse"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "Nogle kategorier kræver tilladelse til at indsende på grund af minimumskrav til omdømme"
@@ -247,10 +247,10 @@
         "message": "Vis meddelelse igen"
     },
     "showSkipNotice": {
-        "message": "Vis meddelelse efter et segment er oversprunget"
+        "message": "Vis meddelelse, når et segment er sprunget over"
     },
     "showUpcomingNotice": {
-        "message": "Vis meddelelse før et segment starter"
+        "message": "Vis meddelelse, før et segment starter"
     },
     "showCategoryGuidelines": {
         "message": "Vis kategorihjælp"
@@ -262,7 +262,7 @@
         "message": "Små meddelelser om overspring ved automatisk overspring"
     },
     "noticeVisibilityMode2": {
-        "message": "Alle meddelelser om overspring små"
+        "message": "Alle små meddelelser om overspring"
     },
     "noticeVisibilityMode3": {
         "message": "Udtonede meddelelser om overspring ved automatisk overspring"
@@ -388,6 +388,10 @@
         "message": "Sprunget til {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "Stemt på {0}",
+        "description": "Example: Voted on Sponsor"
+    },
     "disableAutoSkip": {
         "message": "Deaktiver automatisk overspringning"
     },
@@ -477,6 +481,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Du er ved at nulstille listen over Invidious-instanser"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Invidious-understøttelse er ikke tilgængelig på Safari i øjeblikket grundet en fejl i Safari. Når Apple retter fejlen, tilføjes den igen."
     },
     "currentInstances": {
         "message": "Nuværende instanser:"
@@ -817,6 +824,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Spring automatisk over alle segmenter, når der er et ikke-musik-segment"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Spring kun automatisk over på music.youtube.com"
     },
     "muteSegments": {
         "message": "Tillad segmenter som slår lyden fra i stedet for at springe over"

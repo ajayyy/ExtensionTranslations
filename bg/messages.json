@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Копиране на идентификатора на сегмента"
     },
+    "loopChapter": {
+        "message": "Повтаряне на главата"
+    },
+    "unloopChapter": {
+        "message": "Без повтаряне на главата"
+    },
     "hideThis": {
         "message": "Скриване на това"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Автоматично пропускане на всички сегменти, когато има сегмент без музика"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Автоматично пропускане само на music.youtube.com"
     },
     "muteSegments": {
         "message": "Разрешаване на сегменти, които заглушават звука, вместо да се пропускат"
