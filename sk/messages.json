@@ -496,6 +496,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Chystáte sa obnoviť zoznam inštancií Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "Podpora Invidious momentálne nie je dostupná v prehliadači Safari kvôli chybe v prehliadači. Akonáhle Apple chybu opraví, funkcia bude pridaná späť."
+    },
     "currentInstances": {
         "message": "Aktuálne inštancie:"
     },
@@ -1774,6 +1777,12 @@
     "ViewLicenseKey": {
         "message": "Zobraziť licenčný kľúč"
     },
+    "SharingIsCaring": {
+        "message": "Zdieľanie je starostlivosť"
+    },
+    "cleanPopup": {
+        "message": "Skryť zbytočnosti vo vyskakovacom okne zoznamu segmentov"
+    },
     "syncDisabledWarning": {
         "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."
     },
@@ -1782,6 +1791,9 @@
     },
     "syncDisabledFirefoxSuggestions": {
         "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
+    },
+    "storageFull": {
+        "message": "Úložisko rozšírenia je plné. Prosím, odstráňte niektoré neodoslané segmenty v možnostiach."
     },
     "previewSegmentRequired": {
         "message": "Skontrolujte si segmenty pred odoslaním. Môžete tak spraviť kliknutím na tlačidlo Náhľad alebo použite tento odkaz:",
@@ -1797,5 +1809,87 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow je vypnutý - kliknutím sem ho zapnete",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Ste si istí, že tento pôvodný náhľad je v súlade s pokynmi služby DeArrow? Ak vo všeobecnosti uprednostňujete zobraziť pôvodné náhľady, zvážte zmenu možnosti „Ak neexistuje žiadny komunitný náhľad\" v nastaveniach doplnku DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "Na YouTube TV nie je SponsorBlock kompatibilný s živým a nedávno nahraným obsahom. Ak ide o nedávno nahraný obsah, počkajte prosím niekoľko hodín, kým bude dostupná spracovaná verzia nahrávky.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Funkcia bielej listiny kanálov nie je podporovaná na tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Páči sa vám pôvodný názov?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Áno"
+    },
+    "No": {
+        "message": "Nie"
+    },
+    "votes": {
+        "message": "{0} hlasov",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} hlas",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Zábavné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Kreatívne",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Chytré",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Popisné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Iné",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Klasický režim",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Názvy budú nahradené štandardizovanými formátmi založenými na pokynoch pre všetky videá, kde existujú komunitné názvy."
+    },
+    "CasualMode": {
+        "message": "Normálny režim",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Ponechať pôvodné názvy, ak dostatočne dobre popisujú video a sú chytré alebo zábavné.\nVyberte, ktoré kategórie názvov chcete vidieť.\nBudete môcť hlasovať, či názov do týchto kategórií patrí, alebo nie."
+    },
+    "minimumVotes": {
+        "message": "Minimum hlasov",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Zobraziť pôvodnú miniatúru pri videách, kde ste hlasovali v normálnom režime",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nová funkcia: normálny režim",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Zobraziť ikonu normálneho režimu iba v prípade, že je dostupný vlastný názov"
+    },
+    "OpenSettings": {
+        "message": "Otvoriť nastavenia"
     }
 }
