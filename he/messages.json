@@ -325,7 +325,7 @@
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "דירוג חיובי מקטע",
+        "message": "דירוג חיובי לקטע",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1058,7 +1058,7 @@
         "message": "עריכה"
     },
     "helpPageEditing1": {
-        "message": "אם טעיתם, תוכלו לערוך או למחוק את הקטעים שלכם לאחר לחיצה על לחצן החץ למעלה."
+        "message": "If you messed up, you can edit or delete your segments after clicking the up arrow button."
     },
     "helpPageTooSlow": {
         "message": "הקצב איטי מדי"
@@ -1437,6 +1437,49 @@
     "ignoreTranslatedTitlesDescription": {
         "message": "יוטיוב לפעמים מתרגם אוטומטית כותרות לשפת האם שלך. אפשרות זו חלה רק כאשר כותר שנוצר על ידי מיקור המונים אינו זמין."
     },
+    "onAllPages": {
+        "message": "בכל הדפים",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "בכל הדפים מלבד דפי וידאו",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "לעולם לא"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "שירות יצירת התמונות הממוזערות מאיץ משמעותית את יצירתן על ידי שליחת בקשה אנונימית עם מזהה הווידאו לשרת מרוחק. לאחר מכן, התמונה הממוזערת תיווצר, או תישלף ממטמון אם היא כבר נוצרה."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "אם נעשה שימוש בדפי וידאו, פעולה זו עלולה לדלוף מזהי וידאו לא רשומים לשרת זה. הגדרת אפשרות זו ל\"בכל הדפים למעט דפי וידאו\" תמנע בעיה זו. אפשרות נוספת היא לארח שירות יצירת תמונות ממוזערות משלך."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "אם השימוש בשירות יצירת תמונות ממוזערות מושבת, כל הבקשות ישתמשו במערכת שאילתות k-anonymity, מה שמקשה על השרת לחזות אילו סרטונים נלקחו, וייעשה שימוש בשירות יצירת תמונות ממוזערות מקומי איטי יותר.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "קוד מקור של שירות יצירת תמונות ממוזערות"
+    },
+    "moreAboutKAnonymity": {
+        "message": "עוד אודות אנונימיות K",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "הצג תמיד את כפתור \"הצג מקור\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "אם ברצונך לדעת תמיד אם כותרת/תמונה ממוזערת השתנתה, הפעל אפשרות זו."
+    },
+    "showOriginalOnHover": {
+        "message": "החלפה בין פרטים מותאמים אישית לפרטים מקוריים בעת העכבר"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "הצג כותרת מותאמת אישית בעת ריחוף אם מוצגת כותרת במצב קז'ואל"
+    },
+    "showIconForFormattedTitles": {
+        "message": "הצג כפתור \"הצג מקור\" עבור כותרות בעיצוב אוטומטי"
+    },
     "Enable": {
         "message": "אפשר"
     },
@@ -1550,5 +1593,303 @@
     "DeArrowClickbaitWarning": {
         "message": "אין לבדוק עובדות, ללעוג או לבקר את הסרטון או את היוצר בכותרות",
         "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "כותרות לא צריכות להימנע מאלמנטים סנסציוניים מהכותרת המקורית",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "כותרות לא יכולות להכיל אימוג'ים",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "עליך לתקן את האזהרה לפני השליחה"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "הערה: הגדרות SponsorBlock שלך יובאו אוטומטית!"
+    },
+    "howItWorks": {
+        "message": "איך זה עובד"
+    },
+    "discordPromotion": {
+        "message": "בואו לתרום, להציע הצעות ולעזור ב-{discord} או ב-{matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "אם אהבתם את מה שעשיתי עד כה, ורוצים לעזור לי עם כסף, הנה קישור"
+    },
+    "termsAgreement": {
+        "message": "על ידי שימוש בתוסף זה, הנך מסכים ל-{privacy-policy} ול-{terms}"
+    },
+    "privacyPolicy": {
+        "message": "מדיניות פרטיות"
+    },
+    "termsOfUse": {
+        "message": "תנאי שימוש"
+    },
+    "openSourceLicenses": {
+        "message": "רישיונות קוד פתוח"
+    },
+    "defaultToOriginals": {
+        "message": "ברירת מחדל למידע וידאו מקורי"
+    },
+    "whatDefaultToOriginals": {
+        "message": "הצג את הכותרת והתמונות הממוזערות המקוריות כברירת מחדל, אך השתמש בכפתור שמופיע בעת ריחוף כדי לראות את הכותרות והתמונות הממוזערות המותאמות אישית."
+    },
+    "replaceTitles": {
+        "message": "החלף כותרות"
+    },
+    "replaceThumbnails": {
+        "message": "החלף תמונות ממוזערות"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "השתמש בכותרות מבוססות על מיקור המונים"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "אם מושבת, כותרות יעוצבו אך לא נשתמש בכותרות שהוגשו על ידי הקהילה",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "האם אתה בטוח שברצונך למחוק תצורה זו?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "תצורה חדשה"
+    },
+    "DeleteConfiguration": {
+        "message": "מחק תצורה"
+    },
+    "ChannelAllowlist": {
+        "message": "הגדרות ערוץ ספציפיות"
+    },
+    "ConfigurationName": {
+        "message": "שם תצורה"
+    },
+    "ChannelListInstructions": {
+        "message": "הזן את כל הערוצים שברצונך להחיל עליהם תצורה זו בתיבה למטה, מופרדים על ידי שורות חדשות. גם מזהי ערוצים וגם שמות תצוגה נתמכים. שמות משתמש @ אינם נתמכים. ניתן לקבל מזהי ערוצים על ידי לחיצה על כפתור השיתוף בדף 'אודות' של הערוץ. כדי להגיע לדף 'אודות', לחץ על תיאור הערוץ שמופיע מתחת לשם הערוץ בדף הערוץ.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "עדיין לא הוגדרו תצורות. לחץ על הכפתור בחלק העליון כדי להוסיף תצורה חדשה.",
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "עצור את הקליקבייט על ידי החלפת כותרות ותמונות ממוזערות בכותרות מדויקות יותר"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "נמאס לך מקליקבייט? בדוק את התוסף החדש שלי לשיפור כותרות ותמונות ממוזערות"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "בדוק גם את DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "לא מוצא חן בעיניך? אם אתה מעדיף את הכותרת למטה, שקול לבדוק את תכונת החלפת הכותרת ב-DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
+    "RandomThumbnailExplanation": {
+        "message": "תמונה ממוזערת זו נבחרה מחותמת זמן אקראית מכיוון שעדיין לא הוגש סרטון זה",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "תמונה ממוזערת זו נבחרה מתוך חותמת זמן אקראית והכותרת מעוצבת אוטומטית מכיוון שעדיין לא הוגש סרטון זה",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "ניתן לשנות את ברירת המחדל הזו למטה",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "כותרות {titles} ותמונות ממוזערות {thumbnails} הוחלפו מאז שהתקנת תוסף זה",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} כותרת ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} כותרות ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "ותמונה ממוזערת של {thumbnails}",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "ותמונות ממוזערות של {thumbnails}",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} הוחלפו מאז שהתקנת תוסף זה",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "ספירת כותרות והחלפות תמונות ממוזערות"
+    },
+    "countReplacementsDescription": {
+        "message": "משמש כדי להציג לך סטטיסטיקות בחלון קופץ.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "הוסף רשימת סינון לחסימת סקרים, מדפי מוצרים ואלמנטים אחרים של דפי קידום מכירות באמצעות yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "דורש Origin uBlock"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "משהו השתבש בזיהוי מזהה הווידאו. אנא נסה לרענן לפני השליחה כדי לוודא שהוא נשלח עבור הסרטון הנכון. אם זה קורה לעתים קרובות, אנא שלח דוח על כך יחד עם הרחבות או סקריפטים אחרים שהתקנת דרך GitHub, Discord או Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "לוגו מבוסס על Twemoji ברישיון CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock אינו תואם לתוסף \"Zoom to Fill\". ישנן חלופות רבות בהן ניתן להשתמש במקום זאת שיעבדו כראוי."
+    },
+    "freeTrialStarted": {
+        "message": "תקופת הניסיון החינמית שלך החלה בהצלחה. בקר ביוטיוב כדי לנסות אותה"
+    },
+    "freeTrialEnded": {
+        "message": "תקופת הנסיון של הסתיימה"
+    },
+    "freeTrialPrompt": {
+        "message": "אם אתה רוצה לנסות את זה, תוכל להתחיל תקופת ניסיון בחינם באמצעות הכפתור למטה."
+    },
+    "startFreeTrial": {
+        "message": "התחל תקופת ניסיון חינם"
+    },
+    "freeAccessRequested": {
+        "message": "נרשמת בהצלחה לגישה חופשית. תקבל הודעה כאשר תינתן גישה חופשית."
+    },
+    "freeAccessComplete": {
+        "message": "מזל טוב! כעת יש לך גישה חינמית ל-DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow אינו מופעל"
+    },
+    "ActivateDeArrow": {
+        "message": "הפעל DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow הופעל בהצלחה"
+    },
+    "Close": {
+        "message": "סגור"
+    },
+    "ViewLicenseKey": {
+        "message": "הצג פתח רישיון"
+    },
+    "SharingIsCaring": {
+        "message": "שיתוף הוא אכפתיות"
+    },
+    "cleanPopup": {
+        "message": "הסתר את העומס בחלון הקופץ של רשימת הפלחים"
+    },
+    "syncDisabledWarning": {
+        "message": "אזהרה: אחסון התוספים הושבת בדפדפן שלך. הגדרות לא יישמרו אם תנסה לשמור אותן."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow לא יפעל ללא אחסון."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "ניתן להפעיל זאת על ידי מעבר אל about:config והגדרת הערך \"webextensions.storage.sync.enabled\" ל-true."
+    },
+    "storageFull": {
+        "message": "אחסון התוסף מלא. אנא מחק כמה קטעים שלא נשלחו באפשרויות."
+    },
+    "previewSegmentRequired": {
+        "message": "אנא הצג תצוגה מקדימה של הקטעים שלך לפני שליחתם. ניתן לעשות זאת על ידי לחיצה על כפתור התצוגה המקדימה או באמצעות קיצור הדרך הבא:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "לפעול כ-VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "לא ניתן לקבל הגשות מהדפדפן שלך כרגע מכיוון שנראה שיוטיוב הכניס כמה פרסומות בצד השרת שהתוסף לא מצליח להסיר. אנא צור קשר אם אתה מקבל שגיאה זו."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow מושבת - לחץ כדי להפעיל",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "האם אתה בטוח שתמונה ממוזערת מקורית זו עומדת בהנחיות של DeArrow? אם אתה מעדיף לראות תמונות ממוזערות מקוריות באופן כללי, שקול לשנות את האפשרות \"כאשר לא קיימת תמונה ממוזערת שהוגש\" בהגדרות DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "ב-YouTube TV, SponsorBlock אינו תואם לתוכן בשידור חי ותוכן שהוקלט לאחרונה. אם מדובר בהקלטה עדכנית, אנא המתן מספר שעות עד שהגרסה המעובדת של ההקלטה תהיה זמינה.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "הוספה לרשימת היתרים של ערוצים אינה נתמכת ב-tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "אהבת את הכותרת המקורית?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "כן"
+    },
+    "No": {
+        "message": "לא"
+    },
+    "votes": {
+        "message": "{0} הצבעות",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} הצבעה",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "מצחיק",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "יצירתי",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "חכמות",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "תיאורי",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "אחר",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "מצב קלאסי",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "כותרות מוחלפות בפורמטים סטנדרטיים המבוססים על ההנחיות בכל הסרטונים שבהם קיים כותרת של מיקור המונים."
+    },
+    "CasualMode": {
+        "message": "מצב מזדמן",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "שמור על כותרות מקוריות כאשר הן מתארות את הסרטון מספיק טוב והן חכמות או מצחיקות. בחרו אילו קטגוריות של כותרות תרצו לראות. תוכלו להצביע אם כותרת מתאימה לקטגוריה או לא."
+    },
+    "minimumVotes": {
+        "message": "מינימום הצבעות",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "הצג תמונה ממוזערת מקורית בסרטונים שהצבעתם הוגשה במצב אורח",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "תכונה חדשה: מצב מזדמן",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "הצג סמל מצב מזדמן רק כאשר כותרת מותאמת אישית זמינה"
+    },
+    "OpenSettings": {
+        "message": "פתח הגדרות"
     }
 }
