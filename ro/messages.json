@@ -66,7 +66,7 @@
         "message": "Omiteți"
     },
     "unmute": {
-        "message": "Activare sunet"
+        "message": "Porniți sunetul"
     },
     "paused": {
         "message": "Pauză"
@@ -361,7 +361,7 @@
         "message": "Omiteți"
     },
     "mute": {
-        "message": "Mut"
+        "message": "Opriți sunetul"
     },
     "full": {
         "message": "Întregul videoclip",
@@ -371,7 +371,7 @@
         "message": "Omiteți {0}?"
     },
     "mute_category": {
-        "message": "Mut {0}?"
+        "message": "Opriți sunetul pentru {0}?"
     },
     "skip_to_category": {
         "message": "Treceți la {0}?",
@@ -386,7 +386,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} pus pe mut",
+        "message": "Sunet oprit pentru {0}",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -822,7 +822,7 @@
         "message": "Omiteți automat toate segmentele atunci când există un segment non-muzical"
     },
     "muteSegments": {
-        "message": "Permite segmente care blochează sunetul în loc de a sări peste"
+        "message": "Permiteți și segmente care opresc sunetul"
     },
     "fullVideoSegments": {
         "message": "Arată o icoană atunci când un videoclip este în întregime o reclamă",
