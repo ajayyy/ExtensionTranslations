@@ -671,7 +671,7 @@
         "message": "Întreaga înregistrare video prezintă ceva cu acces liber sau subvenționat"
     },
     "category_interaction": {
-        "message": "Memento de interacțiune (Abonare)"
+        "message": "Cerere de abonare sau de interacțiune"
     },
     "category_interaction_description": {
         "message": "Când există o scurtă remintire pentru like, abonare sau urmărire în mijlocul conținutului. Daca este mai lung sau despre ceva specific, folosiți autopromovarea."
