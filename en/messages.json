@@ -1474,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Swap between custom details and original details on hover"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Swap between custom details and original details on hover of anywhere on the video card"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "This will disable auto-play on hover"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Show custom title on hover if a casual mode title is being shown"
     },
