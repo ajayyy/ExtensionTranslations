@@ -187,10 +187,10 @@
         "message": "Kopioi osion ID"
     },
     "loopChapter": {
-        "message": "Jatkuvasti toista kappale"
+        "message": "Toista kappale jatkuvasti"
     },
     "unloopChapter": {
-        "message": "Poista kappaleen jatkuva toisto"
+        "message": "Lopeta kappaleen jatkuva toisto"
     },
     "hideThis": {
         "message": "Piilota tämä"

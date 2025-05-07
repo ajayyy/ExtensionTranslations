@@ -1474,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Při přejetí myší přepnout mezi vlastními a původními podrobnostmi"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Přepínat mezi vlastními podrobnostmi a původními při přejetí myší kamkoli na kartu videa"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Toto zakáže automatické přehrávání při přejetí myší"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Zobrazit vlastní název po přejetí myší, pokud je zobrazen název z normálního režimu"
     },
