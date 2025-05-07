@@ -839,6 +839,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Hoppa över alla segment automatiskt när det finns ett icke-musiksegment"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Hoppa endast över automatiskt på music.youtube.com"
+    },
     "muteSegments": {
         "message": "Tillåt segment som tystar ljudet i stället för att hoppa över"
     },
@@ -1470,6 +1473,12 @@
     },
     "showOriginalOnHover": {
         "message": "Växla mellan anpassade detaljer och originaldetaljer vid mus över"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Växla mellan anpassade detaljer och originaldetaljer vid mus över var som helst på grafikkortet"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Detta inaktiverar automatisk uppspelning vid mus över"
     },
     "showCustomOnHoverIfCasual": {
         "message": "Visa anpassad titel vid mus över om en titel i casualt läge visas"
