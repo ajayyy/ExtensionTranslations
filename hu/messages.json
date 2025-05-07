@@ -1474,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Váltson eredeti és módosított adatok között, ha felé visszük a kurzort"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Váltás egyedi és eredeti adatok között, ha a kurzor a videó kártyája fölött van"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Ez letiltja az automatikus lejátszást"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Módosított cím mutatása a kurzor felé vitele esetén, ha épp egy alkalmi módos cím látható"
     },
