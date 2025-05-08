@@ -1474,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Passer des détails personnalisés aux détails originaux en les survolant"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Passer des détails personnalisés aux détails originaux en survolant la carte de la vidéo"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Cela désactivera la lecture automatique au survol"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Afficher le titre personnalisé en survolant un titre issu du mode relaxé"
     },
