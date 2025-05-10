@@ -1679,25 +1679,25 @@
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "Stop clickbait ved at erstatte titler og thumbnails med nogle, der er mere præcise"
+        "message": "Stop clickbait ved at erstatte titler og miniaturebilleder med mere præcise versioner."
     },
     "DeArrowPromotionMessage2": {
-        "message": "Træt af clickbait? Tjek min nye udvidelse for at forbedre titler og thumbnails"
+        "message": "Træt af clickbait? Tjek min nye udvidelse til forbedring af titler og miniaturebilleder"
     },
     "DeArrowPromotionMessage3": {
         "message": "Tjek også DeArrow ud",
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Kan du ikke lide denne titel? Hvis du foretrækker titlen nedenfor, så overvej at tjekke titelerstatningsfunktionen i DeArrow.",
+        "message": "Kan du ikke lide denne titel? Hvis du foretrækker titlen nedenfor, så overvej at tjekke funktionen til titeludskiftning i DeArrow.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
-        "message": "Dette thumbnail er valgt fra et tilfældigt tidspunkt, fordi der ikke er en indsendelse på denne video endnu",
+        "message": "Denne miniature er valgt ud fra et tilfældigt tidsstempel, da der endnu ikke er en indsendelse på denne video",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Dette thumbnail er valgt fra et tilfædigt tidspunkt og titlen er autoformateret fordi der ikke er en indsendelse på denne video endnu",
+        "message": "Denne miniature er valgt ud fra et tilfældigt tidsstempel, og titlen er automatisk formateret, da der endnu ikke er en indsendelse på denne video",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
@@ -1705,7 +1705,7 @@
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "{titles} titler og {thumbnails} thumbnails er blevet erstattet siden du installerede denne udvidelse",
+        "message": "{titles} titler og {thumbnails} miniaturebilleder er blevet erstattet, siden du installerede denne udvidelse",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
@@ -1717,53 +1717,53 @@
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
-        "message": "og {thumbnails} thumbnail",
+        "message": "og {thumbnails} miniaturebilleder",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailsPart": {
-        "message": "og {thumbnails} thumbnails",
+        "message": "og {thumbnails} miniaturebillede",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessage2": {
-        "message": "{titleAndThumbnailMessage} er blevet erstattet siden du installerede denne udvidelse",
+        "message": "{titleAndThumbnailMessage} er blevet erstattet, siden du installerede denne udvidelse",
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Tæl titel og thumbnail-erstatninger"
+        "message": "Tæl titel- og miniature-erstatninger"
     },
     "countReplacementsDescription": {
-        "message": "Bruges til at give dig statistik i popupen.",
+        "message": "Bruges til at give statistik i pop op-vinduet.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Tilføj en filterliste til at blokere undersøgelse, merchhylder og andre salgsfremmende sideelementer ved hjælp af yt-neuter"
+        "message": "Tilføj en filterliste for at blokere undersøgelser, merch-hylder og andre salgsfremmende sideelementer ved hjælp af yt-neuter"
     },
     "requiresUblock": {
         "message": "Kræver uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Noget er gået galt med videoID-identifikationen. Prøv at opdatere før du indsender for at sikre, at det bliver indsendt for den rigtige video. Hvis dette sker meget, så send venligst en rapport om dette sammen med de andre udvidelser eller brugerscripts, du har installeret via GitHub, Discord eller Matrix."
+        "message": "Noget gik galt under registreringen af video-ID. Prøv at genindlæse siden, før du indsender, for at sikre, at det indsendes for den rigtige video. Hvis dette sker ofte, bedes du sende en rapport sammen med de andre udvidelser eller userscripts, du har installeret, via GitHub, Discord eller Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Logo baseret på Twemoji licenseret under CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
-        "message": "SponsorBlock er ikke kompatibel med udvidelsen \"Zoom to Fill\". Der er mange alternativer, du kan bruge i steder, som vil fungere korrekt."
+        "message": "SponsorBlock er ikke kompatibel med udvidelsen \"Zoom to Fill\". Der er mange alternativer, du kan bruge i stedet, som vil fungere."
     },
     "freeTrialStarted": {
-        "message": "Din gratis prøveperiode er startet. Besøg YouTube for at teste den ud"
+        "message": "Din gratis prøveperiode er startet. Besøg YouTube for at teste det"
     },
     "freeTrialEnded": {
-        "message": "Din gratis prøveperiode er overstået"
+        "message": "Din gratis prøveperiode er slut"
     },
     "freeTrialPrompt": {
-        "message": "Hvis du ønsker at teste det ud, kan du starte en gratis prøveversion med knappen nedenfor."
+        "message": "Hvis du vil afprøve det, kan du starte en gratis prøveperiode med knappen nedenfor."
     },
     "startFreeTrial": {
         "message": "Start gratis prøveperiode"
     },
     "freeAccessRequested": {
-        "message": "Du er tilmeldt gratis adgang. Du får besked, når der gives gratis adgang."
+        "message": "Du er nu registreret til gratis adgang. Du får besked, når adgang er givet."
     },
     "freeAccessComplete": {
         "message": "Tillykke! Du har nu gratis adgang til DeArrow"
@@ -1781,28 +1781,28 @@
         "message": "Luk"
     },
     "ViewLicenseKey": {
-        "message": "Vis licensnøgle"
+        "message": "Se licensnøgle"
     },
     "SharingIsCaring": {
-        "message": "Delt glæde er dobbelt glæde"
+        "message": "Deling er omsorg"
     },
     "cleanPopup": {
-        "message": "Skjul uorden i segmentlistepopup"
+        "message": "Skjul rod i segmentlistens pop-op"
     },
     "syncDisabledWarning": {
-        "message": "Advarsel: Udvidelseslager er blevet deaktiveret i din browser. Indstillinger vil ikke blive gemt, hvis du forsøger at gemme dem."
+        "message": "Advarsel: Udvidelseslagring er deaktiveret i din browser. Indstillingerne gemmes ikke, hvis du forsøger at gemme dem."
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow vil ikke fungere uden lager."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "Du kan aktivere det ved at til about:config og indstille værdien af \"webextensions.storage.sync.enabled\" til true."
+        "message": "Du kan aktivere det ved at gå til about:config og sætte værdien \"webextensions.storage.sync.enabled\" til true."
     },
     "storageFull": {
-        "message": "Udvidelseslager er fuldt. Slet venligst nogle uindsendte segmenter i indstillingerne."
+        "message": "Udvidelseslageret er fuldt. Slet venligst nogle ikke-indsendte segmenter i indstillingerne."
     },
     "previewSegmentRequired": {
-        "message": "Gennemse venligst dine segmenter før du indsender dem. Du kan gøre dette ved at klikke på forhåndsvisningsknappen eller ved at bruge følgende genvej:",
+        "message": "Gennemse venligst dine segmenter, før du indsender dem. Du kan gøre dette ved at klikke på forhåndsvisningsknappen eller bruge følgende genvej:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
@@ -1810,7 +1810,7 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "Indsendelser kan ikke accepteres fra din browser i øjeblikket, fordi YouTube lader til at have injiceret nogle server-side-reklamer, som udvidelsen ikke er i stand til at fjerne. Kontakt os venligst hvis du modtager denne fejl."
+        "message": "Indsendelser kan ikke accepteres fra din browser i øjeblikket, da det ser ud til, at YouTube har indsat nogle serverside-reklamer, som udvidelsen ikke kan fjerne. Kontakt venligst, hvis du modtager denne fejl."
     },
     "DeArrowIsDisabled": {
         "message": "DeArrow er slået fra - klik for at slå til",
@@ -1829,7 +1829,7 @@
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
-        "message": "Kan du lide den oprindelige titel?",
+        "message": "Kan du lide originaltitlen?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
     },
     "Yes": {
@@ -1878,14 +1878,14 @@
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
-        "message": "Behold originale titler, når de beskriver videoen godt nok og er snedige eller sjove.\nVælg hvilke kategorier af titler du vil se.\nDu vil være i stand til at stemme på, om en titel passer i en kategori eller ej."
+        "message": "Behold de originale titler, når de beskriver videoen godt nok og er snedige eller sjove. Vælg, hvilke kategorier af titler du vil se. Du vil kunne stemme på, om en titel passer ind i en kategori eller ej."
     },
     "minimumVotes": {
-        "message": "Mindste antal stemmer",
+        "message": "Minimum antal stemmer",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Vis originale miniaturer på videoer der er stemt på i afslappet tilstand",
+        "message": "Vis originalt miniaturebillede på videoer stemt på i afslappet tilstand",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
