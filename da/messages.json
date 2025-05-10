@@ -1621,10 +1621,10 @@
         "message": "Kom bidrag, lav nogle forslag og hjælp på {discord} og {matrix}"
     },
     "deArrowDonationText": {
-        "message": "Hvis du kan lide, hvad jeg har gjort indtil videre, og ønsker at hjælpe mig med penge, så er der et link her"
+        "message": "Her er et link, hvis du kan lide det, jeg har lavet indtil videre, og vil støtte mig økonomisk"
     },
     "termsAgreement": {
-        "message": "Ved at bruge denne udvidelse, accepterer du {privacy-policy} og {terms}"
+        "message": "Ved at bruge denne udvidelse accepterer du {privacy-policy} og {terms}"
     },
     "privacyPolicy": {
         "message": "Privatlivspolitik"
@@ -1633,25 +1633,25 @@
         "message": "Brugsvilkår"
     },
     "openSourceLicenses": {
-        "message": "Åben kildekode-licenser"
+        "message": "Open source-licenser"
     },
     "defaultToOriginals": {
         "message": "Vis original videoinformation som standard"
     },
     "whatDefaultToOriginals": {
-        "message": "Vis den oprindelige titel og det oprindelige thumbnail som standard, men hav en knap, der vises, når man holder musen over til at se de brugerdefinerede titler og thumbnails."
+        "message": "Vis den originale titel og miniature som standard, men vis en knap ved mouseover, så man kan se de brugerdefinerede titler og miniaturer."
     },
     "replaceTitles": {
-        "message": "Erstat Titler"
+        "message": "Erstat titler"
     },
     "replaceThumbnails": {
-        "message": "Erstat thumbnails"
+        "message": "Erstat miniaturebilleder"
     },
     "useCrowdsourcedTitles": {
         "message": "Brug crowdsourcede titler"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Hvis deaktiveret, vil det formatere titler, men ikke bruge fællesskabsindsendte titler",
+        "message": "Hvis deaktiveret, formaterer den titler, men bruger ikke titler indsendt af fællesskabet",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1671,7 +1671,7 @@
         "message": "Konfigurationsnavn"
     },
     "ChannelListInstructions": {
-        "message": "Indtast alle kanaler, du ønsker at anvende denne konfigurationer til, i boksen nedenfor, adskilt af nye linjer. Både kanal IDer og viste navne understøttes. @ Brugernavne understøttes ikke. Du kan få kanal IDer ved at klikke på Del knappen på kanalens om-side. For at komme til om-siden, skal du klikke på kanalbeskrivelsen, der vises under kanalens navn på der kanal-side.",
+        "message": "Indtast de kanaler, du vil anvende denne konfiguration på, i feltet nedenfor, adskilt med linjeskift. Både kanal-ID'er og visningsnavne understøttes. @-brugernavne understøttes ikke. Du kan finde kanalens ID ved at klikke på Del-knappen på kanalens \"Om\"-side. For at komme til \"Om\"-siden skal du klikke på kanalbeskrivelsen under kanalnavnet på kanalens forside.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
