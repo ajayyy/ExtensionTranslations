@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Kopiér segment-ID"
     },
+    "loopChapter": {
+        "message": "Gentag kapitel"
+    },
+    "unloopChapter": {
+        "message": "Gentag ikke kapitel"
+    },
     "hideThis": {
         "message": "Skjul dette"
     },
@@ -312,6 +318,14 @@
     },
     "setCloseSkipNoticeKeybind": {
         "message": "Luk spring over-meddelelse",
+        "description": "Keybind label"
+    },
+    "setDownvoteKeybind": {
+        "message": "Downvote segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Upvote segment",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1460,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Skift mellem brugerdefinerede detaljer og originale detaljer når musen holdes over"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Skift mellem brugerdefinerede og originale oplysninger, når du holder musen over et sted på videokortet"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Dette deaktiverer automatisk afspilning ved mouseover"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Vis brugerdefineret titel når musen holdes over en titel i afslappet tilstand"
     },
@@ -1799,6 +1819,14 @@
     "areYouSureOriginalVote": {
         "message": "Er du sikker på, at denne oprindelige miniature følger DeArrow-retningslinjerne? Hvis du bare foretrækker at se originale miniaturer i almindelighed, så overvej at ændre indstillingen \"Når ingen indsendte miniaturer findes\" i DeArrow-indstillingerne.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "På YouTube TV er SponsorBlock ikke kompatibel med live og nyligt optagede indhold. Hvis dette er en nylig optagelse, skal du vente et par timer, indtil den behandlede version bliver tilgængelig.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Hvidlistning af kanaler understøttes ikke på tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Kan du lide den oprindelige titel?",
