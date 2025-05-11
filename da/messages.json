@@ -1484,7 +1484,7 @@
         "message": "Vis brugerdefineret titel når musen holdes over en titel i afslappet tilstand"
     },
     "showIconForFormattedTitles": {
-        "message": "Vis \"Vis original\"-knappen for automatisk formateret titler"
+        "message": "Vis \"Vis original\"-knap for automatisk formateret titler"
     },
     "Enable": {
         "message": "Aktivér"
@@ -1494,7 +1494,7 @@
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "Thumbnails",
+        "message": "Miniaturebilleder",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "CasualVotes": {
@@ -1514,7 +1514,7 @@
         "message": "Vis formaterede detaljer"
     },
     "FillerWarning": {
-        "message": "Advarsel: Dette er en utrolig agressiv kategori. Du bliver højst sandsynligt nødt til at annullere overspringninger eller deaktivere den nogle gange. Vær opmærksom på, at mange videoer får over 50 % eller mere af videoen sprunget over! Men husk, at der stadig er specifikke retningslinjer, der skal følges, når der indsendes.",
+        "message": "Advarsel: Dette er en utrolig aggressiv kategori. Du skal muligvis ofte annullere overspringning eller deaktivere den. Bemærk, at mange videoer har over 50% eller mere af dem sprunget over! Husk dog, at der stadig er specifikke retningslinjer, du skal følge, når du indsender.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1522,7 +1522,7 @@
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Vis retningslinjerhjælp",
+        "message": "Vis hjælp til retningslinjer",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
@@ -1530,7 +1530,7 @@
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "Tænk det store billede, besvar ikke bare den oprindelige titels spørgsmål",
+        "message": "Tænk stort – besvar ikke bare spørgsmålet i den oprindelige titel",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
