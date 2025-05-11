@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "구간 ID 복사"
     },
+    "loopChapter": {
+        "message": "챕터 반복"
+    },
+    "unloopChapter": {
+        "message": "챕터 반복 해제"
+    },
     "hideThis": {
         "message": "숨기기"
     },
@@ -193,13 +199,13 @@
         "message": "설정"
     },
     "showButtons": {
-        "message": "YouTube 탐색 바에서 버튼 표시"
+        "message": "YouTube 재생 바에서 버튼 표시"
     },
     "hideButtonsDescription": {
-        "message": "건너뛸 구간을 제출할 수 있는 YouTube 탐색 바에 있는 버튼을 숨겨요."
+        "message": "건너뛸 구간을 제출할 수 있는 YouTube 재생 바에 있는 버튼을 숨겨요."
     },
     "showSkipButton": {
-        "message": "탐색 바에 하이라이트로 이동 버튼 표시"
+        "message": "재생 바에 하이라이트로 이동 버튼 표시"
     },
     "showInfoButton": {
         "message": "YouTube 탐색 바에서 정보 버튼 표시"
@@ -489,6 +495,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Invidious 인스턴스 목록을 초기화할까요?"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Safari의 버그로 인해 Invidious 지원을 이용할 수 없어요. Apple이 버그를 수정하면, 다시 추가될 거예요."
     },
     "currentInstances": {
         "message": "현재 인스턴스:"
@@ -829,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "음악이 아닌 구간이 있을 때 모든 구간 자동 건너뛰기"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "music.youtube.com에서만 자동 건너뛰기"
     },
     "muteSegments": {
         "message": "구간을 건너뛰지 않고 음소거 처리"
@@ -1192,7 +1204,7 @@
         "message": "라이선스 키가 유효하지 않아요"
     },
     "hideUpsells": {
-        "message": "(추가 결제 없이는 숨김 설정을 사용할 수 없어요)"
+        "message": "추가 결제 없이는 숨김 설정을 사용할 수 없어요"
     },
     "hideNewFeatureUpdates": {
         "message": "신규 기능에 관한 프롬프트 숨기기"
