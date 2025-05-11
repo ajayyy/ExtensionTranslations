@@ -1338,7 +1338,7 @@
         "message": "Skriv ord med store begyndelsesbogstaver"
     },
     "TitleCase": {
-        "message": "Stor eller små bogstaver på titlen"
+        "message": "Store forbogstaver"
     },
     "SentenceCase": {
         "message": "Første bogstav i sætning med stort"
@@ -1347,10 +1347,10 @@
         "message": "Små bogstaver"
     },
     "FirstLetterUppercase": {
-        "message": "Første bogstav store bogstaver"
+        "message": "Første bogstav med stort"
     },
     "shouldCleanEmojis": {
-        "message": "Fjern emojier"
+        "message": "Fjern emojis"
     },
     "onlyFormatCustomTitles": {
         "message": "Formatér kun brugerindsendte titler"
@@ -1538,10 +1538,10 @@
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "Giv nok information til at foretage et informeret valg, før du klikker"
+        "message": "Giv nok information til at træffe et informeret valg, før du klikker"
     },
     "tip5": {
-        "message": "Kapitaliser det som en sætning",
+        "message": "Brug stort begyndelsesbogstav som i en sætning",
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
@@ -1557,7 +1557,7 @@
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipSubTitle": {
-        "message": "Titler skal beskrive videoen, eller fortællingen generelt. Du bør sørge for at se hele videoen for at vide hvad den faktisk handler om, i stedet for at fæste lid til en spændende originaltitel.",
+        "message": "Titler bør beskrive videoen eller historien generelt. Sørg for at se hele videoen for at forstå, hvad den faktisk handler om, i stedet for kun at stole på en spændende original titel.",
         "description": "Tip subtitle in DeArrow"
     },
     "noSummariesTipTitle": {
@@ -1565,15 +1565,15 @@
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Titler er ikke beregnet til at stå i stedet for at se videoen, men blot til at du kan afgøre, om du skal klikke eller ej.",
+        "message": "Titler skal ikke erstatte det at se videoen, men hjælpe dig med at beslutte, om du skal klikke.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Min titel hverken faktatjekker, gør nar af eller kritiserer videoen eller skaberen",
+        "message": "Min titel faktatjekker, håner eller kritiserer ikke videoen eller skaberen",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Titler er beregnet til at være fra skaberens og videoens perspektiv. Bedømmelse eller faktatjek af selve videoen er uden for DeArrows rammer. Titler er ikke ment som en kommentarsektion.",
+        "message": "Titler skal afspejle skaberens og videoens perspektiv. Bedømmelse eller faktatjek af selve videoen ligger uden for DeArrows omfang. Titler er ikke en kommentarsektion.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1581,7 +1581,7 @@
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
     "DeArrowDiscussingWarning": {
-        "message": "Brug ikke unødvendige udsagnsord/verber i starten af titlen",
+        "message": "Brug ikke unødvendige verber (udsagnsord) i starten af titlen",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
     },
     "DeArrowStartLowerCaseWarning": {
@@ -1593,15 +1593,15 @@
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
-        "message": "Tilføj ikke bare et svar til et spørgsmål i den oprindelige titel. Titler skal beskrive videoen, eller fortællingen i almindelighed.",
+        "message": "Tilføj ikke bare et svar på et spørgsmål i den originale titel. Titler bør beskrive videoen eller historien generelt.",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Titler bør ikke faktatjekke, gøre nar af eller kritisere videoen eller skaberen",
+        "message": "Titler bør ikke faktatjekke, håne eller kritisere videoen eller skaberen",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
-        "message": "Titler bør ikke beholde sensationelle elementer fra den oprindelige titel",
+        "message": "Titler bør ikke beholde sensationelle elementer fra den originale titel",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
@@ -1618,7 +1618,7 @@
         "message": "Hvordan det virker"
     },
     "discordPromotion": {
-        "message": "Kom bidrag, lav nogle forslag og hjælp på {discord} og {matrix}"
+        "message": "Kom og bidrag, giv nogle forslag og hjælp til på {discord} eller {matrix}"
     },
     "deArrowDonationText": {
         "message": "Her er et link, hvis du kan lide det, jeg har lavet indtil videre, og vil støtte mig økonomisk"
@@ -1639,7 +1639,7 @@
         "message": "Vis original videoinformation som standard"
     },
     "whatDefaultToOriginals": {
-        "message": "Vis den originale titel og miniature som standard, men vis en knap ved mouseover, så man kan se de brugerdefinerede titler og miniaturer."
+        "message": "Vis den originale titel og miniature som standard, men vis en knap ved mouseover, så man kan se de brugerdefinerede titler og miniaturebilleder."
     },
     "replaceTitles": {
         "message": "Erstat titler"
@@ -1689,15 +1689,15 @@
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Kan du ikke lide denne titel? Hvis du foretrækker titlen nedenfor, så overvej at tjekke funktionen til titeludskiftning i DeArrow.",
+        "message": "Kan du ikke lide denne titel? Hvis du foretrækker titlen nedenfor, så overvej at tjekke funktionen til titelerstatning i DeArrow.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
-        "message": "Denne miniature er valgt ud fra et tilfældigt tidsstempel, da der endnu ikke er en indsendelse på denne video",
+        "message": "Dette miniaturebillede er valgt ud fra et tilfældigt tidsstempel, da der endnu ikke er en indsendelse på denne video",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Denne miniature er valgt ud fra et tilfældigt tidsstempel, og titlen er automatisk formateret, da der endnu ikke er en indsendelse på denne video",
+        "message": "Dette miniaturebillede er valgt ud fra et tilfældigt tidsstempel, og titlen er automatisk formateret, da der endnu ikke er en indsendelse på denne video",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
