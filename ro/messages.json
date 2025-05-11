@@ -108,7 +108,7 @@
         "message": "Succes!"
     },
     "voted": {
-        "message": "Votat!"
+        "message": "Vot trimis!"
     },
     "serverDown": {
         "message": "Se pare că serverul este oprit. Contactează imediat dezvoltatorul."
