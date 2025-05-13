@@ -66,7 +66,7 @@
         "message": "Omiteți"
     },
     "unmute": {
-        "message": "Activare sunet"
+        "message": "Porniți sunetul"
     },
     "paused": {
         "message": "Pauză"
@@ -108,7 +108,7 @@
         "message": "Succes!"
     },
     "voted": {
-        "message": "Votat!"
+        "message": "Vot trimis!"
     },
     "serverDown": {
         "message": "Se pare că serverul este oprit. Contactează imediat dezvoltatorul."
@@ -361,7 +361,7 @@
         "message": "Omiteți"
     },
     "mute": {
-        "message": "Mut"
+        "message": "Opriți sunetul"
     },
     "full": {
         "message": "Întregul videoclip",
@@ -371,7 +371,7 @@
         "message": "Omiteți {0}?"
     },
     "mute_category": {
-        "message": "Mut {0}?"
+        "message": "Opriți sunetul pentru {0}?"
     },
     "skip_to_category": {
         "message": "Treceți la {0}?",
@@ -386,7 +386,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} pus pe mut",
+        "message": "Sunet oprit pentru {0}",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -671,7 +671,7 @@
         "message": "Întreaga înregistrare video prezintă ceva cu acces liber sau subvenționat"
     },
     "category_interaction": {
-        "message": "Memento de interacțiune (Abonare)"
+        "message": "Cerere de abonare sau de interacțiune"
     },
     "category_interaction_description": {
         "message": "Când există o scurtă remintire pentru like, abonare sau urmărire în mijlocul conținutului. Daca este mai lung sau despre ceva specific, folosiți autopromovarea."
@@ -822,7 +822,7 @@
         "message": "Omiteți automat toate segmentele atunci când există un segment non-muzical"
     },
     "muteSegments": {
-        "message": "Permite segmente care blochează sunetul în loc de a sări peste"
+        "message": "Permiteți și segmente care opresc sunetul"
     },
     "fullVideoSegments": {
         "message": "Arată o icoană atunci când un videoclip este în întregime o reclamă",

@@ -40,7 +40,33 @@
     "Username": {
         "message": "Lietotājvārds"
     },
+    "website": {
+        "message": "Tīmekļa vietne",
+        "description": "Used on Firefox Store Page"
+    },
+    "sourceCode": {
+        "message": "Pirmkods",
+        "description": "Used on Firefox Store Page"
+    },
     "errorCode": {
         "message": "Kļūdas kods: "
+    },
+    "add": {
+        "message": "Pievienot"
+    },
+    "cancel": {
+        "message": "Atcelt"
+    },
+    "delete": {
+        "message": "Dzēst"
+    },
+    "edit": {
+        "message": "Rediģēt"
+    },
+    "questionButton": {
+        "message": "Man ir jautājums"
+    },
+    "askAQuestion": {
+        "message": "Uzdot jautājumu"
     }
 }

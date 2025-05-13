@@ -187,8 +187,14 @@
     "showUpcomingNotice": {
         "message": "Ipakita muna yung notice bago magsimula ang mga Segment"
     },
+    "showCategoryGuidelines": {
+        "message": "Ipakita ang mga kategorya"
+    },
     "noticeVisibilityMode2": {
         "message": "Lahat ang mga maliit na skip notices"
+    },
+    "noticeVisibilityMode4": {
+        "message": "Lahat ang mga na-liit ng skip notices"
     },
     "longDescription": {
         "message": "Hinahayaan ka ng SponsorBlock na laktawan ang mga sponsor, intro, outros, mga paalala sa subscription, at iba pang walang kwentang bahagi ng mga YouTube videos. Ang SponsorBlock ay isang crowdsourced browser extension na maaaring isumite ng sinuman ang ilang partikular na naka-sponsor na segment at iba pang mga segment ng mga video sa YouTube. Kapag ang isang tao ay nagsumite ng isang segment, lahat ng iba pang may ganitong extension ay lalaktawan sa ibabaw mismo ng naka-sponsor na segment. Maaari mo ring laktawan ang mga seksyong hindi musika ng mga music video.",
@@ -275,6 +281,10 @@
         "message": "Na I-skip sa {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "Na-vote ng {0}",
+        "description": "Example: Voted on Sponsor"
+    },
     "minLower": {
         "message": "minuto"
     },
@@ -289,6 +299,9 @@
     },
     "supportedSites": {
         "message": "Mga katugmang site: "
+    },
+    "add": {
+        "message": "I-add"
     },
     "customServerAddress": {
         "message": "SponsorBlock Server Address"
@@ -317,6 +330,9 @@
     "incorrectlyFormattedOptions": {
         "message": "Ang JSON ay hindi na-format nang maayos. Hindi nagbago ang iyong options."
     },
+    "confirmNoticeTitle": {
+        "message": "I-submit ang mga segment"
+    },
     "submit": {
         "message": "I-submit"
     },
@@ -325,6 +341,12 @@
     },
     "delete": {
         "message": "I-delete"
+    },
+    "preview": {
+        "message": "I-preview"
+    },
+    "inspect": {
+        "message": "I-inspect"
     },
     "edit": {
         "message": "I-edIt"
@@ -368,6 +390,9 @@
     "category_intro_short": {
         "message": "Intermisyon"
     },
+    "category_outro": {
+        "message": "Endcard/Kredito"
+    },
     "category_poi_highlight": {
         "message": "Highlight"
     },
@@ -380,8 +405,14 @@
     "disable": {
         "message": "I-disable"
     },
+    "showOverlay_full": {
+        "message": "I-show ang mga label"
+    },
     "category": {
         "message": "Kategorya"
+    },
+    "enableTestingServer": {
+        "message": "I-enable yung beta testing server"
     },
     "bracketNow": {
         "message": "(Ngayon)"
@@ -435,6 +466,12 @@
     },
     "youtubeKeybindWarning": {
         "message": "Ito ay isang built-in na YouTube shortcut. Sigurado ka bang gusto mong gamitin ang keybind na ito?"
+    },
+    "betaServerWarning": {
+        "message": "Na-ienable yung BETA server!"
+    },
+    "redeem": {
+        "message": "I-redeem"
     },
     "unsubmittedSegmentCounts": {
         "message": "Kasalukuyan kang mayroong {0} sa {1}",

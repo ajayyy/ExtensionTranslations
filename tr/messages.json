@@ -1465,6 +1465,12 @@
     "showOriginalOnHover": {
         "message": "Fareyle üzerine gelindiğinde özel ayrıntılar ve orijinal ayrıntılar arasında geçiş yap"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Video kartının üzerindeki herhangi bir yerin üzerine gelindiğinde özel ayrıntılar ile orijinal ayrıntılar arasında geçiş yap"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Bu ayar, fareyle videonun üzerine gelindiğinde videonun otomatik oynatılmasını devre dışı bırakır"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Bir sıradan mod başlığı gösteriliyorsa özel başlığı üzerine gelindiğinde göster"
     },
