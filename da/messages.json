@@ -370,7 +370,7 @@
         "message": "Spring over"
     },
     "mute": {
-        "message": "Gør Tavs"
+        "message": "Slå lyd fra"
     },
     "full": {
         "message": "Fuld video",
@@ -380,7 +380,7 @@
         "message": "Spring {0} over?"
     },
     "mute_category": {
-        "message": "Gør {0} tavs?"
+        "message": "Slå lyd fra for {0}?"
     },
     "skip_to_category": {
         "message": "Spring til {0}?",
@@ -395,7 +395,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} gjort tavs",
+        "message": "Lyd slået fra for {0}",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
