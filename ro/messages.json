@@ -84,7 +84,7 @@
         "message": "A apărut o eroare în trimiterea timpilor sponsorizărilor, încearcă din nou mai târziu."
     },
     "sponsorFound": {
-        "message": "Acest videoclip are segmente în baza de date!"
+        "message": "S-au identificat următoarele segmente:"
     },
     "sponsor404": {
         "message": "Nici un segment găsit"
@@ -99,7 +99,7 @@
         "message": "Anulare creare segment"
     },
     "noVideoID": {
-        "message": "Nu s-a găsit niciun videoclip YouTube.\nDacă acest lucru este incorect, actualizați fila."
+        "message": "Momentan, nu urmăriți un videoclip YouTube.\nPentru a scana din nou, reîmprospătați pagina."
     },
     "refreshSegments": {
         "message": "Reîmprospătare segmente"
