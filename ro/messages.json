@@ -1317,13 +1317,13 @@
         "message": "Capitalizează cuvintele"
     },
     "TitleCase": {
-        "message": "Litere De Titlu"
+        "message": "Majuscule de Titlu"
     },
     "SentenceCase": {
         "message": "Majuscule de propoziție"
     },
     "LowerCase": {
-        "message": "Literă mică"
+        "message": "fără majuscule"
     },
     "FirstLetterUppercase": {
         "message": "Prima literă majuscule"
