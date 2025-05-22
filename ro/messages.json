@@ -39,13 +39,13 @@
         "message": "Afișați capitolele generate automat de YouTube"
     },
     "upvoteButtonInfo": {
-        "message": "Apreciați această propunere"
+        "message": "Apreciați propunerea"
     },
     "reportButtonTitle": {
         "message": "Semnalați"
     },
     "reportButtonInfo": {
-        "message": "Semnalează propunerea ca fiind incorectă."
+        "message": "Semnalați propunerea ca fiind incorectă."
     },
     "Dismiss": {
         "message": "Renunță"
@@ -54,7 +54,7 @@
         "message": "Se încarcă..."
     },
     "Hide": {
-        "message": "Nu mai afișați niciodată"
+        "message": "Nu afișați din nou"
     },
     "hitGoBack": {
         "message": "Apăsați butonul „Anulați“ pentru a reveni."
@@ -312,11 +312,11 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Vot contra segmentului",
+        "message": "Nu apreciați segmentul",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Vot pentru segment",
+        "message": "Apreciați segmentul",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -1320,7 +1320,7 @@
         "message": "Litere De Titlu"
     },
     "SentenceCase": {
-        "message": "Cazul de Sentință"
+        "message": "Majuscule de propoziție"
     },
     "LowerCase": {
         "message": "Literă mică"
