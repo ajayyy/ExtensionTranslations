@@ -658,13 +658,13 @@
         "message": "Nu pentru produsele proiectate și merch"
     },
     "category_exclusive_access": {
-        "message": "Acces Exclusiv"
+        "message": "Acces exclusiv"
     },
     "category_exclusive_access_description": {
         "message": "Doar pentru etichetarea videoclipurilor întregi. Folosit atunci când un video prezintă un produs, serviciu sau o locație la care au primit acces gratuit sau subvenționat."
     },
     "category_exclusive_access_pill": {
-        "message": "Acest videoclip prezintă un produs, serviciu sau o locație la care creatorul a primit acces gratuit sau subvenționat",
+        "message": "Acest videoclip prezintă un produs, un serviciu sau o locație la care creatorul a primit acces gratuit sau subvenționat",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
@@ -964,7 +964,7 @@
         "message": "Acest segment este mare. Dacă întregul videoclip este aproximativ un subiect, atunci schimbați de la \"Săriți\" la \"Videoclip întreg\". Vedeți instrucțiunile pentru mai multe informații."
     },
     "categoryPillTitleText": {
-        "message": "Întregul videoclip se încadrează în categoria de mai jos"
+        "message": "Întregul videoclip se încadrează în categoria menționată și nu poate fi separat în segmente"
     },
     "chapterNameTooltipWarning": {
         "message": "Unul dintre numele capitolelor tale este similar cu o categorie. Ar trebui să folosești categorii atunci când este posibil."
