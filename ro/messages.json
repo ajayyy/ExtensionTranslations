@@ -661,7 +661,7 @@
         "message": "Acces exclusiv"
     },
     "category_exclusive_access_description": {
-        "message": "Doar pentru etichetarea videoclipurilor întregi. Folosit atunci când un video prezintă un produs, serviciu sau o locație la care au primit acces gratuit sau subvenționat."
+        "message": "Etichetă pentru videoclipuri întregi. Folosită pentru prezentarea unui produs, a unui serviciu sau a unei locații cu acces gratuit sau subvenționat pentru creator."
     },
     "category_exclusive_access_pill": {
         "message": "Acest videoclip prezintă un produs, un serviciu sau o locație la care creatorul a primit acces gratuit sau subvenționat",
@@ -747,7 +747,7 @@
         "message": "Muzică: Secţiune Non-Muzicală"
     },
     "category_music_offtopic_description": {
-        "message": "Doar pentru a fi folosit în videoclipuri muzicale. Acesta ar trebui să fie folosit doar pentru secțiunile de videoclipuri muzicale care nu sunt deja acoperite de o altă categorie."
+        "message": "Doar pentru videoclipuri muzicale. Categoria include scene non-muzicale din spectacole în direct sau secțiuni care nu apar în lansări oficiale. Folosită doar dacă segmentele nu sunt deja acoperite de o altă categorie."
     },
     "category_music_offtopic_short": {
         "message": "Non-Muzical"
@@ -756,7 +756,7 @@
         "message": "Secțiuni care nu sunt în lansări oficiale"
     },
     "category_music_offtopic_guideline2": {
-        "message": "Fără muzica într-un spectacol in direct"
+        "message": "Scene non-muzicale dintr-un spectacol în direct"
     },
     "category_poi_highlight": {
         "message": "Momente importante"
@@ -824,15 +824,18 @@
     "autoSkipOnMusicVideos": {
         "message": "Omiteți automat toate segmentele atunci când există un segment non-muzical"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Omiteți automat doar pe music.youtube.com"
+    },
     "muteSegments": {
         "message": "Permiteți și segmente care opresc sunetul"
     },
     "fullVideoSegments": {
-        "message": "Arată o icoană atunci când un videoclip este în întregime o reclamă",
+        "message": "Afișați o pictogramă pentru videoclipuri reclamă",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Arată etichetele și în miniaturile video",
+        "message": "Afișați pictograma și în miniaturile din interfață",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
