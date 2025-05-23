@@ -625,10 +625,10 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
-        "message": "Include tranzițiile segmentului"
+        "message": "Includeți tranzițiile dintre scene"
     },
     "generic_guideline2": {
-        "message": "Reda ca și cum nimic nu a fost omis"
+        "message": "Se poate omite în mod imperceptibil"
     },
     "category_sponsor": {
         "message": "Sponsor"
@@ -637,10 +637,10 @@
         "message": "Promovare plătită, refferali plătiți și reclame directe. Nu pentru autopromovări sau promovări gratis ale cauzelor/creatorilor/website-urilor/produselor."
     },
     "category_sponsor_guideline1": {
-        "message": "Promoții plătite"
+        "message": "Promovări plătite"
     },
     "category_sponsor_guideline2": {
-        "message": "Nu este pentru donații sau mărfuri personalizate"
+        "message": "Categoria exclude donații sau mărfuri personalizate"
     },
     "category_selfpromo": {
         "message": "Promovare neplătită/autopromovare"
@@ -652,10 +652,10 @@
         "message": "Donații, abonamente și mărfuri personalizate"
     },
     "category_selfpromo_guideline2": {
-        "message": "Mențiuni neplătite care nu ajută videoclipul"
+        "message": "Mențiuni gratuite fără valoare adăugată conținutului"
     },
     "category_selfpromo_guideline3": {
-        "message": "Nu pentru produsele proiectate și merch"
+        "message": "Categoria exclude produsele unor firme mari"
     },
     "category_exclusive_access": {
         "message": "Acces exclusiv"
@@ -671,19 +671,19 @@
         "message": "Întreaga înregistrare video prezintă ceva cu acces liber sau subvenționat"
     },
     "category_interaction": {
-        "message": "Cerere de abonare sau de interacțiune"
+        "message": "Cerere de interacțiune sau de abonare"
     },
     "category_interaction_description": {
         "message": "Când există o scurtă remintire pentru like, abonare sau urmărire în mijlocul conținutului. Daca este mai lung sau despre ceva specific, folosiți autopromovarea."
     },
     "category_interaction_guideline1": {
-        "message": "Scurte memento-uri pentru a vă abona sau urmări"
+        "message": "Scurte cereri de apreciere, abonare sau de urmărire"
     },
     "category_interaction_guideline2": {
-        "message": "Include memento-uri indirecte de comentat"
+        "message": "Categoria include cereri indirecte de comentarii"
     },
     "category_interaction_guideline3": {
-        "message": "Nu pentru promovare generală, se face apel doar la acțiune"
+        "message": "Categoria nu include promovarea, ci doar cererile de interacțiune"
     },
     "category_interaction_short": {
         "message": "Reamintire de Interacțiune"
@@ -698,10 +698,10 @@
         "message": "Pauză"
     },
     "category_intro_guideline1": {
-        "message": "Interval fără conținut real"
+        "message": "Scene fără conținut"
     },
     "category_intro_guideline2": {
-        "message": "Nu se efectuează tranziții cu informații"
+        "message": "Categoria exclude tranzițiile cu informații"
     },
     "category_outro": {
         "message": "Ecran De Final/Credite"
@@ -710,7 +710,7 @@
         "message": "Credite sau atunci când apare ecranul de final YouTube. Nu pentru concluzii cu informații."
     },
     "category_outro_guideline1": {
-        "message": "Nu include conținutul, chiar dacă end card-urile sunt pe ecran"
+        "message": "Nu marcați conținut informativ, chiar dacă sunt suprapuse carduri de final"
     },
     "category_preview": {
         "message": "Previzualizare / recapitulare / laitmotiv",
@@ -720,13 +720,13 @@
         "message": "Colecția de clipuri care arată ce se află în acest videoclip sau alte videoclipuri într-o serie în care toate informațiile sunt repetate mai târziu în videoclip."
     },
     "category_preview_guideline1": {
-        "message": "Clipuri care apar mai târziu sau într-un video viitor"
+        "message": "Scene care apar mai târziu sau într-un videoclip viitor"
     },
     "category_preview_guideline2": {
-        "message": "Recapitularea unui videoclip anterior"
+        "message": "Recapitulare din videoclipuri anterioare"
     },
     "category_preview_guideline3": {
-        "message": "Nu pentru secțiunile care adaugă conținut suplimentar"
+        "message": "Categoria exclude scene ce adaugă valoare conținutului"
     },
     "category_filler": {
         "message": "Subiecte tangențiale și glume"
@@ -734,11 +734,14 @@
     "category_filler_short": {
         "message": "Subiecte tangențiale"
     },
+    "category_filler_guideline1": {
+        "message": "Scene tangențiale pentru distracție sau umplutură"
+    },
     "category_filler_guideline2": {
-        "message": "Distracții, blooper, reluări"
+        "message": "Distrageri, gafe, reluări"
     },
     "category_filler_guideline3": {
-        "message": "Nu sunt necesare scene pentru a înțelege subiectul"
+        "message": "Categoria exclude scenele valoroase pentru subiectul videoclipului"
     },
     "category_music_offtopic": {
         "message": "Muzică: Secţiune Non-Muzicală"
@@ -1064,7 +1067,7 @@
         "message": "Contribuții"
     },
     "LearnMore": {
-        "message": "Află mai multe"
+        "message": "Aflați mai multe"
     },
     "FullDetails": {
         "message": "Detalii Complete"
