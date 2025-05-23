@@ -1332,7 +1332,7 @@
         "message": "Eliminați Emoji"
     },
     "onlyTitleCaseInEnglish": {
-        "message": "Scrieți cu majuscule cuvinte pentru titluri care nu sunt în limba engleză"
+        "message": "Aplcați majuscule de titlu nu doar în limba engleză"
     },
     "onlyTitleCaseInEnglishDescription": {
         "message": "Detectarea limbii nu este perfectă și detectează unele titluri în limba engleză ca non-engleze."
