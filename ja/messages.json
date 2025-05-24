@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "セグメントIDをコピー"
     },
+    "loopChapter": {
+        "message": "チャプターをループ"
+    },
+    "unloopChapter": {
+        "message": "チャプターのループ解除"
+    },
     "hideThis": {
         "message": "非表示にする"
     },
@@ -489,6 +495,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Invidiousインスタンス一覧を初期化しようとしています"
+    },
+    "invidiousDisabledSafari": {
+        "message": "現時点のSafariのバグのため、Safariでは Invidious に対応していません。 Appleがバグを修正すれば追加します。"
     },
     "currentInstances": {
         "message": "現在のインスタンス:"
@@ -829,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "音楽以外のセグメントがある場合に全セグメントを自動的にスキップする"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "music.youtube.comのみ自動スキップ"
     },
     "muteSegments": {
         "message": "スキップする代わりに音声をミュートしてセグメントを許可"
@@ -1461,6 +1473,12 @@
     },
     "showOriginalOnHover": {
         "message": "カーソルを乗せると、改善済みの詳細と元の詳細を入れ替え"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "動画カードにカーソルを乗せると、改善済みの詳細と元の詳細を入れ替え"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "カーソルを乗せると自動再生を無効にします"
     },
     "showCustomOnHoverIfCasual": {
         "message": "カジュアルモードの題名が表示されている時、カーソルを乗せると改善済みの題名を表示"

@@ -1474,6 +1474,12 @@
     "showOriginalOnHover": {
         "message": "Pri prechode myšou prepni medzi vlastnými a pôvodnými podrobnosťami"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Prepínať medzi vlastnými a pôvodnými podrobnosťami po nabehnutí kurzora na ktorúkoľvek časť video karty"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Toto zakáže automatické prehrávanie pri prejdení myšou"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Zobraziť vlastný názov pri prejdení myšou, ak je zobrazený názov z normálneho režimu"
     },

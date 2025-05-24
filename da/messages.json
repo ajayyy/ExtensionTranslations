@@ -370,7 +370,7 @@
         "message": "Spring over"
     },
     "mute": {
-        "message": "Gør Tavs"
+        "message": "Slå lyd fra"
     },
     "full": {
         "message": "Fuld video",
@@ -380,7 +380,7 @@
         "message": "Spring {0} over?"
     },
     "mute_category": {
-        "message": "Gør {0} tavs?"
+        "message": "Slå lyd fra for {0}?"
     },
     "skip_to_category": {
         "message": "Spring til {0}?",
@@ -395,7 +395,7 @@
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} gjort tavs",
+        "message": "Lyd slået fra for {0}",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -416,13 +416,13 @@
         "message": "Lydnotifikation ved overspringning"
     },
     "audioNotificationDescription": {
-        "message": "Lydnotifikation ved overspringning vil afspille en lyd når et segment overspringes. Hvis deaktiveret (eller automatisk overspringning er deaktiveret) vil ingen lyd blive afspillet."
+        "message": "Lydnotifikation ved overspringning afspiller en lyd, når et segment overspringes. Hvis deaktiveret (eller automatisk overspringning er deaktiveret), afspilles ingen lyd."
     },
     "showTimeWithSkips": {
         "message": "Vis tid med overspringninger fjernet"
     },
     "showTimeWithSkipsDescription": {
-        "message": "Denne tid vises i parentes ved siden af den aktuelle tid under søgelinjen. Dette viser den totale varighed af videoen fratrukket alle segmenter. Dette inkluderer segmenter kun markeret som \"Vis på søgelinjen\"."
+        "message": "Denne tid vises i parentes ved siden af den aktuelle tid under søgelinjen. Den viser den samlede videovarighed minus alle segmenter, også dem der kun er markeret som \"Vis i søgelinje\"."
     },
     "youHaveSkipped": {
         "message": "Du har oversprunget "
@@ -451,10 +451,10 @@
         "message": "Tjek status.sponsor.ajay.app for serverstatus."
     },
     "changeUserID": {
-        "message": "Importer/eksporter dit private bruger-ID"
+        "message": "Importér/eksportér dit private bruger-ID"
     },
     "whatChangeUserID": {
-        "message": "Dette bør holdes privat. Det er ligesom en adgangskode og bør ikke deles med nogen. Hvis nogen har dette, kan de udgive sig for at være dig. Hvis du leder efter dit offentlige bruger-ID, skal du klikke på udklipsholderikonet i pop op-vinduet."
+        "message": "Dette bør holdes privat. Det fungerer som en adgangskode og må ikke deles med nogen. Hvis nogen får fat i den, kan de udgive sig for at være dig. Hvis du leder efter dit offentlige bruger-ID, så klik på udklipsholderikonet i pop op-vinduet."
     },
     "setUserID": {
         "message": "Angiv privat bruger-ID"
@@ -476,19 +476,19 @@
         "message": "Understøttede websteder: "
     },
     "optionsInfo": {
-        "message": "Aktiver Invidious-understøttelse, deaktiver automatisk overspringning, skjul knapper med mere."
+        "message": "Aktiver Invidious-understøttelse, deaktiver automatisk overspringning, skjul knapper m.m."
     },
     "addInvidiousInstance": {
-        "message": "Tilføj tredjepartsklientinstanser"
+        "message": "Tilføj tredjeparts-klientinstans"
     },
     "addInvidiousInstanceDescription": {
-        "message": "Tilføj brugerdefineret instans. Dette skal formateres med KUN domænet. Eksempel: invidious.ajay.app"
+        "message": "Tilføj en brugerdefineret instans. Dette skal KUN formateres med domænet. Eksempel: invidious.ajay.app"
     },
     "add": {
         "message": "Tilføj"
     },
     "addInvidiousInstanceError": {
-        "message": "Dette er et ugyldigt domæne. Dette må KUN omfatte domænedele. Eksempel: invidious.ajay.app"
+        "message": "Dette er et ugyldigt domæne. Det skal KUN indeholde domænedelen. Eksempel: invidious.ajay.app"
     },
     "resetInvidiousInstance": {
         "message": "Nulstil liste over Invidious-instanser"
@@ -497,7 +497,7 @@
         "message": "Du er ved at nulstille listen over Invidious-instanser"
     },
     "invidiousDisabledSafari": {
-        "message": "Invidious-understøttelse er ikke tilgængelig på Safari i øjeblikket grundet en fejl i Safari. Når Apple retter fejlen, tilføjes den igen."
+        "message": "Invidious-understøttelse virker ikke i Safari på grund af en fejl. Når Apple retter den, bliver den tilføjet igen."
     },
     "currentInstances": {
         "message": "Nuværende instanser:"
@@ -506,19 +506,19 @@
         "message": "Minimumsvarighed (sekunder):"
     },
     "minDurationDescription": {
-        "message": "Segmenter kortere end den angivne værdi vil ikke blive sprunget over eller vist i afspilleren."
+        "message": "Segmenter kortere end den angivne værdi bliver ikke sprunget over eller vist i afspilleren."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Spring manuelt over, når en fuld video-etiket findes"
+        "message": "Spring over manuelt, når der er en fuld video-etiket"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "For folk, som ønsker at se videoen uforstyrret, hvis den er fuldt sponsoreret eller selvpromovering."
+        "message": "For folk, der ønsker at se videoen uafbrudt, hvis den er fuldt sponsoreret eller selvpromoveret."
     },
     "skipNoticeDuration": {
         "message": "Varighed af overspringsmeddelelse (sekunder):"
     },
     "skipNoticeDurationDescription": {
-        "message": "Overspringsmeddelelsen vil blive på skærmen i mindst dette antal sekunder. Den kan være synlig længere ved manuel overspringning."
+        "message": "Overspringsmeddelelsen bliver på skærmen i mindst dette antal sekunder. Den kan være synlig i længere tid ved manuel overspringning."
     },
     "shortCheck": {
         "message": "Den følgende indsendelse er kortere end din indstillede minimumsvarighed. Dette kan betyde, at den allerede er indsendt og bare bliver ignoreret på grund af denne indstilling. Er du sikker på, at du vil indsende?"

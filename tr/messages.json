@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Kısım Kimliğini Kopyala"
     },
+    "loopChapter": {
+        "message": "Kısmı döngüye al"
+    },
+    "unloopChapter": {
+        "message": "Kısmı döngüden çıkar"
+    },
     "hideThis": {
         "message": "Bunu sakla"
     },
@@ -832,6 +838,9 @@
     },
     "autoSkipOnMusicVideos": {
         "message": "Müzik olmayan kısım varsa tüm kısımları otomatik atla"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Sadece music.youtube.com'da otomatik atla"
     },
     "muteSegments": {
         "message": "Atlamak yerine sesi kapatan bölümlere izin ver"
