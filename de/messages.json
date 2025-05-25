@@ -1474,6 +1474,9 @@
     "showOriginalOnHover": {
         "message": "Beim Daraufzeigen zwischen eingereichten und originalen Details wechseln"
     },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Damit wird die automatische Wiedergabe beim darauf zeigen deaktiviert"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des lockeren Modus angezeigt wird"
     },
