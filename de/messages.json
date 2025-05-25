@@ -14,7 +14,7 @@
         "message": "Dieser Inhalt wurde bereits eingereicht."
     },
     "channelWhitelisted": {
-        "message": "Der Kanal wurde zur Ausnahmeliste hinzugefügt!"
+        "message": "Der Kanal wurde auf die Whitelist gesetzt!"
     },
     "Segment": {
         "message": "Segment"
@@ -135,7 +135,7 @@
         "message": "Einreichungsmenü öffnen"
     },
     "OpenCasualVoteMenu": {
-        "message": "Öffne Menü des lockeren Modus"
+        "message": "Öffne Menü des entspannten Modus"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
@@ -147,7 +147,7 @@
         "message": "Kanal zur Ausnahmeliste hinzufügen"
     },
     "removeFromWhitelist": {
-        "message": "Kanal von der Ausnahmeliste entfernen"
+        "message": "Kanal von der Whitelist entfernen"
     },
     "voteOnTime": {
         "message": "Über ein Segment abstimmen"
@@ -1473,6 +1473,9 @@
     },
     "showOriginalOnHover": {
         "message": "Beim Daraufzeigen zwischen eingereichten und originalen Details wechseln"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Wechsel zwischen benutzerdefinierten Details und Originaldetails, wenn du den Mauszeiger über eine beliebige Stelle in der Video-Karte bewegst"
     },
     "showOriginalOnHoverOfVideoDescription": {
         "message": "Damit wird die automatische Wiedergabe beim darauf zeigen deaktiviert"
