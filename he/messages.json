@@ -469,7 +469,7 @@
         "message": "תמיכה באתרי יוטיוב של צד שלישי"
     },
     "supportOtherSitesDescription": {
-        "message": "תמיכה בלקוחות יוטיוב של צד שלישי. כדי לאפשר תמיכה, עליך לקבל את ההרשאות הנוספות.",
+        "message": "תמיכה בלקוחות יוטיוב של צד שלישי. כדי לאפשר תמיכה, עליך לאפשר הרשאות נוספות.",
         "description": "This replaces the 'supports Invidious' option because it now works on other YouTube sites such as Cloudtube"
     },
     "supportedSites": {
