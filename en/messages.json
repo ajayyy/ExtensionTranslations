@@ -867,6 +867,16 @@
         "message": "Skip option",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Open advanced skip options"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Syntax error: Your options have not been saved"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "How this works",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Enable beta testing server"
     },
