@@ -867,6 +867,16 @@
         "message": "Možnost přeskočení",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Otevřít pokročilé možnosti přeskočení"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Chyba syntaxe: Vaše možnosti nebyly uloženy"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Jak to funguje",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Povolit beta testovací server"
     },
