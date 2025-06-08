@@ -867,6 +867,16 @@
         "message": "건너뛰기 설정",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "고급 건너뛰기 옵션 열기"
+    },
+    "advancedSkipNotSaved": {
+        "message": "구문 오류: 옵션이 저장되지 않았어요"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "작동 원리",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "베타 테스트 서버 사용"
     },
@@ -1473,6 +1483,12 @@
     },
     "showOriginalOnHover": {
         "message": "마우스를 올렸을 때 사용자 지정 세부 정보를 원본 세부 정보로 교체"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "동영상 카드의 어디에서나 마우스를 올렸을 때 사용자 지정 세부 정보를 원본 세부 정보로 교체해요"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "마우스를 올렸을 때 자동 재생을 끄게 돼요"
     },
     "showCustomOnHoverIfCasual": {
         "message": "마우스를 캐주얼 모드 제목에 올렸을 때 사용자 지정 제목 표시"
