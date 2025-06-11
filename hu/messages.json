@@ -867,6 +867,16 @@
         "message": "Átugrás beállítása",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Haladó átugrási beállítások megnyitása"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Szintaktikai hiba: A beállításaid nem lettek elmentve"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Hogyan működik",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Bétateszt szerver bekapcsolása"
     },

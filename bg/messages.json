@@ -867,6 +867,16 @@
         "message": "Метод за пропускане",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Отваряне на разширените опции за прескачане"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Синтактична грешка: Вашите опции не са запазени"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Как работи това",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Активиране на сървъра за бета тестване"
     },

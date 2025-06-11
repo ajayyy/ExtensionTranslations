@@ -867,6 +867,16 @@
         "message": "Atlama Seçeneği",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Gelişmiş atlama ayarlarını aç"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Söz dizimi hatası: Seçenekleriniz kaydedilmedi"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Bu nasıl çalışıyor",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Beta Deneme Sunucusunu Devreye Sok"
     },
