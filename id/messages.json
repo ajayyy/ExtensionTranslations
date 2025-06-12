@@ -235,7 +235,7 @@
         "message": "Peringatan: Menonaktifkan ini akan menghapus semua jempol bawah yang ditampung"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Segmen"
+        "message": "Simpan penilaian negatif terhadap segmen dalam tab privat/penyamaran"
     },
     "enableQueryByHashPrefix": {
         "message": "Kueri dengan Hash Prefix"
@@ -320,6 +320,10 @@
         "message": "Tutup pemberitahuan lewati",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Beri penilaian negatif ke segmen",
+        "description": "Keybind label"
+    },
     "setUpvoteKeybind": {
         "message": "Dukung segmen",
         "description": "Keybind label"
@@ -378,6 +382,10 @@
         "message": "Lompat ke {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "Yang akan datang {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} dilewati",
         "description": "Example: Sponsor Skipped"
@@ -389,6 +397,10 @@
     "skipped_to_category": {
         "message": "Melewati ke {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Dinilai di {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Nonaktifkan Lewati Otomatis"
@@ -717,6 +729,15 @@
     },
     "category_preview_guideline3": {
         "message": "Bukan untuk bagian yang menambahkan konten tambahan"
+    },
+    "category_filler": {
+        "message": "Candaan atau bagian yang menyimpang dari isi cerita"
+    },
+    "category_filler_short": {
+        "message": "Penyimpangan cerita"
+    },
+    "category_filler_guideline1": {
+        "message": "Adegan atau lelucon yang kurang relevan dengan isi video"
     },
     "category_filler_guideline2": {
         "message": "Gangguan, blooper, replay"
@@ -1409,6 +1430,10 @@
     },
     "ShowFormatted": {
         "message": "Perlihatkan detail yang diformat"
+    },
+    "FillerWarning": {
+        "message": "Peringatan: Ini adalah kategori yang sangat agresif. Kamu kemungkinan besar akan harus melewati beberapa hal, atau terkadang mematikannya. Kamu sudah diperingatkan bahwa banyak video memiliki memiliki 50% atau lebih yang isi videonya dilewatkan! Tetapi, ingat bahwa ada pedoman spesifik yang harus diikuti ketika ingin mengirim.",
+        "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
         "message": "Masuk ke Discord atau Matrix untuk tetap berbicara di percakapan ini",
