@@ -234,6 +234,9 @@
     "trackDownvotesWarning": {
         "message": "Peringatan: Menonaktifkan ini akan menghapus semua jempol bawah yang ditampung"
     },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Segmen"
+    },
     "enableQueryByHashPrefix": {
         "message": "Kueri dengan Hash Prefix"
     },
@@ -315,6 +318,10 @@
     },
     "setCloseSkipNoticeKeybind": {
         "message": "Tutup pemberitahuan lewati",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Dukung segmen",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -825,6 +832,9 @@
     "skipOption": {
         "message": "Opsi Lewati",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Galat pada sintaks: Pilihan kamu mungkin tidak tersipan"
     },
     "enableTestingServer": {
         "message": "Aktifkan Server Beta Testing"
@@ -1377,6 +1387,9 @@
     "alwaysShowShowOriginalButton": {
         "message": "Selalu tampilkan tombol \"Tampikan Asli\""
     },
+    "Enable": {
+        "message": "Aktifkan"
+    },
     "Titles": {
         "message": "Judul",
         "description": "Referring to titles of YouTube videos"
@@ -1390,6 +1403,12 @@
     },
     "ShowOriginal": {
         "message": "Lihat Detail Original"
+    },
+    "ShowModified": {
+        "message": "Perlihatkan detail yang dimodifikasi"
+    },
+    "ShowFormatted": {
+        "message": "Perlihatkan detail yang diformat"
     },
     "chatboxDescription": {
         "message": "Masuk ke Discord atau Matrix untuk tetap berbicara di percakapan ini",
