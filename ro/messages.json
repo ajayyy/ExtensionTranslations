@@ -967,7 +967,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "Acest segment este mare. Dacă întregul videoclip este aproximativ un subiect, atunci schimbați de la \"Săriți\" la \"Videoclip întreg\". Vedeți instrucțiunile pentru mai multe informații."
+        "message": "Acest segment este mare. Dacă întregul videoclip se încadrează într-o categorie, atunci schimbați de la \"Săriți\" la \"Videoclip întreg\". Vedeți instrucțiunile pentru mai multe informații."
     },
     "categoryPillTitleText": {
         "message": "Întregul videoclip se încadrează în categoria menționată și nu poate fi separat în segmente"
