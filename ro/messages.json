@@ -120,7 +120,7 @@
         "message": "Încă se încarcă segmentele..."
     },
     "clearTimes": {
-        "message": "Curăță segmentele"
+        "message": "Ștergeți propunerea"
     },
     "openPopup": {
         "message": "Deschide Popup-ul SponsorBlock"
@@ -159,7 +159,7 @@
         "message": "Clasament"
     },
     "recordTimesDescription": {
-        "message": "Trimite"
+        "message": "Trimiteți"
     },
     "submissionEditHint": {
         "message": "Editând secțiunea va apărea după ce faceți clic trimiteți",
@@ -208,25 +208,25 @@
         "message": "Arată Butonul De Ștergere Pe Playerul De YouTube"
     },
     "enableViewTracking": {
-        "message": "Activează Urmărirea Săriturilor"
+        "message": "Permiteți contabilizarea omiterilor"
     },
     "whatViewTracking": {
-        "message": "Acest lucru urmărește peste ce segmente ai sărit pentru a informa utilizatorii cât de mult înregistrările lor i-au ajutat pe alții și este folosit ca un contor împreună cu upvoturile pentru a ne asigura că spamul nu pătrunde în baza de date. Extensia trimite un mesaj serverului de fiecare dată când sari peste un segment. Sperăm că majoritatea oamenilor nu vor schimba această setare astfel că numerele să fie exacte. :)"
+        "message": "Opțiunea permite colectarea informațiilor despre segmentele omise de dv., pentru a comunica autorilor lor cât de folositoare sunt. De asemenea, informațiile aceastea, împreună cu sistemul de votare sunt folosite pentru a înlătura și preveni conținutul irelevant. Bifarea opțiunii permite extensiei să informeze serverul nostru de fiecare dată când omiteți un segment. Sperăm să nu dezactivați opțiunea, pentru a păstra precizia contoarelor propunerilor. :)"
     },
     "enableViewTrackingInPrivate": {
-        "message": "Activează Monitorizarea Numărului de Segmente Omise în Ferestre Private/Incognito"
+        "message": "Permiteți contabilizarea omiterilor în file private"
     },
     "enableTrackDownvotes": {
-        "message": "Stochează Segmente Downvotuite"
+        "message": "Rețineți propunerile neapreciate"
     },
     "whatTrackDownvotes": {
-        "message": "Segmentele la care ați dat downvote vor rămâne ascunse chiar si după reîncărcarea paginii"
+        "message": "Segmentele neapreciate vor fi ascunse, chiar și după reîncărcarea paginii"
     },
     "trackDownvotesWarning": {
-        "message": "Atenție: Dezactivarea acestei opțiuni va șterge toate downvote-urile stocate anterior"
+        "message": "Atenție: Dezactivarea acestei opțiuni va șterge toate neaprecierile stocate anterior"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Stocați voturile negative ale segmentului în file private/incognito"
+        "message": "Rețineți propunerile neapreciate în file private"
     },
     "enableQueryByHashPrefix": {
         "message": "Interogare după Prefix Hash"
@@ -247,25 +247,25 @@
         "message": "Arată o notificare după ce un segment este sărit"
     },
     "showUpcomingNotice": {
-        "message": "Avertizați înainte de începerea unui segment"
+        "message": "Afișați o notificare înainte de începerea unui segment"
     },
     "showCategoryGuidelines": {
-        "message": "Afișează Categoria de Ajutor"
+        "message": "Afișați descrieri pentru categorii"
     },
     "noticeVisibilityMode0": {
-        "message": "Notificări de Omiteri de Dimensiune Originală"
+        "message": "Dimensiune completă"
     },
     "noticeVisibilityMode1": {
-        "message": "Notificări de Omiteri de Dimensiune Mică Pentru Omiteri Automate"
+        "message": "Dimensiune redusă la omitere automată"
     },
     "noticeVisibilityMode2": {
-        "message": "Toate Notificările de Omiteri de Dimensiune Mică"
+        "message": "Dimensiune mică"
     },
     "noticeVisibilityMode3": {
-        "message": "Notificări Estompate pentru Omiteri Automate"
+        "message": "Estompată la omitere automată"
     },
     "noticeVisibilityMode4": {
-        "message": "Toate Notificările de Omiteri Estompate"
+        "message": "Estompată"
     },
     "longDescription": {
         "message": "SponsorBlock vă permite să săriți peste sponsori, intro, outros, memento-uri pentru abonament și alte părți enervante ale videoclipurilor YouTube SponsorBlock este o extensie crowdsourced de browser, care hai să trimită oricui timpul de început și de sfârșit pentru segmente sponsorizate și alte segmente de videoclipuri YouTube. Odată ce o persoană transmite aceste informații, toți ceilalți cu această extensie vor sări peste segmentul sponsorizat. De asemenea, poți sări peste secțiunile non-muzicale ale videoclipurilor.",
@@ -312,7 +312,7 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Nu apreciați segmentul",
+        "message": "Votați negativ segmentul",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
@@ -442,13 +442,13 @@
         "message": "Verificați status.sponsor.ajay.app pentru starea serverului."
     },
     "changeUserID": {
-        "message": "Importă/Exportă UserID-ul tău Privat"
+        "message": "Gestionați ID-ul utilizatorului dv."
     },
     "whatChangeUserID": {
-        "message": "Aceste informații sunt private și nu ar trebui să fie dezvăluite nimănui. Dacă cineva are aceste informații, pot fi folosite pentru a vă imita. În cazul în care vă căutați ID-ul public de utilizator, dați click pe icoana de clipboard din popup."
+        "message": "Nu partajați ID-ul privat. Acesta poate fi folosit pentru a acționa în numele dv. în cadrul acestei extensii. În cazul în care vă căutați ID-ul public, acesta se găsește în butonul principal de informații al extensiei."
     },
     "setUserID": {
-        "message": "Setare UserID privat"
+        "message": "Stabiliți ID-ul privat"
     },
     "userIDChangeWarning": {
         "message": "Avertisment: Modificarea Id-ului de utilizator privat este permanentă. Sunteți sigur că doriți să faceți acest lucru? Asigurați-vă că ați făcut o copie de rezervă pe cea veche, pentru orice eventualitate."
@@ -506,7 +506,7 @@
         "message": "Durata notificărilor de omitere (secunde):"
     },
     "skipNoticeDurationDescription": {
-        "message": "Notificarea sări peste va rămâne pe ecran cel puțin atâtea secunde. Pentru omiterea manuală, este posibil să fie vizibilă pentru mai mult timp."
+        "message": "Durata de afișare a notificării de omitere. Dacă omiteți manual, e posibil ca notificarea să fie vizibilă mai mult timp."
     },
     "shortCheck": {
         "message": "Următoarea înregistrare este mai mică decât opțiunea voastră de durată minimă. Acest lucru ar putea însemna că a fost deja trimisă și a fost ignorat datorită acestei opțiuni. Sunteți sigur că doriți să trimiteți?"
@@ -551,19 +551,19 @@
         "message": "Importă/Exportă Toate Opțiunile"
     },
     "exportOtherData": {
-        "message": "Import/Exporta toate celelalte date"
+        "message": "Gestionați statisticile dv."
     },
     "exportOptionsCopy": {
-        "message": "Editare/Copiere"
+        "message": "Editați"
     },
     "exportOptionsDownload": {
-        "message": "Salvează în Fișier"
+        "message": "Salvați în fișier"
     },
     "exportOptionsUpload": {
-        "message": "Încarcă din fișier"
+        "message": "Încărcați din fișier"
     },
     "whatExportOptions": {
-        "message": "Aceasta este întreaga configurație în format JSON. Asta include si ID-ul tău privat de utilizator, așa că fi sigur să împărtășești asta cu înțelepciune."
+        "message": "Aici este întreaga configurație a extensiei, în format JSON, inclusiv ID-ul dv. privat. Partajați cu grijă!"
     },
     "setOptions": {
         "message": "Setează Opțiuni"
@@ -731,6 +731,9 @@
     "category_filler": {
         "message": "Subiecte tangențiale și glume"
     },
+    "category_filler_description": {
+        "message": "Scene tangențiale pentru distracție care nu sunt necesare pentru a înțelege ideea principală a clipului video. Nu sugerați segmente în care se oferă informații suplimentare. Categoria este deosebit de agresivă și este menită a se folosi strict pentru a omite diverse „glume“."
+    },
     "category_filler_short": {
         "message": "Subiecte tangențiale"
     },
@@ -831,7 +834,7 @@
         "message": "Permiteți și segmente care opresc sunetul"
     },
     "fullVideoSegments": {
-        "message": "Afișați o pictogramă pentru videoclipuri reclamă",
+        "message": "Afișați o pictogramă în dreptul videoclipurilor publicitare",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
@@ -1076,13 +1079,13 @@
         "message": "Detalii Complete"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "Voturi negative și creați o copie locală pentru a retrimite"
+        "message": "Butonul acordă un vot negativ și creează o copie pentru a retrimite"
     },
     "OpenCategoryWikiPage": {
         "message": "Deschide pagina wiki a acestei categorii."
     },
     "CopyAndDownvote": {
-        "message": "Copiază și dă downvote"
+        "message": "Copiați și votați negativ"
     },
     "ContinueVoting": {
         "message": "Continuă votarea"
@@ -1091,10 +1094,10 @@
         "message": "Acest lucru se va aplica instantaneu segmentelor dvs"
     },
     "downvote": {
-        "message": "Downvote"
+        "message": "Nu apreciați"
     },
     "upvote": {
-        "message": "Upvote"
+        "message": "Apreciați"
     },
     "hideSegment": {
         "message": "Ascunde segmentul"
@@ -1106,7 +1109,7 @@
         "message": "Reda capitolul"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "Folosește rotița mouse-ului în timp ce ești deasupra casetei de editare pentru a ajusta rapid timpul. Combinațiile dintre ctrl sau Shift pot fi folosite pentru a ajusta modificările."
+        "message": "Folosiți rotița mouse-ului când cursorul este deasupra casetei pentru a modifica marcajul de timp. Tastele Ctrl sau Shift pot fi folosite pentru ajustări mai precise."
     },
     "categoryPillNewFeature": {
         "message": "Nou! Vezi când un videoclip este sponsorizat în întregime sau auto-promovat"
@@ -1132,11 +1135,11 @@
         "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabKeyBinds": {
-        "message": "Shortcut-uri pentru taste",
+        "message": "Combinații de taste",
         "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
-        "message": "Backup/Restaurare",
+        "message": "Copie de rezervă",
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
@@ -1144,11 +1147,11 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Aspectul notificării de omiteri",
+        "message": "Aspect",
         "description": "Option label"
     },
     "unbind": {
-        "message": "Unbind",
+        "message": "Ștergeți",
         "description": "Unbind keyboard shortcut"
     },
     "notSet": {
@@ -1167,13 +1170,13 @@
         "message": "Deschide pagina de opțiuni"
     },
     "resetToDefault": {
-        "message": "Resetați setările la valori implicite"
+        "message": "Restabiliți valorile implicite"
     },
     "confirmResetToDefault": {
         "message": "Ești sigur că vrei sa resetezi toate setările la valorile lor implicite? Această acțiune nu poate fi anulată."
     },
     "exportSegments": {
-        "message": "Exportare segmente"
+        "message": "Copiați propunerea"
     },
     "importSegments": {
         "message": "Importare segmente"
@@ -1201,11 +1204,11 @@
         "message": "Introdu cheia de licență"
     },
     "unsubmittedSegmentCounts": {
-        "message": "Ai în prezent {0} pe {1}",
+        "message": "Aveți {0} în cadrul a {1}",
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
     "unsubmittedSegmentCountsZero": {
-        "message": "În prezent nu aveți segmente netrimise",
+        "message": "Nu aveți propuneri netransmise",
         "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
     },
     "unsubmittedSegmentsSingular": {
@@ -1225,19 +1228,19 @@
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
     "clearUnsubmittedSegments": {
-        "message": "Curăță toate segmentele",
+        "message": "Ștergeți propunerile netransmise",
         "description": "Label for a button in settings"
     },
     "clearUnsubmittedSegmentsConfirm": {
-        "message": "Sigur doriți ștergerea tuturor segmentelor netransmise?",
+        "message": "Sigur doriți ștergerea tuturor propunerilor netransmise?",
         "description": "Confirmation message for the Clear unsubmitted segments button"
     },
     "showUnsubmittedSegments": {
-        "message": "Arată segmentele",
+        "message": "Afișați lista",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "hideUnsubmittedSegments": {
-        "message": "Ascunde segmentele",
+        "message": "Ascundeți lista",
         "description": "Show/hide button for the unsubmitted segments list"
     },
     "videoID": {
@@ -1253,7 +1256,7 @@
         "description": "Header of the unsubmitted segments list"
     },
     "exportSegmentsAsURL": {
-        "message": "Distribuie ca URL"
+        "message": "Link către propunere"
     },
     "segmentFetchFailureWarning": {
         "message": "Atenție: Serverul nu a răspuns încă cu segmente. Ar putea fi segmente în acest videoclip deja trimise, dar pur și simplu nu le-ai primit din cauza problemelor cu serverul."
@@ -1262,7 +1265,7 @@
         "message": "Permite derularea la Editarea Timpilor"
     },
     "NoticeTimeAfterSkip": {
-        "message": "{seconds}sec",
+        "message": "{seconds} secunde",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
