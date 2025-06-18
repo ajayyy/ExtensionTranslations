@@ -123,7 +123,7 @@
         "message": "Ștergeți propunerea"
     },
     "openPopup": {
-        "message": "Deschide Popup-ul SponsorBlock"
+        "message": "Deschide meniul principal de informații"
     },
     "closePopup": {
         "message": "Închide pop-up"
@@ -166,7 +166,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Sugestie: Puteți configura combinații de taste pentru trimitere în opțiuni"
+        "message": "Sugestie: În pagina de opțiuni, puteți configura combinații de taste pentru acțiunile de aici"
     },
     "clearTimesButton": {
         "message": "Șterge Timpii"
@@ -187,25 +187,25 @@
         "message": "Ascunde asta"
     },
     "Options": {
-        "message": "Opţiuni"
+        "message": "Opțiuni"
     },
     "showButtons": {
-        "message": "Arată Butoanele Pe Playerul De YouTube"
+        "message": "Afișați butoane în playerul YouTube"
     },
     "hideButtonsDescription": {
-        "message": "Asta ascunde butoanele ce apar pe playerul de YouTube pentru a trimite segmente."
+        "message": "Opțiunea adaugă butoane în playerul YouTube care permit gestionarea segmentelor."
     },
     "showSkipButton": {
-        "message": "Păstrează Butonul de Sari Peste Secțiunea Evidențiată În Player"
+        "message": "Afișați butonul de trecere la momente importante în playerul YouTube"
     },
     "showInfoButton": {
-        "message": "Arată Butoanele De Informații Pe Playerul De YouTube"
+        "message": "Afișați butonul principal de informații în playerul YouTube"
     },
     "autoHideInfoButton": {
-        "message": "Ascunde Automat Butonul De Info"
+        "message": "Ascundeți automat butonul principal de informații"
     },
     "showDeleteButton": {
-        "message": "Arată Butonul De Ștergere Pe Playerul De YouTube"
+        "message": "Show delete button on YouTube player"
     },
     "enableViewTracking": {
         "message": "Permiteți contabilizarea omiterilor"
@@ -445,7 +445,7 @@
         "message": "Gestionați ID-ul utilizatorului dv."
     },
     "whatChangeUserID": {
-        "message": "Nu partajați ID-ul privat. Acesta poate fi folosit pentru a acționa în numele dv. în cadrul acestei extensii. În cazul în care vă căutați ID-ul public, acesta se găsește în butonul principal de informații al extensiei."
+        "message": "Nu partajați ID-ul privat. Acesta poate fi folosit pentru a acționa în numele dv. în cadrul acestei extensii. În cazul în care vă căutați ID-ul public, acesta se găsește în meniul principal de informații al extensiei."
     },
     "setUserID": {
         "message": "Stabiliți ID-ul privat"
@@ -599,7 +599,7 @@
         "message": "Editare"
     },
     "copyDebugLogs": {
-        "message": "Copiere informații de depanare"
+        "message": "Copiați informațiile de depanare"
     },
     "copyDebugInformation": {
         "message": "Copiază Informațiile de Depanare În Clipboard"
@@ -1010,10 +1010,10 @@
         "message": "Ajută la dezvoltarea fondului"
     },
     "hideDonationLink": {
-        "message": "Ascunde linkul de donare"
+        "message": "Nu afișați buton de donare în cadrul extensiei"
     },
     "darkModeOptionsPage": {
-        "message": "Modul întunecat pe pagina de opțiuni"
+        "message": "Temă întunecată pentru pagina de opțiuni"
     },
     "helpPageThanksForInstalling": {
         "message": "Vă mulțumim pentru instalarea SponsorBlock."
@@ -1123,7 +1123,7 @@
         "description": "100d"
     },
     "hourAbbreviation": {
-        "message": "ore",
+        "message": " ore",
         "description": "100h"
     },
     "optionsTabBehavior": {
@@ -1192,10 +1192,10 @@
         "message": "Cheia de licență nu este validă"
     },
     "hideUpsells": {
-        "message": "Ascunde opțiunile indisponibile fără o plată suplimentara"
+        "message": "Nu afișați opțiuni indisponibile fără plată suplimentară"
     },
     "hideNewFeatureUpdates": {
-        "message": "Ascundeți solicitările despre noile funcții"
+        "message": "Nu afișați notificări pentru funcționalități noi"
     },
     "redeem": {
         "message": "Folosește"
@@ -1262,7 +1262,7 @@
         "message": "Atenție: Serverul nu a răspuns încă cu segmente. Ar putea fi segmente în acest videoclip deja trimise, dar pur și simplu nu le-ai primit din cauza problemelor cu serverul."
     },
     "allowScrollingToEdit": {
-        "message": "Permite derularea la Editarea Timpilor"
+        "message": "Permiteți modificarea timpilor cu rotița mouse-ului"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} secunde",
@@ -1424,5 +1424,8 @@
     "DetectedWord": {
         "message": "Cuvânt problemă: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "cleanPopup": {
+        "message": "Simplificați meniul principal de informații"
     }
 }
