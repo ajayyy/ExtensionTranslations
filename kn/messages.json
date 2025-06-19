@@ -237,5 +237,28 @@
     "muted": {
         "message": "{0} ಸದ್ದಡಗಿಸಿದೆ",
         "description": "Example: Sponsor Muted"
+    },
+    "skipped_to_category": {
+        "message": "{0} ವರೆಗೆ ಸ್ಕಿಪ್ ಮಾಡಲಾಗಿದೆ",
+        "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "{0} ಮತ ಚಲಾಯಿಸಲಾಗಿದೆ",
+        "description": "Example: Voted on Sponsor"
+    },
+    "disableAutoSkip": {
+        "message": "ಆಟೋಸ್ಕಿಪ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+    },
+    "enableAutoSkip": {
+        "message": "ಆಟೋಸ್ಕಿಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+    },
+    "audioNotification": {
+        "message": "ಸ್ಕಿಪ್‌ ಮಾಡಿದಾಗ ಆಡಿಯೊ ಅಧಿಸೂಚನೆ ನೀಡಿ"
+    },
+    "audioNotificationDescription": {
+        "message": "ಒಂದು ವಿಭಾಗವನ್ನು ಸ್ಕಿಪ್‌ ಮಾಡಿದಾಗ ಆಡಿಯೊ ಅಧಿಸೂಚನೆಯು ಧ್ವನಿ ನುಡಿಸುತ್ತದೆ. ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದರೆ (ಅಥವಾ ಆಟೋ ಸ್ಕಿಪ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ) ಯಾವುದೇ ಧ್ವನಿಯನ್ನು ನುಡಿಸಲಾಗುವುದಿಲ್ಲ."
+    },
+    "showTimeWithSkips": {
+        "message": "ಸ್ಕಿಪ್‌ ಮಾಡಿರುವುದನ್ನು ಹೊರತುಪಡಿಸಿ ಸಮಯವನ್ನು ತೋರಿಸಿ"
     }
 }
