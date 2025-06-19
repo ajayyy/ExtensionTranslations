@@ -383,6 +383,10 @@
         "message": "要跳到 {0} 吗?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "即将上线 {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} 已跳过",
         "description": "Example: Sponsor Skipped"
@@ -394,6 +398,10 @@
     "skipped_to_category": {
         "message": "已跳至 {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "已投票 {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "禁用自动跳过"
@@ -725,6 +733,18 @@
     },
     "category_preview_guideline3": {
         "message": "不含有新添加的内容"
+    },
+    "category_filler": {
+        "message": "偏题/笑话"
+    },
+    "category_filler_description": {
+        "message": "与视频主旨内容无关、对于理解核心情节并非必要的场景或笑话。该分类不应涵盖提供上下文或背景细节的片段。这是一个筛选标准极为严格的类别，专为不想看任何“逗乐”内容的用户设计。"
+    },
+    "category_filler_short": {
+        "message": "偏题"
+    },
+    "category_filler_guideline1": {
+        "message": "与核心内容关联不大，非必需的片段或笑话"
     },
     "category_filler_guideline2": {
         "message": "分心、花絮、重播"
@@ -1405,6 +1425,9 @@
     "thumbnailSaturationLevel": {
         "message": "缩略图饱和度等级"
     },
+    "whatSaturateThumbnails": {
+        "message": "通过降低色彩饱和度使缩略图的画面不那么鲜艳"
+    },
     "hideDetailsWhileFetching": {
         "message": "加载时隐藏详情"
     },
@@ -1449,11 +1472,17 @@
     "alwaysShowShowOriginalButton": {
         "message": "始终显示“显示原始视频”按钮"
     },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "如果你想每次都知悉一个标题/缩略图是否改变过，打开这个开关。"
+    },
     "showOriginalOnHover": {
-        "message": "鼠标悬停时在自定义详情和原始详情之间切换"
+        "message": "悬停时在自定义详情和原始详情之间切换"
     },
     "showOriginalOnHoverOfVideo": {
-        "message": "鼠标悬停在视频卡片任意位置时在自定义详情和原始详情之间切换"
+        "message": "悬停在视频卡片任意位置时在自定义详情和原始详情之间切换"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "这会禁用悬停时自动播放"
     },
     "Enable": {
         "message": "启用"
@@ -1475,9 +1504,64 @@
     "ShowModified": {
         "message": "显示修改后的详细信息"
     },
+    "FillerWarning": {
+        "message": "警告：这是一个筛选标准极为严苛的分类。您很可能需要不时地手动撤销系统的跳过操作，甚至暂时禁用该分类。请注意，许多视频会有超过 50% 甚至更多的内容因此被跳过！然而，在提交相关内容时，请谨记您仍需遵守特定的指导准则。",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "加入Discord或Matrix以永久保留在这个对话中",
+        "description": "Appears on the top of the integrated chatbox"
+    },
     "showGuidelineHelp": {
         "message": "显示帮助",
         "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "避免夸张的面部表情",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "放大格局，不要只回答原始标题的问题",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "避免描述对视频的感受（“惊人的”）",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "提供足够的信息以在点击之前做出明智的选择"
+    },
+    "tip5": {
+        "message": "像一句话一样大小写",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "检查所有指导准则以提交",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "我的标题像一个句子一样大小写",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "我的标题不止回答了标题中提出的问题",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "标题应准确概括视频的实际内容或主旨大意。为此，您务必观看完整视频以了解其真实主题，切勿只依赖引人注目的原始标题。",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "标题的目的并非要取代观看视频的体验，而是要让用户能据此判断是否应该点击。",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "我的标题没有对视频或创作者事实核查、嘲笑或批评",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "标题的拟定应基于创作者和视频自身的视角。对视频内容进行评价或事实核查，已超出了 DeArrow 的功能范畴。标题并非评论区，不应用其发表个人意见。",
+        "description": "Tip subtitle in DeArrow"
     },
     "howItWorks": {
         "message": "工作原理"
@@ -1541,5 +1625,14 @@
     },
     "SharingIsCaring": {
         "message": "分享即是关怀"
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow没有存储空间无法正常工作。"
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "你可以前往about:config页面并将\"webextensions.storage.sync.enabled\"的值设置为true来打开它。"
+    },
+    "storageFull": {
+        "message": "扩展存储空间已满。请在设置中删除一些没有提交的片段。"
     }
 }
