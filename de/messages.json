@@ -1053,7 +1053,7 @@
         "message": "Videosegmente werden automatisch übersprungen, wenn sie in der Datenbank gefunden werden. Du kannst das Popup öffnen, indem du auf das Erweiterungssymbol klickst, um eine Vorschau darüber zu erhalten, was diese sind."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment herunterstimmen! Du kannst auch im Popup abstimmen."
+        "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment abwerten! Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
         "message": "Übermitteln"
