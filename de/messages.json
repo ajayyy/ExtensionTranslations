@@ -867,6 +867,16 @@
         "message": "Verhalten",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Fortgeschrittene Optionen zum Überspringen öffnen"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Syntaxfehler: Deine Optionen wurden nicht gespeichert"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Wie das funktioniert",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Betatest-Server aktivieren"
     },
@@ -1478,7 +1488,7 @@
         "message": "Wechsel zwischen benutzerdefinierten Details und Originaldetails, wenn du den Mauszeiger über eine beliebige Stelle in der Video-Karte bewegst"
     },
     "showOriginalOnHoverOfVideoDescription": {
-        "message": "Damit wird die automatische Wiedergabe beim darauf zeigen deaktiviert"
+        "message": "Damit wird die automatische Wiedergabe beim Daraufzeigen deaktiviert"
     },
     "showCustomOnHoverIfCasual": {
         "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des lockeren Modus angezeigt wird"
