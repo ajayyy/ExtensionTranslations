@@ -90,13 +90,13 @@
         "message": "Niciun segment găsit"
     },
     "sponsorStart": {
-        "message": "Segmentul începe acum"
+        "message": "Creați segment nou"
     },
     "sponsorEnd": {
-        "message": "Segmentul se termină acum"
+        "message": "Marcați finalul segmentului"
     },
     "sponsorCancel": {
-        "message": "Anulare creare segment"
+        "message": "Renunțați"
     },
     "noVideoID": {
         "message": "Momentan, nu urmăriți un videoclip YouTube.\nPentru a scana din nou, reîmprospătați pagina."
@@ -132,7 +132,7 @@
         "message": "Închide pictograma"
     },
     "OpenSubmissionMenu": {
-        "message": "Deschide Meniul de Trimitere"
+        "message": "Deschideți meniul de propuneri"
     },
     "sortSegments": {
         "message": "Sortare Segmente"
@@ -181,7 +181,7 @@
         "message": "Copiază ID-Utilizator Public"
     },
     "copySegmentID": {
-        "message": "Copiază ID-ul Segmentului"
+        "message": "Copiați ID-ul segmentului"
     },
     "hideThis": {
         "message": "Ascunde asta"
@@ -196,7 +196,7 @@
         "message": "Opțiunea adaugă butoane în playerul YouTube care permit gestionarea segmentelor."
     },
     "showSkipButton": {
-        "message": "Afișați butonul de trecere la momente importante în playerul YouTube"
+        "message": "Afișați butonul de redare de la Punct de interes în playerul YouTube"
     },
     "showInfoButton": {
         "message": "Afișați butonul principal de informații în playerul YouTube"
@@ -292,7 +292,7 @@
         "description": "Keybind label"
     },
     "setStartSponsorShortcut": {
-        "message": "Pornește/oprește segmentul",
+        "message": "Delimitați unui segment",
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
@@ -374,7 +374,7 @@
         "message": "Opriți sunetul pentru {0}?"
     },
     "skip_to_category": {
-        "message": "Treceți la {0}?",
+        "message": "Redați de la {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
@@ -390,7 +390,7 @@
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
-        "message": "S-a trecut la {0}",
+        "message": "Se redă de la {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "voted_on": {
@@ -765,16 +765,16 @@
         "message": "Punct de interes"
     },
     "category_poi_highlight_description": {
-        "message": "Partea din videoclip pe care majoritatea oamenilor o caută. Similar cu \"Videoclipul începe de la x\"."
+        "message": "Partea de interes major din cadrul videoclipului, indicată și prin comentarii de forma \"Videoclipul începe la momentul X\"."
     },
     "category_poi_highlight_guideline1": {
         "message": "Secțiunea pe care majoritatea persoanelor o caută"
     },
     "category_poi_highlight_guideline2": {
-        "message": "Poate sări peste context"
+        "message": "Puteți omite context"
     },
     "category_poi_highlight_guideline3": {
-        "message": "Poți sări la titlu sau miniatură"
+        "message": "Puteți omite până la subiectul din titlu sau din miniatură"
     },
     "category_chapter": {
         "message": "Capitol"
