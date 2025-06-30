@@ -1484,6 +1484,9 @@
     "showOriginalOnHover": {
         "message": "Перемкнути між користувацькими та оригінальними відомостями при наведенні"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Перемкнути між користувацькими та оригінальними відомостями при наведенні на карту відео"
+    },
     "showOriginalOnHoverOfVideoDescription": {
         "message": "Це вимкне автовідтворення при наведенні"
     },
