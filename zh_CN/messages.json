@@ -1593,6 +1593,9 @@
     "ConfigurationName": {
         "message": "配置名称"
     },
+    "YtNeuterMessage": {
+        "message": "添加 yt-neuter ，一个用来屏蔽问卷调查、商品展示和其他推广页面元素的过滤列表"
+    },
     "requiresUblock": {
         "message": "需要 uBlock Origin"
     },
