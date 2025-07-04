@@ -867,6 +867,16 @@
         "message": "Tryb pomijania",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "Otwórz zaawansowane opcje pomijania"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Błąd składniowy: Opcje nie zostały zapisane"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Jak to działa",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "Aktywuj serwer beta-testów"
     },
@@ -1474,6 +1484,9 @@
     "showOriginalOnHover": {
         "message": "Zamień między niestandardowymi a oryginalnymi szczegółami po najechaniu na nie"
     },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Spowoduje to wyłączenie autoodtwarzania po najechaniu kursorem"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Pokaż niestandardowy tytuł po najechaniu, jeżeli tytuł trybu casual jest pokazywany"
     },
@@ -1848,6 +1861,14 @@
         "message": "Kreatywne",
         "description": "Category for DeArrow casual mode"
     },
+    "dearrow_category_clever": {
+        "message": "Pomysłowe",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Opisowe",
+        "description": "Category for DeArrow casual mode"
+    },
     "dearrow_category_other": {
         "message": "Inne",
         "description": "Category for DeArrow casual mode"
@@ -1856,9 +1877,15 @@
         "message": "Tryb klasyczny",
         "description": "Classic mode is a mode in DeArrow"
     },
+    "ClassicModeDescription": {
+        "message": "Tytuły są zastępowane ustandaryzowanymi formatami opartymi na wytycznych we wszystkich filmach, w których istnieje tytuł stworzony przez społeczność."
+    },
     "CasualMode": {
         "message": "Tryb casual",
         "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Zachowaj oryginalne tytuły, jeśli trafnie opisują one film i są pomysłowe lub zabawne.\nWybierz kategorie tytułów, które chcesz widzieć.\nBędziesz mógł głosować, czy dany tytuł pasuje do danej kategorii, czy nie."
     },
     "minimumVotes": {
         "message": "Minimalna liczba głosów",
@@ -1867,6 +1894,9 @@
     "newCasualMode": {
         "message": "Nowa funkcja: tryb casual",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Wyświetlaj ikonę trybu casual tylko wtedy, gdy dostępny jest niestandardowy tytuł"
     },
     "OpenSettings": {
         "message": "Otwórz ustawienia"
