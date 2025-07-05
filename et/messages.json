@@ -1437,8 +1437,64 @@
     "hideDetailsWhileFetching": {
         "message": "Peida lisainfo laadimisel"
     },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "See säte peidab pealkirjad ja pisipildid andmete laadimise ajal. Kui see säte on välja lülitatud, siis võite laadimise ja pealkirjade ning pisipiltide vahetamise ajal näha vilkumist."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Ära näita YouTube'i automaatselt tõlgitud pealkirju",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Vahel võib YouTube automaatselt tõlkida osa pealkirju teie emakeelde. See säte kehtib vaid siis, kui kasutajate avaldatud pealkiri ei ole saadaval."
+    },
+    "onAllPages": {
+        "message": "Kõikidel Lehtedel",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Kõikidel Lehtedel Välja Arvatud Video Lehtedel",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
     "Never": {
         "message": "Mitte kunagi"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Pisipildi genereerimise süsteem kiirendab oluliselt pisipildi genereerimist - selleks saadetakse serverile anonüümne, video ID-ga päring. Seejärel pisipilt kas genereeritakse, või, kui see on juba olemas, võetakse puhvermälust."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Video lehtedel kasutades võib see funktsioon lisada lehele varjatud video ID-sid. \"Kõigil Lehtedel Välja Arvatud Video Lehtedel\" režiim aitab seda probleemi vältida. Lisaks on võimalik seda probleemi vältida, kui seate üles pisipildi genereerimise süsteemi oma enda serverile."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Kui pisipildi genereerimise süsteemi kasutamine on välja lülitatud, siis kasutatakse kõigi päringute puhul K-anonüümsuse päringusüsteemi, mille toimel on serveril keerulisem ennustada, mis videod saadeti ning pisipiltide genereerimiseks kasutatakse aeglasemal lokaalset süsteemi.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Pisipildi Genereerimise Süsteemi Lähtekood"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Rohkem infot K-anonüümsusest",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Näita alati \"Näita esialgset\" nuppu"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Kui soovite alati näha, millised pisipildid on asendatud, kasutage seda sätet."
+    },
+    "showOriginalOnHover": {
+        "message": "Näita hiire hõljumisel video info kohal asendatud info asemel esialgset"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Näita hiire hõljumisel video kaardi kohal asendatud info asemel esialgset"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "See funktsioon lülitab välja automaatesituse"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Näita kohandatud pealkirja hiire sattumisel pealkirjale, kui näidatakse tavarežiimi pealkirja"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Näita \"Näita esialgset\" nuppu automaatkohandatud pealkirjadele"
     },
     "Enable": {
         "message": "Luba"
