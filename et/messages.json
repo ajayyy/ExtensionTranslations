@@ -496,6 +496,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Lähtestad Invidiouse eksemplaride nimekirja"
     },
+    "invidiousDisabledSafari": {
+        "message": "Invidioust ei toetata hetkel Safaris brauserisisese tõrke tõttu. Siis kui Apple tõrke kõrvaldab, taastatakse Invidiouse toetus."
+    },
     "currentInstances": {
         "message": "Praegused eksemplarid:"
     },
@@ -532,6 +535,15 @@
     "customServerAddressDescription": {
         "message": "Aadress, mida SponsorBlock kasutab serveriga info vahetamiseks.\nKui sul just oma serverit pole, ei peaks sa seda valikut muutma."
     },
+    "dataFetchingServerAddress": {
+        "message": "Andmepäringute serveri aadress"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "Aadress, mida SponsorBlock kasutab serveriga päringute vahetamiseks.\nKui teil just oma serverit pole, ei peaks te seda valikut muutma."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Pisipiltide puhverserveri aadress"
+    },
     "save": {
         "message": "Salvesta"
     },
@@ -549,6 +561,9 @@
     },
     "exportOptions": {
         "message": "Impordi/ekspordi kõik valikud"
+    },
+    "exportOtherData": {
+        "message": "Impordi/Ekspordi Kõik Muud Andmed"
     },
     "exportOptionsCopy": {
         "message": "Muuda/kopeeri"
@@ -594,6 +609,9 @@
     },
     "edit": {
         "message": "Muuda"
+    },
+    "copyDebugLogs": {
+        "message": "Kopeeri Silumislogid"
     },
     "copyDebugInformation": {
         "message": "Kopeeri silumisteave lõikelauale"
@@ -706,6 +724,10 @@
     "category_outro_guideline1": {
         "message": "Ära kaasa sisu, isegi kui lõputiitrid on ekraanil"
     },
+    "category_preview": {
+        "message": "Eelvaade/Kokkuvõte/Hook",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
     "category_preview_description": {
         "message": "Klippide kogum, mis näitab selles või teistes videotes tulevat sisu seerias, kus kogu info kuvatakse uuesti video sees."
     },
@@ -717,6 +739,18 @@
     },
     "category_preview_guideline3": {
         "message": "Mitte jaotistele, mis lisavad täiendavat sisu"
+    },
+    "category_filler": {
+        "message": "Teemavahetus/Naljad"
+    },
+    "category_filler_description": {
+        "message": "Põhiteemast kõrvalekaldumised või naljad, mis pole kriitilised video sisu mõistmiseks. Selle alla ei käi segmendid, mis lisavad video sisule konteksti või taustainfot. See on väga agressiivne kategooria, mis on mõeldud selleks, kui soovite välistada videost kogu \"lõbu\"."
+    },
+    "category_filler_short": {
+        "message": "Teemavahetused"
+    },
+    "category_filler_guideline1": {
+        "message": "Põhiteemast kõrvalekaldumised või naljad"
     },
     "category_filler_guideline2": {
         "message": "Tähelepanu hajutajad, saatevead, kordused"
@@ -805,6 +839,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Jäta automaatselt kõik segmendid vahele, kui eksisteerib mitte-muusika segment"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Luba automaatne vahelejätmine ainult lehel music.youtube.com"
+    },
     "muteSegments": {
         "message": "Luba segmente, mis vahelejätmise asemel vaigistavad heli"
     },
@@ -829,6 +866,16 @@
     "skipOption": {
         "message": "Vahelejätmise valik",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Ava laiendatud vahelejätmise menüü"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Süntaksiviga: Teie sätteid ei salvestatud"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Kuidas see toimib",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Luba beetatestimise server"
@@ -857,6 +904,9 @@
     },
     "youMustSelectACategory": {
         "message": "Sa pead enne saatmist igale segmendile kategooria valima!"
+    },
+    "bracketStart": {
+        "message": "(Algus)"
     },
     "bracketEnd": {
         "message": "(lõpp)"
@@ -1086,6 +1136,10 @@
     "categoryPillNewFeature": {
         "message": "Uus! Näe, kui video on täielikult sponsoreeritud või enesepromo"
     },
+    "yearAbbreviation": {
+        "message": "a",
+        "description": "100y"
+    },
     "dayAbbreviation": {
         "message": "p",
         "description": "100d"
@@ -1161,6 +1215,9 @@
     },
     "hideUpsells": {
         "message": "Peida valikud, mis on saadaval vaid lisatasu eest"
+    },
+    "hideNewFeatureUpdates": {
+        "message": "Peida teavitused uutest funktsioonidest"
     },
     "redeem": {
         "message": "Lunasta"
@@ -1296,11 +1353,89 @@
     "SentenceCase": {
         "message": "Suurtähesta laused"
     },
+    "LowerCase": {
+        "message": "Väiketähed"
+    },
+    "FirstLetterUppercase": {
+        "message": "Suur Algustäht"
+    },
     "shouldCleanEmojis": {
         "message": "Eemalda emojid"
     },
+    "onlyFormatCustomTitles": {
+        "message": "Kohanda ainult kasutajate avaldatud pealkirju"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Kasuta Läbivat Suurt Algustähte Mitte-ingliskeelsetes Pealkirjades"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Keeletuvastus pole täiuslik ning võib vahepeal ingliskeelsed pealkirjad teiste keeltega segamini ajada."
+    },
+    "thumbnailFallbackOption": {
+        "message": "Kui Puudub Avaldatud Pisipilt"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "Suvalise aja valikult kasutatab süsteem SponsorBlocki andmeid, vältimaks aja sattumist reklaamsegmentidesse.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Näita kuvatõmmist suvalisest hetkest"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Näita esialgset pisipilti"
+    },
+    "showABlankBox": {
+        "message": "Näita tühja kasti"
+    },
+    "AutoGenerated": {
+        "message": "Näita YouTube'i automaatselt genereeritud pisipilti",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
+    "Start": {
+        "message": "Video algus"
+    },
+    "Middle": {
+        "message": "Video keskosa"
+    },
     "keepUnsubmitted": {
         "message": "Säilita saadetud hääled"
+    },
+    "showLiveCover": {
+        "message": "Näita Kanali Profiilipilti Järgnevate Videote Menüüs",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
+    "ignoreAbThumbnails": {
+        "message": "Välista A/B Testimisel Olevad Pisipildid"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Kanalite omanikud saavad erinevate testimise käigus näidata YouTube'is eri inimestele erinevaid pisipilte. Selle sätte sisselülitamisel kasutab süsteem alati esimest pisipilti, et tagada ühtlus."
+    },
+    "abThumbnailsWarning": {
+        "message": "Tähelepanu! Selle video pisipilt on hetkel A/B testimisel. See tähendab, et selle video pisipilt võib tihti muutuda, mistõttu selle video esialgse pisipildi poolt ei tasu tõenäoliselt hääletada."
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Salvesta hääled ning näita serveril salvestatud enim hääletatud pisipildi/pealkirja asemel pisipilte/pealkirju, mille poolt teie hääletasite."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Salvesta Privaatsetelt Vahelehtedelt Antud Hääli"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Kasuta Pisipiltide Genereerimise Süsteemi"
+    },
+    "titleMaxLines": {
+        "message": "Maksimaalne Ridade Arv Pealkirjades"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Videote pealkirjad jaotatakse soovitustes nii mitme rea vahele."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Pisipildi küllastatuse tase"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Vähenda pisipildite värviküllasust"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Peida lisainfo laadimisel"
     },
     "Never": {
         "message": "Mitte kunagi"
@@ -1318,6 +1453,21 @@
     },
     "Error": {
         "message": "Viga"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Video pealkirjad ei tohiks video autorit naeruvääristada, kritiseerida või teostada autorile faktikontrolli",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Pealkirjad ei tohiks sisaldada esialgse pealkirja sensatsioonilisi elemente",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Pealkirjad ei tohiks sisaldada emotikone",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Palun kõrvaldage hoiatuses kirjeldatav probleem enne avaldamist"
     },
     "privacyPolicy": {
         "message": "Privaatsuspoliitika"
