@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Copiar ID do segmento"
     },
+    "loopChapter": {
+        "message": "Repetir continuamente o capítulo"
+    },
+    "unloopChapter": {
+        "message": "Parar de Repetir continuamente o capítulo"
+    },
     "hideThis": {
         "message": "Ocultar isto"
     },
@@ -833,6 +839,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Pular automaticamente todos os segmentos quando houver trechos sem música"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Apenas pule automaticamente em music.youtube.com"
+    },
     "muteSegments": {
         "message": "Permitir segmentos que silenciem o áudio ao invés de pular"
     },
@@ -857,6 +866,16 @@
     "skipOption": {
         "message": "Opção de pulo",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Abrir opções avançadas de saltos"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Erro de sintaxe: Suas opções não foram salvas"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Como isso funciona",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Habilitar servidor de testes beta"
@@ -1464,6 +1483,12 @@
     },
     "showOriginalOnHover": {
         "message": "Trocar entre detalhes personalizados e detalhes originais no hover"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Trocar entre detalhes personalizados e detalhes originais ao passar o mouse sobre qualquer lugar na placa de vídeo"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Isto irá desativar a reprodução automática ao passar o mouse"
     },
     "showCustomOnHoverIfCasual": {
         "message": "Mostrar título personalizado ao passar o mouse se um título de modo casual estiver sendo mostrado"
