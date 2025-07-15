@@ -183,6 +183,9 @@
     "copySegmentID": {
         "message": "نسخ معرف الفقرة"
     },
+    "unloopChapter": {
+        "message": "إلغاء تكرار الفصل"
+    },
     "hideThis": {
         "message": "إخفاء هذا"
     },
