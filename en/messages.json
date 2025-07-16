@@ -1787,6 +1787,9 @@
     "cleanPopup": {
         "message": "Hide clutter in segment list popup"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Hide segment creation buttons in popup"
+    },
     "syncDisabledWarning": {
         "message": "Warning: Extension storage has been disabled in your browser. Settings will not be saved if you try saving them."
     },
