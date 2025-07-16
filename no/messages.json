@@ -849,50 +849,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Mange funksjoner er deaktivert som standard. Om du vil hoppe over introer, outro-er, benytte Invidious osv., aktiver dem nedenfor. Du kan også vise eller skjule UI-elementer."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Hvordan hopping fungerer"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Videosegmenter vil automatisk bli hoppet over hvis de finnes i databasen. Du kan åpne oppsprettsvinduet ved å klikke på utvidelsesikonet for å få en forhåndsvisning av hva de er."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Hver gang du hopper over et segment vil du få et varsel. Hvis tidtakingen ser feil ut stem ned ved å klikke på nedstemme! Du kan også stemme i oppsprettsvinduet."
     },
     "Submitting": {
         "message": "Innsending"
     },
-    "helpPageSubmitting1": {
-        "message": "Innsending kan enten gjøres i oppsprettsvinduet ved å klikke på \"Segmentet starter nå\"-knappen eller i videoavspilleren ved å klikke på knappene på avspilleren."
-    },
-    "helpPageSubmitting2": {
-        "message": "Klikk på avspillingsknappen angir starten av et segment og klikk på stopp-ikonet angir slutten. Du kan gjøre klar flere sponsorer før du sender inn. Klikk på opplastningsknappen for å sende inn. Klikk på papirkurven for å slette."
-    },
-    "Editing": {
-        "message": "Redigering"
-    },
-    "helpPageEditing1": {
-        "message": "Hvis du rotet det til kan du redigere eller slette segmentene dine etter at du har klikket på pil opp-knappen."
-    },
-    "helpPageTooSlow": {
-        "message": "Dette er for tidkrevende"
-    },
-    "helpPageTooSlow1": {
-        "message": "Om du vil kan du bruke hurtigtaster. Trykk på semikolon-tasten for å angi start/stopp av et sponsorsegment og klikk på apostrof for å sende inn. Disse kan endres i innstillinger. Om du ikke bruker QWERTY bør du sannsynligvis endre hurtigtastene."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Kan jeg få en kopi av databasen? Hva hender hvis du forsvinner?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Databasen er offentlig og tilgjengelig på"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Kildekoden er fritt tilgjengelig. Så selv om noe skulle skje med meg vil ikke dine bidrag gå tapt."
-    },
-    "helpPageNews": {
-        "message": "Nyheter og hvordan det er laget"
-    },
-    "helpPageSourceCode": {
-        "message": "Hvor kan jeg finne kildekoden?"
     },
     "Credits": {
         "message": "Anerkjennelser"
