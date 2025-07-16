@@ -1046,6 +1046,9 @@
     "helpPageFeatureDisclaimer": {
         "message": "Monet ominaisuudet ovat oletuksena pois päältä. Jos haluat ohittaa introt, outrot, käyttää Invidiousta, jne., ota ne käyttöön alhaalla. Voit myös piilottaa/näyttää käyttöliittymäelementtejä."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Näin se toimii"
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Aina kun ohitat osion, saat ilmoituksen. Jos ajoitus näyttää väärältä, äänestä alaspäin klikkaamalla 👎! Voit myös äänestää ponnahdusikkunassa."
     },
