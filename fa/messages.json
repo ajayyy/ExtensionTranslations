@@ -371,26 +371,11 @@
     "helpPageReviewOptions": {
         "message": "لطفاً تنظیمات زیر را بررسی کنید"
     },
-    "helpPageHowSkippingWorks": {
-        "message": "چگونه ردکردن کار می‌کند"
-    },
     "Submitting": {
         "message": "ثبت نمودن"
     },
-    "Editing": {
-        "message": "ویرایش"
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "آیا می‌توان یک کپی از پایگاه داده را دریافت کرد؟ اگر شما یک روز ناپدید شدید چه می‌شود؟"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "پایگاه داده به‌صورت عمومی در دسترس است در"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "سورس کد به‌صورت رایگان ارائه شده است. بنابراین، اگر اتفاقی برای من بیفتد، ارسالات شما از بین نمی‌روند."
-    },
-    "helpPageSourceCode": {
-        "message": "از کجا سورس کد را بگیرم؟"
     },
     "Credits": {
         "message": "سازندگان"
