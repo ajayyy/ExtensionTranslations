@@ -1787,6 +1787,9 @@
     "cleanPopup": {
         "message": "Dölj röran i segmentlistans popup"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Dölj knapparna för segmentskapande i popup"
+    },
     "syncDisabledWarning": {
         "message": "Varning: Tilläggslagring har inaktiverats i din webbläsare. Inställningarna kommer inte att sparas om du försöker spara dem."
     },
