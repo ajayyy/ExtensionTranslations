@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Segíts a fejlesztés támogatásában"
     },
+    "supportSponsorBlock": {
+        "message": "Támogasd a teljes idejű munkámat a SponsorBlockon"
+    },
     "hideDonationLink": {
         "message": "Támogatás link elrejtése"
     },
@@ -1046,14 +1049,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Sok funkció le van tiltva alapból. Ha át akarsz ugrani bevezetőket, záróképernyőket, Invidioust használnál, stb., engedélyezd őket alább. Lehetőség van a felület különböző elemeinek elrejtésére/megjelenítésére is."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Hogy működik"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Minden szponzort olyan felhasználók küldenek be, mint te. Megnézheted a beküldött szponzorok listáját az adatbázisban, ha megnyitod a felugró ablakot a böngésződ jobb felső részében."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Ahányszor átugrasz egy szegmenst, kapni fogsz egy értesítést. Ha rossznak tűnik az időzítés, szavazd le a leszavazás gombra kattintva! A felugró ablakban is szavazhatsz."
     },
     "Submitting": {
         "message": "Beküldés"
     },
+    "helpPageSubmitting1": {
+        "message": "Beküldéshez kattints a SponsorBlock logóra a videó lejátszón!"
+    },
+    "helpPageSubmitting2": {
+        "message": "A lejátszás gombot megnyomva a szegmens elejét, a stop gombbal pedig a végét jelezheted. A felfele mutató nyíl gombbal megnyitható a beküldések menü, ahol ellenőrizheted a szegmenseidet az előnézettel és szerkesztheted őket, hogy tökéletesek legyenek. Fontos a pontosság, kérlek olvasd el az irányelveket a beküldés előtt."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Hová kerülnek a beküldések?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Minden beküldés a SponsorBlock adatbázisba kerül, ami nyilvánosan elérhető mindenki számára itt:"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "A forráskód szabadon elérhető. Tehát még ha valami történne is velem, a beküldések nem vesznek el."
+    },
+    "AdviceForSubmitting": {
+        "message": "Tanácsok a beküldéshez"
     },
     "Credits": {
         "message": "Készítők"
@@ -1762,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Nem szükséges elemek elrejtése a szegmens lista ablakban"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Szegmens készítési gombok elrejtése a felugró ablakban"
     },
     "syncDisabledWarning": {
         "message": "Figyelem: A bővítménytárhely le lett tiltva a böngésződben. A beállítások nem lesznek elmentve, ha menteni próbálod őket."
