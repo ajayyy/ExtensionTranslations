@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Spousta funkcí je ve výchozím nastavení zakázána. Pokud chcete přeskakovat intra, outra, používat Invidious atd., povolte je níže. Můžete také zobrazit/skrýt UI prvky."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Jak funguje přeskakování"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Segmenty videa budou automaticky přeskočeny, pokud budou nalezeny v databázi. Můžete si otevřít vyskakovací okno kliknutím na ikonu rozšíření pro náhled, co jsou zač."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Kdykoli přeskočíte segment, dostanete oznámení. Pokud je časování nesprávné, můžete hlasovat proti kliknutím na palec dolů! Také můžete hlasovat ve vyskakovacím okně."
     },
     "Submitting": {
         "message": "Odesílání"
     },
-    "helpPageSubmitting1": {
-        "message": "Odeslání může být provedeno buď ve vyskakovacím okně kliknutím na tlačítko „Nyní začíná segment“ v přehrávači videa nebo na tlačítkách na přehrávači."
-    },
-    "helpPageSubmitting2": {
-        "message": "Kliknutím na tlačítko přehrávání označí začátek segmentu a kliknutí na ikonu stop označuje konec. Před odesláním si můžete připravit více segmentů. Kliknutím na tlačítko k nahrání odešlete vaše segmenty. Kliknutím na ikonu koše vše smažete."
-    },
-    "Editing": {
-        "message": "Úprava"
-    },
-    "helpPageEditing1": {
-        "message": "Pokud jste něco pokazili, můžete kliknutím na šipku nahoru upravit nebo odstranit své segmenty."
-    },
-    "helpPageTooSlow": {
-        "message": "Je to příliš pomalé"
-    },
-    "helpPageTooSlow1": {
-        "message": "Pokud je chcete použít, jsou zde zkratky. Stiskněte pomlčku pro označení začátku/konce sponzorského segmentu a klikněte na apostrof pro odeslání. Tyto zkratky lze změnit v možnostech. Pokud nepoužíváte QWERTY, měli byste si je nejspíše změnit."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Mohu získat kopii databáze? Co se stane, pokud zmizíte?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Databáze je veřejná a dostupná na"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Zdrojový kód je volně dostupný. Takže i když se mi něco stane, vaše příspěvky nebudou ztraceny."
-    },
-    "helpPageNews": {
-        "message": "Novinky a jak to funguje"
-    },
-    "helpPageSourceCode": {
-        "message": "Kde získám zdrojový kód?"
     },
     "Credits": {
         "message": "Poděkování"
