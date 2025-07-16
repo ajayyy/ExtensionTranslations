@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Monet ominaisuudet ovat oletuksena pois päältä. Jos haluat ohittaa introt, outrot, käyttää Invidiousta, jne., ota ne käyttöön alhaalla. Voit myös piilottaa/näyttää käyttöliittymäelementtejä."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Miten ohittaminen toimii"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Video-osiot ohitetaan automaattisesti, jos ne löytyvät tietokannasta. Voit avata ponnahdusikkunan klikkaamalla laajennuksen kuvaketta saadaksesi esikatselun siitä, mitä ne ovat."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Aina kun ohitat osion, saat ilmoituksen. Jos ajoitus näyttää väärältä, äänestä alaspäin klikkaamalla 👎! Voit myös äänestää ponnahdusikkunassa."
     },
     "Submitting": {
         "message": "Lähettäminen"
     },
-    "helpPageSubmitting1": {
-        "message": "Lähettäminen voidaan tehdä joko ponnahdusikkunassa painamalla \"Osio alkaa nyt\" -painiketta, tai videosoittimessa olevilla painikkeilla."
-    },
-    "helpPageSubmitting2": {
-        "message": "Toistopainikkeen klikkaaminen osoittaa osion alun ja pysäytyskuvakkeen klikkaaminen sen lopun. Voit valmistella useita sponsoreita ennen kuin painat lähetä. Lähetä-painikkeen klikkaaminen lähettää osion. Roskakorin klikkaaminen poistaa."
-    },
-    "Editing": {
-        "message": "Muokkaus"
-    },
-    "helpPageEditing1": {
-        "message": "Jos jokin meni pieleen, voit muokata tai poistaa osiosi ylänuolipainikkeen klikkaamisen jälkeen."
-    },
-    "helpPageTooSlow": {
-        "message": "Tämä on liian hidasta"
-    },
-    "helpPageTooSlow1": {
-        "message": "Voit käyttää pikanäppäimiä jos haluat. Paina puolipiste näppäintä merkitäksesi sponsori osion alun/lopun, ja paina heittomerkkiä lähettääksesi sen. Nämä voidaan vaihtaa asetuksista. Jos et käytä QWERTYä, sinun varmaan kannattaisi vaihtaa pikanäppäimet."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Voinko saada kopion tietokannasta? Mitä tapahtuu, jos katoat?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Tietokanta on julkinen ja saatavilla osoitteessa"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Lähdekoodi on vapaasti saatavilla. Joten, vaikka jotain tapahtuisi minulle, sinun lähetyksesi eivät katoa."
-    },
-    "helpPageNews": {
-        "message": "Uutiset ja miten se on tehty"
-    },
-    "helpPageSourceCode": {
-        "message": "Mistä voin saada lähdekoodin?"
     },
     "Credits": {
         "message": "Tekijät"
