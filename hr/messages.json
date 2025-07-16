@@ -751,26 +751,11 @@
     "helpPageFeatureDisclaimer": {
         "message": "Mnoge funkcije su standardno deaktivirane. Ako želiš preskočiti uvode, završne dijelove, koristiti Invidious, itd., aktiviraj ih niže dolje. Također možeš sakriti/prikazati elemente korisničkog sučelja."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Kako preskakanje radi"
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Kadgod preskoči segment, dobit ćeš obavijest. Ako se vrijeme čini pogrešnim, glasaj protiv pritiskom gumba „Glasaj protiv”! Glasati možeš i u skočnom prozoru."
     },
     "Submitting": {
         "message": "Slanje"
-    },
-    "helpPageSubmitting2": {
-        "message": "Klikom na gumb za reprodukciju označava se početak segmenta, a klik na ikonu za zaustavljanje označava kraj. Možete pripremiti više sponzora prije nego što pritisnete \"Pošalji\". Klikom na gumb za slanje bit će poslano. Klikom na kantu za smeće izbrisat će se."
-    },
-    "Editing": {
-        "message": "Uređivanje"
-    },
-    "helpPageTooSlow": {
-        "message": "Ovo je presporo"
-    },
-    "helpPageSourceCode": {
-        "message": "Gdje mogu pronaći izvorni kod?"
     },
     "Credits": {
         "message": "Zasluge"
