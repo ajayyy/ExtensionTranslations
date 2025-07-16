@@ -1024,50 +1024,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Multe caracteristici sunt dezactivate în mod implicit. Dacă doriți să săriți peste introduceri, outros, utilizați Invidios, etc., activați-le mai jos. De asemenea, puteți ascunde/afișa elemente UI."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Cum funcționează omiterea"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Segmentele video vor fi omise automat dacă sunt găsite în baza de date. Poți deschide fereastra pop-up făcând clic pe pictograma extensiei pentru a obține o previzualizare a ceea ce sunt."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Ori de câte ori săriți peste un segment, veți primi observație. Dacă sincronizarea pare greșită votând în jos făcând clic pe vot! De asemenea, poți vota în pop-up."
     },
     "Submitting": {
         "message": "Se transmite"
     },
-    "helpPageSubmitting1": {
-        "message": "Trimiterea poate fi făcută fie în fereastra pop-up prin apăsarea butonului \"Segmentul Incepe Acum\", fie în video player-ul cu butoanele playerului."
-    },
-    "helpPageSubmitting2": {
-        "message": "Făcând clic pe butonul de redare indică începutul unui segment și apăsând pe pictograma de stop indică sfârșitul. Poți pregăti mai mulți sponsori înainte de a apasă pe butonul de încărcare va fi trimis. Click-ul pe gunoi se va șterge."
-    },
-    "Editing": {
-        "message": "Editează"
-    },
-    "helpPageEditing1": {
-        "message": "Dacă ai greșit, poți edita sau șterge segmentele după ce dai click pe butonul săgeată în sus."
-    },
-    "helpPageTooSlow": {
-        "message": "Acest lucru este prea lent"
-    },
-    "helpPageTooSlow1": {
-        "message": "Exista scurtături daca dorești sa le folosești. Apăsați tasta cu punct și virgulă pentru a indica începutul/sfârșitul unui segment de sponsor și faceți clic pe apostrof pentru a trimite. Acestea pot fi schimbate în opțiuni. Dacă nu utilizați QWERTY, probabil ar trebui să schimbați scurtăturile."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Pot obține o copie a bazei de date? Ce se întâmplă dacă dispari?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Baza de date este publică și disponibilă la adresa"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Codul sursă este disponibil gratuit. Deci, chiar dacă ceva mi se întâmplă mie, trimiterile tale nu sunt pierdute."
-    },
-    "helpPageNews": {
-        "message": "Știri și modul în care este făcut"
-    },
-    "helpPageSourceCode": {
-        "message": "Unde pot obține codul sursă?"
     },
     "Credits": {
         "message": "Contribuții"

@@ -1024,50 +1024,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "許多功能預設為停用。如果您想跳過片頭、片尾、使用 Invidious 等等，請在下方啟用。您也可以隱藏/顯示使用者介面元素。"
     },
-    "helpPageHowSkippingWorks": {
-        "message": "跳過功能的運作方式"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "如果資料庫中存在影片片段，系統會自動跳過。您可以點選擴充功能圖示開啟彈出式視窗，預覽片段內容。"
-    },
     "helpPageHowSkippingWorks2": {
         "message": "每當您跳過片段時，都會收到通知。如果時間似乎不正確，請點選倒讚按鈕投票！您也可以在彈出式視窗中投票。"
     },
     "Submitting": {
         "message": "正在提交"
     },
-    "helpPageSubmitting1": {
-        "message": "您可以透過按下彈出式視窗中的「立即開始片段」按鈕，或使用影片播放器上的按鈕來提交片段。"
-    },
-    "helpPageSubmitting2": {
-        "message": "點選播放按鈕表示片段的開始，點選停止圖示表示片段的結束。您可以在按下提交按鈕之前，先準備多個贊助廣告。點選上傳按鈕即可提交。點選垃圾桶圖示即可刪除。"
-    },
-    "Editing": {
-        "message": "編輯中"
-    },
-    "helpPageEditing1": {
-        "message": "如果您操作錯誤，可以在點選向上箭頭按鈕後，編輯或刪除您的片段。"
-    },
-    "helpPageTooSlow": {
-        "message": "速度太慢"
-    },
-    "helpPageTooSlow1": {
-        "message": "如果您想使用快捷鍵，可以按下分號鍵來標記贊助廣告的開始/結束，然後按下撇號鍵提交。您可以在選項中變更這些快捷鍵。如果您不使用 QWERTY 鍵盤配置，建議您變更快捷鍵設定。"
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "我可以取得資料庫的副本嗎？如果作者消失了怎麼辦？"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "資料庫是公開的且可以在以下位置取用："
-    },
     "helpPageCopyOfDatabase2": {
         "message": "原始碼是公開的。因此，即使作者發生任何狀況，您的提交內容也不會遺失。"
-    },
-    "helpPageNews": {
-        "message": "最新資訊和製作方式"
-    },
-    "helpPageSourceCode": {
-        "message": "我在哪裡可以取得原始碼？"
     },
     "Credits": {
         "message": "鳴謝"

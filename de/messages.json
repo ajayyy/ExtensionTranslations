@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Wie das Überspringen funktioniert"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Videosegmente werden automatisch übersprungen, wenn sie in der Datenbank gefunden werden. Du kannst das Popup öffnen, indem du auf das Erweiterungssymbol klickst, um eine Vorschau darüber zu erhalten, was diese sind."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment abwerten! Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
         "message": "Übermitteln"
     },
-    "helpPageSubmitting1": {
-        "message": "Das Einreichen kann entweder im Popup durch Drücken des „Segment startet jetzt“-Knopfs oder mit den Knöpfen im Wiedergabefenster gemacht werden."
-    },
-    "helpPageSubmitting2": {
-        "message": "Mit einem Klick auf den Play-Button wird der Beginn eines Segments markiert, und mit einem Klick auf den Stop-Button dessen Ende. Du kannst mehrere Segmente anlegen, bevor du durch Klicken des Upload-Buttons zum Einreichen fortfährst. Ein Klick auf die Mülltonne löscht deine angelegten Segmente."
-    },
-    "Editing": {
-        "message": "Bearbeitung"
-    },
-    "helpPageEditing1": {
-        "message": "Wenn du etwas falsch gemacht hast, kannst du ein Segment bearbeiten oder löschen, nachdem du auf die Pfeil-nach-oben-Taste gedrückt hast."
-    },
-    "helpPageTooSlow": {
-        "message": "Das ist zu langsam"
-    },
-    "helpPageTooSlow1": {
-        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste, um den Anfang / das Ende eines Sponsor-Segments zu markieren, und die Apostroph-Taste, um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Kann ich eine Kopie der Datenbank erhalten? Was passiert, wenn du verschwindest?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Die Datenbank ist öffentlich und verfügbar unter"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
-    },
-    "helpPageNews": {
-        "message": "Nachrichten und wie es gemacht wird"
-    },
-    "helpPageSourceCode": {
-        "message": "Wo kann ich den Quellcode bekommen?"
     },
     "Credits": {
         "message": "Mitwirkende"

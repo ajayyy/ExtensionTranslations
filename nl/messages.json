@@ -956,50 +956,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Veel functies zijn standaard uitgeschakeld. Als u intro's of outro's wilt overslaan, Invidious wilt gebruiken, enz., schakelt u ze hieronder in. U kunt ook UI-elementen verbergen/weergeven."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Hoe overslaan werkt"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Videosegmenten zullen automatisch worden overgeslagen als ze in de database worden gevonden. U kunt de pop-up openen door op het pictogram van de extensie te klikken om een voorbeeld te krijgen van wat ze zijn."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Als u een segment overslaat, krijgt u een bericht. Als de timing verkeerd lijkt, stem dan door op tegenstemmen te klikken! U kunt ook stemmen in de pop-up."
     },
     "Submitting": {
         "message": "Indienen"
     },
-    "helpPageSubmitting1": {
-        "message": "Indienen kan ofwel in de pop-up door op de knop \"segment begint nu\" te drukken of in de videospeler met de knoppen op de speler."
-    },
-    "helpPageSubmitting2": {
-        "message": "Klikken op de afspelen-knop geeft het begin van een segment aan en klikken op het stop-pictogram geeft het einde aan. U kunt meerdere sponsors voorbereiden voordat u op indienen klikt. Klikken op de uploadknop zal indienen. Klikken op de vuilnisbak zal verwijderen."
-    },
-    "Editing": {
-        "message": "Bewerken"
-    },
-    "helpPageEditing1": {
-        "message": "Als u een fout hebt gemaakt, kunt u uw segmenten bewerken of verwijderen nadat u op de knop met de pijl omhoog hebt geklikt."
-    },
-    "helpPageTooSlow": {
-        "message": "Dit is te traag"
-    },
-    "helpPageTooSlow1": {
-        "message": "Er zijn sneltoetsen als u die wilt gebruiken. Druk op de puntkomma-toets om het begin/einde van een sponsorsegment aan te geven en klik op de apostrof om in te dienen. Deze kunnen worden veranderd in de opties. Als u geen QWERTY gebruikt, moet u waarschijnlijk de toetsencombinatie veranderen."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Kan ik een kopie van de database krijgen? Wat gebeurt er als u verdwijnt?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "De database is openbaar en beschikbaar op"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "De broncode is vrij beschikbaar. Dus, zelfs als mij iets overkomt, zijn uw inzendingen niet verloren."
-    },
-    "helpPageNews": {
-        "message": "Nieuws en hoe het gemaakt is"
-    },
-    "helpPageSourceCode": {
-        "message": "Waar kan ik de broncode krijgen?"
     },
     "Credits": {
         "message": "Dank aan"

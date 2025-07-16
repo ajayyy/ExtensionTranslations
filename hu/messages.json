@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Sok funkció le van tiltva alapból. Ha át akarsz ugrani bevezetőket, záróképernyőket, Invidioust használnál, stb., engedélyezd őket alább. Lehetőség van a felület különböző elemeinek elrejtésére/megjelenítésére is."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Az átugrás működése"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "A videók szegmensei automatikusan átugrásra kerülnek, ha szerepelnek az adatbázisban. Megnyithatod a felugró ablakot a bővítmény ikonjára kattintva, hogy megtekinthesd őket."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Ahányszor átugrasz egy szegmenst, kapni fogsz egy értesítést. Ha rossznak tűnik az időzítés, szavazd le a leszavazás gombra kattintva! A felugró ablakban is szavazhatsz."
     },
     "Submitting": {
         "message": "Beküldés"
     },
-    "helpPageSubmitting1": {
-        "message": "Beküldeni lehet a felugró ablakban a \"Szegmens eleje\" gombra kattintva, vagy a videó lejátszón lévő gombokkal."
-    },
-    "helpPageSubmitting2": {
-        "message": "A lejátszás gomb megnyomása jelezte a szegmens kezdetét és a stop gomb megnyomása jelzi a végét. Több szponzort is előkészíthetsz, mielőtt a beküldésre nyomnál. A feltöltés gombra kattintva beküldésre kerülnek a szegmensek. A szemetesre kattintva kitörlődnek."
-    },
-    "Editing": {
-        "message": "Szerkesztés"
-    },
-    "helpPageEditing1": {
-        "message": "Ha hibáztál, szerkesztheted vagy törölheted a szegmenseid, a felfele nyílra kattintást követően."
-    },
-    "helpPageTooSlow": {
-        "message": "Ez túl lassú"
-    },
-    "helpPageTooSlow1": {
-        "message": "Vannak gyorsbillentyűk is, ha használni szeretnéd őket. Nyomd meg a pontosvessző billentyűt egy szponzor szegmens elejének/végének jelzéséhez és nyomd meg a vesszőt a beküldéshez. Ezek módosíthatók a beállításokban. Ha nem QWERTY-t használsz, valószínűleg szükséges lesz megváltoztatni a billentyűket."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Szerezhetek egy másolatot az adatbázisról? Mi történik, ha eltűnik a fejlesztő?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Az adatbázis nyilvános, és elérhető itt:"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "A forráskód szabadon elérhető. Tehát még ha valami történne is velem, a beküldések nem vesznek el."
-    },
-    "helpPageNews": {
-        "message": "Hírek és hogyan készül"
-    },
-    "helpPageSourceCode": {
-        "message": "Hol szerezhetem meg a forráskódot?"
     },
     "Credits": {
         "message": "Készítők"

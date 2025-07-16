@@ -1030,50 +1030,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Banyak fitur yang dinonaktifkan secara bawaan. Jika Anda ingin melewati intro, outro, mengunakan Invidious, dll, aktifkan mereka dibawah ini. Anda juga bisa menyembunyikan/menampilkan elemen UI."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Cara kerja melewati segmen"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Segmen video akan otomatis dilewati jika ditemukan di basis data. Anda bisa mumbuka popup dengan mengklik ikon ekstensi untuk mendapatkan pratinjau tersebut."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Kapanpun Anda melewati segmen, Anda akan mendapatkan pemberitahuan. Jika pengaturan waktu terlihat salah tolak dengan mengklik jempol bawah! Anda juga dapat memilih dalam popup."
     },
     "Submitting": {
         "message": "Mengajukan"
     },
-    "helpPageSubmitting1": {
-        "message": "Pengajuan bisa dilakukan baik di sembulan dengan menekan \"Mulai Segmen Sekarang\" atau di pemutar video dengan tombolnya."
-    },
-    "helpPageSubmitting2": {
-        "message": "Klik tombol putar indikasikan memulai segmen dan klik tombol ikon stop indikasikan mengakhiri. Kamu bisa persiapkan beberapa sponsor sebelum menekan kirim. Klik tombol unggah akan mengirimkan. Klik tombol sampah akan menghapuskan."
-    },
-    "Editing": {
-        "message": "Sunting"
-    },
-    "helpPageEditing1": {
-        "message": "Jika kamu mengacaukan, kamu bisa sunting atau hapus segmen setelah klik tombol panah atas."
-    },
-    "helpPageTooSlow": {
-        "message": "Ini terlalu lambat"
-    },
-    "helpPageTooSlow1": {
-        "message": "Terdapat tombol pintas jika kamu ingin menggunakannya. Tekan tombol semikolon untuk indikasi mulai/akhir segmen sponsor dan tekan tombol kutip untuk mengirimkan. Ini bisa diganti di opsi. Jika kamu tidak menggunakan QWERTY, kamu dimungkinkan harus mengubah tombol."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Bisakah saya mendapatkan salinan Databasis? Apa yang terjadi jika kamu tiada?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Databasis adalah publik dan tersedia di"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Sumber kode tersedia secara bebas. Jadi, jika sesuatu terjadi pada saya, pengajuan kamu tidak akan hilang."
-    },
-    "helpPageNews": {
-        "message": "Berita dan bagaimana ini diciptakan"
-    },
-    "helpPageSourceCode": {
-        "message": "Dimana saya mendapatkankan sumber kode?"
     },
     "Credits": {
         "message": "Kredit"

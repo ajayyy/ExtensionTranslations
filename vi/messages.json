@@ -1024,50 +1024,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Nhiều tính năng sẽ bị tắt theo mặc định. Nếu bạn muốn bỏ qua phần intro, sử dụng trên các trang web bên thứ 3 như Invidious, v. v...., bạn có thể bật nó ở bên dưới. Bạn cũng có thể cho hiện/ẩn UI người dùng."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Cách bỏ qua phân đoạn hoạt động"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Các phân đoạn trong video sẽ tự động bị bỏ qua nếu chúng được tìm thấy trong cơ sở dữ liệu. Bạn có thể mở cửa sổ bật lên bằng cách nhấp vào biểu tượng tiện ích mở rộng để xem trước chúng là gì."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Bất cứ khi nào bỏ qua một phân đoạn, bạn sẽ nhận được thông báo. Nếu thời gian phân đoạn có vẻ sai, hãy bỏ phiếu bằng cách nhấp vào nút phản đối! Bạn cũng có thể bỏ phiếu trong cửa sổ bật lên."
     },
     "Submitting": {
         "message": "Việc gửi lên"
     },
-    "helpPageSubmitting1": {
-        "message": "Việc gửi một phân đoạn mới có thể được thực hiện trong cửa sổ bật lên bằng cách nhấn vào nút \"Đoạn quảng cáo bắt đầu vào lúc này\" hoặc trong trình phát video bằng các nút trên thanh trình phát."
-    },
-    "helpPageSubmitting2": {
-        "message": "Bạn nhấp 1 lần vào nút \"Đoạn quảng cáo bắt đầu vào lúc này\" để bắt đầu 1 phân đoạn, nhấn 2 lần để đánh dấu kết thúc phân đoạn đó. Bạn có thể chuẩn bị nhiều phân đoạn trước khi nhấn gửi. Nhấp vào nút \"Đăng đoạn quảng cáo\" sẽ gửi. Nhấp vào nút \"Xoá đoạn quảng cáo\" để xóa."
-    },
-    "Editing": {
-        "message": "Chỉnh sửa"
-    },
-    "helpPageEditing1": {
-        "message": "Nếu bạn làm sai, bạn có thể chỉnh sửa hoặc xóa các phân đoạn của mình sau khi nhấp vào nút mũi tên."
-    },
-    "helpPageTooSlow": {
-        "message": "Thao tác này quá chậm..."
-    },
-    "helpPageTooSlow1": {
-        "message": "Bạn có thể sử dụng các hotkeys (phím nóng). Nhấn phím dấu chấm phẩy (;) để chỉ ra điểm bắt đầu / kết thúc của phân đoạn nhà tài trợ và nhấp vào dấu nháy đơn (') để gửi. Nếu bạn không sử dụng QWERTY, bạn nên thay đổi cách gắn phím (bằng cách vào phần cài đặt của tiện ích)."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Tôi có thể lấy bản sao của cơ sở dữ liệu không? Điều gì sẽ xảy ra nếu bạn biến mất?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Cơ sở dữ liệu được công khai và luôn có sẵn tại"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Mã nguồn mở cũng được có sẵn một cách tự do. Vì vậy, ngay cả khi có điều gì đó xảy đến với mình, các phân đoạn bạn đã gửi cũng sẽ không biến mất."
-    },
-    "helpPageNews": {
-        "message": "Cập nhật tin tức và cách hoạt động"
-    },
-    "helpPageSourceCode": {
-        "message": "Tôi có thể tìm thấy mã nguồn ở đâu?"
     },
     "Credits": {
         "message": "Lời cảm ơn đến"

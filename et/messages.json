@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Paljud funktsioonid on vaikimisi välja lülitatud. Kui te soovite jätta vahele sissejutatused, kokkuvõtted, kasutada Invidioust jms, lülitage need allpool sisse. Te saate ka peita/kuvada kasutajaliidese elemente."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Kuidas vahelejätmine töötab"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Video segmendid jäetakse automaatselt vahele, kui nendele vastavad segmendid leitakse andmebaasist. Saate avada hüpikakna vajutades SponsorBlock-i logo peale - nii saate näha eelvaadet nendest segmentidest."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Iga kord, kui jätate segmendi vahele, saadetakse teie teavitus. Kui segmendi ajastus tundub vale või ebatäpsena - hääletage see valeks vajutades vastuhäälele. Hääletamine on võimalik ka hüpikakna abil."
     },
     "Submitting": {
         "message": "Saatmine"
     },
-    "helpPageSubmitting1": {
-        "message": "Segmentide esitamine on võimalik kas käsitsi hüpikakna abil, vajutades \"Segment algab siit\" või läbi videopleieri kasutades pleieriribas olevaid kahte nuppu."
-    },
-    "helpPageSubmitting2": {
-        "message": "Vajutades play-nuppu märgite segmendi alguse ning stop-nuppu vajutades märgite segmendi lõpu. Võite märkida mitu sponsorit enne \"saada\" vajutamist. Vajutades üleslaadimisnupule laetakse teie loodud segmendid andmebaasi. Vajutades prügikastile kustutatakse teie märgitud segmendid."
-    },
-    "Editing": {
-        "message": "Redigeerimine"
-    },
-    "helpPageEditing1": {
-        "message": "Juhul, kui tegite vea, saate muuta või kustutada oma segmente vajutades üles näitavat noolt."
-    },
-    "helpPageTooSlow": {
-        "message": "See on liiga aeglane"
-    },
-    "helpPageTooSlow1": {
-        "message": "Kiirklahvid on saadaval, kui soovite neid kasutada. Vajutage semikooloniga klahvi, et märkida segmendi algus või lõpp ning vajutage ülakomaga klahvi, et oma segmendid esitada. Need kiirklahvid on muudetavad seadetest. Kui te ei kasuta QWERTY-klaviatuuri, tuleb teil tõenäoliselt muuta klahviseoseid."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Kas ma saaksin andmebaasist koopia? Mis juhtub, kui sa kaod?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Andmebaas on avalik ning saadaval aadressil"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Lähtekood on vabalt saadaval. Seega, isegi kui minuga midagi juhtub, ei ole sinu saadetud segmendid kadunud."
-    },
-    "helpPageNews": {
-        "message": "Uudised ja kuidas see on valmistatud"
-    },
-    "helpPageSourceCode": {
-        "message": "Kust ma saan selle lähtekoodi?"
     },
     "Credits": {
         "message": "Tiitrid"
