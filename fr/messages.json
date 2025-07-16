@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "De nombreuses fonctionnalités sont désactivées par défaut. Si vous voulez ignorer les introductions, postfaces, utiliser Invidious, etc., définissez-le ci-dessous. Vous pouvez également masquer ou afficher les éléments de l'interface."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Comment fonctionne le passage d'un segment"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Les segments vidéo seront automatiquement ignorés s'ils sont trouvés dans la base de données. Vous pouvez ouvrir un encart en cliquant sur l'icône de l'extension pour en avoir un aperçu."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "À chaque fois que vous passez un segment, vous en êtes averti-e. Si le timing semble incorrect, vous pouvez voter contre le segment ! Vous pouvez également voter dans l'encart d'aperçu."
     },
     "Submitting": {
         "message": "Soumission en cours"
     },
-    "helpPageSubmitting1": {
-        "message": "La soumission peut être effectuée dans l'encart d'aperçu en appuyant sur le bouton \"Début du segment\" ou dans le lecteur vidéo avec les boutons."
-    },
-    "helpPageSubmitting2": {
-        "message": "Cliquer sur le bouton de lecture indique le début d'un segment et cliquer sur l'icône d'arrêt indique sa fin. Vous pouvez préparer plusieurs messages commerciaux avant d'appuyer sur Soumettre. Cliquer sur le bouton Téléverser soumettra vos segments. Cliquer sur la poubelle supprimera vos segments."
-    },
-    "Editing": {
-        "message": "Édition en cours"
-    },
-    "helpPageEditing1": {
-        "message": "Si vous avez fait une erreur, vous pouvez modifier ou supprimer vos segments en cliquant sur le bouton avec la flèche vers le haut."
-    },
-    "helpPageTooSlow": {
-        "message": "Ceci est trop lent"
-    },
-    "helpPageTooSlow1": {
-        "message": "Il y a des raccourcis clavier si vous voulez les utiliser. Appuyez sur la touche point-virgule pour indiquer le début et la fin d'un segment sponsorisé, et cliquez sur l'apostrophe pour soumettre. Vous pouvez les modifier dans les options. Si vous n'utilisez pas un clavier QWERTY, vous devriez probablement changer les racourcis par défaut."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Puis-je obtenir une copie de la base de données ? Que se passe-t-il si vous disparaissez ?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "La base de données est publique et disponible à"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Le code source est en accès libre. Donc, même si il m'arrive quelque chose, vos soumissions ne seront pas perdues."
-    },
-    "helpPageNews": {
-        "message": "Nouveautés et comment l'extension est fabriquée"
-    },
-    "helpPageSourceCode": {
-        "message": "Où puis-je obtenir le code source ?"
     },
     "Credits": {
         "message": "Crédits"
