@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Hilf beim Finanzieren der Entwicklung"
     },
+    "supportSponsorBlock": {
+        "message": "Unterstütze mein Vollzeitarbeit an SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Spendenlink verbergen"
     },
@@ -1046,11 +1049,29 @@
     "helpPageFeatureDisclaimer": {
         "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Wie es funktioniert"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Alle Sponsoren wurden von Nutzern wie dir eingereicht. Du kannst die Liste der Sponsoren in der Datenbank sehen, indem du das Popup oben rechts in deinem Browser öffnest."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment abwerten! Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
         "message": "Übermitteln"
+    },
+    "helpPageSubmitting1": {
+        "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Wiedergabefenster klickst."
+    },
+    "helpPageSubmitting2": {
+        "message": "Ein Klick auf den Abspielknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem nach oben zeigenden Pfeil, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Wo gehen die Einreichungen hin?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Alle Segmente werden in der SponsorBlock-Datenbank gespeichert, welche für jeden verwendbar veröffentlicht wird. Sie ist verfügbar bei: "
     },
     "helpPageCopyOfDatabase2": {
         "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
