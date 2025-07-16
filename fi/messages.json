@@ -1049,14 +1049,23 @@
     "helpPageHowSkippingWorks": {
         "message": "Näin se toimii"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "Kaikki sponsorit ovat sinunlaistesi käyttäjien lähettämiä. Voit nähdä listan lähetetyistä sponsoreista tietokannassa avaamalla ponnahdusikkunan selaimesi oikeassa yläkulmassa."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Aina kun ohitat osion, saat ilmoituksen. Jos ajoitus näyttää väärältä, äänestä alaspäin klikkaamalla 👎! Voit myös äänestää ponnahdusikkunassa."
     },
     "Submitting": {
         "message": "Lähettäminen"
     },
+    "helpPageCopyOfDatabase": {
+        "message": "Minne lähetetyt osiot menevät?"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Lähdekoodi on vapaasti saatavilla. Joten, vaikka jotain tapahtuisi minulle, sinun lähetyksesi eivät katoa."
+    },
+    "AdviceForSubmitting": {
+        "message": "Neuvoja osioiden lähettämiseen"
     },
     "Credits": {
         "message": "Tekijät"
