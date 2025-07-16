@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Help fund development"
     },
+    "supportSponsorBlock": {
+        "message": "Support my full-time work on SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Hide donation link"
     },
@@ -1047,10 +1050,10 @@
         "message": "Many features are disabled by default. If you want to skip intros, outros, use Invidious, etc., enable them below. You can also hide/show UI elements."
     },
     "helpPageHowSkippingWorks": {
-        "message": "How skipping works"
+        "message": "How it works"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Video segments will automatically be skipped if they are found in the database. You can open the popup by clicking the extension icon to get a preview of what they are."
+        "message": "All sponsors are submitted by users like you. You can see the list of submitted sponsors in the database by opening the popup in the top right of your browser."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Whenever you skip a segment, you will get notice. If the timing seems wrong vote down by clicking downvote! You can also vote in the popup."
@@ -1059,37 +1062,22 @@
         "message": "Submitting"
     },
     "helpPageSubmitting1": {
-        "message": "Submitting can either be done in the popup by hitting the \"Segment Starts Now\" button or in the video player with the buttons on the player."
+        "message": "Submitting can be made by clicking the SponsorBlock logo in the video player."
     },
     "helpPageSubmitting2": {
-        "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. You can prepare multiple sponsors before hitting submit. Clicking the upload button will submit. Clicking the garbage can will delete."
-    },
-    "Editing": {
-        "message": "Editing"
-    },
-    "helpPageEditing1": {
-        "message": "If you messed up, you can edit or delete your segments after clicking the up arrow button."
-    },
-    "helpPageTooSlow": {
-        "message": "This is too slow"
-    },
-    "helpPageTooSlow1": {
-        "message": "There are hotkeys if you want to use them. Press the semicolon key to indicate the start/end of a sponsor segment and click the apostrophe to submit. These can be changed in the options. If you don't use QWERTY, you should probably change the keybinding."
+        "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. Click the up arrow button to open the submission menu where you can verify your segments by previewing and editing them to be perfect. Precision is important, make sure to read the guidelines before submitting."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Can I get a copy of the Database? What happens if you disappear?"
+        "message": "Where do the submissions go?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "The database is public and available at"
+        "message": "All submissions are put into the SponsorBlock database, which is publicly released for anyone to use and is available at"
     },
     "helpPageCopyOfDatabase2": {
         "message": "The source code is freely available. So, even if something happens to me, your submissions are not lost."
     },
-    "helpPageNews": {
-        "message": "News and how it is made"
-    },
-    "helpPageSourceCode": {
-        "message": "Where can I get the source code?"
+    "AdviceForSubmitting": {
+        "message": "Advice for submitting"
     },
     "Credits": {
         "message": "Credits"
