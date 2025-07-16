@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Wiele funkcji jest domyślnie wyłączonych. Jeśli chcesz pomijać intra, outra, używać Invidious, itp., włącz je poniżej. Możesz również ukryć/pokazać elementy interfejsu użytkownika."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Jak działa pomijanie"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Segmenty filmu zostaną automatycznie pominięte, jeśli znajdują się w bazie danych. Możesz kliknąć na ikonę rozszerzenia, aby podejrzeć, czym one są."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Za każdym razem, gdy pominiesz segment, otrzymasz powiadomienie. Jeśli moment nie wydaje się być poprawny, kliknij łapkę w dół! Możesz również głosować w okienku pop-up."
     },
     "Submitting": {
         "message": "Przesyłanie"
     },
-    "helpPageSubmitting1": {
-        "message": "Zgłoszenia można dokonać w wyskakującym okienku, naciskając przycisk „Początek segmentu”, lub za pomocą przycisków w odtwarzaczu wideo."
-    },
-    "helpPageSubmitting2": {
-        "message": "Kliknięcie przycisku odtwarzania wskazuje początek segmentu a kliknięcie ikony stop wskazuje koniec segmentu. Możesz przygotować wielu segmentów przed wysłaniem. Aby wysłać kliknij przycisk potwierdzający, a aby usunąć - na śmietnik."
-    },
-    "Editing": {
-        "message": "Edytowanie"
-    },
-    "helpPageEditing1": {
-        "message": "Jeśli się pomyliłeś, możesz edytować i usuwać swoje segmenty poprzez kliknięcie przycisku ze strzałką w górę."
-    },
-    "helpPageTooSlow": {
-        "message": "Zbyt wolno"
-    },
-    "helpPageTooSlow1": {
-        "message": "Istnieją skróty klawiszowe, jeśli chcesz ich używać. Naciśnij klawisz średnika, aby wskazać początek/koniec segmentu sponsora i kliknij w apostrof, aby przesłać. Można je zmienić w opcjach. Jeśli nie używasz QWERTY, prawdopodobnie powinieneś zmienić skrót klawiszowy."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Czy mogę otrzymać kopię bazy danych? Co się stanie, jeśli przestaniecie istnieć?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Baza danych jest publiczna i dostępna na stronie"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Kod źródłowy jest dostępny. Tak więc, nawet jeśli coś się ze mną stanie, wasze zgłoszenia nie zostaną utracone."
-    },
-    "helpPageNews": {
-        "message": "Wiadomości i jak to jest zrobione"
-    },
-    "helpPageSourceCode": {
-        "message": "Gdzie mogę otrzymać kod źródłowy?"
     },
     "Credits": {
         "message": "Autorzy"
