@@ -662,6 +662,9 @@
     "category_preview_guideline2": {
         "message": "ความเดิมจากวิดีโอก่อนหน้า"
     },
+    "category_filler": {
+        "message": "นอกเรื่อง/มุก"
+    },
     "category_music_offtopic": {
         "message": "เพลง: ส่วนที่ไม่ใช่เสียงเพลง"
     },
@@ -709,6 +712,12 @@
     },
     "showOverlay_chapter": {
         "message": "แสดงส่วนเนื้อหา"
+    },
+    "autoSkipOnMusicVideos": {
+        "message": "ข้ามส่วนอัตโนมัติถ้าไม่มีส่วนที่ไม่ใช่เพลง"
+    },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "ข้ามเฉพาะใน music.youtube.com"
     },
     "seekBarColor": {
         "message": "สีแถบกรอ"
@@ -760,6 +769,9 @@
     "forceChannelCheck": {
         "message": "บังคับให้ตรวจช่องก่อนข้าม"
     },
+    "whatForceChannelCheck": {
+        "message": "โดยปกติแล้ว ส่วนจะถูกข้ามโดยทันทีก่อนที่จะรู้ว่าเป็นช่องอะไร โดยค่าเริ่มต้น บางส่วนที่อยู่ต้นวิดีโออาจถูกข้ามในช่องที่ได้รับอนุญาต ตัวเลือกนี้ป้องกันไม่ให้เกิดเหตุการณ์นี้ แต่อาจทำให้การข้ามหน่วงขึ้นเล็กน้อย เพราะการโหลดไอดีช่องใช้เวลาพอสมควร การหน่วงนี้อาจไม่ส่งผลหากคุณมีอินเตอร์เน็ตที่เร็วมากพอ"
+    },
     "downvoteDescription": {
         "message": "กำหนดเวลาไม่ถูกต้อง/ผิด"
     },
@@ -772,6 +784,9 @@
     },
     "incorrectCategory": {
         "message": "เปลี่ยนหมวดหมู่"
+    },
+    "nonMusicCategoryOnMusic": {
+        "message": "วิดีโอนี้ถูกจัดอยู่ในหมวดดนตรี คุณแน่ใจหรือไม่ว่าวิดีโอนี้มีสปอนเซอร์ ถ้าส่วนนี้เป็น \"ส่วนที่ไม่ใช่เสียงเพลง\" ไปที่การตั้งค่าของส่วนต่อขยายและเปิดใช้ส่วนประเภทนี้ จากนั้นคุณสามารถส่งส่วนนี้เป็นส่วนที่ไม่ใช่เพลงแทนได้ กรุณาอ่านแนวปฏิบัติหากคุณยังมีข้อสงสัย"
     },
     "multipleSegments": {
         "message": "ส่วนหลายส่วน"
@@ -979,6 +994,9 @@
     "Thumbnails": {
         "message": "ภาพปก",
         "description": "Referring to thumbnails of YouTube videos"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "หมายเหตุ: การตั้งค่า SponsorBlock ของคุณถูกนำเข้ามาโดยอัตโนมัติเรียบร้อยแล้ว"
     },
     "privacyPolicy": {
         "message": "นโยบายความเป็นส่วนตัว"
