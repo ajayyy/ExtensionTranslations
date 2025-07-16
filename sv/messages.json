@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Många funktioner är inaktiverade som standard. Om du vill hoppa över intros, outros, använda Invidious, etc, aktivera dem nedan. Du kan också dölja/visa UI-element."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Hur hoppa över fungerar"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Videosegment hoppas över automatiskt om de finns i databasen. Du kan öppna popup-fönstret genom att klicka på tilläggsikonen för att få en förhandsvisning av vad de är."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "När du hoppar över ett segment får du ett meddelande. Om tidpunkten verkar felaktig rösta då ner genom att klicka på nerröstning! Du kan också rösta i popup-fönstret."
     },
     "Submitting": {
         "message": "Skickar in"
     },
-    "helpPageSubmitting1": {
-        "message": "Skicka in kan antingen göras i popup-fönstret genom att trycka på knappen \"Segmentet startar nu\" eller i videospelaren med knapparna på spelaren."
-    },
-    "helpPageSubmitting2": {
-        "message": "Genom att klicka på uppspelningsknappen anges början på ett segment och genom att klicka på stoppikonen anges slutet. Du kan förbereda flera sponsorer innan du trycker på skicka. Klicka på uppladdningsknappen för att skicka in. Klicka på papperskorgen för att ta bort."
-    },
-    "Editing": {
-        "message": "Redigerar"
-    },
-    "helpPageEditing1": {
-        "message": "Om du gör fel kan du redigera eller ta bort dina segment efter att du klickat på uppåtpilen."
-    },
-    "helpPageTooSlow": {
-        "message": "Detta är för långsamt"
-    },
-    "helpPageTooSlow1": {
-        "message": "Det finns snabbtangenter om du vill använda dem. Tryck på semikolontangenten för att ange start/slut på ett sponsorsegment och klicka på apostrofen för att skicka in. Dessa kan ändras i inställningarna. Om du inte använder QWERTY, bör du förmodligen ändra tangentbindningen."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Kan jag få en kopia av databasen? Vad händer om du försvinner?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Databasen är offentlig och finns på"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Källkoden är fritt tillgänglig. Så, även om något händer mig, är dina inskickningar inte förlorade."
-    },
-    "helpPageNews": {
-        "message": "Nyheter och hur är det gjort"
-    },
-    "helpPageSourceCode": {
-        "message": "Var kan jag få tag på källkoden?"
     },
     "Credits": {
         "message": "Medverkande"
