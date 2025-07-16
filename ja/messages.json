@@ -1046,50 +1046,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "初期設定では多くの機能が無効になっています。導入/終了シーンをスキップしたり、Invidiousで使用するなど、以下から有効にできます。また表示されるパーツの設定もできます。"
     },
-    "helpPageHowSkippingWorks": {
-        "message": "スキップの仕組み"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "データベースに登録があれば動画の該当部分が自動的でスキップされます。この拡張機能のアイコンをクリックするとその内容の詳細を確認できます。"
-    },
     "helpPageHowSkippingWorks2": {
         "message": "セグメントをスキップする度に通知が表示されます。セグメントの範囲がおかしいと思ったら、そのセグメントを低評価してください。ポップアップ画面でも同様に投票ができます。"
     },
     "Submitting": {
         "message": "登録する"
     },
-    "helpPageSubmitting1": {
-        "message": "登録するには「セグメント開始を記録」ボタンを押します。これはポップアップ、または動画プレーヤー内にあります。"
-    },
-    "helpPageSubmitting2": {
-        "message": "再生ボタンをクリックするとセグメントの開始、停止アイコンをクリックすると終了となります。 複数の広告部分を指定してから送信ボタンを押すことができます。アップロードボタンをクリックすると登録メニューが表示されます。ゴミ箱をクリックすると削除されます。"
-    },
-    "Editing": {
-        "message": "編集する"
-    },
-    "helpPageEditing1": {
-        "message": "もし間違えてしまっても、上矢印ボタンをクリックでセグメントを編集・削除することができます。"
-    },
-    "helpPageTooSlow": {
-        "message": "こんな操作は面倒？"
-    },
-    "helpPageTooSlow1": {
-        "message": "ショートカットキーが利用可能です。セミコロンキーで広告セグメントを開始/終了し、アポストロフィキーで送信できます。またこれらはオプションで変更できます。QWERTYキーを使わない場合は、キー割り当てを変更したほうがいいでしょう。"
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "データベースのコピーを利用できますか？ 作者が失踪した場合はどうなりますか？"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "データベースは公開されており、こちらから利用できます:"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "ソースコードは自由に利用できます。そのため、運営になにがあろうとも、あなたが登録したデータが失われることはありません。"
-    },
-    "helpPageNews": {
-        "message": "最新情報と制作秘話"
-    },
-    "helpPageSourceCode": {
-        "message": "ソースコードの入手先"
     },
     "Credits": {
         "message": "謝辞"
