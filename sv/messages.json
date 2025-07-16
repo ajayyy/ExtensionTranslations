@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Hjälp till att finansiera utvecklingen"
     },
+    "supportSponsorBlock": {
+        "message": "Stöd mitt heltidsarbete med SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Dölj donationslänk"
     },
@@ -1046,14 +1049,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Många funktioner är inaktiverade som standard. Om du vill hoppa över intros, outros, använda Invidious, etc, aktivera dem nedan. Du kan också dölja/visa UI-element."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Så här fungerar det"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Alla sponsorer lämnas in av YouTube-användare. Du kan se listan över inskickade sponsorer i databasen genom att öppna popup-fönstret uppe till höger i din webbläsare."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "När du hoppar över ett segment får du ett meddelande. Om tidpunkten verkar felaktig rösta då ner genom att klicka på nerröstning! Du kan också rösta i popup-fönstret."
     },
     "Submitting": {
         "message": "Skickar in"
     },
+    "helpPageSubmitting1": {
+        "message": "Inskickning kan göras genom att klicka på SponsorBlock-logotypen i videospelaren."
+    },
+    "helpPageSubmitting2": {
+        "message": "Genom att klicka på uppspelningsknappen visas början på ett segment och genom att klicka på stoppikonen visas slutet. Klicka på uppåtpilen för att öppna inskickningsmenyn där du kan verifiera dina segment genom att förhandsgranska och redigera dem så de blir perfekta. Precision är viktigt, se till att läsa riktlinjerna innan du skickar in."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Var tar inskickningarna vägen?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Alla inskickningar läggs in i SponsorBlock-databas som är offentligt släppt för vem som helst att använda och finns på"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Källkoden är fritt tillgänglig. Så, även om något händer mig, är dina inskickningar inte förlorade."
+    },
+    "AdviceForSubmitting": {
+        "message": "Råd för inskickning"
     },
     "Credits": {
         "message": "Medverkande"
