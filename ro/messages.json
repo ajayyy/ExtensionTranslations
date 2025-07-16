@@ -1119,7 +1119,7 @@
         "description": "100y"
     },
     "dayAbbreviation": {
-        "message": "zile",
+        "message": " zile",
         "description": "100d"
     },
     "hourAbbreviation": {

@@ -117,7 +117,7 @@
         "message": "เกิดข้อผิดพลาดในการเชื่อมต่อ รหัสข้อผิดพลาด: "
     },
     "segmentsStillLoading": {
-        "message": "กำลังโหลดช่วง..."
+        "message": "กำลังโหลดส่วน..."
     },
     "clearTimes": {
         "message": "ล้างส่วน"
@@ -162,7 +162,7 @@
         "message": "ส่ง"
     },
     "submissionEditHint": {
-        "message": "การแก้ไขส่วนจะปรากฏหลังคุณคลิกส่ง",
+        "message": "การแก้ไขส่วนจะปรากฏหลังคุณกดส่ง",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
@@ -181,7 +181,7 @@
         "message": "คัดลอกไอดีผู้ใช้สาธารณะ"
     },
     "copySegmentID": {
-        "message": "คัดลอก ID ส่วน"
+        "message": "คัดลอกไอดีส่วน"
     },
     "hideThis": {
         "message": "ซ่อนสิ่งนี้"
@@ -193,7 +193,7 @@
         "message": "แสดงปุ่มในโปรแกรมเล่น YouTube"
     },
     "hideButtonsDescription": {
-        "message": "นี่ซ่อนปุ่มที่ปรากฏในโปรแกรมเล่น YouTube ที่ใช้ในการส่งส่วนข้าม"
+        "message": "ตัวเลือกนี้ซ่อนปุ่มที่ปรากฏในโปรแกรมเล่น YouTube ที่ใช้ในการส่งส่วนข้าม"
     },
     "showSkipButton": {
         "message": "แสดงปุ่มข้ามไปที่ไฮไลต์ตลอดเวลา"
@@ -427,7 +427,7 @@
         "message": "ตรวจสอบสถานะของเซิร์ฟเวอร์ได้ที่ status.sponsor.ajay.app"
     },
     "changeUserID": {
-        "message": "นำเข้า/ส่งออกรหัส UserID ส่วนตัวของคุณ"
+        "message": "นำเข้า/ส่งออกไอดีผู้ใช้ส่วนตัวของคุณ"
     },
     "whatChangeUserID": {
         "message": "ควรเก็บสิ่งนี้ไว้ส่วนตัว สิ่งนี้เหมือนรหัสผ่านและไม่ควรจะแบ่งปันกับคนอื่น ถ้าใครบางคนมีสิ่งนี้ เขาจะสามารถปลอมตัวเป็นคุณได้ ถ้าคุณกำลังมองหาไอดีผู้ใช้สาธารณะ ให้คลิกไอคอนคลิปบอร์ดในป๊อปอัพ"
@@ -720,6 +720,12 @@
         "message": "ตัวเลือกการข้าม",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "whatEnableTestingServer": {
+        "message": "การส่งข้อมูลและการโหวตของคุณจะไม่ถูกนับในเซิร์ฟเวอร์หลัก ใช้เพื่อการทดสอบเท่านั้น"
+    },
+    "testingServerWarning": {
+        "message": "การส่งข้อมูลและการโหวตทั้งหมดจะไม่ถูกนับในเซิร์ฟเวอร์หลักในขณะที่กำลังเชื่อมต่อกับเซิร์ฟเวอร์ทดสอบ ปิดตัวเลือกนี้หากคุณต้องการส่งข้อมูลจริงไปยังเซิร์ฟเวอร์หลัก"
+    },
     "bracketNow": {
         "message": "(ตอนนี้)"
     },
@@ -728,6 +734,10 @@
     },
     "chooseACategory": {
         "message": "เลือกหมวดหมู่"
+    },
+    "enableThisCategoryFirst": {
+        "message": "ในการส่งส่วนประเภท{0} คุณต้องเปิดใช้ในการตั้งค่าก่อน ระบบจะพาคุณไปการตั้งค่าในตอนนี้",
+        "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "youMustSelectACategory": {
         "message": "คุณต้องเลือกหมวดหมู่ของส่วนทุกส่วนที่คุณจะส่ง!"
