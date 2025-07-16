@@ -832,12 +832,6 @@
     "Submitting": {
         "message": "กำลังบันทึก"
     },
-    "Editing": {
-        "message": "การดัดแปลง"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "ฐานข้อมูลเป็นสาธารณะและสามารถดูได้ที่"
-    },
     "Credits": {
         "message": "เครดิต"
     },
