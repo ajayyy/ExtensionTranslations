@@ -1013,50 +1013,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Muchas funciones están desactivadas por defecto. Si quiere saltar intros, outros, usar Invidious, etc., actívelos a continuación. También puede ocular/mostrar los elementos de la interfaz."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Como funciona el salteo"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Los segmentos de video serán omitidos automáticamente si son encontrados en la base de datos. Puede abrir la ventana emergente haciendo clic en el ícono de la extensión para obtener una vista previa de los que son."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Cada vez que salte un segmento, recibirá un aviso. ¡Si el tiempo parece equivocado, dele un voto negativo! También puede votar en la ventana emergente."
     },
     "Submitting": {
         "message": "Envío"
     },
-    "helpPageSubmitting1": {
-        "message": "El envío puede realizarse desde la ventana emergente pulsando el botón \"El Segmento Inicia Ahora\" o en el reproductor de video con los botones de este."
-    },
-    "helpPageSubmitting2": {
-        "message": "Hacer clic en el botón de reproducir indica el inicio de un segmento y hacer clic en el icono de detener indica el final de este. Puede preparar múltiples sponsors antes de enviarlos. Hacer clic en el botón de subida lo(s) enviará. Hacer clic en la papelera lo(s) borrará."
-    },
-    "Editing": {
-        "message": "Edición"
-    },
-    "helpPageEditing1": {
-        "message": "Si se equivoca, puede editar o eliminar sus segmentos después de hacer clic en el botón de flecha hacia arriba."
-    },
-    "helpPageTooSlow": {
-        "message": "Esto es muy lento"
-    },
-    "helpPageTooSlow1": {
-        "message": "Hay teclas de acceso directo, si quiere usarlas. Presione la tecla de punto y coma para indicar el inicio/final de un segmento de sponsor y haga clic en el apóstrofe para enviar. Estas se pueden cambiar en las opciones. Si no usa un teclado QWERTY, probablemente debería cambiar la asignación de teclas."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "¿Puedo obtener una copia de la base de datos? ¿Qué sucede si tú desapareces?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "La base de datos es pública y disponible en"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "El código fuente está disponible libremente. Así que, aun si algo me sucede, sus envíos no se perderán."
-    },
-    "helpPageNews": {
-        "message": "Noticias y cómo se hace"
-    },
-    "helpPageSourceCode": {
-        "message": "¿Dónde puedo conseguir el código fuente?"
     },
     "Credits": {
         "message": "Créditos"
