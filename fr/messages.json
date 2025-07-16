@@ -1032,7 +1032,7 @@
         "message": "Aider à financer le développement"
     },
     "supportSponsorBlock": {
-        "message": "Soutenez mon travail à temps plein sur SponsorBlock"
+        "message": "Soutenez mon travail à plein temps sur SponsorBlock"
     },
     "hideDonationLink": {
         "message": "Cacher le lien de don"
@@ -1064,11 +1064,14 @@
     "helpPageSubmitting1": {
         "message": "Il est possible de soumettre un nouveau segment en cliquant sur le logo SponsorBlock dans le lecteur vidéo."
     },
+    "helpPageSubmitting2": {
+        "message": "Cliquez sur le bouton Lecture pour indiquer le début d'un segment puis sur le bouton Arrêt pour indiquer sa fin. Cliquez sur la flèche pointant vers le haut pour ouvrir le menu de soumission, où vous pouvez vérifier vos segments en les prévisualisant et en les modifiant afin de les peaufiner. La précision est importante : assurez-vous d'avoir lu les directives avant de soumettre des segments."
+    },
     "helpPageCopyOfDatabase": {
         "message": "Où arrivent les soumissions ?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Toutes les soumissions sont placées dans la base de données SponsorBlock, qui est publiée publiquement, utilisable par quiconque et disponible sur"
+        "message": "Toutes les soumissions sont placées dans la base de données SponsorBlock qui est publiée publiquement, utilisable par quiconque et disponible sur"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Le code source est en accès libre. Donc, même si il m'arrive quelque chose, vos soumissions ne seront pas perdues."
