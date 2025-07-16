@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Geliştirme sürecinin fonlanmasına yardım et"
     },
+    "supportSponsorBlock": {
+        "message": "SponsorBlock'taki tam zamanlı işimi destekleyin"
+    },
     "hideDonationLink": {
         "message": "Bağış Bağlantısını Gizle"
     },
@@ -1046,11 +1049,20 @@
     "helpPageFeatureDisclaimer": {
         "message": "Birçok özellik varsayılan olarak devre dışıdır. İntroları, outroları atlamak vb. kullanmak istiyorsanız, bunları aşağıdan etkinleştirin. Ayrıca arayüz öğelerini gizleyebilir/gösterebilirsiniz."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Nasıl çalışıyor"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Tüm sponsor bildirimleri sizin gibi kullanıcılar tarafından sağlanır. Veri tabanına gönderilmiş sponsor bildirimlerini görmek için tarayıcınızın sağ üstündeki açılır pencereyi kullanabilirsiniz."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Når du springer et segment over, får du besked, når du springer et segment over. Hvis timingen virker forkert, kan du stemme ned ved at klikke på downvote! Du kan også stemme i popup-vinduet."
     },
     "Submitting": {
         "message": "Gönderiliyor"
+    },
+    "helpPageSubmitting1": {
+        "message": "Bildirmek için video oynatıcıdaki SponsorBlock düğmesini kullanabilirsiniz."
     },
     "helpPageCopyOfDatabase2": {
         "message": "Kaynak koduna serbestçe erişilebilir. Ben bir gün bu dünyada yalan olsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
