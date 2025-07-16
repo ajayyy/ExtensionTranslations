@@ -925,50 +925,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "Banyak ciri dilumpuhkan secara lalai. Jika anda ingin langkau intro, outro, gunakan Invidious, dll. Bolehkan mereka di bawah. Anda boleh juga sembunyi/tunjuk elemen UI."
     },
-    "helpPageHowSkippingWorks": {
-        "message": "Bagaimana melangkau berfungsi"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "Segmen video akan dilangkau secara automatik jika mereka dijumpa di dalam pangkalan data. Anda boleh membuka pop timbul dengan menekan ikon sambungan untuk mendapat pratonton daripada apa yang mereka ada."
-    },
     "helpPageHowSkippingWorks2": {
         "message": "Apabila anda melangkau sebuah segmen, anda akan dapat notis. Jika masa nampak salah mengundi turun dengan menekan undi turun! Anda boleh juga undi di dalam pop timbul."
     },
     "Submitting": {
         "message": "Menghantar"
     },
-    "helpPageSubmitting1": {
-        "message": "Menghantar boleh dilakukan sama ada di dalam pop timbul dengan menekan butang \"Segmen Bermula Sekarang\" atau di dalam pemain video dengan menggunakan butang di pemain."
-    },
-    "helpPageSubmitting2": {
-        "message": "Menekan butang main menunjukkan permulaan segmen dan menekan ikon berhenti menunjukkan tamat. Anda boleh sediakan berbilang sponsor sebelum menekan hantar. Menekan butang muat turun akan hantar. Menekan tong sampah akan padam."
-    },
-    "Editing": {
-        "message": "Menyunting"
-    },
-    "helpPageEditing1": {
-        "message": "Jika anda tersilap, anda boleh sunting atau padam segmen anda selepas menekan butang anak panah atas."
-    },
-    "helpPageTooSlow": {
-        "message": "Ini terlalu lambat"
-    },
-    "helpPageTooSlow1": {
-        "message": "Terdapat kekunci panas jika anda ingin menggunakannya. Tekan kekunci koma bertitik untuk menunjukkan mula/akhir daripada sesuatu segmen penaja. Ini boleh diubah di dalam pilihan. Jika anda tidak menggunakan QWERTY, anda mungkin patut ubah ikatan kekunci."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Bolehkah saya mendapat salinan pangkalan data? Apakah akan terjadi jika anda hilang?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Pangkalan data ialah awam dan boleh didapati di"
-    },
     "helpPageCopyOfDatabase2": {
         "message": "Kod sumber tersedia secara percuma. Jadi, walaupun sesuatu berlaku pada saya, penghantaran anda tidak hilang."
-    },
-    "helpPageNews": {
-        "message": "Berita dan bagaimana ia dibuat"
-    },
-    "helpPageSourceCode": {
-        "message": "Dimana saya boleh mendapat kod sumber?"
     },
     "Credits": {
         "message": "Penghargaan"
