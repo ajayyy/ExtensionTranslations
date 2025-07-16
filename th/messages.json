@@ -841,6 +841,9 @@
     "FullDetails": {
         "message": "รายละเอียดเต็ม"
     },
+    "CopyAndDownvote": {
+        "message": "คัดลอกและไม่เห็นด้วย"
+    },
     "upvote": {
         "message": "เห็นด้วย"
     },
@@ -865,6 +868,10 @@
     "optionsTabBehavior": {
         "message": "พฤติกรรม",
         "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabKeyBinds": {
+        "message": "คีย์ลัด",
+        "description": "Appears in Options as a tab header for keybinds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabBackup": {
         "message": "สำรอง/กู้คืน",
@@ -910,9 +917,36 @@
         "message": "วิดีโอ",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *videos*"
     },
+    "clearUnsubmittedSegments": {
+        "message": "ลบส่วนทั้งหมด",
+        "description": "Label for a button in settings"
+    },
+    "clearUnsubmittedSegmentsConfirm": {
+        "message": "คุณต้องการลบส่วนที่ยังไม่ได้ส่งทั้งหมดหรือไม่",
+        "description": "Confirmation message for the Clear unsubmitted segments button"
+    },
+    "showUnsubmittedSegments": {
+        "message": "ดูส่วน",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
+    "hideUnsubmittedSegments": {
+        "message": "ซ่อนส่วน",
+        "description": "Show/hide button for the unsubmitted segments list"
+    },
     "videoID": {
         "message": "ID วิดิโอ",
         "description": "Header of the unsubmitted segments list"
+    },
+    "segmentCount": {
+        "message": "จำนวนส่วน",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "actions": {
+        "message": "ตัวเลือก",
+        "description": "Header of the unsubmitted segments list"
+    },
+    "exportSegmentsAsURL": {
+        "message": "คัดลอกเป็นลิงก์"
     },
     "NoticeTimeAfterSkip": {
         "message": "{seconds} วินาที",
