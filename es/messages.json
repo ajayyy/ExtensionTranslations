@@ -320,6 +320,14 @@
         "message": "Cerrar aviso de salto",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Segmento de voto positivo",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Segmento de voto negativo",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Siguiente capítulo",
         "description": "Keybind label"
@@ -487,6 +495,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Está a punto de reiniciar la lista de instancias del Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Por el momento no se ofrece soporte debido a un error del mismo Navegador Safari. Cuando Apple solucione el error, se añadirá de nuevo."
     },
     "currentInstances": {
         "message": "Instancias actuales:"
@@ -729,6 +740,12 @@
     "category_preview_guideline3": {
         "message": "No para secciones que añaden contenido adicional"
     },
+    "category_filler": {
+        "message": "Desvío del tema/Divagues"
+    },
+    "category_filler_description": {
+        "message": "Desvíos del tema principal o divagues añadidos solo como relleno o humor que no son necesarias para entender el contenido principal del video. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
+    },
     "category_filler_guideline2": {
         "message": "Distracciones, bloopers, repeticiones"
     },
@@ -843,6 +860,10 @@
     "skipOption": {
         "message": "Opción de Saltar",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Cómo funciona esto",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Habilitar Servidor de Pruebas Beta"
@@ -1012,6 +1033,9 @@
     },
     "helpPageFeatureDisclaimer": {
         "message": "Muchas funciones están desactivadas por defecto. Si quiere saltar intros, outros, usar Invidious, etc., actívelos a continuación. También puede ocular/mostrar los elementos de la interfaz."
+    },
+    "helpPageHowSkippingWorks": {
+        "message": "Cómo funciona"
     },
     "helpPageHowSkippingWorks2": {
         "message": "Cada vez que salte un segmento, recibirá un aviso. ¡Si el tiempo parece equivocado, dele un voto negativo! También puede votar en la ventana emergente."
@@ -1419,6 +1443,10 @@
         "message": "Miniaturas",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Votos casuales",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Error"
     },
@@ -1691,6 +1719,56 @@
     },
     "submissionFailedServerSideAds": {
         "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
+    },
+    "Yes": {
+        "message": "Si"
+    },
+    "No": {
+        "message": "No"
+    },
+    "votes": {
+        "message": "{0} votos",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} voto",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Gracioso",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creativo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Inteligente",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptivo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Otro",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Modo clásico",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "CasualMode": {
+        "message": "Modo Casual",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "minimumVotes": {
+        "message": "Votos mínimos",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "newCasualMode": {
+        "message": "Nueva característica: Modo casual",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "OpenSettings": {
         "message": "Abrir la configuración"
