@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "開発を支援する"
     },
+    "supportSponsorBlock": {
+        "message": "SponsorBlockの私のフルタイム開発を支援してください"
+    },
     "hideDonationLink": {
         "message": "寄付のお願いを表示しない"
     },
@@ -1049,14 +1052,32 @@
     "helpPageHowSkippingWorks": {
         "message": "動作の仕組み"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "すべての広告情報は、あなたのような個々のユーザーによって提出されます。提出されデータベースにある情報は、ブラウザの右上にあるポップアップを開くと表示されます。"
+    },
     "helpPageHowSkippingWorks2": {
         "message": "セグメントをスキップする度に通知が表示されます。セグメントの範囲がおかしいと思ったら、そのセグメントを低評価してください。ポップアップ画面でも同様に投票ができます。"
     },
     "Submitting": {
         "message": "登録する"
     },
+    "helpPageSubmitting1": {
+        "message": "スポンサーブロックのロゴを動画プレーヤー内でクリックすることで、提出を行うことができます。"
+    },
+    "helpPageSubmitting2": {
+        "message": "再生ボタンをクリックすると、セグメントの開始、停止アイコンをクリックすると終了が表示されます。 上向き矢印ボタンをクリックするとメニューが開き、完璧になるまでセグメントをプレビューして編集できます。 正確さは重要なので、送信前に必ずガイドラインをお読みください。"
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "データの送信先は？"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "すべての送信データはSponsorBlockのデータベースに登録されます。以下で公開され、誰でも利用可能になります"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "ソースコードは自由に利用できます。そのため、運営になにがあろうとも、あなたが登録したデータが失われることはありません。"
+    },
+    "AdviceForSubmitting": {
+        "message": "広告シーン登録のヘルプ"
     },
     "Credits": {
         "message": "謝辞"
