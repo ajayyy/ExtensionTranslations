@@ -1769,6 +1769,9 @@
     "cleanPopup": {
         "message": "Piilota ylimääräisyydet Osiolistan ponnahduksesta"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Piilota osion luontipainikkeet ponnahdusikkunassa"
+    },
     "syncDisabledWarning": {
         "message": "Varoitus: Lisäosien tallennustila on poistettu käytöstä selaimestasi, eivätkä niiden asetukset sen vuoksi tallennu."
     },
