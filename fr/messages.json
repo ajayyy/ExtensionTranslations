@@ -1787,6 +1787,9 @@
     "cleanPopup": {
         "message": "Cacher les détails dans l'affichage de la liste des segments"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Masquer les boutons de création de segment dans le pop-up"
+    },
     "syncDisabledWarning": {
         "message": "Attention : le stockage des extensions a été désactivé dans votre navigateur. Les paramètres ne seront pas enregistrés si vous essayez de les sauvegarder."
     },
