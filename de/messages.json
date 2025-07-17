@@ -1032,7 +1032,7 @@
         "message": "Hilf beim Finanzieren der Entwicklung"
     },
     "supportSponsorBlock": {
-        "message": "Unterstütze mein Vollzeitarbeit an SponsorBlock"
+        "message": "Unterstütze meine Vollzeitarbeit an SponsorBlock"
     },
     "hideDonationLink": {
         "message": "Spendenlink verbergen"
@@ -1071,10 +1071,13 @@
         "message": "Wo gehen die Einreichungen hin?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Alle Segmente werden in der SponsorBlock-Datenbank gespeichert, welche für jeden verwendbar veröffentlicht wird. Sie ist verfügbar bei: "
+        "message": "Alle Einreichungen werden in der SponsorBlock-Datenbank gespeichert, welche für jeden verwendbar veröffentlicht wird. Sie ist verfügbar unter"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
+    },
+    "AdviceForSubmitting": {
+        "message": "Tipps zum Einreichen"
     },
     "Credits": {
         "message": "Mitwirkende"
