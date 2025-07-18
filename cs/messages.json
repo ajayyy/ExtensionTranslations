@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Pomozte s financováním vývoje"
     },
+    "supportSponsorBlock": {
+        "message": "Podpořte mou práci na plný úvazek na SponsorBlocku"
+    },
     "hideDonationLink": {
         "message": "Skrýt odkaz na přispění"
     },
@@ -1045,6 +1048,9 @@
     },
     "helpPageFeatureDisclaimer": {
         "message": "Spousta funkcí je ve výchozím nastavení zakázána. Pokud chcete přeskakovat intra, outra, používat Invidious atd., povolte je níže. Můžete také zobrazit/skrýt UI prvky."
+    },
+    "helpPageHowSkippingWorks": {
+        "message": "Jak to funguje"
     },
     "helpPageHowSkippingWorks2": {
         "message": "Kdykoli přeskočíte segment, dostanete oznámení. Pokud je časování nesprávné, můžete hlasovat proti kliknutím na palec dolů! Také můžete hlasovat ve vyskakovacím okně."
