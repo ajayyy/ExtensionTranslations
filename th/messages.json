@@ -183,6 +183,12 @@
     "copySegmentID": {
         "message": "คัดลอกไอดีส่วน"
     },
+    "loopChapter": {
+        "message": "วนซ้ำส่วน"
+    },
+    "unloopChapter": {
+        "message": "หยุดวนซ้ำส่วน"
+    },
     "hideThis": {
         "message": "ซ่อนสิ่งนี้"
     },
@@ -382,6 +388,10 @@
         "message": "ข้ามไป {0} แล้ว",
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
+    "voted_on": {
+        "message": "โหวต {0} แล้ว",
+        "description": "Example: Voted on Sponsor"
+    },
     "disableAutoSkip": {
         "message": "ปิดการข้ามอัตโนมัติ"
     },
@@ -389,7 +399,7 @@
         "message": "เปิดการข้ามอัตโนมัติ"
     },
     "audioNotification": {
-        "message": "เล่นเสียงเมี่อข้ามตอน"
+        "message": "เล่นเสียงแจ้งเตือนหลังข้ามส่วน"
     },
     "audioNotificationDescription": {
         "message": "เสียงแจ้งเตือนจะดังขั้นเมื่อมีส่วนถูกข้าม เสียงนี้จะไม่ดังขึ้นถ้าตัวเลือกนี้ถูกปิดหรือการข้ามส่วนอัตโนมัติถูกปิด"
@@ -635,7 +645,10 @@
         "message": "รวมถึงคำเปรยให้แสดงความคิดเห็นทางอ้อมด้วย"
     },
     "category_intro": {
-        "message": "ช่วงพัก/อนิเมชั่นอินโทร"
+        "message": "ช่วงพัก/แอนิเมชันอินโทร"
+    },
+    "category_intro_description": {
+        "message": "ช่วงที่ไม่มีเนื้อหาสำคัญ อาจเป็นภาพนิ่ง ภาพว่าง หรือแอนิเมชันวนซ้ำ ไม่ควรใช้ในช่วงเปลี่ยนผ่านที่มีเนื้อหา"
     },
     "category_intro_short": {
         "message": "ช่วงพัก"
@@ -656,6 +669,9 @@
         "message": "ตัวอย่าง/สรุปสั้น/ล่อใจ",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
+    "category_preview_description": {
+        "message": "คลิปที่แสดงถึงสิ่งที่จะเกิดขึ้นในวิดีโอปัจจุบัน หรือวิดีโออื่น ๆ ในซีรีส์ที่นำมาพูดถึงภายหลัง"
+    },
     "category_preview_guideline1": {
         "message": "คลิปที่ปรากฎภายหลัง หรือในวิดีโอถัดไป"
     },
@@ -664,6 +680,9 @@
     },
     "category_filler": {
         "message": "นอกเรื่อง/มุก"
+    },
+    "category_filler_guideline2": {
+        "message": "นอกเรื่อง เบื้องหลัง ภาพซ้ำ"
     },
     "category_music_offtopic": {
         "message": "เพลง: ส่วนที่ไม่ใช่เสียงเพลง"
@@ -710,6 +729,9 @@
     "showOverlay_POI": {
         "message": "แสดงในแถบกรอ"
     },
+    "showOverlay_full": {
+        "message": "แสดงป้ายกำกับ"
+    },
     "showOverlay_chapter": {
         "message": "แสดงส่วนเนื้อหา"
     },
@@ -718,6 +740,21 @@
     },
     "skipNonMusicOnlyOnYoutubeMusic": {
         "message": "ข้ามเฉพาะใน music.youtube.com"
+    },
+    "muteSegments": {
+        "message": "อนุญาตส่วนที่ปิดเสียงแทนการข้าม"
+    },
+    "fullVideoSegments": {
+        "message": "แสดงสัญลักษณ์ในวิดีโอที่เป็นโฆษณาทั้งหมด",
+        "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "แสดงป้ายกำกับในภาพปกด้วย",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+    },
+    "previewColor": {
+        "message": "สีตอนยังไม่ได้ส่ง",
+        "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
         "message": "สีแถบกรอ"
@@ -771,6 +808,9 @@
     },
     "whatForceChannelCheck": {
         "message": "โดยปกติแล้ว ส่วนจะถูกข้ามโดยทันทีก่อนที่จะรู้ว่าเป็นช่องอะไร โดยค่าเริ่มต้น บางส่วนที่อยู่ต้นวิดีโออาจถูกข้ามในช่องที่ได้รับอนุญาต ตัวเลือกนี้ป้องกันไม่ให้เกิดเหตุการณ์นี้ แต่อาจทำให้การข้ามหน่วงขึ้นเล็กน้อย เพราะการโหลดไอดีช่องใช้เวลาพอสมควร การหน่วงนี้อาจไม่ส่งผลหากคุณมีอินเตอร์เน็ตที่เร็วมากพอ"
+    },
+    "forceChannelCheckPopup": {
+        "message": "ลองเปิด \"บังคับให้ตรวจช่องก่อนข้าม\""
     },
     "downvoteDescription": {
         "message": "กำหนดเวลาไม่ถูกต้อง/ผิด"
