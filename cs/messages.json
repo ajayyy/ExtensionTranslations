@@ -1052,14 +1052,32 @@
     "helpPageHowSkippingWorks": {
         "message": "Jak to funguje"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "Všechny sponzorské segmenty jsou přidány uživateli, jako jste vy. Seznam segmentů v databázi si můžete zobrazit otevřením vyskakovacího okna v pravém horním rohu vašeho prohlížeče."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Kdykoli přeskočíte segment, dostanete oznámení. Pokud je časování nesprávné, můžete hlasovat proti kliknutím na palec dolů! Také můžete hlasovat ve vyskakovacím okně."
     },
     "Submitting": {
         "message": "Odesílání"
     },
+    "helpPageSubmitting1": {
+        "message": "Přidat segment můžete kliknutím na logo SponsorBlocku v přehrávači videa."
+    },
+    "helpPageSubmitting2": {
+        "message": "Kliknutím na tlačítko přehrání označíte začátek segmentu. Kliknutím na tlačítko zastavení označíte jeho konec. Kliknutím na tlačítko se šipkou nahoru otevřete nabídku odeslání, kde můžete zkontrolovat své segmenty jejich náhledem a upravit je, aby byly co nejlepší. Přesnost je důležitý, takže si před odesláním nezapomeňte přečíst pokyny."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Kam se segmenty odesílají?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Všechny segmenty se odesílají do databáze SponsorBlock, kterou může kdokoli použít a je veřejně dostupná na adrese"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Zdrojový kód je volně dostupný. Takže i když se mi něco stane, vaše příspěvky nebudou ztraceny."
+    },
+    "AdviceForSubmitting": {
+        "message": "Rady pro odesílání"
     },
     "Credits": {
         "message": "Poděkování"
@@ -1768,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Skrýt zbytečnosti ve vyskakovacím okně seznamu segmentů"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Skrýt tlačítka pro tvorbu segmentů ve vyskakovacím okně"
     },
     "syncDisabledWarning": {
         "message": "Varování: ve vašem prohlížeči bylo zakázáno úložiště rozšíření. Nastavení nebudou uložena."
