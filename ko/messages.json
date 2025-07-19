@@ -69,7 +69,7 @@
         "message": "음소거 해제"
     },
     "paused": {
-        "message": "일시중지됨"
+        "message": "중지됨"
     },
     "manualPaused": {
         "message": "타이머가 정지됨"
@@ -111,7 +111,7 @@
         "message": "투표 완료!"
     },
     "serverDown": {
-        "message": "서버가 다운된 것 같아요. 개발자에게 연락해주세요."
+        "message": "서버가 다운된 것 같아요. 개발자에게 연락해 주세요."
     },
     "connectionError": {
         "message": "연결 오류가 발생했어요. 오류 코드: "
@@ -1059,7 +1059,7 @@
         "message": "구간을 건너뛰면 알림을 받게 돼요. 알림 창에서 투표를 진행할 수 있어서, 구간의 시간이 잘못 입력됐다면 비추천 버튼을 누르실 수도 있답니다."
     },
     "Submitting": {
-        "message": "제출하는 방법"
+        "message": "제출 방법"
     },
     "helpPageSubmitting1": {
         "message": "동영상 재생 바의 SponsorBlock 로고를 눌러서 제출할 수 있어요."
@@ -1071,7 +1071,7 @@
         "message": "제출하는 곳이 어디로 갔나요?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "모든 제출은 SponsorBlock 데이터베이스에 들어가요. 데이터베이스는 누구나 공개적으로 사용할 수 있도록 개방돼요. 다음에서 이용 가능하답니다:"
+        "message": "모든 제출은 SponsorBlock 데이터베이스에 들어가요. 데이터베이스는 누구나 공개적으로 사용할 수 있도록 개방돼요. 다음에서 사용 가능하답니다:"
     },
     "helpPageCopyOfDatabase2": {
         "message": "또한 소스 코드는 자유롭게 사용할 수 있어요. 그러므로, 저에게 무슨 일이 생겨도 제출이 사라지는 일은 없을 거예요."
