@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Zvážte darovanie"
     },
+    "supportSponsorBlock": {
+        "message": "Podporte moju prácu na plný úväzok na SponsorBlocku"
+    },
     "hideDonationLink": {
         "message": "Skryť možnosti prispenia"
     },
@@ -1046,14 +1049,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Veľa funkcií je vo východiskovom stave vypnutých. Ak chcete preskakovať úvody, závery, používať Invidious apod., zapnite ich nižšie. Taktiež môžete zobraziť alebo skryť niektoré ovládacie prvky."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Ako to funguje"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Všetky sponzorské segmenty pridávajú používatelia ako vy. Zoznam segmentov v databáze si môžete zobraziť otvorením vyskakovacieho okna v pravom hornom rohu vášho prehliadača."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Vždy keď preskočíte segment, tak dostanete oznam. Ak sa vám nepozdáva načasovanie, môžete o tom zahlasovať palcom dole! Zahlasovať tiež môžete vo vyskakovacom okne."
     },
     "Submitting": {
         "message": "Odosielam"
     },
+    "helpPageSubmitting1": {
+        "message": "Segment môžete pridať kliknutím na logo SponsorBlocku v prehrávači videa."
+    },
+    "helpPageSubmitting2": {
+        "message": "Kliknutím na tlačidlo prehrávania označíte začiatok segmentu. Kliknutím na tlačidlo zastavenia označíte jeho koniec. Kliknutím na tlačidlo so šípkou nahor otvoríte ponuku odoslania, kde si môžete svoje segmenty skontrolovať pomocou náhľadu a upraviť ich, aby boli čo najlepšie. Presnosť je dôležitá, preto si pred odoslaním nezabudnite prečítať pokyny."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Kam sa segmenty odosielajú?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Všetky segmenty sa odosielajú do databázy SponsorBlock, ktorú môže ktokoľvek používať a je verejne dostupná na adrese"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Zdrojový kód je voľne dostupný. Takže aj keby sa mi niečo stalo, vaše príspevky sa nestratia."
+    },
+    "AdviceForSubmitting": {
+        "message": "Rady pre odosielanie"
     },
     "Credits": {
         "message": "Autori"
@@ -1762,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Skryť zbytočnosti vo vyskakovacom okne zoznamu segmentov"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Skryť tlačidlá na tvorbu segmentov vo vyskakovacom okne"
     },
     "syncDisabledWarning": {
         "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."
