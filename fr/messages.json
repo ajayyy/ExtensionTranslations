@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Aider à financer le développement"
     },
+    "supportSponsorBlock": {
+        "message": "Soutenez mon travail à plein temps sur SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Cacher le lien de don"
     },
@@ -1047,10 +1050,10 @@
         "message": "De nombreuses fonctionnalités sont désactivées par défaut. Si vous voulez ignorer les introductions, postfaces, utiliser Invidious, etc., définissez-le ci-dessous. Vous pouvez également masquer ou afficher les éléments de l'interface."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Comment fonctionne le passage d'un segment"
+        "message": "Comment ça marche"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Les segments vidéo seront automatiquement ignorés s'ils sont trouvés dans la base de données. Vous pouvez ouvrir un encart en cliquant sur l'icône de l'extension pour en avoir un aperçu."
+        "message": "Chaque message sponsorisé est envoyé par d'autres utilisateurs comme vous. Vous pouvez voir la liste des messages sponsorisés stockés dans la base de données en ouvrant le pop-up en haut à droite de votre navigateur."
     },
     "helpPageHowSkippingWorks2": {
         "message": "À chaque fois que vous passez un segment, vous en êtes averti-e. Si le timing semble incorrect, vous pouvez voter contre le segment ! Vous pouvez également voter dans l'encart d'aperçu."
@@ -1059,37 +1062,22 @@
         "message": "Soumission en cours"
     },
     "helpPageSubmitting1": {
-        "message": "La soumission peut être effectuée dans l'encart d'aperçu en appuyant sur le bouton \"Début du segment\" ou dans le lecteur vidéo avec les boutons."
+        "message": "Il est possible de soumettre un nouveau segment en cliquant sur le logo SponsorBlock dans le lecteur vidéo."
     },
     "helpPageSubmitting2": {
-        "message": "Cliquer sur le bouton de lecture indique le début d'un segment et cliquer sur l'icône d'arrêt indique sa fin. Vous pouvez préparer plusieurs messages commerciaux avant d'appuyer sur Soumettre. Cliquer sur le bouton Téléverser soumettra vos segments. Cliquer sur la poubelle supprimera vos segments."
-    },
-    "Editing": {
-        "message": "Édition en cours"
-    },
-    "helpPageEditing1": {
-        "message": "Si vous avez fait une erreur, vous pouvez modifier ou supprimer vos segments en cliquant sur le bouton avec la flèche vers le haut."
-    },
-    "helpPageTooSlow": {
-        "message": "Ceci est trop lent"
-    },
-    "helpPageTooSlow1": {
-        "message": "Il y a des raccourcis clavier si vous voulez les utiliser. Appuyez sur la touche point-virgule pour indiquer le début et la fin d'un segment sponsorisé, et cliquez sur l'apostrophe pour soumettre. Vous pouvez les modifier dans les options. Si vous n'utilisez pas un clavier QWERTY, vous devriez probablement changer les racourcis par défaut."
+        "message": "Cliquez sur le bouton Lecture pour indiquer le début d'un segment puis sur le bouton Arrêt pour indiquer sa fin. Cliquez sur la flèche pointant vers le haut pour ouvrir le menu de soumission, où vous pouvez vérifier vos segments en les prévisualisant et en les modifiant afin de les peaufiner. La précision est importante : assurez-vous d'avoir lu les directives avant de soumettre des segments."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Puis-je obtenir une copie de la base de données ? Que se passe-t-il si vous disparaissez ?"
+        "message": "Où arrivent les soumissions ?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "La base de données est publique et disponible à"
+        "message": "Toutes les soumissions sont placées dans la base de données SponsorBlock qui est publiée publiquement, utilisable par quiconque et disponible sur"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Le code source est en accès libre. Donc, même si il m'arrive quelque chose, vos soumissions ne seront pas perdues."
     },
-    "helpPageNews": {
-        "message": "Nouveautés et comment l'extension est fabriquée"
-    },
-    "helpPageSourceCode": {
-        "message": "Où puis-je obtenir le code source ?"
+    "AdviceForSubmitting": {
+        "message": "Conseils relatifs à la soumission"
     },
     "Credits": {
         "message": "Crédits"
@@ -1798,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Cacher les détails dans l'affichage de la liste des segments"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Masquer les boutons de création de segment dans le pop-up"
     },
     "syncDisabledWarning": {
         "message": "Attention : le stockage des extensions a été désactivé dans votre navigateur. Les paramètres ne seront pas enregistrés si vous essayez de les sauvegarder."

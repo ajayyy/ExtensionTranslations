@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Hjälp till att finansiera utvecklingen"
     },
+    "supportSponsorBlock": {
+        "message": "Stöd mitt heltidsarbete med SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Dölj donationslänk"
     },
@@ -1047,10 +1050,10 @@
         "message": "Många funktioner är inaktiverade som standard. Om du vill hoppa över intros, outros, använda Invidious, etc, aktivera dem nedan. Du kan också dölja/visa UI-element."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Hur hoppa över fungerar"
+        "message": "Så här fungerar det"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Videosegment hoppas över automatiskt om de finns i databasen. Du kan öppna popup-fönstret genom att klicka på tilläggsikonen för att få en förhandsvisning av vad de är."
+        "message": "Alla sponsorer lämnas in av YouTube-användare. Du kan se listan över inskickade sponsorer i databasen genom att öppna popup-fönstret uppe till höger i din webbläsare."
     },
     "helpPageHowSkippingWorks2": {
         "message": "När du hoppar över ett segment får du ett meddelande. Om tidpunkten verkar felaktig rösta då ner genom att klicka på nerröstning! Du kan också rösta i popup-fönstret."
@@ -1059,37 +1062,22 @@
         "message": "Skickar in"
     },
     "helpPageSubmitting1": {
-        "message": "Skicka in kan antingen göras i popup-fönstret genom att trycka på knappen \"Segmentet startar nu\" eller i videospelaren med knapparna på spelaren."
+        "message": "Inskickning kan göras genom att klicka på SponsorBlock-logotypen i videospelaren."
     },
     "helpPageSubmitting2": {
-        "message": "Genom att klicka på uppspelningsknappen anges början på ett segment och genom att klicka på stoppikonen anges slutet. Du kan förbereda flera sponsorer innan du trycker på skicka. Klicka på uppladdningsknappen för att skicka in. Klicka på papperskorgen för att ta bort."
-    },
-    "Editing": {
-        "message": "Redigerar"
-    },
-    "helpPageEditing1": {
-        "message": "Om du gör fel kan du redigera eller ta bort dina segment efter att du klickat på uppåtpilen."
-    },
-    "helpPageTooSlow": {
-        "message": "Detta är för långsamt"
-    },
-    "helpPageTooSlow1": {
-        "message": "Det finns snabbtangenter om du vill använda dem. Tryck på semikolontangenten för att ange start/slut på ett sponsorsegment och klicka på apostrofen för att skicka in. Dessa kan ändras i inställningarna. Om du inte använder QWERTY, bör du förmodligen ändra tangentbindningen."
+        "message": "Genom att klicka på uppspelningsknappen visas början på ett segment och genom att klicka på stoppikonen visas slutet. Klicka på uppåtpilen för att öppna inskickningsmenyn där du kan verifiera dina segment genom att förhandsgranska och redigera dem så de blir perfekta. Precision är viktigt, se till att läsa riktlinjerna innan du skickar in."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Kan jag få en kopia av databasen? Vad händer om du försvinner?"
+        "message": "Var tar inskickningarna vägen?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Databasen är offentlig och finns på"
+        "message": "Alla inskickningar läggs in i SponsorBlock-databas som är offentligt släppt för vem som helst att använda och finns på"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Källkoden är fritt tillgänglig. Så, även om något händer mig, är dina inskickningar inte förlorade."
     },
-    "helpPageNews": {
-        "message": "Nyheter och hur är det gjort"
-    },
-    "helpPageSourceCode": {
-        "message": "Var kan jag få tag på källkoden?"
+    "AdviceForSubmitting": {
+        "message": "Råd för inskickning"
     },
     "Credits": {
         "message": "Medverkande"
@@ -1798,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Dölj röran i segmentlistans popup"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Dölj knapparna för segmentskapande i popup"
     },
     "syncDisabledWarning": {
         "message": "Varning: Tilläggslagring har inaktiverats i din webbläsare. Inställningarna kommer inte att sparas om du försöker spara dem."

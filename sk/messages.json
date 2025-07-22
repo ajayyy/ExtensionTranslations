@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Zvážte darovanie"
     },
+    "supportSponsorBlock": {
+        "message": "Podporte moju prácu na plný úväzok na SponsorBlocku"
+    },
     "hideDonationLink": {
         "message": "Skryť možnosti prispenia"
     },
@@ -1047,10 +1050,10 @@
         "message": "Veľa funkcií je vo východiskovom stave vypnutých. Ak chcete preskakovať úvody, závery, používať Invidious apod., zapnite ich nižšie. Taktiež môžete zobraziť alebo skryť niektoré ovládacie prvky."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Ako funguje preskakovanie"
+        "message": "Ako to funguje"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Video segmenty budú automaticky preskočené, ak sa nájdu v databáze. Zobraziť si ich môžete po kliknutí na ikonu rozšírenia vo vyskakovacom okne."
+        "message": "Všetky sponzorské segmenty pridávajú používatelia ako vy. Zoznam segmentov v databáze si môžete zobraziť otvorením vyskakovacieho okna v pravom hornom rohu vášho prehliadača."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Vždy keď preskočíte segment, tak dostanete oznam. Ak sa vám nepozdáva načasovanie, môžete o tom zahlasovať palcom dole! Zahlasovať tiež môžete vo vyskakovacom okne."
@@ -1059,37 +1062,22 @@
         "message": "Odosielam"
     },
     "helpPageSubmitting1": {
-        "message": "Odosielanie môžete vykonať z vyskakovacieho okna stlačením \"Začiatok segmentu\" alebo priamo tlačidlami v prehrávači."
+        "message": "Segment môžete pridať kliknutím na logo SponsorBlocku v prehrávači videa."
     },
     "helpPageSubmitting2": {
-        "message": "Stlačenie tlačidla Prehrať označí začiatok segmentu a stlačenie tlačidla Stop označí koniec. Takto viete označiť aj viac segmentov pred odoslaním. Stlačením tlačidla \"Nahrať\" segmenty odošlete. Stlačením tlačidla \"Kôš\" segmenty zmažete."
-    },
-    "Editing": {
-        "message": "Úpravy"
-    },
-    "helpPageEditing1": {
-        "message": "Ak ste sa pomýlili, môžete segment upraviť alebo zmazať po stlačení šípky hore."
-    },
-    "helpPageTooSlow": {
-        "message": "Príliš pomalé"
-    },
-    "helpPageTooSlow1": {
-        "message": "Môžete využiť aj klávesové skratky. Bodkočiarka označí začiatok alebo koniec segmentu a apostrof ho odošle."
+        "message": "Kliknutím na tlačidlo prehrávania označíte začiatok segmentu. Kliknutím na tlačidlo zastavenia označíte jeho koniec. Kliknutím na tlačidlo so šípkou nahor otvoríte ponuku odoslania, kde si môžete svoje segmenty skontrolovať pomocou náhľadu a upraviť ich, aby boli čo najlepšie. Presnosť je dôležitá, preto si pred odoslaním nezabudnite prečítať pokyny."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Viem získať kópiu databázy? Čo bude ak zmizneš?"
+        "message": "Kam sa segmenty odosielajú?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Databáza je verejná a dostupná na"
+        "message": "Všetky segmenty sa odosielajú do databázy SponsorBlock, ktorú môže ktokoľvek používať a je verejne dostupná na adrese"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Zdrojový kód je voľne dostupný. Takže aj keby sa mi niečo stalo, vaše príspevky sa nestratia."
     },
-    "helpPageNews": {
-        "message": "Novinky a ako to funguje"
-    },
-    "helpPageSourceCode": {
-        "message": "Kde môžem získať zdrojový kód?"
+    "AdviceForSubmitting": {
+        "message": "Rady pre odosielanie"
     },
     "Credits": {
         "message": "Autori"
@@ -1798,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Skryť zbytočnosti vo vyskakovacom okne zoznamu segmentov"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Skryť tlačidlá na tvorbu segmentov vo vyskakovacom okne"
     },
     "syncDisabledWarning": {
         "message": "Varovanie: úložisko pre doplnky je vo vašom prehliadači vypnuté. Nastavenia nebudú uložené."

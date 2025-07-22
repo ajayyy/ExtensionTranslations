@@ -1040,50 +1040,14 @@
     "helpPageFeatureDisclaimer": {
         "message": "许多功能默认禁用。如果您想跳过开头、结尾或使用 Invidious 等，请在下方开启。您也可以显示/隐藏界面内容。"
     },
-    "helpPageHowSkippingWorks": {
-        "message": "跳过是如何运作的"
-    },
-    "helpPageHowSkippingWorks1": {
-        "message": "视频片段如果在数据库中存在将被自动跳过。您可以点击插件图标打开弹窗查看预览。"
-    },
     "helpPageHowSkippingWorks2": {
         "message": "当跳过片段时，您会收到提醒。如果时间不对，请点击差评！您也可以在插件弹窗中投票。"
     },
     "Submitting": {
         "message": "提交中"
     },
-    "helpPageSubmitting1": {
-        "message": "您可以使用插件弹窗中的“片段现在开始”按钮或播放器中的按钮提交片段。"
-    },
-    "helpPageSubmitting2": {
-        "message": "点击播放按钮标记片段开始，点击停止按钮标记片段结束。您可以一次提交多个片段。点击上传按钮会提交片段。点击垃圾桶按钮会删除片段。"
-    },
-    "Editing": {
-        "message": "正在编辑"
-    },
-    "helpPageEditing1": {
-        "message": "如果您选错了，您可以点击左侧箭头按钮编辑或删除您的片段。"
-    },
-    "helpPageTooSlow": {
-        "message": "太慢了"
-    },
-    "helpPageTooSlow1": {
-        "message": "常用功能支持快捷键。按下分号键“；”标记赞助商广告片段开始和结束，按下撇号“ ’ ”提交。可以在选项中更改按键。如果您使用的不是QWERTY序列键盘，您可能需要更改键位绑定。"
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "我可以下载数据库吗？如果你人没了会怎样？"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "数据库是公开的，在此访问："
-    },
     "helpPageCopyOfDatabase2": {
         "message": "源代码是免费公开的。所以即使我出了什么事，你的提交也不会丢失。"
-    },
-    "helpPageNews": {
-        "message": "新闻和更新记录"
-    },
-    "helpPageSourceCode": {
-        "message": "在哪里可以获得源代码？"
     },
     "Credits": {
         "message": "鸣谢"

@@ -69,7 +69,7 @@
         "message": "음소거 해제"
     },
     "paused": {
-        "message": "일시중지됨"
+        "message": "중지됨"
     },
     "manualPaused": {
         "message": "타이머가 정지됨"
@@ -111,7 +111,7 @@
         "message": "투표 완료!"
     },
     "serverDown": {
-        "message": "서버가 다운된 것 같아요. 개발자에게 연락해주세요."
+        "message": "서버가 다운된 것 같아요. 개발자에게 연락해 주세요."
     },
     "connectionError": {
         "message": "연결 오류가 발생했어요. 오류 코드: "
@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "개발 자금을 지원해주세요"
     },
+    "supportSponsorBlock": {
+        "message": "SponsorBlock에서 제 전업 작업물을 지원해 주세요"
+    },
     "hideDonationLink": {
         "message": "후원 링크 숨기기"
     },
@@ -1047,49 +1050,34 @@
         "message": "기본적으로 많은 기능이 꺼져 있어요. 인트로, 아웃트로, Invidious 사용 등을 원한다면, 아래에서 켜야 해요. 또한 UI 요소를 숨기거나 표시할 수 있답니다."
     },
     "helpPageHowSkippingWorks": {
-        "message": "건너뛰기가 작동하는 방법"
+        "message": "작동 원리"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "데이터베이스에서 찾은 구간이 있다면 자동으로 건너뛰어요. 확장 프로그램 아이콘을 눌러 팝업 창을 열어서 구간을 미리 확인하실 수도 있답니다."
+        "message": "모든 스폰서 광고 구간은 여러분과 같은 사용자분이 제출해요. 데이터베이스 내 제출된 스폰서 광고 구간의 목록을 브라우저 우측 상단의 팝업을 열어서 볼 수 있어요."
     },
     "helpPageHowSkippingWorks2": {
         "message": "구간을 건너뛰면 알림을 받게 돼요. 알림 창에서 투표를 진행할 수 있어서, 구간의 시간이 잘못 입력됐다면 비추천 버튼을 누르실 수도 있답니다."
     },
     "Submitting": {
-        "message": "제출하는 방법"
+        "message": "제출 방법"
     },
     "helpPageSubmitting1": {
-        "message": "\"구간 시작\" 버튼을 누른 다음 팝업 창으로 제출할 수도 있으며 동영상 탐색 바에 있는 버튼으로 제출할 수도 있답니다."
+        "message": "동영상 재생 바의 SponsorBlock 로고를 눌러서 제출할 수 있어요."
     },
     "helpPageSubmitting2": {
-        "message": "시작 아이콘을 누르면 구간의 시점을 정할 수 있고 정지 아이콘을 누르면 구간의 종점을 정할 수 있어요. 제출하기 전 여러 구간을 설정할 수 있는데, 업로드 아이콘을 눌러 제출할 수 있어요. 휴지통 아이콘을 눌러 구간을 삭제하실 수도 있어요."
-    },
-    "Editing": {
-        "message": "편집 방법"
-    },
-    "helpPageEditing1": {
-        "message": "구간을 잘못 설정했다면, 위쪽 화살표 버튼을 누른 다음 구간을 편집하거나 삭제할 수 있어요."
-    },
-    "helpPageTooSlow": {
-        "message": "이건 너무 느린 거 같아요"
-    },
-    "helpPageTooSlow1": {
-        "message": "원하는 경우 단축키를 사용할 수 있어요. 쌍반점 키를 눌러 후원이나 협찬 구간의 시점/종점을 설정할 수 있으며 작은따옴표 키를 눌러 구간을 제출할 수 있답니다. 언제든지 설정에서 변경할 수 있어요. QWERTY 자판을 사용하지 않는 경우, 단축키를 변경해야 할 수도 있어요."
+        "message": "재생 버튼을 누르는 것은 구간의 시점을, 정지 아이콘을 누르는 것은 구간의 종점을 나타내요. 위쪽 화살표를 눌러 제출 메뉴를 열 수 있어요. 제출 메뉴에서 구간을 미리 보면서 완벽해지도록 편집하며 검증할 수 있답니다. 정교함이 중요해요. 제출 전 지침을 읽도록 하세요."
     },
     "helpPageCopyOfDatabase": {
-        "message": "데이터베이스의 복사본을 구할 수 있나요? 개발자가 사라지면 어떻게 되나요?"
+        "message": "제출하는 곳이 어디로 갔나요?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "데이터베이스는 여기에서 확인할 수 있어요:"
+        "message": "모든 제출은 SponsorBlock 데이터베이스에 들어가요. 데이터베이스는 누구나 공개적으로 사용할 수 있도록 개방돼요. 다음에서 사용 가능하답니다:"
     },
     "helpPageCopyOfDatabase2": {
         "message": "또한 소스 코드는 자유롭게 사용할 수 있어요. 그러므로, 저에게 무슨 일이 생겨도 제출이 사라지는 일은 없을 거예요."
     },
-    "helpPageNews": {
-        "message": "새로운 변경 사항은 어디에서 확인하나요?"
-    },
-    "helpPageSourceCode": {
-        "message": "소스 코드는 어디에서 볼 수 있나요?"
+    "AdviceForSubmitting": {
+        "message": "제출 조언"
     },
     "Credits": {
         "message": "크레딧"
@@ -1798,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "구간 목록 팝업 정리하기"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "팝업 내 구간 생성 버튼 숨기기"
     },
     "syncDisabledWarning": {
         "message": "경고: 브라우저에서 확장 프로그램 저장 공간이 비활성화 되었어요. 설정이 저장되지 않아요."

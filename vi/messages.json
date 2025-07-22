@@ -186,6 +186,12 @@
     "copySegmentID": {
         "message": "Sao chép ID phân đoạn"
     },
+    "loopChapter": {
+        "message": "Lặp chương"
+    },
+    "unloopChapter": {
+        "message": "Hủy lặp chương"
+    },
     "hideThis": {
         "message": "Đóng lại"
     },
@@ -489,6 +495,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Bạn đang sắp thiết lập lại danh sách phiên bản Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "Hỗ trợ cho Invidious hiện không khả dụng trên Safari do một lỗi trên Safari. Khi Apple khắc phục lỗi này, tính năng sẽ được thêm trở lại."
     },
     "currentInstances": {
         "message": "Các phiên bản hiện tại:"
@@ -830,6 +839,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Tự động bỏ qua tất cả các phân đoạn nếu trong video có phân đoạn không phải nhạc"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Chỉ tự động bỏ qua trên music.youtube.com"
+    },
     "muteSegments": {
         "message": "Cho phép các phân đoạn bị tắt tiếng hay vì bỏ qua"
     },
@@ -854,6 +866,16 @@
     "skipOption": {
         "message": "Tùy chọn Bỏ qua",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Mở các tùy chọn bỏ qua nâng cao"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Lỗi cú pháp: Các tùy chọn của bạn chưa được lưu"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Cách thức hoạt động",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Kích hoạt Máy chủ Thử nghiệm"
@@ -1009,6 +1031,9 @@
     "considerDonating": {
         "message": "Hỗ trợ phát triển cấp quỹ"
     },
+    "supportSponsorBlock": {
+        "message": "Hãy hỗ trợ công việc toàn thời gian của tôi trên SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Ẩn link donate"
     },
@@ -1025,10 +1050,10 @@
         "message": "Nhiều tính năng sẽ bị tắt theo mặc định. Nếu bạn muốn bỏ qua phần intro, sử dụng trên các trang web bên thứ 3 như Invidious, v. v...., bạn có thể bật nó ở bên dưới. Bạn cũng có thể cho hiện/ẩn UI người dùng."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Cách bỏ qua phân đoạn hoạt động"
+        "message": "Cách thức hoạt động"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Các phân đoạn trong video sẽ tự động bị bỏ qua nếu chúng được tìm thấy trong cơ sở dữ liệu. Bạn có thể mở cửa sổ bật lên bằng cách nhấp vào biểu tượng tiện ích mở rộng để xem trước chúng là gì."
+        "message": "Tất cả nhà tài trợ đều do người dùng như bạn gửi lên. Bạn có thể xem danh sách các nhà tài trợ đã được gửi trong cơ sở dữ liệu bằng cách mở cửa sổ bật lên ở góc trên bên phải trình duyệt của bạn."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Bất cứ khi nào bỏ qua một phân đoạn, bạn sẽ nhận được thông báo. Nếu thời gian phân đoạn có vẻ sai, hãy bỏ phiếu bằng cách nhấp vào nút phản đối! Bạn cũng có thể bỏ phiếu trong cửa sổ bật lên."
@@ -1037,37 +1062,22 @@
         "message": "Việc gửi lên"
     },
     "helpPageSubmitting1": {
-        "message": "Việc gửi một phân đoạn mới có thể được thực hiện trong cửa sổ bật lên bằng cách nhấn vào nút \"Đoạn quảng cáo bắt đầu vào lúc này\" hoặc trong trình phát video bằng các nút trên thanh trình phát."
+        "message": "Việc gửi có thể được thực hiện bằng cách nhấp vào logo SponsorBlock trên trình phát video."
     },
     "helpPageSubmitting2": {
-        "message": "Bạn nhấp 1 lần vào nút \"Đoạn quảng cáo bắt đầu vào lúc này\" để bắt đầu 1 phân đoạn, nhấn 2 lần để đánh dấu kết thúc phân đoạn đó. Bạn có thể chuẩn bị nhiều phân đoạn trước khi nhấn gửi. Nhấp vào nút \"Đăng đoạn quảng cáo\" sẽ gửi. Nhấp vào nút \"Xoá đoạn quảng cáo\" để xóa."
-    },
-    "Editing": {
-        "message": "Chỉnh sửa"
-    },
-    "helpPageEditing1": {
-        "message": "Nếu bạn làm sai, bạn có thể chỉnh sửa hoặc xóa các phân đoạn của mình sau khi nhấp vào nút mũi tên."
-    },
-    "helpPageTooSlow": {
-        "message": "Thao tác này quá chậm..."
-    },
-    "helpPageTooSlow1": {
-        "message": "Bạn có thể sử dụng các hotkeys (phím nóng). Nhấn phím dấu chấm phẩy (;) để chỉ ra điểm bắt đầu / kết thúc của phân đoạn nhà tài trợ và nhấp vào dấu nháy đơn (') để gửi. Nếu bạn không sử dụng QWERTY, bạn nên thay đổi cách gắn phím (bằng cách vào phần cài đặt của tiện ích)."
+        "message": "Nhấp vào nút phát để đánh dấu bắt đầu phân đoạn và nhấp vào nút dừng để đánh dấu kết thúc. Nhấp vào nút mũi tên lên để mở menu gửi, nơi bạn có thể xác minh phân đoạn bằng cách xem trước và chỉnh sửa cho thật chính xác. Độ chính xác rất quan trọng, hãy đọc kỹ hướng dẫn trước khi gửi."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Tôi có thể lấy bản sao của cơ sở dữ liệu không? Điều gì sẽ xảy ra nếu bạn biến mất?"
+        "message": "Các phân đoạn đã gửi sẽ đi đâu?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Cơ sở dữ liệu được công khai và luôn có sẵn tại"
+        "message": "Tất cả các phân đoạn đã gửi sẽ được đưa vào cơ sở dữ liệu SponsorBlock, được phát hành công khai cho mọi người sử dụng và có sẵn tại"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Mã nguồn mở cũng được có sẵn một cách tự do. Vì vậy, ngay cả khi có điều gì đó xảy đến với mình, các phân đoạn bạn đã gửi cũng sẽ không biến mất."
     },
-    "helpPageNews": {
-        "message": "Cập nhật tin tức và cách hoạt động"
-    },
-    "helpPageSourceCode": {
-        "message": "Tôi có thể tìm thấy mã nguồn ở đâu?"
+    "AdviceForSubmitting": {
+        "message": "Lời khuyên khi gửi"
     },
     "Credits": {
         "message": "Lời cảm ơn đến"
@@ -1462,6 +1472,12 @@
     "showOriginalOnHover": {
         "message": "Swap between custom details and original details on hover"
     },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Chuyển đổi giữa thông tin đã chỉnh và thông tin gốc khi di chuột lên bất cứ đâu trên thẻ video"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Thao tác này sẽ vô hiệu hoá tự động phát khi di chuột"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Show custom title on hover if a casual mode title is being shown"
     },
@@ -1770,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Ẩn phần lộn xộn trong danh sách phân đoạn bật lên"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Ẩn các nút tạo phân đoạn trong cửa sổ bật lên"
     },
     "syncDisabledWarning": {
         "message": "Cảnh báo: Lưu trữ tiện ích mở rộng đã bị vô hiệu hóa trong trình duyệt của bạn. Cài đặt này sẽ không được lưu."

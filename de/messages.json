@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Hilf beim Finanzieren der Entwicklung"
     },
+    "supportSponsorBlock": {
+        "message": "Unterstütze meine Vollzeitarbeit an SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Spendenlink verbergen"
     },
@@ -1047,10 +1050,10 @@
         "message": "Viele Funktionen sind standardmäßig deaktiviert, z.B. Intros/Outros überspringen oder Invidious verwenden. Aktiviere diese unten. Du kannst auch UI-Elemente verstecken/anzeigen."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Wie das Überspringen funktioniert"
+        "message": "Wie es funktioniert"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Videosegmente werden automatisch übersprungen, wenn sie in der Datenbank gefunden werden. Du kannst das Popup öffnen, indem du auf das Erweiterungssymbol klickst, um eine Vorschau darüber zu erhalten, was diese sind."
+        "message": "Alle Sponsoren wurden von Nutzern wie dir eingereicht. Du kannst die Liste der Sponsoren in der Datenbank sehen, indem du das Popup oben rechts in deinem Browser öffnest."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment abwerten! Du kannst auch im Popup abstimmen."
@@ -1059,37 +1062,22 @@
         "message": "Übermitteln"
     },
     "helpPageSubmitting1": {
-        "message": "Das Einreichen kann entweder im Popup durch Drücken des „Segment startet jetzt“-Knopfs oder mit den Knöpfen im Wiedergabefenster gemacht werden."
+        "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Wiedergabefenster klickst."
     },
     "helpPageSubmitting2": {
-        "message": "Mit einem Klick auf den Play-Button wird der Beginn eines Segments markiert, und mit einem Klick auf den Stop-Button dessen Ende. Du kannst mehrere Segmente anlegen, bevor du durch Klicken des Upload-Buttons zum Einreichen fortfährst. Ein Klick auf die Mülltonne löscht deine angelegten Segmente."
-    },
-    "Editing": {
-        "message": "Bearbeitung"
-    },
-    "helpPageEditing1": {
-        "message": "Wenn du etwas falsch gemacht hast, kannst du ein Segment bearbeiten oder löschen, nachdem du auf die Pfeil-nach-oben-Taste gedrückt hast."
-    },
-    "helpPageTooSlow": {
-        "message": "Das ist zu langsam"
-    },
-    "helpPageTooSlow1": {
-        "message": "Es gibt Hotkeys, wenn du diese verwenden möchtest. Drücke die Semikolon-Taste, um den Anfang / das Ende eines Sponsor-Segments zu markieren, und die Apostroph-Taste, um es zu übermitteln. Diese können in den Optionen geändert werden. Wenn du keine QWERTY-Tastatur verwendest, solltest du die Tastenbelegungen ändern."
+        "message": "Ein Klick auf den Abspielknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem nach oben zeigenden Pfeil, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Kann ich eine Kopie der Datenbank erhalten? Was passiert, wenn du verschwindest?"
+        "message": "Wo gehen die Einreichungen hin?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Die Datenbank ist öffentlich und verfügbar unter"
+        "message": "Alle Einreichungen werden in der SponsorBlock-Datenbank gespeichert, welche für jeden verwendbar veröffentlicht wird. Sie ist verfügbar unter"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Der Quellcode ist frei verfügbar. Selbst wenn mir etwas passieren würde, wären deine Einreichungen nicht verloren."
     },
-    "helpPageNews": {
-        "message": "Nachrichten und wie es gemacht wird"
-    },
-    "helpPageSourceCode": {
-        "message": "Wo kann ich den Quellcode bekommen?"
+    "AdviceForSubmitting": {
+        "message": "Tipps zum Einreichen"
     },
     "Credits": {
         "message": "Mitwirkende"
@@ -1798,6 +1786,9 @@
     },
     "cleanPopup": {
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Verstecke die Segmenterstellungsknöpfe im Popup"
     },
     "syncDisabledWarning": {
         "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."

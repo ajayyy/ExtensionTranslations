@@ -1031,6 +1031,9 @@
     "considerDonating": {
         "message": "Geliştirme sürecinin fonlanmasına yardım et"
     },
+    "supportSponsorBlock": {
+        "message": "SponsorBlock'taki tam zamanlı işimi destekleyin"
+    },
     "hideDonationLink": {
         "message": "Bağış Bağlantısını Gizle"
     },
@@ -1047,10 +1050,10 @@
         "message": "Birçok özellik varsayılan olarak devre dışıdır. İntroları, outroları atlamak vb. kullanmak istiyorsanız, bunları aşağıdan etkinleştirin. Ayrıca arayüz öğelerini gizleyebilir/gösterebilirsiniz."
     },
     "helpPageHowSkippingWorks": {
-        "message": "Atlama nasıl çalışıyor"
+        "message": "Nasıl çalışıyor"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Video segmentleri veritabanında bulunursa otomatik olarak atlanacaktır. Ne olduklarının bir önizlemesini almak için uzantı simgesine tıklayarak açılır pencereyi açabilirsiniz."
+        "message": "Tüm sponsor bildirimleri sizin gibi kullanıcılar tarafından sağlanır. Veri tabanına gönderilmiş sponsor bildirimlerini görmek için tarayıcınızın sağ üstündeki açılır pencereyi kullanabilirsiniz."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Når du springer et segment over, får du besked, når du springer et segment over. Hvis timingen virker forkert, kan du stemme ned ved at klikke på downvote! Du kan også stemme i popup-vinduet."
@@ -1059,37 +1062,10 @@
         "message": "Gönderiliyor"
     },
     "helpPageSubmitting1": {
-        "message": "Indsendelse kan enten ske i popup-vinduet ved at trykke på \"Segment Begynder Nu\"-knappen eller i videoafspilleren med knapperne på afspilleren."
-    },
-    "helpPageSubmitting2": {
-        "message": "Oynat düğmesine tıklamak bir segmentin başladığını, durdur simgesine tıklamak ise bittiğini gösterir. Gönder düğmesine basmadan önce birden fazla sponsor hazırlayabilirsiniz. Yükle düğmesine tıklandığında gönderilir. Çöp kutusu tıklandığında silinir."
-    },
-    "Editing": {
-        "message": "Düzenleme"
-    },
-    "helpPageEditing1": {
-        "message": "Eğer kısımlarda hata yaptıysanız, yukarı ok işareti olan düğmeye tıkladıktan sonra kısımları silebilir veya düzeltebilirsiniz."
-    },
-    "helpPageTooSlow": {
-        "message": "Bu fazla yavaş"
-    },
-    "helpPageTooSlow1": {
-        "message": "Kullanmak isterseniz kısayol tuşları var. Sponsorlu kısmın başlangıcını/sonunu belirtmek için noktalı virgül tuşuna basın ve göndermek için kesme işaretine tıklayın. Bu tuşlar ayarlarda değiştirilebilir. QWERTY klavye kullanmıyorsanız, tuş ayarlarını değiştirmelisiniz."
-    },
-    "helpPageCopyOfDatabase": {
-        "message": "Veri tabanının bir kopyasını alabilir miyim? Bir gün ortadan kaybolursanız ne olacak?"
-    },
-    "helpPageCopyOfDatabase1": {
-        "message": "Veri tabanı herkese açıktır ve şuradan erişilebilir: "
+        "message": "Bildirmek için video oynatıcıdaki SponsorBlock düğmesini kullanabilirsiniz."
     },
     "helpPageCopyOfDatabase2": {
         "message": "Kaynak koduna serbestçe erişilebilir. Ben bir gün bu dünyada yalan olsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
-    },
-    "helpPageNews": {
-        "message": "Haberler ve nasıl yapılır"
-    },
-    "helpPageSourceCode": {
-        "message": "Kaynak koduna nereden ulaşabilirim?"
     },
     "Credits": {
         "message": "Emeği Geçenler"
