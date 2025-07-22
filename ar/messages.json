@@ -413,13 +413,13 @@
         "message": "دقيقة"
     },
     "minsLower": {
-        "message": "دقيقة"
+        "message": "دقائق"
     },
     "hourLower": {
         "message": "ساعة"
     },
     "hoursLower": {
-        "message": "ساعة"
+        "message": "ساعات"
     },
     "youHaveSavedTime": {
         "message": "لقد وفّرت على الناس",
@@ -477,6 +477,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "أنت على وشك إعادة تعيين قائمة حالات Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "دعم انفيديوس (Invidious) غير متوفر على متصفح \"سفاري\" حاليًا بسبب خطأ برمجي في سفاري. حينما تقوم أبل بإصلاح الخطأ, سيتم إضافته مرة أخرى"
     },
     "currentInstances": {
         "message": "الحالات الحالية:"
@@ -1662,6 +1665,9 @@
     "areYouSureOriginalVote": {
         "message": "هل أنت متأكد من أن هذه الصورة المصغرة الأصلية تتبع إرشادات DeArrow؟ إذا كنت تفضل رؤية الصور المصغرة الأصلية بشكل عام، ففكر في تغيير خيار \"عندما لا توجد صورة مصغرة مرسلة\" في إعدادات DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "Yes": {
+        "message": "نعم"
     },
     "OpenSettings": {
         "message": "فتح الإعدادات"
