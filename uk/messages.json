@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
-    "category_preview": {
-        "message": "Прев'ю/Підсумок/Зачіпка",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Колекція кліпів, які показують, що відбувається в цьому відео або інших відео в серії, де вся інформація повторюється пізніше у відео."
     },
