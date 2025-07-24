@@ -715,10 +715,6 @@
     "category_outro_guideline1": {
         "message": "即使片尾畫面顯示在螢幕上，也不應包含實際內容"
     },
-    "category_preview": {
-        "message": "預告/回顧/前情提要",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "剪輯片段的集合，用於展示此影片或系列影片中即將出現的內容，所有資訊稍後都會在影片中重複出現。"
     },
