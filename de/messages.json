@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
     },
+    "category_preview": {
+        "message": "Vorschau/Rückblick"
+    },
     "category_preview_description": {
         "message": "Sammlung von Clips, die zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später im Video wiederholt werden."
     },
@@ -735,6 +738,22 @@
     },
     "category_preview_guideline3": {
         "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
+    },
+    "category_hook": {
+        "message": "Hook/Begrüßungen",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Erzählte Trailer für das bevorstehende Video, Begrüßungen und Verabschiedungen. Dies sollte keine Schlussfolgerungen mit Informationen überspringen."
+    },
+    "category_hook_guideline1": {
+        "message": "Erzählte Trailer für das bevorstehende Video"
+    },
+    "category_hook_guideline2": {
+        "message": "Begrüßungen und Verabschiedungen von Zuschauern"
+    },
+    "category_hook_guideline3": {
+        "message": "Nicht für Segmente mit zusätzlichem Inhalt"
     },
     "category_filler": {
         "message": "Nebensachen/Witze"
