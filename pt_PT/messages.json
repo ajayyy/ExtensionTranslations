@@ -707,10 +707,6 @@
     "category_outro_guideline1": {
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
-    "category_preview": {
-        "message": "Previa/Recapitulação/Gancho Narrativo",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Coleção de clipes que mostram o que está por vir neste vídeo ou em outros vídeos em uma série onde todas as informações são repetidas mais tarde no vídeo."
     },
