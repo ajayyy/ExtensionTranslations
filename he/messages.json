@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "אל תכלול תוכן, גם אם מופיעים כרטיסי קצה על המסך"
     },
-    "category_preview": {
-        "message": "תצוגה מקדימה/סיכום/מלכודת",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "אוסף קליפים המציגים מה עולה בסרטון זה או סרטונים אחרים בסדרה שבה כל המידע חוזר על עצמו בהמשך הסרטון."
     },
