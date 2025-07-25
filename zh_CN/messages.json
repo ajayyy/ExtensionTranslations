@@ -718,10 +718,6 @@
     "category_outro_guideline1": {
         "message": "不应包含内容，即使结尾演职员表已经出现。"
     },
-    "category_preview": {
-        "message": "预览/概要/钩子",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "展示此视频或同系列后续视频将出现的画面集锦，所有内容都将在之后再次出现。"
     },

@@ -135,7 +135,7 @@
         "message": "Einreichungsmenü öffnen"
     },
     "OpenCasualVoteMenu": {
-        "message": "Öffne Menü des entspannten Modus"
+        "message": "Öffne Menü des Gelegenheitsmodus"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
@@ -725,8 +725,7 @@
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
     },
     "category_preview": {
-        "message": "Vorschau/Rückblick/Hook",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+        "message": "Vorschau/Rückblick"
     },
     "category_preview_description": {
         "message": "Sammlung von Clips, die zeigen, was in diesem Video oder anderen Videos in einer Serie kommen wird, wo alle Informationen später im Video wiederholt werden."
@@ -739,6 +738,22 @@
     },
     "category_preview_guideline3": {
         "message": "Nicht für Abschnitte, die zusätzliche Inhalte hinzufügen"
+    },
+    "category_hook": {
+        "message": "Hook/Begrüßungen",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Erzählte Trailer für das bevorstehende Video, Begrüßungen und Verabschiedungen. Dies sollte keine Schlussfolgerungen mit Informationen überspringen."
+    },
+    "category_hook_guideline1": {
+        "message": "Erzählte Trailer für das bevorstehende Video"
+    },
+    "category_hook_guideline2": {
+        "message": "Begrüßungen und Verabschiedungen von Zuschauern"
+    },
+    "category_hook_guideline3": {
+        "message": "Nicht für Segmente mit zusätzlichem Inhalt"
     },
     "category_filler": {
         "message": "Nebensachen/Witze"
@@ -1479,7 +1494,7 @@
         "message": "Damit wird die automatische Wiedergabe beim Daraufzeigen deaktiviert"
     },
     "showCustomOnHoverIfCasual": {
-        "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des lockeren Modus angezeigt wird"
+        "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des Gelegenheitsmodus angezeigt wird"
     },
     "showIconForFormattedTitles": {
         "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
@@ -1788,7 +1803,7 @@
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Verstecke die Segmenterstellungsknöpfe im Popup"
+        "message": "Verstecke die Knöpfe zur Segmenterstellung im Popup"
     },
     "syncDisabledWarning": {
         "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
@@ -1875,7 +1890,7 @@
         "message": "Titel werden mit einem auf den Richtlinien basierten, standardisierten Format auf allen Videos ersetzt, für die ein eingereichter Titel existiert."
     },
     "CasualMode": {
-        "message": "Lockerer Modus",
+        "message": "Gelegenheitsmodus",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
@@ -1890,11 +1905,11 @@
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
-        "message": "Neue Funktion: lockerer Modus",
+        "message": "Neue Funktion: Gelegenheitsmodus",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "onlyShowCasualIconForCustom": {
-        "message": "Zeige Symbol des lockeren Modus nur, wenn ein eingereichter Titel verfügbar ist"
+        "message": "Zeige Symbol des Gelegenheitsmodus nur, wenn ein eingereichter Titel verfügbar ist"
     },
     "OpenSettings": {
         "message": "Einstellungen öffnen"

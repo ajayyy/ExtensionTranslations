@@ -725,8 +725,7 @@
         "message": "Без съдържание, дори ако крайните карти са на екрана"
     },
     "category_preview": {
-        "message": "Кратък преглед/Обобщение/Тийзър",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+        "message": "Кратко резюме/Обобщение"
     },
     "category_preview_description": {
         "message": "Колекция от клипове, които показват какво предстои в този видеоклип или в други видеоклипове от поредицата, където цялата информация се повтаря по-късно във видеоклипа."
@@ -738,6 +737,22 @@
         "message": "Резюме на предишен видеоклип"
     },
     "category_preview_guideline3": {
+        "message": "Не за части, които добавят допълнително съдържание"
+    },
+    "category_hook": {
+        "message": "Кукичка/Поздрави",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Озвучени трейлъри за предстоящото видео, поздрави и сбогувания. Това не трябва да пропуска заключенията с информация."
+    },
+    "category_hook_guideline1": {
+        "message": "Озвучени трейлъри за предстоящото видео"
+    },
+    "category_hook_guideline2": {
+        "message": "Раздели за поздрави и сбогом, които приветстват зрителите"
+    },
+    "category_hook_guideline3": {
         "message": "Не за части, които добавят допълнително съдържание"
     },
     "category_filler": {

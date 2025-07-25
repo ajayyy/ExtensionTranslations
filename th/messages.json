@@ -665,10 +665,6 @@
     "category_outro_guideline1": {
         "message": "อย่ารวมเนื้อหา แม้การ์ดจบของ YouTube จะปรากฏอยู่บนหน้าจอก็ตาม"
     },
-    "category_preview": {
-        "message": "ตัวอย่าง/สรุปสั้น/ล่อใจ",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "คลิปที่แสดงถึงสิ่งที่จะเกิดขึ้นในวิดีโอปัจจุบัน หรือวิดีโออื่น ๆ ในซีรีส์ที่นำมาพูดถึงภายหลัง"
     },
