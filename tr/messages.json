@@ -1082,8 +1082,17 @@
     "helpPageSubmitting2": {
         "message": "Oynatma simgesi bir kısmın başladığını ve durdurma simgesi kısmın bittiğini belirtir. Yukarı yönlü oka tıklamak, kısımları göndermeden önce düzenleyip görebileceğiniz ve uygun olduğunu düşündüğünüz kısımları göndermenizi sağlayan bir menüye yönlendirir. Hassas ve doğru olması önemlidir, katkıda bulunmadan önce yönergeleri okuduğunuza emin olunuz."
     },
+    "helpPageCopyOfDatabase": {
+        "message": "Gönderimler nereye yapılır?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Tüm gönderimler herkesin kullanabileceği SponsorBlock veri tabanına aktarılır"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Kaynak koduna serbestçe erişilebilir. Ben bir gün bu dünyada yalan olsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
+    },
+    "AdviceForSubmitting": {
+        "message": "Gönderim için tavsiye"
     },
     "Credits": {
         "message": "Emeği Geçenler"
@@ -1792,6 +1801,9 @@
     },
     "cleanPopup": {
         "message": "Kısım listesinde ıvırzıvırı sakla"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Açılır penceredeki kısım oluşturma düğmelerini gizle"
     },
     "syncDisabledWarning": {
         "message": "Uyarı: Tarayıcınızda uzantı depolama devre dışı bırakıldı. Kaydetmeyi denerseniz ayarlar kaydedilmeyecektir."
