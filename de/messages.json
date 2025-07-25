@@ -1913,5 +1913,9 @@
     },
     "OpenSettings": {
         "message": "Einstellungen öffnen"
+    },
+    "hookNewFeature": {
+        "message": "Hinweis: Hook ist nun Teil der neuen Hook/Begrüßungen-Kategorie statt Vorschau/Rückblick",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

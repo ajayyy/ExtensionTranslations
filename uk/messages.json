@@ -1885,5 +1885,9 @@
     },
     "OpenSettings": {
         "message": "Відкрити налаштування"
+    },
+    "hookNewFeature": {
+        "message": "Примітка: Хук було переміщено з категорії Попередній перегляд/Рекап до нової категорії Хук/Привітання",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
