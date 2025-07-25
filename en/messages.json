@@ -1913,5 +1913,9 @@
     },
     "OpenSettings": {
         "message": "Open settings"
+    },
+    "hookNewFeature": {
+        "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
