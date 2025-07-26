@@ -1082,6 +1082,9 @@
     "helpPageCopyOfDatabase": {
         "message": "Minne lähetetyt osiot menevät?"
     },
+    "helpPageCopyOfDatabase1": {
+        "message": "Kaikki lähetetyt tiedot syötetään SponsorBlock tietokantaan, joka on julkisesti saatavilla kenelle tahansa käytettäväksi ja on saatavilla osoitteessa"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Lähdekoodi on vapaasti saatavilla. Joten, vaikka jotain tapahtuisi minulle, sinun lähetyksesi eivät katoa."
     },
