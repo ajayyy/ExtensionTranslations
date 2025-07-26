@@ -1080,7 +1080,7 @@
         "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Wiedergabefenster klickst."
     },
     "helpPageSubmitting2": {
-        "message": "Ein Klick auf den Abspielknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem nach oben zeigenden Pfeil, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
+        "message": "Ein Klick auf den Wiedergabeknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem Pfeil nach oben, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
     },
     "helpPageCopyOfDatabase": {
         "message": "Wo gehen die Einreichungen hin?"
