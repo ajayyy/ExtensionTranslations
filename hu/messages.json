@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Ne legyen benne tartalom, akkor sem, ha a zárókártyák már a képernyőn vannak"
     },
+    "category_preview": {
+        "message": "Előzetes/Ismétlés"
+    },
     "category_preview_description": {
         "message": "Olyan klipek gyűjteménye, amik azt mutatják, hogy mi következik majd ebben, vagy a sorozat más videóiban és minden információ megismétlődik később a videóban."
     },
@@ -734,6 +737,22 @@
         "message": "Korábbi videó összefoglalója"
     },
     "category_preview_guideline3": {
+        "message": "Nem olyan részekhez, amik új tartalmat adnak a videóhoz"
+    },
+    "category_hook": {
+        "message": "Horog/Köszöntés",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Narrált előzetesek a következő videóról, köszöntés és elköszönés. Ne ugorja át az információt tartalmazó konklúziót."
+    },
+    "category_hook_guideline1": {
+        "message": "Narrált előzetesek a következő videóról"
+    },
+    "category_hook_guideline2": {
+        "message": "A nézők köszöntése és elköszönés"
+    },
+    "category_hook_guideline3": {
         "message": "Nem olyan részekhez, amik új tartalmat adnak a videóhoz"
     },
     "category_filler": {
@@ -1894,5 +1913,9 @@
     },
     "OpenSettings": {
         "message": "Beállítások megnyitása"
+    },
+    "hookNewFeature": {
+        "message": "Figyelem: A \"horog\" át lett helyezve az Előzetes/Ismétlés kategóriából az új Horog/Köszöntés kategóriába",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
