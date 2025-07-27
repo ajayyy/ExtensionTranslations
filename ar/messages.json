@@ -1412,6 +1412,10 @@
         "message": "الصور المصغرة",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "الوضع العادي",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "خطأ"
     },
@@ -1670,5 +1674,9 @@
     },
     "OpenSettings": {
         "message": "فتح الإعدادات"
+    },
+    "hookNewFeature": {
+        "message": "ملاحظة: تم نقل \"(ٱلـ)جذب\" من فئة \"Preview/Recap\"إلى فئة \"الجذب/التحيات\"",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
