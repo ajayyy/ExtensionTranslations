@@ -277,7 +277,7 @@
         "message": "إشعارات تخطي متلاشية"
     },
     "longDescription": {
-        "message": "يتيح لك SponsorBlock تخطي الرعايات و المقدمات و المؤخرات و التذكيرات بالاشتراك و اجزاء أخرى مزعجة من فيديوهات اليوتيوب. SponsorBlock إضافة متصفح مصدّرة جماعيا يتيح لأي احد بتقديم أوقات البدء و الانتهاء للفقرات المرعية و فقرات اخرى من فيديوهات اليوتيوب. و بمجرد أن يقدم شخص واحد هذه المعلونات سيتخطى كل شخص آخر مع هذه الإضافة الفقرة المرعية. بالامكان أيضا تخطي الأجزاء الغير موسيقية من فيديوات الموسيقى.",
+        "message": "يتيح لك SponsorBlock تخطي الرعايات و المقدمات والمؤخرات والتذكيرات بالاشتراك واجزاء أخرى مزعجة من فيديوهات اليوتيوب. SponsorBlock إضافة متصفح مصدّرة جماعيًا تتيح لأي احد بتقديم أوقات البدء و الانتهاء للفقرات المرعّية و فقرات اخرى من فيديوهات اليوتيوب. وبمجرد أن يقدم شخص واحد هذه المعلومات سيتخطى كل شخص آخر من خلال هذه الإضافة الفقرة المرعّية. بالإمكان أيضًا تخطي الأجزاء الغير موسيقية من فيديوات الموسيقى.",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -1593,6 +1593,37 @@
         "message": "الكلمة المكتشفة: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
+    "DeArrowDiscussingWarning": {
+        "message": "لا تستخدم الأفعال غير الضرورية في بداية العنوان",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "ابدأ جميع العناوين بحرف كبير (إن كنت تكتبها بلغةً تدعم الأحرف الكبيرة). العناوين يجب أن تُنسّق كجُملة",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "لا ينبغي للعناوين أن تنتهي بـ '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "لا تضف جوابًا لسؤال مطروح فالعنوان فحسب. العناوين يجب أن تصف الفيديو, أو القصة مجملًا",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "لا ينبغي للعناوين أن تتحقق من الفيديو, الإساءة, أو انتقاد الفيديو أو صانعه.",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "لا ينبغي للعناوين أن تحتفظ بعناصر الجذب من العنوان الأصلي",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "العناوين لا ينبغي أن تحتوي على إيموجيز (أي رموز تعبيرية)",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "يجب عليك حل التحذير قبل المشاركة"
+    },
     "dearrowHelpSponsorBlockImported": {
         "message": "ملاحظة: تم استيراد إعدادات SponsorBlock الخاصة بك تلقائيا!"
     },
@@ -1771,6 +1802,9 @@
     "cleanPopup": {
         "message": "إخفاء الفوضى في منبثقة قائمة الفقرات"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "إخفاء أزرار صنع الفقرات في النافذة المنبثقة"
+    },
     "syncDisabledWarning": {
         "message": "تحذير: تم تعطيل مساحة تخزين الاضافة في المتصفح. لن يتم حفظ الإعدادات إن حاولت حفظها."
     },
@@ -1802,8 +1836,80 @@
         "message": "هل أنت متأكد من أن هذه الصورة المصغرة الأصلية تتبع إرشادات DeArrow؟ إذا كنت تفضل رؤية الصور المصغرة الأصلية بشكل عام، ففكر في تغيير خيار \"عندما لا توجد صورة مصغرة مرسلة\" في إعدادات DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "على \"YouTube TV\", \"SponsorBlock\" غير متوافق مع المحتوى المباشر والمحتوى المسجّل حديثًا. إذا هذا محتوى مسجّل حديثًا, رجاءً أنتظر لعدة ساعات حتى تصبح النسخة المعالجة من التسجيل متاحة.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "وضع القنوات في القائمة البيضاء غير مدعوم على موقع tv.youtube.com",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "هل أعجبك العنوان الأصلي؟",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
     "Yes": {
         "message": "نعم"
+    },
+    "No": {
+        "message": "لا"
+    },
+    "votes": {
+        "message": "{0} أصوات",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} صوت",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "مضحك",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "إبداعي",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "بارع",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "وصفي",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "آخر",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "الوضع الكلاسيكي",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "يتم استبدال العناوين بصيغ موحدة تستند إلى الإرشادات على جميع الفيديوهات إذ وجد فيها عنوان وُضّعَ من الجَمهور."
+    },
+    "CasualMode": {
+        "message": "الوضع العادي",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "ابقَ على العناوين الأصلية إذا كانت تشرح الفيديو بشكل كافٍ وكانت ذكية أو مضحكة.\nاختر فئات العناوين التي تريد رؤيتها.\nستتمكن من التصويت إذا كان العنوان يناسب فئة معينة أم لا."
+    },
+    "minimumVotes": {
+        "message": "الحد الأدنى من الأصوات",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "إظهار الصورة المصغرة الأصلية في الوضع العادي لفيديوهات مُصُوت عليها",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "مِيزة جديدة: الوضع العادي",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "فقط أُظهر أيقونة الوضع العادي حينما عنوانًا مخصصًا يكون متاح"
     },
     "OpenSettings": {
         "message": "فتح الإعدادات"
