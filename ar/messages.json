@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "قتح قائمة التقديم"
     },
+    "OpenCasualVoteMenu": {
+        "message": "فتح قائمة الوضع العادي"
+    },
     "sortSegments": {
         "message": "فرز الفقرات"
     },
@@ -182,6 +185,9 @@
     },
     "copySegmentID": {
         "message": "نسخ معرف الفقرة"
+    },
+    "loopChapter": {
+        "message": "فصل الحلقة"
     },
     "unloopChapter": {
         "message": "إلغاء تكرار الفصل"
@@ -314,6 +320,14 @@
         "message": "إغلاق إشعار التخطي",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "التصويت بالسلب",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "التصويت بالإيجاب",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "الفصل التالي",
         "description": "Keybind label"
@@ -387,6 +401,10 @@
     "skipped_to_category": {
         "message": "تم التخطي إلى {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "صوت على {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "تعطيل التخطي التلقائي"
@@ -721,6 +739,34 @@
     "category_preview_guideline3": {
         "message": "ليس للأقسام التي تضيف محتوى إضافي"
     },
+    "category_hook": {
+        "message": "الجذب/التحيات",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "مقاطعًا / إعلانات تشويقية للفيديو القادم, التحيات والودائع. لا ينبغي لهاته المقاطع أو الإعلانات تخطي الاستنتاجات أو المعلومات."
+    },
+    "category_hook_guideline1": {
+        "message": "مقاطعًا / إعلانات تشويقية للفيديو القادم"
+    },
+    "category_hook_guideline2": {
+        "message": "التحيات وأقسام الوادعات المرحِبّة بالمشاهدين"
+    },
+    "category_hook_guideline3": {
+        "message": "ليس للأقسام التي تضيف محتوى إضافي"
+    },
+    "category_filler": {
+        "message": "المتهمين/النكات"
+    },
+    "category_filler_description": {
+        "message": "مشاهد أو نكات غير مطلوبة لفهم المحتوى الرئيس للفيديو. وينبغي ألا يشمل ذلك الأجزاء التي تقدم تفاصيل السياق أو المعلومات الأساسية. هذه فئة عدوانية جداً تعني عندما لا تكون في مِزاج \"المتعة\"."
+    },
+    "category_filler_short": {
+        "message": "المتهمين"
+    },
+    "category_filler_guideline1": {
+        "message": "مشاهد أو نكات جانبية"
+    },
     "category_filler_guideline2": {
         "message": "تلهيات، خلف الكواليس، إعادة عرض مشاهد سابقة"
     },
@@ -808,6 +854,9 @@
     "autoSkipOnMusicVideos": {
         "message": "تخطي جميع الفقرات تلقائياً عندما يكون هناك فقرة لا موسيقية"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "التخطي التلقائي فقط على موقع music.youtube.com"
+    },
     "muteSegments": {
         "message": "السماح بالفقرات التي تكتم الصوت بدلاً من التخطي"
     },
@@ -832,6 +881,16 @@
     "skipOption": {
         "message": "خيار التخطي",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "فتح خيارات التخطي المتقدمة"
+    },
+    "advancedSkipNotSaved": {
+        "message": "خطأ في بناء الجملة: لم يتم حفظ خياراتك"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "آلية العمل",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "تمكين الخادم التجريبي"
@@ -987,6 +1046,9 @@
     "considerDonating": {
         "message": "ساعد في تمويل التطوير"
     },
+    "supportSponsorBlock": {
+        "message": "دعم عملي المتفرغ في \"SponsorBlock\""
+    },
     "hideDonationLink": {
         "message": "إخفاء رابط التبرع"
     },
@@ -1002,14 +1064,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "العديد من الميزات معطلة افتراضيا. إذا كنت ترغب في تخطي المقدمات أو المؤخرات أو استخدام Invidious أو إلخ.، يمكنك تفعيل هذه الميزات في الأسفل. يمكنك أيضًا إخفاء/إظهار عناصر واجهة المستخدم."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "آلية العمل"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "جميع الرُعاة يرسلهم مستخدمون مثلك. يمكنك رؤية قائمة الرعاة المقدمين في قاعدة البيانات عن طريق فتح النوافذ المنبثقة في أعلى يمين المتصفح الخاص بك."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "كلما تتخطى فقرة، ستحصل على إشعار. إذا بدا التوقيت خاطئا بإمكانك التصويت سلبيا عبر ضغط زر التصويت السلبي! يمكنك أيضا التصويت في المنبثق."
     },
     "Submitting": {
         "message": "تقديم"
     },
+    "helpPageSubmitting1": {
+        "message": "يمكن تقديم الشعار عن طريق النقر على شعار SponsorBlock في مشغّل الفيديو."
+    },
+    "helpPageSubmitting2": {
+        "message": "النقر على زر التشغيل يشير إلى بداية جزء والنقر على أيقونة الإيقاف يشير إلى النهاية. انقر فوق زر السهم للأعلى لفتح قائمة المشاركة حيث يمكنك التحقق من الفقرات الخاصة بك عن طريق معاينة وتحرير لتكون مثالية. والدقة مهمة، تحقق من قراءة المبادئ التوجيهية قبل المشاركة."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "أين ذهبت المشاركات؟"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "يتم وضع جميع المشاركات في قاعدة بيانات SponsorBlock التي يتم نشرها علنًا لأي شخص لاستخدامها وهي متاحة على"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "الشفرة المصدرية متاحة بحرية. لذلك، في حالت حدوث شيء لي فلن تذهب مساهماتك بلا جدوى."
+    },
+    "AdviceForSubmitting": {
+        "message": "نصائح للمشاركة"
     },
     "Credits": {
         "message": "الشكر و التقدير"
@@ -1282,6 +1365,9 @@
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
+    "onlyFormatCustomTitles": {
+        "message": "تنسيق العناوين المقدمة للمستخدم فقط"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "تكبير الحرف الأول لكل كلمة للعناوين غير الانكليزية"
     },
@@ -1398,6 +1484,18 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "إذا كنت ترغب دائما في معرفة ما إذا تغير عنوان/صورة مصغرة، قم بتفعيل هذ الخيار."
     },
+    "showOriginalOnHover": {
+        "message": "للتبديل بين التفاصيل المخصصة والتفاصيل الأصلية حين التمرير بالفأرة"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "للتبديل بين التفاصيل المخصصة والتفاصيل الأصلية حين التمرير بالفأرة على أي مكان في بطاقة الفيديو"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "سيؤدي هذا إلى تعطيل التشغيل التلقائي عند المشاهدة"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "إظهار عنوان مخصص حين التمرير بالفأرة إذا كان عنوان العرض غير الرسمي ظاهرًا"
+    },
     "showIconForFormattedTitles": {
         "message": "عرض زر \"إظهار الأصلي\" للعناوين المنسقة تلقائياً"
     },
@@ -1424,6 +1522,9 @@
     },
     "ShowModified": {
         "message": "إظهار التفاصيل المعدلة"
+    },
+    "ShowFormatted": {
+        "message": "إظهار التفاصيل المنسقة"
     },
     "FillerWarning": {
         "message": "تحذير: هذه فئة شرسة للغاية. على الأرجح سترجع في تخطي بعض الفقرات، أو تعطّل هذا الخيار في بعض الأحيان. تحذّر من أن العديد من الفيديوهات قد تم تخطي 50% أو اكثر منها! ومع ذلك، تذكر أنه لا تزال هناك إرشادات محددة يتعين اتباعها عند التقديم.",
@@ -1455,6 +1556,38 @@
     "tip5": {
         "message": "كبّر الاحرف كالجملة (للغات التي تحتوي على تكبير احرف)",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "التحقق من جميع الإرشادات للتقديم",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "عنواني مُنسّق كجملة",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "عنواني لا يُجيب عن سؤالًا ظاهرًا فالعنوان",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "العناوين يجب أن تصف ما في الفيديو, أو قصته بالمجمل. يجب أن تتأكد من أنك تابعت المقطع كاملًا لمعرفة ما هي القصة فعليًا بدلًا من الاعتماد على العنوان الأصلي الجاذب.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "عنواني لا يُلخص ولا يحرق بلا داعٍ",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "ليس القصد من العناوين أن تحل محل مشاهدة الفيديو بالكامل، ولكن بدلاً من ذلك تعني أن تعرف ما إذا كان يجب عليك النقر على الفيديو أو لا.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "عنواني لا يتحقق من صحة الفيديو, يسيء, أو ينتقد الفيديو أو صانعه",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "القصد من العناوين أن تكون من وجهة نظر أو جهة صانع المحتوى والفيديو. تقييم الفيديو أو التحقق الفيديو هو أمر خارج إطار عمل \"DeArrow\". العناوين ليست قسمًا للتعليقات.",
+        "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
         "message": "الكلمة المكتشفة: ",
