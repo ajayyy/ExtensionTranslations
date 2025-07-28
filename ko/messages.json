@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "최종 화면이 표시됐더라도, 콘텐츠가 포함되는 구간이 아니어야 함"
     },
+    "category_preview": {
+        "message": "미리보기/요약 구간"
+    },
     "category_preview_description": {
         "message": "이 구간은 동영상의 뒷부분에서 반복되는 현재 동영상 또는 시리즈의 다른 동영상에 나온 정보를 보여주는 클립 모음이 해당돼요."
     },
@@ -734,6 +737,22 @@
         "message": "이전 동영상을 요약해야 함"
     },
     "category_preview_guideline3": {
+        "message": "추가 콘텐츠가 있는 구간이 아니어야 함"
+    },
+    "category_hook": {
+        "message": "후킹/인사말",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "이 구간은 후속 편에 대한 내용이나, 인사말이 포함됐어요. 정보가 포함된 결론 부분은 여기에 해당하지 않아요."
+    },
+    "category_hook_guideline1": {
+        "message": "후속 편에 대한 내용이 있어야 함"
+    },
+    "category_hook_guideline2": {
+        "message": "시청자에게 인사말을 건네는 구간이어야 함"
+    },
+    "category_hook_guideline3": {
         "message": "추가 콘텐츠가 있는 구간이 아니어야 함"
     },
     "category_filler": {
