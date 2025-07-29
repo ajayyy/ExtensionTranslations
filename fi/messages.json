@@ -1901,7 +1901,7 @@
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Näytä kasuaalitilassa äänestettujen videoiden alkuperäiset pienoiskuvat",
+        "message": "Näytä kasuaalitilassa äänestettyjen videoiden alkuperäiset pienoiskuvat",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
@@ -1910,6 +1910,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Näytä kasuaalitilan kuvake vain kun mukautettu otsikko on saatavilla"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Älä muotoile kasuaalitilan otsikoita",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Avaa asetukset"
