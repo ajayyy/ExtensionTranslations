@@ -1896,6 +1896,10 @@
     "onlyShowCasualIconForCustom": {
         "message": "Only show casual mode icon when a custom title is available"
     },
+    "dontFormatCasualTitles": {
+        "message": "Don't format casual mode titles",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Open settings"
     }
