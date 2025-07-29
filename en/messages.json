@@ -725,8 +725,7 @@
         "message": "Don't include content, even if endcards are on screen"
     },
     "category_preview": {
-        "message": "Preview/Recap/Hook",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+        "message": "Preview/Recap"
     },
     "category_preview_description": {
         "message": "Collection of clips that show what is coming up in in this video or other videos in a series where all information is repeated later in the video."
@@ -738,6 +737,22 @@
         "message": "Recap of a previous video"
     },
     "category_preview_guideline3": {
+        "message": "Not for sections that add additional content"
+    },
+    "category_hook": {
+        "message": "Hook/Greetings",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Narrated trailers for the upcoming video, greetings and goodbyes. This should not skip conclusions with information."
+    },
+    "category_hook_guideline1": {
+        "message": "Narrated trailers for the upcoming video"
+    },
+    "category_hook_guideline2": {
+        "message": "Greetings and goodbye sections welcoming viewers"
+    },
+    "category_hook_guideline3": {
         "message": "Not for sections that add additional content"
     },
     "category_filler": {
@@ -1902,5 +1917,9 @@
     },
     "OpenSettings": {
         "message": "Open settings"
+    },
+    "hookNewFeature": {
+        "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

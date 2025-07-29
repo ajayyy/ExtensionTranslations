@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Nezahrňte obsah, aj keby už boli vidieť koncové karty"
     },
-    "category_preview": {
-        "message": "Náhľad/zhrnutie/návnada",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Zbierka klipov, ktoré ukazujú, čo nasleduje v tomto alebo ďalších videách zo série, kde sa potom všetky informácie opakujú."
     },

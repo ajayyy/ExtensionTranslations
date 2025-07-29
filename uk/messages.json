@@ -725,8 +725,7 @@
         "message": "Не включайте вміст, навіть якщо на екрані є кінцеві картки"
     },
     "category_preview": {
-        "message": "Прев'ю/Підсумок/Зачіпка",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+        "message": "Попередній перегляд/короткий зміст"
     },
     "category_preview_description": {
         "message": "Колекція кліпів, які показують, що відбувається в цьому відео або інших відео в серії, де вся інформація повторюється пізніше у відео."
@@ -738,6 +737,9 @@
         "message": "Підсумок попереднього відео"
     },
     "category_preview_guideline3": {
+        "message": "Не для розділів, які додають додатковий вміст"
+    },
+    "category_hook_guideline3": {
         "message": "Не для розділів, які додають додатковий вміст"
     },
     "category_filler": {

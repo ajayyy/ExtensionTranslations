@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Μη συμπερίληψη περιεχομένου, ακόμα και αν τα προτεινόμενα βίντεο βρίσκονται στην οθόνη"
     },
-    "category_preview": {
-        "message": "Προεπισκόπηση/Ανασκόπηση/Δέλεαρ",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Συλλογή από κλιπ που δείχνουν τι έρχεται σε αυτό το βίντεο ή άλλα βίντεο σε μια σειρά όπου όλες οι πληροφορίες επαναλαμβάνονται αργότερα στο βίντεο."
     },

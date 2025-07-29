@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Älä sisällytä sisältöä, vaikka loppukortit olisivatkin näytöllä"
     },
-    "category_preview": {
-        "message": "Esikatselu/Kertaus/Koukku",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Kokoelma leikkeitä, jotka kertovat mitä video sisältää tai sarjan muut videot sisältävät ja joiden kaikki informaatio toistuu videossa myöhemmin."
     },

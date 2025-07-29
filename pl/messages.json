@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Nie zawiera treści, nawet jeśli na ekranie są karty końcowe"
     },
-    "category_preview": {
-        "message": "Zapowiedź/Podsumowanie/Teaser",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Zbiór klipów pokazujących to, co pojawi się w tym filmie lub innych filmach w serii, w której wszystkie informacje są powtarzane później w filmie."
     },

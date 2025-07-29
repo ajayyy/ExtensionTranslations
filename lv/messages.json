@@ -22,6 +22,15 @@
     "Segments": {
         "message": "segmentu"
     },
+    "SegmentsCap": {
+        "message": "Segmenti"
+    },
+    "Chapters": {
+        "message": "Nodaļas"
+    },
+    "sponsorStart": {
+        "message": "Sākt Segmentu Tagad"
+    },
     "sponsorEnd": {
         "message": "Beigt segmentu"
     },
@@ -36,6 +45,9 @@
     },
     "success": {
         "message": "Izdevās!"
+    },
+    "voted": {
+        "message": "Nobalsots!"
     },
     "Username": {
         "message": "Lietotājvārds"

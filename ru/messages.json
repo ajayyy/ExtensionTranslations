@@ -724,10 +724,6 @@
     "category_outro_guideline1": {
         "message": "Не для сегментов с контентом, даже если на видео показываются конечные заставки"
     },
-    "category_preview": {
-        "message": "Предпросмотр / Пересказ / Завязка",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
-    },
     "category_preview_description": {
         "message": "Коллекция клипов, которые показывают, что происходит в этом видео или других эпизодах, все клипы позже повторяются в видео."
     },

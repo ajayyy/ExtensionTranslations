@@ -725,8 +725,7 @@
         "message": "Bitiş kartları ekranda olsa bile içerik eklemeyin"
     },
     "category_preview": {
-        "message": "Ön İzleme/Özet/İma",
-        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+        "message": "Ön İzleme/Özet"
     },
     "category_preview_description": {
         "message": "Bu videoda veya diğer videolarda neler olduğunu gösteren, videonun ilerleyen zamanında tüm bilgilerin tekrarlandığı bir dizi klip koleksiyonudur."
@@ -738,6 +737,22 @@
         "message": "Bir önceki videonun özeti"
     },
     "category_preview_guideline3": {
+        "message": "Ek içerik ekleyen bölümler için değil"
+    },
+    "category_hook": {
+        "message": "İma/Selamlama",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Gelecek video için anlatımlı fragmanlar, selamlaşmalar ve vedalaşmalar. Bunun bilgi içeren çıkarımları atlamaması gerekir."
+    },
+    "category_hook_guideline1": {
+        "message": "Gelecek video için anlatımlı fragmanlar"
+    },
+    "category_hook_guideline2": {
+        "message": "İzleyicileri karşılayan veya vedalaşan selamlaşma ifadeleri"
+    },
+    "category_hook_guideline3": {
         "message": "Ek içerik ekleyen bölümler için değil"
     },
     "category_filler": {
@@ -1063,6 +1078,9 @@
     },
     "helpPageSubmitting1": {
         "message": "Bildirmek için video oynatıcıdaki SponsorBlock düğmesini kullanabilirsiniz."
+    },
+    "helpPageSubmitting2": {
+        "message": "Oynatma simgesi bir kısmın başladığını ve durdurma simgesi kısmın bittiğini belirtir. Yukarı yönlü oka tıklamak, kısımları göndermeden önce düzenleyip görebileceğiniz ve uygun olduğunu düşündüğünüz kısımları göndermenizi sağlayan bir menüye yönlendirir. Hassas ve doğru olması önemlidir, katkıda bulunmadan önce yönergeleri okuduğunuza emin olunuz."
     },
     "helpPageCopyOfDatabase2": {
         "message": "Kaynak koduna serbestçe erişilebilir. Ben bir gün bu dünyada yalan olsam dahi, sizin gönderdiğiniz kısımlar kaybolmayacak."
