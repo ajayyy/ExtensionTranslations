@@ -1744,5 +1744,9 @@
     },
     "No": {
         "message": "No"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Non formattare i titoli casuali",
+        "description": "Option for casual mode in DeArrow"
     }
 }
