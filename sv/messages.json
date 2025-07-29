@@ -1911,6 +1911,10 @@
     "onlyShowCasualIconForCustom": {
         "message": "Visa endast ikonen för casualt läge när en anpassad titel är tillgänglig"
     },
+    "dontFormatCasualTitles": {
+        "message": "Formatera inte titlar i casualt läge",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Öppna inställningar"
     },
