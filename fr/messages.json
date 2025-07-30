@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "Émojis supprimés"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formater uniquement les titres envoyés par les utilisateurs"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Mettre en majuscule les mots pour les titres non-anglais"
     },
