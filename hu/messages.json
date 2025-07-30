@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Hangulatjelek eltávolítása"
     },
+    "formatCustomTitles": {
+        "message": "Felhasználók által beküldött címek formázása"
+    },
+    "formatOriginalTitles": {
+        "message": "Eredeti címek formázása"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Nagybetűs szavak nem angol címek esetén"
     },
@@ -1907,6 +1913,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Csak akkor mutassa az alkalmi mód ikonját, ha elérhető egy egyedi cím"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Ne formázzon alkalmi mód címeket",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Beállítások megnyitása"
