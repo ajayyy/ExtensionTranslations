@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "Hangulatjelek eltávolítása"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Csak felhasználók által beküldött címeket formázzon"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Nagybetűs szavak nem angol címek esetén"
     },
