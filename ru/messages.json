@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Убирать эмодзи"
     },
+    "formatCustomTitles": {
+        "message": "Форматировать предложенные названия"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматировать исходные названия"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Заглавные буквы для заголовков на языках, отличных от английского"
     },
@@ -1907,6 +1913,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Отображать значок обычного режима только при наличии предложенного названия"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Не форматировать названия обычного режима",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Открыть настройки"
