@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Nur eingereichte Titel formatieren"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Wörter für nicht-englische Titel großschreiben"
     },
