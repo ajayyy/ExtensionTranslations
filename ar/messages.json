@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
-    "onlyFormatCustomTitles": {
-        "message": "تنسيق العناوين المقدمة للمستخدم فقط"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "تكبير الحرف الأول لكل كلمة للعناوين غير الانكليزية"
     },
