@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Прибрати Емодзі"
     },
+    "formatCustomTitles": {
+        "message": "Форматувати заголовки, надіслані користувачем"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматувати оригінальні заголовки"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Слова З Великої Літери Для Неангломовних Заголовків"
     },
