@@ -1316,9 +1316,6 @@
     "shouldCleanEmojis": {
         "message": "移除表情符号"
     },
-    "onlyFormatCustomTitles": {
-        "message": "仅格式化用户提交的标题"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "将非英语标题的单词大写"
     },
