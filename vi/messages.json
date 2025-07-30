@@ -1346,9 +1346,6 @@
     "shouldCleanEmojis": {
         "message": "Xoá biểu tượng cảm xúc"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Chỉ định dạng các tiêu đề do người dùng gửi"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Viết hoa các Tiêu đề không phải là tiếng Anh"
     },
