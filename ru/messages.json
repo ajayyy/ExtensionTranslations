@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "Убирать эмодзи"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Форматировать только предложенные названия"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Заглавные буквы для заголовков на языках, отличных от английского"
     },
