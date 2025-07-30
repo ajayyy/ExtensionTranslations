@@ -1292,9 +1292,6 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Apenas formatar títulos enviados pelo utilizador"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Colocar palavras em maiúsculas em títulos que não sejam em inglês"
     },
