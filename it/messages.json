@@ -1300,6 +1300,12 @@
     "shouldCleanEmojis": {
         "message": "Rimuovi Emoji"
     },
+    "formatCustomTitles": {
+        "message": "Formato titoli inviati dall'utente"
+    },
+    "formatOriginalTitles": {
+        "message": "Formato titoli originali"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Rendi le parole maiuscole per i titoli non inglesi"
     },
