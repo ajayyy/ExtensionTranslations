@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
     },
+    "formatCustomTitles": {
+        "message": "Eingereichte Titel formatieren"
+    },
+    "formatOriginalTitles": {
+        "message": "Originaltitel formatieren"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Wörter für nicht-englische Titel großschreiben"
     },
