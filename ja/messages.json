@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
     },
-    "onlyFormatCustomTitles": {
-        "message": "ユーザーが登録した題名のみを整形"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "英語ではない題名も大文字化する"
     },
