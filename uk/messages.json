@@ -740,7 +740,7 @@
         "message": "Не для розділів, які додають додатковий вміст"
     },
     "category_hook": {
-        "message": "Зачіпка/Привітання",
+        "message": "Зачіпка/Вітання",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
@@ -1010,7 +1010,7 @@
         "message": "Цей сегмент великий. Якщо все відео на одну тему, тоді змініть значення з \"Пропустити\" на \"Повне відео\". Перегляньте довідку для додаткової інформації."
     },
     "categoryPillTitleText": {
-        "message": "Все це відео позначене цією категорією, воно є її уособленням, тож категорію неможливо відокремити"
+        "message": "Усе відео позначене як ця категорія і занадто тісно інтегроване, щоб можна було виокремити"
     },
     "chapterNameTooltipWarning": {
         "message": "Одна з назв ваших розділів схожа на категорію. Замість цього слід використовувати категорії, коли це можливо."
@@ -1023,7 +1023,7 @@
         "message": "Сховати назавжди"
     },
     "warningChatInfo": {
-        "message": "Ми помітили, що ви робите деякі типові помилки. Ми дуже цінуємо вашу роботу, але ми прагнемо до досконалості, тому навіть дуже маленькі помилки мають значення :)"
+        "message": "Ми помітили, що ви робите деякі типові помилки. Ми щиро цінуємо вашу роботу, але прагнемо до досконалості, тому навіть найменші помилки мають значення :)"
     },
     "questionButton": {
         "message": "У мене є запитання"
@@ -1035,7 +1035,7 @@
         "message": "Я розумію причину"
     },
     "warningError": {
-        "message": "Помилка при спробі підтвердити попередження:"
+        "message": "Помилка під час спроби підтвердити попередження:"
     },
     "deArrowMessageRecieved": {
         "message": "Ви отримали пораду від модератора"
@@ -1047,7 +1047,7 @@
         "message": "Допомогти з фінансуванням розробки"
     },
     "supportSponsorBlock": {
-        "message": "Підтримайте мою постійну роботу на SponsorBlock"
+        "message": "Підтримайте мою повну зайнятість над SponsorBlock"
     },
     "hideDonationLink": {
         "message": "Приховати посилання на пожертвування"
@@ -1068,7 +1068,7 @@
         "message": "Як це працює"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Всі спонсори надані такими ж користувачами, як і ви. Ви можете побачити список поданих спонсорів у базі даних, відкривши спливаюче вікно у верхньому правому куті вашого браузера."
+        "message": "Усі спонсори додаються користувачами, як і ви. Ви можете переглянути список доданих спонсорів у базі даних, відкривши спливаюче вікно у верхньому правому куті вашого браузера."
     },
     "helpPageHowSkippingWorks2": {
         "message": "Коли ви пропустите сегмент, ви отримаєте сповіщення. Якщо таймінг здається вам неправильним, проголосуйте \"проти\", натиснувши на \"палець униз\"! Ви також можете проголосувати у спливаючому вікні."
@@ -1134,7 +1134,7 @@
         "message": "Відтворити розділ"
     },
     "SponsorTimeEditScrollNewFeature": {
-        "message": "Використовуйте коліщатко миші, при наведенні курсора на поле редагування, щоб швидко змінити час. Для точного налаштування змін можна використовувати комбінації клавіш ctrl або shift."
+        "message": "Використовуйте коліщатко миші, навівши курсор на поле редагування, щоб швидко змінити час. Для точнішого налаштування можна використовувати комбінації з клавішами Ctrl або Shift."
     },
     "categoryPillNewFeature": {
         "message": "Новинка! Подивіться, коли відео повністю спонсороване або самореклама"
@@ -1538,15 +1538,15 @@
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Показати допомогу щодо керівництва",
+        "message": "Показати довідку з правил",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
-        "message": "Уникайте химерних виразів обличчя",
+        "message": "Уникайте перебільшених виразів обличчя",
         "description": "Referring to the thumbnail of a video"
     },
     "tip2": {
-        "message": "Подумайте масштабно, а не просто дайте відповідь на оригінальне запитання",
+        "message": "Думайте глобально, а не лише відповідайте на запитання з оригінальної назви",
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
@@ -1554,10 +1554,10 @@
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "Надайте достатньо інформації, щоб користувач міг зробити поінформований вибір"
+        "message": "Надайте достатньо інформації, щоб користувач міг зробити обґрунтований вибір перед натисканням"
     },
     "tip5": {
-        "message": "Пишіть першу букву великою, як в реченні",
+        "message": "Пишіть з великої літери, як у реченні",
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
@@ -1565,23 +1565,23 @@
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
-        "message": "Моя назва написана з великої літери, як речення",
+        "message": "Мій заголовок написаний з великої літери, як у реченні",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
-        "message": "Моя назва не просто відповідає на питання, поставлене в заголовку",
+        "message": "Мій заголовок не обмежується відповіддю лише на запитання з назви",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipSubTitle": {
-        "message": "Назви повинні описувати відео або історію в цілому. Ви повинні обов'язково переглянути повне відео, щоб знати, про що воно насправді, а не покладатися на оригінальну назву, що інтригує.",
+        "message": "Заголовки мають описувати відео або його сюжет загалом. Обов’язково перегляньте відео повністю, щоб зрозуміти, про що воно насправді, замість того, щоб покладатися лише на інтригуючу оригінальну назву.",
         "description": "Tip subtitle in DeArrow"
     },
     "noSummariesTipTitle": {
-        "message": "Моя назва не підсумовує висновок і не псує його без потреби",
+        "message": "Мій заголовок не підсумовує висновок і не розкриває зайвих деталей",
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Назви не призначені для того, щоб повністю замінити перегляд відео, а скоріше для того, щоб ви знали, чи варто натискати на них чи ні.",
+        "message": "Заголовки не призначені замінювати повний перегляд відео, а допомагають зрозуміти, чи варто його дивитися.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
@@ -1589,7 +1589,7 @@
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Назви мають бути подані з точки зору автора та відео. DeArrow не займається оцінюванням або перевіркою фактів щодо самого відео. Назви не є коментарями до відео.",
+        "message": "Заголовки мають відображати точку зору автора та зміст відео. Оцінка або перевірка фактів самого відео виходить за межі DeArrow. Заголовки не призначені для заміни коментарів.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1597,31 +1597,31 @@
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
     "DeArrowDiscussingWarning": {
-        "message": "Не використовуйте непотрібні дієслова на початку заголовку",
+        "message": "Не використовуйте зайві дієслова на початку заголовка",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
     },
     "DeArrowStartLowerCaseWarning": {
-        "message": "Почніть всі заголовки з великої літери. Назви повинні бути відформатовані як речення",
+        "message": "Починайте всі заголовки з великої літери. Заголовки мають бути оформлені як речення",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
-        "message": "Заголовки не повинні закінчуватися на '.'",
+        "message": "Заголовки не повинні закінчуватися крапкою",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
-        "message": "Не просто додавайте відповідь на питання в оригінальній назві. Назви повинні описувати відео або історію в цілому",
+        "message": "Не додавайте просто відповідь на запитання з оригінальної назви. Заголовки мають описувати відео або його сюжет загалом",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Назви не повинні перевіряти факти, висміювати чи критикувати відео або творця",
+        "message": "Заголовки не повинні перевіряти факти, висміювати чи критикувати відео чи його автора",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
-        "message": "Назви не повинні містити сенсаційних елементів з оригінальної назви",
+        "message": "Заголовки не повинні зберігати сенсаційні елементи з оригінальної назви",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
-        "message": "Назви не повинні містити емодзі",
+        "message": "Заголовки не повинні містити емодзі",
         "description": "A DeArrow automatic warning"
     },
     "resolveWarningFirst": {
@@ -1634,10 +1634,10 @@
         "message": "Як це працює"
     },
     "discordPromotion": {
-        "message": "Взяти участь у розробці або запропонувати нову ідею можна в {discord} або {matrix}"
+        "message": "Приєднуйтесь до спільноти, робіть пропозиції та допомагайте в {discord} або {matrix}"
     },
     "deArrowDonationText": {
-        "message": "Якщо вам подобається те, що я зробив, і ви хочете допомогти мені з грошима, ось посилання"
+        "message": "Якщо вам подобається моя робота і ви хочете підтримати мене фінансово, ось посилання"
     },
     "termsAgreement": {
         "message": "Використовуючи це розширення, ви погоджуєтеся з {privacy-policy} і {terms}"
@@ -1652,7 +1652,7 @@
         "message": "Ліцензії вихідного коду"
     },
     "defaultToOriginals": {
-        "message": "Показувати початкові відомості про відео"
+        "message": "Використовувати інформацію з оригінального відео за замовчуванням"
     },
     "whatDefaultToOriginals": {
         "message": "Показувати оригінальний заголовок та мініатюру за замовчуванням, але мати кнопку, при наведенні на яку з'являються користувацькі заголовки та мініатюри."
@@ -1701,11 +1701,11 @@
         "message": "Втомилися від клікбейту? Спробуйте моє нове розширення для покращення заголовків та мініатюр"
     },
     "DeArrowPromotionMessage3": {
-        "message": "Також перевірте DeArrow",
+        "message": "Тож ознайомтесь із DeArrow",
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Не подобається ця назва? Якщо ви надаєте перевагу нижньому заголовку, спробуйте перевірити властивість заміни в DeArrow.",
+        "message": "Не подобається цей заголовок? Якщо вам більше подобається заголовок нижче, спробуйте скористатися функцією заміни заголовка в DeArrow.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
@@ -1764,10 +1764,10 @@
         "message": "Логотип на основі Twemoji під ліцензією CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
-        "message": "SponsorBlock несумісний з розширенням \"Zoom до Fill\". Існує багато альтернатив для вас, що будуть працювати із застосунком належним чином."
+        "message": "SponsorBlock несумісний з розширенням «Zoom до Fill». Натомість ви можете скористатися багатьма альтернативами, які працюватимуть коректно."
     },
     "freeTrialStarted": {
-        "message": "Ваша безплатна пробна версія успішно розпочалася. Відвідайте YouTube, щоб протестувати її"
+        "message": "Ваш безплатний пробний період успішно розпочався. Відвідайте YouTube, щоб протестувати її"
     },
     "freeTrialEnded": {
         "message": "Пробний період завершився"
@@ -1779,7 +1779,7 @@
         "message": "Почати пробний період"
     },
     "freeAccessRequested": {
-        "message": "Ви успішно зареєструвались на отримання вільного доступу. Ви отримаєте сповіщення, коли доступ буде надано."
+        "message": "Ви успішно зареєструвались на отримання безплатного доступу. Ви отримаєте сповіщення, коли доступ буде надано."
     },
     "freeAccessComplete": {
         "message": "Вітаємо! Тепер у вас є безплатний доступ до DeArrow"
@@ -1800,7 +1800,7 @@
         "message": "Переглянути ліцензійний ключ"
     },
     "SharingIsCaring": {
-        "message": "Щедра душа меду не жаліє"
+        "message": "Ділитися — значить піклуватися"
     },
     "cleanPopup": {
         "message": "Спрощений вигляд спливаючого вікна списку сегментів"
@@ -1809,7 +1809,7 @@
         "message": "Приховати кнопки створення сегмента у спливаючому вікні"
     },
     "syncDisabledWarning": {
-        "message": "Попередження: сховище розширень було вимкнено у вашому браузері. Налаштування не будуть збережені, якщо ви спробуєте їх зберегти."
+        "message": "Увага: Сховище розширення вимкнено у вашому браузері. Налаштування не будуть збережені, якщо ви спробуєте їх зберегти."
     },
     "syncDisabledWarningDeArrow": {
         "message": "Derow не буде працювати без сховища."
@@ -1840,7 +1840,7 @@
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvLiveContentWarning": {
-        "message": "На YouTube TV SponsorBlock не сумісний з живим і нещодавно записаним вмістом. Якщо це останній запис, будь ласка, зачекайте кілька годин на оброблену версію запису, щоб отримати доступ.",
+        "message": "На YouTube TV SponsorBlock не сумісний з живим і нещодавно записаним контентом. Якщо це недавній запис, зачекайте кілька годин, поки стане доступна оброблена версія запису.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "yttvNoChannelWhitelist": {
@@ -1848,7 +1848,7 @@
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
-        "message": "Сподобався оригінал?",
+        "message": "Подобається оригінальний заголовок?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
     },
     "Yes": {
@@ -1890,7 +1890,7 @@
         "description": "Classic mode is a mode in DeArrow"
     },
     "ClassicModeDescription": {
-        "message": "Назви замінюються стандартизованими форматами на основі всіх відеороликів, де існує назва краудсорсингу."
+        "message": "Заголовки замінюються на стандартизовані формати відповідно до рекомендацій у всіх відео, де існує спільно створений заголовок."
     },
     "CasualMode": {
         "message": "Звичайний режим",
@@ -1915,14 +1915,14 @@
         "message": "Показувати значок звичайного режиму тільки коли наявна користувацька назва"
     },
     "dontFormatCasualTitles": {
-        "message": "Не форматувати звичайні режими заголовків",
+        "message": "Не форматувати заголовки у звичайному режимі",
         "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Відкрити налаштування"
     },
     "hookNewFeature": {
-        "message": "Примітка: Хук було переміщено з категорії Попередній перегляд/Рекап до нової категорії Хук/Привітання",
+        "message": "Примітка: Категорія «Зачіпка» була перенесена з категорії «Попередній огляд/Підсумок» до нової категорії «Зачіпка/Вітання»",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
