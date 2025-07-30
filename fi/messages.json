@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "Poista emojit"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Muotoile vain käyttäjälähtöiset otsikot"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Näytä englanninkielestä poikkeavien otsikoiden sanat isoilla alkukirjaimilla"
     },
