@@ -1911,6 +1911,10 @@
     "onlyShowCasualIconForCustom": {
         "message": "Показване на иконата за нормален режим само когато е налично персонализирано заглавие"
     },
+    "dontFormatCasualTitles": {
+        "message": "Без форматиране на заглавията в нормален режим",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Отваряне на настройките"
     },
