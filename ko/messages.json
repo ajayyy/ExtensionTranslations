@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "이모지 제거"
     },
+    "formatCustomTitles": {
+        "message": "사용자가 제출한 제목 형식"
+    },
+    "formatOriginalTitles": {
+        "message": "원본 제목 형식"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "영어 외 제목도 대문자 표기"
     },
