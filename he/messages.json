@@ -1312,9 +1312,6 @@
     "shouldCleanEmojis": {
         "message": "הסר אימוגים"
     },
-    "onlyFormatCustomTitles": {
-        "message": "עיצוב רק כותרות שהוגשו על ידי משתמשים"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "כתבו מילים באותיות גדולות עבור כותרות שאינן באנגלית"
     },
