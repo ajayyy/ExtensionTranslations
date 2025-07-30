@@ -1365,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "이모지 제거"
     },
-    "onlyFormatCustomTitles": {
-        "message": "사용자가 제출한 제목만 형식 맞춤"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "영어 외 제목도 대문자 표기"
     },
