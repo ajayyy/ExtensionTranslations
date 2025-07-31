@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Émojis supprimés"
     },
+    "formatCustomTitles": {
+        "message": "Formater les titres soumis par les utilisateurs"
+    },
+    "formatOriginalTitles": {
+        "message": "Formater les titres originaux"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Mettre en majuscule les mots pour les titres non-anglais"
     },
@@ -1907,6 +1913,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Afficher l'icône du mode relaxé uniquement lorsqu'un titre personnalisé est disponible"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Ne pas formater les titres en mode relaxé",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Ouvrir les paramètres"
