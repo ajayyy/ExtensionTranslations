@@ -211,7 +211,7 @@
         "message": "Permiteți contabilizarea omiterilor"
     },
     "whatViewTracking": {
-        "message": "Opțiunea permite colectarea informațiilor despre segmentele omise de dv., pentru a comunica autorilor lor cât de folositoare sunt. De asemenea, informațiile aceastea, împreună cu sistemul de votare sunt folosite pentru a înlătura și preveni conținutul irelevant. Bifarea opțiunii permite extensiei să informeze serverul nostru de fiecare dată când omiteți un segment. Sperăm să nu dezactivați opțiunea, pentru a păstra precizia contoarelor propunerilor. :)"
+        "message": "Opțiunea permite colectarea informațiilor despre segmentele omise de dv., pentru a comunica autorilor lor cât de folositoare sunt. De asemenea, informațiile acestea, împreună cu sistemul de votare sunt folosite pentru a înlătura și preveni conținutul irelevant. Bifarea opțiunii permite extensiei să informeze serverul nostru de fiecare dată când omiteți un segment. Sperăm să nu dezactivați opțiunea, pentru a păstra precizia contoarelor propunerilor. :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Permiteți contabilizarea omiterilor în file private"
