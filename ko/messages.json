@@ -1914,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "사용자 지정 제목을 사용할 수 있을 때만 캐주얼 모드 아이콘 표시"
     },
+    "dontFormatCasualTitles": {
+        "message": "캐주얼 모드에서 제목 형식 맞추지 않기",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "설정 열기"
+    },
+    "hookNewFeature": {
+        "message": "알림: 미리 보기/요약 카테고리가 후킹 카테고리로 변경됐어요",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
