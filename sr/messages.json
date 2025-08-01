@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Уклони емоџије"
     },
+    "formatCustomTitles": {
+        "message": "Форматирај наслове које су поднели корисници"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматирај оригиналне наслове"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Велика слова за наслове који нису на енглеском"
     },
@@ -1907,6 +1913,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Прикажи иконицу обичног режима само када је доступан прилагођени наслов"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Не форматирај наслове обичног режима",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Отвори подешавања"
