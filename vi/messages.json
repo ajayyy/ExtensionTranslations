@@ -744,7 +744,16 @@
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
-        "message": "Đoạn trailer có lời giới thiệu cho video sắp diễn ra, lời chào và tạm biệt. Không nên bỏ qua phần kết có chứa thông tin."
+        "message": "Đoạn trailer có lời giới thiệu cho video sắp diễn ra, chào hỏi và tạm biệt. Không nên bỏ qua phần kết có chứa thông tin."
+    },
+    "category_hook_guideline1": {
+        "message": "Đoạn trailer có lời giới thiệu cho video sắp diễn ra"
+    },
+    "category_hook_guideline2": {
+        "message": "Đoạn chào hỏi và tạm biệt người xem"
+    },
+    "category_hook_guideline3": {
+        "message": "Không dành cho phần có thêm nội dung"
     },
     "category_filler": {
         "message": "Lạc đề, nhảm nhí/Câu đùa"
@@ -1356,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Xoá biểu tượng cảm xúc"
     },
+    "formatCustomTitles": {
+        "message": "Định dạng tiêu đề do người dùng gửi"
+    },
+    "formatOriginalTitles": {
+        "message": "Định dạng tiêu đề gốc"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Viết hoa các Tiêu đề không phải là tiếng Anh"
     },
@@ -1899,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Chỉ hiện hình chế độ thoải mái khi một tiêu đề tự đặt có sẵn"
     },
+    "dontFormatCasualTitles": {
+        "message": "Không định dạng tiêu đề ở chế độ thông thường",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Mở cài đặt"
+    },
+    "hookNewFeature": {
+        "message": "Lưu ý: Phân đoạn Gây chú ý đã được chuyển từ mục Xem trước/Tóm tắt sang mục mới Gây chú ý/Lời chào",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
