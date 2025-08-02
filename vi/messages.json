@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Không bao gồm nội dung, ngay cả khi thẻ kết thúc ở trên màn hình"
     },
+    "category_preview": {
+        "message": "Xem trước/Tóm tắt"
+    },
     "category_preview_description": {
         "message": "Tập hợp các đoạn video ngắn cho thấy những gì sẽ xảy ra trong video hiện tại hoặc các video khác trong cùng một loạt video, trong đó tất cả thông tin được lặp lại ở phần sau của video."
     },
@@ -735,6 +738,13 @@
     },
     "category_preview_guideline3": {
         "message": "Không dành cho các phần thêm nội dung bổ sung"
+    },
+    "category_hook": {
+        "message": "Gây chú ý/Lời chào",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Đoạn trailer có lời giới thiệu cho video sắp diễn ra, lời chào và tạm biệt. Không nên bỏ qua phần kết có chứa thông tin."
     },
     "category_filler": {
         "message": "Lạc đề, nhảm nhí/Câu đùa"
