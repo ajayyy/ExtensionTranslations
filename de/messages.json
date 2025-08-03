@@ -1806,7 +1806,7 @@
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Verstecke die Knöpfe zur Segmenterstellung im Popup"
+        "message": "Verstecke Knöpfe zur Segmenterstellung im Popup"
     },
     "syncDisabledWarning": {
         "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
