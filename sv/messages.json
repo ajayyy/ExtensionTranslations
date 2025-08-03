@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Ta bort emojis"
     },
+    "formatCustomTitles": {
+        "message": "Formatera användarinskickade titlar"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatera originaltitlar"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Använd versaler för icke-engelska titlar"
     },
