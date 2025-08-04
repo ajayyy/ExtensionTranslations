@@ -739,6 +739,22 @@
     "category_preview_guideline3": {
         "message": "Non per sezioni che aggiungono contenuti in più"
     },
+    "category_hook": {
+        "message": "Gancio/Saluti",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Spezzone narrato per i prossimi video, saluti e conclusioni. Questo non dovrebbe saltare le conclusioni con le informazioni."
+    },
+    "category_hook_guideline1": {
+        "message": "Spezzoni narrati per il video in arrivo"
+    },
+    "category_hook_guideline2": {
+        "message": "Saluti e sezioni conclusive che attirano spettatori"
+    },
+    "category_hook_guideline3": {
+        "message": "Non per sezioni che aggiungono contenuti in più"
+    },
     "category_filler_guideline2": {
         "message": "Distrazioni, bloopers, replay"
     },
