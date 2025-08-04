@@ -755,6 +755,18 @@
     "category_hook_guideline3": {
         "message": "Non per sezioni che aggiungono contenuti in più"
     },
+    "category_filler": {
+        "message": "Intermezzi/Scherzi"
+    },
+    "category_filler_description": {
+        "message": "Scene aggiuntive o scherzi che non servono a far capire il contenuto principale del video. Ciò non dovrebbe includere segmenti che forniscano dettagli di contesto o di sfondo. Questa è una categoria molto aggressiva intesa per quando non sei nello stato d'animo adatto per vedere \"divertimento\"."
+    },
+    "category_filler_short": {
+        "message": "Intermezzi"
+    },
+    "category_filler_guideline1": {
+        "message": "Scene aggiuntive o scherzi"
+    },
     "category_filler_guideline2": {
         "message": "Distrazioni, bloopers, replay"
     },
@@ -842,6 +854,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Salta automaticamente tutti i segmenti quando c'è un segmento non musicale"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Salta automaticamente solo in music.youtube.com"
+    },
     "muteSegments": {
         "message": "Silenzia i segmenti invece di saltarli, quando possibile"
     },
@@ -866,6 +881,16 @@
     "skipOption": {
         "message": "Salta Opzione",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Apri opzioni salto avanzate"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Errore di sintassi: le tue opzioni non sono state salvate"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Come funziona questo",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Attiva Server di Beta Testing"
@@ -1021,6 +1046,9 @@
     "considerDonating": {
         "message": "Aiuta a finanziare lo sviluppo"
     },
+    "supportSponsorBlock": {
+        "message": "Sostieni il mio lavoro a tempo pieno per SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Nascondi Link di Donazione"
     },
@@ -1036,11 +1064,20 @@
     "helpPageFeatureDisclaimer": {
         "message": "Molte funzionalità sono disabilitate di default. Se vuoi saltare intro, outro, usare Invidious, etc. abilitale sotto. Puoi anche nascondere/mostrare gli elementi dell'UI."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Come funziona"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Tutti gli sponsor sono inviati da utenti come te. È possibile vedere l'elenco degli sponsor inviati nella banca dati aprendo la comparsa in alto a destra del browser."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Ogni volta che salti un segmento, sarai avvisato. Se il momento sembra sbagliato, vota in negativo cliccando downvote! Puoi anche votare nel popup."
     },
     "Submitting": {
         "message": "Inviando"
+    },
+    "helpPageSubmitting1": {
+        "message": "L'invio può essere fatto cliccando il logo SponsorBlock nel riproduttore video."
     },
     "helpPageCopyOfDatabase2": {
         "message": "Il codice sorgente è liberamente disponibile. Quindi, anche se mi succede qualcosa, i tuoi contributi non saranno persi."
