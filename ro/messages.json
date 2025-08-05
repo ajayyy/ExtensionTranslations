@@ -487,6 +487,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Sunteți pe cale să resetați lista de instanțe Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "Compatibilitatea cu Invidious nu este disponibilă pe Safari în acest moment din cauza unei erori în Safari. Când Apple rezolvă această eroare, va fi adăugată înapoi."
+    },
     "currentInstances": {
         "message": "Instanțele curente:"
     },
@@ -712,6 +715,9 @@
     "category_outro_guideline1": {
         "message": "Nu marcați conținut informativ, chiar dacă sunt suprapuse carduri de final"
     },
+    "category_preview": {
+        "message": "Previzualizare/Recapitulare"
+    },
     "category_preview_description": {
         "message": "Colecția de clipuri care arată ce se află în acest videoclip sau alte videoclipuri într-o serie în care toate informațiile sunt repetate mai târziu în videoclip."
     },
@@ -722,6 +728,9 @@
         "message": "Recapitulare din videoclipuri anterioare"
     },
     "category_preview_guideline3": {
+        "message": "Categoria exclude scene ce adaugă valoare conținutului"
+    },
+    "category_hook_guideline3": {
         "message": "Categoria exclude scene ce adaugă valoare conținutului"
     },
     "category_filler": {
