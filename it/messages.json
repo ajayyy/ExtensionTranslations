@@ -117,7 +117,7 @@
         "message": "Si è verificato un errore durante la connessione. Codice errore: "
     },
     "segmentsStillLoading": {
-        "message": "Segmenti in caricamento..."
+        "message": "Segmenti ancora in caricamento…"
     },
     "clearTimes": {
         "message": "Rimuovi i segmenti"
@@ -1079,8 +1079,20 @@
     "helpPageSubmitting1": {
         "message": "L'invio può essere fatto cliccando il logo SponsorBlock nel riproduttore video."
     },
+    "helpPageSubmitting2": {
+        "message": "Cliccare il pulsante play indica l'inizio di un segmento e cliccare l'icona stop indica la fine. Clicca il pulsante freccia su per aprire il menu' di invio dove è possibile verificare i segmenti vedendoli in anteprima e modificandoli per essere perfetti. La precisione è importante, assicurarsi di leggere le linee guida prima di inviare."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Dove vanno gli invii?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Tutti i contributi sono inseriti nella banca dati di SponsorBlock, che è pubblicamente rilasciato per chiunque da usare ed è disponibile a"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Il codice sorgente è liberamente disponibile. Quindi, anche se mi succede qualcosa, i tuoi contributi non saranno persi."
+    },
+    "AdviceForSubmitting": {
+        "message": "Consigli per l'invio"
     },
     "Credits": {
         "message": "Crediti"
@@ -1434,6 +1446,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Nascondi i titoli e le miniature durante il recupero dei dati dal server. Se disabilitato, i titoli e le anteprime potrebbero lampeggiare mentre cambiano."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Non mostrare i titoli tradotti di YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "A volte YouTube tradurrà automaticamente i titoli nella tua lingua madre. Questa opzione si applica solo quando non è disponibile un titolo fornito da altri."
+    },
     "onAllPages": {
         "message": "Su Tutte le Pagine",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1468,6 +1487,18 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
     },
+    "showOriginalOnHover": {
+        "message": "Scambia tra dettagli personalizzati e dettagli originali se puntato"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Scambia tra dettagli personalizzati e dettagli originali se puntato ovunque sulla scheda video"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Questo disabiliterà la riproduzione automatica se puntato"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Mostra titolo personalizzato se puntato (nel caso sia mostrato un titolo casuale)"
+    },
     "showIconForFormattedTitles": {
         "message": "Mostra il pulsante \"Mostra Originale\" per i titoli formattati automaticamente"
     },
@@ -1482,6 +1513,10 @@
         "message": "Miniature",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Voti casuali",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Errore"
     },
@@ -1490,6 +1525,9 @@
     },
     "ShowModified": {
         "message": "Mostra i dettagli modificati"
+    },
+    "ShowFormatted": {
+        "message": "Mostra dettagli formattati"
     },
     "FillerWarning": {
         "message": "Attenzione: Questa è una categoria incredibilmente aggressiva. Dovrai probabilmente annullare il salto di determinate cose o, talvolta, disabilitarlo. Sappi che, per molti video, oltre il 50% viene saltato! Tuttavia, ricorda che sono comunque presenti delle linee guida specifiche da seguire, per l'invio.",
@@ -1767,6 +1805,9 @@
     "cleanPopup": {
         "message": "Nascondi disordine nel popup dell'elenco dei segmenti"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Nascondi i pulsanti di creazione del segmento nella comparsa"
+    },
     "syncDisabledWarning": {
         "message": "Attenzione: L'archiviazione d'estensione è stata disabilitata sul tuo browser. Le impostazioni non saranno salvate se proverai a salvarle."
     },
@@ -1798,11 +1839,90 @@
         "message": "Sei sicuro che questa miniatura originale segue le linee guida di DeArrow? Se preferisci vedere le miniature originali in generale, considera di cambiare l'opzione per \"Quando non esiste nessuna miniatura presentata\" nelle impostazioni DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "Su YouTube TV, SponsorBlock non è compatibile con contenuti dal vivo e registrati di recente. Se questa è una registrazione recente, si prega di attendere alcune ore perché la versione elaborata della registrazione diventi disponibile.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "L'aggiunta alle eccezioni dei canali non è supportata in tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Ti piace il titolo originale?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Sì"
+    },
     "No": {
         "message": "No"
+    },
+    "votes": {
+        "message": "{0} voti",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} voto",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Divertente",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creativo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Spigliato",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descrittivo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Altro",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Modalità classica",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "I titoli sono sostituiti con formati standardizzati basati sulle linee guida per tutti i video nei quali esiste un titolo fornito da altri."
+    },
+    "CasualMode": {
+        "message": "Modalità casuale",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Mantieni i titoli originali quando descrivono il video abbastanza bene e sono intelligenti o divertenti.\nScegli quali categorie di titoli vuoi vedere.\nSarai in grado di votare se un titolo si inserisce in una categoria o no."
+    },
+    "minimumVotes": {
+        "message": "Voti minimi",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Mostra miniatura originale dei video votati in modalità casuale",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nuova funzionalità: modalità casuale",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Mostra l'icona della modalità casuale solo quando è disponibile un titolo personalizzato"
     },
     "dontFormatCasualTitles": {
         "message": "Non formattare i titoli casuali",
         "description": "Option for casual mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Apri impostazioni"
+    },
+    "hookNewFeature": {
+        "message": "Avviso: Hook è stato spostato dalla categoria Anteprima/Recap alla nuova categoria Gancio/Ringraziamenti",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
