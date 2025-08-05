@@ -1298,7 +1298,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Le Crowdsourcing fournit des titres et des miniatures détaillés et non racoleurs",
+        "message": "Des titres et des miniatures détaillés et non racoleurs, fournis par la communauté",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
