@@ -134,6 +134,9 @@
     "OpenSubmissionMenu": {
         "message": "Deschideți meniul de propuneri"
     },
+    "OpenCasualVoteMenu": {
+        "message": "Deschide meniul modului relaxat"
+    },
     "sortSegments": {
         "message": "Sortare Segmente"
     },
@@ -182,6 +185,12 @@
     },
     "copySegmentID": {
         "message": "Copiați ID-ul segmentului"
+    },
+    "loopChapter": {
+        "message": "Redă capitol în buclă"
+    },
+    "unloopChapter": {
+        "message": "Oprește redarea capitolului în buclă"
     },
     "hideThis": {
         "message": "Ascunde asta"
@@ -488,7 +497,7 @@
         "message": "Sunteți pe cale să resetați lista de instanțe Invidious"
     },
     "invidiousDisabledSafari": {
-        "message": "Compatibilitatea cu Invidious nu este disponibilă pe Safari în acest moment din cauza unei erori în Safari. Când Apple rezolvă această eroare, va fi adăugată înapoi."
+        "message": "Compatibilitatea cu Invidious nu este disponibilă pe Safari în acest moment din cauza unui bug în Safari. Când Apple rezolvă această eroare, va fi adăugată înapoi."
     },
     "currentInstances": {
         "message": "Instanțele curente:"
@@ -730,6 +739,19 @@
     "category_preview_guideline3": {
         "message": "Categoria exclude scene ce adaugă valoare conținutului"
     },
+    "category_hook": {
+        "message": "Laitmotiv/Salutări",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Trailere narate pentru videoclipul următor, salutări și urări de rămas bun. Acestea nu ar trebui să sară peste concluzii cu informații."
+    },
+    "category_hook_guideline1": {
+        "message": "Trailere narate pentru videoclipul următor"
+    },
+    "category_hook_guideline2": {
+        "message": "Secțiuni de salutări și urări de rămas bun pentru a întâmpina spectatorii"
+    },
     "category_hook_guideline3": {
         "message": "Categoria exclude scene ce adaugă valoare conținutului"
     },
@@ -859,6 +881,16 @@
     "skipOption": {
         "message": "Mod de omitere",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Deschide opțiuni avansate de omitere a conținutului"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Eroare de sintaxă: Opțiunile dvs. nu au fost salvate"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Cum funcționează asta",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Activează Serverul de Teste"
@@ -1014,6 +1046,9 @@
     "considerDonating": {
         "message": "Ajută la dezvoltarea fondului"
     },
+    "supportSponsorBlock": {
+        "message": "Susține-ți munca mea cu normă întreagă pe SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Nu afișați buton de donare în cadrul extensiei"
     },
@@ -1029,14 +1064,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Multe caracteristici sunt dezactivate în mod implicit. Dacă doriți să săriți peste introduceri, outros, utilizați Invidios, etc., activați-le mai jos. De asemenea, puteți ascunde/afișa elemente UI."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Cum funcționează"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Toți sponsorii sunt trimiși de utilizatori ca tine. Puteți vedea lista sponsorilor trimiși în baza de date deschizând fereastra pop-up în colțul din dreaptă sus a browser-ului dvs."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Ori de câte ori săriți peste un segment, veți primi observație. Dacă sincronizarea pare greșită votând în jos făcând clic pe vot! De asemenea, poți vota în pop-up."
     },
     "Submitting": {
         "message": "Se transmite"
     },
+    "helpPageSubmitting1": {
+        "message": "Pot fi trimise făcând clic pe logo-ul SponsorBlock din video player."
+    },
+    "helpPageSubmitting2": {
+        "message": "Făcând clic pe butonul de redare indică începutul unui segment și apăsând pe pictograma Stop indică sfârșitul. Faceţi clic pe butonul săgeată în sus pentru a deschide meniul de trimitere unde puteţi verifica segmentele prin previzualizarea şi editarea lor pentru a le face perfecte. Precizia este importantă, asiguraţi-vă că aţi citit instrucțiunile înainte de a le trimite."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Unde sunt segmentele trimise?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Toate segmentele trimise sunt puse in baza de date SponsorBlock, care este publicată pentru oricine să o folosească și este disponibilă la"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Codul sursă este disponibil gratuit. Deci, chiar dacă ceva mi se întâmplă mie, trimiterile tale nu sunt pierdute."
+    },
+    "AdviceForSubmitting": {
+        "message": "Sfaturi pentru trimiterea conținutului"
     },
     "Credits": {
         "message": "Contribuții"
@@ -1309,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "Eliminați Emoji"
     },
+    "formatCustomTitles": {
+        "message": "Formatează titlurile furnizate de utilizatori"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatează titlurile originale"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Aplcați majuscule de titlu nu doar în limba engleză"
     },
@@ -1317,6 +1379,10 @@
     },
     "thumbnailFallbackOption": {
         "message": "Când nu există nicio miniatură trimisă"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "La selectarea aleatorie, va utiliza datele SponsorBlock pentru a se asigura că nu este selectat un timp într-un segment promoțional.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
         "message": "Arată o captură de ecran dintr-un timp aleatoriu"
@@ -1365,8 +1431,76 @@
     "titleMaxLines": {
         "message": "Linii maxime pentru titlu"
     },
+    "titleMaxLinesDescription": {
+        "message": "Titlurile video vor fi distribuite pe atât de multe linii în sugestii."
+    },
     "thumbnailSaturationLevel": {
         "message": "Nivelul saturaţiei miniaturii"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Faceți miniaturile mai puțin vibrante prin reducerea culorii acestora"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Ascunde detaliile în timpul preluării"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Ascunde titlurile și miniaturile în timpul preluării datelor de pe server. Dacă este dezactivat, vei avea parte de pâlpâiri pe măsură ce titlurile și miniaturile se schimba."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Nu arăta titlurile traduse de YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "Uneori, YouTube va traduce automat titlurile în limba maternă. Această opțiune se aplică numai atunci când un titlu crowdsourced nu este disponibil."
+    },
+    "onAllPages": {
+        "message": "Pe Toate Paginile",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Pe Toate Paginile cu Excepția Paginilor Video",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Niciodată"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "Serviciul de generare a miniaturilor accelerează semnificativ generarea miniaturilor prin trimiterea unei cereri anonime cu ID-ul videoclipului către un server de la distantă. Miniatura va fi apoi generată sau trasă din cache dacă a fost deja generată."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "Dacă este folosit pe paginile video, acest lucru ar putea duce la scurgeri de videoclipuri nelistate pe acest server. Setarea la \"Pe Toate Paginile cu Excepția Paginilor Video\" va evita această problemă. O altă opțiune este să găzduiți propriul serviciu de generare a miniaturii."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "Dacă utilizarea serviciului de generare a miniaturilor este dezactivată, toate cererile vor utiliza un sistem de interogare de tip k-anonimity, care o face mai dificil pentru server să prevadă ce videoclipuri au fost preluate, și un serviciu local de generare a miniaturilor mai lent va fi folosit.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Codul Sursă al Serviciului de Generare de Miniaturi"
+    },
+    "moreAboutKAnonymity": {
+        "message": "Mai multe despre K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Afișează întotdeauna butonul \"Arată original\""
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "Dacă doriţi să ştiţi întotdeauna dacă un titlu/o miniatură s-a schimbat, activaţi acest lucru."
+    },
+    "showOriginalOnHover": {
+        "message": "Schimbă între detalii personalizate și detaliile originale la trecerea mouse-ului peste element"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Schimbă între detalii personalizate și detaliile originale la trecerea mouse-ului oriunde peste panoul video"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Acest lucru va dezactiva redarea automată când cursorul este peste element"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Arată titlul personalizat la trecerea mouse-ului peste element dacă este afișat un titlu în modul relaxat"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Afișează butonul \"Arată Original\" pentru titlurile auto-formatate"
     },
     "Enable": {
         "message": "Activare"
@@ -1379,22 +1513,416 @@
         "message": "Miniaturi",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Voturi pentru modul relaxat",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Eroare"
+    },
+    "ShowOriginal": {
+        "message": "Arată Detaliile Originale"
+    },
+    "ShowModified": {
+        "message": "Arată Detaliile Modificate"
+    },
+    "ShowFormatted": {
+        "message": "Arată Detaliile Formatate"
     },
     "FillerWarning": {
         "message": "Atenție: Aceasta este o categorie deosebit de agresivă. Probabil va trebui să anulați diverse omiteri sau chiar să dezactivați opțiunea. Multe videoclipuri vor avea omiteri de peste 50% din durata lor! Cu toate acestea, rețineți că există niște reguli clare pentru propuneri.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
+    "chatboxDescription": {
+        "message": "Alătură-te pe Discord sau pe Matrix pentru a rămâne în acest chat permanent",
+        "description": "Appears on the top of the integrated chatbox"
+    },
+    "showGuidelineHelp": {
+        "message": "Arată Ghidul de Ajutor",
+        "description": "Setting to show a summary of the guidelines on the submission page"
+    },
+    "tip1": {
+        "message": "Evitați expresiile faciale exagerate",
+        "description": "Referring to the thumbnail of a video"
+    },
+    "tip2": {
+        "message": "Gândiți-vă la imaginea de ansamblu, nu doar răspundeți la întrebarea titlului original",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Evitați descrierea reacțiilor la videoclip (\"șocant\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Furnizați suficiente informații pentru a face o alegere informată înainte de a face clic"
+    },
     "tip5": {
         "message": "Aplicați majuscule precum într-o propoziție",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Verificați toate instrucțiunile pentru a trimite",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Titlul meu este scris cu majusculă doar la început, ca o propoziție",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Titlul meu nu răspunde doar la o întrebare adresată în titlu",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Titlurile ar trebui să descrie videoclipul sau povestea în general. Ar trebui să te asiguri că ai vizionat întregul videoclip pentru a ști despre ce este de fapt în loc să te bazezi pe un titlu original intrigant.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Titlul meu nu rezumă o concluzie sau oferă spoilere fără rost",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Titlurile nu sunt menite să înlocuiască vizionarea video-ului complet, ci au rostul de a te informa dacă ar trebui să faci clic sau nu.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Titlul meu nu verifică fapte, să bată joc de, sau de a critică videoclipul sau creatorul",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Titlurile sunt menite să fie din perspectiva creatorului și a videoclipului. Evaluarea sau verificarea de fapte în sine a videoclipului este în afara obiectivului DeArrow. Titlurile nu sunt concepute ca o secțiune pentru comentarii.",
+        "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
         "message": "Cuvânt problemă: ",
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
+    "DeArrowDiscussingWarning": {
+        "message": "Nu folosi verbe inutile la începutul titlului",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Începe toate titlurile cu o majusculă. Titlurile ar trebui să fie formatate ca o propoziție",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Titlurile nu trebuie să se termine cu un '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Nu doar adăuga un răspuns la o întrebare în titlul original. Titlurile ar trebui să descrie videoclipul, sau povestea în general",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Titlul meu nu verifică fapte, să bată joc de, sau de a critică videoclipul sau creatorul",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Titlurile nu trebuie să păstreze elementele senzaționale din titlul original",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Titlurile nu trebuie să conțină emoji-uri",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "Trebuie să rezolvați avertismentul înainte de a trimite"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Notă: Setările SponsorBlock au fost importate automat!"
+    },
+    "howItWorks": {
+        "message": "Cum funcționează"
+    },
+    "discordPromotion": {
+        "message": "Veniți să contribuiți, faceți câteva sugestii și ajutați-ne pe {discord} sau pe {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "Dacă îți place ceea ce am făcut până acum și vrei să mă ajuți cu bani, iată un link"
+    },
+    "termsAgreement": {
+        "message": "Folosind această extensie, sunteți de acord cu {privacy-policy} și {terms}"
+    },
+    "privacyPolicy": {
+        "message": "Politica de Confidențialitate"
+    },
+    "termsOfUse": {
+        "message": "Termenii de Utilizare"
+    },
+    "openSourceLicenses": {
+        "message": "Licențe Open Source"
+    },
+    "defaultToOriginals": {
+        "message": "Utilizează informațiile originale implicit"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Afișați titlul original și miniatura în mod implicit, dar oferă un buton care apare la trecerea mouse-ului peste pentru a vedea titlurile și miniaturile personalizate."
+    },
+    "replaceTitles": {
+        "message": "Înlocuiește Titlurile"
+    },
+    "replaceThumbnails": {
+        "message": "Înlocuiește Miniaturile"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Folosește Titluri Crowdsourced"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "Dacă este dezactivat, va formata titlurile dar nu va folosi titlurile furnizate de comunitate",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "Ești sigur că vrei să ștergi această configurație?",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Configurație Nouă"
+    },
+    "DeleteConfiguration": {
+        "message": "Șterge Configurația"
+    },
+    "ChannelAllowlist": {
+        "message": "Setări care depind de canale"
+    },
+    "ConfigurationName": {
+        "message": "Denumirea Configurației"
+    },
+    "ChannelListInstructions": {
+        "message": "Introduceți orice canale pentru care doriți să aplicați această configurație în caseta de mai jos, separate prin linii noi. Atât ID-urile canalelor cât și numele de afișare sunt suportate. Numele de utilizatori cu @ nu sunt acceptate. Poți obține ID-urile canalelor făcând clic pe butonul Distribuire de pe pagina canalului. Pentru a ajunge la pagina despre utilizator, faceţi clic pe descrierea canalului care apare sub numele canalului lor pe pagina canalului.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "Nu există nicio configurație încă. Faceți clic pe butonul din partea de sus pentru a adăuga o configurație nouă.",
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Opriți clickbait prin înlocuirea titlurilor și a miniaturilor cu unele mai precise"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Te-ai săturat de clickbait? Vezi noua mea extensie pentru a îmbunătăți titlurile și miniaturile"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "De asemenea, aruncați o privire la DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Nu vă place acest titlu? Dacă preferați titlul de mai jos, aruncați o privire la funcția de înlocuire a titlurilor din DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
+    "RandomThumbnailExplanation": {
+        "message": "Această miniatură este aleasă dintr-o marcă temporală aleatorie pentru că nu există încă o trimitere pentru acest videoclip",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "Această miniatură este aleasă dintr-o marcă temporală aleatorie și titlul este auto-formatat deoarece nu există încă o trimitere pentru acest videoclip",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "Puteți modifica această valoare implicită mai jos",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titluri și {thumbnails} miniaturi au fost înlocuite de când ați instalat această extensie",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlePart": {
+        "message": "{titles} titlu ",
+        "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageTitlesPart": {
+        "message": "{titles} de titluri ",
+        "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "și {thumbnails} miniatură",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "și {thumbnails} de miniaturi",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} au fost înlocuite de când ați instalat această extensie",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Numără titlurile și miniaturile înlocuite"
+    },
+    "countReplacementsDescription": {
+        "message": "Folosit pentru a vă oferi statistici în pop-up.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Adaugă o listă de filtre pentru a bloca sondaje, mărfuri și alte elemente de pagină promoționale folosind yt-neuter"
+    },
+    "requiresUblock": {
+        "message": "Necesită uBlock Origin"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Ceva a mers prost cu detectarea ID-ul videoclipului. Te rugăm să încerci să reîmprospătezi pagina înainte de a trimite pentru a te asigura că este trimis pentru videoclipul corect. Dacă se întâmplă mult, te rugăm să trimiți un raport de eroare împreună cu alte extensii sau scripturi de utilizator pe care le-ai instalat prin GitHub, Discord sau Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo bazat pe Twemoji licențiat sub CC-BY 4.0"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock nu este compatibil cu extensia \"Zoom to Fill\". Există multe alternative pe care le puteți folosi și care vor funcționa corect."
+    },
+    "freeTrialStarted": {
+        "message": "Perioada dumneavoastră de probă gratuită a început cu succes. Vizitați YouTube pentru a o testa"
+    },
+    "freeTrialEnded": {
+        "message": "Perioada dumneavoastră de probă gratuită s-a terminat"
+    },
+    "freeTrialPrompt": {
+        "message": "Dacă doriţi să îl testaţi, puteţi începe o perioadă de probă gratuită cu butonul de mai jos."
+    },
+    "startFreeTrial": {
+        "message": "Începe perioada de probă gratuită"
+    },
+    "freeAccessRequested": {
+        "message": "Ați fost înregistrat cu succes pentru acces gratuit. Veți fi notificat când accesul gratuit este acordat."
+    },
+    "freeAccessComplete": {
+        "message": "Felicitări! Acum ai acces gratuit la DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow nu este activat"
+    },
+    "ActivateDeArrow": {
+        "message": "Activează DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow a fost activat cu succes"
+    },
+    "Close": {
+        "message": "Închide"
+    },
+    "ViewLicenseKey": {
+        "message": "Vizualizează Cheia de Licență"
+    },
+    "SharingIsCaring": {
+        "message": "Împărtășirea înseamnă grijă"
+    },
     "cleanPopup": {
         "message": "Simplificați meniul principal de informații"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Ascunde butoanele pentru crearea segmentului în fereastra pop-up"
+    },
+    "syncDisabledWarning": {
+        "message": "Atenție: Stocarea datelor extensiilor a fost dezactivată în browser-ul tău. Setările nu vor fi salvate dacă încerci să le salvezi."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow nu va funcţiona fără stocare."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "O puteți activa accesând about:config și setând valoarea \"webextensions.storage.sync.enabled\" la true."
+    },
+    "storageFull": {
+        "message": "Spațiul de stocare a extensiei este plin. Vă rugăm să ștergeți câteva segmente netrimise din opțiuni."
+    },
+    "previewSegmentRequired": {
+        "message": "Vă rugăm să previzualizați segmentele înainte de a le trimite. Puteți face acest lucru făcând clic pe butonul de previzualizare sau utilizând următoarea scurtătură:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Acționează ca VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Trimiterile nu pot fi acceptate în acest moment din acest navigator web deoarece YouTube pare să fi injectat unele reclame pe server pe care extensia nu le poate elimina. Vă rugăm să ne contactați dacă primiți această eroare."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow este dezactivată - faceți clic pentru activare",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Sunteți sigur că această miniatură originală urmează instrucțiunile DeArrow? Dacă preferați să vedeți miniaturile originale în general, luați în considerare modificarea opțiunii \"Când nu există nicio miniatură furnizată\" în setările DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "Pe YouTube TV, SponsorBlock nu este compatibil cu conținut în direct și recent înregistrat. Dacă aceasta este o înregistrare recentă, vă rugăm să așteptați câteva ore pentru ca versiunea procesată a înregistrării să devină disponibilă.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Lista de excepții a canalului nu este suportată pe tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Îți place titlul original?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Da"
+    },
+    "No": {
+        "message": "Nu"
+    },
+    "votes": {
+        "message": "{0} voturi",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} vot",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Amuzant",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creativ",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Inteligent",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptiv",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Altele",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Mod clasic",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titlurile sunt înlocuite cu formate standardizate bazat pe instrucțiunile pentru toate videoclipurile unde există un titlu crowdsourced."
+    },
+    "CasualMode": {
+        "message": "Mod relaxat",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Păstrați titlurile originale atunci când descriu videoclipul suficient de bine și sunt inteligente sau amuzante.\nAlegeți categoriile de titluri pe care doriți să le vedeți.\nVeți putea vota dacă un titlu se potrivește sau nu într-o categorie."
+    },
+    "minimumVotes": {
+        "message": "Numărul minim de voturi",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Arată miniatura originală pe videoclipurile votate în modul relaxat",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Funcție noua: modul relaxat",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Arată pictograma modului relaxat doar atunci când este disponibil un titlu personalizat"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Nu formata titlurile modului relaxat",
+        "description": "Option for casual mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Deschide setările"
+    },
+    "hookNewFeature": {
+        "message": "Atenție: Laitmotiv a fost mutat din categoria Previzualizare/Recapitulare în noua categorie Laitmotiv/Salutări",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
