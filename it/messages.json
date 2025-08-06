@@ -512,7 +512,7 @@
         "message": "Usa il salto manuale quando c'è un'etichetta completa per il video"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Per le persone che vogliono guardare il video senza interruzioni se è una sponsorizzazione o autopromozione."
+        "message": "Per le persone che vogliono guardare il video senza interruzioni se è sponsorizzato o auto-promozione."
     },
     "skipNoticeDuration": {
         "message": "Salta durata avviso (secondi):"
@@ -539,7 +539,7 @@
         "message": "Indirizzo del server di recupero dati"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
+        "message": "L'indirizzo usato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
     },
     "thumbnailCacheServerAddress": {
         "message": "Indirizzo del server cache delle miniature"
