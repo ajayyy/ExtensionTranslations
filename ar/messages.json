@@ -1365,6 +1365,12 @@
     "shouldCleanEmojis": {
         "message": "ازالة الإيموجي"
     },
+    "formatCustomTitles": {
+        "message": "تنسيق العناوين المقدمة من المستخدم"
+    },
+    "formatOriginalTitles": {
+        "message": "تنسيق العناوين الأصلية"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "تكبير الحرف الأول لكل كلمة للعناوين غير الانكليزية"
     },
@@ -1907,6 +1913,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "فقط أُظهر أيقونة الوضع العادي حينما عنوانًا مخصصًا يكون متاح"
+    },
+    "dontFormatCasualTitles": {
+        "message": "لا تُنسّق عناوين الوضع العادي",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "فتح الإعدادات"
