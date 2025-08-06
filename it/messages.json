@@ -132,7 +132,7 @@
         "message": "Icona Chiudi"
     },
     "OpenSubmissionMenu": {
-        "message": "Apri menu invio"
+        "message": "Apri menu' invio"
     },
     "OpenCasualVoteMenu": {
         "message": "Apri menu' modalità casuale"
@@ -256,10 +256,10 @@
         "message": "Mostra Avviso Dopo Aver Saltato un Segmento"
     },
     "showUpcomingNotice": {
-        "message": "Mostra Un Avviso Prima Dell'Inizio Di Un Segmento"
+        "message": "Mostra preavviso prima dell'inizio di un segmento"
     },
     "showCategoryGuidelines": {
-        "message": "Mostra Aiuto della Categoria"
+        "message": "Mostra aiuto della categoria"
     },
     "noticeVisibilityMode0": {
         "message": "Salta Avvisi di Dimensioni Complete"
@@ -305,7 +305,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Apri menu di invio",
+        "message": "Apri menu' di invio",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -321,11 +321,11 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Vota negativamente segmento",
+        "message": "Disprezza segmento",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Vota positivamente segmento",
+        "message": "Apprezza segmento",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -337,15 +337,15 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Attiva/disattiva DeArrow",
+        "message": "Abilita/disabilita DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Apri menù di invio",
+        "message": "Apri menu' di invio",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
-        "message": "Seleziona un tasto digitandolo e scegli qualsiasi tasto modificatore che desideri utilizzare."
+        "message": "Seleziona un tasto digitandolo e scegli qualsiasi combinazione modificatrice che desideri usare."
     },
     "0": {
         "message": "Timeout della connessione. Controlla la tua connessione a Internet. Se internet sta funzionando, il server è probabilmente sovraccarico oppure giù."
@@ -387,7 +387,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
-        "message": "Prossimo {0}",
+        "message": "In arrivo {0}",
         "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
@@ -451,16 +451,16 @@
         "message": "Controlla status.sponsor.ajay.app per lo stato del server."
     },
     "changeUserID": {
-        "message": "Importa/Esporta il Tuo UserID Privato"
+        "message": "Importa/Esporta il tuo UserID privato"
     },
     "whatChangeUserID": {
         "message": "Questo dovrebbe esser mantenuto privato. È come una password e non dovrebbe esser condiviso con nessuno. Se qualcuno lo possiede, può impersonarti. Se stai cercando il tuo userID pubblico, clicca l'icona degli appunti nel popup."
     },
     "setUserID": {
-        "message": "Imposta UserID Privato"
+        "message": "Imposta UserID privato"
     },
     "userIDChangeWarning": {
-        "message": "Attenzione: La modifica dell'UserID Privato è permanente. Sei sicuro di volerlo fare? Assicurati di effettuare il backup di quello precedente."
+        "message": "Avviso: la modifica dell'UserID privato è permanente. Sei sicuro di volerlo fare? Assicurati di effettuare il backup di quello precedente."
     },
     "createdBy": {
         "message": "Creato da"
@@ -497,7 +497,7 @@
         "message": "Stai per reimpostare la lista di istanze di Invidious"
     },
     "invidiousDisabledSafari": {
-        "message": "Al momento il supporto Invidious non è disponibile su Safari a causa di un difetto in Safari. Quando Apple correggerà il difetto, sarà aggiunto di nuovo."
+        "message": "Al momento il supporto Invidious non è disponibile in Safari a causa di un difetto in Safari. Quando Apple correggerà il difetto, sarà aggiunto di nuovo."
     },
     "currentInstances": {
         "message": "Istanze Attuali:"
@@ -509,7 +509,7 @@
         "message": "I segmenti più brevi del valore impostato non verranno saltati o visualizzati nel lettore."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Usa il salto manuale quando c'è un'etichetta per il video completo"
+        "message": "Usa il salto manuale quando c'è un'etichetta completa per il video"
     },
     "whatManualSkipOnFullVideo": {
         "message": "Per le persone che vogliono guardare il video senza interruzioni se è una sponsorizzazione o autopromozione."
