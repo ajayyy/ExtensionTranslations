@@ -664,19 +664,19 @@
         "message": "Donazioni, abbonamenti e merchandise personalizzato"
     },
     "category_selfpromo_guideline2": {
-        "message": "Shoutout non pagati che non aggiungono nulla al video"
+        "message": "Annunci gratuiti che non aggiungono nulla al video"
     },
     "category_selfpromo_guideline3": {
-        "message": "Non per prodotti aziendali e merchandise"
+        "message": "Non per prodotti aziendali e merci"
     },
     "category_exclusive_access": {
         "message": "Accesso Esclusivo"
     },
     "category_exclusive_access_description": {
-        "message": "Solo per etichettare interi video. Usato quando un video mostra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o a cui si ha avuto un accesso sovvenzionato."
+        "message": "Solo per etichettare interi video. Usato quando un video illustra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o al quale si ha avuto un accesso sovvenzionato."
     },
     "category_exclusive_access_pill": {
-        "message": "Questo video mostra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o a cui si ha avuto un accesso sovvenzionato",
+        "message": "Questo video illustra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o al quale si ha avuto un accesso sovvenzionato",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
