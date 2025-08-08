@@ -689,10 +689,10 @@
         "message": "Quando nel punto centrale del contenuto è presente un breve promemoria per like, iscrizione o follow. Se dovesse risultare esteso o riguardante qualcosa di specifico, potrebbe essere auto-promozione."
     },
     "category_interaction_guideline1": {
-        "message": "Brevi inviti a mettere mi piace, follow o iscriversi"
+        "message": "Brevi promemoria per apprezzare, seguire o iscriversi"
     },
     "category_interaction_guideline2": {
-        "message": "Include inviti indiretti a commentare"
+        "message": "Include promemoria per commentare"
     },
     "category_interaction_guideline3": {
         "message": "Non per promozione generale, solo inviti all'interazione"
@@ -710,7 +710,7 @@
         "message": "Intermezzo"
     },
     "category_intro_guideline1": {
-        "message": "Sezione senza contenuto effettivo"
+        "message": "Intervallo senza contenuto effettivo"
     },
     "category_intro_guideline2": {
         "message": "Non per transizioni con informazioni"
