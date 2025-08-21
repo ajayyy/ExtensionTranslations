@@ -1026,14 +1026,26 @@
     "helpPageFeatureDisclaimer": {
         "message": "Banyak fitur yang dinonaktifkan secara bawaan. Jika Anda ingin melewati intro, outro, mengunakan Invidious, dll, aktifkan mereka dibawah ini. Anda juga bisa menyembunyikan/menampilkan elemen UI."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Cara kerja"
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Kapanpun Anda melewati segmen, Anda akan mendapatkan pemberitahuan. Jika pengaturan waktu terlihat salah tolak dengan mengklik jempol bawah! Anda juga dapat memilih dalam popup."
     },
     "Submitting": {
         "message": "Mengajukan"
     },
+    "helpPageCopyOfDatabase": {
+        "message": "Ke mana kiriman dikirim?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Semua pengajuan dimasukkan ke basis data SponsorBlock, yang dirilis secara publik untuk digunakan oleh siapa saja dan tersedia di"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Sumber kode tersedia secara bebas. Jadi, jika sesuatu terjadi pada saya, pengajuan kamu tidak akan hilang."
+    },
+    "AdviceForSubmitting": {
+        "message": "Petunjuk untuk pengajuan"
     },
     "Credits": {
         "message": "Kredit"
@@ -1305,6 +1317,9 @@
     },
     "shouldCleanEmojis": {
         "message": "Hapus Emoji"
+    },
+    "formatOriginalTitles": {
+        "message": "Format judul asli"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Buat Judul Kapital Untuk Judul Non-Inggris"

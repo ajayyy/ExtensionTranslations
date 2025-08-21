@@ -28,6 +28,15 @@
     "Chapters": {
         "message": "Nodaļas"
     },
+    "Loading": {
+        "message": "Ielādē..."
+    },
+    "Hide": {
+        "message": "Nekad Nerādīt"
+    },
+    "unskip": {
+        "message": "Atcelt izlaišanu"
+    },
     "sponsorStart": {
         "message": "Sākt Segmentu Tagad"
     },
@@ -49,8 +58,20 @@
     "voted": {
         "message": "Nobalsots!"
     },
+    "segmentsStillLoading": {
+        "message": "Segmenti joprojām ielādējas..."
+    },
+    "recordTimesDescription": {
+        "message": "Iesniegt"
+    },
     "Username": {
         "message": "Lietotājvārds"
+    },
+    "setUsername": {
+        "message": "Iestatīt Lietotājvārdu"
+    },
+    "copyPublicID": {
+        "message": "Kopēt publisko UserID"
     },
     "website": {
         "message": "Tīmekļa vietne",

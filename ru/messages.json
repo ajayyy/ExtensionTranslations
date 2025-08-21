@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Не для сегментов с контентом, даже если на видео показываются конечные заставки"
     },
+    "category_preview": {
+        "message": "Предпросмотр/краткое содержание"
+    },
     "category_preview_description": {
         "message": "Коллекция клипов, которые показывают, что происходит в этом видео или других эпизодах, все клипы позже повторяются в видео."
     },
@@ -734,6 +737,22 @@
         "message": "Пересказ предыдущего видео"
     },
     "category_preview_guideline3": {
+        "message": "Не для сегментов с дополнительным контентом"
+    },
+    "category_hook": {
+        "message": "Завязка/приветствие",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Трейлеры к предстоящему видео, приветствия и прощания. Не включает в себя выводы, содержащие информацию."
+    },
+    "category_hook_guideline1": {
+        "message": "Трейлеры к предстоящему видео"
+    },
+    "category_hook_guideline2": {
+        "message": "Сегменты видео с приветствиями и прощаниями"
+    },
+    "category_hook_guideline3": {
         "message": "Не для сегментов с дополнительным контентом"
     },
     "category_filler": {
@@ -1346,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Убирать эмодзи"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Форматировать только предложенные названия"
+    "formatCustomTitles": {
+        "message": "Форматировать предложенные названия"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматировать исходные названия"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Заглавные буквы для заголовков на языках, отличных от английского"
@@ -1892,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Отображать значок обычного режима только при наличии предложенного названия"
     },
+    "dontFormatCasualTitles": {
+        "message": "Не форматировать названия обычного режима",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Открыть настройки"
+    },
+    "hookNewFeature": {
+        "message": "Внимание: Завязка была перенесена из категории «Предпросмотр/краткое содержание» в новую категорию «Завязка/приветствие»",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

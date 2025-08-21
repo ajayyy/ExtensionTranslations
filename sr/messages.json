@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Не укључује садржај, чак и ако су завршне картице на екрану"
     },
+    "category_preview": {
+        "message": "Преглед/Рекапитулација"
+    },
     "category_preview_description": {
         "message": "Колекција клипова који показују шта се дешава у овом видео снимку или другим видео снимцима у серији, где се све информације понављају касније у видео снимку."
     },
@@ -735,6 +738,22 @@
     },
     "category_preview_guideline3": {
         "message": "Није за сегменте који додају додатни садржај"
+    },
+    "category_hook": {
+        "message": "Најава/Поздрави",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Наративни трејлери за предстојећи видео снимак, поздрави и опроштаји. Не би требало да се прескачу закључци са информацијама."
+    },
+    "category_hook_guideline1": {
+        "message": "Наративни трејлери за предстојећи видео снимак"
+    },
+    "category_hook_guideline2": {
+        "message": "Поздравни и опроштајни одељци који дочекују гледаоце"
+    },
+    "category_hook_guideline3": {
+        "message": "Није за одељке који додају додатни садржај"
     },
     "category_filler": {
         "message": "Попуњавања/Шале"
@@ -1346,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Уклони емоџије"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Форматирај само наслове које су поднели корисници"
+    "formatCustomTitles": {
+        "message": "Форматирај наслове које су поднели корисници"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматирај оригиналне наслове"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Велика слова за наслове који нису на енглеском"
@@ -1892,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Прикажи иконицу обичног режима само када је доступан прилагођени наслов"
     },
+    "dontFormatCasualTitles": {
+        "message": "Не форматирај наслове обичног режима",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Отвори подешавања"
+    },
+    "hookNewFeature": {
+        "message": "Обавештење: Најава је премештена из категорије Преглед/Рекапитулација у нову категорију Најава/Поздрави",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

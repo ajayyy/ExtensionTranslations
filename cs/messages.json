@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Nezahrnuje obsah, i když jsou na obrazovce závěrečné karty"
     },
+    "category_preview": {
+        "message": "Náhled / shrnutí"
+    },
     "category_preview_description": {
         "message": "Sbírka klipů, které zobrazují, co se objeví v tomto videu nebo v jiných videích v sérii, kdy jsou všechny informace zopakovány později ve videu."
     },
@@ -734,6 +737,22 @@
         "message": "Shrnutí předchozího videa"
     },
     "category_preview_guideline3": {
+        "message": "Není pro sekce, které přidávají další obsah"
+    },
+    "category_hook": {
+        "message": "Zaujetí / pozdrav",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Komentované upoutávky na nadcházející video, pozdravy a rozloučení. Toto by nemělo přeskakovat závěry s informacemi."
+    },
+    "category_hook_guideline1": {
+        "message": "Komentované upoutávky na nadcházející video"
+    },
+    "category_hook_guideline2": {
+        "message": "Sekce pozdravů a rozloučení vítající diváky"
+    },
+    "category_hook_guideline3": {
         "message": "Není pro sekce, které přidávají další obsah"
     },
     "category_filler": {
@@ -1346,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Odebrat smajlíky"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formátovat pouze názvy odeslané uživateli"
+    "formatCustomTitles": {
+        "message": "Formátovat názvy odeslané uživateli"
+    },
+    "formatOriginalTitles": {
+        "message": "Formátovat původní názvy"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Velká písmena u neanglických názvů"
@@ -1892,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Zobrazit ikonu normálního režimu pouze, pokud je dostupný vlastní název"
     },
+    "dontFormatCasualTitles": {
+        "message": "Neformátovat názvy normálního režimu",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Otevřít nastavení"
+    },
+    "hookNewFeature": {
+        "message": "Upozornění: zaujetí bylo přesunuto z kategorie Náhled / shrnutí do nové kategorie Zaujetí / pozdrav",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
