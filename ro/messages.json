@@ -205,7 +205,7 @@
         "message": "Opțiunea adaugă butoane în playerul YouTube care permit gestionarea segmentelor."
     },
     "showSkipButton": {
-        "message": "Afișați butonul de redare de la Punct de interes în playerul YouTube"
+        "message": "Afișați butonul de redare de la Punct culminant în playerul YouTube"
     },
     "showInfoButton": {
         "message": "Afișați butonul principal de informații în playerul YouTube"
@@ -725,7 +725,7 @@
         "message": "Nu marcați conținut informativ, chiar dacă sunt suprapuse carduri de final"
     },
     "category_preview": {
-        "message": "Previzualizare/Recapitulare"
+        "message": "Previzualizare / Recapitulare"
     },
     "category_preview_description": {
         "message": "Colecția de clipuri care arată ce se află în acest videoclip sau alte videoclipuri într-o serie în care toate informațiile sunt repetate mai târziu în videoclip."
@@ -740,7 +740,7 @@
         "message": "Categoria exclude scene ce adaugă valoare conținutului"
     },
     "category_hook": {
-        "message": "Laitmotiv/Salutări",
+        "message": "Laitmotiv / Salutări",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
@@ -789,7 +789,7 @@
         "message": "Scene non-muzicale dintr-un spectacol în direct"
     },
     "category_poi_highlight": {
-        "message": "Punct de interes"
+        "message": "Punct culminant"
     },
     "category_poi_highlight_description": {
         "message": "Partea de interes major din cadrul videoclipului, indicată și prin comentarii de forma \"Videoclipul începe la momentul X\"."
@@ -1922,7 +1922,7 @@
         "message": "Deschide setările"
     },
     "hookNewFeature": {
-        "message": "Atenție: Laitmotiv a fost mutat din categoria Previzualizare/Recapitulare în noua categorie Laitmotiv/Salutări",
+        "message": "Atenție: Subcategoria „Laitmotiv“ a fost mutată în noua categorie „Laitmotiv / Salutări“",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
