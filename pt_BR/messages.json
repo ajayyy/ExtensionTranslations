@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
+    "category_preview": {
+        "message": "Prévia/Recapitulação"
+    },
     "category_preview_description": {
         "message": "Coleção de clipes que mostram o que está por vir neste vídeo ou em outros vídeos em uma série onde todas as informações são repetidas mais tarde no vídeo."
     },
@@ -734,6 +737,22 @@
         "message": "Recapitulação de um vídeo anterior"
     },
     "category_preview_guideline3": {
+        "message": "Não é para seções que adicionam conteúdo adicional"
+    },
+    "category_hook": {
+        "message": "Gancho/Saudações",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Autopromoções Narradas para o próximo vídeo, saudações e despedidas. Isso não deve ignorar conclusões com informação."
+    },
+    "category_hook_guideline1": {
+        "message": "Autopromoções Narradas para o próximo vídeo"
+    },
+    "category_hook_guideline2": {
+        "message": "Saudações e seções de despedida acolhendo espectadores"
+    },
+    "category_hook_guideline3": {
         "message": "Não é para seções que adicionam conteúdo adicional"
     },
     "category_filler": {
@@ -1027,6 +1046,9 @@
     "considerDonating": {
         "message": "Ajude a financiar o desenvolvimento"
     },
+    "supportSponsorBlock": {
+        "message": "Me ajude com o meu trabalho em tempo integral no SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Ocultar o link de doação"
     },
@@ -1042,14 +1064,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Muitos recursos são desativados por padrão. Se você deseja pular introduções, encerramentos, usar o Invidious, entre outros, ative as opções abaixo. Você também pode ocultar/mostrar elementos da interface."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Como isso funciona"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Todos os patrocinadores são submetidos por usuários como você. Você pode ver a lista de patrocinadores apresentados na base de dados, abrindo o popup no canto superior direito do seu navegador."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Sempre que você pular um segmento, você receberá um aviso. Se o tempo estiver errado vote contra clicando no voto negativo! Você também pode votar no pop-up."
     },
     "Submitting": {
         "message": "Enviando"
     },
+    "helpPageSubmitting1": {
+        "message": "O envio pode ser feito clicando no logotipo do SponsorBlock no reprodutor de vídeo."
+    },
+    "helpPageSubmitting2": {
+        "message": "Clicando no botão reproduzir indicará o início de um segmento e clicando no ícone de parar indicará o fim daquele segmento. Clique no botão de seta para cima para abrir o menu de submissão onde você pode verificar seus segmentos pré-visualizando-os e editando-os para ficarem perfeitos. A precisão é importante, certifique-se de ler as orientações antes de enviar para o Servidor."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Para onde vão os envios?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Todas as submissões são colocadas no banco de dados do  SponsorBlock, que é divulgada publicamente para qualquer um usar e está disponível em"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "O código-fonte está disponível gratuitamente. Então, mesmo que algo aconteça comigo, seus envios não estarão perdidos."
+    },
+    "AdviceForSubmitting": {
+        "message": "Conselhos para Envios"
     },
     "Credits": {
         "message": "Créditos"
@@ -1321,6 +1364,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Remover emojis"
+    },
+    "formatCustomTitles": {
+        "message": "Formato títulos enviados pelo usuário"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatar títulos originais"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Palavras em maiúsculas para títulos não ingleses"
@@ -1756,6 +1805,9 @@
     "cleanPopup": {
         "message": "Esconder desordem da lista de segmentos no popup"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Ocultar botões de criação do segmento no popup"
+    },
     "syncDisabledWarning": {
         "message": "Aviso: O armazenamento da extensão foi desativado no seu navegador. As configurações não serão salvas se você tentar salvá-las."
     },
@@ -1862,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Mostrar apenas o ícone do modo casual quando um título personalizado estiver disponível"
     },
+    "dontFormatCasualTitles": {
+        "message": "Não formatar títulos do modo casual",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Abrir configurações"
+    },
+    "hookNewFeature": {
+        "message": "Aviso: O gancho foi movido da categoria Pré-visualização/Recapitulação para a nova categoria de Gancho/Saudações",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
