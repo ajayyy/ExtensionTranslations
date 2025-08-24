@@ -1744,6 +1744,9 @@
     "cleanPopup": {
         "message": "Esconder desordem da lista de segmentos no popup"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Ocultar botões de criação do segmento no popup"
+    },
     "syncDisabledWarning": {
         "message": "Aviso: o armazenamento da extensão foi desativado no seu navegador. As definições não serão guardadas se tentar gravá-las."
     },
