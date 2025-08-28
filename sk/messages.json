@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Nezahrňte obsah, aj keby už boli vidieť koncové karty"
     },
+    "category_preview": {
+        "message": "Náhľad / zhrnutie"
+    },
     "category_preview_description": {
         "message": "Zbierka klipov, ktoré ukazujú, čo nasleduje v tomto alebo ďalších videách zo série, kde sa potom všetky informácie opakujú."
     },
@@ -735,6 +738,9 @@
     },
     "category_preview_guideline3": {
         "message": "Nie pre sekcie, ktoré majú dodatočný obsah"
+    },
+    "category_hook_guideline3": {
+        "message": "Nie je určené pre sekcie, ktoré pridávajú ďalší obsah"
     },
     "category_filler": {
         "message": "Mimo tému/vtipy"
@@ -1345,6 +1351,9 @@
     },
     "shouldCleanEmojis": {
         "message": "Odstrániť emoji"
+    },
+    "formatOriginalTitles": {
+        "message": "Formátovať pôvodné názvy"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Zobraziť názvy v inom ako anglickom jazyku s veľkými počiatočnými písmenami"

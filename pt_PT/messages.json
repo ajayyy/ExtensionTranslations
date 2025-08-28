@@ -186,6 +186,9 @@
     "copySegmentID": {
         "message": "Copiar ID do segmento"
     },
+    "loopChapter": {
+        "message": "Capítulo em iteração"
+    },
     "hideThis": {
         "message": "Esconder isto"
     },
@@ -1018,8 +1021,17 @@
     "Submitting": {
         "message": "Enviando"
     },
+    "helpPageCopyOfDatabase": {
+        "message": "Para onde vão os envios?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Todas as submissões são colocadas no banco de dados do Patrocinador, que é divulgada publicamente para qualquer um usar e está disponível em"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "O código-fonte está disponível gratuitamente. Então, mesmo que algo aconteça comigo, seus envios não estarão perdidos."
+    },
+    "AdviceForSubmitting": {
+        "message": "Conselhos para enviar"
     },
     "Credits": {
         "message": "Créditos"
@@ -1292,6 +1304,12 @@
     "shouldCleanEmojis": {
         "message": "Remover emojis"
     },
+    "formatCustomTitles": {
+        "message": "Apenas formatar títulos enviados pelo utilizador"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatar títulos originais"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Colocar palavras em maiúsculas em títulos que não sejam em inglês"
     },
@@ -1408,6 +1426,18 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se você sempre quiser saber se um título/miniatura mudou, ative isso."
     },
+    "showOriginalOnHover": {
+        "message": "Trocar entre detalhes personalizados e detalhes originais no hover"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Trocar entre detalhes personalizados e detalhes originais ao passar o mouse sobre qualquer lugar na placa de vídeo"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Isto irá desativar a reprodução automática ao passar o mouse"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Mostrar título personalizado ao passar o mouse se um título de modo casual estiver sendo mostrado"
+    },
     "showIconForFormattedTitles": {
         "message": "Mostre o botão \"Mostrar original\" para Títulos Auto-Formatados"
     },
@@ -1433,6 +1463,9 @@
         "message": "Mostrar detalhes originais"
     },
     "ShowModified": {
+        "message": "Mostrar Detalhes Modificados"
+    },
+    "ShowFormatted": {
         "message": "Mostrar Detalhes Modificados"
     },
     "FillerWarning": {
@@ -1711,6 +1744,9 @@
     "cleanPopup": {
         "message": "Esconder desordem da lista de segmentos no popup"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Ocultar botões de criação do segmento no popup"
+    },
     "syncDisabledWarning": {
         "message": "Aviso: o armazenamento da extensão foi desativado no seu navegador. As definições não serão guardadas se tentar gravá-las."
     },
@@ -1741,6 +1777,10 @@
     "areYouSureOriginalVote": {
         "message": "Tem a certeza de que esta miniatura original segue as diretrizes DeArrow? Se preferir ver miniaturas originais em geral, considere alterar a opção “Quando não existe uma miniatura apresentada” nas definições DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "Na TV do YouTube, o Patrocinador não é compatível com conteúdo ao vivo e gravado recentemente. Se esta for uma gravação recente, por favor, espere algumas horas para que a versão processada da gravação fique disponível.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "likeOriginalTitle": {
         "message": "Gostou do título original?",
@@ -1808,6 +1848,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Mostrar o ícone do modo casual apenas quando estiver disponível um título personalizado"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Não formatar títulos do modo casual",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Abrir as definições"
