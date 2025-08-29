@@ -7,12 +7,6 @@
         "message": "Hopp over sponsinger, abonnementstigging og mer på YouTube-videoer. Rapporter inn sponsorer på videoer du ser på for å spare andre sin tid.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Tjeneren sa at denne forespørselen var ugyldig"
-    },
-    "409": {
-        "message": "Dette har allerede blitt sendt inn tidligere"
-    },
     "channelWhitelisted": {
         "message": "Kanalen ble hvitelistet!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Det ser ut til at tjeneren er nede. Kontakt utvikleren umiddelbart."
-    },
-    "connectionError": {
-        "message": "En tilkoblingsfeil har oppstått. Feilkode: "
     },
     "segmentsStillLoading": {
         "message": "Segmenter laster fortsatt..."
@@ -339,9 +330,6 @@
     },
     "502": {
         "message": "Tjeneren ser ut til å være overbelastet. Prøv igjen om noen sekunder."
-    },
-    "errorCode": {
-        "message": "Feilkode: "
     },
     "skip": {
         "message": "Hopp over"
