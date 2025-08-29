@@ -7,12 +7,6 @@
         "message": "Hoppa över sponsringar, prenumerationstiggande och mer på YouTube-videor. Rapportera sponsorer på videor du tittar på för att bespara andra tid.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Servern sa att denna begäran var ogiltig"
-    },
-    "409": {
-        "message": "Den här har redan skickats in"
-    },
     "channelWhitelisted": {
         "message": "Kanalen är vitlistad!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Det verkar som att servern ligger nere. Kontakta utvecklaren omedelbart."
-    },
-    "connectionError": {
-        "message": "Anslutningsfel. Felkod: "
     },
     "segmentsStillLoading": {
         "message": "Segmenten laddas fortfarande..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Servern verkar vara överbelastad. Försök igen om några sekunder."
-    },
-    "errorCode": {
-        "message": "Felkod: "
     },
     "skip": {
         "message": "Hoppa över"
