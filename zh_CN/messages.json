@@ -7,12 +7,6 @@
         "message": "跳过 YouTube 视频中的赞助广告、订阅提醒等片段。标记视频中的赞助广告来节约大家的时间。",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "服务器说此请求无效"
-    },
-    "409": {
-        "message": "它之前已经被提交过了"
-    },
     "channelWhitelisted": {
         "message": "频道已加入白名单！"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "服务器似乎已宕机。请立即联系开发者。"
-    },
-    "connectionError": {
-        "message": "连接错误。错误代码： "
     },
     "segmentsStillLoading": {
         "message": "片段仍在加载中..."
@@ -359,9 +350,6 @@
     },
     "502": {
         "message": "服务器似乎已过载。请稍后再试。"
-    },
-    "errorCode": {
-        "message": "错误代码： "
     },
     "skip": {
         "message": "跳过"
