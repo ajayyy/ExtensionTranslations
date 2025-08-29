@@ -7,6 +7,12 @@
         "message": "Прескачайте спонсорства, напомняния за абониране и други неща в клипове в YouTube. Докладвайте спонсорства в клиповете, които гледате, за да спестите време на други потребители.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Сървърът съобщава, че тази заявка е невалидна."
+    },
+    "409": {
+        "message": "Това е вече изпратено."
+    },
     "channelWhitelisted": {
         "message": "Каналът е добавен към белия списък!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Изглежда, че сървърът не работи. Свържете се с програмиста незабавно."
+    },
+    "connectionError": {
+        "message": "Възникна грешка с връзката.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегментите все още се зареждат..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Сървърът изглежда претоварен. Опитайте отново след няколко секунди."
+    },
+    "errorCode": {
+        "message": "Сървърът върна код на състоянието {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Пропускане"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Известие: Кукичката е преместена от категорията Кратко резюме/Обобщение в новата категория Кукичка/Поздрави",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Неуспешно скриване/откриване за постоянно на заявения сегмент, тъй като UUID на сегмента не може да бъде разпознат:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
