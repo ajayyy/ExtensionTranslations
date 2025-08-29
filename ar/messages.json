@@ -7,6 +7,12 @@
         "message": "تخطى الرعايات و التسول بالاشتراك و المزيد على فيديوهات اليوتيوب. بلغ عن الرعايات في الفيديوات التي تشاهدها لتوفير وقت الآخرين.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "قال الخادم أن هذا الطلب خاطئ."
+    },
+    "409": {
+        "message": "تم تقديم هذا بالفعل من قبل."
+    },
     "channelWhitelisted": {
         "message": "القناة في القائمة البيضاء!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "يبدو أن الخادم معطل. تواصل مع المطوّر على الفور."
+    },
+    "connectionError": {
+        "message": "حدث خطأ في الاتصال.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "لا تزل الفقرات قيد التحميل..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "يبدو أن الخادم محمَّل أكثر من اللازم. حاول مرة أخرى في بضع ثوان."
+    },
+    "errorCode": {
+        "message": "رد الخادم رمز الحالة {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "تخطي"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "ملاحظة: تم نقل \"(ٱلـ)جذب\" من فئة \"Preview/Recap\"إلى فئة \"الجذب/التحيات\"",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "أخفقنا في إخفاء/عدم إخفاء طلب الفَقَرة هاته, كما أن الـUUID الخاص بها لم يُحل:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
