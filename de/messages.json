@@ -7,6 +7,12 @@
         "message": "Überspringe gesponserte Inhalte, Aufforderungen zum Interagieren und mehr in YouTube-Videos. Markiere Sponsoren in Videos, um anderen die Zeit zu ersparen.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Der Server meldet, dass diese Anfrage ungültig war."
+    },
+    "409": {
+        "message": "Das wurde bereits eingereicht."
+    },
     "channelWhitelisted": {
         "message": "Der Kanal wurde auf die Whitelist gesetzt!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Der Server ist anscheinend offline. Bitte kontaktiere den Entwickler unverzüglich."
+    },
+    "connectionError": {
+        "message": "Ein Verbindungsfehler ist aufgetreten.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmente werden noch geladen..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Der Server ist wahrscheinlich überlastet. Probiere es später nochmal."
+    },
+    "errorCode": {
+        "message": "Der Server hat den Statuscode {code} zurückgegeben.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Überspringen"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Hinweis: Hook ist nun Teil der neuen Hook/Begrüßungen-Kategorie statt Vorschau/Rückblick",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Konnte das Segment nicht dauerhaft verstecken/zeigen, da die UUID nicht aufgelöst werden konnte:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
