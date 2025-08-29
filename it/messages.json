@@ -7,12 +7,6 @@
         "message": "Salta sponsorizzazioni, richieste d'iscrizione ai canali e molto altro sui video di YouTube. Segnala gli sponsor sui video che guardi per salvare il tempo agli altri.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Richiesta non valida"
-    },
-    "409": {
-        "message": "Questo è già stato inviato"
-    },
     "channelWhitelisted": {
         "message": "Canale aggiunto alla lista delle esclusioni!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Sembra che il server non funzioni. Contatta subito lo sviluppatore."
-    },
-    "connectionError": {
-        "message": "Si è verificato un errore durante la connessione. Codice errore: "
     },
     "segmentsStillLoading": {
         "message": "Segmenti ancora in caricamento…"
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Il server sembra essere sovraccaricato. Riprova tra pochi secondi."
-    },
-    "errorCode": {
-        "message": "Codice Errore: "
     },
     "skip": {
         "message": "Salta"
