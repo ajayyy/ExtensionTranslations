@@ -7,12 +7,6 @@
         "message": "Szponzorok, feliratkozás-kérelmek és több átugrása a YouTube videókon. Jelöljön meg szponzorokat videókon amiket néz, hogy mások idejét is megtakarítsa.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Szerver: Ez a kérés érvénytelen"
-    },
-    "409": {
-        "message": "Ez már korábban be lett küldve"
-    },
     "channelWhitelisted": {
         "message": "A csatorna az engedélyezőlistára került!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Úgy tűnik, a szerver nem működik. Kérjük, mihamarabb értesítsd a fejlesztőket!"
-    },
-    "connectionError": {
-        "message": "Kapcsolódási probléma merült fel. Hibakód: "
     },
     "segmentsStillLoading": {
         "message": "Szegmensek betöltése folyamatban..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Úgy tűnik, hogy a szerver túlterhelt. Próbálkozz újra néhány másodperc múlva."
-    },
-    "errorCode": {
-        "message": "Hibakód: "
     },
     "skip": {
         "message": "Átugrás"
