@@ -7,6 +7,12 @@
         "message": "Пропускайте спонсорские вставки, просьбы подписаться и другое в видео на YouTube. Отправляйте информацию о спонсорах в видео, чтобы экономить другим время.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Сервер отклонил этот запрос."
+    },
+    "409": {
+        "message": "Этот запрос был отправлен ранее."
+    },
     "channelWhitelisted": {
         "message": "Канал добавлен в белый список!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Кажется, сервер не отвечает. Свяжитесь с разработчиком."
+    },
+    "connectionError": {
+        "message": "Ошибка соединения.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегменты всё ещё загружаются..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Похоже, сервер перегружен. Попробуйте ещё раз через несколько секунд."
+    },
+    "errorCode": {
+        "message": "Сервер вернул ошибку {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Пропустить"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Внимание: Завязка была перенесена из категории «Предпросмотр/краткое содержание» в новую категорию «Завязка/приветствие»",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Не удалось скрыть/показать запрошенный сегмент, так как его UUID не может быть найден:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
