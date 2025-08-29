@@ -7,6 +7,12 @@
         "message": "Пропускайте спонсорські вставки, прохання підписатися та інше в відео на YouTube. Надсилайте інформацію про спонсорів в відео, щоб зберігати іншим час.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Сервер повідомив, що цей запит є недійсним."
+    },
+    "409": {
+        "message": "Цей запит був відправлений раніше."
+    },
     "channelWhitelisted": {
         "message": "Канал доданий у білий список!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Здається, сервер не працює. Негайно зв'яжіться з розробником."
+    },
+    "connectionError": {
+        "message": "Сталася помилка з'єднання.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегменти ще завантажуються…"
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Схоже, він перевантажений. Спробуйте ще раз через кілька секунд."
+    },
+    "errorCode": {
+        "message": "Сервер повернув код статусу {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Пропустити"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Примітка: Категорія «Зачіпка» була перенесена з категорії «Попередній огляд/Підсумок» до нової категорії «Зачіпка/Вітання»",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Не вдалося назавжди приховати/приховати запитаний сегмент, оскільки UUID сегменту не може бути вирішений:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
