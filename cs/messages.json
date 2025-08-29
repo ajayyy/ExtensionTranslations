@@ -7,12 +7,6 @@
         "message": "Přeskočte sponzorství, žádosti o odběr a další ve videích na YouTube. Nahlaste sponzorované segmenty ve videích, která sledujete a ušetřete ostatním čas.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server hlásí, že tento požadavek je neplatný"
-    },
-    "409": {
-        "message": "Tento příspěvek byl již přidán dříve"
-    },
     "channelWhitelisted": {
         "message": "Kanál přidán do výjimek!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Zdá se, že server je offline. Okamžitě kontaktujte vývojáře."
-    },
-    "connectionError": {
-        "message": "Došlo k chybě připojení. Kód chyby: "
     },
     "segmentsStillLoading": {
         "message": "Segmenty se stále načítají..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Server je nejspíš přetížený. Zkuste to znovu za pár vteřin."
-    },
-    "errorCode": {
-        "message": "Kód chyby: "
     },
     "skip": {
         "message": "Přeskočit"
