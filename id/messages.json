@@ -7,12 +7,6 @@
         "message": "Lewati sponsor, meminta subscriber dan lain-lain di video YouTube. Laporkan sponsor di video yang anda tonton untuk menghemat waktu orang lain.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server menyatakan permintaan ini tidak valid"
-    },
-    "409": {
-        "message": "Ini sudah dikirim sebelumnya"
-    },
     "channelWhitelisted": {
         "message": "Channel Didaftar-putihkan!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Sepertinya server sedang down. Kontak pengembang segera."
-    },
-    "connectionError": {
-        "message": "Kesalahan koneksi terjadi. Kode kesalahan: "
     },
     "segmentsStillLoading": {
         "message": "Segmen masih dimuat..."
@@ -358,9 +349,6 @@
     },
     "502": {
         "message": "Tampaknya server sedang kewalahan. Coba lagi beberapa detik."
-    },
-    "errorCode": {
-        "message": "Kode Kesalahan: "
     },
     "skip": {
         "message": "Lewati"
