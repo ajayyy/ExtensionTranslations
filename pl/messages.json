@@ -7,12 +7,6 @@
         "message": "Pomijaj sponsorów, prośby o subskrypcje i inne fragmenty filmów na YouTube. Zgłaszaj segmenty sponsorów na filmach, które oglądasz, by oszczędzić czas innym.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serwer odpowiedział, że to zapytanie jest niepoprawne"
-    },
-    "409": {
-        "message": "To już zostało wysłane wcześniej"
-    },
     "channelWhitelisted": {
         "message": "Kanał dodany do wyjątków!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Wygląda na to, że serwer nie działa. Skontaktuj się niezwłocznie z deweloperem."
-    },
-    "connectionError": {
-        "message": "Wystąpił błąd połączenia. Kod błędu: "
     },
     "segmentsStillLoading": {
         "message": "Segmenty nadal się ładują..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Serwer jest prawdopodobnie przeciążony, spróbuj ponownie za kilka sekund."
-    },
-    "errorCode": {
-        "message": "Kod błędu: "
     },
     "skip": {
         "message": "Pomiń"
