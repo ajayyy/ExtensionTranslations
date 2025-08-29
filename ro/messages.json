@@ -7,12 +7,6 @@
         "message": "Omiteți cu ușurință spoturi sponsorizate, cereri de abonare și alte întreruperi pe YouTube. Semnalați-le pentru a economisi timp altora.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serverul a spus că această cerere este invalidă"
-    },
-    "409": {
-        "message": "Acest lucru a fost deja trimis înainte"
-    },
     "channelWhitelisted": {
         "message": "Canalul a fost adăugat la excepții!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Se pare că serverul este oprit. Contactează imediat dezvoltatorul."
-    },
-    "connectionError": {
-        "message": "A apărut o eroare de conexiune. Cod de eroare: "
     },
     "segmentsStillLoading": {
         "message": "Încă se încarcă segmentele..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Serverul pare să fie supraîncărcat. Încercați din nou în câteva secunde."
-    },
-    "errorCode": {
-        "message": "Codul Erorii: "
     },
     "skip": {
         "message": "Omiteți"
