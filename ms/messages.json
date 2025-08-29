@@ -7,12 +7,6 @@
         "message": "Lewati sponsor, meminta subscriber dan lain-lain di video YouTube. Laporkan sponsor di video yang anda tonton untuk menghemat waktu orang lain.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Pelayan mengatakan permintaan ini tidak sah"
-    },
-    "409": {
-        "message": "Perkara ini telah dikemukakan sebelumnya"
-    },
     "channelWhitelisted": {
         "message": "Saluran Senarai Putih!"
     },
@@ -109,9 +103,6 @@
     },
     "serverDown": {
         "message": "Nampaknya pelayan tidak berfungsi. Segera hubungi dev."
-    },
-    "connectionError": {
-        "message": "Ralat sambungan telah berlaku. Kod salah: "
     },
     "segmentsStillLoading": {
         "message": "Segmen masih dimuatkan..."
@@ -313,9 +304,6 @@
     },
     "502": {
         "message": "Pelayan nampaknya berlebihan. Cuba lagi dalam beberapa saat."
-    },
-    "errorCode": {
-        "message": "Kod ralat: "
     },
     "skip": {
         "message": "Langkau"
