@@ -7,12 +7,6 @@
         "message": "Salte todos los sponsors, súplicas de suscripción y más en vídeos de YouTube. Reporta sponsors en los vídeos que veas para ahorrarle tiempo a los demás.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "El servidor dijo que esta solicitud no era válida"
-    },
-    "409": {
-        "message": "Esto ya ha sido enviado antes"
-    },
     "channelWhitelisted": {
         "message": "¡Canal permitido!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Parece que el servidor está desconectado. Póngase en contacto con el desarrollador inmediatamente."
-    },
-    "connectionError": {
-        "message": "Ha ocurrido un error de conexión. Código de error: "
     },
     "segmentsStillLoading": {
         "message": "Los segmentos aún se están cargando..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
-    },
-    "errorCode": {
-        "message": "Código de Error: "
     },
     "skip": {
         "message": "Omitir"
