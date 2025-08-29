@@ -7,12 +7,6 @@
         "message": "Überspringe gesponserte Inhalte, Aufforderungen zum Interagieren und mehr in YouTube-Videos. Markiere Sponsoren in Videos, um anderen die Zeit zu ersparen.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Der Server meldet, dass diese Anfrage ungültig war."
-    },
-    "409": {
-        "message": "Dieser Inhalt wurde bereits eingereicht."
-    },
     "channelWhitelisted": {
         "message": "Der Kanal wurde auf die Whitelist gesetzt!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Der Server ist anscheinend offline. Bitte kontaktiere den Entwickler unverzüglich."
-    },
-    "connectionError": {
-        "message": "Ein Verbindungsfehler ist aufgetreten. Fehlermeldung: "
     },
     "segmentsStillLoading": {
         "message": "Segmente werden noch geladen..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Der Server ist wahrscheinlich überlastet. Probiere es später nochmal."
-    },
-    "errorCode": {
-        "message": "Fehlermeldung: "
     },
     "skip": {
         "message": "Überspringen"
