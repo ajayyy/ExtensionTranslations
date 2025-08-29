@@ -7,12 +7,6 @@
         "message": "Omet els sponsorships, pregant per una subscripció i mes en videos de YouTube. Informa dels patrocinadors a els vídeos que mires per estalviar temps als altres.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "El server ha dit que aquesta sol·licitud es invalida"
-    },
-    "409": {
-        "message": "Això ja s'ha enviat abans"
-    },
     "channelWhitelisted": {
         "message": "El canal és a la llista blanca!"
     },
@@ -96,9 +90,6 @@
     },
     "serverDown": {
         "message": "Sembla que ha caigut el servidor. Contacteu el desenvolupador immediatament."
-    },
-    "connectionError": {
-        "message": "S'ha produït un error de connexió. Codi d'error: "
     },
     "clearTimes": {
         "message": "Esborra els segments"
