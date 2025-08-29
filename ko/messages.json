@@ -7,12 +7,6 @@
         "message": "YouTube 영상의 스폰서 광고, '구독과 좋아요' 광고 같이 쓸데없는 광고를 모두 건너뛰세요. 영상의 스폰서 광고 구간을 신고하여 다른 사람들의 시간을 절약할 수 있게 해주세요.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "서버에서 이 요청이 잘못됐다고 응답했어요"
-    },
-    "409": {
-        "message": "이전에 이미 제출된 적이 있어요"
-    },
     "channelWhitelisted": {
         "message": "채널을 허용 목록에 추가했어요!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "서버가 다운된 것 같아요. 개발자에게 연락해 주세요."
-    },
-    "connectionError": {
-        "message": "연결 오류가 발생했어요. 오류 코드: "
     },
     "segmentsStillLoading": {
         "message": "구간을 여전히 불러오는 중이에요..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해 보세요."
-    },
-    "errorCode": {
-        "message": "오류 코드: "
     },
     "skip": {
         "message": "건너뛰기"
