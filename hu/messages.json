@@ -7,6 +7,12 @@
         "message": "Szponzorok, feliratkozás-kérelmek és több átugrása a YouTube videókon. Jelöljön meg szponzorokat videókon amiket néz, hogy mások idejét is megtakarítsa.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Szerver: Ez a kérés érvénytelen."
+    },
+    "409": {
+        "message": "Ez már korábban be lett küldve."
+    },
     "channelWhitelisted": {
         "message": "A csatorna az engedélyezőlistára került!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Úgy tűnik, a szerver nem működik. Kérjük, mihamarabb értesítsd a fejlesztőket!"
+    },
+    "connectionError": {
+        "message": "Kapcsolódási probléma merült fel.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Szegmensek betöltése folyamatban..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Úgy tűnik, hogy a szerver túlterhelt. Próbálkozz újra néhány másodperc múlva."
+    },
+    "errorCode": {
+        "message": "A szerver {code} státuszt adott vissza.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Átugrás"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Figyelem: A \"horog\" át lett helyezve az Előzetes/Ismétlés kategóriából az új Horog/Köszöntés kategóriába",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "A kért szegmens elrejtése/mutatása nem sikerült, mert a szegmens UUID-ját nem sikerült beazonosítani:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
