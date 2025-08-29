@@ -7,12 +7,6 @@
         "message": "Ignorez les sponsors, les rappels d'interaction et plus encore sur les vidéos YouTube. Signalez les sponsors sur les vidéos que vous regardez pour sauver le temps des autres.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Le serveur indique que cette requête est invalide"
-    },
-    "409": {
-        "message": "Ce segment a déjà été soumis auparavant"
-    },
     "channelWhitelisted": {
         "message": "Chaîne mise sur liste blanche !"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Il semblerait que le serveur soit hors service. Contactez le développeur."
-    },
-    "connectionError": {
-        "message": "Erreur de connexion. Code d'erreur : "
     },
     "segmentsStillLoading": {
         "message": "Segments toujours en cours de chargement..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Le serveur semble être surchargé. Réessayez dans quelques secondes."
-    },
-    "errorCode": {
-        "message": "Code d'erreur : "
     },
     "skip": {
         "message": "Passer"
