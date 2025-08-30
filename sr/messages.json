@@ -364,6 +364,10 @@
     "502": {
         "message": "Чини се да је сервер преоптерећен. Покушајте поново за неколико секунди."
     },
+    "errorCode": {
+        "message": "Сервер је вратио грешку {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
+    },
     "skip": {
         "message": "Прескочи"
     },
@@ -1922,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Обавештење: Најава је премештена из категорије Преглед/Рекапитулација у нову категорију Најава/Поздрави",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Трајно скривање/откривање траженог сегмента није успело, јер UUID сегмента није могао бити разрешен:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
