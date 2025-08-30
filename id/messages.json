@@ -1410,6 +1410,10 @@
         "message": "Besarkan huruf seperti kalimat",
         "description": "Tip about submitting titles to DeArrow"
     },
+    "answeringQuestionTipSubTitle": {
+        "message": "..",
+        "description": "Tip subtitle in DeArrow"
+    },
     "termsOfUse": {
         "message": "Ketentuan Penggunaan"
     },
