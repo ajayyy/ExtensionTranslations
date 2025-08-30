@@ -7,6 +7,12 @@
         "message": "Přeskočte sponzorství, žádosti o odběr a další ve videích na YouTube. Nahlaste sponzorované segmenty ve videích, která sledujete a ušetřete ostatním čas.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server hlásí, že tento požadavek je neplatný."
+    },
+    "409": {
+        "message": "Tento příspěvek byl již přidán dříve."
+    },
     "channelWhitelisted": {
         "message": "Kanál přidán do výjimek!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Zdá se, že server je offline. Okamžitě kontaktujte vývojáře."
+    },
+    "connectionError": {
+        "message": "Došlo k chybě připojení.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenty se stále načítají..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Server je nejspíš přetížený. Zkuste to znovu za pár vteřin."
+    },
+    "errorCode": {
+        "message": "Server vrátil stavový kód {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Přeskočit"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Upozornění: zaujetí bylo přesunuto z kategorie Náhled / shrnutí do nové kategorie Zaujetí / pozdrav",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Nepodařilo se trvale skrýt / zrušit skrytí požadovaného segmentu, jelikož se nepodařilo načíst UUID segmentu:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
