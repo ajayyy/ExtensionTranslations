@@ -7,12 +7,6 @@
         "message": "Pule patrocinadores, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que você assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "O servidor disse que esse pedido foi inválido"
-    },
-    "409": {
-        "message": "Esse segmento já foi enviado."
-    },
     "channelWhitelisted": {
         "message": "Canal adicionado à lista de permissões!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
-    },
-    "connectionError": {
-        "message": "Ocorreu um erro de conexão. Código de erro: "
     },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
-    },
-    "errorCode": {
-        "message": "Código do erro: "
     },
     "skip": {
         "message": "Pular"

@@ -7,12 +7,6 @@
         "message": "Praleiskite rėmimus, prenumeratos maldavimus ir daugiau „YouTube“ vaizdo įrašuose. Praneškite apie žiūrėtų vaizdo įrašų rėmėjus, kad sutaupytumėte kitų laiko.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serveris pranešė, kad ši užklausa netinkama."
-    },
-    "409": {
-        "message": "Tai jau buvo pateikta anksčiau."
-    },
     "channelWhitelisted": {
         "message": "Kanalas įtrauktas į leidžiamąjį sąrašą."
     },

@@ -7,12 +7,6 @@
         "message": "Jäta sponsorid, tellimise palumine ja muud YouTube'i videote tüütused vahele. Teata vaadatavate videote sponsoritest, et säästa teiste aega.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server ütles, et see taotlus oli sobimatu"
-    },
-    "409": {
-        "message": "See on juba varasemalt saadetud"
-    },
     "channelWhitelisted": {
         "message": "Kanal ignoreerimisnimekirjas!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Tundub, et server on maas. Anna sellest koheselt arendajale teada."
-    },
-    "connectionError": {
-        "message": "Ühendusega esines tõrge. Veakood: "
     },
     "segmentsStillLoading": {
         "message": "Segmente veel laetakse..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Server paistab olevat ülekoormatud. Proovi uuesti mõne sekundi pärast."
-    },
-    "errorCode": {
-        "message": "Veakood: "
     },
     "skip": {
         "message": "Jäta vahele"

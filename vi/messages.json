@@ -7,12 +7,6 @@
         "message": "Bỏ qua quảng cáo của nhà tài trợ, đoạn nài nỉ đòi đăng ký và nhiều thứ tương tự trong các video trên Youtube. Báo cáo đoạn quảng cáo nhà tài trợ trong những video bạn xem để giúp người khác tiết kiệm thời gian.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Máy chủ báo yêu cầu này không hợp lệ"
-    },
-    "409": {
-        "message": "Đoạn này đã được đăng rồi"
-    },
     "channelWhitelisted": {
         "message": "Kênh đã được bỏ chặn!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Có vẻ máy chủ đang không hoạt động. Hãy liên hệ nhà phát triển ngay lập tức."
-    },
-    "connectionError": {
-        "message": "Đã xảy ra lỗi kết nối. Mã lỗi: "
     },
     "segmentsStillLoading": {
         "message": "Phân đoạn vẫn đang tải..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Máy chủ có vẻ đang bị quá tải. Hãy thử lại sau vài giây nữa."
-    },
-    "errorCode": {
-        "message": "Mã lỗi: "
     },
     "skip": {
         "message": "Bỏ qua"
