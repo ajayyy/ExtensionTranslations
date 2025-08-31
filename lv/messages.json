@@ -7,12 +7,6 @@
         "message": "Izlaidiet sponsorus, abonēšanas lūgumus un vairāk, skatoties YouTube video. Ziņojiet par sponsoriem video, kurus jūs skatāties, lai ietaupītu citu laiku.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serveris ziņo, ka šis pieprasījums ir nederīgs"
-    },
-    "409": {
-        "message": "Šis jau ir ticis aizsūtīts iepriekš"
-    },
     "channelWhitelisted": {
         "message": "Kanāls iekļauts baltajā sarakstā!"
     },
@@ -80,9 +74,6 @@
     "sourceCode": {
         "message": "Pirmkods",
         "description": "Used on Firefox Store Page"
-    },
-    "errorCode": {
-        "message": "Kļūdas kods: "
     },
     "add": {
         "message": "Pievienot"

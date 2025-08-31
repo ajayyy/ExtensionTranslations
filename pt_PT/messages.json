@@ -7,12 +7,6 @@
         "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "O servidor disse que este pedido foi inválido"
-    },
-    "409": {
-        "message": "Isso já foi enviado antes"
-    },
     "channelWhitelisted": {
         "message": "Canal adicionado à lista de autorizados!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
-    },
-    "connectionError": {
-        "message": "Deu-se um erro de conecção: Código: "
     },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
@@ -351,9 +342,6 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
-    },
-    "errorCode": {
-        "message": "Código do erro: "
     },
     "skip": {
         "message": "Ignorar"

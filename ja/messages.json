@@ -7,12 +7,6 @@
         "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "サーバーがこのリクエストは無効であると返答しました"
-    },
-    "409": {
-        "message": "既に登録済みです。"
-    },
     "channelWhitelisted": {
         "message": "チャンネルをホワイトリストに登録しました！"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "サーバーがダウンしているようです。今すぐ開発者にお知らせください。"
-    },
-    "connectionError": {
-        "message": "接続エラーが発生しました。 エラーコード: "
     },
     "segmentsStillLoading": {
         "message": "セグメントはまだ読み込み中です..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "サーバーが混雑中です。数秒後にもう一度お試しください。"
-    },
-    "errorCode": {
-        "message": "エラーコード: "
     },
     "skip": {
         "message": "スキップ"

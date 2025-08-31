@@ -8,10 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Richiesta non valida"
+        "message": "Il server ha segnalato che la richiesta non è valida."
     },
     "409": {
-        "message": "Questo è già stato inviato"
+        "message": "Questo è già stato inviato in precedenza."
     },
     "channelWhitelisted": {
         "message": "Canale aggiunto alla lista delle esclusioni!"
@@ -114,7 +114,8 @@
         "message": "Sembra che il server non funzioni. Contatta subito lo sviluppatore."
     },
     "connectionError": {
-        "message": "Si è verificato un errore durante la connessione. Codice errore: "
+        "message": "Si è verificato un errore di connessione.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenti ancora in caricamento…"
@@ -364,7 +365,8 @@
         "message": "Il server sembra essere sovraccaricato. Riprova tra pochi secondi."
     },
     "errorCode": {
-        "message": "Codice Errore: "
+        "message": "Il server ha restituito il codice di stato {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Salta"
@@ -1924,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Avviso: Hook è stato spostato dalla categoria Anteprima/Recap alla nuova categoria Gancio/Ringraziamenti",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Impossibile nascondere/mostrare in modo permanente il segmento richiesto, poiché l'UUID del segmento non può essere risolto:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }

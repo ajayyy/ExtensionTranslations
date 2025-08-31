@@ -8,10 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Le serveur indique que cette requête est invalide"
+        "message": "Le serveur indique que cette requête est invalide."
     },
     "409": {
-        "message": "Ce segment a déjà été soumis auparavant"
+        "message": "Cela a déjà été soumis auparavant."
     },
     "channelWhitelisted": {
         "message": "Chaîne mise sur liste blanche !"
@@ -114,7 +114,8 @@
         "message": "Il semblerait que le serveur soit hors service. Contactez le développeur."
     },
     "connectionError": {
-        "message": "Erreur de connexion. Code d'erreur : "
+        "message": "Une erreur de connexion est survenue.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segments toujours en cours de chargement..."
@@ -364,7 +365,8 @@
         "message": "Le serveur semble être surchargé. Réessayez dans quelques secondes."
     },
     "errorCode": {
-        "message": "Code d'erreur : "
+        "message": "Le serveur a renvoyé le code de statut {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Passer"

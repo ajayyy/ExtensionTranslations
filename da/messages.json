@@ -7,12 +7,6 @@
         "message": "Fjern reklamer, subscriber tiggeri og mere i youtube videoer. Rapporter reklamer på de videoer du ser for at spare folks tid.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serveren sagde at denne efterspørgsel var ugyldig"
-    },
-    "409": {
-        "message": "Dette er allerede blevet indsendt"
-    },
     "channelWhitelisted": {
         "message": "Kanal whitelisted!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Det ser ud til at serveren er nede. Kontakt udvikleren straks."
-    },
-    "connectionError": {
-        "message": "Der opstod en forbindelsesfejl. Fejlkode: "
     },
     "segmentsStillLoading": {
         "message": "Segmenter indlæses stadig..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Serveren lader til at være overbelastet. Prøv igen om et par sekunder."
-    },
-    "errorCode": {
-        "message": "Fejlkode: "
     },
     "skip": {
         "message": "Spring over"

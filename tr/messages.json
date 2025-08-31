@@ -7,12 +7,6 @@
         "message": "Videolardaki sponsorlukları, abonelik isteklerini ve daha fazlasını atlayın. Başkalarının vaktini kurtarmak için izlediğiniz videolardaki sponsorları bildirin.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Sunucu isteğin geçersiz olduğunu iletti"
-    },
-    "409": {
-        "message": "Bu daha önce zaten gönderilmiş"
-    },
     "channelWhitelisted": {
         "message": "Kanala izin verildi!"
     },
@@ -112,9 +106,6 @@
     },
     "serverDown": {
         "message": "Sunucu çökmüş gibi duruyor. Derhal geliştiriciyle iletişime geçin."
-    },
-    "connectionError": {
-        "message": "Bağlantı hatası oluştu. Hata kodu: "
     },
     "segmentsStillLoading": {
         "message": "Kısımlar hâlâ yükleniyor..."
@@ -362,9 +353,6 @@
     },
     "502": {
         "message": "Sunucuya aşırı yüklenilmiş gibi gözüküyor. Birazdan tekrar deneyin."
-    },
-    "errorCode": {
-        "message": "Hata Kodu: "
     },
     "skip": {
         "message": "Atla"

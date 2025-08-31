@@ -8,10 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Сервер је одбио овај захтев"
+        "message": "Сервер је одбио овај захтев."
     },
     "409": {
-        "message": "Ово је већ поднесено раније"
+        "message": "Ово је већ поднесено раније."
     },
     "channelWhitelisted": {
         "message": "Канал на белој листи!"
@@ -114,7 +114,8 @@
         "message": "Чини се да сервер није у функцији. Одмах контактирајте програмера."
     },
     "connectionError": {
-        "message": "Дошло је до грешке у вези. Кôд грешке: "
+        "message": "Дошло је до грешке у вези.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегменти се још увек учитавају..."
@@ -364,7 +365,8 @@
         "message": "Чини се да је сервер преоптерећен. Покушајте поново за неколико секунди."
     },
     "errorCode": {
-        "message": "Кôд грешке: "
+        "message": "Сервер је вратио грешку {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Прескочи"
@@ -1924,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Обавештење: Најава је премештена из категорије Преглед/Рекапитулација у нову категорију Најава/Поздрави",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Трајно скривање/откривање траженог сегмента није успело, јер UUID сегмента није могао бити разрешен:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
