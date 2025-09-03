@@ -7,6 +7,12 @@
         "message": "Hoppa över sponsringar, prenumerationstiggande och mer på YouTube-videor. Rapportera sponsorer på videor du tittar på för att bespara andra tid.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Servern sa att denna begäran var ogiltig."
+    },
+    "409": {
+        "message": "Detta har redan skickats in tidigare."
+    },
     "channelWhitelisted": {
         "message": "Kanalen är vitlistad!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Det verkar som att servern ligger nere. Kontakta utvecklaren omedelbart."
+    },
+    "connectionError": {
+        "message": "Ett anslutningsfel har inträffat.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenten laddas fortfarande..."
@@ -353,6 +363,10 @@
     },
     "502": {
         "message": "Servern verkar vara överbelastad. Försök igen om några sekunder."
+    },
+    "errorCode": {
+        "message": "Servern returnerade statuskod {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Hoppa över"
@@ -1912,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Observera: Hook har flyttats från kategorin Förhandstitt/Sammanfattning till den nya kategorin Hook/Hälsningar",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Det gick inte att permanent dölja/ta bort det begärda segmentet eftersom segmentets UUID inte hittades:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
