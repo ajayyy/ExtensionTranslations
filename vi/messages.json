@@ -7,6 +7,9 @@
         "message": "Bỏ qua quảng cáo của nhà tài trợ, đoạn nài nỉ đòi đăng ký và nhiều thứ tương tự trong các video trên Youtube. Báo cáo đoạn quảng cáo nhà tài trợ trong những video bạn xem để giúp người khác tiết kiệm thời gian.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Máy chủ báo yêu cầu này không hợp lệ."
+    },
     "channelWhitelisted": {
         "message": "Kênh đã được bỏ chặn!"
     },
@@ -106,6 +109,10 @@
     },
     "serverDown": {
         "message": "Có vẻ máy chủ đang không hoạt động. Hãy liên hệ nhà phát triển ngay lập tức."
+    },
+    "connectionError": {
+        "message": "Đã xảy ra lỗi kết nối.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Phân đoạn vẫn đang tải..."
@@ -353,6 +360,10 @@
     },
     "502": {
         "message": "Máy chủ có vẻ đang bị quá tải. Hãy thử lại sau vài giây nữa."
+    },
+    "errorCode": {
+        "message": "Máy chủ trả về mã phản hồi HTTP {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Bỏ qua"
