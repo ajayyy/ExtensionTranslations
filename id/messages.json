@@ -7,6 +7,12 @@
         "message": "Lewati sponsor, meminta subscriber dan lain-lain di video YouTube. Laporkan sponsor di video yang anda tonton untuk menghemat waktu orang lain.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server menyatakan permintaan ini tidak valid."
+    },
+    "409": {
+        "message": "Ini sudah dikirim sebelumnya."
+    },
     "channelWhitelisted": {
         "message": "Channel Didaftar-putihkan!"
     },
@@ -106,6 +112,10 @@
     },
     "serverDown": {
         "message": "Sepertinya server sedang down. Kontak pengembang segera."
+    },
+    "connectionError": {
+        "message": "Kesalahan koneksi terjadi.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmen masih dimuat..."
