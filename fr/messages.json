@@ -1926,5 +1926,9 @@
     "hookNewFeature": {
         "message": "Remarque : Les accroches ont été déplacées de la catégorie Aperçu/Résumé vers la nouvelle catégorie Accroche/Salutations",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Échec de la modification permanente de la visibilité du segment car son UUID n'a pas pu être résolu :",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }
