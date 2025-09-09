@@ -7,9 +7,6 @@
         "message": "Jäta sponsorid, tellimise palumine ja muud YouTube'i videote tüütused vahele. Teata vaadatavate videote sponsoritest, et säästa teiste aega.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanal ignoreerimisnimekirjas!"
-    },
     "Segment": {
         "message": "segmendi"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Kas soovid kindlasti selle saata?"
-    },
-    "whitelistChannel": {
-        "message": "Lisa kanal ignoreerimisnimekirja"
-    },
-    "removeFromWhitelist": {
-        "message": "Eemalda kanal ignoreerimisnimekirjast"
     },
     "voteOnTime": {
         "message": "Hääleta segmendi sobivust"
@@ -923,9 +914,6 @@
     },
     "permissionRequestFailed": {
         "message": "Loataotlus ebaõnnestus, kas sa keeldusid?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Kui sa ei suuda seda lahendada, keela valik \"sunnitud kanalikontroll enne vahelejätmist\", kuna SponsorBlock ei leia selle video kanaliteavet"
     },
     "forceChannelCheck": {
         "message": "Sunnitud kanalikontroll enne vahelejätmist"
