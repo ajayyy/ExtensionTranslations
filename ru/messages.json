@@ -1691,7 +1691,7 @@
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
-        "message": "Добавьте каналы, которые будут использовать этот профиль, нажав на кнопку во всплывающем окне в видео, сделанном этим каналом. Список каналов появится ниже.",
+        "message": "Добавить канал в этот профиль можно при помощи кнопки во всплывающем окне в видео. Список каналов появится ниже.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
