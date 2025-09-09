@@ -1972,5 +1972,14 @@
     "WhitelistedChannels": {
         "message": "Canali nella lista bianca",
         "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Aggiungi canale al profilo di salto"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Modifica il profilo di salto per questo canale"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Chiudi il menu' del profilo di salto"
     }
 }
