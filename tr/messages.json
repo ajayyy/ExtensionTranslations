@@ -7,9 +7,6 @@
         "message": "Videolardaki sponsorlukları, abonelik isteklerini ve daha fazlasını atlayın. Başkalarının vaktini kurtarmak için izlediğiniz videolardaki sponsorları bildirin.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanala izin verildi!"
-    },
     "Segment": {
         "message": "kısım"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Bunu göndermek istediğinize emin misiniz?"
-    },
-    "whitelistChannel": {
-        "message": "Kanala izin ver"
-    },
-    "removeFromWhitelist": {
-        "message": "Kanalı izin listesinden çıkar"
     },
     "voteOnTime": {
         "message": "Bir Kısmı Oyla"
@@ -943,9 +934,6 @@
     "permissionRequestFailed": {
         "message": "İzin isteği başarısız. Reddet butonuna mı tıkladınız?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Bunu çözemiyorsanız, SponsorBlock, bu video için kanal bilgilerini alamadığı için 'Atlamadan Önce Kanal Kontrolünü Zorla' ayarını devre dışı bırakın"
-    },
     "forceChannelCheck": {
         "message": "Atlamadan Önce Kanal Kontrolüne Zorla"
     },
@@ -1661,12 +1649,6 @@
     "areYouSureDeleteConfig": {
         "message": "Bu yapılandırmayı silmek istediğinizden emin misiniz?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Yeni Yapılandırma"
-    },
-    "DeleteConfiguration": {
-        "message": "Yapılandırmayı Sil"
     },
     "ChannelAllowlist": {
         "message": "Kanala özgü ayarlar"
