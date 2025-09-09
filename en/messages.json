@@ -13,9 +13,6 @@
     "409": {
         "message": "This has already been submitted before"
     },
-    "channelWhitelisted": {
-        "message": "Channel Whitelisted!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -142,12 +139,6 @@
     },
     "submitCheck": {
         "message": "Are you sure you want to submit this?"
-    },
-    "whitelistChannel": {
-         "message": "Whitelist channel"
-    },
-    "removeFromWhitelist": {
-         "message": "Remove channel from whitelist"
     },
     "voteOnTime": {
          "message": "Vote On A Segment"
@@ -824,6 +815,10 @@
     "category_livestream_messages_short": {
         "message": "Message Reading"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Auto skip"
     },
@@ -954,9 +949,6 @@
     },
     "permissionRequestFailed": {
         "message": "Permission request failed, did you click deny?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "If you are unable to resolve this, then disable the setting 'Force channel check before skipping', as SponsorBlock is unable to retrieve the channel information for this video"
     },
     "forceChannelCheck": {
         "message": "Force channel check before skipping"
@@ -1672,10 +1664,13 @@
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
-        "message": "New Configuration"
+        "message": "New configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Create new configuration"
     },
     "DeleteConfiguration": {
-        "message": "Delete Configuration"
+        "message": "Delete configuration"
     },
     "ChannelAllowlist": {
         "message": "Channel-specific settings"
@@ -1683,8 +1678,15 @@
     "ConfigurationName": {
         "message": "Configuration Name"
     },
+    "DefaultConfiguration": {
+        "message": "Default configuration"
+    },
     "ChannelListInstructions": {
         "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1917,5 +1919,54 @@
     "hookNewFeature": {
         "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "skipProfile_forAnHour": { 
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Edit this channel's skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
