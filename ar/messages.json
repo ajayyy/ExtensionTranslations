@@ -13,9 +13,6 @@
     "409": {
         "message": "تم تقديم هذا بالفعل من قبل."
     },
-    "channelWhitelisted": {
-        "message": "القناة في القائمة البيضاء!"
-    },
     "Segment": {
         "message": "فقرة"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "هل أنت متأكد أنك تريد إرسال هذا؟"
-    },
-    "whitelistChannel": {
-        "message": "إضافة القناة إلى القائمة البيضاء"
-    },
-    "removeFromWhitelist": {
-        "message": "إزالة القناة من القائمة البيضاء"
     },
     "voteOnTime": {
         "message": "صوّت لفقرة"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "فشل طلب الإذن ، هل نقرت على رفض؟"
     },
-    "adblockerIssueWhitelist": {
-        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"اجبار التحقق من القناة قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا الفيديو"
-    },
     "forceChannelCheck": {
         "message": "اجبار التحقق من القناة قبل التخطي"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "هل أنت متأكد مِن أنك تريد حذف هذا التكوين؟",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "تكوين جديد"
-    },
-    "DeleteConfiguration": {
-        "message": "حذف التكوين"
     },
     "ChannelAllowlist": {
         "message": "إعدادات لقناة محددة"
