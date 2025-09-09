@@ -7,9 +7,6 @@
         "message": "Παράλειψη χορηγιών, έκκλησης συνδρομής και πολλά περισσότερα στα βίντεο του YouTube. Αναφέρετε χορηγίες σε βίντεο που βλέπετε για να κερδίσετε χρόνο στους υπολοίπους.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Το κανάλι προστέθηκε στη λίστα αποδοχής!"
-    },
     "Segment": {
         "message": "τμήμα"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Σίγουρα θέλετε να το υποβάλετε αυτό;"
-    },
-    "whitelistChannel": {
-        "message": "Λίστα αποδοχής καναλιών"
-    },
-    "removeFromWhitelist": {
-        "message": "Αφαίρεση καναλιού από τη λίστα αποδοχής"
     },
     "voteOnTime": {
         "message": "Ψηφίστε για κάποιο τμήμα"
@@ -924,9 +915,6 @@
     "permissionRequestFailed": {
         "message": "Η αίτηση της άδειας απέτυχε, πατήσατε απόρριψη;"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Εάν δεν μπορείτε να το επιδιορθώσετε, απενεργοποιείστε την επιλογή «Εξαναγκασμός Ελέγχου Καναλιού πριν την παράλειψη», καθώς το SponsorBlock δεν μπόρεσε να ανακτήσει τις πληροφορίες του καναλιού αυτού του βίντεο"
-    },
     "forceChannelCheck": {
         "message": "Εξαναγκασμός Ελέγχου Καναλιού πριν την παράλειψη"
     },
@@ -1612,12 +1600,6 @@
     "areYouSureDeleteConfig": {
         "message": "Είστε βέβαιοι ότι θα θέλατε να διαγράψετε αυτή την διαμόρφωση;",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Νέα ρύθμιση παραμέτρων"
-    },
-    "DeleteConfiguration": {
-        "message": "Διαγραφή ρύθμισης παραμέτρων"
     },
     "ChannelAllowlist": {
         "message": "Ρυθμίσεις για συγκεκριμένα κανάλια"
