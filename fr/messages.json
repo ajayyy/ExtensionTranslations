@@ -13,9 +13,6 @@
     "409": {
         "message": "Cela a déjà été soumis auparavant."
     },
-    "channelWhitelisted": {
-        "message": "Chaîne mise sur liste blanche !"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Êtes-vous sûr de vouloir soumettre ces segments ?"
-    },
-    "whitelistChannel": {
-        "message": "Ajouter la chaîne à la liste blanche"
-    },
-    "removeFromWhitelist": {
-        "message": "Retirer la chaîne de la liste blanche"
     },
     "voteOnTime": {
         "message": "Voter pour un segment"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "La demande de permission a échoué, avez-vous cliqué sur refuser ?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Si vous ne parvenez pas à résoudre ce problème, désactivez le paramètre \"Forcer la vérification de la chaîne avant de passer\" car SponsorBlock ne parvient pas à récupérer les informations de la chaine pour cette vidéo"
-    },
     "forceChannelCheck": {
         "message": "Forcer la vérification de la chaîne avant de passer"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Êtes-vous certain de vouloir supprimer cette configuration ?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nouvelle configuration"
-    },
-    "DeleteConfiguration": {
-        "message": "Supprimer la configuration"
     },
     "ChannelAllowlist": {
         "message": "Paramètres par chaîne"
