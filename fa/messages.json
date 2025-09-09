@@ -7,9 +7,6 @@
         "message": "بخش های اسپانسر شده، درخواست ساب اسکرایب و خیلی چیز های دیگر در ویدیو های یوتیوب را رد کنید. قسمت های اسپانسری ویدیو هایی که میبینید را گزارش کنید تا در وقت دیگران صرفه جویی شود.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "کانال در لیست سفید قرار گرفت!"
-    },
     "Segment": {
         "message": "بخش"
     },
@@ -99,12 +96,6 @@
     },
     "submitCheck": {
         "message": "مطمئن هستید که میخواهید این را ثبت کنید؟"
-    },
-    "whitelistChannel": {
-        "message": "قرار دادن کانال در لیست سفید"
-    },
-    "removeFromWhitelist": {
-        "message": "حذف کانال از لیست سفید"
     },
     "voteOnTime": {
         "message": "رأی دهی به یک بخش"
