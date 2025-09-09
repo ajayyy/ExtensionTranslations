@@ -7,9 +7,6 @@
         "message": "Overslaan van sponsors, vragen om te abonneren en meer in YouTube-video's. Rapporteer sponsors in video's die u bekijkt om anderen tijd te besparen.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanaal gewhitelist!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -130,12 +127,6 @@
     },
     "submitCheck": {
         "message": "Weet u zeker dat u dit wilt indienen?"
-    },
-    "whitelistChannel": {
-        "message": "Kanaal whitelisten"
-    },
-    "removeFromWhitelist": {
-        "message": "Kanaal verwijderen van whitelist"
     },
     "voteOnTime": {
         "message": "Stemmen op een segment"
@@ -841,9 +832,6 @@
     "permissionRequestFailed": {
         "message": "Verzoek om machtiging mislukt. Heeft u op geweigerd geklikt?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Als u dit niet kunt oplossen, schakel dan de instelling 'kanaalcontrole forceren vóór overslaan' uit omdat SponsorBlock niet in staat is de kanaalinformatie voor deze video op te halen"
-    },
     "forceChannelCheck": {
         "message": "Kanaalcontrole forceren vóór overslaan"
     },
@@ -1193,12 +1181,6 @@
     "areYouSureDeleteConfig": {
         "message": "Weet u zeker dat u deze configuratie wilt verwijderen?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nieuwe configuratie"
-    },
-    "DeleteConfiguration": {
-        "message": "Configuratie verwijderen"
     },
     "ConfigurationName": {
         "message": "Configuratienaam"
