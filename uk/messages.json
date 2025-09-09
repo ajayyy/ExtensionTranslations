@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Читання повідомлень"
     },
+    "fallbackToDefault": {
+        "message": "Повернутись до типового",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Автоматичний пропуск"
     },
@@ -1664,14 +1668,30 @@
         "message": "Ви впевнені, що хочете видалити цю конфігурацію?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Нова конфігурація"
+    },
+    "CreateNewConfiguration": {
+        "message": "Створити нову конфігурацію"
+    },
+    "DeleteConfiguration": {
+        "message": "Видалити конфігурацію"
+    },
     "ChannelAllowlist": {
         "message": "Налаштування для конкретного каналу"
     },
     "ConfigurationName": {
         "message": "Назва конфігурації"
     },
+    "DefaultConfiguration": {
+        "message": "Конфігурація за замовчуванням"
+    },
     "ChannelListInstructions": {
         "message": "Введіть будь-які канали, до яких ви хочете застосувати цю конфігурацію, в полі нижче, кожен з нового рядка. Підтримуються як ID каналів, так і відображувані імена. @ імена користувачів не підтримуються. Ви можете отримати ID каналів натисканням кнопки 'поділитися' на сторінці каналу. Для переходу до цієї сторінки, натисніть на опис, який з'являється нижче назви на сторінці каналу.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Додайте канали, які повинні використовувати цей альтернативний пропуск профілю, натиснувши кнопку у спливаючому вікні, зробленому цим каналом. Список каналів з'явиться нижче.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1932,31 @@
     "segmentHideFailed": {
         "message": "Не вдалося назавжди приховати/приховати запитаний сегмент, оскільки UUID сегменту не може бути вирішений:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "За годину",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Для цієї вкладки",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Для цього відео",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Для цього каналу",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Натисніть, щоб не застосувати цей пропуск профілю"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Ця опція перевизначається вищою опцією",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Натисніть, щоб не застосувати цей пропуск профілю"
     }
 }
