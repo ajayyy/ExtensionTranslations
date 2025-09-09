@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Lettura Messaggi"
     },
+    "fallbackToDefault": {
+        "message": "Regredisci a predefinito",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Salta Automaticamente"
     },
@@ -1664,14 +1668,30 @@
         "message": "Sei sicuro di voler eliminare questa configurazione?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nuova configurazione"
+    },
+    "CreateNewConfiguration": {
+        "message": "Crea nuova configurazione"
+    },
+    "DeleteConfiguration": {
+        "message": "Elimina configurazione"
+    },
     "ChannelAllowlist": {
         "message": "Opzioni specifiche del canale"
     },
     "ConfigurationName": {
         "message": "Nome Configurazione"
     },
+    "DefaultConfiguration": {
+        "message": "Configurazione predefinita"
+    },
     "ChannelListInstructions": {
         "message": "Inserisci qualsiasi canale a cui desideri applicare questa configurazione nella casella seguente, separata da nuove righe. Sia gli ID che i nomi visualizzati del canale sono supportati. I nomi utenti \"@\" non sono supportati. Puoi ottenere gli ID del canale cliccando sul pulsante di condivisione sulla pagina di informazioni del canale. Per raggiungere tale pagina, clicca sulla descrizione del canale che appare sotto il suo nome, sulla pagina del canale.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Aggiungi canali che dovrebbero usare questo profilo di salto alternativo cliccando il pulsante nella comparsa in un video realizzato da quel canale. L'elenco dei canali apparirà di seguito.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1932,45 @@
     "segmentHideFailed": {
         "message": "Impossibile nascondere/mostrare in modo permanente il segmento richiesto, poiché l'UUID del segmento non può essere risolto:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Per un'ora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Per questa scheda",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Solo per questo video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Per questo canale",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Clic per non applicare questo profilo di salto"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Questa opzione è stata sovrascritta da un'opzione con priorità maggiore",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Clicca per applicare questo profilo di salto"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Seleziona prima un profilo di salto",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Seleziona un profilo di salto"
+    },
+    "SkipProfileMenu": {
+        "message": "Salta menu' profilo"
+    },
+    "WhitelistedChannels": {
+        "message": "Canali nella lista bianca",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
     }
 }
