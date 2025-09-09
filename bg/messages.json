@@ -13,9 +13,6 @@
     "409": {
         "message": "Това е вече изпратено."
     },
-    "channelWhitelisted": {
-        "message": "Каналът е добавен към белия списък!"
-    },
     "Segment": {
         "message": "сегмент"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Наистина ли искате да изпратите това?"
-    },
-    "whitelistChannel": {
-        "message": "Добавяне на канала към белия списък"
-    },
-    "removeFromWhitelist": {
-        "message": "Премахване на канала от белия списък"
     },
     "voteOnTime": {
         "message": "Гласувайте за сегмент"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Искането за разрешение не бе успешно, натиснахте ли Отказ?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Ако не можете да разрешите това, деактивирайте настройката „Принудителна проверка на канала преди пропускане“, тъй като SponsorBlock не може да извлече информацията за канала за този видеоклип"
-    },
     "forceChannelCheck": {
         "message": "Принудителна проверка на канала преди пропускане"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Наистина ли искате да изтриете тази конфигурация?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Нова конфигурация"
-    },
-    "DeleteConfiguration": {
-        "message": "Изтриване на конфигурацията"
     },
     "ChannelAllowlist": {
         "message": "Специфични за канала настройки"
