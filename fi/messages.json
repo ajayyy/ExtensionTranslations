@@ -13,9 +13,6 @@
     "409": {
         "message": "Tämä on jo lähetetty aiemmin."
     },
-    "channelWhitelisted": {
-        "message": "Kanava lisätty valkolistalle!"
-    },
     "Segment": {
         "message": "osio"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Haluatko varmasti lähettää tämän?"
-    },
-    "whitelistChannel": {
-        "message": "Lisää kanava valkolistalle"
-    },
-    "removeFromWhitelist": {
-        "message": "Poista kanava valkolistalta"
     },
     "voteOnTime": {
         "message": "Äänestä osiota"
@@ -953,9 +944,6 @@
     "permissionRequestFailed": {
         "message": "Käyttöoikeuspyyntö epäonnistui, klikkasitko kiellä?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Jos et pysty ratkaisemaan tätä, poista käytöstä asetus 'Pakota kanavan tarkistus ennen ohittamista', koska SponsorBlock ei pysty noutamaan tämän videon kanavatietoja"
-    },
     "forceChannelCheck": {
         "message": "Pakota kanavan tarkistus ennen ohittamista"
     },
@@ -1671,12 +1659,6 @@
     "areYouSureDeleteConfig": {
         "message": "Haluatko varmasti poistaa tämän määrityksen?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Uusi määritys"
-    },
-    "DeleteConfiguration": {
-        "message": "Poista määritys"
     },
     "ChannelAllowlist": {
         "message": "Kanavakohtaiset asetukset"
