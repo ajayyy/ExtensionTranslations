@@ -13,9 +13,6 @@
     "409": {
         "message": "Ini sudah dikirim sebelumnya."
     },
-    "channelWhitelisted": {
-        "message": "Channel Didaftar-putihkan!"
-    },
     "Segment": {
         "message": "segmen"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Apakah anda yakin ingin mengirim ini?"
-    },
-    "whitelistChannel": {
-        "message": "Daftar putih channel"
-    },
-    "removeFromWhitelist": {
-        "message": "Hapus channel dari daftar putih"
     },
     "voteOnTime": {
         "message": "Beri Segmen Vote"
@@ -917,9 +908,6 @@
     },
     "permissionRequestFailed": {
         "message": "Permintaan izin gagal, apakah anda mengklik tolak?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Apabila anda tidak dapat menyelesaikan masalah ini, maka nonaktifkan pengaturan 'Paksa Cek Channel Sebelum Melewati', dikarenakan SponsorBlock tidak dapat menerima informasi channel untuk video ini"
     },
     "forceChannelCheck": {
         "message": "Paksa Cek Channel Sebelum Melewati"
