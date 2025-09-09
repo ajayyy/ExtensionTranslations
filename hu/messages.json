@@ -13,9 +13,6 @@
     "409": {
         "message": "Ez már korábban be lett küldve."
     },
-    "channelWhitelisted": {
-        "message": "A csatorna az engedélyezőlistára került!"
-    },
     "Segment": {
         "message": "szegmens"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Biztosan be akarod küldeni?"
-    },
-    "whitelistChannel": {
-        "message": "Csatorna fehérlistára tétele"
-    },
-    "removeFromWhitelist": {
-        "message": "Csatorna törlése fehérlistáról"
     },
     "voteOnTime": {
         "message": "Szavazzon a szegmensről"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Engedélykérés sikertelen. Nem nyomtál az elutasításra?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Ha nem sikerül megoldani a problémát, kapcsold ki a \"Csatorna ellenőrzése átugrás előtt\" opciót, mert a SponsorBlock nem tudja megszerezni a csatorna-információkat ehhez a videóhoz"
-    },
     "forceChannelCheck": {
         "message": "Csatorna ellenőrzése átugrás előtt"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Biztosan törölni szeretnéd ezt a konfigurációt?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Új konfiguráció"
-    },
-    "DeleteConfiguration": {
-        "message": "Konfiguráció törlése"
     },
     "ChannelAllowlist": {
         "message": "Csatornára vonatkozó beállítások"
