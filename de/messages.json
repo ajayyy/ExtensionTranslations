@@ -13,9 +13,6 @@
     "409": {
         "message": "Das wurde bereits eingereicht."
     },
-    "channelWhitelisted": {
-        "message": "Der Kanal wurde auf die Whitelist gesetzt!"
-    },
     "Segment": {
         "message": "Segment"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Bist du sicher, dass du dies übermitteln willst?"
-    },
-    "whitelistChannel": {
-        "message": "Kanal zur Ausnahmeliste hinzufügen"
-    },
-    "removeFromWhitelist": {
-        "message": "Kanal von der Whitelist entfernen"
     },
     "voteOnTime": {
         "message": "Über ein Segment abstimmen"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Berechtigungsanfrage fehlgeschlagen, hast du sie abgelehnt?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Falls du dies nicht beheben kannst, deaktiviere die Einstellung 'Kanalprüfung vor dem Überspringen von Segmenten erzwingen', da SponsorBlock nicht in der Lage ist, die Kanal-Informationen für dieses Video abzurufen"
-    },
     "forceChannelCheck": {
         "message": "Kanalprüfung vor dem Überspringen von Segmenten erzwingen"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Soll diese Konfiguration wirklich gelöscht werden?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Neue Konfiguration"
-    },
-    "DeleteConfiguration": {
-        "message": "Konfiguration löschen"
     },
     "ChannelAllowlist": {
         "message": "Kanalspezifische Einstellungen"
