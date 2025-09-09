@@ -7,9 +7,6 @@
         "message": "跳過 YouTube 影片中的贊助、訂閱提醒等內容。回報您觀看影片中的贊助內容，以節省其他人的時間。",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "頻道被加入了白名單！"
-    },
     "Segment": {
         "message": "片段"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "您確定要提交這個嗎？"
-    },
-    "whitelistChannel": {
-        "message": "將頻道列入白名單"
-    },
-    "removeFromWhitelist": {
-        "message": "將頻道從白名單移除"
     },
     "voteOnTime": {
         "message": "為分段投票"
@@ -902,9 +893,6 @@
     "permissionRequestFailed": {
         "message": "權限請求失敗，您是不是按到拒絕了？"
     },
-    "adblockerIssueWhitelist": {
-        "message": "如果您無法解決此問題，請停用「在跳過前強制檢查頻道」設定，因為 SponsorBlock 無法擷取此影片的頻道資訊。"
-    },
     "forceChannelCheck": {
         "message": "在跳過前強制檢查頻道"
     },
@@ -1584,12 +1572,6 @@
     "areYouSureDeleteConfig": {
         "message": "您確定要刪除這個設定嗎？",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "新增設定"
-    },
-    "DeleteConfiguration": {
-        "message": "刪除設定"
     },
     "ChannelAllowlist": {
         "message": "頻道特定設定"
