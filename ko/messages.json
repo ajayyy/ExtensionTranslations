@@ -7,9 +7,6 @@
         "message": "YouTube 영상의 스폰서 광고, '구독과 좋아요' 광고 같이 쓸데없는 광고를 모두 건너뛰세요. 영상의 스폰서 광고 구간을 신고하여 다른 사람들의 시간을 절약할 수 있게 해주세요.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "채널을 허용 목록에 추가했어요!"
-    },
     "Segment": {
         "message": "구간"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "정말로 이걸 제출할까요?"
-    },
-    "whitelistChannel": {
-        "message": "허용 목록에 채널 추가"
-    },
-    "removeFromWhitelist": {
-        "message": "허용 목록에서 채널 제거"
     },
     "voteOnTime": {
         "message": "구간 투표"
@@ -943,9 +934,6 @@
     "permissionRequestFailed": {
         "message": "권한 요청에 실패했어요. 거부를 누르셨나요?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "이 문제를 해결할 수 없는 경우 SponsorBlock이 이 동영상의 채널 정보를 찾을 수 없는 것일 수 있으니, '건너뛰기 전 채널 강제 확인' 설정을 사용하지 않아야 해요"
-    },
     "forceChannelCheck": {
         "message": "건너뛰기 전 채널 강제 확인"
     },
@@ -1661,12 +1649,6 @@
     "areYouSureDeleteConfig": {
         "message": "정말로 이 구성을 삭제할까요?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "새 구성"
-    },
-    "DeleteConfiguration": {
-        "message": "구성 삭제"
     },
     "ChannelAllowlist": {
         "message": "채널별 설정"
