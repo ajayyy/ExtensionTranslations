@@ -7,9 +7,6 @@
         "message": "Praleiskite rėmimus, prenumeratos maldavimus ir daugiau „YouTube“ vaizdo įrašuose. Praneškite apie žiūrėtų vaizdo įrašų rėmėjus, kad sutaupytumėte kitų laiko.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanalas įtrauktas į leidžiamąjį sąrašą."
-    },
     "Segment": {
         "message": "segmentas"
     },
