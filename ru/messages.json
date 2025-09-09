@@ -1912,5 +1912,25 @@
     "segmentHideFailed": {
         "message": "Не удалось скрыть/показать запрошенный сегмент, так как его UUID не может быть найден:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "На час",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Для этой вкладки",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Для этого видео",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Для этого канала",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "WhitelistedChannels": {
+        "message": "Белый список",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
     }
 }
