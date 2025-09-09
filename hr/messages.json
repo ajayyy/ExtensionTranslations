@@ -7,9 +7,6 @@
         "message": "Preskoči sponzore, zamolbe za pretplatu i drugo na YouTube videima. Prijavi sponzore na videima koje gledaš kako bi uštedio drugima vrijeme.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanal je dodan na popis dopuštenih!"
-    },
     "Segment": {
         "message": "odsječak"
     },
@@ -124,12 +121,6 @@
     },
     "submitCheck": {
         "message": "Jesi li siguran da želiš unijeti ovo?"
-    },
-    "whitelistChannel": {
-        "message": "Dopusti kanal"
-    },
-    "removeFromWhitelist": {
-        "message": "Izbaci kanal iz bijele liste"
     },
     "voteOnTime": {
         "message": "Glasaj za isječak"
@@ -1071,12 +1062,6 @@
     },
     "useCrowdsourcedTitles": {
         "message": "Koristi naslove zajednice"
-    },
-    "NewConfiguration": {
-        "message": "Nova konfiguracija"
-    },
-    "DeleteConfiguration": {
-        "message": "Izbriši konfiguraciju"
     },
     "ConfigurationName": {
         "message": "Ime konfiguracije"
