@@ -7,9 +7,6 @@
         "message": "Salte todos los sponsors, súplicas de suscripción y más en vídeos de YouTube. Reporta sponsors en los vídeos que veas para ahorrarle tiempo a los demás.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "¡Canal permitido!"
-    },
     "Segment": {
         "message": "segmento"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "¿Estás seguro de que quieres enviar esto?"
-    },
-    "whitelistChannel": {
-        "message": "Permitir Canal"
-    },
-    "removeFromWhitelist": {
-        "message": "Quitar canal de la lista blanca"
     },
     "voteOnTime": {
         "message": "Vote En Un Segmento"
@@ -943,9 +934,6 @@
     "permissionRequestFailed": {
         "message": "La petición de permiso ha fallado, ¿ha hecho clic en denegar?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Si no puede resolverlo, desactive la opción \"Forzar Comprobación de Canal antes de Saltar\", ya que SponsorBlock no puede recuperar la información del canal de este video"
-    },
     "forceChannelCheck": {
         "message": "Forzar Comprobación de Canal antes de Saltar"
     },
@@ -1604,12 +1592,6 @@
     "areYouSureDeleteConfig": {
         "message": "¿Estás seguro/a de que quieres eliminar esta configuración?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nueva configuración"
-    },
-    "DeleteConfiguration": {
-        "message": "Eliminar configuración"
     },
     "ConfigurationName": {
         "message": "Nombre de configuración"
