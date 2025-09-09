@@ -13,9 +13,6 @@
     "409": {
         "message": "Questo è già stato inviato in precedenza."
     },
-    "channelWhitelisted": {
-        "message": "Canale aggiunto alla lista delle esclusioni!"
-    },
     "Segment": {
         "message": "segmento"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Sei sicuro di volerlo inviare?"
-    },
-    "whitelistChannel": {
-        "message": "Aggiungi il canale alle eccezioni"
-    },
-    "removeFromWhitelist": {
-        "message": "Rimuovi il canale dalle eccezioni"
     },
     "voteOnTime": {
         "message": "Vota un segmento"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Richiesta di assicurazione fallita, hai cliccato nega?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Se non riesci a risolverlo, disabilita allora l'impostazione 'Forza Controllo Canale Prima di Saltare', poiché SponsorBlock non è in grado di recuperare le informazioni del canale per questo video"
-    },
     "forceChannelCheck": {
         "message": "Forza controllo canale prima di andare avanti"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Sei sicuro di voler eliminare questa configurazione?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nuova Configurazione"
-    },
-    "DeleteConfiguration": {
-        "message": "Elimina configurazione"
     },
     "ChannelAllowlist": {
         "message": "Opzioni specifiche del canale"
