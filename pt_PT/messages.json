@@ -7,9 +7,6 @@
         "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Canal adicionado à lista de autorizados!"
-    },
     "Segment": {
         "message": "segmento"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Tem a certeza que pretende submeter?"
-    },
-    "whitelistChannel": {
-        "message": "Adicionar canal à lista de permissões"
-    },
-    "removeFromWhitelist": {
-        "message": "Remover canal da lista de permissões"
     },
     "voteOnTime": {
         "message": "Votar em um segmento"
@@ -897,9 +888,6 @@
     "permissionRequestFailed": {
         "message": "Falha na solicitação de permissão, você clicou em negar?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Se não consegue resolver isto, desative a opção 'Forçar verificação do canal antes de ignorar', pois o SponsorBlock não pode recuperar as informações deste vídeo"
-    },
     "forceChannelCheck": {
         "message": "Forçar verificação do canal antes de ignorar"
     },
@@ -1600,12 +1588,6 @@
     "areYouSureDeleteConfig": {
         "message": "Deseja mesmo apagar esse ajuste?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Novo ajuste"
-    },
-    "DeleteConfiguration": {
-        "message": "Apagar Configuração"
     },
     "ChannelAllowlist": {
         "message": "Definições específicas do canal"
