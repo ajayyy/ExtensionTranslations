@@ -1322,9 +1322,6 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formatuj tylko przesłane tytuły"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Używaj samych wielkich liter w nieanglojęzycznych tytułach"
     },

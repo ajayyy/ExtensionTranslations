@@ -1312,9 +1312,6 @@
     "shouldCleanEmojis": {
         "message": "Fjern emojis"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formatér kun brugerindsendte titler"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Kapitalisér ord for ikke-engelske titler"
     },

@@ -454,7 +454,7 @@
         "message": "Private Benutzer-ID importieren/exportieren"
     },
     "whatChangeUserID": {
-        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit als dich ausgeben. Wenn du nach deiner öffentlichen Nutzer-ID suchst, klicke auf das Kopieren-Symbol im Popup."
+        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit für dich ausgeben. Wenn du nach deiner öffentlichen Benutzer-ID suchst, klicke auf das Kopieren-Symbol im Pop-up."
     },
     "setUserID": {
         "message": "Private Benutzer-ID festlegen"
@@ -518,7 +518,7 @@
         "message": "Dauer des Überspringen-Hinweises (Sekunden):"
     },
     "skipNoticeDurationDescription": {
-        "message": "Die überspringen Benachrichtigung wird mindestens für so viele Sekunden angezeigt. Für manuelles Überspringen kann sie länger sichtbar sein."
+        "message": "Die Überspringen-Meldung wird mindestens für so viele Sekunden angezeigt. Für manuelles Überspringen kann sie länger sichtbar sein."
     },
     "shortCheck": {
         "message": "Die folgende Einsendung ist kürzer als deine Mindestdauer. Das könnte bedeuten, dass dieses Videosegment bereits eingereicht wurde und aufgrund dieser Option einfach ignoriert wird. Bist du dir sicher, dass du es übermitteln möchtest?"
@@ -1080,7 +1080,7 @@
         "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Wiedergabefenster klickst."
     },
     "helpPageSubmitting2": {
-        "message": "Ein Klick auf den Abspielknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem nach oben zeigenden Pfeil, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
+        "message": "Ein Klick auf den Wiedergabeknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem Pfeil nach oben, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
     },
     "helpPageCopyOfDatabase": {
         "message": "Wo gehen die Einreichungen hin?"
@@ -1365,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Emojis entfernen"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Nur eingereichte Titel formatieren"
+    "formatCustomTitles": {
+        "message": "Eingereichte Titel formatieren"
+    },
+    "formatOriginalTitles": {
+        "message": "Originaltitel formatieren"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Wörter für nicht-englische Titel großschreiben"
@@ -1803,7 +1806,7 @@
         "message": "Verstecke Unordnung im Segmentlisten-Popup"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Verstecke die Knöpfe zur Segmenterstellung im Popup"
+        "message": "Verstecke Knöpfe zur Segmenterstellung im Popup"
     },
     "syncDisabledWarning": {
         "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
@@ -1911,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Zeige Symbol des Gelegenheitsmodus nur, wenn ein eingereichter Titel verfügbar ist"
     },
+    "dontFormatCasualTitles": {
+        "message": "Titel im Gelegenheitsmodus nicht formatieren",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Einstellungen öffnen"
+    },
+    "hookNewFeature": {
+        "message": "Hinweis: Hook ist nun Teil der neuen Hook/Begrüßungen-Kategorie statt Vorschau/Rückblick",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

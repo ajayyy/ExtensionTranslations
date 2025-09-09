@@ -1322,9 +1322,6 @@
     "shouldCleanEmojis": {
         "message": "Eemalda emojid"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Kohanda ainult kasutajate avaldatud pealkirju"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "Kasuta Läbivat Suurt Algustähte Mitte-ingliskeelsetes Pealkirjades"
     },

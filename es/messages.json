@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "No incluyas contenido, aun si las tarjetas finales están en pantalla"
     },
+    "category_preview": {
+        "message": "Vista previa/Recapitulación"
+    },
     "category_preview_description": {
         "message": "Colección de clips que muestran lo que vendrá en este video u otros videos en una serie en la cual toda la información es repetida en el video."
     },
@@ -736,11 +739,33 @@
     "category_preview_guideline3": {
         "message": "No para secciones que añaden contenido adicional"
     },
+    "category_hook": {
+        "message": "Gancho/Saludos",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Narrados trailers para el próximo vídeo, saludos y adyuvantes. Esto no debería saltarse conclusiones con información."
+    },
+    "category_hook_guideline1": {
+        "message": "Rastreadores narrados para el próximo vídeo"
+    },
+    "category_hook_guideline2": {
+        "message": "Saludos y buenas secciones de bienvenida a los televidentes"
+    },
+    "category_hook_guideline3": {
+        "message": "No para secciones que añaden contenido adicional"
+    },
     "category_filler": {
         "message": "Desvío del tema/Divagues"
     },
     "category_filler_description": {
         "message": "Desvíos del tema principal o divagues añadidos solo como relleno o humor que no son necesarias para entender el contenido principal del video. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
+    },
+    "category_filler_short": {
+        "message": "Tangentes"
+    },
+    "category_filler_guideline1": {
+        "message": "Escenas o chistes tangenciales"
     },
     "category_filler_guideline2": {
         "message": "Distracciones, bloopers, repeticiones"
@@ -856,6 +881,12 @@
     "skipOption": {
         "message": "Opción de Saltar",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Abrir opciones avanzadas de salto"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Error de sintaxis: sus opciones no han sido guardadas"
     },
     "advancedSkipSettingsHelp": {
         "message": "Cómo funciona esto",
@@ -1015,6 +1046,9 @@
     "considerDonating": {
         "message": "Ayuda a financiar el desarrollo"
     },
+    "supportSponsorBlock": {
+        "message": "Apoya mi trabajo a tiempo completo en SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Ocultar enlace de donación"
     },
@@ -1033,14 +1067,29 @@
     "helpPageHowSkippingWorks": {
         "message": "Cómo funciona"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "Todos los patrocinadores son enviados por usuarios como usted. Puede ver la lista de patrocinadores enviados en la base de datos abriendo la ventana emergente en la parte superior derecha de su navegador."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Cada vez que salte un segmento, recibirá un aviso. ¡Si el tiempo parece equivocado, dele un voto negativo! También puede votar en la ventana emergente."
     },
     "Submitting": {
         "message": "Envío"
     },
+    "helpPageSubmitting1": {
+        "message": "Los envíos se pueden realizar haciendo clic en el logotipo de SponsorBlock en el reproductor de vídeo."
+    },
+    "helpPageSubmitting2": {
+        "message": "Al hacer clic en el botón de reproducción se indica el inicio de un segmento y al hacer clic en el icono de parada se indica el final. Haga clic en el botón de la flecha hacia arriba para abrir el menú de envío donde puede verificar sus segmentos previsualizándolos y editándolos para ser perfectos. La precisión es importante, asegúrese de leer las directrices antes de enviar."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "¿Dónde van las presentaciones?"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "El código fuente está disponible libremente. Así que, aun si algo me sucede, sus envíos no se perderán."
+    },
+    "AdviceForSubmitting": {
+        "message": "Asesoramiento para enviar"
     },
     "Credits": {
         "message": "Créditos"
@@ -1312,6 +1361,9 @@
     },
     "shouldCleanEmojis": {
         "message": "Eliminar emojis"
+    },
+    "formatCustomTitles": {
+        "message": "Formatear títulos enviados por el usuario"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Poner en mayúsculas los títulos que no están en inglés"
@@ -1716,6 +1768,10 @@
     "submissionFailedServerSideAds": {
         "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
     },
+    "yttvLiveContentWarning": {
+        "message": "En YouTube TV, SponsorBlock no es compatible con contenido en vivo y grabado recientemente. Si esta es una grabación reciente, por favor espere unas horas para que la versión procesada de la grabación esté disponible.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
     "Yes": {
         "message": "Si"
     },
@@ -1758,15 +1814,30 @@
         "message": "Modo Casual",
         "description": "Casual mode is a mode in DeArrow"
     },
+    "CasualModeDescription": {
+        "message": "Mantén los títulos originales cuando describan bien el vídeo y sean ingeniosos o graciosos.\nElige qué categorías de títulos quieres ver.\nPodrás votar si un título encaja en una categoría o no."
+    },
     "minimumVotes": {
         "message": "Votos mínimos",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Mostrar miniatura original en modo casual votó vídeos",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
         "message": "Nueva característica: Modo casual",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "dontFormatCasualTitles": {
+        "message": "No formatear títulos en modo casual",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Abrir la configuración"
+    },
+    "hookNewFeature": {
+        "message": "Aviso: El gancho se ha movido de la categoría Previsualizar/Recaptar a la nueva categoría de Hook/Saludos",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

@@ -8,10 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Server said this request was invalid"
+        "message": "Server said this request was invalid."
     },
     "409": {
-        "message": "This has already been submitted before"
+        "message": "This has already been submitted before."
     },
     "Segment": {
         "message": "segment"
@@ -111,7 +111,8 @@
         "message": "It seems the server is down. Contact the dev immediately."
     },
     "connectionError": {
-        "message": "A connection error has occurred. Error code: "
+        "message": "A connection error has occurred.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segments still loading..."
@@ -355,7 +356,8 @@
         "message": "The server seems to be overloaded. Try again in a few seconds."
     },
     "errorCode": {
-        "message": "Error Code: "
+        "message": "Server returned status code {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Skip"
@@ -1357,8 +1359,11 @@
     "shouldCleanEmojis": {
         "message": "Remove Emojis"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Only format user-submitted titles"
+    "formatCustomTitles": {
+        "message": "Format user-submitted titles"
+    },
+    "formatOriginalTitles": {
+        "message": "Format original titles"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Capitalize Words for Non-English Titles"
@@ -1913,12 +1918,20 @@
     "onlyShowCasualIconForCustom": {
         "message": "Only show casual mode icon when a custom title is available"
     },
+    "dontFormatCasualTitles": {
+        "message": "Don't format casual mode titles",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Open settings"
     },
     "hookNewFeature": {
         "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     },
     "skipProfile_forAnHour": { 
         "message": "For an hour",

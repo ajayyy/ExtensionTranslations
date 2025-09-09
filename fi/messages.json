@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Älä sisällytä sisältöä, vaikka loppukortit olisivatkin näytöllä"
     },
+    "category_preview": {
+        "message": "Esikatselu/Kertaus"
+    },
     "category_preview_description": {
         "message": "Kokoelma leikkeitä, jotka kertovat mitä video sisältää tai sarjan muut videot sisältävät ja joiden kaikki informaatio toistuu videossa myöhemmin."
     },
@@ -734,6 +737,22 @@
         "message": "Kertaus edellisestä videosta"
     },
     "category_preview_guideline3": {
+        "message": "Ei osioille, jotka lisäävät uutta sisältöä"
+    },
+    "category_hook": {
+        "message": "Koukku/Tervehdykset",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Puhutut trailerit tulevalle videolla, tervehdykset ja hyvästit. Tämän ei tulisi ohittaa tietoa sisältävät päätelmät."
+    },
+    "category_hook_guideline1": {
+        "message": "Puhutut trailerit tulevalle videolle"
+    },
+    "category_hook_guideline2": {
+        "message": "Tervehdys ja hyvästi -osiot jotka tervehtivät katsojat"
+    },
+    "category_hook_guideline3": {
         "message": "Ei osioille, jotka lisäävät uutta sisältöä"
     },
     "category_filler": {
@@ -1027,6 +1046,9 @@
     "considerDonating": {
         "message": "Auta rahoittamalla kehitystä"
     },
+    "supportSponsorBlock": {
+        "message": "Tue kokopäiväistä työtäni SponsorBlockissa"
+    },
     "hideDonationLink": {
         "message": "Piilota lahjoituslinkki"
     },
@@ -1054,8 +1076,17 @@
     "Submitting": {
         "message": "Lähettäminen"
     },
+    "helpPageSubmitting1": {
+        "message": "Lähettäminen voidaan tehdä klikkaamalla SponsorBlock logoa videosoittimessa."
+    },
+    "helpPageSubmitting2": {
+        "message": "Toistopainikkeen klikkaaminen osoittaa osion alun ja lopetuskuvakkeen klikkaaminen osoittaa sen lopun. Klikkaa ylänuolipainiketta avataksesi osion lähetysvalikon, jossa voit varmistaa lähetyksesi esikatselemalla ne ja muokata ne täydellisiksi. Tarkkuus on tärkeää; luethan säännöt ennen lähettämistä."
+    },
     "helpPageCopyOfDatabase": {
         "message": "Minne lähetetyt osiot menevät?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Kaikki lähetetyt tiedot syötetään SponsorBlock tietokantaan, joka on julkisesti saatavilla kenelle tahansa käytettäväksi ja on saatavilla osoitteessa"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Lähdekoodi on vapaasti saatavilla. Joten, vaikka jotain tapahtuisi minulle, sinun lähetyksesi eivät katoa."
@@ -1334,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Poista emojit"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Muotoile vain käyttäjälähtöiset otsikot"
+    "formatCustomTitles": {
+        "message": "Muotoile käyttäjälähtöiset otsikot"
+    },
+    "formatOriginalTitles": {
+        "message": "Muotoile alkuperäiset otsikot"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Näytä englanninkielestä poikkeavien otsikoiden sanat isoilla alkukirjaimilla"
@@ -1455,6 +1489,12 @@
     },
     "showOriginalOnHover": {
         "message": "Vaihda muokattujen ja alkuperäisten tietojen välillä osoitettaessa"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Vaihda muakattujen tietojen ja alkuperäisten tietojen välillä kun hiiri on missä tahansa videokortin päällä"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Tämä poistaa automaattisen toiston käytöstä kun hiiri on kohteen päällä"
     },
     "showCustomOnHoverIfCasual": {
         "message": "Näytä mukautettu otsikko osoitettaessa, jos kasuaalitilan otsikko näytetään"
@@ -1864,7 +1904,7 @@
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Näytä kasuaalitilassa äänestettujen videoiden alkuperäiset pienoiskuvat",
+        "message": "Näytä kasuaalitilassa äänestettyjen videoiden alkuperäiset pienoiskuvat",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
@@ -1874,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Näytä kasuaalitilan kuvake vain kun mukautettu otsikko on saatavilla"
     },
+    "dontFormatCasualTitles": {
+        "message": "Älä muotoile kasuaalitilan otsikoita",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Avaa asetukset"
+    },
+    "hookNewFeature": {
+        "message": "Huomio: Koukku on siirretty Esikatselu/Kertaus -kategoriasta uuteen Koukku/Tervehdykset -kategoriaan",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

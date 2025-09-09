@@ -724,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "画面上にエンドカードが表示されているかに関わらず、コンテンツを含めない"
     },
+    "category_preview": {
+        "message": "予告/あらすじ"
+    },
     "category_preview_description": {
         "message": "この動画や他の動画でこのあと起きる内容など、今後再び登場する場面を連続的にまとめたクリップ。"
     },
@@ -735,6 +738,22 @@
     },
     "category_preview_guideline3": {
         "message": "新たなコンテンツを含むセクションには使用しない"
+    },
+    "category_hook": {
+        "message": "掴み/挨拶",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "公開予定の動画のナレーション付きトレーラー、挨拶とお別れの言葉。結論には情報を含めてください。"
+    },
+    "category_hook_guideline1": {
+        "message": "予定の動画のナレーション付きトレーラー"
+    },
+    "category_hook_guideline2": {
+        "message": "視聴者への挨拶やお別れシーン"
+    },
+    "category_hook_guideline3": {
+        "message": "付加的な内容を持つシーンには当てはまりません"
     },
     "category_filler": {
         "message": "脱線/冗談"
@@ -1346,9 +1365,6 @@
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
     },
-    "onlyFormatCustomTitles": {
-        "message": "ユーザーが登録した題名のみを整形"
-    },
     "onlyTitleCaseInEnglish": {
         "message": "英語ではない題名も大文字化する"
     },
@@ -1892,7 +1908,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "改善された題名が利用可能な場合にのみカジュアルモードアイコンを表示"
     },
+    "dontFormatCasualTitles": {
+        "message": "カジュアルモードの題名を変更しない",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "設定を開く"
+    },
+    "hookNewFeature": {
+        "message": "お知らせ: 掴みは予告/あらすじから新たに掴み/挨拶に移動しました",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

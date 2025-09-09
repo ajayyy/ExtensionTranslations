@@ -725,7 +725,7 @@
         "message": "Inkludera inte innehåll, även om slutkort visas på skärmen"
     },
     "category_preview": {
-        "message": "Förhandstitt/sammanfattning"
+        "message": "Förhandstitt/Sammanfattning"
     },
     "category_preview_description": {
         "message": "Samling av klipp som visar vad som kommer i den här videon eller andra videor i en serie där all information upprepas senare i videon."
@@ -1365,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Ta bort emojis"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formatera endast titlar som användaren skickat in"
+    "formatCustomTitles": {
+        "message": "Formatera användarinskickade titlar"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatera originaltitlar"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Använd versaler för icke-engelska titlar"
@@ -1911,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Visa endast ikonen för casualt läge när en anpassad titel är tillgänglig"
     },
+    "dontFormatCasualTitles": {
+        "message": "Formatera inte titlar i casualt läge",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Öppna inställningar"
+    },
+    "hookNewFeature": {
+        "message": "Observera: Hook har flyttats från kategorin Förhandstitt/Sammanfattning till den nya kategorin Hook/Hälsningar",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

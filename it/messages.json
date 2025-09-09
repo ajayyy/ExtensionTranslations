@@ -117,7 +117,7 @@
         "message": "Si è verificato un errore durante la connessione. Codice errore: "
     },
     "segmentsStillLoading": {
-        "message": "Segmenti in caricamento..."
+        "message": "Segmenti ancora in caricamento…"
     },
     "clearTimes": {
         "message": "Rimuovi i segmenti"
@@ -132,7 +132,7 @@
         "message": "Icona Chiudi"
     },
     "OpenSubmissionMenu": {
-        "message": "Apri menu invio"
+        "message": "Apri menu' invio"
     },
     "OpenCasualVoteMenu": {
         "message": "Apri menu' modalità casuale"
@@ -185,6 +185,12 @@
     },
     "copySegmentID": {
         "message": "Copia ID Segmento"
+    },
+    "loopChapter": {
+        "message": "Ripeti capitolo"
+    },
+    "unloopChapter": {
+        "message": "Non ripetere capitolo"
     },
     "hideThis": {
         "message": "Nascondi"
@@ -250,10 +256,10 @@
         "message": "Mostra Avviso Dopo Aver Saltato un Segmento"
     },
     "showUpcomingNotice": {
-        "message": "Mostra Un Avviso Prima Dell'Inizio Di Un Segmento"
+        "message": "Mostra preavviso prima dell'inizio di un segmento"
     },
     "showCategoryGuidelines": {
-        "message": "Mostra Aiuto della Categoria"
+        "message": "Mostra aiuto della categoria"
     },
     "noticeVisibilityMode0": {
         "message": "Salta Avvisi di Dimensioni Complete"
@@ -299,7 +305,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Apri menu di invio",
+        "message": "Apri menu' di invio",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -315,11 +321,11 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Vota negativamente segmento",
+        "message": "Disprezza segmento",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Vota positivamente segmento",
+        "message": "Apprezza segmento",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -331,15 +337,15 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Attiva/disattiva DeArrow",
+        "message": "Abilita/disabilita DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Apri menù di invio",
+        "message": "Apri menu' di invio",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
-        "message": "Seleziona un tasto digitandolo e scegli qualsiasi tasto modificatore che desideri utilizzare."
+        "message": "Seleziona un tasto digitandolo e scegli qualsiasi combinazione modificatrice che desideri usare."
     },
     "0": {
         "message": "Timeout della connessione. Controlla la tua connessione a Internet. Se internet sta funzionando, il server è probabilmente sovraccarico oppure giù."
@@ -381,7 +387,7 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
-        "message": "Prossimo {0}",
+        "message": "In arrivo {0}",
         "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
@@ -445,16 +451,16 @@
         "message": "Controlla status.sponsor.ajay.app per lo stato del server."
     },
     "changeUserID": {
-        "message": "Importa/Esporta il Tuo UserID Privato"
+        "message": "Importa/Esporta il tuo UserID privato"
     },
     "whatChangeUserID": {
         "message": "Questo dovrebbe esser mantenuto privato. È come una password e non dovrebbe esser condiviso con nessuno. Se qualcuno lo possiede, può impersonarti. Se stai cercando il tuo userID pubblico, clicca l'icona degli appunti nel popup."
     },
     "setUserID": {
-        "message": "Imposta UserID Privato"
+        "message": "Imposta UserID privato"
     },
     "userIDChangeWarning": {
-        "message": "Attenzione: La modifica dell'UserID Privato è permanente. Sei sicuro di volerlo fare? Assicurati di effettuare il backup di quello precedente."
+        "message": "Avviso: la modifica dell'UserID privato è permanente. Sei sicuro di volerlo fare? Assicurati di effettuare il backup di quello precedente."
     },
     "createdBy": {
         "message": "Creato da"
@@ -490,6 +496,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "Stai per reimpostare la lista di istanze di Invidious"
     },
+    "invidiousDisabledSafari": {
+        "message": "Al momento il supporto Invidious non è disponibile in Safari a causa di un difetto in Safari. Quando Apple correggerà il difetto, sarà aggiunto di nuovo."
+    },
     "currentInstances": {
         "message": "Istanze Attuali:"
     },
@@ -500,10 +509,10 @@
         "message": "I segmenti più brevi del valore impostato non verranno saltati o visualizzati nel lettore."
     },
     "enableManualSkipOnFullVideo": {
-        "message": "Usa il salto manuale quando c'è un'etichetta per il video completo"
+        "message": "Usa il salto manuale quando c'è un'etichetta completa per il video"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Per le persone che vogliono guardare il video senza interruzioni se è una sponsorizzazione o autopromozione."
+        "message": "Per le persone che vogliono guardare il video senza interruzioni se è sponsorizzato o auto-promozione."
     },
     "skipNoticeDuration": {
         "message": "Salta durata avviso (secondi):"
@@ -530,7 +539,7 @@
         "message": "Indirizzo del server di recupero dati"
     },
     "dataFetchingServerAddressDescription": {
-        "message": "L'indirizzo utilizzato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
+        "message": "L'indirizzo usato per effettuare le chiamate al server di recupero dati.\nA meno che tu non abbia una tua istanza del server, non dovrebbe essere modificato."
     },
     "thumbnailCacheServerAddress": {
         "message": "Indirizzo del server cache delle miniature"
@@ -655,19 +664,19 @@
         "message": "Donazioni, abbonamenti e merchandise personalizzato"
     },
     "category_selfpromo_guideline2": {
-        "message": "Shoutout non pagati che non aggiungono nulla al video"
+        "message": "Annunci gratuiti che non aggiungono nulla al video"
     },
     "category_selfpromo_guideline3": {
-        "message": "Non per prodotti aziendali e merchandise"
+        "message": "Non per prodotti aziendali e merci"
     },
     "category_exclusive_access": {
         "message": "Accesso Esclusivo"
     },
     "category_exclusive_access_description": {
-        "message": "Solo per etichettare interi video. Usato quando un video mostra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o a cui si ha avuto un accesso sovvenzionato."
+        "message": "Solo per etichettare interi video. Usato quando un video illustra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o al quale si ha avuto un accesso sovvenzionato."
     },
     "category_exclusive_access_pill": {
-        "message": "Questo video mostra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o a cui si ha avuto un accesso sovvenzionato",
+        "message": "Questo video illustra un prodotto, un servizio o un luogo che è stato ricevuto gratuitamente o al quale si ha avuto un accesso sovvenzionato",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
@@ -680,10 +689,10 @@
         "message": "Quando nel punto centrale del contenuto è presente un breve promemoria per like, iscrizione o follow. Se dovesse risultare esteso o riguardante qualcosa di specifico, potrebbe essere auto-promozione."
     },
     "category_interaction_guideline1": {
-        "message": "Brevi inviti a mettere mi piace, follow o iscriversi"
+        "message": "Brevi promemoria per apprezzare, seguire o iscriversi"
     },
     "category_interaction_guideline2": {
-        "message": "Include inviti indiretti a commentare"
+        "message": "Include promemoria per commentare"
     },
     "category_interaction_guideline3": {
         "message": "Non per promozione generale, solo inviti all'interazione"
@@ -701,7 +710,7 @@
         "message": "Intermezzo"
     },
     "category_intro_guideline1": {
-        "message": "Sezione senza contenuto effettivo"
+        "message": "Intervallo senza contenuto effettivo"
     },
     "category_intro_guideline2": {
         "message": "Non per transizioni con informazioni"
@@ -715,6 +724,9 @@
     "category_outro_guideline1": {
         "message": "Non include contenuti, anche se le schede finali sono a schermo"
     },
+    "category_preview": {
+        "message": "Anteprima/Riepilogo"
+    },
     "category_preview_description": {
         "message": "Raccolta di clip che mostra cosa succederà in questo video o altri video in una serie, tutte le informazioni sono ripetute in seguito nel video."
     },
@@ -726,6 +738,34 @@
     },
     "category_preview_guideline3": {
         "message": "Non per sezioni che aggiungono contenuti in più"
+    },
+    "category_hook": {
+        "message": "Gancio/Saluti",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Spezzone narrato per i prossimi video, saluti e conclusioni. Questo non dovrebbe saltare le conclusioni con le informazioni."
+    },
+    "category_hook_guideline1": {
+        "message": "Spezzoni narrati per il video in arrivo"
+    },
+    "category_hook_guideline2": {
+        "message": "Saluti e sezioni conclusive che attirano spettatori"
+    },
+    "category_hook_guideline3": {
+        "message": "Non per sezioni che aggiungono contenuti in più"
+    },
+    "category_filler": {
+        "message": "Intermezzi/Scherzi"
+    },
+    "category_filler_description": {
+        "message": "Scene aggiuntive o scherzi che non servono a far capire il contenuto principale del video. Ciò non dovrebbe includere segmenti che forniscano dettagli di contesto o di sfondo. Questa è una categoria molto aggressiva intesa per quando non sei nello stato d'animo adatto per vedere \"divertimento\"."
+    },
+    "category_filler_short": {
+        "message": "Intermezzi"
+    },
+    "category_filler_guideline1": {
+        "message": "Scene aggiuntive o scherzi"
     },
     "category_filler_guideline2": {
         "message": "Distrazioni, bloopers, replay"
@@ -814,6 +854,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Salta automaticamente tutti i segmenti quando c'è un segmento non musicale"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Salta automaticamente solo in music.youtube.com"
+    },
     "muteSegments": {
         "message": "Silenzia i segmenti invece di saltarli, quando possibile"
     },
@@ -838,6 +881,16 @@
     "skipOption": {
         "message": "Salta Opzione",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Apri opzioni salto avanzate"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Errore di sintassi: le tue opzioni non sono state salvate"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Come funziona questo",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Attiva Server di Beta Testing"
@@ -993,6 +1046,9 @@
     "considerDonating": {
         "message": "Aiuta a finanziare lo sviluppo"
     },
+    "supportSponsorBlock": {
+        "message": "Sostieni il mio lavoro a tempo pieno per SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Nascondi Link di Donazione"
     },
@@ -1008,14 +1064,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Molte funzionalità sono disabilitate di default. Se vuoi saltare intro, outro, usare Invidious, etc. abilitale sotto. Puoi anche nascondere/mostrare gli elementi dell'UI."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Come funziona"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Tutti gli sponsor sono inviati da utenti come te. È possibile vedere l'elenco degli sponsor inviati nella banca dati aprendo la comparsa in alto a destra del browser."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Ogni volta che salti un segmento, sarai avvisato. Se il momento sembra sbagliato, vota in negativo cliccando downvote! Puoi anche votare nel popup."
     },
     "Submitting": {
         "message": "Inviando"
     },
+    "helpPageSubmitting1": {
+        "message": "L'invio può essere fatto cliccando il logo SponsorBlock nel riproduttore video."
+    },
+    "helpPageSubmitting2": {
+        "message": "Cliccare il pulsante play indica l'inizio di un segmento e cliccare l'icona stop indica la fine. Clicca il pulsante freccia su per aprire il menu' di invio dove è possibile verificare i segmenti vedendoli in anteprima e modificandoli per essere perfetti. La precisione è importante, assicurarsi di leggere le linee guida prima di inviare."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Dove vanno gli invii?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Tutti i contributi sono inseriti nella banca dati di SponsorBlock, che è pubblicamente rilasciato per chiunque da usare ed è disponibile a"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Il codice sorgente è liberamente disponibile. Quindi, anche se mi succede qualcosa, i tuoi contributi non saranno persi."
+    },
+    "AdviceForSubmitting": {
+        "message": "Consigli per l'invio"
     },
     "Credits": {
         "message": "Crediti"
@@ -1288,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Rimuovi Emoji"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Formatta solo i titoli inviati dagli utenti"
+    "formatCustomTitles": {
+        "message": "Formato titoli inviati dall'utente"
+    },
+    "formatOriginalTitles": {
+        "message": "Formato titoli originali"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Rendi le parole maiuscole per i titoli non inglesi"
@@ -1366,6 +1446,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Nascondi i titoli e le miniature durante il recupero dei dati dal server. Se disabilitato, i titoli e le anteprime potrebbero lampeggiare mentre cambiano."
     },
+    "ignoreTranslatedTitles": {
+        "message": "Non mostrare i titoli tradotti di YouTube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "A volte YouTube tradurrà automaticamente i titoli nella tua lingua madre. Questa opzione si applica solo quando non è disponibile un titolo fornito da altri."
+    },
     "onAllPages": {
         "message": "Su Tutte le Pagine",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1400,6 +1487,18 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Se vuoi sapere sempre se un titolo/anteprima sono cambiati, abilita questo."
     },
+    "showOriginalOnHover": {
+        "message": "Scambia tra dettagli personalizzati e dettagli originali se puntato"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Scambia tra dettagli personalizzati e dettagli originali se puntato ovunque sulla scheda video"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Questo disabiliterà la riproduzione automatica se puntato"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Mostra titolo personalizzato se puntato (nel caso sia mostrato un titolo casuale)"
+    },
     "showIconForFormattedTitles": {
         "message": "Mostra il pulsante \"Mostra Originale\" per i titoli formattati automaticamente"
     },
@@ -1414,6 +1513,10 @@
         "message": "Miniature",
         "description": "Referring to thumbnails of YouTube videos"
     },
+    "CasualVotes": {
+        "message": "Voti casuali",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
     "Error": {
         "message": "Errore"
     },
@@ -1422,6 +1525,9 @@
     },
     "ShowModified": {
         "message": "Mostra i dettagli modificati"
+    },
+    "ShowFormatted": {
+        "message": "Mostra dettagli formattati"
     },
     "FillerWarning": {
         "message": "Attenzione: Questa è una categoria incredibilmente aggressiva. Dovrai probabilmente annullare il salto di determinate cose o, talvolta, disabilitarlo. Sappi che, per molti video, oltre il 50% viene saltato! Tuttavia, ricorda che sono comunque presenti delle linee guida specifiche da seguire, per l'invio.",
@@ -1699,6 +1805,9 @@
     "cleanPopup": {
         "message": "Nascondi disordine nel popup dell'elenco dei segmenti"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Nascondi i pulsanti di creazione del segmento nella comparsa"
+    },
     "syncDisabledWarning": {
         "message": "Attenzione: L'archiviazione d'estensione è stata disabilitata sul tuo browser. Le impostazioni non saranno salvate se proverai a salvarle."
     },
@@ -1730,7 +1839,90 @@
         "message": "Sei sicuro che questa miniatura originale segue le linee guida di DeArrow? Se preferisci vedere le miniature originali in generale, considera di cambiare l'opzione per \"Quando non esiste nessuna miniatura presentata\" nelle impostazioni DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
+    "yttvLiveContentWarning": {
+        "message": "Su YouTube TV, SponsorBlock non è compatibile con contenuti dal vivo e registrati di recente. Se questa è una registrazione recente, si prega di attendere alcune ore perché la versione elaborata della registrazione diventi disponibile.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "L'aggiunta alle eccezioni dei canali non è supportata in tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Ti piace il titolo originale?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Sì"
+    },
     "No": {
         "message": "No"
+    },
+    "votes": {
+        "message": "{0} voti",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} voto",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Divertente",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creativo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Spigliato",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descrittivo",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Altro",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Modalità classica",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "I titoli sono sostituiti con formati standardizzati basati sulle linee guida per tutti i video nei quali esiste un titolo fornito da altri."
+    },
+    "CasualMode": {
+        "message": "Modalità casuale",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Mantieni i titoli originali quando descrivono il video abbastanza bene e sono intelligenti o divertenti.\nScegli quali categorie di titoli vuoi vedere.\nSarai in grado di votare se un titolo si inserisce in una categoria o no."
+    },
+    "minimumVotes": {
+        "message": "Voti minimi",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Mostra miniatura originale dei video votati in modalità casuale",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "Nuova funzionalità: modalità casuale",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Mostra l'icona della modalità casuale solo quando è disponibile un titolo personalizzato"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Non formattare i titoli casuali",
+        "description": "Option for casual mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Apri impostazioni"
+    },
+    "hookNewFeature": {
+        "message": "Avviso: Hook è stato spostato dalla categoria Anteprima/Recap alla nuova categoria Gancio/Ringraziamenti",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }

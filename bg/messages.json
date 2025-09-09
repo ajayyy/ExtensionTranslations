@@ -1365,8 +1365,11 @@
     "shouldCleanEmojis": {
         "message": "Премахване на емоджитата"
     },
-    "onlyFormatCustomTitles": {
-        "message": "Форматиране само на заглавия, подадени от потребителите"
+    "formatCustomTitles": {
+        "message": "Форматиране на подадени от потребителя заглавия"
+    },
+    "formatOriginalTitles": {
+        "message": "Форматиране на оригиналните заглавия"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Писане с главни букви на думите в неанглийските заглавия"
@@ -1911,7 +1914,15 @@
     "onlyShowCasualIconForCustom": {
         "message": "Показване на иконата за нормален режим само когато е налично персонализирано заглавие"
     },
+    "dontFormatCasualTitles": {
+        "message": "Без форматиране на заглавията в нормален режим",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Отваряне на настройките"
+    },
+    "hookNewFeature": {
+        "message": "Известие: Кукичката е преместена от категорията Кратко резюме/Обобщение в новата категория Кукичка/Поздрави",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
     }
 }
