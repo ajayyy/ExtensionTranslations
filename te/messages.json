@@ -7,9 +7,6 @@
         "message": "YouTube వీడియోలలో స్పాన్సర్‌షిప్‌లు, సభ్యత్వ యాచన మరియు మరిన్ని దాటవేయండి. ఇతరుల సమయాన్ని ఆదా చేయడానికి మీరు చూసే వీడియోలపై స్పాన్సర్‌లను నివేదించండి.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "ఛానెల్ వైట్‌లిస్ట్!"
-    },
     "Segment": {
         "message": "విభాగం"
     },
@@ -93,12 +90,6 @@
     },
     "submitCheck": {
         "message": "మీరు దీన్ని ఖచ్చితంగా సమర్పించాలనుకుంటున్నారా?"
-    },
-    "whitelistChannel": {
-        "message": "వైట్‌లిస్ట్ ఛానెల్"
-    },
-    "removeFromWhitelist": {
-        "message": "వైట్‌లిస్ట్ నుండి ఛానెల్‌ని తొలగించండి"
     },
     "voteOnTime": {
         "message": "ఒక విభాగంలో ఓటు వేయండి"
