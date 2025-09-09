@@ -13,9 +13,6 @@
     "409": {
         "message": "Ово је већ поднесено раније."
     },
-    "channelWhitelisted": {
-        "message": "Канал на белој листи!"
-    },
     "Segment": {
         "message": "сегмент"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Желите ли заиста да поднесете ово?"
-    },
-    "whitelistChannel": {
-        "message": "Канал на белој листи"
-    },
-    "removeFromWhitelist": {
-        "message": "Уклони канал са беле листе"
     },
     "voteOnTime": {
         "message": "Гласање за сегмент"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Захтев за дозволу није успео, кликнули сте на „Одбиј”?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Ако не можете да решите ово, онемогућите подешавање „Присилна провера канала пре прескакања”, пошто SponsorBlock не може да преузме информације о каналу за овај видео снимак"
-    },
     "forceChannelCheck": {
         "message": "Присилна провера канала пре прескакања"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Желите ли заиста да избришете ову конфигурацију?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Нова конфигурација"
-    },
-    "DeleteConfiguration": {
-        "message": "Избриши конфигурацију"
     },
     "ChannelAllowlist": {
         "message": "Подешавања специфична за канал"
