@@ -7,9 +7,6 @@
         "message": "Omiteți cu ușurință spoturi sponsorizate, cereri de abonare și alte întreruperi pe YouTube. Semnalați-le pentru a economisi timp altora.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Canalul a fost adăugat la excepții!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Sunteți sigur că doriți să trimiteți asta?"
-    },
-    "whitelistChannel": {
-        "message": "Adaugă canalul la excepții"
-    },
-    "removeFromWhitelist": {
-        "message": "Șterge canalul de la excepții"
     },
     "voteOnTime": {
         "message": "Votează pe un Segment"
@@ -943,9 +934,6 @@
     "permissionRequestFailed": {
         "message": "Solicitarea permisiunii a eșuat, ai dat clic pe refuz?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Dacă nu puteți rezolva acest lucru, apoi dezactivați setarea 'Forțați verificarea canalului înainte de sărit', deoarece SponsorBlock nu poate prelua informațiile canalului pentru acest videoclip"
-    },
     "forceChannelCheck": {
         "message": "Forțează verificarea canalului înainte de a sări"
     },
@@ -1661,12 +1649,6 @@
     "areYouSureDeleteConfig": {
         "message": "Ești sigur că vrei să ștergi această configurație?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Configurație Nouă"
-    },
-    "DeleteConfiguration": {
-        "message": "Șterge Configurația"
     },
     "ChannelAllowlist": {
         "message": "Setări care depind de canale"
