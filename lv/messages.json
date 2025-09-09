@@ -7,9 +7,6 @@
         "message": "Izlaidiet sponsorus, abonēšanas lūgumus un vairāk, skatoties YouTube video. Ziņojiet par sponsoriem video, kurus jūs skatāties, lai ietaupītu citu laiku.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanāls iekļauts baltajā sarakstā!"
-    },
     "Segment": {
         "message": "segments"
     },
