@@ -7,9 +7,6 @@
         "message": "跳过 YouTube 视频中的赞助广告、订阅提醒等片段。标记视频中的赞助广告来节约大家的时间。",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "频道已加入白名单！"
-    },
     "Segment": {
         "message": "片段"
     },
@@ -130,12 +127,6 @@
     },
     "submitCheck": {
         "message": "您确定要提交它吗？"
-    },
-    "whitelistChannel": {
-        "message": "将频道列入白名单"
-    },
-    "removeFromWhitelist": {
-        "message": "将频道移出白名单"
     },
     "voteOnTime": {
         "message": "对片段投票"
@@ -937,9 +928,6 @@
     "permissionRequestFailed": {
         "message": "权限请求失败，您是否点击拒绝？"
     },
-    "adblockerIssueWhitelist": {
-        "message": "如果您无法解决这个问题，请禁用“跳过前强制进行频道检查”选项，因为 SponsorBlock 无法获得此视频的频道信息"
-    },
     "forceChannelCheck": {
         "message": "跳过前强制进行频道检查"
     },
@@ -1547,12 +1535,6 @@
     },
     "useCrowdsourcedTitles": {
         "message": "显示用户提交的标题"
-    },
-    "NewConfiguration": {
-        "message": "新配置"
-    },
-    "DeleteConfiguration": {
-        "message": "删除配置"
     },
     "ConfigurationName": {
         "message": "配置名称"
