@@ -7,9 +7,6 @@
         "message": "Omet els sponsorships, pregant per una subscripció i mes en videos de YouTube. Informa dels patrocinadors a els vídeos que mires per estalviar temps als altres.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "El canal és a la llista blanca!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -102,12 +99,6 @@
     },
     "submitCheck": {
         "message": "Segur que voleu enviar això?"
-    },
-    "whitelistChannel": {
-        "message": "Canal de llista blanca"
-    },
-    "removeFromWhitelist": {
-        "message": "Treure canal de la llista blanca"
     },
     "voteOnTime": {
         "message": "Vota un segment"
