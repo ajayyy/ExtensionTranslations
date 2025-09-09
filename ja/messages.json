@@ -7,9 +7,6 @@
         "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "チャンネルをホワイトリストに登録しました！"
-    },
     "Segment": {
         "message": "セグメント"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "送信しますか？"
-    },
-    "whitelistChannel": {
-        "message": "チャンネルをホワイトリストに追加"
-    },
-    "removeFromWhitelist": {
-        "message": "ホワイトリストからチャンネルを削除"
     },
     "voteOnTime": {
         "message": "セグメントに投票"
@@ -943,9 +934,6 @@
     "permissionRequestFailed": {
         "message": "権限要求に失敗しました。承認を拒否しましたか？"
     },
-    "adblockerIssueWhitelist": {
-        "message": "これを解決できない場合は、設定「スキップ前にチャンネルを強制的に確認」を無効にしてください。 SponsorBlockはこの動画のチャンネル情報を取得できません。"
-    },
     "forceChannelCheck": {
         "message": "スキップ前にチャンネルを強制的に確認"
     },
@@ -1655,12 +1643,6 @@
     "areYouSureDeleteConfig": {
         "message": "この設定を削除しますか？",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "新しい設定"
-    },
-    "DeleteConfiguration": {
-        "message": "設定を削除"
     },
     "ChannelAllowlist": {
         "message": "チャンネル固有の設定"
