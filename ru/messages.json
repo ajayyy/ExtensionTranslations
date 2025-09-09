@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Чтение сообщений"
     },
+    "fallbackToDefault": {
+        "message": "По умолчанию",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Автоматический пропуск"
     },
@@ -1664,14 +1668,30 @@
         "message": "Вы уверены, что хотите удалить эту конфигурацию?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Новая конфигурация"
+    },
+    "CreateNewConfiguration": {
+        "message": "Создать новую конфигурацию"
+    },
+    "DeleteConfiguration": {
+        "message": "Удалить конфигурацию"
+    },
     "ChannelAllowlist": {
         "message": "Настройки для отдельных каналов"
     },
     "ConfigurationName": {
         "message": "Название конфигурации"
     },
+    "DefaultConfiguration": {
+        "message": "Конфигурация по умолчанию"
+    },
     "ChannelListInstructions": {
         "message": "Введите в поле ниже с новой строки все каналы, к которым вы хотите применить к эту настройку. Поддерживаются как названия, так и идентификаторы каналов. @Псевдонимы не поддерживаются. Идентификатор канала можно получить, нажав на кнопку «Поделиться каналом» в разделе с его описанием. Чтобы попасть в этот раздел, нажмите на краткое описание на странице канала под его названием.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Добавьте каналы, которые будут использовать этот профиль, нажав на кнопку во всплывающем окне в видео, сделанном этим каналом. Список каналов появится ниже.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1922,15 +1942,44 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this tab"
     },
     "skipProfile_forJustThisVideo": {
-        "message": "Для этого видео",
+        "message": "Только для этого видео",
         "description": "Option in skip profiles to set this skip profile as the active one for just this video"
     },
     "skipProfile_forThisChannel": {
         "message": "Для этого канала",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
+    "clickToNotApplyThisProfile": {
+        "message": "Нажмите, чтобы не применять этот профиль"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Эта опция переопределена опцией более высокого приоритета",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Нажмите, чтобы применить этот профиль"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Сначала выберите профиль",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Выберите профиль"
+    },
+    "SkipProfileMenu": {
+        "message": "Меню профиля"
+    },
     "WhitelistedChannels": {
         "message": "Белый список",
         "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Добавить канал в профиль"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Редактировать профиль этого канала"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Закрыть меню профиля"
     }
 }
