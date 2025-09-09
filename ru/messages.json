@@ -13,9 +13,6 @@
     "409": {
         "message": "Этот запрос был отправлен ранее."
     },
-    "channelWhitelisted": {
-        "message": "Канал добавлен в белый список!"
-    },
     "Segment": {
         "message": "сегмент"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Вы уверены, что хотите это отправить?"
-    },
-    "whitelistChannel": {
-        "message": "Добавить канал в белый список"
-    },
-    "removeFromWhitelist": {
-        "message": "Удалить канал из белого списка"
     },
     "voteOnTime": {
         "message": "Проголосовать за сегмент"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Не удалось получить разрешение, вы нажали на \"Блокировать\"?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Если вы не можете решить эту проблему, попробуйте отключить \"Принудительная проверка каналов перед пропуском\" в настройках, т. к. SponsorBlock не может определить название канала для этого видео"
-    },
     "forceChannelCheck": {
         "message": "Принудительная проверка каналов перед пропуском"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Вы уверены, что хотите удалить эту конфигурацию?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Новая конфигурация"
-    },
-    "DeleteConfiguration": {
-        "message": "Удалить конфигурацию"
     },
     "ChannelAllowlist": {
         "message": "Настройки для отдельных каналов"
