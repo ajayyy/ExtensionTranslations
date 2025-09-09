@@ -13,9 +13,6 @@
     "409": {
         "message": "Tento příspěvek byl již přidán dříve."
     },
-    "channelWhitelisted": {
-        "message": "Kanál přidán do výjimek!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Opravdu to chcete odeslat?"
-    },
-    "whitelistChannel": {
-        "message": "Přidat kanál do výjimek"
-    },
-    "removeFromWhitelist": {
-        "message": "Odebrat kanál z výjimek"
     },
     "voteOnTime": {
         "message": "Hlasovat pro segment"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Žádost o oprávnění se nezdařila, neklikli jste na Odmítnout?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Pokud vám tento problém nepůjde vyřešit, vypněte nastavení 'Vynutit kontrolu kanálu před přeskočením', protože SponsorBlock nemůže zjistit informace o kanálu"
-    },
     "forceChannelCheck": {
         "message": "Vynutit kontrolu kanálu před přeskočením"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Opravdu chcete odstranit tuto konfiguraci?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nová konfigurace"
-    },
-    "DeleteConfiguration": {
-        "message": "Odstranit konfiguraci"
     },
     "ChannelAllowlist": {
         "message": "Nastavení pro tento kanál"
