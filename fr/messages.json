@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Lecture de messages"
     },
+    "fallbackToDefault": {
+        "message": "Se rabattre sur la configuration par défaut",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Passer automatiquement"
     },
@@ -1664,14 +1668,30 @@
         "message": "Êtes-vous certain de vouloir supprimer cette configuration ?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nouvelle configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Créer une configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Supprimer la configuration"
+    },
     "ChannelAllowlist": {
         "message": "Paramètres par chaîne"
     },
     "ConfigurationName": {
         "message": "Nom de la configuration"
     },
+    "DefaultConfiguration": {
+        "message": "Configuration par défaut"
+    },
     "ChannelListInstructions": {
         "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les ID de chaîne et les noms d'affichage sont pris en charge. Les @Utilisateur ne sont pas pris en charge. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne. Elle se situe sur la page de la chaîne, en dessous de son nom.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Ajoutez les chaînes devant utiliser ce profil de saut alternatif en cliquant sur le bouton dans le pop-up apparaissant sur une vidéo des chaînes en question. La liste des chaînes concernées apparaîtra ci-dessous.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1932,54 @@
     "segmentHideFailed": {
         "message": "Échec de la modification permanente de la visibilité du segment car son UUID n'a pas pu être résolu :",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Pendant une heure",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Pour cet onglet",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Juste pour cette vidéo",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Pour cette chaîne",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Cliquez pour ne pas appliquer ce profil de saut"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Cette option est ignorée à cause d'une option ayant une priorité plus importante",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Cliquez pour appliquer ce profil de saut"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Sélectionnez d'abord un profil de saut",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Sélectionner un profil de saut"
+    },
+    "SkipProfileMenu": {
+        "message": "Menu Profil de saut"
+    },
+    "WhitelistedChannels": {
+        "message": "Chaînes en liste blanche",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Ajouter la chaîne au profil de saut"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Modifier le profil de saut de cette chaîne"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Fermer le menu Profil de saut"
     }
 }
