@@ -7,9 +7,6 @@
         "message": "דלג על החסויות, ההתחננויות לעשות מנוי ועוד בסרטוני יוטיוב. דווח על ספונסרים בסרטונים שאתה צופה בהם כדי לחסוך לאחרים זמן.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "הערוץ הורשה!"
-    },
     "Segment": {
         "message": "מקטע"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "אתה בטוח שאתה רוצה להזין את זה?"
-    },
-    "whitelistChannel": {
-        "message": "הרשה ערוץ"
-    },
-    "removeFromWhitelist": {
-        "message": "הסר ערוץ מרשימת ערוצים מורשים"
     },
     "voteOnTime": {
         "message": "הצבע על מקטע"
@@ -914,9 +905,6 @@
     "permissionRequestFailed": {
         "message": "בקשת ההרשאה נכשלה, האם דחייתה את הבקשה?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "אם אינך מצליח לפתור זאת, השבת את ההגדרה 'כפה בדיקת הערוץ לפני הדילוג', מכיוון חוסם החסויות אינו מסוגל לאחזר את פרטי הערוץ עבור סרטון זה"
-    },
     "forceChannelCheck": {
         "message": "כפה בדיקת הערוץ לפני דילוג"
     },
@@ -1602,12 +1590,6 @@
     "areYouSureDeleteConfig": {
         "message": "האם אתה בטוח שברצונך למחוק תצורה זו?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "תצורה חדשה"
-    },
-    "DeleteConfiguration": {
-        "message": "מחק תצורה"
     },
     "ChannelAllowlist": {
         "message": "הגדרות ערוץ ספציפיות"
