@@ -7,9 +7,6 @@
         "message": "Hopp over sponsinger, abonnementstigging og mer på YouTube-videoer. Rapporter inn sponsorer på videoer du ser på for å spare andre sin tid.",
         "description": "Description of the extension."
     },
-    "channelWhitelisted": {
-        "message": "Kanalen ble hvitelistet!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -133,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Er du sikker på at du vil sende inn dette?"
-    },
-    "whitelistChannel": {
-        "message": "Hvitelist kanalen"
-    },
-    "removeFromWhitelist": {
-        "message": "Fjern kanalen fra hvitelisten"
     },
     "voteOnTime": {
         "message": "Stem på et segment"
@@ -746,9 +737,6 @@
     "permissionRequestFailed": {
         "message": "Tillatelsesforespørselen mislyktes, klikket du på Avvis?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Om du ikke er i stand til å løse dette, forsøk å skru av innstillingen 'Fremtving kanalsjekk før hopp', siden SponsorBlock ikke kan hente kanalinformasjon for denne videoen"
-    },
     "forceChannelCheck": {
         "message": "Fremtving kanalsjekk før hopp"
     },
@@ -1135,12 +1123,6 @@
     },
     "replaceThumbnails": {
         "message": "Erstatt miniatyrbilder"
-    },
-    "NewConfiguration": {
-        "message": "Nytt oppsett"
-    },
-    "DeleteConfiguration": {
-        "message": "Slett oppsett"
     },
     "ConfigurationName": {
         "message": "Oppsettets navn"
