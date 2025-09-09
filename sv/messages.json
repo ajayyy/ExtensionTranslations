@@ -13,9 +13,6 @@
     "409": {
         "message": "Detta har redan skickats in tidigare."
     },
-    "channelWhitelisted": {
-        "message": "Kanalen är vitlistad!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Är du säker på att du vill skicka in detta?"
-    },
-    "whitelistChannel": {
-        "message": "Vitlista kanalen"
-    },
-    "removeFromWhitelist": {
-        "message": "Ta bort kanal från vitlistan"
     },
     "voteOnTime": {
         "message": "Rösta på ett segment"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Behörighetsbegäran misslyckades, tryckte du på förneka?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Om du inte kan lösa detta kan du inaktivera 'Tvinga kontroll av kanalen innan hoppa över' i inställningarna, eftersom SponsorBlock inte kan hämta kanalinformationen för den här videon"
-    },
     "forceChannelCheck": {
         "message": "Tvinga kontroll av kanalen innan hoppa över"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Är du säker på att vill du ta bort den här konfigurationen?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Ny konfiguration"
-    },
-    "DeleteConfiguration": {
-        "message": "Ta bort konfiguration"
     },
     "ChannelAllowlist": {
         "message": "Kanalspecifikainställningar"
