@@ -13,9 +13,6 @@
     "409": {
         "message": "Цей запит був відправлений раніше."
     },
-    "channelWhitelisted": {
-        "message": "Канал доданий у білий список!"
-    },
     "Segment": {
         "message": "сегмент"
     },
@@ -143,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Ви впевнені, що хочете надіслати цю інформацію?"
-    },
-    "whitelistChannel": {
-        "message": "Додати канал в білий список"
-    },
-    "removeFromWhitelist": {
-        "message": "Видалити канал з білого списку"
     },
     "voteOnTime": {
         "message": "Проголосувати за сегмент"
@@ -957,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Не вдалося отримати дозвіл, ви натиснули на \"Блокувати\"?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Якщо ви не можете вирішити цю проблему, вимкніть \"Примусова перевірка каналу перед пропуском\" в налаштуваннях, оскільки SponsorBlock не може отримати інформацію про канал для цього відео"
-    },
     "forceChannelCheck": {
         "message": "Примусова перевірка каналу перед пропуском"
     },
@@ -1675,12 +1663,6 @@
     "areYouSureDeleteConfig": {
         "message": "Ви впевнені, що хочете видалити цю конфігурацію?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Нова конфігурація"
-    },
-    "DeleteConfiguration": {
-        "message": "Видалити конфігурацію"
     },
     "ChannelAllowlist": {
         "message": "Налаштування для конкретного каналу"
