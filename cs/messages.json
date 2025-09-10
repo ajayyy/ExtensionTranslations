@@ -1690,6 +1690,10 @@
         "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, každý kanál na nový řádek. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména podporována nejsou. ID kanálu získáte po kliknutí na tlačítko sdílení v informacích o kanálu. Na tuto stránku se dostanete kliknutím na popis kanálu, který se zobrazí pod názvem kanálu na jeho stránce.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
+    "ChannelListInstructionsSB": {
+        "message": "Přidejte kanály, které by měly použít tento profil přeskakování, kliknutím na tlačítko ve vyskakovacím okně u videa vytvořeného daným kanálem. Seznam kanálů se objeví níže.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Zatím nejsou nastaveny žádné konfigurace. Pro přidání nové konfigurace klikněte na tlačítko nahoře.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1928,5 +1932,54 @@
     "segmentHideFailed": {
         "message": "Nepodařilo se trvale skrýt / zrušit skrytí požadovaného segmentu, jelikož se nepodařilo načíst UUID segmentu:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Na hodinu",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Pro tuto kartu",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Pouze pro toto video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Pro tento kanál",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Klikněte pro nepoužití tohoto profilu přeskakování"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Tato možnost je přepsána možností s vyšší prioritou",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Klikněte pro použití tohoto profilu přeskakování"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Nejprve vyberte profil přeskakování",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Vyberte profil přeskakování"
+    },
+    "SkipProfileMenu": {
+        "message": "Nabídka profilu přeskakování"
+    },
+    "WhitelistedChannels": {
+        "message": "Kanály na bílé listině",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Přidat kanál do profilu přeskakování"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Upravit profil přeskakování tohoto kanálu"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Zavřít nabídku profilů přeskakování"
     }
 }
