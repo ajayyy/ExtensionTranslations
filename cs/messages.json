@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Čtení zpráv"
     },
+    "fallbackToDefault": {
+        "message": "Vrátit na výchozí",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Automatické přeskočení"
     },
@@ -1664,11 +1668,23 @@
         "message": "Opravdu chcete odstranit tuto konfiguraci?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nová konfigurace"
+    },
+    "CreateNewConfiguration": {
+        "message": "Vytvořit novou konfiguraci"
+    },
+    "DeleteConfiguration": {
+        "message": "Odstranit konfiguraci"
+    },
     "ChannelAllowlist": {
         "message": "Nastavení pro tento kanál"
     },
     "ConfigurationName": {
         "message": "Název konfigurace"
+    },
+    "DefaultConfiguration": {
+        "message": "Výchozí konfigurace"
     },
     "ChannelListInstructions": {
         "message": "Do níže uvedeného pole zadejte všechny kanály, na které chcete tuto konfiguraci použít, každý kanál na nový řádek. Podporovány jsou jak ID kanálů, tak zobrazované názvy. @ Uživatelská jména podporována nejsou. ID kanálu získáte po kliknutí na tlačítko sdílení v informacích o kanálu. Na tuto stránku se dostanete kliknutím na popis kanálu, který se zobrazí pod názvem kanálu na jeho stránce.",
