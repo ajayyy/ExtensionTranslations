@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Nachrichten lesen"
     },
+    "fallbackToDefault": {
+        "message": "Auf Standard zurückfallen",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Automatisch überspringen"
     },
@@ -1664,14 +1668,30 @@
         "message": "Soll diese Konfiguration wirklich gelöscht werden?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Neue Konfiguration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Neue Konfiguration erstellen"
+    },
+    "DeleteConfiguration": {
+        "message": "Konfiguration löschen"
+    },
     "ChannelAllowlist": {
         "message": "Kanalspezifische Einstellungen"
     },
     "ConfigurationName": {
         "message": "Name der Konfiguration"
     },
+    "DefaultConfiguration": {
+        "message": "Standardkonfiguration"
+    },
     "ChannelListInstructions": {
         "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal-IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Füge Kanäle hinzu, die dieses alternative Überspringen-Profil benutzen sollen, indem du auf einem Video des jeweiligen Kanals auf den Knopf im Popup klickst. Die Liste der Kanäle wird unten erscheinen.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1932,54 @@
     "segmentHideFailed": {
         "message": "Konnte das Segment nicht dauerhaft verstecken/zeigen, da die UUID nicht aufgelöst werden konnte:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Für eine Stunde",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Für diesen Tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Nur für dieses Video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Für diesen Kanal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Klicken, um dieses Überspringen-Profil nicht anzuwenden"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Diese Option wird von einer Option mit höherer Priorität überschrieben",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Klicken, um dieses Überspringen-Profil anzuwenden"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Wähle zuerst ein überspringen-Profil",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Ein Überspringen-Profil auswählen"
+    },
+    "SkipProfileMenu": {
+        "message": "Menü für Überspringen-Profile"
+    },
+    "WhitelistedChannels": {
+        "message": "Kanäle auf der Whitelist",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Kanal zum Überspringen-Profil hinzufügen"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Überspringen-Profil dieses Kanals bearbeiten"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Menü für Überspringen-Profile schließen"
     }
 }
