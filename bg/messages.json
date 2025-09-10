@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Четене на съобщения"
     },
+    "fallbackToDefault": {
+        "message": "Връщане към по подразбиране",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Автоматично пропускане"
     },
@@ -1663,6 +1667,12 @@
     "areYouSureDeleteConfig": {
         "message": "Наистина ли искате да изтриете тази конфигурация?",
         "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Нова конфигурация"
+    },
+    "CreateNewConfiguration": {
+        "message": "Създаване на нова конфигурация"
     },
     "ChannelAllowlist": {
         "message": "Специфични за канала настройки"
