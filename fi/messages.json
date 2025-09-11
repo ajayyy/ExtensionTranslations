@@ -1660,6 +1660,15 @@
         "message": "Haluatko varmasti poistaa tämän määrityksen?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Uusi määritys"
+    },
+    "CreateNewConfiguration": {
+        "message": "Luo uusi määritys"
+    },
+    "DeleteConfiguration": {
+        "message": "Poista määritys"
+    },
     "ChannelAllowlist": {
         "message": "Kanavakohtaiset asetukset"
     },
@@ -1904,5 +1913,21 @@
     "hookNewFeature": {
         "message": "Huomio: Koukku on siirretty Esikatselu/Kertaus -kategoriasta uuteen Koukku/Tervehdykset -kategoriaan",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Tunniksi",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Tälle välilehdelle",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Vain tälle videolle",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Tälle kanavalle",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     }
 }
