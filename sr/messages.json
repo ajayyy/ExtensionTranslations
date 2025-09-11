@@ -749,13 +749,13 @@
         "message": "Није за одељке који додају додатни садржај"
     },
     "category_filler": {
-        "message": "Попуњавања/Шале"
+        "message": "Неповезане сцене/Шале"
     },
     "category_filler_description": {
         "message": "Неповезане сцене или шале, које нису потребне за разумевање главног садржаја видео снимка. Ово не би требало да укључује сегменте који пружају детаље о контексту или позадини. Ово је веома агресивна категорија намењена када нисте расположени за „забаву”."
     },
     "category_filler_short": {
-        "message": "Попуњавања"
+        "message": "Неповезане сцене"
     },
     "category_filler_guideline1": {
         "message": "Неповезане сцене или шале"
@@ -816,6 +816,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Читање порука"
+    },
+    "fallbackToDefault": {
+        "message": "Повратак на подразумевано",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Аутоматско прескакање"
@@ -1037,7 +1041,7 @@
         "message": "Помозите у финансирању развоја"
     },
     "supportSponsorBlock": {
-        "message": "Подржите мој свакодневни рад SponsorBlock-у"
+        "message": "Подржите мој свакодневни рад на SponsorBlock-у"
     },
     "hideDonationLink": {
         "message": "Сакриј линк за донацију"
@@ -1664,14 +1668,30 @@
         "message": "Желите ли заиста да избришете ову конфигурацију?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Нова конфигурација"
+    },
+    "CreateNewConfiguration": {
+        "message": "Направи нову конфигурацију"
+    },
+    "DeleteConfiguration": {
+        "message": "Избриши конфигурацију"
+    },
     "ChannelAllowlist": {
         "message": "Подешавања специфична за канал"
     },
     "ConfigurationName": {
         "message": "Назив конфигурације"
     },
+    "DefaultConfiguration": {
+        "message": "Подразумевана конфигурација"
+    },
     "ChannelListInstructions": {
         "message": "Унесите све канале на које желите да примените ову конфигурацију у поље испод, одвојене новим редовима. Подржани су и ID-ови канала и имена за приказ. @ Корисничка имена нису подржана. ID-ове канала можете добити кликом на дугме за дељење на страници о каналу. Да бисте дошли до странице са информацијама, кликните на опис канала који се појављује испод назива канала на страници канала.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Додајте канале који треба да користе овај алтернативни профил прескакања кликом на дугме у искачућем прозору на видео снимку који је направио тај канал. Листа канала ће се појавити испод.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1816,7 +1836,7 @@
         "message": "Поднесци тренутно не могу бити прихваћени из вашег прегледача, јер изгледа да је YouTube убацио неке огласе на страни сервера које додатак не може да уклони. Контактирајте нас ако добијате ову грешку."
     },
     "DeArrowIsDisabled": {
-        "message": "DeArrow је онемогућен - додирните да омогућите",
+        "message": "DeArrow је онемогућен - кликните да омогућите",
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
@@ -1912,5 +1932,54 @@
     "segmentHideFailed": {
         "message": "Трајно скривање/откривање траженог сегмента није успело, јер UUID сегмента није могао бити разрешен:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "На час",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "За ову картицу",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Само за овај видео снимак",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "За овај канал",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Кликните да не бисте применили овај профил прескакања"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Ову опцију замењује опција вишег приоритета",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Кликните да бисте применили овај профил прескакања"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Прво изаберите профил прескакања",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Изаберите профил прескакања"
+    },
+    "SkipProfileMenu": {
+        "message": "Мени профила прескакања"
+    },
+    "WhitelistedChannels": {
+        "message": "Канали на белој листи",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Додај канал на профил прескакања"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Измени профил прескакања овог канала"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Затвори мени профила прескакања"
     }
 }
