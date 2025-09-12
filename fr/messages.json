@@ -737,7 +737,7 @@
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
-        "message": "Présentation de la vidéo présente ou prochaine, salutations et au revoir. Les conclusions informatives ne sont pas concernées."
+        "message": "Présentation de la vidéo actuelle ou d'une prochaine vidéo par le créateur, salutations et au revoir. Cette catégorie ne devrait pas servir à passer les conclusions informatives."
     },
     "category_hook_guideline1": {
         "message": "Présentation de la vidéo présente ou prochaine"
