@@ -817,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Meddelandeläsning"
     },
+    "fallbackToDefault": {
+        "message": "Återställ till standard",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Hoppa över automatiskt"
     },
@@ -1664,14 +1668,30 @@
         "message": "Är du säker på att vill du ta bort den här konfigurationen?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Ny konfiguration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Skapa ny konfiguration"
+    },
+    "DeleteConfiguration": {
+        "message": "Ta bort konfiguration"
+    },
     "ChannelAllowlist": {
         "message": "Kanalspecifikainställningar"
     },
     "ConfigurationName": {
         "message": "Konfigurationsnamn"
     },
+    "DefaultConfiguration": {
+        "message": "Standardkonfigurering"
+    },
     "ChannelListInstructions": {
         "message": "Ange vilka kanaler du vill verkställa denna konfiguration på i rutan nedan, åtskilda av nya rader. Både kanal-ID och visningsnamn stöds. @-användarnamn stöds inte. Du finner kanal-ID:t genom att klicka på delaknappen på kanalens omsida. För att komma till omsidan, klicka på kanalbeskrivningen som visas under deras kanalnamn på deras kanalsida.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Lägg till kanaler som ska använda den här alternativa hoppa över-profilen genom att klicka på knappen i popup-fönstret på en video som skapats av den kanalen. Listan över kanaler visas nedan.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1932,54 @@
     "segmentHideFailed": {
         "message": "Det gick inte att permanent dölja/ta bort det begärda segmentet eftersom segmentets UUID inte hittades:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "I en timme",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "För den här fliken",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "För denna video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "För denna kanal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Klicka för att inte verkställa denna hoppa över-profil"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Detta alternativ åsidosätts av ett högre prioriterat alternativ",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Klicka för att verkställa denna hoppa över-profil"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Välj en hoppa över-profil först",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Välj en hoppa över-profil"
+    },
+    "SkipProfileMenu": {
+        "message": "Meny för hoppa över-profil"
+    },
+    "WhitelistedChannels": {
+        "message": "Vitlistade kanaler",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Lägg till kanal till hoppa över-profil"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Redigera denna kanals hoppa över-profil"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Stäng menyn hoppa över-profil"
     }
 }
