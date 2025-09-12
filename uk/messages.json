@@ -1691,7 +1691,7 @@
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
-        "message": "Додайте канали, які повинні використовувати цей альтернативний пропуск профілю, натиснувши кнопку у спливаючому вікні, зробленому цим каналом. Список каналів з'явиться нижче.",
+        "message": "Додайте канали, які мають використовувати цей альтернативний профіль пропуску, натиснувши кнопку у спливаючому вікні на відео, створеному цим каналом. Список каналів з’явиться нижче.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1950,13 +1950,36 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
     "clickToNotApplyThisProfile": {
-        "message": "Натисніть, щоб не застосувати цей пропуск профілю"
+        "message": "Натисніть, щоб не застосувати цей профіль пропуску"
     },
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "Ця опція перевизначається вищою опцією",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
-        "message": "Натисніть, щоб не застосувати цей пропуск профілю"
+        "message": "Натисніть, щоб застосувати цей профіль пропуску"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Спочатку виберіть профіль пропуску",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Вибрати профіль пропуску"
+    },
+    "SkipProfileMenu": {
+        "message": "Меню профілю пропуску"
+    },
+    "WhitelistedChannels": {
+        "message": "Білий список каналів",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Додати канал до профілю пропуску"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Редагувати профіль пропуску цього каналу"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Закрити меню профілю пропуску"
     }
 }
