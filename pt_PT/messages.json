@@ -1589,6 +1589,9 @@
         "message": "Deseja mesmo apagar esse ajuste?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nova configuração"
+    },
     "ChannelAllowlist": {
         "message": "Definições específicas do canal"
     },
@@ -1825,5 +1828,27 @@
     },
     "OpenSettings": {
         "message": "Abrir as definições"
+    },
+    "skipProfile_forAnHour": {
+        "message": "Por uma hora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Para este separador",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Apenas para este vídeo",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Para este canal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "SkipProfileMenu": {
+        "message": "Ignorar menu de perfil"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Fechar ignorar menu de perfil"
     }
 }
