@@ -187,6 +187,12 @@
     "hideThis": {
         "message": "Hide this"
     },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters"
+    },
     "Options": {
         "message": "Options"
     },
