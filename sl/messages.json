@@ -17,7 +17,7 @@
         "message": "odsek"
     },
     "Segments": {
-        "message": "odseki"
+        "message": "odsekov"
     },
     "SegmentsCap": {
         "message": "Odsek"
@@ -70,5 +70,87 @@
     },
     "manualPaused": {
         "message": "Časovnik ustavljen"
+    },
+    "confirmMSG": {
+        "message": "Za urejanje ali brisanje posameznih vrednosti klikni na informacijski gumb ali odpri pojavno okno razširitve s klikom na njeno ikono v zgornjem desnem kotu."
+    },
+    "clearThis": {
+        "message": "Ali res želiš počistiti to?\n\n"
+    },
+    "Unknown": {
+        "message": "Med tvojo oddajo pokroviteljskih časov je prišlo do napake. Prosimo, poskusi ponovno kasneje."
+    },
+    "sponsorFound": {
+        "message": "Ta posnetek ima zabeležene odseke v bazi!"
+    },
+    "sponsor404": {
+        "message": "Ne najdem odsekov"
+    },
+    "sponsorStart": {
+        "message": "Začni odsek zdaj"
+    },
+    "sponsorEnd": {
+        "message": "Končaj odsek zdaj"
+    },
+    "sponsorCancel": {
+        "message": "Prekliči ustvarjanje odseka"
+    },
+    "noVideoID": {
+        "message": "Ne najdem posnetka YouTube.\nČe to ni pravilno, osveži zavihek."
+    },
+    "refreshSegments": {
+        "message": "Osveži odseke"
+    },
+    "success": {
+        "message": "Uspelo!"
+    },
+    "voted": {
+        "message": "Glas oddan!"
+    },
+    "serverDown": {
+        "message": "Kaže, da strežnik ne deluje. Takoj stopi v stik z razvijalcem."
+    },
+    "connectionError": {
+        "message": "Prišlo je do težave s povezavo.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
+    "segmentsStillLoading": {
+        "message": "Odseki se še nalagajo ..."
+    },
+    "clearTimes": {
+        "message": "Počisti odseke"
+    },
+    "openPopup": {
+        "message": "Odpri pojavno okno SponsorBlock"
+    },
+    "closePopup": {
+        "message": "Zapri pojavno okno"
+    },
+    "closeIcon": {
+        "message": "Ikona zapiranja"
+    },
+    "OpenSubmissionMenu": {
+        "message": "Odpri meni oddaj"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "Odpri meni sproščenega načina"
+    },
+    "sortSegments": {
+        "message": "Razvrsti odseke"
+    },
+    "submitCheck": {
+        "message": "Ali res želiš oddati to?"
+    },
+    "voteOnTime": {
+        "message": "Glasuj za odsek"
+    },
+    "Submissions": {
+        "message": "Oddaje"
+    },
+    "savedPeopleFrom": {
+        "message": "Ljudem si prihranil_a "
+    },
+    "viewLeaderboard": {
+        "message": "Lestvica vodilnih"
     }
 }
