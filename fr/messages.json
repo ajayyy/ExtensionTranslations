@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Ajouter la chaîne au profil de saut"
     },
-    "editChannelsSkipProfile": {
-        "message": "Modifier le profil de saut de cette chaîne"
-    },
     "closeSkipProfileMenu": {
         "message": "Fermer le menu Profil de saut"
     }
