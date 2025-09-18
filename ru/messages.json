@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Добавить канал в профиль"
     },
-    "editChannelsSkipProfile": {
-        "message": "Редактировать профиль этого канала"
-    },
     "closeSkipProfileMenu": {
         "message": "Закрыть меню профиля"
     }
