@@ -7,15 +7,6 @@
         "message": "I-skip ang mga sponsorships, subscription begging at marami pa sa mga YouTube videos. I-report ang mga sponsor sa videos na napapanood mo upang makatipid sa oras ng iba.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Mali ang request mo sa server"
-    },
-    "409": {
-        "message": "Naisumite na ito noon"
-    },
-    "channelWhitelisted": {
-        "message": "Whitelisted na ang channel na ito!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -100,9 +91,6 @@
     "voted": {
         "message": "Bumoto na!"
     },
-    "connectionError": {
-        "message": "Nagkaroon ng error sa koneksyon. Error code: "
-    },
     "segmentsStillLoading": {
         "message": "Naglo-load pa ang segment..."
     },
@@ -123,12 +111,6 @@
     },
     "submitCheck": {
         "message": "Sigurado ka bang gusto mong isumite ito?"
-    },
-    "whitelistChannel": {
-        "message": "I-whitelist itong channel"
-    },
-    "removeFromWhitelist": {
-        "message": "Tanggalin yung channel sa whitelist"
     },
     "voteOnTime": {
         "message": "I-boto ang mga Segment"
@@ -520,9 +502,6 @@
     },
     "replaceThumbnails": {
         "message": "Palitan ng mga Thumbnails"
-    },
-    "NewConfiguration": {
-        "message": "Bagong configurasyon"
     },
     "DeArrowPromotionMessage3": {
         "message": "Tingnan din ang DeArrow",

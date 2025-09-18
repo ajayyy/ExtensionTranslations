@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Palvelin sanoi tämän pyynnön olevan virheellinen"
+        "message": "Palvelin sanoi tämän pyynnön olevan virheellinen."
     },
     "409": {
-        "message": "Tämä on jo lähetetty aiemmin"
-    },
-    "channelWhitelisted": {
-        "message": "Kanava lisätty valkolistalle!"
+        "message": "Tämä on jo lähetetty aiemmin."
     },
     "Segment": {
         "message": "osio"
@@ -114,7 +111,8 @@
         "message": "Palvelin näyttää olevan alhaalla. Ota heti yhteyttä kehittäjään."
     },
     "connectionError": {
-        "message": "Yhteysvirhe on tapahtunut. Virhekoodi: "
+        "message": "Yhteysvirhe on tapahtunut.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Osioita ladataan yhä..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Haluatko varmasti lähettää tämän?"
-    },
-    "whitelistChannel": {
-        "message": "Lisää kanava valkolistalle"
-    },
-    "removeFromWhitelist": {
-        "message": "Poista kanava valkolistalta"
     },
     "voteOnTime": {
         "message": "Äänestä osiota"
@@ -362,9 +354,6 @@
     },
     "502": {
         "message": "Palvelin näyttää olevan ylikuormitettu. Yritä uudelleen muutaman sekunnin kuluttua."
-    },
-    "errorCode": {
-        "message": "Virhekoodi: "
     },
     "skip": {
         "message": "Ohita"
@@ -954,9 +943,6 @@
     },
     "permissionRequestFailed": {
         "message": "Käyttöoikeuspyyntö epäonnistui, klikkasitko kiellä?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Jos et pysty ratkaisemaan tätä, poista käytöstä asetus 'Pakota kanavan tarkistus ennen ohittamista', koska SponsorBlock ei pysty noutamaan tämän videon kanavatietoja"
     },
     "forceChannelCheck": {
         "message": "Pakota kanavan tarkistus ennen ohittamista"
@@ -1677,6 +1663,9 @@
     "NewConfiguration": {
         "message": "Uusi määritys"
     },
+    "CreateNewConfiguration": {
+        "message": "Luo uusi määritys"
+    },
     "DeleteConfiguration": {
         "message": "Poista määritys"
     },
@@ -1924,5 +1913,21 @@
     "hookNewFeature": {
         "message": "Huomio: Koukku on siirretty Esikatselu/Kertaus -kategoriasta uuteen Koukku/Tervehdykset -kategoriaan",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Tunniksi",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Tälle välilehdelle",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Vain tälle videolle",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Tälle kanavalle",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     }
 }

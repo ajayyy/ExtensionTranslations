@@ -7,15 +7,6 @@
         "message": "Preskoč sponzorstvá, žiadosti o odber atď. v YouTube videách. Nahlás sponzorované segmenty vo videách čo sleduješ a ušetri ostatným čas.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server hlási, že táto požiadavka je neplatná"
-    },
-    "409": {
-        "message": "Tento segment už bol pridaný"
-    },
-    "channelWhitelisted": {
-        "message": "Kanál pridaný do výnimiek!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Zdá sa, že server je nedostupný. Okamžite kontaktujte vývojára."
     },
-    "connectionError": {
-        "message": "Nastala chyba pripojenia. Kód chyby: "
-    },
     "segmentsStillLoading": {
         "message": "Segmenty sa ešte nahrávajú..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Naozaj to chcete odoslať?"
-    },
-    "whitelistChannel": {
-        "message": "Pridať kanál do výnimiek"
-    },
-    "removeFromWhitelist": {
-        "message": "Odobrať kanál z výnimiek"
     },
     "voteOnTime": {
         "message": "Hlasovať za segment"
@@ -362,9 +344,6 @@
     },
     "502": {
         "message": "Zdá sa, že server je preťažený. Skúste to o pár sekúnd."
-    },
-    "errorCode": {
-        "message": "Kód chyby: "
     },
     "skip": {
         "message": "Preskočiť"
@@ -941,9 +920,6 @@
     },
     "permissionRequestFailed": {
         "message": "Povolenie oprávnenia zlyhalo, stlačili ste odmietnuť?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Ak to neviete vyriešiť, vypnite nastavenie \"Vynútiť kontrolu kanála pred preskočením\", lebo SponsorBlock nevie zistiť informácie o kanále tohto videa"
     },
     "forceChannelCheck": {
         "message": "Vynútiť kontrolu kanála pred preskočením"
@@ -1657,12 +1633,6 @@
     "areYouSureDeleteConfig": {
         "message": "Naozaj chcete toto nastavenie zmazať?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Nové nastavenie"
-    },
-    "DeleteConfiguration": {
-        "message": "Zmazať nastavenia"
     },
     "ChannelAllowlist": {
         "message": "Špecifické nastavenie kanálu"

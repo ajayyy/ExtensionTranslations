@@ -7,15 +7,6 @@
         "message": "Jäta sponsorid, tellimise palumine ja muud YouTube'i videote tüütused vahele. Teata vaadatavate videote sponsoritest, et säästa teiste aega.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server ütles, et see taotlus oli sobimatu"
-    },
-    "409": {
-        "message": "See on juba varasemalt saadetud"
-    },
-    "channelWhitelisted": {
-        "message": "Kanal ignoreerimisnimekirjas!"
-    },
     "Segment": {
         "message": "segmendi"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Tundub, et server on maas. Anna sellest koheselt arendajale teada."
     },
-    "connectionError": {
-        "message": "Ühendusega esines tõrge. Veakood: "
-    },
     "segmentsStillLoading": {
         "message": "Segmente veel laetakse..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Kas soovid kindlasti selle saata?"
-    },
-    "whitelistChannel": {
-        "message": "Lisa kanal ignoreerimisnimekirja"
-    },
-    "removeFromWhitelist": {
-        "message": "Eemalda kanal ignoreerimisnimekirjast"
     },
     "voteOnTime": {
         "message": "Hääleta segmendi sobivust"
@@ -362,9 +344,6 @@
     },
     "502": {
         "message": "Server paistab olevat ülekoormatud. Proovi uuesti mõne sekundi pärast."
-    },
-    "errorCode": {
-        "message": "Veakood: "
     },
     "skip": {
         "message": "Jäta vahele"
@@ -935,9 +914,6 @@
     },
     "permissionRequestFailed": {
         "message": "Loataotlus ebaõnnestus, kas sa keeldusid?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Kui sa ei suuda seda lahendada, keela valik \"sunnitud kanalikontroll enne vahelejätmist\", kuna SponsorBlock ei leia selle video kanaliteavet"
     },
     "forceChannelCheck": {
         "message": "Sunnitud kanalikontroll enne vahelejätmist"

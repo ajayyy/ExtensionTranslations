@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Sunucu isteğin geçersiz olduğunu iletti"
+        "message": "Sunucu isteğin geçersiz olduğunu iletti."
     },
     "409": {
-        "message": "Bu daha önce zaten gönderilmiş"
-    },
-    "channelWhitelisted": {
-        "message": "Kanala izin verildi!"
+        "message": "Bu daha önce zaten gönderilmiş."
     },
     "Segment": {
         "message": "kısım"
@@ -114,7 +111,8 @@
         "message": "Sunucu çökmüş gibi duruyor. Derhal geliştiriciyle iletişime geçin."
     },
     "connectionError": {
-        "message": "Bağlantı hatası oluştu. Hata kodu: "
+        "message": "Bir bağlantı hatası oluştu.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Kısımlar hâlâ yükleniyor..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Bunu göndermek istediğinize emin misiniz?"
-    },
-    "whitelistChannel": {
-        "message": "Kanala izin ver"
-    },
-    "removeFromWhitelist": {
-        "message": "Kanalı izin listesinden çıkar"
     },
     "voteOnTime": {
         "message": "Bir Kısmı Oyla"
@@ -364,7 +356,8 @@
         "message": "Sunucuya aşırı yüklenilmiş gibi gözüküyor. Birazdan tekrar deneyin."
     },
     "errorCode": {
-        "message": "Hata Kodu: "
+        "message": "Sunucu {code} hata kodu ile döndü.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Atla"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Canlı Yayın Mesajlarını Okumak"
     },
+    "fallbackToDefault": {
+        "message": "Varsayılana geri dön",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Otomatik Atla"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "İzin isteği başarısız. Reddet butonuna mı tıkladınız?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Bunu çözemiyorsanız, SponsorBlock, bu video için kanal bilgilerini alamadığı için 'Atlamadan Önce Kanal Kontrolünü Zorla' ayarını devre dışı bırakın"
     },
     "forceChannelCheck": {
         "message": "Atlamadan Önce Kanal Kontrolüne Zorla"
@@ -1675,10 +1669,13 @@
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
-        "message": "Yeni Yapılandırma"
+        "message": "Yeni yapılandırma"
+    },
+    "CreateNewConfiguration": {
+        "message": "Yeni yapılandırma oluştur"
     },
     "DeleteConfiguration": {
-        "message": "Yapılandırmayı Sil"
+        "message": "Yapılandırmayı sil"
     },
     "ChannelAllowlist": {
         "message": "Kanala özgü ayarlar"
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Yapılandırma Adı"
     },
+    "DefaultConfiguration": {
+        "message": "Varsayılan yapılandırma"
+    },
     "ChannelListInstructions": {
         "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Bu alternatif atlama profilini kullanması gereken kanalları, o kanal tarafından oluşturulan bir videonun açılır penceresindeki düğmeye tıklayarak ekleyin. Kanalların listesi aşağıda görünecektir.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1913,6 +1917,10 @@
     },
     "onlyShowCasualIconForCustom": {
         "message": "Sıradan Mod simgesini yalnızca özel başlık mevcut olduğunda göster"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Sıradan mod başlıklarını biçimlendirmeyin",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Ayarları aç"

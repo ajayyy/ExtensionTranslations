@@ -7,15 +7,6 @@
         "message": "Pule patrocinadores, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que você assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "O servidor disse que esse pedido foi inválido"
-    },
-    "409": {
-        "message": "Esse segmento já foi enviado."
-    },
-    "channelWhitelisted": {
-        "message": "Canal adicionado à lista de permissões!"
-    },
     "Segment": {
         "message": "segmento"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
     },
-    "connectionError": {
-        "message": "Ocorreu um erro de conexão. Código de erro: "
-    },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Você tem certeza que deseja enviar isto?"
-    },
-    "whitelistChannel": {
-        "message": "Adicionar canal à lista de permissões"
-    },
-    "removeFromWhitelist": {
-        "message": "Remover canal da lista de permissões"
     },
     "voteOnTime": {
         "message": "Votar em um segmento"
@@ -362,9 +344,6 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
-    },
-    "errorCode": {
-        "message": "Código do erro: "
     },
     "skip": {
         "message": "Pular"
@@ -954,9 +933,6 @@
     },
     "permissionRequestFailed": {
         "message": "Falha na solicitação de permissão, você clicou em negar?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Se você não consegue resolver isso, desative a opção 'Forçar verificação do canal antes de pular', pois o SponsorBlock não pode recuperar as informações deste vídeo"
     },
     "forceChannelCheck": {
         "message": "Forçar verificação do canal antes de pular"
@@ -1673,12 +1649,6 @@
     "areYouSureDeleteConfig": {
         "message": "Deseja mesmo apagar esse ajuste?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Novo ajuste"
-    },
-    "DeleteConfiguration": {
-        "message": "Apagar Configuração"
     },
     "ChannelAllowlist": {
         "message": "Configurações específicas do canal"

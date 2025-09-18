@@ -7,15 +7,6 @@
         "message": "Fjern reklamer, subscriber tiggeri og mere i youtube videoer. Rapporter reklamer på de videoer du ser for at spare folks tid.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Serveren sagde at denne efterspørgsel var ugyldig"
-    },
-    "409": {
-        "message": "Dette er allerede blevet indsendt"
-    },
-    "channelWhitelisted": {
-        "message": "Kanal whitelisted!"
-    },
     "Segment": {
         "message": "seg"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Det ser ud til at serveren er nede. Kontakt udvikleren straks."
     },
-    "connectionError": {
-        "message": "Der opstod en forbindelsesfejl. Fejlkode: "
-    },
     "segmentsStillLoading": {
         "message": "Segmenter indlæses stadig..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Er du sikker på, at du vil indsende dette?"
-    },
-    "whitelistChannel": {
-        "message": "Hvidlist kanal"
-    },
-    "removeFromWhitelist": {
-        "message": "Fjern kanal fra hvidliste"
     },
     "voteOnTime": {
         "message": "Stem På Et Segment"
@@ -362,9 +344,6 @@
     },
     "502": {
         "message": "Serveren lader til at være overbelastet. Prøv igen om et par sekunder."
-    },
-    "errorCode": {
-        "message": "Fejlkode: "
     },
     "skip": {
         "message": "Spring over"
@@ -925,9 +904,6 @@
     },
     "permissionRequestFailed": {
         "message": "Tilladelsesanmodning mislykkedes, klikkede du på afvis?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Hvis du ikke kan løse dette problem, skal du deaktivere indstillingen 'Tving Kanaltjek Inden Springning', da SponsorBlock ikke er i stand til at hente kanaloplysningerne for denne video"
     },
     "forceChannelCheck": {
         "message": "Gennemtving kanaltjek inden overspringning"
@@ -1614,12 +1590,6 @@
     "areYouSureDeleteConfig": {
         "message": "Er du sikker på, at du vil slette denne konfiguration?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Ny konfiguration"
-    },
-    "DeleteConfiguration": {
-        "message": "Slet konfiguration"
     },
     "ChannelAllowlist": {
         "message": "Kanalspecifikke indstillinger"

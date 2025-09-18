@@ -7,15 +7,6 @@
         "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "O servidor disse que este pedido foi inválido"
-    },
-    "409": {
-        "message": "Isso já foi enviado antes"
-    },
-    "channelWhitelisted": {
-        "message": "Canal adicionado à lista de autorizados!"
-    },
     "Segment": {
         "message": "segmento"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
     },
-    "connectionError": {
-        "message": "Deu-se um erro de conecção: Código: "
-    },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Tem a certeza que pretende submeter?"
-    },
-    "whitelistChannel": {
-        "message": "Adicionar canal à lista de permissões"
-    },
-    "removeFromWhitelist": {
-        "message": "Remover canal da lista de permissões"
     },
     "voteOnTime": {
         "message": "Votar em um segmento"
@@ -351,9 +333,6 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
-    },
-    "errorCode": {
-        "message": "Código do erro: "
     },
     "skip": {
         "message": "Ignorar"
@@ -908,9 +887,6 @@
     },
     "permissionRequestFailed": {
         "message": "Falha na solicitação de permissão, você clicou em negar?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Se não consegue resolver isto, desative a opção 'Forçar verificação do canal antes de ignorar', pois o SponsorBlock não pode recuperar as informações deste vídeo"
     },
     "forceChannelCheck": {
         "message": "Forçar verificação do canal antes de ignorar"
@@ -1614,10 +1590,7 @@
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
-        "message": "Novo ajuste"
-    },
-    "DeleteConfiguration": {
-        "message": "Apagar Configuração"
+        "message": "Nova configuração"
     },
     "ChannelAllowlist": {
         "message": "Definições específicas do canal"
@@ -1855,5 +1828,27 @@
     },
     "OpenSettings": {
         "message": "Abrir as definições"
+    },
+    "skipProfile_forAnHour": {
+        "message": "Por uma hora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Para este separador",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Apenas para este vídeo",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Para este canal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "SkipProfileMenu": {
+        "message": "Ignorar menu de perfil"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Fechar ignorar menu de perfil"
     }
 }

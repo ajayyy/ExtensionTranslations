@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Сървърът съобщава, че тази заявка е невалидна"
+        "message": "Сървърът съобщава, че тази заявка е невалидна."
     },
     "409": {
-        "message": "Това спонсорство е вече изпратено"
-    },
-    "channelWhitelisted": {
-        "message": "Каналът е добавен към белия списък!"
+        "message": "Това е вече изпратено."
     },
     "Segment": {
         "message": "сегмент"
@@ -114,7 +111,8 @@
         "message": "Изглежда, че сървърът не работи. Свържете се с програмиста незабавно."
     },
     "connectionError": {
-        "message": "Възникна грешка с връзката. Код на грешката: "
+        "message": "Възникна грешка с връзката.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегментите все още се зареждат..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Наистина ли искате да изпратите това?"
-    },
-    "whitelistChannel": {
-        "message": "Добавяне на канала към белия списък"
-    },
-    "removeFromWhitelist": {
-        "message": "Премахване на канала от белия списък"
     },
     "voteOnTime": {
         "message": "Гласувайте за сегмент"
@@ -364,7 +356,8 @@
         "message": "Сървърът изглежда претоварен. Опитайте отново след няколко секунди."
     },
     "errorCode": {
-        "message": "Код на грешката: "
+        "message": "Сървърът върна код на състоянието {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Пропускане"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Четене на съобщения"
     },
+    "fallbackToDefault": {
+        "message": "Връщане към по подразбиране",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Автоматично пропускане"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "Искането за разрешение не бе успешно, натиснахте ли Отказ?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Ако не можете да разрешите това, деактивирайте настройката „Принудителна проверка на канала преди пропускане“, тъй като SponsorBlock не може да извлече информацията за канала за този видеоклип"
     },
     "forceChannelCheck": {
         "message": "Принудителна проверка на канала преди пропускане"
@@ -1677,6 +1671,9 @@
     "NewConfiguration": {
         "message": "Нова конфигурация"
     },
+    "CreateNewConfiguration": {
+        "message": "Създаване на нова конфигурация"
+    },
     "DeleteConfiguration": {
         "message": "Изтриване на конфигурацията"
     },
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Име на конфигурация"
     },
+    "DefaultConfiguration": {
+        "message": "Конфигурация по подразбиране"
+    },
     "ChannelListInstructions": {
         "message": "Въведете в полето по-долу всички канали, които искате да приложите към тази конфигурация, разделени с нови редове. Поддържат се както идентификатори на канали, така и показвани имена. @Потребителските имена не се поддържат. Можете да получите идентификаторите на каналите, като щракнете върху бутона за споделяне в страницата за канала. За да стигнете до страницата за канала, щракнете върху описанието на канала, което се появява под името му на страницата му.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Добавете канали, които трябва да използват този алтернативен профил за прескачане, като кликнете върху бутона в изскачащия прозорец на видеоклип, създаден от този канал. Списъкът с канали ще се появи по-долу.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1924,5 +1928,58 @@
     "hookNewFeature": {
         "message": "Известие: Кукичката е преместена от категорията Кратко резюме/Обобщение в новата категория Кукичка/Поздрави",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Неуспешно скриване/откриване за постоянно на заявения сегмент, тъй като UUID на сегмента не може да бъде разпознат:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "За един час",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "За този раздел",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Само за това видео",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "За този канал",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Кликнете, за да не прилагате този профил за прескачане"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Тази опция се пренебрегва от опция с по-висок приоритет",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Кликнете, за да приложите този профил за прескачане"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Първо изберете профил за прескачане",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Изберете профил за прескачане"
+    },
+    "SkipProfileMenu": {
+        "message": "Меню на профила"
+    },
+    "WhitelistedChannels": {
+        "message": "Канали в белия списък",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Добавяне на канала към профил за прескачане"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Редактиране на профила за прескачане на този канал"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Затваряне на менюто на профила за прескачане"
     }
 }

@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Serverul a spus că această cerere este invalidă"
+        "message": "Serverul a spus că această cerere este invalidă."
     },
     "409": {
-        "message": "Acest lucru a fost deja trimis înainte"
-    },
-    "channelWhitelisted": {
-        "message": "Canalul a fost adăugat la excepții!"
+        "message": "Acesta a fost deja trimis anterior."
     },
     "Segment": {
         "message": "segment"
@@ -114,7 +111,8 @@
         "message": "Se pare că serverul este oprit. Contactează imediat dezvoltatorul."
     },
     "connectionError": {
-        "message": "A apărut o eroare de conexiune. Cod de eroare: "
+        "message": "A apărut o eroare de conectare.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Încă se încarcă segmentele..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Sunteți sigur că doriți să trimiteți asta?"
-    },
-    "whitelistChannel": {
-        "message": "Adaugă canalul la excepții"
-    },
-    "removeFromWhitelist": {
-        "message": "Șterge canalul de la excepții"
     },
     "voteOnTime": {
         "message": "Votează pe un Segment"
@@ -364,7 +356,8 @@
         "message": "Serverul pare să fie supraîncărcat. Încercați din nou în câteva secunde."
     },
     "errorCode": {
-        "message": "Codul Erorii: "
+        "message": "Serverul a returnat codul de stare {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Omiteți"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Citire Mesaj"
     },
+    "fallbackToDefault": {
+        "message": "Revenire la valorile implicite",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Omitere automată"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "Solicitarea permisiunii a eșuat, ai dat clic pe refuz?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Dacă nu puteți rezolva acest lucru, apoi dezactivați setarea 'Forțați verificarea canalului înainte de sărit', deoarece SponsorBlock nu poate prelua informațiile canalului pentru acest videoclip"
     },
     "forceChannelCheck": {
         "message": "Forțează verificarea canalului înainte de a sări"
@@ -1675,10 +1669,13 @@
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
-        "message": "Configurație Nouă"
+        "message": "Configurație nouă"
+    },
+    "CreateNewConfiguration": {
+        "message": "Creează o configurație nouă"
     },
     "DeleteConfiguration": {
-        "message": "Șterge Configurația"
+        "message": "Șterge configurația"
     },
     "ChannelAllowlist": {
         "message": "Setări care depind de canale"
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Denumirea Configurației"
     },
+    "DefaultConfiguration": {
+        "message": "Configurație implicită"
+    },
     "ChannelListInstructions": {
         "message": "Introduceți orice canale pentru care doriți să aplicați această configurație în caseta de mai jos, separate prin linii noi. Atât ID-urile canalelor cât și numele de afișare sunt suportate. Numele de utilizatori cu @ nu sunt acceptate. Poți obține ID-urile canalelor făcând clic pe butonul Distribuire de pe pagina canalului. Pentru a ajunge la pagina despre utilizator, faceţi clic pe descrierea canalului care apare sub numele canalului lor pe pagina canalului.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Adaugă canalele care ar trebui să folosească acest profil alternativ de sărit, făcând clic pe butonul din fereastra pop-up a unui videoclip realizat de acel canal. Lista canalelor va apărea mai jos.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1924,5 +1928,58 @@
     "hookNewFeature": {
         "message": "Atenție: Subcategoria „Laitmotiv“ a fost mutată în noua categorie „Laitmotiv / Salutări“",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Eșec la ascunderea/afișarea permanentă a segmentului solicitat, deoarece UUID-ul segmentului nu a putut fi rezolvat:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Pentru o oră",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Pentru această filă",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Doar pentru acest videoclip",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Pentru acest canal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click pentru a nu aplica acest profil de sărit"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Această opțiune este suprascrisă de o opțiune cu prioritate mai mare",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click pentru a aplica acest profil de sărit"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Selectează mai întâi un profil de sărit",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Selectează un profil de sărit"
+    },
+    "SkipProfileMenu": {
+        "message": "Meniul profilului de sărit"
+    },
+    "WhitelistedChannels": {
+        "message": "Canale pe lista albă",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Adaugă canalul la profilul de sărit"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Editează profilul de sărit al acestui canal"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Închide meniul de sărit profil"
     }
 }

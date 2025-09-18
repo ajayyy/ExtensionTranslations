@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Richiesta non valida"
+        "message": "Il server ha segnalato che la richiesta non è valida."
     },
     "409": {
-        "message": "Questo è già stato inviato"
-    },
-    "channelWhitelisted": {
-        "message": "Canale aggiunto alla lista delle esclusioni!"
+        "message": "Questo è già stato inviato in precedenza."
     },
     "Segment": {
         "message": "segmento"
@@ -114,7 +111,8 @@
         "message": "Sembra che il server non funzioni. Contatta subito lo sviluppatore."
     },
     "connectionError": {
-        "message": "Si è verificato un errore durante la connessione. Codice errore: "
+        "message": "Si è verificato un errore di connessione.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenti ancora in caricamento…"
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Sei sicuro di volerlo inviare?"
-    },
-    "whitelistChannel": {
-        "message": "Aggiungi il canale alle eccezioni"
-    },
-    "removeFromWhitelist": {
-        "message": "Rimuovi il canale dalle eccezioni"
     },
     "voteOnTime": {
         "message": "Vota un segmento"
@@ -364,7 +356,8 @@
         "message": "Il server sembra essere sovraccaricato. Riprova tra pochi secondi."
     },
     "errorCode": {
-        "message": "Codice Errore: "
+        "message": "Il server ha restituito il codice di stato {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Salta"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Lettura Messaggi"
     },
+    "fallbackToDefault": {
+        "message": "Regredisci a predefinito",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Salta Automaticamente"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "Richiesta di assicurazione fallita, hai cliccato nega?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Se non riesci a risolverlo, disabilita allora l'impostazione 'Forza Controllo Canale Prima di Saltare', poiché SponsorBlock non è in grado di recuperare le informazioni del canale per questo video"
     },
     "forceChannelCheck": {
         "message": "Forza controllo canale prima di andare avanti"
@@ -1675,7 +1669,10 @@
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
-        "message": "Nuova Configurazione"
+        "message": "Nuova configurazione"
+    },
+    "CreateNewConfiguration": {
+        "message": "Crea nuova configurazione"
     },
     "DeleteConfiguration": {
         "message": "Elimina configurazione"
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Nome Configurazione"
     },
+    "DefaultConfiguration": {
+        "message": "Configurazione predefinita"
+    },
     "ChannelListInstructions": {
         "message": "Inserisci qualsiasi canale a cui desideri applicare questa configurazione nella casella seguente, separata da nuove righe. Sia gli ID che i nomi visualizzati del canale sono supportati. I nomi utenti \"@\" non sono supportati. Puoi ottenere gli ID del canale cliccando sul pulsante di condivisione sulla pagina di informazioni del canale. Per raggiungere tale pagina, clicca sulla descrizione del canale che appare sotto il suo nome, sulla pagina del canale.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Aggiungi canali che dovrebbero usare questo profilo di salto alternativo cliccando il pulsante nella comparsa in un video realizzato da quel canale. L'elenco dei canali apparirà di seguito.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1924,5 +1928,58 @@
     "hookNewFeature": {
         "message": "Avviso: Hook è stato spostato dalla categoria Anteprima/Recap alla nuova categoria Gancio/Ringraziamenti",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Impossibile nascondere/mostrare in modo permanente il segmento richiesto, poiché l'UUID del segmento non può essere risolto:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Per un'ora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Per questa scheda",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Solo per questo video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Per questo canale",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Clic per non applicare questo profilo di salto"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Questa opzione è stata sovrascritta da un'opzione con priorità maggiore",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Clicca per applicare questo profilo di salto"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Seleziona prima un profilo di salto",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Seleziona un profilo di salto"
+    },
+    "SkipProfileMenu": {
+        "message": "Salta menu' profilo"
+    },
+    "WhitelistedChannels": {
+        "message": "Canali nella lista bianca",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Aggiungi canale al profilo di salto"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Modifica il profilo di salto per questo canale"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Chiudi il menu' del profilo di salto"
     }
 }

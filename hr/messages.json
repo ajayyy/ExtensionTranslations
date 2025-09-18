@@ -7,15 +7,6 @@
         "message": "Preskoči sponzore, zamolbe za pretplatu i drugo na YouTube videima. Prijavi sponzore na videima koje gledaš kako bi uštedio drugima vrijeme.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Server je rekao da je zahtjev neispravan"
-    },
-    "409": {
-        "message": "Ovo je već unešeno prije"
-    },
-    "channelWhitelisted": {
-        "message": "Kanal je dodan na popis dopuštenih!"
-    },
     "Segment": {
         "message": "odsječak"
     },
@@ -107,9 +98,6 @@
     "serverDown": {
         "message": "Čini se da server ne radi. Kontaktiraj razvojne programere odmah."
     },
-    "connectionError": {
-        "message": "Dogodija se greška u povezivanju. Kod pogreške: "
-    },
     "segmentsStillLoading": {
         "message": "Segmenti se učitavaju..."
     },
@@ -133,12 +121,6 @@
     },
     "submitCheck": {
         "message": "Jesi li siguran da želiš unijeti ovo?"
-    },
-    "whitelistChannel": {
-        "message": "Dopusti kanal"
-    },
-    "removeFromWhitelist": {
-        "message": "Izbaci kanal iz bijele liste"
     },
     "voteOnTime": {
         "message": "Glasaj za isječak"
@@ -299,9 +281,6 @@
     },
     "502": {
         "message": "Čini se da je poslužitelj preopterećen. Pokušajte ponovno za nekoliko sekundi."
-    },
-    "errorCode": {
-        "message": "Kȏd greške: "
     },
     "skip": {
         "message": "Preskoči"
@@ -1083,12 +1062,6 @@
     },
     "useCrowdsourcedTitles": {
         "message": "Koristi naslove zajednice"
-    },
-    "NewConfiguration": {
-        "message": "Nova konfiguracija"
-    },
-    "DeleteConfiguration": {
-        "message": "Izbriši konfiguraciju"
     },
     "ConfigurationName": {
         "message": "Ime konfiguracije"

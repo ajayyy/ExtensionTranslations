@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "قال الخادم أن هذا الطلب خاطئ"
+        "message": "قال الخادم أن هذا الطلب خاطئ."
     },
     "409": {
-        "message": "تم تقديم هذا بالفعل من قبل"
-    },
-    "channelWhitelisted": {
-        "message": "القناة في القائمة البيضاء!"
+        "message": "تم تقديم هذا بالفعل من قبل."
     },
     "Segment": {
         "message": "فقرة"
@@ -114,7 +111,8 @@
         "message": "يبدو أن الخادم معطل. تواصل مع المطوّر على الفور."
     },
     "connectionError": {
-        "message": "حدث خطأ في الاتصال. رمز الخطأ: "
+        "message": "حدث خطأ في الاتصال.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "لا تزل الفقرات قيد التحميل..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "هل أنت متأكد أنك تريد إرسال هذا؟"
-    },
-    "whitelistChannel": {
-        "message": "إضافة القناة إلى القائمة البيضاء"
-    },
-    "removeFromWhitelist": {
-        "message": "إزالة القناة من القائمة البيضاء"
     },
     "voteOnTime": {
         "message": "صوّت لفقرة"
@@ -364,7 +356,8 @@
         "message": "يبدو أن الخادم محمَّل أكثر من اللازم. حاول مرة أخرى في بضع ثوان."
     },
     "errorCode": {
-        "message": "رمز الخطأ: "
+        "message": "رد الخادم رمز الحالة {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "تخطي"
@@ -954,9 +947,6 @@
     },
     "permissionRequestFailed": {
         "message": "فشل طلب الإذن ، هل نقرت على رفض؟"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "إذا كنت غير قادر على حل هذا، عطل إعداد \"اجبار التحقق من القناة قبل التخطي\"، لأن SponsorBlock غير قادر على استرداد معلومات القناة لهذا الفيديو"
     },
     "forceChannelCheck": {
         "message": "اجبار التحقق من القناة قبل التخطي"
@@ -1674,12 +1664,6 @@
         "message": "هل أنت متأكد مِن أنك تريد حذف هذا التكوين؟",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
-    "NewConfiguration": {
-        "message": "تكوين جديد"
-    },
-    "DeleteConfiguration": {
-        "message": "حذف التكوين"
-    },
     "ChannelAllowlist": {
         "message": "إعدادات لقناة محددة"
     },
@@ -1924,5 +1908,9 @@
     "hookNewFeature": {
         "message": "ملاحظة: تم نقل \"(ٱلـ)جذب\" من فئة \"Preview/Recap\"إلى فئة \"الجذب/التحيات\"",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "أخفقنا في إخفاء/عدم إخفاء طلب الفَقَرة هاته, كما أن الـUUID الخاص بها لم يُحل:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }

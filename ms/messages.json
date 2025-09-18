@@ -7,15 +7,6 @@
         "message": "Lewati sponsor, meminta subscriber dan lain-lain di video YouTube. Laporkan sponsor di video yang anda tonton untuk menghemat waktu orang lain.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Pelayan mengatakan permintaan ini tidak sah"
-    },
-    "409": {
-        "message": "Perkara ini telah dikemukakan sebelumnya"
-    },
-    "channelWhitelisted": {
-        "message": "Saluran Senarai Putih!"
-    },
     "Segment": {
         "message": "segmen"
     },
@@ -110,9 +101,6 @@
     "serverDown": {
         "message": "Nampaknya pelayan tidak berfungsi. Segera hubungi dev."
     },
-    "connectionError": {
-        "message": "Ralat sambungan telah berlaku. Kod salah: "
-    },
     "segmentsStillLoading": {
         "message": "Segmen masih dimuatkan..."
     },
@@ -133,12 +121,6 @@
     },
     "submitCheck": {
         "message": "Adakah anda pasti mahu menghantarnya?"
-    },
-    "whitelistChannel": {
-        "message": "Saluran senarai putih"
-    },
-    "removeFromWhitelist": {
-        "message": "Alih keluar saluran dari senarai putih"
     },
     "voteOnTime": {
         "message": "Undi Segmen"
@@ -313,9 +295,6 @@
     },
     "502": {
         "message": "Pelayan nampaknya berlebihan. Cuba lagi dalam beberapa saat."
-    },
-    "errorCode": {
-        "message": "Kod ralat: "
     },
     "skip": {
         "message": "Langkau"
@@ -824,9 +803,6 @@
     },
     "permissionRequestFailed": {
         "message": "Permintaan kebenaran gagal, adakah anda menekan menafikan?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Jika anda tidak dapat menyelesaikan perkara ini, kemudian lumpuhkan tetapan 'Paksa Semak Saluran Sebelum Langkau', kerana SponsorBlock tidak dapat mengambil semula maklumat saluran untuk video ini"
     },
     "forceChannelCheck": {
         "message": "Pakai Pemeriksaan Saluran Sebelum Melangkau"

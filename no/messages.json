@@ -7,15 +7,6 @@
         "message": "Hopp over sponsinger, abonnementstigging og mer på YouTube-videoer. Rapporter inn sponsorer på videoer du ser på for å spare andre sin tid.",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "Tjeneren sa at denne forespørselen var ugyldig"
-    },
-    "409": {
-        "message": "Dette har allerede blitt sendt inn tidligere"
-    },
-    "channelWhitelisted": {
-        "message": "Kanalen ble hvitelistet!"
-    },
     "Segment": {
         "message": "segment"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "Det ser ut til at tjeneren er nede. Kontakt utvikleren umiddelbart."
     },
-    "connectionError": {
-        "message": "En tilkoblingsfeil har oppstått. Feilkode: "
-    },
     "segmentsStillLoading": {
         "message": "Segmenter laster fortsatt..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "Er du sikker på at du vil sende inn dette?"
-    },
-    "whitelistChannel": {
-        "message": "Hvitelist kanalen"
-    },
-    "removeFromWhitelist": {
-        "message": "Fjern kanalen fra hvitelisten"
     },
     "voteOnTime": {
         "message": "Stem på et segment"
@@ -339,9 +321,6 @@
     },
     "502": {
         "message": "Tjeneren ser ut til å være overbelastet. Prøv igjen om noen sekunder."
-    },
-    "errorCode": {
-        "message": "Feilkode: "
     },
     "skip": {
         "message": "Hopp over"
@@ -758,9 +737,6 @@
     "permissionRequestFailed": {
         "message": "Tillatelsesforespørselen mislyktes, klikket du på Avvis?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Om du ikke er i stand til å løse dette, forsøk å skru av innstillingen 'Fremtving kanalsjekk før hopp', siden SponsorBlock ikke kan hente kanalinformasjon for denne videoen"
-    },
     "forceChannelCheck": {
         "message": "Fremtving kanalsjekk før hopp"
     },
@@ -1147,12 +1123,6 @@
     },
     "replaceThumbnails": {
         "message": "Erstatt miniatyrbilder"
-    },
-    "NewConfiguration": {
-        "message": "Nytt oppsett"
-    },
-    "DeleteConfiguration": {
-        "message": "Slett oppsett"
     },
     "ConfigurationName": {
         "message": "Oppsettets navn"

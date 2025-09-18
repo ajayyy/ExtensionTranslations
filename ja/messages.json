@@ -7,15 +7,6 @@
         "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
-    "400": {
-        "message": "サーバーがこのリクエストは無効であると返答しました"
-    },
-    "409": {
-        "message": "既に登録済みです。"
-    },
-    "channelWhitelisted": {
-        "message": "チャンネルをホワイトリストに登録しました！"
-    },
     "Segment": {
         "message": "セグメント"
     },
@@ -113,9 +104,6 @@
     "serverDown": {
         "message": "サーバーがダウンしているようです。今すぐ開発者にお知らせください。"
     },
-    "connectionError": {
-        "message": "接続エラーが発生しました。 エラーコード: "
-    },
     "segmentsStillLoading": {
         "message": "セグメントはまだ読み込み中です..."
     },
@@ -142,12 +130,6 @@
     },
     "submitCheck": {
         "message": "送信しますか？"
-    },
-    "whitelistChannel": {
-        "message": "チャンネルをホワイトリストに追加"
-    },
-    "removeFromWhitelist": {
-        "message": "ホワイトリストからチャンネルを削除"
     },
     "voteOnTime": {
         "message": "セグメントに投票"
@@ -362,9 +344,6 @@
     },
     "502": {
         "message": "サーバーが混雑中です。数秒後にもう一度お試しください。"
-    },
-    "errorCode": {
-        "message": "エラーコード: "
     },
     "skip": {
         "message": "スキップ"
@@ -954,9 +933,6 @@
     },
     "permissionRequestFailed": {
         "message": "権限要求に失敗しました。承認を拒否しましたか？"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "これを解決できない場合は、設定「スキップ前にチャンネルを強制的に確認」を無効にしてください。 SponsorBlockはこの動画のチャンネル情報を取得できません。"
     },
     "forceChannelCheck": {
         "message": "スキップ前にチャンネルを強制的に確認"
@@ -1667,12 +1643,6 @@
     "areYouSureDeleteConfig": {
         "message": "この設定を削除しますか？",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "新しい設定"
-    },
-    "DeleteConfiguration": {
-        "message": "設定を削除"
     },
     "ChannelAllowlist": {
         "message": "チャンネル固有の設定"

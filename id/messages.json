@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Server menyatakan permintaan ini tidak valid"
+        "message": "Server menyatakan permintaan ini tidak valid."
     },
     "409": {
-        "message": "Ini sudah dikirim sebelumnya"
-    },
-    "channelWhitelisted": {
-        "message": "Channel Didaftar-putihkan!"
+        "message": "Ini sudah dikirim sebelumnya."
     },
     "Segment": {
         "message": "segmen"
@@ -114,7 +111,8 @@
         "message": "Sepertinya server sedang down. Kontak pengembang segera."
     },
     "connectionError": {
-        "message": "Kesalahan koneksi terjadi. Kode kesalahan: "
+        "message": "Kesalahan koneksi terjadi.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmen masih dimuat..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Apakah anda yakin ingin mengirim ini?"
-    },
-    "whitelistChannel": {
-        "message": "Daftar putih channel"
-    },
-    "removeFromWhitelist": {
-        "message": "Hapus channel dari daftar putih"
     },
     "voteOnTime": {
         "message": "Beri Segmen Vote"
@@ -358,9 +350,6 @@
     },
     "502": {
         "message": "Tampaknya server sedang kewalahan. Coba lagi beberapa detik."
-    },
-    "errorCode": {
-        "message": "Kode Kesalahan: "
     },
     "skip": {
         "message": "Lewati"
@@ -920,9 +909,6 @@
     "permissionRequestFailed": {
         "message": "Permintaan izin gagal, apakah anda mengklik tolak?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Apabila anda tidak dapat menyelesaikan masalah ini, maka nonaktifkan pengaturan 'Paksa Cek Channel Sebelum Melewati', dikarenakan SponsorBlock tidak dapat menerima informasi channel untuk video ini"
-    },
     "forceChannelCheck": {
         "message": "Paksa Cek Channel Sebelum Melewati"
     },
@@ -1421,6 +1407,10 @@
     "tip5": {
         "message": "Besarkan huruf seperti kalimat",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "..",
+        "description": "Tip subtitle in DeArrow"
     },
     "termsOfUse": {
         "message": "Ketentuan Penggunaan"

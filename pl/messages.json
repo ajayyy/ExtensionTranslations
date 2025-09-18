@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Serwer odpowiedział, że to zapytanie jest niepoprawne"
+        "message": "Serwer odpowiedział, że to żądanie jest nieprawidłowe."
     },
     "409": {
-        "message": "To już zostało wysłane wcześniej"
-    },
-    "channelWhitelisted": {
-        "message": "Kanał dodany do wyjątków!"
+        "message": "To już zostało przesłane wcześniej."
     },
     "Segment": {
         "message": "segment"
@@ -114,7 +111,8 @@
         "message": "Wygląda na to, że serwer nie działa. Skontaktuj się niezwłocznie z deweloperem."
     },
     "connectionError": {
-        "message": "Wystąpił błąd połączenia. Kod błędu: "
+        "message": "Wystąpił błąd połączenia.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenty nadal się ładują..."
@@ -135,19 +133,13 @@
         "message": "Otwórz menu zgłoszenia"
     },
     "OpenCasualVoteMenu": {
-        "message": "Otwórz menu trybu casual"
+        "message": "Otwórz menu trybu zwykłego"
     },
     "sortSegments": {
         "message": "Sortuj segmenty"
     },
     "submitCheck": {
         "message": "Czy na pewno chcesz to zamieścić?"
-    },
-    "whitelistChannel": {
-        "message": "Dodaj kanał do wyjątków"
-    },
-    "removeFromWhitelist": {
-        "message": "Usuń kanał z listy wyjątków"
     },
     "voteOnTime": {
         "message": "Oceń segment"
@@ -364,7 +356,8 @@
         "message": "Serwer jest prawdopodobnie przeciążony, spróbuj ponownie za kilka sekund."
     },
     "errorCode": {
-        "message": "Kod błędu: "
+        "message": "Serwer zwrócił kod statusu {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Pomiń"
@@ -724,6 +717,9 @@
     "category_outro_guideline1": {
         "message": "Nie zawiera treści, nawet jeśli na ekranie są karty końcowe"
     },
+    "category_preview": {
+        "message": "Zapowiedź/Podsumowanie"
+    },
     "category_preview_description": {
         "message": "Zbiór klipów pokazujących to, co pojawi się w tym filmie lub innych filmach w serii, w której wszystkie informacje są powtarzane później w filmie."
     },
@@ -734,6 +730,22 @@
         "message": "Podsumowanie poprzedniego filmu"
     },
     "category_preview_guideline3": {
+        "message": "Nie dla sekcji, które zawierają potrzebne informacje"
+    },
+    "category_hook": {
+        "message": "Zaczepka/Powitanie",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Zwiastuny zapowiadanych filmów, powitania i pożegnania. Nie dotyczy zakończeń zawierających istotne informacje."
+    },
+    "category_hook_guideline1": {
+        "message": "Zwiastuny zapowiadanych filmów"
+    },
+    "category_hook_guideline2": {
+        "message": "Fragmenty powitań i pożegnań skierowanych do widzów"
+    },
+    "category_hook_guideline3": {
         "message": "Nie dla sekcji, które zawierają potrzebne informacje"
     },
     "category_filler": {
@@ -936,9 +948,6 @@
     "permissionRequestFailed": {
         "message": "Prośba odrzucona. Może kliknięto „Odmów”?"
     },
-    "adblockerIssueWhitelist": {
-        "message": "Jeśli nie możesz rozwiązać tego problemu, wyłącz opcję „Wymuś sprawdzanie kanału przed pomijaniem”, ponieważ SponsorBlock nie jest w stanie pobrać informacji o kanale dla tego wideo"
-    },
     "forceChannelCheck": {
         "message": "Wymuś sprawdzanie kanału przed pomijaniem"
     },
@@ -1027,6 +1036,9 @@
     "considerDonating": {
         "message": "Wesprzyj rozwój wtyczki"
     },
+    "supportSponsorBlock": {
+        "message": "Wesprzyj moją pracę nad SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Ukryj link do darowizny"
     },
@@ -1042,14 +1054,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Wiele funkcji jest domyślnie wyłączonych. Jeśli chcesz pomijać intra, outra, używać Invidious, itp., włącz je poniżej. Możesz również ukryć/pokazać elementy interfejsu użytkownika."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Jak to działa"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Wszyscy sponsorzy są zgłaszani przez użytkowników, takich jak Ty. Listę zgłoszonych sponsorów możesz zobaczyć w bazie danych, otwierając okienko w prawym górnym rogu przeglądarki."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Za każdym razem, gdy pominiesz segment, otrzymasz powiadomienie. Jeśli moment nie wydaje się być poprawny, kliknij łapkę w dół! Możesz również głosować w okienku pop-up."
     },
     "Submitting": {
         "message": "Przesyłanie"
     },
+    "helpPageSubmitting1": {
+        "message": "Zgłaszanie można wykonać, klikając logo SponsorBlock w odtwarzaczu wideo."
+    },
+    "helpPageSubmitting2": {
+        "message": "Kliknięcie przycisku odtwarzania oznacza początek segmentu, a kliknięcie ikony stop oznacza jego koniec. Kliknij przycisk ze strzałką w górę, aby otworzyć menu zgłaszania, gdzie możesz zweryfikować swoje segmenty, podglądając je i edytując, aby były idealne. Precyzja jest ważna, koniecznie przeczytaj wytyczne przed zgłoszeniem."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Gdzie trafiają zgłoszenia?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Wszystkie zgłoszenia trafiają do bazy danych SponsorBlock, która jest publicznie udostępniana każdemu i dostępna pod adresem"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Kod źródłowy jest dostępny. Tak więc, nawet jeśli coś się ze mną stanie, wasze zgłoszenia nie zostaną utracone."
+    },
+    "AdviceForSubmitting": {
+        "message": "Porady dotyczące zgłaszania"
     },
     "Credits": {
         "message": "Autorzy"
@@ -1322,6 +1355,12 @@
     "shouldCleanEmojis": {
         "message": "Usuń Emoji"
     },
+    "formatCustomTitles": {
+        "message": "Formatuj przesłane tytuły"
+    },
+    "formatOriginalTitles": {
+        "message": "Formatuj oryginalne tytuły"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Używaj samych wielkich liter w nieanglojęzycznych tytułach"
     },
@@ -1440,6 +1479,9 @@
     },
     "showOriginalOnHover": {
         "message": "Zamień między niestandardowymi a oryginalnymi szczegółami po najechaniu na nie"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Przełączaj między szczegółami niestandardowymi a oryginalnymi po najechaniu na dowolne miejsce na karcie wideo"
     },
     "showOriginalOnHoverOfVideoDescription": {
         "message": "Spowoduje to wyłączenie autoodtwarzania po najechaniu kursorem"
@@ -1622,12 +1664,6 @@
         "message": "Czy na pewno chcesz usunąć tę konfigurację?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
-    "NewConfiguration": {
-        "message": "Nowa konfiguracja"
-    },
-    "DeleteConfiguration": {
-        "message": "Usuń konfigurację"
-    },
     "ChannelAllowlist": {
         "message": "Ustawienia specyficzne dla kanału"
     },
@@ -1733,7 +1769,7 @@
         "message": "Gratulacje! Masz teraz bezpłatny dostęp do DeArrow"
     },
     "DeArrowNotActivated": {
-        "message": "DeArrow nie jest aktywowany"
+        "message": "DeArrow nie jest aktywny"
     },
     "ActivateDeArrow": {
         "message": "Aktywuj rozszerzenie DeArrow"
@@ -1751,7 +1787,10 @@
         "message": "Dzielenie się to troska"
     },
     "cleanPopup": {
-        "message": "Kompaktowy interfejs wyskakującego okienka listy segmentów"
+        "message": "Ukryj bałagan w wyskakującym oknie listy segmentów"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Ukryj przyciski tworzenia segmentów w okienku"
     },
     "syncDisabledWarning": {
         "message": "Uwaga: pamięć rozszerzeń nie jest włączona w tej przeglądarce. Ustawienia nie zostaną zapisane, jeśli spróbujesz je ustawić."
@@ -1774,7 +1813,7 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "W tej chwili nie można wysyłać zgłoszeń z Twojej przeglądarki, ponieważ wydaje się, że zostały wstawione wstępnie wyrenderowane reklamy po stronie serwera YouTube, których rozszerzenie nie jest w stanie usunąć. Jeśli widzisz ten błąd, skontaktuj się z nami."
+        "message": "W tej chwili nie można wysyłać zgłoszeń z Twojej przeglądarki, ponieważ YouTube wydaje się wstrzykiwać reklamy po stronie serwera, których rozszerzenie nie jest w stanie usunąć. Skontaktuj się z nami, jeśli otrzymujesz ten błąd."
     },
     "DeArrowIsDisabled": {
         "message": "DeArrow jest wyłączony - kliknij, aby włączyć",
@@ -1838,7 +1877,7 @@
         "message": "Tytuły są zastępowane ustandaryzowanymi formatami opartymi na wytycznych we wszystkich filmach, w których istnieje tytuł stworzony przez społeczność."
     },
     "CasualMode": {
-        "message": "Tryb casual",
+        "message": "Tryb zwykły",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
@@ -1848,14 +1887,30 @@
         "message": "Minimalna liczba głosów",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
+    "showOriginalWhenCasual": {
+        "message": "Pokazuj oryginalną miniaturę w filmach głosowanych w trybie zwykłym",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
     "newCasualMode": {
-        "message": "Nowa funkcja: tryb casual",
+        "message": "Nowa funkcja: tryb zwykły",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "onlyShowCasualIconForCustom": {
-        "message": "Wyświetlaj ikonę trybu casual tylko wtedy, gdy dostępny jest niestandardowy tytuł"
+        "message": "Wyświetlaj ikonę trybu zwykłego tylko wtedy, gdy dostępny jest niestandardowy tytuł"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Nie formatuj tytułów w trybie zwykłym",
+        "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Otwórz ustawienia"
+    },
+    "hookNewFeature": {
+        "message": "Uwaga: Zaczepka została przeniesiona z kategorii Podgląd/Podsumowanie do nowej kategorii Zaczepka/Powitanie",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Nie udało się trwale ukryć/odkryć żądanego segmentu, ponieważ nie można było rozpoznać UUID segmentu:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }

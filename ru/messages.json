@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Сервер отклонил этот запрос"
+        "message": "Сервер отклонил этот запрос."
     },
     "409": {
-        "message": "Этот запрос был отправлен ранее"
-    },
-    "channelWhitelisted": {
-        "message": "Канал добавлен в белый список!"
+        "message": "Этот запрос был отправлен ранее."
     },
     "Segment": {
         "message": "сегмент"
@@ -114,7 +111,8 @@
         "message": "Кажется, сервер не отвечает. Свяжитесь с разработчиком."
     },
     "connectionError": {
-        "message": "Ошибка соединения. Код ошибки: "
+        "message": "Ошибка соединения.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Сегменты всё ещё загружаются..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Вы уверены, что хотите это отправить?"
-    },
-    "whitelistChannel": {
-        "message": "Добавить канал в белый список"
-    },
-    "removeFromWhitelist": {
-        "message": "Удалить канал из белого списка"
     },
     "voteOnTime": {
         "message": "Проголосовать за сегмент"
@@ -364,7 +356,8 @@
         "message": "Похоже, сервер перегружен. Попробуйте ещё раз через несколько секунд."
     },
     "errorCode": {
-        "message": "Код ошибки: "
+        "message": "Сервер вернул ошибку {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Пропустить"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Чтение сообщений"
     },
+    "fallbackToDefault": {
+        "message": "По умолчанию",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Автоматический пропуск"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "Не удалось получить разрешение, вы нажали на \"Блокировать\"?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Если вы не можете решить эту проблему, попробуйте отключить \"Принудительная проверка каналов перед пропуском\" в настройках, т. к. SponsorBlock не может определить название канала для этого видео"
     },
     "forceChannelCheck": {
         "message": "Принудительная проверка каналов перед пропуском"
@@ -1677,6 +1671,9 @@
     "NewConfiguration": {
         "message": "Новая конфигурация"
     },
+    "CreateNewConfiguration": {
+        "message": "Создать новую конфигурацию"
+    },
     "DeleteConfiguration": {
         "message": "Удалить конфигурацию"
     },
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Название конфигурации"
     },
+    "DefaultConfiguration": {
+        "message": "Конфигурация по умолчанию"
+    },
     "ChannelListInstructions": {
         "message": "Введите в поле ниже с новой строки все каналы, к которым вы хотите применить к эту настройку. Поддерживаются как названия, так и идентификаторы каналов. @Псевдонимы не поддерживаются. Идентификатор канала можно получить, нажав на кнопку «Поделиться каналом» в разделе с его описанием. Чтобы попасть в этот раздел, нажмите на краткое описание на странице канала под его названием.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Добавить канал в этот профиль можно при помощи кнопки во всплывающем окне в видео. Список каналов появится ниже.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1924,5 +1928,58 @@
     "hookNewFeature": {
         "message": "Внимание: Завязка была перенесена из категории «Предпросмотр/краткое содержание» в новую категорию «Завязка/приветствие»",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Не удалось скрыть/показать запрошенный сегмент, так как его UUID не может быть найден:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "На час",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Для этой вкладки",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Только для этого видео",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Для этого канала",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Нажмите, чтобы не применять этот профиль"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Эта опция переопределена опцией более высокого приоритета",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Нажмите, чтобы применить этот профиль"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Сначала выберите профиль",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Выберите профиль"
+    },
+    "SkipProfileMenu": {
+        "message": "Меню профиля"
+    },
+    "WhitelistedChannels": {
+        "message": "Белый список",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Добавить канал в профиль"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Редактировать профиль этого канала"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Закрыть меню профиля"
     }
 }

@@ -8,13 +8,10 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Szerver: Ez a kérés érvénytelen"
+        "message": "Szerver: Ez a kérés érvénytelen."
     },
     "409": {
-        "message": "Ez már korábban be lett küldve"
-    },
-    "channelWhitelisted": {
-        "message": "A csatorna az engedélyezőlistára került!"
+        "message": "Ez már korábban be lett küldve."
     },
     "Segment": {
         "message": "szegmens"
@@ -114,7 +111,8 @@
         "message": "Úgy tűnik, a szerver nem működik. Kérjük, mihamarabb értesítsd a fejlesztőket!"
     },
     "connectionError": {
-        "message": "Kapcsolódási probléma merült fel. Hibakód: "
+        "message": "Kapcsolódási probléma merült fel.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Szegmensek betöltése folyamatban..."
@@ -142,12 +140,6 @@
     },
     "submitCheck": {
         "message": "Biztosan be akarod küldeni?"
-    },
-    "whitelistChannel": {
-        "message": "Csatorna fehérlistára tétele"
-    },
-    "removeFromWhitelist": {
-        "message": "Csatorna törlése fehérlistáról"
     },
     "voteOnTime": {
         "message": "Szavazzon a szegmensről"
@@ -364,7 +356,8 @@
         "message": "Úgy tűnik, hogy a szerver túlterhelt. Próbálkozz újra néhány másodperc múlva."
     },
     "errorCode": {
-        "message": "Hibakód: "
+        "message": "A szerver {code} státuszt adott vissza.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Átugrás"
@@ -824,6 +817,10 @@
     "category_livestream_messages_short": {
         "message": "Üzenet beolvasása"
     },
+    "fallbackToDefault": {
+        "message": "Használja az alap beállításokat",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Auto átugrás"
     },
@@ -954,9 +951,6 @@
     },
     "permissionRequestFailed": {
         "message": "Engedélykérés sikertelen. Nem nyomtál az elutasításra?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Ha nem sikerül megoldani a problémát, kapcsold ki a \"Csatorna ellenőrzése átugrás előtt\" opciót, mert a SponsorBlock nem tudja megszerezni a csatorna-információkat ehhez a videóhoz"
     },
     "forceChannelCheck": {
         "message": "Csatorna ellenőrzése átugrás előtt"
@@ -1677,6 +1671,9 @@
     "NewConfiguration": {
         "message": "Új konfiguráció"
     },
+    "CreateNewConfiguration": {
+        "message": "Új konfiguráció készítése"
+    },
     "DeleteConfiguration": {
         "message": "Konfiguráció törlése"
     },
@@ -1686,8 +1683,15 @@
     "ConfigurationName": {
         "message": "Konfiguráció neve"
     },
+    "DefaultConfiguration": {
+        "message": "Alapértelmezett konfiguráció"
+    },
     "ChannelListInstructions": {
         "message": "Add azokat a csatornákat a lenti dobozhoz külön-külön sorokban, amiket hozzá szeretnél rendelni ehhez a konfigurációhoz. Csatornaazonosítók és megjelenítési nevek is támogatottak. @-os felhasználónevek nem támogatottak. A csatornaazonosítót megkaphatod a \"Csatorna megosztása\" gombra kattintva a csatorna Névjegyén. A Névjegyhez kattints a csatorna leírására a név alatt a csatorna oldalán.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "A csatornákat, amik ezt az alternatív átugrási profilt kell hogy használják, a csatorna valamely videóján lévő felugró ablakban található gombbal adhatod hozzá. A csatornák listáját lent fogod látni.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1924,5 +1928,58 @@
     "hookNewFeature": {
         "message": "Figyelem: A \"horog\" át lett helyezve az Előzetes/Ismétlés kategóriából az új Horog/Köszöntés kategóriába",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "A kért szegmens elrejtése/mutatása nem sikerült, mert a szegmens UUID-ját nem sikerült beazonosítani:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Egy óráig",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Ezen a fülön",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Csak ezen a videón",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Ezen a csatornán",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Kattints, hogy az átugrási profil ne kerüljön aktiválásra"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Ezt az beállítást felülírja egy másik, magasabb prioritású beállítás",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Kattints az átugrási profil aktiválásához"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Előbb válassz ki egy átugrási profilt",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Válassz ki egy átugrási profilt"
+    },
+    "SkipProfileMenu": {
+        "message": "Átugrási profil menü"
+    },
+    "WhitelistedChannels": {
+        "message": "Engedélyezőlistára helyezett csatornák",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Csatorna átugrási profilhoz adása"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Csatorna átugrási profiljának szerkesztése"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Átugrási profil menü bezárása"
     }
 }

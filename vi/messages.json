@@ -8,13 +8,7 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Máy chủ báo yêu cầu này không hợp lệ"
-    },
-    "409": {
-        "message": "Đoạn này đã được đăng rồi"
-    },
-    "channelWhitelisted": {
-        "message": "Kênh đã được bỏ chặn!"
+        "message": "Máy chủ báo yêu cầu này không hợp lệ."
     },
     "Segment": {
         "message": "đoạn quảng cáo"
@@ -114,7 +108,8 @@
         "message": "Có vẻ máy chủ đang không hoạt động. Hãy liên hệ nhà phát triển ngay lập tức."
     },
     "connectionError": {
-        "message": "Đã xảy ra lỗi kết nối. Mã lỗi: "
+        "message": "Đã xảy ra lỗi kết nối.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Phân đoạn vẫn đang tải..."
@@ -142,12 +137,6 @@
     },
     "submitCheck": {
         "message": "Bạn có chắc chắn muốn gửi không?"
-    },
-    "whitelistChannel": {
-        "message": "Đưa kênh vào danh sách không chặn"
-    },
-    "removeFromWhitelist": {
-        "message": "Loại kênh khỏi danh sách không chặn"
     },
     "voteOnTime": {
         "message": "Bầu chọn một phân đoạn"
@@ -364,7 +353,8 @@
         "message": "Máy chủ có vẻ đang bị quá tải. Hãy thử lại sau vài giây nữa."
     },
     "errorCode": {
-        "message": "Mã lỗi: "
+        "message": "Máy chủ trả về mã phản hồi HTTP {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Bỏ qua"
@@ -954,9 +944,6 @@
     },
     "permissionRequestFailed": {
         "message": "Truy cập bị từ chối, bạn đã nhấp vào từ chối à?"
-    },
-    "adblockerIssueWhitelist": {
-        "message": "Nếu bạn không thể giải quyết được vấn đề này, hãy vô hiệu hoá cài đặt 'Bỏ qua video không công khai/riêng tư', vì SponsorBlock không thể lấy được thông tin của video này"
     },
     "forceChannelCheck": {
         "message": "Bắt buộc kiểm tra kênh trước khi bỏ qua"
@@ -1673,12 +1660,6 @@
     "areYouSureDeleteConfig": {
         "message": "Bạn có chắc chắn muốn xóa cấu hình này không?",
         "description": "Appears when deleting a configuration for channel-based settings"
-    },
-    "NewConfiguration": {
-        "message": "Cấu hình mới"
-    },
-    "DeleteConfiguration": {
-        "message": "Xoá cấu hình"
     },
     "ChannelAllowlist": {
         "message": "Cài đặt riêng cho kênh"
