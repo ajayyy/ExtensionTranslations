@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Додај канал на профил прескакања"
     },
-    "editChannelsSkipProfile": {
-        "message": "Измени профил прескакања овог канала"
-    },
     "closeSkipProfileMenu": {
         "message": "Затвори мени профила прескакања"
     }
