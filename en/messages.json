@@ -1984,7 +1984,10 @@
         "message": "Add channel to skip profile"
     },
     "editChannelsSkipProfile": {
-        "message": "Edit this channel's skip profile"
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
     },
     "closeSkipProfileMenu": {
         "message": "Close skip profile menu"
