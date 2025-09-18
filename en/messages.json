@@ -191,7 +191,8 @@
         "message": "Collapse inner chapters"
     },
     "expandChapters": {
-        "message": "Show {0} inner chapters"
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Options"
