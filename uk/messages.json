@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Додати канал до профілю пропуску"
     },
-    "editChannelsSkipProfile": {
-        "message": "Редагувати профіль пропуску цього каналу"
-    },
     "closeSkipProfileMenu": {
         "message": "Закрити меню профілю пропуску"
     }
