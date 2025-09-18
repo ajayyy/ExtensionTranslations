@@ -1983,6 +1983,12 @@
     "addChannelToSkipProfile": {
         "message": "Kanal zum Überspringen-Profil hinzufügen"
     },
+    "editChannelsSkipProfile": {
+        "message": "Überspringen-Profil dieses Kanals ändern"
+    },
+    "editActiveSkipProfile": {
+        "message": "Aktives Überspringen-Profil ändern"
+    },
     "closeSkipProfileMenu": {
         "message": "Menü für Überspringen-Profile schließen"
     }
