@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Скриване на това"
     },
+    "collapseChapters": {
+        "message": "Сгъване на вътрешните глави"
+    },
+    "expandChapters": {
+        "message": "Показване на {0} вътрешни глави",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Опции"
     },
@@ -1975,6 +1982,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Добавяне на канала към профил за прескачане"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Промяна на профила за прескачане на този канал"
+    },
+    "editActiveSkipProfile": {
+        "message": "Промяна на активния профил за прескачане"
     },
     "closeSkipProfileMenu": {
         "message": "Затваряне на менюто на профила за прескачане"
