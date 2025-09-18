@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Nascondi"
     },
+    "collapseChapters": {
+        "message": "Comprimi capitoli interni"
+    },
+    "expandChapters": {
+        "message": "Mostra {0} capitoli interni",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Opzioni"
     },
@@ -1975,6 +1982,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Aggiungi canale al profilo di salto"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Cambia il profilo salto di questo canale"
+    },
+    "editActiveSkipProfile": {
+        "message": "Cambia profilo salto attivo"
     },
     "closeSkipProfileMenu": {
         "message": "Chiudi il menu' del profilo di salto"
