@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Lägg till kanal till hoppa över-profil"
     },
-    "editChannelsSkipProfile": {
-        "message": "Redigera denna kanals hoppa över-profil"
-    },
     "closeSkipProfileMenu": {
         "message": "Stäng menyn hoppa över-profil"
     }
