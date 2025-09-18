@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Скрыть это"
     },
+    "collapseChapters": {
+        "message": "Свернуть вложенные эпизоды"
+    },
+    "expandChapters": {
+        "message": "Показать {0} вложенных эпизодов",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Настройки"
     },
@@ -1975,6 +1982,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Добавить канал в профиль"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Изменить профиль для этого канала"
+    },
+    "editActiveSkipProfile": {
+        "message": "Изменить активный профиль"
     },
     "closeSkipProfileMenu": {
         "message": "Закрыть меню профиля"
