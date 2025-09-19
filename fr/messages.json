@@ -87,10 +87,10 @@
         "message": "Aucun segment trouvé"
     },
     "sponsorStart": {
-        "message": "Début du segment"
+        "message": "Commencer un segment ici"
     },
     "sponsorEnd": {
-        "message": "Fin du segment"
+        "message": "Arrêter le segment ici"
     },
     "sponsorCancel": {
         "message": "Annuler la création du segment"
@@ -186,6 +186,13 @@
     },
     "hideThis": {
         "message": "Cacher"
+    },
+    "collapseChapters": {
+        "message": "Réduire les sous-chapitres"
+    },
+    "expandChapters": {
+        "message": "Afficher {0} sous-chapitres",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Options"
@@ -297,7 +304,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Ouvrir le menu de contribution",
+        "message": "Ouvrir le menu Contribution",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -333,7 +340,7 @@
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Ouvrir le menu de contribution",
+        "message": "Ouvrir le menu Contribution",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
@@ -959,7 +966,7 @@
         "message": "Par défaut, les segments sont passés avant même de savoir à quelle chaîne la vidéo appartient. Par défaut, certains segments en début de vidéo des chaînes sur liste blanche peuvent être involontairement passés. Activer cette option évitera ce problème mais le passage des segments aura un léger retard, du fait que l'obtention du ChannelID prend du temps. Ce retard devrait être imperceptible si vous avez un haut débit internet."
     },
     "forceChannelCheckPopup": {
-        "message": "Envisagez d'activer \"Forcez la vérification de la chaîne avant de passer\""
+        "message": "Envisagez d'activer \"Forcer la vérification de la chaîne avant de passer\""
     },
     "downvoteDescription": {
         "message": "Segment de mauvaise qualité"
@@ -1975,6 +1982,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Ajouter la chaîne au profil de saut"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Modifier le profil de saut de cette chaîne"
+    },
+    "editActiveSkipProfile": {
+        "message": "Modifier le profil de saut actif"
     },
     "closeSkipProfileMenu": {
         "message": "Fermer le menu Profil de saut"
