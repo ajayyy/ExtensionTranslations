@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Приховати це"
     },
+    "collapseChapters": {
+        "message": "Згорнути внутрішні розділи"
+    },
+    "expandChapters": {
+        "message": "Показати {0} вкладених розділів",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Налаштування"
     },
@@ -1975,6 +1982,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Додати канал до профілю пропуску"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Змінити профіль пропуску цього каналу"
+    },
+    "editActiveSkipProfile": {
+        "message": "Змінити активний профіль пропуску"
     },
     "closeSkipProfileMenu": {
         "message": "Закрити меню профілю пропуску"
