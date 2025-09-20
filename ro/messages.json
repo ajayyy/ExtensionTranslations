@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Adaugă canalul la profilul de sărit"
     },
-    "editChannelsSkipProfile": {
-        "message": "Editează profilul de sărit al acestui canal"
-    },
     "closeSkipProfileMenu": {
         "message": "Închide meniul de sărit profil"
     }

@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Dölj detta"
     },
+    "collapseChapters": {
+        "message": "Dra samman inre kapitel"
+    },
+    "expandChapters": {
+        "message": "Visa {0} inre kapitel",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Alternativ"
     },
@@ -1978,6 +1985,9 @@
     },
     "editChannelsSkipProfile": {
         "message": "Redigera denna kanals hoppa över-profil"
+    },
+    "editActiveSkipProfile": {
+        "message": "Ändra aktiv hoppa över-profil"
     },
     "closeSkipProfileMenu": {
         "message": "Stäng menyn hoppa över-profil"

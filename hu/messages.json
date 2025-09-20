@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Csatorna átugrási profilhoz adása"
     },
-    "editChannelsSkipProfile": {
-        "message": "Csatorna átugrási profiljának szerkesztése"
-    },
     "closeSkipProfileMenu": {
         "message": "Átugrási profil menü bezárása"
     }

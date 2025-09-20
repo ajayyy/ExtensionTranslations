@@ -11,7 +11,7 @@
         "message": "Le serveur indique que cette requête est invalide."
     },
     "409": {
-        "message": "Cela a déjà été soumis auparavant."
+        "message": "Cette contribution a déjà été envoyée."
     },
     "Segment": {
         "message": "segment"
@@ -42,7 +42,7 @@
         "message": "Signaler"
     },
     "reportButtonInfo": {
-        "message": "Signaler que cette soumission est incorrecte."
+        "message": "Signaler cette contribution comme étant incorrecte."
     },
     "Dismiss": {
         "message": "Fermer"
@@ -78,7 +78,7 @@
         "message": "Êtes-vous certain-e de vouloir supprimer ceci ?\n\n"
     },
     "Unknown": {
-        "message": "Une erreur s'est produite lors de la soumission, veuillez réessayer plus tard."
+        "message": "Une erreur s'est produite lors de l'envoi de vos contributions, veuillez réessayer plus tard."
     },
     "sponsorFound": {
         "message": "Cette vidéo a des segments dans la base de données !"
@@ -87,10 +87,10 @@
         "message": "Aucun segment trouvé"
     },
     "sponsorStart": {
-        "message": "Début du segment"
+        "message": "Commencer un segment ici"
     },
     "sponsorEnd": {
-        "message": "Fin du segment"
+        "message": "Arrêter le segment ici"
     },
     "sponsorCancel": {
         "message": "Annuler la création du segment"
@@ -145,7 +145,7 @@
         "message": "Voter pour un segment"
     },
     "Submissions": {
-        "message": "Soumissions"
+        "message": "Contributions"
     },
     "savedPeopleFrom": {
         "message": "Vous avez sauvé les utilisateurs de "
@@ -157,11 +157,11 @@
         "message": "Soumettre"
     },
     "submissionEditHint": {
-        "message": "Le menu d'édition du segment apparaîtra après que vous ayez cliqué sur envoyer",
+        "message": "La modification de segments sera accessible une fois que vous aurez cliqué sur Soumettre",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Astuce : vous pouvez configurer les raccourcis clavier de l'extension dans les options"
+        "message": "Astuce : Vous pouvez configurer les raccourcis clavier qui aident à la contribution dans les options"
     },
     "clearTimesButton": {
         "message": "Supprimer les temps"
@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Cacher"
     },
+    "collapseChapters": {
+        "message": "Réduire les sous-chapitres"
+    },
+    "expandChapters": {
+        "message": "Afficher {0} sous-chapitres",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Options"
     },
@@ -194,7 +201,7 @@
         "message": "Afficher les boutons sur le lecteur YouTube"
     },
     "hideButtonsDescription": {
-        "message": "Ceci enlève du lecteur YouTube les boutons permettant de soumettre des segments."
+        "message": "Cette option retire du lecteur YouTube les boutons permettant de soumettre des segments."
     },
     "showSkipButton": {
         "message": "Conserver le bouton du lecteur Aller au temps fort"
@@ -212,7 +219,7 @@
         "message": "Activer le suivi du nombre de sauts de segments"
     },
     "whatViewTracking": {
-        "message": "Cette fonctionnalité enregistre les segments que vous avez sautés afin d'informer leur auteur à quel point leur soumission a été utile. Elle est aussi utilisée en complément des votes positifs pour empêcher la soumission de spams dans la base de données. SponsorBlock envoie un message au serveur à chaque fois que vous passez un segment. Nous espérons que la plupart des utilisateurs ne modifieront pas ce paramètre afin de conserver des statistiques aussi représentatives que possible. :)"
+        "message": "Cette fonctionnalité effectue le suivi des segments que vous avez passés afin de permettre à leurs auteurs de savoir à quel point leurs contributions ont été utiles. Elle est aussi utilisée en complément des votes positifs pour empêcher la soumission de spams dans la base de données. L'extension envoie un message au serveur à chaque fois que vous passez un segment. Nous espérons que la plupart des utilisateurs ne modifieront pas ce paramètre afin de conserver des statistiques aussi représentatives que possible. :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Activer le décompte du nombre de segments sautés dans les onglets de navigation privée/incognito"
@@ -236,7 +243,7 @@
         "message": "Plutôt que de récupérer depuis le serveur les segments à sauter à l'aide de l'identifiant de la vidéo, les 4 premiers caractères du hash de l'identifiant de la vidéo sont envoyés. Le serveur renverra les données pour toutes les vidéos ayant des hash similaires."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Afficher les catégories dans le menu des contributions, même celles sans autorisation"
+        "message": "Afficher les catégories nécessitant une autorisation dans le menu Contribution"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "Certaines catégories nécessitent une autorisation en raison d'exigences minimales de réputation"
@@ -269,7 +276,7 @@
         "message": "Estomper toutes les notifications de saut"
     },
     "longDescription": {
-        "message": "SponsorBlock vous permet de passer les messages sponsorisés, les introductions, les postfaces, les rappels d'abonnement et autres passages ennuyeux des vidéos YouTube. SponsorBlock est une extension de navigateur web qui permet à tout le monde de soumettre les temps de début et de fin des passages sponsorisés et d'autres segments de vidéos YouTube. Dès que quelqu'un-e soumet ces informations, toutes les autres personnes possédant l'extension passeront directement les segments sponsorisés. Vous pouvez également sauter les sections non musicales des vidéos musicales.",
+        "message": "SponsorBlock vous permet de passer les sponsors, les intros, les outros, les rappels d'abonnement et autres passages ennuyeux des vidéos YouTube. SponsorBlock est une extension de navigateur qui permet à tout le monde de soumettre les instants de début et de fin des passages ennuyeux des vidéos YouTube. Si une personne envoie ces informations sur un segment, toutes les autres personnes dotées de l'extension peuvent automatiquement le passer. Vous pouvez également passer les sections non musicales des clips vidéo.",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -297,7 +304,7 @@
         "description": "Keybind label"
     },
     "setOpenSubmissionMenuKeybind": {
-        "message": "Ouvrir le menu de contribution",
+        "message": "Ouvrir le menu Contribution",
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
@@ -333,7 +340,7 @@
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
-        "message": "Ouvrir le menu de contribution",
+        "message": "Ouvrir le menu Contribution",
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
@@ -514,7 +521,7 @@
         "message": "La notification du passage restera à l'écran pendant au moins le temps défini. Pour passer manuellement un segment, il est possible qu'il reste visible plus longtemps."
     },
     "shortCheck": {
-        "message": "Le segment suivant est plus court que votre option de durée minimale. Cela pourrait signifier qu'il a déjà été soumis et est simplement ignoré à cause de cette option. Êtes-vous sûr de vouloir soumettre ce segment ?"
+        "message": "La durée du segment suivant est inférieure à la durée minimale définie dans vos options. Ce segment pourrait donc avoir déjà été soumis, et serait simplement ignoré à cause de cette option. Voulez-vous vraiment soumettre ce segment ?"
     },
     "liveOrPremiere": {
         "message": "La soumission de segments sur un direct en cours ou une première n'est pas autorisée. Veuillez attendre qu'il soit terminé puis actualisez la page et vérifiez que les segments sont toujours valides."
@@ -893,10 +900,10 @@
         "message": "Activer le serveur de test bêta"
     },
     "whatEnableTestingServer": {
-        "message": "Vos soumissions et votes NE SERONT PAS COMPTÉES par serveur principal. À n'utiliser que lors de vos tests."
+        "message": "Vos contributions et votes NE SERONT PAS PRIS EN COMPTE par le serveur principal. Utilisez cette option uniquement à des fins de tests."
     },
     "testingServerWarning": {
-        "message": "Aucune soumission ou vote NE SERA COMPTÉE par le serveur principal tant que vous serez connecté-e au serveur de test. À désactiver quand vous voudrez réellement soumettre des segments ou voter."
+        "message": "Aucune contribution ou vote NE SERA PRISE EN COMPTE par le serveur principal tant que vous serez connecté au serveur de test. Désactivez-le lorsque vous voudrez réellement soumettre des segments ou voter."
     },
     "bracketNow": {
         "message": "(Maintenant)"
@@ -908,14 +915,14 @@
         "message": "Choisissez une catégorie"
     },
     "enableThisCategoryFirst": {
-        "message": "Pour envoyer des segments de la catégorie \"{0}\", vous devez l'activer dans les options. Vous allez être redirigé vers les options maintenant.",
+        "message": "Pour soumettre des segments \"{0}\", vous devez l'activer dans les options. Vous allez maintenant être redirigé vers les options.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
         "message": "Attention : un seul segment de ce type de segment peut être actif à la fois. En soumettant plusieurs segments, un seul d'entre eux sera aléatoirement affiché."
     },
     "youMustSelectACategory": {
-        "message": "Vous devez sélectionner une catégorie pour tous les segments que vous soumettez !"
+        "message": "Vous devez sélectionner une catégorie pour tous les segments que vous soumettez !"
     },
     "bracketStart": {
         "message": "(Début)"
@@ -959,7 +966,7 @@
         "message": "Par défaut, les segments sont passés avant même de savoir à quelle chaîne la vidéo appartient. Par défaut, certains segments en début de vidéo des chaînes sur liste blanche peuvent être involontairement passés. Activer cette option évitera ce problème mais le passage des segments aura un léger retard, du fait que l'obtention du ChannelID prend du temps. Ce retard devrait être imperceptible si vous avez un haut débit internet."
     },
     "forceChannelCheckPopup": {
-        "message": "Envisagez d'activer \"Forcez la vérification de la chaîne avant de passer\""
+        "message": "Envisagez d'activer \"Forcer la vérification de la chaîne avant de passer\""
     },
     "downvoteDescription": {
         "message": "Segment de mauvaise qualité"
@@ -1062,31 +1069,31 @@
         "message": "Comment ça marche"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Chaque message sponsorisé est envoyé par d'autres utilisateurs comme vous. Vous pouvez voir la liste des messages sponsorisés stockés dans la base de données en ouvrant le pop-up en haut à droite de votre navigateur."
+        "message": "Chaque sponsor à passer est ajouté par d'autres utilisateurs comme vous. Vous pouvez voir la liste des sponsors stockés dans la base de données en ouvrant le pop-up en haut à droite de votre navigateur."
     },
     "helpPageHowSkippingWorks2": {
         "message": "À chaque fois que vous passez un segment, vous en êtes averti-e. Si le timing semble incorrect, vous pouvez voter contre le segment ! Vous pouvez également voter dans l'encart d'aperçu."
     },
     "Submitting": {
-        "message": "Soumission en cours"
+        "message": "Envoi en cours"
     },
     "helpPageSubmitting1": {
         "message": "Il est possible de soumettre un nouveau segment en cliquant sur le logo SponsorBlock dans le lecteur vidéo."
     },
     "helpPageSubmitting2": {
-        "message": "Cliquez sur le bouton Lecture pour indiquer le début d'un segment puis sur le bouton Arrêt pour indiquer sa fin. Cliquez sur la flèche pointant vers le haut pour ouvrir le menu de soumission, où vous pouvez vérifier vos segments en les prévisualisant et en les modifiant afin de les peaufiner. La précision est importante : assurez-vous d'avoir lu les directives avant de soumettre des segments."
+        "message": "Cliquez sur le bouton Lecture pour indiquer le début d'un segment puis sur le bouton Arrêt pour indiquer sa fin. Cliquez sur la flèche pointant vers le haut pour ouvrir le menu Contribution, où vous pouvez vérifier vos segments en les prévisualisant et en les modifiant afin de les peaufiner. La précision est importante : assurez-vous d'avoir lu les directives avant de soumettre des segments."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Où arrivent les soumissions ?"
+        "message": "Où arrivent les contributions ?"
     },
     "helpPageCopyOfDatabase1": {
-        "message": "Toutes les soumissions sont placées dans la base de données SponsorBlock qui est publiée publiquement, utilisable par quiconque et disponible sur"
+        "message": "Toutes les contributions sont placées dans la base de données SponsorBlock qui est publiée publiquement, utilisable par quiconque et disponible sur"
     },
     "helpPageCopyOfDatabase2": {
         "message": "Le code source est en accès libre. Donc, même si il m'arrive quelque chose, vos soumissions ne seront pas perdues."
     },
     "AdviceForSubmitting": {
-        "message": "Conseils relatifs à la soumission"
+        "message": "Conseils de contribution"
     },
     "Credits": {
         "message": "Crédits"
@@ -1227,7 +1234,7 @@
         "description": "Example: You currently have 12 unsubmitted segments on 5 videos"
     },
     "unsubmittedSegmentCountsZero": {
-        "message": "Vous avez actuellement soumis aucun segment",
+        "message": "Vous n'avez actuellement aucun segment non soumis",
         "description": "Replaces 'unsubmittedSegmentCounts' string when there are no unsubmitted segments"
     },
     "unsubmittedSegmentsSingular": {
@@ -1278,7 +1285,7 @@
         "message": "Partager un URL"
     },
     "segmentFetchFailureWarning": {
-        "message": "Attention : Le serveur n'a pas encore répondu aux segments. Cette vidéo peut contenir des segments déjà soumis, mais vous ne les avez pas encore reçus en raison de problèmes avec le serveur."
+        "message": "Attention : le serveur n'a pas encore répondu avec des segments. Il est possible que des segments aient déjà été soumis pour cette vidéo, mais vous ne les avez pas encore reçus en raison de problèmes avec le serveur."
     },
     "allowScrollingToEdit": {
         "message": "Autoriser l'utilisation de la molette pour modifier les temps"
@@ -1372,7 +1379,7 @@
         "message": "La détection de la langue n'est pas parfaite et détecte certains titres en anglais comme non-anglais."
     },
     "thumbnailFallbackOption": {
-        "message": "Quand aucune miniature soumise n'existe"
+        "message": "Quand il n'existe aucune miniature collaborative"
     },
     "whatThumbnailFallbackOption": {
         "message": "Lors de la sélection d'une heure aléatoire, il utilisera les données de SponsorBlock pour s'assurer qu'une heure est située dans un segment promotionnel n'est pas sélectionnée.",
@@ -1398,7 +1405,7 @@
         "message": "Milieu"
     },
     "keepUnsubmitted": {
-        "message": "Stocker les votes soumis"
+        "message": "Stocker les votes envoyés"
     },
     "showLiveCover": {
         "message": "Afficher l'avatar de la chaine sur les vidéos à venir",
@@ -1417,7 +1424,7 @@
         "message": "Garder les votes soumis après un vote pour afficher les titres et miniatures que vous avez choisis au lieu de ceux ayant reçu le plus de votes sur le serveur."
     },
     "keepUnsubmittedInPrivate": {
-        "message": "Stocker les votes soumis à partir des onglets privés"
+        "message": "Stocker les votes envoyés dans les onglets privés"
     },
     "useThumbnailGenerationService": {
         "message": "Utiliser le service de génération de miniatures"
@@ -1524,7 +1531,7 @@
         "message": "Afficher les détails formatés"
     },
     "FillerWarning": {
-        "message": "Attention : cette catégorie est particulièrement agressive. Par moments, il se peut que vous deviez revenir en arrière, voire même désactiver la catégorie. Notez que certaines vidéos peuvent voir plus de 50 % de leur contenu être passé ! Souvenez-vous néanmoins que les soumissions de segments doivent respecter les directives spécifiques à cette catégorie.",
+        "message": "Attention : cette catégorie est particulièrement agressive. Par moments, il se peut que vous deviez revenir en arrière, voire même désactiver la catégorie. Notez que certaines vidéos sont passées à plus de 50 % ! Souvenez-vous néanmoins que les segments soumis doivent respecter les directives spécifiques à cette catégorie.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1532,7 +1539,7 @@
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Afficher l'aide aux consignes",
+        "message": "Afficher l'aide directives",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
@@ -1555,7 +1562,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Vérifiez l'ensemble des instructions avant de pouvoir envoyer",
+        "message": "Cochez chaque directive pour pouvoir contribuer",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
@@ -1619,7 +1626,7 @@
         "description": "A DeArrow automatic warning"
     },
     "resolveWarningFirst": {
-        "message": "Vous devez traiter l'avertissement avant d'envoyer le titre"
+        "message": "Vous devez traiter l'avertissement avant de pouvoir envoyer"
     },
     "dearrowHelpSponsorBlockImported": {
         "message": "Remarque : Vos paramètres SponsorBlock ont été importés automatiquement !"
@@ -1661,7 +1668,7 @@
         "message": "Utiliser les titres collaboratifs"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Si désactivé, cela formalisera les titres mais n'utilisera pas les titres soumis par la communauté",
+        "message": "Si l'option est désactivée, les titres seront formatés sans utiliser les titres fournis par la communauté",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1713,11 +1720,11 @@
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
-        "message": "Cette miniature est choisie à partir d'une image aléatoire car il n'y a pas encore de soumission sur cette vidéo",
+        "message": "Cette miniature provient d'un moment aléatoire de la vidéo car il n'existe pas encore de contribution pour cette vidéo",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Cette miniature est choisie à partir d'un horodatage aléatoire, car il n'y a pas encore de soumission sur cette vidéo",
+        "message": "Cette miniature provient d'un moment aléatoire de la vidéo et le titre est formaté automatiquement car il n'existe pas encore de contribution pour cette vidéo",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
@@ -1762,7 +1769,7 @@
         "message": "Nécessite uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Quelque chose s'est mal passé avec la détection de l'identifiant vidéo. Veuillez essayer de rafraîchir avant de soumettre pour s'assurer qu'il soit soumis pour la bonne vidéo. Si cela se produit beaucoup, veuillez envoyer un rapport de ceci avec les autres extensions ou scripts utilisateur que vous avez installé via GitHub, Discord ou Matrix."
+        "message": "Un problème est survenu pendant la détection de l'identifiant de la vidéo. Essayez d'actualiser la page avant d'envoyer un segment pour s'assurer qu'il soit associé à la bonne vidéo. Si cela se produit souvent, veuillez signaler ce problème sur GitHub, Discord ou Matrix en mentionnant les autres extensions ou scripts utilisateur que vous avez installés."
     },
     "dearrowLogoCredit": {
         "message": "Logo basé sur Twemoji sous licence CC-BY 4.0"
@@ -1840,7 +1847,7 @@
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
-        "message": "Confirmez-vous que la miniature originale suit bien les directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand aucune miniature soumise existe\" dans les paramètres DeArrow.",
+        "message": "La miniature originale est-elle bien conforme aux directives DeArrow ? Si vous préférez simplement toujours voir les miniatures originales, envisagez de modifier l'option \"Quand il n'existe aucune miniature collaborative\" dans les paramètres DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvLiveContentWarning": {
@@ -1978,6 +1985,9 @@
     },
     "editChannelsSkipProfile": {
         "message": "Modifier le profil de saut de cette chaîne"
+    },
+    "editActiveSkipProfile": {
+        "message": "Modifier le profil de saut actif"
     },
     "closeSkipProfileMenu": {
         "message": "Fermer le menu Profil de saut"

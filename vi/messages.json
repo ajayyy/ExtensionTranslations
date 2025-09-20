@@ -10,6 +10,9 @@
     "400": {
         "message": "Máy chủ báo yêu cầu này không hợp lệ."
     },
+    "409": {
+        "message": "Đoạn này đã được đăng rồi."
+    },
     "Segment": {
         "message": "đoạn quảng cáo"
     },
@@ -1661,11 +1664,23 @@
         "message": "Bạn có chắc chắn muốn xóa cấu hình này không?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Cấu hình mới"
+    },
+    "CreateNewConfiguration": {
+        "message": "Tạo cấu hình mới"
+    },
+    "DeleteConfiguration": {
+        "message": "Xóa cấu hình"
+    },
     "ChannelAllowlist": {
         "message": "Cài đặt riêng cho kênh"
     },
     "ConfigurationName": {
         "message": "Tên cấu hình"
+    },
+    "DefaultConfiguration": {
+        "message": "Cấu hình mặc định"
     },
     "ChannelListInstructions": {
         "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới, cách nhau từng dòng. Cả ID kênh và tên hiển thị đều được hỗ trợ. @Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấn vào nút chia sẻ trên trang giới thiệu kênh. Để tới trang giới thiệu, hãy nhấn vào mô tả kênh xuất hiện bên dưới tên kênh của họ.",

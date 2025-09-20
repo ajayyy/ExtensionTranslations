@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Verstecken"
     },
+    "collapseChapters": {
+        "message": "Innere Kapitel einklappen"
+    },
+    "expandChapters": {
+        "message": "Zeige {0} innere Kapitel",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Optionen"
     },
@@ -1977,7 +1984,10 @@
         "message": "Kanal zum Überspringen-Profil hinzufügen"
     },
     "editChannelsSkipProfile": {
-        "message": "Überspringen-Profil dieses Kanals bearbeiten"
+        "message": "Überspringen-Profil dieses Kanals ändern"
+    },
+    "editActiveSkipProfile": {
+        "message": "Aktives Überspringen-Profil ändern"
     },
     "closeSkipProfileMenu": {
         "message": "Menü für Überspringen-Profile schließen"

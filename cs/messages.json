@@ -1976,9 +1976,6 @@
     "addChannelToSkipProfile": {
         "message": "Přidat kanál do profilu přeskakování"
     },
-    "editChannelsSkipProfile": {
-        "message": "Upravit profil přeskakování tohoto kanálu"
-    },
     "closeSkipProfileMenu": {
         "message": "Zavřít nabídku profilů přeskakování"
     }
