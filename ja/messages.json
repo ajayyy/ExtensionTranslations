@@ -7,6 +7,12 @@
         "message": "YouTube動画の提供表示や登録のお願いといった部分をスキップします。動画中の広告を報告し、みんなで時間を節約しましょう。",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "サーバーがこのリクエストは無効であると返答しました。"
+    },
+    "409": {
+        "message": "これはすでに送信済みです。"
+    },
     "Segment": {
         "message": "セグメント"
     },
@@ -104,6 +110,10 @@
     "serverDown": {
         "message": "サーバーがダウンしているようです。今すぐ開発者にお知らせください。"
     },
+    "connectionError": {
+        "message": "通信エラーが発生しました。",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "セグメントはまだ読み込み中です..."
     },
@@ -176,6 +186,13 @@
     },
     "hideThis": {
         "message": "非表示にする"
+    },
+    "collapseChapters": {
+        "message": "内部のチャプターをたたむ"
+    },
+    "expandChapters": {
+        "message": "{0} 個の内部のチャプターを表示",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "オプション"
@@ -344,6 +361,10 @@
     },
     "502": {
         "message": "サーバーが混雑中です。数秒後にもう一度お試しください。"
+    },
+    "errorCode": {
+        "message": "サーバーがコード{code}を応答しました。",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "スキップ"
@@ -802,6 +823,10 @@
     },
     "category_livestream_messages_short": {
         "message": "メッセージの読み上げ"
+    },
+    "fallbackToDefault": {
+        "message": "デフォルトに戻す",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "自動スキップ"
@@ -1644,11 +1669,23 @@
         "message": "この設定を削除しますか？",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "新規設定"
+    },
+    "CreateNewConfiguration": {
+        "message": "新しい設定を作成"
+    },
+    "DeleteConfiguration": {
+        "message": "設定を削除"
+    },
     "ChannelAllowlist": {
         "message": "チャンネル固有の設定"
     },
     "ConfigurationName": {
         "message": "設定の名前"
+    },
+    "DefaultConfiguration": {
+        "message": "デフォルト設定"
     },
     "ChannelListInstructions": {
         "message": "この設定を適用するチャンネルを、改行で区切り下のボックスに入力します。チャンネルIDと表示名の両方に対応します。@username 形式には対応しません。 チャンネルの概要を表示し「共有」ボタンを押すと、チャンネルIDを取得できます。概要を表示するには、そのチャンネルのページのチャンネル名の下に表示されているチャンネルの説明を押します。",
@@ -1888,5 +1925,29 @@
     "hookNewFeature": {
         "message": "お知らせ: 掴みは予告/あらすじから新たに掴み/挨拶に移動しました",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "skipProfile_forAnHour": {
+        "message": "1時間のみ",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "このタブのみ",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "この動画のみ",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "このチャンネルのみ",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "このオプションは、他の優先度が高いオプションによって上書きされています",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "WhitelistedChannels": {
+        "message": "ホワイトリストに登録されたチャンネル",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
     }
 }
