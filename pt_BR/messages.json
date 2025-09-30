@@ -7,6 +7,12 @@
         "message": "Pule patrocinadores, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que você assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "O servidor disse que esse pedido foi inválido."
+    },
+    "409": {
+        "message": "Esse segmento já foi enviado."
+    },
     "Segment": {
         "message": "segmento"
     },
@@ -104,6 +110,10 @@
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
     },
+    "connectionError": {
+        "message": "Uma conexão de erro ocorreu.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
     },
@@ -176,6 +186,13 @@
     },
     "hideThis": {
         "message": "Ocultar isto"
+    },
+    "collapseChapters": {
+        "message": "Recolher capítulos internos"
+    },
+    "expandChapters": {
+        "message": "Mostrar os {0} capítulos internos",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opções"
@@ -344,6 +361,10 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
+    },
+    "errorCode": {
+        "message": "O servidor retornou o código de status {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Pular"
@@ -802,6 +823,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Leitura de Mensagens"
+    },
+    "fallbackToDefault": {
+        "message": "Voltar para as configurações padrão",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Pular automaticamente"
@@ -1650,14 +1675,30 @@
         "message": "Deseja mesmo apagar esse ajuste?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nova Configuração"
+    },
+    "CreateNewConfiguration": {
+        "message": "Criar nova configuração"
+    },
+    "DeleteConfiguration": {
+        "message": "Excluir configuração"
+    },
     "ChannelAllowlist": {
         "message": "Configurações específicas do canal"
     },
     "ConfigurationName": {
         "message": "Nome do ajuste"
     },
+    "DefaultConfiguration": {
+        "message": "Configuração Padrão"
+    },
     "ChannelListInstructions": {
         "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Adicione canais que devem usar este perfil de pulo alternativo clicando no botão no pop-up de um vídeo feito por esse canal. A lista de canais aparecerá abaixo.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1894,5 +1935,61 @@
     "hookNewFeature": {
         "message": "Aviso: O gancho foi movido da categoria Pré-visualização/Recapitulação para a nova categoria de Gancho/Saudações",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Falha ao ocultar/exibir permanentemente o segmento solicitado, pois o UUID do segmento não pôde ser resolvido:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Por uma hora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Para esta aba",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Para apenas esse vídeo",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Para este canal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Clique para aplicar este perfil pulando"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Esta opção está sendo substituída por uma opção de maior prioridade",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Clique para aplicar este perfil pulando"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Selecione um perfil pular primeiro",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Selecione um perfil pular primeiro"
+    },
+    "SkipProfileMenu": {
+        "message": "Saltar menu de perfil"
+    },
+    "WhitelistedChannels": {
+        "message": "Adicionar canal à lista de permissões",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Adicionar canal para pular o perfil"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Alterar o perfil de pular este canal"
+    },
+    "editActiveSkipProfile": {
+        "message": "Alterar o perfil de pular ativos"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Fechar menu de perfil"
     }
 }

@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Сакриј ово"
     },
+    "collapseChapters": {
+        "message": "Сакриј унутрашња поглавља"
+    },
+    "expandChapters": {
+        "message": "Прикажи {0} унутрашња поглавља",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Опције"
     },
@@ -1977,7 +1984,10 @@
         "message": "Додај канал на профил прескакања"
     },
     "editChannelsSkipProfile": {
-        "message": "Измени профил прескакања овог канала"
+        "message": "Промени профил прескакања овог канала"
+    },
+    "editActiveSkipProfile": {
+        "message": "Промени активни профил прескакања"
     },
     "closeSkipProfileMenu": {
         "message": "Затвори мени профила прескакања"

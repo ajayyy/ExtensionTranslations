@@ -187,6 +187,13 @@
     "hideThis": {
         "message": "Skrýt"
     },
+    "collapseChapters": {
+        "message": "Sbalit vnitřní kapitoly"
+    },
+    "expandChapters": {
+        "message": "Zobrazit {0} vnitřních kapitol",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Nastavení"
     },
@@ -1977,7 +1984,10 @@
         "message": "Přidat kanál do profilu přeskakování"
     },
     "editChannelsSkipProfile": {
-        "message": "Upravit profil přeskakování tohoto kanálu"
+        "message": "Změnit profil přeskakování tohoto kanálu"
+    },
+    "editActiveSkipProfile": {
+        "message": "Změnit aktivní profil přeskakování"
     },
     "closeSkipProfileMenu": {
         "message": "Zavřít nabídku profilů přeskakování"
