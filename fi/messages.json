@@ -29,6 +29,9 @@
         "message": "Piirrä osiot kappaleina",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Oletus välilehti osioluettelon ponnahdusikkunassa"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Näytä nykyinen osio videon ajan vieressä"
     },
@@ -1929,5 +1932,34 @@
     "skipProfile_forThisChannel": {
         "message": "Tälle kanavalle",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Klikkaa ottaaksesi tämän ohitusprofiilin käyttöön"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Valitse ensin ohitusprofiili",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Valitse ohitusprofiili"
+    },
+    "SkipProfileMenu": {
+        "message": "Ohitusprofiilivalikko"
+    },
+    "WhitelistedChannels": {
+        "message": "Sallitut kanavat",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Lisää kanava ohitusprofiiliin"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Muuta tämän kanavan ohitusprofiilia"
+    },
+    "editActiveSkipProfile": {
+        "message": "Muuta aktiivista ohitusprofiilia"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Sulje ohitusprofiilivalikko"
     }
 }
