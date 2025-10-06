@@ -29,6 +29,9 @@
         "message": "Szegmensek megjelenítése fejezetekként",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Alapértelmezett fül a szegmens lista felugró ablakban"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Aktuális szegmens megjelenítése a videó ideje mellett"
     },
