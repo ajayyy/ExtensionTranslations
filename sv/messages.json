@@ -29,6 +29,9 @@
         "message": "Visa segment som kapitel",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Standardflik i segmentlistpopupen"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Visa nuvarande segment bredvid videotid"
     },
