@@ -29,6 +29,9 @@
         "message": "Visualizza segmenti come capitoli",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Scheda predefinita nella comparsa elenco segmenti"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Mostra il segmento corrente accanto alla durata del video"
     },
