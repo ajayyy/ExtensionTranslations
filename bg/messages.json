@@ -29,6 +29,9 @@
         "message": "Изобразяване на сегментите като глави",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Раздел по подразбиране в изскачащия прозорец със списък на сегментите"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Показване на текущия сегмент до времето на клипа"
     },
