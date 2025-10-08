@@ -29,6 +29,9 @@
         "message": "Zeige Segmente als Kapitel",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Standard-Tab im Segmentlisten-Popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Aktuelles Segment neben der Videozeit anzeigen"
     },
