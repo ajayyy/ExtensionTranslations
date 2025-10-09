@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Тъмен режим на страницата с опции"
     },
+    "prideTheme": {
+        "message": "Гейска тема"
+    },
     "helpPageThanksForInstalling": {
         "message": "Благодарим ви, че инсталирахте SponsorBlock."
     },
