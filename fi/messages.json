@@ -190,6 +190,13 @@
     "hideThis": {
         "message": "Piilota tämä"
     },
+    "collapseChapters": {
+        "message": "Tiivistä sisäiset kappaleet"
+    },
+    "expandChapters": {
+        "message": "Näytä {0} sisäistä kappaletta",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
+    },
     "Options": {
         "message": "Asetukset"
     },
@@ -357,6 +364,10 @@
     },
     "502": {
         "message": "Palvelin näyttää olevan ylikuormitettu. Yritä uudelleen muutaman sekunnin kuluttua."
+    },
+    "errorCode": {
+        "message": "Palvelin palautti tilakoodin {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Ohita"
@@ -815,6 +826,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Viestien lukeminen"
+    },
+    "fallbackToDefault": {
+        "message": "Varmista oletuksella",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Ohita automaattisesti"
@@ -1688,6 +1703,10 @@
         "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
+    "ChannelListInstructionsSB": {
+        "message": "Lisää tätä vaihtoehtoista ohitusprofiilia käyttäviä kanavia klikkaamalla kanavan julkaiseman videon ponnahduksessa olevaa painiketta. Listaus valituista kanavista näytetään alla.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Määrityksiä ei ole vielä luotu. Lisää määritys painamalla ylhäällä olevaa painiketta.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1923,6 +1942,10 @@
         "message": "Huomio: Koukku on siirretty Esikatselu/Kertaus -kategoriasta uuteen Koukku/Tervehdykset -kategoriaan",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
+    "segmentHideFailed": {
+        "message": "Pyydetyn osion pysyvä piilotus/näyttö epäonnistui, koska segmentin UUID-tunnisteen selvitys ei onnistunut:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
     "skipProfile_forAnHour": {
         "message": "Tunniksi",
         "description": "Option in skip profiles to set this skip profile as the active one for an hour"
@@ -1938,6 +1961,13 @@
     "skipProfile_forThisChannel": {
         "message": "Tälle kanavalle",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Klikkaa poistaaksesi ohitusprofiilin käyttöstä"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Ylemmän tason painotusasetus korvaa tämän asetuksen",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
         "message": "Klikkaa ottaaksesi tämän ohitusprofiilin käyttöön"
