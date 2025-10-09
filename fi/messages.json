@@ -1044,6 +1044,9 @@
     "darkModeOptionsPage": {
         "message": "Tumma tila asetussivulla"
     },
+    "prideTheme": {
+        "message": "Pride-teema"
+    },
     "helpPageThanksForInstalling": {
         "message": "Kiitos, että asensit SponsorBlockin."
     },
@@ -1660,7 +1663,7 @@
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
-        "message": "Haluatko varmasti poistaa tämän määrityksen?",
+        "message": "Haluatko varmasti poistaa määrityksen?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
@@ -1678,12 +1681,15 @@
     "ConfigurationName": {
         "message": "Määrityksen nimi"
     },
+    "DefaultConfiguration": {
+        "message": "Oletusmääritys"
+    },
     "ChannelListInstructions": {
         "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
-        "message": "Määrityksiä ei vielä ole luotu. Lisää uusi määritys painamalla yläreunassa olevaa painiketta.",
+        "message": "Määrityksiä ei ole vielä luotu. Lisää määritys painamalla ylhäällä olevaa painiketta.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
