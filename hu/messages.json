@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Sötét téma a Beállításokban"
     },
+    "prideTheme": {
+        "message": "Pride téma"
+    },
     "helpPageThanksForInstalling": {
         "message": "Köszönjük, hogy telepítetted a SponsorBlockot."
     },
