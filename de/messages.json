@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Dunkler Modus auf der Optionsseite"
     },
+    "prideTheme": {
+        "message": "Pride-Theme"
+    },
     "helpPageThanksForInstalling": {
         "message": "Danke fürs Installieren von SponsorBlock."
     },
