@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Mörkt läge på alternativsidan"
     },
+    "prideTheme": {
+        "message": "Pridetema"
+    },
     "helpPageThanksForInstalling": {
         "message": "Tack för att du installerade SponsorBlock."
     },
