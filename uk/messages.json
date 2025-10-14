@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Темний режим на сторінці налаштувань"
     },
+    "prideTheme": {
+        "message": "Тема Прайду"
+    },
     "helpPageThanksForInstalling": {
         "message": "Дякую за встановлення SponsorBlock."
     },
