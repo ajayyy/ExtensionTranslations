@@ -29,6 +29,9 @@
         "message": "Отображать сегменты как эпизоды",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Вкладка по умолчанию во всплывающем списке сегментов"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Показывать название текущего сегмента рядом со временем"
     },

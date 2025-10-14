@@ -29,6 +29,9 @@
         "message": "Zeige Segmente als Kapitel",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Standard-Tab im Segmentlisten-Popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Aktuelles Segment neben der Videozeit anzeigen"
     },
@@ -1056,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Dunkler Modus auf der Optionsseite"
     },
+    "prideTheme": {
+        "message": "Pride-Design"
+    },
     "helpPageThanksForInstalling": {
         "message": "Danke fürs Installieren von SponsorBlock."
     },
@@ -1981,7 +1987,7 @@
         "description": "Name used when converting old whitelisted channels to skip profiles"
     },
     "addChannelToSkipProfile": {
-        "message": "Kanal zum Überspringen-Profil hinzufügen"
+        "message": "Kanal zu Überspringen-Profil hinzufügen"
     },
     "editChannelsSkipProfile": {
         "message": "Überspringen-Profil dieses Kanals ändern"

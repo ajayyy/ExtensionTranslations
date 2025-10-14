@@ -104,6 +104,10 @@
     "serverDown": {
         "message": "看起來伺服器已離線。立即聯繫開發者"
     },
+    "connectionError": {
+        "message": "發生連線錯誤。",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "片段仍在載入中..."
     },
@@ -338,6 +342,10 @@
     },
     "502": {
         "message": "伺服器可能超載。請稍後再試。"
+    },
+    "errorCode": {
+        "message": "伺服器傳回狀態碼 {code}。",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "略過"
@@ -986,6 +994,9 @@
     },
     "darkModeOptionsPage": {
         "message": "選項頁面深色模式"
+    },
+    "prideTheme": {
+        "message": "驕傲主題"
     },
     "helpPageThanksForInstalling": {
         "message": "感謝您安裝 SponsorBlock。"

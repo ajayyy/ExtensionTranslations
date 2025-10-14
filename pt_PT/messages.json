@@ -7,6 +7,12 @@
         "message": "Ignore patrocínios, pedidos para se inscrever e mais em vídeos do YouTube. Denuncie patrocinadores em vídeos que assistir para economizar o tempo dos outros.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "O servidor disse que este pedido foi inválido."
+    },
+    "409": {
+        "message": "Isto já foi enviado antes."
+    },
     "Segment": {
         "message": "segmento"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Renderizar segmentos como capítulos",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Separador predefinido em popup da lista de segmentos"
     },
     "showSegmentNameInChapterBar": {
         "message": "Mostrar segmento atual ao lado do tempo do vídeo"
@@ -103,6 +112,10 @@
     },
     "serverDown": {
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
+    },
+    "connectionError": {
+        "message": "Ocorreu um erro de ligação.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmentos ainda carregando..."
@@ -1592,11 +1605,20 @@
     "NewConfiguration": {
         "message": "Nova configuração"
     },
+    "CreateNewConfiguration": {
+        "message": "Criar nova configuração"
+    },
+    "DeleteConfiguration": {
+        "message": "Eliminar configuração"
+    },
     "ChannelAllowlist": {
         "message": "Definições específicas do canal"
     },
     "ConfigurationName": {
         "message": "Nome do ajuste"
+    },
+    "DefaultConfiguration": {
+        "message": "Configuração predefinida"
     },
     "ChannelListInstructions": {
         "message": "Introduza os canais aos quais pretende aplicar esta configuração na caixa abaixo, separados por novas linhas. São suportados IDs de canal e nomes de apresentação. Os nomes de utilizador @ não são suportados. Pode obter IDs de canal ao clicar no botão de partilha na página acerca do canal. Para aceder a página sobre, clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
@@ -1845,8 +1867,28 @@
         "message": "Para este canal",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
+    "selectASkipProfileFirst": {
+        "message": "Selecione primeiro um perfil de ignorar",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Selecione um perfil de ignorar"
+    },
     "SkipProfileMenu": {
         "message": "Ignorar menu de perfil"
+    },
+    "WhitelistedChannels": {
+        "message": "Canais com permissão",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Adicionar canal para ignorar o perfil"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Alterar o perfil de ignorar deste canal"
+    },
+    "editActiveSkipProfile": {
+        "message": "Alterar perfil de ignorar ativo"
     },
     "closeSkipProfileMenu": {
         "message": "Fechar ignorar menu de perfil"

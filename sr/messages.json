@@ -29,6 +29,9 @@
         "message": "Рендеруј сегменте као поглавља",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Подразумевана картица у искачућем прозору листе сегмената"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Прикажи тренутни сегмент поред времена видео снимка"
     },
@@ -1055,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Тамни режим на страници са опцијама"
+    },
+    "prideTheme": {
+        "message": "Прајд тема"
     },
     "helpPageThanksForInstalling": {
         "message": "Хвала што сте инсталирали SponsorBlock."

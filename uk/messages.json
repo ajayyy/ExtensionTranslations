@@ -29,6 +29,9 @@
         "message": "Показувати сегменти як розділи",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Вкладка за замовчуванням в спливаючому списку сегментів"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Показати поточний сегмент поруч із часом відео"
     },
@@ -825,7 +828,7 @@
         "message": "Читання повідомлень"
     },
     "fallbackToDefault": {
-        "message": "Повернутись до типового",
+        "message": "Відкат до налаштувань за умовчанням",
         "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
@@ -1055,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Темний режим на сторінці налаштувань"
+    },
+    "prideTheme": {
+        "message": "Тема Прайду"
     },
     "helpPageThanksForInstalling": {
         "message": "Дякую за встановлення SponsorBlock."
