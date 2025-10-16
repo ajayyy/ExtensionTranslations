@@ -716,6 +716,9 @@
     "category_outro_guideline1": {
         "message": "אל תכלול תוכן, גם אם מופיעים כרטיסי קצה על המסך"
     },
+    "category_preview": {
+        "message": "תצוגה מקדימה/סיכום"
+    },
     "category_preview_description": {
         "message": "אוסף קליפים המציגים מה עולה בסרטון זה או סרטונים אחרים בסדרה שבה כל המידע חוזר על עצמו בהמשך הסרטון."
     },
@@ -1837,5 +1840,15 @@
     },
     "OpenSettings": {
         "message": "פתח הגדרות"
+    },
+    "SkipProfileMenu": {
+        "message": "דלג על תפריט הפרופיל"
+    },
+    "WhitelistedChannels": {
+        "message": "ערוצים ברשימה הלבנה",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "הוסף ערוץ לפרופיל דילוג"
     }
 }
