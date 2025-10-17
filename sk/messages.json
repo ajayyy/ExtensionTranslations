@@ -104,6 +104,10 @@
     "serverDown": {
         "message": "Zdá sa, že server je nedostupný. Okamžite kontaktujte vývojára."
     },
+    "connectionError": {
+        "message": "Došlo k chybe pripojenia.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "Segmenty sa ešte nahrávajú..."
     },
@@ -1018,6 +1022,9 @@
     "darkModeOptionsPage": {
         "message": "Tmavý režim na stránke s možnosťami"
     },
+    "prideTheme": {
+        "message": "Téma pride"
+    },
     "helpPageThanksForInstalling": {
         "message": "Ďakujeme za inštaláciu SponsorBlock-u."
     },
@@ -1633,6 +1640,9 @@
     "areYouSureDeleteConfig": {
         "message": "Naozaj chcete toto nastavenie zmazať?",
         "description": "Appears when deleting a configuration for channel-based settings"
+    },
+    "NewConfiguration": {
+        "message": "Nová konfigurácia"
     },
     "ChannelAllowlist": {
         "message": "Špecifické nastavenie kanálu"
