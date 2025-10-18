@@ -321,5 +321,114 @@
     },
     "skipSegment": {
         "message": "Izlaist segmentu"
+    },
+    "yearAbbreviation": {
+        "message": "g",
+        "description": "100y"
+    },
+    "dayAbbreviation": {
+        "message": "d",
+        "description": "100d"
+    },
+    "hourAbbreviation": {
+        "message": "st",
+        "description": "100h"
+    },
+    "optionsTabBehavior": {
+        "message": "Uzvedība",
+        "description": "Appears in Options as a tab header for options related to categories and skipping behavior. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "optionsTabInterface": {
+        "message": "Interfeiss",
+        "description": "Appears in Options as a tab header for options related to GUI and sounds. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
+    },
+    "notSet": {
+        "message": "Nav iestatīts"
+    },
+    "change": {
+        "message": "Mainīt"
+    },
+    "betaServerWarning": {
+        "message": "BETA Serveris ir iespējots!"
+    },
+    "importSegments": {
+        "message": "Importēt Segmentus"
+    },
+    "Import": {
+        "message": "Importēt",
+        "description": "Button to initiate importing segments. Appears under the textbox where they paste in the data"
+    },
+    "redeemFailed": {
+        "message": "Licences atslēga nav derīga"
+    },
+    "VideoNotReady": {
+        "message": "Video nav gatavs"
+    },
+    "FailedToLoad": {
+        "message": "Neizdevās ielādēt",
+        "description": "Thumbnail failed to load"
+    },
+    "Start": {
+        "message": "Sākums"
+    },
+    "Middle": {
+        "message": "Vidus"
+    },
+    "onAllPages": {
+        "message": "Visās Lapās",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "onAllPagesExceptVideo": {
+        "message": "Visās Lapās, Izņemot Video Lapas",
+        "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
+    },
+    "Never": {
+        "message": "Nekad"
+    },
+    "Enable": {
+        "message": "Iespējot"
+    },
+    "Error": {
+        "message": "Kļūda"
+    },
+    "howItWorks": {
+        "message": "Kā tas darbojas"
+    },
+    "privacyPolicy": {
+        "message": "Privātuma Politika"
+    },
+    "termsOfUse": {
+        "message": "Lietošanas Noteikumi"
+    },
+    "openSourceLicenses": {
+        "message": "Atvērtā Pirmkoda Licences"
+    },
+    "freeAccessComplete": {
+        "message": "Apsveicam! Tagad jums ir bezmaksas piekļuve DeArrow"
+    },
+    "DeArrowNotActivated": {
+        "message": "DeArrow nav aktivizēts"
+    },
+    "ActivateDeArrow": {
+        "message": "Aktivizēt DeArrow"
+    },
+    "DeArrowIsActivated": {
+        "message": "DeArrow ir veiksmīgi aktivizēts"
+    },
+    "Close": {
+        "message": "Aizvērt"
+    },
+    "ViewLicenseKey": {
+        "message": "Skatīt Licences Atslēgu"
+    },
+    "SharingIsCaring": {
+        "message": "Dalīšanās ir rūpes"
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow ir atspējots — noklikšķiniet, lai iespējotu",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "Yes": {
+        "message": "Jā"
     }
 }
