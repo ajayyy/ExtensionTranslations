@@ -29,6 +29,9 @@
         "message": "Zobrazit segmenty jako kapitoly",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Výchozí karta ve vyskakovacím okně seznamu segmentů"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Zobrazit aktuální segment vedle času videa"
     },
@@ -1055,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Tmavý režim na stránce možností"
+    },
+    "prideTheme": {
+        "message": "Motiv hrdosti"
     },
     "helpPageThanksForInstalling": {
         "message": "Děkujeme za instalaci SponsorBlocku."
