@@ -7,6 +7,12 @@
         "message": "Preskoč sponzorstvá, žiadosti o odber atď. v YouTube videách. Nahlás sponzorované segmenty vo videách čo sleduješ a ušetri ostatným čas.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server hlási, že táto požiadavka je neplatná."
+    },
+    "409": {
+        "message": "Tento príspevok už bol predtým pridaný."
+    },
     "Segment": {
         "message": "segment"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Zobraziť segmenty ako kapitoly",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Predvolená karta vo vyskakovacom okne so zoznamom segmentov"
     },
     "showSegmentNameInChapterBar": {
         "message": "Zobraziť aktuálny segment vedľa času videa"
@@ -180,6 +189,13 @@
     },
     "hideThis": {
         "message": "Skryť"
+    },
+    "collapseChapters": {
+        "message": "Zbaliť vnútorné kapitoly"
+    },
+    "expandChapters": {
+        "message": "Zobraziť {0} vnútorných kapitol",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Nastavenia"
@@ -348,6 +364,10 @@
     },
     "502": {
         "message": "Zdá sa, že server je preťažený. Skúste to o pár sekúnd."
+    },
+    "errorCode": {
+        "message": "Server vrátil stavový kód {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Preskočiť"
@@ -722,6 +742,19 @@
     "category_preview_guideline3": {
         "message": "Nie pre sekcie, ktoré majú dodatočný obsah"
     },
+    "category_hook": {
+        "message": "Zaujatie / Pozdravy",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Komentované upútavky na nadchádzajúce video, pozdravy a rozlúčky. Toto by nemalo vynechávať závery s informáciami."
+    },
+    "category_hook_guideline1": {
+        "message": "Komentované upútavky na nadchádzajúce video"
+    },
+    "category_hook_guideline2": {
+        "message": "Sekcie pozdravov a rozlúčok vítajúce divákov"
+    },
     "category_hook_guideline3": {
         "message": "Nie je určené pre sekcie, ktoré pridávajú ďalší obsah"
     },
@@ -793,6 +826,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Oznamy"
+    },
+    "fallbackToDefault": {
+        "message": "Vrátiť na predvolené",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Automatické Preskočenie"
@@ -1335,6 +1372,9 @@
     "shouldCleanEmojis": {
         "message": "Odstrániť emoji"
     },
+    "formatCustomTitles": {
+        "message": "Formátovať názvy odoslané používateľmi"
+    },
     "formatOriginalTitles": {
         "message": "Formátovať pôvodné názvy"
     },
@@ -1644,14 +1684,27 @@
     "NewConfiguration": {
         "message": "Nová konfigurácia"
     },
+    "CreateNewConfiguration": {
+        "message": "Vytvoriť novú konfiguráciu"
+    },
+    "DeleteConfiguration": {
+        "message": "Odstrániť konfiguráciu"
+    },
     "ChannelAllowlist": {
         "message": "Špecifické nastavenie kanálu"
     },
     "ConfigurationName": {
         "message": "Názov nastavenia"
     },
+    "DefaultConfiguration": {
+        "message": "Predvolená konfigurácia"
+    },
     "ChannelListInstructions": {
         "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Pridajte kanály, ktoré by mali používať tento profil preskakovania, kliknutím na tlačidlo vo vyskakovacom okne pri videu vytvorenom daným kanálom. Zoznam kanálov sa zobrazí nižšie.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1878,7 +1931,71 @@
     "onlyShowCasualIconForCustom": {
         "message": "Zobraziť ikonu normálneho režimu iba v prípade, že je dostupný vlastný názov"
     },
+    "dontFormatCasualTitles": {
+        "message": "Neformátovať názvy v normálnom režime",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "Otvoriť nastavenia"
+    },
+    "hookNewFeature": {
+        "message": "Upozornenie: zaujatie bolo presunuté z kategórie Náhľad/zhrnutie do novej kategórie Zaujatia / Pozdravy",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Nepodarilo sa trvalo skryť / zrušiť skrytie požadovaného segmentu, pretože sa nepodarilo načítať UUID segmentu:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Na hodinu",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Pre túto kartu",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Len pre toto video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Pre tento kanál",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Kliknite pre nepoužitie tohto profilu preskakovania"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Táto možnosť je prepísaná možnosťou s vyššou prioritou",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Kliknite pre použitie tohto profilu preskakovania"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Najprv vyberte profil preskakovania",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Vyberte profil preskakovania"
+    },
+    "SkipProfileMenu": {
+        "message": "Ponuka profilov preskakovania"
+    },
+    "WhitelistedChannels": {
+        "message": "Kanály na bielej listine",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Pridať kanál do profilu preskakovania"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Zmeniť profil preskakovania tohto kanála"
+    },
+    "editActiveSkipProfile": {
+        "message": "Zmeniť aktívny profil preskakovania"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Zavrieť ponuku profilov preskakovania"
     }
 }
