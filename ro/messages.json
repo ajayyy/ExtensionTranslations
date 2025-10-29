@@ -29,6 +29,9 @@
         "message": "Afișați segmentele folosind formatul capitolelor",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Pag. implic. din meniul principal de informații"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Afișați segmentul curent lângă indicatorul de timp"
     },

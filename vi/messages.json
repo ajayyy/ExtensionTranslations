@@ -197,7 +197,7 @@
         "message": "Không hiển thị nút trên trình chạy video Youtube để đăng đoạn quảng cáo."
     },
     "showSkipButton": {
-        "message": "Giữ nút bỏ qua Highlight trên trình phát player"
+        "message": "Hiện nút Nhảy tới Điểm/Mốc thời gian quan trọng trên trình phát"
     },
     "showInfoButton": {
         "message": "Hiển thị nút thông tin trên trình chạy video Youtube"
@@ -1158,7 +1158,7 @@
         "description": "Appears in Options as a tab header for options related to saving/restoring your settings. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "optionsTabAdvanced": {
-        "message": "Điều khoản khác",
+        "message": "Các cài đặt khác",
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
@@ -1920,5 +1920,9 @@
     "hookNewFeature": {
         "message": "Lưu ý: Phân đoạn Gây chú ý đã được chuyển từ mục Xem trước/Tóm tắt sang mục mới Gây chú ý/Lời chào",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Có lỗi xảy ra khi cố thực hiện ẩn/hiện phân đoạn bạn đã chọn, vì không thể xử lí được phân đoạn có UUID này:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     }
 }

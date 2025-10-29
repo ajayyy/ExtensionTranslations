@@ -7,6 +7,12 @@
         "message": "Fjern reklamer, subscriber tiggeri og mere i youtube videoer. Rapporter reklamer på de videoer du ser for at spare folks tid.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Serveren sagde, at denne anmodning var ugyldig."
+    },
+    "409": {
+        "message": "Dette er allerede blevet indsendt før."
+    },
     "Segment": {
         "message": "seg"
     },
@@ -103,6 +109,10 @@
     },
     "serverDown": {
         "message": "Det ser ud til at serveren er nede. Kontakt udvikleren straks."
+    },
+    "connectionError": {
+        "message": "En forbindelsesfejl er opstået.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenter indlæses stadig..."

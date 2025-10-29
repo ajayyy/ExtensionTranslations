@@ -7,6 +7,12 @@
         "message": "דלג על החסויות, ההתחננויות לעשות מנוי ועוד בסרטוני יוטיוב. דווח על ספונסרים בסרטונים שאתה צופה בהם כדי לחסוך לאחרים זמן.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "השרת הגיב שהבקשה הזו לא בתוקף."
+    },
+    "409": {
+        "message": "זה כבר הוגש בעבר."
+    },
     "Segment": {
         "message": "מקטע"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "עיבוד קטעים כפרקים",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "כרטיסיית ברירת מחדל בחלון קופץ של רשימת המקטעים"
     },
     "showSegmentNameInChapterBar": {
         "message": "הצגת קטע נוכחי לצד זמן וידאו"
@@ -103,6 +112,10 @@
     },
     "serverDown": {
         "message": "נראה שהשרת נפל. צור קשר עם המפתח מיד."
+    },
+    "connectionError": {
+        "message": "אירעה שגיאת חיבור.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "קטעים עדיין נטענים..."
@@ -702,6 +715,9 @@
     },
     "category_outro_guideline1": {
         "message": "אל תכלול תוכן, גם אם מופיעים כרטיסי קצה על המסך"
+    },
+    "category_preview": {
+        "message": "תצוגה מקדימה/סיכום"
     },
     "category_preview_description": {
         "message": "אוסף קליפים המציגים מה עולה בסרטון זה או סרטונים אחרים בסדרה שבה כל המידע חוזר על עצמו בהמשך הסרטון."
@@ -1824,5 +1840,15 @@
     },
     "OpenSettings": {
         "message": "פתח הגדרות"
+    },
+    "SkipProfileMenu": {
+        "message": "דלג על תפריט הפרופיל"
+    },
+    "WhitelistedChannels": {
+        "message": "ערוצים ברשימה הלבנה",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "הוסף ערוץ לפרופיל דילוג"
     }
 }
