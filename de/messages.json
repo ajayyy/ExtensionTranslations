@@ -264,19 +264,19 @@
         "message": "Kategorienhilfe anzeigen"
     },
     "noticeVisibilityMode0": {
-        "message": "Überspringen-Meldung in voller Größe"
+        "message": "Überspringen-Meldungen in voller Größe"
     },
     "noticeVisibilityMode1": {
-        "message": "Kleine Skip-Meldung für Auto-Skips"
+        "message": "Kleine Überspringen-Meldungen für Auto-Überspringen"
     },
     "noticeVisibilityMode2": {
-        "message": "Alle kleinen Skip-Meldungen"
+        "message": "Immer kleine Überspringen-Meldungen"
     },
     "noticeVisibilityMode3": {
-        "message": "Verblasste Skip-Meldung für Auto-Skip"
+        "message": "Verblasste Überspringen-Meldungen für Auto-Überspringen"
     },
     "noticeVisibilityMode4": {
-        "message": "Alle verblassten Skip-Meldungen"
+        "message": "Immer verblasste Überspringen-Meldungen"
     },
     "longDescription": {
         "message": "SponsorBlock lässt dich gesponserte Videosegmente, Intros, Outros, Interaktions-Erinnerungen, Musikvideoteile ohne Musik und andere nervige Teile von YouTube-Videos überspringen. SponsorBlock ist eine crowdsourced Browser-Erweiterung, in der jeder die Start- und Endzeit gesponserter Videosegmente und anderer Segmente von YouTube-Videos einreicht. Sobald eine Person diese Informationen einreicht, überspringen alle anderen mit dieser Erweiterung das gesponserte Segment.",
@@ -319,7 +319,7 @@
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Überspringen-Hinweis schließen",
+        "message": "Überspringen-Meldung schließen",
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
@@ -518,7 +518,7 @@
         "message": "Für Personen, die das Video ohne Unterbrechungen schauen wollen, wenn es vollständig gesponsert oder Eigenwerbung ist."
     },
     "skipNoticeDuration": {
-        "message": "Dauer des Überspringen-Hinweises (Sekunden):"
+        "message": "Dauer der Überspringen-Meldung (Sekunden):"
     },
     "skipNoticeDurationDescription": {
         "message": "Die Überspringen-Meldung wird mindestens für so viele Sekunden angezeigt. Für manuelles Überspringen kann sie länger sichtbar sein."
@@ -1179,7 +1179,7 @@
         "description": "Appears in Options as a tab header for advanced/niche options. To fit inside the button, it should not be longer than ~20-25 characters (depending on their width)."
     },
     "noticeVisibilityLabel": {
-        "message": "Aussehen der Überspringen-Benachrichtigung",
+        "message": "Aussehen der Überspringen-Meldung",
         "description": "Option label"
     },
     "unbind": {
