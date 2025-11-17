@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow неће функционисати без меморије."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Можете је омогућити тако што ћете отићи на страницу about:config и подесити вредност за „webextensions.storage.sync.enabled” на true."
-    },
     "storageFull": {
         "message": "Меморија додатка је пуна. Избришите неке неподнесене сегменте у опцијама."
     },
