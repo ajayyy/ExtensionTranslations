@@ -1818,9 +1818,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow depolama olmadan çalışmayacaktır."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "about:config sayfasına gidip \"webextensions.storage.sync.enabled\" değerini true olarak ayarlayarak etkinleştirebilirsiniz."
-    },
     "storageFull": {
         "message": "Depolama dolu. Gönderilmemiş kimi kısımları silmeyi deneyin."
     },
