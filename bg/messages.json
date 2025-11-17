@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow няма да функционира без хранилище."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Можете да го активирате, като отидете в about:config и зададете стойността на „webextensions.storage.sync.enabled“ на true."
-    },
     "storageFull": {
         "message": "Мястото за съхранение на разширението е пълно. Моля, изтрийте някои неподадени сегменти в опциите."
     },
