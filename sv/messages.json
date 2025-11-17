@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow fungerar inte utan lagring."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Du kan aktivera det genom att gå till about:config och ställa in värdet av \"webextensions.storage.sync.enabled\" till true."
-    },
     "storageFull": {
         "message": "Tilläggslagringen är full. Ta bort några oinskickade segment i alternativen."
     },
