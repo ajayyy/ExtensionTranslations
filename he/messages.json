@@ -1767,9 +1767,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow לא יפעל ללא אחסון."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "ניתן להפעיל זאת על ידי מעבר אל about:config והגדרת הערך \"webextensions.storage.sync.enabled\" ל-true."
-    },
     "storageFull": {
         "message": "שטח האחסון של התוסף מלא. אנא מחק קטעים שלא הוגשו מהאפשרויות."
     },
