@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow는 저장 공간이 없으면 작동하지 않아요."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
-    },
     "storageFull": {
         "message": "확장 프로그램 저장 공간이 가득 찼어요. 설정에서 미제출한 구간 일부를 삭제해 주세요."
     },
