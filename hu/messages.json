@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "A DeArrow nem fog működni tárhely nélkül."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Engedélyezheted, ha elmész az about:config címre, és a \"webextensions.storage.sync.enabled\" értéket true-ra állítod."
-    },
     "storageFull": {
         "message": "A bővítmény tárhelye megtelt. Kérlek, törölj néhány beküldetlen szegmenst a beállításokban."
     },
