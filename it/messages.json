@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow non funzionerà senza archiviazione."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Puoi abilitarla andando in about:config e impostando il valore \"webextensions.storage.sync.enabled\" a true."
-    },
     "storageFull": {
         "message": "L'archiviazione dell'estensione è piena. Ti preghiamo di eliminare qualche segmento non inviato nelle opzioni."
     },
