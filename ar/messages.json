@@ -1825,9 +1825,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "لن يعمل DeArrow بدون مساحة تخزين."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "يمكنك تفعيلها عن طريق الذهاب الى about:config و تعيين قيمة \"webextensions.storage.sync.enabled\" الى true."
-    },
     "storageFull": {
         "message": "مساحة تخزين الاضافة ممتلئة. الرجاء حذف بعض الفقرات الغير مُقدمة في قائمة الخيارات."
     },
