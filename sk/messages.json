@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow nebude bez úložiska fungovať."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Môžete ho zapnúť v about:config nastavením hodnoty \"webextensions.storage.sync.enabled\" na true."
-    },
     "storageFull": {
         "message": "Úložisko rozšírenia je plné. Prosím, odstráňte niektoré neodoslané segmenty v možnostiach."
     },
