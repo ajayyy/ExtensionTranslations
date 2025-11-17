@@ -1754,9 +1754,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "O DeArrow não irá funcionar sem armazenamento."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Pode ativar, acedendo a about:config e definindo o valor de \"webextensions.storage.sync.enabled\" como verdadeiro."
-    },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Elimine alguns segmentos não submetidos nas opções."
     },
