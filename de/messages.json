@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow funktioniert nicht ohne Speicher."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Du kannst es aktivieren, indem du zu about:config gehst und den Wert \"webextensions.storage.sync.enabled\" auf true setzt."
-    },
     "storageFull": {
         "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
     },
