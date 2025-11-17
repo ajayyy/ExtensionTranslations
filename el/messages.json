@@ -1732,9 +1732,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "Το DeArrow δε θα λειτουργήσει χωρίς αποθηκευτικό χώρο."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Μπορείτε να το ενεργοποιήσετε πηγαίνοντας στο about:config και ορίζοντας την τιμή του \"webextensions.storage.sync.enabled\" σε true."
-    },
     "storageFull": {
         "message": "Ο αποθηκευτικός χώρος επεκτάσεων είναι πλήρης. Παρακαλούμε διαγράψτε μερικά μη υποβληθέντα τμήματα στις επιλογές."
     },
