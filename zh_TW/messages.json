@@ -1715,9 +1715,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "沒有儲存空間，DeArrow 將無法運作。"
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "您可以前往 about:config，然後將「webextensions.storage.sync.enabled」的值設定為 true 來啟用儲存空間。"
-    },
     "storageFull": {
         "message": "擴充功能儲存空間已滿。請在選項中刪除一些未提交的片段。"
     },
