@@ -1815,9 +1815,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow は保存領域を使わないと動作しません。"
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "有効化するには、about:config から webextensions.storage.sync.enabled の値を true に設定します。"
-    },
     "storageFull": {
         "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
     },
