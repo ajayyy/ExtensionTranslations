@@ -1832,7 +1832,7 @@
         "message": "DeArrow will not function without storage."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" to true."
+        "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" and \"webextensions.storage.sync.kinto\" to true."
     },
     "storageFull": {
         "message": "Extension storage is full. Please delete some unsubmitted segments in the options."
