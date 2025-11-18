@@ -1828,6 +1828,9 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow не может работать без хранилища."
     },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Вы можете включить его, перейдя на страницу about:config и установив значения для \"webextensions.storage.sync.enabled\" и \"webextensions.storage.sync.kinto\" на true."
+    },
     "storageFull": {
         "message": "Хранилище расширения заполнено. Пожалуйста, удалите несколько неотправленных сегментов в настройках."
     },
