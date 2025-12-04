@@ -29,6 +29,9 @@
         "message": "Renderizar segmentos como capítulos",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Guia padrão na janela pop-up da lista de segmentos"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Mostrar segmento atual ao lado do tempo do vídeo"
     },
@@ -1056,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Modo escuro na página de opções"
     },
+    "prideTheme": {
+        "message": "Tema do Orgulho"
+    },
     "helpPageThanksForInstalling": {
         "message": "Obrigado por instalar o SponsorBlock."
     },
@@ -1824,9 +1830,6 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "O DeArrow não irá funcionar sem armazenamento."
-    },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Você pode ativar isso acessando about:config e definir o valor de \"webextensions.storage.sync.enabled\" como true."
     },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Por favor, exclua alguns segmentos não enviados nas opções."

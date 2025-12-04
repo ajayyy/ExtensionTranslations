@@ -1732,9 +1732,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow vil ikke fungere uden lager."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Du kan aktivere det ved at gå til about:config og sætte værdien \"webextensions.storage.sync.enabled\" til true."
-    },
     "storageFull": {
         "message": "Udvidelseslageret er fuldt. Slet venligst nogle ikke-indsendte segmenter i indstillingerne."
     },

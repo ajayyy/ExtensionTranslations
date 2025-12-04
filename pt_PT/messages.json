@@ -995,6 +995,9 @@
     "darkModeOptionsPage": {
         "message": "Modo escuro na página de opções"
     },
+    "prideTheme": {
+        "message": "Tema do orgulho"
+    },
     "helpPageThanksForInstalling": {
         "message": "Obrigado por instalar o SponsorBlock."
     },
@@ -1003,6 +1006,9 @@
     },
     "helpPageFeatureDisclaimer": {
         "message": "Muitas funcionalidades estão desativadas por predefinição. Se pretende ignorar introduções, encerramentos, usar o Invidious, entre outros, ative as opções abaixo. Também pode ocultar/mostrar elementos da interface."
+    },
+    "helpPageHowSkippingWorks": {
+        "message": "Como funciona"
     },
     "helpPageHowSkippingWorks2": {
         "message": "Sempre que ignorar um segmento, irá receber um aviso. Se o tempo estiver errado vote contra clicando no voto negativo! Também pode votar no pop-up."
@@ -1748,9 +1754,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "O DeArrow não irá funcionar sem armazenamento."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Pode ativar, acedendo a about:config e definindo o valor de \"webextensions.storage.sync.enabled\" como verdadeiro."
-    },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Elimine alguns segmentos não submetidos nas opções."
     },
@@ -1866,6 +1869,9 @@
     "skipProfile_forThisChannel": {
         "message": "Para este canal",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Clique para aplicar este perfil de ignorar"
     },
     "selectASkipProfileFirst": {
         "message": "Selecione primeiro um perfil de ignorar",

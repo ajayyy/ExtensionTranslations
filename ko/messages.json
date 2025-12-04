@@ -7,6 +7,12 @@
         "message": "YouTube 영상의 스폰서 광고, '구독과 좋아요' 광고 같이 쓸데없는 광고를 모두 건너뛰세요. 영상의 스폰서 광고 구간을 신고하여 다른 사람들의 시간을 절약할 수 있게 해주세요.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "서버에서 이 요청이 잘못됐다고 응답했어요."
+    },
+    "409": {
+        "message": "이전에 이미 제출된 적이 있어요."
+    },
     "Segment": {
         "message": "구간"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "챕터처럼 구간을 불러오기",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "구간 목록 팝업 창의 기본 탭"
     },
     "showSegmentNameInChapterBar": {
         "message": "동영상 시간 옆에 현재 구간 표시"
@@ -104,6 +113,10 @@
     "serverDown": {
         "message": "서버가 다운된 것 같아요. 개발자에게 연락해 주세요."
     },
+    "connectionError": {
+        "message": "연결 오류가 발생했어요.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "구간을 여전히 불러오는 중이에요..."
     },
@@ -176,6 +189,13 @@
     },
     "hideThis": {
         "message": "숨기기"
+    },
+    "collapseChapters": {
+        "message": "내부 챕터 접기"
+    },
+    "expandChapters": {
+        "message": "내부 챕터 {0}개 표시",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "설정"
@@ -344,6 +364,10 @@
     },
     "502": {
         "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해 보세요."
+    },
+    "errorCode": {
+        "message": "서버가 {code} 코드를 반환했어요.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "건너뛰기"
@@ -803,6 +827,10 @@
     "category_livestream_messages_short": {
         "message": "후원자 메시지 구간"
     },
+    "fallbackToDefault": {
+        "message": "기본값으로 폴백",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "자동 건너뛰기"
     },
@@ -1030,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "설정 페이지에서 어두운 모드 사용"
+    },
+    "prideTheme": {
+        "message": "Pride 테마"
     },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlock을 설치해 주셔서 감사드려요."
@@ -1650,14 +1681,30 @@
         "message": "정말로 이 구성을 삭제할까요?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "새 구성"
+    },
+    "CreateNewConfiguration": {
+        "message": "새 구성 만들기"
+    },
+    "DeleteConfiguration": {
+        "message": "구성 삭제"
+    },
     "ChannelAllowlist": {
         "message": "채널별 설정"
     },
     "ConfigurationName": {
         "message": "구성 이름"
     },
+    "DefaultConfiguration": {
+        "message": "기본 구성"
+    },
     "ChannelListInstructions": {
         "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "다른 건너뛰기 프로필을 적용하려는 채널의 동영상을 재생하고, 팝업 메뉴에서 버튼을 눌러 그 채널을 추가하세요. 채널 목록은 아래에 나타나요.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1784,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow는 저장 공간이 없으면 작동하지 않아요."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값을 true로 설정해 활성화 할 수 있어요."
-    },
     "storageFull": {
         "message": "확장 프로그램 저장 공간이 가득 찼어요. 설정에서 미제출한 구간 일부를 삭제해 주세요."
     },
@@ -1894,5 +1938,61 @@
     "hookNewFeature": {
         "message": "알림: 미리 보기/요약 카테고리가 후킹 카테고리로 변경됐어요",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "요청한 구간의 UUID를 확인할 수 없어서, 이를 영구적으로 숨기거나 표시하지 못했어요:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "1시간만",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "이 탭에서만",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "이 동영상에만",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "이 채널에만",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "클릭해서 이 건너뛰기 프로필 적용 해제"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "이 옵션을 더 우선하는 옵션으로 덮어 써요",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "클릭해서 이 건너뛰기 프로필 적용"
+    },
+    "selectASkipProfileFirst": {
+        "message": "먼저 건너뛰기 프로필을 선택해주세요",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "건너뛰기 프로필 선택"
+    },
+    "SkipProfileMenu": {
+        "message": "건너뛰기 프로필 메뉴"
+    },
+    "WhitelistedChannels": {
+        "message": "허용 목록에 추가한 채널",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "건너뛰기 프로필에 채널 추가"
+    },
+    "editChannelsSkipProfile": {
+        "message": "이 채널의 건너뛰기 프로필 변경"
+    },
+    "editActiveSkipProfile": {
+        "message": "활성화한 건너뛰기 프로필 변경"
+    },
+    "closeSkipProfileMenu": {
+        "message": "건너뛰기 프로필 메뉴 닫기"
     }
 }

@@ -1832,7 +1832,7 @@
         "message": "DeArrow ei toimi ilman tallennustilaa."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\"-asetuksen todeksi."
+        "message": "Voit ottaa sen käyttöön avaamalla about:config-sivun ja asettamalla \"webextension.storage.sync.enabled\" ja \"webextensions.storage.sync.kinto\" -asetukset todeksi."
     },
     "storageFull": {
         "message": "Laajennuksen tallennustila on täynnä. Poista joitakin lähettämättömiä osioita asetuksista."

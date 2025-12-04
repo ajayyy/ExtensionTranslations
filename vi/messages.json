@@ -1810,9 +1810,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow sẽ không hoạt động nếu không có bộ lưu trữ."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Bạn có thể kích hoạt tính năng này bằng cách vào about:config và đặt giá trị \"webextensions.storage.sync.enabled\" thành true."
-    },
     "storageFull": {
         "message": "Bộ nhớ tiện ích mở rộng đã đầy. Vui lòng xóa một số phân đoạn chưa gửi trong tùy chọn."
     },

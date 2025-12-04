@@ -23,6 +23,9 @@
         "message": "Prikaži segmente kao poglavlja",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Zadana kartica u skočnom prozoru s popisom segmenata"
+    },
     "upvoteButtonInfo": {
         "message": "Glasaj za ovaj unos"
     },
@@ -1137,5 +1140,11 @@
     "DeArrowIsDisabled": {
         "message": "DeArrow je deaktivirano – klikni za aktiviranje",
         "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Promijeni profil preskakanja ovog kanala"
+    },
+    "editActiveSkipProfile": {
+        "message": "Promijeni aktivni profil preskakanja"
     }
 }

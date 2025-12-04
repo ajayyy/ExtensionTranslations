@@ -1,6 +1,6 @@
 {
     "fullName": {
-        "message": "SponsorBlock pro YouTube - Přeskoč sponzory",
+        "message": "SponsorBlock pro YouTube – Přeskoč sponzory",
         "description": "Name of the extension."
     },
     "Description": {
@@ -1832,7 +1832,7 @@
         "message": "DeArrow nebude fungovat bez přístupu k úložišti."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "Můžete ji povolit na stránce about:config nastavením hodnoty „webextensions.storage.sync.enabled“ na „true“."
+        "message": "Můžete jej povolit navštívením stránky about:config a nastavením hodnoty proměnných „webextensions.storage.sync.enabled“ a „webextensions.storage.sync.kinto“ na „true“."
     },
     "storageFull": {
         "message": "Úložiště rozšíření je plné. Odstraňte prosím nějaké neodeslané segmenty v možnostech."

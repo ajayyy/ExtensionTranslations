@@ -1821,9 +1821,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow nu va funcţiona fără stocare."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "O puteți activa accesând about:config și setând valoarea \"webextensions.storage.sync.enabled\" la true."
-    },
     "storageFull": {
         "message": "Spațiul de stocare a extensiei este plin. Vă rugăm să ștergeți câteva segmente netrimise din opțiuni."
     },

@@ -1831,9 +1831,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "Derow не буде працювати без сховища."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "Ви можете ввімкнути його, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" на true."
-    },
     "storageFull": {
         "message": "Сховище розширення повне. Будь ласка, видаліть деякі невідіслані сегменти у налаштуваннях."
     },

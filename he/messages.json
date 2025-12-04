@@ -358,6 +358,10 @@
     "502": {
         "message": "נראה שהשרת עמוס יתר על המידה. יש לנסות שוב בעוד מספר שניות."
     },
+    "errorCode": {
+        "message": "השרת החזיר קוד טעות {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
+    },
     "skip": {
         "message": "דילוג"
     },
@@ -858,6 +862,16 @@
         "message": "אפשרות דילוג",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
+    "openAdvancedSkipOptions": {
+        "message": "לפתוח הגדרות מורכבות לדילוג"
+    },
+    "advancedSkipNotSaved": {
+        "message": "שגיאה: ההגדרות שלך לא נשמרו"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "איך זה עובד",
+        "description": "Link in advanced skip options to the help page."
+    },
     "enableTestingServer": {
         "message": "אפשר שרת בדיקת בטא"
     },
@@ -1009,6 +1023,9 @@
     "considerDonating": {
         "message": "עזרו לממן את הפיתוח"
     },
+    "supportSponsorBlock": {
+        "message": "לתרום לי על העבודה שלי על SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "הסתרת כפתור תרומה"
     },
@@ -1023,6 +1040,9 @@
     },
     "helpPageFeatureDisclaimer": {
         "message": "תכונות רבות כבויות כברירת מחדל. אם אתה רוצה לדלג על פתיחים/סגירים, השתמש ב- Invidious וכו ', הפעל את זה למטה. אתה יכול גם להסתיר/להציג אלמנטים של ממשק משתמש."
+    },
+    "helpPageHowSkippingWorks": {
+        "message": "איך דילוג עובד"
     },
     "helpPageHowSkippingWorks2": {
         "message": "בכל פעם שתדלג על קטע, תבחין. אם התזמון נראה לא נכון הצבעה על ידי לחיצה על הדיסלייק! אתה יכול גם להצביע בלייק."
@@ -1607,11 +1627,20 @@
         "message": "האם אתה בטוח שברצונך למחוק תצורה זו?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "תצורה חדשה"
+    },
+    "DeleteConfiguration": {
+        "message": "למחוק תצורה"
+    },
     "ChannelAllowlist": {
         "message": "הגדרות ערוץ ספציפיות"
     },
     "ConfigurationName": {
         "message": "שם תצורה"
+    },
+    "DefaultConfiguration": {
+        "message": "תצורה ברירת מחדל"
     },
     "ChannelListInstructions": {
         "message": "הזן את כל הערוצים שברצונך להחיל עליהם תצורה זו בתיבה למטה, מופרדים על ידי שורות חדשות. גם מזהי ערוצים וגם שמות תצוגה נתמכים. שמות משתמש @ אינם נתמכים. ניתן לקבל מזהי ערוצים על ידי לחיצה על כפתור השיתוף בדף 'אודות' של הערוץ. כדי להגיע לדף 'אודות', לחץ על תיאור הערוץ שמופיע מתחת לשם הערוץ בדף הערוץ.",
@@ -1738,9 +1767,6 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow לא יפעל ללא אחסון."
     },
-    "syncDisabledFirefoxSuggestions": {
-        "message": "ניתן להפעיל זאת על ידי מעבר אל about:config והגדרת הערך \"webextensions.storage.sync.enabled\" ל-true."
-    },
     "storageFull": {
         "message": "שטח האחסון של התוסף מלא. אנא מחק קטעים שלא הוגשו מהאפשרויות."
     },
@@ -1840,6 +1866,18 @@
     },
     "OpenSettings": {
         "message": "פתח הגדרות"
+    },
+    "skipProfile_forAnHour": {
+        "message": "לשעה",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "רק לסרטון הזה",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "לערוץ הזה",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
     "SkipProfileMenu": {
         "message": "דלג על תפריט הפרופיל"
