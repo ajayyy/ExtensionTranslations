@@ -1997,5 +1997,53 @@
     },
     "closeSkipProfileMenu": {
         "message": "Close skip profile menu"
+    },
+    "slopCategoryAllHuman": {
+        "message": "All human"
+    },
+    "slopCategoryTextToSpeech": {
+        "message": "Text to speech"
+    },
+    "slopCategoryAIScript": {
+        "message": "AI script"
+    },
+    "slopCategoryAIText": {
+        "message": "AI text"
+    },
+    "slopCategoryAIMusic": {
+        "message": "AI music"
+    },
+    "slopCategoryClipMashupReupload": {
+        "message": "Clip mashup or reupload"
+    },
+    "slopCategoryRepostOfAnotherWebsite": {
+        "message": "Repost of another website"
+    },
+    "slopCategorySkitFictionParody": {
+        "message": "Skit, fiction, or parody"
+    },
+    "slopCategoryFictionParody": {
+        "message": "Fiction or parody"
+    },
+    "slopCategoryAboutAI": {
+        "message": "Topic discusses AI"
+    },
+    "slopCategoryFunny": {
+        "message": "Funny"
+    },
+    "slopCategoryEntertaining": {
+        "message": "Entertaining"
+    },
+    "slopCategoryInformative": {
+        "message": "Informative"
+    },
+    "slopCategoryBoring": {
+        "message": "Boring"
+    },
+    "slopCategoryLowQuality": {
+        "message": "Low quality"
+    },
+    "slopCategoryMisleading": {
+        "message": "Misleading"
     }
 }
