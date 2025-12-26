@@ -1056,6 +1056,9 @@
     "darkModeOptionsPage": {
         "message": "オプション画面でダークモードを使用"
     },
+    "prideTheme": {
+        "message": "プライド テーマ"
+    },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlockをインストールいただきありがとうございます。"
     },
@@ -1942,6 +1945,9 @@
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "このオプションは、他の優先度が高いオプションによって上書きされています",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "SkipProfileMenu": {
+        "message": "プロファイルメニューをスキップ"
     },
     "WhitelistedChannels": {
         "message": "ホワイトリストに登録されたチャンネル",
