@@ -7,6 +7,12 @@
         "message": "跳过 YouTube 视频中的赞助广告、订阅提醒等片段。标记视频中的赞助广告来节约大家的时间。",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "服务器提示：该请求无效。"
+    },
+    "409": {
+        "message": "您之前已经提交过该内容。"
+    },
     "Segment": {
         "message": "片段"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "将片段显示为章节",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "将分段列表弹窗的默认选项卡设为"
     },
     "showSegmentNameInChapterBar": {
         "message": "在视频时间旁显示当前片段"
@@ -104,6 +113,10 @@
     "serverDown": {
         "message": "服务器似乎已宕机。请立即联系开发者。"
     },
+    "connectionError": {
+        "message": "发生了连接错误。",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "片段仍在加载中..."
     },
@@ -121,6 +134,9 @@
     },
     "OpenSubmissionMenu": {
         "message": "打开提交菜单"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "打开简化模式菜单"
     },
     "sortSegments": {
         "message": "排序片段"
@@ -173,6 +189,13 @@
     },
     "hideThis": {
         "message": "隐藏它"
+    },
+    "collapseChapters": {
+        "message": "收起内部章节"
+    },
+    "expandChapters": {
+        "message": "显示 {0} 个内部章节",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "选项"
@@ -342,6 +365,10 @@
     "502": {
         "message": "服务器似乎已过载。请稍后再试。"
     },
+    "errorCode": {
+        "message": "服务器返回状态码 {code}",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
+    },
     "skip": {
         "message": "跳过"
     },
@@ -472,6 +499,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "您将会重置 Invidious 实例列表"
     },
+    "invidiousDisabledSafari": {
+        "message": "由于 Safari 存在一个漏洞，当前 Safari 暂不支持 Invidious。Apple 修复该漏洞后，将重新添加该功能。"
+    },
     "currentInstances": {
         "message": "当前实例："
     },
@@ -548,7 +578,7 @@
         "message": "从文件加载"
     },
     "whatExportOptions": {
-        "message": "这是您所有设置的 JSON 格式。它包含了您的私人用户 ID ，所以您一定要谨慎的保管它。"
+        "message": "这是你的完整 JSON 配置，其中包含你的私有用户 ID，请谨慎分享。"
     },
     "setOptions": {
         "message": "设定选项"
@@ -797,6 +827,10 @@
     "category_livestream_messages_short": {
         "message": "阅读消息"
     },
+    "fallbackToDefault": {
+        "message": "恢复默认",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "自动跳过"
     },
@@ -1022,6 +1056,9 @@
     "darkModeOptionsPage": {
         "message": "深色模式选项页面"
     },
+    "prideTheme": {
+        "message": "彩虹主题"
+    },
     "helpPageThanksForInstalling": {
         "message": "感谢安装 SponsorBlock。"
     },
@@ -1031,11 +1068,23 @@
     "helpPageFeatureDisclaimer": {
         "message": "许多功能默认禁用。如果您想跳过开头、结尾或使用 Invidious 等，请在下方开启。您也可以显示/隐藏界面内容。"
     },
+    "helpPageHowSkippingWorks": {
+        "message": "这是怎么做到的"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "所有赞助者都是像您一样的用户。您可以通过打开浏览器右上角的弹窗，查看数据库中已提交的赞助者列表。"
+    },
     "helpPageHowSkippingWorks2": {
         "message": "当跳过片段时，您会收到提醒。如果时间不对，请点击差评！您也可以在插件弹窗中投票。"
     },
     "Submitting": {
         "message": "提交中"
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "提交的内容会被发送到哪里？"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "所有提交的内容都会被加入 SponsorBlock 数据库，该数据库是公开发布的，任何人都可以使用，并可通过以下地址访问"
     },
     "helpPageCopyOfDatabase2": {
         "message": "源代码是免费公开的。所以即使我出了什么事，你的提交也不会丢失。"
@@ -1515,8 +1564,27 @@
         "message": "标题的拟定应基于创作者和视频自身的视角。对视频内容进行评价或事实核查，已超出了 DeArrow 的功能范畴。标题并非评论区，不应用其发表个人意见。",
         "description": "Tip subtitle in DeArrow"
     },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "标题不应该以句号结尾",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "不要只在标题中直接回答问题。标题应描述视频内容或整体故事",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "标题应以中性、描述性为原则，避免在标题中对视频内容的真实性作出判断，或对创作者进行嘲讽、批评等评价",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "标题不应该包含表情符号",
+        "description": "A DeArrow automatic warning"
+    },
     "howItWorks": {
         "message": "工作原理"
+    },
+    "termsAgreement": {
+        "message": "使用本扩展即表示您同意 {privacy-policy} 和 {terms}"
     },
     "privacyPolicy": {
         "message": "隐私政策"
@@ -1536,6 +1604,12 @@
     "useCrowdsourcedTitles": {
         "message": "显示用户提交的标题"
     },
+    "NewConfiguration": {
+        "message": "新建配置文件"
+    },
+    "CreateNewConfiguration": {
+        "message": "新建配置文件"
+    },
     "ConfigurationName": {
         "message": "配置名称"
     },
@@ -1543,9 +1617,19 @@
         "message": "请在下方输入框中填写你想要应用此配置的所有频道，各频道之间用换行分隔。频道 ID 和显示名称均支持，不支持 @用户名格式。\n你可以通过以下方式获取频道 ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
+    "ChannelListInstructionsSB": {
+        "message": "在该频道的视频弹窗中点击按钮，即可将该频道添加到使用此替代跳过设置的频道列表中。列表会显示在下方。",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "尚未设置任何配置。点击顶部按钮添加新配置。",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "通过替换为更准确的标题和缩略图，杜绝标题党"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "受够了标题党？试试我新做的扩展，让标题和缩略图更靠谱"
     },
     "YtNeuterMessage": {
         "message": "添加 yt-neuter ，一个用来屏蔽问卷调查、商品展示和其他推广页面元素的过滤列表"
@@ -1553,8 +1637,17 @@
     "requiresUblock": {
         "message": "需要 uBlock Origin"
     },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "视频 ID 检测出现了问题。请在提交前尝试刷新页面，以确保提交到正确的视频。如果经常发生此问题，请通过 GitHub、Discord 或 Matrix 提交报告，并附上你安装的其他扩展或用户脚本信息。"
+    },
     "dearrowLogoCredit": {
         "message": "标志来自 Twemoji 并在 CC-BY 4.0 授权下使用"
+    },
+    "zoomToFillUnsupported": {
+        "message": "SponsorBlock 与扩展程序 \"Zoom to Fill\" 不兼容。你可以使用其他可正常工作的替代扩展。"
+    },
+    "freeTrialStarted": {
+        "message": "你的免费试用已开始。前往 YouTube 体验"
     },
     "freeTrialEnded": {
         "message": "您的免费试用已结束"
@@ -1594,5 +1687,8 @@
     },
     "storageFull": {
         "message": "扩展存储空间已满。请在设置中删除一些没有提交的片段。"
+    },
+    "addChannelToSkipProfile": {
+        "message": "将频道列入白名单"
     }
 }
