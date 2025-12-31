@@ -463,7 +463,7 @@
         "message": "设置私人用户ID"
     },
     "userIDChangeWarning": {
-        "message": "警告：更改私人用户 ID 是永久性的。您确定要这么做吗？请务必备份您的旧用户 ID 以防万一。"
+        "message": "警告：更改私密用户 ID 是永久性的。您确定要这么做吗？请务必备份您的旧用户 ID 以防万一。"
     },
     "createdBy": {
         "message": "创建者"
@@ -1036,7 +1036,7 @@
         "message": "提问"
     },
     "warningConfirmButton": {
-        "message": "我理解原因"
+        "message": "我明白"
     },
     "warningError": {
         "message": "尝试确认警告时发生错误："
@@ -1082,6 +1082,9 @@
     },
     "Submitting": {
         "message": "提交中"
+    },
+    "helpPageSubmitting1": {
+        "message": "可以通过点击视频播放器中的 SponsorBlock 图标进行提交。"
     },
     "helpPageSubmitting2": {
         "message": "点击播放按钮表示片段开始，点击停止图标表示片段结束。点击上箭头按钮打开提交菜单，在这里你可以通过预览和编辑来确认你的片段，确保准确无误。准确性很重要，提交前请务必阅读指南。"
@@ -1302,7 +1305,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "众包标题和缩略图应该是叙述性的，而不是修饰性的",
+        "message": "社区贡献的标题和缩略图应该是叙述性的，而不是修饰性的",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1368,6 +1371,12 @@
     },
     "shouldCleanEmojis": {
         "message": "移除表情符号"
+    },
+    "formatCustomTitles": {
+        "message": "规范化用户提交的标题"
+    },
+    "formatOriginalTitles": {
+        "message": "规范化原标题"
     },
     "onlyTitleCaseInEnglish": {
         "message": "将非英语标题的单词大写"
@@ -1494,6 +1503,12 @@
     "showOriginalOnHoverOfVideoDescription": {
         "message": "这会禁用悬停时自动播放"
     },
+    "showCustomOnHoverIfCasual": {
+        "message": "当显示原始标题偏好模式的标题时，鼠标悬停可显示自定义标题"
+    },
+    "showIconForFormattedTitles": {
+        "message": "为自动格式化标题展示“显示原始”按钮"
+    },
     "Enable": {
         "message": "启用"
     },
@@ -1517,6 +1532,9 @@
     },
     "ShowModified": {
         "message": "显示修改后的详细信息"
+    },
+    "ShowFormatted": {
+        "message": "显示规范化详情"
     },
     "FillerWarning": {
         "message": "警告：这是一个筛选标准极为严苛的分类。您很可能需要不时地手动撤销系统的跳过操作，甚至暂时禁用该分类。请注意，许多视频会有超过 50% 甚至更多的内容因此被跳过！然而，在提交相关内容时，请谨记您仍需遵守特定的指导准则。",
@@ -1605,15 +1623,28 @@
         "message": "标题应以中性、描述性为原则，避免在标题中对视频内容的真实性作出判断，或对创作者进行嘲讽、批评等评价",
         "description": "A DeArrow automatic warning"
     },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "标题不应保留原标题中的夸张成分",
+        "description": "A DeArrow automatic warning"
+    },
     "DeArrowEmojiWarning": {
         "message": "标题不应该包含表情符号",
         "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "你必须在提交之前解决警告"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "注意：你的 SponsorBlock 设置已被自动导入！"
     },
     "howItWorks": {
         "message": "工作原理"
     },
     "discordPromotion": {
         "message": "快来参与贡献，提出一些建议，并在 {discord} 或 {matrix} 上帮忙"
+    },
+    "deArrowDonationText": {
+        "message": "如果你喜欢我做的内容，并想通过金钱支持我，这里有个链接"
     },
     "termsAgreement": {
         "message": "使用本扩展即表示您同意 {privacy-policy} 和 {terms}"
@@ -1627,6 +1658,12 @@
     "openSourceLicenses": {
         "message": "开源许可证"
     },
+    "defaultToOriginals": {
+        "message": "默认使用原视频内容"
+    },
+    "whatDefaultToOriginals": {
+        "message": "默认显示原始标题和缩略图，但鼠标悬停时会出现一个按钮，用来查看自定义标题和缩略图"
+    },
     "replaceTitles": {
         "message": "替换标题"
     },
@@ -1636,14 +1673,31 @@
     "useCrowdsourcedTitles": {
         "message": "显示用户提交的标题"
     },
+    "whatUseCrowdsourcedTitles": {
+        "message": "如果禁用，将会规范化标题，但不会使用社区提交的标题",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
+    "areYouSureDeleteConfig": {
+        "message": "你确定要删除这个配置文件吗？这个配置文件将会永久消失！（真的很久！）",
+        "description": "Appears when deleting a configuration for channel-based settings"
+    },
     "NewConfiguration": {
         "message": "新建配置文件"
     },
     "CreateNewConfiguration": {
         "message": "新建配置文件"
     },
+    "DeleteConfiguration": {
+        "message": "删除配置"
+    },
+    "ChannelAllowlist": {
+        "message": "频道专用设置"
+    },
     "ConfigurationName": {
         "message": "配置名称"
+    },
+    "DefaultConfiguration": {
+        "message": "默认配置"
     },
     "ChannelListInstructions": {
         "message": "请在下方输入框中填写你想要应用此配置的所有频道，各频道之间用换行分隔。频道 ID 和显示名称均支持，不支持 @用户名格式。\n你可以通过以下方式获取频道 ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
@@ -1663,6 +1717,14 @@
     "DeArrowPromotionMessage2": {
         "message": "受够了标题党？试试我新做的扩展，让标题和缩略图更靠谱"
     },
+    "DeArrowPromotionMessage3": {
+        "message": "顺便看看 DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "不喜欢这个标题吗？如果你更喜欢下面的标题，可以考虑使用 DeArrow 的标题替换功能。",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
     "RandomThumbnailExplanation": {
         "message": "这张缩略图来自视频中的随机时间点，因为此视频尚未有人提交缩略图",
         "description": "A description during on boarding to explain the random thumbnail setting"
@@ -1670,6 +1732,10 @@
     "RandomThumbnailAndAutoFormattedExplanation": {
         "message": "这张缩略图来自随机时间点，标题已自动格式化，因为还没有有人提交这个视频的缩略图和标题",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "你可以在下面更改此默认设置",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
         "message": "自你安装此扩展以来，{titles} 个标题和 {thumbnails} 张缩略图已被替换",
@@ -1682,6 +1748,14 @@
     "dearrowStatsMessageTitlesPart": {
         "message": "{titles} 个标题 ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "和 {thumbnails} 张缩略图",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "和 {thumbnails} 张缩略图",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessage2": {
         "message": "{titleAndThumbnailMessage} 自你安装此扩展以来已被替换",
@@ -1767,6 +1841,10 @@
         "message": "请在提交前预览您的片段。你可以点击预览按钮或使用以下快捷键进行预览：",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
+    "actAsVip": {
+        "message": "以 VIP 身份操作",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
     "submissionFailedServerSideAds": {
         "message": "目前无法从你的浏览器提交内容，因为 YouTube 似乎在服务器端插入了广告，本扩展无法去除。如果你遇到此错误，请联系我们。"
     },
@@ -1842,6 +1920,10 @@
         "message": "最少票数",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
+    "showOriginalWhenCasual": {
+        "message": "在原始标题偏好模式投票的视频上显示原始缩略图",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
     "newCasualMode": {
         "message": "新功能：原始标题偏好模式",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
@@ -1853,9 +1935,24 @@
         "message": "不要格式化原始标题偏好模式的标题",
         "description": "Option for casual mode in DeArrow"
     },
+    "OpenSettings": {
+        "message": "打开设置"
+    },
+    "hookNewFeature": {
+        "message": "注意：Hook 已从“预告/回顾”分类移动到新的“Hook/问候”分类",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
     "segmentHideFailed": {
         "message": "无法永久隐藏/取消隐藏所请求的分段，因为无法解析该分段的 UUID：",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "持续一小时",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "仅此标签页",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
     },
     "skipProfile_forJustThisVideo": {
         "message": "仅针对此视频",
@@ -1891,5 +1988,14 @@
     },
     "addChannelToSkipProfile": {
         "message": "将频道列入白名单"
+    },
+    "editChannelsSkipProfile": {
+        "message": "更改此频道的跳过配置"
+    },
+    "editActiveSkipProfile": {
+        "message": "更改“当前跳过”配置"
+    },
+    "closeSkipProfileMenu": {
+        "message": "关闭“跳过配置”菜单"
     }
 }
