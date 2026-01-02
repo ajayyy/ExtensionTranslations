@@ -813,7 +813,7 @@
         "message": "Глави з користувацькими назвами, що описують основні розділи відео."
     },
     "category_chapter_guideline1": {
-        "message": "Не згадуйте торгові марки спонсорів"
+        "message": "Не згадуйте про торгові марки спонсорів"
     },
     "category_chapter_guideline2": {
         "message": "Використовуйте більші розділи для загальних розділів"
@@ -1830,6 +1830,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "Derow не буде працювати без сховища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Ви можете ввімкнути це, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" and \"webextensions.storage.sync.kinto\" на true."
     },
     "storageFull": {
         "message": "Сховище розширення повне. Будь ласка, видаліть деякі невідіслані сегменти у налаштуваннях."
