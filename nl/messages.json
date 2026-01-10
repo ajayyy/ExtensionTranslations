@@ -652,6 +652,9 @@
     "category_outro_guideline1": {
         "message": "Inhoud niet toevoegen, zelfs niet als eindkaarten op het scherm staan"
     },
+    "category_preview": {
+        "message": "Voorbeeld/samenvatting"
+    },
     "category_preview_description": {
         "message": "Collectie van clips die laten zien wat er in deze video of andere video's komt in een serie waar alle informatie later in de video wordt herhaald."
     },
@@ -985,6 +988,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Nieuw! Zie wanneer een video volledig gesponsord of zelfpromotie is"
+    },
+    "yearAbbreviation": {
+        "message": "",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": " d",
