@@ -1045,6 +1045,9 @@
     "darkModeOptionsPage": {
         "message": "Chế độ tối trên trang tùy chọn"
     },
+    "prideTheme": {
+        "message": "Chủ đề Tháng tự hào"
+    },
     "helpPageThanksForInstalling": {
         "message": "Cảm ơn bạn đã cài đặt SponsorBlock."
     },
@@ -1921,5 +1924,21 @@
     "segmentHideFailed": {
         "message": "Có lỗi xảy ra khi cố thực hiện ẩn/hiện phân đoạn bạn đã chọn, vì không thể xử lí được phân đoạn có UUID này:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Trong vòng một tiếng",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Chỉ cho thẻ này",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Chỉ cho video này",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Cho kênh này",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     }
 }
