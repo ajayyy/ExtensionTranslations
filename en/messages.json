@@ -1700,7 +1700,7 @@
         "message": "Default configuration"
     },
     "ChannelListInstructions": {
-        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
+        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Channel @handles, UCIDs and display names are supported. Channel @handles are preferred, using display names is discouraged - using display names in any configuration will incur additional network requests per video. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
