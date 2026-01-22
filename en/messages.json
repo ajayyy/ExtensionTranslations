@@ -427,6 +427,12 @@
     "showTimeWithSkipsDescription": {
         "message": "This time appears in brackets next to the current time on below the Seek Bar. This shows the total video duration minus any segments. This includes segments marked as only \"Show In Seek Bar\"."
     },
+    "usePlaybackRate": {
+        "message": "Enable Time With Skips To Use Playback Rate"
+    },
+    "usePlaybackRateDescription": {
+        "message": "Uses the current video speed in the time with skips calculation.\n Ex.: 1:27 / 26:30 (24:08) @ 1x speed => 1:27 / 26:30 (12:04) @ 2x speed "
+    },
     "youHaveSkipped": {
         "message": "You've skipped "
     },
