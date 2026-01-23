@@ -29,6 +29,9 @@
         "message": "セグメントをチャプターとして表示する",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "セグメントリストポップアップのデフォルトタブ"
+    },
     "showSegmentNameInChapterBar": {
         "message": "動画時間の横に現在のセグメントを表示"
     },
@@ -1369,6 +1372,9 @@
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
     },
+    "formatOriginalTitles": {
+        "message": "元のタイトルをフォーマット"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "英語ではない題名も大文字化する"
     },
@@ -1952,5 +1958,8 @@
     "WhitelistedChannels": {
         "message": "ホワイトリストに登録されたチャンネル",
         "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "closeSkipProfileMenu": {
+        "message": "スキッププロファイルメニューを閉じる"
     }
 }
