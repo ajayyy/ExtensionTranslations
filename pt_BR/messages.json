@@ -8,7 +8,7 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "O servidor disse que esse pedido foi inválido."
+        "message": "O servidor considerou esta requisição inválida."
     },
     "409": {
         "message": "Esse segmento já foi enviado."
@@ -114,7 +114,7 @@
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
     },
     "connectionError": {
-        "message": "Uma conexão de erro ocorreu.",
+        "message": "Ocorreu um erro de conexão.",
         "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
@@ -237,7 +237,7 @@
         "message": "Aviso: Desativar isto excluirá todos os votos negativos armazenados anteriormente"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Armazenar segmento de votos negativos em abas privadas/incógnitas"
+        "message": "Registrar no segmento voto negativo vindo de aba privada/anônima"
     },
     "enableQueryByHashPrefix": {
         "message": "Consulta por prefixo de hash"
