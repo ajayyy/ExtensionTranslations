@@ -1699,6 +1699,10 @@
     "DefaultConfiguration": {
         "message": "Configurazione predefinita"
     },
+    "ChannelListInstructions": {
+        "message": "Inserisci tutti i canali a cui vuoi applicare questa configurazione nella casella sottostante, separati da nuove righe. I canali @handles e UCID, e i nomi visualizzati sono gestiti. I canali @handles sono preferiti, mentre l'uso dei nomi visualizzati è sconsigliato - usare i nomi visualizzati in qualsiasi configurazione porterà richieste di rete aggiuntive per video. Puoi ottenere gli ID del canale cliccando il pulsante di condivisione nella pagina del canale. Per accedere alla pagina di informazioni, clicca la descrizione del canale che appare sotto il nome del canale nella pagina del canale.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "ChannelListInstructionsSB": {
         "message": "Aggiungi canali che dovrebbero usare questo profilo di salto alternativo cliccando il pulsante nella comparsa in un video realizzato da quel canale. L'elenco dei canali apparirà di seguito.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
