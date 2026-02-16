@@ -1686,10 +1686,6 @@
     "DefaultConfiguration": {
         "message": "Varsayılan yapılandırma"
     },
-    "ChannelListInstructions": {
-        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Bu alternatif atlama profilini kullanması gereken kanalları, o kanal tarafından oluşturulan bir videonun açılır penceresindeki düğmeye tıklayarak ekleyin. Kanalların listesi aşağıda görünecektir.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
