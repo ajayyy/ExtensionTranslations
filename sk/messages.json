@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Predvolená konfigurácia"
     },
-    "ChannelListInstructions": {
-        "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Pridajte kanály, ktoré by mali používať tento profil preskakovania, kliknutím na tlačidlo vo vyskakovacom okne pri videu vytvorenom daným kanálom. Zoznam kanálov sa zobrazí nižšie.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
