@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "기본 구성"
     },
-    "ChannelListInstructions": {
-        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "다른 건너뛰기 프로필을 적용하려는 채널의 동영상을 재생하고, 팝업 메뉴에서 버튼을 눌러 그 채널을 추가하세요. 채널 목록은 아래에 나타나요.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
