@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Standardkonfiguration"
     },
-    "ChannelListInstructions": {
-        "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal-IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Füge Kanäle hinzu, die dieses alternative Überspringen-Profil benutzen sollen, indem du auf einem Video des jeweiligen Kanals auf den Knopf im Popup klickst. Die Liste der Kanäle wird unten erscheinen.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
