@@ -1596,10 +1596,6 @@
     "ConfigurationName": {
         "message": "Nombre de configuración"
     },
-    "ChannelListInstructions": {
-        "message": "Ingrese los canales a los que desee aplicar esta configuración en el siguiente cuadro, separados por nuevas líneas. Se admiten tanto ID de canal como nombres de pantalla. No se admiten @ nombres de usuario. Puedes obtener los ID de canal haciendo clic en el botón compartir de la página acerca del canal. Para ir a la página de información, haga clic en la descripción del canal que aparece debajo de su nombre en la página del canal.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Aún no hay configuraciones establecidas. Haga clic en el botón en la parte superior para añadir una nueva configuración.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
