@@ -1607,10 +1607,6 @@
     "ConfigurationName": {
         "message": "Όνομα της διαμόρφωσης"
     },
-    "ChannelListInstructions": {
-        "message": "Εισάγετε τα κανάλια που θέλετε να εφαρμόσετε αυτή τη ρύθμιση στο παρακάτω πλαίσιο, διαχωρισμένα με νέες γραμμές. Και τα αναγνωριστικά καναλιών και τα ονόματα εμφάνισης υποστηρίζονται. @ Ονόματα χρηστών δεν υποστηρίζονται. Μπορείτε να πάρετε αναγνωριστικά καναλιού κάνοντας κλικ στο κουμπί κοινοποίησης στη σελίδα σχετικά του καναλιού. Για να φτάσετε στη σελίδα σχετικά, κάντε κλικ στην περιγραφή του καναλιού που εμφανίζεται κάτω από το όνομα του καναλιού στη σελίδα του καναλιού.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Καμία ρύθμιση παραμέτρων ακόμα. Κάντε κλικ στο κουμπί στο επάνω μέρος για να προσθέσετε μια νέα ρύθμιση.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
