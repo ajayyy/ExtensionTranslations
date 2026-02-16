@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "默认配置"
     },
-    "ChannelListInstructions": {
-        "message": "请在下方输入框中填写你想要应用此配置的所有频道，各频道之间用换行分隔。频道 ID 和显示名称均支持，不支持 @用户名格式。\n你可以通过以下方式获取频道 ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "在该频道的视频弹窗中点击按钮，即可将该频道添加到使用此替代跳过设置的频道列表中。列表会显示在下方。",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
