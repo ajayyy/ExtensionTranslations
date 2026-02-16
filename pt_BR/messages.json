@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Configuração Padrão"
     },
-    "ChannelListInstructions": {
-        "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Adicione canais que devem usar este perfil de pulo alternativo clicando no botão no pop-up de um vídeo feito por esse canal. A lista de canais aparecerá abaixo.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
