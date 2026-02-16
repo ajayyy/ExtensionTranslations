@@ -1699,6 +1699,10 @@
     "DefaultConfiguration": {
         "message": "Standardkonfigurering"
     },
+    "ChannelListInstructions": {
+        "message": "Ange alla kanaler du vill verkställa denna konfiguration till i rutan nedan, åtskilda av nya linjer. Kanal-@handles, UCID och visningsnamn stöds. Kanal-@handles är att föredra, med hjälp av visningsnamn avråds - med hjälp av visningsnamn i alla konfigurationer kommer att medföra ytterligare nätverksförfrågningar per video. Du kan få kanal-ID från att klicka på dela-knappen på kanalens om-sida. För att komma till om-sidan, klicka på kanalbeskrivningen som visas under deras kanalnamn på deras kanalsida.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "ChannelListInstructionsSB": {
         "message": "Lägg till kanaler som ska använda den här alternativa hoppa över-profilen genom att klicka på knappen i popup-fönstret på en video som skapats av den kanalen. Listan över kanaler visas nedan.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
