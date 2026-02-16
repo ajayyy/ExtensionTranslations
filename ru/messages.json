@@ -1696,6 +1696,10 @@
     "DefaultConfiguration": {
         "message": "Конфигурация по умолчанию"
     },
+    "ChannelListInstructions": {
+        "message": "Введите в поле ниже с новой строки все каналы, к которым вы хотите применить эту настройку. Поддерживаются @псевдонимы, идентификаторы, и названия каналов. Рекомендуется использовать @псевдонимы, а названия - не рекомендуется, так как их использование приводит к повышенному использованию трафика для каждого видео. Идентификатор канала можно получить, нажав на кнопку «Поделиться каналом» в разделе с его описанием. Чтобы попасть в этот раздел, нажмите на краткое описание на странице канала под его названием.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "ChannelListInstructionsSB": {
         "message": "Добавить канал в этот профиль можно при помощи кнопки во всплывающем окне в видео. Список каналов появится ниже.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
