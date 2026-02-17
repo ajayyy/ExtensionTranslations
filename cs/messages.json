@@ -1699,6 +1699,10 @@
     "DefaultConfiguration": {
         "message": "Výchozí konfigurace"
     },
+    "ChannelListInstructions": {
+        "message": "Do pole níže zadejte kanály oddělené čárkami, na které chcete použít tuto konfiguraci. Jsou podporovány @zkratky kanálů, UCID a zobrazovaná jména. Preferovány jsou @zkratky, používání zobrazovaných jmen není doporučeno - jejich použití vyvolá více síťových požadavků na video. Chcete-li se dostat na stránku s informacemi, klikněte na popis kanálu, který se objeví pod názvem kanálu na jeho stránce.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "ChannelListInstructionsSB": {
         "message": "Přidejte kanály, které by měly použít tento profil přeskakování, kliknutím na tlačítko ve vyskakovacím okně u videa vytvořeného daným kanálem. Seznam kanálů se objeví níže.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
