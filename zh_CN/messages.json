@@ -366,7 +366,7 @@
         "message": "服务器似乎已过载。请稍后再试。"
     },
     "errorCode": {
-        "message": "服务器返回状态码 {code}",
+        "message": "服务器返回状态码 {code}。",
         "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
@@ -394,11 +394,11 @@
         "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
-        "message": "{0} 已跳过",
+        "message": "已跳过{0}个片段",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
-        "message": "{0} 已静音",
+        "message": "已静音{0}个片段",
         "description": "Example: Sponsor Muted"
     },
     "skipped_to_category": {
@@ -406,7 +406,7 @@
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "voted_on": {
-        "message": "已投票 {0}",
+        "message": "已投票 {0}个片段",
         "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
@@ -515,7 +515,7 @@
         "message": "当整个视频都是相同内容时使用手动跳过"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "用于在观看整个视频都是赞助商广告或自我推广时不受打扰"
+        "message": "适用于希望在观看整个视频都是赞助商广告或自我推广时不受打扰的人"
     },
     "skipNoticeDuration": {
         "message": "跳过提醒持续时间（秒）："
@@ -623,7 +623,7 @@
         "message": "复制到剪贴板失败"
     },
     "copyDebugInformationOptions": {
-        "message": "复制信息到剪贴板，在提交错误或开发者需要时提供给他。 敏感信息如：您的用户ID，白名单频道和自定义服务器地址等已被删除。然而，它仍然包含诸如您的 useragent ，浏览器，操作系统和插件版本号等信息。 "
+        "message": "复制信息到剪贴板，在提交错误或开发者需要时提供给他。 敏感信息如：您的用户ID，白名单频道和自定义服务器地址等已被删除。然而，它仍然包含诸如您的useragent ，浏览器，操作系统和插件版本号等信息。 "
     },
     "copyDebugInformationComplete": {
         "message": "调试信息已复制到剪切板中。 您可以随意移除任何您不想分享的信息。请将其另存为 .txt 文件或粘贴到错误报告中。"
@@ -643,7 +643,7 @@
         "message": "包括衔接转场"
     },
     "generic_guideline2": {
-        "message": "装成没有跳过内容一样播放"
+        "message": "跳过后的视频依然流畅，就好像跳过的片段不存在一样"
     },
     "category_sponsor": {
         "message": "赞助商广告"
@@ -1144,7 +1144,7 @@
         "message": "将鼠标悬停在编辑框上，操作鼠标滚轮可以快速调整时间。包含 Ctrl 和 Shift 的组合快捷键可以微调时间。"
     },
     "categoryPillNewFeature": {
-        "message": "新功能！知道视频是否完全是赞助广告或自我推广"
+        "message": "新功能！查看视频是否完全是赞助广告或自我推广"
     },
     "yearAbbreviation": {
         "message": "年",
@@ -1698,6 +1698,10 @@
     },
     "DefaultConfiguration": {
         "message": "默认配置"
+    },
+    "ChannelListInstructions": {
+        "message": "在下面输入框中输入您想要应用此配置的频道，各频道之间用换行分隔。 支持频道 @handles, UCID 和显示名称。 推荐使用频道@handles，不应该使用显示名称——在任何配置中使用显示名称都会在每个视频产生额外的网络请求。 您可以通过以下方式获取频道ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
         "message": "在该频道的视频弹窗中点击按钮，即可将该频道添加到使用此替代跳过设置的频道列表中。列表会显示在下方。",
