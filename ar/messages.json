@@ -1693,10 +1693,6 @@
     "DefaultConfiguration": {
         "message": "الإعدادات الافتراضية"
     },
-    "ChannelListInstructions": {
-        "message": "أدخل القنوات التي تريد تطبيق هذا التكوين عليها في المربع أدناه، مفصولة بسطر جديد. كل من معرف القناة وأسماء العرض مدعومة. اسم المستخدم @ غير مدعوم. يمكنك الحصول على معرف القناة من خلال النقر على زر مشاركة في صفحة \"حول\" الخاصة بالقناة.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "أضف القنوات التي تستعمل مِلَفّ التعريف هذا بواسطة النقر على هذا الزر في النافذة المنبثقة في مقطع صُنِع بواسطة هذه القناة. قائمة القنوات ستظهر بالأسفل.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"

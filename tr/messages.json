@@ -1687,7 +1687,7 @@
         "message": "Varsayılan yapılandırma"
     },
     "ChannelListInstructions": {
-        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya satır satır girin. Kanal @adları, UCID'ler ve görüntülenen adlar desteklenir. Kanal @adları tercih edilir, görüntüleme adları tavsiye edilmez çünkü bunlar her video için ayrı ayrı ağ trafiği kullanır. Kanal ID'lerini, kanalların hakkında sayfasında paylaş düğmesini kullanarak bulabilirsiniz. Hakkında sayfasına ulaşmak için kanalın sayfasındayken kanal adının altındaki kanal tanımına tıklayınız.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {

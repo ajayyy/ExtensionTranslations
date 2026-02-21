@@ -1607,10 +1607,6 @@
     "ConfigurationName": {
         "message": "Konfigurationsnavn"
     },
-    "ChannelListInstructions": {
-        "message": "Indtast de kanaler, du vil anvende denne konfiguration på, i feltet nedenfor, adskilt med linjeskift. Både kanal-ID'er og visningsnavne understøttes. @-brugernavne understøttes ikke. Du kan finde kanalens ID ved at klikke på Del-knappen på kanalens \"Om\"-side. For at komme til \"Om\"-siden skal du klikke på kanalbeskrivelsen under kanalnavnet på kanalens forside.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "Ingen konfigurationer er sat op endnu. Klik på knappen øverst for at tilføje en ny konfiguration.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"

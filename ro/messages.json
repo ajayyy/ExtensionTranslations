@@ -1689,10 +1689,6 @@
     "DefaultConfiguration": {
         "message": "Configurație implicită"
     },
-    "ChannelListInstructions": {
-        "message": "Introduceți orice canale pentru care doriți să aplicați această configurație în caseta de mai jos, separate prin linii noi. Atât ID-urile canalelor cât și numele de afișare sunt suportate. Numele de utilizatori cu @ nu sunt acceptate. Poți obține ID-urile canalelor făcând clic pe butonul Distribuire de pe pagina canalului. Pentru a ajunge la pagina despre utilizator, faceţi clic pe descrierea canalului care apare sub numele canalului lor pe pagina canalului.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Adaugă canalele care ar trebui să folosească acest profil alternativ de sărit, făcând clic pe butonul din fereastra pop-up a unui videoclip realizat de acel canal. Lista canalelor va apărea mai jos.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"

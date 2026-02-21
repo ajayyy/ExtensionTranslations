@@ -1700,7 +1700,7 @@
         "message": "Configuration par défaut"
     },
     "ChannelListInstructions": {
-        "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les ID de chaîne et les noms d'affichage sont pris en charge. Les @Utilisateur ne sont pas pris en charge. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne. Elle se situe sur la page de la chaîne, en dessous de son nom.",
+        "message": "Saisissez dans la case ci-dessous les chaînes où vous voulez que cette configuration soit appliquée, en les séparant d'un retour à la ligne. Les @Utilisateur, les ID de chaînes et les noms d'affichage sont pris en charge. Les @Utilisateur sont à privilégier, tandis que les noms d'affichage sont déconseillés ; l'utilisation de noms d'affichage nécessite des requêtes réseau supplémentaires à chaque vidéo. Vous pouvez obtenir l'ID d'une chaîne en cliquant sur le bouton Partager la chaîne dans la fenêtre À propos. Pour ouvrir cette fenêtre, cliquez sur la description de la chaîne, accessible sur la page de la chaîne, sous son nom.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {

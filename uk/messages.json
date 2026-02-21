@@ -813,7 +813,7 @@
         "message": "Глави з користувацькими назвами, що описують основні розділи відео."
     },
     "category_chapter_guideline1": {
-        "message": "Не згадуйте торгові марки спонсорів"
+        "message": "Не згадуйте про торгові марки спонсорів"
     },
     "category_chapter_guideline2": {
         "message": "Використовуйте більші розділи для загальних розділів"
@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Конфігурація за замовчуванням"
     },
-    "ChannelListInstructions": {
-        "message": "Введіть будь-які канали, до яких ви хочете застосувати цю конфігурацію, в полі нижче, кожен з нового рядка. Підтримуються як ID каналів, так і відображувані імена. @ імена користувачів не підтримуються. Ви можете отримати ID каналів натисканням кнопки 'поділитися' на сторінці каналу. Для переходу до цієї сторінки, натисніть на опис, який з'являється нижче назви на сторінці каналу.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Додайте канали, які мають використовувати цей альтернативний профіль пропуску, натиснувши кнопку у спливаючому вікні на відео, створеному цим каналом. Список каналів з’явиться нижче.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
@@ -1830,6 +1826,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "Derow не буде працювати без сховища."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Ви можете ввімкнути це, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" and \"webextensions.storage.sync.kinto\" на true."
     },
     "storageFull": {
         "message": "Сховище розширення повне. Будь ласка, видаліть деякі невідіслані сегменти у налаштуваннях."

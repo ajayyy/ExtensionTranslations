@@ -1590,10 +1590,6 @@
     "ConfigurationName": {
         "message": "設定名稱"
     },
-    "ChannelListInstructions": {
-        "message": "在下方方塊中輸入您想要套用此設定的任何頻道，每行一個。支援頻道 ID 和顯示名稱。不支援 @ 使用者名稱。您可以點選頻道「關於」頁面上的分享按鈕來取得頻道 ID。如要前往「關於」頁面，請點選頻道頁面上、頻道名稱下方顯示的頻道說明。",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "尚未設定任何設定。點選頂端的按鈕即可新增設定。",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"

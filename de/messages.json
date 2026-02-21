@@ -1700,7 +1700,7 @@
         "message": "Standardkonfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Gib Kanäle ein, auf welche du diese Konfiguration anwenden willst, in die unten stehende Textbox durch neue Zeilen getrennt ein. Sowohl Kanal-IDs und Anzeigenamen werden unterstützt. @-Benutzernamen werden nicht unterstützt. Du kannst Kanal-IDs durch den Teilen-Knopf in der Kanalinfo-Seite finden. Um auf die Kanalinfo-Seite zu kommen, klicke auf die Kanalbeschreibung welche unterhalb des Kanalnamens auf der Kanalseite erscheint.",
+        "message": "Gib Kanäle, auf die du diese Konfiguration anwenden willst, in der Box unten ein, getrennt durch neue Zeilen. Kanal-Alias, UCIDs und Anzeigenamen werden unterstützt. Kanal-Alias wird bevorzugt; Anzeigenamen zu benutzen, wird nicht empfohlen - wenn diese in jeglicher Konfiguration benutzt werden, führt das zu zusätzlichen Netzwerkanfragen pro Video. Du bekommst Kanal-IDs durch Klicken auf den Teilen-Knopf auf der Seite über den Kanal. Um dahin zu kommen, klicke auf die Kanalbeschreibung, die unter dem Kanalnamen auf der Kanalseite erscheint.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {

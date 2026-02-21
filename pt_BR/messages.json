@@ -8,7 +8,7 @@
         "description": "Description of the extension."
     },
     "400": {
-        "message": "O servidor disse que esse pedido foi inválido."
+        "message": "O servidor considerou esta requisição inválida."
     },
     "409": {
         "message": "Esse segmento já foi enviado."
@@ -114,7 +114,7 @@
         "message": "Parece que o servidor está fora do ar. Entre em contato com o desenvolvedor imediatamente."
     },
     "connectionError": {
-        "message": "Uma conexão de erro ocorreu.",
+        "message": "Ocorreu um erro de conexão.",
         "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
@@ -237,7 +237,7 @@
         "message": "Aviso: Desativar isto excluirá todos os votos negativos armazenados anteriormente"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Armazenar segmento de votos negativos em abas privadas/incógnitas"
+        "message": "Registrar no segmento voto negativo vindo de aba privada/anônima"
     },
     "enableQueryByHashPrefix": {
         "message": "Consulta por prefixo de hash"
@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Configuração Padrão"
     },
-    "ChannelListInstructions": {
-        "message": "Digite todos os canais que você deseja aplicar esta configuração na caixa abaixo, separados por novas linhas. IDs de canal e nomes de exibição são suportados. @ nomes de usuário não são suportados. Você pode obter a ID do canal ao clicar no botão Compartilhar na página sobre isso do canal. Para chegar à página \"Sobre\", clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Adicione canais que devem usar este perfil de pulo alternativo clicando no botão no pop-up de um vídeo feito por esse canal. A lista de canais aparecerá abaixo.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
@@ -1830,6 +1826,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "O DeArrow não irá funcionar sem armazenamento."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Você pode ativar isso acessando about:config e definir o valor de \"webextensions.storage.sync.enabled\" como true."
     },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Por favor, exclua alguns segmentos não enviados nas opções."

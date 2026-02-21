@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Подразумевана конфигурација"
     },
-    "ChannelListInstructions": {
-        "message": "Унесите све канале на које желите да примените ову конфигурацију у поље испод, одвојене новим редовима. Подржани су и ID-ови канала и имена за приказ. @ Корисничка имена нису подржана. ID-ове канала можете добити кликом на дугме за дељење на страници о каналу. Да бисте дошли до странице са информацијама, кликните на опис канала који се појављује испод назива канала на страници канала.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Додајте канале који треба да користе овај алтернативни профил прескакања кликом на дугме у искачућем прозору на видео снимку који је направио тај канал. Листа канала ће се појавити испод.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
