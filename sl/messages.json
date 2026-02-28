@@ -29,6 +29,9 @@
         "message": "Upodobi odseke kot poglavja",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Privzeti zavihek v pojavem oknu seznama odsekov"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Pokaži trenutni odsek poleg časovne oznake"
     },
@@ -152,5 +155,23 @@
     },
     "viewLeaderboard": {
         "message": "Lestvica vodilnih"
+    },
+    "copySegmentID": {
+        "message": "Kopiraj ID odseka"
+    },
+    "hideButtonsDescription": {
+        "message": "To skrije gumbe za prijavo preskočenih odsekov na predvajalniku YouTube."
+    },
+    "whatViewTracking": {
+        "message": "Ta funkcionalnost beleži, katere odseke ste preskočili. S tem uporabnikom sporoča, koliko je njihov prispevek pomagal drugim, hkrati pa skupaj s številom pozitivnih glasov služi kot metrika, ki iz baze izloča nekoristne prispevke. Razširitev pošlje sporočilo na strežnik vsakič, ko preskočite odsek. Upamo, da večina ljudi ne bo spremenila te nastavitve, saj bodo tako številke ogledov natančnejše. :)"
+    },
+    "enableTrackDownvotes": {
+        "message": "Shrani negativne glasove odsekov"
+    },
+    "whatTrackDownvotes": {
+        "message": "Vsi odseki, ki ste jih zavrnili, bodo ostali skriti tudi po ponovni osvežitvi"
+    },
+    "enableTrackDownvotesInPrivate": {
+        "message": "Shrani negativne glasove odsekov v zavihkih zasebnega brskanja"
     }
 }
