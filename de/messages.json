@@ -515,7 +515,7 @@
         "message": "Verwende manuelles Überspringen, wenn ein „Vollständiges Video“-Label existiert"
     },
     "whatManualSkipOnFullVideo": {
-        "message": "Für Personen, die das Video ohne Unterbrechungen schauen wollen, wenn es vollständig gesponsert oder Eigenwerbung ist."
+        "message": "Für Nutzer, die das Video ohne Unterbrechung anschauen möchten, wenn es vollständig gesponsert ist oder Eigenwerbung enthält."
     },
     "skipNoticeDuration": {
         "message": "Dauer der Überspringen-Meldung (Sekunden):"
@@ -676,20 +676,20 @@
         "message": "Exklusiver Zugriff"
     },
     "category_exclusive_access_description": {
-        "message": "Nur für das Kennzeichnen ganzer Videos. Wird verwendet, wenn ein Video ein Produkt, eine Dienstleistung oder einen Ort präsentiert, zu welchem sie freien oder subventionierten Zugriff erhalten haben."
+        "message": "Nur für das Kennzeichnen ganzer Videos. Wird verwendet, wenn ein Video ein Produkt, eine Dienstleistung oder einen Ort präsentiert, zu dem der Creator kostenlosen oder vergünstigten Zugang erhalten hat."
     },
     "category_exclusive_access_pill": {
         "message": "Dieses Video präsentiert ein Produkt, eine Dienstleistung oder einen Ort, zu welchem sie freien oder subventionierten Zugriff erhalten haben",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Das gesamte Video zeigt etwas mit kostenlosem oder subventioniertem Zugang"
+        "message": "Das gesamte Video zeigt etwas mit kostenlosem oder vergünstigtem Zugang"
     },
     "category_interaction": {
         "message": "Interaktions-Erinnerungen (Abonnieren, etc.)"
     },
     "category_interaction_description": {
-        "message": "Wenn es eine kurze Erinnerung zum Daumen-hoch-Geben, Abonnieren, oder Folgen in der Mitte des Inhalts gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter \"Unbezahlt/Eigenwerbung\" sein."
+        "message": "Wenn es eine kurze Erinnerung zum Liken, Abonnieren oder Folgen mitten im Inhalt gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter „Unbezahlt/Eigenwerbung“ eingeordnet werden."
     },
     "category_interaction_guideline1": {
         "message": "Kurze Erinnerungen zum Liken, Abonnieren oder Folgen"
@@ -1202,7 +1202,7 @@
         "message": "Einstellungen öffnen"
     },
     "resetToDefault": {
-        "message": "Auf Werkseinstellungen zurücksetzen"
+        "message": "Auf Standardeinstellungen zurücksetzen"
     },
     "confirmResetToDefault": {
         "message": "Bist du sicher, dass du alle Einstellungen auf ihre Standardwerte zurücksetzen willst? Dies kann nicht rückgängig gemacht werden."
@@ -1421,7 +1421,7 @@
         "message": "A/B-getestete Thumbnails nie verwenden"
     },
     "ignoreAbThumbnailsDescription": {
-        "message": "Kanäle können Tests auf Ihren Videos einrichten, bei denen YouTube jeder Person verschiedene Thumbnails zeigt. Diese Option wird immer das erste Thumbnail verwenden, um Konsistenz zu bewahren."
+        "message": "Kanäle können Tests auf ihren Videos einrichten, bei denen YouTube jeder Person verschiedene Thumbnails zeigt. Diese Option verwendet immer das erste Thumbnail, um Einheitlichkeit zu gewährleisten."
     },
     "abThumbnailsWarning": {
         "message": "Warnung: Dieses Video hat aktuell einen A/B-Thumbnail-Test aktiv. Das bedeutet, dass sich das Thumbnail oft ändern kann. Du solltest wegen dieses Risikos eventuell nicht für das originale Thumbnail abstimmen."
@@ -1445,7 +1445,7 @@
         "message": "Thumbnail-Sättigungslevel"
     },
     "whatSaturateThumbnails": {
-        "message": "Mache Thumbnails durch Reduzierung ihrer Farbe weniger lebhaft"
+        "message": "Thumbnails durch Farbentsättigung weniger lebhaft machen"
     },
     "hideDetailsWhileFetching": {
         "message": "Details während des Abrufs ausblenden"
@@ -1857,7 +1857,7 @@
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvLiveContentWarning": {
-        "message": "SponsorBlock ist auf YouTube TV nicht mit live übertragenen oder kürzlich aufgenommen Videos kompatibel. Falls dies eine kürzliche Aufnahme ist, warte ein paar Stunden, bis die verarbeitete Version verfügbar ist.",
+        "message": "SponsorBlock ist auf YouTube TV nicht mit live übertragenen oder kürzlich aufgenommenen Videos kompatibel. Falls dies eine kürzliche Aufnahme ist, warte ein paar Stunden, bis die verarbeitete Version verfügbar ist.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "yttvNoChannelWhitelist": {
@@ -1963,17 +1963,17 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
     "clickToNotApplyThisProfile": {
-        "message": "Klicken, um dieses Überspringen-Profil nicht anzuwenden"
+        "message": "Klicke, um dieses Überspringen-Profil nicht anzuwenden"
     },
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "Diese Option wird von einer Option mit höherer Priorität überschrieben",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
-        "message": "Klicken, um dieses Überspringen-Profil anzuwenden"
+        "message": "Klicke, um dieses Überspringen-Profil anzuwenden"
     },
     "selectASkipProfileFirst": {
-        "message": "Wähle zuerst ein überspringen-Profil",
+        "message": "Wähle zuerst ein Überspringen-Profil",
         "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
     },
     "SelectASkipProfile": {
