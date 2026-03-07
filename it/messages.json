@@ -1700,7 +1700,7 @@
         "message": "Configurazione predefinita"
     },
     "ChannelListInstructions": {
-        "message": "Inserisci qualsiasi canale a cui desideri applicare questa configurazione nella casella seguente, separata da nuove righe. Sia gli ID che i nomi visualizzati del canale sono supportati. I nomi utenti \"@\" non sono supportati. Puoi ottenere gli ID del canale cliccando sul pulsante di condivisione sulla pagina di informazioni del canale. Per raggiungere tale pagina, clicca sulla descrizione del canale che appare sotto il suo nome, sulla pagina del canale.",
+        "message": "Inserisci tutti i canali a cui vuoi applicare questa configurazione nella casella sottostante, separati da nuove righe. I canali @handles e UCID, e i nomi visualizzati sono gestiti. I canali @handles sono preferiti, mentre l'uso dei nomi visualizzati è sconsigliato - usare i nomi visualizzati in qualsiasi configurazione porterà richieste di rete aggiuntive per video. Puoi ottenere gli ID del canale cliccando il pulsante di condivisione nella pagina del canale. Per accedere alla pagina di informazioni, clicca la descrizione del canale che appare sotto il nome del canale nella pagina del canale.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {

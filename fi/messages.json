@@ -1699,10 +1699,6 @@
     "DefaultConfiguration": {
         "message": "Oletusmääritys"
     },
-    "ChannelListInstructions": {
-        "message": "Syötä alla olevaan ruutuun omille riveilleen kanavat, joille haluat käyttää tätä määritystä. Kanavien ID:t ja näyttönimet kelpaavat, mutta @-käyttäjätunnukseia eivät. Kanavan ID:n saat painamalla kanavan tietosivulla olevaa jakopainiketta ja tietosivulle pääset painamalla kanavasivulla kanavan nimen alla olevaa kuvausta.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "ChannelListInstructionsSB": {
         "message": "Lisää tätä vaihtoehtoista ohitusprofiilia käyttäviä kanavia klikkaamalla kanavan julkaiseman videon ponnahduksessa olevaa painiketta. Listaus valituista kanavista näytetään alla.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"

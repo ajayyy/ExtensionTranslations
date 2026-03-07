@@ -1700,7 +1700,7 @@
         "message": "기본 구성"
     },
     "ChannelListInstructions": {
-        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
+        "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 @핸들, UCID, 채널 이름을 입력할 수 있어요. @핸들을 권장하며 채널 이름은 쓰지 않는 편이 좋아요. 어떤 설정에서든 채널 이름을 쓰면 동영상을 재생할 때마다 네트워크 요청이 더 많이 필요해요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
@@ -1830,6 +1830,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow는 저장 공간이 없으면 작동하지 않아요."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "about:config 에 방문해서 \"webextensions.storage.sync.enabled\" 값과 \"webextensions.storage.sync.kinto\" 값을 true로 설정해 켤 수 있어요."
     },
     "storageFull": {
         "message": "확장 프로그램 저장 공간이 가득 찼어요. 설정에서 미제출한 구간 일부를 삭제해 주세요."

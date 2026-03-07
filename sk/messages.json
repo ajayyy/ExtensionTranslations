@@ -1700,7 +1700,7 @@
         "message": "Predvolená konfigurácia"
     },
     "ChannelListInstructions": {
-        "message": "V textovom poli nižšie zadajte kanály, pre ktoré chcete použiť toto nastavenie. Podporované sú názov kanálu aj ID kanálu, @ používateľské mená nie. ID kanálu zistíte, keď dáte zdieľať kanál na stránke o kanáli. Tú nájdete na stránke kanálu v podrobnostiach pod názvom kanálu.",
+        "message": "Do poľa nižšie zadajte kanály oddelené čiarkami, na ktoré chcete použiť túto konfiguráciu. Podporované sú @skratky kanálov, UCID a zobrazované mená. Uprednostňované sú @skratky; používanie zobrazovaných mien sa neodporúča - ich použitie vyvolá viac sieťových požiadaviek na video. Ak sa chcete dostať na stránku s informáciami, kliknite na popis kanála, ktorý sa zobrazí pod názvom kanála na jeho stránke.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
@@ -1830,6 +1830,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow nebude bez úložiska fungovať."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Môžete ho povoliť tak, že prejdete na about:config a nastavíte hodnotu \"webextensions.storage.sync.enabled\" a \"webextensions.storage.sync.kinto\" na true."
     },
     "storageFull": {
         "message": "Úložisko rozšírenia je plné. Prosím, odstráňte niektoré neodoslané segmenty v možnostiach."

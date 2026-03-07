@@ -1642,10 +1642,6 @@
     "DefaultConfiguration": {
         "message": "תצורה ברירת מחדל"
     },
-    "ChannelListInstructions": {
-        "message": "הזן את כל הערוצים שברצונך להחיל עליהם תצורה זו בתיבה למטה, מופרדים על ידי שורות חדשות. גם מזהי ערוצים וגם שמות תצוגה נתמכים. שמות משתמש @ אינם נתמכים. ניתן לקבל מזהי ערוצים על ידי לחיצה על כפתור השיתוף בדף 'אודות' של הערוץ. כדי להגיע לדף 'אודות', לחץ על תיאור הערוץ שמופיע מתחת לשם הערוץ בדף הערוץ.",
-        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
-    },
     "NoConfigurationsSetup": {
         "message": "עדיין לא הוגדרו תצורות. לחץ על הכפתור בחלק העליון כדי להוסיף תצורה חדשה.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"

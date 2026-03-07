@@ -29,6 +29,9 @@
         "message": "Kısımları bölüm olarak göster",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Segment listesi penceresi açıldığında ilk çıkacak sekme"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Geçerli kısmı video zamanının yanında göster"
     },
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Bunu sakla"
+    },
+    "collapseChapters": {
+        "message": "İçteki bölümleri gizle"
+    },
+    "expandChapters": {
+        "message": "{0} ara bölümü göster",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Ayarlar"
@@ -1049,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Ayarlar Sayfasında Karanlık Modu"
     },
+    "prideTheme": {
+        "message": "Gökkuşağı teması"
+    },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlock'u yüklediğiniz için teşekkürler."
     },
@@ -1687,7 +1700,7 @@
         "message": "Varsayılan yapılandırma"
     },
     "ChannelListInstructions": {
-        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya yeni satırlarla ayrılmış şekilde girin. Hem Kanal ID'leri hem de görüntülenen isimleri destekleniyor. \"@\" kullanan kullanıcı adları desteklenmez. Kanal kimliklerini kanalın hakkında sayfasında paylaş düğmesine tıklayarak alabilirsiniz.",
+        "message": "Bu yapılandırmayı uygulamak istediğiniz kanalları aşağıdaki kutuya satır satır girin. Kanal @adları, UCID'ler ve görüntülenen adlar desteklenir. Kanal @adları tercih edilir, görüntüleme adları tavsiye edilmez çünkü bunlar her video için ayrı ayrı ağ trafiği kullanır. Kanal ID'lerini, kanalların hakkında sayfasında paylaş düğmesini kullanarak bulabilirsiniz. Hakkında sayfasına ulaşmak için kanalın sayfasındayken kanal adının altındaki kanal tanımına tıklayınız.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
@@ -1817,6 +1830,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow depolama olmadan çalışmayacaktır."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "about:config sayfasına gidip \"webextensions.storage.sync.enabled\" ve \"webextensions.storage.sync.kinto\" değerlerini true olarak ayarlayarak etkinleştirebilirsiniz."
     },
     "storageFull": {
         "message": "Depolama dolu. Gönderilmemiş kimi kısımları silmeyi deneyin."
