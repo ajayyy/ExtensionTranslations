@@ -1372,6 +1372,9 @@
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
     },
+    "formatCustomTitles": {
+        "message": "ユーザーが登録した題名のみを整形"
+    },
     "formatOriginalTitles": {
         "message": "元のタイトルをフォーマット"
     },
@@ -1820,6 +1823,9 @@
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow は保存領域を使わないと動作しません。"
     },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "有効化するには、about:config から webextensions.storage.sync.enabled と webextensions.storage.sync.kinto の値を true に設定します。"
+    },
     "storageFull": {
         "message": "拡張機能用の保存領域に空きがありません。オプションから未送信のセグメントを削除してください。"
     },
@@ -1944,9 +1950,22 @@
         "message": "このチャンネルのみ",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
+    "clickToNotApplyThisProfile": {
+        "message": "クリックしてこのスキッププロファイルを適用しない"
+    },
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "このオプションは、他の優先度が高いオプションによって上書きされています",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "クリックしてこのスキッププロファイルを適用"
+    },
+    "selectASkipProfileFirst": {
+        "message": "まずスキッププロファイルを選択してください",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "スキッププロファイルを選択"
     },
     "SkipProfileMenu": {
         "message": "プロファイルメニューをスキップ"
@@ -1954,6 +1973,15 @@
     "WhitelistedChannels": {
         "message": "ホワイトリストに登録されたチャンネル",
         "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "チャンネルをスキッププロファイルに追加"
+    },
+    "editChannelsSkipProfile": {
+        "message": "このチャンネルのスキッププロファイルを変更"
+    },
+    "editActiveSkipProfile": {
+        "message": "有効なスキッププロファイルを変更"
     },
     "closeSkipProfileMenu": {
         "message": "スキッププロファイルメニューを閉じる"
