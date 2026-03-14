@@ -4,14 +4,14 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Пропускайте спонсорські вставки, прохання підписатися та інше в відео на YouTube. Надсилайте інформацію про спонсорів в відео, щоб зберігати іншим час.",
+        "message": "Пропускайте спонсорські вставки, заклики підписатися та інше у відео на YouTube. Повідомляйте про спонсорів у відео, які ви переглядаєте, щоб заощадити час іншим.",
         "description": "Description of the extension."
     },
     "400": {
-        "message": "Сервер повідомив, що цей запит є недійсним."
+        "message": "Сервер повідомив, що цей запит недійсний."
     },
     "409": {
-        "message": "Цей запит був відправлений раніше."
+        "message": "Це вже було надіслано раніше."
     },
     "Segment": {
         "message": "сегмент"
@@ -30,7 +30,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "segmentListDefaultTab": {
-        "message": "Вкладка за замовчуванням в спливаючому списку сегментів"
+        "message": "Типова вкладка у спливному списку сегментів"
     },
     "showSegmentNameInChapterBar": {
         "message": "Показати поточний сегмент поруч із часом відео"
@@ -39,13 +39,13 @@
         "message": "Показувати розділи, які автоматично згенеровані YouTube"
     },
     "upvoteButtonInfo": {
-        "message": "Проголосувати \"за\" цей сегмент"
+        "message": "Проголосувати «за» цей сегмент"
     },
     "reportButtonTitle": {
         "message": "Звіт"
     },
     "reportButtonInfo": {
-        "message": "Повідомити про помилку в цьому сегменті."
+        "message": "Повідомити, що цей сегмент неправильний."
     },
     "Dismiss": {
         "message": "Закрити"
@@ -57,7 +57,7 @@
         "message": "Не відображати"
     },
     "hitGoBack": {
-        "message": "Натисніть «Назад», щоб повернутися назад."
+        "message": "Натисніть «Скасувати пропуск», щоб повернутися туди, де ви були."
     },
     "unskip": {
         "message": "Назад"
