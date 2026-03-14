@@ -291,11 +291,11 @@
         "description": "Used on Firefox Store Page"
     },
     "noticeUpdate": {
-        "message": "Повідомлення було оновлено!",
+        "message": "Вигляд сповіщень оновлено!",
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "Якщо воно Вам все одно не подобається, натисніть «не показувати\".",
+        "message": "Якщо він вам все одно не подобається, натисніть кнопку «Більше не показувати».",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
@@ -315,7 +315,7 @@
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
-        "message": "Прев'ю сегмента",
+        "message": "Попередній перегляд сегмента",
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
@@ -323,11 +323,11 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Проголосувати \"проти\" сегмента",
+        "message": "Оцінити сегмент негативно",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Проголосувати \"за\" сегмент",
+        "message": "Оцінити сегмент позитивно",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {
@@ -339,7 +339,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "Ввімкнення/Вимкнення DeArrow",
+        "message": "Увімкнути/вимкнути DeArrow",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -347,7 +347,7 @@
         "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
-        "message": "Виберіть клавішу, набравши її та виберіть бажану клавішу-модифікатор."
+        "message": "Натисніть потрібну клавішу та виберіть будь-які клавіші-модифікатори, які хочете використовувати."
     },
     "0": {
         "message": "Таймаут підключення. Перевірте ваше з'єднання з інтернетом. Якщо ваш інтернет працює, сервер, швидше за все, перевантажений або лежить."
