@@ -1385,7 +1385,7 @@
         "message": "Розпізнавання мови не є досконалим, визначає деякі англійські заголовки як неанглійські."
     },
     "thumbnailFallbackOption": {
-        "message": "Якщо надіслана обкладинка відсутня"
+        "message": "Якщо немає надісланої обкладинки"
     },
     "whatThumbnailFallbackOption": {
         "message": "При виборі випадкового моменту будуть використані дані SponsorBlock, щоб переконатися, що кадр не належить до рекламного сегмента.",
@@ -1790,13 +1790,13 @@
         "message": "Пробний період завершився"
     },
     "freeTrialPrompt": {
-        "message": "Якщо ви хочете протестувати це, ви можете розпочати безплатну пробну версію, натиснувши кнопку нижче."
+        "message": "Якщо ви хочете випробувати його, ви можете розпочати пробний період за допомогою кнопки нижче."
     },
     "startFreeTrial": {
-        "message": "Почати пробний період"
+        "message": "Розпочати пробний період"
     },
     "freeAccessRequested": {
-        "message": "Ви успішно зареєструвались на отримання безплатного доступу. Ви отримаєте сповіщення, коли доступ буде надано."
+        "message": "Ви успішно зареєструвалися для отримання безплатного доступу. Вас буде повідомлено, щойно доступ буде надано."
     },
     "freeAccessComplete": {
         "message": "Вітаємо! Тепер у вас є безплатний доступ до DeArrow"
@@ -1820,25 +1820,25 @@
         "message": "Ділитися — значить піклуватися"
     },
     "cleanPopup": {
-        "message": "Спрощений вигляд спливаючого вікна списку сегментів"
+        "message": "Приховати зайві елементи у списку сегментів"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Приховати кнопки створення сегмента у спливаючому вікні"
+        "message": "Приховати кнопки створення сегментів у спливному вікні"
     },
     "syncDisabledWarning": {
-        "message": "Увага: Сховище розширення вимкнено у вашому браузері. Налаштування не будуть збережені, якщо ви спробуєте їх зберегти."
+        "message": "Увага: Сховище розширень у вашому браузері вимкнено. Налаштування не будуть збережені, якщо ви спробуєте їх застосувати."
     },
     "syncDisabledWarningDeArrow": {
         "message": "Derow не буде працювати без сховища."
     },
     "syncDisabledFirefoxSuggestions": {
-        "message": "Ви можете ввімкнути це, перейшовши до about:config та встановивши значення \"webextensions.storage.sync.enabled\" and \"webextensions.storage.sync.kinto\" на true."
+        "message": "Ви можете увімкнути його, перейшовши за адресою about:config та встановивши значення «true» для параметрів «webextensions.storage.sync.enabled» та «webextensions.storage.sync.kinto»."
     },
     "storageFull": {
-        "message": "Сховище розширення повне. Будь ласка, видаліть деякі невідіслані сегменти у налаштуваннях."
+        "message": "Сховище розширень переповнене. Будь ласка, видаліть кілька ненадісланих сегментів у налаштуваннях."
     },
     "previewSegmentRequired": {
-        "message": "Будь ласка, перегляньте свої сегменти перед надсиланням. Це можна зробити натиснувши кнопку прев'ю або скориставшись наступною комбінацією клавіш:",
+        "message": "Будь ласка, переглядайте свої сегменти перед надсиланням. Ви можете зробити це, натиснувши кнопку попереднього перегляду або скориставшись такою комбінацією клавіш:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
@@ -1846,18 +1846,18 @@
         "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
     },
     "submissionFailedServerSideAds": {
-        "message": "На цей момент сегменти не можуть бути прийняті з вашого браузера, оскільки на YouTube, здається, була введена деяка реклама на стороні сервера таким чином, що розширення не може її вилучити. Будь ласка, зв'яжіться з нами, якщо ви отримали таку помилку."
+        "message": "Наразі надсилання пропозицій із вашого браузера неможливе, оскільки YouTube впровадив серверну рекламу, яку розширення не може видалити. Будь ласка, зв’яжіться з нами, якщо ви отримуєте цю помилку."
     },
     "DeArrowIsDisabled": {
-        "message": "DeArrow вимкнено – натисніть, щоб увімкнути",
+        "message": "DeArrow вимкнено — натисніть, щоб увімкнути",
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
-        "message": "Ви впевнені, що ця оригінальна мініатюра відповідає рекомендаціям DeArrow? Якщо ви в цілому просто віддаєте перевагу переглядати оригінальні мініатюри, подумайте про зміну параметра \"За відсутності відправленої мініатюри\" в налаштуваннях DeArrow.",
+        "message": "Ви впевнені, що ця оригінальна обкладинка відповідає правилам DeArrow? Якщо ви загалом надаєте перевагу оригінальним обкладинкам, радимо змінити параметр «Якщо немає надісланої обкладинки» в налаштуваннях DeArrow.",
         "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
     },
     "yttvLiveContentWarning": {
-        "message": "На YouTube TV SponsorBlock не сумісний з живим і нещодавно записаним контентом. Якщо це недавній запис, зачекайте кілька годин, поки стане доступна оброблена версія запису.",
+        "message": "На YouTube TV SponsorBlock несумісний із прямими трансляціями та нещодавно записаним контентом. Якщо це нещодавній запис, будь ласка, зачекайте кілька годин, поки стане доступною оброблена версія запису.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "yttvNoChannelWhitelist": {
@@ -1865,7 +1865,7 @@
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
-        "message": "Подобається оригінальний заголовок?",
+        "message": "Подобається оригінальна назва?",
         "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
     },
     "Yes": {
@@ -1883,19 +1883,19 @@
         "description": "Appears as `1 vote`. Do not change the {0}"
     },
     "dearrow_category_funny": {
-        "message": "Смішні",
+        "message": "Кумедно",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_creative": {
-        "message": "Творчий",
+        "message": "Творчо",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_clever": {
-        "message": "Розумний",
+        "message": "Кмітливо",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_descriptive": {
-        "message": "Описовий",
+        "message": "Описово",
         "description": "Category for DeArrow casual mode"
     },
     "dearrow_category_other": {
@@ -1907,47 +1907,47 @@
         "description": "Classic mode is a mode in DeArrow"
     },
     "ClassicModeDescription": {
-        "message": "Заголовки замінюються на стандартизовані формати відповідно до рекомендацій у всіх відео, де існує спільно створений заголовок."
+        "message": "Назви замінюються на стандартизовані формати згідно з правилами для всіх відео, де наявна краудсорсингова назва."
     },
     "CasualMode": {
-        "message": "Звичайний режим",
+        "message": "Помірний режим",
         "description": "Casual mode is a mode in DeArrow"
     },
     "CasualModeDescription": {
-        "message": "Залишайте оригінальні назви, якщо вони достатньо добре описують відео, є розумними або смішними.\nВиберіть, які категорії назв ви хочете бачити.\nВи зможете проголосувати, чи підходить назва до категорії чи ні."
+        "message": "Залишати оригінальні назви, якщо вони достатньо добре описують відео та є кмітливими або кумедними.\nВиберіть, які категорії назв ви хочете бачити.\nВи зможете голосувати за те, чи відповідає назва певній категорії."
     },
     "minimumVotes": {
-        "message": "Мінімум голосів",
+        "message": "Мінімальна кількість голосів",
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Показати оригінальну мініатюру проголосованого відео в звичайному режимі",
+        "message": "Показувати оригінальну обкладинку для відео, схвалених у помірному режимі",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
-        "message": "Нова функція: Звичайний режим",
+        "message": "Нова функція: Помірний режим",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "onlyShowCasualIconForCustom": {
-        "message": "Показувати значок звичайного режиму тільки коли наявна користувацька назва"
+        "message": "Показувати значок помірного режиму лише тоді, коли доступна власна назва"
     },
     "dontFormatCasualTitles": {
-        "message": "Не форматувати заголовки у звичайному режимі",
+        "message": "Не форматувати назви у помірному режимі",
         "description": "Option for casual mode in DeArrow"
     },
     "OpenSettings": {
         "message": "Відкрити налаштування"
     },
     "hookNewFeature": {
-        "message": "Примітка: Категорія «Зачіпка» була перенесена з категорії «Попередній огляд/Підсумок» до нової категорії «Зачіпка/Вітання»",
+        "message": "Примітка: Категорію «Зачіпка» перенесено з категорії «Анонс / Повтор» до нової категорії «Зачіпка / Привітання»",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
     "segmentHideFailed": {
-        "message": "Не вдалося назавжди приховати/приховати запитаний сегмент, оскільки UUID сегменту не може бути вирішений:",
+        "message": "Не вдалося назавжди приховати/показати вибраний сегмент, оскільки не вдалося визначити UUID сегмента:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     },
     "skipProfile_forAnHour": {
-        "message": "За годину",
+        "message": "На одну годину",
         "description": "Option in skip profiles to set this skip profile as the active one for an hour"
     },
     "skipProfile_forThisTab": {
@@ -1955,7 +1955,7 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this tab"
     },
     "skipProfile_forJustThisVideo": {
-        "message": "Для цього відео",
+        "message": "Лише для цього відео",
         "description": "Option in skip profiles to set this skip profile as the active one for just this video"
     },
     "skipProfile_forThisChannel": {
@@ -1963,14 +1963,14 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
     "clickToNotApplyThisProfile": {
-        "message": "Натисніть, щоб не застосувати цей профіль пропуску"
+        "message": "Натисніть, щоб не застосовувати цей профіль пропуску"
     },
     "skipProfileBeingOverriddenByHigherPriority": {
-        "message": "Ця опція перевизначається вищою опцією",
+        "message": "Цей параметр перевизначається пріоритетнішим налаштуванням",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
-        "message": "Натисніть, щоб застосувати цей профіль пропуску"
+        "message": "Натисніть, щоб застосовувати цей профіль пропуску"
     },
     "selectASkipProfileFirst": {
         "message": "Спочатку виберіть профіль пропуску",
@@ -1980,7 +1980,7 @@
         "message": "Вибрати профіль пропуску"
     },
     "SkipProfileMenu": {
-        "message": "Меню профілю пропуску"
+        "message": "Меню профілів пропуску"
     },
     "WhitelistedChannels": {
         "message": "Білий список каналів",
@@ -1990,12 +1990,12 @@
         "message": "Додати канал до профілю пропуску"
     },
     "editChannelsSkipProfile": {
-        "message": "Змінити профіль пропуску цього каналу"
+        "message": "Змінити профіль пропуску для цього каналу"
     },
     "editActiveSkipProfile": {
         "message": "Змінити активний профіль пропуску"
     },
     "closeSkipProfileMenu": {
-        "message": "Закрити меню профілю пропуску"
+        "message": "Закрити меню профілів пропуску"
     }
 }
