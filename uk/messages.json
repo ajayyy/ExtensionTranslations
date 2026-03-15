@@ -810,83 +810,83 @@
         "message": "Розділ"
     },
     "category_chapter_description": {
-        "message": "Глави з користувацькими назвами, що описують основні розділи відео."
+        "message": "Користувацькі розділи з описом основних частин відео."
     },
     "category_chapter_guideline1": {
-        "message": "Не згадуйте про торгові марки спонсорів"
+        "message": "Не згадуйте назви брендів спонсорів"
     },
     "category_chapter_guideline2": {
-        "message": "Використовуйте більші розділи для загальних розділів"
+        "message": "Використовуйте великі розділи для загальних частин"
     },
     "category_chapter_guideline3": {
         "message": "Менші розділи можна розмістити всередині великих"
     },
     "category_livestream_messages": {
-        "message": "Прямі трансляції: пожертвування/читання повідомлення"
+        "message": "Пряма трансляція: Читання пожертв та повідомлень"
     },
     "category_livestream_messages_short": {
         "message": "Читання повідомлень"
     },
     "fallbackToDefault": {
-        "message": "Відкат до налаштувань за умовчанням",
+        "message": "Відкотитися до значень за замовчуванням",
         "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Автоматичний пропуск"
     },
     "manualSkip": {
-        "message": "Пропуск вручну"
+        "message": "Пропустити вручну"
     },
     "showOverlay": {
-        "message": "Показувати в смузі перемотування"
+        "message": "Показувати на смузі відтворення"
     },
     "disable": {
         "message": "Вимкнути"
     },
     "autoSkip_POI": {
-        "message": "Автоматично перейти до початку"
+        "message": "Автоперехід до початку"
     },
     "manualSkip_POI": {
-        "message": "Спитати поки відео завантажується"
+        "message": "Запитувати при завантаженні відео"
     },
     "showOverlay_POI": {
-        "message": "Показувати в смузі перемотування"
+        "message": "Показувати на смузі відтворення"
     },
     "showOverlay_full": {
-        "message": "Показати мітку"
+        "message": "Показувати мітку"
     },
     "showOverlay_chapter": {
-        "message": "Показати розділи"
+        "message": "Показувати розділи"
     },
     "autoSkipOnMusicVideos": {
-        "message": "Автоматично пропустити усі сегменти, якщо присутній сегмент без музики"
+        "message": "Автоматично пропускати всі сегменти, якщо є немузичний фрагмент"
     },
     "skipNonMusicOnlyOnYoutubeMusic": {
-        "message": "Автоматично пропустити лише на music.youtube.com"
+        "message": "Автоматично пропускати лише на music.youtube.com"
     },
     "muteSegments": {
-        "message": "Дозволити сегменти, які відключають звук замість пропуску"
+        "message": "Дозволити сегменти з вимкненням звуку замість пропуску"
     },
     "fullVideoSegments": {
-        "message": "Показувати значок, коли все відео є рекламою",
+        "message": "Показувати іконку, якщо відео є суцільною рекламою",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Показувати мітки на мініатюрах відео",
+        "message": "Показувати мітки також на обкладинках відео",
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Колір не надісланого сегмента",
+        "message": "Колір невідправлених сегментів",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
-        "message": "Колір смуги перемотування"
+        "message": "Колір на смузі відтворення"
     },
     "category": {
         "message": "Категорія"
     },
     "skipOption": {
-        "message": "Спосіб пропуску",
+        "message": "Параметри пропуску",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "openAdvancedSkipOptions": {
@@ -918,17 +918,17 @@
         "message": "Оберіть категорію"
     },
     "enableThisCategoryFirst": {
-        "message": "Щоб надіслати сегменти категорії \"{0}\", ви повинні ввімкнути її в налаштуваннях. Зараз ви будете туди перенаправлені.",
+        "message": "Щоб надсилати сегменти категорії «{0}», потрібно увімкнути її в налаштуваннях. Зараз вас буде туди перенаправлено.",
         "description": "Used when submitting segments to only let them select a certain category if they have it enabled in the options."
     },
     "poiOnlyOneSegment": {
-        "message": "Попередження: Цей тип сегмента може мати максимум один активний сегмент одночасно. Якщо вказати декілька, буде показано випадковий сегмент."
+        "message": "Увага: Відео може мати лише один активний сегмент цього типу. Якщо надіслати кілька, буде випадковим чином відображатися лише один із них."
     },
     "youMustSelectACategory": {
-        "message": "Ви повинні обрати категорію для всіх сегментів, які ви надсилаєте!"
+        "message": "Ви повинні обрати категорію для всіх сегментів, які надсилаєте!"
     },
     "bracketStart": {
-        "message": "(Старт)"
+        "message": "(Початок)"
     },
     "bracketEnd": {
         "message": "(Кінець)"
@@ -938,20 +938,20 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "приховано: голос \"проти\""
+        "message": "приховано: голос «проти»"
     },
     "hiddenDueToDuration": {
-        "message": "приховано: занадто коротко"
+        "message": "приховано: занадто короткий"
     },
     "manuallyHidden": {
         "message": "приховано вручну"
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "Ідентифікатор каналу ще не завантажено. Якщо ви переглядаєте відео у вбудованому відеоплеєрі, спробуйте відкрити його на головній сторінці YouTube. Це також може бути спричинено змінами в макеті YouTube. Якщо ви так вважаєте, залиште коментар тут:"
+        "message": "ID каналу ще не завантажено. Якщо ви переглядаєте вбудоване відео, спробуйте відкрити його безпосередньо на YouTube. Це також може бути наслідком змін у дизайні YouTube; якщо ви так вважаєте, залиште коментар тут:"
     },
     "invidiousPermissionRefresh": {
-        "message": "Браузер відкликав дозвіл, необхідний для роботи на Invidious та інших сторонніх сайтах. Будь ласка, натисніть кнопку нижче, щоб повторно надати цей дозвіл."
+        "message": "Браузер скасував дозволи, необхідні для роботи на Invidious та інших сторонніх ресурсах. Будь ласка, натисніть кнопку нижче, щоб поновити цей дозвіл."
     },
     "acceptPermission": {
         "message": "Надати дозвіл"
@@ -960,16 +960,16 @@
         "message": "Дозвіл отримано!"
     },
     "permissionRequestFailed": {
-        "message": "Не вдалося отримати дозвіл, ви натиснули на \"Блокувати\"?"
+        "message": "Запит на отримання дозволу відхилено. Ви натиснули «Заборонити»?"
     },
     "forceChannelCheck": {
         "message": "Примусова перевірка каналу перед пропуском"
     },
     "whatForceChannelCheck": {
-        "message": "За замовчуванням розширення пропускає сегменти відразу ж, навіть не перевіряючи який це канал. За замовчуванням деякі сегменти на початку відео можуть бути пропущені на каналах з білого списку. Увімкнення цієї опції запобіжить цьому, але усі пропуски відбуватимуться з невеликою затримкою оскільки отримання ID каналу може зайняти деякий час. Ця затримка може бути непомітною, якщо у вас швидкий інтернет."
+        "message": "За замовчуванням розширення пропускає сегменти миттєво, ще до того, як визначить канал. Через це на каналах із «білого списку» можуть бути помилково пропущені фрагменти на початку відео. Увімкнення цієї опції запобіжить цьому, але додасть невелику затримку перед кожним пропуском, оскільки отримання ID каналу займає певний час. При швидкому інтернеті ця затримка може бути непомітною."
     },
     "forceChannelCheckPopup": {
-        "message": "Рекомендуємо увімкнути \"Примусова перевірка каналу перед пропуском\""
+        "message": "Радимо увімкнути «Примусову перевірку каналу перед пропуском»"
     },
     "downvoteDescription": {
         "message": "Невірно вказано таймінг"
