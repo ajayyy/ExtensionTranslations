@@ -1584,19 +1584,19 @@
         "description": "Tip subtitle in DeArrow"
     },
     "noSummariesTipTitle": {
-        "message": "Мій заголовок не підсумовує висновок і не розкриває зайвих деталей",
+        "message": "Моя назва не переказує висновки та не розкриває зайвих деталей",
         "description": "Tip title in DeArrow"
     },
     "noSummariesTipSubTitle": {
-        "message": "Заголовки не призначені замінювати повний перегляд відео, а допомагають зрозуміти, чи варто його дивитися.",
+        "message": "Назви не мають повністю замінювати перегляд відео; вони існують для того, щоб ви могли вирішити, чи варто на нього натискати.",
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Моя назва не перевіряє факти, не висміює і не критикує відео або його автора",
+        "message": "Моя назва не є перевіркою фактів, висміюванням чи критикою відео або автора",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Заголовки мають відображати точку зору автора та зміст відео. Оцінка або перевірка фактів самого відео виходить за межі DeArrow. Заголовки не призначені для заміни коментарів.",
+        "message": "Назви мають відображати погляд автора та зміст відео. Оцінка або перевірка фактів самого відео не входять до завдань DeArrow. Назви не повинні перетворюватися на розділ коментарів.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1604,50 +1604,50 @@
         "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
     },
     "DeArrowDiscussingWarning": {
-        "message": "Не використовуйте зайві дієслова на початку заголовка",
+        "message": "Не використовуйте зайві дієслова на початку назви",
         "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
     },
     "DeArrowStartLowerCaseWarning": {
-        "message": "Починайте всі заголовки з великої літери. Заголовки мають бути оформлені як речення",
+        "message": "Починайте всі назви з великої літери. Назви мають бути оформлені як звичайні речення",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEndWithPeriodWarning": {
-        "message": "Заголовки не повинні закінчуватися крапкою",
+        "message": "Назви не повинні закінчуватися крапкою",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowAddingAnswerWarning": {
-        "message": "Не додавайте просто відповідь на запитання з оригінальної назви. Заголовки мають описувати відео або його сюжет загалом",
+        "message": "Не додавайте просто відповідь на запитання з оригінальної назви. Назви мають описувати відео або сюжет загалом",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowClickbaitWarning": {
-        "message": "Заголовки не повинні перевіряти факти, висміювати чи критикувати відео чи його автора",
+        "message": "Назви не повинні бути перевіркою фактів, висміюванням чи критикою відео або автора",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowKeepingBadOriginalWarning": {
-        "message": "Заголовки не повинні зберігати сенсаційні елементи з оригінальної назви",
+        "message": "Назви не повинні містити сенсаційних елементів з оригіналу",
         "description": "A DeArrow automatic warning"
     },
     "DeArrowEmojiWarning": {
-        "message": "Заголовки не повинні містити емодзі",
+        "message": "Назви не повинні містити емодзі",
         "description": "A DeArrow automatic warning"
     },
     "resolveWarningFirst": {
         "message": "Ви повинні усунути попередження перед надсиланням"
     },
     "dearrowHelpSponsorBlockImported": {
-        "message": "Примітка: Ваші налаштування SponsorBlock були імпортовані автоматично!"
+        "message": "Примітка: Ваші налаштування SponsorBlock було імпортовано автоматично!"
     },
     "howItWorks": {
         "message": "Як це працює"
     },
     "discordPromotion": {
-        "message": "Приєднуйтесь до спільноти, робіть пропозиції та допомагайте в {discord} або {matrix}"
+        "message": "Приєднуйтеся до розробки, пропонуйте ідеї та допомагайте в {discord} або {matrix}"
     },
     "deArrowDonationText": {
-        "message": "Якщо вам подобається моя робота і ви хочете підтримати мене фінансово, ось посилання"
+        "message": "Якщо вам подобається те, що я зробив, і ви хочете підтримати мене фінансово, ось посилання"
     },
     "termsAgreement": {
-        "message": "Використовуючи це розширення, ви погоджуєтеся з {privacy-policy} і {terms}"
+        "message": "Використовуючи це розширення, ви погоджуєтеся з {privacy-policy} та {terms}"
     },
     "privacyPolicy": {
         "message": "Політика конфіденційності"
@@ -1659,22 +1659,22 @@
         "message": "Ліцензії вихідного коду"
     },
     "defaultToOriginals": {
-        "message": "Використовувати інформацію з оригінального відео за замовчуванням"
+        "message": "За замовчуванням показувати оригінальну інформацію про відео"
     },
     "whatDefaultToOriginals": {
-        "message": "Показувати оригінальний заголовок та мініатюру за замовчуванням, але мати кнопку, при наведенні на яку з'являються користувацькі заголовки та мініатюри."
+        "message": "Показувати оригінальну назву та обкладинку за замовчуванням, але виводити кнопку при наведенні курсору, щоб побачити власні назви та обкладинки."
     },
     "replaceTitles": {
-        "message": "Замінювати заголовки"
+        "message": "Замінювати назви"
     },
     "replaceThumbnails": {
-        "message": "Замінювати мініатюри"
+        "message": "Замінювати обкладинки"
     },
     "useCrowdsourcedTitles": {
-        "message": "Використовувати краудсорсингові заголовки"
+        "message": "Використовувати краудсорсингові назви"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Якщо вимкнено, заголовки будуть форматовані, але заголовки, представлені спільнотою, використані не будуть",
+        "message": "Якщо вимкнено, розширення форматуватиме назви, але не використовуватиме варіанти, надіслані спільнотою",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1691,7 +1691,7 @@
         "message": "Видалити конфігурацію"
     },
     "ChannelAllowlist": {
-        "message": "Налаштування для конкретного каналу"
+        "message": "Налаштування для окремих каналів"
     },
     "ConfigurationName": {
         "message": "Назва конфігурації"
@@ -1700,11 +1700,11 @@
         "message": "Конфігурація за замовчуванням"
     },
     "ChannelListInstructions": {
-        "message": "Введіть у поле нижче канали, до яких ви хочете застосувати цю конфігурацію, розділивши їх новими рядками. Підтримуються @handles каналів, UCID та імена для відображення. Перевага надається @handles каналів, використання імен для відображення не рекомендується — використання імен для відображення в будь-якій конфігурації спричинить додаткові мережеві запити для кожного відео. Ви можете отримати ідентифікатори каналів, натиснувши кнопку «Поділитися» на сторінці «Про канал». Щоб перейти на сторінку «Про канал», натисніть на опис каналу, який з'являється під назвою каналу на сторінці каналу.",
+        "message": "Введіть канали, до яких хочете застосувати ці налаштування, у полі нижче (кожен з нового рядка). Підтримуються @псевдоніми, ID каналів (UCID) та назви каналів. Рекомендується використовувати @псевдоніми; використання назв каналів не рекомендується — це спричинить додаткові мережеві запити для кожного відео. Ви можете дізнатися ID каналу, натиснувши кнопку «Поділитися каналом» на сторінці «Про канал». Щоб потрапити на цю сторінку, натисніть на опис каналу під його назвою на головній сторінці автора.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
-        "message": "Додайте канали, які мають використовувати цей альтернативний профіль пропуску, натиснувши кнопку у спливаючому вікні на відео, створеному цим каналом. Список каналів з’явиться нижче.",
+        "message": "Додавайте канали, для яких слід використовувати цей альтернативний профіль пропусків, натиснувши кнопку у спливному вікні під час перегляду відео цього автора. Список каналів з’явиться нижче.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1712,79 +1712,79 @@
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
-        "message": "Зупиніть клікбейт, замінивши заголовки та мініатюри на більш точні"
+        "message": "Зупиніть клікбейт, замінюючи назви та обкладинки на більш точні"
     },
     "DeArrowPromotionMessage2": {
-        "message": "Втомилися від клікбейту? Спробуйте моє нове розширення для покращення заголовків та мініатюр"
+        "message": "Втомилися від клікбейту? Спробуйте моє нове розширення для покращення назв та обкладинок"
     },
     "DeArrowPromotionMessage3": {
         "message": "Тож ознайомтесь із DeArrow",
         "description": "DeArrow is the name of the extension"
     },
     "DeArrowTitleReplacementSuggestion": {
-        "message": "Не подобається цей заголовок? Якщо вам більше подобається заголовок нижче, спробуйте скористатися функцією заміни заголовка в DeArrow.",
+        "message": "Не подобається ця назва? Якщо вам більше подобається назва нижче, спробуйте скористатися функцією заміни назв у DeArrow.",
         "description": "A title will be displayed below this to demonstrate what the alternative title would be."
     },
     "RandomThumbnailExplanation": {
-        "message": "Цю мініатюру вибрано з випадкової позначки часу, оскільки для цього відео ще нічого не було запропоновано",
+        "message": "Цю обкладинку вибрано з випадкової мітки часу, оскільки для цього відео ще немає надісланих варіантів",
         "description": "A description during on boarding to explain the random thumbnail setting"
     },
     "RandomThumbnailAndAutoFormattedExplanation": {
-        "message": "Цю мініатюру вибрано з випадкової позначки часу, а заголовок автоматично відформатовано, оскільки для цього відео ще нічого не було запропоновано",
+        "message": "Цю обкладинку вибрано з випадкової мітки часу, а назву автоматично відформатовано, оскільки для цього відео ще немає надісланих варіантів",
         "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
     },
     "YouCanChangeThisDefaultBelow": {
-        "message": "Ви можете змінити ці налаштування за замовчуванням нижче",
+        "message": "Ви можете змінити це налаштування за замовчуванням нижче",
         "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
     },
     "dearrowStatsMessage": {
-        "message": "{titles} заголовків та {thumbnails} мініатюр було замінено з моменту встановлення розширення",
+        "message": "{titles} назв та {thumbnails} обкладинок було замінено з моменту встановлення цього розширення",
         "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
-        "message": "{titles} заголовок ",
+        "message": "{titles} назву ",
         "description": "Title singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlesPart": {
-        "message": "{titles} заголовків ",
+        "message": "{titles} назв ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailPart": {
-        "message": "і {thumbnails} мініатюр",
+        "message": "та {thumbnails} обкладинку",
         "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageThumbnailsPart": {
-        "message": "і {thumbnails} мініатюр",
+        "message": "та {thumbnails} обкладинок",
         "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessage2": {
-        "message": "{titleAndThumbnailMessage} було замінено з моменту встановлення розширення",
+        "message": "{titleAndThumbnailMessage} було замінено з моменту встановлення цього розширення",
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Лічильник замін заголовків та мініатюр"
+        "message": "Рахувати заміни назв та обкладинок"
     },
     "countReplacementsDescription": {
-        "message": "Використовується для надання статистики у спливаючому вікні.",
+        "message": "Використовується для відображення статистики у спливному вікні.",
         "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
     },
     "YtNeuterMessage": {
-        "message": "Додати список фільтрів для блокування опитувань, полиць з мерчем та інших елементів промо-сторінки використовуючи yt-neuter"
+        "message": "Додайте список фільтрів для блокування опитувань, полиць із мерчем та інших рекламних елементів сторінки за допомогою yt-neuter"
     },
     "requiresUblock": {
         "message": "Потрібен uBlock Origin"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Щось пішло не так з визначенням videoID. Будь ласка, спробуйте оновлення перед надсиланням, щоб переконатися, що надсилання буде для правильного відео. Якщо це відбувається часто, будь ласка, надішліть звіт про це разом з іншими розширеннями або скриптами, які ви встановили з GitHub, Discord або Matrix."
+        "message": "Сталася помилка під час визначення videoID. Будь ласка, спробуйте оновити сторінку перед надсиланням, щоб переконатися, що дані будуть збережені для правильного відео. Якщо це трапляється часто, будь ласка, надішліть звіт про помилку разом із переліком інших встановлених розширень або користувацьких скриптів через GitHub, Discord або Matrix."
     },
     "dearrowLogoCredit": {
         "message": "Логотип на основі Twemoji під ліцензією CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
-        "message": "SponsorBlock несумісний з розширенням «Zoom до Fill». Натомість ви можете скористатися багатьма альтернативами, які працюватимуть коректно."
+        "message": "SponsorBlock несумісний із розширенням «Zoom to Fill». Замість нього ви можете скористатися багатьма іншими альтернативами, які працюватимуть належним чином."
     },
     "freeTrialStarted": {
-        "message": "Ваш безплатний пробний період успішно розпочався. Відвідайте YouTube, щоб протестувати її"
+        "message": "Ваш пробний період успішно розпочато. Перейдіть на YouTube, щоб випробувати його"
     },
     "freeTrialEnded": {
         "message": "Пробний період завершився"
