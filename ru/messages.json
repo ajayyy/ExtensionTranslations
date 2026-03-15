@@ -1059,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Тёмный режим на странице настроек"
     },
+    "prideTheme": {
+        "message": "ЛГБТ-тема"
+    },
     "helpPageThanksForInstalling": {
         "message": "Спасибо за установку SponsorBlock."
     },
