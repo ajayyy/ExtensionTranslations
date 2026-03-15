@@ -1451,73 +1451,73 @@
         "message": "Приховувати деталі під час завантаження"
     },
     "hideDetailsWhileFetchingDescription": {
-        "message": "Приховувати заголовки та мініатюри під час отримання даних з сервера. Якщо цю опцію вимкнено, ви побачите миготіння під час зміни заголовків та мініатюр."
+        "message": "Приховувати назви та обкладинки під час отримання даних із сервера. Якщо вимкнено, ви спостерігатимете «миготіння» при заміні назв та обкладинок."
     },
     "ignoreTranslatedTitles": {
         "message": "Не показувати перекладені назви YouTube",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
     "ignoreTranslatedTitlesDescription": {
-        "message": "YouTube іноді буде автоматично перекладати заголовки на вашу рідну мову. Цей параметр застосовується лише тоді, коли заголовок краудсорсингу недоступний."
+        "message": "YouTube іноді автоматично перекладає назви вашою рідною мовою. Цей параметр застосовується лише тоді, коли краудсорсингова назва відсутня."
     },
     "onAllPages": {
         "message": "На всіх сторінках",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "onAllPagesExceptVideo": {
-        "message": "На всіх сторінках, крім сторінок з відео",
+        "message": "На всіх сторінках, окрім сторінок відео",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
     "Never": {
         "message": "Ніколи"
     },
     "thumbnailGeneratorDescription1": {
-        "message": "Сервіс генерації мініатюр значно прискорює процес, відправляючи анонімний запит з videoID на віддалений сервер. Після цього мініатюра буде згенерована, або витягнута з кешу, якщо вона вже була створена раніше."
+        "message": "Сервіс генерації значно пришвидшує створення обкладинок, надсилаючи анонімний запит із videoID на віддалений сервер. Після цього обкладинка буде або згенерована, або взята з кешу, якщо вона вже створювалася раніше."
     },
     "thumbnailGeneratorDescription2": {
-        "message": "Якщо його використовувати на сторінках з відео, це може призвести до потенційного витоку videoID на цей сервер. Встановлення для цього параметра значення \"На всіх сторінках, крім сторінок з відео\" допоможе уникнути цієї проблеми. Інший варіант – розмістити власну службу генерації мініатюр."
+        "message": "Якщо використовувати цю функцію на сторінках відео, це може призвести до витоку ідентифікаторів (videoID) обмежених за посиланням відео на цей сервер. Вибір параметра «На всіх сторінках, окрім сторінок відео» допоможе уникнути цієї проблеми. Інший варіант — розгорнути власний сервіс генерації обкладинок."
     },
     "thumbnailGeneratorDescription3": {
-        "message": "Якщо використання служби генерації мініатюр вимкнено, для всіх запитів використовуватиметься система пошуку з K-анонімністю, що ускладнює передбачення сервером того, які саме відео були отримані, а також використовуватиметься повільніша локальна служба генерації мініатюр.",
+        "message": "Якщо використання сервісу генерації обкладинок вимкнено, усі запити використовуватимуть систему k-анонімності, що ускладнює для сервера прогнозування того, які саме відео були отримані; при цьому буде залучено повільніший локальний сервіс генерації обкладинок.",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "thumbnailGeneratorSourceCode": {
-        "message": "Вихідний код служби генерації мініатюр"
+        "message": "Вихідний код сервісу генерації обкладинок"
     },
     "moreAboutKAnonymity": {
         "message": "Більше про K-анонімність",
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
-        "message": "Завжди відображати кнопку \"Показати оригінал\""
+        "message": "Завжди показувати кнопку «Показати оригінал»"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "Якщо ви бажаєте завжди знати, що заголовок/мініатюра змінена, увімкніть це."
+        "message": "Увімкніть це, якщо хочете завжди знати, чи було змінено назву або обкладинку."
     },
     "showOriginalOnHover": {
-        "message": "Перемкнути між користувацькими та оригінальними відомостями при наведенні"
+        "message": "Перемикатися між власними та оригінальними даними при наведенні курсору"
     },
     "showOriginalOnHoverOfVideo": {
-        "message": "Перемкнути між користувацькими та оригінальними відомостями при наведенні на карту відео"
+        "message": "Перемикатися між власними та оригінальними даними при наведенні курсору на будь-яку частину картки відео"
     },
     "showOriginalOnHoverOfVideoDescription": {
         "message": "Це вимкне автовідтворення при наведенні"
     },
     "showCustomOnHoverIfCasual": {
-        "message": "Показувати користувацький заголовок на наведенні, якщо відображається заголовок звичайного режиму"
+        "message": "Показувати власну назву при наведенні, якщо відображається назва у звичайному режимі"
     },
     "showIconForFormattedTitles": {
-        "message": "Відображати кнопку \"Показати оригінал\" для автоформатованих заголовків"
+        "message": "Показувати кнопку «Показати оригінал» для автоматично відформатованих назв"
     },
     "Enable": {
         "message": "Увімкнути"
     },
     "Titles": {
-        "message": "Заголовки",
+        "message": "Назви",
         "description": "Referring to titles of YouTube videos"
     },
     "Thumbnails": {
-        "message": "Мініатюри",
+        "message": "Обкладинки",
         "description": "Referring to thumbnails of YouTube videos"
     },
     "CasualVotes": {
@@ -1537,7 +1537,7 @@
         "message": "Показати подробиці форматування"
     },
     "FillerWarning": {
-        "message": "Попередження: Це неймовірно агресивна категорія. Швидше за все, вам доведеться іноді пропускати або вимикати її. Майте на увазі, що в багатьох відео пропущено понад 50% або більше відео! Однак пам'ятайте, що все ще існують певні правила, яких слід дотримуватися при подачі.",
+        "message": "Увага: Це надзвичайно агресивна категорія. Швидше за все, вам доведеться іноді скасовувати пропуски або вимикати цю функцію. Майте на увазі, що в багатьох відео може бути пропущено 50% вмісту або навіть більше! Однак пам’ятайте, що під час надсилання власних сегментів все одно необхідно дотримуватися певних правил.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
@@ -1545,7 +1545,7 @@
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Показати довідку з правил",
+        "message": "Показувати довідку щодо правил",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
@@ -1557,18 +1557,18 @@
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "Уникайте опису реакцій на відео (наприклад, \"шок\")",
+        "message": "Не описуйте реакції на відео (наприклад, «шокуюче»)",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
-        "message": "Надайте достатньо інформації, щоб користувач міг зробити обґрунтований вибір перед натисканням"
+        "message": "Надавайте достатньо інформації, щоб глядач міг зробити свідомий вибір перед тим, як натиснути на відео"
     },
     "tip5": {
         "message": "Пишіть з великої літери, як у реченні",
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Перевірте всі рекомендації перед надсиланням",
+        "message": "Перевірте усі правила перед надсиланням",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
