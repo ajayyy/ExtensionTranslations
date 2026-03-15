@@ -1248,7 +1248,7 @@
         "description": "Example: You currently have 1 *unsubmitted segment* on 1 video"
     },
     "unsubmittedSegmentsPlural": {
-        "message": "не надіслані сегменти",
+        "message": "ненадіслані сегменти",
         "description": "Example: You currently have 12 *unsubmitted segments* on 5 videos"
     },
     "videosSingular": {
@@ -1264,7 +1264,7 @@
         "description": "Label for a button in settings"
     },
     "clearUnsubmittedSegmentsConfirm": {
-        "message": "Ви впевнені, що хочете очистити всі ваші не надіслані сегменти?",
+        "message": "Ви впевнені, що хочете очистити всі ваші ненадіслані сегменти?",
         "description": "Confirmation message for the Clear unsubmitted segments button"
     },
     "showUnsubmittedSegments": {
@@ -1291,7 +1291,7 @@
         "message": "Поділитися посиланням"
     },
     "segmentFetchFailureWarning": {
-        "message": "Попередження: сервер ще не відповів сегментами. Можливо, у цьому відео вже є сегменти, але ви просто не отримали їх через проблеми з сервером."
+        "message": "Попередження: Сервер ще не надіслав дані про сегменти. Можливо, для цього відео вже є надіслані сегменти, але ви їх не отримали через проблеми зі зв'язком із сервером."
     },
     "allowScrollingToEdit": {
         "message": "Дозволити прокручування для редагування часу"
@@ -1301,15 +1301,15 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow – Кращі Заголовки та Мініатюри в YouTube",
+        "message": "DeArrow — кращі назви та обкладинки на YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Краудсорсингові заголовки та мініатюри мають бути описовими, а не сенсаційними",
+        "message": "Краудсорсингові заголовки та обкладинки мають бути описовими, а не сенсаційними",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
-        "message": "Виберіть найбільш описану"
+        "message": "Оберіть найбільш описовий варіант"
     },
     "Original": {
         "message": "Оригінал"
@@ -1337,11 +1337,11 @@
         "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
-        "message": "Canvas відсутній",
+        "message": "Відсутній елемент Canvas",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
     },
     "ExceptionWhileRendering": {
-        "message": "Виняток під час показу",
+        "message": "Помилка під час рендерингу",
         "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
