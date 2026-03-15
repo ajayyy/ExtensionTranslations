@@ -1572,15 +1572,15 @@
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
-        "message": "Мій заголовок написаний з великої літери, як у реченні",
+        "message": "Моя назва оформлена як речення",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipTitle": {
-        "message": "Мій заголовок не обмежується відповіддю лише на запитання з назви",
+        "message": "Моя назва не є просто відповіддю на запитання, поставлене в заголовку",
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipSubTitle": {
-        "message": "Заголовки мають описувати відео або його сюжет загалом. Обов’язково перегляньте відео повністю, щоб зрозуміти, про що воно насправді, замість того, щоб покладатися лише на інтригуючу оригінальну назву.",
+        "message": "Назви повинні описувати відео або сюжет загалом. Вам слід переглянути відео повністю, щоб зрозуміти його справжній зміст, а не покладатися на інтригу оригінальної назви.",
         "description": "Tip subtitle in DeArrow"
     },
     "noSummariesTipTitle": {
