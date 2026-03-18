@@ -2000,5 +2000,11 @@
     },
     "addChannelToOverride": {
         "message": "Kanala özgü ayarlar"
+    },
+    "editActiveOverride": {
+        "message": "Etkin ayar profilini değiştirin"
+    },
+    "closeOverrideMenu": {
+        "message": "Menüyü kapat"
     }
 }
