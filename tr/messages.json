@@ -1978,5 +1978,27 @@
     },
     "SelectASkipProfile": {
         "message": "Atlanacak bir profil seçin"
+    },
+    "SkipProfileMenu": {
+        "message": "Atlama profili menüsü"
+    },
+    "WhitelistedChannels": {
+        "message": "İzin verilen kanallar",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Atlama profili için kanal ekle"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Bu kanalın atlama profilini değiştirin"
+    },
+    "editActiveSkipProfile": {
+        "message": "Etkin atlama profilini değiştirin"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Atlama profili menüsünü kapatın"
+    },
+    "addChannelToOverride": {
+        "message": "Kanala özgü ayarlar"
     }
 }
