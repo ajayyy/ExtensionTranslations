@@ -1937,5 +1937,46 @@
     },
     "OpenSettings": {
         "message": "Ayarları aç"
+    },
+    "hookNewFeature": {
+        "message": "Bildiri: İma, Ön İzleme/Özet kategorisinden İma/Selamlama kategorisine taşınmıştır",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Talep edilen kısım kalıcı olarak gizlenemedi/gösterilemedi, çünkü kısmın UUID'si çözümlenemedi:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Bir saatliğine",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Bu sekme için",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Sadece bu video için",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Bu kanal için",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Bu profili atlamadan geçmek için tıklayın"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Bu seçenek, başka bir seçenek tarafından kontrol ediliyor",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Bu profili atlamak için tıklayın"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Önce atlanacak bir profil seçin",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Atlanacak bir profil seçin"
     }
 }
