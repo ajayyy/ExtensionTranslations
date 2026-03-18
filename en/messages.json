@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Close skip profile menu"
+    },
+    "addChannelToOverride": {
+        "message": "Channel specific settings"
+    },
+    "editActiveOverride": {
+        "message": "Change active settings profile"
+    },
+    "closeOverrideMenu": {
+        "message": "Close menu"
     }
 }
