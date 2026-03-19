@@ -1999,10 +1999,10 @@
         "message": "Fermer le menu Profil de saut"
     },
     "addChannelToOverride": {
-        "message": "Paramètres spécifiques au canal"
+        "message": "Paramètres par chaîne"
     },
     "editActiveOverride": {
-        "message": "Changer le profil de paramètres actif"
+        "message": "Modifier le profil de paramètres actif"
     },
     "closeOverrideMenu": {
         "message": "Fermer le menu"
