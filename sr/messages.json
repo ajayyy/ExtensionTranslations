@@ -1993,5 +1993,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Затвори мени профила прескакања"
+    },
+    "addChannelToOverride": {
+        "message": "Подешавања специфична за канал"
+    },
+    "editActiveOverride": {
+        "message": "Промени активни профил подешавања"
+    },
+    "closeOverrideMenu": {
+        "message": "Затвори мени"
     }
 }
