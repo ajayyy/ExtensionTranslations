@@ -1998,6 +1998,9 @@
     "closeSkipProfileMenu": {
         "message": "Menü für Überspringen-Profile schließen"
     },
+    "addChannelToOverride": {
+        "message": "Kanalspezifische Einstellungen"
+    },
     "closeOverrideMenu": {
         "message": "Menü schließen"
     }
