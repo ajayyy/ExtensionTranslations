@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "건너뛰기 프로필 메뉴 닫기"
+    },
+    "addChannelToOverride": {
+        "message": "채널별 설정"
+    },
+    "editActiveOverride": {
+        "message": "활성화한 설정 프로필 변경"
+    },
+    "closeOverrideMenu": {
+        "message": "메뉴 닫기"
     }
 }
