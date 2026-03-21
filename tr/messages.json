@@ -11,7 +11,7 @@
         "message": "Sunucu isteğin geçersiz olduğunu iletti."
     },
     "409": {
-        "message": "Bu daha önce zaten gönderilmiş."
+        "message": "Bu daha önceden gönderilmiş."
     },
     "Segment": {
         "message": "kısım"
@@ -133,7 +133,7 @@
         "message": "Kapat Simgesi"
     },
     "OpenSubmissionMenu": {
-        "message": "Gönderiler Menüsünü Aç"
+        "message": "Gönderi Menüsünü Aç"
     },
     "OpenCasualVoteMenu": {
         "message": "Sıradan mod menüsünü aç"
@@ -339,7 +339,7 @@
         "description": "Keybind label"
     },
     "enableDeArrowKey": {
-        "message": "DeArrow'u aktif et",
+        "message": "DeArrow'u aç-kapa",
         "description": "Keybind label in DeArrow"
     },
     "openDeArrowMenu": {
@@ -366,7 +366,7 @@
         "message": "Sunucuya aşırı yüklenilmiş gibi gözüküyor. Birazdan tekrar deneyin."
     },
     "errorCode": {
-        "message": "Sunucu {code} hata kodu ile döndü.",
+        "message": "Sunucu {code} durum kodu dönütünü verdi.",
         "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
@@ -566,7 +566,7 @@
         "message": "Bütün Ayarlarını İçe/Dışa Aktar"
     },
     "exportOtherData": {
-        "message": "Diğer tüm veriyi al/ver"
+        "message": "Diğer tüm veriyi içe/dışa aktar"
     },
     "exportOptionsCopy": {
         "message": "Düzenle/kopyala"
@@ -578,7 +578,7 @@
         "message": "Dosyadan yükle"
     },
     "whatExportOptions": {
-        "message": "Bu, JSON'daki tüm yapılandırmanızdır. Buna Özel Kullanıcı Kimliğiniz de dahildir, bu yüzden bunu paylaşırken dikkatli olun."
+        "message": "Bu, JSON'daki tüm yapılandırmanızdır; buna Özel Kullanıcı Kimliğiniz de dahildir. Bu yüzden bunu paylaşırken dikkatli olun."
     },
     "setOptions": {
         "message": "Seçenekleri Ayarla"
@@ -640,10 +640,10 @@
         "description": "Used after something has been copied to the clipboard. Example: 'Copied!'"
     },
     "generic_guideline1": {
-        "message": "Segue geçişlerini dahil et"
+        "message": "Geçiş yolundaki ara cümleleri de dahil edin"
     },
     "generic_guideline2": {
-        "message": "Hiçbir şey atlanmamış gibi oynuyor"
+        "message": "Hiçbir şey atlanmamış gibi devam eder"
     },
     "category_sponsor": {
         "message": "Sponsor"
@@ -667,10 +667,10 @@
         "message": "Bağışlar, üyelikler ve özel ürünler"
     },
     "category_selfpromo_guideline2": {
-        "message": "Videoya eklenmeyen ücretsiz konuşmalar"
+        "message": "Videoya hiçbir katkı sağlamayan ücretsiz tanıtım/promosyon mesajları"
     },
     "category_selfpromo_guideline3": {
-        "message": "Kurumsal tasarım ürünleri ve malları için değil"
+        "message": "Kurumsal tasarım ürünleri ve malları dahil değildir"
     },
     "category_exclusive_access": {
         "message": "Özel Erişim"
@@ -679,11 +679,11 @@
         "message": "Yalnızca bütün videoyu etiketlemek için kullanın. Video; ücretli veya ücretsiz elde edilen bir ürünün, hizmetin veya bir yerin reklamını yapıyorsa kullanılır."
     },
     "category_exclusive_access_pill": {
-        "message": "Bu video; yayıncıya özel ücretle veya ücretsiz sunulan bir ürünün, hizmetin veya bir yerin reklamını yapıyor",
+        "message": "Bu video; yayıncıya indirimli fiyatla veya ücretsiz sunulan bir ürünün, hizmetin veya bir yerin reklamını yapıyor",
         "description": "Short description for this category"
     },
     "category_exclusive_access_guideline1": {
-        "message": "Tüm video, ücretsiz veya sübvansiyonlu erişime sahip bir şeyi sergiliyor"
+        "message": "Tüm video, ücretsiz veya indirimli erişime sahip bir şeyi içeriyor"
     },
     "category_interaction": {
         "message": "Etkileşim Hatırlatıcısı (Abonelik)"
@@ -695,7 +695,7 @@
         "message": "Beğenmek, abone olmak veya takip etmek için kısa hatırlatıcılar"
     },
     "category_interaction_guideline2": {
-        "message": "Yorum yapmak için dolaylı hatırlatıcılar içerir"
+        "message": "Dolaylı yoldan yorum yapılması için hatırlatıcılar içerir"
     },
     "category_interaction_guideline3": {
         "message": "Genel tanıtım için değil, yalnızca harekete geçirici mesajlar"
@@ -731,10 +731,10 @@
         "message": "Ön İzleme/Özet"
     },
     "category_preview_description": {
-        "message": "Bu videoda veya diğer videolarda neler olduğunu gösteren, videonun ilerleyen zamanında tüm bilgilerin tekrarlandığı bir dizi klip koleksiyonudur."
+        "message": "Bu videoda ne olduğunu veya diğer videolarda neler olacağını gösteren veya videonun ilerleyen zamanında tüm bilgilerin tekrarlandığı bir dizi kliplerdir."
     },
     "category_preview_guideline1": {
-        "message": "Daha sonra veya gelecekteki bir videoda görünen klipler"
+        "message": "Videonun devamında veya gelecekteki bir videoda görünecek klipler"
     },
     "category_preview_guideline2": {
         "message": "Bir önceki videonun özeti"
@@ -743,7 +743,7 @@
         "message": "Ek içerik ekleyen bölümler için değil"
     },
     "category_hook": {
-        "message": "İma/Selamlama",
+        "message": "Açılış/Selamlama",
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
@@ -771,7 +771,7 @@
         "message": "Geyik muhabbeti veya şakalar"
     },
     "category_filler_guideline2": {
-        "message": "Dikkat dağıtıcı şeyler, hatalar, tekrarlar"
+        "message": "Dikkat dağıtıcı şeyler, gaflar, tekrarlar"
     },
     "category_filler_guideline3": {
         "message": "Konuyu anlamak için gerekli sahneler için değil"
@@ -786,7 +786,7 @@
         "message": "Müzik Olmayan Bölüm"
     },
     "category_music_offtopic_guideline1": {
-        "message": "Resmi sürümlerde olmayan bölümler"
+        "message": "Resmi yayınlarda olmayan bölümler"
     },
     "category_music_offtopic_guideline2": {
         "message": "Canlı performansta müzik dışı"
@@ -868,7 +868,7 @@
         "message": "Atlamak yerine sesi kapatan bölümlere izin ver"
     },
     "fullVideoSegments": {
-        "message": "Video bütünüyle bir reklamsa simge göster",
+        "message": "Video bütünüyle bir reklamsa bir simge göster",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
@@ -890,7 +890,7 @@
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "openAdvancedSkipOptions": {
-        "message": "Gelişmiş atlama ayarlarını aç"
+        "message": "Gelişmiş atlama seçeneklerini aç"
     },
     "advancedSkipNotSaved": {
         "message": "Söz dizimi hatası: Seçenekleriniz kaydedilmedi"
@@ -928,7 +928,7 @@
         "message": "Göndereceğin tüm kısımlar için bir kategori seçmelisin!"
     },
     "bracketStart": {
-        "message": "(Baş)"
+        "message": "(Başlangıç)"
     },
     "bracketEnd": {
         "message": "(Son)"
@@ -1017,7 +1017,7 @@
         "message": "Bu videonun bütünü bu şekilde sınıflandırılmış ve kısımları birbirinden ayrılamayacak kadar sıkı bütünleştirilmiş"
     },
     "chapterNameTooltipWarning": {
-        "message": "Bölüm adlarınızdan biri bir kategoriye benziyor. Bunun yerine mümkün olduğunda kategorileri kullanmalısınız."
+        "message": "Adlandırdığınız bölümlerden biri bir kategoriye benziyor. Bunun yerine mümkün olduğunda kategorileri kullanmalısınız."
     },
     "experiementOptOut": {
         "message": "Gelecekteki deneylerin hiçbirine katılma",
@@ -1027,7 +1027,7 @@
         "message": "Asla gösterme"
     },
     "warningChatInfo": {
-        "message": "Yaygın hataları sıkça yaptığınız anlaşılıyor. Çabalarınız için sağolun fakat burada mükemmel bir sonuç istiyoruz, küçük hatalar bile fark ediyor :)"
+        "message": "Yaygın hataları sıkça yaptığınızı fark ettik. Çabalarınız için çok teşekkürler fakat burada mükemmel bir sonuç istiyoruz, bu yüzden küçücük hatalar bile fark ediyor :)"
     },
     "questionButton": {
         "message": "Bir sorum var"
@@ -1060,7 +1060,7 @@
         "message": "Ayarlar Sayfasında Karanlık Modu"
     },
     "prideTheme": {
-        "message": "Gökkuşağı teması"
+        "message": "Onur teması"
     },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlock'u yüklediğiniz için teşekkürler."
@@ -1078,19 +1078,19 @@
         "message": "Tüm sponsor bildirimleri sizin gibi kullanıcılar tarafından sağlanır. Veri tabanına gönderilmiş sponsor bildirimlerini görmek için tarayıcınızın sağ üstündeki açılır pencereyi kullanabilirsiniz."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Når du springer et segment over, får du besked, når du springer et segment over. Hvis timingen virker forkert, kan du stemme ned ved at klikke på downvote! Du kan også stemme i popup-vinduet."
+        "message": "Bir kısmı atladığınızda size bildirim gönderilir. Eğer kısım hatalıysa bunu eksi oylayınız. Eklentinin penceresinde de oy verebilirsiniz."
     },
     "Submitting": {
-        "message": "Gönderiliyor"
+        "message": "Gönderme"
     },
     "helpPageSubmitting1": {
-        "message": "Bildirmek için video oynatıcıdaki SponsorBlock düğmesini kullanabilirsiniz."
+        "message": "Göndermek için video oynatıcıdaki SponsorBlock düğmesini kullanabilirsiniz."
     },
     "helpPageSubmitting2": {
-        "message": "Oynatma simgesi bir kısmın başladığını ve durdurma simgesi kısmın bittiğini belirtir. Yukarı yönlü oka tıklamak, kısımları göndermeden önce düzenleyip görebileceğiniz ve uygun olduğunu düşündüğünüz kısımları göndermenizi sağlayan bir menüye yönlendirir. Hassas ve doğru olması önemlidir, katkıda bulunmadan önce yönergeleri okuduğunuza emin olunuz."
+        "message": "Oynatma simgesi bir kısmın başladığını ve durdurma simgesi kısmın bittiğini belirtir. Yukarı yönlü oka tıklamak, kısımları göndermeden önce düzenleyip görebileceğiniz ve uygun olduğunu düşündüğünüz kısımları göndermenizi sağlayan bir menüye yönlendirir. Hassas ve doğru olması önemlidir, katkıda bulunmadan önce kılavuzları okuduğunuza emin olunuz."
     },
     "helpPageCopyOfDatabase": {
-        "message": "Gönderimler nereye yapılır?"
+        "message": "Gönderdiklerim nereye gidiyor?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "Tüm gönderimler herkesin kullanabileceği SponsorBlock veri tabanına aktarılır"
@@ -1114,10 +1114,10 @@
         "message": "Olumsuz oy verir ve yeni bir kısım seçmeniz için bir kopya oluşturur"
     },
     "OpenCategoryWikiPage": {
-        "message": "Bu kategorinin wiki sayfasını açın."
+        "message": "Bu kategorinin viki sayfasını açın."
     },
     "CopyAndDownvote": {
-        "message": "Kopyala ve olumsuz"
+        "message": "Kopyala ve eksi oy ver"
     },
     "ContinueVoting": {
         "message": "Oylamaya devam et"
@@ -1129,7 +1129,7 @@
         "message": "Eksi oy"
     },
     "upvote": {
-        "message": "Olumlu oy"
+        "message": "Artı oy"
     },
     "hideSegment": {
         "message": "Kısmı gizleyin"
