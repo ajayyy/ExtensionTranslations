@@ -365,6 +365,10 @@
     "502": {
         "message": "El servidor parece estar sobrecargado. Inténtalo de nuevo en unos segundos."
     },
+    "errorCode": {
+        "message": "El servidor devolvió el código de estado {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
+    },
     "skip": {
         "message": "Omitir"
     },
@@ -764,13 +768,13 @@
         "message": "Tangentes"
     },
     "category_filler_guideline1": {
-        "message": "Escenas o chistes tangenciales"
+        "message": "Escenas tangenciales o chistes"
     },
     "category_filler_guideline2": {
         "message": "Distracciones, bloopers, repeticiones"
     },
     "category_filler_guideline3": {
-        "message": "No para escenas requeridas para entender el tema"
+        "message": "No para escenas necesarias para entender el tema"
     },
     "category_music_offtopic": {
         "message": "Música: Sección sin musica"
@@ -822,6 +826,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Lectura del mensaje"
+    },
+    "fallbackToDefault": {
+        "message": "Volver al valor por defecto",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Omitir automáticamente"
@@ -1051,6 +1059,9 @@
     "darkModeOptionsPage": {
         "message": "Modo Oscuro en la página de Opciones"
     },
+    "prideTheme": {
+        "message": "Tema Pride"
+    },
     "helpPageThanksForInstalling": {
         "message": "Gracias por instalar SponsorBlock."
     },
@@ -1080,6 +1091,9 @@
     },
     "helpPageCopyOfDatabase": {
         "message": "¿Dónde van las presentaciones?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Todas las contribuciones se integran en la base de datos de SponsorBlock, la cual es pública para cualquier usuario y está disponible en"
     },
     "helpPageCopyOfDatabase2": {
         "message": "El código fuente está disponible libremente. Así que, aun si algo me sucede, sus envíos no se perderán."
@@ -1361,6 +1375,9 @@
     "formatCustomTitles": {
         "message": "Formatear títulos enviados por el usuario"
     },
+    "formatOriginalTitles": {
+        "message": "Formatear títulos originales"
+    },
     "onlyTitleCaseInEnglish": {
         "message": "Poner en mayúsculas los títulos que no están en inglés"
     },
@@ -1436,6 +1453,13 @@
     "hideDetailsWhileFetchingDescription": {
         "message": "Ocultar títulos y miniaturas al obtener datos desde el servidor. Si está deshabilitado, experimentará parpadeos al cambiar los títulos y miniaturas."
     },
+    "ignoreTranslatedTitles": {
+        "message": "No mostrar los títulos traducidos de Youtube",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube a veces traduce automáticamente los títulos a tu idioma nativo. Esta opción solo se aplica cuando no hay un título colaborativo disponible."
+    },
     "onAllPages": {
         "message": "En todas las páginas",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1470,6 +1494,15 @@
     "whatAlwaysShowShowOriginalButton": {
         "message": "Si desea saber siempre si un título/imagen ha cambiado, active esto."
     },
+    "showOriginalOnHover": {
+        "message": "Alternar entre los detalles personalizados y los originales al pasar el ratón"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Alternar entre detalles personalizados y originales al pasar el ratón por cualquier parte de la tarjeta del vídeo"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "Esto desactivará la autoreproducción al pasar el cursor"
+    },
     "showCustomOnHoverIfCasual": {
         "message": "Mostrar título personalizado al pasar el cursor si se muestra un título de modo ocasional"
     },
@@ -1499,6 +1532,9 @@
     },
     "ShowModified": {
         "message": "Mostrar Detalles Modificados"
+    },
+    "ShowFormatted": {
+        "message": "Mostrar detalles con formato"
     },
     "FillerWarning": {
         "message": "Advertencia: Esta es una categoría increíblemente agresiva. Lo más probable es que tenga que deshacer cosas, o desactivarla a veces. ¡Tenga en cuenta que muchos vídeos tienen más del 50% o más del vídeo omitido! Sin embargo, recuerde que aún hay guías específicas a seguir al enviar.",
@@ -1530,6 +1566,38 @@
     "tip5": {
         "message": "Pon la primera letra en mayúscula",
         "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Marca todas las pautas para enviar",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "Mi título usa mayúsculas tipo oración",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "Mi título no se limita a responder una pregunta planteada en el título",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Los títulos deben describir el vídeo o la historia en general. Asegúrate de ver el vídeo completo para saber de qué trata realmente, en lugar de confiar en un título original intrigante.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "Mi título no resume una conclusión ni hace spoilers innecesarios",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Los títulos no deben sustituir el visionado completo del vídeo, sino servir para que sepas si debes hacer clic o no.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "Mi título no verifica datos, no se burla ni critica al vídeo o al creador",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Los títulos deben reflejar la perspectiva del creador y del vídeo. Calificar o verificar los datos del vídeo está fuera del alcance de DeArrow. Los títulos no deben utilizarse como sección de comentarios.",
+        "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
         "message": "Palabra detectada: ",
@@ -1613,8 +1681,31 @@
         "message": "¿Estás seguro/a de que quieres eliminar esta configuración?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Nueva configuración"
+    },
+    "CreateNewConfiguration": {
+        "message": "Crear nueva configuración"
+    },
+    "DeleteConfiguration": {
+        "message": "Eliminar configuración"
+    },
+    "ChannelAllowlist": {
+        "message": "Configuración específica del canal"
+    },
     "ConfigurationName": {
         "message": "Nombre de configuración"
+    },
+    "DefaultConfiguration": {
+        "message": "Configuración por defecto"
+    },
+    "ChannelListInstructions": {
+        "message": "Introduce en el cuadro de abajo los canales a los que quieras aplicar esta configuración, separados por saltos de línea. Se admiten @handles, UCIDs y nombres visibles de canales. Se recomienda el uso de @handles y se desaconseja el de nombres visibles (usar nombres visibles en cualquier configuración generará peticiones de red adicionales por vídeo). Puedes obtener los ID de canal haciendo clic en el botón de compartir de la página de información del canal. Para llegar a dicha página, haz clic en la descripción del canal que aparece debajo de su nombre en su página principal.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Añade canales que deban usar este perfil de omisión alternativo haciendo clic en el botón del menú desplegable en un vídeo de ese canal. La lista de canales aparecerá a continuación.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
         "message": "Aún no hay configuraciones establecidas. Haga clic en el botón en la parte superior para añadir una nueva configuración.",
@@ -1731,11 +1822,17 @@
     "cleanPopup": {
         "message": "Ocultar interferencias en la ventana emergente de la lista de segmentos"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Ocultar los botones de creación de segmentos en el menú desplegable"
+    },
     "syncDisabledWarning": {
         "message": "Advertencia: El almacenamiento de extensiones ha sido desactivado en su navegador. Los ajustes no se guardarán si lo intenta."
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow no funcionará sin almacenamiento."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Puedes activarlo en about:config estableciendo el valor de «webextensions.storage.sync.enabled» y «webextensions.storage.sync.kinto» en true."
     },
     "storageFull": {
         "message": "El almacenamiento de la extensión está lleno. Por favor, elimine algunos segmentos no enviados en las opciones."
@@ -1751,9 +1848,25 @@
     "submissionFailedServerSideAds": {
         "message": "Los envíos no pueden ser aceptados desde su navegador en este momento porque YouTube parece haber inyectado algunos anuncios en el lado del servidor que la extensión no es capaz de eliminar. Por favor, contáctenos si está recibiendo este error."
     },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow está desactivado - haz clic para activar",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "¿Seguro que esta miniatura original cumple con las pautas de DeArrow? Si simplemente prefieres ver las miniaturas originales en general, considera cambiar la opción «Cuando no exista una miniatura enviada» en los ajustes de DeArrow.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
     "yttvLiveContentWarning": {
         "message": "En YouTube TV, SponsorBlock no es compatible con contenido en vivo y grabado recientemente. Si esta es una grabación reciente, por favor espere unas horas para que la versión procesada de la grabación esté disponible.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "La lista blanca de canales no es compatible con tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "¿Te gusta el título original?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
     },
     "Yes": {
         "message": "Si"
@@ -1793,6 +1906,9 @@
         "message": "Modo clásico",
         "description": "Classic mode is a mode in DeArrow"
     },
+    "ClassicModeDescription": {
+        "message": "Los títulos se sustituyen por formatos estandarizados basados en las pautas en todos los vídeos donde exista un título colaborativo."
+    },
     "CasualMode": {
         "message": "Modo Casual",
         "description": "Casual mode is a mode in DeArrow"
@@ -1812,6 +1928,9 @@
         "message": "Nueva característica: Modo casual",
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
+    "onlyShowCasualIconForCustom": {
+        "message": "Mostrar el icono de modo casual solo cuando haya un título personalizado disponible"
+    },
     "dontFormatCasualTitles": {
         "message": "No formatear títulos en modo casual",
         "description": "Option for casual mode in DeArrow"
@@ -1822,5 +1941,55 @@
     "hookNewFeature": {
         "message": "Aviso: El gancho se ha movido de la categoría Previsualizar/Recaptar a la nueva categoría de Hook/Saludos",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Error al ocultar o mostrar permanentemente el segmento solicitado, ya que no se pudo resolver su UUID:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Durante una hora",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Para esta pestaña",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Solo para este vídeo",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Para este canal",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Haz clic para no aplicar este perfil de omisión"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Esta opción está siendo invalidada por otra de mayor prioridad",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Haz clic para aplicar este perfil de omisión"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Selecciona primero un perfil de omisión",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Selecciona un perfil de omisión"
+    },
+    "SkipProfileMenu": {
+        "message": "Saltar menú de perfil"
+    },
+    "WhitelistedChannels": {
+        "message": "Canales permitidos",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Añadir canal para saltar perfil"
+    },
+    "closeOverrideMenu": {
+        "message": "Cerrar menú"
     }
 }
