@@ -7,6 +7,12 @@
         "message": "Salte todos los sponsors, súplicas de suscripción y más en vídeos de YouTube. Reporta sponsors en los vídeos que veas para ahorrarle tiempo a los demás.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "El servidor indicó que esta solicitud no era válida."
+    },
+    "409": {
+        "message": "Esto ya ha sido enviado antes."
+    },
     "Segment": {
         "message": "segmento"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Procesar segmentos como capítulos",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Pestaña predeterminada en la ventana emergente de la lista de segmentos"
     },
     "showSegmentNameInChapterBar": {
         "message": "Mostrar segmento actual al lado del tiempo del video"
@@ -104,6 +113,10 @@
     "serverDown": {
         "message": "Parece que el servidor está desconectado. Póngase en contacto con el desarrollador inmediatamente."
     },
+    "connectionError": {
+        "message": "Ha ocurrido un error de conexión.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "Los segmentos aún se están cargando..."
     },
@@ -176,6 +189,13 @@
     },
     "hideThis": {
         "message": "No mostrar esto"
+    },
+    "collapseChapters": {
+        "message": "Colapsar capítulos internos"
+    },
+    "expandChapters": {
+        "message": "Mostrar {0} capítulos internos",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opciones"
