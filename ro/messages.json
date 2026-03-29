@@ -245,10 +245,10 @@
         "message": "Unele categorii necesită permisiunea de a depune din cauza cerințelor minime de reputație"
     },
     "showNotice": {
-        "message": "Arată Notificarea Din Nou"
+        "message": "Afișați notificarea din nou"
     },
     "showSkipNotice": {
-        "message": "Arată o notificare după ce un segment este sărit"
+        "message": "Afișați o notificare după omiterea unui segment"
     },
     "showUpcomingNotice": {
         "message": "Afișați o notificare înainte de începerea unui segment"
@@ -352,7 +352,7 @@
         "message": "Omiterea este dezactivată"
     },
     "yourWork": {
-        "message": "Munca Ta",
+        "message": "Rezultatele dv",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -409,7 +409,7 @@
         "message": "Activare omitere automată"
     },
     "audioNotification": {
-        "message": "Notificare Audio Când Sari"
+        "message": "Semnal sonor la omitere"
     },
     "audioNotificationDescription": {
         "message": "Semnalul sonor se va reda atunci când omiteți un segment. Dacă dezactivați această setare sau omiterea automată, nu se va reda niciun sunet."
@@ -418,10 +418,10 @@
         "message": "Afișare durată totală după omiterea segmentelor"
     },
     "showTimeWithSkipsDescription": {
-        "message": "Acest timp apare în paranteze lângă ora curentă sub bara de progres. Aceasta arată durata totală a videoclipului minus orice segment. Aceasta include segmente marcate doar ca \"Afișare în Seekbar\"."
+        "message": "Durata va apărea în paranteze lângă indicatorul pentru timpul scurs de la începutul clipului (sub bara de derulare). Aceasta reprezintă durata videoclipului din care se elimină durata segmentelor de omis, include segmente marcate ca „Afișați în bara de derulare“."
     },
     "youHaveSkipped": {
-        "message": "Ai omis "
+        "message": "Ați omis "
     },
     "minLower": {
         "message": "minut"
@@ -459,7 +459,7 @@
         "message": "Avertisment: Modificarea Id-ului de utilizator privat este permanentă. Sunteți sigur că doriți să faceți acest lucru? Asigurați-vă că ați făcut o copie de rezervă pe cea veche, pentru orice eventualitate."
     },
     "createdBy": {
-        "message": "Creat De"
+        "message": "Creat de"
     },
     "supportOtherSites": {
         "message": "Sprijină Site-uri YouTube 3rd Party"
@@ -523,13 +523,13 @@
         "message": "Nu este permisă adăugarea pe un live stream sau pe o primă. Vă rugăm să așteptați până se termină, apoi reîmprospătați pagina și verificați dacă segmentele sunt încă valide."
     },
     "showUploadButton": {
-        "message": "Arată Butonul De Încărcare"
+        "message": "Afișați butonul pentru trimitere"
     },
     "customServerAddress": {
-        "message": "Adresa Serverului SponsorBlock"
+        "message": "Adresa serverului SponsorBlock"
     },
     "customServerAddressDescription": {
-        "message": "Adresa SponsorBlock este folosită pentru a se efectua apeluri către server.\nDacă nu ai propriul tău server, acesta nu ar trebui modificat."
+        "message": "Adresa serverului pe care SponsorBlock o folosește pentru comunicare.\nNu modificați, decât dacă aveți un server de test."
     },
     "dataFetchingServerAddress": {
         "message": "Adresa serverului pentru preluarea datelor"
@@ -541,10 +541,10 @@
         "message": "Adresa serverului cache miniaturi"
     },
     "save": {
-        "message": "Salvează"
+        "message": "Salvare"
     },
     "reset": {
-        "message": "Resetează"
+        "message": "Resetare"
     },
     "customAddressError": {
         "message": "Adresa nu este în forma corectă. Asigurați-vă că http:// sau https:// se află la început."
@@ -556,7 +556,7 @@
         "message": "m.youtube.com este acum suportat"
     },
     "exportOptions": {
-        "message": "Importă/Exportă Toate Opțiunile"
+        "message": "Gestionați opțiunile dv."
     },
     "exportOtherData": {
         "message": "Gestionați statisticile dv."
@@ -574,7 +574,7 @@
         "message": "Aici este întreaga configurație a extensiei, în format JSON, inclusiv ID-ul dv. privat. Partajați cu grijă!"
     },
     "setOptions": {
-        "message": "Setează Opțiuni"
+        "message": "Stabiliți opțiunile"
     },
     "exportOptionsWarning": {
         "message": "Atenție: Schimbarea acestei opțiuni este permanentă și poate strica instalarea. Sunteți sigur că doriți să faceți asta? Asigurati-vă că ați făcut o copie de rezervă."
@@ -589,7 +589,7 @@
         "message": "Trimite"
     },
     "cancel": {
-        "message": "Anulează"
+        "message": "Revocare"
     },
     "delete": {
         "message": "Șterge"

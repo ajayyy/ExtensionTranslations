@@ -157,7 +157,7 @@
         "message": "Topplista"
     },
     "recordTimesDescription": {
-        "message": "Skicka"
+        "message": "Skicka in"
     },
     "submissionEditHint": {
         "message": "Sektionsredigering kommer att visas efter du har klickat på skicka",
@@ -658,7 +658,7 @@
         "message": "Inte för donationer eller anpassade varor"
     },
     "category_selfpromo": {
-        "message": "Obetald reklam/egenreklam"
+        "message": "Obetald reklam​/egenreklam"
     },
     "category_selfpromo_description": {
         "message": "Som \"sponsor\" men för obetald reklam eller egenreklam. Detta inkluderar avsnitt om varor, donationer eller information om vem de samarbetade med."
@@ -701,7 +701,7 @@
         "message": "Inte för allmän marknadsföring, endast för uppmaningar"
     },
     "category_interaction_short": {
-        "message": "Interaktionspåminnelse"
+        "message": "Interaktions­påminnelse"
     },
     "category_intro": {
         "message": "Uppehåll/introduktion"
@@ -1704,7 +1704,7 @@
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
-        "message": "Lägg till kanaler som ska använda den här alternativa hoppa över-profilen genom att klicka på knappen i popup-fönstret på en video som skapats av den kanalen. Listan över kanaler visas nedan.",
+        "message": "Lägg till kanaler som ska använda den här alternativa konfigurationen genom att klicka på knappen i popup-fönstret på en video som skapats av den kanalen. Listan över kanaler visas nedan.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1963,39 +1963,39 @@
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
     "clickToNotApplyThisProfile": {
-        "message": "Klicka för att inte verkställa denna hoppa över-profil"
+        "message": "Klicka för att inte verkställa denna konfiguration"
     },
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "Detta alternativ åsidosätts av ett högre prioriterat alternativ",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
-        "message": "Klicka för att verkställa denna hoppa över-profil"
+        "message": "Klicka för att verkställa denna konfiguration"
     },
     "selectASkipProfileFirst": {
-        "message": "Välj en hoppa över-profil först",
+        "message": "Välj en konfiguration först",
         "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
     },
     "SelectASkipProfile": {
-        "message": "Välj en hoppa över-profil"
+        "message": "Välj en konfiguration"
     },
     "SkipProfileMenu": {
-        "message": "Meny för hoppa över-profil"
+        "message": "Meny för konfiguration"
     },
     "WhitelistedChannels": {
         "message": "Vitlistade kanaler",
         "description": "Name used when converting old whitelisted channels to skip profiles"
     },
     "addChannelToSkipProfile": {
-        "message": "Lägg till kanal till hoppa över-profil"
+        "message": "Lägg till kanal till konfiguration"
     },
     "editChannelsSkipProfile": {
-        "message": "Redigera denna kanals hoppa över-profil"
+        "message": "Redigera denna kanals konfiguration"
     },
     "editActiveSkipProfile": {
-        "message": "Ändra aktiv hoppa över-profil"
+        "message": "Ändra aktiv konfiguration"
     },
     "closeSkipProfileMenu": {
-        "message": "Stäng menyn hoppa över-profil"
+        "message": "Stäng menyn"
     }
 }

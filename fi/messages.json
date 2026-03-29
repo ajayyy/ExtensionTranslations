@@ -1993,5 +1993,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Sulje ohitusprofiilivalikko"
+    },
+    "addChannelToOverride": {
+        "message": "Kanavakohtaiset asetukset"
+    },
+    "editActiveOverride": {
+        "message": "Vaihda aktiivista asetusprofiilia"
+    },
+    "closeOverrideMenu": {
+        "message": "Sulje valikko"
     }
 }

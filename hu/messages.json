@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Átugrási profil menü bezárása"
+    },
+    "addChannelToOverride": {
+        "message": "Csatornára vonatkozó beállítások"
+    },
+    "editActiveOverride": {
+        "message": "Aktív beállítási profil megváltoztatása"
+    },
+    "closeOverrideMenu": {
+        "message": "Menü bezárása"
     }
 }

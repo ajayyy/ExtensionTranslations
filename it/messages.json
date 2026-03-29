@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Chiudi il menu' del profilo di salto"
+    },
+    "addChannelToOverride": {
+        "message": "Impostazioni specifiche del canale"
+    },
+    "editActiveOverride": {
+        "message": "Cambia il profilo delle impostazioni attive"
+    },
+    "closeOverrideMenu": {
+        "message": "Chiudi menu'"
     }
 }
