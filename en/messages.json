@@ -1670,6 +1670,12 @@
     "replaceThumbnails": {
         "message": "Replace Thumbnails"
     },
+    "replaceThumbnailsYouTubeOnly": {
+        "message": "On other platforms (e.g. Nebula), thumbnail replacement is not possible due to not having video stream access."
+    },
+    "nebulaThumbnailLocalOnly": {
+        "message": "Thumbnail selections on Nebula are local only - they are not shared with other users."
+    },
     "useCrowdsourcedTitles": {
         "message": "Use Crowdsourced Titles"
     },
