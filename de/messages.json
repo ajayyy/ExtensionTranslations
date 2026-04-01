@@ -1504,7 +1504,7 @@
         "message": "Deaktiviert die automatische Wiedergabe beim Hovern"
     },
     "showCustomOnHoverIfCasual": {
-        "message": "Eingereichten Titel beim Daraufzeigen anzeigen, wenn ein Titel des Gelegenheitsmodus verwendet wird"
+        "message": "Eingereichten Titel beim Hovern anzeigen, wenn ein Titel des Gelegenheitsmodus verwendet wird"
     },
     "showIconForFormattedTitles": {
         "message": "\"Original anzeigen\"-Schaltfläche für automatisch formatierte Titel anzeigen"
@@ -1700,7 +1700,7 @@
         "message": "Standardkonfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Gib die Kanäle, auf die du diese Konfiguration anwenden willst, in das Feld unten ein, getrennt durch Zeilenumbrüche. Kanal-@-Handles, UCIDs und Anzeigenamen werden unterstützt. @-Handles sind bevorzugt; Anzeigenamen werden nicht empfohlen, da sie zusätzliche Netzwerkanfragen pro Video verursachen. Die Kanal-ID findest du über den Teilen-Knopf auf der Info-Seite des Kanals. Zur Info-Seite gelangst du über die Kanalbeschreibung unter dem Kanalnamen auf der Kanalseite.",
+        "message": "Gib die Kanäle, auf die du diese Konfiguration anwenden willst, in das Feld unten ein, getrennt durch Zeilenumbrüche. Kanal-@-Handles, UCIDs und Anzeigenamen werden unterstützt. @-Handles sind bevorzugt; Anzeigenamen werden nicht empfohlen, da sie zusätzliche Netzwerkanfragen pro Video verursachen. Die Kanal-ID findest du über den Teilen-Schaltfläche auf der Info-Seite des Kanals. Zur Info-Seite gelangst du über die Kanalbeschreibung unter dem Kanalnamen auf der Kanalseite.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
