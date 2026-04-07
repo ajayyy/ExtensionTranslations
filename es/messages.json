@@ -182,7 +182,7 @@
         "message": "Copiar ID de Segmento"
     },
     "loopChapter": {
-        "message": "Acoplar cspítulo"
+        "message": "Acoplar capítulo"
     },
     "unloopChapter": {
         "message": "Desacoplar capítulo"
@@ -323,11 +323,11 @@
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
-        "message": "Segmento de voto positivo",
+        "message": "Segmento de voto negativo",
         "description": "Keybind label"
     },
     "setUpvoteKeybind": {
-        "message": "Segmento de voto negativo",
+        "message": "Segmento de voto positivo",
         "description": "Keybind label"
     },
     "nextChapterKeybind": {

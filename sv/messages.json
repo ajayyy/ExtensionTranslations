@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Stäng menyn"
+    },
+    "addChannelToOverride": {
+        "message": "Kanalspecifikainställningar"
+    },
+    "editActiveOverride": {
+        "message": "Ändra aktiv inställningsprofil"
+    },
+    "closeOverrideMenu": {
+        "message": "Stäng meny"
     }
 }

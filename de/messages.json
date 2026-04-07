@@ -194,7 +194,7 @@
         "message": "Innere Kapitel einklappen"
     },
     "expandChapters": {
-        "message": "Zeige {0} innere Kapitel",
+        "message": "{0} innere Kapitel anzeigen",
         "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
@@ -207,16 +207,16 @@
         "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
     },
     "showSkipButton": {
-        "message": "„Zum Highlight springen“-Knopf im Wiedergabefenster behalten"
+        "message": "\"Zum Highlight springen\"-Schaltfläche im Player behalten"
     },
     "showInfoButton": {
         "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
     },
     "autoHideInfoButton": {
-        "message": "Info-Knopf automatisch ausblenden"
+        "message": "Info-Schaltfläche automatisch ausblenden"
     },
     "showDeleteButton": {
-        "message": "Löschen-Knopf im YouTube-Wiedergabefenster anzeigen"
+        "message": "Löschen-Schaltfläche im YouTube-Player anzeigen"
     },
     "enableViewTracking": {
         "message": "Aktiviere das Zählen übersprungener Segmente"
@@ -237,7 +237,7 @@
         "message": "Warnung: Das Deaktivieren wird alle zuvor gespeicherten negativen Bewertungen löschen"
     },
     "enableTrackDownvotesInPrivate": {
-        "message": "Speichere negative Bewertungen von Segmenten in privaten/Inkognito-Tabs"
+        "message": "Negative Bewertungen von Segmenten in privaten/Inkognito-Tabs speichern"
     },
     "enableQueryByHashPrefix": {
         "message": "Abfrage nach Hash-Präfix"
@@ -246,7 +246,7 @@
         "message": "Anstatt Segmente mit der Video-ID vom Server anzufordern, werden die ersten 4 Zeichen des Hashs der Video-ID gesendet. Der Server sendet Daten für alle Videos mit ähnlichen Hashes zurück."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Zeige Kategorien im Einreichungsmenü auch ohne Einreichungsberechtigungen"
+        "message": "Kategorien im Einreichungsmenü auch ohne Einreichungsberechtigung anzeigen"
     },
     "whatShowCategoryWithoutPermission": {
         "message": "Einige Kategorien erfordern eine Freigabe zur Einreichung aufgrund von Mindestanforderungen an die Reputation"
@@ -255,10 +255,10 @@
         "message": "Hinweis erneut anzeigen"
     },
     "showSkipNotice": {
-        "message": "Zeige Hinweis nach dem Überspringen eines Segments"
+        "message": "Hinweis nach dem Überspringen eines Segments anzeigen"
     },
     "showUpcomingNotice": {
-        "message": "Zeige Hinweis, bevor ein Segment beginnt"
+        "message": "Hinweis vor Beginn eines Segments anzeigen"
     },
     "showCategoryGuidelines": {
         "message": "Kategorienhilfe anzeigen"
@@ -457,7 +457,7 @@
         "message": "Private Benutzer-ID importieren/exportieren"
     },
     "whatChangeUserID": {
-        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit für dich ausgeben. Wenn du nach deiner öffentlichen Benutzer-ID suchst, klicke auf das Kopieren-Symbol im Pop-up."
+        "message": "Dies sollte geheim gehalten werden. Es ist wie ein Passwort und sollte mit niemandem geteilt werden. Jemand kann sich damit für dich ausgeben. Wenn du nach deiner öffentlichen Benutzer-ID suchst, klicke auf das Kopieren-Symbol im Popup."
     },
     "setUserID": {
         "message": "Private Benutzer-ID festlegen"
@@ -762,7 +762,7 @@
         "message": "Nebensachen/Witze"
     },
     "category_filler_description": {
-        "message": "Nebensächliche Szenen, die nicht benötigt sind, um den Hauptinhalt des Videos zu verstehen oder als Witz dienen. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern. Dies ist eine sehr aggressive Kategorie, die dafür gedacht ist, wenn du nicht in der Stimmung für „Spaß“ bist."
+        "message": "Nebensächliche Szenen oder Witze, die zum Verständnis des Hauptinhalts nicht nötig sind. Dies bezieht sich nicht auf Segmente, die Kontext oder Hintergrunddetails liefern. Dies ist eine sehr aggressive Kategorie, gedacht für Momente, in denen du nicht in der Stimmung für \"Spaß\" bist."
     },
     "category_filler_short": {
         "message": "Nebensachen"
@@ -810,7 +810,7 @@
         "message": "Kapitel"
     },
     "category_chapter_description": {
-        "message": "Selbst benannte Kapitel, die große Abschnitte eines Videos beschreiben."
+        "message": "Benutzerdefinierte Kapitel, die wichtige Abschnitte eines Videos beschreiben."
     },
     "category_chapter_guideline1": {
         "message": "Sponsor-Markennamen nicht erwähnen"
@@ -853,7 +853,7 @@
         "message": "In der Video-Zeitleiste anzeigen"
     },
     "showOverlay_full": {
-        "message": "Label zeigen"
+        "message": "Label anzeigen"
     },
     "showOverlay_chapter": {
         "message": "Kapitel zeigen"
@@ -1075,19 +1075,19 @@
         "message": "Wie es funktioniert"
     },
     "helpPageHowSkippingWorks1": {
-        "message": "Alle Sponsoren wurden von Nutzern wie dir eingereicht. Du kannst die Liste der Sponsoren in der Datenbank sehen, indem du das Popup oben rechts in deinem Browser öffnest."
+        "message": "Alle Segmente werden von Nutzern wie dir eingereicht. Du kannst die Liste der eingereichten Segmente in der Datenbank sehen, indem du das Popup oben rechts in deinem Browser öffnest."
     },
     "helpPageHowSkippingWorks2": {
-        "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du das Segment abwerten! Du kannst auch im Popup abstimmen."
+        "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du negativ bewerten. Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
         "message": "Übermitteln"
     },
     "helpPageSubmitting1": {
-        "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Wiedergabefenster klickst."
+        "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Player klickst."
     },
     "helpPageSubmitting2": {
-        "message": "Ein Klick auf den Wiedergabeknopf zeigt den Beginn eines Segments an, ein Klick auf den Stoppknopf das Ende. Verwende den Knopf mit dem Pfeil nach oben, um das Einreichungsmenü zu öffnen, wo du deine Segmente durch die Vorschau prüfen und zur Perfektion bearbeiten kannst. Präzision ist wichtig, lies bitte die Richtlinien, bevor du Segmente einreichst."
+        "message": "Ein Klick auf die Wiedergabe-Schaltfläche markiert den Beginn eines Segments, ein Klick auf die Stopp-Schaltfläche das Ende. Verwende die Pfeil-nach-oben-Schaltfläche, um das Einreichungsmenü zu öffnen, wo du deine Segmente in der Vorschau prüfen und perfektionieren kannst. Präzision ist wichtig — lies bitte die Richtlinien, bevor du Segmente einreichst."
     },
     "helpPageCopyOfDatabase": {
         "message": "Wo gehen die Einreichungen hin?"
@@ -1111,7 +1111,7 @@
         "message": "Vollständige Details"
     },
     "CopyDownvoteButtonInfo": {
-        "message": "Dagegen stimmen und eine lokale Kopie zum erneuten Einreichen erstellen"
+        "message": "Negativ bewerten und eine lokale Kopie zum erneuten Einreichen erstellen"
     },
     "OpenCategoryWikiPage": {
         "message": "Öffne den Wiki-Artikel dieser Kategorie."
@@ -1126,7 +1126,7 @@
         "message": "Dies wirkt sich sofort auf eigene Segmente aus"
     },
     "downvote": {
-        "message": "Dagegen stimmen"
+        "message": "Negativ bewerten"
     },
     "upvote": {
         "message": "Positiv bewerten"
@@ -1144,7 +1144,7 @@
         "message": "Benutze das Mausrad, während der Mauszeiger über dem Eingabefeld schwebt, um die Zeit schnell anzupassen. Kombinationen mit der Strg- oder Shift-Taste können zur Feinabstimmung der Änderungen verwendet werden."
     },
     "categoryPillNewFeature": {
-        "message": "Neu! Sieh, wenn ein Video ausschließlich gesponsert oder Eigenwerbung ist"
+        "message": "Neu! Erkenne, wenn ein Video ausschließlich gesponsert oder Eigenwerbung ist"
     },
     "yearAbbreviation": {
         "message": "J.",
@@ -1414,7 +1414,7 @@
         "message": "Speichere eingereichte Abstimmungen"
     },
     "showLiveCover": {
-        "message": "Kanal-Avatar auf kommenden Videos anzeigen",
+        "message": "Kanal-Avatar bei kommenden Videos anzeigen",
         "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
     },
     "ignoreAbThumbnails": {
@@ -1427,7 +1427,7 @@
         "message": "Warnung: Dieses Video hat aktuell einen A/B-Thumbnail-Test aktiv. Das bedeutet, dass sich das Thumbnail oft ändern kann. Du solltest wegen dieses Risikos eventuell nicht für das originale Thumbnail abstimmen."
     },
     "whatKeepUnsubmitted": {
-        "message": "Behalte übermittelte Abstimmungen, um die Titel und Thumbnails anzuzeigen, die du ausgewählt hast anstelle der am besten bewerteten auf dem Server."
+        "message": "Behalte deine Abstimmungen nach dem Einreichen, um die von dir gewählten Titel und Thumbnails statt der bestbewerteten vom Server anzuzeigen."
     },
     "keepUnsubmittedInPrivate": {
         "message": "Von privaten Tabs eingereichte Bewertungen speichern"
@@ -1448,7 +1448,7 @@
         "message": "Thumbnails durch Farbentsättigung weniger lebhaft machen"
     },
     "hideDetailsWhileFetching": {
-        "message": "Details während des Abrufs ausblenden"
+        "message": "Details während des Abrufens ausblenden"
     },
     "hideDetailsWhileFetchingDescription": {
         "message": "Blende Titel und Thumbnails während des Abrufens von Daten vom Server aus. Wenn deaktiviert, wirst du aufblinkende Titel und Thumbnails sehen, während diese sich ändern."
@@ -1489,25 +1489,25 @@
         "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
     },
     "alwaysShowShowOriginalButton": {
-        "message": "Zeige immer den „Original anzeigen“-Knopf an"
+        "message": "\"Original anzeigen\"-Schaltfläche immer anzeigen"
     },
     "whatAlwaysShowShowOriginalButton": {
-        "message": "Aktiviere dies, wenn du immer wissen möchtest, ob sich ein Titel oder Thumbnail verändert hat."
+        "message": "Aktiviere dies, wenn du immer sehen möchtest, ob ein Titel oder Thumbnail geändert wurde."
     },
     "showOriginalOnHover": {
-        "message": "Beim Daraufzeigen zwischen eingereichten und originalen Details wechseln"
+        "message": "Beim Hovern zwischen eingereichten und originalen Details wechseln"
     },
     "showOriginalOnHoverOfVideo": {
-        "message": "Wechsel zwischen benutzerdefinierten Details und Originaldetails, wenn du den Mauszeiger über eine beliebige Stelle in der Video-Karte bewegst"
+        "message": "Beim Hovern über die Video-Karte zwischen benutzerdefinierten und originalen Details wechseln"
     },
     "showOriginalOnHoverOfVideoDescription": {
-        "message": "Damit wird die automatische Wiedergabe beim Daraufzeigen deaktiviert"
+        "message": "Deaktiviert die automatische Wiedergabe beim Hovern"
     },
     "showCustomOnHoverIfCasual": {
-        "message": "Zeige eingereichten Titel beim Daraufzeigen, falls ein Titel des Gelegenheitsmodus angezeigt wird"
+        "message": "Eingereichten Titel beim Hovern anzeigen, wenn ein Titel des Gelegenheitsmodus verwendet wird"
     },
     "showIconForFormattedTitles": {
-        "message": "Zeige „Original anzeigen“-Knopf für automatisch formatierte Titel"
+        "message": "\"Original anzeigen\"-Schaltfläche für automatisch formatierte Titel anzeigen"
     },
     "Enable": {
         "message": "Aktivieren"
@@ -1521,31 +1521,31 @@
         "description": "Referring to thumbnails of YouTube videos"
     },
     "CasualVotes": {
-        "message": "Stimmen für Originaltitel",
+        "message": "Abstimmungen im Gelegenheitsmodus",
         "description": "Referring to the number of votes submitted under casual mode in DeArrow"
     },
     "Error": {
         "message": "Fehler"
     },
     "ShowOriginal": {
-        "message": "Zeige originale Details"
+        "message": "Originale Details anzeigen"
     },
     "ShowModified": {
         "message": "Zeige veränderte Details"
     },
     "ShowFormatted": {
-        "message": "Zeige formatierte Details"
+        "message": "Formatierte Details anzeigen"
     },
     "FillerWarning": {
-        "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich musst du Einiges manuell nicht überspringen, oder es manchmal deaktivieren. Sei gewarnt, dass 50% oder mehr vieler Videos übersprungen werden! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
+        "message": "Warnung: Dies ist eine extrem aggressive Kategorie. Höchstwahrscheinlich wirst du einiges davon manuell zurücknehmen oder die Kategorie manchmal deaktivieren müssen. Bei vielen Videos werden 50 % oder mehr übersprungen! Denk jedoch daran, dass du trotzdem bestimmten Richtlinien beim Einreichen folgen musst.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
-        "message": "Trete bei Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
+        "message": "Tritt Discord oder Matrix bei, um dauerhaft in diesem Chat zu bleiben",
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
-        "message": "Zeige Richtlinien-Hilfe",
+        "message": "Richtlinien-Hilfe anzeigen",
         "description": "Setting to show a summary of the guidelines on the submission page"
     },
     "tip1": {
@@ -1568,7 +1568,7 @@
         "description": "Tip about submitting titles to DeArrow"
     },
     "checkAllToSubmit": {
-        "message": "Überprüfe alle Richtlinien zum Einsenden",
+        "message": "Alle Richtlinien bestätigen, um einzureichen",
         "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
     },
     "sentenceCaseTipTitle": {
@@ -1580,7 +1580,7 @@
         "description": "Tip title in DeArrow"
     },
     "answeringQuestionTipSubTitle": {
-        "message": "Titel sollten das Video oder das Geschehen im Allgemeinen beschreiben. Schaue immer das gesamte Video an, um zu wissen, worüber es tatsächlich ist, als dich auf einen interessanten Originaltitel zu verlassen.",
+        "message": "Titel sollten das Video oder das Geschehen allgemein beschreiben. Schaue immer das gesamte Video an, um zu wissen, worum es tatsächlich geht, statt dich auf einen interessanten Originaltitel zu verlassen.",
         "description": "Tip subtitle in DeArrow"
     },
     "noSummariesTipTitle": {
@@ -1592,7 +1592,7 @@
         "description": "Tip subtitle in DeArrow"
     },
     "noFactCheckTipTitle": {
-        "message": "Mein Titel dient nicht der Überprüfung der Fakten, der Verspottung, oder der Kritik an dem Video oder seinem Ersteller.",
+        "message": "Mein Titel überprüft, verspottet oder kritisiert weder das Video noch den Ersteller",
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
@@ -1662,7 +1662,7 @@
         "message": "Standardmäßig die ursprünglichen Videoinformationen verwenden"
     },
     "whatDefaultToOriginals": {
-        "message": "Zeige standardmäßig den ursprünglichen Titel und Thumbnail, aber biete eine Schaltfläche an, mit der benutzerdefinierte Titel und Thumbnails für einzelne Videos angezeigt werden können."
+        "message": "Zeige standardmäßig den ursprünglichen Titel und das originale Thumbnail an, aber biete eine Schaltfläche an, die beim Hovern erscheint, um die benutzerdefinierten Titel und Thumbnails zu sehen."
     },
     "replaceTitles": {
         "message": "Ersetze Titel"
@@ -1671,10 +1671,10 @@
         "message": "Ersetze Thumbnails"
     },
     "useCrowdsourcedTitles": {
-        "message": "Verwende eingereichte Titel"
+        "message": "Eingereichte Titel verwenden"
     },
     "whatUseCrowdsourcedTitles": {
-        "message": "Wenn deaktiviert, werden Titel formatiert, aber keine von der Community übermittelten Titel verwendet",
+        "message": "Wenn deaktiviert, werden Titel nur formatiert, aber keine von der Community eingereichten Titel verwendet",
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
@@ -1700,15 +1700,15 @@
         "message": "Standardkonfiguration"
     },
     "ChannelListInstructions": {
-        "message": "Gib Kanäle, auf die du diese Konfiguration anwenden willst, in der Box unten ein, getrennt durch neue Zeilen. Kanal-Alias, UCIDs und Anzeigenamen werden unterstützt. Kanal-Alias wird bevorzugt; Anzeigenamen zu benutzen, wird nicht empfohlen - wenn diese in jeglicher Konfiguration benutzt werden, führt das zu zusätzlichen Netzwerkanfragen pro Video. Du bekommst Kanal-IDs durch Klicken auf den Teilen-Knopf auf der Seite über den Kanal. Um dahin zu kommen, klicke auf die Kanalbeschreibung, die unter dem Kanalnamen auf der Kanalseite erscheint.",
+        "message": "Gib die Kanäle, auf die du diese Konfiguration anwenden willst, in das Feld unten ein, getrennt durch Zeilenumbrüche. Kanal-@-Handles, UCIDs und Anzeigenamen werden unterstützt. @-Handles sind bevorzugt; Anzeigenamen werden nicht empfohlen, da sie zusätzliche Netzwerkanfragen pro Video verursachen. Die Kanal-ID findest du über den Teilen-Schaltfläche auf der Info-Seite des Kanals. Zur Info-Seite gelangst du über die Kanalbeschreibung unter dem Kanalnamen auf der Kanalseite.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
-        "message": "Füge Kanäle hinzu, die dieses alternative Überspringen-Profil benutzen sollen, indem du auf einem Video des jeweiligen Kanals auf den Knopf im Popup klickst. Die Liste der Kanäle wird unten erscheinen.",
+        "message": "Füge Kanäle hinzu, die dieses alternative Überspringen-Profil verwenden sollen, indem du auf einem Video des jeweiligen Kanals auf die Schaltfläche im Popup klickst. Die Liste der Kanäle erscheint unten.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
-        "message": "Noch keine Konfigurationen eingerichtet. Klicke oben auf den Knopf, um eine neue Konfiguration hinzuzufügen.",
+        "message": "Noch keine Konfigurationen eingerichtet. Klicke oben auf die Schaltfläche, um eine neue Konfiguration hinzuzufügen.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
     },
     "DeArrowPromotionMessage": {
@@ -1790,7 +1790,7 @@
         "message": "Deine Gratisprobezeit ist vorbei"
     },
     "freeTrialPrompt": {
-        "message": "Wenn du es für eine Stunde ausprobieren möchtest, kannst du mit dem Knopf unten eine Gratisprobezeit starten."
+        "message": "Wenn du es ausprobieren möchtest, kannst du mit der Schaltfläche unten eine Gratisprobezeit starten."
     },
     "startFreeTrial": {
         "message": "Gratisprobezeit starten"
@@ -1820,10 +1820,10 @@
         "message": "Teilen macht Freude"
     },
     "cleanPopup": {
-        "message": "Verstecke Unordnung im Segmentlisten-Popup"
+        "message": "Überflüssiges im Segmentlisten-Popup ausblenden"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Verstecke Knöpfe zur Segmenterstellung im Popup"
+        "message": "Schaltflächen zur Segmenterstellung im Popup ausblenden"
     },
     "syncDisabledWarning": {
         "message": "Achtung: Die Speicherung von Erweiterungsdaten wurde in deinem Browser deaktiviert. Einstellungen können nicht gespeichert werden, wenn du versuchst, sie zu speichern."
@@ -1838,7 +1838,7 @@
         "message": "Erweiterungsspeicher ist voll. Bitte lösche einige nicht eingereichte Segmente in den Optionen."
     },
     "previewSegmentRequired": {
-        "message": "Bitte überprüfe deine Segmente vor dem Absenden. Dafür musst du auf den Vorschau-Knopf klicken oder das folgende Tastenkürzel benutzen:",
+        "message": "Bitte überprüfe deine Segmente vor dem Einreichen per Vorschau. Klicke dazu auf die Vorschau-Schaltfläche oder verwende das folgende Tastenkürzel:",
         "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
     },
     "actAsVip": {
@@ -1849,7 +1849,7 @@
         "message": "Einreichungen können im Moment von deinem Browser nicht akzeptiert werden, weil YouTube scheinbar serverseitige Werbung eingespeist hat, welche die Erweiterung nicht entfernen kann. Bitte kontaktiere uns, wenn du diesen Fehler erhältst."
     },
     "DeArrowIsDisabled": {
-        "message": "DeArrow ist deaktiviert - Klicke zum Aktivieren",
+        "message": "DeArrow ist deaktiviert – zum Aktivieren klicken",
         "description": "Appears as a button on the video page when DeArrow is disabled"
     },
     "areYouSureOriginalVote": {
@@ -1861,7 +1861,7 @@
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
     },
     "yttvNoChannelWhitelist": {
-        "message": "Kanal-Whitelists werden auf tv.youtube.com nicht unterstützt.",
+        "message": "Kanal-Ausnahmelisten werden auf tv.youtube.com nicht unterstützt.",
         "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
@@ -1921,7 +1921,7 @@
         "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
     },
     "showOriginalWhenCasual": {
-        "message": "Zeige auch das ursprüngliche Thumbnail",
+        "message": "Originales Thumbnail bei Videos mit Gelegenheitsmodus-Abstimmung anzeigen",
         "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
     },
     "newCasualMode": {
@@ -1929,7 +1929,7 @@
         "description": "Title of announcement in DeArrow about the new casual mode feature"
     },
     "onlyShowCasualIconForCustom": {
-        "message": "Zeige Symbol des Gelegenheitsmodus nur, wenn ein eingereichter Titel verfügbar ist"
+        "message": "Symbol des Gelegenheitsmodus nur anzeigen, wenn ein eingereichter Titel verfügbar ist"
     },
     "dontFormatCasualTitles": {
         "message": "Titel im Gelegenheitsmodus nicht formatieren",
@@ -1943,7 +1943,7 @@
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
     "segmentHideFailed": {
-        "message": "Konnte das Segment nicht dauerhaft verstecken/zeigen, da die UUID nicht aufgelöst werden konnte:",
+        "message": "Das Segment konnte nicht dauerhaft ein-/ausgeblendet werden, da die UUID nicht aufgelöst werden konnte:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
     },
     "skipProfile_forAnHour": {
@@ -1983,7 +1983,7 @@
         "message": "Menü für Überspringen-Profile"
     },
     "WhitelistedChannels": {
-        "message": "Kanäle auf der Whitelist",
+        "message": "Kanäle auf der Ausnahmeliste",
         "description": "Name used when converting old whitelisted channels to skip profiles"
     },
     "addChannelToSkipProfile": {
@@ -2000,6 +2000,9 @@
     },
     "addChannelToOverride": {
         "message": "Kanalspezifische Einstellungen"
+    },
+    "editActiveOverride": {
+        "message": "Aktives Einstellungsprofil ändern"
     },
     "closeOverrideMenu": {
         "message": "Menü schließen"
