@@ -1305,7 +1305,7 @@
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
-        "message": "Краудсорсингові заголовки та обкладинки мають бути описовими, а не сенсаційними",
+        "message": "Краудсорсингові назви та обкладинки мають бути описовими, а не сенсаційними",
         "description": "Description of the Clickbait extension."
     },
     "chooseDescriptive": {
@@ -1315,19 +1315,19 @@
         "message": "Оригінал"
     },
     "OriginalTitle": {
-        "message": "Оригінальний заголовок"
+        "message": "Оригінальна назва"
     },
     "CurrentTime": {
         "message": "Поточний час"
     },
     "resetCustomTitle": {
-        "message": "Скинути заголовок до оригінального тексту"
+        "message": "Відновити оригінальну назву"
     },
     "resetIcon": {
         "message": "Скинути значок"
     },
     "TypeYourOwnTitleHere": {
-        "message": "Введіть ваш заголовок тут"
+        "message": "Введіть вашу назву тут"
     },
     "VideoNotReady": {
         "message": "Відео не готове"
