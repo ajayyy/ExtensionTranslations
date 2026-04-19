@@ -7,6 +7,12 @@
         "message": "Παράλειψη χορηγιών, έκκλησης συνδρομής και πολλά περισσότερα στα βίντεο του YouTube. Αναφέρετε χορηγίες σε βίντεο που βλέπετε για να κερδίσετε χρόνο στους υπολοίπους.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Ο διακομιστής ανέφερε πως αυτό το αίτημα δεν είναι έγκυρο."
+    },
+    "409": {
+        "message": "Αυτό έχει ήδη υποβληθεί στο παρελθόν."
+    },
     "Segment": {
         "message": "τμήμα"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Απεικόνιση τμημάτων ως κεφάλαια",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Προεπιλεγμένη καρτέλα στο αναδυόμενο παράθυρο λίστας τμημάτων"
     },
     "showSegmentNameInChapterBar": {
         "message": "Εμφάνιση τρέχοντος τμήματος δίπλα στο χρόνο βίντεο"
@@ -104,6 +113,10 @@
     "serverDown": {
         "message": "Φαίνεται ότι ο διακομιστής έχει πέσει. Παρακαλώ επικοινωνήστε με τον προγραμματιστή αμέσως."
     },
+    "connectionError": {
+        "message": "Παρουσιάστηκε ένα σφάλμα σύνδεσης.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "Τα τμήματα φορτώνονται ακόμα…"
     },
@@ -176,6 +189,13 @@
     },
     "hideThis": {
         "message": "Απόκρυψη"
+    },
+    "collapseChapters": {
+        "message": "Σύμπτυξη εσωτερικών κεφαλαίων"
+    },
+    "expandChapters": {
+        "message": "Εμφάνιση {0} εσωτερικών κεφαλαίων",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Ρυθμίσεις"
@@ -1012,6 +1032,9 @@
     "darkModeOptionsPage": {
         "message": "Σκουρόχρωμη Λειτουργία στη σελίδα Ρυθμίσεις"
     },
+    "prideTheme": {
+        "message": "Θέμα υπερηφάνεια"
+    },
     "helpPageThanksForInstalling": {
         "message": "Ευχαριστούμε που εγκαταστήσατε το SponsorBlock."
     },
@@ -1021,11 +1044,20 @@
     "helpPageFeatureDisclaimer": {
         "message": "Πολλές δυνατότητες είναι ανενεργές από προεπιλογή. Εάν θέλετε να παραλείπετε εισαγωγές, επίλογους, χρήση «Invidious», κτλ., ενεργοποιήστε τα παρακάτω. Μπορείτε επίσης να κρύψετε/εμφανίσετε στοιχεία της διεπαφής."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Πώς λειτουργεί"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Όλοι οι χορηγοί υποβάλλονται από χρήστες όπως εσείς. Μπορείτε να δείτε τη λίστα των υποβληθέντων χορηγών στη βάση δεδομένων ανοίγοντας το αναδυόμενο παράθυρο στην επάνω δεξιά γωνία του προγράμματος περιήγησης."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Κάθε φορά που παραλείπετε κάποιο τμήμα, θα λαμβάνετε ειδοποίηση. Εάν ο συγχρονισμός σας φαίνεται λάθος, ψηφίστε αρνητικά πατώντας το εικονίδιο! Μπορείτε επίσης να ψηφίσετε μέσω του αναδυόμενου παράθυρου."
     },
     "Submitting": {
         "message": "Υποβολή"
+    },
+    "helpPageSubmitting1": {
+        "message": "Η υποβολή μπορεί να γίνει κάνοντας κλικ στο λογότυπο του SponsorBlock στο πρόγραμμα αναπαραγωγής βίντεο."
     },
     "helpPageCopyOfDatabase2": {
         "message": "Ο πηγαίος κώδικας είναι δημόσια διαθέσιμος. Έτσι ώστε, ακόμα και αν συμβεί κάτι σε εμάς, οι υποβολές σας δε θα χαθούν."
