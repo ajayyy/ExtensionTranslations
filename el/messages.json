@@ -807,6 +807,10 @@
     "category_livestream_messages_short": {
         "message": "Ανάγνωση Μηνυμάτων"
     },
+    "fallbackToDefault": {
+        "message": "Επιστροφή στην προεπιλογή",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Αυτόματη Παράλειψη"
     },
@@ -1026,6 +1030,9 @@
     "considerDonating": {
         "message": "Χρηματική βοήθεια για την ανάπτυξή μας"
     },
+    "supportSponsorBlock": {
+        "message": "Υποστηρίξτε την πλήρη εργασία μου στο SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Απόκρυψη Συνδέσμου Δωρεάς"
     },
@@ -1059,8 +1066,17 @@
     "helpPageSubmitting1": {
         "message": "Η υποβολή μπορεί να γίνει κάνοντας κλικ στο λογότυπο του SponsorBlock στο πρόγραμμα αναπαραγωγής βίντεο."
     },
+    "helpPageSubmitting2": {
+        "message": "Κάνοντας κλικ στο κουμπί αναπαραγωγής υποδεικνύεται η έναρξη ενός τμήματος και κάνοντας κλικ στο εικονίδιο διακοπής υποδηλώνει το τέλος. Κάντε κλικ στο επάνω βέλος για να ανοίξετε το μενού υποβολής όπου μπορείτε να επαληθεύσετε τα τμήματά σας με προεπισκόπηση και επεξεργασία τους για να είναι τέλεια. Η ακρίβεια είναι σημαντική, φροντίστε να διαβάσετε τις οδηγίες πριν από την υποβολή τους."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Πού πάνε οι υποβολές;"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Ο πηγαίος κώδικας είναι δημόσια διαθέσιμος. Έτσι ώστε, ακόμα και αν συμβεί κάτι σε εμάς, οι υποβολές σας δε θα χαθούν."
+    },
+    "AdviceForSubmitting": {
+        "message": "Συμβουλές για την υποβολή"
     },
     "Credits": {
         "message": "Εύσημα"
