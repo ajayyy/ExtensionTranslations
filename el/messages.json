@@ -365,6 +365,10 @@
     "502": {
         "message": "Ο διακομιστής φαίνεται ότι έχει υπερφορτωθεί. Δοκιμάστε ξανά σε μερικά δευτερόλεπτα."
     },
+    "errorCode": {
+        "message": "Ο διακομιστής επέστρεψε κωδικό κατάστασης {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
+    },
     "skip": {
         "message": "Παράλειψη"
     },
@@ -738,6 +742,22 @@
     "category_preview_guideline3": {
         "message": "Όχι για μέρη που περιλαμβάνουν πρόσθετο περιεχόμενο"
     },
+    "category_hook": {
+        "message": "Δέλεαρ/Χαιρετισμοί",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Διηγημένα τρέιλερ για το επερχόμενο βίντεο, χαιρετισμοί και αποχαιρετισμοί. Αυτό δεν πρέπει να παραλείπει συμπεράσματα με πληροφορίες."
+    },
+    "category_hook_guideline1": {
+        "message": "Διηγημένα τρέιλερ για το επερχόμενο βίντεο"
+    },
+    "category_hook_guideline2": {
+        "message": "Τμήματα με χαιρετισμούς και αποχαιρετισμούς που καλωσορίζουν θεατές"
+    },
+    "category_hook_guideline3": {
+        "message": "Όχι για τμήματα που προσθέτουν πρόσθετο περιεχόμενο"
+    },
     "category_filler": {
         "message": "Εφαπτόμενα/Αστεία"
     },
@@ -1072,6 +1092,9 @@
     "helpPageCopyOfDatabase": {
         "message": "Πού πάνε οι υποβολές;"
     },
+    "helpPageCopyOfDatabase1": {
+        "message": "Όλες οι υποβολές τίθενται στη βάση δεδομένων SponsorBlock, η οποία δημοσιοποιείται για να χρησιμοποιήσει ο καθένας και είναι διαθέσιμη στο"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Ο πηγαίος κώδικας είναι δημόσια διαθέσιμος. Έτσι ώστε, ακόμα και αν συμβεί κάτι σε εμάς, οι υποβολές σας δε θα χαθούν."
     },
@@ -1348,6 +1371,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Αφαίρεση emojis"
+    },
+    "formatCustomTitles": {
+        "message": "Μορφοποίηση τίτλων που υποβλήθηκαν από το χρήστη"
+    },
+    "formatOriginalTitles": {
+        "message": "Μορφοποίηση αρχικών τίτλων"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Κεφαλαιοποίηση Λέξεων για Μη-Αγγλικούς Τίτλους"
@@ -1652,11 +1681,23 @@
         "message": "Είστε βέβαιοι ότι θα θέλατε να διαγράψετε αυτή την διαμόρφωση;",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Νέα διαμόρφωση"
+    },
+    "CreateNewConfiguration": {
+        "message": "Δημιουργία νέας διαμόρφωσης"
+    },
+    "DeleteConfiguration": {
+        "message": "Διαγραφή διαμόρφωσης"
+    },
     "ChannelAllowlist": {
         "message": "Ρυθμίσεις για συγκεκριμένα κανάλια"
     },
     "ConfigurationName": {
         "message": "Όνομα της διαμόρφωσης"
+    },
+    "DefaultConfiguration": {
+        "message": "Προεπιλεγμένη διαμόρφωση"
     },
     "NoConfigurationsSetup": {
         "message": "Καμία ρύθμιση παραμέτρων ακόμα. Κάντε κλικ στο κουμπί στο επάνω μέρος για να προσθέσετε μια νέα ρύθμιση.",
@@ -1878,5 +1919,24 @@
     },
     "OpenSettings": {
         "message": "Άνοιγμα ρυθμίσεων"
+    },
+    "skipProfile_forAnHour": {
+        "message": "Για μία ώρα",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Για αυτήν την καρτέλα",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Για αυτό το βίντεο μόνο",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Για αυτό το κανάλι",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "closeOverrideMenu": {
+        "message": "Κλείσιμο μενού"
     }
 }
