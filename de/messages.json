@@ -39,7 +39,7 @@
         "message": "Von YouTube automatisch generierte Kapitel anzeigen"
     },
     "upvoteButtonInfo": {
-        "message": "Diese Einreichung positiv bewerten"
+        "message": "Diesen Beitrag positiv bewerten"
     },
     "reportButtonTitle": {
         "message": "Melden"
@@ -75,7 +75,7 @@
         "message": "Timer angehalten"
     },
     "confirmMSG": {
-        "message": "Um einzelne Werte zu löschen oder zu ändern, klicke auf den Info-Knopf oder öffne die Erweiterungsübersicht, indem du das Erweiterungssymbol in der Ecke oben rechts anklickst."
+        "message": "Um einzelne Werte zu löschen oder zu ändern, klicke auf die Info-Schaltfläche oder öffne das Popup der Erweiterung über das Symbol in der Ecke oben rechts."
     },
     "clearThis": {
         "message": "Bist du sicher, dass du Folgendes löschen möchtest?\n\n"
@@ -136,13 +136,13 @@
         "message": "Einreichungsmenü öffnen"
     },
     "OpenCasualVoteMenu": {
-        "message": "Öffne Menü des Gelegenheitsmodus"
+        "message": "Menü des Gelegenheitsmodus öffnen"
     },
     "sortSegments": {
         "message": "Segmente sortieren"
     },
     "submitCheck": {
-        "message": "Bist du sicher, dass du dies übermitteln willst?"
+        "message": "Bist du sicher, dass du das einreichen willst?"
     },
     "voteOnTime": {
         "message": "Über ein Segment abstimmen"
@@ -164,7 +164,7 @@
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Tipp: Du kannst Tastenkombinationen in den Optionen festlegen"
+        "message": "Tipp: Du kannst Tastenkürzel in den Einstellungen festlegen"
     },
     "clearTimesButton": {
         "message": "Zeiten löschen"
@@ -201,16 +201,16 @@
         "message": "Optionen"
     },
     "showButtons": {
-        "message": "Knöpfe im YouTube-Videoplayer anzeigen"
+        "message": "Schaltflächen im YouTube-Wiedergabefenster anzeigen"
     },
     "hideButtonsDescription": {
-        "message": "Versteckt die Schaltflächen im YouTube-Videoplayer, um Segmente einzusenden."
+        "message": "Versteckt die Schaltflächen im YouTube-Wiedergabefenster zum Einreichen von Segmenten."
     },
     "showSkipButton": {
         "message": "\"Zum Highlight springen\"-Schaltfläche im Player behalten"
     },
     "showInfoButton": {
-        "message": "Info-Knopf im YouTube-Wiedergabefenster anzeigen"
+        "message": "Info-Schaltfläche im YouTube-Wiedergabefenster anzeigen"
     },
     "autoHideInfoButton": {
         "message": "Info-Schaltfläche automatisch ausblenden"
@@ -219,10 +219,10 @@
         "message": "Löschen-Schaltfläche im YouTube-Player anzeigen"
     },
     "enableViewTracking": {
-        "message": "Aktiviere das Zählen übersprungener Segmente"
+        "message": "Zählen übersprungener Segmente aktivieren"
     },
     "whatViewTracking": {
-        "message": "Diese Funktion erfasst, welche Segmente du übersprungen hast, um anderen Nutzer zu zeigen, wie hilfreich ihre Beiträge sind. Außerdem stellt dies zusammen mit positiven Bewertungen sicher, dass keine unerwünschten Inhalte in die Datenbank gelangen. Die Erweiterung sendet jedes Mal, wenn du ein Segment überspringst, eine Meldung an den Server. Hoffentlich verändern die meisten Nutzer diese Einstellung nicht, um unsere Statistik zu verbessern :)"
+        "message": "Diese Funktion erfasst, welche Segmente du übersprungen hast, um anderen Nutzern zu zeigen, wie hilfreich ihre Beiträge sind. Außerdem stellt dies zusammen mit positiven Bewertungen sicher, dass keine unerwünschten Inhalte in die Datenbank gelangen. Die Erweiterung sendet jedes Mal, wenn du ein Segment überspringst, eine Meldung an den Server. Hoffentlich verändern die meisten Nutzer diese Einstellung nicht, um unsere Statistik zu verbessern :)"
     },
     "enableViewTrackingInPrivate": {
         "message": "Aktiviere Zählen übersprungener Segmente in Inkognito-Fenstern"
@@ -279,7 +279,7 @@
         "message": "Immer verblasste Überspringen-Meldungen"
     },
     "longDescription": {
-        "message": "SponsorBlock lässt dich gesponserte Videosegmente, Intros, Outros, Interaktions-Erinnerungen, Musikvideoteile ohne Musik und andere nervige Teile von YouTube-Videos überspringen. SponsorBlock ist eine crowdsourced Browser-Erweiterung, in der jeder die Start- und Endzeit gesponserter Videosegmente und anderer Segmente von YouTube-Videos einreicht. Sobald eine Person diese Informationen einreicht, überspringen alle anderen mit dieser Erweiterung das gesponserte Segment.",
+        "message": "SponsorBlock lässt dich gesponserte Videosegmente, Intros, Outros, Interaktions-Erinnerungen, Musikvideoteile ohne Musik und andere nervige Teile von YouTube-Videos überspringen. SponsorBlock ist eine Community-basierte Browsererweiterung, in der jeder die Start- und Endzeit gesponserter Videosegmente und anderer Segmente von YouTube-Videos einreichen kann. Sobald eine Person diese Informationen einreicht, überspringen alle anderen mit dieser Erweiterung das gesponserte Segment.",
         "description": "Full description of the extension on the store pages."
     },
     "website": {
@@ -295,7 +295,7 @@
         "description": "The first line of the message displayed after the notice was upgraded."
     },
     "noticeUpdate2": {
-        "message": "Falls es dir trotzdem nicht gefällt, drücke auf \"Verstecken\".",
+        "message": "Falls es dir trotzdem nicht gefällt, drücke auf „Nie anzeigen“.",
         "description": "The second line of the message displayed after the notice was upgraded."
     },
     "setSkipShortcut": {
@@ -350,7 +350,7 @@
         "message": "Wähle eine Taste durch Eingeben aus, und wähle (optional) gewünschte Hilfstasten."
     },
     "0": {
-        "message": "Zeitüberschreibung. Überprüfe deine Internetverbindung. Bist du mit dem Internet verbunden, ist der Server wahrscheinlich offline."
+        "message": "Zeitüberschreitung. Überprüfe deine Internetverbindung. Wenn du mit dem Internet verbunden bist, ist der Server wahrscheinlich überlastet oder offline."
     },
     "disableSkipping": {
         "message": "Überspringen ist aktiviert"
@@ -422,7 +422,7 @@
         "message": "Es wird ein Ton abgespielt, wenn ein Segment übersprungen wird. Wenn deaktiviert (oder wenn automatisches Überspringen deaktiviert ist), wird kein Ton abgespielt."
     },
     "showTimeWithSkips": {
-        "message": "Videodauer nach Abzug der überspringbaren Videosegmente anzeigen"
+        "message": "Videodauer abzüglich überspringbarer Segmente anzeigen"
     },
     "showTimeWithSkipsDescription": {
         "message": "Diese Zeit wird in Klammern neben der kompletten Videodauer im YouTube-Videoplayer angezeigt. Dies betrifft auch Segmente, die als \"In Suchleiste anzeigen\" markiert sind."
@@ -443,7 +443,7 @@
         "message": "Stunden"
     },
     "youHaveSavedTime": {
-        "message": "Du erspartest anderen",
+        "message": "Du hast anderen",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
@@ -479,13 +479,13 @@
         "message": "Unterstützte Seiten: "
     },
     "optionsInfo": {
-        "message": "Zu überspringende Kategorien auswählen, automatisches Überspringen, Tasten ein- & ausblenden und noch viel mehr."
+        "message": "Zu überspringende Kategorien auswählen, automatisches Überspringen, Schaltflächen ein- und ausblenden und mehr."
     },
     "addInvidiousInstance": {
         "message": "Client-Instanz eines Drittanbieters hinzufügen"
     },
     "addInvidiousInstanceDescription": {
-        "message": "Füge eine benutzerdefinierte Invidious-Instanz hinzu. Diese darf nur den Domain-Teil beinhalten. Beispiel: \"invidious.ajay.app\""
+        "message": "Füge eine benutzerdefinierte Instanz hinzu. Gib nur den Domain-Teil ein, z. B. \"invidious.ajay.app\"."
     },
     "add": {
         "message": "Hinzufügen"
@@ -524,13 +524,13 @@
         "message": "Die Überspringen-Meldung wird mindestens für so viele Sekunden angezeigt. Für manuelles Überspringen kann sie länger sichtbar sein."
     },
     "shortCheck": {
-        "message": "Die folgende Einsendung ist kürzer als deine Mindestdauer. Das könnte bedeuten, dass dieses Videosegment bereits eingereicht wurde und aufgrund dieser Option einfach ignoriert wird. Bist du dir sicher, dass du es übermitteln möchtest?"
+        "message": "Die folgende Einreichung ist kürzer als deine Mindestdauer. Das könnte bedeuten, dass dieses Segment bereits eingereicht wurde und aufgrund deiner Einstellung ignoriert wird. Bist du sicher, dass du es einreichen möchtest?"
     },
     "liveOrPremiere": {
         "message": "Das Einreichen während eines aktiven Livestreams oder einer Premiere ist nicht erlaubt. Bitte warte, bis es zu Ende ist, lade die Seite neu und überprüfe, dass die Segmente noch immer korrekt sind."
     },
     "showUploadButton": {
-        "message": "Upload-Knopf anzeigen"
+        "message": "Upload-Schaltfläche anzeigen"
     },
     "customServerAddress": {
         "message": "SponsorBlock-Serveradresse"
@@ -587,13 +587,13 @@
         "message": "Warnung: Das Ändern der Optionen ist permanent und kann deine Installation beschädigen. Bist du dir sicher, dass du das tun willst? Stelle sicher, dass du eine Sicherheitskopie deiner alten Optionen machst."
     },
     "incorrectlyFormattedOptions": {
-        "message": "Dieses JSON ist nicht korrekt formatiert und kann daher nicht geladen werden. Es wurden keine Einstellungen geändert."
+        "message": "Dieses JSON ist nicht korrekt formatiert. Deine Einstellungen wurden nicht geändert."
     },
     "confirmNoticeTitle": {
-        "message": "Segment übermitteln"
+        "message": "Segment einreichen"
     },
     "submit": {
-        "message": "Senden"
+        "message": "Einreichen"
     },
     "cancel": {
         "message": "Abbrechen"
@@ -686,7 +686,7 @@
         "message": "Das gesamte Video zeigt etwas mit kostenlosem oder vergünstigtem Zugang"
     },
     "category_interaction": {
-        "message": "Interaktions-Erinnerungen (Abonnieren, etc.)"
+        "message": "Interaktions-Erinnerung (Abonnieren usw.)"
     },
     "category_interaction_description": {
         "message": "Wenn es eine kurze Erinnerung zum Liken, Abonnieren oder Folgen mitten im Inhalt gibt. Wenn es lang ist oder um etwas Bestimmtes geht, sollte es stattdessen unter „Unbezahlt/Eigenwerbung“ eingeordnet werden."
@@ -722,7 +722,7 @@
         "message": "Endkarten/Quellen/Anerkennungen"
     },
     "category_outro_description": {
-        "message": "Credits oder wenn die YouTube-Endkarten erscheinen. Nicht für videobeendende Schlussfolgerungen mit Informationen."
+        "message": "Abspann oder wenn die YouTube-Endkarten erscheinen. Nicht für Schlussfolgerungen mit Informationen."
     },
     "category_outro_guideline1": {
         "message": "Enthalten keinen Inhalt, selbst wenn Endcards zu sehen sind"
@@ -856,7 +856,7 @@
         "message": "Label anzeigen"
     },
     "showOverlay_chapter": {
-        "message": "Kapitel zeigen"
+        "message": "Kapitel anzeigen"
     },
     "autoSkipOnMusicVideos": {
         "message": "Alle Segmente automatisch überspringen, wenn ein Nicht-Musiksegment vorhanden ist"
@@ -966,7 +966,7 @@
         "message": "Kanalprüfung vor dem Überspringen von Segmenten erzwingen"
     },
     "whatForceChannelCheck": {
-        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhaupt weiß, von welchem Kanal das Video ist. Normalerweise führt dies dazu, dass Videosegmente von Kanälen, die sich auf der Ausnahmeliste befinden, am Anfang trotzdem übersprungen werden. Das Aktivieren dieser Option verhindert das, hat jedoch eine leichte Verzögerung beim Überspringen zur Folge, da die Kanal-ID erst eingelesen werden muss. Diese sollte bei einer schnellen Internetverbindung jedoch kaum bemerkbar sein."
+        "message": "Standardmäßig werden Segmente übersprungen, bevor SponsorBlock überhaupt weiß, von welchem Kanal das Video stammt. Das führt dazu, dass Segmente am Anfang von Videos auf Kanälen der Ausnahmeliste trotzdem übersprungen werden. Diese Option verhindert das, verursacht aber eine leichte Verzögerung beim Überspringen, da die Kanal-ID erst abgerufen werden muss. Bei einer schnellen Internetverbindung sollte diese kaum bemerkbar sein."
     },
     "forceChannelCheckPopup": {
         "message": "Eventuell solltest du die Option \"Kanalprüfung vor dem Überspringen von Segmenten erzwingen\" aktivieren."
@@ -985,7 +985,7 @@
         "message": "Kategorie ändern"
     },
     "nonMusicCategoryOnMusic": {
-        "message": "Dieses Video ist als Musikvideo kategorisiert. Bist du dir sicher, dass es ein gesponsertes Videosegment hat? Wenn dies tatsächlich ein Musikvideoteil ohne Musik ist, öffne die Optionen von SponsorBlock und aktiviere diese Kategorie. Danach kannst du dieses Segment als solches markieren. Bitte lies die Richtlinien, wenn du dir nicht sicher bist."
+        "message": "Dieses Video ist als Musikvideo kategorisiert. Bist du sicher, dass es ein gesponsertes Segment hat? Wenn dies tatsächlich ein Nicht-Musik-Abschnitt ist, öffne die Einstellungen von SponsorBlock und aktiviere diese Kategorie. Danach kannst du dieses Segment entsprechend markieren. Bitte lies die Richtlinien, wenn du dir unsicher bist."
     },
     "multipleSegments": {
         "message": "Mehrere Segmente"
@@ -1081,7 +1081,7 @@
         "message": "Wann immer du ein Segment überspringst, erhältst du einen Hinweis. Wenn das Timing falsch erscheint, kannst du negativ bewerten. Du kannst auch im Popup abstimmen."
     },
     "Submitting": {
-        "message": "Übermitteln"
+        "message": "Einreichen"
     },
     "helpPageSubmitting1": {
         "message": "Segmente können erstellt werden, indem du auf das SponsorBlock-Logo im Player klickst."
@@ -1120,7 +1120,7 @@
         "message": "Kopieren und abwerten"
     },
     "ContinueVoting": {
-        "message": "Bewerten fortsetzen"
+        "message": "Weiter abstimmen"
     },
     "ChangeCategoryTooltip": {
         "message": "Dies wirkt sich sofort auf eigene Segmente aus"
@@ -1224,10 +1224,10 @@
         "message": "Lizenzschlüssel ist ungültig"
     },
     "hideUpsells": {
-        "message": "Verstecke Optionen, welche ohne extra Zahlung nicht verfügbar sind"
+        "message": "Optionen ausblenden, die ohne zusätzliche Zahlung nicht verfügbar sind"
     },
     "hideNewFeatureUpdates": {
-        "message": "Verstecke Hinweise über neue Funktionen"
+        "message": "Hinweise über neue Funktionen ausblenden"
     },
     "redeem": {
         "message": "Einlösen"
@@ -1531,7 +1531,7 @@
         "message": "Originale Details anzeigen"
     },
     "ShowModified": {
-        "message": "Zeige veränderte Details"
+        "message": "Geänderte Details anzeigen"
     },
     "ShowFormatted": {
         "message": "Formatierte Details anzeigen"
@@ -1596,7 +1596,7 @@
         "description": "Tip title in DeArrow"
     },
     "noFactCheckTipSubTitle": {
-        "message": "Titel sollen aus der Perspektive des Erstellers und des Videos sein. Bewertungen und Kritik von Videos sind außerhalb des Aufgabenbereichs von DeArrow. Titel sind kein Kommentarbereich.",
+        "message": "Titel sollen aus der Perspektive des Erstellers und des Videos geschrieben sein. Bewertungen oder Faktenchecks des Videos liegen außerhalb des Aufgabenbereichs von DeArrow. Titel sind kein Kommentarbereich.",
         "description": "Tip subtitle in DeArrow"
     },
     "DetectedWord": {
@@ -1762,7 +1762,7 @@
         "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "countReplacements": {
-        "message": "Zähle Titel- und Thumbnail-Ersetzungen"
+        "message": "Titel- und Thumbnail-Ersetzungen zählen"
     },
     "countReplacementsDescription": {
         "message": "Wird verwendet, um dir Statistiken im Pop-up zu zeigen.",
@@ -1778,7 +1778,7 @@
         "message": "Etwas ist bei der Video-ID-Erkennung schiefgelaufen. Bitte versuche vor dem Absenden, die Seite zu aktualisieren, um sicherzustellen, dass es für das richtige Video übermittelt wird. Wenn dies oft passiert, schicke bitte einen Bericht mit deinen installierten Erweiterungen und Userscripts auf GitHub, Discord oder Matrix."
     },
     "dearrowLogoCredit": {
-        "message": "Logo basierend auf Twemoji lizenziert unter CC-BY 4.0"
+        "message": "Logo basierend auf Twemoji, lizenziert unter CC BY 4.0"
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock ist nicht mit der Erweiterung „Zoom to Fill“ kompatibel. Es gibt viele Alternativen, die problemlos funktionieren werden."
