@@ -359,7 +359,7 @@
         "message": "Überspringen ist deaktiviert"
     },
     "yourWork": {
-        "message": "Dein Werk",
+        "message": "Deine Beiträge",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -1665,10 +1665,10 @@
         "message": "Zeige standardmäßig den ursprünglichen Titel und das originale Thumbnail an, aber biete eine Schaltfläche an, die beim Hovern erscheint, um die benutzerdefinierten Titel und Thumbnails zu sehen."
     },
     "replaceTitles": {
-        "message": "Ersetze Titel"
+        "message": "Titel ersetzen"
     },
     "replaceThumbnails": {
-        "message": "Ersetze Thumbnails"
+        "message": "Thumbnails ersetzen"
     },
     "useCrowdsourcedTitles": {
         "message": "Eingereichte Titel verwenden"
