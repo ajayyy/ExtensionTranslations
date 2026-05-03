@@ -26,7 +26,7 @@
         "message": "Kapitel"
     },
     "renderAsChapters": {
-        "message": "Zeige Segmente als Kapitel",
+        "message": "Segmente als Kapitel anzeigen",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "segmentListDefaultTab": {
@@ -54,7 +54,7 @@
         "message": "Lädt..."
     },
     "Hide": {
-        "message": "Verstecken"
+        "message": "Nie anzeigen"
     },
     "hitGoBack": {
         "message": "Klicke auf „Nicht überspringen“, um die Aktion rückgängig zu machen."
