@@ -7,6 +7,12 @@
         "message": "Παράλειψη χορηγιών, έκκλησης συνδρομής και πολλά περισσότερα στα βίντεο του YouTube. Αναφέρετε χορηγίες σε βίντεο που βλέπετε για να κερδίσετε χρόνο στους υπολοίπους.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Ο διακομιστής ανέφερε πως αυτό το αίτημα δεν είναι έγκυρο."
+    },
+    "409": {
+        "message": "Αυτό έχει ήδη υποβληθεί στο παρελθόν."
+    },
     "Segment": {
         "message": "τμήμα"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Απεικόνιση τμημάτων ως κεφάλαια",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Προεπιλεγμένη καρτέλα στο αναδυόμενο παράθυρο λίστας τμημάτων"
     },
     "showSegmentNameInChapterBar": {
         "message": "Εμφάνιση τρέχοντος τμήματος δίπλα στο χρόνο βίντεο"
@@ -104,6 +113,10 @@
     "serverDown": {
         "message": "Φαίνεται ότι ο διακομιστής έχει πέσει. Παρακαλώ επικοινωνήστε με τον προγραμματιστή αμέσως."
     },
+    "connectionError": {
+        "message": "Παρουσιάστηκε ένα σφάλμα σύνδεσης.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
+    },
     "segmentsStillLoading": {
         "message": "Τα τμήματα φορτώνονται ακόμα…"
     },
@@ -176,6 +189,13 @@
     },
     "hideThis": {
         "message": "Απόκρυψη"
+    },
+    "collapseChapters": {
+        "message": "Σύμπτυξη εσωτερικών κεφαλαίων"
+    },
+    "expandChapters": {
+        "message": "Εμφάνιση {0} εσωτερικών κεφαλαίων",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Ρυθμίσεις"
@@ -344,6 +364,10 @@
     },
     "502": {
         "message": "Ο διακομιστής φαίνεται ότι έχει υπερφορτωθεί. Δοκιμάστε ξανά σε μερικά δευτερόλεπτα."
+    },
+    "errorCode": {
+        "message": "Ο διακομιστής επέστρεψε κωδικό κατάστασης {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Παράλειψη"
@@ -703,6 +727,9 @@
     "category_outro_guideline1": {
         "message": "Μη συμπερίληψη περιεχομένου, ακόμα και αν τα προτεινόμενα βίντεο βρίσκονται στην οθόνη"
     },
+    "category_preview": {
+        "message": "Προεπισκόπηση/Περίληψη"
+    },
     "category_preview_description": {
         "message": "Συλλογή από κλιπ που δείχνουν τι έρχεται σε αυτό το βίντεο ή άλλα βίντεο σε μια σειρά όπου όλες οι πληροφορίες επαναλαμβάνονται αργότερα στο βίντεο."
     },
@@ -714,6 +741,22 @@
     },
     "category_preview_guideline3": {
         "message": "Όχι για μέρη που περιλαμβάνουν πρόσθετο περιεχόμενο"
+    },
+    "category_hook": {
+        "message": "Δέλεαρ/Χαιρετισμοί",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Διηγημένα τρέιλερ για το επερχόμενο βίντεο, χαιρετισμοί και αποχαιρετισμοί. Αυτό δεν πρέπει να παραλείπει συμπεράσματα με πληροφορίες."
+    },
+    "category_hook_guideline1": {
+        "message": "Διηγημένα τρέιλερ για το επερχόμενο βίντεο"
+    },
+    "category_hook_guideline2": {
+        "message": "Τμήματα με χαιρετισμούς και αποχαιρετισμούς που καλωσορίζουν θεατές"
+    },
+    "category_hook_guideline3": {
+        "message": "Όχι για τμήματα που προσθέτουν πρόσθετο περιεχόμενο"
     },
     "category_filler": {
         "message": "Εφαπτόμενα/Αστεία"
@@ -783,6 +826,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Ανάγνωση Μηνυμάτων"
+    },
+    "fallbackToDefault": {
+        "message": "Επιστροφή στην προεπιλογή",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Αυτόματη Παράλειψη"
@@ -1003,11 +1050,17 @@
     "considerDonating": {
         "message": "Χρηματική βοήθεια για την ανάπτυξή μας"
     },
+    "supportSponsorBlock": {
+        "message": "Υποστηρίξτε την πλήρη εργασία μου στο SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Απόκρυψη Συνδέσμου Δωρεάς"
     },
     "darkModeOptionsPage": {
         "message": "Σκουρόχρωμη Λειτουργία στη σελίδα Ρυθμίσεις"
+    },
+    "prideTheme": {
+        "message": "Θέμα υπερηφάνεια"
     },
     "helpPageThanksForInstalling": {
         "message": "Ευχαριστούμε που εγκαταστήσατε το SponsorBlock."
@@ -1018,14 +1071,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Πολλές δυνατότητες είναι ανενεργές από προεπιλογή. Εάν θέλετε να παραλείπετε εισαγωγές, επίλογους, χρήση «Invidious», κτλ., ενεργοποιήστε τα παρακάτω. Μπορείτε επίσης να κρύψετε/εμφανίσετε στοιχεία της διεπαφής."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "Πώς λειτουργεί"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "Όλοι οι χορηγοί υποβάλλονται από χρήστες όπως εσείς. Μπορείτε να δείτε τη λίστα των υποβληθέντων χορηγών στη βάση δεδομένων ανοίγοντας το αναδυόμενο παράθυρο στην επάνω δεξιά γωνία του προγράμματος περιήγησης."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Κάθε φορά που παραλείπετε κάποιο τμήμα, θα λαμβάνετε ειδοποίηση. Εάν ο συγχρονισμός σας φαίνεται λάθος, ψηφίστε αρνητικά πατώντας το εικονίδιο! Μπορείτε επίσης να ψηφίσετε μέσω του αναδυόμενου παράθυρου."
     },
     "Submitting": {
         "message": "Υποβολή"
     },
+    "helpPageSubmitting1": {
+        "message": "Η υποβολή μπορεί να γίνει κάνοντας κλικ στο λογότυπο του SponsorBlock στο πρόγραμμα αναπαραγωγής βίντεο."
+    },
+    "helpPageSubmitting2": {
+        "message": "Κάνοντας κλικ στο κουμπί αναπαραγωγής υποδεικνύεται η έναρξη ενός τμήματος και κάνοντας κλικ στο εικονίδιο διακοπής υποδηλώνει το τέλος. Κάντε κλικ στο επάνω βέλος για να ανοίξετε το μενού υποβολής όπου μπορείτε να επαληθεύσετε τα τμήματά σας με προεπισκόπηση και επεξεργασία τους για να είναι τέλεια. Η ακρίβεια είναι σημαντική, φροντίστε να διαβάσετε τις οδηγίες πριν από την υποβολή τους."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Πού πάνε οι υποβολές;"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "Όλες οι υποβολές τίθενται στη βάση δεδομένων SponsorBlock, η οποία δημοσιοποιείται για να χρησιμοποιήσει ο καθένας και είναι διαθέσιμη στο"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "Ο πηγαίος κώδικας είναι δημόσια διαθέσιμος. Έτσι ώστε, ακόμα και αν συμβεί κάτι σε εμάς, οι υποβολές σας δε θα χαθούν."
+    },
+    "AdviceForSubmitting": {
+        "message": "Συμβουλές για την υποβολή"
     },
     "Credits": {
         "message": "Εύσημα"
@@ -1297,6 +1371,12 @@
     },
     "shouldCleanEmojis": {
         "message": "Αφαίρεση emojis"
+    },
+    "formatCustomTitles": {
+        "message": "Μορφοποίηση τίτλων που υποβλήθηκαν από το χρήστη"
+    },
+    "formatOriginalTitles": {
+        "message": "Μορφοποίηση αρχικών τίτλων"
     },
     "onlyTitleCaseInEnglish": {
         "message": "Κεφαλαιοποίηση Λέξεων για Μη-Αγγλικούς Τίτλους"
@@ -1601,11 +1681,23 @@
         "message": "Είστε βέβαιοι ότι θα θέλατε να διαγράψετε αυτή την διαμόρφωση;",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "Νέα διαμόρφωση"
+    },
+    "CreateNewConfiguration": {
+        "message": "Δημιουργία νέας διαμόρφωσης"
+    },
+    "DeleteConfiguration": {
+        "message": "Διαγραφή διαμόρφωσης"
+    },
     "ChannelAllowlist": {
         "message": "Ρυθμίσεις για συγκεκριμένα κανάλια"
     },
     "ConfigurationName": {
         "message": "Όνομα της διαμόρφωσης"
+    },
+    "DefaultConfiguration": {
+        "message": "Προεπιλεγμένη διαμόρφωση"
     },
     "NoConfigurationsSetup": {
         "message": "Καμία ρύθμιση παραμέτρων ακόμα. Κάντε κλικ στο κουμπί στο επάνω μέρος για να προσθέσετε μια νέα ρύθμιση.",
@@ -1827,5 +1919,24 @@
     },
     "OpenSettings": {
         "message": "Άνοιγμα ρυθμίσεων"
+    },
+    "skipProfile_forAnHour": {
+        "message": "Για μία ώρα",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Για αυτήν την καρτέλα",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Για αυτό το βίντεο μόνο",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Για αυτό το κανάλι",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "closeOverrideMenu": {
+        "message": "Κλείσιμο μενού"
     }
 }
