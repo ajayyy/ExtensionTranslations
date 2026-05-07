@@ -2013,6 +2013,9 @@
     "slopCategoryAIMusic": {
         "message": "AI music"
     },
+    "slopCategoryAIGraphics": {
+        "message": "AI graphics"
+    },
     "slopCategoryClipMashupReupload": {
         "message": "Clip mashup or reupload"
     },
@@ -2033,6 +2036,9 @@
     },
     "slopCategoryEntertaining": {
         "message": "Entertaining"
+    },
+    "slopCategoryCreative": {
+        "message": "Creative"
     },
     "slopCategoryInformative": {
         "message": "Informative"
