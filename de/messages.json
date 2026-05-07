@@ -443,7 +443,7 @@
         "message": "Stunden"
     },
     "youHaveSavedTime": {
-        "message": "Du hast anderen",
+        "message": "Du erspartest anderen",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
