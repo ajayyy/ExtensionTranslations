@@ -29,6 +29,9 @@
         "message": "Coi phân đoạn như chương",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Tab mặc định trong popup danh sách phân đoạn"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Hiện phân đoạn hiện tại bên cạnh thời gian video"
     },
@@ -130,7 +133,7 @@
         "message": "Đóng Biểu Tượng"
     },
     "OpenSubmissionMenu": {
-        "message": "Mở Menu Phân Đoạn Đã Gửi"
+        "message": "Mở menu phân đoạn đã gửi"
     },
     "OpenCasualVoteMenu": {
         "message": "Mở menu chế độ thoải mái"
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Đóng lại"
+    },
+    "collapseChapters": {
+        "message": "Thu gon các chương con"
+    },
+    "expandChapters": {
+        "message": "Hiện {0} chương con",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Tùy chọn"
@@ -816,6 +826,10 @@
     },
     "category_livestream_messages_short": {
         "message": "Đọc tin nhắn"
+    },
+    "fallbackToDefault": {
+        "message": "Quay về mặc định",
+        "description": "Used in the channel specific settings to fallback to the default option."
     },
     "autoSkip": {
         "message": "Tự động bỏ qua"
@@ -1685,6 +1699,14 @@
     "DefaultConfiguration": {
         "message": "Cấu hình mặc định"
     },
+    "ChannelListInstructions": {
+        "message": "Nhập các kênh bạn muốn áp dụng cấu hình này vào ô bên dưới, mỗi kênh một dòng. Hỗ trợ @handle, UCID và tên hiển thị của kênh. Ưu tiên dùng @handle của kênh, không khuyến khích dùng tên hiển thị — nếu dùng tên hiển thị trong cấu hình, tiện ích sẽ phải gửi thêm yêu cầu mạng cho mỗi video. Bạn có thể lấy ID kênh bằng cách nhấn nút chia sẻ trên trang giới thiệu của kênh. Để mở trang giới thiệu, hãy nhấn vào phần mô tả kênh xuất hiện bên dưới tên kênh trên trang của họ.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Thêm các kênh sẽ dùng cấu hình bỏ qua thay thế này bằng cách nhấn nút trong popup khi đang xem video của kênh đó. Danh sách kênh sẽ xuất hiện bên dưới.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1808,6 +1830,9 @@
     },
     "syncDisabledWarningDeArrow": {
         "message": "DeArrow sẽ không hoạt động nếu không có bộ lưu trữ."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Bạn có thể bật tính năng này bằng cách vào about:config và đặt giá trị của webextensions.storage.sync.enabled cùng webextensions.storage.sync.kinto thành true."
     },
     "storageFull": {
         "message": "Bộ nhớ tiện ích mở rộng đã đầy. Vui lòng xóa một số phân đoạn chưa gửi trong tùy chọn."
@@ -1936,5 +1961,50 @@
     "skipProfile_forThisChannel": {
         "message": "Cho kênh này",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Nhấn để không áp dụng cấu hình bỏ qua này"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Tùy chọn này đang bị ghi đè bởi một tùy chọn ưu tiên cao hơn",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Nhấn để áp dụng cấu hình bỏ qua này"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Chọn cấu hình bỏ qua trước",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Chọn cấu hình bỏ qua"
+    },
+    "SkipProfileMenu": {
+        "message": "Menu cấu hình bỏ qua"
+    },
+    "WhitelistedChannels": {
+        "message": "Kênh trong danh sách không chặn",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Thêm kênh vào cấu hình bỏ qua"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Thay đổi cấu hình bỏ qua của kênh này"
+    },
+    "editActiveSkipProfile": {
+        "message": "Thay đổi cấu hình bỏ qua hiện tại"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Đóng menu cấu hình bỏ qua"
+    },
+    "addChannelToOverride": {
+        "message": "Cài đặt riêng cho kênh"
+    },
+    "editActiveOverride": {
+        "message": "Thay đổi cấu hình cài đặt hiện tại"
+    },
+    "closeOverrideMenu": {
+        "message": "Đóng menu"
     }
 }
