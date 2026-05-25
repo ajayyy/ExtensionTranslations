@@ -1905,5 +1905,21 @@
     "segmentHideFailed": {
         "message": "Nie udało się trwale ukryć/odkryć żądanego segmentu, ponieważ nie można było rozpoznać UUID segmentu:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "Przez godzinę",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "Dla tej karty",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "Tylko dla tego filmu",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "Dla tego kanału",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     }
 }
