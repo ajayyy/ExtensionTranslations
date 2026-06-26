@@ -1989,6 +1989,21 @@
     "addChannelToSkipProfile": {
         "message": "Añadir canal para saltar perfil"
     },
+    "editChannelsSkipProfile": {
+        "message": "Cambiar el perfil de salto de este canal"
+    },
+    "editActiveSkipProfile": {
+        "message": "Cambiar perfil saltado activo"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Cerrar menú de omitir perfil"
+    },
+    "addChannelToOverride": {
+        "message": "Configuración específica del canal"
+    },
+    "editActiveOverride": {
+        "message": "Cambiar perfil de configuración activa"
+    },
     "closeOverrideMenu": {
         "message": "Cerrar menú"
     }
