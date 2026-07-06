@@ -2051,5 +2051,8 @@
     },
     "slopCategoryMisleading": {
         "message": "Misleading"
+    },
+    "slopCommentBox": {
+        "message": "Comment (optional)"
     }
 }
