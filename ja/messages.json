@@ -1699,6 +1699,14 @@
     "DefaultConfiguration": {
         "message": "デフォルト設定"
     },
+    "ChannelListInstructions": {
+        "message": "この設定を適用したいチャンネルを、下のボックスに改行区切りで入力してください。チャンネルの@ハンドル、UCID、表示名に対応しています。チャンネルの@ハンドルの使用を推奨します。表示名の使用はおすすめしません。いずれかの設定で表示名を使用すると、動画ごとに追加のネットワークリクエストが発生します。チャンネルIDは、チャンネルの概要ページにある共有ボタンをクリックすると取得できます。概要ページに移動するには、チャンネルページでチャンネル名の下に表示されているチャンネル説明をクリックしてください。",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "そのチャンネルの動画でポップアップ内のボタンをクリックすると、この代替スキッププロファイルを使用するチャンネルを追加できます。追加したチャンネルの一覧は下に表示されます。",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1934,6 +1942,10 @@
         "message": "お知らせ: 掴みは予告/あらすじから新たに掴み/挨拶に移動しました",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
+    "segmentHideFailed": {
+        "message": "要求されたセグメントのUUIDを解決できなかったため、そのセグメントを完全に非表示/再表示にできませんでした:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
     "skipProfile_forAnHour": {
         "message": "1時間のみ",
         "description": "Option in skip profiles to set this skip profile as the active one for an hour"
@@ -1985,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "スキッププロファイルメニューを閉じる"
+    },
+    "addChannelToOverride": {
+        "message": "チャンネル固有の設定"
+    },
+    "editActiveOverride": {
+        "message": "現在の設定プロファイルを変更"
+    },
+    "closeOverrideMenu": {
+        "message": "メニューを閉じる"
     }
 }
