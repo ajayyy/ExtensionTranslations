@@ -11,7 +11,7 @@
         "message": "Serverul a spus că această cerere este invalidă."
     },
     "409": {
-        "message": "Acesta a fost deja trimis anterior."
+        "message": "Există deja un segment identic."
     },
     "Segment": {
         "message": "segment"
@@ -30,7 +30,7 @@
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
     "segmentListDefaultTab": {
-        "message": "Pag. implic. din meniul principal de informații"
+        "message": "Pagina implicită din meniul principal de informații"
     },
     "showSegmentNameInChapterBar": {
         "message": "Afișați segmentul curent lângă indicatorul de timp"
@@ -48,7 +48,7 @@
         "message": "Semnalați propunerea ca fiind incorectă."
     },
     "Dismiss": {
-        "message": "Renunță"
+        "message": "Renunțați"
     },
     "Loading": {
         "message": "Se încarcă..."
@@ -69,16 +69,16 @@
         "message": "Porniți sunetul"
     },
     "paused": {
-        "message": "Pauză"
+        "message": "În pauză"
     },
     "manualPaused": {
         "message": "Cronometru oprit"
     },
     "confirmMSG": {
-        "message": "Pentru a edita sau a șterge valori individuale, apasă butonul de informații sau deschide popup-ul extensiei apăsând iconița extensiei din colțul dreapta sus."
+        "message": "Pentru a edita sau a șterge segmente individuale, folosiți butonul de ștergere din meniul de propuneri; sau deschideți meniul principal de informații, apăsând pictograma extensiei din colțul dreapta-sus al browserului."
     },
     "clearThis": {
-        "message": "Ești sigur că vrei să ștergi asta?\n\n"
+        "message": "Sigur ștergeți aceste propuneri?\n\n"
     },
     "Unknown": {
         "message": "A apărut o eroare în trimiterea timpilor sponsorizărilor, încearcă din nou mai târziu."
@@ -105,32 +105,32 @@
         "message": "Reîmprospătare segmente"
     },
     "success": {
-        "message": "Succes!"
+        "message": "Finalizat"
     },
     "voted": {
-        "message": "Vot trimis!"
+        "message": "Vot trimis"
     },
     "serverDown": {
         "message": "Se pare că serverul este oprit. Contactează imediat dezvoltatorul."
     },
     "connectionError": {
-        "message": "A apărut o eroare de conectare.",
+        "message": "A apărut o eroare de conexiune.",
         "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
-        "message": "Încă se încarcă segmentele..."
+        "message": "Doar un moment..."
     },
     "clearTimes": {
-        "message": "Ștergeți propunerea"
+        "message": "Ștergeți propunerile"
     },
     "openPopup": {
-        "message": "Deschide meniul principal de informații"
+        "message": "Deschideți meniul principal de informații"
     },
     "closePopup": {
-        "message": "Închide pop-up"
+        "message": "Închideți meniul principal de informații"
     },
     "closeIcon": {
-        "message": "Închide pictograma"
+        "message": "Pictogramă de închidere"
     },
     "OpenSubmissionMenu": {
         "message": "Deschideți meniul de propuneri"
@@ -139,10 +139,10 @@
         "message": "Deschide meniul modului relaxat"
     },
     "sortSegments": {
-        "message": "Sortare Segmente"
+        "message": "Sortare segmente"
     },
     "submitCheck": {
-        "message": "Sunteți sigur că doriți să trimiteți asta?"
+        "message": "Sigur predați aceaste segmente?"
     },
     "voteOnTime": {
         "message": "Votează pe un Segment"
@@ -157,14 +157,14 @@
         "message": "Clasament"
     },
     "recordTimesDescription": {
-        "message": "Trimiteți"
+        "message": "Creare segmente"
     },
     "submissionEditHint": {
-        "message": "Editând secțiunea va apărea după ce faceți clic trimiteți",
+        "message": "Pentru editarea detaliată a segmentelor, folosiți meniul de propuneri din playerul YouTube",
         "description": "Appears in the popup to inform them that editing has been moved to the video player."
     },
     "popupHint": {
-        "message": "Sugestie: În pagina de opțiuni, puteți configura combinații de taste pentru acțiunile de aici"
+        "message": "Sfat: În pagina de opțiuni, puteți configura combinații de taste pentru acțiunile de aici"
     },
     "clearTimesButton": {
         "message": "Șterge Timpii"
@@ -173,19 +173,19 @@
         "message": "Nume de utilizator"
     },
     "setUsername": {
-        "message": "Setează Numele De Utilizator"
+        "message": "Modificare nume utilizator"
     },
     "copyPublicID": {
-        "message": "Copiază ID-Utilizator Public"
+        "message": "Copiere ID public"
     },
     "copySegmentID": {
         "message": "Copiați ID-ul segmentului"
     },
     "loopChapter": {
-        "message": "Redă capitol în buclă"
+        "message": "Redare în buclă"
     },
     "unloopChapter": {
-        "message": "Oprește redarea capitolului în buclă"
+        "message": "Dezactivare buclă"
     },
     "hideThis": {
         "message": "Ascunde asta"
@@ -209,7 +209,7 @@
         "message": "Ascundeți automat butonul principal de informații"
     },
     "showDeleteButton": {
-        "message": "Show delete button on YouTube player"
+        "message": "Afișați butonul de ștergere propunere în playerul YouTube"
     },
     "enableViewTracking": {
         "message": "Permiteți contabilizarea omiterilor"
@@ -239,13 +239,13 @@
         "message": "În loc să solicite segmente de pe server folosind ID-ul video, primele 4 caractere ale hash-ului ID-ul videoului sunt trimise. Acest server va trimite înapoi date pentru toate videoclipurile cu hash-uri similare."
     },
     "enableShowCategoryWithoutPermission": {
-        "message": "Arată categoriile în meniul de adăugare chiar fără permisiunea de adăugare"
+        "message": "Afișați categorii pentru care utilizatorul dv. nu are drept de propunere"
     },
     "whatShowCategoryWithoutPermission": {
-        "message": "Unele categorii necesită permisiunea de a depune din cauza cerințelor minime de reputație"
+        "message": "Unele categorii necesită drept de propunere dobândit în baza unor cerințe minime de reputație"
     },
     "showNotice": {
-        "message": "Afișați notificarea din nou"
+        "message": "Afișați din nou notificarea"
     },
     "showSkipNotice": {
         "message": "Afișați o notificare după omiterea unui segment"
@@ -263,13 +263,13 @@
         "message": "Dimensiune redusă la omitere automată"
     },
     "noticeVisibilityMode2": {
-        "message": "Dimensiune mică"
+        "message": "Dimensiune redusă"
     },
     "noticeVisibilityMode3": {
-        "message": "Estompată la omitere automată"
+        "message": "Estompat la omitere automată"
     },
     "noticeVisibilityMode4": {
-        "message": "Estompată"
+        "message": "Estompat"
     },
     "longDescription": {
         "message": "SponsorBlock vă permite să săriți peste sponsori, intro, outros, memento-uri pentru abonament și alte părți enervante ale videoclipurilor YouTube SponsorBlock este o extensie crowdsourced de browser, care hai să trimită oricui timpul de început și de sfârșit pentru segmente sponsorizate și alte segmente de videoclipuri YouTube. Odată ce o persoană transmite aceste informații, toți ceilalți cu această extensie vor sări peste segmentul sponsorizat. De asemenea, poți sări peste secțiunile non-muzicale ale videoclipurilor.",
@@ -280,7 +280,7 @@
         "description": "Used on Firefox Store Page"
     },
     "sourceCode": {
-        "message": "Cod Sursă",
+        "message": "Cod sursă",
         "description": "Used on Firefox Store Page"
     },
     "noticeUpdate": {
@@ -304,7 +304,7 @@
         "description": "Keybind label"
     },
     "setSubmitKeybind": {
-        "message": "Predă segmentele",
+        "message": "Predare segmente",
         "description": "Keybind label"
     },
     "setPreviewKeybind": {
@@ -312,7 +312,7 @@
         "description": "Keybind label"
     },
     "setCloseSkipNoticeKeybind": {
-        "message": "Închideți notificarea de ignorare",
+        "message": "Închidere notificare",
         "description": "Keybind label"
     },
     "setDownvoteKeybind": {
@@ -352,7 +352,7 @@
         "message": "Omiterea este dezactivată"
     },
     "yourWork": {
-        "message": "Rezultatele dv",
+        "message": "Rezultatele dv.",
         "description": "Used to describe the section that will show you the statistics from your submissions."
     },
     "502": {
@@ -383,11 +383,11 @@
         "description": "Used for skipping to things (Skip to Highlight)"
     },
     "upcoming": {
-        "message": "{0} în curând",
+        "message": "Urmează {0}",
         "description": "Example: Upcoming Sponsor"
     },
     "skipped": {
-        "message": "{0} a fost omis",
+        "message": "S-a(u) omis {0}",
         "description": "Example: Sponsor Skipped"
     },
     "muted": {
@@ -399,7 +399,7 @@
         "description": "Used for skipping to things (Skipped to Highlight)"
     },
     "voted_on": {
-        "message": "Ați votat {0}",
+        "message": "Vot trimis pentru {0}",
         "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
@@ -436,7 +436,7 @@
         "message": "ore"
     },
     "youHaveSavedTime": {
-        "message": "Tu ai salvat alte persoane",
+        "message": "Ați facilitat altora omiterea a",
         "description": "You've saved people from 887,362 segments (236d 15h 5.3 minutes of their lives)."
     },
     "youHaveSavedTimeEnd": {
@@ -453,10 +453,10 @@
         "message": "Nu partajați ID-ul privat. Acesta poate fi folosit pentru a acționa în numele dv. în cadrul acestei extensii. În cazul în care vă căutați ID-ul public, acesta se găsește în meniul principal de informații al extensiei."
     },
     "setUserID": {
-        "message": "Stabiliți ID-ul privat"
+        "message": "Stabilire ID privat"
     },
     "userIDChangeWarning": {
-        "message": "Avertisment: Modificarea Id-ului de utilizator privat este permanentă. Sunteți sigur că doriți să faceți acest lucru? Asigurați-vă că ați făcut o copie de rezervă pe cea veche, pentru orice eventualitate."
+        "message": "Avertisment: Modificarea ID-ului privat de utilizator este permanentă. Sigur doriți să faceți acest lucru? Păstrați o copie de siguranță a ID-ului vechi."
     },
     "createdBy": {
         "message": "Creat de"
@@ -523,13 +523,13 @@
         "message": "Nu este permisă adăugarea pe un live stream sau pe o primă. Vă rugăm să așteptați până se termină, apoi reîmprospătați pagina și verificați dacă segmentele sunt încă valide."
     },
     "showUploadButton": {
-        "message": "Afișați butonul pentru trimitere"
+        "message": "Afișați butonul de trimitere"
     },
     "customServerAddress": {
         "message": "Adresa serverului SponsorBlock"
     },
     "customServerAddressDescription": {
-        "message": "Adresa serverului pe care SponsorBlock o folosește pentru comunicare.\nNu modificați, decât dacă aveți un server de test."
+        "message": "Adresa serverului pe care SponsorBlock îl folosește pentru comunicare.\nNu modificați, decât dacă aveți un server de test."
     },
     "dataFetchingServerAddress": {
         "message": "Adresa serverului pentru preluarea datelor"
@@ -574,7 +574,7 @@
         "message": "Aici este întreaga configurație a extensiei, în format JSON, inclusiv ID-ul dv. privat. Partajați cu grijă!"
     },
     "setOptions": {
-        "message": "Stabiliți opțiunile"
+        "message": "Stabilire opțiunile"
     },
     "exportOptionsWarning": {
         "message": "Atenție: Schimbarea acestei opțiuni este permanentă și poate strica instalarea. Sunteți sigur că doriți să faceți asta? Asigurati-vă că ați făcut o copie de rezervă."
@@ -583,16 +583,16 @@
         "message": "Acest JSON nu este formatat corect. Opțiunile dumneavoastră nu au fost modificate."
     },
     "confirmNoticeTitle": {
-        "message": "Trimite Segment"
+        "message": "Predare segment"
     },
     "submit": {
-        "message": "Trimite"
+        "message": "Predați"
     },
     "cancel": {
         "message": "Revocare"
     },
     "delete": {
-        "message": "Șterge"
+        "message": "Ștergeți"
     },
     "preview": {
         "message": "Previzualizare"
@@ -610,10 +610,10 @@
         "message": "Copiați informațiile de depanare"
     },
     "copyDebugInformation": {
-        "message": "Copiază Informațiile de Depanare În Clipboard"
+        "message": "Copiați informațiile de depanare"
     },
     "copyDebugInformationFailed": {
-        "message": "Eroare la scrierea în clipboard"
+        "message": "Copierea a eșuat"
     },
     "copyDebugInformationOptions": {
         "message": "Copiază informația în clipboard pentru a fi furnizată dezvoltatorului când se găsește o eroare / când un dezvoltator o cere. Informațiile sensibile precum ID-ul de utilizator, canale exceptate, și adresa serverului personalizat au fost șterse. Însă conține informații precum useragent-ul, browser-ul, sistemul de operare, și numărul versiunii extensiei. "
@@ -642,7 +642,7 @@
         "message": "Sponsor"
     },
     "category_sponsor_description": {
-        "message": "Promovare plătită, refferali plătiți și reclame directe. Nu pentru autopromovări sau promovări gratis ale cauzelor/creatorilor/website-urilor/produselor."
+        "message": "Promovare plătită, recomandări plătite și reclame directe. Nu folosiți pentru segmente de auto-promovare sau pentru mențiuni gratuite ale unor cauze / creatori / site-uri / produse care sunt într-adevăr pe placul creatorului."
     },
     "category_sponsor_guideline1": {
         "message": "Promovări plătite"
@@ -651,10 +651,10 @@
         "message": "Categoria exclude donații sau mărfuri personalizate"
     },
     "category_selfpromo": {
-        "message": "Promovare neplătită/autopromovare"
+        "message": "Promovare gratuită / auto-promovare"
     },
     "category_selfpromo_description": {
-        "message": "Similar cu \"sponsorizare\" doar că este neplătit sau autopromovare. Aceasta include secțiuni despre merchandise, donații, sau informații despre cei cu care au colaborat."
+        "message": "Categorie asemănătoare cu cea de „Sponsor“, însă scenele nu sunt plătite sau creatorul își promovează propriul produs sau conținut. Categoria include secțiuni despre donații sau informații despre cei cu care au colaborat."
     },
     "category_selfpromo_guideline1": {
         "message": "Donații, abonamente și mărfuri personalizate"
@@ -703,7 +703,7 @@
         "message": "Un interval fără conținut. Poate fi o pauză, un cadru static, o animație care se repeta. Nu ar trebui sa fie folosit pentru tranziții care conțin informații."
     },
     "category_intro_short": {
-        "message": "Pauză"
+        "message": "Tranziție"
     },
     "category_intro_guideline1": {
         "message": "Scene fără conținut"
@@ -712,10 +712,10 @@
         "message": "Categoria exclude tranzițiile cu informații"
     },
     "category_outro": {
-        "message": "Ecran De Final/Credite"
+        "message": "Generic de final"
     },
     "category_outro_description": {
-        "message": "Credite sau atunci când apare ecranul de final YouTube. Nu pentru concluzii cu informații."
+        "message": "Ecran de final sau carduri de final, excluzând concluzii informative."
     },
     "category_outro_guideline1": {
         "message": "Nu marcați conținut informativ, chiar dacă sunt suprapuse carduri de final"
@@ -755,7 +755,7 @@
         "message": "Subiecte tangențiale și glume"
     },
     "category_filler_description": {
-        "message": "Scene tangențiale pentru distracție care nu sunt necesare pentru a înțelege ideea principală a clipului video. Nu sugerați segmente în care se oferă informații suplimentare. Categoria este deosebit de agresivă și este menită a se folosi strict pentru a omite diverse „glume“."
+        "message": "Scene tangențiale, pentru distracție, care nu sunt necesare pentru a înțelege ideea principală a clipului video. Nu sugerați segmente în care se oferă informații suplimentare. Categoria este deosebit de agresivă și este menită a se folosi strict pentru a omite diverse „glume“."
     },
     "category_filler_short": {
         "message": "Subiecte tangențiale"
@@ -770,13 +770,13 @@
         "message": "Categoria exclude scenele valoroase pentru subiectul videoclipului"
     },
     "category_music_offtopic": {
-        "message": "Muzică: Secţiune Non-Muzicală"
+        "message": "Muzică: Scene non-muzicale"
     },
     "category_music_offtopic_description": {
         "message": "Doar pentru videoclipuri muzicale. Categoria include scene non-muzicale din spectacole în direct sau secțiuni care nu apar în lansări oficiale. Folosită doar dacă segmentele nu sunt deja acoperite de o altă categorie."
     },
     "category_music_offtopic_short": {
-        "message": "Non-Muzical"
+        "message": "Scene non-muzicale"
     },
     "category_music_offtopic_guideline1": {
         "message": "Secțiuni care nu sunt în lansări oficiale"
@@ -834,7 +834,7 @@
         "message": "Afișare în bara de derulare"
     },
     "disable": {
-        "message": "Dezactivare"
+        "message": "Nu se omite"
     },
     "autoSkip_POI": {
         "message": "Omitere automată la început"
@@ -843,7 +843,7 @@
         "message": "Notificare după încărcarea paginii"
     },
     "showOverlay_POI": {
-        "message": "Afișare în bara de derulare"
+        "message": "Afișare în bara de redare"
     },
     "showOverlay_full": {
         "message": "Afișare etichetă"
@@ -869,7 +869,7 @@
         "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
-        "message": "Culoare pentru propuneri nefinalizate",
+        "message": "Culoare pentru propuneri nepredate",
         "description": "Referring to submissions that have not been sent to the server yet."
     },
     "seekBarColor": {
@@ -893,13 +893,13 @@
         "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
-        "message": "Activează Serverul de Teste"
+        "message": "Folosiți un server de test"
     },
     "whatEnableTestingServer": {
         "message": "Înregistrările și voturile dumneavoastră NU VOR FI CONTORIZATE pe serverul principal. Utilizați asta doar pentru teste."
     },
     "testingServerWarning": {
-        "message": "Toate înregistrările și voturile dumneavoastră NU VOR FI CONTORIZATE pe serverul principal în timp ce vă conectați la serverul de teste. Asigurați-vă că dezactivați asta când vreți să trimiteți înregistrări reale."
+        "message": "Dacă opțiunea este activată, propunerile și voturile dv. NU VOR FI CONTORIZATE pe serverul principal. Dezactivați opțiunea când trimiteți propuneri reale."
     },
     "bracketNow": {
         "message": "(Acum)"
@@ -931,7 +931,7 @@
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
-        "message": "ascuns: downvote"
+        "message": "ascuns: neapreciat"
     },
     "hiddenDueToDuration": {
         "message": "ascuns: prea scurt"
@@ -981,13 +981,13 @@
         "message": "Acest videoclip este categorisit ca muzică. Ești sigur ca există un sponsor? Dacă acesta este defapt un segment non-muzical, deschideți opțiunile extensiei și activați această categorie. Apoi, puteți trimite acest segment ca non-muzical în loc de sponsol. Vă rugăm să citiți ghidul dacă sunteți confuz."
     },
     "multipleSegments": {
-        "message": "Segmente Multiple"
+        "message": "segmente multiple"
     },
     "guidelines": {
         "message": "Instrucțiuni"
     },
     "readTheGuidelines": {
-        "message": "Citește Instrucțiunile!!",
+        "message": "Citiți regulamentul!!",
         "description": "Show the first time they submit or if they are \"high risk\""
     },
     "categoryUpdate1": {
@@ -1007,7 +1007,7 @@
         "message": "Acest segment este mare. Dacă întregul videoclip se încadrează într-o categorie, atunci schimbați de la \"Săriți\" la \"Videoclip întreg\". Vedeți instrucțiunile pentru mai multe informații."
     },
     "categoryPillTitleText": {
-        "message": "Întregul videoclip se încadrează în categoria menționată și nu poate fi separat în segmente"
+        "message": "Întregul videoclip se încadrează în categoria menționată și nu poate fi separat în segmente ale acesteia"
     },
     "chapterNameTooltipWarning": {
         "message": "Unul dintre numele capitolelor tale este similar cu o categorie. Ar trebui să folosești categorii atunci când este posibil."
@@ -1051,6 +1051,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Temă întunecată pentru pagina de opțiuni"
+    },
+    "prideTheme": {
+        "message": "Temă Pride"
     },
     "helpPageThanksForInstalling": {
         "message": "Vă mulțumim pentru instalarea SponsorBlock."
@@ -1098,7 +1101,7 @@
         "message": "Aflați mai multe"
     },
     "FullDetails": {
-        "message": "Detalii Complete"
+        "message": "Detalii"
     },
     "CopyDownvoteButtonInfo": {
         "message": "Butonul acordă un vot negativ și creează o copie pentru a retrimite"
@@ -1192,7 +1195,7 @@
         "message": "Deschide pagina de opțiuni"
     },
     "resetToDefault": {
-        "message": "Restabiliți valorile implicite"
+        "message": "Restabilire valorile implicite"
     },
     "confirmResetToDefault": {
         "message": "Ești sigur că vrei sa resetezi toate setările la valorile lor implicite? Această acțiune nu poate fi anulată."
@@ -1809,7 +1812,7 @@
         "message": "Simplificați meniul principal de informații"
     },
     "hideSegmentCreationInPopup": {
-        "message": "Ascunde butoanele pentru crearea segmentului în fereastra pop-up"
+        "message": "Ascundeți funcționalitatea de creare segmente din meniul principal de informații"
     },
     "syncDisabledWarning": {
         "message": "Atenție: Stocarea datelor extensiilor a fost dezactivată în browser-ul tău. Setările nu vor fi salvate dacă încerci să le salvezi."
@@ -1922,7 +1925,7 @@
         "message": "Deschide setările"
     },
     "hookNewFeature": {
-        "message": "Atenție: Subcategoria „Laitmotiv“ a fost mutată în noua categorie „Laitmotiv / Salutări“",
+        "message": "Atenție: Subcategoria „Laitmotiv“ este acum parte din noua categorie „Laitmotiv / Salutări“",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
     "segmentHideFailed": {

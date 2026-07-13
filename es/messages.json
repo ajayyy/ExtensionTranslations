@@ -182,10 +182,10 @@
         "message": "Copiar ID de Segmento"
     },
     "loopChapter": {
-        "message": "Acoplar capítulo"
+        "message": "Repetir capítulo"
     },
     "unloopChapter": {
-        "message": "Desacoplar capítulo"
+        "message": "Dejar de repetir el capítulo"
     },
     "hideThis": {
         "message": "No mostrar esto"
@@ -747,28 +747,28 @@
         "description": "https://en.wikipedia.org/wiki/Narrative_hook"
     },
     "category_hook_description": {
-        "message": "Narrados trailers para el próximo vídeo, saludos y adyuvantes. Esto no debería saltarse conclusiones con información."
+        "message": "Avances narrados del próximo video, saludos y despedidas. Esto no debe omitir conclusiones con información."
     },
     "category_hook_guideline1": {
-        "message": "Rastreadores narrados para el próximo vídeo"
+        "message": "Avances narrados del próximo video"
     },
     "category_hook_guideline2": {
-        "message": "Saludos y buenas secciones de bienvenida a los televidentes"
+        "message": "Secciones de saludo y despedida para recibir a los espectadores"
     },
     "category_hook_guideline3": {
         "message": "No para secciones que añaden contenido adicional"
     },
     "category_filler": {
-        "message": "Desvío del tema/Divagues"
+        "message": "Desvíos/Bromas"
     },
     "category_filler_description": {
-        "message": "Desvíos del tema principal o divagues añadidos solo como relleno o humor que no son necesarias para entender el contenido principal del video. Esto no debería incluir segmentos que proporcionen contexto o detalles de fondo. Es una categoría muy agresiva pensada para cuando no se está de humor para «divertirse»."
+        "message": "Escenas fuera de tema o bromas que no son necesarias para entender el contenido principal del video. Esto no debe incluir segmentos que aporten contexto o detalles de fondo. Es una categoría muy agresiva, pensada para cuando no estás de humor para \"divertirte\"."
     },
     "category_filler_short": {
         "message": "Tangentes"
     },
     "category_filler_guideline1": {
-        "message": "Escenas tangenciales o chistes"
+        "message": "Escenas fuera de tema o bromas"
     },
     "category_filler_guideline2": {
         "message": "Distracciones, bloopers, repeticiones"
@@ -862,7 +862,7 @@
         "message": "Omitir automáticamente todos los segmentos cuando hay un segmento sin música"
     },
     "skipNonMusicOnlyOnYoutubeMusic": {
-        "message": "Solo saltear automáticamente en music.youtube.com"
+        "message": "Solo omitir automáticamente en music.youtube.com"
     },
     "muteSegments": {
         "message": "Permitir segmentos que silencian el audio en lugar de omitir"
@@ -890,7 +890,7 @@
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
     },
     "openAdvancedSkipOptions": {
-        "message": "Abrir opciones avanzadas de salto"
+        "message": "Abrir opciones avanzadas de omisión"
     },
     "advancedSkipNotSaved": {
         "message": "Error de sintaxis: sus opciones no han sido guardadas"
@@ -1090,7 +1090,7 @@
         "message": "Al hacer clic en el botón de reproducción se indica el inicio de un segmento y al hacer clic en el icono de parada se indica el final. Haga clic en el botón de la flecha hacia arriba para abrir el menú de envío donde puede verificar sus segmentos previsualizándolos y editándolos para ser perfectos. La precisión es importante, asegúrese de leer las directrices antes de enviar."
     },
     "helpPageCopyOfDatabase": {
-        "message": "¿Dónde van las presentaciones?"
+        "message": "¿A dónde van los envíos?"
     },
     "helpPageCopyOfDatabase1": {
         "message": "Todas las contribuciones se integran en la base de datos de SponsorBlock, la cual es pública para cualquier usuario y está disponible en"
@@ -1099,7 +1099,7 @@
         "message": "El código fuente está disponible libremente. Así que, aun si algo me sucede, sus envíos no se perderán."
     },
     "AdviceForSubmitting": {
-        "message": "Asesoramiento para enviar"
+        "message": "Consejos para enviar"
     },
     "Credits": {
         "message": "Créditos"

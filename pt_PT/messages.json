@@ -184,8 +184,18 @@
     "loopChapter": {
         "message": "Capítulo em iteração"
     },
+    "unloopChapter": {
+        "message": "Capítulo em iteração"
+    },
     "hideThis": {
         "message": "Esconder isto"
+    },
+    "collapseChapters": {
+        "message": "Recolher capítulos internos"
+    },
+    "expandChapters": {
+        "message": "Mostrar capítulos {0} internos",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opções"
@@ -312,6 +322,14 @@
         "message": "Fechar aviso de ignorar",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Segmento de Downvote",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Secção de votos positivos",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Capítulo seguinte",
         "description": "Keybind label"
@@ -346,6 +364,10 @@
     },
     "502": {
         "message": "O servidor parece estar sobrecarregado. Tente novamente em alguns segundos."
+    },
+    "errorCode": {
+        "message": "O servidor retornou o código de status {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Ignorar"
@@ -476,6 +498,9 @@
     },
     "resetInvidiousInstanceAlert": {
         "message": "Você está prestes a redefinir a lista de instâncias do Invidious"
+    },
+    "invidiousDisabledSafari": {
+        "message": "O suporte ao Invidious não está disponível no Safari de momento devido a um erro no próprio Safari. Quando a Apple corrigir esse erro, o suporte será novamente disponibilizado."
     },
     "currentInstances": {
         "message": "Instâncias atuais:"
@@ -702,6 +727,9 @@
     "category_outro_guideline1": {
         "message": "Não inclui conteúdo, mesmo que cartões de finalização estejam na tela"
     },
+    "category_preview": {
+        "message": "Previa/Recapitulação/Gancho Narrativo"
+    },
     "category_preview_description": {
         "message": "Coleção de clipes que mostram o que está por vir neste vídeo ou em outros vídeos em uma série onde todas as informações são repetidas mais tarde no vídeo."
     },
@@ -712,6 +740,22 @@
         "message": "Recapitulação de um vídeo anterior"
     },
     "category_preview_guideline3": {
+        "message": "Não é para seções que adicionam conteúdo adicional"
+    },
+    "category_hook": {
+        "message": "Ganho/Saudações",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Trailers narrados para o próximo vídeo, saudações e despedidas. Isso não deve ignorar conclusões com informação."
+    },
+    "category_hook_guideline1": {
+        "message": "Trailers com narração para o próximo vídeo"
+    },
+    "category_hook_guideline2": {
+        "message": "Saudações e seções de despedida acolhendo espectadores"
+    },
+    "category_hook_guideline3": {
         "message": "Não é para seções que adicionam conteúdo adicional"
     },
     "category_filler": {
@@ -783,6 +827,10 @@
     "category_livestream_messages_short": {
         "message": "Leitura de Mensagens"
     },
+    "fallbackToDefault": {
+        "message": "Voltar ao padrão",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Ignorar automaticamente"
     },
@@ -813,6 +861,9 @@
     "autoSkipOnMusicVideos": {
         "message": "Ignorar automaticamente todos os segmentos quando houver segmentos sem música"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Apenas pule automaticamente em music.youtube.com"
+    },
     "muteSegments": {
         "message": "Permitir segmentos que silenciem o áudio ao invés de ignorar"
     },
@@ -837,6 +888,16 @@
     "skipOption": {
         "message": "Opção de pulo",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Abrir opções de pular avançados"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Erro de sintaxe: Suas opções não foram salvas"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "Como isto funciona",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Habilitar servidor de testes beta"
@@ -989,6 +1050,9 @@
     "considerDonating": {
         "message": "Ajude a financiar o desenvolvimento"
     },
+    "supportSponsorBlock": {
+        "message": "Apoiar meu trabalho em tempo integral no Patrocínio"
+    },
     "hideDonationLink": {
         "message": "Ocultar o link de doação"
     },
@@ -1010,11 +1074,20 @@
     "helpPageHowSkippingWorks": {
         "message": "Como funciona"
     },
+    "helpPageHowSkippingWorks1": {
+        "message": "Todos os patrocinadores são submetidos por usuários como você. Você pode ver a lista de patrocinadores apresentados na base de dados, abrindo o popup no canto superior direito do seu navegador."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Sempre que ignorar um segmento, irá receber um aviso. Se o tempo estiver errado vote contra clicando no voto negativo! Também pode votar no pop-up."
     },
     "Submitting": {
         "message": "Enviando"
+    },
+    "helpPageSubmitting1": {
+        "message": "O envio pode ser feito clicando no logotipo do SponsorBlock no reprodutor de vídeo."
+    },
+    "helpPageSubmitting2": {
+        "message": "Clicar no botão Jogar indica o início de um segmento e clicar no ícone de parar indica o fim. Clique no botão de seta para cima para abrir o menu de submissão onde você pode verificar seus segmentos pré-visualizando e editando-os para serem perfeitos. A precisão é importante, certifique-se de ler as orientações antes de apresentar."
     },
     "helpPageCopyOfDatabase": {
         "message": "Para onde vão os envios?"
@@ -1626,6 +1699,14 @@
     "DefaultConfiguration": {
         "message": "Configuração predefinida"
     },
+    "ChannelListInstructions": {
+        "message": "Introduza os canais aos quais pretende aplicar esta configuração na caixa abaixo, separados por novas linhas. São suportados IDs de canal e nomes de apresentação. Os nomes de utilizador @ não são suportados. Pode obter IDs de canal ao clicar no botão de partilha na página acerca do canal. Para aceder a página sobre, clique na descrição do canal que aparece abaixo do nome do canal na página do canal.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Adicione canais que devem usar este perfil alternativo de ignorar, clicando no botão no pop-up em um vídeo feito por esse canal. A lista de canais aparecerá abaixo.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Nenhum ajuste salvo. Clique no botão Novo ajuste.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1750,6 +1831,9 @@
     "syncDisabledWarningDeArrow": {
         "message": "O DeArrow não irá funcionar sem armazenamento."
     },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "Pode ativar, acedendo a about:config e definindo o valor de \"webextensions.storage.sync.enabled\" como verdadeiro."
+    },
     "storageFull": {
         "message": "O armazenamento da extensão está cheio. Elimine alguns segmentos não submetidos nas opções."
     },
@@ -1775,6 +1859,10 @@
     "yttvLiveContentWarning": {
         "message": "Na TV do YouTube, o Patrocinador não é compatível com conteúdo ao vivo e gravado recentemente. Se esta for uma gravação recente, por favor, espere algumas horas para que a versão processada da gravação fique disponível.",
         "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Lista branca de canais não é suportada em tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
     },
     "likeOriginalTitle": {
         "message": "Gostou do título original?",
@@ -1850,6 +1938,14 @@
     "OpenSettings": {
         "message": "Abrir as definições"
     },
+    "hookNewFeature": {
+        "message": "Aviso: O Hook foi movido da categoria Pré-visualização/Recapitulação para a nova categoria Hook/Saudação",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Falha ao ocultar/exibir permanentemente o segmento solicitado, pois o UUID do segmento não pôde ser resolvido:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
     "skipProfile_forAnHour": {
         "message": "Por uma hora",
         "description": "Option in skip profiles to set this skip profile as the active one for an hour"
@@ -1865,6 +1961,13 @@
     "skipProfile_forThisChannel": {
         "message": "Para este canal",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Clique para aplicar este perfil de ignorar"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "Esta opção está sendo substituída por uma opção de maior prioridade",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
     "clickToApplyThisProfile": {
         "message": "Clique para aplicar este perfil de ignorar"
@@ -1894,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "Fechar ignorar menu de perfil"
+    },
+    "addChannelToOverride": {
+        "message": "Definições específicas do canal"
+    },
+    "editActiveOverride": {
+        "message": "Alterar perfil de ignorar ativo"
+    },
+    "closeOverrideMenu": {
+        "message": "Fechar menu"
     }
 }
