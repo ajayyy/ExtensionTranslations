@@ -623,7 +623,7 @@
         "message": "复制到剪贴板失败"
     },
     "copyDebugInformationOptions": {
-        "message": "复制信息到剪贴板，在提交错误或开发者需要时提供给他。 敏感信息如：您的用户ID，白名单频道和自定义服务器地址等已被删除。然而，它仍然包含诸如您的useragent ，浏览器，操作系统和插件版本号等信息。 "
+        "message": "复制信息到剪贴板，在提交错误或开发者需要时提供给他。 敏感信息如：您的用户 ID，白名单频道和自定义服务器地址等已被删除。然而，它仍然包含诸如您的 useragent，浏览器，操作系统和插件版本号等信息。 "
     },
     "copyDebugInformationComplete": {
         "message": "调试信息已复制到剪切板中。 您可以随意移除任何您不想分享的信息。请将其另存为 .txt 文件或粘贴到错误报告中。"
@@ -862,7 +862,7 @@
         "message": "自动跳过所有非音乐片段"
     },
     "skipNonMusicOnlyOnYoutubeMusic": {
-        "message": "只在music.youtube.com自动跳过"
+        "message": "只在 music.youtube.com 上自动跳过"
     },
     "muteSegments": {
         "message": "允许静音的片段而不是跳过"
@@ -928,13 +928,13 @@
         "message": "您必须为所有您要提交的片段选择类别！"
     },
     "bracketStart": {
-        "message": "（开始）"
+        "message": "（开头）"
     },
     "bracketEnd": {
         "message": "（结束）"
     },
     "End": {
-        "message": "结束",
+        "message": "结尾",
         "description": "Button that skips to the end of a segment"
     },
     "hiddenDueToDownvote": {
@@ -948,7 +948,7 @@
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a channel and the extension is unable to determine what channel they are looking at.",
-        "message": "未检测到频道ID。如果您正在使用嵌入式视频播放器，请转到 Youtube 网站观看。也可能是 Youtube 更改了页面布局，如果您认为是此问题，请在此评论："
+        "message": "未检测到频道 ID。如果您正在使用嵌入式视频播放器，请转到 YouTube 网站观看。也可能是 YouTube 更改了页面布局，如果您认为是此问题，请在此评论："
     },
     "invidiousPermissionRefresh": {
         "message": "浏览器已撤销在 Invidious 及其他第三方网站运行所需的权限。请点击下方按钮重新激活权限。"
@@ -1011,7 +1011,7 @@
         "description": "Used as the button to dismiss a tooltip"
     },
     "fullVideoTooltipWarning": {
-        "message": "片段过长。如果整个视频都是关于同一个主题，请将“跳过”改成“整个视频”标签。查看指南了解详情。"
+        "message": "片段时长过长。如果整个视频都是关于同一个主题，请将“跳过”改成“整个视频”标签。查看指南了解详情。"
     },
     "categoryPillTitleText": {
         "message": "整个视频都被标记为此分类且内容过于紧凑，无法分开。"
@@ -1051,7 +1051,7 @@
         "message": "资助开发"
     },
     "supportSponsorBlock": {
-        "message": "在SponsorBlock上支持我的全职工作"
+        "message": "支持我全职工作于 SponsorBlock"
     },
     "hideDonationLink": {
         "message": "隐藏捐赠链接"
@@ -1193,7 +1193,7 @@
         "message": "更改"
     },
     "youtubeKeybindWarning": {
-        "message": "这是 Youtube 内置的快捷方式。您确定要使用吗？"
+        "message": "这是 YouTube 内置的快捷方式。您确定要使用吗？"
     },
     "betaServerWarning": {
         "message": "测试服务器已启用！"
@@ -1301,7 +1301,7 @@
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
     "deArrowFullName": {
-        "message": "DeArrow - 优化 Youtube 标题和缩略图",
+        "message": "DeArrow - 优化 YouTube 标题和缩略图",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
     },
     "deArrowDescription": {
@@ -1388,7 +1388,7 @@
         "message": "当未提交缩略图时"
     },
     "whatThumbnailFallbackOption": {
-        "message": "随机选择播放时刻时，它会使用 SpongorBlock 的数据来保证选中没有广告的时间段。",
+        "message": "随机选择播放时刻时，它会使用 SponsorBlock 的数据来保证选中没有广告的时间段。",
         "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
     },
     "RandomTime": {
@@ -1454,11 +1454,11 @@
         "message": "从服务器加载数据时隐藏标题和缩略图。如果禁用，你会在标题和缩略图改变时看到屏幕闪烁。"
     },
     "ignoreTranslatedTitles": {
-        "message": "不展示YouTube翻译的标题",
+        "message": "不展示 YouTube 翻译的标题",
         "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
     },
     "ignoreTranslatedTitlesDescription": {
-        "message": "YouTube有时会自动将标题翻译成你的母语。这个选项只在众包标题不可用时生效。"
+        "message": "YouTube 有时会自动将标题翻译成你的母语。这个选项只在众包标题不可用时生效。"
     },
     "onAllPages": {
         "message": "在所有页面",
@@ -1541,7 +1541,7 @@
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "chatboxDescription": {
-        "message": "加入Discord或Matrix以永久保留在这个对话中",
+        "message": "加入 Discord 或 Matrix 以保持对话",
         "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
@@ -1557,7 +1557,7 @@
         "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
     },
     "tip3": {
-        "message": "避免描述对视频的感受（“惊人的”）",
+        "message": "避免描述对视频的感受（比如“惊人的”）",
         "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
     },
     "tip4": {
@@ -1662,7 +1662,7 @@
         "message": "默认使用原视频内容"
     },
     "whatDefaultToOriginals": {
-        "message": "默认显示原始标题和缩略图，但鼠标悬停时会出现一个按钮，用来查看自定义标题和缩略图"
+        "message": "默认显示原始标题和缩略图，但鼠标悬停时会出现一个按钮，用来查看自定义标题和缩略图。"
     },
     "replaceTitles": {
         "message": "替换标题"
@@ -1678,7 +1678,7 @@
         "description": "Description under the \"Use Crowdsourced Titles\" option"
     },
     "areYouSureDeleteConfig": {
-        "message": "你确定要删除这个配置文件吗？这个配置文件将会永久消失！（真的很久！）",
+        "message": "你确定要删除这个配置文件吗？",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
     "NewConfiguration": {
@@ -1700,7 +1700,7 @@
         "message": "默认配置"
     },
     "ChannelListInstructions": {
-        "message": "在下面输入框中输入您想要应用此配置的频道，各频道之间用换行分隔。 支持频道 @handles, UCID 和显示名称。 推荐使用频道@handles，不应该使用显示名称——在任何配置中使用显示名称都会在每个视频产生额外的网络请求。 您可以通过以下方式获取频道ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
+        "message": "在下面输入框中输入您想要应用此配置的频道，各频道之间用换行分隔。 支持频道 @handles, UCID 和显示名称。 推荐使用频道 @handles，不应该使用显示名称——因为在任何配置中使用显示名称都会在每个视频产生额外的网络请求。 您可以通过以下方式获取频道ID：点击频道主页上频道名称下方的频道简介，进入频道详情页，然后点击详情页上的分享按钮即可。",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "ChannelListInstructionsSB": {
@@ -1997,5 +1997,14 @@
     },
     "closeSkipProfileMenu": {
         "message": "关闭“跳过配置”菜单"
+    },
+    "addChannelToOverride": {
+        "message": "本频道的特殊设定"
+    },
+    "editActiveOverride": {
+        "message": "更改使用中的配置"
+    },
+    "closeOverrideMenu": {
+        "message": "关闭菜单"
     }
 }
