@@ -574,7 +574,7 @@
         "message": "Aici este întreaga configurație a extensiei, în format JSON, inclusiv ID-ul dv. privat. Partajați cu grijă!"
     },
     "setOptions": {
-        "message": "Stabilire opțiunile"
+        "message": "Stabilire opțiuni"
     },
     "exportOptionsWarning": {
         "message": "Atenție: Schimbarea acestei opțiuni este permanentă și poate strica instalarea. Sunteți sigur că doriți să faceți asta? Asigurati-vă că ați făcut o copie de rezervă."
@@ -654,7 +654,7 @@
         "message": "Promovare gratuită / auto-promovare"
     },
     "category_selfpromo_description": {
-        "message": "Categorie asemănătoare cu cea de „Sponsor“, însă scenele nu sunt plătite sau creatorul își promovează propriul produs sau conținut. Categoria include secțiuni despre donații sau informații despre cei cu care au colaborat."
+        "message": "Categorie asemănătoare cu cea de „Sponsor“, însă scenele nu sunt plătite sau creatorul își promovează propriul produs sau conținut. Categoria include secțiuni despre produse, donații sau informații despre cei cu care au colaborat."
     },
     "category_selfpromo_guideline1": {
         "message": "Donații, abonamente și mărfuri personalizate"
