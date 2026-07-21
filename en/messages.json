@@ -1998,61 +1998,101 @@
     "closeSkipProfileMenu": {
         "message": "Close skip profile menu"
     },
-    "slopCategoryAllHuman": {
+    "slop_category_human": {
         "message": "All human"
     },
-    "slopCategoryTextToSpeech": {
-        "message": "Text to speech"
+    "slop_category_tts_mostly_tts": {
+        "message": "Mostly text to speech"
     },
-    "slopCategoryAIScript": {
+    "slop_category_tts_mostly_human": {
+        "message": "Some text to speech"
+    },
+    "slop_category_tts_ai": {
+        "message": "AI speech"
+    },
+    "slop_category_ai_script": {
         "message": "AI script"
     },
-    "slopCategoryAIText": {
+    "slop_category_ai_text": {
         "message": "AI text"
     },
-    "slopCategoryAIMusic": {
+    "slop_category_ai_music": {
         "message": "AI music"
     },
-    "slopCategoryAIGraphics": {
-        "message": "AI graphics"
+    "slop_category_ai_thumbnail": {
+        "message": "AI thumbnail"
     },
-    "slopCategoryClipMashupReupload": {
-        "message": "Clip mashup or reupload"
+    "slop_category_ai_graphics_most": {
+        "message": "Mostly AI graphics"
     },
-    "slopCategoryRepostOfAnotherWebsite": {
-        "message": "Repost of another website"
+    "slop_category_ai_graphics_limited": {
+        "message": "Some AI graphics"
     },
-    "slopCategorySkitFictionParody": {
-        "message": "Skit, fiction, or parody"
+    "slop_category_ai_graphics_commentary": {
+        "message": "AI graphics for commentary"
     },
-    "slopCategoryFictionParody": {
-        "message": "Fiction or parody"
+    "slop_category_scam": {
+        "message": "Scam"
     },
-    "slopCategoryAboutAI": {
+    "slop_category_ai_topic_examples": {
+        "message": "Topic discusses AI with examples"
+    },
+    "slop_category_ai_topic_no_examples": {
         "message": "Topic discusses AI"
     },
-    "slopCategoryFunny": {
+    "slop_categoryRepostOfAnotherWebsite": {
+        "message": "Repost of another website"
+    },
+    "slop_category_fiction": {
+        "message": "Skit, fiction, or parody"
+    },
+    "slop_category_fiction_novideo": {
+        "message": "Fiction or parody"
+    },
+    "slop_category_funny": {
         "message": "Funny"
     },
-    "slopCategoryEntertaining": {
+    "slop_category_entertaining": {
         "message": "Entertaining"
     },
-    "slopCategoryCreative": {
+    "slop_category_creative": {
         "message": "Creative"
     },
-    "slopCategoryInformative": {
+    "slop_category_informative": {
         "message": "Informative"
     },
-    "slopCategoryBoring": {
+    "slop_category_boring": {
         "message": "Boring"
     },
-    "slopCategoryLowQuality": {
+    "slop_category_low_quality": {
         "message": "Low quality"
     },
-    "slopCategoryMisleading": {
+    "slop_category_misleading": {
         "message": "Misleading"
     },
     "slopCommentBox": {
         "message": "Comment (optional)"
+    },
+    "slopAction": {
+        "message": "Action",
+        "description": "Name above option to set the action to do when a certain category of label is on a video/post"
+    },
+    "slopDoNothingGroup": {
+        "message": "Do nothing"
+    },
+    "slopAIGroup": {
+        "message": "AI"
+    },
+    "slopBadGroup": {
+        "message": "Bad"
+    },
+    "slopScamGroup": {
+        "message": "Scam"
+    },
+    "slopNothingAction": {
+        "message": "Nothing"
+    },
+    "slopColorOverlayAction": {
+        "message": "Color overlay"
     }
 }
