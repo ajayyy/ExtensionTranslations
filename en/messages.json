@@ -2100,5 +2100,9 @@
     },
     "slopBarAction": {
         "message": "Color bar"
+    },
+    "noMoreSlopFullName": {
+        "message": "NoMoreSlop - Block AI and More",
+        "description": "Name of the anti-AI extension"
     }
 }
