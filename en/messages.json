@@ -2083,6 +2083,9 @@
     "slopAIGroup": {
         "message": "AI"
     },
+    "slopGoodGroup": {
+        "message": "Good"
+    },
     "slopBadGroup": {
         "message": "Bad"
     },
@@ -2094,5 +2097,8 @@
     },
     "slopColorOverlayAction": {
         "message": "Color overlay"
+    },
+    "slopBarAction": {
+        "message": "Color bar"
     }
 }
