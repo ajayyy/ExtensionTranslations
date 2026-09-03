@@ -1303,6 +1303,18 @@
         "message": "{seconds}s",
         "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
     },
+    "NoticeTimeAfterSkipMinutes": {
+        "message": "{minutes}m",
+        "description": "This is used on the popup to show how much time left. It will look like \"5m\". The word {minutes} will be replaced, so keep it here. Translations should only change the \"m\""
+    },
+    "NoticeTimeAfterSkipHours": {
+        "message": "{hours}h",
+        "description": "This is used on the popup to show how much time left. It will look like \"5h\". The word {hours} will be replaced, so keep it here. Translations should only change the \"h\""
+    },
+    "NoticeTimeAfterSkipDays": {
+        "message": "{days}d",
+        "description": "This is used on the popup to show how much time left. It will look like \"5d\". The word {days} will be replaced, so keep it here. Translations should only change the \"d\""
+    },
     "deArrowFullName": {
         "message": "DeArrow - Better Titles and Thumbnails on YouTube",
         "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
