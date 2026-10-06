@@ -1838,7 +1838,7 @@
         "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" and \"webextensions.storage.sync.kinto\" to true."
     },
     "storageFull": {
-        "message": "Extension storage is full. Please delete some unsubmitted segments in the options."
+        "message": "Extension storage appears to be unusable. Please make sure you've got sufficient space available on your main system disk, export your settings in extension options (if possible) and reinstall the extension. Contact us on discord if this issue persists."
     },
     "previewSegmentRequired": {
         "message": "Please preview your segments before submitting. You can do this by clicking the preview button or using the following shortcut:",
