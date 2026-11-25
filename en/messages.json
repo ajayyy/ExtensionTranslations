@@ -430,6 +430,9 @@
     "showTimeWithSkipsDescription": {
         "message": "This time appears in brackets next to the current time on below the Seek Bar. This shows the total video duration minus any segments. This includes segments marked as only \"Show In Seek Bar\"."
     },
+    "showCurrentTimeWithSkips": {
+        "message": "Also show the current time with skips removed"
+    },
     "youHaveSkipped": {
         "message": "You've skipped "
     },
